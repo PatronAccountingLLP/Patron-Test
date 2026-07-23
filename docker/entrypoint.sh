@@ -40,7 +40,10 @@ chmod -R 775 storage bootstrap/cache || true
 php artisan config:clear || true
 php artisan migrate --force || true
 php artisan config:cache || true
-php artisan route:cache  || php artisan route:clear || true
+# Route caching is intentionally skipped: the app has pre-existing duplicate
+# route names (e.g. br.loan) that make route:cache fail. Uncached routes work
+# fine; ensure no stale cache is left behind.
+php artisan route:clear || true
 php artisan view:cache   || true
 
 echo "entrypoint: starting Apache on port ${PORT}"

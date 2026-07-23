@@ -30,6 +30,13 @@ RUN composer install --no-dev --no-scripts --no-autoloader --prefer-dist --no-in
 
 # --- Application source -----------------------------------------------------
 COPY . .
+
+# These dirs are gitignored (empty), so they aren't in the repo — recreate them
+# before autoload/artisan run, or package:discover aborts.
+RUN mkdir -p bootstrap/cache \
+        storage/framework/sessions storage/framework/views \
+        storage/framework/cache/data storage/logs
+
 RUN composer dump-autoload --optimize --no-dev --no-interaction
 
 # Keep a seed copy of the content DB outside any mount path, so a fresh

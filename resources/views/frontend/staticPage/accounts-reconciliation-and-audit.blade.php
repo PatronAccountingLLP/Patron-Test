@@ -1,43 +1,3 @@
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          2
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          2
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          2
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          2
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
 @extends('layouts.service-app')
 
 <!-- External Dependencies (loaded by master layout in production) -->
@@ -50,216 +10,133 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-<title>Accounts Reconciliation &amp; Audit Across India | CA-Led Help</title>
-<meta name="description" content="Expert accounts reconciliation services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free.">
-<link rel="canonical" href="/accounts-reconciliation-and-audit">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta property="og:title" content="Accounts Reconciliation &amp; Audit Across India | CA-Led Help">
-<meta property="og:description" content="Expert accounts reconciliation services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free.">
-<meta property="og:url" content="/accounts-reconciliation-and-audit">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:image" content="/images/master/accounts-reconciliation-and-audit-master.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Accounts Reconciliation &amp; Audit Across India | CA-Led Help">
-<meta name="twitter:description" content="Expert accounts reconciliation services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free.">
-<meta name="twitter:image" content="/images/master/accounts-reconciliation-and-audit-master.webp">
+    <title>Accounts Reconciliation and Audit 2026 | Patron Accounting</title>
+    <meta name="description" content="Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.">
+    <link rel="canonical" href="/accounts-reconciliation-and-audit">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Accounts Reconciliation and Audit 2026 | Patron Accounting">
+    <meta property="og:description" content="Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.">
+    <meta property="og:url" content="/accounts-reconciliation-and-audit">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="/images/accounts-reconciliation-and-audit-og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Accounts Reconciliation and Audit 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.">
+    <meta name="twitter:image" content="/images/accounts-reconciliation-and-audit-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounting & Bookkeeping Services",
-          "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Reconciliation & Audit",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "/accounts-reconciliation-and-audit/#service",
+        "name": "Accounts Reconciliation and Audit Support in India",
+        "description": "Patron Accounting provides accounts reconciliation and audit support for Indian businesses, covering bank, vendor, customer, GST, and TDS reconciliation, exception resolution, and audit-ready working papers aligned with GST and audit requirements.",
+        "provider": { "@id": "/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "/accounts-reconciliation-and-audit" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Reconciliation (accounting)", "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Accounts Reconciliation and Audit Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Accounts Reconciliation and Audit Support", "priceCurrency": "INR", "price": "9999", "description": "Bank, GST, TDS, vendor, customer, and ledger reconciliation with audit-ready working papers. Starting from INR 9,999 (Exl GST and Govt. Charges)." }
+            ]
         }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit#service",
-      "serviceType": "Accounts Reconciliation & Audit",
-      "name": "Accounts Reconciliation & Audit",
-      "description": "Expert accounts reconciliation services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "provider": {
-        "@type": "AccountingService",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/"
-      },
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit#faq",
-      "datePublished": "2026-07-10T10:00:00+05:30",
-      "dateModified": "2026-07-10T10:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is vendor reconciliation and why is it done before an audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vendor reconciliation matches your purchase ledger and payments against each supplier's statement of account to confirm balances agree. It is done before audit to clear disputed invoices, unrecorded credit notes and duplicate payments. Our team resolves these differences so your creditors ledger ties out cleanly and auditors accept your payables balances without queries."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is customer or accounts receivable reconciliation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Customer reconciliation matches your sales ledger and receipts against what each customer's records and confirmations show, exposing short payments, unapplied receipts and missing credit notes. It protects cash flow and supports accurate debtor balances. We reconcile receivables ageing to the ledger so collections, write-offs and provisions in your books are correct before finalisation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is general ledger reconciliation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "General ledger reconciliation verifies that each control and sub-ledger account balance is supported by underlying schedules and documentation. It covers loans, fixed assets, provisions, GST and TDS ledgers. We reconcile every material GL account to its schedule so the trial balance is audit-ready and no unexplained differences remain in your books."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is inter-company reconciliation and when do businesses need it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Inter-company reconciliation matches balances and transactions between group companies so amounts one entity records as receivable equal what the other records as payable. Indian groups need it before consolidation and statutory audit to eliminate mismatches. Our team reconciles inter-company loans, expense cross-charges and sales so consolidated financials under Ind AS balance correctly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is GST reconciliation between GSTR-2B and purchase books done?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GST reconciliation matches input tax credit in your purchase books against GSTR-2B auto-populated from supplier filings, so you claim only eligible credit. Mismatches flag missing invoices or vendors who have not filed. We reconcile this monthly and follow up with vendors, protecting your input credit and avoiding notices during GST audit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What skills and tools are needed for accurate account reconciliation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reconciliation needs strong ledger knowledge, attention to detail, and command of Tally, Zoho Books or ERP data plus Excel for large volumes. Knowledge of GST, TDS and Indian accounting treatment is essential to explain differences correctly. Patron Accounting deploys a trained, CA-supervised team so reconciliations are accurate and audit-defensible."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What causes mismatches between vendor statements and your books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common causes are timing differences, unrecorded invoices or credit notes, duplicate entries, wrong GST or TDS treatment, and payments posted to the wrong vendor. Identifying and clearing each item is the core of reconciliation. We document every difference and pass correcting entries so your payables and receivables agree with third-party records."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does account reconciliation prepare a company for statutory audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reconciliation clears differences in vendor, customer, ledger, GST and TDS balances before the auditor arrives, so the trial balance is clean and supported by schedules. This reduces audit queries, adjustments and delays. Our pre-audit reconciliation gives your Chartered Accountant a ready set of tied-out balances, speeding up finalisation and sign-off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should account reconciliations be performed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most reconciliations should be done monthly, alongside GST return filing, with vendor and customer confirmations obtained at least quarterly and before year-end audit. Monthly discipline prevents errors from piling up. We run a fixed monthly reconciliation cycle so issues are caught early rather than during a stressful year-end close."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What do vendor and ledger reconciliation services start at in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting's reconciliation services start at INR 9999, excluding GST and government charges. The fee depends on the number of vendors and customers, transaction volume, number of ledgers, and how far behind the books are. Backlog or pre-audit clean-up assignments are quoted after we review the current state of your accounts."
-          }
-        }
-      ]
     }
-  ]
-}
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "/accounts-reconciliation-and-audit/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
+            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "/accounting-services" },
+            { "@type": "ListItem", "position": 3, "name": "Accounts Reconciliation and Audit", "item": "/accounts-reconciliation-and-audit" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "/accounts-reconciliation-and-audit/#faq",
+        "datePublished": "2026-06-05T08:00:00+05:30",
+        "dateModified": "2026-06-05T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is account reconciliation?", "acceptedAnswer": { "@type": "Answer", "text": "Account reconciliation is the process of comparing internal accounting records against an independent external source, such as a bank statement, GSTR-2B, or Form 26AS, identifying differences, and correcting them so the balances agree. It confirms that your books reflect reality and prepares them for accurate reporting and audit." } },
+        { "@type": "Question", "name": "What happens if GSTR-2B and GSTR-3B do not match?", "acceptedAnswer": { "@type": "Answer", "text": "A mismatch usually means input tax credit claimed in GSTR-3B is not reflected in GSTR-2B, often because a supplier filed late or with a wrong GSTIN. Under Section 16(2)(c) of the CGST Act, such credit can be blocked, and claiming it anyway can attract 18% per annum interest and a notice." } },
+        { "@type": "Question", "name": "What is GSTR-9C?", "acceptedAnswer": { "@type": "Answer", "text": "GSTR-9C is the annual reconciliation statement filed alongside GSTR-9 by every registered person with aggregate turnover above Rs 5 crore. It forces a three-way comparison of input tax credit per audited books, per GSTR-2B, and per GSTR-3B, and unresolved differences can lead to interest and penalties." } },
+        { "@type": "Question", "name": "Why should I reconcile before an audit?", "acceptedAnswer": { "@type": "Answer", "text": "Reconciliation removes the errors and mismatches that otherwise surface as audit findings. Clean bank, GST, and TDS reconciliations confirm balances, protect input tax credit, and produce the working papers an auditor needs, making statutory, internal, and GST audits faster and far less stressful." } },
+        { "@type": "Question", "name": "How much does accounts reconciliation and audit support cost?", "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting engagements start from INR 9,999 (Exl GST and Govt. Charges). Final fees depend on the number of accounts, transaction volume, the reconciliation period, and the depth of audit support required. Call +91 945 945 6700 for a free, no-obligation quote." } },
+        { "@type": "Question", "name": "How often should a business reconcile its accounts?", "acceptedAnswer": { "@type": "Answer", "text": "Bank and GST reconciliations are best done monthly, since GSTR-2B is generated on the 14th and GSTR-3B is due on the 20th, leaving a short window. Vendor, customer, and ledger reconciliations should be done at least monthly, with a full year-end reconciliation before finalising accounts." } },
+        { "@type": "Question", "name": "What are the main types of reconciliation?", "acceptedAnswer": { "@type": "Answer", "text": "The main types are bank reconciliation, vendor or accounts payable reconciliation, customer or accounts receivable reconciliation, general ledger and balance sheet reconciliation, GST reconciliation against GSTR-2B and GSTR-3B, and TDS reconciliation against Form 26AS and AIS. Each matches an internal record to a specific external source." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "/accounts-reconciliation-and-audit",
+        "name": "Accounts Reconciliation and Audit Support in India",
+        "description": "Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.",
+        "url": "/accounts-reconciliation-and-audit",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "/" },
+        "about": { "@id": "/accounts-reconciliation-and-audit/#service" },
+        "datePublished": "2026-06-05T08:00:00+05:30",
+        "dateModified": "2026-06-05T08:00:00+05:30",
+        "author": { "@id": "/#team" },
+        "breadcrumb": { "@id": "/accounts-reconciliation-and-audit/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How the Accounts Reconciliation and Audit Process Works",
+        "description": "A six-step reconciliation and audit-support process: gather source documents, match records, identify exceptions, resolve and correct, verify balances, and prepare audit-ready working papers.",
+        "totalTime": "P21D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Gather sources", "text": "Collect bank statements, books, GSTR-2B, GSTR-3B, and Form 26AS for the period." },
+        { "@type": "HowToStep", "position": 2, "name": "Match records", "text": "Compare each internal record against its external source using consistent matching logic." },
+        { "@type": "HowToStep", "position": 3, "name": "Identify exceptions", "text": "Flag timing differences, missing invoices, and wrong GSTIN or section codes." },
+        { "@type": "HowToStep", "position": 4, "name": "Resolve and correct", "text": "Follow up with vendors, post adjustments, and reverse ineligible credit where required." },
+        { "@type": "HowToStep", "position": 5, "name": "Verify balances", "text": "Confirm the general ledger and control accounts agree before finalising." },
+        { "@type": "HowToStep", "position": 6, "name": "Prepare for audit", "text": "Compile reconciliation statements and working papers for the auditor." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Accounts Reconciliation and Audit Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Reconciliation", "description": "Matching an internal record against an external source to confirm balances agree." },
+        { "@type": "DefinedTerm", "name": "GSTR-2B", "description": "The static monthly statement of eligible input tax credit auto-generated from suppliers filings." },
+        { "@type": "DefinedTerm", "name": "Form 26AS and AIS", "description": "TRACES statements showing TDS credited and reported income against your PAN." },
+        { "@type": "DefinedTerm", "name": "GSTR-9C", "description": "The annual reconciliation statement mandatory for aggregate turnover above Rs 5 crore." }
+        ]
+    }
     </script>
 @endsection
 
 @section('content')
-<style>
-.pa-page{max-width:1080px;margin:0 auto;padding:0 20px;color:var(--text-primary);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.7}
-.pa-page .hero{background:var(--blue-lighter);border-radius:var(--radius-xl);padding:56px 40px;margin:24px 0}
-.pa-page .eyebrow{display:inline-block;color:var(--orange);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
-.pa-page h1{font-size:38px;line-height:1.18;color:var(--blue);margin:0 0 14px}
-.pa-page .hero-sub{font-size:19px;color:var(--text-secondary);max-width:720px}
-.pa-page .hero-cta{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
-.pa-page .btn{display:inline-block;padding:14px 26px;border-radius:var(--radius-md);font-weight:700;text-decoration:none;transition:.2s}
-.pa-page .btn-primary{background:var(--orange);color:#fff;box-shadow:var(--shadow-md)}
-.pa-page .btn-primary:hover{background:var(--orange-dark)}
-.pa-page .btn-ghost{background:#fff;color:var(--blue);border:2px solid var(--gray-200)}
-.pa-page .toc{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:14px 0;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);margin-bottom:8px}
-.pa-page .toc-pill{font-size:13px;font-weight:600;color:var(--blue);background:var(--gray-100);padding:8px 14px;border-radius:999px;text-decoration:none}
-.pa-page .toc-pill:hover{background:var(--orange-light);color:var(--orange-dark)}
-.pa-page .sec{padding:34px 0;border-top:1px solid var(--gray-100)}
-.pa-page h2{font-size:27px;color:var(--blue);margin:0 0 16px}
-.pa-page h3{font-size:18px;color:var(--blue);margin:0 0 6px}
-.pa-page .tldr{background:var(--orange-lighter);border-left:4px solid var(--orange);padding:16px 18px;border-radius:var(--radius-sm);margin-bottom:16px}
-.pa-page .two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-.pa-page .highlight-box{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:16px 18px;margin-top:14px}
-.pa-page .column-image{display:flex;justify-content:center}
-.pa-page .illustration-frame{max-width:360px;text-align:center}
-.pa-page .illustration-badge{margin-top:10px;background:var(--blue);color:#fff;border-radius:var(--radius-md);padding:10px 16px;display:inline-flex;flex-direction:column}
-.pa-page .illustration-badge strong{color:var(--orange-light)}
-.pa-page ul.ticks{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.pa-page ul.ticks li{position:relative;padding-left:30px}
-.pa-page ul.ticks li:before{content:"\2713";position:absolute;left:0;top:0;color:#fff;background:var(--orange);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px}
-.pa-page .table-wrap{overflow-x:auto}
-.pa-page table{width:100%;border-collapse:collapse;font-size:15px}
-.pa-page th,.pa-page td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--gray-200);vertical-align:top}
-.pa-page thead th{background:var(--blue);color:#fff}
-.pa-page .steps{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.pa-page .step-card{display:flex;gap:14px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow-sm)}
-.pa-page .step-num{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800}
-.pa-page .fee-box{display:flex;flex-direction:column;background:var(--blue);color:#fff;border-radius:var(--radius-lg);padding:24px 28px;max-width:340px}
-.pa-page .fee-label{font-size:13px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}
-.pa-page .fee-amount{font-size:34px;font-weight:800;color:var(--orange-light)}
-.pa-page .fee-note{font-size:13px;opacity:.85}
-.pa-page .disclaimer{font-size:13px;color:var(--text-muted);margin-top:10px}
-.pa-page .benefits{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-.pa-page .benefit{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px}
-.pa-page .faq-item{border:1px solid var(--gray-200);border-radius:var(--radius-md);margin-bottom:10px;overflow:hidden}
-.pa-page .faq-q{width:100%;text-align:left;background:#fff;border:0;padding:16px 18px;font-size:16px;font-weight:600;color:var(--blue);display:flex;justify-content:space-between;cursor:pointer}
-.pa-page .faq-a{max-height:0;overflow:hidden;transition:max-height .3s;padding:0 18px}
-.pa-page .faq-item.open .faq-a{max-height:600px;padding:0 18px 16px}
-.pa-page .faq-ico{color:var(--orange);font-weight:800}
-.pa-page .final-cta{text-align:center;background:var(--orange-lighter);border-radius:var(--radius-xl);padding:44px 24px;margin:28px 0}
-.pa-page .page-meta{font-size:13px;color:var(--text-muted);padding:20px 0}
-@media(max-width:820px){.pa-page .two-col{grid-template-columns:1fr}.pa-page .steps{grid-template-columns:1fr}.pa-page .benefits{grid-template-columns:1fr}.pa-page ul.ticks{grid-template-columns:1fr}.pa-page h1{font-size:30px}}
-</style>
 <style>
         /* ============================================
            CSS VARIABLES
@@ -511,7 +388,7 @@
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); transition: all 0.2s ease;
         }
-        .form-input::-ms-input-ph { color: var(--gray-400); }
+        .form-input::placeholder { color: var(--gray-400); }
         .form-input:hover { background: var(--gray-100); }
         .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
@@ -565,7 +442,7 @@
             font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
             background: var(--gray-50); outline: none;
         }
-        .country-search-input::-ms-input-ph { color: var(--gray-400); }
+        .country-search-input::placeholder { color: var(--gray-400); }
         .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
         .country-options::-webkit-scrollbar { width: 5px; }
         .country-options::-webkit-scrollbar-track { background: transparent; }
@@ -707,7 +584,7 @@
         .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
         .highlight-box p:last-child { margin-bottom: 0; }
 
-        .illustration-inputhint {
+        .illustration-placeholder {
             width: 100%; max-width: 420px; aspect-ratio: 4/3;
             background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
             border-radius: var(--radius-xl); display: flex; flex-direction: column;
@@ -890,13 +767,16 @@
         }
 
         /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
+        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
         .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
         .testimonial-slider .slick-dots { bottom: -40px; }
         .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
         .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
         .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
         .testimonial-slider .slick-track { display: flex !important; }
+        .testimonial-slider .slick-slide > div { height: 100%; }
+        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
+        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
         .testimonial-slider.slick-initialized { margin-bottom: 0; }
 
         /* Video Testimonial Card */
@@ -1140,7 +1020,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: #25D366;
+            background: #0F6E56;
             z-index: 9999;
             padding: 10px 20px;
             display: flex;
@@ -1172,12 +1052,12 @@
         .wa-sticky-bar-text strong { font-weight: 700; }
         .wa-sticky-bar-btn {
             display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
+            padding: 8px 22px; background: #fff; color: #0F6E56;
             font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
             border: none; border-radius: 50px; cursor: pointer;
             text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
         }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
         .wa-sticky-bar-close {
             background: none; border: none; cursor: pointer;
             color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
@@ -1195,84 +1075,1442 @@
         @media (max-width: 480px) {
             .wa-sticky-bar-text { display: none; }
             .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
+            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
             .wa-sticky-bar-btn span { display: none; }
         }
 </style>
-<div class="pa-page">
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">India-Wide · By Patron Accounting</span>
-    <h1>Reliable Accounts Reconciliation &amp; Audit Without the Backlog</h1>
-    <p class="hero-sub">Reliable accounts reconciliation services delivered and reviewed by Patron's qualified CA &amp; CS team, for businesses anywhere in India.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a>
-      <a class="btn btn-ghost" href="#fees">See Pricing</a>
+<main>
+
+
+
+<!-- HERO SECTION -->
+<section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="pe-lg-5">
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Trusted by 10,000+ Businesses
+                    </div>
+
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
+                        Accounts Reconciliation and Audit
+                    </h1>
+
+                    <div class="expert-attribution-box">
+                        <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                        <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
+                        <span class="eab-meta">
+                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>15+ Years Experience</span><span class="eab-sep">|</span>
+                            <span>Last Updated: <span id="lastUpdated"></span></span>
+                        </span>
+                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Inputs:</span> Bank statements, books, GSTR-2B, Form 26AS, and ledgers.</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Transparent engagements starting from INR 9,999, scoped to volume.</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> Any business with bank, vendor, customer, GST, or TDS mismatches.</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> A focused reconciliation cycle is typically completed in 1 to 3 weeks.</p>
+                        </div>
+                    </div>
+
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | 15+ Years Experience</p>
+
+                    <div class="hero-cta">
+                        <a href="tel:+919459456700" class="btn-video text-decoration-none">
+                            <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
+                            Call +91 945 945 6700
+                        </a>
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts Reconciliation and Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts Reconciliation and Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            Email Us
+                        </a>
+                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20help%20with%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+                            WhatsApp Us
+                        </a>
+                    </div>
+
+                    <div class="trust-section">
+                        <div class="trust-row">
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                            </div>
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                            </div>
+                        </div>
+                        <div class="google-rating">
+                            <div class="rating-content">
+                                <div class="rating-stars">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <span class="rating-score">4.9</span>
+                                </div>
+                                <span class="rating-count">Based on 500+ reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Accounts Reconciliation and Audit'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value="accounts-reconciliation-and-audit" selected>Accounts Reconciliation and Audit</option>
+                                <option value="accounting-services">Accounting Services</option>
+                                <option value="internal-audit">Internal Audit Service</option>
+                                <option value="gst-audit">GST Audit Service</option>
+                                <option value="statutory-audit">Statutory Audit Service</option>
+                                <option value="tax-audit">Tax Audit Service</option>
+                                <option value="stock-audit">Stock Audit</option>
+                                <option value="gst-returns">GST Returns</option>
+                                <option value="other">Other</option>
+
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                    </form>
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-<nav class="toc" aria-label="On this page"><a class="toc-pill" href="#overview">Overview</a><a class="toc-pill" href="#what-is">What It Covers</a><a class="toc-pill" href="#who-needs">Who Needs It</a><a class="toc-pill" href="#services">Our Scope</a><a class="toc-pill" href="#process">Process</a><a class="toc-pill" href="#documents">Documents</a><a class="toc-pill" href="#errors">Avoid Errors</a><a class="toc-pill" href="#fees">Pricing</a><a class="toc-pill" href="#timeline">Timeline</a><a class="toc-pill" href="#why-us">Why Patron</a><a class="toc-pill" href="#faqs">FAQs</a></nav>
-<section id="overview" class="sec">
-  <h2>Understanding Accounts Reconciliation &amp; Audit</h2>
-  <div class="tldr"><strong>In short:</strong> Third-party balance confirmations, vendor/customer statement recon, pre-audit cleanup. Lane: accounts/vendor/ledger terms (bank/CC page owns bank terms; GST-recon left to GST family).</div>
-  <p>With Accounts Reconciliation &amp; Audit, the numbers stop being a guess. Patron handles capture, reconciliation and review across Accounts Reconciliation &amp; Audit, then delivers clean monthly reporting to businesses anywhere in India.</p>
-  <p>Because the work is done and reviewed by a qualified CA and CS team, you get more than tidy books — you get records that hold up to audits, lenders and investors, and a partner who flags issues early.</p>
-</section>
-<section id="what-is" class="sec two-col">
-  <div class="column-content">
-    <h2>Inside Our Accounts Reconciliation &amp; Audit</h2>
-    <p>Behind Accounts Reconciliation &amp; Audit is a repeatable system: structured recording, period-end reconciliation and a professional review, so nothing drifts between months.</p>
-    <div class="highlight-box">
-      <strong>Key areas we handle for Accounts Reconciliation &amp; Audit:</strong>
-      <p>accounts reconciliation services, reconciliation services, customer reconciliation, vendor reconciliation services, ledger reconciliation services.</p>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Real Stories from Real People</h2>
+            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
+        </div>
+        <div class="testi-loading" id="testiLoading" style="display:none !important;">
+            <div class="spinner"></div>
+            Fetching latest Google reviews&hellip;
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
+        <!-- POPULATE: Replace with real testimonial-card divs. Cards are locked to a fixed 370px height by CSS for a uniform row.
+             TEXT CARD (single-row style): quote mark on top; review text (`flex:1`, top-aligned); single author row {avatar + name + "Google Review" + 5 orange stars stacked, with "X months ago" pushed to the far right via margin-left:auto}.
+             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
+                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
+                     <div>
+                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
+                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
+                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                     </div>
+                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
+                 </div>
+             </div>
+             Avatar bg cycles across cards: var(--orange), var(--blue), #7C3AED (purple), #0D9488 (teal).
+             VIDEO CARD (optional; only if real video testimonials exist) - video fills top 298px with poster + centred play button + stars overlay; circular author photo below:
+             <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
+                 <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
+                     <video preload="metadata" poster="POSTER_URL" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="VIDEO_URL" type="video/mp4"></video>
+                     <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
+                     <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                 </div>
+                 <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                     <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="POSTER_URL" alt="Name" style="width:100%;height:100%;object-fit:cover;"></div>
+                     <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Name</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role - Company</div></div>
+                 </div>
+             </div>
+             ORDER (when video testimonials are used): 1st video, 2nd a text review, 3rd second video, then remaining text reviews. Content from real-testimonials.json.
+        -->
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PR</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Preeti Singh Rathor</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
     </div>
-  </div>
-  <div class="column-image">
-  <div class="illustration-frame">
-    <img src="/images/master/accounts-reconciliation-and-audit-master.webp" alt="Illustration of Patron's CA team delivering accounts reconciliation &amp; audit for businesses across India" width="480" height="480" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px">
-    <div class="illustration-badge"><span>Accounts Reconciliation &amp; Audit</span><strong>India-wide</strong></div>
-  </div>
-</div>
+        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
+            <div class="reviews-cta-content">
+                <div class="reviews-cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                </div>
+                <div class="reviews-cta-text">
+                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
+                    <p>Real reviews from businesses we support across India.</p>
+                </div>
+            </div>
+            <a href="tel:+919459456700" class="btn-cta">
+                Talk to an Expert
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
 </section>
-<section id="who-needs" class="sec"><h2>Is Accounts Reconciliation &amp; Audit Right for You?</h2><ul class="ticks"><li>Businesses that want accounts reconciliation services handled by professionals</li><li>Owners tired of firefighting their Accounts Reconciliation &amp; Audit finances</li><li>Teams preparing for audit, funding or a lender review</li><li>Companies that need dependable monthly financials and MIS</li></ul></section>
-<section id="services" class="sec"><h2>Our Accounts Reconciliation &amp; Audit Deliverables</h2>
-  <div class="table-wrap"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Accounts Reconciliation Services</td><td>Fully managed accounts reconciliation services delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr><tr><td>Reconciliation Services</td><td>End-to-end reconciliation services run to a fixed monthly cadence with a clear audit trail.</td></tr><tr><td>Customer Reconciliation</td><td>End-to-end customer reconciliation delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr><tr><td>Vendor Reconciliation Services</td><td>Accurate, reviewed vendor reconciliation services managed remotely for businesses across India, with a named point of contact.</td></tr><tr><td>Ledger Reconciliation Services</td><td>Expert-led ledger reconciliation services run to a fixed monthly cadence with a clear audit trail.</td></tr></tbody></table></div></section>
-<section id="process" class="sec"><h2>The Accounts Reconciliation &amp; Audit Process We Follow</h2><div class="steps"><div class="step-card"><div class="step-visual"><span class="step-num">1</span></div>
-        <div class="step-content"><h3>Kick-off and scoping</h3><p>A short onboarding call helps us understand your business, volumes and current books for accounts reconciliation services.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">2</span></div>
-        <div class="step-content"><h3>Data collection</h3><p>Bank statements, invoices and registers are gathered through a secure channel.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">3</span></div>
-        <div class="step-content"><h3>Recording</h3><p>We capture your Accounts Reconciliation &amp; Audit activity precisely, so the books reflect reality.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">4</span></div>
-        <div class="step-content"><h3>Reconciliation</h3><p>We match ledgers to statements each cycle so balances always tie out.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">5</span></div>
-        <div class="step-content"><h3>Review</h3><p>A qualified accountant reviews the books for accuracy and compliance.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">6</span></div>
-        <div class="step-content"><h3>Reporting</h3><p>We turn the books into readable financials and MIS for decisions.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">7</span></div>
-        <div class="step-content"><h3>Compliance support</h3><p>Due dates are tracked and your filings are supported so nothing slips.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">8</span></div>
-        <div class="step-content"><h3>Ongoing review</h3><p>As you scale, we tighten controls and stay responsive to your team.</p></div></div></div></section>
-<section id="documents" class="sec"><h2>Documents Required for Accounts Reconciliation &amp; Audit</h2><div class="table-wrap"><table><thead><tr><th>Document</th><th>Why It's Needed</th></tr></thead><tbody><tr><td>Bank and credit-card statements</td><td>Covering every account used by the business.</td></tr><tr><td>Sales and purchase invoices</td><td>With GST details, so tax is captured correctly.</td></tr><tr><td>GST and tax details</td><td>So compliance for Accounts Reconciliation &amp; Audit stays in step.</td></tr><tr><td>Existing books or trial balance</td><td>Whatever you have today, in any format.</td></tr></tbody></table></div></section>
-<section id="errors" class="sec"><h2>Common Accounts Reconciliation &amp; Audit Errors to Watch</h2><div class="table-wrap"><table><thead><tr><th>Mistake</th><th>What Goes Wrong</th></tr></thead><tbody><tr><td>Inconsistent chart of accounts</td><td>A messy structure that makes Accounts Reconciliation &amp; Audit hard to read.</td></tr><tr><td>Late or missing entries</td><td>Gaps that leave accounts reconciliation services inaccurate when you need it most.</td></tr><tr><td>Mixed personal and business spends</td><td>Blurred lines between personal and Accounts Reconciliation &amp; Audit spending.</td></tr><tr><td>Unreconciled bank balance</td><td>A gap between books and bank that hides real problems.</td></tr><tr><td>No periodic review</td><td>Books left unchecked until year-end, when errors are costly to fix.</td></tr></tbody></table></div></section>
-<section id="fees" class="sec"><h2>Accounts Reconciliation &amp; Audit Fees</h2>
-  <div class="fee-box"><span class="fee-label">Starting from</span><span class="fee-amount">INR 9999</span>
-  <span class="fee-note">Exl. GST and Govt. Charges</span></div>
-  <p>Final pricing depends on transaction volume, number of entities and the software you use. Share your details on WhatsApp for a clear, itemised quote.</p>
-  <p class="disclaimer">Fees shown are indicative starting points and may vary with scope; taxes and government charges are additional.</p></section>
-<section id="timeline" class="sec"><h2>Timelines for Accounts Reconciliation &amp; Audit</h2><p>We move quickly once documents arrive: initial setup in a few working days, then a predictable monthly rhythm for accounts reconciliation services, with timelines agreed before any larger clean-up begins.</p></section>
-<section id="why-us" class="sec"><h2>Why Patron for accounts reconciliation services</h2><div class="benefits"><div class="benefit"><h3>Clear, usable reporting</h3><p>Reporting turns accounts reconciliation services into insight, not just entries.</p></div><div class="benefit"><h3>Scales with you</h3><p>The setup grows as your volumes and entities grow.</p></div><div class="benefit"><h3>Compliance-aware</h3><p>Your records are kept in step with GST, TDS and statutory requirements.</p></div><div class="benefit"><h3>Transparent pricing</h3><p>Clear scope and pricing, with no surprise line items.</p></div><div class="benefit"><h3>Qualified CA and CS oversight</h3><p>Every set of books is reviewed by qualified professionals, not just data-entry staff.</p></div><div class="benefit"><h3>Responsive support</h3><p>Real people who respond, not a ticket queue.</p></div></div></section>
-<section id="faqs" class="sec"><h2>Accounts Reconciliation &amp; Audit FAQs</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" type="button">What is vendor reconciliation and why is it done before an audit?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Vendor reconciliation matches your purchase ledger and payments against each supplier&#x27;s statement of account to confirm balances agree. It is done before audit to clear disputed invoices, unrecorded credit notes and duplicate payments. Our team resolves these differences so your creditors ledger ties out cleanly and auditors accept your payables balances without queries.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What is customer or accounts receivable reconciliation?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Customer reconciliation matches your sales ledger and receipts against what each customer&#x27;s records and confirmations show, exposing short payments, unapplied receipts and missing credit notes. It protects cash flow and supports accurate debtor balances. We reconcile receivables ageing to the ledger so collections, write-offs and provisions in your books are correct before finalisation.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What is general ledger reconciliation?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>General ledger reconciliation verifies that each control and sub-ledger account balance is supported by underlying schedules and documentation. It covers loans, fixed assets, provisions, GST and TDS ledgers. We reconcile every material GL account to its schedule so the trial balance is audit-ready and no unexplained differences remain in your books.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What is inter-company reconciliation and when do businesses need it?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Inter-company reconciliation matches balances and transactions between group companies so amounts one entity records as receivable equal what the other records as payable. Indian groups need it before consolidation and statutory audit to eliminate mismatches. Our team reconciles inter-company loans, expense cross-charges and sales so consolidated financials under Ind AS balance correctly.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How is GST reconciliation between GSTR-2B and purchase books done?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>GST reconciliation matches input tax credit in your purchase books against GSTR-2B auto-populated from supplier filings, so you claim only eligible credit. Mismatches flag missing invoices or vendors who have not filed. We reconcile this monthly and follow up with vendors, protecting your input credit and avoiding notices during GST audit.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What skills and tools are needed for accurate account reconciliation?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Reconciliation needs strong ledger knowledge, attention to detail, and command of Tally, Zoho Books or ERP data plus Excel for large volumes. Knowledge of GST, TDS and Indian accounting treatment is essential to explain differences correctly. Patron Accounting deploys a trained, CA-supervised team so reconciliations are accurate and audit-defensible.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What causes mismatches between vendor statements and your books?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Common causes are timing differences, unrecorded invoices or credit notes, duplicate entries, wrong GST or TDS treatment, and payments posted to the wrong vendor. Identifying and clearing each item is the core of reconciliation. We document every difference and pass correcting entries so your payables and receivables agree with third-party records.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How does account reconciliation prepare a company for statutory audit?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Reconciliation clears differences in vendor, customer, ledger, GST and TDS balances before the auditor arrives, so the trial balance is clean and supported by schedules. This reduces audit queries, adjustments and delays. Our pre-audit reconciliation gives your Chartered Accountant a ready set of tied-out balances, speeding up finalisation and sign-off.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How often should account reconciliations be performed?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Most reconciliations should be done monthly, alongside GST return filing, with vendor and customer confirmations obtained at least quarterly and before year-end audit. Monthly discipline prevents errors from piling up. We run a fixed monthly reconciliation cycle so issues are caught early rather than during a stressful year-end close.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What do vendor and ledger reconciliation services start at in India?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Patron Accounting&#x27;s reconciliation services start at INR 9999, excluding GST and government charges. The fee depends on the number of vendors and customers, transaction volume, number of ledgers, and how far behind the books are. Backlog or pre-audit clean-up assignments are quoted after we review the current state of your accounts.</p></div></div></div></section>
-<section class="final-cta"><h2>Ready to get your books in order?</h2>
-  <p>Talk to Patron's CA &amp; CS team about accounts reconciliation services for your business anywhere in India.</p>
-  <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a></section>
-<div class="page-meta"><span class="byline">By CA &amp; CS Team</span> · <span class="last-updated">Last Updated: 10 July 2026</span></div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+    <div class="stats-container">
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
+            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+        </div>
+        <div class="certifications">
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+        </div>
+    </div>
 </div>
+
+<!-- TOC NAVIGATION -->
+<div class="toc-section">
+    <div class="toc-container">
+        <button class="toc-arrow left" id="tocLeft">&#10094;</button>
+        <div class="toc-wrapper" id="tocWrapper">
+            <!-- TOC_NAVIGATION_ITEMS PATTERN — use class "toc-btn" (NOT "toc-pill"); the CSS (.toc-btn) and scroll-spy JS (querySelectorAll('.toc-btn')) both target this exact class. First item gets "toc-btn active". One button per content section, in document order. Pattern:
+                <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
+                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
+                (repeat for who-section, services-section, procedure-section, documents-section, challenges-section, fees-section, timeline-section, benefits-section, comparison-section, faq-section)
+            -->
+            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
+            <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
+            <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
+            <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
+            <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
+            <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">Checklist</button>
+            <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
+            <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
+            <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Timeline</button>
+            <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
+            <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">DIY vs Patron</button>
+            <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+        </div>
+        <button class="toc-arrow right" id="tocRight">&#10095;</button>
+    </div>
+</div>
+
+<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+<section class="content-section" id="overview-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Accounts Reconciliation and Audit Overview</h2>
+            <div class="content-text">
+                <div class="highlight-box" style="margin-bottom:20px;">
+                    <p><strong>&#128204; TL;DR - Accounts Reconciliation and Audit Services at a Glance</strong></p>
+                    <p>Accounts reconciliation and audit is the process of matching your internal records against external sources such as bank statements, GSTR-2B, and Form 26AS, resolving differences, and verifying the books so they are accurate and audit-ready. Patron Accounting reconciles every account and supports your audit, starting from INR 9,999 (Exl GST and Govt. Charges).</p>
+                </div>
+                <p>Reconciliation is the financial defence mechanism every Indian business needs. Unmatched bank entries hide errors, GSTR-2B gaps block input tax credit, and Form 26AS mismatches distort tax credits. Left unresolved, these surface as audit findings, GST notices, and 18% interest.</p>
+                <p>Patron Accounting, with 15+ years of experience, reconciles each account against its source and prepares clean books for statutory, internal, and GST audits. We match every internal record against its external source, resolve exceptions, and prepare your books for a clean audit.</p><div class="table-responsive-wrapper" style="margin-top:20px;"><table><thead><tr><th>Parameter</th><th>Detail</th></tr></thead><tbody><tr><td>Service</td><td>Accounts reconciliation and audit support</td></tr><tr><td>Applicable To</td><td>Startups, SMEs, and growing companies</td></tr><tr><td>Core Reconciliations</td><td>Bank, AP, AR, GL, GST, TDS, inter-company</td></tr><tr><td>Key GST Anchor</td><td>GSTR-9C mandatory above Rs 5 crore turnover</td></tr><tr><td>ITC Rule</td><td>Section 16(2)(c), CGST Act 2017</td></tr><tr><td>Timeline</td><td>1 to 3 weeks per reconciliation cycle</td></tr><tr><td>Starting Cost</td><td>INR 9,999 (Exl GST and Govt. Charges)</td></tr></tbody></table></div><p style="margin-top:16px;"></p>
+                <p>Content is reviewed quarterly for accuracy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+<section class="content-section" id="what-section">
+    <div class="content-container">
+        <div class="two-column">
+            <div class="column-content">
+                <h2 class="section-title">What Is Accounts Reconciliation and Audit</h2>
+                <div class="content-text what-is-definition">
+                    
+                    <p>Accounts reconciliation is the process of comparing internal accounting records against an independent external source, identifying differences, and correcting them so balances are accurate. Audit support then verifies those reconciled records against evidence for statutory, internal, or GST audit purposes.</p><p>The general ledger is the single source of truth, and sub-ledgers such as accounts payable, accounts receivable, and the GST register feed into it. Reconciliation confirms that the ledger agrees with bank statements, the GST portal, and TRACES before financial statements are finalised.</p>
+
+                </div>
+                <div class="highlight-box" style="margin-top:20px;">
+                    <p><strong>Key Terms for Accounts Reconciliation and Audit:</strong></p>
+                    <p><strong>Reconciliation:</strong> Matching an internal record against an external source to confirm balances agree.</p><p><strong>GSTR-2B:</strong> The static monthly statement of eligible input tax credit auto-generated from suppliers filings.</p><p><strong>Form 26AS and AIS:</strong> TRACES statements showing TDS credited and reported income against your PAN.</p><p><strong>GSTR-9C:</strong> The annual reconciliation statement mandatory for aggregate turnover above Rs 5 crore.</p><div class="table-responsive-wrapper" style="margin-top:16px;"><table><thead><tr><th>Type</th><th>Matches Against</th><th>Why It Matters</th></tr></thead><tbody><tr><td>Bank reconciliation</td><td>Bank statement</td><td>Confirms true cash position</td></tr><tr><td>Vendor (AP)</td><td>Supplier statements</td><td>Avoids overpayment and disputes</td></tr><tr><td>Customer (AR)</td><td>Customer ledgers</td><td>Keeps the ageing report accurate</td></tr><tr><td>GST reconciliation</td><td>GSTR-2B and GSTR-3B</td><td>Protects input tax credit</td></tr><tr><td>TDS reconciliation</td><td>Form 26AS and AIS</td><td>Secures correct tax credit</td></tr></tbody></table></div>
+
+                </div>
+            </div>
+            <div class="column-image">
+                <div class="illustration-placeholder">
+                    <div class="illustration-icon" style="max-width:240px;">
+                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Building / Tribunal -->
+                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
+                            <!-- Roof / Pediment -->
+                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
+                            <!-- Columns -->
+                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <!-- Door -->
+                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
+                            <!-- Scale of Justice icon -->
+                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
+                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
+                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
+                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
+                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
+                            <!-- Green check badge -->
+                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
+                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- APL-05 tag -->
+                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
+                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
+                            <!-- Label -->
+                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Accounts Reconciliation and Audit</text>
+                        </svg>
+                    </div>
+                    <div class="illustration-badge">
+                        <span>Audit-ready in</span>
+                        <strong>1 to 3 weeks</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section" id="who-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Who Needs This Service</h2>
+            <div class="content-text">
+                
+                <p>Reconciliation value rises with transaction volume, vendor count, and compliance exposure.</p><ul><li>Businesses with multiple bank accounts and high transaction volume.</li><li>Companies claiming input tax credit who must protect it under GST.</li><li>Entities above Rs 5 crore turnover preparing GSTR-9 and GSTR-9C.</li><li>Any business approaching a statutory, internal, or GST audit.</li></ul>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5: OUR SERVICES -->
+<section class="content-section" id="services-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Our Reconciliation and Audit Services</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <tbody>
+                        <tr><td>Bank reconciliation</td><td>Cash and bank ledgers matched to statements with exceptions cleared.</td></tr><tr><td>GST reconciliation</td><td>Purchase register matched to GSTR-2B and GSTR-3B to protect input tax credit.</td></tr><tr><td>TDS reconciliation</td><td>Books matched to Form 26AS and AIS so tax credits are correct.</td></tr><tr><td>Vendor and customer reconciliation</td><td>Supplier and customer balances confirmed and disputes resolved.</td></tr><tr><td>Ledger and balance sheet reconciliation</td><td>Control accounts verified before finalisation.</td></tr><tr><td>Audit support</td><td>Reconciled records and working papers prepared for a smooth audit.</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 7: 7-STEP PROCESS -->
+<section class="steps-section" id="procedure-section">
+    <div class="section-container">
+        <header class="section-header" style="text-align:center;margin-bottom:48px;">
+            <span class="section-eyebrow">Our Process</span>
+            <h2 class="section-title">The 6-Step Reconciliation and Audit Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">A structured, CA-led cycle that turns scattered records into reconciled, audit-ready books, from gathering source documents to preparing working papers for your auditor.</p>
+        </header>
+        <div class="steps-container">
+            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Gather Sources</h3><p class="step-description">Collect bank statements, books, GSTR-2B, GSTR-3B, and Form 26AS for the period.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Period scoped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Sources collected</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="84" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="34" y1="28" x2="86" y2="28" stroke="#E8712C" stroke-width="3" stroke-linecap="round"/><line x1="34" y1="44" x2="78" y2="44" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="34" y1="58" x2="82" y2="58" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="34" y1="72" x2="66" y2="72" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/></svg></div><span class="illustration-label">Documents Ready</span><span class="step-number-large">01</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Match Records</h3><p class="step-description">Compare each internal record against its external source using consistent matching logic.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Invoice-level matching</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Consistent logic</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="14" y="22" width="40" height="56" rx="5" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="66" y="22" width="40" height="56" rx="5" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><path d="M54 50h12" stroke="#14365F" stroke-width="2"/><path d="M60 44l6 6-6 6" stroke="#14365F" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="64" r="9" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M30 64l3 3 5-6" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Records Matched</span><span class="step-number-large">02</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Identify Exceptions</h3><p class="step-description">Flag timing differences, missing invoices, and wrong GSTIN or section codes.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Exceptions flagged</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Root cause noted</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="52" cy="48" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="71" y1="67" x2="92" y2="88" stroke="#14365F" stroke-width="3" stroke-linecap="round"/><path d="M52 38v14" stroke="#E8712C" stroke-width="3" stroke-linecap="round"/><circle cx="52" cy="60" r="2.4" fill="#E8712C"/></svg></div><span class="illustration-label">Gaps Found</span><span class="step-number-large">03</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Resolve and Correct</h3><p class="step-description">Follow up with vendors, post adjustments, and reverse ineligible credit where required.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Vendor follow-up</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Adjustments posted</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 28l14 14-22 22-14-14a3 3 0 010-4l18-18a3 3 0 014 0z" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><circle cx="82" cy="34" r="14" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M76 34l4 4 8-9" stroke="#10B981" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Differences Cleared</span><span class="step-number-large">04</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Verify Balances</h3><p class="step-description">Confirm the general ledger and control accounts agree before finalising.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GL agreed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Controls verified</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 12l34 12v18c0 22-16 34-34 40-18-6-34-18-34-40V24z" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M48 50l8 8 18-20" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Balances Verified</span><span class="step-number-large">05</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Prepare for Audit</h3><p class="step-description">Compile reconciliation statements and working papers for the auditor.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Working papers ready</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit-ready</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="14" width="72" height="72" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="38" y1="34" x2="82" y2="34" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="38" y1="48" x2="82" y2="48" stroke="#14365F" stroke-width="2" opacity="0.3"/><circle cx="84" cy="74" r="16" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><path d="M78 74l4 4 8-9" stroke="#E8712C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Audit Prepared</span><span class="step-number-large">06</span></div></div></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 8: DOCUMENTS REQUIRED -->
+<section class="content-section" id="documents-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Information Checklist</h2>
+            <div class="content-text">
+                
+                <ul><li>Bank statements for all accounts for the period.</li><li>Trial balance and general ledger.</li><li>Purchase and sales registers.</li><li>GSTR-2B, GSTR-3B, and GSTR-1 summaries.</li><li>Form 26AS and AIS from TRACES.</li><li>Vendor and customer statements where available.</li></ul><h3 style="margin-top:28px;">What You Receive</h3><p>Each engagement delivers clear, audit-ready outputs.</p><ul><li>Reconciliation statements for every account covered.</li><li>An exception list with resolution status and supporting notes.</li><li>A GST input tax credit reconciliation summary.</li><li>A TDS and Form 26AS matching summary.</li><li>Working papers ready for your auditor.</li></ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 9: CHALLENGES -->
+<section class="content-section" id="challenges-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Common Challenges and How We Solve Them</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <tbody>
+                        <tr><td>GSTR-2B shows less ITC than the purchase register</td><td>Blocked or delayed input tax credit</td><td>Invoice-level matching and structured vendor follow-up</td></tr><tr><td>Form 26AS does not match booked TDS</td><td>Wrong or lost tax credit</td><td>Section-wise reconciliation and correction of mismatches</td></tr><tr><td>Unexplained bank differences</td><td>Inaccurate cash position</td><td>Timing items and outstanding entries identified and cleared</td></tr><tr><td>Year-end GSTR-9C three-way gaps</td><td>Interest and penalty exposure</td><td>Books, GSTR-2B, and GSTR-3B reconciled before filing</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 10: FEES -->
+<section class="content-section" id="fees-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Fees</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <tbody>
+                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 9,999 (Exl GST and Govt. Charges)</td></tr><tr><td>Government or statutory fees</td><td>Not applicable - reconciliation and audit support carry no separate government fee</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
+                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
+                <p style="margin-top:16px;"><strong>Get a free Accounts Reconciliation and Audit consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 11: TIMELINE -->
+<section class="content-section" id="timeline-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Time Taken</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <tbody>
+                        <tr><td>Focused single-period reconciliation cycle</td><td>1 to 3 weeks</td></tr><tr><td>Year-end clean-up across multiple accounts</td><td>3 to 6 weeks, depending on volume</td></tr><tr><td>Full GSTR-9C three-way reconciliation</td><td>Scoped to transaction volume and open exceptions</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <div class="highlight-box" style="margin-top:16px;">
+                    
+                    <p>A focused reconciliation cycle is typically completed in 1 to 3 weeks. Year-end clean-ups across multiple accounts and a full GSTR-9C reconciliation take longer, depending on transaction volume and how many exceptions need vendor follow-up.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12: BENEFITS -->
+<section class="why-choose-section" id="benefits-section">
+    <div class="section-container">
+        <div style="text-align:center;margin-bottom:48px;">
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
+            <h2 class="section-title">Benefits of Professional Reconciliation</h2>
+        </div>
+        <div class="features-grid"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div><h3 class="feature-title">Protected Input Tax Credit</h3><p class="feature-text">Matching against GSTR-2B protects eligible input tax credit and reduces GST notices.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/></svg></div><h3 class="feature-title">Reliable Cash Position</h3><p class="feature-text">Clean bank reconciliation gives an accurate cash position and dependable financial statements.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></div><h3 class="feature-title">Correct Tax Credits</h3><p class="feature-text">Form 26AS and AIS matching secures the right TDS credit against your PAN.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3 class="feature-title">Faster, Smoother Audits</h3><p class="feature-text">Reconciled books and ready working papers make statutory, internal, and GST audits faster.</p></article></div>
+    </div>
+</section>
+
+<!-- SECTION 12A: SOCIAL PROOF -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Why Businesses Trust Patron Accounting</h2>
+            <div class="content-text">
+                
+                <div class="highlight-box" style="margin-bottom:20px;"><p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years Experience</strong></p></div><p>In one engagement our team recovered input tax credit that had been wrongly treated as blocked, after invoice-level reconciliation against GSTR-2B confirmed the credits were eligible once suppliers amended their filings.</p><p>Trusted by businesses including Hyundai, Asian Paints, and Bridgestone. With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India, both in-person and remotely.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+<section class="content-section" id="comparison-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">DIY vs Professional Reconciliation</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Factor</th><th>DIY Reconciliation</th><th>Patron Accounting</th></tr></thead>
+                    <tbody>
+                        <tr><td>Matching logic</td><td>Spreadsheet, error-prone</td><td>Structured invoice-level matching</td></tr><tr><td>GST ITC protection</td><td>Often missed</td><td>Reconciled against GSTR-2B</td></tr><tr><td>TDS credits</td><td>Frequently mismatched</td><td>Matched to Form 26AS and AIS</td></tr><tr><td>Exception resolution</td><td>Unowned backlog</td><td>Tracked and cleared with follow-up</td></tr><tr><td>Audit readiness</td><td>Weak</td><td>Working papers prepared</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 14: RELATED SERVICES -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Related Services</h2>
+            <div class="content-text">
+                
+                <p>Pair reconciliation with the right ongoing support:</p><ul><li><a href="/accounting-services">Accounting Services</a> for managed books that stay reconciled month on month.</li><li><a href="/internal-audit">Internal Audit</a> to test controls once accounts are reconciled.</li><li><a href="/gst-audit">GST Audit</a> for GST assurance built on clean reconciliations.</li><li><a href="/statutory-audit">Statutory Audit</a> where reconciled books make the audit faster.</li><li><a href="/gst-returns">GST Returns</a> filed on reconciled GSTR-2B and GSTR-3B data.</li><li><a href="/tax-audit">Tax Audit</a> supported by verified books and working papers.</li></ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 15A: LEGAL FRAMEWORK -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Legal and Compliance Framework</h2>
+            <div class="content-text">
+                
+                <p>Under <strong>Section 16(2)(c) of the CGST Act, 2017</strong>, input tax credit is allowed only when the supplier has filed and the invoice appears in your GSTR-2B. Claiming credit that is not reflected can attract <strong>18% per annum interest</strong> and penalty under Section 122, making GST reconciliation a financial safeguard, not just a formality.</p><p>For aggregate turnover above Rs 5 crore, the annual reconciliation statement <strong>GSTR-9C</strong> requires a three-way match of input tax credit per audited books, per GSTR-2B, and per GSTR-3B. Returns are filed through the <a href="https://www.gst.gov.in" target="_blank" rel="noopener">Goods and Services Tax portal</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+    <div class="content-container">
+        <div class="text-content">
+            <div class="faq-expanded">
+                <aside class="faq-expanded__aside">
+                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
+                    <p class="faq-expanded__lead">Common questions about accounts reconciliation, GST and TDS matching, and audit readiness.</p>
+                    @include('partials.faq-enquiry-form')
+                </aside>
+                <div class="faq-expanded__list">
+                    <div class="faq-expanded__item" id="faq-1">
+                        <h3 class="faq-expanded__q">What is account reconciliation?</h3>
+                        <div class="faq-expanded__a"><p>Account reconciliation is the process of comparing internal accounting records against an independent external source, such as a bank statement, GSTR-2B, or Form 26AS, identifying differences, and correcting them so the balances agree. It confirms that your books reflect reality and prepares them for accurate reporting and audit.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-2">
+                        <h3 class="faq-expanded__q">What are the main types of reconciliation?</h3>
+                        <div class="faq-expanded__a"><p>The main types are bank reconciliation, vendor or accounts payable reconciliation, customer or accounts receivable reconciliation, general ledger and balance sheet reconciliation, GST reconciliation against GSTR-2B and GSTR-3B, and TDS reconciliation against Form 26AS and AIS. Each matches an internal record to a specific external source.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-3">
+                        <h3 class="faq-expanded__q">Why should I reconcile before an audit?</h3>
+                        <div class="faq-expanded__a"><p>Reconciliation removes the errors and mismatches that otherwise surface as audit findings. Clean bank, GST, and TDS reconciliations confirm balances, protect input tax credit, and produce the working papers an auditor needs, making statutory, internal, and GST audits faster and far less stressful.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-4">
+                        <h3 class="faq-expanded__q">What happens if GSTR-2B and GSTR-3B do not match?</h3>
+                        <div class="faq-expanded__a"><p>A mismatch usually means input tax credit claimed in GSTR-3B is not reflected in GSTR-2B, often because a supplier filed late or with a wrong GSTIN. Under Section 16(2)(c) of the CGST Act, such credit can be blocked, and claiming it anyway can attract 18% per annum interest and a notice.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-5">
+                        <h3 class="faq-expanded__q">How much does accounts reconciliation and audit support cost?</h3>
+                        <div class="faq-expanded__a"><p>Patron Accounting engagements start from INR 9,999 (Exl GST and Govt. Charges). Final fees depend on the number of accounts, transaction volume, the reconciliation period, and the depth of audit support required. Call +91 945 945 6700 for a free, no-obligation quote.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-6">
+                        <h3 class="faq-expanded__q">How often should a business reconcile its accounts?</h3>
+                        <div class="faq-expanded__a"><p>Bank and GST reconciliations are best done monthly, since GSTR-2B is generated on the 14th and GSTR-3B is due on the 20th, leaving a short window. Vendor, customer, and ledger reconciliations should be done at least monthly, with a full year-end reconciliation before finalising accounts.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-7">
+                        <h3 class="faq-expanded__q">What is GSTR-9C?</h3>
+                        <div class="faq-expanded__a"><p>GSTR-9C is the annual reconciliation statement filed alongside GSTR-9 by every registered person with aggregate turnover above Rs 5 crore. It forces a three-way comparison of input tax credit per audited books, per GSTR-2B, and per GSTR-3B, and unresolved differences can lead to interest and penalties.</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Quick Answers -->
+            <div class="highlight-box" style="margin-top:32px;">
+                <p><strong>Quick Answers</strong></p>
+                <p><strong>Is bank reconciliation enough on its own?</strong> No, GST and TDS reconciliations are also needed for compliance.</p><p><strong>Does reconciliation protect input tax credit?</strong> Yes, matching against GSTR-2B safeguards eligible credit.</p><p><strong>When is GSTR-9C required?</strong> For aggregate turnover above Rs 5 crore.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 18: URGENCY CTA -->
+<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Reconcile Before Mismatches Become Notices</h2>
+            <div class="content-text">
+                
+                <p>Every month that bank, GST, and TDS mismatches go unresolved increases the risk of blocked input tax credit, 18% interest, and audit findings. A focused reconciliation cycle takes just 1 to 3 weeks and leaves your books clean and audit-ready.</p><p><strong>Talk to a reconciliation expert - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank">WhatsApp us</a> for a free, no-obligation consultation.</strong></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONCLUSION + CTA BLOCK (Dark) -->
+<section class="content-section" style="background: var(--blue) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounts Reconciliation and Audit Today</h2>
+            <div class="content-text" style="text-align:left;">
+                
+                <p style="color:#FFFFFF;">Accounts reconciliation and audit support turns scattered, mismatched records into clean, verified financials that protect input tax credit, secure tax credits, and stand up to scrutiny. Done correctly, reconciliation is a financial defence mechanism that prevents notices and accelerates every audit.</p><p style="color:#FFFFFF;">Patron Accounting brings 15+ years of experience and CA-led rigour to every reconciliation and audit engagement. Starting from INR 9,999 (Exl GST and Govt. Charges).</p>
+
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts Reconciliation and Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts Reconciliation and Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+            </div>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Related Reconciliation and Audit Services</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">End-to-end accounting, audit, and compliance support that builds on clean reconciliations.</p>
+       
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Accounts Reconciliation and Audit</div><div class="pa-cross-grid"><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/internal-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Internal Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/statutory-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Statutory Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTENT FRESHNESS FOOTER -->
+<section class="content-section" style="padding:32px;">
+    <div class="content-container">
+        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
+            <p><strong>Content Created:</strong> 5 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter"></span> &nbsp;|&nbsp; <strong>Next Review:</strong> 5 December 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
+            <p>This page is reviewed every 6 months and whenever GST law, ITC rules, the GSTR-9C threshold, or pricing change (Freshness Tier 2).</p>
+        </div>
+    </div>
+</section>
+
+
+
+</main>
+
+
+<!-- Google Maps Places Library (for GMB reviews) -->
+
+
+<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
 <script>
-document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var a=this.parentElement;a.classList.toggle('open');});});
-document.querySelectorAll('.toc-pill,a[href^="#"]').forEach(function(l){l.addEventListener('click',function(e){var id=this.getAttribute('href');if(id&&id.length>1){var t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
+(function() {
+    // ============================================
+    // CONFIGURATION — Update these values
+    // ============================================
+    const CONFIG = {
+        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        // Fallback static reviews (shown if API fails or key not set)
+        fallbackReviews: [
+            {
+                author_name: "Subhendu Mishra",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Rajib Dutta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Nishikant Gurav",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Nikhil Nimbhorkar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
+                relative_time_description: "4 months ago"
+            },
+            {
+                author_name: "Sameer Mehta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Preeti Singh Rathor",
+                profile_photo_url: "",
+                rating: 5,
+                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Anita Gaur",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
+                relative_time_description: "5 months ago"
+            },
+            {
+                author_name: "Pankaj Arvikar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Sunny Ashpal",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
+                relative_time_description: "6 months ago",
+                role: "Director - Demandify Media",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+            },
+            {
+                author_name: "Anjanay Srivastava",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
+                relative_time_description: "4 months ago",
+                role: "Founder - Hunarsource Consulting",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+            }
+        ]
+    };
+
+    // ============================================
+    // HELPER: Generate star SVGs
+    // ============================================
+    function starsHTML(rating) {
+        let s = '';
+        for (let i = 0; i < 5; i++) {
+            s += i < rating
+                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
+                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+        }
+        return s;
+    }
+
+    // ============================================
+    // HELPER: Avatar color based on name
+    // ============================================
+    const avatarColors = ['', 'blue', 'teal', 'purple'];
+    function avatarClass(index) {
+        return avatarColors[index % avatarColors.length];
+    }
+
+    // ============================================
+    // RENDER: Build card HTML for a review
+    // ============================================
+    function buildVideoCard(review) {
+        return `
+        <div>
+            <div class="testi-video-card">
+                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
+                    <video preload="metadata" poster="${review.photoUrl || ''}">
+                        <source src="${review.videoUrl}" type="video/mp4">
+                    </video>
+                    <div class="testi-play-overlay">
+                        <div class="testi-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
+                </div>
+                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                    <div class="testi-avatar">
+                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
+                    </div>
+                    <div>
+                        <div class="testi-name">${review.author_name}</div>
+                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function buildQuoteCard(review, index) {
+        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
+        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
+        const colorClass = avatarClass(index);
+
+        return `
+        <div>
+            <div class="testi-quote-card">
+                <div class="testi-quote-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testi-quote-text">${review.text || ''}</p>
+                <div class="testi-footer">
+                    <div class="testi-author">
+                        <div class="testi-avatar ${colorClass}">
+                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
+                        </div>
+                        <div>
+                            <div class="testi-name">${review.author_name}</div>
+                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
+                        </div>
+                    </div>
+                    <div class="testi-rating-row">
+                        <div class="testi-stars">${starsHTML(review.rating)}</div>
+                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    // ============================================
+    // RENDER: Populate slider with reviews
+    // ============================================
+        function renderReviews(reviews) {
+const slider = document.getElementById('testimonialSlider');
+const loading = document.getElementById('testiLoading');
+
+let html = '';
+
+reviews.forEach(function(review, i) {
+    if (review.hasVideo && review.videoUrl) {
+        html += buildVideoCard(review);
+    } else {
+        html += buildQuoteCard(review, i);
+    }
+});
+
+// If slider already initialized destroy first
+if ($(slider).hasClass('slick-initialized')) {
+    $(slider).slick('unslick');
+}
+
+slider.innerHTML = html;
+slider.style.display = 'block';
+if (loading) loading.style.display = 'none';
+
+// Re-initialize slick
+initSlick(slider);
+
+
+}
+
+    function initSlick(slider) {
+        if ($(slider).hasClass('slick-initialized')) return;
+        $(slider).slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows: false,
+            cssEase: 'ease-in-out',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            swipe: true,
+            touchMove: true,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 900, settings: { slidesToShow: 2 } },
+                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
+            ]
+        });
+    }
+
+    // ============================================
+    // FETCH: Google Places API Reviews
+    // ============================================
+    function fetchGMBReviews() {
+        // If API key not set, use fallback
+        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
+            renderReviews(CONFIG.fallbackReviews);
+            return;
+        }
+
+        // Google Places API requires server-side proxy due to CORS
+        // Option 1: Use Google Maps JS API (requires loading Maps library)
+        // Option 2: Use a server-side proxy endpoint
+        // Below is the Google Maps JS API approach:
+
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
+        script.async = true;
+        script.defer = true;
+        script.onerror = function() {
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
+            renderReviews(CONFIG.fallbackReviews);
+        };
+        document.head.appendChild(script);
+    }
+
+    // Global callback for Google Maps JS API
+    window.initGMBReviews = function() {
+        try {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            service.getDetails({
+                placeId: CONFIG.placeId,
+                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
+            }, function(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
+                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
+
+                    // Merge: video testimonials first, then GMB reviews
+                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
+                    const gmbReviews = place.reviews.map(function(r) {
+                        return {
+                            author_name: r.author_name,
+                            profile_photo_url: r.profile_photo_url,
+                            rating: r.rating,
+                            text: r.text,
+                            relative_time_description: r.relative_time_description
+                        };
+                    });
+
+                    renderReviews([...videoTestimonials, ...gmbReviews]);
+                } else {
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
+                    renderReviews(CONFIG.fallbackReviews);
+                }
+            });
+        } catch (e) {
+            console.log('[Testimonials] Error:', e);
+            renderReviews(CONFIG.fallbackReviews);
+        }
+    };
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
+        const slider = document.getElementById('testimonialSlider');
+        if (slider && slider.children.length > 0) {
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                initSlick(slider);
+            } else {
+                window.addEventListener('load', function() {
+                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
+                });
+            }
+            return; // static cards are authoritative - stop here
+        }
+        fetchGMBReviews();
+    });
+})();
+
+// Video play/pause toggle for testimonial cards
+function toggleTestiVideo(area) {
+    const video = area.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+        // Pause all other videos first
+        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
+        video.play();
+        area.classList.add('playing');
+    } else {
+        video.pause();
+        area.classList.remove('playing');
+    }
+}
+
 </script>
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+    }
+    return { valid: true };
+}
+
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+// ─────────────────────────────────────────────────────────────
+
+function validateConsultationForm() {
+    var isValid = true;
+
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+     var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler (Bigin iframe load)
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    // Auto-embed page URL in form
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation (from Bigin source code)
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+// Bigin iframe success handler (overrides our custom one above via event delegation)
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
+
+<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+
+<script>
+// TOC scroll arrows
+const tocWrapper = document.getElementById('tocWrapper');
+document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
+document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
+
+// TOC active state on scroll — only tracks sections that have a matching TOC
+// button, keeps the active pill scrolled into view, and stays correct at the
+// very bottom of the page.
+(function () {
+    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
+    var wrapper = document.getElementById('tocWrapper');
+    if (!tocBtns.length) return;
+    var entries = tocBtns.map(function (btn) {
+        var id = (btn.getAttribute('href') || '').replace('#', '');
+        return { btn: btn, section: document.getElementById(id) };
+    }).filter(function (e) { return e.section; });
+    if (!entries.length) return;
+    var OFFSET = 200;
+    var ticking = false;
+    function setActive(entry) {
+        tocBtns.forEach(function (b) { b.classList.remove('active'); });
+        if (!entry) return;
+        entry.btn.classList.add('active');
+        if (wrapper) {
+            var left = entry.btn.offsetLeft;
+            var right = left + entry.btn.offsetWidth;
+            if (left < wrapper.scrollLeft) {
+                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
+            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
+                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
+            }
+        }
+    }
+    function onScroll() {
+        ticking = false;
+        var y = window.pageYOffset + OFFSET;
+        var active = entries[0];
+        for (var i = 0; i < entries.length; i++) {
+            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
+        }
+        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
+            active = entries[entries.length - 1];
+        }
+        setActive(active);
+    }
+    window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
+    }, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+})();
+</script>
+
+<!-- WhatsApp Sticky Bar Script -->
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
+
+<script>
+// BF-1: Last Updated mirrors schema dateModified (stable, not live new Date())
+(function() {
+    var dateStr = '5 June 2026';
+    var el1 = document.getElementById('lastUpdated');
+    var el2 = document.getElementById('lastUpdatedFooter');
+    if (el1) el1.textContent = dateStr;
+    if (el2) el2.textContent = dateStr;
+})();
+</script>
+
+
+<!-- External JS Dependencies (loaded by master layout in production) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

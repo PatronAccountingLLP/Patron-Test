@@ -1,43 +1,3 @@
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  1
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  1
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  1
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  1
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
 @extends('layouts.service-app')
 
 <!-- External Dependencies (loaded by master layout in production) -->
@@ -50,216 +10,165 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-<title>Backlog Bookkeeping &amp; Catch-Up in India | Chartered Support</title>
-<meta name="description" content="Reliable Backlog & Catch-Up bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 9999. Talk to a specialist now.">
-<link rel="canonical" href="/backlog-bookkeeping-catch-up-services">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta property="og:title" content="Backlog Bookkeeping &amp; Catch-Up in India | Chartered Support">
-<meta property="og:description" content="Reliable Backlog & Catch-Up bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 9999. Talk to a specialist now.">
-<meta property="og:url" content="/backlog-bookkeeping-catch-up-services">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:image" content="/images/master/backlog-bookkeeping-catch-up-services-master.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Backlog Bookkeeping &amp; Catch-Up in India | Chartered Support">
-<meta name="twitter:description" content="Reliable Backlog & Catch-Up bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 9999. Talk to a specialist now.">
-<meta name="twitter:image" content="/images/master/backlog-bookkeeping-catch-up-services-master.webp">
+    <title>Backlog Bookkeeping Services 2026 | Patron Accounting</title>
+    <meta name="description" content="Backlog bookkeeping and catch-up services in India to clear behind books. Starting at INR 9,999 per month-of-backlog. Section 62 compliant, audit-ready.">
+    <link rel="canonical" href="/backlog-bookkeeping-catch-up-services">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Backlog Bookkeeping Services 2026 | Patron Accounting">
+    <meta property="og:description" content="Backlog bookkeeping and catch-up services in India to clear behind books. Starting at INR 9,999 per month-of-backlog. Section 62 compliant, audit-ready.">
+    <meta property="og:url" content="/backlog-bookkeeping-catch-up-services">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="/images/backlog-bookkeeping-catch-up-services-og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Backlog Bookkeeping Services 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Backlog bookkeeping and catch-up services in India to clear behind books. Starting at INR 9,999 per month-of-backlog. Section 62 compliant, audit-ready.">
+    <meta name="twitter:image" content="/images/backlog-bookkeeping-catch-up-services-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounting & Bookkeeping Services",
-          "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Backlog Bookkeeping & Catch-Up",
-          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "/backlog-bookkeeping-catch-up-services/#service",
+        "name": "Backlog Bookkeeping and Catch-Up Services in India",
+        "description": "Backlog bookkeeping and catch-up services in India reconstructing and reconciling historical transactions, aligning GST and TDS, cleaning up ledgers, and finalising audit-ready financial statements under Section 62 of the Income Tax Act 2025, from INR 9,999 per month-of-backlog.",
+        "provider": { "@id": "/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "/backlog-bookkeeping-catch-up-services" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Bookkeeping", "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Backlog Bookkeeping Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Backlog bookkeeping catch-up (per month-of-backlog)" }, "priceCurrency": "INR", "price": "9999" }
+            ]
         }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services#service",
-      "serviceType": "Backlog Bookkeeping & Catch-Up",
-      "name": "Backlog Bookkeeping & Catch-Up",
-      "description": "Reliable Backlog & Catch-Up bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 9999. Talk to a specialist now.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "provider": {
-        "@type": "AccountingService",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/"
-      },
-      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services#faq",
-      "datePublished": "2026-07-10T10:00:00+05:30",
-      "dateModified": "2026-07-10T10:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What are the signs my business needs catch-up bookkeeping?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common signs are unreconciled bank accounts, months of unrecorded invoices and bills, mismatched GST returns, and no reliable P&L or balance sheet. If you cannot say what you owe or are owed, you are behind. Patron Accounting's CA-led team assesses how far back the gap runs and clears it in a structured catch-up."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the hardest part of clearing a bookkeeping backlog?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The hardest part is reconstructing transactions when source documents are missing, then reconciling them against bank statements and GST filings from earlier periods. Old TDS and GST mismatches often surface and need correction. Our team works from bank feeds, invoices and statements to rebuild accurate books, and flags any returns that must be revised."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the stages of a catch-up bookkeeping project?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A catch-up typically runs in stages: gathering records, rebuilding transactions period by period, reconciling banks and ledgers, aligning with filed GST and TDS returns, then finalising financial statements. Patron Accounting sequences oldest to newest so each period ties out before moving on, giving you clean, audit-ready books at the end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you decide how many months or years of books to tackle first?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We prioritise the periods with the nearest compliance deadlines or open exposure, usually pending GST returns, TDS, and the current financial year's income-tax filing, then work backward through older gaps. This protects you from immediate penalties first. Our team maps the full backlog upfront so you know the scope and order before work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I just use AI or ChatGPT to do my catch-up bookkeeping myself?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AI tools can help sort data but cannot reliably reconstruct months of books, reconcile banks, or fix GST and TDS mismatches under Indian law. Catch-up work needs judgment on classification, compliance and revised returns. Patron Accounting uses automation for speed but keeps a CA reviewing the output, so your rebuilt books actually stand up to scrutiny."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does a catch-up bookkeeper do that accounting software alone can't?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Software records what you enter, but a catch-up bookkeeper reconstructs missing entries, reconciles them to bank and GST data, corrects misclassifications, and decides the right accounting treatment. It also identifies returns that need revision. Our team pairs Tally or Zoho Books with CA oversight so the backlog is cleared correctly, not just filled in."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should catch-up books be prepared on a cash or accrual basis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For companies and LLPs, catch-up books must be on accrual basis to meet the Companies Act and tax requirements; small proprietorships may use cash basis if that matches their filings. Consistency with your earlier returns matters most. Patron Accounting rebuilds the books on the correct basis so they reconcile with GST, TDS and income-tax records."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which records get rebuilt during a catch-up, such as bank, sales and purchase entries?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A catch-up rebuilds bank and cash books, sales and purchase registers, expense ledgers, and the debtor and creditor accounts, then reconciles them against bank statements and GST returns. TDS and fixed-asset records are updated too. Our team reconstructs each of these so your trial balance and financial statements finally tie out."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a minimum fee to get a bookkeeping backlog cleared?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Catch-up bookkeeping at Patron Accounting starts at INR 9999 for a backlog engagement. Because scope varies with the number of months, transaction volume, and how complete your records are, the final quote is fixed after a short assessment of your books. You get a clear scope and price before any work begins, with no open-ended billing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will catching up on old books help me file overdue GST and income-tax returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Accurate catch-up books are the foundation for filing pending GST returns, TDS returns and overdue income-tax returns correctly. Once transactions are reconstructed and reconciled, the figures flow straight into your returns. Patron Accounting's CA-led team can clear the backlog and then file or revise the affected returns so you get fully compliant again."
-          }
-        }
-      ]
     }
-  ]
-}
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "/backlog-bookkeeping-catch-up-services/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
+            { "@type": "ListItem", "position": 2, "name": "Accounting & Bookkeeping Services", "item": "/accounting-bookkeeping-services" },
+            { "@type": "ListItem", "position": 3, "name": "Backlog Bookkeeping", "item": "/backlog-bookkeeping-catch-up-services" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "/backlog-bookkeeping-catch-up-services/#faq",
+        "datePublished": "2026-06-02T08:00:00+05:30",
+        "dateModified": "2026-06-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How much does catch-up bookkeeping cost in India?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting backlog bookkeeping starts from INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). Typical one-time India cleanup projects range from INR 25,000 to 1,50,000 for three to twelve months of backlog, depending on transaction volume, number of accounts, and data quality. You receive a fixed quote after a free scoping assessment." }
+            },
+            {
+                "@type": "Question",
+                "name": "How far back can you catch up bookkeeping?",
+                "acceptedAnswer": { "@type": "Answer", "text": "There is no legal limit on how far back books can be reconstructed, and businesses regularly clean up several years of records. In practice the right scope is set by your tax filing history and goals. Income tax records should be retained for six years from the end of the relevant assessment year under Rule 46." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does backlog bookkeeping take?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Most backlogs are cleared in about two to four weeks per year of records. A one to three-month backlog can finish in one to two weeks, while a multi-year backlog takes several weeks. The biggest accelerator is sending complete bank statements and source documents upfront." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is backlog cleanup the same as catch-up bookkeeping?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The terms are used interchangeably. Both describe reconciling, categorising, and finalising historical financial data that was neglected. Catch-up emphasises posting missing periods, while cleanup emphasises correcting errors in existing books; most projects involve both." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between monthly and catch-up bookkeeping?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Monthly bookkeeping keeps current books closed each period at a fixed recurring fee. Catch-up bookkeeping is a one-time, intensive project that reconstructs and reconciles past periods. Catch-up includes investigation and exception handling that routine monthly work assumes is already done." }
+            },
+            {
+                "@type": "Question",
+                "name": "What documents do you need for backlog bookkeeping?",
+                "acceptedAnswer": { "@type": "Answer", "text": "At minimum we need bank and credit card statements for the backlog period, plus sales invoices, vendor bills, and accounting software access. We can reconstruct missing entries from statements and prior filings, noting any assumptions where source documents are unavailable." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I do not maintain books of account?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Failure to keep or retain books attracts a Rs 25,000 penalty under Section 441 of the Income Tax Act 2025 (formerly Section 271A). It can also lead to best-judgment assessment and disallowance of expenses, so clearing a backlog promptly protects you from avoidable exposure." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can you take over monthly bookkeeping after the catch-up?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We hand over clean, reconciled opening balances and can continue with ongoing monthly bookkeeping so you never fall behind again. Bundling catch-up with ongoing books also makes the handover smoother and more cost-effective." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "/backlog-bookkeeping-catch-up-services",
+        "name": "Backlog Bookkeeping and Catch-Up Services in India",
+        "description": "Backlog bookkeeping and catch-up services in India to clear behind books. Starting at INR 9,999 per month-of-backlog. Section 62 compliant, audit-ready.",
+        "url": "/backlog-bookkeeping-catch-up-services",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "/" },
+        "about": { "@id": "/backlog-bookkeeping-catch-up-services/#service" },
+        "datePublished": "2026-06-02T08:00:00+05:30",
+        "dateModified": "2026-06-02T08:00:00+05:30",
+        "author": { "@id": "/#team" },
+        "breadcrumb": { "@id": "/backlog-bookkeeping-catch-up-services/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How Patron Accounting Clears Your Bookkeeping Backlog",
+        "description": "The five-step process Patron Accounting follows to clear a bookkeeping backlog, from assessing scope to reviewing and finalising audit-ready books.",
+        "totalTime": "P28D",
+        "step": [
+            { "@type": "HowToStep", "name": "Assess the backlog", "text": "We scope how many months are behind, transaction volume, and number of accounts." },
+            { "@type": "HowToStep", "name": "Collect records", "text": "You share bank statements, card statements, invoices, and software access via a secure portal." },
+            { "@type": "HowToStep", "name": "Reconstruct and post", "text": "We enter transactions oldest to newest in Tally, Zoho, QuickBooks, or Xero." },
+            { "@type": "HowToStep", "name": "Reconcile and correct", "text": "We reconcile every account, align GSTR-2B and TDS, and clear suspense balances." },
+            { "@type": "HowToStep", "name": "Review and finalise", "text": "A qualified reviewer signs off P and L, balance sheet, and tie-outs before handover." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Backlog Bookkeeping Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Catch-up bookkeeping", "description": "Posting a backlog of past transactions to bring books current." },
+            { "@type": "DefinedTerm", "name": "Cleanup bookkeeping", "description": "Correcting misclassifications, duplicates, and unreconciled balances in existing books." },
+            { "@type": "DefinedTerm", "name": "Reconciliation", "description": "Matching ledger entries to bank, credit card, and GSTR-2B records." },
+            { "@type": "DefinedTerm", "name": "Opening balance", "description": "The corrected starting figure carried into the first clean period." }
+        ]
+    }
     </script>
 @endsection
 
 @section('content')
-<style>
-.pa-page{max-width:1080px;margin:0 auto;padding:0 20px;color:var(--text-primary);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.7}
-.pa-page .hero{background:var(--blue-lighter);border-radius:var(--radius-xl);padding:56px 40px;margin:24px 0}
-.pa-page .eyebrow{display:inline-block;color:var(--orange);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
-.pa-page h1{font-size:38px;line-height:1.18;color:var(--blue);margin:0 0 14px}
-.pa-page .hero-sub{font-size:19px;color:var(--text-secondary);max-width:720px}
-.pa-page .hero-cta{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
-.pa-page .btn{display:inline-block;padding:14px 26px;border-radius:var(--radius-md);font-weight:700;text-decoration:none;transition:.2s}
-.pa-page .btn-primary{background:var(--orange);color:#fff;box-shadow:var(--shadow-md)}
-.pa-page .btn-primary:hover{background:var(--orange-dark)}
-.pa-page .btn-ghost{background:#fff;color:var(--blue);border:2px solid var(--gray-200)}
-.pa-page .toc{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:14px 0;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);margin-bottom:8px}
-.pa-page .toc-pill{font-size:13px;font-weight:600;color:var(--blue);background:var(--gray-100);padding:8px 14px;border-radius:999px;text-decoration:none}
-.pa-page .toc-pill:hover{background:var(--orange-light);color:var(--orange-dark)}
-.pa-page .sec{padding:34px 0;border-top:1px solid var(--gray-100)}
-.pa-page h2{font-size:27px;color:var(--blue);margin:0 0 16px}
-.pa-page h3{font-size:18px;color:var(--blue);margin:0 0 6px}
-.pa-page .tldr{background:var(--orange-lighter);border-left:4px solid var(--orange);padding:16px 18px;border-radius:var(--radius-sm);margin-bottom:16px}
-.pa-page .two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-.pa-page .highlight-box{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:16px 18px;margin-top:14px}
-.pa-page .column-image{display:flex;justify-content:center}
-.pa-page .illustration-frame{max-width:360px;text-align:center}
-.pa-page .illustration-badge{margin-top:10px;background:var(--blue);color:#fff;border-radius:var(--radius-md);padding:10px 16px;display:inline-flex;flex-direction:column}
-.pa-page .illustration-badge strong{color:var(--orange-light)}
-.pa-page ul.ticks{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.pa-page ul.ticks li{position:relative;padding-left:30px}
-.pa-page ul.ticks li:before{content:"\2713";position:absolute;left:0;top:0;color:#fff;background:var(--orange);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px}
-.pa-page .table-wrap{overflow-x:auto}
-.pa-page table{width:100%;border-collapse:collapse;font-size:15px}
-.pa-page th,.pa-page td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--gray-200);vertical-align:top}
-.pa-page thead th{background:var(--blue);color:#fff}
-.pa-page .steps{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.pa-page .step-card{display:flex;gap:14px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow-sm)}
-.pa-page .step-num{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800}
-.pa-page .fee-box{display:flex;flex-direction:column;background:var(--blue);color:#fff;border-radius:var(--radius-lg);padding:24px 28px;max-width:340px}
-.pa-page .fee-label{font-size:13px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}
-.pa-page .fee-amount{font-size:34px;font-weight:800;color:var(--orange-light)}
-.pa-page .fee-note{font-size:13px;opacity:.85}
-.pa-page .disclaimer{font-size:13px;color:var(--text-muted);margin-top:10px}
-.pa-page .benefits{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-.pa-page .benefit{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px}
-.pa-page .faq-item{border:1px solid var(--gray-200);border-radius:var(--radius-md);margin-bottom:10px;overflow:hidden}
-.pa-page .faq-q{width:100%;text-align:left;background:#fff;border:0;padding:16px 18px;font-size:16px;font-weight:600;color:var(--blue);display:flex;justify-content:space-between;cursor:pointer}
-.pa-page .faq-a{max-height:0;overflow:hidden;transition:max-height .3s;padding:0 18px}
-.pa-page .faq-item.open .faq-a{max-height:600px;padding:0 18px 16px}
-.pa-page .faq-ico{color:var(--orange);font-weight:800}
-.pa-page .final-cta{text-align:center;background:var(--orange-lighter);border-radius:var(--radius-xl);padding:44px 24px;margin:28px 0}
-.pa-page .page-meta{font-size:13px;color:var(--text-muted);padding:20px 0}
-@media(max-width:820px){.pa-page .two-col{grid-template-columns:1fr}.pa-page .steps{grid-template-columns:1fr}.pa-page .benefits{grid-template-columns:1fr}.pa-page ul.ticks{grid-template-columns:1fr}.pa-page h1{font-size:30px}}
-</style>
 <style>
         /* ============================================
            CSS VARIABLES
@@ -355,7 +264,7 @@
             font-weight: 700; color: var(--text-primary);
             min-width: 160px;
         }
-        /* Amount column — right-align only on tables with .table-amount class */
+        /* Amount column - right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
         /* Section 8 / primary entity highlight column in comparison tables */
         .table-comparison td:nth-child(2),
@@ -376,7 +285,7 @@
         .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
 
         /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
+           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
            ============================================ */
         .expert-attribution-box {
             background: #F9F9F9;
@@ -511,7 +420,7 @@
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); transition: all 0.2s ease;
         }
-        .form-input::-ms-input-ph { color: var(--gray-400); }
+        .form-input::placeholder { color: var(--gray-400); }
         .form-input:hover { background: var(--gray-100); }
         .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
@@ -565,7 +474,7 @@
             font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
             background: var(--gray-50); outline: none;
         }
-        .country-search-input::-ms-input-ph { color: var(--gray-400); }
+        .country-search-input::placeholder { color: var(--gray-400); }
         .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
         .country-options::-webkit-scrollbar { width: 5px; }
         .country-options::-webkit-scrollbar-track { background: transparent; }
@@ -646,7 +555,7 @@
         .cert-item svg { width: 18px; height: 18px; }
 
         /* ============================================
-           TOC NAVIGATION — Plan 2.2
+           TOC NAVIGATION - Plan 2.2
            ============================================ */
         .toc-section {
             background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
@@ -707,7 +616,7 @@
         .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
         .highlight-box p:last-child { margin-bottom: 0; }
 
-        .illustration-inputhint {
+        .illustration-placeholder {
             width: 100%; max-width: 420px; aspect-ratio: 4/3;
             background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
             border-radius: var(--radius-xl); display: flex; flex-direction: column;
@@ -779,7 +688,7 @@
             font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
         }
 
-        /* Process Evidence Screenshot — Plan 3.2 */
+        /* Process Evidence Screenshot - Plan 3.2 */
         .process-screenshot-details { margin-top: 14px; }
         .process-screenshot-details summary {
             font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
@@ -890,13 +799,16 @@
         }
 
         /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
+        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
         .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
         .testimonial-slider .slick-dots { bottom: -40px; }
         .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
         .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
         .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
         .testimonial-slider .slick-track { display: flex !important; }
+        .testimonial-slider .slick-slide > div { height: 100%; }
+        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
+        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
         .testimonial-slider.slick-initialized { margin-bottom: 0; }
 
         /* Video Testimonial Card */
@@ -1140,7 +1052,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: #25D366;
+            background: #0F6E56;
             z-index: 9999;
             padding: 10px 20px;
             display: flex;
@@ -1172,12 +1084,12 @@
         .wa-sticky-bar-text strong { font-weight: 700; }
         .wa-sticky-bar-btn {
             display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
+            padding: 8px 22px; background: #fff; color: #0F6E56;
             font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
             border: none; border-radius: 50px; cursor: pointer;
             text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
         }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
         .wa-sticky-bar-close {
             background: none; border: none; cursor: pointer;
             color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
@@ -1195,84 +1107,1688 @@
         @media (max-width: 480px) {
             .wa-sticky-bar-text { display: none; }
             .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
+            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
             .wa-sticky-bar-btn span { display: none; }
         }
 </style>
-<div class="pa-page">
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">India-Wide · By Patron Accounting</span>
-    <h1>Reliable Backlog Bookkeeping &amp; Catch-Up Without the Backlog</h1>
-    <p class="hero-sub">Reliable catch up bookkeeping services delivered and reviewed by Patron's qualified CA &amp; CS team, for businesses anywhere in India.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a>
-      <a class="btn btn-ghost" href="#fees">See Pricing</a>
+<main>
+
+
+
+<!-- HERO SECTION -->
+<section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="pe-lg-5">
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Trusted by 10,000+ Businesses
+                    </div>
+
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
+                        Backlog Bookkeeping and Catch-Up Services in India
+                    </h1>
+
+                    <div class="expert-attribution-box">
+                        <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                        <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
+                        <span class="eab-meta">
+                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>15+ Years Experience</span><span class="eab-sep">|</span>
+                            <span>Last Updated: <span id="lastUpdated">2 June 2026</span></span>
+                        </span>
+                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Documents:</span> bank statements, credit card statements, vendor bills, sales invoices.</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> starting from INR 9,999 per month-of-backlog (Exl GST and Govt. Charges).</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> any business or professional with 50 to 150-plus transactions per month behind.</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> most 3 to 12-month backlogs cleared in 2 to 4 weeks per year of records.</p>
+                        </div>
+                    </div>
+
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating</p>
+
+                    <div class="hero-cta">
+                        <a href="tel:+919459456700" class="btn-video text-decoration-none">
+                            <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
+                            Call +91 945 945 6700
+                        </a>
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Backlog Bookkeeping%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Backlog Bookkeeping%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            Email Us
+                        </a>
+                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Backlog%20Bookkeeping%20and%20Catch-Up%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+                            WhatsApp Us
+                        </a>
+                    </div>
+
+                    <div class="trust-section">
+                        <div class="trust-row">
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                            </div>
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                            </div>
+                        </div>
+                        <div class="google-rating">
+                            <div class="rating-content">
+                                <div class="rating-stars">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <span class="rating-score">4.9</span>
+                                </div>
+                                <span class="rating-count">Based on 500+ reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Backlog Bookkeeping'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value="backlog-bookkeeping-catch-up-services" selected>Backlog Bookkeeping and Catch-Up</option>
+                                <option value="accounting-services">Accounting Services</option>
+                                <option value="payroll-processing-and-management-services">Payroll Processing and Management</option>
+                                <option value="gst-returns">GST Returns Filing</option>
+                                <option value="tds-return">TDS Return Filing</option>
+                                <option value="income-tax-return">Income Tax Return Filing</option>
+                                <option value="other">Other</option>
+
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                    </form>
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-<nav class="toc" aria-label="On this page"><a class="toc-pill" href="#overview">Overview</a><a class="toc-pill" href="#what-is">What It Covers</a><a class="toc-pill" href="#who-needs">Who Needs It</a><a class="toc-pill" href="#services">Our Scope</a><a class="toc-pill" href="#process">Process</a><a class="toc-pill" href="#documents">Documents</a><a class="toc-pill" href="#errors">Avoid Errors</a><a class="toc-pill" href="#fees">Pricing</a><a class="toc-pill" href="#timeline">Timeline</a><a class="toc-pill" href="#why-us">Why Patron</a><a class="toc-pill" href="#faqs">FAQs</a></nav>
-<section id="overview" class="sec">
-  <h2>Understanding Backlog Bookkeeping &amp; Catch-Up</h2>
-  <div class="tldr"><strong>In short:</strong> Years-of-pending-books rescue: fixed per-year pricing, ITR/GST-notice urgency hook, 2-4-week-per-year timeline promise, audit-ready output.</div>
-  <p>With Backlog Bookkeeping &amp; Catch-Up, the numbers stop being a guess. Patron handles capture, reconciliation and review across Backlog &amp; Catch-Up, then delivers clean monthly reporting to businesses anywhere in India.</p>
-  <p>You get a single, dependable source of truth for Backlog &amp; Catch-Up — reconciled, reviewed and ready whenever a bank, buyer or auditor asks.</p>
-</section>
-<section id="what-is" class="sec two-col">
-  <div class="column-content">
-    <h2>Inside Our Backlog Bookkeeping &amp; Catch-Up</h2>
-    <p>Every engagement follows the same disciplined loop — capture, reconcile, review, report — tuned to how your Backlog &amp; Catch-Up actually runs. We keep the chart of accounts clean, tax heads correct and the trail complete.</p>
-    <div class="highlight-box">
-      <strong>Key areas we handle for Backlog &amp; Catch-Up:</strong>
-      <p>catch up bookkeeping services, backlog accounting services, bookkeeping cleanup services, catch up accounting, backlog bookkeeping.</p>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Real Stories from Real People</h2>
+            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
+        </div>
+        <div class="testi-loading" id="testiLoading" style="display:none !important;">
+            <div class="spinner"></div>
+            Fetching latest Google reviews&hellip;
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
+        
+        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
+            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
+                <video preload="metadata" poster="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4"></video>
+                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
+                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal" style="width:100%;height:100%;object-fit:cover;"></div>
+                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director - Demandify Media</div></div>
+            </div>
+        </div>
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</div>
+            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div>
+                <div>
+                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div>
+                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
+                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
+            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
+                <video preload="metadata" poster="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4"></video>
+                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
+                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava" style="width:100%;height:100%;object-fit:cover;"></div>
+                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Anjanay Srivastava</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Founder - Hunarsource Consulting</div></div>
+            </div>
+        </div>
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div>
+            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div>
+                <div>
+                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div>
+                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
+                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div>
+            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div>
+                <div>
+                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div>
+                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
+                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div>
+            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div>
+                <div>
+                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div>
+                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
+                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div>
+            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div>
+                <div>
+                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div>
+                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
+                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</div>
+            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PR</div>
+                <div>
+                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Preeti Singh Rathor</div>
+                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
+                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="column-image">
-  <div class="illustration-frame">
-    <img src="/images/master/backlog-bookkeeping-catch-up-services-master.webp" alt="Illustration of Patron's CA team delivering backlog bookkeeping &amp; catch-up for businesses across India" width="480" height="480" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px">
-    <div class="illustration-badge"><span>Backlog Bookkeeping &amp; Catch-Up</span><strong>India-wide</strong></div>
-  </div>
-</div>
+        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
+            <div class="reviews-cta-content">
+                <div class="reviews-cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                </div>
+                <div class="reviews-cta-text">
+                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
+                    <p>Talk to our backlog bookkeeping team about reconstructing, reconciling, and finalising your historical books into audit-ready financials.</p>
+                </div>
+            </div>
+            <a href="tel:+919459456700" class="btn-cta">
+                Talk to an Expert
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
 </section>
-<section id="who-needs" class="sec"><h2>Is Backlog Bookkeeping &amp; Catch-Up Right for You?</h2><ul class="ticks"><li>Growing businesses that need accurate, up-to-date books</li><li>Teams preparing for audit, funding or a lender review</li><li>Founders who want to focus on the business, not the ledgers</li><li>Owners tired of firefighting their Backlog &amp; Catch-Up finances</li></ul></section>
-<section id="services" class="sec"><h2>Our Backlog Bookkeeping &amp; Catch-Up Scope</h2>
-  <div class="table-wrap"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Catch Up Bookkeeping Services</td><td>End-to-end catch up bookkeeping services set up correctly and maintained so your records stay decision-ready.</td></tr><tr><td>Backlog Accounting Services</td><td>Accurate, reviewed backlog accounting services delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr><tr><td>Bookkeeping Cleanup Services</td><td>End-to-end bookkeeping cleanup services handled by Patron&#x27;s CA and CS team and kept in step with GST and TDS rules.</td></tr><tr><td>Catch Up Accounting</td><td>End-to-end catch up accounting set up correctly and maintained so your records stay decision-ready.</td></tr><tr><td>Backlog Bookkeeping</td><td>End-to-end backlog bookkeeping handled by Patron&#x27;s CA and CS team and kept in step with GST and TDS rules.</td></tr></tbody></table></div></section>
-<section id="process" class="sec"><h2>How We Deliver Backlog Bookkeeping &amp; Catch-Up</h2><div class="steps"><div class="step-card"><div class="step-visual"><span class="step-num">1</span></div>
-        <div class="step-content"><h3>Kick-off and scoping</h3><p>Scoping sets the plan: volumes, systems and what good looks like for Backlog Bookkeeping &amp; Catch-Up.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">2</span></div>
-        <div class="step-content"><h3>Data collection</h3><p>Your records for catch up bookkeeping services are shared through a secure, organised handoff.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">3</span></div>
-        <div class="step-content"><h3>Recording</h3><p>Every entry is posted to the right ledger with the correct GST/TDS treatment.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">4</span></div>
-        <div class="step-content"><h3>Reconciliation</h3><p>Regular reconciliation keeps catch up bookkeeping services clean and trustworthy.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">5</span></div>
-        <div class="step-content"><h3>Review</h3><p>Professional review is built into every cycle of Backlog Bookkeeping &amp; Catch-Up.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">6</span></div>
-        <div class="step-content"><h3>Reporting</h3><p>Reporting makes catch up bookkeeping services useful — you see the story behind the numbers.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">7</span></div>
-        <div class="step-content"><h3>Compliance support</h3><p>We flag statutory due dates and support your GST and TDS filings.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">8</span></div>
-        <div class="step-content"><h3>Ongoing review</h3><p>We keep improving controls and answer your questions as you grow.</p></div></div></div></section>
-<section id="documents" class="sec"><h2>Documents Required for Backlog Bookkeeping &amp; Catch-Up</h2><div class="table-wrap"><table><thead><tr><th>Document</th><th>Why It's Needed</th></tr></thead><tbody><tr><td>Bank and credit-card statements</td><td>So inflows and outflows can be reconciled fully.</td></tr><tr><td>Sales and purchase invoices</td><td>With GST details, so tax is captured correctly.</td></tr><tr><td>GST and tax details</td><td>GSTINs, past returns and any tax notices.</td></tr><tr><td>Existing books or trial balance</td><td>Whatever you have today, in any format.</td></tr></tbody></table></div></section>
-<section id="errors" class="sec"><h2>Common Backlog &amp; Catch-Up Errors to Watch</h2><div class="table-wrap"><table><thead><tr><th>Mistake</th><th>What Goes Wrong</th></tr></thead><tbody><tr><td>Poor documentation</td><td>A weak trail that cannot support the numbers.</td></tr><tr><td>Inconsistent chart of accounts</td><td>Heads that change month to month, making reports unusable.</td></tr><tr><td>No periodic review</td><td>Books left unchecked until year-end, when errors are costly to fix.</td></tr><tr><td>Unreconciled bank balance</td><td>A gap between books and bank that hides real problems.</td></tr><tr><td>Late or missing entries</td><td>Gaps that leave catch up bookkeeping services inaccurate when you need it most.</td></tr></tbody></table></div></section>
-<section id="fees" class="sec"><h2>What Backlog Bookkeeping &amp; Catch-Up Costs</h2>
-  <div class="fee-box"><span class="fee-label">Starting from</span><span class="fee-amount">INR 9999</span>
-  <span class="fee-note">Exl. GST and Govt. Charges</span></div>
-  <p>Final pricing depends on transaction volume, number of entities and the software you use. Share your details on WhatsApp for a clear, itemised quote.</p>
-  <p class="disclaimer">Fees shown are indicative starting points and may vary with scope; taxes and government charges are additional.</p></section>
-<section id="timeline" class="sec"><h2>Timelines for Backlog Bookkeeping &amp; Catch-Up</h2><p>Onboarding for catch up bookkeeping services usually completes within a few working days of receiving your data. Routine periods are then closed on an agreed monthly cadence, and any catch-up work is scheduled against a plan shared upfront.</p></section>
-<section id="why-us" class="sec"><h2>What Sets Our Backlog Bookkeeping &amp; Catch-Up Apart</h2><div class="benefits"><div class="benefit"><h3>Compliance-aware</h3><p>Your records are kept in step with GST, TDS and statutory requirements.</p></div><div class="benefit"><h3>Clear, usable reporting</h3><p>Reporting turns catch up bookkeeping services into insight, not just entries.</p></div><div class="benefit"><h3>Scales with you</h3><p>catch up bookkeeping services that keeps working as the business expands.</p></div><div class="benefit"><h3>Qualified CA and CS oversight</h3><p>Every set of books is reviewed by qualified professionals, not just data-entry staff.</p></div><div class="benefit"><h3>India-wide, remote-first</h3><p>Location is no barrier — catch up bookkeeping services is delivered remotely and securely.</p></div><div class="benefit"><h3>Transparent pricing</h3><p>You know what you pay for Backlog Bookkeeping &amp; Catch-Up before we start.</p></div></div></section>
-<section id="faqs" class="sec"><h2>Backlog Bookkeeping &amp; Catch-Up: Your Questions Answered</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" type="button">What are the signs my business needs catch-up bookkeeping?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Common signs are unreconciled bank accounts, months of unrecorded invoices and bills, mismatched GST returns, and no reliable P&amp;L or balance sheet. If you cannot say what you owe or are owed, you are behind. Patron Accounting&#x27;s CA-led team assesses how far back the gap runs and clears it in a structured catch-up.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What is the hardest part of clearing a bookkeeping backlog?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>The hardest part is reconstructing transactions when source documents are missing, then reconciling them against bank statements and GST filings from earlier periods. Old TDS and GST mismatches often surface and need correction. Our team works from bank feeds, invoices and statements to rebuild accurate books, and flags any returns that must be revised.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What are the stages of a catch-up bookkeeping project?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>A catch-up typically runs in stages: gathering records, rebuilding transactions period by period, reconciling banks and ledgers, aligning with filed GST and TDS returns, then finalising financial statements. Patron Accounting sequences oldest to newest so each period ties out before moving on, giving you clean, audit-ready books at the end.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How do you decide how many months or years of books to tackle first?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>We prioritise the periods with the nearest compliance deadlines or open exposure, usually pending GST returns, TDS, and the current financial year&#x27;s income-tax filing, then work backward through older gaps. This protects you from immediate penalties first. Our team maps the full backlog upfront so you know the scope and order before work starts.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can I just use AI or ChatGPT to do my catch-up bookkeeping myself?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>AI tools can help sort data but cannot reliably reconstruct months of books, reconcile banks, or fix GST and TDS mismatches under Indian law. Catch-up work needs judgment on classification, compliance and revised returns. Patron Accounting uses automation for speed but keeps a CA reviewing the output, so your rebuilt books actually stand up to scrutiny.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What does a catch-up bookkeeper do that accounting software alone can&#x27;t?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Software records what you enter, but a catch-up bookkeeper reconstructs missing entries, reconciles them to bank and GST data, corrects misclassifications, and decides the right accounting treatment. It also identifies returns that need revision. Our team pairs Tally or Zoho Books with CA oversight so the backlog is cleared correctly, not just filled in.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Should catch-up books be prepared on a cash or accrual basis?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>For companies and LLPs, catch-up books must be on accrual basis to meet the Companies Act and tax requirements; small proprietorships may use cash basis if that matches their filings. Consistency with your earlier returns matters most. Patron Accounting rebuilds the books on the correct basis so they reconcile with GST, TDS and income-tax records.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Which records get rebuilt during a catch-up, such as bank, sales and purchase entries?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>A catch-up rebuilds bank and cash books, sales and purchase registers, expense ledgers, and the debtor and creditor accounts, then reconciles them against bank statements and GST returns. TDS and fixed-asset records are updated too. Our team reconstructs each of these so your trial balance and financial statements finally tie out.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is there a minimum fee to get a bookkeeping backlog cleared?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Catch-up bookkeeping at Patron Accounting starts at INR 9999 for a backlog engagement. Because scope varies with the number of months, transaction volume, and how complete your records are, the final quote is fixed after a short assessment of your books. You get a clear scope and price before any work begins, with no open-ended billing.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Will catching up on old books help me file overdue GST and income-tax returns?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes. Accurate catch-up books are the foundation for filing pending GST returns, TDS returns and overdue income-tax returns correctly. Once transactions are reconstructed and reconciled, the figures flow straight into your returns. Patron Accounting&#x27;s CA-led team can clear the backlog and then file or revise the affected returns so you get fully compliant again.</p></div></div></div></section>
-<section class="final-cta"><h2>Ready to get your books in order?</h2>
-  <p>Talk to Patron's CA &amp; CS team about catch up bookkeeping services for your business anywhere in India.</p>
-  <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a></section>
-<div class="page-meta"><span class="byline">By CA &amp; CS Team</span> · <span class="last-updated">Last Updated: 10 July 2026</span></div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+    <div class="stats-container">
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
+            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+        </div>
+        <div class="certifications">
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+        </div>
+    </div>
 </div>
+
+<!-- TOC NAVIGATION -->
+<div class="toc-section">
+    <div class="toc-container">
+        <button class="toc-arrow left" id="tocLeft">&#10094;</button>
+        <div class="toc-wrapper" id="tocWrapper">
+            
+            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
+                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
+                <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
+                <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
+                <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
+                <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">Documents</button>
+                <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
+                <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
+                <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Timeline</button>
+                <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
+                <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">DIY vs Patron</button>
+                <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+        </div>
+        <button class="toc-arrow right" id="tocRight">&#10095;</button>
+    </div>
+</div>
+
+<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+<section class="content-section" id="overview-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">What This Service Covers: A Quick Overview</h2>
+            <div class="content-text">
+                <div class="highlight-box" style="margin-bottom:20px;">
+                    <p><strong>&#128204; TL;DR - Backlog Bookkeeping Services at a Glance</strong></p>
+                    <p>Backlog bookkeeping (catch-up bookkeeping) clears months or years of unrecorded transactions, reconciles bank and credit card accounts, and finalises historical financials. It is a one-time project for businesses behind on their books, priced from INR 9,999 per month-of-backlog.</p>
+                </div>
+                <div class="table-responsive-wrapper" style="margin-bottom:20px;">
+                <table>
+                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
+                    <tbody>
+                        <tr><td>Governing Act</td><td>Section 62, Income Tax Act 2025 (books of account)</td></tr>
+                        <tr><td>Applicable to</td><td>Businesses and professionals behind on records</td></tr>
+                        <tr><td>Timeline</td><td>2 to 4 weeks per year of backlog</td></tr>
+                        <tr><td>Cost</td><td>From INR 9,999 per month-of-backlog (Exl GST)</td></tr>
+                        <tr><td>Penalty (non-maintenance)</td><td>Rs 25,000 under Section 441, IT Act 2025</td></tr>
+                        <tr><td>Retention / Authority</td><td>6 years; CBDT under Rule 46 Draft Rules 2026</td></tr>
+                    </tbody>
+                </table>
+                </div>
+                <p>Backlog bookkeeping services restore accurate, reconciled books when your accounting has fallen behind. Patron Accounting has supported over 10,000 businesses across India with cleanup, reconstruction, and ongoing compliance.</p>
+                <p>Falling behind is common during fast growth, staff turnover, or a software migration; the fix is a structured, deadline-aware catch-up that makes your business audit-ready and Section 62 compliant.</p>
+                <p>Content is reviewed quarterly for accuracy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+<section class="content-section" id="what-section">
+    <div class="content-container">
+        <div class="two-column">
+            <div class="column-content">
+                <h2 class="section-title">What Is Backlog Bookkeeping?</h2>
+                <div class="content-text what-is-definition">
+                    
+                    <p>Backlog bookkeeping is the process of recording, categorising, and reconciling accumulated past transactions so that neglected financial records are brought current and accurate. It is also called catch-up or cleanup bookkeeping.</p>
+                    <p>Under Section 62 of the Income Tax Act 2025 (which replaces Section 44AA of the 1961 Act), specified businesses and professionals must maintain books of account that let the Assessing Officer compute total income. A backlog means these statutory records are incomplete for one or more past periods, exposing the taxpayer to penalty and best-judgment assessment risk.</p>
+
+                </div>
+                <div class="highlight-box" style="margin-top:20px;">
+                    <p><strong>Key Terms for Backlog Bookkeeping:</strong></p>
+                    <ul>
+                        <li><strong>Catch-up bookkeeping:</strong> posting a backlog of past transactions to bring books current.</li>
+                        <li><strong>Cleanup bookkeeping:</strong> correcting misclassifications, duplicates, and unreconciled balances in existing books.</li>
+                        <li><strong>Reconciliation:</strong> matching ledger entries to bank, credit card, and GSTR-2B records.</li>
+                        <li><strong>Opening balance:</strong> the corrected starting figure carried into the first clean period.</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="column-image">
+                <div class="illustration-placeholder">
+                    <div class="illustration-icon" style="max-width:240px;">
+                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Building / Tribunal -->
+                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
+                            <!-- Roof / Pediment -->
+                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
+                            <!-- Columns -->
+                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <!-- Door -->
+                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
+                            <!-- Scale of Justice icon -->
+                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
+                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
+                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
+                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
+                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
+                            <!-- Green check badge -->
+                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
+                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- APL-05 tag -->
+                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
+                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
+                            <!-- Label -->
+                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Backlog Bookkeeping</text>
+                        </svg>
+                    </div>
+                    <div class="illustration-badge">
+                        <span>From INR 9,999/mo-of-backlog</span>
+                        <strong>Section 62 Compliant</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section" id="who-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Who Needs Backlog Bookkeeping?</h2>
+            <div class="content-text">
+                
+                <p>Any business or professional whose books are behind needs catch-up bookkeeping, especially before a tax filing, audit, loan application, or funding round.</p>
+                <ul>
+                    <li>Businesses with more than 90 days of unrecorded transactions.</li>
+                    <li>Companies and LLPs preparing for statutory audit or due diligence.</li>
+                    <li>Taxpayers under Section 62 who must substantiate income with complete books.</li>
+                    <li>Founders raising funds where investors require historical financials.</li>
+                </ul>
+                <div class="highlight-box" style="margin-top:20px;">
+                    <p><strong>Threshold note:</strong> individuals and HUFs must maintain books once income exceeds Rs 2,50,000 or turnover exceeds Rs 25,00,000; other businesses and specified professionals are covered at lower limits under Section 62.</p>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5: OUR SERVICES -->
+<section class="content-section" id="services-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Our Backlog Bookkeeping Services</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <tbody>
+                        <tr><td>Transaction reconstruction</td><td>Posting missing entries from bank statements and source documents.</td></tr>
+                        <tr><td>Bank and card reconciliation</td><td>Tying every account to statements across all backlog months.</td></tr>
+                        <tr><td>GST and TDS alignment</td><td>Matching purchases to GSTR-2B and verifying TDS entries.</td></tr>
+                        <tr><td>Ledger cleanup</td><td>Removing duplicates, fixing misclassifications, clearing suspense balances.</td></tr>
+                        <tr><td>Financial statement preparation</td><td>P and L, balance sheet, and cash flow for each restored period.</td></tr>
+                        <tr><td>Handover to ongoing books</td><td>Clean opening balances for a steady monthly close.</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 7: 7-STEP PROCESS -->
+<section class="steps-section" id="procedure-section">
+    <div class="section-container">
+        <header class="section-header" style="text-align:center;margin-bottom:48px;">
+            <span class="section-eyebrow">Our Process</span>
+            <h2 class="section-title">The 5-Step Catch-Up Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">A clear, repeatable process that assesses the backlog, collects records, reconstructs and reconciles every period, and finalises audit-ready books before handover.</p>
+        </header>
+        <div class="steps-container">
+            <div class="step-card">
+                <div class="step-content">
+                    <span class="step-badge">Step 1</span>
+                    <h3 class="step-title">Assess the backlog</h3>
+                    <p class="step-description">We scope how many months are behind, your transaction volume, and the number of accounts.</p>
+                    <div class="step-highlights">
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Months scoped</span>
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Volume gauged</span>
+                    </div>
+                </div>
+                <div class="step-visual">
+                    <div class="step-illustration">
+                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="28" y="20" width="48" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="38" y1="36" x2="66" y2="36" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><line x1="38" y1="48" x2="60" y2="48" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><circle cx="80" cy="62" r="15" fill="none" stroke="#F5A623" stroke-width="2.5"/><line x1="91" y1="73" x2="100" y2="82" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/></svg></div>
+                        <span class="illustration-label">Backlog Assessed</span>
+                        <span class="step-number-large">01</span>
+                    </div>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-content">
+                    <span class="step-badge">Step 2</span>
+                    <h3 class="step-title">Collect records</h3>
+                    <p class="step-description">You share bank and card statements, invoices, and software access via a secure portal.</p>
+                    <div class="step-highlights">
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Secure portal</span>
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Records in</span>
+                    </div>
+                </div>
+                <div class="step-visual">
+                    <div class="step-illustration">
+                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30 40h60v36a4 4 0 01-4 4H34a4 4 0 01-4-4z" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M30 40l8-12h20l6 8h26v4z" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><line x1="60" y1="52" x2="60" y2="68" stroke="#25D366" stroke-width="2.5" stroke-linecap="round"/><path d="M54 62l6 6 6-6" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                        <span class="illustration-label">Records Collected</span>
+                        <span class="step-number-large">02</span>
+                    </div>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-content">
+                    <span class="step-badge">Step 3</span>
+                    <h3 class="step-title">Reconstruct and post</h3>
+                    <p class="step-description">We enter transactions oldest to newest in Tally, Zoho, QuickBooks, or Xero.</p>
+                    <div class="step-highlights">
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Oldest first</span>
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fully posted</span>
+                    </div>
+                </div>
+                <div class="step-visual">
+                    <div class="step-illustration">
+                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="28" y="22" width="64" height="56" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="38" x2="92" y2="38" stroke="#14365F" stroke-width="1.5"/><line x1="38" y1="50" x2="62" y2="50" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/><line x1="38" y1="60" x2="58" y2="60" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><path d="M70 56l4 4 8-9" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                        <span class="illustration-label">Reconstructed</span>
+                        <span class="step-number-large">03</span>
+                    </div>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-content">
+                    <span class="step-badge">Step 4</span>
+                    <h3 class="step-title">Reconcile and correct</h3>
+                    <p class="step-description">We reconcile every account, align GSTR-2B and TDS, and clear suspense balances.</p>
+                    <div class="step-highlights">
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GSTR-2B aligned</span>
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Suspense cleared</span>
+                    </div>
+                </div>
+                <div class="step-visual">
+                    <div class="step-illustration">
+                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="32" width="36" height="36" rx="5" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="64" y="32" width="36" height="36" rx="5" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><path d="M56 50h8M60 44l6 6-6 6" stroke="#E8712C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                        <span class="illustration-label">Reconciled</span>
+                        <span class="step-number-large">04</span>
+                    </div>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-content">
+                    <span class="step-badge">Step 5</span>
+                    <h3 class="step-title">Review and finalise</h3>
+                    <p class="step-description">A qualified reviewer signs off P and L, balance sheet, and tie-outs before handover.</p>
+                    <div class="step-highlights">
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Reviewer sign-off</span>
+                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Tie-outs checked</span>
+                    </div>
+                </div>
+                <div class="step-visual">
+                    <div class="step-illustration">
+                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="30" y="18" width="56" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M40 38l5 5 9-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="60" y1="40" x2="78" y2="40" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><path d="M40 58l5 5 9-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="60" y1="60" x2="78" y2="60" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/></svg></div>
+                        <span class="illustration-label">Finalised</span>
+                        <span class="step-number-large">05</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 8: DOCUMENTS REQUIRED -->
+<section class="content-section" id="documents-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Documents Checklist</h2>
+            <div class="content-text">
+                
+                <ul>
+                    <li>Bank statements for every account, full backlog period.</li>
+                    <li>Credit card and loan account statements.</li>
+                    <li>Sales invoices and vendor bills or receipts.</li>
+                    <li>GST returns filed and GSTR-2B downloads.</li>
+                    <li>Existing accounting file or trial balance, if any.</li>
+                </ul>
+                <p style="margin-top:16px;">Ask us for a free backlog document checklist to send before kickoff.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 9: CHALLENGES -->
+<section class="content-section" id="challenges-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Common Challenges and How We Solve Them</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <tbody>
+                        <tr><td>Missing receipts or invoices</td><td>Gaps in the audit trail</td><td>Reconstruct from bank and card statements; document assumptions clearly</td></tr>
+                        <tr><td>Negative or suspense balances</td><td>Distorted opening figures</td><td>Investigate, correct opening balances, clear suspense systematically</td></tr>
+                        <tr><td>GST credit not matching GSTR-2B</td><td>Lost input tax credit</td><td>Run 2B reconciliation against the purchase register and flag mismatches</td></tr>
+                        <tr><td>Faded transaction memory</td><td>Misclassified entries</td><td>Categorise from statement narration and prior filings, oldest first</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 10: FEES -->
+<section class="content-section" id="fees-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Backlog Bookkeeping Fees in 2026</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <tbody>
+                        <tr><td>Patron Accounting Professional Fees</td><td class="table-amount">Starting from INR 9,999 per month-of-backlog (Exl GST and Govt. Charges)</td></tr>
+                        <tr><td>3 to 6 months, standard reconciliations (typical India range)</td><td class="table-amount">INR 25,000 to 50,000 total</td></tr>
+                        <tr><td>6 to 12 months, 2 to 3 accounts, 500-2,000 txn</td><td class="table-amount">INR 50,000 to 1,00,000 total</td></tr>
+                        <tr><td>Payroll, multiple GSTINs, or e-commerce volume</td><td class="table-amount">Custom, quoted on scope after a free assessment</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
+                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
+                <p style="margin-top:16px;"><strong>Get a free Backlog Bookkeeping consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Backlog%20Bookkeeping%20and%20Catch-Up%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 11: TIMELINE -->
+<section class="content-section" id="timeline-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">How Long Catch-Up Bookkeeping Takes</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <tbody>
+                        <tr><td>1 to 3-month backlog</td><td>About 1 to 2 weeks</td></tr>
+                        <tr><td>Per year of records</td><td>About 2 to 4 weeks, depending on volume and document flow</td></tr>
+                        <tr><td>Multi-year backlog</td><td>Several weeks, accelerated by complete records upfront</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <div class="highlight-box" style="margin-top:16px;">
+                    
+                    <p>Most backlogs are cleared in about two to four weeks per year of records, depending on volume and how quickly documents arrive. A one to three-month backlog can finish in one to two weeks; a multi-year backlog runs several weeks. Sending complete records upfront is the single biggest accelerator.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12: BENEFITS -->
+<section class="why-choose-section" id="benefits-section">
+    <div class="section-container">
+        <div style="text-align:center;margin-bottom:48px;">
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
+            <h2 class="section-title">Benefits of Professional Catch-Up</h2>
+        </div>
+        <div class="features-grid">
+        <article class="feature-card">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3 class="feature-title">Audit-ready books</h3>
+            <p class="feature-desc">Reconciled records that withstand audit and due-diligence scrutiny.</p>
+        </article>
+        <article class="feature-card">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><path d="M12 9v4M12 17h.01"/></svg></div>
+            <h3 class="feature-title">Lower penalty risk</h3>
+            <p class="feature-desc">Reduced penalty and best-judgment exposure under the Income Tax Act 2025.</p>
+        </article>
+        <article class="feature-card">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 15l2 2 4-4"/></svg></div>
+            <h3 class="feature-title">Accurate financials</h3>
+            <p class="feature-desc">Reliable P and L and balance sheet for loans, funding, and tax filing.</p>
+        </article>
+        <article class="feature-card">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-6.22-8.56"/><path d="M22 4L12 14.01l-3-3"/></svg></div>
+            <h3 class="feature-title">Clean handover</h3>
+            <p class="feature-desc">A tidy opening balance into a predictable monthly close.</p>
+        </article>
+    </div>
+    </div>
+</section>
+
+<!-- SECTION 12A: SOCIAL PROOF -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Why Businesses Trust Patron Accounting</h2>
+            <div class="content-text">
+                
+                <p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Processed | 15+ Years</strong></p>
+                <p>"Patron Accounting gives the best service related to all account handling of our firm. She files all returns timely and is most kind and respectful towards us." - Nikhil Nimbhorkar, Google Review</p>
+                <p>"I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free." - Subhendu Mishra, Google Review</p>
+                <p><strong>Outcome proof:</strong> a Pune SME 14 months behind was reconstructed and reconciled to audit-ready financials in under four weeks.</p>
+                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+<section class="content-section" id="comparison-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">DIY vs Professional Backlog Bookkeeping</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Factor</th><th>DIY</th><th>Patron Accounting</th></tr></thead>
+                    <tbody>
+                        <tr><td>Accuracy</td><td>Misclassification and missed deductions common</td><td>Reviewed, reconciled, audit-ready</td></tr>
+                        <tr><td>Time cost</td><td>4 to 8 hours per quarter of your time</td><td>2 to 4 weeks per year, hands-off for you</td></tr>
+                        <tr><td>GST 2B reconciliation</td><td>Often skipped</td><td>Matched against purchase register</td></tr>
+                        <tr><td>Compliance risk</td><td>Penalty and assessment exposure</td><td>Section 62 aligned, documented</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 14: RELATED SERVICES -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Related Services</h2>
+            <div class="content-text">
+                
+                <p>After your books are current, keep them compliant with these closely related services:</p>
+                <ul>
+                    <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping after the catch-up.</li>
+                    <li><a href="/payroll-processing-and-management-services">Payroll Processing and Management</a> - monthly payroll alongside your books.</li>
+                    <li><a href="/gst-returns">GST Returns Filing</a> - return preparation and GSTR-2B reconciliation.</li>
+                    <li><a href="/tds-return">TDS Return Filing</a> - quarterly TDS return preparation and filing.</li>
+                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - annual ITR from your restored books.</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 15A: LEGAL FRAMEWORK -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Legal and Compliance Framework</h2>
+            <div class="content-text">
+                
+                <p>Books of account are governed by Section 62 of the Income Tax Act 2025 (formerly Section 44AA of the 1961 Act). Recordkeeping is detailed under Rule 46 of the Draft Income Tax Rules 2026, released by CBDT on 7 February 2026, which consolidates the earlier Rule 6F.</p>
+                <p>Failure to keep, maintain, or retain books attracts a penalty of Rs 25,000 under Section 441 of the Income Tax Act 2025 (equivalent to the earlier Section 271A). Books must be retained for six years from the end of the relevant assessment year. Non-maintenance can also trigger best-judgment assessment and disallowance of claimed expenses.</p>
+                <p>For official guidance on books of account requirements, refer to the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department (incometax.gov.in)</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+    <div class="content-container">
+        <div class="text-content">
+            <div class="faq-expanded">
+                <aside class="faq-expanded__aside">
+                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
+                    <p class="faq-expanded__lead">Real questions businesses ask about catch-up cost, how far back, timeline, cleanup vs catch-up, documents, and penalties.</p>
+                    @include('partials.faq-enquiry-form')
+                </aside>
+                <div class="faq-expanded__list">
+                    <div class="faq-expanded__item" id="faq-1">
+                        <h3 class="faq-expanded__q">How much does catch-up bookkeeping cost in India?</h3>
+                        <div class="faq-expanded__a"><p>Patron Accounting backlog bookkeeping starts from INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). Typical one-time India cleanup projects range from INR 25,000 to 1,50,000 for three to twelve months of backlog, depending on transaction volume, number of accounts, and data quality. You receive a fixed quote after a free scoping assessment.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-2">
+                        <h3 class="faq-expanded__q">How far back can you catch up bookkeeping?</h3>
+                        <div class="faq-expanded__a"><p>There is no legal limit on how far back books can be reconstructed, and businesses regularly clean up several years of records. In practice the right scope is set by your tax filing history and goals. Income tax records should be retained for six years from the end of the relevant assessment year under Rule 46.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-3">
+                        <h3 class="faq-expanded__q">How long does backlog bookkeeping take?</h3>
+                        <div class="faq-expanded__a"><p>Most backlogs are cleared in about two to four weeks per year of records. A one to three-month backlog can finish in one to two weeks, while a multi-year backlog takes several weeks. The biggest accelerator is sending complete bank statements and source documents upfront.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-4">
+                        <h3 class="faq-expanded__q">Is backlog cleanup the same as catch-up bookkeeping?</h3>
+                        <div class="faq-expanded__a"><p>The terms are used interchangeably. Both describe reconciling, categorising, and finalising historical financial data that was neglected. Catch-up emphasises posting missing periods, while cleanup emphasises correcting errors in existing books; most projects involve both.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-5">
+                        <h3 class="faq-expanded__q">What is the difference between monthly and catch-up bookkeeping?</h3>
+                        <div class="faq-expanded__a"><p>Monthly bookkeeping keeps current books closed each period at a fixed recurring fee. Catch-up bookkeeping is a one-time, intensive project that reconstructs and reconciles past periods. Catch-up includes investigation and exception handling that routine monthly work assumes is already done.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-6">
+                        <h3 class="faq-expanded__q">What documents do you need for backlog bookkeeping?</h3>
+                        <div class="faq-expanded__a"><p>At minimum we need bank and credit card statements for the backlog period, plus sales invoices, vendor bills, and accounting software access. We can reconstruct missing entries from statements and prior filings, noting any assumptions where source documents are unavailable.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-7">
+                        <h3 class="faq-expanded__q">What happens if I do not maintain books of account?</h3>
+                        <div class="faq-expanded__a"><p>Failure to keep or retain books attracts a Rs 25,000 penalty under Section 441 of the Income Tax Act 2025 (formerly Section 271A). It can also lead to best-judgment assessment and disallowance of expenses, so clearing a backlog promptly protects you from avoidable exposure.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-8">
+                        <h3 class="faq-expanded__q">Can you take over monthly bookkeeping after the catch-up?</h3>
+                        <div class="faq-expanded__a"><p>Yes. We hand over clean, reconciled opening balances and can continue with ongoing monthly bookkeeping so you never fall behind again. Bundling catch-up with ongoing books also makes the handover smoother and more cost-effective.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-9">
+                        <h3 class="faq-expanded__q">Purane accounts clear karna ho to kya karein?</h3>
+                        <div class="faq-expanded__a"><p>Agar aapke books mahino ya saalon se pending hain, to backlog bookkeeping se hum unhe reconstruct aur reconcile karke audit-ready bana dete hain. Bas bank statements aur invoices share kijiye aur free assessment ke liye call kijiye.</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Quick Answers -->
+            <div class="highlight-box" style="margin-top:32px;">
+                <p><strong>Quick Answers</strong></p>
+                <ul>
+                    <li><strong>Starting price?</strong> INR 9,999 per month-of-backlog (Exl GST).</li>
+                    <li><strong>Turnaround?</strong> 2 to 4 weeks per year of records.</li>
+                    <li><strong>Governing law?</strong> Section 62, Income Tax Act 2025.</li>
+                    <li><strong>Penalty for non-maintenance?</strong> Rs 25,000 under Section 441.</li>
+                    <li><strong>Software?</strong> Tally, Zoho Books, QuickBooks, Xero.</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 18: URGENCY CTA -->
+<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Why Acting Now Matters</h2>
+            <div class="content-text">
+                
+                <p>Every month you delay makes recovery harder as records fade and documents go missing. With statutory audit and ITR deadlines fixed each year, an unresolved backlog risks the Rs 25,000 penalty under Section 441 plus best-judgment assessment. Starting early shortens the timeline and lowers cost.</p>
+                <p><strong>Get a free, no-obligation fixed quote. Call <a href="tel:+919459456700">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Backlog%20Bookkeeping%20and%20Catch-Up%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank">WhatsApp our team</a> today.</strong></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONCLUSION + CTA BLOCK (Dark) -->
+<section class="content-section" style="background: var(--blue) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Get Your Books Back on Track</h2>
+            <div class="content-text" style="text-align:left;color:#FFFFFF !important;">
+                
+                <p>A backlog is fixable, no matter how far behind you are. Patron Accounting reconstructs, reconciles, and finalises your historical books so you regain financial clarity and stay compliant under the Income Tax Act 2025.</p>
+                <p>Once current, we keep you that way with steady monthly bookkeeping. Call +91 945 945 6700, WhatsApp us, or request a free consultation.</p>
+
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Backlog%20Bookkeeping%20and%20Catch-Up%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Backlog Bookkeeping%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Backlog Bookkeeping%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+            </div>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Backlog Bookkeeping Services Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">On-the-ground support in major cities, plus remote catch-up across India.</p>
+            
+            <div class="pa-city-block" style="margin-bottom:40px;">
+                <div class="pa-city-grid">
+                    <a href="/backlog-bookkeeping-catch-up-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
+                    <a href="/backlog-bookkeeping-catch-up-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+                    <a href="/backlog-bookkeeping-catch-up-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
+                    <a href="/backlog-bookkeeping-catch-up-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+                </div>
+            </div>
+            <div class="pa-city-block">
+                <div class="pa-block-title">Related Services</div>
+                <div class="pa-block-sub">End-to-end support for Backlog Bookkeeping</div>
+                <div class="pa-cross-grid"><a href="/accounting-bookkeeping-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting &amp; Bookkeeping Services</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/payroll-processing-and-management-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Processing and Management</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/tds-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTENT FRESHNESS FOOTER -->
+<section class="content-section" style="padding:32px;">
+    <div class="content-container">
+        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
+            <p><strong>Content Created:</strong> 2 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">2 June 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 2 December 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
+            <p>This page is reviewed every six months for accuracy on Income Tax Act 2025 books-of-account rules and service details (Freshness Tier 2).</p>
+        </div>
+    </div>
+</section>
+
+
+
+</main>
+
+
+<!-- Google Maps Places Library (for GMB reviews) -->
+
+
+<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
 <script>
-document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var a=this.parentElement;a.classList.toggle('open');});});
-document.querySelectorAll('.toc-pill,a[href^="#"]').forEach(function(l){l.addEventListener('click',function(e){var id=this.getAttribute('href');if(id&&id.length>1){var t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
+(function() {
+    // ============================================
+    // CONFIGURATION - Update these values
+    // ============================================
+    const CONFIG = {
+        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        // Fallback static reviews (shown if API fails or key not set)
+        fallbackReviews: [
+            {
+                author_name: "Subhendu Mishra",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Rajib Dutta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Nishikant Gurav",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Nikhil Nimbhorkar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
+                relative_time_description: "4 months ago"
+            },
+            {
+                author_name: "Sameer Mehta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Preeti Singh Rathor",
+                profile_photo_url: "",
+                rating: 5,
+                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Anita Gaur",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
+                relative_time_description: "5 months ago"
+            },
+            {
+                author_name: "Pankaj Arvikar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Sunny Ashpal",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
+                relative_time_description: "6 months ago",
+                role: "Director - Demandify Media",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+            },
+            {
+                author_name: "Anjanay Srivastava",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
+                relative_time_description: "4 months ago",
+                role: "Founder - Hunarsource Consulting",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+            }
+        ]
+    };
+
+    // ============================================
+    // HELPER: Generate star SVGs
+    // ============================================
+    function starsHTML(rating) {
+        let s = '';
+        for (let i = 0; i < 5; i++) {
+            s += i < rating
+                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
+                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+        }
+        return s;
+    }
+
+    // ============================================
+    // HELPER: Avatar color based on name
+    // ============================================
+    const avatarColors = ['', 'blue', 'teal', 'purple'];
+    function avatarClass(index) {
+        return avatarColors[index % avatarColors.length];
+    }
+
+    // ============================================
+    // RENDER: Build card HTML for a review
+    // ============================================
+    function buildVideoCard(review) {
+        return `
+        <div>
+            <div class="testi-video-card">
+                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
+                    <video preload="metadata" poster="${review.photoUrl || ''}">
+                        <source src="${review.videoUrl}" type="video/mp4">
+                    </video>
+                    <div class="testi-play-overlay">
+                        <div class="testi-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
+                </div>
+                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                    <div class="testi-avatar">
+                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
+                    </div>
+                    <div>
+                        <div class="testi-name">${review.author_name}</div>
+                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function buildQuoteCard(review, index) {
+        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
+        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
+        const colorClass = avatarClass(index);
+
+        return `
+        <div>
+            <div class="testi-quote-card">
+                <div class="testi-quote-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testi-quote-text">${review.text || ''}</p>
+                <div class="testi-footer">
+                    <div class="testi-author">
+                        <div class="testi-avatar ${colorClass}">
+                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
+                        </div>
+                        <div>
+                            <div class="testi-name">${review.author_name}</div>
+                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
+                        </div>
+                    </div>
+                    <div class="testi-rating-row">
+                        <div class="testi-stars">${starsHTML(review.rating)}</div>
+                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    // ============================================
+    // RENDER: Populate slider with reviews
+    // ============================================
+          function renderReviews(reviews) {
+const slider = document.getElementById('testimonialSlider');
+const loading = document.getElementById('testiLoading');
+
+let html = '';
+
+reviews.forEach(function(review, i) {
+    if (review.hasVideo && review.videoUrl) {
+        html += buildVideoCard(review);
+    } else {
+        html += buildQuoteCard(review, i);
+    }
+});
+
+// If slider already initialized destroy first
+if ($(slider).hasClass('slick-initialized')) {
+    $(slider).slick('unslick');
+}
+
+slider.innerHTML = html;
+slider.style.display = 'block';
+if (loading) loading.style.display = 'none';
+
+// Re-initialize slick
+initSlick(slider);
+
+
+}
+
+    function initSlick(slider) {
+        if ($(slider).hasClass('slick-initialized')) return;
+        $(slider).slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows: false,
+            cssEase: 'ease-in-out',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            swipe: true,
+            touchMove: true,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 900, settings: { slidesToShow: 2 } },
+                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
+            ]
+        });
+    }
+
+    // ============================================
+    // FETCH: Google Places API Reviews
+    // ============================================
+    function fetchGMBReviews() {
+        // If API key not set, use fallback
+        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
+            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            renderReviews(CONFIG.fallbackReviews);
+            return;
+        }
+
+        // Google Places API requires server-side proxy due to CORS
+        // Option 1: Use Google Maps JS API (requires loading Maps library)
+        // Option 2: Use a server-side proxy endpoint
+        // Below is the Google Maps JS API approach:
+
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
+        script.async = true;
+        script.defer = true;
+        script.onerror = function() {
+            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            renderReviews(CONFIG.fallbackReviews);
+        };
+        document.head.appendChild(script);
+    }
+
+    // Global callback for Google Maps JS API
+    window.initGMBReviews = function() {
+        try {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            service.getDetails({
+                placeId: CONFIG.placeId,
+                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
+            }, function(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
+                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
+
+                    // Merge: video testimonials first, then GMB reviews
+                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
+                    const gmbReviews = place.reviews.map(function(r) {
+                        return {
+                            author_name: r.author_name,
+                            profile_photo_url: r.profile_photo_url,
+                            rating: r.rating,
+                            text: r.text,
+                            relative_time_description: r.relative_time_description
+                        };
+                    });
+
+                    renderReviews([...videoTestimonials, ...gmbReviews]);
+                } else {
+                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    renderReviews(CONFIG.fallbackReviews);
+                }
+            });
+        } catch (e) {
+            console.log('[Testimonials] Error:', e);
+            renderReviews(CONFIG.fallbackReviews);
+        }
+    };
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
+        const slider = document.getElementById('testimonialSlider');
+        if (slider && slider.children.length > 0) {
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                initSlick(slider);
+            } else {
+                window.addEventListener('load', function() {
+                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
+                });
+            }
+            return; // static cards are authoritative - stop here
+        }
+        fetchGMBReviews();
+    });
+})();
+
+// Video play/pause toggle for testimonial cards
+function toggleTestiVideo(area) {
+    const video = area.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+        // Pause all other videos first
+        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
+        video.play();
+        area.classList.add('playing');
+    } else {
+        video.pause();
+        area.classList.remove('playing');
+    }
+}
+
 </script>
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+    }
+    return { valid: true };
+}
+
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+// ─────────────────────────────────────────────────────────────
+
+function validateConsultationForm() {
+    var isValid = true;
+
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+     var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler (Bigin iframe load)
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    // Auto-embed page URL in form
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation (from Bigin source code)
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+// Bigin iframe success handler (overrides our custom one above via event delegation)
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
+
+<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+
+<script>
+// TOC scroll arrows
+const tocWrapper = document.getElementById('tocWrapper');
+document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
+document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
+
+// TOC active state on scroll — only tracks sections that have a matching TOC
+// button, keeps the active pill scrolled into view, and stays correct at the
+// very bottom of the page.
+(function () {
+    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
+    var wrapper = document.getElementById('tocWrapper');
+    if (!tocBtns.length) return;
+    var entries = tocBtns.map(function (btn) {
+        var id = (btn.getAttribute('href') || '').replace('#', '');
+        return { btn: btn, section: document.getElementById(id) };
+    }).filter(function (e) { return e.section; });
+    if (!entries.length) return;
+    var OFFSET = 200;
+    var ticking = false;
+    function setActive(entry) {
+        tocBtns.forEach(function (b) { b.classList.remove('active'); });
+        if (!entry) return;
+        entry.btn.classList.add('active');
+        if (wrapper) {
+            var left = entry.btn.offsetLeft;
+            var right = left + entry.btn.offsetWidth;
+            if (left < wrapper.scrollLeft) {
+                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
+            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
+                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
+            }
+        }
+    }
+    function onScroll() {
+        ticking = false;
+        var y = window.pageYOffset + OFFSET;
+        var active = entries[0];
+        for (var i = 0; i < entries.length; i++) {
+            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
+        }
+        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
+            active = entries[entries.length - 1];
+        }
+        setActive(active);
+    }
+    window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
+    }, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+})();
+</script>
+
+<!-- WhatsApp Sticky Bar Script -->
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
+
+
+<!-- External JS Dependencies (loaded by master layout in production) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

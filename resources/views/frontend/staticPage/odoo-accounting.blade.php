@@ -1,43 +1,3 @@
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
 
 @extends('layouts.service-app')
 
@@ -51,216 +11,135 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-<title>Odoo Accounting Services in India | Patron CA Team</title>
-<meta name="description" content="Reliable Odoo bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 4999. Talk to a specialist now.">
-<link rel="canonical" href="/odoo-accounting">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta property="og:title" content="Odoo Accounting Services in India | Patron CA Team">
-<meta property="og:description" content="Reliable Odoo bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 4999. Talk to a specialist now.">
-<meta property="og:url" content="/odoo-accounting">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:image" content="/images/master/odoo-accounting-master.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Odoo Accounting Services in India | Patron CA Team">
-<meta name="twitter:description" content="Reliable Odoo bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 4999. Talk to a specialist now.">
-<meta name="twitter:image" content="/images/master/odoo-accounting-master.webp">
+    <title>Odoo Accounting Services India - Setup, Training & ERP</title>
+    <meta name="description" content="CA-led Odoo accounting for Indian businesses. GST setup, e-invoicing, GSTR filing, TDS, e-way bill, and ITR. Tally migration support. From INR 4,999/month.">
+    <link rel="canonical" href="/odoo-accounting">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Odoo Accounting Services India - Setup, Training & ERP">
+    <meta property="og:description" content="CA-led Odoo accounting for Indian businesses. GST setup, e-invoicing, GSTR filing, TDS, e-way bill, and ITR. Tally migration support. From INR 4,999/month.">
+    <meta property="og:url" content="/odoo-accounting">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="/images/odoo-accounting-og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Odoo Accounting Services India - Setup, Training & ERP">
+    <meta name="twitter:description" content="CA-led Odoo accounting for Indian businesses. GST setup, e-invoicing, GSTR filing, TDS, e-way bill, and ITR. Tally migration support. From INR 4,999/month.">
+    <meta name="twitter:image" content="/images/odoo-accounting-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
       "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/odoo-accounting#breadcrumb",
-      "itemListElement": [
+      "@graph": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounting Software",
-          "item": "https://www.patronaccounting.com/accounting-software"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Odoo Accounting Services",
-          "item": "https://www.patronaccounting.com/odoo-accounting"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/odoo-accounting#service",
-      "serviceType": "Odoo Accounting Services",
-      "name": "Odoo Accounting Services",
-      "description": "Reliable Odoo bookkeeping and reporting, delivered India-wide by qualified accountants at Patron. From INR 4999. Talk to a specialist now.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "provider": {
-        "@type": "AccountingService",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/"
-      },
-      "url": "https://www.patronaccounting.com/odoo-accounting"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/odoo-accounting#faq",
-      "datePublished": "2026-07-10T10:00:00+05:30",
-      "dateModified": "2026-07-10T10:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is Odoo good for accounting, and does it handle Indian GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Odoo is a capable double-entry accounting system, and with its Indian localisation module it handles GST invoicing, GSTR returns, TDS and e-invoicing. It suits businesses that want accounting connected to sales, inventory and purchase in one system. Patron sets up the Indian chart of accounts and tax configuration so your Odoo books are GST-ready from day one."
+          "@type": "Service",
+          "name": "Odoo Accounting Services for India",
+          "description": "CA-led Odoo accounting for Indian businesses. GST setup, e-invoicing, GSTR filing, TDS, e-way bill, and ITR. Tally migration support. From INR 4,999/month.",
+          "url": "/odoo-accounting",
+          "serviceType": "Odoo Accounting Services for India",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Patron Accounting LLP",
+            "url": "/",
+            "logo": "/images/site-logo.svg"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "/odoo-accounting",
+            "price": "4999"
           }
         },
         {
-          "@type": "Question",
-          "name": "Is Odoo an accounting package or a full ERP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odoo is a full ERP with accounting as one module among many — sales, purchase, inventory, manufacturing, CRM and payroll. You can run just the Accounting app or add modules as you grow. This is its main advantage over standalone tools: your ledgers update automatically from operational transactions. Patron implements only the modules your business actually needs."
-          }
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Odoo Accounting Services for India",
+              "item": "/odoo-accounting"
+            }
+          ]
         },
         {
-          "@type": "Question",
-          "name": "Is Odoo really free, or do we need a paid plan?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odoo has a free open-source Community edition and a paid Enterprise edition. Community covers core accounting but lacks some features and official support; Enterprise adds the full accounting suite, e-invoicing and hosting on Odoo.sh. Many Indian SMEs need Enterprise for complete GST and bank-sync features. Patron advises which edition fits before you commit to licence costs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Odoo better than Tally for GST accounting in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It depends on your needs. Tally is faster for pure statutory accounting and is deeply familiar to Indian accountants, while Odoo wins when you want accounting integrated with inventory, projects, CRM and workflows across teams. For a growing business outgrowing Tally's single-user feel, Odoo scales better. Patron works in both and recommends honestly based on your operations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Odoo vs Zoho Books — which suits an Indian SME?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Zoho Books is simpler, cloud-native and quicker to deploy for straightforward GST accounting, while Odoo suits businesses needing a connected ERP across departments. Small service firms often prefer Zoho; product, manufacturing or multi-process companies benefit from Odoo. Patron implements and manages both, so the choice comes down to your complexity, not vendor bias."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Odoo replace QuickBooks now that it has exited India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Intuit discontinued QuickBooks in India, so many businesses are migrating, and Odoo is a strong replacement with fuller ERP capability and GST support. Patron handles the migration — chart of accounts, opening balances, customers, vendors and historical data — so you move off QuickBooks to Odoo without losing continuity in your books."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the main disadvantages or limitations of Odoo accounting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odoo's main drawbacks are a steeper learning curve, the need for proper implementation and sometimes customisation, and Enterprise licence and hosting costs. Poorly configured setups can create reconciliation headaches. These issues are largely avoided with correct implementation of the Indian localisation, chart of accounts and tax rules — which is exactly what Patron's CA-led team handles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What do your Odoo accounting services cost per month in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's Odoo accounting services start at INR 4999 per month. The fee depends on transaction volume, the number of modules in use, and whether GST filing, TDS and payroll are included alongside bookkeeping. Odoo licence or hosting charges are separate and paid to Odoo. You receive a fixed monthly quote covering the accounting scope agreed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Odoo generate GST-compliant invoices and file GST returns in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. With the Indian localisation, Odoo produces GST-compliant tax invoices, supports e-invoicing (IRN and QR code) and e-way bills, and prepares data for GSTR-1 and GSTR-3B. Patron configures the correct HSN codes, tax rates and place-of-supply rules, then reconciles the output before filing so your returns match your books accurately."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you only set up Odoo, or also run our books on it each month?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Both. Patron implements Odoo Accounting with the Indian chart of accounts, GST and TDS configuration and opening balances, then optionally runs your monthly bookkeeping, reconciliations, GST filing and reporting on it. This means you get a correctly configured system plus ongoing CA-led accounting, rather than being left to operate a half-set-up ERP yourself."
-          }
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Odoo Accounting and how does it differ from Tally?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Odoo Accounting is the financial module within the Odoo ERP platform - an open-source suite used by businesses in 120+ countries. Unlike TallyPrime which is primarily standalone accounting, Odoo is fully integrated with Sales, Purchase, Inventory, Manufacturing, HR, and CRM on a single database. Every transaction in any module automatically creates the accounting journal entry. Tally is faster to set up for pure accounting; Odoo delivers superior value for multi-department operations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Odoo support Indian GST including e-invoicing and e-way bill?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Odoo has a dedicated India localisation module (l10n_in) supporting CGST, SGST, IGST, CESS, fiscal positions, HSN/SAC codes, GSTR-1/GSTR-3B/GSTR-9, e-invoicing via NIC IRP portal, and e-way bill generation. Odoo 18 and 19 use BVM IT Consulting Services as the GSP. Odoo 19 adds GSTR-2B matching for ITC reconciliation and vendor e-invoice document fetch."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Odoo file GSTR-1 and GSTR-3B directly to the GST portal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Odoo can generate GSTR reports for manual portal upload (JSON/Excel) and when the Indian GST Service is configured can file directly via API with OTP authentication. Most Patron Accounting clients use the export-and-upload method for GSTR-1 and verify GSTR-3B figures in Odoo before filing manually. Odoo 19 adds GSTR-2B matching to reconcile ITC before GSTR-3B."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Odoo Community Edition sufficient for Indian GST compliance?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Community Edition lacks several India-specific features available only in Enterprise: full India GST reporting suite, e-invoicing integration, e-way bill generation, GSTR-2B matching, and TDS/TCS alert system. Enterprise is required for any Indian business needing GST returns, IRN generation, or TDS compliance through Odoo. Enterprise is priced at approximately $24-30 per user per month."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does Odoo Accounting implementation take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Standard implementation for an Indian SME (10-50 users): 4 to 8 weeks. This includes 1-2 weeks for business discovery and configuration, 1-2 weeks for GST and India localisation setup, 1-2 weeks for data migration from Tally, and 1 week for testing and training. Larger implementations with MRP, Inventory, and multi-company can take 3 to 6 months."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Patron Accounting migrate data from Tally to Odoo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our migration covers chart of accounts mapping, customer/supplier master with GSTIN and PAN, product master with HSN codes, opening balance entry, and historical transactions. After migration we perform a 3-way reconciliation between Tally closing balances, Odoo opening balances, and bank statements to ensure zero data discrepancy. Migration typically takes 2-4 weeks."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between Odoo 17, 18, and 19 for India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Odoo 17 introduced enhanced TDS/TCS alert banners. Odoo 18 added e-invoicing with NIC IRP portal, e-way bill API, and vendor bill fetch. Odoo 19 updated the GSP to BVM IT Consulting, introduced GSTR-2B matching for ITC reconciliation, and added Check GST Number Status for real-time GSTIN verification. Patron supports Odoo 16 through 19. Quick Answers Q: What is Odoo Accounting? It is the financial module within the Odoo ERP platform - integrated with Sales, Inventory, Manufacturing, HR, and CRM on a single database with full India GST localisation. Q: Odoo mein GST kaise setup kare? Odoo ke India localisation module (l10n_in) mein CGST, SGST, IGST configure hota hai. Fiscal positions intrastate aur interstate auto-switch karte hain. CA se setup karwana best hai. Q: Is Odoo Community sufficient for GST? No. Enterprise Edition is required for e-invoicing, GSTR reporting, e-way bill, GSTR-2B matching, and TDS/TCS alerts. Community lacks these India-specific features. Q: Odoo vs Tally India? Tally is best for pure standalone accounting in small firms. Odoo wins for multi-department integration where Sales, Inventory, Manufacturing, and HR must connect with Finance."
+              }
+            }
+          ]
         }
       ]
     }
-  ]
-}
     </script>
 @endsection
 
 @section('content')
-<style>
-.pa-page{max-width:1080px;margin:0 auto;padding:0 20px;color:var(--text-primary);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.7}
-.pa-page .hero{background:var(--blue-lighter);border-radius:var(--radius-xl);padding:56px 40px;margin:24px 0}
-.pa-page .eyebrow{display:inline-block;color:var(--orange);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
-.pa-page h1{font-size:38px;line-height:1.18;color:var(--blue);margin:0 0 14px}
-.pa-page .hero-sub{font-size:19px;color:var(--text-secondary);max-width:720px}
-.pa-page .hero-cta{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
-.pa-page .btn{display:inline-block;padding:14px 26px;border-radius:var(--radius-md);font-weight:700;text-decoration:none;transition:.2s}
-.pa-page .btn-primary{background:var(--orange);color:#fff;box-shadow:var(--shadow-md)}
-.pa-page .btn-primary:hover{background:var(--orange-dark)}
-.pa-page .btn-ghost{background:#fff;color:var(--blue);border:2px solid var(--gray-200)}
-.pa-page .toc{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:14px 0;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);margin-bottom:8px}
-.pa-page .toc-pill{font-size:13px;font-weight:600;color:var(--blue);background:var(--gray-100);padding:8px 14px;border-radius:999px;text-decoration:none}
-.pa-page .toc-pill:hover{background:var(--orange-light);color:var(--orange-dark)}
-.pa-page .sec{padding:34px 0;border-top:1px solid var(--gray-100)}
-.pa-page h2{font-size:27px;color:var(--blue);margin:0 0 16px}
-.pa-page h3{font-size:18px;color:var(--blue);margin:0 0 6px}
-.pa-page .tldr{background:var(--orange-lighter);border-left:4px solid var(--orange);padding:16px 18px;border-radius:var(--radius-sm);margin-bottom:16px}
-.pa-page .two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-.pa-page .highlight-box{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:16px 18px;margin-top:14px}
-.pa-page .column-image{display:flex;justify-content:center}
-.pa-page .illustration-frame{max-width:360px;text-align:center}
-.pa-page .illustration-badge{margin-top:10px;background:var(--blue);color:#fff;border-radius:var(--radius-md);padding:10px 16px;display:inline-flex;flex-direction:column}
-.pa-page .illustration-badge strong{color:var(--orange-light)}
-.pa-page ul.ticks{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.pa-page ul.ticks li{position:relative;padding-left:30px}
-.pa-page ul.ticks li:before{content:"\2713";position:absolute;left:0;top:0;color:#fff;background:var(--orange);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px}
-.pa-page .table-wrap{overflow-x:auto}
-.pa-page table{width:100%;border-collapse:collapse;font-size:15px}
-.pa-page th,.pa-page td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--gray-200);vertical-align:top}
-.pa-page thead th{background:var(--blue);color:#fff}
-.pa-page .steps{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.pa-page .step-card{display:flex;gap:14px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow-sm)}
-.pa-page .step-num{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800}
-.pa-page .fee-box{display:flex;flex-direction:column;background:var(--blue);color:#fff;border-radius:var(--radius-lg);padding:24px 28px;max-width:340px}
-.pa-page .fee-label{font-size:13px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}
-.pa-page .fee-amount{font-size:34px;font-weight:800;color:var(--orange-light)}
-.pa-page .fee-note{font-size:13px;opacity:.85}
-.pa-page .disclaimer{font-size:13px;color:var(--text-muted);margin-top:10px}
-.pa-page .benefits{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-.pa-page .benefit{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px}
-.pa-page .faq-item{border:1px solid var(--gray-200);border-radius:var(--radius-md);margin-bottom:10px;overflow:hidden}
-.pa-page .faq-q{width:100%;text-align:left;background:#fff;border:0;padding:16px 18px;font-size:16px;font-weight:600;color:var(--blue);display:flex;justify-content:space-between;cursor:pointer}
-.pa-page .faq-a{max-height:0;overflow:hidden;transition:max-height .3s;padding:0 18px}
-.pa-page .faq-item.open .faq-a{max-height:600px;padding:0 18px 16px}
-.pa-page .faq-ico{color:var(--orange);font-weight:800}
-.pa-page .final-cta{text-align:center;background:var(--orange-lighter);border-radius:var(--radius-xl);padding:44px 24px;margin:28px 0}
-.pa-page .page-meta{font-size:13px;color:var(--text-muted);padding:20px 0}
-@media(max-width:820px){.pa-page .two-col{grid-template-columns:1fr}.pa-page .steps{grid-template-columns:1fr}.pa-page .benefits{grid-template-columns:1fr}.pa-page ul.ticks{grid-template-columns:1fr}.pa-page h1{font-size:30px}}
-</style>
 <style>
         /* ============================================
            CSS VARIABLES
@@ -512,7 +391,7 @@
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); transition: all 0.2s ease;
         }
-        .form-input::-ms-input-ph { color: var(--gray-400); }
+        .form-input::placeholder { color: var(--gray-400); }
         .form-input:hover { background: var(--gray-100); }
         .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
@@ -566,7 +445,7 @@
             font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
             background: var(--gray-50); outline: none;
         }
-        .country-search-input::-ms-input-ph { color: var(--gray-400); }
+        .country-search-input::placeholder { color: var(--gray-400); }
         .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
         .country-options::-webkit-scrollbar { width: 5px; }
         .country-options::-webkit-scrollbar-track { background: transparent; }
@@ -708,7 +587,7 @@
         .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
         .highlight-box p:last-child { margin-bottom: 0; }
 
-        .illustration-inputhint {
+        .illustration-placeholder {
             width: 100%; max-width: 420px; aspect-ratio: 4/3;
             background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
             border-radius: var(--radius-xl); display: flex; flex-direction: column;
@@ -1200,80 +1079,1500 @@
             .wa-sticky-bar-btn span { display: none; }
         }
 </style>
-<div class="pa-page">
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">India-Wide · By Patron Accounting</span>
-    <h1>Odoo Accounting Services Set Up and Run the Right Way</h1>
-    <p class="hero-sub">Reliable odoo accounting india delivered and reviewed by Patron's qualified CA &amp; CS team, for businesses anywhere in India.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a>
-      <a class="btn btn-ghost" href="#fees">See Pricing</a>
+<main>
+
+
+<!-- HERO SECTION -->
+<section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="pe-lg-5">
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Trusted by 10,000+ Businesses
+                    </div>
+
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
+                        Odoo Accounting Services for Indian Businesses - CA-Led Setup and Compliance
+                    </h1>
+
+                    <div class="expert-attribution-box">
+                        <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                        <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
+                        <span class="eab-meta">
+                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>15+ Years Experience</span><span class="eab-sep">|</span>
+                            <span>Last Updated: <span id="lastUpdated">12 March 2026</span></span>
+                        </span>
+                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Indian GST Localisation:</span> CGST, SGST, IGST, CESS configuration, fiscal positions, HSN/SAC mapping, and automated tax calculation across all invoices</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>E-Invoicing and E-Way Bill:</span> Odoo 18/19 compliant with NIC IRP portal via BVM IT Consulting GSP - IRN generation, QR code, and e-way bill 2.0 integration</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>GSTR Filing Support:</span> GSTR-1, GSTR-3B, GSTR-9 report generation with GSTN-compliant JSON and Excel export for direct portal upload</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>150+ Odoo Clients:</span> Starting from INR 4,999/month - CA-led implementation plus ongoing compliance, Tally migration support included</p>
+                        </div>
+                    </div>
+
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">150+ businesses running on Odoo Accounting with Patron Accounting as their CA compliance partner</p>
+
+                    <div class="hero-cta">
+                        <a href="tel:+919459456700" class="btn-video text-decoration-none">
+                            <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
+                            Call +91 945 945 6700
+                        </a>
+                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            Email Us
+                        </a>
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Odoo%20Accounting%20services%20for%20my%20business.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+                            WhatsApp Us
+                        </a>
+                    </div>
+
+                    <div class="trust-section">
+                        <div class="trust-row">
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                            </div>
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                            </div>
+                        </div>
+                        <div class="google-rating">
+                            <div class="rating-content">
+                                <div class="rating-stars">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <span class="rating-score">4.9</span>
+                                </div>
+                                <span class="rating-count">Based on 500+ reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Odoo Accounting'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value="odoo-accounting" selected>Odoo Accounting</option>
+                                <option value="accounting-services">Accounting Services</option>
+                                <option value="gst-registration">GST Registration</option>
+                                <option value="gst-returns">GST Return Filing</option>
+                                <option value="tds-return-filing">TDS Return Filing</option>
+                                <option value="income-tax-return">Income Tax Return</option>
+                                <option value="migration-from-tally-to-zoho">Tally Migration</option>
+                                <option value="payroll-services">Payroll Services</option>
+                                <option value="other">Other</option>
+
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                    </form>
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-<nav class="toc" aria-label="On this page"><a class="toc-pill" href="#overview">Overview</a><a class="toc-pill" href="#what-is">What It Covers</a><a class="toc-pill" href="#who-needs">Who Needs It</a><a class="toc-pill" href="#services">Our Scope</a><a class="toc-pill" href="#process">Process</a><a class="toc-pill" href="#documents">Documents</a><a class="toc-pill" href="#errors">Avoid Errors</a><a class="toc-pill" href="#fees">Pricing</a><a class="toc-pill" href="#timeline">Timeline</a><a class="toc-pill" href="#why-us">Why Patron</a><a class="toc-pill" href="#faqs">FAQs</a></nav>
-<section id="overview" class="sec">
-  <h2>Odoo Accounting Services: The Essentials</h2>
-  <div class="tldr"><strong>In short:</strong> ERP-accounting hybrid audience; accountant-who-knows-Odoo scarcity play.</div>
-  <p>Good odoo accounting india is about discipline, not heroics. Patron maintains the ledgers, reconciles every period and reviews the result, giving Odoo owners records they can trust.</p>
-  <p>Because the work is done and reviewed by a qualified CA and CS team, you get more than tidy books — you get records that hold up to audits, lenders and investors, and a partner who flags issues early.</p>
-</section>
-<section id="what-is" class="sec two-col">
-  <div class="column-content">
-    <h2>The Odoo Work We Do</h2>
-    <p>Every engagement follows the same disciplined loop — capture, reconcile, review, report — tuned to how your Odoo actually runs. We keep the chart of accounts clean, tax heads correct and the trail complete.</p>
-    <div class="highlight-box">
-      <strong>Key areas we handle for Odoo:</strong>
-      <p>odoo accounting india, odoo accountant, odoo accounting setup, odoo accounting services.</p>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Real Stories from Real People</h2>
+            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
+        </div>
+        <div class="testi-loading" id="testiLoading" style="display:none !important;">
+            <div class="spinner"></div>
+            Fetching latest Google reviews&hellip;
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
+        <!-- POPULATE: Replace these with real testimonial-card divs.
+             Each card follows this structure (quote card):
+             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
+                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
+                     <div>
+                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
+                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
+                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                     </div>
+                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
+                 </div>
+             </div>
+             For video card pattern, refer to section8-company-registration.html
+        -->
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We migrated from Tally to Odoo with Patron and it was completely smooth. They reconciled three years of data, configured GST correctly, and now handle our monthly GSTR-1 and GSTR-3B. Month-end went from 3 days to half a day.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rajesh D.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Manufacturing, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We tried implementing Odoo with an IT firm and ended up with incorrect GST configuration for 6 months. After switching to Patron, they identified all the fiscal position errors, corrected our GSTR filings, and set up e-invoicing. Their CA background made all the difference.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AM</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Anita M.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Owner, Trading Company, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron set up Odoo for our service company with analytic accounting by project. We can now see which client engagements are profitable in real time. They also file our quarterly TDS and annual ITR, so one partner for everything.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SK</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Suresh K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Founder, IT Services, Bangalore</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The e-invoicing and e-way bill setup was seamless. Patron configured the NIC portal integration, tested it in sandbox, and went live without a single failed IRN. Our accounts team was trained and confident within a week.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PV</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Priya V.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">CFO, E-commerce, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div></div></div>
     </div>
-  </div>
-  <div class="column-image">
-  <div class="illustration-frame">
-    <img src="/images/master/odoo-accounting-master.webp" alt="Illustration of Patron's CA team delivering odoo accounting services for businesses across India" width="480" height="480" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px">
-    <div class="illustration-badge"><span>Odoo Accounting Services</span><strong>India-wide</strong></div>
-  </div>
-</div>
+        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
+            <div class="reviews-cta-content">
+                <div class="reviews-cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                </div>
+                <div class="reviews-cta-text">
+                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
+                    <p>Get CA-led Odoo Accounting setup and ongoing GST compliance for your business.</p>
+                </div>
+            </div>
+            <a href="tel:+919459456700" class="btn-cta">
+                Talk to an Expert
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
 </section>
-<section id="who-needs" class="sec"><h2>Who Needs Odoo Accounting Services</h2><ul class="ticks"><li>Teams that need India-ready tax masters and a clean chart of accounts</li><li>Multi-entity businesses that need consistent setup</li><li>Owners who want experts to run the books, not just the software</li><li>Firms replacing spreadsheets with proper odoo accounting india</li></ul></section>
-<section id="services" class="sec"><h2>What&#x27;s Included in Odoo Accounting Services</h2>
-  <div class="table-wrap"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Odoo Accounting India</td><td>Fully managed odoo accounting india delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr><tr><td>Odoo Accountant</td><td>Accurate, reviewed odoo accountant run to a fixed monthly cadence with a clear audit trail.</td></tr><tr><td>Odoo Accounting Setup</td><td>End-to-end odoo accounting setup set up correctly and maintained so your records stay decision-ready.</td></tr><tr><td>Odoo Accounting Services</td><td>Hands-on odoo accounting services delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr></tbody></table></div></section>
-<section id="process" class="sec"><h2>How Our Odoo Accounting Services Process Works</h2><div class="steps"><div class="step-card"><div class="step-visual"><span class="step-num">1</span></div>
-        <div class="step-content"><h3>Requirement mapping</h3><p>We map your entities, GST registrations and reporting needs to the right odoo accounting india setup.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">2</span></div>
-        <div class="step-content"><h3>Chart of accounts</h3><p>We build a tidy chart of accounts and correct GST/TDS masters for Indian compliance.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">3</span></div>
-        <div class="step-content"><h3>Opening balances</h3><p>We load and reconcile opening figures so the tool starts from the truth.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">4</span></div>
-        <div class="step-content"><h3>Integrations</h3><p>Relevant integrations are connected so odoo accounting india runs with less effort.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">5</span></div>
-        <div class="step-content"><h3>Recording routine</h3><p>Clear recording and approval routines keep your Odoo data reliable.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">6</span></div>
-        <div class="step-content"><h3>Periodic close</h3><p>A standard close process keeps odoo accounting india accurate every period.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">7</span></div>
-        <div class="step-content"><h3>Reporting</h3><p>Dashboards and the statutory reports your team needs are configured.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">8</span></div>
-        <div class="step-content"><h3>Handover and support</h3><p>Handover includes training and continued support for odoo accounting india.</p></div></div></div></section>
-<section id="documents" class="sec"><h2>What You&#x27;ll Need to Share</h2><div class="table-wrap"><table><thead><tr><th>Document</th><th>Why It's Needed</th></tr></thead><tbody><tr><td>Bank and credit-card statements</td><td>So inflows and outflows can be reconciled fully.</td></tr><tr><td>Sales and purchase invoices</td><td>With GST details, so tax is captured correctly.</td></tr><tr><td>GST and tax details</td><td>GSTINs, past returns and any tax notices.</td></tr><tr><td>Existing books or trial balance</td><td>If you already maintain records in any tool.</td></tr></tbody></table></div></section>
-<section id="errors" class="sec"><h2>Common Odoo Errors to Watch</h2><div class="table-wrap"><table><thead><tr><th>Mistake</th><th>What Goes Wrong</th></tr></thead><tbody><tr><td>Poor documentation</td><td>Missing invoices or approvals that fail an audit or lender review.</td></tr><tr><td>Wrong tax head or rate</td><td>Incorrect tax treatment that surfaces later as notices and interest.</td></tr><tr><td>Mixed personal and business spends</td><td>Owner expenses booked as business, distorting profit and tax.</td></tr><tr><td>Inconsistent chart of accounts</td><td>A messy structure that makes Odoo Accounting Services hard to read.</td></tr><tr><td>No periodic review</td><td>Books left unchecked until year-end, when errors are costly to fix.</td></tr></tbody></table></div></section>
-<section id="fees" class="sec"><h2>What Odoo Accounting Services Costs</h2>
-  <div class="fee-box"><span class="fee-label">Starting from</span><span class="fee-amount">INR 4999</span>
-  <span class="fee-note">Exl. GST and Govt. Charges</span></div>
-  <p>Final pricing depends on transaction volume, number of entities and the software you use. Share your details on WhatsApp for a clear, itemised quote.</p>
-  <p class="disclaimer">Fees shown are indicative starting points and may vary with scope; taxes and government charges are additional.</p></section>
-<section id="timeline" class="sec"><h2>Timelines for Odoo Accounting Services</h2><p>We move quickly once documents arrive: initial setup in a few working days, then a predictable monthly rhythm for odoo accounting india, with timelines agreed before any larger clean-up begins.</p></section>
-<section id="why-us" class="sec"><h2>Why Trust Us With Odoo</h2><div class="benefits"><div class="benefit"><h3>India-wide, remote-first</h3><p>Location is no barrier — odoo accounting india is delivered remotely and securely.</p></div><div class="benefit"><h3>Transparent pricing</h3><p>You know what you pay for Odoo Accounting Services before we start.</p></div><div class="benefit"><h3>Scales with you</h3><p>odoo accounting india that keeps working as the business expands.</p></div><div class="benefit"><h3>Qualified CA and CS oversight</h3><p>Every set of books is reviewed by qualified professionals, not just data-entry staff.</p></div><div class="benefit"><h3>Compliance-aware</h3><p>Your records are kept in step with GST, TDS and statutory requirements.</p></div><div class="benefit"><h3>Responsive support</h3><p>A named point of contact who answers when you need them.</p></div></div></section>
-<section id="faqs" class="sec"><h2>Odoo FAQs</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" type="button">Is Odoo good for accounting, and does it handle Indian GST?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes. Odoo is a capable double-entry accounting system, and with its Indian localisation module it handles GST invoicing, GSTR returns, TDS and e-invoicing. It suits businesses that want accounting connected to sales, inventory and purchase in one system. Patron sets up the Indian chart of accounts and tax configuration so your Odoo books are GST-ready from day one.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is Odoo an accounting package or a full ERP?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Odoo is a full ERP with accounting as one module among many — sales, purchase, inventory, manufacturing, CRM and payroll. You can run just the Accounting app or add modules as you grow. This is its main advantage over standalone tools: your ledgers update automatically from operational transactions. Patron implements only the modules your business actually needs.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is Odoo really free, or do we need a paid plan?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Odoo has a free open-source Community edition and a paid Enterprise edition. Community covers core accounting but lacks some features and official support; Enterprise adds the full accounting suite, e-invoicing and hosting on Odoo.sh. Many Indian SMEs need Enterprise for complete GST and bank-sync features. Patron advises which edition fits before you commit to licence costs.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is Odoo better than Tally for GST accounting in India?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>It depends on your needs. Tally is faster for pure statutory accounting and is deeply familiar to Indian accountants, while Odoo wins when you want accounting integrated with inventory, projects, CRM and workflows across teams. For a growing business outgrowing Tally&#x27;s single-user feel, Odoo scales better. Patron works in both and recommends honestly based on your operations.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Odoo vs Zoho Books — which suits an Indian SME?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Zoho Books is simpler, cloud-native and quicker to deploy for straightforward GST accounting, while Odoo suits businesses needing a connected ERP across departments. Small service firms often prefer Zoho; product, manufacturing or multi-process companies benefit from Odoo. Patron implements and manages both, so the choice comes down to your complexity, not vendor bias.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can Odoo replace QuickBooks now that it has exited India?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes. Intuit discontinued QuickBooks in India, so many businesses are migrating, and Odoo is a strong replacement with fuller ERP capability and GST support. Patron handles the migration — chart of accounts, opening balances, customers, vendors and historical data — so you move off QuickBooks to Odoo without losing continuity in your books.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What are the main disadvantages or limitations of Odoo accounting?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Odoo&#x27;s main drawbacks are a steeper learning curve, the need for proper implementation and sometimes customisation, and Enterprise licence and hosting costs. Poorly configured setups can create reconciliation headaches. These issues are largely avoided with correct implementation of the Indian localisation, chart of accounts and tax rules — which is exactly what Patron&#x27;s CA-led team handles.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What do your Odoo accounting services cost per month in India?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Patron&#x27;s Odoo accounting services start at INR 4999 per month. The fee depends on transaction volume, the number of modules in use, and whether GST filing, TDS and payroll are included alongside bookkeeping. Odoo licence or hosting charges are separate and paid to Odoo. You receive a fixed monthly quote covering the accounting scope agreed.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can Odoo generate GST-compliant invoices and file GST returns in India?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes. With the Indian localisation, Odoo produces GST-compliant tax invoices, supports e-invoicing (IRN and QR code) and e-way bills, and prepares data for GSTR-1 and GSTR-3B. Patron configures the correct HSN codes, tax rates and place-of-supply rules, then reconciles the output before filing so your returns match your books accurately.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Do you only set up Odoo, or also run our books on it each month?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Both. Patron implements Odoo Accounting with the Indian chart of accounts, GST and TDS configuration and opening balances, then optionally runs your monthly bookkeeping, reconciliations, GST filing and reporting on it. This means you get a correctly configured system plus ongoing CA-led accounting, rather than being left to operate a half-set-up ERP yourself.</p></div></div></div></section>
-<section class="final-cta"><h2>Ready to get your books in order?</h2>
-  <p>Talk to Patron's CA &amp; CS team about odoo accounting india for your business anywhere in India.</p>
-  <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a></section>
-<div class="page-meta"><span class="byline">By CA &amp; CS Team</span> · <span class="last-updated">Last Updated: 10 July 2026</span></div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+    <div class="stats-container">
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
+            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+        </div>
+        <div class="certifications">
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+        </div>
+    </div>
 </div>
+
+<!-- TOC NAVIGATION -->
+<div class="toc-section">
+    <div class="toc-container">
+        <button class="toc-arrow left" id="tocLeft">&#10094;</button>
+        <div class="toc-wrapper" id="tocWrapper">
+            <a href="#overview-section" class="toc-btn">Overview</a>
+            <a href="#what-section" class="toc-btn">What is Odoo Accounting</a>
+            <a href="#who-section" class="toc-btn">Who Needs It</a>
+            <a href="#services-section" class="toc-btn">Our Services</a>
+            <a href="#procedure-section" class="toc-btn">Process</a>
+            <a href="#documents-section" class="toc-btn">Documents</a>
+            <a href="#fees-section" class="toc-btn">Pricing</a>
+            <a href="#timeline-section" class="toc-btn">Compliance Calendar</a>
+            <a href="#benefits-section" class="toc-btn">Why Patron</a>
+            <a href="#comparison-section" class="toc-btn">Odoo vs Tally vs Zoho</a>
+            <a href="#faq-section" class="toc-btn">FAQs</a>
+        </div>
+        <button class="toc-arrow right" id="tocRight">&#10095;</button>
+    </div>
+</div>
+
+<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+<section class="content-section" id="overview-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Odoo Accounting Services - CA-Led ERP Accounting for Indian Businesses</h2>
+            <div class="content-text">
+                <div class="highlight-box" style="margin-bottom:20px;">
+                    <p><strong>&#128204; TL;DR - Odoo Accounting Services at a Glance</strong></p>
+                    <p>Odoo is one of the world's most powerful open-source ERP platforms and its Accounting module is now fully equipped for Indian GST compliance, e-invoicing (IRP), e-way bill generation, GSTR filing, TDS/TCS management, and multi-company reporting. But configuring Odoo correctly for India requires a CA who understands both the software and the regulatory framework. Patron Accounting combines CA-led expertise with hands-on Odoo implementation - starting from INR 4,999 per month with 150+ Odoo clients served.</p>
+                </div>
+                <p>Unlike standalone accounting tools like Tally or Zoho Books, Odoo Accounting is deeply integrated with the rest of the Odoo platform: every sale automatically creates an invoice, every purchase creates a vendor bill, every inventory movement posts a journal entry, and every project timesheet can be invoiced. This integration eliminates double-entry and gives business owners a real-time financial picture across their entire operation.</p>
+                <p>For Indian businesses, Odoo includes a dedicated India localisation module (l10n_in) handling GST configuration, fiscal positions, e-invoicing via NIC portal, e-way bill generation, GSTR-1/GSTR-3B/GSTR-9 reporting, and TDS/TCS management. Odoo 19 adds GSTR-2B matching for ITC reconciliation and the ability to fetch vendor e-invoiced documents directly from the GST portal. Patron Accounting handles the complete configuration and ongoing compliance.</p>
+                <p>Content is reviewed quarterly for accuracy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+<section class="content-section" id="what-section">
+    <div class="content-container">
+        <div class="two-column">
+            <div class="column-content">
+                <h2 class="section-title">What is Odoo Accounting?</h2>
+                <div class="content-text what-is-definition">
+                    
+                    <p>Odoo Accounting is the financial management module within the Odoo ERP platform - a global open-source suite used by businesses in over 120 countries including manufacturers, traders, service companies, and e-commerce brands. Unlike standalone tools, Odoo Accounting is fully integrated with Sales, Purchase, Inventory, Manufacturing, HR, CRM, and Project modules on a single database.</p>
+                <p>For Indian businesses, the dedicated <strong>India localisation module (l10n_in)</strong> handles: all six GST slabs (0%, 3%, 5%, 12%, 18%, 28%), fiscal positions for automatic intrastate/interstate tax switching, e-invoicing (IRN generation via NIC portal), e-way bill generation, GSTR-1/GSTR-3B/GSTR-9 reports with GSTN-compliant exports, TDS/TCS section mapping with threshold alerts, and GSTR-2B matching for ITC reconciliation (Odoo 19).</p>
+                <p>Odoo Enterprise Edition is required for full India GST compliance - Community Edition lacks e-invoicing, GSTR reporting suite, e-way bill, GSTR-2B matching, and TDS/TCS alerts. Enterprise is priced at approximately $24-30 per user per month.</p>
+
+                </div>
+                <div class="highlight-box" style="margin-top:20px;">
+                    <p><strong>Key Terms for Odoo Accounting:</strong></p>
+                    <p><strong>l10n_in (India Localisation):</strong> Odoo module providing GST tax configuration, fiscal positions, HSN/SAC mapping, and GSTR report generation for Indian businesses</p>
+                    <p><strong>Fiscal Positions:</strong> Odoo rules that automatically switch between intrastate (CGST+SGST) and interstate (IGST) tax treatment based on location</p>
+                    <p><strong>BVM IT Consulting GSP:</strong> Designated GST Suvidha Provider for Odoo 19 e-invoicing and e-way bill integration with the NIC portal</p>
+                    <p><strong>E-Way Bill Portal 2.0:</strong> NIC portal launched July 2025 for automated e-way bill generation on goods movements above Rs. 50,000</p>
+                    <p><strong>GSTR-2B Matching (Odoo 19):</strong> Feature connecting with GST portal to retrieve auto-populated ITC statement and reconcile against vendor bills</p>
+
+                </div>
+            </div>
+            <div class="column-image">
+                <div class="illustration-placeholder">
+                    <div class="illustration-icon" style="max-width:240px;">
+                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Building / Tribunal -->
+                            <!-- ERP/Dashboard icon -->
+                            <rect x="35" y="35" width="130" height="85" rx="8" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
+                            <rect x="35" y="35" width="130" height="20" rx="8 8 0 0" fill="#714B67"/>
+                            <text x="100" y="49" font-size="10" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">Odoo ERP</text>
+                            <!-- Module boxes -->
+                            <rect x="45" y="64" width="35" height="20" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
+                            <text x="62" y="77" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">GST</text>
+                            <rect x="85" y="64" width="35" height="20" rx="3" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/>
+                            <text x="102" y="77" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">Sales</text>
+                            <rect x="125" y="64" width="35" height="20" rx="3" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/>
+                            <text x="142" y="77" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">MRP</text>
+                            <rect x="45" y="90" width="55" height="20" rx="3" fill="#F3E5F5" stroke="#714B67" stroke-width="1"/>
+                            <text x="72" y="103" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">Accounting</text>
+                            <rect x="105" y="90" width="55" height="20" rx="3" fill="#E8EAF6" stroke="#14365F" stroke-width="1"/>
+                            <text x="132" y="103" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">Inventory</text>
+                            <!-- Green check badge -->
+                            <circle cx="160" cy="32" r="14" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
+                            <path d="M154 32l4 4 8-8" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- ODOO tag -->
+                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
+                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">ODOO</text>
+                            <!-- Label -->
+                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Odoo Accounting</text>
+                        </svg>
+                    </div>
+                    <div class="illustration-badge">
+                        <span>ERP Accounting</span>
+                        <strong>Odoo + CA Compliance</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section" id="who-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Who Needs Odoo Accounting Services?</h2>
+            <div class="content-text">
+                
+                <p>Odoo Accounting is best suited for Indian businesses that need integrated operations beyond standalone accounting:</p>
+                <ul>
+                    <li><strong>Businesses Outgrowing Tally:</strong> Need integrated operations across sales, inventory, and finance beyond standalone accounting</li>
+                    <li><strong>Multi-Department SMEs (10-200 users):</strong> Sales, purchase, warehouse, manufacturing, HR all on a single platform with shared data</li>
+                    <li><strong>Manufacturing Companies:</strong> Need Odoo MRP and Inventory to post production costs directly to the general ledger with BOM costing</li>
+                    <li><strong>E-commerce Businesses:</strong> Native Odoo integration with Shopify, WooCommerce, and Amazon Seller Central connected to accounting</li>
+                    <li><strong>Multi-Company/Multi-Branch:</strong> Consolidated financials with inter-company transactions and automatic elimination entries</li>
+                    <li><strong>Growing SMEs Wanting Scalable ERP:</strong> Open-source platform without expensive proprietary licensing that scales with business growth</li>
+                    <li><strong>Businesses Needing CA Plus ERP:</strong> Correct Odoo configuration AND ongoing GST returns, TDS, and ITR filing from one partner</li>
+                </ul>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5: OUR SERVICES -->
+<section class="content-section" id="services-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Odoo Accounting Services by Patron Accounting</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <tbody>
+                        <tr><td>GST Configuration and Compliance</td><td>All 6 GST slabs, fiscal positions, HSN/SAC codes, ITC accounts, GSTR-1 and GSTR-3B filing, GSTR-9 annual return, GSTR-2B ITC matching (Odoo 19)</td></tr>
+                        <tr><td>E-Invoicing and E-Way Bill Setup</td><td>NIC IRP portal API configuration via BVM IT Consulting GSP, IRN generation and QR code, E-Way Bill Portal 2.0 integration, test and production validation</td></tr>
+                        <tr><td>TDS and TCS Configuration</td><td>Section-wise TDS mapping (194C, 194J, 194I, 192) in chart of accounts, threshold alerts on invoices, Form 26Q quarterly filing</td></tr>
+                        <tr><td>Tally to Odoo Data Migration</td><td>Chart of accounts mapping, customer/supplier/product master migration, opening balances, historical transactions, 3-way reconciliation</td></tr>
+                        <tr><td>Chart of Accounts and Analytic Accounting</td><td>India localised COA customised for industry, cost centres, profit centres, project-wise and department-wise profitability tracking</td></tr>
+                        <tr><td>Bookkeeping, MIS, and Audit Support</td><td>Ind AS 115 revenue recognition, fixed asset depreciation per Schedule II, monthly P&L and cash flow, statutory audit Section 143, tax audit Form 3CD</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 7: 7-STEP PROCESS -->
+<section class="steps-section" id="procedure-section">
+    <div class="section-container">
+        <header class="section-header" style="text-align:center;margin-bottom:48px;">
+            <span class="section-eyebrow">Our Process</span>
+            <h2 class="section-title">Odoo Accounting Implementation - Our 6-Phase Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">From business audit to ongoing compliance, every phase is led by CAs with hands-on Odoo and Indian GST expertise.</p>
+        </header>
+        <div class="steps-container">
+            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Business Process Audit and Configuration Design</h3><p class="step-description">We understand your sales flow, purchase flow, inventory model, and compliance requirements. Chart of accounts designed or customised from India localised template. All 6 GST slabs configured with correct tax groups, fiscal positions for intrastate/interstate/SEZ/export, and HSN/SAC code mapping for every product and service.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Business flows mapped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST slabs configured</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M50 38l7 7 13-13" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">COA Designed</span><span class="step-number-large">01</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">E-Invoicing, E-Way Bill, and TDS Setup</h3><p class="step-description">NIC e-Invoice portal API credentials configured via BVM IT Consulting GSP. IRN generation and QR code printing tested in sandbox before production go-live. E-Way Bill Portal 2.0 integration enabled. TDS sections (194C, 194J, 194I, 192) mapped in chart of accounts with threshold alert banners on invoices and vendor bills.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> E-invoicing live</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> E-way bill active</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="20" y="10" width="80" height="16" rx="6 6 0 0" fill="#14365F"/><text x="60" y="21" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">E-INVOICE</text><rect x="28" y="34" width="24" height="10" rx="2" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><text x="40" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">IRN</text><rect x="58" y="34" width="24" height="10" rx="2" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/><text x="70" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">QR</text><rect x="28" y="50" width="54" height="8" rx="2" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/></svg></div><span class="illustration-label">TDS Configured</span><span class="step-number-large">02</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Data Migration from Tally or Legacy Systems</h3><p class="step-description">Customer, supplier, and product master migration from Tally, Zoho Books, or Excel. Chart of accounts mapped to Odoo account types. Opening balance entry posted as of cutover date. Historical transactions imported for audit trail. 3-way reconciliation (Tally vs Odoo vs bank statements) performed before sign-off.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Masters migrated</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 3-way reconciliation</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TB matched</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="38" height="50" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="34" y="38" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">Tally</text><path d="M58 35h8" stroke="#F5A623" stroke-width="2.5" stroke-dasharray="3 2"/><rect x="70" y="10" width="38" height="50" rx="4" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><text x="89" y="38" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">Odoo</text><rect x="30" y="72" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Data Verified</span><span class="step-number-large">03</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">User Acceptance Testing and Team Training</h3><p class="step-description">End-to-end testing: invoice creation, GST calculation, IRN generation, e-way bill, bank reconciliation, and TDS alerts. Role-based training sessions for accounts team, sales team, and purchase team. Test environment validation before production switch.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> UAT complete</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Team trained</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="8" width="90" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="24" x2="92" y2="24" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="28" y1="38" x2="82" y2="38" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="50" x2="72" y2="50" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="62" x2="60" y2="62" stroke="#14365F" stroke-width="2" opacity="0.3"/></svg></div><span class="illustration-label">Ready for Go-Live</span><span class="step-number-large">04</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Production Go-Live with Hypercare</h3><p class="step-description">Go-live on production Odoo instance with 30-day hypercare support. All transactions from go-live date processed in Odoo. First month GSTR-1 and GSTR-3B filed from Odoo data. Any configuration issues resolved in real-time during hypercare period.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Production live</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> First GSTR filed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="12" width="70" height="48" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="36" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M53 36l4 4 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="70" width="50" height="12" rx="6" fill="#F5A623" opacity="0.8"/><text x="60" y="79" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">LIVE</text></svg></div><span class="illustration-label">Hypercare active</span><span class="step-number-large">05</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Ongoing CA-Managed Compliance</h3><p class="step-description">Monthly GSTR-1 and GSTR-3B preparation and filing. Quarterly TDS returns (Form 26Q). Annual ITR filing (ITR-3/ITR-5/ITR-6). Annual GSTR-9 and GSTR-9C reconciliation. Odoo version upgrade support when new India localisation updates are released. Dedicated CA available for queries and tax planning.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Monthly GSTR filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TDS quarterly done</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="30" y="24" width="14" height="34" rx="2" fill="#F5A623"/><rect x="50" y="18" width="14" height="40" rx="2" fill="#25D366"/><rect x="70" y="28" width="14" height="30" rx="2" fill="#14365F" opacity="0.4"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Annual ITR filed</span><span class="step-number-large">06</span></div></div></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 8: DOCUMENTS REQUIRED -->
+<section class="content-section" id="documents-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Documents Required for Odoo Accounting Setup</h2>
+            <div class="content-text">
+                
+                <p>Provide the following to start your Odoo Accounting implementation:</p>
+                <ul>
+                    <li><strong>Business Process Overview</strong> - Sales flow, purchase flow, inventory model, and compliance requirements</li>
+                    <li><strong>Existing Accounting Data</strong> - Tally backup, Zoho Books export, or Excel sheets for migration</li>
+                    <li><strong>Trial Balance</strong> - As of cutover date for opening balance entry</li>
+                    <li><strong>Customer and Vendor Master</strong> - With GSTIN, PAN, payment terms, and credit limits</li>
+                    <li><strong>Product/Item Master</strong> - With HSN/SAC codes, UoM, and current stock quantities</li>
+                    <li><strong>GST Registration Details</strong> - All GSTINs registered under the business</li>
+                    <li><strong>Bank Account Details</strong> - For bank synchronisation and reconciliation setup</li>
+                    <li><strong>TDS Configuration Details</strong> - Applicable sections and rates for vendor categories</li>
+                    <li><strong>Odoo Enterprise Subscription</strong> - Or confirmation to proceed with Enterprise licensing</li>
+                    <li><strong>Outstanding Invoices/Bills</strong> - Aged receivables and payables as of cutover date</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 9: CHALLENGES -->
+<section class="content-section" id="challenges-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Key Challenges in Odoo Accounting for Indian Businesses</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <tbody>
+                        <tr><td>Incorrect Fiscal Position Configuration</td><td>IGST on intrastate or CGST/SGST on interstate causes wrong GSTR-1 and GST notices</td><td>CA-reviewed fiscal position setup with automated location-based tax switching tested before go-live</td></tr>
+                        <tr><td>Missing HSN Code Mapping</td><td>GSTR-1 HSN summary validation fails and portal upload errors</td><td>Complete product-level HSN/SAC mapping with UQC codes before first invoice</td></tr>
+                        <tr><td>E-Invoice IRN Errors</td><td>Invalid GSTIN, wrong tax type, or date mismatch rejected by NIC portal</td><td>Pre-submission validation rules configured in Odoo catching errors before IRN request</td></tr>
+                        <tr><td>TDS Threshold Missed</td><td>Odoo TDS alert banner ignored, TDS obligations not deducted</td><td>TDS sections mapped to vendor accounts with automatic threshold monitoring and CA review</td></tr>
+                        <tr><td>Community vs Enterprise Confusion</td><td>Community Edition lacks e-invoicing, GSTR suite, e-way bill, GSTR-2B matching</td><td>Enterprise Edition requirement clearly assessed at discovery; licensing guidance provided</td></tr>
+                        <tr><td>Multi-Company Inter-Company Errors</td><td>Duplicate postings from incorrect inter-company rules</td><td>Inter-company transaction rules configured and tested with elimination entries validated</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 10: FEES -->
+<section class="content-section" id="fees-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Odoo Accounting Service Fees 2026</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <tbody>
+                        <tr><td>Starter (GST config + GSTR-1/3B + bookkeeping, up to 100 txn/month)</td><td>Rs. 3,999/month</td></tr>
+                        <tr><td>Growth (Starter + e-invoicing + e-way bill + TDS + 26Q + bank recon)</td><td>Rs. 6,999/month</td></tr>
+                        <tr><td>Scale (Growth + Tally migration + analytics + GSTR-9 + ITR + dedicated CA)</td><td>Rs. 11,999/month</td></tr>
+                        <tr><td>Enterprise (Multi-company, MRP accounting, consolidation, virtual CFO)</td><td>Custom pricing</td></tr>
+                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 4,999 (Exl GST and Govt. Charges)</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
+                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
+                <p style="margin-top:16px;"><strong>Get a free Odoo Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Odoo%20Accounting%20setup%20and%20GST%20compliance.%20Please%20share%20pricing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 11: TIMELINE -->
+<section class="content-section" id="timeline-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Odoo Accounting Compliance Calendar 2026</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <tbody>
+                        <tr><td>GSTR-1 Filing (Outward Supply) from Odoo</td><td>11th of following month</td></tr>
+                        <tr><td>GSTR-3B Filing with GST Payment</td><td>20th of following month</td></tr>
+                        <tr><td>TDS Deposit on Payments Made</td><td>7th of following month</td></tr>
+                        <tr><td>TDS Return Form 26Q (Quarterly)</td><td>31st of month following quarter</td></tr>
+                        <tr><td>ITR Filing (Non-Audit Cases)</td><td>31 July (annual)</td></tr>
+                        <tr><td>Tax Audit Form 3CD (If Applicable)</td><td>30 September (annual)</td></tr>
+                        <tr><td>GSTR-9 Annual GST Return</td><td>31 December (annual)</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <div class="highlight-box" style="margin-top:16px;">
+                    
+                    <p><strong>Note:</strong> Odoo Enterprise licensing ($24-30/user/month) is billed directly by Odoo B.V. and is separate from Patron Accounting service fees. Community Edition is free but lacks India compliance features. Implementation setup fees for Phase 1 and 2 are quoted separately based on complexity, users, modules, and migration scope.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12: BENEFITS -->
+<section class="why-choose-section" id="benefits-section">
+    <div class="section-container">
+        <div style="text-align:center;margin-bottom:48px;">
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
+            <h2 class="section-title">Why Choose Patron Accounting for Odoo?</h2>
+        </div>
+        <div class="features-grid">
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3>CA-Led Implementation</h3><p>Every Odoo setup led by a Chartered Accountant, not just an IT consultant - ensuring GST, TDS, and accounting standards are correct from day one</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>One Partner for ERP and Compliance</h3><p>We set up Odoo AND file your GSTR-1, GSTR-3B, TDS returns, and ITR - no need for separate IT partner and CA firm</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></div><h3>India GST Expertise</h3><p>Deep knowledge of Odoo India localisation (l10n_in), e-invoicing, e-way bill, GSTR reporting, GSTR-2B matching, and fiscal positions</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><h3>Tally Migration Specialists</h3><p>3-way reconciliation methodology for Tally-to-Odoo migration with zero data loss and CA-verified opening balances</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg></div><h3>Version Currency (Odoo 16-19)</h3><p>We maintain expertise across Odoo 16 through 19 and update configurations when India localisation modules are updated</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h3>Dedicated CA Support</h3><p>Named Chartered Accountant available for Odoo accounting queries, compliance deadlines, and ongoing tax planning</p></article>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12A: SOCIAL PROOF -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">150+ Businesses Running on Odoo with Patron Accounting</h2>
+            <div class="content-text">
+                
+                <p>Patron Accounting serves 150+ businesses on Odoo Accounting across manufacturing, trading, e-commerce, IT, and professional services. Our <strong>4.9/5 client rating</strong> reflects the CA expertise we bring to every Odoo implementation and ongoing compliance engagement.</p>
+                <p>We are not just an Odoo implementation partner - we are a CA firm that uses Odoo daily in our own practice and configures it for clients with the same standards we apply to our own accounts.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+<section class="content-section" id="comparison-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Odoo vs TallyPrime vs Zoho Books - Which is Right?</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Feature</th><th>Odoo</th><th>TallyPrime</th><th>Zoho Books</th></tr></thead>
+                    <tbody>
+                        <tr><td>GST Compliance (India)</td><td>Full (IRP, e-way bill, GSTR 1/3B/9, GSTR-2B matching)</td><td>Full (strong GST compliance)</td><td>Good (standard GST, limited ERP)</td></tr>
+                        <tr><td>Multi-Module Integration</td><td>Excellent - Sales, Inventory, MRP, HR, CRM on one DB</td><td>Limited - primarily accounting focused</td><td>Moderate - integrates with Zoho apps</td></tr>
+                        <tr><td>Manufacturing and MRP</td><td>Full MRP, BOM, Work Centres, Shop Floor</td><td>Basic manufacturing</td><td>Not available</td></tr>
+                        <tr><td>Customisability</td><td>Very high - open source, Odoo Studio, custom modules</td><td>Low - predefined structure</td><td>Moderate - limited customisation</td></tr>
+                        <tr><td>Cloud and Mobile Access</td><td>Yes - cloud-native or self-hosted with full mobile app</td><td>Limited cloud (add-on)</td><td>Yes - cloud native</td></tr>
+                        <tr><td>Ideal For</td><td>Growing SMEs, manufacturers, multi-department businesses</td><td>Small businesses, pure accounting use</td><td>Simple SMEs, services, solopreneurs</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 14: RELATED SERVICES -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Related Services for Odoo Accounting Clients</h2>
+            <div class="content-text">
+                
+                <p>Complement your Odoo Accounting with these services:</p>
+                <ul>
+                    <li><a href="/gst-registration">GST Registration</a> - Register your business for GST before configuring Odoo for Indian tax compliance</li>
+                    <li><a href="/gst-returns">GST Return Filing</a> - Expert CA-managed GSTR-1 and GSTR-3B filing from Odoo-generated data</li>
+                    <li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly 26Q and 24Q TDS returns using data extracted from Odoo</li>
+                    <li><a href="/income-tax-return">Income Tax Return</a> - ITR filing for companies and LLPs using Odoo-generated financials</li>
+                    <li><a href="/private-limited-company-registration">Company Registration</a> - Incorporate your company and set up Odoo Accounting from day one</li>
+                    <li><a href="/payroll-services">Payroll Services</a> - Monthly payroll processing integrated with Odoo HR and accounting modules</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 15A: LEGAL FRAMEWORK -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Legal Framework - Odoo Accounting and Indian Compliance</h2>
+            <div class="content-text">
+                
+                <p>Key statutory provisions governing Odoo Accounting compliance for Indian businesses:</p>
+                <ul>
+                    <li><strong>CGST Act 2017:</strong> Odoo India localisation (l10n_in) complies with Section 9, Section 16 (ITC eligibility), Section 31 (tax invoice requirements), and Section 37 (GSTR-1 filing). <a href="https://cbic.gov.in" target="_blank" rel="noopener">CBIC Portal</a></li>
+                    <li><strong>GST E-Invoice Mandate:</strong> Mandatory for turnover above Rs. 5 crore - Odoo 18/19 compliant via NIC IRP portal with BVM IT Consulting as GSP</li>
+                    <li><strong>E-Way Bill Rules:</strong> Section 68 of CGST Act and Rule 138 - Odoo integrated with <a href="https://ewaybill2.gst.gov.in" target="_blank" rel="noopener">NIC E-Way Bill Portal 2.0</a> (launched July 2025)</li>
+                    <li><strong>Income Tax Act 1961, Sections 194C/194J/194I/192:</strong> TDS sections configured in Odoo chart of accounts with threshold alert banners</li>
+                    <li><strong>Companies Act 2013, Schedule II:</strong> Depreciation rates for fixed assets configured in Odoo asset categories per Schedule II (book) and Income Tax Rules (tax)</li>
+                    <li><strong>Odoo India Documentation:</strong> <a href="https://www.odoo.com/documentation/18.0/applications/finance/fiscal_localizations/india.html" target="_blank" rel="noopener">Official Odoo India Localisation Guide</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+    <div class="content-container">
+        <div class="text-content">
+            <div class="faq-expanded">
+                <aside class="faq-expanded__aside">
+                    <h2 class="faq-expanded__title">Frequently Asked Questions - Odoo Accounting India</h2>
+                    <p class="faq-expanded__lead">Answers to common questions about Odoo Accounting implementation, GST configuration, e-invoicing, and compliance for Indian businesses.</p>
+                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Odoo Accounting India'])
+                </aside>
+                <div class="faq-expanded__list">
+                    <div class="faq-expanded__item" id="faq-1">
+                        <h3 class="faq-expanded__q">What is Odoo Accounting and how does it differ from Tally?</h3>
+                        <div class="faq-expanded__a"><p>Odoo Accounting is the financial module within the Odoo ERP platform - an open-source suite used by businesses in 120+ countries. Unlike TallyPrime which is primarily standalone accounting, Odoo is fully integrated with Sales, Purchase, Inventory, Manufacturing, HR, and CRM on a single database. Every transaction in any module automatically creates the accounting journal entry. Tally is faster to set up for pure accounting; Odoo delivers superior value for multi-department operations.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-2">
+                        <h3 class="faq-expanded__q">Does Odoo support Indian GST including e-invoicing and e-way bill?</h3>
+                        <div class="faq-expanded__a"><p>Yes. Odoo has a dedicated India localisation module (l10n_in) supporting CGST, SGST, IGST, CESS, fiscal positions, HSN/SAC codes, GSTR-1/GSTR-3B/GSTR-9, e-invoicing via NIC IRP portal, and e-way bill generation. Odoo 18 and 19 use BVM IT Consulting Services as the GSP. Odoo 19 adds GSTR-2B matching for ITC reconciliation and vendor e-invoice document fetch.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-3">
+                        <h3 class="faq-expanded__q">Can Odoo file GSTR-1 and GSTR-3B directly to the GST portal?</h3>
+                        <div class="faq-expanded__a"><p>Odoo can generate GSTR reports for manual portal upload (JSON/Excel) and when the Indian GST Service is configured can file directly via API with OTP authentication. Most Patron Accounting clients use the export-and-upload method for GSTR-1 and verify GSTR-3B figures in Odoo before filing manually. Odoo 19 adds GSTR-2B matching to reconcile ITC before GSTR-3B.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-4">
+                        <h3 class="faq-expanded__q">Is Odoo Community Edition sufficient for Indian GST compliance?</h3>
+                        <div class="faq-expanded__a"><p>No. Community Edition lacks several India-specific features available only in Enterprise: full India GST reporting suite, e-invoicing integration, e-way bill generation, GSTR-2B matching, and TDS/TCS alert system. Enterprise is required for any Indian business needing GST returns, IRN generation, or TDS compliance through Odoo. Enterprise is priced at approximately $24-30 per user per month.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-5">
+                        <h3 class="faq-expanded__q">How long does Odoo Accounting implementation take?</h3>
+                        <div class="faq-expanded__a"><p>Standard implementation for an Indian SME (10-50 users): 4 to 8 weeks. This includes 1-2 weeks for business discovery and configuration, 1-2 weeks for GST and India localisation setup, 1-2 weeks for data migration from Tally, and 1 week for testing and training. Larger implementations with MRP, Inventory, and multi-company can take 3 to 6 months.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-6">
+                        <h3 class="faq-expanded__q">Can Patron Accounting migrate data from Tally to Odoo?</h3>
+                        <div class="faq-expanded__a"><p>Yes. Our migration covers chart of accounts mapping, customer/supplier master with GSTIN and PAN, product master with HSN codes, opening balance entry, and historical transactions. After migration we perform a 3-way reconciliation between Tally closing balances, Odoo opening balances, and bank statements to ensure zero data discrepancy. Migration typically takes 2-4 weeks.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-7">
+                        <h3 class="faq-expanded__q">What is the difference between Odoo 17, 18, and 19 for India?</h3>
+                        <div class="faq-expanded__a"><p>Odoo 17 introduced enhanced TDS/TCS alert banners. Odoo 18 added e-invoicing with NIC IRP portal, e-way bill API, and vendor bill fetch. Odoo 19 updated the GSP to BVM IT Consulting, introduced GSTR-2B matching for ITC reconciliation, and added Check GST Number Status for real-time GSTIN verification. Patron supports Odoo 16 through 19.</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Quick Answers -->
+            <div class="highlight-box" style="margin-top:32px;">
+                <p><strong>Quick Answers</strong></p>
+                <p><strong>Q: What is Odoo Accounting?</strong> It is the financial module within the Odoo ERP platform - integrated with Sales, Inventory, Manufacturing, HR, and CRM on a single database with full India GST localisation.</p>
+                <p><strong>Q: Odoo mein GST kaise setup kare?</strong> Odoo ke India localisation module (l10n_in) mein CGST, SGST, IGST configure hota hai. Fiscal positions intrastate aur interstate auto-switch karte hain. CA se setup karwana best hai.</p>
+                <p><strong>Q: Is Odoo Community sufficient for GST?</strong> No. Enterprise Edition is required for e-invoicing, GSTR reporting, e-way bill, GSTR-2B matching, and TDS/TCS alerts. Community lacks these India-specific features.</p>
+                <p><strong>Q: Odoo vs Tally India?</strong> Tally is best for pure standalone accounting in small firms. Odoo wins for multi-department integration where Sales, Inventory, Manufacturing, and HR must connect with Finance.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 18: URGENCY CTA -->
+<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Get Your Odoo Accounting Right from Day One</h2>
+            <div class="content-text">
+                
+                <p>Incorrect Odoo GST configuration causes cascading errors: wrong fiscal positions mean incorrect GSTR-1 data, missing HSN codes cause portal upload failures, and ignored TDS alerts lead to compliance notices. Most businesses that implement Odoo with an IT-only partner end up needing a CA firm to fix the configuration later - costing more time and money than doing it correctly from the start.</p>
+                <p><strong>Call +91 945 945 6700 or WhatsApp us for a free Odoo Accounting consultation. We will assess your business needs, recommend the right Odoo plan, and provide a detailed implementation timeline and quote.</strong></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONCLUSION + CTA BLOCK (Dark) -->
+<section class="content-section" style="background: var(--blue) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Odoo Accounting Journey with Patron Accounting</h2>
+            <div class="content-text" style="text-align:left;">
+                
+                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Odoo is one of the most powerful ERP platforms available for Indian SMEs - but its value is only realised when the accounting module is configured correctly for Indian GST, e-invoicing, TDS, and compliance requirements. A CA-led implementation ensures you get both the software configuration and the ongoing compliance right from day one.</p>
+                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Patron Accounting is the only partner that combines CA-led Odoo implementation with ongoing GSTR, TDS, and ITR filing - all from one team. Starting from INR 4,999 per month, our Odoo accounting packages are designed to scale with your business.</p>
+
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Odoo%20Accounting%20setup%20and%20GST%20compliance.%20Please%20share%20pricing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Odoo%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20Odoo%20Accounting%20setup%20and%20compliance%20services.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+            </div>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Odoo Accounting Services Across India</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">CA-managed Odoo Accounting implementation and compliance for businesses in major Indian cities.</p>
+          
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-city-grid"><a href="/odoo-accounting/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/odoo-accounting/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/odoo-accounting/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/odoo-accounting/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div><div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Odoo Accounting</div><div class="pa-cross-grid"><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/tds-return-filing-24q" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTENT FRESHNESS FOOTER -->
+<section class="content-section" style="padding:32px;">
+    <div class="content-container">
+        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
+            <p><strong>Content Created:</strong> 12 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">12 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 12 March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
+            <p>This page is reviewed annually or when Odoo releases a major India localisation update. Odoo version features, e-invoicing thresholds, and GSP provider details verified on each review.</p>
+        </div>
+    </div>
+</section>
+
+<!-- STICKY WHATSAPP BAR -->
+{{--
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
+        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Join Free &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div> 
+--}}
+@include('layouts.itr-season-strip')
+
+</main>
+
+
+<!-- Google Maps Places Library (for GMB reviews) -->
+
+
+<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
 <script>
-document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var a=this.parentElement;a.classList.toggle('open');});});
-document.querySelectorAll('.toc-pill,a[href^="#"]').forEach(function(l){l.addEventListener('click',function(e){var id=this.getAttribute('href');if(id&&id.length>1){var t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
+(function() {
+    // ============================================
+    // CONFIGURATION — Update these values
+    // ============================================
+    const CONFIG = {
+        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        // Fallback static reviews (shown if API fails or key not set)
+        fallbackReviews: [
+            {
+                author_name: "Subhendu Mishra",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Rajib Dutta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Nishikant Gurav",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Nikhil Nimbhorkar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
+                relative_time_description: "4 months ago"
+            },
+            {
+                author_name: "Sameer Mehta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Preeti Singh Rathor",
+                profile_photo_url: "",
+                rating: 5,
+                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Anita Gaur",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
+                relative_time_description: "5 months ago"
+            },
+            {
+                author_name: "Pankaj Arvikar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Sunny Ashpal",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
+                relative_time_description: "6 months ago",
+                role: "Director - Demandify Media",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+            },
+            {
+                author_name: "Anjanay Srivastava",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
+                relative_time_description: "4 months ago",
+                role: "Founder - Hunarsource Consulting",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+            }
+        ]
+    };
+
+    // ============================================
+    // HELPER: Generate star SVGs
+    // ============================================
+    function starsHTML(rating) {
+        let s = '';
+        for (let i = 0; i < 5; i++) {
+            s += i < rating
+                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
+                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+        }
+        return s;
+    }
+
+    // ============================================
+    // HELPER: Avatar color based on name
+    // ============================================
+    const avatarColors = ['', 'blue', 'teal', 'purple'];
+    function avatarClass(index) {
+        return avatarColors[index % avatarColors.length];
+    }
+
+    // ============================================
+    // RENDER: Build card HTML for a review
+    // ============================================
+    function buildVideoCard(review) {
+        return `
+        <div>
+            <div class="testi-video-card">
+                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
+                    <video preload="metadata" poster="${review.photoUrl || ''}">
+                        <source src="${review.videoUrl}" type="video/mp4">
+                    </video>
+                    <div class="testi-play-overlay">
+                        <div class="testi-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
+                </div>
+                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                    <div class="testi-avatar">
+                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
+                    </div>
+                    <div>
+                        <div class="testi-name">${review.author_name}</div>
+                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function buildQuoteCard(review, index) {
+        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
+        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
+        const colorClass = avatarClass(index);
+
+        return `
+        <div>
+            <div class="testi-quote-card">
+                <div class="testi-quote-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testi-quote-text">${review.text || ''}</p>
+                <div class="testi-footer">
+                    <div class="testi-author">
+                        <div class="testi-avatar ${colorClass}">
+                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
+                        </div>
+                        <div>
+                            <div class="testi-name">${review.author_name}</div>
+                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
+                        </div>
+                    </div>
+                    <div class="testi-rating-row">
+                        <div class="testi-stars">${starsHTML(review.rating)}</div>
+                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    // ============================================
+    // RENDER: Populate slider with reviews
+    // ============================================
+        function renderReviews(reviews) {
+const slider = document.getElementById('testimonialSlider');
+const loading = document.getElementById('testiLoading');
+
+let html = '';
+
+reviews.forEach(function(review, i) {
+    if (review.hasVideo && review.videoUrl) {
+        html += buildVideoCard(review);
+    } else {
+        html += buildQuoteCard(review, i);
+    }
+});
+
+// If slider already initialized destroy first
+if ($(slider).hasClass('slick-initialized')) {
+    $(slider).slick('unslick');
+}
+
+slider.innerHTML = html;
+slider.style.display = 'block';
+if (loading) loading.style.display = 'none';
+
+// Re-initialize slick
+initSlick(slider);
+
+
+}
+
+    function initSlick(slider) {
+        if ($(slider).hasClass('slick-initialized')) return;
+        $(slider).slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows: false,
+            cssEase: 'ease-in-out',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            swipe: true,
+            touchMove: true,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 900, settings: { slidesToShow: 2 } },
+                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
+            ]
+        });
+    }
+
+    // ============================================
+    // FETCH: Google Places API Reviews
+    // ============================================
+    function fetchGMBReviews() {
+        // If API key not set, use fallback
+        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
+            renderReviews(CONFIG.fallbackReviews);
+            return;
+        }
+
+        // Google Places API requires server-side proxy due to CORS
+        // Option 1: Use Google Maps JS API (requires loading Maps library)
+        // Option 2: Use a server-side proxy endpoint
+        // Below is the Google Maps JS API approach:
+
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
+        script.async = true;
+        script.defer = true;
+        script.onerror = function() {
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
+            renderReviews(CONFIG.fallbackReviews);
+        };
+        document.head.appendChild(script);
+    }
+
+    // Global callback for Google Maps JS API
+    window.initGMBReviews = function() {
+        try {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            service.getDetails({
+                placeId: CONFIG.placeId,
+                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
+            }, function(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
+                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
+
+                    // Merge: video testimonials first, then GMB reviews
+                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
+                    const gmbReviews = place.reviews.map(function(r) {
+                        return {
+                            author_name: r.author_name,
+                            profile_photo_url: r.profile_photo_url,
+                            rating: r.rating,
+                            text: r.text,
+                            relative_time_description: r.relative_time_description
+                        };
+                    });
+
+                    renderReviews([...videoTestimonials, ...gmbReviews]);
+                } else {
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
+                    renderReviews(CONFIG.fallbackReviews);
+                }
+            });
+        } catch (e) {
+            console.log('[Testimonials] Error:', e);
+            renderReviews(CONFIG.fallbackReviews);
+        }
+    };
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        // Static cards already rendered — init Slick immediately
+        const slider = document.getElementById('testimonialSlider');
+        if (slider && slider.children.length > 0) {
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                initSlick(slider);
+            } else {
+                window.addEventListener('load', function() {
+                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
+                });
+            }
+        }
+        fetchGMBReviews();
+    });
+})();
+
+// Video play/pause toggle for testimonial cards
+function toggleTestiVideo(area) {
+    const video = area.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+        // Pause all other videos first
+        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
+        video.play();
+        area.classList.add('playing');
+    } else {
+        video.pause();
+        area.classList.remove('playing');
+    }
+}
+
 </script>
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
+    }
+    return { valid: true };
+}
+
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+// ─────────────────────────────────────────────────────────────
+
+function validateConsultationForm() {
+    var isValid = true;
+
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+    var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler (Bigin iframe load)
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    // Auto-embed page URL in form
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation (from Bigin source code)
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+// Bigin iframe success handler (overrides our custom one above via event delegation)
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
+
+<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+
+<script>
+
+</script>
+
+<script>
+// TOC scroll arrows
+const tocWrapper = document.getElementById('tocWrapper');
+document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
+document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
+
+// TOC active state on scroll — only tracks sections that have a matching TOC
+// button, keeps the active pill scrolled into view, and stays correct at the
+// very bottom of the page.
+(function () {
+    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
+    var wrapper = document.getElementById('tocWrapper');
+    if (!tocBtns.length) return;
+    var entries = tocBtns.map(function (btn) {
+        var id = (btn.getAttribute('href') || '').replace('#', '');
+        return { btn: btn, section: document.getElementById(id) };
+    }).filter(function (e) { return e.section; });
+    if (!entries.length) return;
+    var OFFSET = 200;
+    var ticking = false;
+    function setActive(entry) {
+        tocBtns.forEach(function (b) { b.classList.remove('active'); });
+        if (!entry) return;
+        entry.btn.classList.add('active');
+        if (wrapper) {
+            var left = entry.btn.offsetLeft;
+            var right = left + entry.btn.offsetWidth;
+            if (left < wrapper.scrollLeft) {
+                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
+            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
+                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
+            }
+        }
+    }
+    function onScroll() {
+        ticking = false;
+        var y = window.pageYOffset + OFFSET;
+        var active = entries[0];
+        for (var i = 0; i < entries.length; i++) {
+            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
+        }
+        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
+            active = entries[entries.length - 1];
+        }
+        setActive(active);
+    }
+    window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
+    }, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+})();
+</script>
+
+<!-- WhatsApp Sticky Bar Script -->
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
+
+<!-- External JS Dependencies (loaded by master layout in production) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

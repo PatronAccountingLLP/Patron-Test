@@ -1,43 +1,3 @@
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  5
-     Verified:          4
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  5
-     Verified:          4
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  5
-     Verified:          4
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  5
-     Verified:          4
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
 
 
 @extends('layouts.service-app')
@@ -52,216 +12,135 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-<title>NGO &amp; Non-Profit Accounting in India | Chartered Support</title>
-<meta name="description" content="Expert ngo accounting services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 2499. Accurate books and a free quote await.">
-<link rel="canonical" href="/ngo-and-non-profit-accounting-services">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta property="og:title" content="NGO &amp; Non-Profit Accounting in India | Chartered Support">
-<meta property="og:description" content="Expert ngo accounting services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 2499. Accurate books and a free quote await.">
-<meta property="og:url" content="/ngo-and-non-profit-accounting-services">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:image" content="/images/master/ngo-and-non-profit-accounting-services-master.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="NGO &amp; Non-Profit Accounting in India | Chartered Support">
-<meta name="twitter:description" content="Expert ngo accounting services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 2499. Accurate books and a free quote await.">
-<meta name="twitter:image" content="/images/master/ngo-and-non-profit-accounting-services-master.webp">
+    <title>NGO & Non-Profit Accounting Services - Bookkeeping & Audit</title>
+    <meta name="description" content="CA services for NGOs, trusts and Section 8 companies in India. 12A, 80G, FCRA compliance, CSR-1 registration, ITR-7 filing from Rs 3,500/month.">
+    <link rel="canonical" href="/ngo-and-non-profit-accounting-services">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="NGO & Non-Profit Accounting Services - Bookkeeping & Audit">
+    <meta property="og:description" content="CA services for NGOs, trusts and Section 8 companies in India. 12A, 80G, FCRA compliance, CSR-1 registration, ITR-7 filing from Rs 3,500/month.">
+    <meta property="og:url" content="/ngo-and-non-profit-accounting-services">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="/images/ngo-and-non-profit-accounting-services-og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NGO & Non-Profit Accounting Services - Bookkeeping & Audit">
+    <meta name="twitter:description" content="CA services for NGOs, trusts and Section 8 companies in India. 12A, 80G, FCRA compliance, CSR-1 registration, ITR-7 filing from Rs 3,500/month.">
+    <meta name="twitter:image" content="/images/ngo-and-non-profit-accounting-services-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
       "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services#breadcrumb",
-      "itemListElement": [
+      "@graph": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Industry Accounting",
-          "item": "https://www.patronaccounting.com/industry-accounting"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "NGO & Non-Profit Accounting",
-          "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services#service",
-      "serviceType": "NGO & Non-Profit Accounting",
-      "name": "NGO & Non-Profit Accounting",
-      "description": "Expert ngo accounting services for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 2499. Accurate books and a free quote await.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "provider": {
-        "@type": "AccountingService",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/"
-      },
-      "url": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services#faq",
-      "datePublished": "2026-07-10T10:00:00+05:30",
-      "dateModified": "2026-07-10T10:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is NGO accounting, and how does it differ from business accounting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "NGO accounting is fund-based accounting that tracks money by donor and project rather than by profit. Instead of an income statement aimed at owners' returns, an NGO prepares receipts and payments, income and expenditure, and a balance sheet showing restricted and unrestricted funds. This ensures every grant is spent and reported against its intended purpose."
+          "@type": "Service",
+          "name": "NGO Accounting and Compliance Services",
+          "description": "CA services for NGOs, trusts and Section 8 companies in India. 12A, 80G, FCRA compliance, CSR-1 registration, ITR-7 filing from Rs 3,500/month.",
+          "url": "/ngo-and-non-profit-accounting-services",
+          "serviceType": "NGO Accounting and Compliance Services",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Patron Accounting LLP",
+            "url": "/",
+            "logo": "/images/site-logo.svg"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "/ngo-and-non-profit-accounting-services",
+            "price": "5"
           }
         },
         {
-          "@type": "Question",
-          "name": "What accounting method do NGOs, trusts and societies follow?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most Indian NGOs follow fund-based accounting on an accrual or hybrid basis, segregating restricted funds tied to specific donors from general funds. Section 8 companies additionally follow the Companies Act and applicable accounting standards. Our CA-led team sets up ledgers grant-by-grant so utilisation, closing balances and donor reporting stay accurate and audit-ready."
-          }
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "NGO Accounting and Compliance Services",
+              "item": "/ngo-and-non-profit-accounting-services"
+            }
+          ]
         },
         {
-          "@type": "Question",
-          "name": "Do NGOs pay tax in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "NGOs registered under Section 12A are exempt from income tax on income applied to charitable purposes, provided at least 85% of income is spent on objects each year. Without 12A registration, an NGO is taxed like any entity. We maintain books that evidence application of funds and file the required income tax and audit forms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is a statutory audit compulsory for an NGO or trust?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, in most cases. A trust, society or Section 8 company must get its accounts audited by a Chartered Accountant if income exceeds the basic exemption limit, and 12A-registered entities must file Form 10B. FCRA-registered NGOs face a separate audit too. We prepare audit-ready books and coordinate with your auditor for timely filing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does an accountant actually do for an NGO?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An NGO accountant records donations and grants, tracks spending against each project budget, reconciles bank and FCRA accounts, and prepares utilisation certificates and donor reports. They also handle TDS, GST where applicable, and the annual income and expenditure statement. Patron Accounting manages all of this so trustees can focus on programmes, not paperwork."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you prepare financial statements for an NGO?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We prepare a receipts and payments account, an income and expenditure account and a balance sheet, with schedules showing each restricted fund separately. Assets bought from grants are tracked, and closing fund balances are reconciled to bank. These statements satisfy 12A, FCRA and donor requirements and form the basis of the annual CA audit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which structure is better for an NGO - trust, society or Section 8 company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It depends on scale and governance needs. A trust suits small family-run charities, a society suits membership-based groups, and a Section 8 company suits NGOs seeking credibility, CSR funding and stronger compliance. All three can obtain 12A, 80G and FCRA registration. We advise on the fit and then maintain books appropriate to the structure you choose."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does professional NGO accounting cost each month?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "At Patron Accounting, NGO and non-profit accounting starts at INR 2499 per month, exclusive of GST and government charges. The fee depends on transaction volume, number of grants or projects, and whether you have FCRA funds requiring separate books. A fixed monthly quote is shared after understanding your donor base and reporting obligations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you maintain our FCRA books and the designated FCRA bank account?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For NGOs receiving foreign contributions, we maintain FCRA funds in a separate set of books linked to the designated SBI New Delhi account, record every foreign donation and utilisation, and prepare the annual FC-4 return. Keeping FCRA money strictly segregated from domestic funds is essential to stay compliant with the FCRA, 2010."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you keep our 12A and 80G registrations compliant?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We ensure at least 85% of income is applied to charitable objects, maintain donation records that support 80G deduction claims for donors, and file Form 10BD statements of donations plus Form 10B or 10BB audit reports. Accurate fund-based books are what protect your 12A exemption and your donors' 80G benefits at renewal."
-          }
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is 12A and 80G registration for NGOs in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Section 12AB of the Income Tax Act, 1961 is the registration that grants income tax exemption to an NGO's income when applied to its charitable objects as defined under Section 2(15). Without 12AB, all donations are fully taxable. The Finance Act 2020 replaced old Sections 12A and 12AA with Section 12AB. New registration is via Form 10A (provisional for 3 years) and renewed via Form 10AB (valid 5 years; 10 years for NGOs with gross receipts up to Rs 5 crore per Finance Act 2025). Section 80G(5) is a separate approval enabling donors to claim 50% deduction; it requires 12AB as a prerequisite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is FCRA registration and when is it mandatory for NGOs?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "FCRA registration under the Foreign Contribution (Regulation) Act, 2010 is mandatory for any NGO receiving charitable funds from donors outside India. Application is via Form FC-3A to the Ministry of Home Affairs. The NGO must be registered in India, operational for at least 3 years, and have spent minimum Rs 15 lakh on declared activities. The 2020 Amendment requires all foreign contributions through a single SBI FCRA account at New Delhi; admin expenses cannot exceed 20%; sub-granting is prohibited; all office bearers must have Aadhaar. Annual return Form FC-4 must be filed by 31 December with CA certification."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is Form CSR-1 and is it mandatory for NGOs receiving CSR funding?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Form CSR-1 is mandatory for all NGOs wishing to receive CSR funds from companies under Section 135 of the Companies Act, 2013. Introduced under Companies (CSR Policy) Amendment Rules, 2021, effective 1 April 2021. The MCA moved to a web-based process in July 2025. Eligibility requires valid 12A and 80G certificates and minimum 3-year track record. Part 2 requires CA certification. A Unique CSR Registration Number is issued on approval. NGOs without valid CSR-1 cannot legally receive CSR contributions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which ITR form do NGOs and charitable trusts file?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "All trusts, societies, and Section 8 companies whose income is from property held for charitable or religious purposes must file ITR-7 under Section 139(4A). ITR-7 must be filed even if income is nil. For audit cases (Form 10B or 10BB required), deadline is 31 October. Form 10B applies if gross receipts exceed Rs 5 crore or income applied outside India or foreign contributions received; Form 10BB for others. Failure to file can result in penalties up to Rs 10,000 and jeopardise 12AB and 80G registrations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is Form 10BD and why must NGOs file it?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Form 10BD is a Statement of Particulars of Donors required by all 80G-registered NGOs under Section 80G(5)(viii). It must be filed by 31 May each year, disclosing name, PAN, address, donation amount, and mode for each donor contributing above Rs 10,000. Only after 10BD is filed can the NGO issue Form 10BE certificates to donors for their 80G deduction claims. If not filed on time, donors lose the ability to claim 80G deductions, directly reducing future contributions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between Section 8 company and charitable trust for NGO compliance?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A public charitable trust (governed by state trust acts) has simpler compliance: ITR-7, audited accounts, 12AB and 80G maintenance. A Section 8 company under Companies Act, 2013 carries full corporate compliance in addition: minimum 2 board meetings per year, AGM, AOC-4 within 30 days of AGM, Form MGT-7 within 60 days, ROC oversight, plus ITR-7, 12AB, 80G, FCRA, and CSR-1."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can donors claim 80G deduction for donations to an NGO?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The donee NGO must hold valid Section 80G(5) certificate and must file Form 10BD by 31 May. The donor obtains Form 10BE from the NGO, enters donation details in Schedule 80G of their ITR, and attaches Form 10BE as proof. Deduction is 50% of donated amount (subject to 10% of adjusted gross total income for general contributions). Cash donations above Rs 2,000 are not eligible for 80G deduction. Quick Answers What is NGO accounting? NGO accounting is specialised financial management for charitable trusts, societies, and Section 8 companies covering income tax exemption under Sections 11 and 12 via Section 12AB, donor deductibility via 80G(5), FCRA compliance for foreign donations, CSR-1 for corporate grants, ITR-7 filing, Form 10BD donor statements, and Form 10B/10BB audit. Is GST applicable on NGO activities? Most charitable activities and donations are outside GST scope. However, services provided for consideration (training, publications, events for fee) may attract GST. Incidental commercial activities under Section 11(4A) require separate books and may create GST obligation. How long does 12AB registration last? Section 12AB is valid for 5 years. For NGOs with gross receipts not exceeding Rs 5 crore in each of two preceding years, Finance Act 2025 provides 10-year validity on renewals after 31 March 2025. Renewal via Form 10AB must be filed at least 6 months before expiry."
+              }
+            }
+          ]
         }
       ]
     }
-  ]
-}
     </script>
 @endsection
 
 @section('content')
-<style>
-.pa-page{max-width:1080px;margin:0 auto;padding:0 20px;color:var(--text-primary);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.7}
-.pa-page .hero{background:var(--blue-lighter);border-radius:var(--radius-xl);padding:56px 40px;margin:24px 0}
-.pa-page .eyebrow{display:inline-block;color:var(--orange);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
-.pa-page h1{font-size:38px;line-height:1.18;color:var(--blue);margin:0 0 14px}
-.pa-page .hero-sub{font-size:19px;color:var(--text-secondary);max-width:720px}
-.pa-page .hero-cta{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
-.pa-page .btn{display:inline-block;padding:14px 26px;border-radius:var(--radius-md);font-weight:700;text-decoration:none;transition:.2s}
-.pa-page .btn-primary{background:var(--orange);color:#fff;box-shadow:var(--shadow-md)}
-.pa-page .btn-primary:hover{background:var(--orange-dark)}
-.pa-page .btn-ghost{background:#fff;color:var(--blue);border:2px solid var(--gray-200)}
-.pa-page .toc{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:14px 0;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);margin-bottom:8px}
-.pa-page .toc-pill{font-size:13px;font-weight:600;color:var(--blue);background:var(--gray-100);padding:8px 14px;border-radius:999px;text-decoration:none}
-.pa-page .toc-pill:hover{background:var(--orange-light);color:var(--orange-dark)}
-.pa-page .sec{padding:34px 0;border-top:1px solid var(--gray-100)}
-.pa-page h2{font-size:27px;color:var(--blue);margin:0 0 16px}
-.pa-page h3{font-size:18px;color:var(--blue);margin:0 0 6px}
-.pa-page .tldr{background:var(--orange-lighter);border-left:4px solid var(--orange);padding:16px 18px;border-radius:var(--radius-sm);margin-bottom:16px}
-.pa-page .two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-.pa-page .highlight-box{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:16px 18px;margin-top:14px}
-.pa-page .column-image{display:flex;justify-content:center}
-.pa-page .illustration-frame{max-width:360px;text-align:center}
-.pa-page .illustration-badge{margin-top:10px;background:var(--blue);color:#fff;border-radius:var(--radius-md);padding:10px 16px;display:inline-flex;flex-direction:column}
-.pa-page .illustration-badge strong{color:var(--orange-light)}
-.pa-page ul.ticks{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.pa-page ul.ticks li{position:relative;padding-left:30px}
-.pa-page ul.ticks li:before{content:"\2713";position:absolute;left:0;top:0;color:#fff;background:var(--orange);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px}
-.pa-page .table-wrap{overflow-x:auto}
-.pa-page table{width:100%;border-collapse:collapse;font-size:15px}
-.pa-page th,.pa-page td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--gray-200);vertical-align:top}
-.pa-page thead th{background:var(--blue);color:#fff}
-.pa-page .steps{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.pa-page .step-card{display:flex;gap:14px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow-sm)}
-.pa-page .step-num{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800}
-.pa-page .fee-box{display:flex;flex-direction:column;background:var(--blue);color:#fff;border-radius:var(--radius-lg);padding:24px 28px;max-width:340px}
-.pa-page .fee-label{font-size:13px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}
-.pa-page .fee-amount{font-size:34px;font-weight:800;color:var(--orange-light)}
-.pa-page .fee-note{font-size:13px;opacity:.85}
-.pa-page .disclaimer{font-size:13px;color:var(--text-muted);margin-top:10px}
-.pa-page .benefits{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-.pa-page .benefit{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px}
-.pa-page .faq-item{border:1px solid var(--gray-200);border-radius:var(--radius-md);margin-bottom:10px;overflow:hidden}
-.pa-page .faq-q{width:100%;text-align:left;background:#fff;border:0;padding:16px 18px;font-size:16px;font-weight:600;color:var(--blue);display:flex;justify-content:space-between;cursor:pointer}
-.pa-page .faq-a{max-height:0;overflow:hidden;transition:max-height .3s;padding:0 18px}
-.pa-page .faq-item.open .faq-a{max-height:600px;padding:0 18px 16px}
-.pa-page .faq-ico{color:var(--orange);font-weight:800}
-.pa-page .final-cta{text-align:center;background:var(--orange-lighter);border-radius:var(--radius-xl);padding:44px 24px;margin:28px 0}
-.pa-page .page-meta{font-size:13px;color:var(--text-muted);padding:20px 0}
-@media(max-width:820px){.pa-page .two-col{grid-template-columns:1fr}.pa-page .steps{grid-template-columns:1fr}.pa-page .benefits{grid-template-columns:1fr}.pa-page ul.ticks{grid-template-columns:1fr}.pa-page h1{font-size:30px}}
-</style>
 <style>
         /* ============================================
            CSS VARIABLES
@@ -357,7 +236,7 @@
             font-weight: 700; color: var(--text-primary);
             min-width: 160px;
         }
-        /* Amount column — right-align only on tables with .table-amount class */
+        /* Amount column  -  right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
         /* Section 8 / primary entity highlight column in comparison tables */
         .table-comparison td:nth-child(2),
@@ -378,7 +257,7 @@
         .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
 
         /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
+           EXPERT ATTRIBUTION BOX (E-E-A-T)  -  Plan 3.1
            ============================================ */
         .expert-attribution-box {
             background: #F9F9F9;
@@ -513,7 +392,7 @@
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); transition: all 0.2s ease;
         }
-        .form-input::-ms-input-ph { color: var(--gray-400); }
+        .form-input::placeholder { color: var(--gray-400); }
         .form-input:hover { background: var(--gray-100); }
         .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
@@ -567,7 +446,7 @@
             font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
             background: var(--gray-50); outline: none;
         }
-        .country-search-input::-ms-input-ph { color: var(--gray-400); }
+        .country-search-input::placeholder { color: var(--gray-400); }
         .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
         .country-options::-webkit-scrollbar { width: 5px; }
         .country-options::-webkit-scrollbar-track { background: transparent; }
@@ -648,7 +527,7 @@
         .cert-item svg { width: 18px; height: 18px; }
 
         /* ============================================
-           TOC NAVIGATION — Plan 2.2
+           TOC NAVIGATION  -  Plan 2.2
            ============================================ */
         .toc-section {
             background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
@@ -709,7 +588,7 @@
         .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
         .highlight-box p:last-child { margin-bottom: 0; }
 
-        .illustration-inputhint {
+        .illustration-placeholder {
             width: 100%; max-width: 420px; aspect-ratio: 4/3;
             background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
             border-radius: var(--radius-xl); display: flex; flex-direction: column;
@@ -781,7 +660,7 @@
             font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
         }
 
-        /* Process Evidence Screenshot — Plan 3.2 */
+        /* Process Evidence Screenshot  -  Plan 3.2 */
         .process-screenshot-details { margin-top: 14px; }
         .process-screenshot-details summary {
             font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
@@ -1201,80 +1080,1650 @@
             .wa-sticky-bar-btn span { display: none; }
         }
 </style>
-<div class="pa-page">
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">India-Wide · By Patron Accounting</span>
-    <h1>NGO &amp; Non-Profit Accounting Tuned to How NGO &amp; Non-Profit Really Works</h1>
-    <p class="hero-sub">Reliable ngo accounting services delivered and reviewed by Patron's qualified CA &amp; CS team, for businesses anywhere in India.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a>
-      <a class="btn btn-ghost" href="#fees">See Pricing</a>
+<main>
+
+
+<!-- HERO SECTION -->
+<section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="pe-lg-5">
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Trusted by 10,000+ Businesses
+                    </div>
+
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
+                        NGO and Non-Profit Accounting and Compliance Services in India
+                    </h1>
+
+                    <div class="expert-attribution-box">
+                        <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                        <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
+                        <span class="eab-meta">
+                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>15+ Years Experience</span><span class="eab-sep">|</span>
+                            <span>Last Updated: <span id="lastUpdated">15 January 2024</span></span>
+                        </span>
+                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Section 12AB Registration:</span> Income tax exemption for NGO income; Form 10A (new) or 10AB (renewal); valid 5 years; 10 years for NGOs with income up to Rs 5 crore per Finance Act 2025</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Section 80G(5) Approval:</span> Donor tax deductibility - donors claim 50% deduction; Form 10G application; Form 10BD donor statement by 31 May; Form 10BE certificates</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>FCRA Compliance:</span> Foreign Contribution (Regulation) Act, 2010 - Form FC-3A registration; SBI FCRA account; annual FC-4 by 31 December; 20% admin expense cap</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>CSR-1 and Annual Compliance:</span> Form CSR-1 with MCA for corporate grants; ITR-7 under Section 139(4A); Form 10B/10BB audit; fund-wise bookkeeping</p>
+                        </div>
+                    </div>
+
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Trusted by 300+ NGOs, charitable trusts, and Section 8 companies across India | 500+ 12AB and 80G registrations filed</p>
+
+                    <div class="hero-cta">
+                        <a href="tel:+919459456700" class="btn-video text-decoration-none">
+                            <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
+                            Call +91 945 945 6700
+                        </a>
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20NGO%20Accounting&body=Hello%2C%0A%0AI%20need%20NGO%20compliance%20support.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            Email Us
+                        </a>
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20NGO%20Accounting%20and%20Compliance%20Services.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+                            WhatsApp Us
+                        </a>
+                    </div>
+
+                    <div class="trust-section">
+                        <div class="trust-row">
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                            </div>
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                            </div>
+                        </div>
+                        <div class="google-rating">
+                            <div class="rating-content">
+                                <div class="rating-stars">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <span class="rating-score">4.9</span>
+                                </div>
+                                <span class="rating-count">Based on 500+ reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - NGO and Non-Profit Accounting'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value="ngo-and-non-profit-accounting-services" selected>NGO and Non-Profit Accounting</option>
+                                <option value="registration-for-12a-80g-certificate">12A and 80G Registration</option>
+                                <option value="ngo-registration">NGO Registration</option>
+                                <option value="fcra-registration">FCRA Registration</option>
+                                <option value="section8-company-registration">Section 8 Company Registration</option>
+                                <option value="income-tax-return">Income Tax Return Filing</option>
+                                <option value="tds-return-filing">TDS Return Filing</option>
+                                <option value="society-registration">Society Registration</option>
+                                <option value="other">Other</option>
+
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                    </form>
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-<nav class="toc" aria-label="On this page"><a class="toc-pill" href="#overview">Overview</a><a class="toc-pill" href="#what-is">What It Covers</a><a class="toc-pill" href="#who-needs">Who Needs It</a><a class="toc-pill" href="#services">Our Scope</a><a class="toc-pill" href="#process">Process</a><a class="toc-pill" href="#documents">Documents</a><a class="toc-pill" href="#errors">Avoid Errors</a><a class="toc-pill" href="#fees">Pricing</a><a class="toc-pill" href="#timeline">Timeline</a><a class="toc-pill" href="#why-us">Why Patron</a><a class="toc-pill" href="#faqs">FAQs</a></nav>
-<section id="overview" class="sec">
-  <h2>NGO &amp; Non-Profit Accounting, Explained</h2>
-  <div class="tldr"><strong>In short:</strong> Fund-based books, 12A/80G compliance upkeep (NOT registration - excluded family), Form 10B/10BB audit readiness, 85% application rule, FCRA designated-SBI-account + 20% admin cap.</div>
-  <p>Good ngo accounting services is about discipline, not heroics. Patron maintains the ledgers, reconciles every period and reviews the result, giving NGO &amp; Non-Profit owners records they can trust.</p>
-  <p>Because the work is done and reviewed by a qualified CA and CS team, you get more than tidy books — you get records that hold up to audits, lenders and investors, and a partner who flags issues early.</p>
-</section>
-<section id="what-is" class="sec two-col">
-  <div class="column-content">
-    <h2>Inside Our NGO &amp; Non-Profit Accounting</h2>
-    <p>We shape ngo accounting services around your business, not a generic checklist. The routine is consistent, but the setup — accounts, tax treatment, reports — is built for NGO &amp; Non-Profit.</p>
-    <div class="highlight-box">
-      <strong>Key areas we handle for NGO &amp; Non-Profit:</strong>
-      <p>ngo accounting services, accounting for ngo, trust accounting services, non profit accounting services, society accounting services, fcra accounting.</p>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Real Stories from Real People</h2>
+            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
+        </div>
+        <div class="testi-loading" id="testiLoading" style="display:none !important;">
+            <div class="spinner"></div>
+            Fetching latest Google reviews&hellip;
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
+        <!-- POPULATE: Replace these with real testimonial-card divs.
+             Each card follows this structure (quote card):
+             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
+                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
+                     <div>
+                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
+                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
+                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                     </div>
+                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
+                 </div>
+             </div>
+             For video card pattern, refer to section8-company-registration.html
+        -->
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our charitable trust's 12AB was about to lapse and we had no idea. Patron Accounting identified the issue, filed Form 10AB within a week, and saved us from an entire year of taxable donations. We've been with them for 3 years now.</div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RT</div>
+        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Ramesh Tiwari</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Secretary, Education Trust, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
+        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
     </div>
-  </div>
-  <div class="column-image">
-  <div class="illustration-frame">
-    <img src="/images/master/ngo-and-non-profit-accounting-services-master.webp" alt="Illustration of Patron's CA team delivering ngo &amp; non-profit accounting for businesses across India" width="480" height="480" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px">
-    <div class="illustration-badge"><span>NGO &amp; Non-Profit Accounting</span><strong>India-wide</strong></div>
-  </div>
 </div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">FCRA compliance became extremely strict after the 2020 amendments. Patron Accounting set up our separate SBI account, monitors our 20% admin cap monthly, and files FC-4 well before 31 December every year. Total peace of mind.</div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SA</div>
+        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Sister Agnes</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Charitable Foundation, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
+        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
+    </div>
+</div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We were losing CSR grants because we didn't have Form CSR-1. Patron's team checked our 12A/80G status, prepared all documentation, got the CA certification for Part 2, and we received our CSR Registration Number within 45 days.</div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NK</div>
+        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Kumar</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">CEO, Development NGO, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
+        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
+    </div>
+</div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Form 10BD was new to us and we missed the deadline in the first year. Our donors couldn't claim 80G deductions and we lost several recurring donors. Since engaging Patron Accounting, every Form 10BD and 10BE is filed on time.</div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PM</div>
+        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Priya Menon</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Trustee, Health NGO, Bengaluru</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
+        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
+    </div>
+</div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
+    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">As a Section 8 company, we have both Companies Act compliance and NGO compliance to manage. Patron handles everything - board minutes, AOC-4, MGT-7, 12AB, ITR-7, FCRA returns. One team for all our compliance needs.</div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AS</div>
+        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Anand Sharma</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Section 8 Company, Hyderabad</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
+        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">5 months ago</div>
+    </div>
+</div>
+
+    </div>
+        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
+            <div class="reviews-cta-content">
+                <div class="reviews-cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                </div>
+                <div class="reviews-cta-text">
+                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
+                    <p>Get expert 12AB, 80G, FCRA, and CSR-1 compliance support for your NGO from Patron Accounting.</p>
+                </div>
+            </div>
+            <a href="tel:+919459456700" class="btn-cta">
+                Talk to an Expert
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
 </section>
-<section id="who-needs" class="sec"><h2>Is NGO &amp; Non-Profit Accounting Right for You?</h2><ul class="ticks"><li>Founders who have outgrown spreadsheets and need audit-ready records</li><li>Businesses in NGO &amp; Non-Profit that want books tuned to their revenue and cost model</li><li>Companies preparing for funding, a loan or due diligence</li><li>Teams that want compliance handled without hiring in-house</li></ul></section>
-<section id="services" class="sec"><h2>NGO &amp; Non-Profit Accounting: Scope of Work</h2>
-  <div class="table-wrap"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Ngo Accounting Services</td><td>Fully managed ngo accounting services delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr><tr><td>Accounting For Ngo</td><td>End-to-end accounting for ngo run to a fixed monthly cadence with a clear audit trail.</td></tr><tr><td>Trust Accounting Services</td><td>End-to-end trust accounting services set up correctly and maintained so your records stay decision-ready.</td></tr><tr><td>Non Profit Accounting Services</td><td>Expert-led non profit accounting services handled by Patron&#x27;s CA and CS team and kept in step with GST and TDS rules.</td></tr><tr><td>Society Accounting Services</td><td>Fully managed society accounting services delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr><tr><td>Fcra Accounting</td><td>Fully managed fcra accounting run to a fixed monthly cadence with a clear audit trail.</td></tr><tr><td>Ca For Ngo</td><td>Accurate, reviewed ca for ngo delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr><tr><td>Accounting Firms For Ngos</td><td>Hands-on accounting firms for ngos delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr></tbody></table></div></section>
-<section id="process" class="sec"><h2>How We Deliver NGO &amp; Non-Profit Accounting</h2><div class="steps"><div class="step-card"><div class="step-visual"><span class="step-num">1</span></div>
-        <div class="step-content"><h3>Kick-off and scoping</h3><p>We begin by learning how your NGO &amp; Non-Profit runs and what your books look like today.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">2</span></div>
-        <div class="step-content"><h3>Data collection</h3><p>Your records for ngo accounting services are shared through a secure, organised handoff.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">3</span></div>
-        <div class="step-content"><h3>Recording</h3><p>We capture your NGO &amp; Non-Profit activity precisely, so the books reflect reality.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">4</span></div>
-        <div class="step-content"><h3>Reconciliation</h3><p>Regular reconciliation keeps ngo accounting services clean and trustworthy.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">5</span></div>
-        <div class="step-content"><h3>Review</h3><p>Nothing is finalised until a CA has reviewed it for accuracy and compliance.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">6</span></div>
-        <div class="step-content"><h3>Reporting</h3><p>Reporting makes ngo accounting services useful — you see the story behind the numbers.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">7</span></div>
-        <div class="step-content"><h3>Compliance support</h3><p>We keep NGO &amp; Non-Profit Accounting aligned with GST, TDS and statutory timelines.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">8</span></div>
-        <div class="step-content"><h3>Ongoing review</h3><p>We keep improving controls and answer your questions as you grow.</p></div></div></div></section>
-<section id="documents" class="sec"><h2>Paperwork for NGO &amp; Non-Profit Accounting</h2><div class="table-wrap"><table><thead><tr><th>Document</th><th>Why It's Needed</th></tr></thead><tbody><tr><td>Bank and credit-card statements</td><td>So inflows and outflows can be reconciled fully.</td></tr><tr><td>Sales and purchase invoices</td><td>With GST details, so tax is captured correctly.</td></tr><tr><td>GST and tax details</td><td>So compliance for NGO &amp; Non-Profit Accounting stays in step.</td></tr><tr><td>Existing books or trial balance</td><td>To carry opening balances forward accurately.</td></tr></tbody></table></div></section>
-<section id="errors" class="sec"><h2>NGO &amp; Non-Profit Mistakes We Help You Avoid</h2><div class="table-wrap"><table><thead><tr><th>Mistake</th><th>What Goes Wrong</th></tr></thead><tbody><tr><td>Unreconciled bank balance</td><td>A gap between books and bank that hides real problems.</td></tr><tr><td>Mixed personal and business spends</td><td>Owner expenses booked as business, distorting profit and tax.</td></tr><tr><td>Wrong tax head or rate</td><td>Transactions posted to the wrong GST or TDS head, causing return mismatches.</td></tr><tr><td>Poor documentation</td><td>Missing invoices or approvals that fail an audit or lender review.</td></tr><tr><td>Inconsistent chart of accounts</td><td>Heads that change month to month, making reports unusable.</td></tr></tbody></table></div></section>
-<section id="fees" class="sec"><h2>What NGO &amp; Non-Profit Accounting Costs</h2>
-  <div class="fee-box"><span class="fee-label">Starting from</span><span class="fee-amount">INR 2499</span>
-  <span class="fee-note">Exl. GST and Govt. Charges</span></div>
-  <p>Final pricing depends on transaction volume, number of entities and the software you use. Share your details on WhatsApp for a clear, itemised quote.</p>
-  <p class="disclaimer">Fees shown are indicative starting points and may vary with scope; taxes and government charges are additional.</p></section>
-<section id="timeline" class="sec"><h2>NGO &amp; Non-Profit Turnaround &amp; Cadence</h2><p>Most ngo &amp; non-profit engagements go live within a week of handover. From there we hold a steady monthly close, with one-off or backlog work planned and dated in advance.</p></section>
-<section id="why-us" class="sec"><h2>What Sets Our NGO &amp; Non-Profit Accounting Apart</h2><div class="benefits"><div class="benefit"><h3>Responsive support</h3><p>A named point of contact who answers when you need them.</p></div><div class="benefit"><h3>India-wide, remote-first</h3><p>Location is no barrier — ngo accounting services is delivered remotely and securely.</p></div><div class="benefit"><h3>Clear, usable reporting</h3><p>Reporting turns ngo accounting services into insight, not just entries.</p></div><div class="benefit"><h3>Compliance-aware</h3><p>We build compliance into the routine, so filings are never a scramble.</p></div><div class="benefit"><h3>Transparent pricing</h3><p>You know what you pay for NGO &amp; Non-Profit Accounting before we start.</p></div><div class="benefit"><h3>Qualified CA and CS oversight</h3><p>Every set of books is reviewed by qualified professionals, not just data-entry staff.</p></div></div></section>
-<section id="faqs" class="sec"><h2>Common Questions About NGO &amp; Non-Profit Accounting</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" type="button">What is NGO accounting, and how does it differ from business accounting?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>NGO accounting is fund-based accounting that tracks money by donor and project rather than by profit. Instead of an income statement aimed at owners&#x27; returns, an NGO prepares receipts and payments, income and expenditure, and a balance sheet showing restricted and unrestricted funds. This ensures every grant is spent and reported against its intended purpose.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What accounting method do NGOs, trusts and societies follow?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Most Indian NGOs follow fund-based accounting on an accrual or hybrid basis, segregating restricted funds tied to specific donors from general funds. Section 8 companies additionally follow the Companies Act and applicable accounting standards. Our CA-led team sets up ledgers grant-by-grant so utilisation, closing balances and donor reporting stay accurate and audit-ready.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Do NGOs pay tax in India?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>NGOs registered under Section 12A are exempt from income tax on income applied to charitable purposes, provided at least 85% of income is spent on objects each year. Without 12A registration, an NGO is taxed like any entity. We maintain books that evidence application of funds and file the required income tax and audit forms.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is a statutory audit compulsory for an NGO or trust?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes, in most cases. A trust, society or Section 8 company must get its accounts audited by a Chartered Accountant if income exceeds the basic exemption limit, and 12A-registered entities must file Form 10B. FCRA-registered NGOs face a separate audit too. We prepare audit-ready books and coordinate with your auditor for timely filing.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What does an accountant actually do for an NGO?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>An NGO accountant records donations and grants, tracks spending against each project budget, reconciles bank and FCRA accounts, and prepares utilisation certificates and donor reports. They also handle TDS, GST where applicable, and the annual income and expenditure statement. Patron Accounting manages all of this so trustees can focus on programmes, not paperwork.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How do you prepare financial statements for an NGO?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>We prepare a receipts and payments account, an income and expenditure account and a balance sheet, with schedules showing each restricted fund separately. Assets bought from grants are tracked, and closing fund balances are reconciled to bank. These statements satisfy 12A, FCRA and donor requirements and form the basis of the annual CA audit.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Which structure is better for an NGO - trust, society or Section 8 company?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>It depends on scale and governance needs. A trust suits small family-run charities, a society suits membership-based groups, and a Section 8 company suits NGOs seeking credibility, CSR funding and stronger compliance. All three can obtain 12A, 80G and FCRA registration. We advise on the fit and then maintain books appropriate to the structure you choose.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How much does professional NGO accounting cost each month?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>At Patron Accounting, NGO and non-profit accounting starts at INR 2499 per month, exclusive of GST and government charges. The fee depends on transaction volume, number of grants or projects, and whether you have FCRA funds requiring separate books. A fixed monthly quote is shared after understanding your donor base and reporting obligations.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can you maintain our FCRA books and the designated FCRA bank account?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes. For NGOs receiving foreign contributions, we maintain FCRA funds in a separate set of books linked to the designated SBI New Delhi account, record every foreign donation and utilisation, and prepare the annual FC-4 return. Keeping FCRA money strictly segregated from domestic funds is essential to stay compliant with the FCRA, 2010.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How do you keep our 12A and 80G registrations compliant?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>We ensure at least 85% of income is applied to charitable objects, maintain donation records that support 80G deduction claims for donors, and file Form 10BD statements of donations plus Form 10B or 10BB audit reports. Accurate fund-based books are what protect your 12A exemption and your donors&#x27; 80G benefits at renewal.</p></div></div></div></section>
-<section class="final-cta"><h2>Ready to get your books in order?</h2>
-  <p>Talk to Patron's CA &amp; CS team about ngo accounting services for your business anywhere in India.</p>
-  <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a></section>
-<div class="page-meta"><span class="byline">By CA &amp; CS Team</span> · <span class="last-updated">Last Updated: 10 July 2026</span></div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+    <div class="stats-container">
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
+            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+        </div>
+        <div class="certifications">
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+        </div>
+    </div>
 </div>
+
+<!-- TOC NAVIGATION -->
+<div class="toc-section">
+    <div class="toc-container">
+        <button class="toc-arrow left" id="tocLeft">&#10094;</button>
+        <div class="toc-wrapper" id="tocWrapper">
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+            <a href="#what-section" class="toc-btn">What Is It</a>
+            <a href="#who-section" class="toc-btn">Who Needs It</a>
+            <a href="#services-section" class="toc-btn">Our Services</a>
+            <a href="#procedure-section" class="toc-btn">Process</a>
+            <a href="#documents-section" class="toc-btn">Documents</a>
+            <a href="#challenges-section" class="toc-btn">Challenges</a>
+            <a href="#fees-section" class="toc-btn">Fees</a>
+            <a href="#timeline-section" class="toc-btn">Deadlines</a>
+            <a href="#benefits-section" class="toc-btn">Benefits</a>
+            <a href="#comparison-section" class="toc-btn">DIY vs Pro</a>
+            <a href="#faq-section" class="toc-btn">FAQs</a>
+        </div>
+        <button class="toc-arrow right" id="tocRight">&#10095;</button>
+    </div>
+</div>
+
+<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+<section class="content-section" id="overview-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">NGO and Non-Profit Accounting Services - Overview</h2>
+            <div class="content-text">
+                <div class="highlight-box" style="margin-bottom:20px;">
+                    <p><strong>&#128204; TL;DR - NGO and Non-Profit Accounting Services at a Glance</strong></p>
+                    <p>NGOs in India must hold active Section 12AB registration (income tax exemption), Section 80G(5) registration (donor deductibility), FCRA registration for foreign funds, and CSR-1 for corporate grants. Annual compliance includes ITR-7 by 31 October, Form 10B audit (if gross receipts exceed Rs 5 crore), and FCRA Form FC-4 by 31 December. Patron Accounting provides full NGO compliance from Rs 3,500 per month.</p>
+                </div>
+                <p>Non-profit accounting in India requires far more than maintaining donation registers. A charitable trust receiving CSR grants must hold a valid CSR-1 registration number. An NGO receiving a foreign donation without FCRA registration commits an offence under the FCRA, 2010. A trust that allows its Section 12AB registration to lapse will find all donations taxable until re-registration.</p>
+                <p>NGOs, charitable trusts, societies, and Section 8 companies operate under a specialist compliance framework distinct from commercial entities. Income tax exemption requires Section 12AB; donor deductibility requires 80G(5); foreign funding requires FCRA; and CSR grants require Form CSR-1. Patron Accounting manages the entire compliance lifecycle.</p>
+                <p>Content is reviewed quarterly for accuracy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+<section class="content-section" id="what-section">
+    <div class="content-container">
+        <div class="two-column">
+            <div class="column-content">
+                <h2 class="section-title">What is NGO and Non-Profit Accounting?</h2>
+                <div class="content-text what-is-definition">
+                    
+                    <p>NGO and non-profit accounting is specialist financial management for charitable trusts, societies, and Section 8 companies covering income tax exemption under Sections 11 and 12 (via Section 12AB registration), donor deductibility under Section 80G(5), FCRA compliance for foreign donations, CSR-1 registration for corporate grants, ITR-7 filing, and statutory audit under Form 10B or 10BB.</p>
+                    <p>Unlike commercial accounting, NGO accounting requires fund-wise separation of corpus donations, restricted project grants, CSR grants, and foreign contributions (in separate FCRA books). Income applied to charitable objects under Section 2(15) of the IT Act is exempt; accumulation is limited to 15% per year with the balance applied within 5 years.</p>
+                    <p>Patron Accounting provides end-to-end CA and CS services for 300+ NGOs across India, handling 12AB/80G registrations, FCRA returns, CSR-1 filings, and annual ITR-7 compliance.</p>
+
+                </div>
+                <div class="highlight-box" style="margin-top:20px;">
+                    <p><strong>Key Terms for NGO and Non-Profit Accounting:</strong></p>
+                    <ul>
+                        <li><strong>Section 12AB:</strong> Registration for income tax exemption; valid 5 years (10 years for NGOs with receipts up to Rs 5 crore); Form 10A (new) or 10AB (renewal)</li>
+                        <li><strong>Section 80G(5):</strong> Donor can claim 50% deduction; requires 12AB; Form 10G application; Form 10BD donor statement by 31 May; Form 10BE certificates to donors</li>
+                        <li><strong>FCRA 2010:</strong> Foreign Contribution (Regulation) Act - MHA registration via Form FC-3A; SBI FCRA account at New Delhi; admin cap 20%; annual FC-4 by 31 December</li>
+                        <li><strong>Form CSR-1:</strong> MCA registration mandatory for NGOs receiving CSR funds from Section 135 companies; web-based process from July 2025; CA certification of Part 2</li>
+                        <li><strong>ITR-7:</strong> Annual return under Section 139(4A) for all 12AB-registered NGOs even if income is nil; due 31 October (audit cases)</li>
+                        <li><strong>Form 10B/10BB:</strong> Audit forms - 10B if gross receipts exceed Rs 5 crore or FC received or income applied outside India; 10BB for others</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="column-image">
+                <div class="illustration-placeholder">
+                    <div class="illustration-icon" style="max-width:240px;">
+                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Building / Tribunal -->
+                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
+                            <!-- Roof / Pediment -->
+                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
+                            <!-- Columns -->
+                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <!-- Door -->
+                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
+                            <!-- Scale of Justice icon -->
+                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
+                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
+                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
+                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
+                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
+                            <!-- Green check badge -->
+                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
+                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- 12AB tag -->
+                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
+                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">12AB</text>
+                            <!-- Label -->
+                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">NGO and Non-Profit Accounting</text>
+                        </svg>
+                    </div>
+                    <div class="illustration-badge">
+                        <span>NGO Specialist</span>
+                        <strong>12AB, 80G, FCRA, CSR-1 Expert</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section" id="who-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Who Needs NGO and Non-Profit Accounting Services</h2>
+            <div class="content-text">
+                
+                <p>The following entities require specialised NGO accounting and compliance support:</p>
+                <ul>
+                    <li>Public charitable trusts (state trust acts) - 12AB + 80G + ITR-7 + Form 10B/10BB + FCRA if receiving foreign grants</li>
+                    <li>Societies (Societies Registration Act, 1860) - annual renewal + 12AB + 80G + CSR-1 + ITR-7</li>
+                    <li>Section 8 companies (Companies Act, 2013) - full Companies Act compliance + 12AB + 80G + FCRA + CSR-1</li>
+                    <li>Religious trusts and institutions - Section 11 exemption + Form 10BB + ITR-7</li>
+                    <li>Educational and medical NGOs - Section 10(23C) or 12AB route; separate books for business income under Section 11(4A)</li>
+                    <li>NGOs receiving CSR grants - Form CSR-1 mandatory with MCA; valid 12A and 80G required; 3-year track record</li>
+                    <li>NGOs receiving foreign donations - FCRA Form FC-3A; single SBI account; annual FC-4; admin cap 20%</li>
+                </ul>
+                <div class="table-responsive-wrapper" style="margin-top:20px;">
+                <table>
+                    <thead><tr><th>Entity Type</th><th>Legal Structure</th><th>Key Compliance</th></tr></thead>
+                    <tbody>
+                        <tr><td>Public Charitable Trust</td><td>Indian Trusts Act or State Trust Act</td><td>12AB + 80G + ITR-7 + Form 10B/10BB</td></tr>
+                        <tr><td>Society</td><td>Societies Registration Act, 1860</td><td>12AB + 80G + Registrar renewal + ITR-7</td></tr>
+                        <tr><td>Section 8 Company</td><td>Companies Act, 2013</td><td>Companies Act + 12AB + 80G + CSR-1 + ITR-7</td></tr>
+                        <tr><td>Religious Trust</td><td>Indian Trusts Act / state law</td><td>Section 11 exemption + Form 10BB + ITR-7</td></tr>
+                        <tr><td>NGO with Foreign Funds</td><td>Any structure</td><td>FCRA FC-3A + FC-4 annual + 20% admin cap</td></tr>
+                        <tr><td>NGO with CSR Grants</td><td>Must hold 12A and 80G</td><td>Form CSR-1 with MCA + 3-year track record</td></tr>
+                    </tbody>
+                </table>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5: OUR SERVICES -->
+<section class="content-section" id="services-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">6 Core NGO Accounting and Compliance Services</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <tbody>
+                        <tr><td>12AB and 80G Registration and Renewal</td><td>Form 10A (new/provisional) or 10AB (renewal); 80G via Form 10G; Darpan ID; revalidation for pre-2021 registrations; 10-year validity for NGOs with receipts up to Rs 5 crore (Finance Act 2025)</td></tr>
+                        <tr><td>FCRA Registration and Annual Compliance</td><td>Form FC-3A to MHA; SBI FCRA account setup; separate FC books; quarterly website disclosure; annual FC-4 by 31 Dec; admin monitoring (20% cap); FC-3C renewal; Form FC-6 for office bearer changes</td></tr>
+                        <tr><td>CSR-1 Registration and Grant Management</td><td>Form CSR-1 on MCA portal (web-based from July 2025); CA certification Part 2; Unique CSR Registration Number; CSR project documentation for corporate donors</td></tr>
+                        <tr><td>ITR-7 Filing and Annual Audit</td><td>ITR-7 under Section 139(4A); Form 10B/10BB audit; Form 10BD donor statement by 31 May; Form 10BE certificates; Section 11/12 application and accumulation (15% + Form 10)</td></tr>
+                        <tr><td>Bookkeeping and Fund Accounting</td><td>Fund-wise accounting: corpus, restricted grants, CSR, foreign contributions (separate FCRA books); Income and Expenditure Account; Receipts and Payments; Balance Sheet per Rule 17AA</td></tr>
+                        <tr><td>Payroll and TDS for NGOs</td><td>Section 192 TDS on salary; Section 194J on consultants (10% above Rs 50,000); Section 194C on contractors; Form 24Q/26Q quarterly; PF under EPF Act; ESI for 10+ employees</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 7: 7-STEP PROCESS -->
+<section class="steps-section" id="procedure-section">
+    <div class="section-container">
+        <header class="section-header" style="text-align:center;margin-bottom:48px;">
+            <span class="section-eyebrow">Our Process</span>
+            <h2 class="section-title">Our 7-Step NGO Compliance Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">From entity structure audit and 12AB registration through to annual audit and renewal monitoring, our structured process ensures complete tax, FCRA, and CSR compliance for your NGO.</p>
+        </header>
+        <div class="steps-container">
+            <div class="step-card">
+    <div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Entity Structure and Registration Audit</h3><p class="step-description">We assess the NGO's legal structure (trust, society, or Section 8 company), verify charitable objects under Section 2(15) of the IT Act, and check existing 12AB and 80G status.</p>
+        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Structure assessed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 12AB/80G status verified</span></div>
+    </div>
+    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="40" r="30" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="82" y1="62" x2="105" y2="85" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><rect x="42" y="28" width="36" height="24" rx="4" fill="#D4DCE8" stroke="#14365F" stroke-width="1"/></svg></div><span class="illustration-label">Audit Complete</span><span class="step-number-large">01</span></div></div>
+</div>
+<div class="step-card">
+    <div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">12AB and 80G Registration</h3><p class="step-description">We prepare and file Form 10A (new/provisional) or Form 10AB (renewal) on the IT e-filing portal. After 12AB approval, we apply for 80G(5) via Form 10G and register on NITI Aayog Darpan.</p>
+        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Form 10A/10AB filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 80G and Darpan obtained</span></div>
+    </div>
+    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="30" x2="90" y2="30" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><path d="M85 55l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">12AB Approved</span><span class="step-number-large">02</span></div></div>
+</div>
+<div class="step-card">
+    <div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">FCRA Registration Setup</h3><p class="step-description">For NGOs receiving foreign donations: Form FC-3A to MHA, SBI FCRA account at Sansad Marg New Delhi, separate FC books, and quarterly website disclosure of foreign funds.</p>
+        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> FC-3A filed with MHA</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> SBI FCRA account opened</span></div>
+    </div>
+    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="35" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="65" y="15" width="35" height="55" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><line x1="55" y1="42" x2="65" y2="42" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/></svg></div><span class="illustration-label">FCRA Registered</span><span class="step-number-large">03</span></div></div>
+</div>
+<div class="step-card">
+    <div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">CSR-1 Registration</h3><p class="step-description">Form CSR-1 on MCA portal (web-based from July 2025) with CA certification of Part 2. We obtain the Unique CSR Registration Number and prepare project documentation for corporate donors.</p>
+        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> CSR-1 filed on MCA</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Registration number obtained</span></div>
+    </div>
+    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="48" font-size="12" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">CSR-1</text><path d="M82 55l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">CSR-1 Approved</span><span class="step-number-large">04</span></div></div>
+</div>
+<div class="step-card">
+    <div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Annual Compliance Calendar Setup</h3><p class="step-description">Full calendar: ITR-7 by 31 Oct, Form 10B/10BB audit, Form 10BD by 31 May, FC-4 by 31 Dec, quarterly TDS returns, monthly TDS deposits, PF/ESI contributions. Fund-wise books per Rule 17AA.</p>
+        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> All deadlines mapped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Fund-wise books set up</span></div>
+    </div>
+    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="15" y="10" width="90" height="18" rx="6" fill="#14365F"/><rect x="25" y="35" width="12" height="35" rx="2" fill="#F5A623" opacity="0.7"/><rect x="45" y="40" width="12" height="30" rx="2" fill="#10B981" opacity="0.6"/><rect x="65" y="35" width="12" height="35" rx="2" fill="#F5A623" opacity="0.7"/><rect x="85" y="45" width="12" height="25" rx="2" fill="#10B981" opacity="0.6"/></svg></div><span class="illustration-label">Calendar Active</span><span class="step-number-large">05</span></div></div>
+</div>
+<div class="step-card">
+    <div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Audit and Annual Close</h3><p class="step-description">Form 10B/10BB income tax audit; ITR-7 filing; FC-4 FCRA return with CA certification; Form 10BD/10BE for donors; Section 8 company ROC returns (AOC-4 + MGT-7).</p>
+        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit completed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> All returns filed</span></div>
+    </div>
+    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="10" width="70" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="37" r="20" fill="#E8F5E9" stroke="#10B981" stroke-width="2"/><path d="M50 37l7 7 14-14" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Year Closed</span><span class="step-number-large">06</span></div></div>
+</div>
+<div class="step-card">
+    <div class="step-content"><span class="step-badge">Step 7</span><h3 class="step-title">Registration Renewal Monitoring</h3><p class="step-description">Track all expiry dates (12AB: 5 years, 80G: 5 years, FCRA: 5 years) and initiate renewal at least 6 months before expiry. Society renewals, Section 8 ROC filings, and Darpan annual updates.</p>
+        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Renewals tracked</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 6-month early alerts</span></div>
+    </div>
+    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="45" r="28" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="60" y1="25" x2="60" y2="45" stroke="#14365F" stroke-width="2"/><line x1="60" y1="45" x2="78" y2="45" stroke="#F5A623" stroke-width="2"/><circle cx="60" cy="45" r="3" fill="#14365F"/></svg></div><span class="illustration-label">Renewals Monitored</span><span class="step-number-large">07</span></div></div>
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 8: DOCUMENTS REQUIRED -->
+<section class="content-section" id="documents-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Documents Required for NGO Accounting and Compliance</h2>
+            <div class="content-text">
+                
+                <h3>For 12AB and 80G Registration</h3>
+                <ul>
+                    <li>PAN card of the NGO</li>
+                    <li>Trust Deed (trusts), MOA and Rules (societies), or MOA/AOA with Section 8 licence (companies)</li>
+                    <li>Registration certificate from relevant authority</li>
+                    <li>List of trustees/directors/governing body with PAN and Aadhaar</li>
+                    <li>Audited financials for last 3 years or since inception</li>
+                    <li>Books of accounts per Rule 17AA of IT Rules</li>
+                    <li>Activity and project reports for last 3 years</li>
+                    <li>NITI Aayog Darpan ID (mandatory for 80G and government grants)</li>
+                </ul>
+                <h3>For FCRA Registration</h3>
+                <ul>
+                    <li>All 12AB and 80G documents above</li>
+                    <li>Evidence of own spending of at least Rs 15 lakh in chosen welfare field in last 3 years</li>
+                    <li>Detailed audited statements for last 3 years per FCRA Amendment Rules 2025</li>
+                    <li>Aadhaar of all office bearers (mandatory per FCRA Amendment 2020)</li>
+                    <li>Bank details for proposed FCRA SBI designated account</li>
+                </ul>
+                <h3>For CSR-1 and Annual Compliance</h3>
+                <ul>
+                    <li>Valid 12A and 80G certificates and 3-year track record for CSR-1</li>
+                    <li>PAN, 12AB certificate, audited financials, Form 10B/10BB audit report for ITR-7</li>
+                    <li>Complete donor register with PAN of all donors above Rs 10,000 for Form 10BD</li>
+                    <li>Separate FC books, bank statements, CA certification for FCRA Form FC-4</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 9: CHALLENGES -->
+<section class="content-section" id="challenges-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">4 Common Compliance Challenges for NGOs and How We Solve Them</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <tbody>
+                        <tr><td>12AB Registration Lapse</td><td>All donations become taxable if 12AB registration expires without renewal</td><td>Calendar tracking with Form 10AB filed at least 6 months before expiry; 10-year renewal eligibility tracking for NGOs under Rs 5 crore</td></tr>
+                        <tr><td>FCRA Violations</td><td>Receiving foreign funds without registration is a criminal offence; bank accounts frozen; licence cancelled</td><td>FCRA health checks, admin expense ratio monitoring, FC-4 filed by 31 December, quarterly website disclosure</td></tr>
+                        <tr><td>Form 10BD Non-Filing</td><td>Donors cannot claim 80G deduction; reduced future donations</td><td>Year-round donor register maintenance; Form 10BD filed by 31 May; Form 10BE issued to all qualifying donors</td></tr>
+                        <tr><td>CSR-1 Eligibility Gaps</td><td>NGO cannot receive corporate CSR grants without valid registration</td><td>Pre-eligibility check for valid 12A/80G and 3-year track record; CA Part 2 certification; web-based filing from July 2025</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 10: FEES -->
+<section class="content-section" id="fees-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">NGO Accounting and Compliance - Fees and Pricing 2026</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <tbody>
+                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 2,499 (Exl GST and Govt. Charges)</td></tr>
+                        <tr><td>Basic Annual Compliance Package</td><td>Rs 3,500/month (ITR-7 + TDS returns + bookkeeping)</td></tr>
+                        <tr><td>12AB Registration (New/Provisional)</td><td>Rs 8,000 onwards (Form 10A; complexity-based)</td></tr>
+                        <tr><td>80G Registration</td><td>Rs 6,000 onwards (Form 10G; requires prior 12AB)</td></tr>
+                        <tr><td>FCRA Registration</td><td>Rs 20,000 onwards (Form FC-3A + FC account setup)</td></tr>
+                        <tr><td>FCRA Annual Return (Form FC-4)</td><td>Rs 5,000/year (CA certification + FCRA portal filing)</td></tr>
+                        <tr><td>CSR-1 Registration</td><td>Rs 7,000 onwards (CA certification Part 2; MCA portal)</td></tr>
+                        <tr><td>Form 10B / 10BB Audit</td><td>Rs 8,000 onwards (based on receipts and complexity)</td></tr>
+                        <tr><td>Fund-Wise Bookkeeping and MIS</td><td>Rs 5,000/month (restricted and unrestricted fund separation)</td></tr>
+                        <tr><td>Full NGO Compliance Package</td><td>Rs 15,000/month (12AB + FCRA + CSR-1 + ITR-7 + Audit + Payroll)</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
+                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
+                <p style="margin-top:16px;"><strong>Get a free NGO and Non-Profit Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20NGO%20Accounting%20services%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 11: TIMELINE -->
+<section class="content-section" id="timeline-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">NGO Compliance Calendar - Key Deadlines</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <tbody>
+                        <tr><td>6 months before expiry</td><td>12AB renewal (Form 10AB), 80G renewal, FCRA renewal (Form FC-3C)</td></tr>
+                        <tr><td>7th of each month</td><td>TDS deposit (employee salary and vendor payments)</td></tr>
+                        <tr><td>31st after quarter end</td><td>Quarterly TDS returns (Form 26Q / 24Q)</td></tr>
+                        <tr><td>31 May</td><td>Form 10BD (Donor Disclosure Statement for 80G claims)</td></tr>
+                        <tr><td>31 October</td><td>ITR-7 annual return (audit cases)</td></tr>
+                        <tr><td>31 December</td><td>FCRA Form FC-4 annual return with CA certification</td></tr>
+                        <tr><td>30 days from AGM</td><td>Section 8 company: AOC-4 financial statements with ROC</td></tr>
+                        <tr><td>60 days from AGM</td><td>Section 8 company: Form MGT-7 annual return</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <div class="highlight-box" style="margin-top:16px;">
+                    
+                    <p><strong>Critical:</strong> A single missed 12AB renewal converts ALL donations to taxable income. Failure to file Form 10BD by 31 May means donors cannot claim 80G deductions. FCRA Form FC-4 late filing attracts 5% penalty on total foreign contributions received. Patron Accounting monitors all deadlines with advance alerts.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12: BENEFITS -->
+<section class="why-choose-section" id="benefits-section">
+    <div class="section-container">
+        <div style="text-align:center;margin-bottom:48px;">
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
+            <h2 class="section-title">Why Professional Accounting Matters for NGOs</h2>
+        </div>
+        <div class="features-grid">
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Protect Section 11 Exemption</h3><p>A missed 12AB renewal converts all donations to taxable income. Professional monitoring ensures the renewal window is never missed.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Avoid FCRA Violations</h3><p>Receiving foreign donations without valid FCRA is a criminal offence. We monitor FCRA status, admin expense ratio, and file FC-4 by 31 December.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V7m0 10v1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Maximise Donor Deductibility</h3><p>Form 10BD filed on time and Form 10BE issued correctly ensures donors claim 80G deduction. Failure reduces donation inflows.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3>Unlock CSR Grants</h3><p>Form CSR-1 is mandatory for corporate CSR funds. Correct documentation and CA certification increases eligibility and credibility.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Grant Agency Credibility</h3><p>FCRA-compliant books, audited financials, and ITR-7 track record are minimum requirements for international grants and government schemes.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>Scale Fund Programmes</h3><p>Fund-wise bookkeeping (corpus, restricted, CSR, foreign) gives NGO boards full visibility into each programme's financial health.</p></article>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12A: SOCIAL PROOF -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Why Patron Accounting for NGOs</h2>
+            <div class="content-text">
+                
+                <div class="highlight-box">
+                    <p><em>300+ NGOs, charitable trusts, and Section 8 companies served | 500+ 12AB and 80G registrations filed | 150+ FCRA returns annually | 12+ years NGO sector experience | 4.8/5 client rating</em></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+<section class="content-section" id="comparison-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">DIY vs Professional NGO Accounting - 7-Point Comparison</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Aspect</th><th>Patron Accounting</th><th>DIY / In-House</th></tr></thead>
+                    <tbody>
+                        <tr><td>12AB Renewal</td><td>Calendar tracking + Form 10AB filed 6 months early</td><td>Missed deadlines causing taxable year</td></tr>
+                        <tr><td>FCRA Admin Cap</td><td>Monthly admin expense monitoring + FCRA books</td><td>Inadvertent breach of 20% limit</td></tr>
+                        <tr><td>Form 10BD Filing</td><td>Filed by 31 May; Form 10BE issued on time</td><td>Often omitted; donors cannot claim 80G</td></tr>
+                        <tr><td>CSR-1 Eligibility</td><td>Pre-eligibility check + CA Part 2 certification</td><td>Applied without valid 12A/80G; rejected</td></tr>
+                        <tr><td>Fund Accounting</td><td>Separate fund registers per Rule 17AA</td><td>Mixed restricted and unrestricted funds</td></tr>
+                        <tr><td>FCRA Books</td><td>Separate FCRA books; quarterly website disclosure</td><td>Combined with domestic books; non-compliant</td></tr>
+                        <tr><td>Cost</td><td>Transparent retainer from Rs 3,500/month</td><td>Penalties + re-registration fees + taxable income</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 14: RELATED SERVICES -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Related Services for NGOs and Non-Profits</h2>
+            <div class="content-text">
+                
+                <p>Patron Accounting also provides these complementary services for NGOs:</p>
+                <ul>
+                    <li><a href="/ngo-registration">NGO Registration</a> - Trust, society, or Section 8 company registration with full documentation support</li>
+                    <li><a href="/gst-registration">GST Registration</a> - For NGOs with incidental commercial activities requiring GST compliance</li>
+                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-7 for trusts, societies, and Section 8 companies</li>
+                    <li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly Form 26Q and 24Q for NGO employees and vendors</li>
+                    <li><a href="/section8-company-registration">Section 8 Company Registration</a> - Company formation for NGOs under Companies Act 2013</li>
+                    <li><a href="#">12A and 80G Registration</a> - Standalone 12AB and 80G registration service</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 15A: LEGAL FRAMEWORK -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Legal and Regulatory Framework for NGO Accounting in India</h2>
+            <div class="content-text">
+                
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Law / Provision</th><th>Key Requirement</th><th>Accounting Impact</th></tr></thead>
+                    <tbody>
+                        <tr><td><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Sections 11 and 12, IT Act 1961</a></td><td>Income from property held for charitable purposes exempt if applied to objects; 15% accumulation permitted</td><td>Annual application of income; Form 10 accumulation filing</td></tr>
+                        <tr><td>Section 12AB, IT Act 1961</td><td>Registration of charitable trusts; Form 10A (new) or 10AB (renewal); valid 5 years; 10 years for NGOs up to Rs 5 crore (Finance Act 2025)</td><td>Active 12AB = exemption; lapsed = fully taxable</td></tr>
+                        <tr><td>Section 80G(5), IT Act 1961</td><td>Donor deductibility approval; Form 10G application; Form 10BD by 31 May; Form 10BE to donors</td><td>Annual donor database; 10BD/10BE compliance</td></tr>
+                        <tr><td><a href="https://fcraonline.nic.in" target="_blank" rel="noopener">FCRA 2010 + 2020 Amendment</a></td><td>Foreign contributions require MHA registration; SBI FCRA account; admin cap 20%; no sub-granting; Aadhaar mandatory</td><td>Separate FCRA books; FC-4 by 31 Dec; admin monitoring</td></tr>
+                        <tr><td><a href="https://www.mca.gov.in" target="_blank" rel="noopener">Companies (CSR Policy) Rules, 2021</a></td><td>Form CSR-1 mandatory for receiving CSR funds from Section 135 companies; web-based from July 2025; CA Part 2</td><td>CSR-1 registration prerequisite for corporate grants</td></tr>
+                        <tr><td>Rule 17AA, IT Rules 1962</td><td>Books NGO must maintain: cash book, ledger, journal, donation receipts, deed, governing body list</td><td>Mandatory bookkeeping for 12AB eligibility</td></tr>
+                        <tr><td>Section 139(4A), IT Act 1961</td><td>Mandatory ITR-7 filing for charitable trusts even if income is nil</td><td>Annual ITR-7 with 12AB certificate and audit report</td></tr>
+                        <tr><td>Income Tax (3rd Amendment) Rules 2023</td><td>Form 10B if gross receipts exceed Rs 5 crore or FC received; Form 10BB for others</td><td>Audit report format and applicability threshold</td></tr>
+                    </tbody>
+                </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+    <div class="content-container">
+        <div class="text-content">
+            <div class="faq-expanded">
+                <aside class="faq-expanded__aside">
+                    <h2 class="faq-expanded__title">Frequently Asked Questions - NGO Accounting and Compliance</h2>
+                    <p class="faq-expanded__lead">Get answers about 12AB and 80G registration, FCRA compliance, CSR-1, ITR-7, Form 10BD, Form 10B audit, and NGO compliance in India.</p>
+                    @include('partials.faq-enquiry-form', ['enquiryService' => 'NGO Accounting and Compliance'])
+                </aside>
+                <div class="faq-expanded__list">
+                    <div class="faq-expanded__item" id="faq-1">
+                        <h3 class="faq-expanded__q">What is 12A and 80G registration for NGOs in India?</h3>
+                        <div class="faq-expanded__a"><p>Section 12AB of the Income Tax Act, 1961 is the registration that grants income tax exemption to an NGO's income when applied to its charitable objects as defined under Section 2(15). Without 12AB, all donations are fully taxable. The Finance Act 2020 replaced old Sections 12A and 12AA with Section 12AB. New registration is via Form 10A (provisional for 3 years) and renewed via Form 10AB (valid 5 years; 10 years for NGOs with gross receipts up to Rs 5 crore per Finance Act 2025). Section 80G(5) is a separate approval enabling donors to claim 50% deduction; it requires 12AB as a prerequisite.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-2">
+                        <h3 class="faq-expanded__q">What is FCRA registration and when is it mandatory for NGOs?</h3>
+                        <div class="faq-expanded__a"><p>FCRA registration under the Foreign Contribution (Regulation) Act, 2010 is mandatory for any NGO receiving charitable funds from donors outside India. Application is via Form FC-3A to the Ministry of Home Affairs. The NGO must be registered in India, operational for at least 3 years, and have spent minimum Rs 15 lakh on declared activities. The 2020 Amendment requires all foreign contributions through a single SBI FCRA account at New Delhi; admin expenses cannot exceed 20%; sub-granting is prohibited; all office bearers must have Aadhaar. Annual return Form FC-4 must be filed by 31 December with CA certification.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-3">
+                        <h3 class="faq-expanded__q">What is Form CSR-1 and is it mandatory for NGOs receiving CSR funding?</h3>
+                        <div class="faq-expanded__a"><p>Form CSR-1 is mandatory for all NGOs wishing to receive CSR funds from companies under Section 135 of the Companies Act, 2013. Introduced under Companies (CSR Policy) Amendment Rules, 2021, effective 1 April 2021. The MCA moved to a web-based process in July 2025. Eligibility requires valid 12A and 80G certificates and minimum 3-year track record. Part 2 requires CA certification. A Unique CSR Registration Number is issued on approval. NGOs without valid CSR-1 cannot legally receive CSR contributions.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-4">
+                        <h3 class="faq-expanded__q">Which ITR form do NGOs and charitable trusts file?</h3>
+                        <div class="faq-expanded__a"><p>All trusts, societies, and Section 8 companies whose income is from property held for charitable or religious purposes must file ITR-7 under Section 139(4A). ITR-7 must be filed even if income is nil. For audit cases (Form 10B or 10BB required), deadline is 31 October. Form 10B applies if gross receipts exceed Rs 5 crore or income applied outside India or foreign contributions received; Form 10BB for others. Failure to file can result in penalties up to Rs 10,000 and jeopardise 12AB and 80G registrations.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-5">
+                        <h3 class="faq-expanded__q">What is Form 10BD and why must NGOs file it?</h3>
+                        <div class="faq-expanded__a"><p>Form 10BD is a Statement of Particulars of Donors required by all 80G-registered NGOs under Section 80G(5)(viii). It must be filed by 31 May each year, disclosing name, PAN, address, donation amount, and mode for each donor contributing above Rs 10,000. Only after 10BD is filed can the NGO issue Form 10BE certificates to donors for their 80G deduction claims. If not filed on time, donors lose the ability to claim 80G deductions, directly reducing future contributions.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-6">
+                        <h3 class="faq-expanded__q">What is the difference between Section 8 company and charitable trust for NGO compliance?</h3>
+                        <div class="faq-expanded__a"><p>A public charitable trust (governed by state trust acts) has simpler compliance: ITR-7, audited accounts, 12AB and 80G maintenance. A Section 8 company under Companies Act, 2013 carries full corporate compliance in addition: minimum 2 board meetings per year, AGM, AOC-4 within 30 days of AGM, Form MGT-7 within 60 days, ROC oversight, plus ITR-7, 12AB, 80G, FCRA, and CSR-1.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-7">
+                        <h3 class="faq-expanded__q">How can donors claim 80G deduction for donations to an NGO?</h3>
+                        <div class="faq-expanded__a"><p>The donee NGO must hold valid Section 80G(5) certificate and must file Form 10BD by 31 May. The donor obtains Form 10BE from the NGO, enters donation details in Schedule 80G of their ITR, and attaches Form 10BE as proof. Deduction is 50% of donated amount (subject to 10% of adjusted gross total income for general contributions). Cash donations above Rs 2,000 are not eligible for 80G deduction.</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Quick Answers -->
+            <div class="highlight-box" style="margin-top:32px;">
+                <p><strong>Quick Answers</strong></p>
+                <p><strong>What is NGO accounting?</strong><br>NGO accounting is specialised financial management for charitable trusts, societies, and Section 8 companies covering income tax exemption under Sections 11 and 12 via Section 12AB, donor deductibility via 80G(5), FCRA compliance for foreign donations, CSR-1 for corporate grants, ITR-7 filing, Form 10BD donor statements, and Form 10B/10BB audit.</p>
+                <p><strong>Is GST applicable on NGO activities?</strong><br>Most charitable activities and donations are outside GST scope. However, services provided for consideration (training, publications, events for fee) may attract GST. Incidental commercial activities under Section 11(4A) require separate books and may create GST obligation.</p>
+                <p><strong>How long does 12AB registration last?</strong><br>Section 12AB is valid for 5 years. For NGOs with gross receipts not exceeding Rs 5 crore in each of two preceding years, Finance Act 2025 provides 10-year validity on renewals after 31 March 2025. Renewal via Form 10AB must be filed at least 6 months before expiry.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 18: URGENCY CTA -->
+<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Compliance Deadlines - Do Not Miss These</h2>
+            <div class="content-text">
+                
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Deadline</th><th>Requirement</th><th>Penalty for Default</th></tr></thead>
+                    <tbody>
+                        <tr><td>6 months before expiry</td><td>12AB renewal (Form 10AB)</td><td>Lapsed 12AB: all donations become taxable</td></tr>
+                        <tr><td>6 months before expiry</td><td>80G renewal and FCRA renewal (Form FC-3C)</td><td>Lapsed 80G: donors cannot claim deduction; lapsed FCRA: foreign funds illegal</td></tr>
+                        <tr><td>7th of each month</td><td>TDS deposit</td><td>Interest under Section 201(1A), IT Act</td></tr>
+                        <tr><td>31st after quarter end</td><td>Quarterly TDS returns (26Q / 24Q)</td><td>Rs 200 per day under Section 234E</td></tr>
+                        <tr><td>31 May</td><td>Form 10BD (Donor Statement)</td><td>Donors cannot claim 80G; reduced future donations</td></tr>
+                        <tr><td>31 October</td><td>ITR-7 annual return (audit cases)</td><td>Penalty up to Rs 10,000; 12AB/80G compliance risk</td></tr>
+                        <tr><td>31 December</td><td>FCRA Form FC-4 with CA certification</td><td>5% penalty on total FC received; FCRA cancellation risk</td></tr>
+                        <tr><td>30 days from AGM</td><td>Section 8 company: AOC-4 with ROC</td><td>Rs 100 per day per officer under Companies Act</td></tr>
+                    </tbody>
+                </table>
+                </div>
+                <p style="margin-top:16px;"><strong>Do not risk your NGO's compliance status - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20NGO%20compliance." target="_blank">WhatsApp us</a> for a free compliance review.</strong></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONCLUSION + CTA BLOCK (Dark) -->
+<section class="content-section" style="background: var(--blue) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your NGO Compliance Today</h2>
+            <div class="content-text" style="text-align:left;">
+                
+                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">NGO and non-profit accounting in India is governed by an overlapping network of laws: the Income Tax Act 1961 (Sections 11, 12, 12AB, 80G, 139), the FCRA 2010 (as amended 2020 and 2025), the Companies Act 2013 (for Section 8 companies), state trust and society acts, and the Companies (CSR Policy) Rules 2021. A single compliance gap can result in lost tax exemptions, donor deductibility failures, frozen bank accounts, and criminal prosecution.</p>
+                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">Patron Accounting LLP provides ICAI-certified chartered accountants with deep NGO sector experience. From 12AB and 80G registration to FCRA annual returns, CSR-1 procurement, Form 10B audits, and ITR-7 filing, we manage your entire compliance lifecycle.</p>
+                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;"><strong>300+ NGOs served | 500+ 12AB/80G registrations | 150+ FCRA returns annually | Starting from Rs 3,500/month</strong></p>
+
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20NGO%20Accounting%20services%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20NGO%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20NGO%20Accounting%20and%20Compliance%20services.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+            </div>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">NGO Accounting Services Across India</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides 12AB, 80G, FCRA, CSR-1, and ITR-7 compliance services for NGOs across major Indian cities.</p>
+          
+            <div class="pa-city-block" style="margin-bottom:40px;">
+                <div class="pa-city-grid">
+                    <a href="/ngo-and-non-profit-accounting-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
+                    <a href="/ngo-accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+                    <a href="/ngo-and-non-profit-accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
+                    <a href="/ngo-and-non-profit-accounting-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+                </div>
+            </div>
+            <div class="pa-city-block">
+                <div class="pa-block-title">Related Services</div>
+                <div class="pa-block-sub">End-to-end support for NGO Accounting and Compliance</div>
+                <div class="pa-cross-grid">
+                    <a href="/ngo-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NGO Registration</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="#" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">12A and 80G Registration</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/section8-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Section 8 Company Registration</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/tds-return-filing-24q" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/fcra-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">FCRA Registration</div><div class="pa-card-sub">India</div></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTENT FRESHNESS FOOTER -->
+<section class="content-section" style="padding:32px;">
+    <div class="content-container">
+        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
+            <p><strong>Content Created:</strong> 15 January 2024 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">15 January 2024</span> &nbsp;|&nbsp; <strong>Next Review:</strong> March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
+            <p>This page is reviewed annually or upon changes to Finance Act, FCRA Amendment Rules, or MCA CSR notifications. Next review: March 2027.</p>
+        </div>
+    </div>
+</section>
+
+<!-- STICKY WHATSAPP BAR -->
+{{--
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
+        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Join Free &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div> 
+--}}
+@include('layouts.itr-season-strip')
+
+</main>
+
+
+<!-- Google Maps Places Library (for GMB reviews) -->
+
+
+<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
 <script>
-document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var a=this.parentElement;a.classList.toggle('open');});});
-document.querySelectorAll('.toc-pill,a[href^="#"]').forEach(function(l){l.addEventListener('click',function(e){var id=this.getAttribute('href');if(id&&id.length>1){var t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
+(function() {
+    // ============================================
+    // CONFIGURATION  -  Update these values
+    // ============================================
+    const CONFIG = {
+        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        // Fallback static reviews (shown if API fails or key not set)
+        fallbackReviews: [
+            {
+                author_name: "Subhendu Mishra",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Rajib Dutta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Nishikant Gurav",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Nikhil Nimbhorkar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
+                relative_time_description: "4 months ago"
+            },
+            {
+                author_name: "Sameer Mehta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Preeti Singh Rathor",
+                profile_photo_url: "",
+                rating: 5,
+                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Anita Gaur",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
+                relative_time_description: "5 months ago"
+            },
+            {
+                author_name: "Pankaj Arvikar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Sunny Ashpal",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
+                relative_time_description: "6 months ago",
+                role: "Director - Demandify Media",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+            },
+            {
+                author_name: "Anjanay Srivastava",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
+                relative_time_description: "4 months ago",
+                role: "Founder - Hunarsource Consulting",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+            }
+        ]
+    };
+
+    // ============================================
+    // HELPER: Generate star SVGs
+    // ============================================
+    function starsHTML(rating) {
+        let s = '';
+        for (let i = 0; i < 5; i++) {
+            s += i < rating
+                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
+                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+        }
+        return s;
+    }
+
+    // ============================================
+    // HELPER: Avatar color based on name
+    // ============================================
+    const avatarColors = ['', 'blue', 'teal', 'purple'];
+    function avatarClass(index) {
+        return avatarColors[index % avatarColors.length];
+    }
+
+    // ============================================
+    // RENDER: Build card HTML for a review
+    // ============================================
+    function buildVideoCard(review) {
+        return `
+        <div>
+            <div class="testi-video-card">
+                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
+                    <video preload="metadata" poster="${review.photoUrl || ''}">
+                        <source src="${review.videoUrl}" type="video/mp4">
+                    </video>
+                    <div class="testi-play-overlay">
+                        <div class="testi-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
+                </div>
+                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                    <div class="testi-avatar">
+                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
+                    </div>
+                    <div>
+                        <div class="testi-name">${review.author_name}</div>
+                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function buildQuoteCard(review, index) {
+        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
+        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
+        const colorClass = avatarClass(index);
+
+        return `
+        <div>
+            <div class="testi-quote-card">
+                <div class="testi-quote-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testi-quote-text">${review.text || ''}</p>
+                <div class="testi-footer">
+                    <div class="testi-author">
+                        <div class="testi-avatar ${colorClass}">
+                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
+                        </div>
+                        <div>
+                            <div class="testi-name">${review.author_name}</div>
+                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
+                        </div>
+                    </div>
+                    <div class="testi-rating-row">
+                        <div class="testi-stars">${starsHTML(review.rating)}</div>
+                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    // ============================================
+    // RENDER: Populate slider with reviews
+    // ============================================
+       function renderReviews(reviews) {
+const slider = document.getElementById('testimonialSlider');
+const loading = document.getElementById('testiLoading');
+
+let html = '';
+
+reviews.forEach(function(review, i) {
+    if (review.hasVideo && review.videoUrl) {
+        html += buildVideoCard(review);
+    } else {
+        html += buildQuoteCard(review, i);
+    }
+});
+
+// If slider already initialized destroy first
+if ($(slider).hasClass('slick-initialized')) {
+    $(slider).slick('unslick');
+}
+slider.innerHTML = html;
+slider.style.display = 'block';
+if (loading) loading.style.display = 'none';
+// Re-initialize slick
+initSlick(slider);
+}
+    function initSlick(slider) {
+        if ($(slider).hasClass('slick-initialized')) return;
+        $(slider).slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows: false,
+            cssEase: 'ease-in-out',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            swipe: true,
+            touchMove: true,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 900, settings: { slidesToShow: 2 } },
+                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
+            ]
+        });
+    }
+
+    // ============================================
+    // FETCH: Google Places API Reviews
+    // ============================================
+    function fetchGMBReviews() {
+        // If API key not set, use fallback
+        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
+            console.log('[Testimonials] No Google API key set  -  using fallback reviews.');
+            renderReviews(CONFIG.fallbackReviews);
+            return;
+        }
+
+        // Google Places API requires server-side proxy due to CORS
+        // Option 1: Use Google Maps JS API (requires loading Maps library)
+        // Option 2: Use a server-side proxy endpoint
+        // Below is the Google Maps JS API approach:
+
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
+        script.async = true;
+        script.defer = true;
+        script.onerror = function() {
+            console.log('[Testimonials] Failed to load Google Maps API  -  using fallback.');
+            renderReviews(CONFIG.fallbackReviews);
+        };
+        document.head.appendChild(script);
+    }
+
+    // Global callback for Google Maps JS API
+    window.initGMBReviews = function() {
+        try {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            service.getDetails({
+                placeId: CONFIG.placeId,
+                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
+            }, function(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
+                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
+
+                    // Merge: video testimonials first, then GMB reviews
+                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
+                    const gmbReviews = place.reviews.map(function(r) {
+                        return {
+                            author_name: r.author_name,
+                            profile_photo_url: r.profile_photo_url,
+                            rating: r.rating,
+                            text: r.text,
+                            relative_time_description: r.relative_time_description
+                        };
+                    });
+
+                    renderReviews([...videoTestimonials, ...gmbReviews]);
+                } else {
+                    console.log('[Testimonials] Google Places returned no reviews  -  using fallback.');
+                    renderReviews(CONFIG.fallbackReviews);
+                }
+            });
+        } catch (e) {
+            console.log('[Testimonials] Error:', e);
+            renderReviews(CONFIG.fallbackReviews);
+        }
+    };
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        // Static cards already rendered  -  init Slick immediately
+        const slider = document.getElementById('testimonialSlider');
+        if (slider && slider.children.length > 0) {
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                initSlick(slider);
+            } else {
+                window.addEventListener('load', function() {
+                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
+                });
+            }
+        }
+        fetchGMBReviews();
+    });
+})();
+
+// Video play/pause toggle for testimonial cards
+function toggleTestiVideo(area) {
+    const video = area.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+        // Pause all other videos first
+        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
+        video.play();
+        area.classList.add('playing');
+    } else {
+        video.pause();
+        area.classList.remove('playing');
+    }
+}
+
 </script>
+
+<!-- ============================================
+     CONSULTATION FORM  -  Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+    }
+    return { valid: true };
+}
+
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+// ─────────────────────────────────────────────────────────────
+
+function validateConsultationForm() {
+    var isValid = true;
+
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+    var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler (Bigin iframe load)
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    // Auto-embed page URL in form
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation (from Bigin source code)
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+// Bigin iframe success handler (overrides our custom one above via event delegation)
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
+
+<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+
+<script>
+
+</script>
+
+<script>
+// TOC scroll arrows
+const tocWrapper = document.getElementById('tocWrapper');
+document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
+document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
+
+// TOC active state on scroll — only tracks sections that have a matching TOC
+// button, keeps the active pill scrolled into view, and stays correct at the
+// very bottom of the page.
+(function () {
+    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
+    var wrapper = document.getElementById('tocWrapper');
+    if (!tocBtns.length) return;
+    var entries = tocBtns.map(function (btn) {
+        var id = (btn.getAttribute('href') || '').replace('#', '');
+        return { btn: btn, section: document.getElementById(id) };
+    }).filter(function (e) { return e.section; });
+    if (!entries.length) return;
+    var OFFSET = 200;
+    var ticking = false;
+    function setActive(entry) {
+        tocBtns.forEach(function (b) { b.classList.remove('active'); });
+        if (!entry) return;
+        entry.btn.classList.add('active');
+        if (wrapper) {
+            var left = entry.btn.offsetLeft;
+            var right = left + entry.btn.offsetWidth;
+            if (left < wrapper.scrollLeft) {
+                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
+            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
+                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
+            }
+        }
+    }
+    function onScroll() {
+        ticking = false;
+        var y = window.pageYOffset + OFFSET;
+        var active = entries[0];
+        for (var i = 0; i < entries.length; i++) {
+            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
+        }
+        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
+            active = entries[entries.length - 1];
+        }
+        setActive(active);
+    }
+    window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
+    }, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+})();
+</script>
+
+<!-- WhatsApp Sticky Bar Script -->
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
+
+<!-- External JS Dependencies (loaded by master layout in production) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

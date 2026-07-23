@@ -1,43 +1,3 @@
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  3
-     Verified:          3
-     Contradicted:      0 (rewritten)
-     Needs live check:  0
-     Final verdict:     clean
-     Script:            fact_check.py v2 (batch mode)
--->
 
 
 @extends('layouts.service-app')
@@ -52,216 +12,127 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-<title>Tally Prime Accounting Services Across India | CA-Led Help</title>
-<meta name="description" content="Get tally accountant done right by Patron's chartered team - accurate records, compliance cover and clear numbers. From INR 2499. Request a free quote.">
-<link rel="canonical" href="/tally-accounting">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta property="og:title" content="Tally Prime Accounting Services Across India | CA-Led Help">
-<meta property="og:description" content="Get tally accountant done right by Patron's chartered team - accurate records, compliance cover and clear numbers. From INR 2499. Request a free quote.">
-<meta property="og:url" content="/tally-accounting">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:image" content="/images/master/tally-accounting-master.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Tally Prime Accounting Services Across India | CA-Led Help">
-<meta name="twitter:description" content="Get tally accountant done right by Patron's chartered team - accurate records, compliance cover and clear numbers. From INR 2499. Request a free quote.">
-<meta name="twitter:image" content="/images/master/tally-accounting-master.webp">
+    <title>Tally Prime Accounting Services - Setup, Support & India</title>
+    <meta name="description" content="CA-managed Tally accounting for Indian businesses. TallyPrime setup, GST returns, GSTR-2B, IMS, e-invoicing, TDS, and ITR filing. From Rs. 2,999 per month.">
+    <link rel="canonical" href="/tally-accounting">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally Prime Accounting Services - Setup, Support & India">
+    <meta property="og:description" content="CA-managed Tally accounting for Indian businesses. TallyPrime setup, GST returns, GSTR-2B, IMS, e-invoicing, TDS, and ITR filing. From Rs. 2,999 per month.">
+    <meta property="og:url" content="/tally-accounting">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="/images/tally-accounting-og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally Prime Accounting Services - Setup, Support & India">
+    <meta name="twitter:description" content="CA-managed Tally accounting for Indian businesses. TallyPrime setup, GST returns, GSTR-2B, IMS, e-invoicing, TDS, and ITR filing. From Rs. 2,999 per month.">
+    <meta name="twitter:image" content="/images/tally-accounting-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
       "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/tally-accounting#breadcrumb",
-      "itemListElement": [
+      "@graph": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounting Software",
-          "item": "https://www.patronaccounting.com/accounting-software"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally Prime Accounting Services",
-          "item": "https://www.patronaccounting.com/tally-accounting"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/tally-accounting#service",
-      "serviceType": "Tally Prime Accounting Services",
-      "name": "Tally Prime Accounting Services",
-      "description": "Get tally accountant done right by Patron's chartered team - accurate records, compliance cover and clear numbers. From INR 2499. Request a free quote.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "provider": {
-        "@type": "AccountingService",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/"
-      },
-      "url": "https://www.patronaccounting.com/tally-accounting"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/tally-accounting#faq",
-      "datePublished": "2026-07-10T10:00:00+05:30",
-      "dateModified": "2026-07-10T10:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What day-to-day work does a Tally accountant handle, from vouchers to finalisation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Tally accountant records daily vouchers (sales, purchase, payment, receipt, journal), maintains ledgers and stock, files GST and TDS, reconciles bank accounts, and takes the books through to trial balance and finalisation. Our dedicated accountants run this full cycle on TallyPrime so you get finalised, audit-ready accounts without hiring in-house."
+          "@type": "Service",
+          "name": "Tally Accounting Services in India",
+          "description": "CA-managed Tally accounting for Indian businesses. TallyPrime setup, GST returns, GSTR-2B, IMS, e-invoicing, TDS, and ITR filing. From Rs. 2,999 per month.",
+          "url": "/tally-accounting",
+          "serviceType": "Tally Accounting Services in India",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Patron Accounting LLP",
+            "url": "/",
+            "logo": "/images/site-logo.svg"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "/tally-accounting",
+            "price": "5"
           }
         },
         {
-          "@type": "Question",
-          "name": "Is Tally or SAP better for a growing Indian business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tally suits most small and mid-sized Indian businesses because it is affordable, GST-ready and easy to run, while SAP fits large enterprises with complex, multi-location processes. TallyPrime handles accounting, inventory and compliance without heavy implementation cost. We help you stay on Tally efficiently and only recommend an ERP move when volume truly demands it."
-          }
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Tally Accounting Services in India",
+              "item": "/tally-accounting"
+            }
+          ]
         },
         {
-          "@type": "Question",
-          "name": "What are the two editions of TallyPrime, Silver and Gold?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TallyPrime comes in two main editions: Silver, a single-user licence for one PC, and Gold, a multi-user licence for unlimited users on a LAN. Both offer the same accounting and GST features. We advise on the right edition based on how many people access your books and manage the licence and data for you."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many types of accounts and ledgers does Tally use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tally follows the traditional three account types (personal, real, nominal) and organises entries under 28 predefined groups such as sundry debtors, creditors, and duties and taxes, with ledgers created beneath them. Correct grouping drives accurate financial statements. Our accountants set up and maintain a clean chart of ledgers so your reports and GST outputs are reliable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Tally handle GST returns, e-invoicing and e-way bills?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, TallyPrime generates GST-compliant invoices, computes input tax credit, and supports e-invoicing and e-way bill creation directly, plus data for GSTR-1 and GSTR-3B. It also handles TDS. Our team configures these features correctly and files your returns, so your Tally data and GST portal filings stay reconciled and penalty-free."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can payroll and salary entries be processed in Tally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, TallyPrime includes a payroll module to record salary structures, process pay, and pass salary entries with PF, ESI, professional tax and TDS. It generates payslips and statutory reports. Our accountants run monthly payroll in Tally and post the accounting entries so your salary costs and statutory dues are captured accurately."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Tally still relevant, or has it become outdated for accounting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tally remains highly relevant; TallyPrime is continuously updated for GST, e-invoicing and e-way bills and runs the accounts of lakhs of Indian businesses. It is not outdated for SMEs. For businesses wanting anytime access, Tally can be hosted on cloud. We keep your Tally current and can add cloud access when you need remote working."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you continue on our existing Tally company file or migrate our old data?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we can pick up your existing TallyPrime company file and continue from where you are, or migrate and clean older data if you are upgrading versions. We first reconcile opening balances and verify the trial balance ties out. This means no loss of history and a smooth handover to our dedicated accountant."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What reports will we receive from Tally each month?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each month you receive the balance sheet, profit and loss, trial balance, GST summaries, debtors and creditors ageing, stock statements and cash-flow reports from TallyPrime. We can also share custom MIS. This gives owners a clear, timely view of financial position and outstanding dues without opening Tally themselves."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does hiring a dedicated Tally accountant cost per month?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting's dedicated Tally accounting starts at INR 2499 per month, excluding GST and government charges. The fee depends on transaction volume, number of vouchers, GST registrations, and whether payroll and inventory are included. You get a fixed monthly quote after we review your books, far cheaper than a full-time in-house hire."
-          }
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is TallyPrime and how does it differ from Tally ERP 9?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TallyPrime is the current and actively supported version of Tally's business management software, launched in 2020 to replace Tally ERP 9. Key differences: TallyPrime has a redesigned interface for navigation between reports and vouchers; supports direct connected GST (uploading GSTR-1, downloading GSTR-2A/2B, and filing returns from within Tally without visiting the GST portal); includes IMS (Invoice Management System) for ITC control; and has improved multi-GSTIN and multi-company support. Tally ERP 9 no longer receives statutory updates. TallyPrime 7.0 is the current version (December 2025)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is TallyPrime Silver vs Gold - which should I buy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TallyPrime Silver (Rs 22,500 + 18% GST one-time, or Rs 750/month rental) is a single-user licence for one computer at a time - ideal for small businesses with one accountant. TallyPrime Gold (Rs 67,500 + 18% GST one-time, or Rs 1,800/month rental) allows unlimited concurrent users on a Local Area Network - suitable for teams needing simultaneous access. Both include the complete TallyPrime feature set. If only one person accesses Tally, Silver is sufficient. If two or more need simultaneous access, Gold is required."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is TSS (Tally Software Services) and is it mandatory?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TSS is Tally Solutions' annual subscription for updates and connected services. After the first year (included with purchase), renewal is optional but strongly recommended. Without active TSS, TallyPrime continues working but will not receive: software updates, statutory compliance updates (new GST return formats, e-invoicing API changes), access to connected GST services (GSTR-1 upload, GSTR-2B download, e-invoicing), and remote access. TSS renewal: Silver Rs 4,500 + GST/year; Gold Rs 13,500 + GST/year. A 2-year renewal saves approximately 10%."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can TallyPrime file GSTR-1 and GSTR-3B directly to the GST portal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. TallyPrime's Connected GST feature allows direct GSTR-1 upload and signing from within TallyPrime - no need to log into the GST portal separately. Workflow: once GSTR-1 data is ready, go to Gateway of Tally > Exchange > Upload GST Returns. TallyPrime uploads to the portal where you preview and file using EVC or DSC. GSTR-3B data can also be exported for portal upload. This requires active TSS. Patron Accounting manages this entire monthly filing process."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is IMS (Invoice Management System) in TallyPrime?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IMS is a GST compliance feature in TallyPrime 6.1+ that gives buyers real-time visibility and control over supplier invoices on the GST portal. Before IMS, businesses waited for GSTR-2B on the 14th to know eligible ITC. With IMS, supplier invoices appear as uploaded, and the buyer can: Accept (confirm ITC claim), Reject (mark ineligible - e.g. staff welfare), or Pending (defer decision). Accepted invoices flow into GSTR-2B and GSTR-3B ITC. Patron's CA team performs IMS review every month before GSTR-3B."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is GSTR-2B reconciliation and why does it matter?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "GSTR-2B is the auto-populated ITC eligibility statement from your suppliers' GSTR-1 filings. Reconciliation means matching GSTR-2B ITC against TallyPrime purchase entries to ensure: all eligible ITC is claimed (no missing credits), and no ITC is claimed for unmatched invoices per Rule 36(4). Skipping reconciliation risks excess ITC claims (triggering Section 61/74 notices) or missed legitimate ITC (paying more GST than required). TallyPrime's one-click reconciliation downloads the GSTR-2B JSON and auto-matches. Patron performs this every month. Quick Answers What is Tally accounting? Tally accounting is the use of TallyPrime software to record and manage financial transactions - invoices, expenses, GST, payroll, inventory, and tax compliance - used by 7 million+ Indian businesses across 36+ years. Tally mein GST kaise bhare? TallyPrime mein GSTR-1 direct upload hota hai GST portal par bina alag se login kiye. Gateway of Tally > Exchange > Upload GST Returns. GSTR-3B bhi TallyPrime se calculate hota hai. Patron Accounting ka CA team yeh sab monthly manage karta hai Rs 2,999/month se. Is TallyPrime better than Tally ERP 9? Yes. TallyPrime has connected GST (direct GSTR-1 upload, GSTR-2B download), IMS for ITC control, e-invoicing, e-way bill, and a redesigned interface. Tally ERP 9 no longer receives statutory updates. TallyPrime 7.0 is the current version (December 2025)."
+              }
+            }
+          ]
         }
       ]
     }
-  ]
-}
     </script>
 @endsection
 
 @section('content')
-<style>
-.pa-page{max-width:1080px;margin:0 auto;padding:0 20px;color:var(--text-primary);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.7}
-.pa-page .hero{background:var(--blue-lighter);border-radius:var(--radius-xl);padding:56px 40px;margin:24px 0}
-.pa-page .eyebrow{display:inline-block;color:var(--orange);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
-.pa-page h1{font-size:38px;line-height:1.18;color:var(--blue);margin:0 0 14px}
-.pa-page .hero-sub{font-size:19px;color:var(--text-secondary);max-width:720px}
-.pa-page .hero-cta{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
-.pa-page .btn{display:inline-block;padding:14px 26px;border-radius:var(--radius-md);font-weight:700;text-decoration:none;transition:.2s}
-.pa-page .btn-primary{background:var(--orange);color:#fff;box-shadow:var(--shadow-md)}
-.pa-page .btn-primary:hover{background:var(--orange-dark)}
-.pa-page .btn-ghost{background:#fff;color:var(--blue);border:2px solid var(--gray-200)}
-.pa-page .toc{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:14px 0;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);margin-bottom:8px}
-.pa-page .toc-pill{font-size:13px;font-weight:600;color:var(--blue);background:var(--gray-100);padding:8px 14px;border-radius:999px;text-decoration:none}
-.pa-page .toc-pill:hover{background:var(--orange-light);color:var(--orange-dark)}
-.pa-page .sec{padding:34px 0;border-top:1px solid var(--gray-100)}
-.pa-page h2{font-size:27px;color:var(--blue);margin:0 0 16px}
-.pa-page h3{font-size:18px;color:var(--blue);margin:0 0 6px}
-.pa-page .tldr{background:var(--orange-lighter);border-left:4px solid var(--orange);padding:16px 18px;border-radius:var(--radius-sm);margin-bottom:16px}
-.pa-page .two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-.pa-page .highlight-box{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:16px 18px;margin-top:14px}
-.pa-page .column-image{display:flex;justify-content:center}
-.pa-page .illustration-frame{max-width:360px;text-align:center}
-.pa-page .illustration-badge{margin-top:10px;background:var(--blue);color:#fff;border-radius:var(--radius-md);padding:10px 16px;display:inline-flex;flex-direction:column}
-.pa-page .illustration-badge strong{color:var(--orange-light)}
-.pa-page ul.ticks{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.pa-page ul.ticks li{position:relative;padding-left:30px}
-.pa-page ul.ticks li:before{content:"\2713";position:absolute;left:0;top:0;color:#fff;background:var(--orange);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px}
-.pa-page .table-wrap{overflow-x:auto}
-.pa-page table{width:100%;border-collapse:collapse;font-size:15px}
-.pa-page th,.pa-page td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--gray-200);vertical-align:top}
-.pa-page thead th{background:var(--blue);color:#fff}
-.pa-page .steps{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.pa-page .step-card{display:flex;gap:14px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow-sm)}
-.pa-page .step-num{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800}
-.pa-page .fee-box{display:flex;flex-direction:column;background:var(--blue);color:#fff;border-radius:var(--radius-lg);padding:24px 28px;max-width:340px}
-.pa-page .fee-label{font-size:13px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}
-.pa-page .fee-amount{font-size:34px;font-weight:800;color:var(--orange-light)}
-.pa-page .fee-note{font-size:13px;opacity:.85}
-.pa-page .disclaimer{font-size:13px;color:var(--text-muted);margin-top:10px}
-.pa-page .benefits{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-.pa-page .benefit{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px}
-.pa-page .faq-item{border:1px solid var(--gray-200);border-radius:var(--radius-md);margin-bottom:10px;overflow:hidden}
-.pa-page .faq-q{width:100%;text-align:left;background:#fff;border:0;padding:16px 18px;font-size:16px;font-weight:600;color:var(--blue);display:flex;justify-content:space-between;cursor:pointer}
-.pa-page .faq-a{max-height:0;overflow:hidden;transition:max-height .3s;padding:0 18px}
-.pa-page .faq-item.open .faq-a{max-height:600px;padding:0 18px 16px}
-.pa-page .faq-ico{color:var(--orange);font-weight:800}
-.pa-page .final-cta{text-align:center;background:var(--orange-lighter);border-radius:var(--radius-xl);padding:44px 24px;margin:28px 0}
-.pa-page .page-meta{font-size:13px;color:var(--text-muted);padding:20px 0}
-@media(max-width:820px){.pa-page .two-col{grid-template-columns:1fr}.pa-page .steps{grid-template-columns:1fr}.pa-page .benefits{grid-template-columns:1fr}.pa-page ul.ticks{grid-template-columns:1fr}.pa-page h1{font-size:30px}}
-</style>
 <style>
         /* ============================================
            CSS VARIABLES
@@ -357,7 +228,7 @@
             font-weight: 700; color: var(--text-primary);
             min-width: 160px;
         }
-        /* Amount column — right-align only on tables with .table-amount class */
+        /* Amount column  -  right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
         /* Section 8 / primary entity highlight column in comparison tables */
         .table-comparison td:nth-child(2),
@@ -378,7 +249,7 @@
         .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
 
         /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
+           EXPERT ATTRIBUTION BOX (E-E-A-T)  -  Plan 3.1
            ============================================ */
         .expert-attribution-box {
             background: #F9F9F9;
@@ -513,7 +384,7 @@
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); transition: all 0.2s ease;
         }
-        .form-input::-ms-input-ph { color: var(--gray-400); }
+        .form-input::placeholder { color: var(--gray-400); }
         .form-input:hover { background: var(--gray-100); }
         .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
@@ -567,7 +438,7 @@
             font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
             background: var(--gray-50); outline: none;
         }
-        .country-search-input::-ms-input-ph { color: var(--gray-400); }
+        .country-search-input::placeholder { color: var(--gray-400); }
         .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
         .country-options::-webkit-scrollbar { width: 5px; }
         .country-options::-webkit-scrollbar-track { background: transparent; }
@@ -648,7 +519,7 @@
         .cert-item svg { width: 18px; height: 18px; }
 
         /* ============================================
-           TOC NAVIGATION — Plan 2.2
+           TOC NAVIGATION  -  Plan 2.2
            ============================================ */
         .toc-section {
             background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
@@ -709,7 +580,7 @@
         .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
         .highlight-box p:last-child { margin-bottom: 0; }
 
-        .illustration-inputhint {
+        .illustration-placeholder {
             width: 100%; max-width: 420px; aspect-ratio: 4/3;
             background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
             border-radius: var(--radius-xl); display: flex; flex-direction: column;
@@ -781,7 +652,7 @@
             font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
         }
 
-        /* Process Evidence Screenshot — Plan 3.2 */
+        /* Process Evidence Screenshot  -  Plan 3.2 */
         .process-screenshot-details { margin-top: 14px; }
         .process-screenshot-details summary {
             font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
@@ -1201,80 +1072,1390 @@
             .wa-sticky-bar-btn span { display: none; }
         }
 </style>
-<div class="pa-page">
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">India-Wide · By Patron Accounting</span>
-    <h1>Get More From Tally Prime Accounting Services With Expert Help</h1>
-    <p class="hero-sub">Reliable tally accountant delivered and reviewed by Patron's qualified CA &amp; CS team, for businesses anywhere in India.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a>
-      <a class="btn btn-ghost" href="#fees">See Pricing</a>
+<main>
+
+
+<!-- HERO SECTION -->
+<section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="pe-lg-5">
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Trusted by 10,000+ Businesses
+                    </div>
+
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
+                        Tally Accounting Services for Indian Businesses - CA-Managed Setup and Compliance
+                    </h1>
+
+                    <div class="expert-attribution-box">
+                        <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                        <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
+                        <span class="eab-meta">
+                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>15+ Years Experience</span><span class="eab-sep">|</span>
+                            <span>Last Updated: <span id="lastUpdated">15 January 2024</span></span>
+                        </span>
+                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>TallyPrime 7.0 Setup:</span> Correct chart of accounts, GST ledger configuration, HSN/SAC mapping, tax groups, and opening balance entry</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Connected GST Compliance:</span> GSTR-1 upload from TallyPrime, GSTR-3B filing, GSTR-2B reconciliation, and IMS for real-time ITC management</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>E-Invoicing and E-Way Bill:</span> IRN generation from TallyPrime for businesses above Rs 5 crore; automatic e-way bill on stock movements</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>CA-Managed Monthly Service:</span> Monthly bookkeeping review, GST return filing, TDS quarterly returns, and annual ITR - all from your TallyPrime data</p>
+                        </div>
+                    </div>
+
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">250+ businesses on TallyPrime managed by Patron Accounting | 4.9 star rating | Pan-India service</p>
+
+                    <div class="hero-cta">
+                        <a href="tel:+919459456700" class="btn-video text-decoration-none">
+                            <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
+                            Call +91 945 945 6700
+                        </a>
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Tally%20Accounting&body=Hello%2C%0A%0AI%20need%20TallyPrime%20accounting%20support.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            Email Us
+                        </a>
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20Tally%20Accounting%20Services.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+                            WhatsApp Us
+                        </a>
+                    </div>
+
+                    <div class="trust-section">
+                        <div class="trust-row">
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                            </div>
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                            </div>
+                        </div>
+                        <div class="google-rating">
+                            <div class="rating-content">
+                                <div class="rating-stars">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <span class="rating-score">4.9</span>
+                                </div>
+                                <span class="rating-count">Based on 500+ reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Tally Accounting'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value="tally-accounting" selected>Tally Accounting Services</option><option value="gst-registration">GST Registration</option><option value="gst-returns">GST Returns</option><option value="income-tax-return">Income Tax Return</option><option value="tds-return-filing">TDS Return Filing</option><option value="payroll-services">Payroll Services</option><option value="migration-from-tally-to-zoho">Migration: Tally to Zoho</option><option value="zoho-books-accounting">Zoho Books Accounting</option><option value="other">Other</option>
+
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                    </form>
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-<nav class="toc" aria-label="On this page"><a class="toc-pill" href="#overview">Overview</a><a class="toc-pill" href="#what-is">What It Covers</a><a class="toc-pill" href="#who-needs">Who Needs It</a><a class="toc-pill" href="#services">Our Scope</a><a class="toc-pill" href="#process">Process</a><a class="toc-pill" href="#documents">Documents</a><a class="toc-pill" href="#errors">Avoid Errors</a><a class="toc-pill" href="#fees">Pricing</a><a class="toc-pill" href="#timeline">Timeline</a><a class="toc-pill" href="#why-us">Why Patron</a><a class="toc-pill" href="#faqs">FAQs</a></nav>
-<section id="overview" class="sec">
-  <h2>What Tally Prime Accounting Services Covers</h2>
-  <div class="tldr"><strong>In short:</strong> India&#x27;s default ledger: outsourced Tally ops, remote data-entry-to-finalisation tiers. Claims hub-reserved Tally lane.</div>
-  <p>Tally Prime Accounting Services keeps your financial records accurate, current and compliant, so you always know where the business stands. Patron runs the day-to-day recording, reconciliation and review, then turns it into reporting you can act on — remotely, for clients across India.</p>
-  <p>The output is not just entries: it is a reliable picture of the business, backed by professionals who understand the compliance behind every figure in tally accountant.</p>
-</section>
-<section id="what-is" class="sec two-col">
-  <div class="column-content">
-    <h2>What Our Tally Prime Accounting Services Includes</h2>
-    <p>Behind Tally Prime Accounting Services is a repeatable system: structured recording, period-end reconciliation and a professional review, so nothing drifts between months.</p>
-    <div class="highlight-box">
-      <strong>Key areas we handle for Tally Prime:</strong>
-      <p>tally accountant, tally accounting services, tally support services, tally bookkeeping services, outsourced tally accounting.</p>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Real Stories from Real People</h2>
+            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
+        </div>
+        <div class="testi-loading" id="testiLoading" style="display:none !important;">
+            <div class="spinner"></div>
+            Fetching latest Google reviews&hellip;
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
+       
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our TallyPrime was badly configured - wrong GST ledgers, missing HSN codes, and 8 months of unreconciled GSTR-2B. Patron Accounting cleaned everything up, corrected our returns, and now manages our monthly GST compliance. Not a single GST notice since.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">TD</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Trading Company Director</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We upgraded from Tally ERP 9 to TallyPrime 7.0 with Patron's help. They migrated our data, set up the new GST features including IMS, and configured e-invoicing. Everything working within two weeks.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MF</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Manufacturer</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">I am a freelancer using TallyPrime for basic invoicing but not filing GST returns properly. Patron set up my Tally correctly, reconciled two years of GSTR-2B, filed amended returns, and now handles everything monthly.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">IC</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">IT Consultant</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Bangalore</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our CA firm manages 40+ client TallyPrime files. Patron provides white-label support for monthly close, GSTR-2B reconciliation, and reporting. Their CA team understands TallyPrime deeply.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CP</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">CA Partner</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Delhi NCR</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">E-invoicing was giving us errors every day - wrong GSTIN, tax mismatches. Patron configured our TallyPrime e-invoicing correctly, tested in sandbox, and now IRN generation works flawlessly on every invoice.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RO</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Retail Owner</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Ahmedabad</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">5 months ago</div></div></div>
+
     </div>
-  </div>
-  <div class="column-image">
-  <div class="illustration-frame">
-    <img src="/images/master/tally-accounting-master.webp" alt="Illustration of Patron's CA team delivering tally prime accounting services for businesses across India" width="480" height="480" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px">
-    <div class="illustration-badge"><span>Tally Prime Accounting Services</span><strong>India-wide</strong></div>
-  </div>
-</div>
+        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
+            <div class="reviews-cta-content">
+                <div class="reviews-cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                </div>
+                <div class="reviews-cta-text">
+                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
+                    <p>Get expert CA-managed TallyPrime accounting, GST compliance, and financial reporting from Patron Accounting.</p>
+                </div>
+            </div>
+            <a href="tel:+919459456700" class="btn-cta">
+                Talk to an Expert
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
 </section>
-<section id="who-needs" class="sec"><h2>Is Tally Prime Accounting Services Right for You?</h2><ul class="ticks"><li>Owners who want experts to run the books, not just the software</li><li>Businesses adopting the platform and wanting it configured right from day one</li><li>Teams that need India-ready tax masters and a clean chart of accounts</li><li>Companies that need reliable monthly reporting out of the tool</li></ul></section>
-<section id="services" class="sec"><h2>Tally Prime Accounting Services: Scope of Work</h2>
-  <div class="table-wrap"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Tally Accountant</td><td>End-to-end tally accountant set up correctly and maintained so your records stay decision-ready.</td></tr><tr><td>Tally Accounting Services</td><td>End-to-end tally accounting services set up correctly and maintained so your records stay decision-ready.</td></tr><tr><td>Tally Support Services</td><td>Accurate, reviewed tally support services run to a fixed monthly cadence with a clear audit trail.</td></tr><tr><td>Tally Bookkeeping Services</td><td>End-to-end tally bookkeeping services run to a fixed monthly cadence with a clear audit trail.</td></tr><tr><td>Outsourced Tally Accounting</td><td>Expert-led outsourced tally accounting delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr></tbody></table></div></section>
-<section id="process" class="sec"><h2>Our Tally Prime Accounting Services Workflow, Step by Step</h2><div class="steps"><div class="step-card"><div class="step-visual"><span class="step-num">1</span></div>
-        <div class="step-content"><h3>Requirement mapping</h3><p>Your structure, tax registrations and reports drive how the platform is configured.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">2</span></div>
-        <div class="step-content"><h3>Chart of accounts</h3><p>A clean, India-ready chart of accounts and tax masters are configured from the start.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">3</span></div>
-        <div class="step-content"><h3>Opening balances</h3><p>We load and reconcile opening figures so the tool starts from the truth.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">4</span></div>
-        <div class="step-content"><h3>Integrations</h3><p>We wire up bank feeds and the apps you already use to cut manual entry.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">5</span></div>
-        <div class="step-content"><h3>Recording routine</h3><p>We define how transactions are captured and approved, so the books stay clean.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">6</span></div>
-        <div class="step-content"><h3>Periodic close</h3><p>A standard close process keeps tally accountant accurate every period.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">7</span></div>
-        <div class="step-content"><h3>Reporting</h3><p>Reporting is tuned so Tally Prime Accounting Services produces decisions, not just data.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">8</span></div>
-        <div class="step-content"><h3>Handover and support</h3><p>We train your staff and stay available for ongoing support.</p></div></div></div></section>
-<section id="documents" class="sec"><h2>Paperwork for Tally Prime Accounting Services</h2><div class="table-wrap"><table><thead><tr><th>Document</th><th>Why It's Needed</th></tr></thead><tbody><tr><td>Bank and credit-card statements</td><td>For the period under scope, in PDF or Excel.</td></tr><tr><td>Sales and purchase invoices</td><td>To match revenue and costs to the right period.</td></tr><tr><td>GST and tax details</td><td>Registration details and recent filing history.</td></tr><tr><td>Existing books or trial balance</td><td>Whatever you have today, in any format.</td></tr></tbody></table></div></section>
-<section id="errors" class="sec"><h2>Costly tally accountant Mistakes</h2><div class="table-wrap"><table><thead><tr><th>Mistake</th><th>What Goes Wrong</th></tr></thead><tbody><tr><td>No periodic review</td><td>Books left unchecked until year-end, when errors are costly to fix.</td></tr><tr><td>Poor documentation</td><td>Missing invoices or approvals that fail an audit or lender review.</td></tr><tr><td>Wrong tax head or rate</td><td>Transactions posted to the wrong GST or TDS head, causing return mismatches.</td></tr><tr><td>Late or missing entries</td><td>Backlogs that make month-end close and compliance stressful.</td></tr><tr><td>Inconsistent chart of accounts</td><td>A messy structure that makes Tally Prime Accounting Services hard to read.</td></tr></tbody></table></div></section>
-<section id="fees" class="sec"><h2>Tally Prime Accounting Services Pricing</h2>
-  <div class="fee-box"><span class="fee-label">Starting from</span><span class="fee-amount">INR 2499</span>
-  <span class="fee-note">Exl. GST and Govt. Charges</span></div>
-  <p>Final pricing depends on transaction volume, number of entities and the software you use. Share your details on WhatsApp for a clear, itemised quote.</p>
-  <p class="disclaimer">Fees shown are indicative starting points and may vary with scope; taxes and government charges are additional.</p></section>
-<section id="timeline" class="sec"><h2>Tally Prime Accounting Services Turnaround</h2><p>We move quickly once documents arrive: initial setup in a few working days, then a predictable monthly rhythm for tally accountant, with timelines agreed before any larger clean-up begins.</p></section>
-<section id="why-us" class="sec"><h2>Why Businesses Choose Patron for Tally Prime Accounting Services</h2><div class="benefits"><div class="benefit"><h3>India-wide, remote-first</h3><p>Location is no barrier — tally accountant is delivered remotely and securely.</p></div><div class="benefit"><h3>Process discipline</h3><p>Documented routines mean the work is consistent every single period.</p></div><div class="benefit"><h3>Transparent pricing</h3><p>You know what you pay for Tally Prime Accounting Services before we start.</p></div><div class="benefit"><h3>Clear, usable reporting</h3><p>You get financials and MIS you can actually make decisions on.</p></div><div class="benefit"><h3>Responsive support</h3><p>Real people who respond, not a ticket queue.</p></div><div class="benefit"><h3>Scales with you</h3><p>tally accountant that keeps working as the business expands.</p></div></div></section>
-<section id="faqs" class="sec"><h2>Questions We Hear About tally accountant</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" type="button">What day-to-day work does a Tally accountant handle, from vouchers to finalisation?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>A Tally accountant records daily vouchers (sales, purchase, payment, receipt, journal), maintains ledgers and stock, files GST and TDS, reconciles bank accounts, and takes the books through to trial balance and finalisation. Our dedicated accountants run this full cycle on TallyPrime so you get finalised, audit-ready accounts without hiring in-house.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is Tally or SAP better for a growing Indian business?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Tally suits most small and mid-sized Indian businesses because it is affordable, GST-ready and easy to run, while SAP fits large enterprises with complex, multi-location processes. TallyPrime handles accounting, inventory and compliance without heavy implementation cost. We help you stay on Tally efficiently and only recommend an ERP move when volume truly demands it.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What are the two editions of TallyPrime, Silver and Gold?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>TallyPrime comes in two main editions: Silver, a single-user licence for one PC, and Gold, a multi-user licence for unlimited users on a LAN. Both offer the same accounting and GST features. We advise on the right edition based on how many people access your books and manage the licence and data for you.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How many types of accounts and ledgers does Tally use?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Tally follows the traditional three account types (personal, real, nominal) and organises entries under 28 predefined groups such as sundry debtors, creditors, and duties and taxes, with ledgers created beneath them. Correct grouping drives accurate financial statements. Our accountants set up and maintain a clean chart of ledgers so your reports and GST outputs are reliable.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can Tally handle GST returns, e-invoicing and e-way bills?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes, TallyPrime generates GST-compliant invoices, computes input tax credit, and supports e-invoicing and e-way bill creation directly, plus data for GSTR-1 and GSTR-3B. It also handles TDS. Our team configures these features correctly and files your returns, so your Tally data and GST portal filings stay reconciled and penalty-free.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can payroll and salary entries be processed in Tally?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes, TallyPrime includes a payroll module to record salary structures, process pay, and pass salary entries with PF, ESI, professional tax and TDS. It generates payslips and statutory reports. Our accountants run monthly payroll in Tally and post the accounting entries so your salary costs and statutory dues are captured accurately.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is Tally still relevant, or has it become outdated for accounting?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Tally remains highly relevant; TallyPrime is continuously updated for GST, e-invoicing and e-way bills and runs the accounts of lakhs of Indian businesses. It is not outdated for SMEs. For businesses wanting anytime access, Tally can be hosted on cloud. We keep your Tally current and can add cloud access when you need remote working.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can you continue on our existing Tally company file or migrate our old data?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes, we can pick up your existing TallyPrime company file and continue from where you are, or migrate and clean older data if you are upgrading versions. We first reconcile opening balances and verify the trial balance ties out. This means no loss of history and a smooth handover to our dedicated accountant.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What reports will we receive from Tally each month?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Each month you receive the balance sheet, profit and loss, trial balance, GST summaries, debtors and creditors ageing, stock statements and cash-flow reports from TallyPrime. We can also share custom MIS. This gives owners a clear, timely view of financial position and outstanding dues without opening Tally themselves.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How much does hiring a dedicated Tally accountant cost per month?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Patron Accounting&#x27;s dedicated Tally accounting starts at INR 2499 per month, excluding GST and government charges. The fee depends on transaction volume, number of vouchers, GST registrations, and whether payroll and inventory are included. You get a fixed monthly quote after we review your books, far cheaper than a full-time in-house hire.</p></div></div></div></section>
-<section class="final-cta"><h2>Ready to get your books in order?</h2>
-  <p>Talk to Patron's CA &amp; CS team about tally accountant for your business anywhere in India.</p>
-  <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a></section>
-<div class="page-meta"><span class="byline">By CA &amp; CS Team</span> · <span class="last-updated">Last Updated: 10 July 2026</span></div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+    <div class="stats-container">
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
+            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+        </div>
+        <div class="certifications">
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+        </div>
+    </div>
 </div>
+
+<!-- TOC NAVIGATION -->
+<div class="toc-section">
+    <div class="toc-container">
+        <button class="toc-arrow left" id="tocLeft">&#10094;</button>
+        <div class="toc-wrapper" id="tocWrapper">
+            <a href="#overview-section" class="toc-btn active">Overview</a><a href="#what-section" class="toc-btn">What Is It</a><a href="#who-section" class="toc-btn">Who Needs It</a><a href="#services-section" class="toc-btn">GST in Tally</a><a href="#procedure-section" class="toc-btn">Our Service</a><a href="#documents-section" class="toc-btn">Bookkeeping</a><a href="#challenges-section" class="toc-btn">Problems Solved</a><a href="#fees-section" class="toc-btn">Pricing</a><a href="#timeline-section" class="toc-btn">Calendar</a><a href="#benefits-section" class="toc-btn">Why Us</a><a href="#comparison-section" class="toc-btn">Licences</a><a href="#faq-section" class="toc-btn">FAQs</a>
+        </div>
+        <button class="toc-arrow right" id="tocRight">&#10095;</button>
+    </div>
+</div>
+
+<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+<section class="content-section" id="overview-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Tally Accounting Services - Overview</h2>
+            <div class="content-text">
+                <div class="highlight-box" style="margin-bottom:20px;">
+                    <p><strong>&#128204; TL;DR - Tally Accounting Services at a Glance</strong></p>
+                    <p>TallyPrime is used by 7 million+ Indian businesses. Patron Accounting provides CA-managed TallyPrime setup, monthly bookkeeping, connected GST (GSTR-1, GSTR-3B, GSTR-2B reconciliation, IMS), e-invoicing, TDS returns, and ITR filing. TallyPrime 7.0 is the current version (December 2025). Silver licence Rs 22,500 + GST; Gold Rs 67,500 + GST. CA services from Rs 2,999/month.</p>
+                </div>
+                <p>TallyPrime is India's most widely used accounting software - trusted by over 7 million businesses across 36+ years. Used correctly, TallyPrime gives real-time financial reports, automated GST returns, e-invoicing, e-way bill generation, IMS-based ITC reconciliation, and payroll in a single platform. Used incorrectly, it becomes a compliance liability.</p>
+                <p>Patron Accounting LLP bridges this gap: our CA team sets up your TallyPrime correctly, maintains your books monthly, and handles all GST returns, TDS filings, and ITR - so your Tally data is always clean, current, and compliant.</p>
+                <p>Content is reviewed quarterly for accuracy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+<section class="content-section" id="what-section">
+    <div class="content-container">
+        <div class="two-column">
+            <div class="column-content">
+                <h2 class="section-title">What is Tally Accounting?</h2>
+                <div class="content-text what-is-definition">
+                    
+                    <p>Tally accounting refers to the use of TallyPrime - developed by Tally Solutions Pvt. Ltd., Bangalore - for recording, managing, and reporting a business's financial transactions. Founded in 1986, Tally evolved over 36 years into a full-featured business management platform. TallyPrime (current version 7.0 as of December 2025) covers accounting, inventory, GST compliance, e-invoicing, e-way bill, payroll, banking, and business reporting.</p><p>For Indian businesses, TallyPrime is powerful because it is built around India's tax requirements: all six GST slabs pre-configured with automatic CGST/SGST/IGST application, direct GST portal connectivity for GSTR-1 upload and GSTR-2B download, built-in e-invoicing (IRP) and e-way bill generation, IMS for real-time ITC management, and TDS/TCS calculation with threshold monitoring.</p><p>Patron Accounting provides CA-managed TallyPrime services: correct setup, monthly bookkeeping, and all GST, TDS, and ITR compliance using your TallyPrime data as the single source of truth.</p>
+
+                </div>
+                <div class="highlight-box" style="margin-top:20px;">
+                    <p><strong>Key Terms for Tally Accounting:</strong></p>
+                    <ul><li><strong>TallyPrime 7.0:</strong> Current version (December 2025) with smarter reconciliation dashboards, enhanced IMS, GSTR-2B API v4, advanced bank reconciliation, and multi-GSTIN support</li><li><strong>Connected GST:</strong> TallyPrime feature for direct GSTR-1 upload, GSTR-2B download, and return signing without visiting GST portal separately</li><li><strong>IMS (Invoice Management System):</strong> TallyPrime 6.1+ feature - Accept, Reject, or mark Pending on supplier invoices for real-time ITC control</li><li><strong>TSS (Tally Software Services):</strong> Annual subscription for updates and connected services; Silver Rs 4,500 + GST/year; Gold Rs 13,500 + GST/year</li><li><strong>Silver vs Gold Licence:</strong> Silver (single user, Rs 22,500 + GST) vs Gold (multi-user LAN, Rs 67,500 + GST); both include complete feature set</li><li><strong>E-Invoicing (IRP):</strong> Built-in IRN and QR code generation for businesses above Rs 5 crore turnover directly from TallyPrime</li></ul>
+
+                </div>
+            </div>
+            <div class="column-image">
+                <div class="illustration-placeholder">
+                    <div class="illustration-icon" style="max-width:240px;">
+                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Building / Tribunal -->
+                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
+                            <!-- Roof / Pediment -->
+                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
+                            <!-- Columns -->
+                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
+                            <!-- Door -->
+                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
+                            <!-- Scale of Justice icon -->
+                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
+                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
+                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
+                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
+                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
+                            <!-- Green check badge -->
+                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
+                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- Tally tag -->
+                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
+                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Tally</text>
+                            <!-- Label -->
+                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Tally Accounting</text>
+                        </svg>
+                    </div>
+                    <div class="illustration-badge">
+                        <span>India's #1 Accounting Software</span>
+                        <strong>TallyPrime Expert CA Team</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section" id="who-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Who Needs Tally Accounting Services in India</h2>
+            <div class="content-text">
+                
+                <p>TallyPrime is ideal for Indian businesses of virtually all sizes, but maximum benefit requires correct setup and disciplined maintenance:</p><ul><li>Small businesses and retailers with TallyPrime installed but using only basic invoicing - need CA to configure for GST compliance and monthly filing</li><li>Manufacturers and traders needing integrated inventory and accounting - stock groups, godowns, batch tracking, linked to financial books</li><li>Service businesses using TallyPrime for billing, expenses, and TDS who need CA-prepared quarterly and annual returns</li><li>Businesses upgrading from Tally ERP 9 to TallyPrime 7.0 needing data migration, feature reconfiguration, and TSS renewal</li><li>New businesses setting up TallyPrime from scratch needing correct chart of accounts and GST structure before recording transactions</li><li>CA firms managing multiple client data files in TallyPrime needing structured monthly close, GSTR-2B reconciliation, and consolidated reporting</li><li>Businesses receiving GST notices for GSTR-1 vs GSTR-3B mismatches or ITC discrepancies needing CA reconciliation of TallyPrime data with portal data</li></ul>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5: OUR SERVICES -->
+<section class="content-section" id="services-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">GST in TallyPrime - How Patron Configures and Manages It</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <tbody>
+                        <tr><td>GST Ledger Configuration</td><td>Output and input CGST/SGST/IGST/CESS ledgers linked to correct tax groups and GSTR return sections (B2B, B2C, RCM, export). Ensures GSTR-1 and GSTR-3B auto-populate correctly</td></tr><tr><td>HSN and SAC Code Assignment</td><td>Every stock item mapped to correct HSN code, every service ledger to SAC code. 6-digit HSN mandatory for businesses above Rs 5 crore. Prevents GSTR-1 upload validation errors</td></tr><tr><td>GSTR-1 Filing from TallyPrime</td><td>Direct upload via TallyPrime Connected GST Exchange; signing via DSC or EVC without logging into GST portal. CA reviews B2B/B2C classification, GSTIN matches, and HSN summary</td></tr><tr><td>GSTR-3B and ITC Management</td><td>Auto-calculated monthly summary of outward supplies, ITC available (IGST on imports, other ITC), ITC reversed, and net GST payable. Reconciled against bank statement and GSTR-2B</td></tr><tr><td>GSTR-2B Reconciliation and IMS</td><td>One-click GSTR-2B download and auto-reconciliation with purchase records. IMS review: Accept (confirm ITC), Reject (exclude ineligible), or Pending. Actions flow into GSTR-3B automatically</td></tr><tr><td>E-Invoicing in TallyPrime</td><td>Built-in IRN generation and QR code embedding for businesses above Rs 5 crore. Error handling for inactive GSTIN, tax mismatch, or date out of range. Sandbox testing before go-live</td></tr><tr><td>E-Way Bill from TallyPrime</td><td>Auto e-way bill on qualifying stock movements above Rs 50,000. Pin-to-pin distance auto-calculation. Extension, cancellation, and E-Way Bill 2.0 portal support</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 7: 7-STEP PROCESS -->
+<section class="steps-section" id="procedure-section">
+    <div class="section-container">
+        <header class="section-header" style="text-align:center;margin-bottom:48px;">
+            <span class="section-eyebrow">Our Process</span>
+            <h2 class="section-title">What Patron's Tally Accounting Service Includes - 3 Phases</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">From TallyPrime setup and configuration through monthly ongoing service to quarterly and annual compliance - a complete outsourced finance function for Indian SMEs.</p>
+        </header>
+        <div class="steps-container">
+            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Company Creation and GST Setup</h3><p class="step-description">Company creation in TallyPrime with correct GST registration details, financial year settings, and base currency. Chart of accounts designed for your industry with correct GST tax type and TDS section linkages.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Company created in TallyPrime</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST ledgers configured</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="30" x2="90" y2="30" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="30" y1="45" x2="75" y2="45" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><path d="M85 55l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Setup Complete</span><span class="step-number-large">01</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">HSN/SAC Codes and Inventory</h3><p class="step-description">HSN and SAC code assignment to all stock items and service heads. Inventory configuration: stock groups, godowns, units of measure, opening stock, and reorder levels.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> HSN/SAC codes mapped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Inventory configured</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="45" height="65" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="65" y="10" width="45" height="65" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="20" y1="30" x2="45" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><line x1="75" y1="30" x2="100" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/></svg></div><span class="illustration-label">Codes Assigned</span><span class="step-number-large">02</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Opening Balances and User Setup</h3><p class="step-description">Opening balance entry as of go-live date with 3-way reconciliation against prior records. User creation with security levels: who can create vouchers, view reports, access payroll.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Opening balances reconciled</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Users and security set</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="45" cy="42" r="15" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><circle cx="75" cy="42" r="15" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/></svg></div><span class="illustration-label">Balances Set</span><span class="step-number-large">03</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Monthly Voucher Review and Bank Reconciliation</h3><p class="step-description">All sales, purchase, payment, receipt, journal, and contra vouchers reviewed for correct tax treatment. TallyPrime smart bank reconciliation matches every bank statement entry.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Vouchers reviewed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Bank reconciled</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="5" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="25" x2="90" y2="25" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><line x1="30" y1="38" x2="80" y2="38" stroke="#14365F" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/><line x1="30" y1="50" x2="70" y2="50" stroke="#14365F" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/><line x1="30" y1="62" x2="60" y2="62" stroke="#14365F" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/></svg></div><span class="illustration-label">Books Clean</span><span class="step-number-large">04</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">GSTR-1 Upload, GSTR-2B Reconciliation, and IMS</h3><p class="step-description">GSTR-1 verified and uploaded via TallyPrime Connected GST Exchange. GSTR-2B downloaded and auto-reconciled. IMS review: Accept, Reject, or Pending on supplier invoices.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-1 uploaded from Tally</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> IMS reviewed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="38" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GSTR-1</text><text x="60" y="52" font-size="9" fill="#F5A623" font-weight="600" text-anchor="middle" font-family="Arial">+ IMS</text><path d="M82 55l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">GST Filed</span><span class="step-number-large">05</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">GSTR-3B Filing and GST Payment</h3><p class="step-description">GSTR-3B auto-calculated from TallyPrime data: outward supplies, ITC available, ITC reversed, net GST payable. Reconciled against bank and GSTR-2B before filing by 20th.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-3B filed by 20th</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Net GST paid</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="42" r="25" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="38" font-size="9" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GSTR</text><text x="60" y="49" font-size="10" fill="#F5A623" font-weight="700" text-anchor="middle" font-family="Arial">3B</text></svg></div><span class="illustration-label">Payment Done</span><span class="step-number-large">06</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 7</span><h3 class="step-title">Monthly MIS and TDS Compliance</h3><p class="step-description">P and L, balance sheet, cash flow, and key metrics shared with business owner. TDS on vendor payments flagged and recorded; quarterly 26Q and 24Q filed.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> MIS delivered by 10th</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TDS returns filed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="45" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="65" y="10" width="45" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="22" y1="30" x2="52" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><line x1="72" y1="30" x2="102" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/></svg></div><span class="illustration-label">Reports Ready</span><span class="step-number-large">07</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 8</span><h3 class="step-title">Annual: GSTR-9, ITR, and Tax Audit</h3><p class="step-description">GSTR-9 annual return compiled from TallyPrime. ITR filed using TallyPrime-generated financials. Tax audit (Form 3CD) supported with TallyPrime voucher-level audit trail. TSS renewal managed.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-9 and ITR filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit trail provided</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="10" width="70" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="37" r="20" fill="#E8F5E9" stroke="#10B981" stroke-width="2"/><path d="M50 37l7 7 14-14" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Year Complete</span><span class="step-number-large">08</span></div></div></div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 8: DOCUMENTS REQUIRED -->
+<section class="content-section" id="documents-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">CA-Managed TallyPrime Bookkeeping and Payroll Services</h2>
+            <div class="content-text">
+                
+                <h3>CA-Managed TallyPrime Bookkeeping</h3><ul><li>Monthly voucher entry review: sales, purchase, payment, receipt, journal, and contra vouchers checked for correct tax treatment and GST section classification</li><li>Bank reconciliation using TallyPrime smart bank matching - every bank statement entry matched against recorded vouchers</li><li>Vendor bill posting and GSTR-2B matching with correct HSN codes, tax treatment, and ITC eligibility</li><li>Outstanding follow-up: aged receivables and payables reports reviewed monthly; overdue invoices flagged</li><li>MIS reporting: monthly P and L, balance sheet, cash flow, and top customer/supplier reports from TallyPrime</li><li>TDS applicability review: vendor payments crossing thresholds flagged, TDS recorded in TallyPrime, included in quarterly 26Q</li></ul><h3>Payroll Management in TallyPrime</h3><ul><li>Pay head setup: basic salary, HRA, conveyance, special allowance, LTA, medical reimbursement, variable components</li><li>Statutory deductions: PF (12% each on basic + DA up to Rs 15,000), ESI (Employee 0.75%, Employer 3.25% on gross up to Rs 21,000/month), Professional Tax per state slab</li><li>TDS on salary (Section 192): monthly calculation on estimated annual income, reflected in TDS ledger for Form 24Q</li><li>Payslip generation and payroll-to-accounts integration: journal entries auto-post to salary expense, PF/ESI/TDS payable ledgers</li></ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 9: CHALLENGES -->
+<section class="content-section" id="challenges-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Common TallyPrime Problems Patron Accounting Solves</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <tbody>
+                        <tr><td>Incorrect GST ledger structure</td><td>Migrated Tally ERP 9 ledgers with wrong GST types causing GSTR-1 classification errors and upload failures</td><td>CA-led GST ledger audit and restructuring; correct tax group and return section mapping</td></tr><tr><td>Missing HSN codes</td><td>Stock items without HSN fail GSTR-1 HSN summary validation, generating portal errors on the 11th every month</td><td>Complete HSN/SAC mapping for all stock items and service heads</td></tr><tr><td>GSTR-2B mismatches unchecked</td><td>Claiming ITC that suppliers have not filed leads to excess ITC claims and GST demand notices under Section 61/74</td><td>Monthly GSTR-2B one-click reconciliation with supplier follow-up on incomplete filings</td></tr><tr><td>IMS not configured</td><td>Businesses on TallyPrime 6.1+ missing real-time ITC visibility; may be claiming ineligible credits</td><td>IMS setup and monthly Accept/Reject/Pending review before GSTR-3B filing</td></tr><tr><td>Bank reconciliation backlog</td><td>Cash and bank balances diverge from actual; GSTR-3B payment calculations become unreliable</td><td>Monthly smart bank reconciliation with investigation of all unmatched entries</td></tr><tr><td>E-invoicing not enabled</td><td>Businesses above Rs 5 crore sending invoices without IRN face Rs 10,000 penalty per invoice under Section 122 CGST Act</td><td>E-invoicing configuration, sandbox testing, and monthly IRN error monitoring</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 10: FEES -->
+<section class="content-section" id="fees-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Tally Accounting Service Fees 2026</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <tbody>
+                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 2,499 (Exl GST and Govt. Charges)</td></tr><tr><td>Starter</td><td>Rs 2,999/month (monthly bookkeeping review + GSTR-1 + GSTR-3B + bank reconciliation; up to 100 transactions/month)</td></tr><tr><td>Growth</td><td>Rs 5,999/month (Starter + TallyPrime GST setup + e-invoicing + GSTR-2B reconciliation + IMS + TDS quarterly 26Q)</td></tr><tr><td>Scale</td><td>Rs 9,999/month (Growth + setup from scratch + payroll + GSTR-9 + ITR + tax audit support + dedicated CA)</td></tr><tr><td>Enterprise</td><td>Custom pricing (multi-company setup, inventory, cost centres, MIS dashboards, transfer pricing, virtual CFO)</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
+                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
+                <p style="margin-top:16px;"><strong>Get a free Tally Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20Tally%20Accounting%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 11: TIMELINE -->
+<section class="content-section" id="timeline-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">TallyPrime Compliance Calendar 2026</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <tbody>
+                        <tr><td>11th of next month</td><td>GSTR-1 filing - upload from TallyPrime Exchange and sign via DSC or EVC</td></tr><tr><td>14th of next month</td><td>GSTR-2B available - one-click download and auto-reconciliation in TallyPrime</td></tr><tr><td>20th of next month</td><td>GSTR-3B filing and GST payment - verify IMS actions, confirm ITC, file and pay</td></tr><tr><td>7th of next month</td><td>TDS deposit - extract TDS payable from TallyPrime and generate ITNS 281</td></tr><tr><td>31 July (quarterly)</td><td>TDS return Form 26Q (Q1) - export TDS data from TallyPrime</td></tr><tr><td>31 July (annual)</td><td>ITR filing for non-audit cases - P and L and Balance Sheet from TallyPrime</td></tr><tr><td>30 September (annual)</td><td>Tax audit Form 3CD - TallyPrime general ledger and voucher-level audit trail</td></tr><tr><td>31 December (annual)</td><td>GSTR-9 annual GST return - compiled from TallyPrime annual data</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <div class="highlight-box" style="margin-top:16px;">
+                    
+                    <p><strong>Important:</strong> GSTR-1 and GSTR-3B have strict monthly deadlines (Rs 50/day late fee). GSTR-2B reconciliation should be performed on the 14th-15th when GSTR-2B becomes available. TSS must remain active for connected GST services. Patron Accounting manages all filing calendars and sends advance reminders for every deadline.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12: BENEFITS -->
+<section class="why-choose-section" id="benefits-section">
+    <div class="section-container">
+        <div style="text-align:center;margin-bottom:48px;">
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
+            <h2 class="section-title">Why Choose Patron Accounting for TallyPrime</h2>
+        </div>
+        <div class="features-grid"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>CA-Managed, Not Data Entry</h3><p>Every engagement is led by a Chartered Accountant who understands both TallyPrime and Indian tax law - not just a data entry operator.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>End-to-End Compliance</h3><p>We set up TallyPrime AND manage GSTR-1, GSTR-3B, GSTR-9, TDS returns, and ITR - no need for separate software vendor and CA.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>GST and IMS Expertise</h3><p>GSTR-2B reconciliation, IMS management, e-invoicing error handling, and GSTR-9 annual reconciliation by experienced CAs.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V7m0 10v1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>TallyPrime Version Current</h3><p>We stay current with TallyPrime releases (currently 7.0) and ensure your configuration is updated when new compliance features are added.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3>Industry-Specific Setup</h3><p>Separate TallyPrime configurations for trading, manufacturing, services, retail, and hospitality - not one-size-fits-all.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>Clean Data Guarantee</h3><p>Monthly bookkeeping review ensures your TallyPrime data is complete, correct, and reconciled before any return is filed.</p></article></div>
+    </div>
+</section>
+
+<!-- SECTION 12A: SOCIAL PROOF -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">What Our Tally Clients Say</h2>
+            <div class="content-text">
+                
+                <div class="highlight-box"><p><em>250+ businesses on TallyPrime managed by Patron Accounting | 4.9 star rating | CA team with hands-on TallyPrime experience | Offices in Pune, Mumbai, Delhi, Bangalore | GST, TDS, and ITR compliance from your TallyPrime data</em></p></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+<section class="content-section" id="comparison-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">TallyPrime Versions and Licensing - 2026 Pricing</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Parameter</th><th>Silver (Single User)</th><th>Gold (Multi-User LAN)</th><th>TallyPrime Server</th></tr></thead>
+                    <tbody>
+                        <tr><td>One-Time Licence</td><td>Rs 22,500 + 18% GST</td><td>Rs 67,500 + 18% GST</td><td>Custom pricing</td></tr><tr><td>Monthly Rental</td><td>Rs 750 + GST/month</td><td>Rs 1,800 + GST/month</td><td>Not available</td></tr><tr><td>TSS Annual Renewal</td><td>Rs 4,500 + GST/year</td><td>Rs 13,500 + GST/year</td><td>Custom</td></tr><tr><td>2-Year TSS (Save 10%)</td><td>Rs 8,100 + GST</td><td>Rs 24,300 + GST</td><td>Custom</td></tr><tr><td>Users</td><td>1 user, 1 PC</td><td>Unlimited on LAN</td><td>Enterprise scale</td></tr><tr><td>Best For</td><td>Small businesses, single accountant</td><td>Teams with multiple concurrent users</td><td>Large data volumes, multi-company</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 14: RELATED SERVICES -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Related Services</h2>
+            <div class="content-text">
+                
+                <p>Patron Accounting also provides these complementary services:</p><ul><li><a href="/gst-registration">GST Registration</a> - Register your business for GST before setting up TallyPrime for GST compliance</li><li><a href="/gst-returns">GST Return Filing</a> - Expert CA-managed GSTR-1 and GSTR-3B filing from TallyPrime or any platform</li><li><a href="/income-tax-return">ITR Filing for Business</a> - Income tax return using TallyPrime-generated financials for companies and LLPs</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly 26Q and 24Q using data from TallyPrime payroll and vendor payments</li><li><a href="/payroll-services">Payroll Services</a> - Payroll processing using TallyPrime payroll module with PF, ESI, and PT</li><li><a href="/migration-from-tally-to-zoho">Migration from Tally to Zoho Books</a> - Data migration from TallyPrime to Zoho Books with chart mapping and GST setup</li></ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 15A: LEGAL FRAMEWORK -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">TallyPrime for Different Industries</h2>
+            <div class="content-text">
+                
+                <div class="table-responsive-wrapper"><table><thead><tr><th>Industry</th><th>TallyPrime Configuration</th><th>Key Compliance Features Used</th></tr></thead><tbody><tr><td>Trading and Distribution</td><td>Stock groups, godowns, units of measure, reorder levels, purchase/sales order tracking, batch and serial numbers</td><td>Inventory linked to GSTR-1 and GSTR-3B; HSN-wise stock summary; purchase register auto-reconciliation with GSTR-2B</td></tr><tr><td>Manufacturing</td><td>Bill of Material (BOM), manufacturing journals, production cost centres, scrap and rejection recording</td><td>Manufacturing costs flow to finished goods valuation and COGS; real-time gross margin per product line</td></tr><tr><td>Service Businesses</td><td>SAC codes on all service ledgers, cost categories for project-wise expense tracking, professional fee receipts</td><td>TDS on Section 194J receipts recorded; quarterly 26Q data export; service-wise profitability reports</td></tr><tr><td>Retail and POS</td><td>POS voucher types, payment modes (cash/card/UPI), shift-wise cash reconciliation, daily sales posting</td><td>POS data flows to accounting ledgers for daily cash position, bank deposits, and real-time inventory deduction</td></tr></tbody></table></div><p style="margin-top:16px;"><strong>Legal Framework:</strong> Section 128(1) Companies Act 2013 requires companies to maintain books of account (penalty: imprisonment up to 1 year or fine Rs 50,000 to Rs 5 lakhs). Rule 3 Companies (Accounts) Rules 2014 permits electronic records if accessible in India. Section 44AA Income Tax Act 1961 requires prescribed books for business turnover above Rs 25 lakhs. <a href="https://cbic.gov.in" target="_blank" rel="noopener">CGST Act 2017 Section 35</a> requires registered persons to maintain accounts of inward/outward supply, stock, and ITC. E-invoicing per Notification 17/2022-Central Tax mandatory for turnover above Rs 5 crore.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+    <div class="content-container">
+        <div class="text-content">
+            <div class="faq-expanded">
+                <aside class="faq-expanded__aside">
+                    <h2 class="faq-expanded__title">Frequently Asked Questions - Tally Accounting</h2>
+                    <p class="faq-expanded__lead">Get answers about TallyPrime vs Tally ERP 9, Silver vs Gold licences, TSS renewal, GSTR-1 filing from Tally, IMS, and GSTR-2B reconciliation.</p>
+                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Tally Accounting'])
+                </aside>
+                <div class="faq-expanded__list">
+                    <div class="faq-expanded__item" id="faq-1">
+                        <h3 class="faq-expanded__q">What is TallyPrime and how does it differ from Tally ERP 9?</h3>
+                        <div class="faq-expanded__a"><p>TallyPrime is the current and actively supported version of Tally's business management software, launched in 2020 to replace Tally ERP 9. Key differences: TallyPrime has a redesigned interface for navigation between reports and vouchers; supports direct connected GST (uploading GSTR-1, downloading GSTR-2A/2B, and filing returns from within Tally without visiting the GST portal); includes IMS (Invoice Management System) for ITC control; and has improved multi-GSTIN and multi-company support. Tally ERP 9 no longer receives statutory updates. TallyPrime 7.0 is the current version (December 2025).</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-2">
+                        <h3 class="faq-expanded__q">What is TallyPrime Silver vs Gold - which should I buy?</h3>
+                        <div class="faq-expanded__a"><p>TallyPrime Silver (Rs 22,500 + 18% GST one-time, or Rs 750/month rental) is a single-user licence for one computer at a time - ideal for small businesses with one accountant. TallyPrime Gold (Rs 67,500 + 18% GST one-time, or Rs 1,800/month rental) allows unlimited concurrent users on a Local Area Network - suitable for teams needing simultaneous access. Both include the complete TallyPrime feature set. If only one person accesses Tally, Silver is sufficient. If two or more need simultaneous access, Gold is required.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-3">
+                        <h3 class="faq-expanded__q">What is TSS (Tally Software Services) and is it mandatory?</h3>
+                        <div class="faq-expanded__a"><p>TSS is Tally Solutions' annual subscription for updates and connected services. After the first year (included with purchase), renewal is optional but strongly recommended. Without active TSS, TallyPrime continues working but will not receive: software updates, statutory compliance updates (new GST return formats, e-invoicing API changes), access to connected GST services (GSTR-1 upload, GSTR-2B download, e-invoicing), and remote access. TSS renewal: Silver Rs 4,500 + GST/year; Gold Rs 13,500 + GST/year. A 2-year renewal saves approximately 10%.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-4">
+                        <h3 class="faq-expanded__q">Can TallyPrime file GSTR-1 and GSTR-3B directly to the GST portal?</h3>
+                        <div class="faq-expanded__a"><p>Yes. TallyPrime's Connected GST feature allows direct GSTR-1 upload and signing from within TallyPrime - no need to log into the GST portal separately. Workflow: once GSTR-1 data is ready, go to Gateway of Tally > Exchange > Upload GST Returns. TallyPrime uploads to the portal where you preview and file using EVC or DSC. GSTR-3B data can also be exported for portal upload. This requires active TSS. Patron Accounting manages this entire monthly filing process.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-5">
+                        <h3 class="faq-expanded__q">What is IMS (Invoice Management System) in TallyPrime?</h3>
+                        <div class="faq-expanded__a"><p>IMS is a GST compliance feature in TallyPrime 6.1+ that gives buyers real-time visibility and control over supplier invoices on the GST portal. Before IMS, businesses waited for GSTR-2B on the 14th to know eligible ITC. With IMS, supplier invoices appear as uploaded, and the buyer can: Accept (confirm ITC claim), Reject (mark ineligible - e.g. staff welfare), or Pending (defer decision). Accepted invoices flow into GSTR-2B and GSTR-3B ITC. Patron's CA team performs IMS review every month before GSTR-3B.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-6">
+                        <h3 class="faq-expanded__q">What is GSTR-2B reconciliation and why does it matter?</h3>
+                        <div class="faq-expanded__a"><p>GSTR-2B is the auto-populated ITC eligibility statement from your suppliers' GSTR-1 filings. Reconciliation means matching GSTR-2B ITC against TallyPrime purchase entries to ensure: all eligible ITC is claimed (no missing credits), and no ITC is claimed for unmatched invoices per Rule 36(4). Skipping reconciliation risks excess ITC claims (triggering Section 61/74 notices) or missed legitimate ITC (paying more GST than required). TallyPrime's one-click reconciliation downloads the GSTR-2B JSON and auto-matches. Patron performs this every month.</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Quick Answers -->
+            <div class="highlight-box" style="margin-top:32px;">
+                <p><strong>Quick Answers</strong></p>
+                <p><strong>What is Tally accounting?</strong><br>Tally accounting is the use of TallyPrime software to record and manage financial transactions - invoices, expenses, GST, payroll, inventory, and tax compliance - used by 7 million+ Indian businesses across 36+ years.</p><p><strong>Tally mein GST kaise bhare?</strong><br>TallyPrime mein GSTR-1 direct upload hota hai GST portal par bina alag se login kiye. Gateway of Tally > Exchange > Upload GST Returns. GSTR-3B bhi TallyPrime se calculate hota hai. Patron Accounting ka CA team yeh sab monthly manage karta hai Rs 2,999/month se.</p><p><strong>Is TallyPrime better than Tally ERP 9?</strong><br>Yes. TallyPrime has connected GST (direct GSTR-1 upload, GSTR-2B download), IMS for ITC control, e-invoicing, e-way bill, and a redesigned interface. Tally ERP 9 no longer receives statutory updates. TallyPrime 7.0 is the current version (December 2025).</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 18: URGENCY CTA -->
+<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">TallyPrime 7.0 - What Changed (December 2025)</h2>
+            <div class="content-text">
+                
+                <p>TallyPrime 7.0, launched on December 19, 2025, introduces major enhancements focused on automation, AI-assisted workflows, and deeper compliance connectivity:</p><ul><li>Smarter reconciliation dashboards for faster bank and GSTR-2B matching</li><li>Enhanced IMS (Invoice Management System) workflows for real-time ITC control</li><li>Improved GSTR-2B API Version 4 integration for more accurate data downloads</li><li>Advanced connected banking with smart bank reconciliation</li><li>Better multi-GSTIN support for businesses with multiple state registrations</li><li>Architecture improvements making TallyPrime more responsive for high transaction volumes</li></ul><p style="margin-top:16px;"><strong>Upgrade to TallyPrime 7.0 with CA support - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20TallyPrime%207.0%20setup." target="_blank">WhatsApp us</a> for a free consultation.</strong></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONCLUSION + CTA BLOCK (Dark) -->
+<section class="content-section" style="background: var(--blue) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your CA-Managed Tally Accounting Today</h2>
+            <div class="content-text" style="text-align:left;">
+                
+                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">TallyPrime is India's most widely used accounting software for a reason - it covers accounting, GST, inventory, e-invoicing, e-way bill, payroll, and reporting in a single platform built for Indian tax requirements. But TallyPrime's power only works when configured correctly and maintained consistently. Misconfigured GST ledgers, missing HSN codes, unchecked GSTR-2B mismatches, and IMS not used properly create compliance risk.</p><p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">Patron Accounting LLP provides CA-managed TallyPrime services: correct setup, monthly bookkeeping, connected GST filing, GSTR-2B reconciliation, IMS management, TDS returns, and annual ITR - all using your TallyPrime data as the single source of truth. Whether you need a fresh setup or help fixing existing problems, our CA team delivers.</p><p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;"><strong>250+ TallyPrime businesses managed | 4.9 star rating | Starting from Rs 2,999/month | TallyPrime 7.0 ready</strong></p>
+
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20Tally%20Accounting%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Tally%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Tally%20Accounting%20services.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+            </div>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Tally Accounting Services Across India</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides CA-managed TallyPrime setup, GST compliance, and bookkeeping services across major Indian cities.</p>
+           
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-city-grid"><a href="/tally-accounting/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/tally-accounting/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/tally-accounting/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/tally-accounting/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div><div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Tally Accounting</div><div class="pa-cross-grid"><a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a><a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a><a href="/tds-return-filing-24q" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a><a href="/migration-from-tally-to-zoho" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Migration: Tally to Zoho</div><div class="pa-card-sub">India</div></div></a></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTENT FRESHNESS FOOTER -->
+<section class="content-section" style="padding:32px;">
+    <div class="content-container">
+        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
+            <p><strong>Content Created:</strong> 15 January 2024 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">15 January 2024</span> &nbsp;|&nbsp; <strong>Next Review:</strong> March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
+            <p>This page is reviewed annually or when TallyPrime releases a major version update or pricing revision. Next review: March 2027. TallyPrime 7.0 launched December 19, 2025.</p>
+        </div>
+    </div>
+</section>
+
+<!-- STICKY WHATSAPP BAR -->
+{{--
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
+        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Join Free &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div> 
+--}}
+@include('layouts.itr-season-strip')
+
+
+
+
+
+<!-- Google Maps Places Library (for GMB reviews) -->
+
+
+<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
 <script>
-document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var a=this.parentElement;a.classList.toggle('open');});});
-document.querySelectorAll('.toc-pill,a[href^="#"]').forEach(function(l){l.addEventListener('click',function(e){var id=this.getAttribute('href');if(id&&id.length>1){var t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
+(function() {
+    // ============================================
+    // CONFIGURATION  -  Update these values
+    // ============================================
+    const CONFIG = {
+        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        // Fallback static reviews (shown if API fails or key not set)
+        fallbackReviews: [
+            {
+                author_name: "Subhendu Mishra",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Rajib Dutta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Nishikant Gurav",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Nikhil Nimbhorkar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
+                relative_time_description: "4 months ago"
+            },
+            {
+                author_name: "Sameer Mehta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Preeti Singh Rathor",
+                profile_photo_url: "",
+                rating: 5,
+                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Anita Gaur",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
+                relative_time_description: "5 months ago"
+            },
+            {
+                author_name: "Pankaj Arvikar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Sunny Ashpal",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
+                relative_time_description: "6 months ago",
+                role: "Director - Demandify Media",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+            },
+            {
+                author_name: "Anjanay Srivastava",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
+                relative_time_description: "4 months ago",
+                role: "Founder - Hunarsource Consulting",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+            }
+        ]
+    };
+
+    // ============================================
+    // HELPER: Generate star SVGs
+    // ============================================
+    function starsHTML(rating) {
+        let s = '';
+        for (let i = 0; i < 5; i++) {
+            s += i < rating
+                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
+                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+        }
+        return s;
+    }
+
+    // ============================================
+    // HELPER: Avatar color based on name
+    // ============================================
+    const avatarColors = ['', 'blue', 'teal', 'purple'];
+    function avatarClass(index) {
+        return avatarColors[index % avatarColors.length];
+    }
+
+    // ============================================
+    // RENDER: Build card HTML for a review
+    // ============================================
+    function buildVideoCard(review) {
+        return `
+        <div>
+            <div class="testi-video-card">
+                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
+                    <video preload="metadata" poster="${review.photoUrl || ''}">
+                        <source src="${review.videoUrl}" type="video/mp4">
+                    </video>
+                    <div class="testi-play-overlay">
+                        <div class="testi-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
+                </div>
+                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                    <div class="testi-avatar">
+                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
+                    </div>
+                    <div>
+                        <div class="testi-name">${review.author_name}</div>
+                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function buildQuoteCard(review, index) {
+        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
+        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
+        const colorClass = avatarClass(index);
+
+        return `
+        <div>
+            <div class="testi-quote-card">
+                <div class="testi-quote-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testi-quote-text">${review.text || ''}</p>
+                <div class="testi-footer">
+                    <div class="testi-author">
+                        <div class="testi-avatar ${colorClass}">
+                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
+                        </div>
+                        <div>
+                            <div class="testi-name">${review.author_name}</div>
+                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
+                        </div>
+                    </div>
+                    <div class="testi-rating-row">
+                        <div class="testi-stars">${starsHTML(review.rating)}</div>
+                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    // ============================================
+    // RENDER: Populate slider with reviews
+    // ============================================
+   function renderReviews(reviews) {
+const slider = document.getElementById('testimonialSlider');
+const loading = document.getElementById('testiLoading');
+
+let html = '';
+
+reviews.forEach(function(review, i) {
+    if (review.hasVideo && review.videoUrl) {
+        html += buildVideoCard(review);
+    } else {
+        html += buildQuoteCard(review, i);
+    }
+});
+
+// If slider already initialized destroy first
+if ($(slider).hasClass('slick-initialized')) {
+    $(slider).slick('unslick');
+}
+
+slider.innerHTML = html;
+slider.style.display = 'block';
+if (loading) loading.style.display = 'none';
+
+// Re-initialize slick
+initSlick(slider);
+
+
+}
+
+
+    function initSlick(slider) {
+        if ($(slider).hasClass('slick-initialized')) return;
+        $(slider).slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows: false,
+            cssEase: 'ease-in-out',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            swipe: true,
+            touchMove: true,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 900, settings: { slidesToShow: 2 } },
+                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
+            ]
+        });
+    }
+
+    // ============================================
+    // FETCH: Google Places API Reviews
+    // ============================================
+    function fetchGMBReviews() {
+        // If API key not set, use fallback
+        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
+            console.log('[Testimonials] No Google API key set  -  using fallback reviews.');
+            renderReviews(CONFIG.fallbackReviews);
+            return;
+        }
+
+        // Google Places API requires server-side proxy due to CORS
+        // Option 1: Use Google Maps JS API (requires loading Maps library)
+        // Option 2: Use a server-side proxy endpoint
+        // Below is the Google Maps JS API approach:
+
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
+        script.async = true;
+        script.defer = true;
+        script.onerror = function() {
+            console.log('[Testimonials] Failed to load Google Maps API  -  using fallback.');
+            renderReviews(CONFIG.fallbackReviews);
+        };
+        document.head.appendChild(script);
+    }
+
+    // Global callback for Google Maps JS API
+    window.initGMBReviews = function() {
+        try {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            service.getDetails({
+                placeId: CONFIG.placeId,
+                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
+            }, function(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
+                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
+
+                    // Merge: video testimonials first, then GMB reviews
+                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
+                    const gmbReviews = place.reviews.map(function(r) {
+                        return {
+                            author_name: r.author_name,
+                            profile_photo_url: r.profile_photo_url,
+                            rating: r.rating,
+                            text: r.text,
+                            relative_time_description: r.relative_time_description
+                        };
+                    });
+
+                    renderReviews([...videoTestimonials, ...gmbReviews]);
+                } else {
+                    console.log('[Testimonials] Google Places returned no reviews  -  using fallback.');
+                    renderReviews(CONFIG.fallbackReviews);
+                }
+            });
+        } catch (e) {
+            console.log('[Testimonials] Error:', e);
+            renderReviews(CONFIG.fallbackReviews);
+        }
+    };
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        // Static cards already rendered  -  init Slick immediately
+        const slider = document.getElementById('testimonialSlider');
+        if (slider && slider.children.length > 0) {
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                initSlick(slider);
+            } else {
+                window.addEventListener('load', function() {
+                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
+                });
+            }
+        }
+        fetchGMBReviews();
+    });
+})();
+
+// Video play/pause toggle for testimonial cards
+function toggleTestiVideo(area) {
+    const video = area.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+        // Pause all other videos first
+        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
+        video.play();
+        area.classList.add('playing');
+    } else {
+        video.pause();
+        area.classList.remove('playing');
+    }
+}
+
 </script>
+
+<!-- ============================================
+     CONSULTATION FORM  -  Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+    }
+    return { valid: true };
+}
+
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+// ─────────────────────────────────────────────────────────────
+
+function validateConsultationForm() {
+    var isValid = true;
+
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+    var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler (Bigin iframe load)
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    // Auto-embed page URL in form
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation (from Bigin source code)
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+// Bigin iframe success handler (overrides our custom one above via event delegation)
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
+
+<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+
+<script>
+
+</script>
+
+<script>
+// TOC scroll arrows
+const tocWrapper = document.getElementById('tocWrapper');
+document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
+document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
+
+// TOC active state on scroll — only tracks sections that have a matching TOC
+// button, keeps the active pill scrolled into view, and stays correct at the
+// very bottom of the page.
+(function () {
+    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
+    var wrapper = document.getElementById('tocWrapper');
+    if (!tocBtns.length) return;
+    var entries = tocBtns.map(function (btn) {
+        var id = (btn.getAttribute('href') || '').replace('#', '');
+        return { btn: btn, section: document.getElementById(id) };
+    }).filter(function (e) { return e.section; });
+    if (!entries.length) return;
+    var OFFSET = 200;
+    var ticking = false;
+    function setActive(entry) {
+        tocBtns.forEach(function (b) { b.classList.remove('active'); });
+        if (!entry) return;
+        entry.btn.classList.add('active');
+        if (wrapper) {
+            var left = entry.btn.offsetLeft;
+            var right = left + entry.btn.offsetWidth;
+            if (left < wrapper.scrollLeft) {
+                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
+            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
+                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
+            }
+        }
+    }
+    function onScroll() {
+        ticking = false;
+        var y = window.pageYOffset + OFFSET;
+        var active = entries[0];
+        for (var i = 0; i < entries.length; i++) {
+            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
+        }
+        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
+            active = entries[entries.length - 1];
+        }
+        setActive(active);
+    }
+    window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
+    }, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+})();
+</script>
+
+<!-- WhatsApp Sticky Bar Script -->
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
+</main>
+
+<!-- External JS Dependencies (loaded by master layout in production) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

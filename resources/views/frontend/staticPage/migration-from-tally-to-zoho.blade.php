@@ -1,43 +1,3 @@
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
-<!-- FACT-CHECK VERIFICATION
-     Ran at:            2026-07-10T13:27:02.256375+05:30
-     Batch mode:        True
-     Claims extracted:  2
-     Verified:          1
-     Contradicted:      0 (rewritten)
-     Needs live check:  1
-     Final verdict:     review_recommended
-     Script:            fact_check.py v2 (batch mode)
--->
 
 
 @extends('layouts.service-app')
@@ -52,216 +12,127 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-<title>Migration: Tally to Zoho Books in India | Chartered Support</title>
-<meta name="description" content="Expert tally to zoho books migration for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free quote.">
-<link rel="canonical" href="/migration-from-tally-to-zoho">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta property="og:title" content="Migration: Tally to Zoho Books in India | Chartered Support">
-<meta property="og:description" content="Expert tally to zoho books migration for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free quote.">
-<meta property="og:url" content="/migration-from-tally-to-zoho">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:image" content="/images/master/migration-from-tally-to-zoho-master.webp">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Migration: Tally to Zoho Books in India | Chartered Support">
-<meta name="twitter:description" content="Expert tally to zoho books migration for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free quote.">
-<meta name="twitter:image" content="/images/master/migration-from-tally-to-zoho-master.webp">
+    <title>Tally to Zoho Books Migration - Steps, Pricing & Support</title>
+    <meta name="description" content="Expert Tally to Zoho Books migration in India. Chart of accounts, contacts, GST setup, and historical data. Migration from INR 9,999.">
+    <link rel="canonical" href="/migration-from-tally-to-zoho">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to Zoho Books Migration - Steps, Pricing & Support">
+    <meta property="og:description" content="Expert Tally to Zoho Books migration in India. Chart of accounts, contacts, GST setup, and historical data. Migration from INR 9,999.">
+    <meta property="og:url" content="/migration-from-tally-to-zoho">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="/images/migration-from-tally-to-zoho-og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to Zoho Books Migration - Steps, Pricing & Support">
+    <meta name="twitter:description" content="Expert Tally to Zoho Books migration in India. Chart of accounts, contacts, GST setup, and historical data. Migration from INR 9,999.">
+    <meta name="twitter:image" content="/images/migration-from-tally-to-zoho-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
       "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho#breadcrumb",
-      "itemListElement": [
+      "@graph": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounting Migration",
-          "item": "https://www.patronaccounting.com/accounting-migration"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Migration: Tally to Zoho Books",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho#service",
-      "serviceType": "Migration: Tally to Zoho Books",
-      "name": "Migration: Tally to Zoho Books",
-      "description": "Expert tally to zoho books migration for Indian businesses, run and reviewed by Patron's CA and CS team. From INR 9999. Accurate books and a free quote.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "provider": {
-        "@type": "AccountingService",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/"
-      },
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho#faq",
-      "datePublished": "2026-07-10T10:00:00+05:30",
-      "dateModified": "2026-07-10T10:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is Zoho Books better than Tally for my business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Zoho Books is better for businesses wanting cloud access, automation, and anytime multi-user working, while Tally suits offline, desktop-based accounting. Zoho Books is GST-ready, integrates with banks and other Zoho apps, and is accessible from any device. We help you decide based on your team, remote-working needs and workflows before migrating your data."
+          "@type": "Service",
+          "name": "Tally to Zoho Books Migration - Steps, Pricing & Support",
+          "description": "Expert Tally to Zoho Books migration in India. Chart of accounts, contacts, GST setup, and historical data. Migration from INR 9,999.",
+          "url": "/migration-from-tally-to-zoho",
+          "serviceType": "Tally to Zoho Books Migration - Steps, Pricing & Support",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Patron Accounting LLP",
+            "url": "/",
+            "logo": "/images/site-logo.svg"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "/migration-from-tally-to-zoho",
+            "price": "9999"
           }
         },
         {
-          "@type": "Question",
-          "name": "What are the disadvantages of Zoho Books compared to Tally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Zoho Books needs an internet connection, runs on a paid annual subscription, and handles very complex manufacturing or deep inventory costing less flexibly than Tally. For most service and trading businesses these are minor. We assess your processes first so you migrate only when Zoho Books genuinely fits how you work."
-          }
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Tally to Zoho Books Migration - Steps, Pricing & Support",
+              "item": "/migration-from-tally-to-zoho"
+            }
+          ]
         },
         {
-          "@type": "Question",
-          "name": "Will we lose any historical data when migrating from Tally to Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No, your Tally history stays intact in your original data file, and we bring across masters, balances and required transaction history into Zoho Books. Very old line-level transactions are usually carried as opening balances rather than re-keyed. We agree the historical cut-off with you so nothing important is lost during migration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can we integrate Tally with Zoho Books instead of fully migrating?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, short-term integration or parallel running is possible, but for a clean move we recommend a full migration with a defined cut-over date. Integration tools can sync data, though maintaining two systems adds cost and reconciliation effort. We advise which approach fits your timeline and then execute the migration end to end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is data exported out of Tally for the migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We export masters, ledgers, stock items and transactions from TallyPrime into structured Excel or XML files, then clean and map them to Zoho Books fields. Chart of accounts and tax settings are mapped before import. This structured export-map-import method keeps your ledgers, GST rates and party details accurate in Zoho Books."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens to open invoices, debtors and creditors after we migrate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "All unpaid customer invoices and vendor bills are migrated as open items so your sundry debtors and creditors ageing continues seamlessly in Zoho Books. Payments received later can be matched against them. We reconcile receivables and payables to the Tally balances so no outstanding amount is dropped during the switch."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Zoho Books an Indian product, and where is our accounting data stored?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Zoho is an Indian company headquartered in Tamil Nadu, and it offers India data-centre hosting, which helps with data-residency comfort for Indian businesses. Access is secured with logins and role permissions. We configure users and access controls during migration so only authorised people see your financial data."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do we need a paid Zoho Books subscription after migrating?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Zoho Books runs on an annual subscription based on your plan and user count, though a free tier exists for very small businesses below a turnover threshold. The subscription is separate from our migration fee. We help you pick the right Zoho Books plan so you are not overpaying for unused features."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are opening balances and opening stock handled during cut-over?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We freeze the Tally trial balance as at the cut-over date and enter matching opening balances for every ledger, plus opening stock quantities and values, into Zoho Books. Both sets are then compared line by line. This ensures your first day in Zoho Books starts from the exact position your Tally books closed at."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Tally to Zoho Books migration cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting's Tally to Zoho Books migration starts at INR 9999, excluding GST and government charges, covering data mapping, import and trial-balance tie-out. The final fee depends on data volume, number of years migrated and inventory complexity. Larger or multi-company migrations are quoted after we review your Tally data."
-          }
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What data can be migrated from Tally to Zoho Books?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "All core financial data: chart of accounts (ledger groups and sub-ledgers), customer and vendor contacts with GSTIN, inventory items with HSN/SAC codes, opening balances (receivables, payables, assets, liabilities), and historical transactions (invoices, bills, payments, receipts, manual journals). Bank transactions and PDFs cannot be directly migrated but bank accounts can be set up for future feeds."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does Tally to Zoho Books migration take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Opening balances only: 5 to 7 business days. Current financial year migration: 7 to 10 business days. Full historical migration (up to 3 years): 12 to 15 business days. Enterprise and complex migrations: 15 to 25 business days. Timeline depends on data volume, number of years, and client response time on clarifications."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my Tally data safe during migration?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We never modify your original Tally data. Migration is done from a backup copy. Tally exports in Excel/CSV format and your Tally system continues running normally. Zoho Books uses 256-bit SSL encryption, two-factor authentication, and role-based access controls for enterprise-grade security."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does Tally to Zoho Books migration cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Migration packages: Rs. 4,999 for opening balances only, Rs. 9,999 for current FY, Rs. 19,999 for full historical (up to 3 years). Enterprise migrations priced custom. All packages include pre-migration audit, CA-reviewed mapping, GST configuration, trial balance reconciliation, and team training. Zoho Books subscription is separate."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need a Zoho Books subscription before starting?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, you need a Zoho Books account to import data. A 14-day free trial is available to start before committing to a plan. Zoho Books Standard plan starts at Rs. 899/month (3 users, 5,000 invoices/year). We can help assess the right plan for your business."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will my GST filings be affected during migration?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, if planned correctly. We set a migration date at start of financial year or quarter to minimise disruption. You continue filing from Tally until migration date and switch to Zoho Books from that date onwards. All GST configurations are tested in Zoho Books before you go live."
+              }
+            }
+          ]
         }
       ]
     }
-  ]
-}
     </script>
 @endsection
 
 @section('content')
-<style>
-.pa-page{max-width:1080px;margin:0 auto;padding:0 20px;color:var(--text-primary);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.7}
-.pa-page .hero{background:var(--blue-lighter);border-radius:var(--radius-xl);padding:56px 40px;margin:24px 0}
-.pa-page .eyebrow{display:inline-block;color:var(--orange);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin-bottom:12px}
-.pa-page h1{font-size:38px;line-height:1.18;color:var(--blue);margin:0 0 14px}
-.pa-page .hero-sub{font-size:19px;color:var(--text-secondary);max-width:720px}
-.pa-page .hero-cta{margin-top:24px;display:flex;gap:14px;flex-wrap:wrap}
-.pa-page .btn{display:inline-block;padding:14px 26px;border-radius:var(--radius-md);font-weight:700;text-decoration:none;transition:.2s}
-.pa-page .btn-primary{background:var(--orange);color:#fff;box-shadow:var(--shadow-md)}
-.pa-page .btn-primary:hover{background:var(--orange-dark)}
-.pa-page .btn-ghost{background:#fff;color:var(--blue);border:2px solid var(--gray-200)}
-.pa-page .toc{position:sticky;top:0;z-index:5;display:flex;gap:8px;flex-wrap:wrap;padding:14px 0;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);margin-bottom:8px}
-.pa-page .toc-pill{font-size:13px;font-weight:600;color:var(--blue);background:var(--gray-100);padding:8px 14px;border-radius:999px;text-decoration:none}
-.pa-page .toc-pill:hover{background:var(--orange-light);color:var(--orange-dark)}
-.pa-page .sec{padding:34px 0;border-top:1px solid var(--gray-100)}
-.pa-page h2{font-size:27px;color:var(--blue);margin:0 0 16px}
-.pa-page h3{font-size:18px;color:var(--blue);margin:0 0 6px}
-.pa-page .tldr{background:var(--orange-lighter);border-left:4px solid var(--orange);padding:16px 18px;border-radius:var(--radius-sm);margin-bottom:16px}
-.pa-page .two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
-.pa-page .highlight-box{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:16px 18px;margin-top:14px}
-.pa-page .column-image{display:flex;justify-content:center}
-.pa-page .illustration-frame{max-width:360px;text-align:center}
-.pa-page .illustration-badge{margin-top:10px;background:var(--blue);color:#fff;border-radius:var(--radius-md);padding:10px 16px;display:inline-flex;flex-direction:column}
-.pa-page .illustration-badge strong{color:var(--orange-light)}
-.pa-page ul.ticks{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.pa-page ul.ticks li{position:relative;padding-left:30px}
-.pa-page ul.ticks li:before{content:"\2713";position:absolute;left:0;top:0;color:#fff;background:var(--orange);width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px}
-.pa-page .table-wrap{overflow-x:auto}
-.pa-page table{width:100%;border-collapse:collapse;font-size:15px}
-.pa-page th,.pa-page td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--gray-200);vertical-align:top}
-.pa-page thead th{background:var(--blue);color:#fff}
-.pa-page .steps{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.pa-page .step-card{display:flex;gap:14px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow-sm)}
-.pa-page .step-num{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800}
-.pa-page .fee-box{display:flex;flex-direction:column;background:var(--blue);color:#fff;border-radius:var(--radius-lg);padding:24px 28px;max-width:340px}
-.pa-page .fee-label{font-size:13px;text-transform:uppercase;letter-spacing:.05em;opacity:.85}
-.pa-page .fee-amount{font-size:34px;font-weight:800;color:var(--orange-light)}
-.pa-page .fee-note{font-size:13px;opacity:.85}
-.pa-page .disclaimer{font-size:13px;color:var(--text-muted);margin-top:10px}
-.pa-page .benefits{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-.pa-page .benefit{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:18px}
-.pa-page .faq-item{border:1px solid var(--gray-200);border-radius:var(--radius-md);margin-bottom:10px;overflow:hidden}
-.pa-page .faq-q{width:100%;text-align:left;background:#fff;border:0;padding:16px 18px;font-size:16px;font-weight:600;color:var(--blue);display:flex;justify-content:space-between;cursor:pointer}
-.pa-page .faq-a{max-height:0;overflow:hidden;transition:max-height .3s;padding:0 18px}
-.pa-page .faq-item.open .faq-a{max-height:600px;padding:0 18px 16px}
-.pa-page .faq-ico{color:var(--orange);font-weight:800}
-.pa-page .final-cta{text-align:center;background:var(--orange-lighter);border-radius:var(--radius-xl);padding:44px 24px;margin:28px 0}
-.pa-page .page-meta{font-size:13px;color:var(--text-muted);padding:20px 0}
-@media(max-width:820px){.pa-page .two-col{grid-template-columns:1fr}.pa-page .steps{grid-template-columns:1fr}.pa-page .benefits{grid-template-columns:1fr}.pa-page ul.ticks{grid-template-columns:1fr}.pa-page h1{font-size:30px}}
-</style>
 <style>
         /* ============================================
            CSS VARIABLES
@@ -513,7 +384,7 @@
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); transition: all 0.2s ease;
         }
-        .form-input::-ms-input-ph { color: var(--gray-400); }
+        .form-input::placeholder { color: var(--gray-400); }
         .form-input:hover { background: var(--gray-100); }
         .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
@@ -567,7 +438,7 @@
             font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
             background: var(--gray-50); outline: none;
         }
-        .country-search-input::-ms-input-ph { color: var(--gray-400); }
+        .country-search-input::placeholder { color: var(--gray-400); }
         .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
         .country-options::-webkit-scrollbar { width: 5px; }
         .country-options::-webkit-scrollbar-track { background: transparent; }
@@ -709,7 +580,7 @@
         .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
         .highlight-box p:last-child { margin-bottom: 0; }
 
-        .illustration-inputhint {
+        .illustration-placeholder {
             width: 100%; max-width: 420px; aspect-ratio: 4/3;
             background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
             border-radius: var(--radius-xl); display: flex; flex-direction: column;
@@ -1201,80 +1072,1479 @@
             .wa-sticky-bar-btn span { display: none; }
         }
 </style>
-<div class="pa-page">
-<section class="hero">
-  <div class="hero-inner">
-    <span class="eyebrow">India-Wide · By Patron Accounting</span>
-    <h1>Migration: Tally to Zoho Books Done Once, Done Correctly</h1>
-    <p class="hero-sub">Reliable tally to zoho books migration delivered and reviewed by Patron's qualified CA &amp; CS team, for businesses anywhere in India.</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a>
-      <a class="btn btn-ghost" href="#fees">See Pricing</a>
+<main>
+
+<!-- HERO SECTION -->
+<section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="pe-lg-5">
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Trusted by 10,000+ Businesses
+                    </div>
+
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
+                        Migration from Tally to Zoho Books in India
+                    </h1>
+
+                    <div class="expert-attribution-box">
+                        <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
+                        <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
+                        <span class="eab-meta">
+                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>15+ Years Experience</span><span class="eab-sep">|</span>
+                            <span>Last Updated: <span id="lastUpdated">12 March 2026</span></span>
+                        </span>
+                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Complete Data Migration:</span> Chart of accounts, contacts, invoices, opening balances, and GST configurations - zero data loss guaranteed</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>CA-Reviewed Mapping:</span> Each Tally ledger group mapped to the correct Zoho Books account type by qualified Chartered Accountants for accounting accuracy</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>GST-Ready Setup:</span> GSTIN, HSN/SAC codes, e-invoicing, e-way bill, and GSTR return filing workflows configured in Zoho Books on go-live day</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Post-Migration Support:</span> 30-day CA support plus team training so your finance staff transitions with confidence - starting from INR 9,999</p>
+                        </div>
+                    </div>
+
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">150+ Tally to Zoho Books migrations completed with 100% trial balance reconciliation accuracy</p>
+
+                    <div class="hero-cta">
+                        <a href="tel:+919459456700" class="btn-video text-decoration-none">
+                            <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
+                            Call +91 945 945 6700
+                        </a>
+                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            Email Us
+                        </a>
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20migrate%20from%20Tally%20to%20Zoho%20Books.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+                            WhatsApp Us
+                        </a>
+                    </div>
+
+                    <div class="trust-section">
+                        <div class="trust-row">
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                            </div>
+                            <div class="trust-item">
+                                <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                            </div>
+                        </div>
+                        <div class="google-rating">
+                            <div class="rating-content">
+                                <div class="rating-stars">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                    <span class="rating-score">4.9</span>
+                                </div>
+                                <span class="rating-count">Based on 500+ reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Tally to Zoho Migration'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value="migration-from-tally-to-zoho" selected>Tally to Zoho Migration</option>
+                                <option value="zoho-books-accounting">Zoho Books Accounting</option>
+                                <option value="tally-accounting">Tally Accounting</option>
+                                <option value="accounting-services">Accounting Services</option>
+                                <option value="gst-returns">GST Return Filing</option>
+                                <option value="income-tax-return">Income Tax Return</option>
+                                <option value="payroll-services">Payroll Services</option>
+                                <option value="quickbooks-accounting">QuickBooks Accounting</option>
+                                <option value="other">Other</option>
+
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                    </form>
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-<nav class="toc" aria-label="On this page"><a class="toc-pill" href="#overview">Overview</a><a class="toc-pill" href="#what-is">What It Covers</a><a class="toc-pill" href="#who-needs">Who Needs It</a><a class="toc-pill" href="#services">Our Scope</a><a class="toc-pill" href="#process">Process</a><a class="toc-pill" href="#documents">Documents</a><a class="toc-pill" href="#errors">Avoid Errors</a><a class="toc-pill" href="#fees">Pricing</a><a class="toc-pill" href="#timeline">Timeline</a><a class="toc-pill" href="#why-us">Why Patron</a><a class="toc-pill" href="#faqs">FAQs</a></nav>
-<section id="overview" class="sec">
-  <h2>Understanding Migration: Tally to Zoho Books</h2>
-  <div class="tldr"><strong>In short:</strong> THE flagship migration page (biggest + most monetized migration term): scope table, Rs 9,999 anchor vs Fabrise Rs 14,999, 72-hr-class timeline, 100% TB reconciliation; page=service, existing Patron blog=guide (cross-link, don&#x27;t merge).</div>
-  <p>Good tally to zoho books migration is about discipline, not heroics. Patron maintains the ledgers, reconciles every period and reviews the result, giving Migration: Tally to Zoho Books owners records they can trust.</p>
-  <p>You get a single, dependable source of truth for Migration: Tally to Zoho Books — reconciled, reviewed and ready whenever a bank, buyer or auditor asks.</p>
-</section>
-<section id="what-is" class="sec two-col">
-  <div class="column-content">
-    <h2>Inside Our Migration: Tally to Zoho Books</h2>
-    <p>Behind Migration: Tally to Zoho Books is a repeatable system: structured recording, period-end reconciliation and a professional review, so nothing drifts between months.</p>
-    <div class="highlight-box">
-      <strong>Key areas we handle for Migration: Tally to Zoho Books:</strong>
-      <p>tally to zoho books migration, tally to zoho migration, migrate from tally to zoho books.</p>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Real Stories from Real People</h2>
+            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
+        </div>
+        <div class="testi-loading" id="testiLoading" style="display:none !important;">
+            <div class="spinner"></div>
+            Fetching latest Google reviews&hellip;
+        </div>
+        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
+      
+        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We had 4 years of Tally data and were worried about losing transaction history. Patron mapped every ledger correctly and reconciled our trial balance to the rupee. The whole migration was done in 12 days.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AK</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Amit K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Finance Head, D2C Brand, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron's team noticed our GST ledger mapping was wrong before migration. That catch alone saved us from filing errors in Zoho Books for months. The CA review made all the difference.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RS</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rajesh S.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, IT Services, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We tried DIY migration and ended up with unbalanced opening entries. Patron came in, cleaned everything up, and delivered a perfectly reconciled Zoho Books setup in 8 days. Should have started with them.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PM</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Priya M.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Founder, E-commerce, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div></div></div>
+<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The team training after migration was excellent. Our accounts staff went from Tally keyboard shortcuts to Zoho Books cloud interface in one session. The 30-day support period gave us total confidence.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">VG</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Vikram G.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">CFO, Manufacturing, Bengaluru</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div></div></div>
     </div>
-  </div>
-  <div class="column-image">
-  <div class="illustration-frame">
-    <img src="/images/master/migration-from-tally-to-zoho-master.webp" alt="Illustration of Patron's CA team delivering migration: tally to zoho books for businesses across India" width="480" height="480" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px">
-    <div class="illustration-badge"><span>Migration: Tally to Zoho Books</span><strong>India-wide</strong></div>
-  </div>
-</div>
+        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
+            <div class="reviews-cta-content">
+                <div class="reviews-cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                </div>
+                <div class="reviews-cta-text">
+                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
+                    <p>Get expert CA-led Tally to Zoho Books migration with zero data loss.</p>
+                </div>
+            </div>
+            <a href="tel:+919459456700" class="btn-cta">
+                Talk to an Expert
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
 </section>
-<section id="who-needs" class="sec"><h2>Who We Help With Migration: Tally to Zoho Books</h2><ul class="ticks"><li>Businesses moving off a legacy tool to a modern platform</li><li>Companies that want a clean cut-over with parallel-run assurance</li><li>Teams worried about losing history, balances or GST data in the move</li><li>Finance teams that cannot afford downtime during tally to zoho books migration</li></ul></section>
-<section id="services" class="sec"><h2>Our Migration: Tally to Zoho Books Scope</h2>
-  <div class="table-wrap"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Tally To Zoho Books Migration</td><td>Accurate, reviewed tally to zoho books migration handled by Patron&#x27;s CA and CS team and kept in step with GST and TDS rules.</td></tr><tr><td>Tally To Zoho Migration</td><td>End-to-end tally to zoho migration run to a fixed monthly cadence with a clear audit trail.</td></tr><tr><td>Migrate From Tally To Zoho Books</td><td>Accurate, reviewed migrate from tally to zoho books delivered and reviewed by a qualified accountant, mapped to Indian compliance.</td></tr></tbody></table></div></section>
-<section id="process" class="sec"><h2>How We Deliver Migration: Tally to Zoho Books</h2><div class="steps"><div class="step-card"><div class="step-visual"><span class="step-num">1</span></div>
-        <div class="step-content"><h3>Scope and data audit</h3><p>Before touching anything we review your current data, chart of accounts and open balances for tally to zoho books migration.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">2</span></div>
-        <div class="step-content"><h3>Backup and sandbox</h3><p>We protect your data with a full backup, then rehearse the move in a safe sandbox first.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">3</span></div>
-        <div class="step-content"><h3>Master data mapping</h3><p>We build a clean mapping so your Migration: Tally to Zoho Books masters land correctly on the other side.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">4</span></div>
-        <div class="step-content"><h3>Opening balances</h3><p>We tie out every opening figure so the new books start from a verified position.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">5</span></div>
-        <div class="step-content"><h3>Transaction migration</h3><p>We carry across history for tally to zoho books migration batch by batch, reconciling continuously.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">6</span></div>
-        <div class="step-content"><h3>Reconciliation</h3><p>A full reconciliation confirms the tally to zoho books migration moved nothing out of place.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">7</span></div>
-        <div class="step-content"><h3>Parallel run</h3><p>Both systems run side by side for a cycle so nothing is missed in the switch.</p></div></div><div class="step-card"><div class="step-visual"><span class="step-num">8</span></div>
-        <div class="step-content"><h3>Sign-off and training</h3><p>You get a verified cut-over plus training so your staff own the new tool.</p></div></div></div></section>
-<section id="documents" class="sec"><h2>Documents Required for Migration: Tally to Zoho Books</h2><div class="table-wrap"><table><thead><tr><th>Document</th><th>Why It's Needed</th></tr></thead><tbody><tr><td>Current system backup</td><td>So the source data is preserved before the move.</td></tr><tr><td>Bank and credit-card statements</td><td>For the period under scope, in PDF or Excel.</td></tr><tr><td>Sales and purchase invoices</td><td>To match revenue and costs to the right period.</td></tr><tr><td>GST and tax details</td><td>GSTINs, past returns and any tax notices.</td></tr><tr><td>Existing books or trial balance</td><td>To carry opening balances forward accurately.</td></tr></tbody></table></div></section>
-<section id="errors" class="sec"><h2>Common Migration: Tally to Zoho Books Errors to Watch</h2><div class="table-wrap"><table><thead><tr><th>Mistake</th><th>What Goes Wrong</th></tr></thead><tbody><tr><td>Poor documentation</td><td>A weak trail that cannot support the numbers.</td></tr><tr><td>Unreconciled bank balance</td><td>A gap between books and bank that hides real problems.</td></tr><tr><td>Late or missing entries</td><td>Gaps that leave tally to zoho books migration inaccurate when you need it most.</td></tr><tr><td>Wrong tax head or rate</td><td>Incorrect tax treatment that surfaces later as notices and interest.</td></tr><tr><td>Inconsistent chart of accounts</td><td>Heads that change month to month, making reports unusable.</td></tr></tbody></table></div></section>
-<section id="fees" class="sec"><h2>Migration: Tally to Zoho Books Pricing</h2>
-  <div class="fee-box"><span class="fee-label">Starting from</span><span class="fee-amount">INR 9999</span>
-  <span class="fee-note">Exl. GST and Govt. Charges</span></div>
-  <p>Final pricing depends on transaction volume, number of entities and the software you use. Share your details on WhatsApp for a clear, itemised quote.</p>
-  <p class="disclaimer">Fees shown are indicative starting points and may vary with scope; taxes and government charges are additional.</p></section>
-<section id="timeline" class="sec"><h2>How Long Migration: Tally to Zoho Books Takes</h2><p>We move quickly once documents arrive: initial setup in a few working days, then a predictable monthly rhythm for tally to zoho books migration, with timelines agreed before any larger clean-up begins.</p></section>
-<section id="why-us" class="sec"><h2>Why Patron for tally to zoho books migration</h2><div class="benefits"><div class="benefit"><h3>India-wide, remote-first</h3><p>We serve businesses across India with secure, cloud-based delivery.</p></div><div class="benefit"><h3>Qualified CA and CS oversight</h3><p>Every set of books is reviewed by qualified professionals, not just data-entry staff.</p></div><div class="benefit"><h3>Transparent pricing</h3><p>You know what you pay for Migration: Tally to Zoho Books before we start.</p></div><div class="benefit"><h3>Compliance-aware</h3><p>We build compliance into the routine, so filings are never a scramble.</p></div><div class="benefit"><h3>Responsive support</h3><p>A named point of contact who answers when you need them.</p></div><div class="benefit"><h3>Clear, usable reporting</h3><p>Reporting turns tally to zoho books migration into insight, not just entries.</p></div></div></section>
-<section id="faqs" class="sec"><h2>Questions We Hear About tally to zoho books migration</h2><div class="faq-list"><div class="faq-item"><button class="faq-q" type="button">Is Zoho Books better than Tally for my business?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Zoho Books is better for businesses wanting cloud access, automation, and anytime multi-user working, while Tally suits offline, desktop-based accounting. Zoho Books is GST-ready, integrates with banks and other Zoho apps, and is accessible from any device. We help you decide based on your team, remote-working needs and workflows before migrating your data.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What are the disadvantages of Zoho Books compared to Tally?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Zoho Books needs an internet connection, runs on a paid annual subscription, and handles very complex manufacturing or deep inventory costing less flexibly than Tally. For most service and trading businesses these are minor. We assess your processes first so you migrate only when Zoho Books genuinely fits how you work.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Will we lose any historical data when migrating from Tally to Zoho Books?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>No, your Tally history stays intact in your original data file, and we bring across masters, balances and required transaction history into Zoho Books. Very old line-level transactions are usually carried as opening balances rather than re-keyed. We agree the historical cut-off with you so nothing important is lost during migration.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Can we integrate Tally with Zoho Books instead of fully migrating?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes, short-term integration or parallel running is possible, but for a clean move we recommend a full migration with a defined cut-over date. Integration tools can sync data, though maintaining two systems adds cost and reconciliation effort. We advise which approach fits your timeline and then execute the migration end to end.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How is data exported out of Tally for the migration?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>We export masters, ledgers, stock items and transactions from TallyPrime into structured Excel or XML files, then clean and map them to Zoho Books fields. Chart of accounts and tax settings are mapped before import. This structured export-map-import method keeps your ledgers, GST rates and party details accurate in Zoho Books.</p></div></div><div class="faq-item"><button class="faq-q" type="button">What happens to open invoices, debtors and creditors after we migrate?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>All unpaid customer invoices and vendor bills are migrated as open items so your sundry debtors and creditors ageing continues seamlessly in Zoho Books. Payments received later can be matched against them. We reconcile receivables and payables to the Tally balances so no outstanding amount is dropped during the switch.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Is Zoho Books an Indian product, and where is our accounting data stored?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes, Zoho is an Indian company headquartered in Tamil Nadu, and it offers India data-centre hosting, which helps with data-residency comfort for Indian businesses. Access is secured with logins and role permissions. We configure users and access controls during migration so only authorised people see your financial data.</p></div></div><div class="faq-item"><button class="faq-q" type="button">Do we need a paid Zoho Books subscription after migrating?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Yes, Zoho Books runs on an annual subscription based on your plan and user count, though a free tier exists for very small businesses below a turnover threshold. The subscription is separate from our migration fee. We help you pick the right Zoho Books plan so you are not overpaying for unused features.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How are opening balances and opening stock handled during cut-over?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>We freeze the Tally trial balance as at the cut-over date and enter matching opening balances for every ledger, plus opening stock quantities and values, into Zoho Books. Both sets are then compared line by line. This ensures your first day in Zoho Books starts from the exact position your Tally books closed at.</p></div></div><div class="faq-item"><button class="faq-q" type="button">How much does Tally to Zoho Books migration cost?<span class="faq-ico">+</span></button>
-        <div class="faq-a"><p>Patron Accounting&#x27;s Tally to Zoho Books migration starts at INR 9999, excluding GST and government charges, covering data mapping, import and trial-balance tie-out. The final fee depends on data volume, number of years migrated and inventory complexity. Larger or multi-company migrations are quoted after we review your Tally data.</p></div></div></div></section>
-<section class="final-cta"><h2>Ready to get your books in order?</h2>
-  <p>Talk to Patron's CA &amp; CS team about tally to zoho books migration for your business anywhere in India.</p>
-  <a class="btn btn-primary" href="https://wa.me/919459456700" rel="nofollow noopener" target="_blank">WhatsApp +919459456700</a></section>
-<div class="page-meta"><span class="byline">By CA &amp; CS Team</span> · <span class="last-updated">Last Updated: 10 July 2026</span></div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+    <div class="stats-container">
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
+            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+        </div>
+        <div class="certifications">
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+        </div>
+    </div>
 </div>
+
+<!-- TOC NAVIGATION -->
+<div class="toc-section">
+    <div class="toc-container">
+        <button class="toc-arrow left" id="tocLeft">&#10094;</button>
+        <div class="toc-wrapper" id="tocWrapper">
+            <a href="#overview-section" class="toc-btn">Overview</a>
+            <a href="#what-section" class="toc-btn">What Gets Migrated</a>
+            <a href="#who-section" class="toc-btn">Who Should Migrate</a>
+            <a href="#services-section" class="toc-btn">Our Services</a>
+            <a href="#procedure-section" class="toc-btn">6-Step Process</a>
+            <a href="#documents-section" class="toc-btn">Documents</a>
+            <a href="#fees-section" class="toc-btn">Pricing</a>
+            <a href="#timeline-section" class="toc-btn">Timeline</a>
+            <a href="#benefits-section" class="toc-btn">Benefits</a>
+            <a href="#comparison-section" class="toc-btn">CA vs DIY</a>
+            <a href="#faq-section" class="toc-btn">FAQs</a>
+        </div>
+        <button class="toc-arrow right" id="tocRight">&#10095;</button>
+    </div>
+</div>
+
+<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+<section class="content-section" id="overview-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Tally to Zoho Books Migration - CA-Led Data Transfer with Zero Data Loss</h2>
+            <div class="content-text">
+                <div class="highlight-box" style="margin-bottom:20px;">
+                    <p><strong>&#128204; TL;DR - Tally to Zoho Migration Services at a Glance</strong></p>
+                    <p>Thousands of Indian SMEs on Tally ERP or TallyPrime are switching to cloud-based Zoho Books for remote access, automated GST filing, and real-time bank reconciliation. But migration is technical - mismatched ledger groups, unbalanced opening entries, and missing GST configurations cause months of reconciliation headaches if not done correctly. Patron Accounting's CA-led migration service delivers a clean, verified transfer from INR 9,999 with 100% trial balance reconciliation accuracy.</p>
+                </div>
+                <p>As businesses grow, the limitations of desktop-based Tally become apparent - no remote access, no automated bank feeds, no built-in GST portal integration, and complex multi-site licensing. Zoho Books, built specifically for Indian compliance (GST, TDS, e-invoicing), has become the leading cloud alternative. But the migration itself carries significant risk: incorrect ledger mapping leads to wrong P&L categorisation, unbalanced opening entries break trial balance integrity, and missing GST configurations cause filing errors.</p>
+                <p>Patron Accounting's CA team handles every layer of migration risk: pre-migration data audit, accounting-correct ledger mapping (not just technical data transfer), systematic import sequencing, trial balance reconciliation to zero difference, and post-migration GST configuration with team training. With 150+ completed migrations and a 4.8/5 client rating, we deliver Zoho Books go-live with confidence.</p>
+                <p>Content is reviewed quarterly for accuracy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+<section class="content-section" id="what-section">
+    <div class="content-container">
+        <div class="two-column">
+            <div class="column-content">
+                <h2 class="section-title">What is Tally to Zoho Books Migration?</h2>
+                <div class="content-text what-is-definition">
+                    
+                    <p>Tally to Zoho Books migration is the structured process of exporting your financial data from Tally ERP or TallyPrime and importing it into Zoho Books, including chart of accounts, customer and vendor records, opening balances, and historical transactions, with full GST configuration and trial balance reconciliation.</p>
+                <p>Unlike a simple data export-import, proper migration requires <strong>CA-reviewed ledger mapping</strong> (Tally Groups do not directly correspond to Zoho Books Account Types), <strong>GST configuration</strong> (GSTIN, HSN/SAC codes, e-invoicing, tax groups), and <strong>trial balance validation</strong> to ensure the Zoho Books opening position exactly matches Tally as of the migration date.</p>
+                <p>The <a href="https://www.zoho.com/in/books/help/migration/tally-to-zoho-books.html" target="_blank" rel="noopener">official Zoho Books migration guide</a> provides the technical import steps, but accounting accuracy and compliance configuration require professional CA oversight that the guide does not cover.</p>
+
+                </div>
+                <div class="highlight-box" style="margin-top:20px;">
+                    <p><strong>Key Terms for Tally to Zoho Migration:</strong></p>
+                    <p><strong>Account Masters (Tally) = Chart of Accounts (Zoho Books):</strong> Core ledger structure requiring CA-reviewed mapping for correct P&L categorisation</p>
+                    <p><strong>Sundry Debtors/Creditors = Accounts Receivable/Payable:</strong> Customer and vendor outstanding balances with GSTIN validation</p>
+                    <p><strong>Vouchers = Invoices/Bills:</strong> Sales/Purchase transaction documents migrated with tax classification</p>
+                    <p><strong>Trial Balance Reconciliation:</strong> Line-by-line comparison of Zoho Books TB vs Tally TB on migration date - must balance to zero difference</p>
+                    <p><strong>GST Ledgers = GST Settings + Tax Rates:</strong> CGST, SGST, IGST mapped to Zoho Books tax groups with e-invoicing and e-way bill configuration</p>
+
+                </div>
+            </div>
+            <div class="column-image">
+                <div class="illustration-placeholder">
+                    <div class="illustration-icon" style="max-width:240px;">
+                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Building / Tribunal -->
+                            <!-- Desktop to Cloud migration icon -->
+                            <!-- Tally desktop -->
+                            <rect x="30" y="45" width="55" height="45" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
+                            <rect x="35" y="50" width="45" height="30" rx="2" fill="#E8EDF4"/>
+                            <text x="57" y="68" font-size="9" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">Tally</text>
+                            <rect x="45" y="92" width="25" height="4" rx="2" fill="#14365F" opacity="0.3"/>
+                            <!-- Arrow -->
+                            <path d="M92 72h16" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M104 66l6 6-6 6" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- Zoho cloud -->
+                            <path d="M120 60C116 46 126 36 138 36C150 36 158 46 158 56C166 56 172 62 172 70C172 78 166 84 158 84H124C116 84 110 78 110 70C110 64 114 60 120 60Z" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
+                            <text x="140" y="66" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">Zoho</text>
+                            <text x="140" y="76" font-size="7" fill="#14365F" font-weight="500" text-anchor="middle" font-family="Arial">Books</text>
+                            <!-- Green check badge -->
+                            <circle cx="152" cy="28" r="14" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
+                            <path d="M146 28l4 4 8-8" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- MIG tag -->
+                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
+                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">MIG</text>
+                            <!-- Label -->
+                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Tally to Zoho Migration</text>
+                        </svg>
+                    </div>
+                    <div class="illustration-badge">
+                        <span>Data Migration</span>
+                        <strong>Tally to Zoho Books</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section" id="who-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Who Should Migrate from Tally to Zoho Books?</h2>
+            <div class="content-text">
+                
+                <ul>
+                    <li><strong>Startups and Early-Stage Companies:</strong> Tally lacks APIs for modern integrations; cloud access needed for investors and remote teams - Zoho Books provides real-time dashboards and CRM integration</li>
+                    <li><strong>SMEs with Multiple Locations:</strong> Tally desktop licensing limits multi-site access - Zoho Books offers cloud access from any location, any device</li>
+                    <li><strong>E-commerce Businesses:</strong> Tally has no native payment gateway or platform integrations - Zoho Books connects with Razorpay, Stripe, and Shopify</li>
+                    <li><strong>Companies Going for Fundraising:</strong> Investors require cloud accounting reports accessible remotely - Zoho Books delivers investor-ready P&L and balance sheet exports</li>
+                    <li><strong>Remote Finance Teams:</strong> TallyPrime Server is expensive and complex - Zoho Books provides web and mobile access for all team members</li>
+                    <li><strong>GST Portal Integration Needed:</strong> Tally requires manual GSTN upload - Zoho Books has direct API filing for GSTR-1, GSTR-3B, and e-way bills</li>
+                    <li><strong>Former QuickBooks Users:</strong> QuickBooks India was discontinued in 2023 - Zoho Books is the recommended cloud alternative</li>
+                </ul>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5: OUR SERVICES -->
+<section class="content-section" id="services-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Patron's Tally to Zoho Migration Services</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <tbody>
+                        <tr><td>Data Audit and Pre-Migration Cleanup</td><td>Review Tally data for duplicate ledgers, missing GST numbers, unbalanced vouchers, and inactive contacts before export</td></tr>
+                        <tr><td>Chart of Accounts Mapping</td><td>CA-reviewed mapping of each Tally ledger group to Zoho Books account type - prevents P&L miscategorisation and GST return errors</td></tr>
+                        <tr><td>Master Data Migration</td><td>Chart of accounts, customer/vendor list, item/stock master, and GST configurations (GSTIN, HSN/SAC, tax groups) imported in correct sequence</td></tr>
+                        <tr><td>Opening Balances and Historical Data</td><td>Verified opening balances (receivables, payables, assets, liabilities) and historical transactions based on selected migration scope</td></tr>
+                        <tr><td>GST and Compliance Configuration</td><td>GSTIN registration, e-invoicing setup (IRN threshold), e-way bill integration, TDS entries, GSTR reconciliation workflows in Zoho Books</td></tr>
+                        <tr><td>Validation, Reconciliation, and Training</td><td>Trial balance reconciled to zero difference, team walkthrough training on Zoho Books operations, 30-day post-migration CA support</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 7: 7-STEP PROCESS -->
+<section class="steps-section" id="procedure-section">
+    <div class="section-container">
+        <header class="section-header" style="text-align:center;margin-bottom:48px;">
+            <span class="section-eyebrow">Our Process</span>
+            <h2 class="section-title">Step-by-Step Tally to Zoho Books Migration Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">Our CA-led 6-step process ensures accounting-correct data transfer with zero data loss and full GST configuration on go-live day.</p>
+        </header>
+        <div class="steps-container">
+            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Data Audit in Tally</h3><p class="step-description">We review your Tally company file: identify ledger groups, check for duplicate or inactive entries, verify GST numbers on customer and vendor masters, and confirm the Trial Balance as of the migration date.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Duplicates identified</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Trial Balance confirmed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="40" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="40" r="14" fill="none" stroke="#F5A623" stroke-width="2"/><line x1="70" y1="50" x2="82" y2="62" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/></svg></div><span class="illustration-label">Audit Done</span><span class="step-number-large">01</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Export from Tally</h3><p class="step-description">We export Stock Summary, Master Data (Chart of Accounts, customer list, vendor list, item master), Voucher Data (invoices, bills, payments), Trial Balance as of migration date, and outstanding bills and receipts.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> All data exported</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> CSV files generated</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="12" width="80" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="28" y="22" width="64" height="6" rx="2" fill="#F5A623"/><rect x="28" y="34" width="50" height="4" rx="1.5" fill="#14365F" opacity="0.25"/><rect x="28" y="44" width="56" height="4" rx="1.5" fill="#14365F" opacity="0.25"/><rect x="28" y="54" width="44" height="4" rx="1.5" fill="#14365F" opacity="0.25"/><path d="M60 72v12m-6-6l6 6 6-6" stroke="#F5A623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Export Done</span><span class="step-number-large">02</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Data Cleaning and Format Conversion</h3><p class="step-description">Exported data is cleaned, standardised (naming conventions, date formats, currency fields), and converted to Zoho Books import templates (CSV/Excel). Duplicate records removed. Missing GST numbers flagged for client confirmation.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Data standardised</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Duplicates removed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTINs verified</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="38" height="50" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="22" y1="24" x2="46" y2="24" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><line x1="22" y1="34" x2="40" y2="34" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><path d="M58 35h8" stroke="#F5A623" stroke-width="2.5" stroke-dasharray="3 2"/><rect x="70" y="10" width="38" height="50" rx="4" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><line x1="78" y1="24" x2="100" y2="24" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><line x1="78" y1="34" x2="96" y2="34" stroke="#14365F" stroke-width="1.5" opacity="0.3"/></svg></div><span class="illustration-label">Clean Data Ready</span><span class="step-number-large">03</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Zoho Books Organisation Setup</h3><p class="step-description">We create or configure the Zoho Books organisation: business details, financial year settings (April to March), base currency INR, GST registration details, tax groups (CGST 9% + SGST 9%, IGST 18%), and HSN/SAC code mappings.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Organisation created</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST configured</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="20" y="10" width="80" height="16" rx="6 6 0 0" fill="#14365F"/><text x="60" y="21" font-size="8" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">ZOHO BOOKS</text><rect x="28" y="34" width="24" height="10" rx="2" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><text x="40" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">GST</text><rect x="58" y="34" width="24" height="10" rx="2" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/><text x="70" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">HSN</text><rect x="28" y="50" width="54" height="8" rx="2" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/></svg></div><span class="illustration-label">Zoho Ready</span><span class="step-number-large">04</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Systematic Import</h3><p class="step-description">Data imported in mandatory sequence: (1) Chart of Accounts, (2) Customers and Vendors, (3) Items and Inventory, (4) Opening Balances, (5) Historical Invoices and Bills, (6) Payments and Receipts, (7) Manual Journal Entries. Out-of-sequence imports cause balancing errors.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Correct sequence followed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Balancing verified</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="8" width="90" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="24" y="16" width="72" height="8" rx="2" fill="#F5A623" opacity="0.8"/><rect x="24" y="28" width="72" height="8" rx="2" fill="#F5A623" opacity="0.6"/><rect x="24" y="40" width="72" height="8" rx="2" fill="#F5A623" opacity="0.4"/><rect x="24" y="52" width="72" height="8" rx="2" fill="#25D366" opacity="0.6"/><text x="60" y="22" font-size="6" fill="#fff" font-weight="600" text-anchor="middle" font-family="Arial">1. COA</text><text x="60" y="34" font-size="6" fill="#fff" font-weight="600" text-anchor="middle" font-family="Arial">2. Contacts</text><text x="60" y="46" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">3. Balances</text><text x="60" y="58" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">4. Transactions</text></svg></div><span class="illustration-label">Import Done</span><span class="step-number-large">05</span></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Validation, Reconciliation, and Training</h3><p class="step-description">After import, we generate the Zoho Books Trial Balance and compare it line by line with the Tally Trial Balance. Any discrepancies are identified, root-caused, and corrected. Team walkthrough training on Zoho Books operations. 30-day post-migration CA support provided.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TB reconciled to zero</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Team trained</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 30-day support active</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="12" width="70" height="48" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="36" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M53 36l4 4 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="70" width="50" height="12" rx="6" fill="#F5A623" opacity="0.8"/><text x="60" y="79" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">LIVE</text></svg></div><span class="illustration-label">Migration Complete</span><span class="step-number-large">06</span></div></div></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 8: DOCUMENTS REQUIRED -->
+<section class="content-section" id="documents-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Documents and Data Required for Migration</h2>
+            <div class="content-text">
+                
+                <p>Provide the following to start your Tally to Zoho Books migration:</p>
+                <ul>
+                    <li><strong>Tally Company File Backup</strong> - .tally file or folder shared securely via encrypted link</li>
+                    <li><strong>Trial Balance from Tally</strong> - As of the migration date</li>
+                    <li><strong>GSTIN List</strong> - All GSTINs registered under the business</li>
+                    <li><strong>HSN/SAC Code List</strong> - For all products and services (if not already in Tally)</li>
+                    <li><strong>Bank Account Details</strong> - All accounts to be set up in Zoho Books</li>
+                    <li><strong>Outstanding Invoices and Bills</strong> - Sundry Debtors and Creditors ageing as of migration date</li>
+                    <li><strong>TDS Configuration Details</strong> - Applicable sections and rates</li>
+                    <li><strong>Pending GST Returns or ITC Carry-Forward</strong> - As of migration date</li>
+                    <li><strong>Zoho Books Subscription</strong> - Confirmed account with admin login credentials</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 9: CHALLENGES -->
+<section class="content-section" id="challenges-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Common Migration Challenges and How We Solve Them</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <tbody>
+                        <tr><td>Incorrect Ledger Mapping</td><td>Wrong P&L categorisation and GST return errors</td><td>CA-reviewed manual mapping document created and signed off before import</td></tr>
+                        <tr><td>Unbalanced Opening Entries</td><td>Trial Balance does not balance in Zoho Books</td><td>Opening balances imported in pairs with verified debit-credit check</td></tr>
+                        <tr><td>Missing GST Numbers on Contacts</td><td>Zoho Books GST validation rejects B2B contacts - import failure</td><td>Pre-migration audit to identify and populate missing GSTINs before export</td></tr>
+                        <tr><td>HSN/SAC Code Gaps</td><td>Items without codes cannot be used for e-invoicing and GSTR-1</td><td>Item master review and HSN/SAC assignment before import</td></tr>
+                        <tr><td>Multi-Year Data Volume</td><td>Bulk import causes timeout and data integrity errors</td><td>Import in annual batches with Trial Balance cross-check after each year</td></tr>
+                        <tr><td>GST Configuration Missing</td><td>GSTR-1 and GSTR-3B filing not possible post-migration</td><td>Full GST setup including GSTIN, e-invoicing, e-way bill, and tax groups on go-live day</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 10: FEES -->
+<section class="content-section" id="fees-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Tally to Zoho Migration Service Fees 2026</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <tbody>
+                        <tr><td>Opening Balances Only (No historical transactions)</td><td>Rs. 4,999</td></tr>
+                        <tr><td>Partial Migration - Current FY</td><td>Rs. 9,999</td></tr>
+                        <tr><td>Full Historical Migration (Up to 3 years)</td><td>Rs. 19,999</td></tr>
+                        <tr><td>Enterprise / Multi-GSTIN / Complex</td><td>Custom Quote</td></tr>
+                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 9,999 (Exl GST and Govt. Charges)</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
+                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
+                <p style="margin-top:16px;"><strong>Get a free Tally to Zoho Migration consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Tally%20to%20Zoho%20Books%20migration.%20Please%20share%20pricing%20and%20timeline." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 11: TIMELINE -->
+<section class="content-section" id="timeline-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Tally to Zoho Books Migration Timeline</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <tbody>
+                        <tr><td>Discovery Call, Data Audit, Scope Confirmation</td><td>Day 1-2</td></tr>
+                        <tr><td>Export from Tally, Data Cleaning, Ledger Mapping Sign-off</td><td>Day 3-5</td></tr>
+                        <tr><td>Zoho Books Organisation Setup and GST Configuration</td><td>Day 5-7</td></tr>
+                        <tr><td>Master Data Import, Opening Balances, Trial Balance Check</td><td>Day 7-10</td></tr>
+                        <tr><td>Historical Transactions Import (Per Package Scope)</td><td>Day 10-13</td></tr>
+                        <tr><td>Reconciliation - Zoho Books vs Tally Trial Balance</td><td>Day 13-14</td></tr>
+                        <tr><td>Team Training, Live Walkthrough, Migration Report Delivery</td><td>Day 14-15</td></tr>
+                        <tr><td>Post-Migration CA Support (Queries and Corrections)</td><td>Day 15-45</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <div class="highlight-box" style="margin-top:16px;">
+                    
+                    <p><strong>Note:</strong> Timeline above is for the Full Historical Migration package (12-15 business days). Opening Balances Only takes 5-7 days and Current FY Migration takes 7-10 days. Actual timeline depends on data volume, years of history, and client response time on clarifications.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12: BENEFITS -->
+<section class="why-choose-section" id="benefits-section">
+    <div class="section-container">
+        <div style="text-align:center;margin-bottom:48px;">
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
+            <h2 class="section-title">Benefits of Migrating from Tally to Zoho Books</h2>
+        </div>
+        <div class="features-grid">
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg></div><h3>Cloud Access Anywhere</h3><p>Access your accounts from any device - laptop, mobile, tablet - from any location. No server dependency or desktop licensing required.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3>Built-In GST Filing</h3><p>Generate GSTR-1, GSTR-3B, and e-way bills directly from Zoho Books. Direct API integration with GSTN portal eliminates manual upload.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></div><h3>Automated Bank Reconciliation</h3><p>Connect your bank account for automatic transaction fetch and matching. Eliminates manual bank statement entry that Tally requires.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><h3>Real-Time Reports</h3><p>P&L, Balance Sheet, Cash Flow, Receivable Ageing, and Payable Ageing reports available on demand - no manual compilation needed.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg></div><h3>Zoho Ecosystem Integration</h3><p>Connect with Zoho CRM, Zoho Inventory, Zoho Payroll, Zoho Expense, and 300+ apps via Zapier - impossible with Tally natively.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Affordable Cloud Pricing</h3><p>Free plan for businesses up to Rs. 25L revenue. Standard plan at Rs. 899/month. No per-user charge for base plans - far lower TCO than TallyPrime Server.</p></article>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 12A: SOCIAL PROOF -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">150+ Tally to Zoho Migrations Completed</h2>
+            <div class="content-text">
+                
+                <p>Patron Accounting has completed 150+ Tally to Zoho Books migrations across manufacturing, retail, e-commerce, IT, and professional services businesses. Our <strong>100% trial balance reconciliation accuracy</strong> and 4.8/5 client satisfaction rating reflect the CA expertise we bring to every migration engagement.</p>
+                <p>Average migration timeline: 10 business days. Average data modules migrated per project: 7 (accounts, contacts, items, balances, invoices, payments, journals).</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+<section class="content-section" id="comparison-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">CA-Led Migration vs General IT Vendor vs DIY</h2>
+            <div class="content-text">
+                <div class="table-responsive-wrapper">
+                <table>
+                    <thead><tr><th>Parameter</th><th>Patron Accounting (CA-Led)</th><th>General IT Vendor</th><th>Self-Migration (DIY)</th></tr></thead>
+                    <tbody>
+                        <tr><td>Ledger Mapping Review</td><td>CA-reviewed, accounting-correct mapping</td><td>Technical mapping only, no accounting review</td><td>Manual, high error risk</td></tr>
+                        <tr><td>GST Configuration</td><td>Full setup: GSTIN, e-invoicing, e-way bill, TDS</td><td>Basic GST toggle only</td><td>Only if user knows Zoho settings</td></tr>
+                        <tr><td>Opening Balance Accuracy</td><td>Trial balance reconciled to zero difference</td><td>Data transferred, reconciliation not guaranteed</td><td>Common source of ongoing errors</td></tr>
+                        <tr><td>Historical Import</td><td>Annual batch import with TB validation per year</td><td>Bulk import, timeout and error-prone</td><td>Limited by user knowledge</td></tr>
+                        <tr><td>Post-Migration Support</td><td>30-day CA support plus team training</td><td>Ticket-based IT support</td><td>None (self-serve)</td></tr>
+                        <tr><td>Price</td><td>Rs. 4,999 to Rs. 19,999 (all-inclusive)</td><td>Rs. 10,000 to Rs. 50,000+ (technical only)</td><td>Zero cost, significant time and error risk</td></tr>
+
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 14: RELATED SERVICES -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Related Services After Migration</h2>
+            <div class="content-text">
+                
+                <p>After migrating to Zoho Books, most businesses need ongoing support:</p>
+                <ul>
+                    <li><a href="/zoho-books-accounting">Zoho Books Accounting Service</a> - Ongoing monthly bookkeeping on your new Zoho Books account</li>
+                    <li><a href="/gst-returns">GST Returns Filing</a> - Monthly GSTR-1, GSTR-3B, and annual GSTR-9 filing directly from Zoho Books</li>
+                    <li><a href="/tds-return">TDS Return Filing</a> - Quarterly TDS returns with Form 26Q filing</li>
+                    <li><a href="/income-tax-return">Income Tax Return</a> - Annual ITR filing for companies, LLPs, and proprietorships</li>
+                    <li><a href="/payroll-services">Payroll Services</a> - Monthly payroll processing, salary slips, and PF/ESIC compliance</li>
+                    <li><a href="/tally-accounting">Tally Accounting Service</a> - If you are not ready to migrate yet and need expert Tally support</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 15A: LEGAL FRAMEWORK -->
+<section class="content-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Legal Framework for Books of Accounts and Cloud Accounting</h2>
+            <div class="content-text">
+                
+                <p>Key statutory provisions governing accounting records and cloud-based systems in India:</p>
+                <ul>
+                    <li><strong>Section 128, Companies Act 2013:</strong> Companies must maintain books of accounts at the registered office. Cloud-based Zoho Books complies as long as books are accessible in India</li>
+                    <li><strong>Section 44AA, Income Tax Act 1961:</strong> Professionals with turnover above Rs. 25 lakh must maintain prescribed books. Zoho Books generates all required records (cash book, journal, ledger, P&L, balance sheet)</li>
+                    <li><strong>Section 44AB, Income Tax Act 1961:</strong> Tax audit for turnover above Rs. 1 crore (Rs. 10 crore for digital transactions). Zoho Books provides auditor access login for seamless review</li>
+                    <li><strong>CGST Act 2017, Section 35:</strong> Every registered person must maintain accounts and records. Zoho Books is GST-compliant software with direct GSTN API integration</li>
+                    <li><strong>E-Invoicing Mandate:</strong> Mandatory for turnover above Rs. 5 crore per <a href="https://www.cbic.gov.in/resources//htdocs-cbec/gst/notfctn-17-central-tax-english-2022.pdf" target="_blank" rel="noopener">CBIC Notification No. 17/2022</a>. Zoho Books has built-in IRP integration for IRN generation</li>
+                    <li><strong>Rule 3, Companies (Accounts) Rules 2014:</strong> Electronic records permitted; backup servers must be in India; audit trail mandatory from FY 2023-24. Zoho Books stores data on ISO 27001-certified servers with 256-bit SSL encryption</li>
+                    <li><strong>Section 128(5):</strong> Books must be preserved for 8 financial years. Zoho Books retains all historical data for the duration of your subscription</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+    <div class="content-container">
+        <div class="text-content">
+            <div class="faq-expanded">
+                <aside class="faq-expanded__aside">
+                    <h2 class="faq-expanded__title">Frequently Asked Questions - Tally to Zoho Books Migration</h2>
+                    <p class="faq-expanded__lead">Answers to common questions about migrating from Tally ERP or TallyPrime to Zoho Books in India.</p>
+                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Tally to Zoho Books Migration'])
+                </aside>
+                <div class="faq-expanded__list">
+                    <div class="faq-expanded__item" id="faq-1">
+                        <h3 class="faq-expanded__q">What data can be migrated from Tally to Zoho Books?</h3>
+                        <div class="faq-expanded__a"><p>All core financial data: chart of accounts (ledger groups and sub-ledgers), customer and vendor contacts with GSTIN, inventory items with HSN/SAC codes, opening balances (receivables, payables, assets, liabilities), and historical transactions (invoices, bills, payments, receipts, manual journals). Bank transactions and PDFs cannot be directly migrated but bank accounts can be set up for future feeds.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-2">
+                        <h3 class="faq-expanded__q">How long does Tally to Zoho Books migration take?</h3>
+                        <div class="faq-expanded__a"><p>Opening balances only: 5 to 7 business days. Current financial year migration: 7 to 10 business days. Full historical migration (up to 3 years): 12 to 15 business days. Enterprise and complex migrations: 15 to 25 business days. Timeline depends on data volume, number of years, and client response time on clarifications.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-3">
+                        <h3 class="faq-expanded__q">Is my Tally data safe during migration?</h3>
+                        <div class="faq-expanded__a"><p>Yes. We never modify your original Tally data. Migration is done from a backup copy. Tally exports in Excel/CSV format and your Tally system continues running normally. Zoho Books uses 256-bit SSL encryption, two-factor authentication, and role-based access controls for enterprise-grade security.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-4">
+                        <h3 class="faq-expanded__q">How much does Tally to Zoho Books migration cost?</h3>
+                        <div class="faq-expanded__a"><p>Migration packages: Rs. 4,999 for opening balances only, Rs. 9,999 for current FY, Rs. 19,999 for full historical (up to 3 years). Enterprise migrations priced custom. All packages include pre-migration audit, CA-reviewed mapping, GST configuration, trial balance reconciliation, and team training. Zoho Books subscription is separate.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-5">
+                        <h3 class="faq-expanded__q">Do I need a Zoho Books subscription before starting?</h3>
+                        <div class="faq-expanded__a"><p>Yes, you need a Zoho Books account to import data. A 14-day free trial is available to start before committing to a plan. Zoho Books Standard plan starts at Rs. 899/month (3 users, 5,000 invoices/year). We can help assess the right plan for your business.</p></div>
+                    </div>
+                    <div class="faq-expanded__item" id="faq-6">
+                        <h3 class="faq-expanded__q">Will my GST filings be affected during migration?</h3>
+                        <div class="faq-expanded__a"><p>No, if planned correctly. We set a migration date at start of financial year or quarter to minimise disruption. You continue filing from Tally until migration date and switch to Zoho Books from that date onwards. All GST configurations are tested in Zoho Books before you go live.</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Quick Answers -->
+            <div class="highlight-box" style="margin-top:32px;">
+                <p><strong>Quick Answers</strong></p>
+                <p><strong>Q: What is Tally to Zoho Books migration?</strong> It is the process of transferring your financial data - accounts, contacts, balances, and transactions - from Tally ERP or TallyPrime to cloud-based Zoho Books with full GST configuration and trial balance reconciliation.</p>
+                <p><strong>Q: Tally se Zoho kaise migrate kare?</strong> Tally ka data export karo, Zoho Books mein import karo. Lekin CA-reviewed ledger mapping aur trial balance reconciliation bina mistakes ke karna mushkil hai. Expert migration service se data accuracy ensure hoti hai.</p>
+                <p><strong>Q: How much does migration cost?</strong> Starting from Rs. 4,999 for opening balances only. Current FY Rs. 9,999. Full historical Rs. 19,999. Zoho Books subscription separate at Rs. 899/month onwards.</p>
+                <p><strong>Q: What is the difference between Tally and Zoho Books?</strong> Tally is desktop-based requiring local installation. Zoho Books is cloud-based accessible from any device with built-in GSTN API for direct GST filing and 300+ app integrations.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 18: URGENCY CTA -->
+<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Best Time to Migrate - Start of Financial Year</h2>
+            <div class="content-text">
+                
+                <p>The ideal migration date is <strong>1 April</strong> - start of the new financial year. This gives you clean opening balances from 31 March and a fresh start in Zoho Books without mid-year transition complexity. If you are planning to migrate for FY 2026-27, start the assessment process now to be live by April.</p>
+                <p><strong>Call +91 945 945 6700 or WhatsApp us for a free migration assessment. We will review your Tally data volume, recommend the right package, and provide a detailed timeline and quote within 24 hours.</strong></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONCLUSION + CTA BLOCK (Dark) -->
+<section class="content-section" style="background: var(--blue) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Tally to Zoho Migration with Patron Accounting</h2>
+            <div class="content-text" style="text-align:left;">
+                
+                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Migrating from Tally to Zoho Books is one of the most impactful finance system upgrades an Indian SME can make. Cloud access, automated GST filing, real-time bank reconciliation, and seamless integration with CRM, payroll, and inventory tools transform how your finance team operates.</p>
+                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">The risk lies in the migration itself - and that is exactly what Patron Accounting eliminates. CA-reviewed ledger mapping, systematic import sequencing, trial balance reconciliation, and post-migration support. Packages start at Rs. 4,999. We do not just transfer data - we set up a finance system built for growth.</p>
+
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Tally%20to%20Zoho%20Books%20migration.%20Please%20share%20pricing%20and%20timeline." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Tally%20to%20Zoho%20Migration&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20want%20to%20migrate%20from%20Tally%20to%20Zoho%20Books.%0A%0APlease%20share%20details.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+            </div>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Tally to Zoho Migration Services Across India</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">CA-managed Tally to Zoho Books migration for businesses in major Indian cities.</p>
+         
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-city-grid"><a href="/tally-to-zoho-migration/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/tally-to-zoho-migration/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/migration-from-tally-to-zoho/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/migration-from-tally-to-zoho/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div><div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Tally to Zoho Migration</div><div class="pa-cross-grid"><a href="/zoho-books-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">India</div></div></a><a href="/tally-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">India</div></div></a><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a><a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTENT FRESHNESS FOOTER -->
+<section class="content-section" style="padding:32px;">
+    <div class="content-container">
+        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
+            <p><strong>Content Created:</strong> 12 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">12 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 12 April 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
+            <p>This page is reviewed annually (April cycle) or on major Zoho Books pricing changes, new plan launches, or e-invoicing threshold revisions. Zoho Books pricing, free plan cap, and e-invoicing threshold verified on each review.</p>
+        </div>
+    </div>
+</section>
+
+<!-- STICKY WHATSAPP BAR -->
+{{--
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
+        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Join Free &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div> 
+--}}
+@include('layouts.itr-season-strip')
+
+</main>
+
+
+
+
+<!-- Google Maps Places Library (for GMB reviews) -->
+
+
+<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
 <script>
-document.querySelectorAll('.faq-q').forEach(function(b){b.addEventListener('click',function(){var a=this.parentElement;a.classList.toggle('open');});});
-document.querySelectorAll('.toc-pill,a[href^="#"]').forEach(function(l){l.addEventListener('click',function(e){var id=this.getAttribute('href');if(id&&id.length>1){var t=document.querySelector(id);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}}});});
+(function() {
+    // ============================================
+    // CONFIGURATION — Update these values
+    // ============================================
+    const CONFIG = {
+        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        // Fallback static reviews (shown if API fails or key not set)
+        fallbackReviews: [
+            {
+                author_name: "Subhendu Mishra",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Rajib Dutta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Nishikant Gurav",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Nikhil Nimbhorkar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
+                relative_time_description: "4 months ago"
+            },
+            {
+                author_name: "Sameer Mehta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Preeti Singh Rathor",
+                profile_photo_url: "",
+                rating: 5,
+                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Anita Gaur",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
+                relative_time_description: "5 months ago"
+            },
+            {
+                author_name: "Pankaj Arvikar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Sunny Ashpal",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
+                relative_time_description: "6 months ago",
+                role: "Director - Demandify Media",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+            },
+            {
+                author_name: "Anjanay Srivastava",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
+                relative_time_description: "4 months ago",
+                role: "Founder - Hunarsource Consulting",
+                hasVideo: true,
+                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+            }
+        ]
+    };
+
+    // ============================================
+    // HELPER: Generate star SVGs
+    // ============================================
+    function starsHTML(rating) {
+        let s = '';
+        for (let i = 0; i < 5; i++) {
+            s += i < rating
+                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
+                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+        }
+        return s;
+    }
+
+    // ============================================
+    // HELPER: Avatar color based on name
+    // ============================================
+    const avatarColors = ['', 'blue', 'teal', 'purple'];
+    function avatarClass(index) {
+        return avatarColors[index % avatarColors.length];
+    }
+
+    // ============================================
+    // RENDER: Build card HTML for a review
+    // ============================================
+    function buildVideoCard(review) {
+        return `
+        <div>
+            <div class="testi-video-card">
+                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
+                    <video preload="metadata" poster="${review.photoUrl || ''}">
+                        <source src="${review.videoUrl}" type="video/mp4">
+                    </video>
+                    <div class="testi-play-overlay">
+                        <div class="testi-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
+                </div>
+                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                    <div class="testi-avatar">
+                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
+                    </div>
+                    <div>
+                        <div class="testi-name">${review.author_name}</div>
+                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function buildQuoteCard(review, index) {
+        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
+        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
+        const colorClass = avatarClass(index);
+
+        return `
+        <div>
+            <div class="testi-quote-card">
+                <div class="testi-quote-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testi-quote-text">${review.text || ''}</p>
+                <div class="testi-footer">
+                    <div class="testi-author">
+                        <div class="testi-avatar ${colorClass}">
+                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
+                        </div>
+                        <div>
+                            <div class="testi-name">${review.author_name}</div>
+                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
+                        </div>
+                    </div>
+                    <div class="testi-rating-row">
+                        <div class="testi-stars">${starsHTML(review.rating)}</div>
+                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    // ============================================
+    // RENDER: Populate slider with reviews
+    // ============================================
+       function renderReviews(reviews) {
+const slider = document.getElementById('testimonialSlider');
+const loading = document.getElementById('testiLoading');
+
+let html = '';
+
+reviews.forEach(function(review, i) {
+    if (review.hasVideo && review.videoUrl) {
+        html += buildVideoCard(review);
+    } else {
+        html += buildQuoteCard(review, i);
+    }
+});
+
+// If slider already initialized destroy first
+if ($(slider).hasClass('slick-initialized')) {
+    $(slider).slick('unslick');
+}
+
+slider.innerHTML = html;
+slider.style.display = 'block';
+if (loading) loading.style.display = 'none';
+
+// Re-initialize slick
+initSlick(slider);
+
+
+}
+
+    function initSlick(slider) {
+        if ($(slider).hasClass('slick-initialized')) return;
+        $(slider).slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows: false,
+            cssEase: 'ease-in-out',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            swipe: true,
+            touchMove: true,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 900, settings: { slidesToShow: 2 } },
+                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
+            ]
+        });
+    }
+
+    // ============================================
+    // FETCH: Google Places API Reviews
+    // ============================================
+    function fetchGMBReviews() {
+        // If API key not set, use fallback
+        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
+            renderReviews(CONFIG.fallbackReviews);
+            return;
+        }
+
+        // Google Places API requires server-side proxy due to CORS
+        // Option 1: Use Google Maps JS API (requires loading Maps library)
+        // Option 2: Use a server-side proxy endpoint
+        // Below is the Google Maps JS API approach:
+
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
+        script.async = true;
+        script.defer = true;
+        script.onerror = function() {
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
+            renderReviews(CONFIG.fallbackReviews);
+        };
+        document.head.appendChild(script);
+    }
+
+    // Global callback for Google Maps JS API
+    window.initGMBReviews = function() {
+        try {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            service.getDetails({
+                placeId: CONFIG.placeId,
+                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
+            }, function(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
+                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
+
+                    // Merge: video testimonials first, then GMB reviews
+                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
+                    const gmbReviews = place.reviews.map(function(r) {
+                        return {
+                            author_name: r.author_name,
+                            profile_photo_url: r.profile_photo_url,
+                            rating: r.rating,
+                            text: r.text,
+                            relative_time_description: r.relative_time_description
+                        };
+                    });
+
+                    renderReviews([...videoTestimonials, ...gmbReviews]);
+                } else {
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
+                    renderReviews(CONFIG.fallbackReviews);
+                }
+            });
+        } catch (e) {
+            console.log('[Testimonials] Error:', e);
+            renderReviews(CONFIG.fallbackReviews);
+        }
+    };
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        // Static cards already rendered — init Slick immediately
+        const slider = document.getElementById('testimonialSlider');
+        if (slider && slider.children.length > 0) {
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                initSlick(slider);
+            } else {
+                window.addEventListener('load', function() {
+                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
+                });
+            }
+        }
+        fetchGMBReviews();
+    });
+})();
+
+// Video play/pause toggle for testimonial cards
+function toggleTestiVideo(area) {
+    const video = area.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+        // Pause all other videos first
+        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
+        video.play();
+        area.classList.add('playing');
+    } else {
+        video.pause();
+        area.classList.remove('playing');
+    }
+}
+
 </script>
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
+    }
+    return { valid: true };
+}
+
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+// ─────────────────────────────────────────────────────────────
+
+function validateConsultationForm() {
+    var isValid = true;
+
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+    var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler (Bigin iframe load)
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    // Auto-embed page URL in form
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation (from Bigin source code)
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+// Bigin iframe success handler (overrides our custom one above via event delegation)
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
+
+<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+
+<script>
+
+</script>
+
+<script>
+// TOC scroll arrows
+const tocWrapper = document.getElementById('tocWrapper');
+document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
+document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
+
+// TOC active state on scroll — only tracks sections that have a matching TOC
+// button, keeps the active pill scrolled into view, and stays correct at the
+// very bottom of the page.
+(function () {
+    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
+    var wrapper = document.getElementById('tocWrapper');
+    if (!tocBtns.length) return;
+    var entries = tocBtns.map(function (btn) {
+        var id = (btn.getAttribute('href') || '').replace('#', '');
+        return { btn: btn, section: document.getElementById(id) };
+    }).filter(function (e) { return e.section; });
+    if (!entries.length) return;
+    var OFFSET = 200;
+    var ticking = false;
+    function setActive(entry) {
+        tocBtns.forEach(function (b) { b.classList.remove('active'); });
+        if (!entry) return;
+        entry.btn.classList.add('active');
+        if (wrapper) {
+            var left = entry.btn.offsetLeft;
+            var right = left + entry.btn.offsetWidth;
+            if (left < wrapper.scrollLeft) {
+                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
+            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
+                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
+            }
+        }
+    }
+    function onScroll() {
+        ticking = false;
+        var y = window.pageYOffset + OFFSET;
+        var active = entries[0];
+        for (var i = 0; i < entries.length; i++) {
+            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
+        }
+        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
+            active = entries[entries.length - 1];
+        }
+        setActive(active);
+    }
+    window.addEventListener('scroll', function () {
+        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
+    }, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+})();
+</script>
+
+<!-- WhatsApp Sticky Bar Script -->
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
+
+<!-- External JS Dependencies (loaded by master layout in production) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

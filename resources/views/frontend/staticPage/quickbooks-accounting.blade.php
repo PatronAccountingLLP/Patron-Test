@@ -11,139 +11,123 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Outsourced QuickBooks Bookkeeping Services - Exit Plan</title>
-    <meta name="description" content="QuickBooks bookkeeping services for global QBO entities and stranded India users, from INR 4999, with a clear Zoho Books exit path. Talk to a CA today.">
+    <title>QuickBooks Accounting Services India - Setup & Migration</title>
+    <meta name="description" content="Expert QuickBooks accounting for businesses in India. CA-managed bookkeeping, GST compliance, payroll and MIS on QuickBooks Online. From Rs. 1,500/month.">
     <link rel="canonical" href="/quickbooks-accounting">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Outsourced QuickBooks Bookkeeping Services - Exit Plan">
-    <meta property="og:description" content="QuickBooks bookkeeping services for global QBO entities and stranded India users, from INR 4999, with a clear Zoho Books exit path. Talk to a CA today.">
+    <meta property="og:title" content="QuickBooks Accounting Services India - Setup & Migration">
+    <meta property="og:description" content="Expert QuickBooks accounting for businesses in India. CA-managed bookkeeping, GST compliance, payroll and MIS on QuickBooks Online. From Rs. 1,500/month.">
     <meta property="og:url" content="/quickbooks-accounting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="/images/quickbooks-accounting-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Outsourced QuickBooks Bookkeeping Services - Exit Plan">
-    <meta name="twitter:description" content="QuickBooks bookkeeping services for global QBO entities and stranded India users, from INR 4999, with a clear Zoho Books exit path. Talk to a CA today.">
+    <meta name="twitter:title" content="QuickBooks Accounting Services India - Setup & Migration">
+    <meta name="twitter:description" content="Expert QuickBooks accounting for businesses in India. CA-managed bookkeeping, GST compliance, payroll and MIS on QuickBooks Online. From Rs. 1,500/month.">
     <meta name="twitter:image" content="/images/quickbooks-accounting-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@graph": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Service",
-            "name": "QuickBooks Bookkeeping Services After the India Shutdown: Global Books, Local Expertise",
-            "description": "QuickBooks bookkeeping services for global QBO entities and stranded India users, from INR 4999, with a clear Zoho Books exit path. Talk to a CA today.",
-            "url": "https://www.patronaccounting.com/quickbooks-accounting",
-            "serviceType": "QuickBooks Accounting Services India",
-            "areaServed": {
-                "@type": "Country",
-                "name": "India"
+          "@type": "Service",
+          "name": "QuickBooks Accounting Services India",
+          "description": "Expert QuickBooks accounting for businesses in India. CA-managed bookkeeping, GST compliance, payroll and MIS on QuickBooks Online. From Rs. 1,500/month.",
+          "url": "/quickbooks-accounting",
+          "serviceType": "QuickBooks Accounting Services India",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "provider": {
+            "@type": "Organization",
+            "name": "Patron Accounting LLP",
+            "url": "/",
+            "logo": "/images/site-logo.svg"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "/quickbooks-accounting",
+            "price": "4999"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "/"
             },
-            "provider": {
-                "@type": "Organization",
-                "@id": "https://www.patronaccounting.com/#organization"
-            },
-            "offers": {
-                "@type": "Offer",
-                "priceCurrency": "INR",
-                "availability": "https://schema.org/InStock",
-                "url": "https://www.patronaccounting.com/quickbooks-accounting",
-                "price": "4999"
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "QuickBooks Accounting Services India",
+              "item": "/quickbooks-accounting"
             }
+          ]
         },
         {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Home",
-                    "item": "https://www.patronaccounting.com/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "QuickBooks Bookkeeping Services After the India Shutdown: Global Books, Local Expertise",
-                    "item": "https://www.patronaccounting.com/quickbooks-accounting"
-                }
-            ]
-        },
-        {
-            "@type": "FAQPage",
-            "datePublished": "2026-07-06T08:00:00+05:30",
-            "dateModified": "2026-07-06T08:00:00+05:30",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Can you set up a new QuickBooks subscription for our Indian company?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "No, and no honest firm can: Intuit discontinued QuickBooks in India in 2023 and new Indian subscriptions are simply not sold. What we do instead is maintain books on global QuickBooks Online editions for genuinely foreign entities, preserve legacy India data, and migrate India-only businesses to Zoho Books, which remains fully supported here."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What will ongoing bookkeeping cost us?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Plans start from INR 4999/month (Exl GST and Govt. Charges). The written quote reflects transaction volume, entities and currencies, file condition and whether Indian GST and TDS compliance runs alongside the QBO work. Migration and archival projects carry separate fixed fees, so the monthly plan never hides one-time work."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Which QuickBooks editions do you actually work in?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Global QuickBooks Online editions - primarily US, UK and Australia - where the product remains fully supported. Legacy QuickBooks India files are handled as archival and migration projects rather than live bookkeeping, because building current books on a discontinued product adds risk instead of removing it. Desktop files are assessed case by case for data extraction."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Our accountant left and the QBO file is months behind. How does onboarding work?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "We start with read access and a file health check, then quote a stabilisation scope: clearing unreconciled feeds, repairing miscoded periods and agreeing a verified position to restart from. Once the backlog is current, the monthly rhythm begins with fixed close dates. You get a named team, so a single resignation never strands the books again."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What monthly deliverables should our CPA expect from you?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Consistently coded books with every bank and card account reconciled, a locked period, supporting schedules for balance-sheet lines, and the management pack in whatever format your CPA or group specifies. At year end they receive a clean handoff file rather than a shoebox, which is exactly what keeps their tax-season invoices small."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What do you not do on these engagements?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "We do not file US, UK or Australian tax returns - your local CPA or tax agent does, with our books underneath. We do not perform statutory audits, and we do not sell or provision new QuickBooks India subscriptions under any circumstances. These boundaries are written into the scope so nothing surfaces mid-engagement."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How is access managed across multiple entities and countries?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Every system - QBO, Indian accounting software, tax portals - is accessed through named seats or vault-stored credentials with least privilege, and you retain admin control everywhere. Access maps are documented per entity, an NDA precedes onboarding, and offboarding follows a checklist that closes every route on one agreed day."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How long does it take to archive a stranded QuickBooks India file?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Typically one to two weeks once we have the data: exports of ledgers, registers and reports for every year, a reconciled closing trial balance tied to your last filed statements, and an indexed archive handed to your own storage. Starting sooner is safer, because recovery options only narrow as time passes."
-                    }
-                }
-            ]
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is QuickBooks available in India in 2026?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "QuickBooks India was fully discontinued by Intuit. New subscriptions were stopped from July 2022 and all subscriber access was removed from July 1, 2023. Indian domestic businesses cannot subscribe to or access QuickBooks India anymore. QuickBooks Online global version is technically accessible in India for accounts linked to foreign entities but requires an international subscription and does not have native India GST filing. Former QuickBooks India users can migrate to Zoho Books or TallyPrime with Patron's assistance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Patron manage my QuickBooks Online account from India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Patron provides accountant-level access management for QuickBooks Online (global version). Our CA team works directly within your QBO account and delivers monthly bookkeeping, GST compliance, TDS entries, payroll journals, bank reconciliation, and financial reports. You retain full owner access to your QuickBooks at all times; Patron is added as an accountant user."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does QuickBooks Online handle GST in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "QuickBooks Online (global version) has a Tax Centre that can be configured for GST with CGST, SGST, IGST, and exempt tax codes. However, it does not have a direct API integration with the GSTN portal for filing GSTR-1, GSTR-3B, or e-invoices. Patron's CA team prepares GST summaries from QBO data each month and files returns via the GSTN portal. For businesses above the Rs 5 crore e-invoicing threshold, Patron advises on third-party IRP workflows compatible with QBO."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best alternative to QuickBooks for Indian businesses?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Zoho Books is the most recommended alternative for Indian businesses needing full GST compliance with direct GSTN API integration for GSTR-1, GSTR-3B, e-invoicing, and e-way bill. TallyPrime is the dominant choice for manufacturing, trading, and businesses preferring desktop software with deep India compliance. Both are purpose-built for Indian tax requirements in a way that QuickBooks Online (global) is not. Patron can help you migrate to either platform."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does QuickBooks Online cost in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "QuickBooks Online (global version) is priced in USD: Simple Start at USD 38/month, Essentials at USD 65/month, Plus at USD 99/month, and Advanced at USD 235/month (2026 pricing). At current exchange rates this is approximately Rs 3,200 to Rs 19,800/month. This is the software subscription cost only; Patron's accounting services are additional, starting at Rs 1,500/month."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Patron help migrate QuickBooks India data to Zoho Books?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Patron provides a complete QuickBooks to Zoho Books or TallyPrime migration service: data export and mapping from QuickBooks, chart of accounts alignment, contacts and opening balances import, GST configuration in the new platform, and trial balance reconciliation post-migration. One-time migration packages start at Rs 4,999. Ongoing accounting on the new platform can be added from Rs 1,500/month. Quick Answers What is QuickBooks accounting? QuickBooks accounting is the use of QuickBooks Online software to record and manage all financial transactions - invoices, expenses, bank feeds, payroll, and tax compliance - through a cloud-based platform accessible from any device. Is QuickBooks still available in India? No. Intuit discontinued all QuickBooks products in India effective April 30, 2023. New subscriptions ended July 2022 and full access was removed from July 1, 2023. Global QBO is accessible for accounts linked to foreign entities. QuickBooks India band ho gaya - ab kya karein? QuickBooks India April 2023 mein band ho gaya. Alternatives mein Zoho Books aur TallyPrime sabse popular hain. Patron Accounting aapka QuickBooks data migrate kar sakta hai Zoho Books ya Tally mein, Rs 4,999 se shuru hokar. Ongoing accounting bhi available hain Rs 1,500/month se."
+              }
+            }
+          ]
         }
-    ]
-}
+      ]
+    }
     </script>
 @endsection
 
@@ -1102,7 +1086,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        QuickBooks Bookkeeping Services After the India Shutdown: Global Books, Local Expertise
+                        QuickBooks Accounting Services in India
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1111,7 +1095,7 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">6 July 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">15 January 2024</span></span>
                         </span>
                         <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
@@ -1131,7 +1115,7 @@
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Migration Advisory Included:</span> QuickBooks India was discontinued (wind-down announced 2023) - we preserve legacy data and guide a clean migration to Zoho Books with zero data loss, quoted as a one-time project</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Migration Advisory Included:</span> QBO India discontinued April 2023 - we guide migration to Zoho Books or TallyPrime with zero data loss from Rs 4,999</p>
                         </div>
                     </div>
 
@@ -1430,15 +1414,15 @@
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">QuickBooks Bookkeeping Services After the India Shutdown</h2>
+            <h2 class="section-title">QuickBooks Accounting Services - Overview</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Outsourced QuickBooks Bookkeeping at a Glance</strong></p>
-                    <p>QuickBooks bookkeeping services still matter in India for one specific reason: Intuit discontinued QuickBooks for the Indian market, but thousands of businesses did not stop needing it. Our CA-led team maintains monthly books on global QuickBooks Online editions (US, UK, Australia), preserves legacy QuickBooks India data, keeps the Indian side of your structure GST- and TDS-compliant, and plans a clean migration to Zoho Books when you are ready. Plans start from INR 4999/month (Exl GST and Govt. Charges). We never sell a new QuickBooks subscription for an Indian entity - that door is closed.</p>
+                    <p><strong>&#128204; TL;DR - QuickBooks Accounting Services at a Glance</strong></p>
+                    <p>QuickBooks Online (QBO) is used by 7 million+ businesses globally. Indian subsidiaries of foreign entities, exporters, and CA firms use QBO for international operations. Patron Accounting provides CA-led bookkeeping, GST, TDS, payroll, and reporting within your QBO account. Important: QBO India was discontinued April 30, 2023 - migration to Zoho Books or TallyPrime from Rs 4,999. Ongoing accounting from Rs 1,500/month.</p>
                 </div>
-                <p>QuickBooks bookkeeping services still matter in India for one specific reason: Intuit discontinued QuickBooks for the Indian market, but thousands of businesses did not stop needing it. Some hold years of history in old QuickBooks India files. Others run books for US, UK or Australian entities on global QuickBooks Online, where the product remains fully alive. Patron Accounting serves both groups.</p>
-                <p>Our CA-led team maintains monthly books on global QBO editions, preserves and extracts legacy QuickBooks India data, keeps the Indian side of your structure GST- and TDS-compliant, and plans a clean migration to Zoho Books when you are ready to move. What we never do is sell you a new QuickBooks subscription for an Indian entity - that door is closed, and pretending otherwise helps nobody. Intuit announced the wind-down of QuickBooks in India in 2023; new Indian subscriptions ended and India-side product support wound down with it.</p>
-                <p>Content is authored by the CA &amp; CS Team and reviewed for accuracy.</p>
+                <p>QuickBooks Online (QBO) remains the accounting platform of choice for US, UK, and Australian companies. Indian subsidiaries of foreign entities, exporters with international clients, and CA firms providing outsourced accounting to global businesses all use QuickBooks Online. Patron Accounting provides CA-led accounting, GST compliance, TDS management, payroll, and reporting services within your existing QBO account.</p>
+                <p>Important context: Intuit discontinued all QuickBooks products in India effective April 30, 2023. New subscriptions ended July 2022, and access was fully removed from July 1, 2023 (source: quickbooks.intuit.com/in/). If you are a former QBO India user, Patron offers migration services to Zoho Books and TallyPrime. If you use QBO through a US/global subscription, Patron supports your ongoing accounting needs.</p>
+                <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
     </div>
@@ -1454,7 +1438,7 @@
                     
                     <p>QuickBooks accounting is the use of QuickBooks Online software to record, categorise, and report all financial transactions of a business - invoices, expenses, bank feeds, payroll, and taxes - through a cloud-based platform accessible from any device worldwide.</p>
                     <p>For Indian businesses, QuickBooks Online (global version) requires CA support for GST filing (no native GSTN API), TDS compliance (no native TDS module), and financial statement alignment with Schedule III of the Companies Act 2013. Patron Accounting bridges these gaps with CA-led accounting services delivered within your QBO account.</p>
-                    <p>Important: Intuit discontinued QuickBooks for the Indian market (wind-down announced 2023). Former QuickBooks India users can preserve their legacy data and migrate to Zoho Books with Patron's assistance, quoted as a one-time project. We never pitch a new QuickBooks India subscription - the product is not sold or supported here.</p>
+                    <p>Important: Intuit discontinued all QuickBooks products in India effective April 30, 2023. Former QBO India users can migrate to Zoho Books or TallyPrime with Patron's assistance from Rs 4,999.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
@@ -1527,7 +1511,7 @@
                         <tr><td>US/UK/AU Businesses Outsourcing to India</td><td>40-60% cost savings by outsourcing QBO bookkeeping to India-based CA team</td><td>Dedicated QBO accounting team; month-end close by 7th of following month</td></tr>
                         <tr><td>Startups with US Investors</td><td>US investors require QBO-compatible or GAAP-aligned financial statements</td><td>Monthly QBO bookkeeping, investor-ready P and L, and MIS aligned with GAAP or Ind AS</td></tr>
                         <tr><td>Indian CA/BPO Firms with Global Clients</td><td>India-based QBO accounting support for client entities</td><td>White-label QuickBooks accounting support; dedicated or shared accountant pool</td></tr>
-                        <tr><td>Former QuickBooks India Users</td><td>QuickBooks India discontinued (2023); need data preserved and a migration route</td><td>Legacy-data archival plus migration to Zoho Books (one-time project); ongoing books on the new platform from INR 4999/month</td></tr>
+                        <tr><td>Former QuickBooks India Users</td><td>QBO India discontinued April 2023; need migration</td><td>Data migration to Zoho Books or TallyPrime from Rs 4,999; ongoing accounting on new platform</td></tr>
                     </tbody>
                 </table>
                 </div>
@@ -1650,7 +1634,7 @@
                         <tr><td>No native India GST filing in QBO</td><td>GST data must be manually extracted; errors in GSTR-1/3B without CA oversight</td><td>Monthly GST summaries from QBO; returns filed via GSTN portal; ITC reconciliation against GSTR-2B</td></tr>
                         <tr><td>No native TDS module</td><td>TDS deductions miscategorised or missed; penalties under Section 201, Income Tax Act</td><td>Custom TDS liability accounts in QBO; entries at transaction level; quarterly returns and challans filed</td></tr>
                         <tr><td>Multi-currency and FEMA compliance</td><td>Forex gain/loss incorrectly recorded; RBI reporting missed</td><td>RBI reference rate-based forex entries; FEMA-compliant remittance coding; FLA return data from QBO</td></tr>
-                        <tr><td>QuickBooks India discontinued - data loss risk</td><td>Former users who did not export data before access closed may have lost historical records</td><td>Data reconstruction where possible; migration to Zoho Books, quoted as a one-time project</td></tr>
+                        <tr><td>QBO India discontinued - data loss risk</td><td>Former users who did not export data before July 2023 may have lost historical records</td><td>Data reconstruction where possible; migration to Zoho Books or TallyPrime from Rs 4,999</td></tr>
                         <tr><td>Chart of accounts misaligned with Indian law</td><td>Financial statements may not comply with Schedule III Companies Act 2013</td><td>CA-led chart restructuring in QBO to match Schedule III; auditor access for statutory audit</td></tr>
 
                     </tbody>
@@ -1665,16 +1649,18 @@
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">QuickBooks Bookkeeping Service Fees</h2>
+            <h2 class="section-title">QuickBooks Accounting - Pricing Plans 2026</h2>
             <div class="content-text">
-                <p>QuickBooks bookkeeping services start from INR 4999/month (Exl GST and Govt. Charges). The final quote depends on transaction volume, the number of entities and currencies, the condition of your existing file and whether Indian GST and TDS compliance is in scope alongside the QBO books. Migration to Zoho Books is quoted separately as a one-time project. All fees are flat and agreed in writing before work begins.</p>
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees (monthly QBO bookkeeping)</td><td>Starting from INR 4999/month (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Final quote drivers</td><td>Transaction volume, number of entities and currencies, file condition, Indian GST/TDS compliance in scope</td></tr>
-                        <tr><td>Migration to Zoho Books or legacy-data archival</td><td>Quoted separately as a one-time project after review</td></tr>
+                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 4,999 (Exl GST and Govt. Charges)</td></tr>
+                        <tr><td>Starter - Monthly Bookkeeping</td><td>Rs 1,500/month (bookkeeping, bank reconciliation, P and L, balance sheet; up to 150 transactions/month)</td></tr>
+                        <tr><td>Growth - Bookkeeping + GST + TDS</td><td>Rs 3,500/month (Starter + GSTR-1, GSTR-3B, ITC, TDS entries and returns, AR/AP; up to 400 transactions)</td></tr>
+                        <tr><td>Business - Full Scope</td><td>Rs 6,500/month (Growth + payroll up to 20 employees, MIS, monthly CA review call, multi-currency; up to 800 transactions)</td></tr>
+                        <tr><td>Enterprise</td><td>Custom pricing (multi-entity, transfer pricing, GAAP/IFRS alignment, unlimited transactions, dedicated CA manager)</td></tr>
+                        <tr><td>Migration from QBO to Zoho/Tally</td><td>Rs 4,999 one-time (data export, chart mapping, contacts, opening balances, GST config, trial balance reconciliation)</td></tr>
 
                     </tbody>
                 </table>
@@ -1730,8 +1716,8 @@
             <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>India Compliance Built In</h3><p>GST, TDS, PF, ESIC, Companies Act, and FEMA requirements natively understood and built into every QuickBooks bookkeeping cycle.</p></article>
             <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Real-Time QBO Access Always</h3><p>You retain full owner access. Patron works as your accountant within your existing QBO - no parallel systems, no data exports for processing.</p></article>
             <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V7m0 10v1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Multi-Currency and FEMA-Ready</h3><p>Forex gain/loss entries, RBI reference rates, multi-currency AR/AP, and FLA return preparation for foreign companies.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>Cost-Effective vs In-House</h3><p>Outsourced QuickBooks bookkeeping from INR 4999/month (Exl GST and Govt. Charges) - a fraction of the cost of an in-house finance team.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3>Migration Advisory Included</h3><p>If you move from QuickBooks to Zoho Books, Patron handles the migration end to end with 100% trial balance reconciliation, quoted as a one-time project.</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>Cost-Effective vs In-House</h3><p>QuickBooks accounting from Rs 1,500/month - a fraction of an in-house CA (Rs 30,000-50,000/month minimum in India).</p></article>
+            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3>Migration Advisory Included</h3><p>If you switch from QuickBooks to Zoho Books or TallyPrime, Patron handles the migration from Rs 4,999 one-time with zero data loss.</p></article>
         </div>
     </div>
 </section>
@@ -1785,13 +1771,14 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>QuickBooks is one platform in a wider practice. Browse the full range on our <a href="/accounting-bookkeeping-services">Accounting &amp; Bookkeeping Services</a> hub, where every engagement is organised by process, software and industry. Related services that pair well with QuickBooks bookkeeping:</p>
+                <p>Patron Accounting also provides these complementary services:</p>
                 <ul>
-                    <li><a href="/migration-from-quickbooks-to-zoho">QuickBooks to Zoho Books migration</a> - the recommended exit path for stranded India users, with full trial balance reconciliation</li>
-                    <li><a href="/migration-from-zoho-to-quickbooks">Zoho to QuickBooks migration</a> - for businesses moving onto a global QuickBooks entity</li>
-                    <li><a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks migration</a> - for books moving to a US, UK or Australian QuickBooks entity</li>
-                    <li><a href="/zoho-books-accounting">Zoho Books accountant</a> - GST-native cloud accounting for the Indian entity in your group</li>
-                    <li><a href="/backlog-bookkeeping-catch-up-services">Catch-up bookkeeping services</a> - clear a QBO file that has fallen months behind</li>
+                    <li><a href="/zoho-books-accounting">Zoho Books Accounting</a> - If transitioning from QuickBooks to Zoho Books with full India GST compliance</li>
+                    <li><a href="/tally-accounting">Tally Accounting</a> - For businesses evaluating TallyPrime as a QuickBooks alternative</li>
+                    <li><a href="/xero-accounting">Xero Accounting</a> - For businesses using Xero, another global cloud platform</li>
+                    <li><a href="/migration-from-tally-to-zoho">Migration from Tally to Zoho Books</a> - Data migration from any platform including QuickBooks</li>
+                    <li><a href="/gst-returns">GST Returns Filing</a> - Standalone GSTR-1, GSTR-3B, GSTR-9, and GST reconciliation</li>
+                    <li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly TDS returns (Form 26Q, 24Q) and Form 16 issuance</li>
                 </ul>
 
             </div>
@@ -1834,39 +1821,32 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - QuickBooks Accounting</h2>
                     <p class="faq-expanded__lead">Get answers about QuickBooks availability in India, QBO India discontinuation, GST handling, alternatives, pricing, and migration to Zoho Books or TallyPrime.</p>
+                    @include('partials.faq-enquiry-form', ['enquiryService' => 'QuickBooks Accounting'])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">Can you set up a new QuickBooks subscription for our Indian company?</h3>
-                        <div class="faq-expanded__a"><p>No, and no honest firm can: Intuit discontinued QuickBooks in India in 2023 and new Indian subscriptions are simply not sold. What we do instead is maintain books on global QuickBooks Online editions for genuinely foreign entities, preserve legacy India data, and migrate India-only businesses to Zoho Books, which remains fully supported here.</p></div>
+                        <h3 class="faq-expanded__q">Is QuickBooks available in India in 2026?</h3>
+                        <div class="faq-expanded__a"><p>QuickBooks India was fully discontinued by Intuit. New subscriptions were stopped from July 2022 and all subscriber access was removed from July 1, 2023. Indian domestic businesses cannot subscribe to or access QuickBooks India anymore. QuickBooks Online global version is technically accessible in India for accounts linked to foreign entities but requires an international subscription and does not have native India GST filing. Former QuickBooks India users can migrate to Zoho Books or TallyPrime with Patron's assistance.</p></div>
                     </div>
                     <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What will ongoing bookkeeping cost us?</h3>
-                        <div class="faq-expanded__a"><p>Plans start from INR 4999/month (Exl GST and Govt. Charges). The written quote reflects transaction volume, entities and currencies, file condition and whether Indian GST and TDS compliance runs alongside the QBO work. Migration and archival projects carry separate fixed fees, so the monthly plan never hides one-time work.</p></div>
+                        <h3 class="faq-expanded__q">Can Patron manage my QuickBooks Online account from India?</h3>
+                        <div class="faq-expanded__a"><p>Yes. Patron provides accountant-level access management for QuickBooks Online (global version). Our CA team works directly within your QBO account and delivers monthly bookkeeping, GST compliance, TDS entries, payroll journals, bank reconciliation, and financial reports. You retain full owner access to your QuickBooks at all times; Patron is added as an accountant user.</p></div>
                     </div>
                     <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">Which QuickBooks editions do you actually work in?</h3>
-                        <div class="faq-expanded__a"><p>Global QuickBooks Online editions - primarily US, UK and Australia - where the product remains fully supported. Legacy QuickBooks India files are handled as archival and migration projects rather than live bookkeeping, because building current books on a discontinued product adds risk instead of removing it. Desktop files are assessed case by case for data extraction.</p></div>
+                        <h3 class="faq-expanded__q">How does QuickBooks Online handle GST in India?</h3>
+                        <div class="faq-expanded__a"><p>QuickBooks Online (global version) has a Tax Centre that can be configured for GST with CGST, SGST, IGST, and exempt tax codes. However, it does not have a direct API integration with the GSTN portal for filing GSTR-1, GSTR-3B, or e-invoices. Patron's CA team prepares GST summaries from QBO data each month and files returns via the GSTN portal. For businesses above the Rs 5 crore e-invoicing threshold, Patron advises on third-party IRP workflows compatible with QBO.</p></div>
                     </div>
                     <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">Our accountant left and the QBO file is months behind. How does onboarding work?</h3>
-                        <div class="faq-expanded__a"><p>We start with read access and a file health check, then quote a stabilisation scope: clearing unreconciled feeds, repairing miscoded periods and agreeing a verified position to restart from. Once the backlog is current, the monthly rhythm begins with fixed close dates. You get a named team, so a single resignation never strands the books again.</p></div>
+                        <h3 class="faq-expanded__q">What is the best alternative to QuickBooks for Indian businesses?</h3>
+                        <div class="faq-expanded__a"><p>Zoho Books is the most recommended alternative for Indian businesses needing full GST compliance with direct GSTN API integration for GSTR-1, GSTR-3B, e-invoicing, and e-way bill. TallyPrime is the dominant choice for manufacturing, trading, and businesses preferring desktop software with deep India compliance. Both are purpose-built for Indian tax requirements in a way that QuickBooks Online (global) is not. Patron can help you migrate to either platform.</p></div>
                     </div>
                     <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What monthly deliverables should our CPA expect from you?</h3>
-                        <div class="faq-expanded__a"><p>Consistently coded books with every bank and card account reconciled, a locked period, supporting schedules for balance-sheet lines, and the management pack in whatever format your CPA or group specifies. At year end they receive a clean handoff file rather than a shoebox, which is exactly what keeps their tax-season invoices small.</p></div>
+                        <h3 class="faq-expanded__q">How much does QuickBooks Online cost in India?</h3>
+                        <div class="faq-expanded__a"><p>QuickBooks Online (global version) is priced in USD: Simple Start at USD 38/month, Essentials at USD 65/month, Plus at USD 99/month, and Advanced at USD 235/month (2026 pricing). At current exchange rates this is approximately Rs 3,200 to Rs 19,800/month. This is the software subscription cost only; Patron's accounting services are additional, starting at Rs 1,500/month.</p></div>
                     </div>
                     <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What do you not do on these engagements?</h3>
-                        <div class="faq-expanded__a"><p>We do not file US, UK or Australian tax returns - your local CPA or tax agent does, with our books underneath. We do not perform statutory audits, and we do not sell or provision new QuickBooks India subscriptions under any circumstances. These boundaries are written into the scope so nothing surfaces mid-engagement.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">How is access managed across multiple entities and countries?</h3>
-                        <div class="faq-expanded__a"><p>Every system - QBO, Indian accounting software, tax portals - is accessed through named seats or vault-stored credentials with least privilege, and you retain admin control everywhere. Access maps are documented per entity, an NDA precedes onboarding, and offboarding follows a checklist that closes every route on one agreed day.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">How long does it take to archive a stranded QuickBooks India file?</h3>
-                        <div class="faq-expanded__a"><p>Typically one to two weeks once we have the data: exports of ledgers, registers and reports for every year, a reconciled closing trial balance tied to your last filed statements, and an indexed archive handed to your own storage. Starting sooner is safer, because recovery options only narrow as time passes.</p></div>
+                        <h3 class="faq-expanded__q">Can Patron help migrate QuickBooks India data to Zoho Books?</h3>
+                        <div class="faq-expanded__a"><p>Yes. Patron provides a complete QuickBooks to Zoho Books or TallyPrime migration service: data export and mapping from QuickBooks, chart of accounts alignment, contacts and opening balances import, GST configuration in the new platform, and trial balance reconciliation post-migration. One-time migration packages start at Rs 4,999. Ongoing accounting on the new platform can be added from Rs 1,500/month.</p></div>
                     </div>
                 </div>
             </div>
@@ -1875,9 +1855,9 @@
             <!-- Quick Answers -->
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Can you manage our US QBO books and our Indian company together?</strong><br>Yes, this is one of our most common arrangements. The same team runs your US or UK entity on QuickBooks Online and your Indian entity on Tally or Zoho Books, keeps intercompany balances reconciled at every close, and coordinates with your overseas CPA at year end. One team, both geographies, no gaps.</p>
-                <p><strong>Is QuickBooks still available in India?</strong><br>No. Intuit discontinued QuickBooks for the Indian market (wind-down announced 2023), and new Indian subscriptions are no longer sold. Global QuickBooks Online editions - US, UK, Australia - remain fully active, which is why Indian businesses with foreign entities still run on the platform legitimately.</p>
-                <p><strong>QuickBooks India band ho gaya - ab kya karein?</strong><br>QuickBooks India ka wind-down 2023 mein announce hua. India-only business ke liye sabse acha option Zoho Books par migrate karna hai, jo GST-native aur fully supported hai. Patron Accounting aapka data preserve karke Zoho Books migration ek one-time project ke roop mein handle karta hai; ongoing books INR 4999/month (Exl GST and Govt. Charges) se.</p>
+                <p><strong>What is QuickBooks accounting?</strong><br>QuickBooks accounting is the use of QuickBooks Online software to record and manage all financial transactions - invoices, expenses, bank feeds, payroll, and tax compliance - through a cloud-based platform accessible from any device.</p>
+                <p><strong>Is QuickBooks still available in India?</strong><br>No. Intuit discontinued all QuickBooks products in India effective April 30, 2023. New subscriptions ended July 2022 and full access was removed from July 1, 2023. Global QBO is accessible for accounts linked to foreign entities.</p>
+                <p><strong>QuickBooks India band ho gaya - ab kya karein?</strong><br>QuickBooks India April 2023 mein band ho gaya. Alternatives mein Zoho Books aur TallyPrime sabse popular hain. Patron Accounting aapka QuickBooks data migrate kar sakta hai Zoho Books ya Tally mein, Rs 4,999 se shuru hokar. Ongoing accounting bhi available hain Rs 1,500/month se.</p>
 
             </div>
         </div>
@@ -1921,7 +1901,7 @@
                 
                 <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">QuickBooks Online remains the accounting platform of choice for global companies, US/UK/AU parent entities, and Indian businesses with international operations. Its strength is multi-currency handling, 800+ global integrations, and cloud-first design accessible from anywhere. Its limitation in India is the absence of native GSTN API filing and the discontinuation of the India-specific version in April 2023.</p>
                 <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">Patron Accounting bridges both gaps: CA-led GST, TDS, and payroll compliance managed alongside your QuickBooks Online account, and migration advisory for businesses moving to Zoho Books or TallyPrime. Whether you need ongoing QBO accounting or help transitioning away from it, Patron's team of qualified CAs delivers the right solution.</p>
-                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;"><strong>Monthly QuickBooks bookkeeping from INR 4999/month (Exl GST and Govt. Charges) | Zoho Books migration quoted per project | 50+ QBO accounts managed | 4.8/5 client rating</strong></p>
+                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;"><strong>Monthly accounting from Rs 1,500/month | Migration from Rs 4,999 | 50+ QBO accounts managed | 4.8/5 client rating</strong></p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
@@ -1935,13 +1915,41 @@
 </section>
 
 <!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
-
+<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">QuickBooks Accounting Services Across India</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides CA-managed QuickBooks Online bookkeeping, GST compliance, and financial reporting across major Indian cities.</p>
+      
+            <div class="pa-city-block" style="margin-bottom:40px;">
+                <div class="pa-city-grid">
+                    <a href="/quickbooks-accounting/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
+                    <a href="/quickbooks-accounting/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+                    <a href="/quickbooks-accounting/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
+                    <a href="/quickbooks-accounting/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+                </div>
+            </div>
+            <div class="pa-city-block">
+                <div class="pa-block-title">Related Services</div>
+                <div class="pa-block-sub">End-to-end support for QuickBooks Accounting</div>
+                <div class="pa-cross-grid">
+                    <a href="/zoho-books-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/tally-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/xero-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Xero Accounting</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/tds-return-filing-24q" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/migration-from-tally-to-zoho" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Migration: Tally to Zoho</div><div class="pa-card-sub">India</div></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- CONTENT FRESHNESS FOOTER -->
 <section class="content-section" style="padding:32px;">
     <div class="content-container">
         <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 6 July 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">6 July 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 6 October 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
+            <p><strong>Content Created:</strong> 15 January 2024 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">15 January 2024</span> &nbsp;|&nbsp; <strong>Next Review:</strong> April 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
             <p>This page is reviewed annually or on Intuit India re-entry announcement, QBO pricing change, or new GST/e-invoicing threshold notification. Next review: April 2027.</p>
         </div>
     </div>
@@ -2630,6 +2638,42 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 <!-- WhatsApp Sticky Bar Script -->
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
 
 <!-- External JS Dependencies (loaded by master layout in production) -->
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

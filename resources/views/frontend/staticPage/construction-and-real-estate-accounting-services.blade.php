@@ -1629,4 +1629,7 @@ window.addEventListener('scroll', function() {
     var opts = { day: 'numeric', month: 'long', year: 'numeric' };
     var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

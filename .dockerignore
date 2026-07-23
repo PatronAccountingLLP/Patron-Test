@@ -1,0 +1,36 @@
+# Rebuilt inside the image
+/vendor
+/node_modules
+/bootstrap/cache/*.php
+/bootstrap/cache/*.tmp
+
+# Secrets & local-only env
+.env
+.env.backup
+.env.production
+auth.json
+
+# Local runtime state (regenerated at boot)
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/cache/*
+/storage/logs/*
+/public/storage
+/public/hot
+/public/build
+
+# VCS / tooling / scratch
+.git
+.gitignore
+.github
+/.idea
+/.vscode
+/.fleet
+/.claude
+/__pycache__
+/_temp
+/test_patron
+*.log
+*.bak
+*.bak-*
+.phpunit.result.cache

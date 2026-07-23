@@ -1,0 +1,54 @@
+# Render.com Blueprint — https://render.com/docs/blueprint-spec
+# Deploys the Laravel app as a Docker web service (SQLite, no external DB).
+services:
+  - type: web
+    name: patron-accounting
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter          # 'free' works too; 'starter' avoids cold-start spin-down
+    region: singapore      # closest Render region to India
+    healthCheckPath: /
+    autoDeploy: true
+    # A persistent disk keeps the SQLite file (and form submissions / sessions)
+    # across deploys and restarts. Remove this block to bake a read-only DB
+    # into each image instead (fine for a pure content preview).
+    disk:
+      name: patron-data
+      mountPath: /var/www/html/database
+      sizeGB: 1
+    envVars:
+      - key: APP_NAME
+        value: "Patron Accounting"
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      # Leave APP_KEY blank here and set it once in the Render dashboard
+      # (Environment tab) using `php artisan key:generate --show` output.
+      # If unset, the container mints an ephemeral key on each boot.
+      - key: APP_KEY
+        sync: false
+      - key: APP_URL
+        value: https://patron-accounting.onrender.com
+      - key: APP_TIMEZONE
+        value: Asia/Kolkata
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: LOG_LEVEL
+        value: error
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /var/www/html/database/database.sqlite
+      - key: SESSION_DRIVER
+        value: file
+      - key: CACHE_DRIVER
+        value: file
+      - key: QUEUE_CONNECTION
+        value: sync
+      - key: FILESYSTEM_DISK
+        value: local
+      - key: BROADCAST_DRIVER
+        value: log
+      - key: MAIL_MAILER
+        value: log

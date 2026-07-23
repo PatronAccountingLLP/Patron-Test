@@ -1,0 +1,61 @@
+/* SequelZone Laravel CMS - Custom Styles */
+
+/* Logo Styles */
+.logo-img {
+    transition: opacity 0.3s ease;
+}
+
+.logo-img:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Logo */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 32px;
+        margin-right: 8px;
+    }
+}
+
+/* Admin Logo Styles */
+.admin-logo {
+    height: 35px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Brand Text Fallback */
+.brand-fallback {
+    display: flex;
+    align-items: center;
+}
+
+.brand-icon {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #1f2937;
+    line-height: 1;
+}
+
+.brand-subtitle {
+    font-size: 0.75rem;
+    color: #6b7280;
+    line-height: 1;
+    font-weight: 400;
+}

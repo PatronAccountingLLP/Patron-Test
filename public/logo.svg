@@ -1,0 +1,13 @@
+<svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="40" fill="#1e3a8a" rx="5"/>
+  
+  <!-- Arrow Icon -->
+  <polygon points="10,20 18,12 18,16 30,16 30,24 18,24 18,28" fill="white"/>
+  
+  <!-- Text -->
+  <text x="40" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">SequelZone</text>
+  
+  <!-- Subtitle -->
+  <text x="40" y="35" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Laravel CMS</text>
+</svg>

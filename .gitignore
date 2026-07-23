@@ -1,0 +1,55 @@
+*.log
+.DS_Store
+Thumbs.db
+!.env.example
+/node_modules
+/public/build
+/public/hot
+/public/storage
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/storage/*.key
+/bootstrap/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/vendor
+.env
+.env.backup
+.env.production
+Homestead.json
+Homestead.yaml
+/test_patron
+/.fleet
+/.idea
+/.vscode
+
+# Windows-reserved stray artifact (0-byte, cannot be git-indexed)
+resources/views/frontend/cityPages/nul
+
+# ---- Not part of the Laravel deploy (excluded from git) ----
+# Legacy standalone PHP CRM app (separate project, 182 MB)
+/patron/
+# Backup snapshots
+/storage/app/*backup*/
+/storage/app/*-NEW-package-*/
+/storage/app/cityPages-backup*/
+# Scratch / tooling / build artifacts
+/_temp/
+/.claude/
+/__pycache__/
+*.rar
+resources/views/**/*.2026-[0-9]*
+*.blade.php.backup
+*_fact_check.json

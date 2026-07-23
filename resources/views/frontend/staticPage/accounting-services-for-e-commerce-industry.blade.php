@@ -1,1135 +1,143 @@
-
 @extends('layouts.service-app')
 
-@section('meta')
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    <title>E-Commerce Accounting Services - GST, TDS & Bookkeeping</title>
-    <meta name="description" content="Ecommerce accounting for Amazon, Flipkart and Shopify sellers in India. GST filing, TDS reconciliation, bookkeeping starting at INR 3,499/month.">
-    <link rel="canonical" href="/accounting-services-for-e-commerce-industry">
+
+@section('meta')
+    <title>E-Commerce Accountants for Online Sellers in India | Patron Accounting</title>
+    <meta name="description" content="Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="E-Commerce Accounting Services - GST, TDS & Bookkeeping">
-    <meta property="og:description" content="Ecommerce accounting for Amazon, Flipkart and Shopify sellers in India. GST filing, TDS reconciliation, bookkeeping starting at INR 3,499/month.">
-    <meta property="og:url" content="/accounting-services-for-e-commerce-industry">
+    <meta property="og:title" content="E-Commerce Accountants for Online Sellers in India | Patron Accounting">
+    <meta property="og:description" content="Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-e-commerce-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="E-Commerce Accounting Services - GST, TDS & Bookkeeping">
-    <meta name="twitter:description" content="Ecommerce accounting for Amazon, Flipkart and Shopify sellers in India. GST filing, TDS reconciliation, bookkeeping starting at INR 3,499/month.">
-    <meta name="twitter:image" content="/images/accounting-services-for-e-commerce-industry-og.webp">
+    <meta name="twitter:title" content="E-Commerce Accountants for Online Sellers in India | Patron Accounting">
+    <meta name="twitter:description" content="Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Service",
-          "name": "Ecommerce Accounting Services in India",
-          "description": "Ecommerce accounting for Amazon, Flipkart and Shopify sellers in India. GST filing, TDS reconciliation, bookkeeping starting at INR 3,499/month.",
-          "url": "/accounting-services-for-e-commerce-industry",
-          "serviceType": "Ecommerce Accounting Services in India",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
-          },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "/accounting-services-for-e-commerce-industry",
-            "price": "3499"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Ecommerce Accounting Services in India",
-              "item": "/accounting-services-for-e-commerce-industry"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Is GST registration mandatory for all ecommerce sellers in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Under Section 24(ix) of the CGST Act 2017, every person supplying goods through an ecommerce operator must register for GST irrespective of turnover. This applies even if annual sales are below Rs. 20 lakh. For service providers, GST is mandatory if turnover exceeds Rs. 20 lakh (Rs. 10 lakh in special category states)."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is TCS in GST for ecommerce sellers?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "TCS (Tax Collected at Source) under GST is the 1% tax deducted by ecommerce operators like Amazon, Flipkart, and Meesho at payment time. It is collected as 0.5% CGST + 0.5% SGST for intra-state or 1% IGST for inter-state supplies. The TCS is credited to your Electronic Cash Ledger and must be claimed in GSTR-3B. Platforms report TCS through GSTR-8 by the 10th."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the TDS rate for ecommerce under Section 194O?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Under Section 194O of the Income Tax Act, ecommerce operators deduct TDS at 0.1% (effective October 1, 2024, reduced from 1%) on gross payments to resident sellers. Individual/HUF sellers with gross sales below Rs. 5 lakh in the financial year are exempt. TDS is deposited by 7th of the following month and reported in Form 26Q."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can ecommerce sellers register under the GST Composition Scheme?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Under the CGST Act, persons supplying goods or services through an ecommerce operator are specifically excluded from the Composition Scheme. Ecommerce sellers must register as regular taxpayers and file monthly or quarterly GST returns with full tax computation."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How much does ecommerce accounting cost in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ecommerce accounting starts at INR 3,499 per month for single-platform sellers with up to 200 orders covering bookkeeping and GSTR filing. Multi-platform packages start at Rs. 5,999/month. Annual ITR, GSTR-9, and tax audit are billed separately. Contact Patron Accounting for a customised quote based on order volume and platform mix."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What GST returns does an ecommerce seller need to file?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "An ecommerce seller must file GSTR-1 (monthly or quarterly outward supply), GSTR-3B (monthly summary with tax payment), and GSTR-9 (annual return if turnover above Rs. 2 crore). GSTR-9C applies above Rs. 5 crore. Sellers do not file GSTR-8 - that is filed by the marketplace operator reporting TCS."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does RCM apply to ecommerce sellers for Google Ads and Meta Ads?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Advertising from overseas platforms like Google LLC or Meta Platforms is classified as import of services. Under Section 9(5) of CGST Act, you must pay GST at 18% on the invoice value under Reverse Charge. You can then claim ITC on this RCM payment in GSTR-3B provided the service is used for business purposes. Quick Answers Q: Is GST mandatory for Amazon sellers? Yes. Under Section 24(ix) of CGST Act 2017, all sellers on Amazon or any ecommerce platform must register for GST regardless of turnover. Q: Ecommerce ka accounting kaise kare? Amazon, Flipkart sellers ko GST registration, monthly GSTR filing, TCS reconciliation, bookkeeping, aur ITR filing ki zaroorat hoti hai. CA se karwana sabse safe hai. Q: What is the TCS rate on ecommerce? 1% (0.5% CGST + 0.5% SGST or 1% IGST) collected by the marketplace operator on net taxable sales under Section 52 of CGST Act. Q: Can I use Composition Scheme as an online seller? No. Ecommerce sellers are excluded from the Composition Scheme under CGST Act."
-              }
-            }
-          ]
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#service",
+        "name": "E-Commerce Accounting Services in India",
+        "description": "Settlement-wise accounting for online sellers in India: marketplace settlement reconciliation, GST TCS (Section 52) and Section 194-O TDS tracking, returns and RTO provisioning, fulfilment-centre stock control and channel-wise margin reporting.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "E-commerce", "sameAs": "https://en.wikipedia.org/wiki/E-commerce" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "E-Commerce Accounting Service Plans",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Starter - E-Commerce Accounting", "description": "one seller on a single marketplace with routine monthly orders"}, "price": "3499", "priceCurrency": "INR", "description": "Per month, excl. GST & government charges", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Growth - E-Commerce Accounting", "description": "extra marketplaces, higher settlement lines or added GST states"}, "description": "On quote - scoped to marketplaces, order volume and GST states", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Managed - E-Commerce Accounting", "description": "multi-entity seller books with custom settlement and payout reporting"}, "description": "On quote - scoped to marketplaces, order volume and GST states", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"}
+            ]
         }
-      ]
     }
     </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Mayur from Bijasini Traders — E-commerce Seller Testimonial for Patron Accounting",
-  "description": "Mayur, founder of Bijasini Traders (brands Sanchaya and Bijasini; Amazon seller and Shopify store at sanchaya.com), explains why he shortlisted 10+ CAs and chose Patron Accounting for GST filing, GST compliance, tax filing, accounting, and marketplace reconciliation.",
-  "thumbnailUrl": [
-    "/storage/testimonials/posters/mayur-bijasini-720x1280.jpg",
-    "/storage/testimonials/posters/mayur-bijasini-720x1280.webp"
-  ],
-  "uploadDate": "2026-06-17T10:30:00+05:30",
-  "duration": "PT1M22S",
-  "contentUrl": "/storage/testimonials/videos/mayur-bijasini-patron-testimonial-720x1280.mp4",
-  "embedUrl": "/storage/testimonials/videos/mayur-bijasini-patron-testimonial-720x1280.mp4",
-  "inLanguage": "en-IN",
-  "isFamilyFriendly": true,
-  "transcript": "Hey, I'm Mayur from Bijasini Traders. So, we have two brands, Sanchaya and Bijasini. We sell on Amazon, and also we have a Shopify brand store named Sanchaya.com. So, we recently came across some issues in our GST filing. So, we shortlisted more than 10 CAs and accounting firms, and we selected Patron in that. I want to say that, as a business owner and as a solo founder, we have to focus 100% on business growth. So, all the GST compliances and all that tax filing and accounting, and I would say marketplace reconciliation, must be handled by a specialized team. So, we can trust that team 100%. So, as per my experience, in the two to three months, Patron has a knowledgeable team, has e-commerce expertise in all. So, I say go with the Patron team. They will handle all your compliances, all your tax filing, and all your reconciliation, all that things, so you can focus on your business growth. So my suggestion is go with Patron. Thank you.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Patron Accounting LLP",
-    "url": "/",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "/images/site-logo.svg"
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" },
+            { "@type": "ListItem", "position": 3, "name": "E-Commerce Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" }
+        ]
     }
-  },
-  "review": {
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "5",
-      "bestRating": "5"
-    },
-    "author": {
-      "@type": "Person",
-      "name": "Mayur",
-      "jobTitle": "Founder",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Bijasini Traders"
-      }
-    },
-    "itemReviewed": {
-      "@type": "Organization",
-      "name": "Patron Accounting LLP"
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#faq",
+        "datePublished": "2026-07-23T08:00:00+05:30",
+        "dateModified": "2026-07-23T08:00:00+05:30",
+        "mainEntity": [
+            {"@type":"Question","name":"What is an e-commerce accountant?","acceptedAnswer":{"@type":"Answer","text":"An e-commerce accountant is a qualified accountant who reconciles marketplace settlement reports against your bank and books, then handles GST, TCS and TDS on online sales. The work differs from ordinary bookkeeping because Amazon, Flipkart and Meesho deduct commission, shipping, returns and penalties before payout, so gross sales never match the amount actually credited to you."}},
+            {"@type":"Question","name":"How are Amazon and Flipkart settlement reports reconciled with the books?","acceptedAnswer":{"@type":"Answer","text":"We download every settlement report, map each line to its order ID, and post commission, shipping, return and penalty entries separately instead of booking the net payout as sales. Reconciliation runs on a fortnightly cycle for most sellers, so differences are caught inside the same month. Unmatched lines are listed with the marketplace ticket reference raised."}},
+            {"@type":"Question","name":"How much GST TCS do marketplaces deduct and can it be claimed back?","acceptedAnswer":{"@type":"Answer","text":"Marketplaces deduct TCS at 0.5% of net taxable supplies under Section 52 of the CGST Act, split as 0.25% CGST and 0.25% SGST. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. Many sellers never accept it, so the money sits unused for months."}},
+            {"@type":"Question","name":"What TDS does a marketplace deduct on online sales?","acceptedAnswer":{"@type":"Answer","text":"E-commerce operators deduct TDS at 0.1% of gross sales under Section 194-O of the Income Tax Act, and the deduction appears in your Form 26AS. We reconcile 26AS against marketplace reports every quarter so nothing is lost at return time. Where the deduction is wrong, we raise the correction before the quarterly statement is filed."}},
+            {"@type":"Question","name":"Is GST registration needed in every state where stock is held?","acceptedAnswer":{"@type":"Answer","text":"Yes. Holding stock in a fulfilment centre creates a place of business, so a seller using warehouses in five states needs registration in each of them. We handle the additional registrations, state-wise returns and stock transfer documentation. Sellers shipping only from their own single location usually manage with one registration instead."}},
+            {"@type":"Question","name":"How do you account for returns, RTO and lost shipments?","acceptedAnswer":{"@type":"Answer","text":"Returns and RTO are booked as credit notes against the original invoice in the same GST period wherever possible, never netted off against sales. Lost or damaged shipments are carried as claims receivable from the courier or marketplace until reimbursed or written off. We maintain an ageing of open claims so recoveries get chased rather than quietly absorbed."}},
+            {"@type":"Question","name":"What does e-commerce accounting cost for a seller doing Rs 50 lakh a year?","acceptedAnswer":{"@type":"Answer","text":"A seller at that turnover typically pays Rs 12,000 to Rs 20,000 a month, covering bookkeeping, settlement reconciliation for up to three marketplaces, monthly GST returns and TDS support. Pricing moves with order volume, number of marketplaces and number of GST registrations rather than turnover alone. Annual filings and tax audit support are quoted separately."}},
+            {"@type":"Question","name":"Can books two years behind across four marketplaces be cleaned up?","acceptedAnswer":{"@type":"Answer","text":"Yes. Backlog clean-up starts with a scoping review of about five working days, after which you get a fixed quote and a month-by-month catch-up plan. Historic settlement reports are pulled marketplace by marketplace and rebuilt from order level, so GST returns already filed can be corrected through amendments wherever the time limit still permits it."}},
+            {"@type":"Question","name":"Which accounting software do you use for online sellers?","acceptedAnswer":{"@type":"Answer","text":"We work in Zoho Books or Tally for most Indian sellers, with marketplace data brought in through settlement report imports rather than manual typing. QuickBooks is no longer available in India after Intuit withdrew the product in 2023, so sellers still on it are migrated to Zoho Books with full history carried across. Xero suits overseas entities."}},
+            {"@type":"Question","name":"Which account is best for an e-commerce business?","acceptedAnswer":{"@type":"Answer","text":"Use a dedicated current account for the business, kept apart from any personal savings account, with every marketplace payout credited into it so settlements can be traced to order level reports. Sellers running more than three marketplaces often add a second account for payment gateway receipts. In the ledger, each platform is kept as its own receivable control account rather than one combined debtor."}}
+        ]
     }
-  }
-}
-</script>
-@endsection
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry",
+        "name": "E-Commerce Accounting Services in India",
+        "description": "Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.",
+        "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#service" },
+        "datePublished": "2026-07-23T08:00:00+05:30",
+        "dateModified": "2026-07-23T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "reviewedBy": { "@id": "https://www.patronaccounting.com/#team" },
+        "lastReviewed": "2026-07-23",
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "13", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    @endsection
+
+<link rel="stylesheet" href="/css/patron-cluster.css">
 
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 0; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
 
-<!-- HERO SECTION -->
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">E-Commerce Accounting Services</span></li>
+        </ol>
+    </div>
+</nav>
+
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1141,7 +149,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Ecommerce Accounting Services for Online Sellers in India
+                        E-Commerce Accountants for Online Sellers in India
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1150,42 +158,36 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">12 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Platform Expertise:</span> CA-led team with deep expertise in Amazon, Flipkart, Meesho, Shopify, and D2C seller compliance across India</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Settlement reconciliation:</span> Every Amazon, Flipkart and Shopify payout matched to the rupee, not accepted at the net payout total.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Complete GST Compliance:</span> GSTR-1, GSTR-3B, GSTR-8, GSTR-9 filing with TCS reconciliation across all marketplace platforms</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>TCS &amp; TDS tracked:</span> Section 194-O TDS at 0.1% and GST TCS at 0.5% reconciled into your electronic cash ledger and Form 26AS.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>TDS Reconciliation:</span> Section 194O TDS tracking, Form 26AS matching, and full ITR filing to claim every credit</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Returns &amp; stock proved:</span> RTO and returned stock provisioned, and inventory at FBA and Flipkart fulfilment centres tied to the operator report.</p>
                         </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Transparent Pricing:</span> Starting from INR 3,499/month - one fee covers all platforms, no hidden charges</p>
                         </div>
-                    </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">500+ online sellers served across Amazon, Flipkart, Meesho, and Shopify</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-Commerce%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20E-Commerce%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20an%20ecommerce%20seller%20and%20need%20accounting%20services.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1212,7 +214,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1242,7 +244,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Ecommerce Accounting'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - E-Commerce Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1285,15 +287,14 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services-for-e-commerce-industry" selected>Ecommerce Accounting</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="gst-registration">GST Registration</option>
-                                <option value="gst-returns">GST Return Filing</option>
-                                <option value="gst-returns-for-e-commerce-operator">GST for E-commerce Operators</option>
-                                <option value="income-tax-return">Income Tax Return</option>
-                                <option value="tax-audit">Tax Audit</option>
-                                <option value="private-limited-company-registration">Pvt Ltd Registration</option>
-                                <option value="other">Other</option>
+                                <option value="accounting-services-for-e-commerce-industry" selected>E-Commerce Accounting</option>
+                                    <option value="accounting-services">Accounting Services (All)</option>
+                                    <option value="accounting-services-for-startups">Startup Accounting</option>
+                                    <option value="accounting-services-for-retail">Retail Accounting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Bookkeeping Catch-up</option>
+                                    <option value="bank-credit-card-reconciliation-services">GST / TDS Reconciliation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1323,124 +324,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <!-- Patron video testimonial (Mayur, Bijasini Traders) -->
-<figure class="patron-video-testimonial"
-        itemscope itemtype="https://schema.org/VideoObject"
-        style="max-width:380px;margin:1.5rem auto;">
 
-  <video
-    controls
-    playsinline
-    preload="none"
-    poster="/storage/testimonials/posters/mayur-bijasini-720x1280.jpg"
-    width="720"
-    height="1280"
-    style="width:100%;height:auto;border-radius:12px;display:block;"
-    aria-label="Video testimonial from Mayur, founder of Bijasini Traders, about Patron Accounting">
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Online Sellers and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for e-commerce accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
 
-    <source src="/storage/testimonials/videos/mayur-bijasini-patron-testimonial-720x1280.mp4"
-            type="video/mp4">
 
-    <p>
-      Your browser doesn't support HTML5 video.
-      <a href="/storage/testimonials/videos/mayur-bijasini-patron-testimonial-720x1280.mp4">
-        Download the testimonial (MP4, 2 MB).
-      </a>
-    </p>
-  </video>
-
-  <figcaption style="margin-top:0.75rem;font-size:0.9rem;color:#333;line-height:1.4;">
-    <strong>Mayur</strong> · Founder, <strong>Bijasini Traders</strong><br>
-    <span style="color:#666;">E-commerce seller (Amazon + Shopify) · Patron client since 2026</span>
-  </figcaption>
-
-  <details style="margin-top:0.5rem;font-size:0.85rem;">
-    <summary style="cursor:pointer;color:#1F3A5F;font-weight:600;">Read transcript</summary>
-    <p style="margin-top:0.5rem;color:#444;">
-      Hey, I'm Mayur from Bijasini Traders. So, we have two brands, Sanchaya and Bijasini.
-      We sell on Amazon, and also we have a Shopify brand store named Sanchaya.com.
-      So, we recently came across some issues in our GST filing. So, we shortlisted more
-      than 10 CAs and accounting firms, and we selected Patron in that. I want to say that,
-      as a business owner and as a solo founder, we have to focus 100% on business growth.
-      So, all the GST compliances and all that tax filing and accounting, and I would say
-      marketplace reconciliation, must be handled by a specialized team. So, we can trust
-      that team 100%. So, as per my experience, in the two to three months, Patron has a
-      knowledgeable team, has e-commerce expertise in all. So, I say go with the Patron
-      team. They will handle all your compliances, all your tax filing, and all your
-      reconciliation, all that things, so you can focus on your business growth. So my
-      suggestion is go with Patron. Thank you.
-    </p>
-  </details>
-</figure>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-   
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron completely transformed our Amazon seller compliance. Before, we were missing TCS credits every month. Now our reconciliation is perfect and we save nearly Rs. 15,000 per month in missed credits.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RV</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rohit V.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Amazon FBA Seller, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-            </div>
-        </div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We sell on Flipkart, Meesho, and our own Shopify store. Managing GST for three platforms was a nightmare until we hired Patron. One team, one monthly fee, everything handled.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SP</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Sneha P.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Multi-Channel Seller, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-            </div>
-        </div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our D2C brand was growing fast but accounting was still on Excel. Patron migrated us to Zoho Books, set up automated reconciliation, and our books are now always audit-ready.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AJ</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Arjun J.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">D2C Brand Owner, Bengaluru</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-            </div>
-        </div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">As a Meesho seller in high-return categories, the returns accounting was impossible to manage. Patron handles all of it - returns, GST reversals, inventory adjustments - perfectly every month.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MK</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Meera K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Meesho Seller, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get expert CA-managed ecommerce accounting and GST compliance for your online business.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- STATS BAR -->
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1466,123 +353,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <a href="#overview-section" class="toc-btn">Overview</a>
-            <a href="#what-section" class="toc-btn">What is Ecommerce Accounting</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Our Services</a>
-            <a href="#procedure-section" class="toc-btn">Process</a>
-            <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#fees-section" class="toc-btn">Pricing</a>
-            <a href="#timeline-section" class="toc-btn">Compliance Calendar</a>
-            <a href="#benefits-section" class="toc-btn">Why Patron</a>
-            <a href="#comparison-section" class="toc-btn">Platform Guide</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Ecommerce Accounting Services - Specialist CA Support for Online Sellers</h2>
+            <h2 class="section-title">What E-Commerce Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Ecommerce Accounting Services at a Glance</strong></p>
-                    <p>India's online sellers face mandatory GST registration regardless of turnover (CGST Act Section 24), TCS at 1% collected by marketplaces, TDS at 0.1% under Section 194O, monthly GSTR filings, and complex multi-platform reconciliation. Patron Accounting delivers end-to-end ecommerce accounting - bookkeeping, GST compliance, TCS/TDS reconciliation, and ITR filing - for Amazon, Flipkart, Meesho, Shopify, and D2C sellers starting from INR 3,499 per month.</p>
+                    <p><strong>&#128204; TL;DR - E-Commerce Accounting Services at a Glance</strong></p>
+                    <p>An ecommerce accountant reconciles marketplace settlements to the rupee instead of accepting the payout total. Section 194-O TDS at 0.1% and GST TCS at 0.5% are tracked into your GSTR-2B. Patron matches each Amazon, Flipkart and Shopify settlement to its commission, shipping and return deductions. RTO stock is provisioned, not ignored. Works well for D2C brands and marketplace sellers across India.</p>
                 </div>
-                <p>Ecommerce sellers in India navigate one of the most complex tax compliance environments globally. Unlike traditional businesses, every ecommerce seller must register under GST from day one under Section 24(ix) of the CGST Act 2017 - irrespective of turnover. Add to this the TCS deductions by marketplaces under Section 52, TDS under Section 194O of the Income Tax Act, multi-state IGST obligations, high return volumes, and the need to reconcile settlement reports across multiple platforms - and the case for specialist CA support becomes clear.</p>
-                <p>Patron Accounting LLP provides dedicated ecommerce accounting services built specifically for Indian online sellers. Our CA team is trained across Amazon, Flipkart, Meesho, Shopify, WooCommerce, and 10+ platforms, handling everything from daily bookkeeping to annual ITR filing. With 500+ online sellers served and a 4.8-star Google rating, we combine deep platform knowledge with rigorous compliance expertise.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>What lands in your inbox after the close is a settlement-wise reconciliation: every marketplace payout broken into gross sales, commission, shipping and returns, tied back to the revenue posted in your ledger. Alongside it sit a channel-wise margin summary, a stock position covering both your warehouse and the fulfilment centres, and a dated trial balance. Each of these carries the period it covers on its face. Sellers filing across states usually add a multi-state reconciliation walkthrough.</p>
+                <p>Ecommerce accounting services here cover settlement reconciliation, stock and returns provisioning, GST and TDS workings, plus the close itself. Workload increases when you add another marketplace, take a registration in a further state, or push more SKUs through each month. A new state widens it again. Marketplace dispute recovery, and credits claimed via the central GST portal, are handled as separate work.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What is Ecommerce Accounting?</h2>
+                <h2 class="section-title">What Is E-Commerce Accounting?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Ecommerce accounting is the systematic recording, tracking, and analysis of all financial activities of an online business. It encompasses revenue recognition from multiple platforms, cost of goods sold (COGS) calculation, GST compliance, TDS and TCS reconciliation, inventory management, and financial reporting.</p>
-                <p>Unlike traditional retail accounting, ecommerce accounting must handle high transaction volumes, platform-specific fee structures (commissions, FBA fees, storage charges), returns and chargebacks, multiple payment gateways, and India's complex GST rules for online sellers.</p>
-                <p>For Indian online sellers, ecommerce accounting involves three core pillars: <strong>GST Compliance</strong> (registration, monthly filings, TCS reconciliation, ITC claims), <strong>Income Tax Compliance</strong> (TDS under Section 194O, ITR filing, advance tax), and <strong>Bookkeeping and Reporting</strong> (multi-platform sales reconciliation, COGS tracking, P&L, cash flow management).</p>
+                    <p>Every marketplace settlement is a bundle of gross sales, commission, shipping recoveries and returns rolled into one net payout. An ecommerce accountant is the specialist who takes that payout apart and ties each part back to your ledger.</p>
+<p>An ecommerce accountant does for an online seller what a general bookkeeper cannot. They reconcile each Amazon, Flipkart or Shopify settlement to the rupee, provision stock that came back as returns, and track the tax the operator withheld. Ecommerce accounting services of this kind treat the settlement report, not the bank credit, as the true record of what was sold and what was deducted. The result is a set of books where channel margin, stock position and net revenue can be defended line by line. In short, it is industry bookkeeping shaped around how online platforms actually pay their sellers. Marketplace tax collection and input claims are recorded here, but their filing and rates stay with the GST specialists, not this engagement.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Ecommerce Accounting:</strong></p>
-                    <p><strong>TCS under GST (Section 52):</strong> 1% tax collected by ecommerce operators (0.5% CGST + 0.5% SGST or 1% IGST) on net taxable sales, credited to seller's Electronic Cash Ledger</p>
-                    <p><strong>Section 194O TDS:</strong> 0.1% TDS deducted by ecommerce operators on gross payments to resident sellers (effective October 1, 2024)</p>
-                    <p><strong>GSTR-8:</strong> GST return filed by ecommerce operators reporting TCS collected from sellers</p>
-                    <p><strong>COGS:</strong> Cost of Goods Sold = Opening Inventory + Purchases + Freight-in + Duties - Closing Inventory</p>
-                    <p><strong>RCM on Imported Services:</strong> Reverse Charge Mechanism at 18% GST on overseas advertising (Google Ads, Meta Ads) under Section 9(5) of CGST Act</p>
+                    <p><strong>Key Terms for E-Commerce Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/marketplace-settlement-reconciliation">Marketplace Settlement Reconciliation</a></span><span class="al-d">Matching each marketplace payout to its sales, fees, and deductions, line by line.</span></li><li><span class="al-t"><a href="/glossary/section-52-tcs-under-gst">Section 52 TCS under GST</a></span><span class="al-d">Tax the marketplace collects from your sale and deposits against your GST number.</span></li><li><span class="al-t"><a href="/glossary/return-to-origin-rto-provisions">Return to Origin (RTO) Provisions</a></span><span class="al-d">Setting aside value for goods shipped but returned undelivered to the seller.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <!-- Shopping cart / ecommerce icon -->
-                            <rect x="40" y="40" width="120" height="90" rx="8" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Cart body -->
-                            <path d="M65 65h70l-8 40H73z" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/>
-                            <!-- Cart handle -->
-                            <path d="M55 60l10 5" stroke="#14365F" stroke-width="2" stroke-linecap="round"/>
-                            <!-- Items in cart -->
-                            <rect x="78" y="72" width="14" height="18" rx="2" fill="#F5A623" opacity="0.5"/>
-                            <rect x="96" y="68" width="14" height="22" rx="2" fill="#14365F" opacity="0.3"/>
-                            <rect x="114" y="74" width="12" height="16" rx="2" fill="#25D366" opacity="0.4"/>
-                            <!-- Wheels -->
-                            <circle cx="80" cy="112" r="5" fill="#14365F" opacity="0.6"/>
-                            <circle cx="120" cy="112" r="5" fill="#14365F" opacity="0.6"/>
-                            <!-- GST badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- ECOM tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">ECOM</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Ecommerce Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Online Seller</span>
-                        <strong>Ecommerce + GST Compliance</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/what-is.webp" alt="What Is E-Commerce Accounting. Every marketplace settlement is a bundle of gross sales, commission, shipping" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Ecommerce Accounting Services?</h2>
+            <h2 class="section-title">Who Needs E-Commerce Accounting in India?</h2>
             <div class="content-text">
                 
-                <p>Under <strong>Section 24(ix) and Section 24(x) of the CGST Act 2017</strong>, every person supplying goods through an ecommerce operator must register under GST irrespective of turnover. This makes professional accounting legally necessary for all online sellers.</p>
-                <ul>
-                    <li><strong>Amazon India Sellers</strong> - FBA, FBF, and direct fulfilment sellers needing GST filing and TCS reconciliation</li>
-                    <li><strong>Flipkart Sellers</strong> - Including Flipkart Fulfillment sellers with category-wise commission tracking</li>
-                    <li><strong>Meesho, Nykaa, Ajio, Myntra Sellers</strong> - Social commerce and marketplace sellers requiring GST compliance</li>
-                    <li><strong>D2C Brands (Shopify/WooCommerce)</strong> - Direct-to-consumer brands needing payment gateway reconciliation and e-way bills</li>
-                    <li><strong>Quick-Commerce Sellers</strong> - Blinkit, Swiggy Instamart, Zepto sellers with high-frequency deliveries</li>
-                    <li><strong>Multi-Channel Sellers</strong> - Operating across 2+ platforms simultaneously needing unified compliance</li>
-                    <li><strong>Cross-Border/Export Sellers</strong> - Needing LUT filing, forex accounting, and IGST refund claims</li>
-                </ul>
+                <p>An ecommerce accountant is for online sellers whose bank payout never equals the sale they invoiced. When commission, shipping, TCS and returns sit between those two numbers, the businesses below need every marketplace settlement broken down, not accepted whole.</p>
+  <ul>
+    <li>Amazon and Flipkart sellers whose settlement report shows deductions they cannot tie back to any order.</li>
+    <li>D2C brands selling through their own Shopify or WooCommerce store, matching Razorpay and COD remittances to dispatched orders.</li>
+    <li>Meesho and multi-marketplace sellers claiming the GST TCS credit sitting in the electronic cash ledger.</li>
+    <li>Apparel and footwear labels where <a href="/blog/accounting-for-ecommerce-returns-rto-credit-notes">returned and RTO stock</a> builds up faster than the books record it.</li>
+    <li>Sellers holding inventory at fulfilment centres like FBA across several states, needing that stock proved.</li>
+    <li>Online sellers registered under several GSTINs, filing across states every return cycle.</li>
+    <li>Growing <a href="/accounting-services-for-startups">D2C startups</a> approaching a lender or buyer who wants turnover defended line by line.</li>
+    <li>Sellers where the operator deducts Section 194-O TDS at 0.1%, to be matched against booked sales.</li>
+  </ul>
 
             </div>
             </div>
@@ -1590,24 +442,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">Trusted for accounting across every major marketplace</p><div class="pa-logos-strip"><div class="pa-logos-track"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"><span class="pa-logos-dup" aria-hidden="true"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"></span></div></div></div></section><section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Ecommerce Accounting Services We Provide</h2>
+            <h2 class="section-title">Our E-Commerce Accounting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>GST Registration and Compliance</td><td>Mandatory GST registration under Section 24, monthly GSTR-1 and GSTR-3B filing, TCS reconciliation with GSTR-2B, GSTR-9 annual return</td></tr>
-                        <tr><td>TDS Reconciliation (Section 194O)</td><td>Track TDS deducted by all platforms, reconcile with Form 26AS and AIS, ensure full credit claim in ITR filing</td></tr>
-                        <tr><td>Multi-Platform Sales Reconciliation</td><td>Reconcile settlement reports from Amazon, Flipkart, Meesho, Shopify against bank statements with line-by-line fee tracking</td></tr>
-                        <tr><td>Inventory and COGS Tracking</td><td>Opening/closing inventory, purchases, freight-in, customs duties tracked for accurate profit calculation and ITR</td></tr>
-                        <tr><td>Returns and Refund Accounting</td><td>Process all returns accurately reversing revenue, adjusting inventory, GST liability, and marketplace penalties</td></tr>
-                        <tr><td>Payment Gateway Reconciliation</td><td>Razorpay, PayU, Cashfree, Stripe settlements matched with sales records and bank deposits</td></tr>
-                        <tr><td>ITR Filing for Online Sellers</td><td>ITR-3/ITR-4/ITR-6 with all deductions (platform fees, shipping, ads, depreciation), advance tax, and TDS credit claims</td></tr>
-                        <tr><td>Platform-Specific Accounting</td><td>Amazon FBA/FBF fees, Flipkart category commissions, Meesho reseller model, Shopify payment gateway - platform-specific expertise</td></tr>
+                        <tr><td>Marketplace settlement reconciliation</td><td>Amazon, Flipkart and Meesho settlement reports reconciled to booked sales, with commissions and fees split out so net payouts agree. Learn to <a href="/blog/reconcile-marketplace-settlement-reports">reconcile marketplace settlement reports</a> <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Returns and RTO provisioning</td><td>Customer returns, cancellations and RTO recorded against the right supply, so reversed sales and restocked inventory are fairly stated <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>GST TCS credit reconciliation</td><td>TCS collected by operators under Section 52 matched to your electronic cash ledger, so the credit you claim is actually in hand <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Operator TDS reconciliation</td><td>Section 194-O tax deducted by operators reconciled against booked sales using 26AS and AIS, so nothing sits unclaimed for online sellers <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Gateway and COD settlement matching</td><td>Razorpay, PayU and Cashfree payouts plus COD remittances matched to own-website orders, so every gateway settlement reconciles to sales <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Fulfilment stock and channel margin</td><td>Stock at FBA and Flipkart fulfilment centres tracked and channel-wise contribution reported, giving your ecommerce accountant a defensible turnover figure <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1617,152 +467,118 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">Our 6-Step Ecommerce Accounting Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">From platform onboarding to annual ITR filing, our CA team manages every aspect of your ecommerce accounting and compliance.</p>
+            <h2 class="section-title">How E-Commerce Accounting Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How marketplace settlements become books you can defend, step by step from settlement report to channel-level contribution.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 1</span>
-        <h3 class="step-title">Onboarding and Platform Access</h3>
-        <p class="step-description">You share marketplace account access (Amazon Seller Central, Flipkart Seller Hub, etc.), GST portal credentials, and bank statements. We review your business model, platform mix, and transaction volume to configure the right engagement plan.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Platform access setup</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST credentials linked</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M50 38l7 7 13-13" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div>
-            <span class="illustration-label">Onboarded</span>
-            <span class="step-number-large">01</span>
-        </div>
-    </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Settlement report reconciliation</h3>
+    <p class="step-description">Each marketplace settlement is broken back to gross sales, commission, shipping, TCS and returns, because the bank credit is only a net figure. Gross turnover in the books comes from the portal's tax report, never from the amount that landed.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/step-1-settlement-report-reconciliation.webp" alt="Illustration for Settlement report reconciliation: Each marketplace settlement is broken back to gross sales, commission," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 2</span>
-        <h3 class="step-title">Data Collection and Integration</h3>
-        <p class="step-description">We pull settlement reports from Amazon, Flipkart, Meesho, and other platforms along with payment gateway data, purchase invoices, and expense receipts. Data is securely ingested into your accounting software (Tally, Zoho Books, or QuickBooks).</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Settlement reports pulled</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Software integrated</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="38" height="50" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="67" y="10" width="38" height="50" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M53 35h14" stroke="#F5A623" stroke-width="2.5" stroke-dasharray="3 2"/><rect x="30" y="72" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div>
-            <span class="illustration-label">Data Ready</span>
-            <span class="step-number-large">02</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Returns and RTO treatment</h3>
+    <p class="step-description">Returns, cancellations and RTO consignments are matched back to the original order so the credit note references the right supply. Goods that never physically came back are separated from goods received, because the two have different consequences.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/step-2-returns-and-rto-treatment.webp" alt="Illustration for Returns and RTO treatment: Returns, cancellations and RTO consignments are matched back to the original" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 3</span>
-        <h3 class="step-title">Bookkeeping and Multi-Platform Reconciliation</h3>
-        <p class="step-description">Monthly recording of all transactions with line-by-line reconciliation of platform settlements versus bank credits. Marketplace deductions (commissions, FBA fees, ads, storage, TCS) tracked individually to identify revenue leakages.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Settlement reconciled</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Fee tracking complete</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Revenue leakage audit</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="8" width="90" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="24" x2="92" y2="24" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="28" y1="38" x2="82" y2="38" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="50" x2="72" y2="50" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="62" x2="78" y2="62" stroke="#14365F" stroke-width="2" opacity="0.3"/></svg></div>
-            <span class="illustration-label">Books Done</span>
-            <span class="step-number-large">03</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">TCS credit claim from operator</h3>
+    <p class="step-description">The tax collected by each operator under the e-commerce collection provisions is agreed to the statement it files, and the credit is then confirmed as accepted in the electronic cash ledger. Unaccepted or missing credit is taken back to the portal.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/step-3-tcs-credit-claim-from-operator.webp" alt="Illustration for TCS credit claim from operator: The tax collected by each operator under the e-commerce collection" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 4</span>
-        <h3 class="step-title">GST Filing with TCS Reconciliation</h3>
-        <p class="step-description">GSTR-1 and GSTR-3B filed by due dates with thorough TCS reconciliation against GSTR-2B. Every eligible ITC on marketplace commissions, shipping, advertising, and storage is captured. TCS credits verified and claimed in Electronic Cash Ledger.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-1 and 3B filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TCS credits claimed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITC optimised</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="20" y="10" width="80" height="16" rx="6 6 0 0" fill="#14365F"/><text x="60" y="21" font-size="8" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">GST FILED</text><rect x="28" y="34" width="24" height="10" rx="2" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><text x="40" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">TCS</text><rect x="58" y="34" width="24" height="10" rx="2" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/><text x="70" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">ITC</text><rect x="28" y="52" width="54" height="8" rx="2" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/></svg></div>
-            <span class="illustration-label">GST Filed</span>
-            <span class="step-number-large">04</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Operator TDS versus booked sales</h3>
+    <p class="step-description">Tax deducted by the operator on the gross amount of sales is compared with the turnover recorded per portal. A mismatch usually means the portal has reported sales the books have not picked up, and that difference is chased to the order.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/step-4-operator-tds-versus-booked-sales.webp" alt="Illustration for Operator TDS versus booked sales: Tax deducted by the operator on the gross amount of sales is compared" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 5</span>
-        <h3 class="step-title">Financial Reporting and P&L Delivery</h3>
-        <p class="step-description">Monthly Profit and Loss statement, COGS analysis, cash flow report, and platform-wise revenue breakdown delivered by the 10th of every month. Reports provide clear visibility into per-platform profitability and overall business health.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> P&L by 10th monthly</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Platform-wise analysis</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="30" y="24" width="14" height="34" rx="2" fill="#F5A623"/><rect x="50" y="18" width="14" height="40" rx="2" fill="#25D366"/><rect x="70" y="28" width="14" height="30" rx="2" fill="#14365F" opacity="0.4"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div>
-            <span class="illustration-label">Reports Sent</span>
-            <span class="step-number-large">05</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Gateway and COD settlement matching</h3>
+    <p class="step-description">For own-website orders, gateway settlements are matched to orders with the discount charge shown as a cost rather than netted against revenue. Cash-on-delivery is tracked from courier remittance advice to bank, leaving unremitted collections visible.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/step-5-gateway-and-cod-settlement-matching.webp" alt="Illustration for Gateway and COD settlement matching: For own-website orders, gateway settlements are matched to orders with" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 6</span>
-        <h3 class="step-title">ITR Filing and Annual Compliance</h3>
-        <p class="step-description">Annual income tax return (ITR-3/ITR-4/ITR-6) filed with all allowable deductions and TDS credits from Form 26AS claimed correctly. Advance tax computation, GSTR-9 annual return, and tax audit support (Section 44AB) handled comprehensively.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITR filed with credits</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-9 prepared</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit support ready</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="12" width="70" height="48" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="36" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M53 36l4 4 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="70" width="50" height="12" rx="6" fill="#F5A623" opacity="0.8"/><text x="60" y="79" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">COMPLIANT</text></svg></div>
-            <span class="illustration-label">Year Complete</span>
-            <span class="step-number-large">06</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Fulfilment centre stock control</h3>
+    <p class="step-description">Stock held at marketplace fulfilment centres is reconciled to the portal's own inventory report, with goods in transit shown separately. Lost, damaged and disposed units are matched to the reimbursement actually credited by the operator.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/step-6-fulfilment-centre-stock-control.webp" alt="Illustration for Fulfilment centre stock control: Stock held at marketplace fulfilment centres is reconciled to the portal's" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Channel level contribution</h3>
+    <p class="step-description">Commission, shipping, platform advertising, packaging and return costs are pushed down to the channel and, where the data allows, the SKU. Only then does it become visible which listings are trading at a loss after all deductions.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/step-7-channel-level-contribution.webp" alt="Illustration for Channel level contribution: Commission, shipping, platform advertising, packaging and return costs are" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Ecommerce Accounting</h2>
+            <h2 class="section-title">Documents Required for E-Commerce Accounting</h2>
             <div class="content-text">
                 
-                <p>Provide the following to start and maintain your ecommerce accounting engagement:</p>
-                <ul>
-                    <li><strong>Marketplace Account Access</strong> - View-only access to Amazon Seller Central, Flipkart Seller Hub, Meesho Dashboard, Shopify Admin</li>
-                    <li><strong>GST Portal Credentials</strong> - For GSTR filing, TCS reconciliation, and ITC verification</li>
-                    <li><strong>Bank Statements</strong> - All business accounts receiving marketplace settlements</li>
-                    <li><strong>Purchase Invoices</strong> - Inventory purchases, packaging materials, and input supplies</li>
-                    <li><strong>Platform Settlement Reports</strong> - Monthly settlement PDFs or CSVs from each marketplace</li>
-                    <li><strong>Payment Gateway Reports</strong> - Razorpay, PayU, Cashfree, or Stripe settlement reports for D2C brands</li>
-                    <li><strong>Expense Receipts</strong> - Advertising (Google/Meta Ads), shipping, storage, packaging costs</li>
-                    <li><strong>PAN and GST Certificate</strong> - One-time for initial setup</li>
-                    <li><strong>Previous Year ITR and Financial Statements</strong> - For first-time clients</li>
-                </ul>
+                <p>Marketplaces pay you net of commission, TCS and returns, so the gross figures exist only in the portal files and the settlement reports matter more than the bank credit.</p>
+<ul>
+    <li>Marketplace settlement reports (Amazon Payments/Settlement report, Flipkart Seller Settlement, Meesho payment file)</li>
+    <li>Order-level sales register / MTR (Merchant Tax Report) or GST report from each portal</li>
+    <li>Returns, RTO and cancellation report (courier return / customer return files)</li>
+    <li>GST TCS statement from the operator (GSTR-8 data / TCS certificate) and the electronic cash ledger TCS credit</li>
+    <li>Form 26AS and AIS showing Section 194-O TDS deducted by the operator</li>
+    <li>Payment gateway settlement statements (Razorpay, PayU, Cashfree) and COD remittance advices for own-website sales</li>
+    <li>Stock / inventory records including goods lying at marketplace fulfilment centres (FBA, Flipkart Assured)</li>
+    <li>Purchase invoices from suppliers and vendors</li>
+    <li>Bank statements for every current account, in PDF and Excel or CSV</li>
+    <li>Expense bills: advertising and platform ads, courier and freight, packaging, rent, professional fees</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Key Accounting Challenges for Ecommerce Businesses</h2>
+            <h2 class="section-title">Common E-Commerce Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>Mandatory GST Registration</td><td>Zero turnover threshold for goods sellers on platforms</td><td>Complete GST registration support from day one under Section 24(ix) of CGST Act</td></tr>
-                        <tr><td>TCS Reconciliation Across Platforms</td><td>Missing TCS credits reduces cash available for business</td><td>Monthly platform-wise TCS matching with GSTR-2B to claim every rupee of credit</td></tr>
-                        <tr><td>High Return Rates</td><td>Complex accounting entries reversing revenue, inventory, and GST</td><td>Automated returns processing keeping P&L, GST returns, and inventory accurate</td></tr>
-                        <tr><td>Multiple Payment Gateways</td><td>Different settlement cycles and fee structures</td><td>Unified reconciliation of all gateways against bank deposits and sales records</td></tr>
-                        <tr><td>Multi-State IGST Complexity</td><td>Incorrect IGST vs. CGST/SGST classification</td><td>Place-of-supply based tax classification ensuring accurate multi-state compliance</td></tr>
-                        <tr><td>RCM on Overseas Advertising</td><td>Google Ads and Meta Ads require GST payment under reverse charge</td><td>RCM calculation, payment, and ITC claim in GSTR-3B for imported ad services</td></tr>
-                        <tr><td>Section 194O TDS Tracking</td><td>0.1% TDS by platforms impacting cash flow and ITR</td><td>Form 26AS reconciliation ensuring all TDS credits claimed in annual ITR filing</td></tr>
+                        <tr><td>Stock held in marketplace warehouses across several states</td><td>Each fulfilment state needs its own GST registration and stock ledger; unregistered stock blocks input credit.</td><td>Our team keeps state-wise stock ledgers and raises stock-transfer invoices between fulfilment centres, so credit stays claimable.</td></tr>
+                        <tr><td>Marketplace commission and fees carry GST that goes unclaimed</td><td>Input credit on platform charges is left on the table, quietly thinning already narrow marketplace margins.</td><td>Patron pulls each tax invoice from the seller panel and claims input credit on commission, shipping and fulfilment fees.</td></tr>
+                        <tr><td>TCS collected by each platform must tie to your electronic cash ledger</td><td>Unmatched TCS overstates the credit you can use and triggers GST notices when the electronic ledger disagrees.</td><td>We reconcile platform TCS statements to the electronic cash ledger; see <a href="/blog/tcs-section-52-ecommerce-gst-explained">how Section 52 TCS works</a>.</td></tr>
+                        <tr><td>COD collections remitted net and late by couriers</td><td>Sales book at despatch while cash lands later net of charges, hiding short or unremitted COD.</td><td>Patron reconciles courier COD remittances to despatch records and chases every shortfall before it ages.</td></tr>
+                        <tr><td>Blended sales across Amazon, Flipkart and your own site</td><td>One combined profit and loss hides which channel actually earns, so loss-making listings keep running unnoticed.</td><td>Our team builds a channel-wise profit and loss, splitting revenue, fees and returns by marketplace.</td></tr>
 
                     </tbody>
                 </table>
@@ -1772,57 +588,57 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Ecommerce Accounting Service Fees 2026</h2>
+            <h2 class="section-title">E-Commerce Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Starter Plan (Single platform, up to 200 orders/month)</td><td>Rs. 2,999/month</td></tr>
-                        <tr><td>Growth Plan (Multi-platform, up to 1,000 orders)</td><td>Rs. 5,999/month</td></tr>
-                        <tr><td>Scale Plan (Unlimited orders, inventory, dedicated CA)</td><td>Rs. 9,999/month</td></tr>
-                        <tr><td>Enterprise Plan (Full-service, audit, international)</td><td>Custom pricing</td></tr>
-                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 3,499 (Exl GST and Govt. Charges)</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one seller on a single marketplace with routine monthly orders</td><td>INR 3,499 per month<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; extra marketplaces, higher settlement lines or added GST states</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-entity seller books with custom settlement and payout reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">One seller on a single marketplace fits the <strong>INR 3,499 per month</strong> Starter plan, with GST-ready books and settlement postings. Adding marketplaces, monthly order volume or fresh settlement lines is what lifts the tier, so your ecommerce accountant scopes the quote to real transaction counts. Speak with an accounting specialist on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Ecommerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20ecommerce%20accounting%20and%20GST%20compliance.%20Please%20share%20pricing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free E-Commerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Ecommerce Seller Compliance Calendar 2026</h2>
+            <h2 class="section-title">E-Commerce Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>GSTR-1 (Monthly Outward Supply Return)</td><td>11th of next month</td></tr>
-                        <tr><td>GSTR-3B with GST Payment</td><td>20th of next month</td></tr>
-                        <tr><td>GSTR-8 (TCS filing by platforms)</td><td>10th of next month</td></tr>
-                        <tr><td>TDS Deposit under Section 194O</td><td>7th of next month</td></tr>
-                        <tr><td>ITR Filing (Non-Audit Cases)</td><td>31 July (annual)</td></tr>
-                        <tr><td>GSTR-9 and GSTR-9C Annual Return</td><td>31 December (annual)</td></tr>
-                        <tr><td>Advance Tax Instalments</td><td>15 June (15%), 15 Sep (45%), 15 Dec (75%), 15 Mar (100%)</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>TCS return by e-commerce operators (GSTR-8)</td><td>10th of every month</td><td>E-commerce operators collecting 0.5% TCS (0.25% CGST + 0.25% SGST) on supplies</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>TDS under Section 194-O on e-commerce sales (0.1%)</td><td>7th of the following month</td><td>E-commerce operators deducting TDS on participant sales</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Note:</strong> GSTR-1 IFF (Invoice Furnishing Facility) is optional for QRMP scheme sellers, due by the 13th. Tax audit under Section 44AB applies when turnover exceeds Rs. 1 crore (Rs. 10 crore for 95%+ digital transactions). Patron Accounting sends proactive reminders for all due dates.</p>
+                    <p>For an online seller two monthly dates dominate: GSTR-8 TCS by the 10th and the 194-O TDS deposit, both tied to marketplace settlements. TCS now sits at 0.5% and 194-O at 0.1%. Patron reconciles each payout before the <a href="/blog/tcs-section-52-ecommerce-gst-explained">e-commerce</a> filing so your GSTR-2B credit ties out. Get a filing-reminder schedule set up; call +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1830,54 +646,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron Accounting for Ecommerce?</h2>
+            <h2 class="section-title">Why Professional E-Commerce Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3>Platform Expertise</h3><p>CA team trained in Amazon, Flipkart, Meesho, Shopify, and 10+ platforms with deep knowledge of each fee structure and reporting format</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Revenue Leakage Audit</h3><p>Platform-by-platform reconciliation to recover missed TCS credits, identify short payments, and flag incorrect marketplace deductions</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></div><h3>GST and TCS Specialists</h3><p>End-to-end GSTR-1, GSTR-3B, GSTR-9 filing with monthly TCS reconciliation ensuring every credit is captured</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><h3>Technology-Enabled</h3><p>Zoho Books, TallyPrime, ProfitBooks integration for real-time reporting with automated data flows from platforms</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h3>Multi-Platform Coverage</h3><p>Single engagement covers all your platforms - Amazon, Flipkart, Meesho, Shopify, D2C - no extra charges per marketplace</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg></div><h3>Dedicated CA Assigned</h3><p>Named CA for your account available for calls and consultations - not a call centre but a qualified professional who knows your business</p></article>
-        </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Gross turnover you can defend</h3>
+  <p class="feature-text">Your books carry gross sales, commission, shipping and returns as separate figures, so the turnover you report matches the portal.</p><ul style="margin-top:12px;"><li>Figures taken from the portal tax report, not net bank credit</li><li>Order level sales register reconciled to settlement reports</li><li>Without the split, turnover understates what the operator already reported</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">TCS credit actually in hand</h3>
+  <p class="feature-text">You claim the tax each marketplace collected once it shows in your electronic cash ledger.</p><ul style="margin-top:12px;"><li>Collected TCS agreed to the operator's GSTR-8 statement</li><li>Missing credit chased while the settlement file is still available</li><li>Without it, collected tax is quietly written off as cost</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Channel-wise contribution after deductions</h3>
+  <p class="feature-text">You see commission, shipping, advertising, packaging and return costs sitting against the channel that incurred them.</p><ul style="margin-top:12px;"><li>Costs tied to the channel and, where data allows, the SKU</li><li>True contribution shown even when the account payout looks positive</li><li>Without it, you scale listings that lose money every order</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" /> <path d="M12 22V12" /> <polyline points="3.29 7 12 12 20.71 7" /> <path d="m7.5 4.27 9 5.15" /> </svg></div>
+  <h3 class="feature-title">Stock at fulfilment centres proved</h3>
+  <p class="feature-text">We agree units lying at fulfilment centres to the operator's inventory report and show goods in transit apart.</p><ul style="margin-top:12px;"><li>FBA and Flipkart Assured stock tied to the inventory report</li><li>Lost and damaged units matched to the reimbursement credited</li><li>Without it, unreimbursed shrinkage stays buried in cost of goods sold</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" /> <path d="M15 18H9" /> <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" /> <circle cx="17" cy="18" r="2" /> <circle cx="7" cy="18" r="2" /> </svg></div>
+  <h3 class="feature-title">Returns recorded against the right supply</h3>
+  <p class="feature-text">We tie every return, cancellation and RTO to the order it reverses, so each credit note points at the right supply.</p><ul style="margin-top:12px;"><li>Goods that never came back kept apart from goods received</li><li>Without it, revenue holds sales that were reversed months ago</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3 4 7l4 4" /> <path d="M4 7h16" /> <path d="m16 21 4-4-4-4" /> <path d="M20 17H4" /> </svg></div>
+  <h3 class="feature-title">Operator TDS matched to sales</h3>
+  <p class="feature-text">We compare the tax each operator deducted against the turnover your books recorded for that portal.</p><ul style="margin-top:12px;"><li>Section 194-O deduction at 0.1% checked against Form 26AS and AIS</li><li>Portal-reported sales chased to the order they belong to</li><li>Without it, portal-reported sales stay missing from your books</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">500+ Online Sellers Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p>Patron Accounting serves 500+ online sellers across Amazon, Flipkart, Meesho, Shopify, and D2C brands. With a <strong>4.8-star Google rating</strong> and pan-India service delivery, our ecommerce-specialist CA team handles everything from daily bookkeeping to annual compliance.</p>
-                <p>Our clients span solo sellers to multi-crore D2C brands, covering categories including apparel, electronics, beauty, home goods, and digital products across every major Indian marketplace platform.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for E-Commerce Accounting Services</h2>
+            <p class="section-intro">Five things an online seller can check before handing over the settlement files. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Marketplace settlements reconciled to the rupee</strong><p>Every marketplace payout hides shipping, commission and RTO deductions. Over 15+ years our team has learned to <a href="/blog/reconcile-marketplace-settlement-reports">reconcile Amazon and Flipkart settlements</a> for D2C sellers, tying each credit back to the order behind it.</p></div>
+                <div><strong>Section 194-O TDS at 0.1% and GST TCS at 0.5%</strong><p>We credit the 0.5% GST TCS to your electronic cash ledger from the operator GSTR-8, and match the Section 194-O TDS at 0.1% to Form 26AS. Our 25,000+ filings make this monthly routine.</p></div>
+                <div><strong>Amazon, Flipkart, Shopify and your 3PL feeding one ledger</strong><p>Your existing platform stays in place, whether Zoho Books, Xero, Tally Prime or Odoo. We configure whichever tool you run so Amazon, Flipkart, Shopify and your 3PL feed one ledger.</p></div>
+                <div><strong>Settlement-to-books reconciliation closed every payout cycle</strong><p>You get a settlement-to-books reconciliation for every payout cycle, with each deduction identified and posted. The cadence is monthly, and the 4.9 star Google rating reflects sellers who now trust their gross turnover.</p></div>
+                <div><strong>D2C and marketplace sellers among 3,000+ businesses</strong><p>E-commerce sellers sit among the 3,000+ businesses we have served since 2019, from first-time sellers to established mid-sized groups. Backed by 15+ years of experience and a 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Platform-Specific Ecommerce Accounting Guide</h2>
+            <h2 class="section-title">Marketplace Panel Reports vs Reconciled Books</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Platform</th><th>Key Fee Components</th><th>Accounting Focus</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Marketplace Panel Reports</th><th>Reconciled Books</th></tr></thead>
                     <tbody>
-                        <tr><td>Amazon India</td><td>FBA storage, fulfillment fees, referral fees, closing fees, advertising, TCS</td><td>FBA inventory accounting, settlement reconciliation, multi-warehouse tracking</td></tr>
-                        <tr><td>Flipkart</td><td>Category commissions, FBF charges, promotional discounts, TCS</td><td>Category-wise GST filing, payout reconciliation, discount tracking</td></tr>
-                        <tr><td>Meesho</td><td>Reseller commissions, returns penalties, TCS</td><td>High-return category accounting, TCS reconciliation, simplified compliance</td></tr>
-                        <tr><td>Shopify / D2C</td><td>Gateway fees (Razorpay/PayU), shipping, COD charges</td><td>Payment gateway reconciliation, GST invoicing, e-way bills, IGST compliance</td></tr>
-                        <tr><td>International / Export</td><td>Forex conversion, customs duty, shipping</td><td>LUT filing, IGST refund claims, cross-border compliance</td></tr>
+                        <tr><td>What it is</td><td>Seller dashboard summaries from Amazon or Flipkart taken as the books directly.</td><td>Ledgers built by matching settlement reports, bank credits and returns line by line.</td></tr>
+                        <tr><td>Revenue recorded</td><td>Shows net payout after fees, understating true gross turnover for GST.</td><td>Records gross sales, then fees, commission and TCS as separate line items.</td></tr>
+                        <tr><td>Operator TCS and TDS</td><td>GST TCS and 194-O operator TDS stay netted inside the payout.</td><td>Operator TDS under 194-O at 0.1% and GST TCS are captured and claimed.</td></tr>
+                        <tr><td>Returns and RTO</td><td>Return-to-origin and refunds net silently against sales, distorting the picture.</td><td>Each return is recorded against its original supply, so revenue stays accurate.</td></tr>
+                        <tr><td>Stock at fulfilment centres</td><td>Inventory lying in marketplace warehouses is not visible in the panel.</td><td>Stock at fulfilment centres is tracked and valued in the books.</td></tr>
+                        <tr><td>Compliance and audit risk</td><td>Understated turnover invites GST mismatch notices and a weak audit trail.</td><td>Books tie to GSTR filings and bank statements, lowering scrutiny risk.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Panel reports help operations but cannot serve as statutory books; gross turnover, TCS and returns must be reconciled. Any ecommerce accountant should treat settlement reconciliation as the base. See how to reconcile marketplace settlement reports.</td></tr>
 
                     </tbody>
                 </table>
@@ -1887,195 +737,189 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services for Ecommerce Sellers</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for E-Commerce Accounting</h2>
             <div class="content-text">
                 
-                <p>Complement your ecommerce accounting with these services from Patron Accounting:</p>
-                <ul>
-                    <li><a href="/gst-registration">GST Registration</a> - Mandatory registration for all ecommerce sellers under Section 24 of CGST Act</li>
-                    <li><a href="/gst-returns">GST Return Filing</a> - Monthly GSTR-1, GSTR-3B, and annual GSTR-9 filing for all business types</li>
-                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-3/ITR-4/ITR-6 for online business owners</li>
-                    <li><a href="/tax-audit">Tax Audit Services</a> - Section 44AB audit when ecommerce turnover exceeds the threshold</li>
-                    <li><a href="/private-limited-company-registration">Private Limited Company Registration</a> - Incorporate your ecommerce business as a Pvt. Ltd.</li>
-                    <li><a href="/gst-returns-for-e-commerce-operator">GST Returns for E-commerce Operators</a> - GSTR-8 TCS filing for marketplace operators</li>
-                </ul>
+                <p>What the law is protecting in e-commerce accounting is the integrity of a number the marketplace never shows you: your true taxable supply, before commission, shipping and returns are netted into a single payout. The CGST Act, the Income-tax Act and the accounting standards each reach that number from a different side, and an ecommerce accountant has to make them agree.</p>
+<p>That is why the gross order value on a marketplace dashboard is only the starting point for the books. Tax is collected on it, deducted from it, and later adjusted for what the buyer sent back, so revenue is recognised net while the collected amounts are tracked as credits you reclaim. The <a href="/glossary/marketplace-settlement-reconciliation">Marketplace Settlement Reconciliation</a> that sits behind the ledger is the mechanism that keeps the statutory figures below reconcilable to each payout.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Section 52, CGST Act 2017</strong></span><span class="al-d">The marketplace collects GST TCS at 0.5% of net taxable supplies (0.25% CGST plus 0.25% SGST, or 0.5% IGST, since 10 July 2024) and reports it in GSTR-8 for you to claim - see <a href="/glossary/section-52-tcs-under-gst">Section 52 TCS under GST</a>.</span></li><li><span class="al-t"><strong>Section 194-O, Income-tax Act 1961</strong></span><span class="al-d">The operator deducts income-tax TDS at 0.1% of the gross sale amount, which is credited against the seller's own tax liability. CBDT Circular 20/2021 sets out how 194-O, 194Q and 206C(1H) interact so one transaction is not taxed twice.</span></li><li><span class="al-t"><strong>Section 24(ix), CGST Act 2017</strong></span><span class="al-d">Sellers supplying through a marketplace generally take compulsory GST registration regardless of turnover, subject to the notified exemptions.</span></li><li><span class="al-t"><strong>AS 9 / Ind AS 115 with Section 34, CGST Act 2017</strong></span><span class="al-d">Revenue is booked net of returns, RTO and cancellations, with a GST credit note raised against the original supply - the accounting side of <a href="/glossary/return-to-origin-rto-provisions">Return to Origin (RTO) Provisions</a>.</span></li><li><span class="al-t"><strong>Section 35(1), CGST Act 2017</strong></span><span class="al-d">Accounts of stock, input tax credit and output tax are kept at the principal place of business and reconciled to the settlement reports.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The edit-log audit trail stays enabled through the year, so corrections to a settled order remain traceable. Broader GST filing is handled on the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul>
+<p class="compliance-note"><strong>Practical note:</strong> During a GST review, the marketplace's GSTR-8 is routinely tallied against the TCS a seller has claimed, and unreconciled settlement reports are the most common reason a credit is held back.</p><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal Framework for Ecommerce Accounting in India</h2>
-            <div class="content-text">
-                
-                <p>India's ecommerce tax framework is governed by multiple statutes:</p>
-                <ul>
-                    <li><strong>CGST Act 2017, Section 24(ix) and 24(x):</strong> Mandatory GST registration for all ecommerce sellers and operators irrespective of turnover. <a href="https://cbic-gst.gov.in" target="_blank" rel="noopener">CBIC Official Portal</a></li>
-                    <li><strong>CGST Act 2017, Section 52:</strong> TCS collection obligation on ecommerce operators at 1% (0.5% CGST + 0.5% SGST or 1% IGST) of net taxable sales</li>
-                    <li><strong>Income Tax Act 1961, Section 194O:</strong> TDS at 0.1% on gross payments by ecommerce operators to resident sellers (effective October 1, 2024, amended via Finance Act 2024)</li>
-                    <li><strong>Income Tax Act 1961, Section 44AB:</strong> Tax audit mandatory for ecommerce businesses with turnover above Rs. 1 crore (Rs. 10 crore for 95%+ digital transactions)</li>
-                    <li><strong>CGST Act 2017, Section 9(5):</strong> Reverse Charge Mechanism for specified services supplied through ecommerce operators, including overseas advertising services</li>
-                    <li><strong>E-Invoicing:</strong> Mandatory for businesses with aggregate turnover above Rs. 5 crore (current threshold, verify latest at <a href="https://cbic-gst.gov.in" target="_blank" rel="noopener">cbic-gst.gov.in</a>)</li>
-                </ul>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Ecommerce Accounting India</h2>
-                    <p class="faq-expanded__lead">Answers to common questions about GST, TDS, TCS, and accounting for Amazon, Flipkart, Shopify, and other online sellers in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Ecommerce Accounting India'])
+                    <h2 class="faq-expanded__title">E-Commerce Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Settlement reconciliation, GST TCS, 194-O TDS, returns and pricing for Amazon, Flipkart, Meesho and D2C sellers.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your marketplace's books</h3>
+  <p class="faq-enquiry__sub">Send your marketplaces and monthly order volume for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>E-Commerce Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">Is GST registration mandatory for all ecommerce sellers in India?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Under Section 24(ix) of the CGST Act 2017, every person supplying goods through an ecommerce operator must register for GST irrespective of turnover. This applies even if annual sales are below Rs. 20 lakh. For service providers, GST is mandatory if turnover exceeds Rs. 20 lakh (Rs. 10 lakh in special category states).</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What is TCS in GST for ecommerce sellers?</h3>
-                        <div class="faq-expanded__a"><p>TCS (Tax Collected at Source) under GST is the 1% tax deducted by ecommerce operators like Amazon, Flipkart, and Meesho at payment time. It is collected as 0.5% CGST + 0.5% SGST for intra-state or 1% IGST for inter-state supplies. The TCS is credited to your Electronic Cash Ledger and must be claimed in GSTR-3B. Platforms report TCS through GSTR-8 by the 10th.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is the TDS rate for ecommerce under Section 194O?</h3>
-                        <div class="faq-expanded__a"><p>Under Section 194O of the Income Tax Act, ecommerce operators deduct TDS at 0.1% (effective October 1, 2024, reduced from 1%) on gross payments to resident sellers. Individual/HUF sellers with gross sales below Rs. 5 lakh in the financial year are exempt. TDS is deposited by 7th of the following month and reported in Form 26Q.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">Can ecommerce sellers register under the GST Composition Scheme?</h3>
-                        <div class="faq-expanded__a"><p>No. Under the CGST Act, persons supplying goods or services through an ecommerce operator are specifically excluded from the Composition Scheme. Ecommerce sellers must register as regular taxpayers and file monthly or quarterly GST returns with full tax computation.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">How much does ecommerce accounting cost in India?</h3>
-                        <div class="faq-expanded__a"><p>Ecommerce accounting starts at INR 3,499 per month for single-platform sellers with up to 200 orders covering bookkeeping and GSTR filing. Multi-platform packages start at Rs. 5,999/month. Annual ITR, GSTR-9, and tax audit are billed separately. Contact Patron Accounting for a customised quote based on order volume and platform mix.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What GST returns does an ecommerce seller need to file?</h3>
-                        <div class="faq-expanded__a"><p>An ecommerce seller must file GSTR-1 (monthly or quarterly outward supply), GSTR-3B (monthly summary with tax payment), and GSTR-9 (annual return if turnover above Rs. 2 crore). GSTR-9C applies above Rs. 5 crore. Sellers do not file GSTR-8 - that is filed by the marketplace operator reporting TCS.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">How does RCM apply to ecommerce sellers for Google Ads and Meta Ads?</h3>
-                        <div class="faq-expanded__a"><p>Advertising from overseas platforms like Google LLC or Meta Platforms is classified as import of services. Under Section 9(5) of CGST Act, you must pay GST at 18% on the invoice value under Reverse Charge. You can then claim ITC on this RCM payment in GSTR-3B provided the service is used for business purposes.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is an e-commerce accountant?</h3>
+  <div class="faq-expanded__a"><p>An e-commerce accountant is a qualified accountant who reconciles marketplace settlement reports against your bank and books, then handles GST, TCS and TDS on online sales. The work differs from ordinary bookkeeping because Amazon, Flipkart and Meesho deduct commission, shipping, returns and penalties before payout, so gross sales never match the amount actually credited to you.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How are Amazon and Flipkart settlement reports reconciled with the books?</h3>
+  <div class="faq-expanded__a"><p>We download every settlement report, map each line to its order ID, and post commission, shipping, return and penalty entries separately instead of booking the net payout as sales. Reconciliation runs on a fortnightly cycle for most sellers, so differences are caught inside the same month. Unmatched lines are listed with the marketplace ticket reference raised.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How much GST TCS do marketplaces deduct and can it be claimed back?</h3>
+  <div class="faq-expanded__a"><p>Marketplaces deduct TCS at 0.5% of net taxable supplies under Section 52 of the CGST Act, split as 0.25% CGST and 0.25% SGST. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. Many sellers never accept it, so the money sits unused for months.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What TDS does a marketplace deduct on online sales?</h3>
+  <div class="faq-expanded__a"><p>E-commerce operators deduct TDS at 0.1% of gross sales under Section 194-O of the Income Tax Act, and the deduction appears in your Form 26AS. We reconcile 26AS against marketplace reports every quarter so nothing is lost at return time. Where the deduction is wrong, we raise the correction before the quarterly statement is filed.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is GST registration needed in every state where stock is held?</h3>
+  <div class="faq-expanded__a"><p>Yes. Holding stock in a fulfilment centre creates a place of business, so a seller using warehouses in five states needs registration in each of them. We handle the additional registrations, state-wise returns and stock transfer documentation. Sellers shipping only from their own single location usually manage with one registration instead.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you account for returns, RTO and lost shipments?</h3>
+  <div class="faq-expanded__a"><p>Returns and RTO are booked as credit notes against the original invoice in the same GST period wherever possible, never netted off against sales. Lost or damaged shipments are carried as claims receivable from the courier or marketplace until reimbursed or written off. We maintain an ageing of open claims so recoveries get chased rather than quietly absorbed.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does e-commerce accounting cost for a seller doing Rs 50 lakh a year?</h3>
+  <div class="faq-expanded__a"><p>A seller at that turnover typically pays Rs 12,000 to Rs 20,000 a month, covering bookkeeping, settlement reconciliation for up to three marketplaces, monthly GST returns and TDS support. Pricing moves with order volume, number of marketplaces and number of GST registrations rather than turnover alone. Annual filings and tax audit support are quoted separately.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can books two years behind across four marketplaces be cleaned up?</h3>
+  <div class="faq-expanded__a"><p>Yes. Backlog clean-up starts with a scoping review of about five working days, after which you get a fixed quote and a month-by-month catch-up plan. Historic settlement reports are pulled marketplace by marketplace and rebuilt from order level, so GST returns already filed can be corrected through amendments wherever the time limit still permits it.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which accounting software do you use for online sellers?</h3>
+  <div class="faq-expanded__a"><p>We work in Zoho Books or Tally for most Indian sellers, with marketplace data brought in through settlement report imports rather than manual typing. QuickBooks is no longer available in India after Intuit withdrew the product in 2023, so sellers still on it are migrated to Zoho Books with full history carried across. Xero suits overseas entities.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which account is best for an e-commerce business?</h3>
+  <div class="faq-expanded__a"><p>Use a dedicated current account for the business, kept apart from any personal savings account, with every marketplace payout credited into it so settlements can be traced to order level reports. Sellers running more than three marketplaces often add a second account for payment gateway receipts. In the ledger, each platform is kept as its own receivable control account rather than one combined debtor.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Q: Is GST mandatory for Amazon sellers?</strong> Yes. Under Section 24(ix) of CGST Act 2017, all sellers on Amazon or any ecommerce platform must register for GST regardless of turnover.</p>
-                <p><strong>Q: Ecommerce ka accounting kaise kare?</strong> Amazon, Flipkart sellers ko GST registration, monthly GSTR filing, TCS reconciliation, bookkeeping, aur ITR filing ki zaroorat hoti hai. CA se karwana sabse safe hai.</p>
-                <p><strong>Q: What is the TCS rate on ecommerce?</strong> 1% (0.5% CGST + 0.5% SGST or 1% IGST) collected by the marketplace operator on net taxable sales under Section 52 of CGST Act.</p>
-                <p><strong>Q: Can I use Composition Scheme as an online seller?</strong> No. Ecommerce sellers are excluded from the Composition Scheme under CGST Act.</p>
+                <p>An ecommerce accountant reconciles each marketplace settlement to the bank and books, tracks Section 52 GST TCS and Section 194-O TDS, provisions returns and RTO, and reports profit by channel for Amazon, Flipkart, Meesho and D2C sellers.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Do Not Let Compliance Gaps Cost Your Ecommerce Business</h2>
+            <h2 class="section-title">E-Commerce Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Every month without proper ecommerce accounting means: missed TCS credits (potentially lakhs over a year), incorrect GST filings attracting penalties under Section 47 (Rs. 50/day CGST + Rs. 50/day SGST), unreconciled TDS reducing your ITR refund, and unclear P&L making business decisions risky. The mandatory GST registration requirement means you cannot afford to be non-compliant from day one.</p>
-                <p><strong>Call +91 945 945 6700 or WhatsApp us now for a free ecommerce accounting consultation. We will review your platform mix, transaction volume, and give you a clear compliance roadmap.</strong></p>
+                <p>Two dates drive an online seller's month: <strong>GSTR-8 TCS by the 10th</strong> and the <strong>Section 194-O TDS deposit by the 7th</strong>, both tied to marketplace settlements. Miss the reconciliation and your GSTR-2B credit will not tie out, inviting a mismatch notice. Patron reconciles each payout before the filing so the credit is claimed while the settlement file is still live. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Ecommerce Accounting with Patron Accounting</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your E-Commerce Accounting with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Whether you are a solo Amazon seller or a multi-platform D2C brand, professional ecommerce accounting ensures you capture every TCS credit, file every GST return on time, claim all TDS deductions in your ITR, and maintain clear financial visibility across all your sales channels.</p>
-                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Patron Accounting's ecommerce-specialist CA team handles everything - from platform onboarding to annual compliance - so you can focus on growing your online business. Get started today with a free consultation.</p>
+                <p style="color:rgba(255,255,255,0.88);">Choosing an ecommerce accountant is really a decision about whose number you trust: the one the marketplace hands you, or the one your own books can defend line by line. One of those two is what your margin is calculated from, and only one survives a question from a lender or a buyer.</p>
+<p style="color:rgba(255,255,255,0.88);">Peak season stops being an accounting event once ecommerce accounting services run on a fixed routine. Sale-week volume moves through the same steps as any other week, so the pack you receive after a festive month reads exactly like the one before it. You compare October against September on the same basis.</p>
+<p style="color:rgba(255,255,255,0.88);">We begin by settling the channel list and file access: which marketplaces and gateways you sell through, and whether settlement files can be pulled for past periods. How your books record a returned sale comes next, just as <a href="/accounting-services-it-saas">our SaaS billing work</a> starts with the contract file.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20ecommerce%20accounting%20and%20GST%20compliance.%20Please%20share%20pricing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Ecommerce%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20an%20ecommerce%20seller%20and%20need%20accounting%20services.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-Commerce%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20E-Commerce%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Ecommerce Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">CA-managed ecommerce accounting for Amazon, Flipkart, and Shopify sellers in major Indian cities.</p>
-          
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid"><a href="/accounting-services-for-e-commerce-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/ecommerce-accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/accounting-services-for-e-commerce-industry/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Ecommerce Accounting</div>
-                <div class="pa-cross-grid"><a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns-for-e-commerce-operator" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns for E-commerce Operator</div><div class="pa-card-sub">India</div></div></a><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a></div>
-            </div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">E-Commerce Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local e-commerce accounting teams for online sellers in these cities.</p>
+            
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Serve</div><div class="pa-block-sub">On-ground e-commerce accounting teams</div><div class="pa-city-grid"><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div>
+<div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for online sellers</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Industries</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-startups" class="pa-cross-card"><div class="pa-card-title">Startup Accounting</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-retail" class="pa-cross-card"><div class="pa-card-title">Retail Accounting</div></a>
+<a href="https://www.patronaccounting.com/glossary/section-52-tcs-under-gst" class="pa-cross-card"><div class="pa-card-title">GST TCS Reconciliation</div></a></div></div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 12 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">12 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 12 March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed annually or when GST TCS rates, Section 194O TDS rates, or e-invoicing thresholds change for ecommerce businesses. All facts verified against CBIC circulars and Income Tax Act provisions.</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Selling on Amazon, Flipkart or Meesho &amp; need reconciled books?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free E-Commerce Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+@endsection
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
+
+
 <script>
 (function() {
     // ============================================
@@ -2150,8 +994,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2161,8 +1005,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2243,7 +1087,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2253,34 +1097,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2291,12 +1133,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2372,7 +1215,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered — init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2382,6 +1227,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2404,9 +1250,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2576,7 +1420,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2596,7 +1439,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2674,12 +1517,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2687,55 +1526,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2773,8 +1581,9 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-@endsection
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');

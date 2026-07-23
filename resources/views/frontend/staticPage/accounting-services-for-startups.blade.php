@@ -1,29 +1,28 @@
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Startup Accounting Services India 2026 | Patron Accounting</title>
-    <meta name="description" content="Startup accounting services in India - bookkeeping, GST, ITR, DPIIT and 80-IAC support, and investor-ready reports. From INR 2,499/mo (Exl GST).">
-    <link rel="canonical" href="/accounting-services-for-startups">
+    <title>Startup Accounting Services in India for Indian SMEs | Patron Accounting</title>
+    <meta name="description" content="Cap table and books that agree - before a diligence finds out they do not. Avoid audit delays and free your team from the ledger. Get a fixed quote.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-startups">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Startup Accounting Services India 2026 | Patron Accounting">
-    <meta property="og:description" content="Startup accounting services in India - bookkeeping, GST, ITR, DPIIT and 80-IAC support, and investor-ready reports. From INR 2,499/mo (Exl GST).">
-    <meta property="og:url" content="/accounting-services-for-startups">
+    <meta property="og:title" content="Startup Accounting Services in India for Indian SMEs | Patron Accounting">
+    <meta property="og:description" content="Cap table and books that agree - before a diligence finds out they do not. Avoid audit delays and free your team from the ledger. Get a fixed quote.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-startups">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/accounting-services-for-startups-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Startup Accounting Services India 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Startup accounting services in India - bookkeeping, GST, ITR, DPIIT and 80-IAC support, and investor-ready reports. From INR 2,499/mo (Exl GST).">
-    <meta name="twitter:image" content="/images/accounting-services-for-startups-og.webp">
+    <meta name="twitter:title" content="Startup Accounting Services in India for Indian SMEs | Patron Accounting">
+    <meta name="twitter:description" content="Cap table and books that agree - before a diligence finds out they do not. Avoid audit delays and free your team from the ledger. Get a fixed quote.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/accounting-services-for-startups-og.webp">
 @endsection
 
 @section('schema')
@@ -31,18 +30,20 @@
     {
         "@context": "https://schema.org",
         "@type": "Service",
-        "@id": "/accounting-services-for-startups/#service",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/#service",
         "name": "Startup Accounting Services in India",
-        "description": "Startup accounting services in India covering bookkeeping, GST, TDS, and income tax, DPIIT recognition and Section 80-IAC tax holiday support, ESOP advisory, and investor-ready financial reporting for founders, from INR 2,499 per month.",
-        "provider": { "@id": "/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/accounting-services-for-startups" },
+        "description": "Startup accounting for funded and bootstrapped Indian companies: cap-table to statutory-register tie-out, funding-round and convertible-instrument accounting, ESOP perquisite timing and option-register upkeep, investor MIS on burn and runway, and DPIIT recognition with Section 80-IAC deduction tracking.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/accounting-services-for-startups" },
         "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
         "about": [{ "@type": "Thing", "name": "Startup company", "sameAs": "https://en.wikipedia.org/wiki/Startup_company" }],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Startup Accounting Service Plans",
             "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Monthly startup accounting" }, "priceCurrency": "INR", "price": "2499" }
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Starter - Startup Accounting", "description": "one early-stage entity with steady monthly burn lines"}, "price": "2499", "priceCurrency": "INR", "description": "Per month, excl. GST & government charges", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-startups"},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Growth - Startup Accounting", "description": "later funding stage, cap-table events or an added group entity"}, "description": "On quote - scoped to funding stage, entities and cap-table events", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-startups"},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Managed - Startup Accounting", "description": "multiple entities with investor-ready monthly MIS and custom reporting"}, "description": "On quote - scoped to funding stage, entities and cap-table events", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-startups"}
             ]
         }
     }
@@ -51,11 +52,11 @@
     {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "@id": "/accounting-services-for-startups/#breadcrumb",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/#breadcrumb",
         "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting & Bookkeeping Services", "item": "/accounting-bookkeeping-services" },
-            { "@type": "ListItem", "position": 3, "name": "Startup Accounting", "item": "/accounting-services-for-startups" }
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" },
+            { "@type": "ListItem", "position": 3, "name": "Startup Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-startups" }
         ]
     }
     </script>
@@ -63,50 +64,20 @@
     {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "@id": "/accounting-services-for-startups/#faq",
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/#faq",
+        "datePublished": "2026-07-23T08:00:00+05:30",
+        "dateModified": "2026-07-23T08:00:00+05:30",
         "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is startup accounting?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Startup accounting is accounting and compliance tailored to early-stage companies. Alongside bookkeeping, GST, TDS, and income tax, it covers startup-specific areas such as DPIIT recognition, the Section 80-IAC tax holiday, ESOP structuring, and investor-ready financial statements. The goal is to keep founders compliant while building the financial credibility investors expect." }
-            },
-            {
-                "@type": "Question",
-                "name": "What tax benefits do startups get in India?",
-                "acceptedAnswer": { "@type": "Answer", "text": "DPIIT-recognised startups can access a three-year income tax holiday under the Section 80-IAC equivalent, subject to Inter-Ministerial Board certification, along with self-certification reliefs, IPR rebates, and an ESOP perquisite tax deferral. Angel tax has also been abolished. These benefits can save a startup significant tax during its early growth years." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is angel tax still applicable to startups?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. Angel tax under Section 56(2)(viib) was abolished with effect from 1 April 2025 through the Finance Act 2024. Fresh fundraising at a premium above fair market value is no longer taxed in the hands of the startup, for all investors. However, the abolition is prospective, so demand notices for earlier assessment years can still need to be defended." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is DPIIT recognition and Section 80-IAC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "DPIIT recognition is Startup India recognition from the Department for Promotion of Industry and Internal Trade. It is free, usually granted within a few working days, and valid for up to ten years or until turnover reaches Rs 100 crore. Section 80-IAC is the income tax holiday, three years of exemption, available to eligible recognised startups that obtain Inter-Ministerial Board certification." }
-            },
-            {
-                "@type": "Question",
-                "name": "When does a startup need an audit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A private limited company must have an annual statutory audit regardless of its income or turnover. A tax audit under the Income-tax Act applies once turnover exceeds Rs 1 crore for business, or Rs 50 lakh for a profession, with a higher threshold where most transactions are digital. We assess which audits apply and keep your books ready for them." }
-            },
-            {
-                "@type": "Question",
-                "name": "Should a startup register as a Private Limited Company or LLP?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Both are popular, but only a private limited company or an LLP is eligible for the Section 80-IAC tax holiday, and investors generally prefer a private limited company for equity funding and ESOPs. The right choice depends on your funding plans, compliance appetite, and growth path, which we help you weigh before incorporation." }
-            },
-            {
-                "@type": "Question",
-                "name": "Do you help with investor reporting and fundraising?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We prepare investor-ready financial statements, P and L, balance sheet, and cash flow, along with the metrics investors track. As you scale, startup accounting upgrades into our Virtual CFO service for board reporting, forecasting, and active support through your fundraising and diligence." }
-            },
-            {
-                "@type": "Question",
-                "name": "How much do startup accounting services cost in India?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting startup accounting starts from INR 2,499 per month (Exl GST and Govt. Charges). The final fee depends on transaction volume, the number of GST and TDS returns, funding stage, and whether ESOP or investor reporting is required. Early-stage founders get the entry rate, and funded startups receive a fixed quote after a free assessment." }
-            }
+            {"@type":"Question","name":"What should you look for in a startup tax accountant?","acceptedAnswer":{"@type":"Answer","text":"Look for a firm that files your GST and TDS returns and also handles founder-level items such as ESOP perquisite tax, share allotment reporting and investor diligence packs. Ask how many funded startups they keep books for, which software they work in, and who signs off. Cheap data entry with no tax review surfaces as a diligence problem later."}},
+            {"@type":"Question","name":"What should an AI startup look for in an accountant?","acceptedAnswer":{"@type":"Answer","text":"An AI startup needs an accountant who can treat GPU and cloud spend correctly, decide what is expensed against what is capitalised as an intangible, and handle withholding under Section 195 on payments to foreign compute and model providers. Add transfer pricing if any group entity sits offshore. Few generic bookkeeping firms cover all three together."}},
+            {"@type":"Question","name":"Does a startup need an accountant?","acceptedAnswer":{"@type":"Answer","text":"Yes, a private limited startup needs an accountant from incorporation, because TDS returns, annual ROC filings and the income tax return all begin whether or not there is revenue, and GST returns start the month you register. Spreadsheets survive the first few months, but investor diligence, ESOP accounting and reconciled statutory dues need a qualified reviewer. Most founders switch to a firm at the first institutional round."}},
+            {"@type":"Question","name":"What monthly reports do the board and investors receive?","acceptedAnswer":{"@type":"Answer","text":"You get a monthly pack by the 15th of the following month covering profit and loss, balance sheet, cash flow, burn rate, runway in months and a statutory dues status. Investor-specific views such as departmental spend or unit economics are added where the term sheet requires them. The same pack feeds quarterly board reporting without rework."}},
+            {"@type":"Question","name":"How do you handle ESOP accounting and the tax when employees exercise?","acceptedAnswer":{"@type":"Answer","text":"ESOP cost is charged to the profit and loss over the vesting period using a valuation, and on exercise the difference between fair market value and exercise price is a perquisite on which the company deducts TDS from salary. Eligible recognised startups can defer that deduction. We also maintain the grant register and the perquisite disclosure."}},
+            {"@type":"Question","name":"What is startup accounting?","acceptedAnswer":{"@type":"Answer","text":"Startup accounting is bookkeeping and reporting built around burn, runway and investor requirements rather than statutory filing alone. It covers monthly books in Zoho Books or Tally, GST and TDS returns, payroll, the ESOP grant register, cap table support, a monthly MIS showing burn and runway, and a standing diligence folder of signed financials, reconciliations and board minutes so a term sheet never triggers a three week scramble."}},
+            {"@type":"Question","name":"What does startup accounting cost in the first year?","acceptedAnswer":{"@type":"Answer","text":"Early-stage startups usually pay Rs 8,000 to Rs 15,000 a month for bookkeeping, GST and TDS returns and a monthly MIS, with annual ROC filings and the income tax return quoted on top. Funded companies running payroll, multiple GST registrations and investor reporting move to Rs 25,000 upward. We quote after seeing one month of volume."}},
+            {"@type":"Question","name":"What extra compliance does DPIIT startup recognition create?","acceptedAnswer":{"@type":"Answer","text":"Recognition brings annual reporting on the Startup India portal and access to the Section 80-IAC tax holiday, which needs separate approval from the inter-ministerial board and is never automatic. Ordinary Companies Act, GST and TDS compliance continues unchanged alongside it. We track which exemptions you have actually been granted rather than assuming recognition covers everything."}},
+            {"@type":"Question","name":"How quickly can a startup's books be taken over from a previous accountant?","acceptedAnswer":{"@type":"Answer","text":"Handover normally completes in 10 to 15 working days from receipt of the trial balance, ledgers, bank statements and software credentials. We reconcile opening balances before posting anything new and list every difference we find in writing. Where the earlier accountant has gone quiet, the ledgers are reconstructed from banking records and the returns already on the GST portal."}},
+            {"@type":"Question","name":"What happens if a startup has missed ROC and TDS filings?","acceptedAnswer":{"@type":"Answer","text":"Missed filings are cleared in order of penalty exposure, because ROC forms carry an additional fee that keeps accruing daily while TDS defaults attract interest plus a late filing fee. We first list every open default from the MCA and TRACES portals, then file oldest first. Directors are told the total cost before work starts."}}
         ]
     }
     </script>
@@ -114,62 +85,388 @@
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "@id": "/accounting-services-for-startups",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-startups",
         "name": "Startup Accounting Services in India",
-        "description": "Startup accounting services in India - bookkeeping, GST, ITR, DPIIT and 80-IAC support, and investor-ready reports. From INR 2,499/mo (Exl GST).",
-        "url": "/accounting-services-for-startups",
+        "description": "Cap table and books that agree - before a diligence finds out they do not. Avoid audit delays and free your team from the ledger. Get a fixed quote.",
+        "url": "https://www.patronaccounting.com/accounting-services-for-startups",
         "inLanguage": "en-IN",
-        "isPartOf": { "@id": "/" },
-        "about": { "@id": "/accounting-services-for-startups/#service" },
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
-        "author": { "@id": "/#team" },
-        "breadcrumb": { "@id": "/accounting-services-for-startups/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How Patron Accounting Sets Up Startup Accounting",
-        "description": "The process Patron Accounting follows to set up startup accounting, from understanding your startup to unlocking DPIIT and Section 80-IAC benefits and delivering investor-ready reports.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "name": "Understand your startup", "text": "We review your stage, structure, funding, and goals to scope the engagement." },
-            { "@type": "HowToStep", "name": "Set up clean books", "text": "We configure cloud accounting and a startup-ready chart of accounts." },
-            { "@type": "HowToStep", "name": "Run monthly compliance", "text": "We handle bookkeeping, GST, TDS, and reconciliations every month." },
-            { "@type": "HowToStep", "name": "Unlock benefits", "text": "We set up DPIIT recognition, Section 80-IAC, and ESOP planning." },
-            { "@type": "HowToStep", "name": "Report and advise", "text": "We deliver investor-ready financials and scale into Virtual CFO support." }
-        ]
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/accounting-services-for-startups/#service" },
+        "datePublished": "2026-07-23T08:00:00+05:30",
+        "dateModified": "2026-07-23T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "reviewedBy": { "@id": "https://www.patronaccounting.com/#team" },
+        "lastReviewed": "2026-07-23",
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/accounting-services-for-startups/#breadcrumb" }
     }
     </script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
-        "@id": "/#organization-rating",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
         "name": "Patron Accounting LLP",
-        "url": "/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "13", "bestRating": "5", "worstRating": "1" }
     }
     </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Startup Accounting Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "DPIIT recognition", "description": "Startup India recognition that unlocks startup tax benefits." },
-            { "@type": "DefinedTerm", "name": "Section 80-IAC", "description": "A three-year income tax holiday for eligible startups." },
-            { "@type": "DefinedTerm", "name": "Angel tax", "description": "The former Section 56(2)(viib) levy, now abolished." },
-            { "@type": "DefinedTerm", "name": "ESOP", "description": "Employee stock options, with a tax deferral for eligible startups." }
-        ]
-    }
-    </script>
-@endsection
+    @endsection
 
-@section('content')
 <style>
+/* ===== trust / case study / integrations / E-E-A-T ===== */
+.why-patron-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:24px 0}
+.why-patron-grid > div{background:#fff;border:1px solid var(--gray-200,#e5e7eb);border-radius:10px;padding:18px}
+.why-patron-grid strong{display:block;font-size:22px;line-height:1.2;margin-bottom:6px}
+.why-patron-note{font-size:13px;color:var(--text-muted,#6b7280)}
+.case-study-block{border-left:4px solid var(--primary,#1f4e79);background:var(--cream,#faf7f2);
+  border-radius:0 10px 10px 0;padding:20px 24px;margin:20px 0}
+.case-study-meta{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-muted,#6b7280);margin-bottom:10px}
+.case-study-block h3{font-size:16px;margin:16px 0 6px}
+.case-study-result{font-size:19px;color:var(--primary,#1f4e79);margin:6px 0 10px}
+.eeat-block{font-size:13px;color:var(--text-muted,#6b7280);border-top:1px solid var(--gray-200,#e5e7eb);padding-top:18px}
+.eeat-block p{margin:4px 0}
+.eeat-review{color:var(--text,#111827)}
+@media (max-width:640px){.why-patron-grid{grid-template-columns:1fr}}
+
+/* ===== BEGIN faq.css (synced from patronmain/css/faq.css) ===== */
+/* ============================================================
+   Patron Accounting — Unified Expanded FAQ (two-column)
+   ------------------------------------------------------------
+   SINGLE SOURCE OF TRUTH for every FAQ section sitewide
+   (service pages, city pages, blog posts, tools, calculators).
+
+   Layout: full-width section. LEFT = heading + lead + compact
+   enquiry form. RIGHT = always-expanded Q&A cards. Stacks on mobile.
+   No accordion, no chevrons, no +/- toggles, no click handlers.
+
+   Class contract (used by partials/faq-section.blade.php AND by
+   converted static pages):
+     .faq-expanded            grid wrapper
+       .faq-expanded__aside     left column
+         .faq-expanded__title     h2 heading
+         .faq-expanded__lead      supporting line
+         .faq-expanded__cta       contact link
+       .faq-expanded__list      right column
+         .faq-expanded__item      card
+           .faq-expanded__q         h3 question
+           .faq-expanded__a         answer
+
+   To restyle FAQs anywhere on the site, edit THIS file only.
+   ============================================================ */
+
+.faq-expanded {
+    max-width: 1320px;       /* full site content width */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+}
+
+/* Let the two-column grid use full width even inside a narrow text column. */
+.text-content:has(.faq-expanded),
+.column-content:has(.faq-expanded) {
+    max-width: none;
+}
+
+/* Clear the fixed navbar + sticky TOC bar when the FAQ is reached via its
+   anchor (e.g. the "FAQs" pill in the table-of-contents). ID selector so it
+   wins over the per-page `.content-section[id]` scroll-margin rule. */
+#faq-section {
+    scroll-margin-top: 190px;
+}
+
+/* ---------- Left column ---------- */
+/* Sticky, but offset so it clears the fixed navbar (~100px) AND the sticky
+   TOC bar (~80px) instead of pinning behind them. Tunable per template via
+   the --faq-aside-top variable if a page's nav stack is a different height. */
+.faq-expanded__aside {
+    position: sticky;
+    top: var(--faq-aside-top, 180px);
+    align-self: start;
+}
+
+.faq-expanded__title {
+    font-size: clamp(26px, 2.4vw, 34px);
+    font-weight: 800;
+    color: #0F2C5C;          /* Patron navy */
+    text-align: left;
+    line-height: 1.2;
+    margin: 0 0 16px;
+}
+
+.faq-expanded__lead {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4B5563;
+    line-height: 1.6;
+    margin: 0 0 22px;
+}
+
+.faq-expanded__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #E8712C;          /* Patron orange */
+    text-decoration: none;
+}
+
+.faq-expanded__cta:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Compact enquiry form (left column) ---------- */
+.faq-enquiry {
+    margin-top: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 18px 18px 20px;
+    box-shadow: 0 2px 10px rgba(15, 44, 92, 0.06);
+}
+
+.faq-enquiry__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0F2C5C;
+    margin: 0 0 4px;
+}
+
+.faq-enquiry__sub {
+    font-size: 13px;
+    color: #6B7280;
+    line-height: 1.5;
+    margin: 0 0 14px;
+}
+
+.faq-enquiry__input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #1F2937;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.faq-enquiry__input::placeholder { color: #9CA3AF; }
+
+.faq-enquiry__input:focus {
+    outline: none;
+    background: #FFFFFF;
+    border-color: #E8712C;
+    box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.12);
+}
+
+.faq-enquiry__btn {
+    width: 100%;
+    padding: 11px 16px;
+    margin-top: 2px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #E8712C;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.faq-enquiry__btn:hover { background: #D4621F; }
+.faq-enquiry__btn:active { transform: translateY(1px); }
+.faq-enquiry__btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.faq-enquiry__msg { font-size: 13px; line-height: 1.5; margin: 10px 0 0; }
+.faq-enquiry__msg.is-success { color: #0F9D58; }
+.faq-enquiry__msg.is-error { color: #DC2626; }
+
+/* Phone field with +91 prefix */
+.faq-enquiry__phone {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.faq-enquiry__cc {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    background: #F3F4F6;
+    border: 1px solid #E5E7EB;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.faq-enquiry__input--phone {
+    margin-bottom: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+/* Current-service context line (replaces the service picker) */
+.faq-enquiry__context {
+    font-size: 12.5px;
+    color: #6B7280;
+    margin: 0 0 12px;
+}
+.faq-enquiry__context strong { color: #0F2C5C; font-weight: 600; }
+
+/* Trust badges */
+.faq-enquiry__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    margin-top: 12px;
+}
+
+.faq-enquiry__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #6B7280;
+}
+
+.faq-enquiry__badge svg {
+    width: 13px;
+    height: 13px;
+    color: #0F9D58;
+}
+
+/* ---------- Right column ---------- */
+.faq-expanded__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;            /* allow text to wrap inside the grid track */
+}
+
+.faq-expanded__item {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.faq-expanded__q {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F2C5C;
+    line-height: 1.4;
+    margin: 0 0 10px;
+}
+
+.faq-expanded__a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #374151;
+    line-height: 1.65;
+    margin: 0;
+}
+
+.faq-expanded__a p { margin: 0 0 12px; }
+.faq-expanded__a p:last-child { margin-bottom: 0; }
+.faq-expanded__a a { color: #E8712C; text-decoration: none; }
+.faq-expanded__a a:hover { text-decoration: underline; }
+
+/* ---------- Expand / collapse (expanded by default; orange + <-> X) ---------- */
+.faq-expanded__q {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.faq-expanded__q::after {
+    content: '';
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23E8712C' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E") no-repeat center / contain;
+    transition: transform 0.3s ease;
+    transform: rotate(45deg);   /* expanded (default) = X (a + rotated 45deg) */
+}
+
+.faq-expanded__item.is-collapsed .faq-expanded__q::after { transform: rotate(0deg); }   /* collapsed = + */
+.faq-expanded__item.is-collapsed .faq-expanded__q { margin-bottom: 0; }
+.faq-expanded__item.is-collapsed .faq-expanded__a { display: none; }
+
+.faq-expanded__q:focus-visible {
+    outline: 2px solid #E8712C;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+/* "Collapse all / Expand all" control (auto-inserted by faq-toggle.js) */
+.faq-expanded__toggle-all {
+    align-self: flex-end;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 2px 2px;
+    padding: 7px 14px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: #E8712C;
+    background: #FEF4EE;
+    border: 1px solid #F4D7C6;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.faq-expanded__toggle-all:hover {
+    background: #FCE7DA;
+    border-color: #E8712C;
+}
+
+.faq-expanded__toggle-all:focus-visible {
+    outline: 2px solid #E8712C;
+    outline-offset: 2px;
+}
+
+/* ---------- Stack on tablet / mobile ---------- */
+@media (max-width: 900px) {
+    /* Single column. Unwrap the aside (display:contents) so heading / lead /
+       form become reorderable siblings of the list — this also stops the
+       desktop-sticky aside from overlapping the scrolling list. */
+    .faq-expanded {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .faq-expanded__aside { display: contents; }
+    .faq-expanded__title { order: 1; }
+    .faq-expanded__lead  { order: 2; margin-bottom: 0; }
+    .faq-expanded__list  { order: 3; }
+    /* Enquiry form: not sticky, moved to the BOTTOM (below the questions) */
+    .faq-enquiry { order: 4; margin-top: 0; }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 640px) {
+    .faq-expanded__title { font-size: 24px; }
+    .faq-expanded__item  { padding: 16px 18px; }
+    .faq-expanded__q     { font-size: 16px; }
+    .faq-expanded__a,
+    .faq-expanded__a p   { font-size: 15px; }
+}
+/* ===== END faq.css ===== */
+
         /* ============================================
            CSS VARIABLES
            ============================================ */
@@ -264,7 +561,7 @@
             font-weight: 700; color: var(--text-primary);
             min-width: 160px;
         }
-        /* Amount column - right-align only on tables with .table-amount class */
+        /* Amount column — right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
         /* Section 8 / primary entity highlight column in comparison tables */
         .table-comparison td:nth-child(2),
@@ -285,7 +582,7 @@
         .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
 
         /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
+           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
            ============================================ */
         .expert-attribution-box {
             background: #F9F9F9;
@@ -555,11 +852,11 @@
         .cert-item svg { width: 18px; height: 18px; }
 
         /* ============================================
-           TOC NAVIGATION - Plan 2.2
+           TOC NAVIGATION — Plan 2.2
            ============================================ */
         .toc-section {
             background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
+            padding: 20px 0; position: sticky; top: 0; z-index: 50;
         }
         .toc-container {
             max-width: 1320px; margin: 0 auto; padding: 0 32px;
@@ -688,7 +985,7 @@
             font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
         }
 
-        /* Process Evidence Screenshot - Plan 3.2 */
+        /* Process Evidence Screenshot — Plan 3.2 */
         .process-screenshot-details { margin-top: 14px; }
         .process-screenshot-details summary {
             font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
@@ -741,7 +1038,14 @@
             border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
         }
         .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
+        .btn-cta svg { width: 16px; height: 16px; }
+
+        /* ============================================
+           CUSTOM FAQ ACCORDION (replaces Bootstrap accordion)
+           ============================================ */
+        /* Static FAQ - direct Q&A, always expanded (no collapse) */
+@media (max-width: 640px) {
+}
 
         /* ============================================
            CITY & CROSS-SELL GRID CARDS
@@ -1107,14 +1411,375 @@
         @media (max-width: 480px) {
             .wa-sticky-bar-text { display: none; }
             .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
+            .wa-sticky-bar-btn::before { content: 'Get Free Startup Quote'; }
             .wa-sticky-bar-btn span { display: none; }
         }
+/* ===================== review fixes (consolidated design pass) ===================== */
+
+/* -- testimonial slider: native card design; just tidy overflow + equal-height track -- */
+.testimonials-section{overflow:hidden;}
+.testimonial-slider .slick-track{display:flex !important;align-items:stretch;}
+.testimonial-slider .slick-slide{height:auto;}
+.testimonial-slider .slick-slide > div{height:100%;}
+
+/* -- Reviews CTA: gradient panel + glossy button with sheen reflection -- */
+.reviews-cta{background:linear-gradient(120deg,#0F2942 0%,#1B365D 45%,#27547f 100%) !important;
+  position:relative;overflow:hidden;box-shadow:0 14px 34px rgba(15,54,95,.30);}
+.reviews-cta::after{content:"";position:absolute;top:0;left:-60%;width:38%;height:100%;pointer-events:none;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.13),transparent);
+  transform:skewX(-20deg);animation:cta-sheen 6s ease-in-out infinite;}
+@keyframes cta-sheen{0%,55%{left:-60%;}100%{left:135%;}}
+.reviews-cta .btn-cta{position:relative;overflow:hidden;
+  background:linear-gradient(180deg,#ffffff 0%,#eaf1fb 100%) !important;
+  box-shadow:0 6px 16px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.9);transition:all .25s ease;}
+.reviews-cta .btn-cta::before{content:"";position:absolute;top:0;left:-80%;width:55%;height:100%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.75),transparent);transform:skewX(-20deg);}
+.reviews-cta .btn-cta:hover{transform:translateY(-2px);color:var(--orange) !important;
+  box-shadow:0 12px 24px rgba(0,0,0,.26),inset 0 1px 0 rgba(255,255,255,.9);}
+.reviews-cta .btn-cta:hover::before{animation:btn-sheen .85s ease;}
+@keyframes btn-sheen{0%{left:-80%;}100%{left:140%;}}
+
+/* -- benefit icons: alternating blue tile + navy glyph (both variants in _benefit-icons) -- */
+.feature-icon--blue{background:var(--blue-lighter) !important;}
+.feature-icon--blue svg{color:var(--blue) !important;}
+
+/* -- hero trust badges: elevated cards + gradient icon tiles -- */
+.trust-row{gap:14px !important;}
+.trust-item{background:#fff;border:1px solid var(--gray-200);border-radius:12px;padding:9px 14px !important;
+  gap:12px !important;box-shadow:0 1px 3px rgba(15,54,95,.05);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;}
+.trust-item:hover{transform:translateY(-2px);border-color:var(--orange);box-shadow:0 10px 20px rgba(15,54,95,.10);}
+.trust-icon{width:40px !important;height:40px !important;border-radius:11px !important;
+  background:linear-gradient(135deg,var(--blue),#27547f) !important;box-shadow:0 4px 10px rgba(27,54,93,.20);}
+.trust-icon svg{color:#fff !important;width:20px !important;height:20px !important;}
+.trust-text strong{font-size:15px !important;}
+/* -- hero Google rating: prettier card with the Google 'G' mark + bigger score -- */
+.google-rating{background:linear-gradient(180deg,#fff,#fbfdff) !important;border:1px solid var(--gray-200) !important;
+  border-radius:14px !important;padding:14px 18px !important;gap:12px !important;box-shadow:0 2px 10px rgba(15,54,95,.06);}
+.google-rating::before{content:"";width:22px;height:22px;flex-shrink:0;background:no-repeat center/contain;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23FFC107' d='M43.6 20.5H42V20H24v8h11.3c-1.6 4.7-6.1 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.3-.4-3.5z'/%3E%3Cpath fill='%23FF3D00' d='M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4 16.3 4 9.7 8.3 6.3 14.7z'/%3E%3Cpath fill='%234CAF50' d='M24 44c5.5 0 10.5-2.1 14.3-5.6l-6.6-5.6c-2 1.5-4.6 2.4-7.7 2.4-5.2 0-9.6-3.3-11.2-8l-6.5 5C9.5 39.6 16.2 44 24 44z'/%3E%3Cpath fill='%231976D2' d='M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4 5.5l6.6 5.6C41.8 35.6 44 30.3 44 24c0-1.3-.1-2.3-.4-3.5z'/%3E%3C/svg%3E");}
+.google-rating .rating-stars svg{width:17px !important;height:17px !important;}
+.google-rating .rating-score{font-size:18px !important;color:var(--blue) !important;margin-left:6px !important;}
+.google-rating .rating-count{font-size:12px !important;}
+
+/* -- E-E-A-T reviewer footer: full content-width wide box on desktop -- */
+.eeat-review-wrap{max-width:1320px;margin:0 auto;padding:0 32px;}
+.eeat-review{width:100%;margin:8px 0 48px;padding:26px 40px;border-radius:16px;text-align:center;
+  background:linear-gradient(180deg,#ffffff,var(--gray-50));border:1px solid var(--gray-200);
+  box-shadow:0 6px 20px rgba(15,54,95,.06);position:relative;overflow:hidden;}
+.eeat-review::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--orange),var(--blue));}
+.eeat-review__badge{display:inline-flex;align-items:center;gap:9px;font-weight:800;color:var(--blue);
+  font-size:15.5px;margin-bottom:9px;}
+.eeat-review__badge svg{width:24px;height:24px;color:#fff;background:var(--orange);border-radius:50%;
+  padding:4px;box-shadow:0 4px 10px rgba(232,113,44,.30);}
+.eeat-review__meta{font-size:13px;color:var(--text-secondary);line-height:1.7;}
+.eeat-review__sources{margin-top:12px;font-size:12.5px;}
+.eeat-review__sources span{color:var(--text-muted);font-weight:600;margin-right:4px;}
+.eeat-review__sources a{display:inline-block;color:var(--blue);font-weight:600;text-decoration:none;
+  padding:3px 12px;margin:3px;border:1px solid var(--gray-200);border-radius:999px;
+  transition:all .18s ease;}
+.eeat-review__sources a:hover{border-color:var(--orange);color:var(--orange);
+  background:var(--orange-lighter);transform:translateY(-1px);}
+
+/* -- STATS bar: symmetric 4-up grid, certifications as a centred second row -- */
+.stats-bar{padding:30px 32px !important;}
+.stats-container{display:grid !important;grid-template-columns:repeat(4,1fr) !important;
+  gap:24px 26px !important;align-items:start !important;justify-content:initial !important;
+  max-width:1160px !important;}
+.stats-container .stat-item{align-items:flex-start !important;gap:14px;padding:2px;}
+.stats-container .stat-icon{flex-shrink:0;}
+.certifications{grid-column:1 / -1;display:flex;flex-wrap:wrap;justify-content:center;
+  align-items:center;gap:14px 44px;border-top:1px solid var(--gray-100);margin-top:10px;padding-top:22px;}
+.certifications .cert-item{display:inline-flex;align-items:center;gap:9px;font-weight:700;
+  color:var(--blue);font-size:14px;}
+.certifications .cert-item svg{width:20px;height:20px;flex-shrink:0;}
+.certifications .cert-desc{font-weight:400;color:var(--text-muted);font-size:12px;margin-left:2px;}
+@media(max-width:920px){.stats-container{grid-template-columns:repeat(2,1fr) !important;}}
+@media(max-width:560px){.stats-container{grid-template-columns:1fr !important;}}
+
+/* -- testimonials CTA strip (from gst-registration.blade.php) -- */
+.reviews-cta{padding:28px 32px;background:var(--blue);border-radius:var(--radius-lg);display:flex;
+  align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;}
+.reviews-cta-content{display:flex;align-items:center;gap:16px;}
+.reviews-cta-icon{width:48px;height:48px;background:rgba(255,255,255,0.1);border-radius:var(--radius-md);
+  display:flex;align-items:center;justify-content:center;}
+.reviews-cta-icon svg{width:24px;height:24px;color:var(--white);}
+.reviews-cta-text h3{font-size:18px;font-weight:700;color:var(--white);margin-bottom:2px;}
+.reviews-cta-text p{font-size:13px;color:rgba(255,255,255,0.7);margin:0;}
+.reviews-cta .btn-cta{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;
+  font-family:'Barlow',sans-serif;font-size:14px;font-weight:700;color:var(--blue);background:var(--white);
+  border:none;border-radius:var(--radius-md);cursor:pointer;transition:all .25s ease;text-decoration:none;}
+.reviews-cta .btn-cta:hover{background:var(--orange-lighter);color:var(--orange);}
+@media(max-width:768px){.reviews-cta{flex-direction:column;text-align:center;}
+  .reviews-cta-content{flex-direction:column;}}
+
+/* -- WHAT-IS illustration: keep it STICKY (follows the reader) but offset below the
+      sticky TOC so it no longer clips; centred horizontally. -- */
+.two-column{align-items:flex-start !important;}
+.column-image{position:sticky !important;top:100px !important;align-self:flex-start !important;
+  display:flex !important;align-items:center !important;justify-content:center !important;
+  overflow:visible !important;}
+.column-image img{max-width:100%;height:auto;margin:0 auto;display:block;}
+
+/* -- sticky TOC nav: make it opaque and above content, and stop it hiding section
+      headings on anchor jumps -- */
+.toc-section{top:0;z-index:60;background:var(--white) !important;
+  box-shadow:0 4px 14px rgba(15,54,95,0.06);}
+[id]{scroll-margin-top:96px;}
+
+/* -- ITR/WhatsApp seasonal bar is position:fixed;bottom:0 - reserve space so it
+      never overlaps the last section (footer/cities) -- */
+main{padding-bottom:76px;}
+.wa-sticky-bar{z-index:9990;}
+
+/* -- KEY TERMS + LEGAL lists: aligned two-column rows. Fixed 240px term column so
+      EVERY row lines up identically; definitions all start at the same x. Flex per
+      row (robust - no grid/multi-column interference). -- */
+.al-list{list-style:none !important;margin:18px 0 !important;padding:0 !important;
+  column-count:1 !important;columns:auto !important;
+  border:1px solid var(--gray-200);border-left:3px solid var(--blue) !important;
+  border-radius:0 12px 12px 0;overflow:hidden;background:var(--white);}
+.al-list li{display:flex !important;align-items:stretch !important;margin:0 !important;padding:0 !important;
+  border-top:1px solid var(--gray-200);break-inside:avoid;}
+.al-list li:first-child{border-top:none;}
+.al-list li::before{content:none !important;display:none !important;}
+/* term cell: light fade fills the WHOLE cell (flex-stretched, gradient top-to-bottom) */
+.al-list .al-t{flex:0 0 240px;box-sizing:border-box;padding:15px 20px;font-weight:700;
+  color:var(--blue);font-size:15px;line-height:1.45;align-self:stretch;
+  display:flex;flex-direction:column;justify-content:center;
+  background:linear-gradient(180deg,rgba(232,113,44,.05) 0%,rgba(255,255,255,0) 100%) !important;}
+/* key-terms sits inside a .highlight-box - drop its orange bar so the list's blue line is the only accent */
+.highlight-box:has(.al-list){background:transparent !important;border-left:none !important;
+  padding-left:0 !important;padding-top:0 !important;}
+/* remove the stray grey/black vertical divider in the stats certifications row */
+.certifications{border-left:none !important;padding-left:0 !important;}
+.al-list .al-t a{color:var(--blue);text-decoration:none;}
+.al-list .al-t a:hover{color:var(--orange);}
+.al-list .al-d{flex:1;box-sizing:border-box;padding:15px 22px;color:var(--text-secondary);
+  line-height:1.65;font-size:14px;}
+@media(max-width:680px){
+  .al-list li{flex-direction:column;}
+  .al-list .al-t{flex:none;width:100%;}
+}
+
+/* -- Why-Patron cards: refined, equal-height, professional -- */
+.why-patron-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(228px,1fr));gap:22px;
+  align-items:stretch;}
+.why-patron-grid>div{background:#fff;border:1px solid var(--gray-200);border-radius:14px;
+  padding:30px 24px 26px;position:relative;display:flex;flex-direction:column;
+  box-shadow:0 1px 3px rgba(15,54,95,.05);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;}
+.why-patron-grid>div::after{content:"";position:absolute;top:0;left:24px;right:24px;height:3px;
+  border-radius:0 0 3px 3px;background:linear-gradient(90deg,var(--orange),#F5A623);}
+.why-patron-grid>div:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(27,54,93,.16);
+  border-color:var(--blue);}
+.why-patron-grid>div:hover::after{background:linear-gradient(90deg,var(--blue),#27547f) !important;}
+.why-patron-grid>div:hover strong::before{background:var(--blue) !important;
+  box-shadow:0 4px 10px rgba(27,54,93,.32) !important;}
+.why-patron-grid>div strong{display:block;color:var(--blue);font-size:15.5px;font-weight:700;
+  line-height:1.4;margin:2px 0 12px;padding-left:34px;position:relative;min-height:22px;}
+.why-patron-grid>div strong::before{content:"\2713";position:absolute;left:0;top:-1px;width:24px;height:24px;
+  background:var(--orange);color:#fff;border-radius:50%;font-size:12px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(232,113,44,.30);}
+.why-patron-grid>div p{color:var(--text-secondary);font-size:13.5px;line-height:1.72;margin:0;flex:1;}
+.why-patron-grid>div p a{color:var(--orange);font-weight:600;}
+
+/* -- Cities We Serve + Related Services: vibrant tiles -- */
+.pa-city-block{margin-bottom:40px;}
+.pa-block-title{font-size:21px;font-weight:800;color:var(--blue);margin-bottom:4px;
+  padding-left:14px;position:relative;}
+.pa-block-title::before{content:"";position:absolute;left:0;top:3px;bottom:3px;width:5px;border-radius:3px;
+  background:linear-gradient(180deg,var(--orange),#F5A623);}
+.pa-block-sub{font-size:14px;color:var(--text-muted);margin:0 0 18px 14px;}
+.pa-city-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;}
+.pa-city-card{display:flex;align-items:center;gap:14px;background:linear-gradient(180deg,#ffffff,#fafcff);
+  border:1px solid var(--gray-200);border-radius:16px;padding:18px 20px;text-decoration:none;
+  position:relative;overflow:hidden;transition:all .22s ease;}
+.pa-city-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:linear-gradient(180deg,var(--orange),#F5A623);transform:scaleY(0);transform-origin:top;transition:.22s;}
+.pa-city-card:hover{border-color:var(--orange);box-shadow:0 12px 26px rgba(15,54,95,.12);transform:translateY(-3px);}
+.pa-city-card:hover::before{transform:scaleY(1);}
+.pa-card-icon{width:46px;height:46px;flex-shrink:0;border-radius:12px;display:flex;align-items:center;
+  justify-content:center;background:linear-gradient(135deg,var(--orange),#F5A623);
+  box-shadow:0 6px 14px rgba(232,113,44,.28);transition:transform .22s ease;}
+.pa-city-card:hover .pa-card-icon{transform:scale(1.08) rotate(-4deg);}
+.pa-card-icon svg{width:24px !important;height:24px !important;stroke:#fff !important;color:#fff !important;}
+.pa-card-title{font-size:15px;font-weight:700;color:var(--blue);line-height:1.3;}
+.pa-card-sub{font-size:13px;color:var(--text-muted);}
+.pa-cross-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;}
+.pa-cross-card{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  background:linear-gradient(180deg,#ffffff,#f7faff);border:1px solid var(--gray-200);border-radius:16px;
+  padding:20px;text-decoration:none;transition:all .22s ease;}
+.pa-cross-card .pa-card-title{font-size:15px;transition:color .22s ease;}
+.pa-cross-card::after{content:"\2192";color:var(--orange);font-weight:700;font-size:19px;transition:transform .22s ease;}
+.pa-cross-card:hover{background:linear-gradient(135deg,var(--blue) 0%,#27547f 100%);border-color:var(--blue);
+  box-shadow:0 12px 26px rgba(15,54,95,.22);transform:translateY(-3px);}
+.pa-cross-card:hover .pa-card-title{color:#fff;}
+.pa-cross-card:hover::after{color:#fff;transform:translateX(5px);}
+
+/* -- STEPS cards: kill the big blank space (drop forced-square illustration, centre) -- */
+.step-card{align-items:center !important;padding:30px 40px !important;}
+.step-illustration{aspect-ratio:auto !important;max-width:320px !important;background:none !important;
+  padding:0 !important;}
+.step-illustration img{border-radius:var(--radius-xl);box-shadow:var(--shadow-sm);}
+.step-content{justify-content:center;}
+
+/* -- FAQ: the template's faq.css already draws a rotating chevron on
+      .faq-expanded__q::after; the injected faq-toggle JS wires the click + button.
+      (No custom +/- indicator - it collided with the native chevron.) -- */
+.faq-expanded__q{cursor:pointer;}
+
+/* -- tighten the vertical gap between sections (content 64px, benefits/steps 72px) -- */
+.content-section{padding-top:46px !important;padding-bottom:46px !important;}
+.why-choose-section,.steps-section{padding-top:46px !important;padding-bottom:46px !important;}
+.why-choose-header{margin-bottom:32px !important;}
+
+/* ============================================================
+   RESPONSIVE - designed for every screen size
+   ============================================================ */
+/* overflow-x:clip (NOT hidden) prevents sideways scroll WITHOUT breaking the
+   sticky TOC / sticky What-Is image (overflow:hidden would create a scroll
+   container and kill position:sticky). Do NOT touch container max-width - the
+   template caps content at 1320px centred; overriding it stretches the page wide. */
+html,body{max-width:100%;overflow-x:clip;}
+img,video,iframe{max-width:100%;}
+
+/* ---- Tablet (<=1024px) ---- */
+@media(max-width:1024px){
+  .stats-container{grid-template-columns:repeat(2,1fr) !important;}
+  .why-patron-grid{grid-template-columns:repeat(2,1fr) !important;}
+  .features-grid{grid-template-columns:repeat(2,1fr) !important;}
+}
+
+/* ---- Large phone / portrait tablet (<=820px) ---- */
+@media(max-width:820px){
+  .content-section,.why-choose-section,.steps-section,.testimonials-section{
+    padding-left:20px !important;padding-right:20px !important;}
+  .section-title,.why-choose-header h2,.section-header h2,.hero-title{font-size:25px !important;line-height:1.25 !important;}
+  .step-card{grid-template-columns:1fr !important;gap:22px !important;padding:24px !important;}
+  .step-visual{order:-1 !important;}
+  .step-illustration{max-width:280px !important;margin:0 auto !important;}
+  .pa-city-grid,.pa-cross-grid{grid-template-columns:repeat(2,1fr) !important;}
+}
+
+/* ---- Phone (<=640px) ---- */
+@media(max-width:640px){
+  .content-section,.why-choose-section,.steps-section,.testimonials-section{
+    padding-top:36px !important;padding-bottom:36px !important;
+    padding-left:16px !important;padding-right:16px !important;}
+  .section-title,.why-choose-header h2,.section-header h2{font-size:22px !important;}
+  .section-header p,.why-choose-header p,.section-intro,.overview-text{font-size:14px !important;}
+  /* every card grid -> single column */
+  .why-patron-grid,.features-grid,.stats-container,.pa-city-grid,.pa-cross-grid{grid-template-columns:1fr !important;}
+  .why-patron-grid>div,.feature-card{padding:22px 20px !important;}
+  /* term lists (Key Terms / Legal) stack term over definition */
+  .al-list li{flex-direction:column !important;}
+  .al-list .al-t{flex:none !important;width:100% !important;border-bottom:1px solid var(--gray-200);}
+  .al-list .al-d{width:100%;}
+  /* reviews CTA + reviewer footer -> centred, stacked, full-width button */
+  .reviews-cta{flex-direction:column !important;text-align:center !important;padding:22px 18px !important;gap:16px !important;}
+  .reviews-cta-content{flex-direction:column !important;text-align:center;}
+  .reviews-cta .btn-cta{width:100%;justify-content:center;}
+  .eeat-review-wrap{padding:0 16px !important;}
+  .eeat-review{padding:22px 16px !important;margin:8px 0 30px !important;}
+  .eeat-review__badge{flex-wrap:wrap;justify-content:center;font-size:14px !important;line-height:1.4;}
+  .eeat-review__meta,.eeat-review__sources{font-size:12px !important;}
+  /* hero: full-width CTAs + trust badges + rating */
+  .hero-cta{flex-wrap:wrap !important;gap:10px !important;}
+  .hero-cta>a{flex:1 1 100% !important;justify-content:center !important;}
+  .trust-row{gap:10px !important;}
+  .trust-item{flex:1 1 100% !important;}
+  .google-rating{width:100% !important;}
+  .expert-attribution-box{flex-wrap:wrap;gap:6px 10px;}
+  /* data tables: smaller text (still scroll inside their wrapper) */
+  table{font-size:13px !important;}
+  .toc-container{padding:0 16px !important;}
+}
+
+/* ---- Small phone (<=400px) ---- */
+@media(max-width:400px){
+  .section-title,.why-choose-header h2,.section-header h2{font-size:20px !important;}
+  .hero-title{font-size:23px !important;}
+  .hero-badge,.section-eyebrow{font-size:12px !important;}
+  .reviews-cta-text h3{font-size:16px !important;}
+  .eeat-review__sources a{padding:3px 9px;font-size:11.5px;margin:2px;}
+  table{font-size:12px !important;}
+  .feature-card,.why-patron-grid>div{padding:20px 18px !important;}
+}
+
+/* ============================================================
+   MOBILE REFINEMENT (fixes from device review)
+   ============================================================ */
+@media(max-width:640px){
+  /* Prose bullet lists (Who Needs It, etc.): on phones the template's `li{display:flex}`
+     splits "text <a>link</a> text" into separate flex COLUMNS. Only on mobile, render
+     them as a normal flowing list with an orange check. Desktop stays as the template. */
+  .content-text ul:not(.al-list) li:not([class]){display:block !important;position:relative;
+    padding-left:28px !important;list-style:none;margin-bottom:11px;line-height:1.7;}
+  .content-text ul:not(.al-list):has(> li:not([class])){list-style:none;padding-left:2px;margin:14px 0;}
+  .content-text ul:not(.al-list) li:not([class])::before{content:"";position:absolute;left:0;top:3px;
+    width:19px;height:19px;background:center/contain no-repeat;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23E8712C' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");}
+  /* SIDE-BY-SIDE on phones to use the space (mobile is the primary audience) */
+  .trust-item{flex:1 1 calc(50% - 6px) !important;}
+  .stats-container{grid-template-columns:repeat(2,1fr) !important;}
+  .pa-city-grid,.pa-cross-grid{grid-template-columns:repeat(2,1fr) !important;gap:12px !important;}
+  .why-patron-grid,.features-grid{grid-template-columns:repeat(2,1fr) !important;gap:14px !important;}
+  /* tighten cards so two fit cleanly */
+  .why-patron-grid>div,.feature-card{padding:16px 15px !important;}
+  .why-patron-grid>div strong,.feature-title{font-size:14.5px !important;}
+  .why-patron-grid>div p,.feature-text{font-size:12.5px !important;line-height:1.55 !important;}
+  .feature-icon,.feature-icon--blue{width:40px !important;height:40px !important;margin-bottom:12px !important;}
+  .pa-city-card{padding:13px !important;gap:10px !important;}
+  .pa-cross-card{padding:15px 14px !important;}
+  .pa-card-icon{width:38px !important;height:38px !important;}
+  .pa-card-icon svg{width:20px !important;height:20px !important;}
+  .pa-block-title{font-size:18px !important;}
+  /* Key Terms / Legal: clean stacked cards - term heading over definition */
+  .al-list li{display:block !important;padding:14px 18px !important;}
+  .al-list .al-t{background:transparent !important;width:100% !important;flex:none !important;
+    padding:0 0 4px 0 !important;border-bottom:none !important;font-size:15px !important;}
+  .al-list .al-d{padding:0 !important;width:100% !important;}
+  /* data tables: keep columns readable, scroll horizontally instead of crushing */
+  .table-responsive-wrapper table{min-width:560px !important;}
+  /* justified, hyphenated prose for a tidy right edge */
+  .content-text p,.overview-text,.faq-expanded__a p,.eeat-review__meta{
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto;}
+}
+/* very small phones: keep compact cards 2-up, drop content-heavy cards to 1-up */
+@media(max-width:430px){
+  .why-patron-grid,.features-grid{grid-template-columns:1fr !important;}
+  .why-patron-grid>div p,.feature-text{font-size:13px !important;}
+}
+@media(max-width:360px){
+  .trust-item{flex:1 1 100% !important;}
+  .stats-container,.pa-cross-grid{grid-template-columns:1fr !important;}
+}
+
 </style>
+
+@section('content')
 <main>
 
 
-<!-- HERO SECTION -->
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">Startup Accounting Services</span></li>
+        </ol>
+    </div>
+</nav>
+
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1135,42 +1800,36 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">2 June 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Built for:</span> founders and early to growth-stage startups.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Cap table ties to the register:</span> Your working cap table is agreed to the statutory register of members and to every board and shareholder approval, so a diligence never opens a gap.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> starting from INR 2,499 per month (Exl GST and Govt. Charges).</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>ESOP perquisite timed right:</span> Option grants sit in a live register and the perquisite TDS is deposited by the 7th of the month after allotment, not discovered at year-end.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Covers:</span> bookkeeping, GST, TDS, ITR, and investor reporting.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Investor MIS you can defend:</span> Burn, runway and cohort metrics are rebuilt from the ledger, so the numbers you send investors match the numbers you file.</p>
                         </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Benefits:</span> DPIIT, Section 80-IAC tax holiday, and ESOP support.</p>
                         </div>
-                    </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Startup Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Startup Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Startup%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Startup%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Startup%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1197,7 +1856,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1271,14 +1930,13 @@
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
                                 <option value="accounting-services-for-startups" selected>Startup Accounting</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="startup-registration">Startup Registration</option>
-                                <option value="private-limited-company-registration">Private Limited Company Registration</option>
-                                <option value="esop-services">ESOP Services</option>
-                                <option value="gst-returns">GST Returns Filing</option>
-                                <option value="income-tax-return">Income Tax Return Filing</option>
-                                <option value="llp-incorporation">LLP Registration</option>
-                                <option value="other">Other</option>
+                                    <option value="accounting-services">Accounting Services (All)</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="esop-accounting-ind-as-102">ESOP Accounting (Ind AS 102)</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1308,133 +1966,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director - Demandify Media</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I recently got my business incorporated and I am extremely satisfied with their services. They made the entire process of incorporation smooth and hassle-free. The team was very professional, knowledgeable, and always ready to assist me.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">S</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Shahriar</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Anjanay Srivastava</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Founder - Hunarsource Consulting</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PR</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Preeti Singh Rathor</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Talk to our startup accounting team about clean books, DPIIT and Section 80-IAC benefits, ESOPs, and investor-ready reporting.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1460,141 +1995,87 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
             
-            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-                <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
-                <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
-                <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
-                <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">Documents</button>
-                <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
-                <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
-                <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Timeline</button>
-                <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
-                <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">DIY vs Patron</button>
-                <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What This Service Covers: A Quick Overview</h2>
+            <h2 class="section-title">What Startup Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - Startup Accounting Services at a Glance</strong></p>
-                    <p>Startup accounting keeps a founder-stage company compliant and investor-ready, covering bookkeeping, GST, TDS, ITR, and audit, plus startup benefits like DPIIT recognition and the Section 80-IAC tax holiday. It is built for founders and starts from INR 2,499 per month.</p>
+                    <p>Startup accounting services keep the cap table and the books agreeing before a diligence discovers they do not. Patron maintains investor MIS on burn, runway and cohort performance, and handles DPIIT recognition, Section 80-IAC claims and ESOP perquisite timing. Statutory filings run alongside founder reporting instead of trailing behind it. Common among funded and bootstrapped Indian startups heading towards a priced round.</p>
                 </div>
-                <div class="table-responsive-wrapper" style="margin-bottom:20px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td>What it is</td><td>Accounting and compliance built for startups</td></tr>
-                        <tr><td>Core scope</td><td>Bookkeeping, GST, TDS, ITR, audit support</td></tr>
-                        <tr><td>Startup benefits</td><td>DPIIT, Section 80-IAC, ESOP, angel tax position</td></tr>
-                        <tr><td>Investor needs</td><td>P and L, balance sheet, cash flow, metrics</td></tr>
-                        <tr><td>Cost</td><td>From INR 2,499 per month (Exl GST)</td></tr>
-                        <tr><td>Scales to</td><td>Virtual CFO as you grow</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p>Startup accounting services keep early-stage founders compliant while building the financial foundation investors trust. Patron Accounting has supported over 10,000 businesses across India and works on Zoho Books, QuickBooks, and Xero.</p>
-                <p>We handle bookkeeping, GST, TDS, and ITR, set up DPIIT and Section 80-IAC benefits, and deliver the financials investors expect, so you can focus on building while we keep you compliant.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>The founder keeps the decisions and the bank logins; the <a href="/blog/section-80-iac-startup-tax-holiday">startup accounting</a> work Patron runs covers the ledger, the payroll run and the compliance calendar. In practice that means your operations team raises invoices in the billing tool and stops there, while classification, accruals and the period close happen behind it. The board pack and the statutory filings are drawn from one set of books, not two. How Mumbai fintech founders split it follows the same pattern.</p>
+                <p>An ESOP perquisite deducted in the wrong month becomes an employee's tax notice and the company's default at once. A recognition claim filed after the window closes cannot be reopened. That exposure, more than transaction count, is what sets effort in accounting for startups. Eligibility is checked against the Startup India portal criteria. Valuation reports and diligence responses are separate engagements.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is Startup Accounting?</h2>
+                <h2 class="section-title">What Are Startup Accounting Services?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Startup accounting is accounting and compliance tailored to the realities of an early-stage company: tight cash, fast change, fundraising, and a founder who is wearing many hats. It combines routine compliance with the financial reporting and tax planning a growing, investor-backed business needs.</p>
-                    <p>Beyond standard bookkeeping and tax filing, it covers startup-specific areas such as DPIIT recognition, the Section 80-IAC tax holiday, ESOP structuring, and investor-ready financial statements. Getting this right early avoids costly clean-ups during due diligence and protects valuable tax benefits.</p>
+                    <p>A funded company&#x27;s ledger has to agree, at all times, with its cap table and its investor commitments. Startup accounting services are the function that keeps those two records in step and the books ready for diligence.</p>
+<p>In practice, it runs the general ledger, the payroll and the monthly close. On top of that sits the reporting a funded business is judged by: burn, runway and cohort performance in a format investors recognise. It handles the recognition timing on employee share awards, where a charge booked in the wrong month creates a problem for both company and employee. For subscription businesses, it also spreads deferred revenue across the term it belongs to. This function also tracks the conditions attached to recognised-startup benefits, so a claim is not lost to a missed window. Accounting for startups, then, is ordinary bookkeeping carried out to a standard a priced round will test. Preparing valuation reports or fielding diligence responses falls outside this engagement.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Startup Accounting:</strong></p>
-                    <ul>
-                        <li><strong>DPIIT recognition:</strong> Startup India recognition that unlocks startup tax benefits.</li>
-                        <li><strong>Section 80-IAC:</strong> a three-year income tax holiday for eligible startups.</li>
-                        <li><strong>Angel tax:</strong> the former Section 56(2)(viib) levy, now abolished.</li>
-                        <li><strong>ESOP:</strong> employee stock options, with a tax deferral for eligible startups.</li>
-                    </ul>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/monthly-burn-rate">Monthly Burn Rate</a></span><span class="al-d">How much cash the business spends over and above what it brings in monthly.</span></li><li><span class="al-t"><a href="/glossary/cash-runway-calculation">Cash Runway Calculation</a></span><span class="al-d">How many months the cash on hand will last at the current burn.</span></li><li><span class="al-t"><a href="/glossary/cap-table-dilution">Cap Table Dilution</a></span><span class="al-d">How much each shareholder&#x27;s percentage falls when new shares are issued.</span></li><li><span class="al-t"><a href="/glossary/operating-cash-runway">Operating Cash Runway</a></span><span class="al-d">Runway measured from operating cash flow alone, ignoring one-off funding inflows.</span></li><li><span class="al-t"><a href="/glossary/ind-as-102-share-based-payment">Ind AS 102 Share-based Payment</a></span><span class="al-d">The accounting standard for recording the cost of shares given to employees.</span></li><li><span class="al-t"><a href="/glossary/vesting-period-graded-amortization">Vesting Period Graded Amortization</a></span><span class="al-d">Spreading an ESOP cost across the years employees earn their options.</span></li><li><span class="al-t"><a href="/glossary/deferred-revenue-unearned-revenue">Deferred Revenue (Unearned Revenue)</a></span><span class="al-d">Money collected upfront for goods or services not yet delivered.</span></li><li><span class="al-t"><a href="/glossary/monthly-recurring-revenue-mrr">Monthly Recurring Revenue (MRR)</a></span><span class="al-d">The predictable subscription income a business expects to earn each month.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Startup Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>From INR 2,499/mo</span>
-                        <strong>Investor-Ready Books</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-startups/what-is.webp" alt="What Are Startup Accounting Services. A funded company's ledger has to agree, at all times, with its cap table and" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Startup Accounting?</h2>
+            <h2 class="section-title">Who Needs Startup Accounting Services in India?</h2>
             <div class="content-text">
                 
-                <p>Any founder who wants clean books, full compliance, and the credibility investors look for needs proper startup accounting.</p>
-                <ul>
-                    <li>Pre-revenue and early-stage startups setting up their first books.</li>
-                    <li>DPIIT-recognised startups claiming Section 80-IAC and other benefits.</li>
-                    <li>Funded startups that need investor-ready reporting and a clean cap-table-adjacent record.</li>
-                    <li>Founders preparing for a seed or Series A round or due diligence.</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Founder note:</strong> a private limited company must have an annual statutory audit regardless of income, and tax audit applies above Rs 1 crore turnover for business; getting books right from day one keeps both painless.</p>
-                </div>
+                <p>Startup accounting services fit companies where the share register and investor promises drive the books as much as trade does. Most are DPIIT-recognised and funded ventures heading towards a priced round, where founders answer to their investors as closely as to the tax department.</p>
+  <ul>
+    <li>DPIIT-recognised startups planning to claim <a href="/blog/section-80-iac-startup-tax-holiday">the Section 80-IAC tax holiday</a>, who must keep every eligibility condition met.</li>
+    <li>Ventures that have just closed a round on convertible notes or CCPS and must book the instrument correctly.</li>
+    <li>Founders who granted stock options on a handshake and now need a proper option register behind them.</li>
+    <li>Companies whose funds ask for monthly numbers on burn and runway drawn straight from the ledger.</li>
+    <li>Bootstrapped startups nearing their first funding diligence, who need <a href="/blog/due-diligence-ready-books-startups">books an investor will not pick apart</a>.</li>
+    <li>Early companies carrying foreign investor accounts and founder loans that belong on the related-party record.</li>
+    <li>Startups where the founder still holds every bank login while nobody closes the month behind them.</li>
+  </ul>
 
             </div>
             </div>
@@ -1602,7 +2083,7 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
@@ -1612,12 +2093,12 @@
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Bookkeeping</td><td>Clean, cloud-based books from day one on Zoho or QuickBooks.</td></tr>
-                        <tr><td>GST and TDS</td><td>Registration, monthly returns, and reconciliations.</td></tr>
-                        <tr><td>Income tax and audit</td><td>ITR filing and statutory or tax audit support.</td></tr>
-                        <tr><td>Startup benefits</td><td>DPIIT recognition, Section 80-IAC, and ESOP advisory.</td></tr>
-                        <tr><td>Investor reporting</td><td>P and L, balance sheet, cash flow, and key metrics.</td></tr>
-                        <tr><td>Payroll</td><td>Salary processing with PF, ESI, and TDS compliance.</td></tr>
+                        <tr><td>Cap table and share register upkeep</td><td>Share allotments posted and the cap table reconciled to the statutory register of members, so ownership and dilution always agree <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Funding round instrument accounting</td><td>CCPS, CCD and convertible notes recorded in the right class, with share premium papered so each round sits correctly in the books <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Investor MIS, burn and runway</td><td>Burn, runway and MRR reported to your investors and tied back to the ledger. See <a href="/blog/burn-rate-runway-explained-founders">burn rate and runway explained</a> <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>ESOP charge and option register</td><td>Option grants captured in the register and the share-based payment charge amortised across the vesting period, with startup bookkeeping kept audit-ready <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>DPIIT and 80-IAC condition tracking</td><td>Eligibility conditions for DPIIT recognition and any Section 80-IAC claim tracked, with supporting schedules maintained through the year as applicable <span class="badge-included">Annually</span></td></tr>
+                        <tr><td>Monthly bookkeeping and founder MIS</td><td>Day-to-day bookkeeping, bank reconciliation and statutory workings delivered as monthly startup accounting services, giving founders one clean set of numbers <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1627,146 +2108,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How We Work With You</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">A clear, repeatable process that sets up clean books, runs monthly compliance, unlocks startup tax benefits, and delivers investor-ready financials as you scale.</p>
+            <h2 class="section-title">How Startup Accounting Services Work — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How a funded company gets books that agree with its cap table, step by step from register tie-out to DPIIT and deduction-condition tracking.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 1</span>
-                    <h3 class="step-title">Understand your startup</h3>
-                    <p class="step-description">We review your stage, structure, funding, and goals to scope the right engagement for where you are now.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Stage reviewed</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goals aligned</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 14c14 8 20 24 18 44l-9 8H51l-9-8c-2-20 4-36 18-44z" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="44" r="8" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><path d="M51 70l-8 14 12-4M69 70l8 14-12-4" stroke="#E8712C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-                        <span class="illustration-label">Startup Reviewed</span>
-                        <span class="step-number-large">01</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Cap table to register tie-out</h3>
+    <p class="step-description">The working cap table is agreed to the statutory register of members and to every allotment record, then to share capital and securities premium in the books. Where the three disagree, the statutory register governs and the cap table is corrected.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-startups/step-1-cap-table-to-register-tie-out.webp" alt="Illustration for Cap table to register tie-out: The working cap table is agreed to the statutory register of members and to" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 2</span>
-                    <h3 class="step-title">Set up clean books</h3>
-                    <p class="step-description">We configure cloud accounting and a startup-ready chart of accounts so your books are investor-grade from day one.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Cloud setup</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Chart ready</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="28" y="22" width="64" height="56" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="60" y1="22" x2="60" y2="78" stroke="#14365F" stroke-width="1.5"/><line x1="38" y1="38" x2="54" y2="38" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/><line x1="66" y1="38" x2="82" y2="38" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/></svg></div>
-                        <span class="illustration-label">Books Set Up</span>
-                        <span class="step-number-large">02</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Funding round instrument accounting</h3>
+    <p class="step-description">Term sheet, SHA or SSA and the instrument terms are read to decide how compulsorily convertible preference shares or debentures sit in the balance sheet, and how round costs are treated. The valuation relied on at each round is filed with the working.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-startups/step-2-funding-round-instrument-accounting.webp" alt="Illustration for Funding round instrument accounting: Term sheet, SHA or SSA and the instrument terms are read to decide how" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 3</span>
-                    <h3 class="step-title">Run monthly compliance</h3>
-                    <p class="step-description">We handle bookkeeping, GST, TDS, and reconciliations every month so filings are accurate and on time.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST and TDS</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>On-time filing</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="28" y="24" width="64" height="56" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="40" x2="92" y2="40" stroke="#14365F" stroke-width="1.5"/><path d="M44 56l5 5 9-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="66" y1="58" x2="82" y2="58" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/></svg></div>
-                        <span class="illustration-label">Compliance Run</span>
-                        <span class="step-number-large">03</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Share premium position papering</h3>
+    <p class="step-description">For rounds closed before 1 April 2025 the valuation basis and investor detail are preserved, because the premium provision applied to those years and assessments remain open. Rounds from that date onward are documented as outside it.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-startups/step-3-share-premium-position-papering.webp" alt="Illustration for Share premium position papering: For rounds closed before 1 April 2025 the valuation basis and investor" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 4</span>
-                    <h3 class="step-title">Unlock benefits</h3>
-                    <p class="step-description">We set up DPIIT recognition, the Section 80-IAC tax holiday, and ESOP planning to capture valuable reliefs.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>DPIIT and 80-IAC</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>ESOP planned</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="42" r="22" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><path d="M50 42l7 7 13-14" stroke="#14365F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M48 60l-6 26 18-10 18 10-6-26" stroke="#E8712C" stroke-width="2" stroke-linejoin="round" fill="none"/></svg></div>
-                        <span class="illustration-label">Benefits Unlocked</span>
-                        <span class="step-number-large">04</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">ESOP charge and option register</h3>
+    <p class="step-description">Grant letters, the scheme document and the board and shareholder approvals give the vesting schedule, from which the share-based payment charge is spread. Grants, vesting, exercises and lapses are entered in the Register of Employee Stock Options in Form SH-6.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-startups/step-4-esop-charge-and-option-register.webp" alt="Illustration for ESOP charge and option register: Grant letters, the scheme document and the board and shareholder approvals" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 5</span>
-                    <h3 class="step-title">Report and advise</h3>
-                    <p class="step-description">We deliver investor-ready financials and scale into Virtual CFO support as your startup grows.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Investor reports</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Scales to CFO</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="20" width="72" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M36 64l14-14 10 8 22-22" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="82" cy="36" r="3" fill="#25D366"/></svg></div>
-                        <span class="illustration-label">Reported and Advised</span>
-                        <span class="step-number-large">05</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Investor MIS tie-back</h3>
+    <p class="step-description">Burn, runway and the revenue metrics already reported to investors are rebuilt from the ledger using the definitions the company itself uses. Where the deck and the trial balance disagree, the difference is reconciled rather than restated.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-startups/step-5-investor-mis-tie-back.webp" alt="Illustration for Investor MIS tie-back: Burn, runway and the revenue metrics already reported to investors are rebuilt from" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Founder and related party review</h3>
+    <p class="step-description">Founder agreements, director current accounts and any loan to or from a director are examined against the restrictions on loans to directors and on related-party transactions. The approvals actually obtained are matched to the entries in the books.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-startups/step-6-founder-and-related-party-review.webp" alt="Illustration for Founder and related party review: Founder agreements, director current accounts and any loan to or from a" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">DPIIT and deduction condition tracking</h3>
+    <p class="step-description">DPIIT recognition and, where obtained, the Section 80-IAC approval are checked each year against the conditions attached to them, including turnover and incorporation-date limits. The year in which the deduction is claimed is then a decision on record.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-startups/step-7-dpiit-and-deduction-condition-tracking.webp" alt="Illustration for DPIIT and deduction condition tracking: DPIIT recognition and, where obtained, the Section 80-IAC approval" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What We Need to Start</h2>
+            <h2 class="section-title">Documents Required for Startup Accounting Services</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li>Incorporation documents and PAN or TAN.</li>
-                    <li>Bank statements and any existing books.</li>
-                    <li>GST registration details, if registered.</li>
-                    <li>Funding, cap table, and ESOP details, if any.</li>
-                    <li>Accounting software access or a preference.</li>
-                </ul>
-                <p style="margin-top:16px;">Ask us for a free startup compliance checklist before kickoff.</p>
-                <p style="margin-top:12px;"><strong>What you receive:</strong> monthly bookkeeping and a clean, investor-ready close; GST and TDS returns filed on time with summaries; financial statements (P and L, balance sheet, and cash flow); and guidance on DPIIT, Section 80-IAC, and ESOP compliance.</p>
+                <p>A funded company carries two extra sets of paperwork, the cap table and the investor agreements, and both change how ordinary transactions are recorded.</p>
+<ul>
+    <li>Cap table with the share register (Section 88 register of members) and all share allotment records</li>
+    <li>Investment documents: term sheet, SHA/SSA, CCPS or CCD terms, and the valuation used at each round</li>
+    <li>ESOP scheme document, board and shareholder approvals, grant letters, and the Register of Employee Stock Options in Form SH-6</li>
+    <li>Investor reporting pack and MIS definitions: the burn, runway, MRR and cohort metrics already reported to investors</li>
+    <li>DPIIT recognition certificate and, if claimed, the Section 80-IAC approval</li>
+    <li>Founder and related-party agreements, and any director loan or current-account records</li>
+    <li>Bank statements for all accounts, including foreign currency and any overseas subsidiary account</li>
+    <li>Sales invoices and customer contracts</li>
+    <li>Purchase and expense bills, including cloud, SaaS subscriptions and marketing spend, with corporate card statements</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Startup Challenges and How We Solve Them</h2>
+            <h2 class="section-title">Common Startup Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>Messy books before due diligence</td><td>Slows or derails fundraising rounds</td><td>Clean, investor-ready books from day one</td></tr>
-                        <tr><td>Missed startup tax benefits</td><td>Years of tax savings lost</td><td>DPIIT and Section 80-IAC set up correctly</td></tr>
-                        <tr><td>ESOP and equity confusion</td><td>Compliance gaps and team disputes</td><td>ESOP structuring and TDS deferral guidance</td></tr>
-                        <tr><td>No finance bandwidth</td><td>Founders pulled away from building</td><td>Outsourced team that scales into Virtual CFO</td></tr>
+                        <tr><td>Founder spends and company costs share personal cards</td><td>Books overstate profit and diligence flags related-party leakage, denting the valuation before a priced round.</td><td>Our team separates founder drawings into a director's current account and codes reimbursements against an approved policy.</td></tr>
+                        <tr><td>Annual prepaid deals booked as revenue upfront</td><td>Reported revenue inflates, then reverses, spooking investors halfway through diligence and distorting MRR.</td><td>We build a deferred revenue schedule that recognises each subscription month by month.</td></tr>
+                        <tr><td>ESOP charge not accrued as options vest</td><td>The share-based cost is understated, overstating profit and distorting the company's tax deduction at exercise.</td><td>Patron runs an Ind AS 102 charge schedule so the expense accrues evenly across the vesting period.</td></tr>
+                        <tr><td>Convertible notes and SAFEs left unclassified on the balance sheet</td><td>Auditors requalify them as liabilities, restating equity right before the raise closes.</td><td>We classify each instrument correctly and reconcile it to the cap table at every close.</td></tr>
+                        <tr><td>Burn and runway reported off a stale ledger</td><td>The board sees a stale runway figure and misjudges the timing of the next raise.</td><td>Our team closes monthly to a fixed date and reports burn from reconciled numbers; see the <a href="/blog/startup-accounting-checklist-year-one">year-one startup accounting needs</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1776,52 +2228,58 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Startup Accounting Fees in 2026</h2>
+            <h2 class="section-title">Startup Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td class="table-amount">Starting from INR 2,499 per month (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Funded startup with investor reporting</td><td class="table-amount">Quoted on volume and scope</td></tr>
-                        <tr><td>Virtual CFO add-on</td><td class="table-amount">Custom, quoted on scope</td></tr>
-                        <tr><td>DPIIT recognition (government fee)</td><td class="table-amount">Nil - DPIIT recognition is free on the Startup India portal</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one early-stage entity with steady monthly burn lines</td><td>INR 2,499 per month<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; later funding stage, cap-table events or an added group entity</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multiple entities with investor-ready monthly MIS and custom reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">Early founders begin at <strong>INR 2,499 per month</strong> for one entity with steady monthly books and a clean ledger. The price rises with entity stage, cap-table events and growing burn lines as the work broadens. Ask for a <strong>fixed quote</strong> on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Startup Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Startup%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Startup Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Onboarding Time</h2>
+            <h2 class="section-title">Startup Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Initial setup (cloud accounting and startup-ready chart of accounts)</td><td>About 1 week</td></tr>
-                        <tr><td>DPIIT recognition</td><td>Usually 1 to 3 working days of a complete application</td></tr>
-                        <tr><td>Section 80-IAC certificate</td><td>Separate, longer process handled in parallel</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>ESOP perquisite TDS deposit on allotment</td><td>7th of the month after allotment</td><td>Employers allotting shares under an approved ESOP</td></tr>
+                        <tr><td>Advance tax first instalment (15%)</td><td>15 June 2026</td><td>Companies, firms and individuals with a tax liability of Rs 10,000 or more</td></tr>
+                        <tr><td>Director KYC (DIR-3 KYC)</td><td>30 September 2026</td><td>Every director holding a DIN as on 31 March</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Financial statements filing (Form AOC-4)</td><td>Within 30 days of the AGM (by 29 October 2026 for a 30 September AGM)</td><td>Companies filing audited financials with the ROC</td></tr>
+                        <tr><td>Annual return (Form MGT-7 / MGT-7A)</td><td>Within 60 days of the AGM (by 28 November 2026 for a 30 September AGM)</td><td>Companies filing the annual return with the ROC</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p>Initial setup, including cloud accounting and a startup-ready chart of accounts, typically takes about one week. DPIIT recognition is usually granted within one to three working days of a complete application, while the Section 80-IAC certificate is a separate, longer process handled in parallel.</p>
+                    <p>For a funded startup the sharpest dates are the ESOP perquisite TDS on the 7th after allotment and the ROC filings, AOC-4 by 29 October and MGT-7 by 28 November. Director KYC is due 30 September. Patron's <a href="/blog/section-80-iac-startup-tax-holiday">startup accounting</a> team runs board and tax dates on one calendar so nothing slips before a diligence. Request a consultation on +91 94594 56700 to set filing reminders.</p>
 
                 </div>
             </div>
@@ -1829,70 +2287,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Benefits of Specialist Startup Accounting</h2>
+            <h2 class="section-title">Why Professional Startup Accounting Matters</h2>
         </div>
         <div class="features-grid">
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-            <h3 class="feature-title">Investor-ready books</h3>
-            <p class="feature-desc">Clean, due-diligence ready records that speed up fundraising and audits.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
-            <h3 class="feature-title">Tax benefits captured</h3>
-            <p class="feature-desc">Valuable reliefs secured through DPIIT recognition and the Section 80-IAC tax holiday.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-            <h3 class="feature-title">Full compliance from day one</h3>
-            <p class="feature-desc">GST, TDS, ITR, and audit handled correctly from the start.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
-            <h3 class="feature-title">Scales into Virtual CFO</h3>
-            <p class="feature-desc">A finance partner that grows with you into board reporting and forecasting.</p>
-        </article>
-    </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 7h6v6" /> <path d="m22 7-8.5 8.5-5-5L2 17" /> </svg></div>
+  <h3 class="feature-title">Cap table the register supports</h3>
+  <p class="feature-text">Your working cap table, the statutory register of members and the share capital in the books all carry the same holdings.</p><ul style="margin-top:12px;"><li>working cap table tied to the Section 88 register of members</li><li>share capital and securities premium in the books agree</li><li>Without it, allotments retraced under an investor's counsel in diligence</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /> <circle cx="12" cy="12" r="3" /> </svg></div>
+  <h3 class="feature-title">Option grants that stand up</h3>
+  <p class="feature-text">Your option grants, vesting, exercises and lapses sit in the Form SH-6 register, with board and shareholder approvals behind them.</p><ul style="margin-top:12px;"><li>grants, vesting, exercises and lapses in the Form SH-6 register</li><li>share-based payment charge spread over the vesting schedule</li><li>Without it, informal email grants leave options the company cannot evidence</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div>
+  <h3 class="feature-title">Investor metrics traceable to ledger</h3>
+  <p class="feature-text">Your burn, runway and revenue metrics are rebuilt from the trial balance on your own definitions. Any gap against the deck is explained.</p><ul style="margin-top:12px;"><li>burn, runway and revenue rebuilt from the trial balance</li><li>your own definitions used, gap against the deck explained</li><li>Without it, a fund's analyst arrives at a different figure</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">Convertible instruments in the right place</h3>
+  <p class="feature-text">We classify compulsorily convertible preference shares or debentures from the actual instrument terms, and treat round costs on a stated basis.</p><ul style="margin-top:12px;"><li>CCPS and CCD terms read to decide balance sheet treatment</li><li>round costs treated on a stated basis</li><li>Without it, equity misread by a lender or later investor</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3 4 7l4 4" /> <path d="M4 7h16" /> <path d="m16 21 4-4-4-4" /> <path d="M20 17H4" /> </svg></div>
+  <h3 class="feature-title">Related party dealings on record</h3>
+  <p class="feature-text">You know which founder dealings the company actually approved. We match director accounts, founder agreements and director loans to the approvals obtained.</p><ul style="margin-top:12px;"><li>director current accounts, founder agreements and director loans matched to approvals</li><li>loans to directors tested against approvals obtained</li><li>Without it, an unapproved entry left standing for auditors and reviewers</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">A deduction claim you can support</h3>
+  <p class="feature-text">You claim the Section 80-IAC deduction in a year on record, because we test DPIIT recognition and its conditions each year.</p><ul style="margin-top:12px;"><li>DPIIT recognition and 80-IAC conditions tested each year</li><li>turnover and incorporation-date limits checked before the claim</li><li>Without it, a claim made in a year the company no longer qualifies</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Startups Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Processed | 15+ Years</strong></p>
-                <p>"I recently got my business incorporated and I am extremely satisfied with their services. They made the entire process of incorporation smooth and hassle-free. The team was very professional, knowledgeable, and always ready to assist me." - Shahriar, Google Review</p>
-                <p>"I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free." - Subhendu Mishra, Google Review</p>
-                <p><strong>Outcome proof:</strong> a seed-stage startup walked into diligence with clean books, DPIIT recognition, and an 80-IAC plan in place, turning a potential red flag into a point of confidence for investors.</p>
-                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Startup Accounting Services India</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Cap table and books that agree before diligence</strong><p>With 15+ years across 3,000+ businesses, we keep your equity register and ledger tied together, so convertible notes, CCPS and option grants reconcile long before an investor's diligence opens them.</p></div>
+                <div><strong>DPIIT recognition, Section 80-IAC and ESOP timing</strong><p>DPIIT recognition, <a href="/blog/section-80-iac-startup-tax-holiday">the Section 80-IAC tax holiday</a> and ESOP perquisite timing are routine filings for us, part of the 25,000+ filings completed, kept correct so an eligibility condition never slips.</p></div>
+                <div><strong>Zoho Books or Xero set up to scale</strong><p>We work across Zoho Books and Xero, and we set the chart of accounts, classes and reporting to hold from seed through a priced round without a rebuild.</p></div>
+                <div><strong>Investor MIS on burn, runway and cohort</strong><p>Every month your investors get an MIS on <a href="/blog/burn-rate-runway-explained-founders">burn rate and runway</a> drawn straight from the ledger, the monthly cadence behind our 4.9 star Google rating.</p></div>
+                <div><strong>Funded startups among 3,000+ businesses served</strong><p>Funded startups sit among the 3,000+ businesses we have served since 2019. Our in-house team of CAs and CS, with 15+ years of experience, backs them, reflected in our 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY vs Specialist Startup Accounting</h2>
+            <h2 class="section-title">Founder-Led Books vs Outsourced Startup Accounting</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>DIY / Generalist</th><th>Patron Startup Accounting</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Founder-Led Books</th><th>Outsourced Startup Accounting</th></tr></thead>
                     <tbody>
-                        <tr><td>Tax benefits</td><td>Often missed</td><td>DPIIT and 80-IAC captured</td></tr>
-                        <tr><td>Investor readiness</td><td>Patchy books</td><td>Clean, due-diligence ready</td></tr>
-                        <tr><td>ESOP and equity</td><td>Unclear</td><td>Structured with deferral guidance</td></tr>
-                        <tr><td>Scalability</td><td>Stuck at compliance</td><td>Scales into Virtual CFO</td></tr>
+                        <tr><td>Monthly cost</td><td>No fee, but founder hours move away from product and fundraising</td><td>A monthly engagement fee buys a finance function without a full salary</td></tr>
+                        <tr><td>Compliance risk</td><td>Missed returns and messy ledgers are common when founders self-record</td><td>Deadline tracking and review cut the risk of late or wrong filings</td></tr>
+                        <tr><td>Investor readiness</td><td>Cap table and metrics often lack a clean ledger trail</td><td>Books map to a supportable cap table and investor metrics</td></tr>
+                        <tr><td>Scalability</td><td>Works at seed stage, strains once transactions and headcount rise</td><td>Capacity grows with the company through each funding round</td></tr>
+                        <tr><td>Founder time</td><td>Consumes evenings and weekends better spent on growth</td><td>Frees the founder to focus on customers and runway</td></tr>
+                        <tr><td>Software and controls</td><td>Usually a spreadsheet with no segregation of duties</td><td>Cloud accounting with approval controls built in from the start</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Founder-led books suit the earliest pre-revenue weeks. Once you raise or bill customers, outsourced startup accounting services protect your runway and cap table, as <a href="/blog/when-startup-should-hire-ca">when a startup should hire</a> sets out.</td></tr>
 
                     </tbody>
                 </table>
@@ -1902,201 +2378,193 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Startup Accounting</h2>
             <div class="content-text">
                 
-                <p>Startup accounting works alongside our wider compliance and growth stack. As you scale, we move you onto Virtual CFO support. Explore these closely related services:</p>
-                <ul>
-                    <li><a href="/accounting-services">Accounting Services</a> - full-service bookkeeping and financial reporting.</li>
-                    <li><a href="/startup-registration">Startup Registration</a> - DPIIT recognition and Startup India onboarding.</li>
-                    <li><a href="/private-limited-company-registration">Private Limited Company Registration</a> - the investor-preferred structure for equity funding.</li>
-                    <li><a href="/esop-services">ESOP Services</a> - scheme design, valuation, and compliance for your team.</li>
-                    <li><a href="/gst-returns">GST Returns Filing</a> - monthly and annual return preparation and filing.</li>
-                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR preparation and filing for the company and founders.</li>
-                </ul>
+                <p>Incorporating as a private limited company is what pulls a startup into the fullest version of the framework: Section 128 books, Schedule III statements and a live audit trail apply from day one, well before there is revenue to report. On top of that sits a set of reliefs that only a recognised startup can claim, which is where the specialised work begins.</p>
+<p>Those reliefs turn on records kept prospectively, not reconstructed later. A <a href="/glossary/cap-table-dilution">Cap Table Dilution</a> history, the grant terms behind each ESOP and the <a href="/glossary/monthly-burn-rate">Monthly Burn Rate</a> that lenders and boards read all have to be evidenced as they happen. Startup accounting services keep the statutory books and this second layer in step, against the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>DPIIT recognition under the Startup India notification</strong></span><span class="al-d">A DPIIT-recognised startup unlocks the tax and compliance reliefs that follow, and the recognition is the reference point every later claim is checked against. Eligibility runs off the DPIIT Startup India notification and CBDT's recognition-linked exemption notifications.</span></li><li><span class="al-t"><strong>Section 80-IAC, Income-tax Act 1961</strong></span><span class="al-d">An eligible DPIIT startup can claim a 100% deduction of profits for three consecutive years out of its first ten.</span></li><li><span class="al-t"><strong>Section 17(2)(vi) with Section 192, Income-tax Act 1961</strong></span><span class="al-d">An ESOP is a perquisite taxed on exercise, and an eligible startup may defer the TDS under Section 191(2)/192(1C) to ease the employee's cash flow.</span></li><li><span class="al-t"><strong>Section 56(2)(viib), Income-tax Act 1961</strong></span><span class="al-d">The angel-tax charge on share premium above fair value no longer applies from AY 2025-26, though the valuation records behind earlier rounds are still worth keeping.</span></li><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">Books stay on accrual and double entry at the registered office from incorporation and are retained for eight years.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail is enabled from the first entry, so a diligence team can rely on the edit history. Incorporation itself is handled on the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul>
+<p class="compliance-note"><strong>Practical note:</strong> During due diligence, the two things most often flagged are a cap table that does not tie back to the books and ESOP grants recorded without board approval or a fair-value working.</p><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Startup Tax Benefits and Compliance</h2>
-            <div class="content-text">
-                
-                <p>DPIIT recognition under Startup India is the entry point to startup benefits. It is free, usually granted within one to three working days, and stays valid for up to ten years from incorporation or until turnover crosses Rs 100 crore. Recognition opens the door to the Section 80-IAC tax holiday, self-certification, and other reliefs.</p>
-                <p>The Section 80-IAC equivalent gives eligible startups a three-year income tax holiday, with the incorporation window extended to 31 March 2030, subject to Inter-Ministerial Board certification. Angel tax under Section 56(2)(viib) was abolished from 1 April 2025, so fresh fundraising is no longer taxed on premium above fair market value, although legacy assessments for earlier years can still arise. Eligible startups also enjoy a tax deferral on ESOP perquisites. We help you secure and document each of these correctly.</p>
-                <p>For official guidance on DPIIT recognition and startup benefits, refer to the <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India / DPIIT portal (startupindia.gov.in)</a>.</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    <p class="faq-expanded__lead">Real questions founders ask about startup tax benefits, DPIIT and Section 80-IAC, audits, structure, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    <h2 class="faq-expanded__title">Startup Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Cap table, ESOP perquisite, DPIIT and Section 80-IAC, investor MIS and pricing for funded and bootstrapped Indian startups.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your startup's books</h3>
+  <p class="faq-enquiry__sub">Send your funding stage and number of entities for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Startup Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is startup accounting?</h3>
-                        <div class="faq-expanded__a"><p>Startup accounting is accounting and compliance tailored to early-stage companies. Alongside bookkeeping, GST, TDS, and income tax, it covers startup-specific areas such as DPIIT recognition, the Section 80-IAC tax holiday, ESOP structuring, and investor-ready financial statements. The goal is to keep founders compliant while building the financial credibility investors expect.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What tax benefits do startups get in India?</h3>
-                        <div class="faq-expanded__a"><p>DPIIT-recognised startups can access a three-year income tax holiday under the Section 80-IAC equivalent, subject to Inter-Ministerial Board certification, along with self-certification reliefs, IPR rebates, and an ESOP perquisite tax deferral. Angel tax has also been abolished. These benefits can save a startup significant tax during its early growth years.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">Is angel tax still applicable to startups?</h3>
-                        <div class="faq-expanded__a"><p>No. Angel tax under Section 56(2)(viib) was abolished with effect from 1 April 2025 through the Finance Act 2024. Fresh fundraising at a premium above fair market value is no longer taxed in the hands of the startup, for all investors. However, the abolition is prospective, so demand notices for earlier assessment years can still need to be defended.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What is DPIIT recognition and Section 80-IAC?</h3>
-                        <div class="faq-expanded__a"><p>DPIIT recognition is Startup India recognition from the Department for Promotion of Industry and Internal Trade. It is free, usually granted within a few working days, and valid for up to ten years or until turnover reaches Rs 100 crore. Section 80-IAC is the income tax holiday, three years of exemption, available to eligible recognised startups that obtain Inter-Ministerial Board certification.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">When does a startup need an audit?</h3>
-                        <div class="faq-expanded__a"><p>A private limited company must have an annual statutory audit regardless of its income or turnover. A tax audit under the Income-tax Act applies once turnover exceeds Rs 1 crore for business, or Rs 50 lakh for a profession, with a higher threshold where most transactions are digital. We assess which audits apply and keep your books ready for them.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Should a startup register as a Private Limited Company or LLP?</h3>
-                        <div class="faq-expanded__a"><p>Both are popular, but only a private limited company or an LLP is eligible for the Section 80-IAC tax holiday, and investors generally prefer a private limited company for equity funding and ESOPs. The right choice depends on your funding plans, compliance appetite, and growth path, which we help you weigh before incorporation.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">Do you help with investor reporting and fundraising?</h3>
-                        <div class="faq-expanded__a"><p>Yes. We prepare investor-ready financial statements, P and L, balance sheet, and cash flow, along with the metrics investors track. As you scale, startup accounting upgrades into our Virtual CFO service for board reporting, forecasting, and active support through your fundraising and diligence.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">How much do startup accounting services cost in India?</h3>
-                        <div class="faq-expanded__a"><p>Patron Accounting startup accounting starts from INR 2,499 per month (Exl GST and Govt. Charges). The final fee depends on transaction volume, the number of GST and TDS returns, funding stage, and whether ESOP or investor reporting is required. Early-stage founders get the entry rate, and funded startups receive a fixed quote after a free assessment.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-9">
-                        <h3 class="faq-expanded__q">Naye startup ke accounts aur tax benefits kaise manage karein?</h3>
-                        <div class="faq-expanded__a"><p>Aap apne incorporation documents, bank statements, aur funding details share kijiye. Hum bookkeeping, GST, TDS, aur ITR ke saath DPIIT recognition aur Section 80-IAC jaise startup benefits set up karte hain, aur investor-ready financials dete hain. Grow karne par hum aapko Virtual CFO support par le jaate hain. Free consultation ke liye call kijiye.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What should you look for in a startup tax accountant?</h3>
+  <div class="faq-expanded__a"><p>Look for a firm that files your GST and TDS returns and also handles founder-level items such as ESOP perquisite tax, share allotment reporting and investor diligence packs. Ask how many funded startups they keep books for, which software they work in, and who signs off. Cheap data entry with no tax review surfaces as a diligence problem later.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What should an AI startup look for in an accountant?</h3>
+  <div class="faq-expanded__a"><p>An AI startup needs an accountant who can treat GPU and cloud spend correctly, decide what is expensed against what is capitalised as an intangible, and handle withholding under Section 195 on payments to foreign compute and model providers. Add transfer pricing if any group entity sits offshore. Few generic bookkeeping firms cover all three together.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a startup need an accountant?</h3>
+  <div class="faq-expanded__a"><p>Yes, a private limited startup needs an accountant from incorporation, because TDS returns, annual ROC filings and the income tax return all begin whether or not there is revenue, and GST returns start the month you register. Spreadsheets survive the first few months, but investor diligence, ESOP accounting and reconciled statutory dues need a qualified reviewer. Most founders switch to a firm at the first institutional round.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What monthly reports do the board and investors receive?</h3>
+  <div class="faq-expanded__a"><p>You get a monthly pack by the 15th of the following month covering profit and loss, balance sheet, cash flow, burn rate, runway in months and a statutory dues status. Investor-specific views such as departmental spend or unit economics are added where the term sheet requires them. The same pack feeds quarterly board reporting without rework.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you handle ESOP accounting and the tax when employees exercise?</h3>
+  <div class="faq-expanded__a"><p>ESOP cost is charged to the profit and loss over the vesting period using a valuation, and on exercise the difference between fair market value and exercise price is a perquisite on which the company deducts TDS from salary. Eligible recognised startups can defer that deduction. We also maintain the grant register and the perquisite disclosure.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is startup accounting?</h3>
+  <div class="faq-expanded__a"><p>Startup accounting is bookkeeping and reporting built around burn, runway and investor requirements rather than statutory filing alone. It covers monthly books in Zoho Books or Tally, GST and TDS returns, payroll, the ESOP grant register, cap table support, a monthly MIS showing burn and runway, and a standing diligence folder of signed financials, reconciliations and board minutes so a term sheet never triggers a three week scramble.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does startup accounting cost in the first year?</h3>
+  <div class="faq-expanded__a"><p>Early-stage startups usually pay Rs 8,000 to Rs 15,000 a month for bookkeeping, GST and TDS returns and a monthly MIS, with annual ROC filings and the income tax return quoted on top. Funded companies running payroll, multiple GST registrations and investor reporting move to Rs 25,000 upward. We quote after seeing one month of volume.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What extra compliance does DPIIT startup recognition create?</h3>
+  <div class="faq-expanded__a"><p>Recognition brings annual reporting on the Startup India portal and access to the <a href="/blog/section-80-iac-startup-tax-holiday">Section 80-IAC tax holiday</a>, which needs separate approval from the inter-ministerial board and is never automatic. Ordinary Companies Act, GST and TDS compliance continues unchanged alongside it. We track which exemptions you have actually been granted rather than assuming recognition covers everything.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How quickly can a startup's books be taken over from a previous accountant?</h3>
+  <div class="faq-expanded__a"><p>Handover normally completes in 10 to 15 working days from receipt of the trial balance, ledgers, bank statements and software credentials. We reconcile opening balances before posting anything new and list every difference we find in writing. Where the earlier accountant has gone quiet, the ledgers are reconstructed from banking records and the returns already on the GST portal.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What happens if a startup has missed ROC and TDS filings?</h3>
+  <div class="faq-expanded__a"><p>Missed filings are cleared in order of penalty exposure, because ROC forms carry an additional fee that keeps accruing daily while TDS defaults attract interest plus a late filing fee. We first list every open default from the MCA and TRACES portals, then file oldest first. Directors are told the total cost before work starts.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <ul>
-                    <li><strong>Starting price?</strong> INR 2,499 per month (Exl GST).</li>
-                    <li><strong>Key benefit?</strong> DPIIT and Section 80-IAC tax holiday.</li>
-                    <li><strong>Angel tax?</strong> Abolished from 1 April 2025.</li>
-                    <li><strong>Audit?</strong> Statutory for Pvt Ltd; tax audit above Rs 1 cr.</li>
-                    <li><strong>Scales to?</strong> Virtual CFO as you grow.</li>
-                </ul>
+                <p>Startup accounting keeps a funded company's books agreeing with its cap table and statutory registers: it accounts for funding rounds and convertible instruments, maintains the ESOP option register and perquisite TDS, rebuilds investor MIS on burn and runway from the ledger, and tracks DPIIT recognition and Section 80-IAC deduction conditions.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Getting This Right Early Matters</h2>
+            <h2 class="section-title">Startup Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Investors examine your books first, and messy records or missed compliance are common reasons rounds slow down. DPIIT recognition and Section 80-IAC must be in place to capture years of tax savings, and clean ESOP records protect your team. Setting up proper startup accounting from day one means every fundraise and audit starts from strength, not a scramble.</p>
-                <p><strong>Get a free, no-obligation quote. Call <a href="tel:+919459456700">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Startup%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank">WhatsApp our team</a> today.</strong></p>
+                <p>Three dates catch funded startups out. <strong>ESOP perquisite TDS is due by the 7th of the month after allotment</strong> &mdash; miss it and the shortfall surfaces in the employee's Form 16 and your TDS return. The <strong>first advance-tax instalment falls on 15 June</strong> once you are profitable, and <strong>Form AOC-4 and MGT-7 follow the AGM</strong> (roughly 29 October and 28 November for a 30 September AGM). Patron tracks each against your cap-table and payroll events so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Build Books Investors Trust</h2>
-            <div class="content-text" style="text-align:left;color:#FFFFFF !important;">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Startup Accounting Services with Patron Accounting</h2>
+            <div class="content-text" style="text-align:left;">
                 
-                <p>For a startup, finance is not just compliance, it is credibility. Patron Accounting keeps your bookkeeping, GST, TDS, and tax filings clean, secures your DPIIT and Section 80-IAC benefits, supports your ESOPs, and delivers investor-ready financials.</p>
-                <p>And as you grow, we scale with you into full Virtual CFO support. Call +91 945 945 6700, WhatsApp us, or request a free consultation.</p>
+                <p style="color:rgba(255,255,255,0.88);">Nobody decides to take their books seriously on a quiet Tuesday. It happens when a term sheet is close, because diligence runs on the investor&#x27;s calendar rather than on yours. The ledger you present is then the one you already kept, not one assembled afterwards in a hurry, and that difference shows immediately.</p>
+<p style="color:rgba(255,255,255,0.88);">Investor updates stop being a fortnight of work once accounting for startups runs continuously. Every number a fund queries traces to a schedule that already exists, closed and dated, so a follow-up email causes a lookup rather than a rebuild. Founder time goes back to the business it was raised for.</p>
+<p style="color:rgba(255,255,255,0.88);">The cap table is where we start: what was issued, on what terms, and whether the register in your books reflects it. Option grants made informally come next, along with any recognition claim you intend to make, as they do for <a href="/accounting-services-it-saas">companies billing on subscription</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Startup%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Startup Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Startup Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Startup%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Startup%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Startup Accounting Services Near You</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">On-the-ground support in major startup hubs, plus remote service across India.</p>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Startup Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local startup accounting teams for founders in these cities.</p>
             
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid">
-                    <a href="/accounting-services-for-startups/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/accounting-services-for-startups/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/accounting-services-for-startups/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                    <a href="/accounting-services-for-startups/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Startup Accounting</div>
-                <div class="pa-cross-grid"><a href="/accounting-bookkeeping-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting &amp; Bookkeeping Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/startup-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Startup Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/private-limited-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Private Limited Company Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">India</div></div></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 2 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">2 June 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 2 December 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed every six months for accuracy on compliance and tax-sensitive details (Freshness Tier 2).</p>
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Serve</div><div class="pa-block-sub">On-ground startup accounting teams</div><div class="pa-city-grid"><a href="https://www.patronaccounting.com/accounting-services-for-startups/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-startups/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-startups/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-startups/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div>
+<div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for founders</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Industries</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/esop-accounting-ind-as-102" class="pa-cross-card"><div class="pa-card-title">ESOP Accounting (Ind AS 102)</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
 
 
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+@endsection
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
+
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2167,8 +2635,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2178,8 +2646,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2260,7 +2728,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2270,34 +2738,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-           function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2308,12 +2774,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2329,7 +2796,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2344,7 +2811,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2375,7 +2842,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2424,9 +2891,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2566,7 +3031,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2596,7 +3061,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-     var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2616,7 +3080,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2694,7 +3158,7 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
@@ -2703,55 +3167,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2789,8 +3222,9 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-@endsection
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');

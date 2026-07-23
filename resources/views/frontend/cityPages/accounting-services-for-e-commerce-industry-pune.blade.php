@@ -1,1105 +1,200 @@
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>E-Commerce Accounting in Pune - GST, TDS & Bookkeeping</title>
-    <meta name="description" content="CA-assisted e-commerce accounting in Pune. GST TCS reconciliation, marketplace payment tracking, D2C financial reporting. Serving Hinjewadi, Kharadi, Baner businesses. Call +91 945 945 6700.">
-    <link rel="canonical" href="/accounting-services-for-e-commerce-industry/pune">
+    <title>E-Commerce Accounting Services in Pune, by Local CAs | Patron Accounting</title>
+    <meta name="description" content="For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="E-Commerce Accounting in Pune - GST, TDS & Bookkeeping">
-    <meta property="og:description" content="CA-assisted e-commerce accounting in Pune. GST TCS reconciliation, marketplace payment tracking, D2C financial reporting. Serving Hinjewadi, Kharadi, Baner businesses. Call +91 945 945 6700.">
-    <meta property="og:url" content="/accounting-services-for-e-commerce-industry/pune">
+    <meta property="og:title" content="E-Commerce Accounting Services in Pune, by Local CAs | Patron Accounting">
+    <meta property="og:description" content="For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-e-commerce-industry-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry/pune-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="E-Commerce Accounting in Pune - GST, TDS & Bookkeeping">
-    <meta name="twitter:description" content="CA-assisted e-commerce accounting in Pune. GST TCS reconciliation, marketplace payment tracking, D2C financial reporting. Serving Hinjewadi, Kharadi, Baner businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-e-commerce-industry-pune-og.webp">
+    <meta name="twitter:title" content="E-Commerce Accounting Services in Pune, by Local CAs | Patron Accounting">
+    <meta name="twitter:description" content="For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry/pune-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune#localbusiness",
+        "name": "Patron Accounting LLP - Pune",
+        "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
+        "telephone": "+91 94594 56700",
+        "parentOrganization": {
+                "@id": "https://www.patronaccounting.com/#organization"
+        },
+        "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
+                "addressLocality": "Wagholi",
+                "addressRegion": "Maharashtra",
+                "postalCode": "412207",
+                "addressCountry": "IN"
+        },
+        "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "13",
+                "bestRating": "5",
+                "worstRating": "1"
+        },
+        "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 18.57944655,
+                "longitude": 73.9682987
+        },
+        "hasMap": "https://www.google.com/maps?q=18.5794466,73.9682987"
+}
+</script>
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
+    <script type="application/ld+json">
     {
-      "@type": "Service",
-      "name": "E-commerce Accounting Services in Pune",
-      "description": "CA-assisted e-commerce accounting in Pune. GST TCS reconciliation, marketplace payment tracking, D2C financial reporting. Serving Hinjewadi, Kharadi, Baner businesses. Call +91 945 945 6700.",
-      "url": "/accounting-services-for-e-commerce-industry/pune",
-      "serviceType": "E-commerce Accounting Services in Pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#service",
+        "name": "E-Commerce Accounting Services in India",
+        "description": "Settlement-wise accounting for online sellers in India: marketplace settlement reconciliation, GST TCS (Section 52) and Section 194-O TDS tracking, returns and RTO provisioning, fulfilment-centre stock control and channel-wise margin reporting.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "E-commerce", "sameAs": "https://en.wikipedia.org/wiki/E-commerce" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "E-Commerce Accounting Service Plans",
+            "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com" }, { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" }, { "@type": "ListItem", "position": 3, "name": "E-Commerce Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" }, { "@type": "ListItem", "position": 4, "name": "Pune", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" } ]
         }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/accounting-services-for-e-commerce-industry/pune",
-        "price": "2499"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Ecommerce Accounting Services in India",
-          "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "E-commerce Accounting Services in Pune",
-          "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which GST office handles e-commerce seller compliance in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GST Commissionerate, Pune handles all GST compliance for e-commerce sellers registered in the Pune jurisdiction. Income tax compliance is managed through the Pune Income Tax Office. Patron Accounting manages filings across both offices from our Pune location."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get e-commerce accounting done online from Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron Accounting provides fully digital e-commerce accounting from our Pune office at RTC Silver, Wagholi. Marketplace data, bank statements, and invoices are collected digitally. All GST and ITR filings are completed online. Sellers can also visit for in-person consultations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the fee for e-commerce accounting in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees start from Rs 2,499 per month for sellers with up to 100 transactions on a single marketplace. Multi-channel sellers with 300 plus transactions pay Rs 6,500 per month. Enterprise packages with multi-state GST are available at custom rates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to set up e-commerce accounting for a Pune seller?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Initial channel audit takes 3 to 5 working days. Full accounting setup with marketplace integration is completed within 10 to 15 working days. First monthly MIS delivered within 30 days. TCS reconciliation backlogs cleared within 45 days if applicable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do Amazon and Flipkart sellers in Pune need GST registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under Section 24 of the CGST Act, all sellers making supplies through an e-commerce operator must register for GST regardless of turnover. Exception applies under Notification 34/2023 for sellers below threshold making only intra-state supplies with PAN enrolment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does TCS under Section 52 affect Pune e-commerce sellers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Marketplace operators deduct 1 percent TCS on net taxable supplies before settling payments. For intra-state sales in Maharashtra, this is 0.5 percent CGST plus 0.5 percent SGST. TCS appears in GSTR-2B and can be claimed in electronic cash ledger. Patron reconciles monthly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between TCS Section 52 and TDS Section 194O for e-commerce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TCS under Section 52 CGST Act is a GST mechanism collecting 1 percent tax at source on marketplace transactions. TDS under Section 194O Income Tax Act deducts 0.1 percent on gross sales. Both are deducted by the operator. TCS is claimed in GST returns, TDS in income tax returns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Maharashtra Professional Tax apply to e-commerce businesses in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "All Pune e-commerce businesses with employees must register for PTRC and deduct professional tax from salaries under Maharashtra PT Act 1975. Maximum PT is Rs 2,500 per annum for employees earning above Rs 10,000 monthly. PTEC for business entities is Rs 2,500 per year. Quick Answers Pune mein e-commerce ka accounting kaun karta hai? Patron Accounting's Pune office provides dedicated CA-led accounting for Amazon sellers, Flipkart vendors, D2C brands, and all online sellers in Pune. Amazon pe bechne ke liye GST registration Pune mein zaroori hai? Haan. Section 24(x) CGST Act ke under sabhi e-commerce sellers ko GST registration lena zaroori hai, chahe turnover kitna bhi ho. TCS kitna kata jaata hai marketplace se? 1% total (0.5% CGST + 0.5% SGST intra-state, ya 1% IGST inter-state) under Section 52 CGST Act."
-          }
-        }
-      ]
     }
-  ]
-}</script>
-@endsection
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" },
+            { "@type": "ListItem", "position": 3, "name": "E-Commerce Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#faq",
+        "datePublished": "2026-07-23T08:00:00+05:30",
+        "dateModified": "2026-07-23T08:00:00+05:30",
+        "mainEntity": [
+            {"@type":"Question","name":"How much GST TCS do Amazon and Flipkart deduct from a Pune D2C brand, and how is it recovered?","acceptedAnswer":{"@type":"Answer","text":"Marketplaces deduct GST TCS at 0.5% of net taxable supplies, being 0.25% CGST plus 0.25% SGST, under Section 52. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. We reconcile every settlement report against GSTR-2B monthly so the accepted credit offsets your Maharashtra GSTR-3B liability due on the 22nd."}},
+            {"@type":"Question","name":"What TDS do e-commerce operators deduct from a Pune seller's payouts?","acceptedAnswer":{"@type":"Answer","text":"Section 194-O TDS is 0.1% of the gross sales value, deducted by the operator before the payout reaches your Pune bank account, not 1% as is often assumed. We match every 194-O entry in Form 26AS against seller-panel settlement files, because operators report on gross order value while your books carry sales net of returns, and that gap turns into a mismatch notice."}},
+            {"@type":"Question","name":"Does a Pune warehouse and packing team trigger Maharashtra professional tax?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maharashtra needs PTEC for the business entity and PTRC once you pay salaries, including pickers and packers at a Chakan or Wagholi fulfilment unit. PTRC returns are monthly where the previous year liability exceeded Rs 1 lakh and annual below that. E-commerce payrolls run with both registrations mapped, so seasonal Diwali hiring does not create a PTRC gap."}},
+            {"@type":"Question","name":"Does a D2C brand in Baner with a third-party warehouse in Chakan need two GST registrations?","acceptedAnswer":{"@type":"Answer","text":"No. A Baner office and a Chakan 3PL warehouse both sit in Maharashtra, so one state GSTIN covers them with the warehouse added as an additional place of business. Only a fulfilment centre in another state needs its own registration there. We map each warehouse to the right GSTIN and reconcile stock transfers so marketplace inventory reports agree with your books."}},
+            {"@type":"Question","name":"Can records be collected from a Kharadi office, or is everything online?","acceptedAnswer":{"@type":"Answer","text":"Both are available. Our Pune office at RTC Silver, Wagholi is roughly twenty minutes from Kharadi, so document pickup and quarter-end reviews at your premises are practical. Most e-commerce work still runs remotely because settlement reports, payment gateway statements and courier RTO files are portal downloads, not paper. On-site visits are reserved for stock counts and auditor walkthroughs."}},
+            {"@type":"Question","name":"How do you account for RTO parcels and customer returns that come back weeks after the sale?","acceptedAnswer":{"@type":"Answer","text":"Returns are provided for in the month of dispatch, using your own channel-wise return percentage, rather than being written off when the parcel physically arrives. COD-heavy categories such as apparel and footwear carry the highest rates, so an unprovided return pipeline overstates a Pune seller's monthly profit. Credit notes then reduce GST output tax in the month they are issued."}},
+            {"@type":"Question","name":"Why does a Flipkart payout never match the invoice value, and how is it corrected in the books?","acceptedAnswer":{"@type":"Answer","text":"A payout equals invoice value minus commission, fixed and closing fees, shipping, penalties, 0.5% GST TCS and 0.1% 194-O TDS, so it can never match. We rebuild each settlement line by line, post every deduction to its own ledger head, and claim input credit on marketplace commission invoices, which is the largest recoverable amount most Pune sellers leave unclaimed."}},
+            {"@type":"Question","name":"How do you bring Shopify, Razorpay and courier COD remittances into one set of books?","acceptedAnswer":{"@type":"Answer","text":"Each channel is reconciled to its own control account: gateway payouts against Razorpay settlement files, COD against courier remittance advice, and marketplace sales against settlement reports. Unmatched items age in a suspense ledger with a named owner and a date. For a Pune brand shipping nationally, the COD courier float is usually the largest reconciling item and the first thing an auditor questions."}},
+            {"@type":"Question","name":"What does e-commerce accounting cost for a Pune seller, and what drives the price?","acceptedAnswer":{"@type":"Answer","text":"Fees are driven by monthly order volume, the number of sales channels and the number of GST registrations, not by turnover alone. A single-channel Pune seller costs far less than a brand running Amazon, Flipkart, Shopify and quick commerce with warehouses in three states. We quote a fixed monthly retainer after reviewing three months of settlement reports. Fees exclude GST and government charges."}},
+            {"@type":"Question","name":"How long must a Pune e-commerce company keep settlement files and books of account?","acceptedAnswer":{"@type":"Answer","text":"Eight financial years, under Section 128(5) of the Companies Act 2013, and your accounting software must maintain an unalterable audit trail with edit logs. Marketplace panels purge old settlement reports much sooner, so we archive each month's downloads to storage you control. Income-tax reassessment under Section 149 can reach three years three months, or five years three months above Rs 50 lakh escaped income."}}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
+        "name": "E-Commerce Accounting Services in India",
+        "description": "For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.",
+        "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#service" },
+        "datePublished": "2026-07-23T08:00:00+05:30",
+        "dateModified": "2026-07-23T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "reviewedBy": { "@id": "https://www.patronaccounting.com/#team" },
+        "lastReviewed": "2026-07-23",
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "13", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    @endsection
 
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column - right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION - Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot - Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
+<link rel="stylesheet" href="/css/patron-cluster.css">
 
 @section('content')
 <main>
 
 
-<!-- HERO SECTION -->
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;"><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" style="color:var(--text-muted);text-decoration:none;font-weight:500;">E-Commerce Accounting</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li><span style="color:var(--orange);font-weight:600;">Pune</span></li></ol>
+    </div>
+</nav>
+
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1108,10 +203,10 @@
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         Trusted by 10,000+ Businesses
-                    </div>
+                    </div><span class="pa-hero-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        E-commerce Accounting Services in Pune: CA-Led Financial Management for Online Sellers
+                        E-Commerce Accounting Services in Pune
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1120,42 +215,36 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">18 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="#" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Documents:</span> GST registration certificate, marketplace seller dashboard access, bank statements, purchase invoices</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Settlement reconciliation:</span> Every Amazon, Flipkart and Shopify payout matched to the rupee, not accepted at the net payout total.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Starting from Rs 2,499 per month (varies by transaction volume and marketplace count)</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>TCS &amp; TDS tracked:</span> Section 194-O TDS at 0.1% and GST TCS at 0.5% reconciled into your electronic cash ledger and Form 26AS.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> All e-commerce sellers, D2C brands, marketplace operators, and online retailers in Pune</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Returns &amp; stock proved:</span> RTO and returned stock provisioned, and inventory at FBA and Flipkart fulfilment centres tied to the operator report.</p>
                         </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> Monthly books within 7 working days, GST returns filed before the 20th of each month</p>
                         </div>
-                    </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Visit our Pune office or get started online - trusted by 10,000+ businesses across India</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-commerce%20Accounting%20in%20Pune&body=Hello%20Patron%2C%0A%0AI%20need%20e-commerce%20accounting%20in%20Pune.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-Commerce%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20E-Commerce%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20e-commerce%20accounting%20services%20in%20Pune.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1182,7 +271,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1212,7 +301,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - E-commerce Accounting'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - E-Commerce Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1255,14 +344,14 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services-for-e-commerce-industry/pune" selected>E-commerce Accounting in Pune</option>
-                                <option value="accounting-services/pune">Accounting Services in Pune</option>
-                                <option value="gst-registration/pune">GST Registration in Pune</option>
-                                <option value="gst-returns/pune">GST Returns Filing in Pune</option>
-                                <option value="income-tax-return/pune">Income Tax Return Filing in Pune</option>
-                                <option value="payroll-services/pune">Payroll Services in Pune</option>
-                                <option value="private-limited-company-registration/pune">Pvt Ltd Registration in Pune</option>
-                                <option value="other">Other</option>
+                                <option value="accounting-services-for-e-commerce-industry/pune" selected>E-Commerce Accounting</option>
+                                    <option value="accounting-services">Accounting Services (All)</option>
+                                    <option value="accounting-services-for-startups">Startup Accounting</option>
+                                    <option value="accounting-services-for-retail">Retail Accounting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Bookkeeping Catch-up</option>
+                                    <option value="bank-credit-card-reconciliation-services">GST / TDS Reconciliation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1292,93 +381,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron's team has kept our e-commerce books impeccable for two years. Their monthly MIS reports give us financial clarity to make growth decisions confidently.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">VS</div>
-                    <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Vikram Shah</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">D2C Founder, Baner</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">TCS reconciliation was a nightmare before Patron. They caught mismatches in our first month itself and recovered credits we had almost lost.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PK</div>
-                    <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Priya Kulkarni</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Amazon Seller, Kharadi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Moving from spreadsheet tracking to proper CA-managed accounting was the best decision for our multi-channel business. Patron handles Amazon, Flipkart, and our Shopify store seamlessly.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#10B981;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RJ</div>
-                    <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rahul Joshi</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Multi-Channel Seller, Hinjewadi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">As a D2C brand, we needed investor-ready financials. Patron delivered exactly that, with channel-wise P&L and CAC metrics that our VC appreciated.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#6366F1;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SD</div>
-                    <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Sneha Deshmukh</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">D2C Brand Founder, Koregaon Park</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Excellent service for company registration and compliance. The team is very responsive and handles everything end to end.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SA</div>
-                    <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Demandify Media</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">6 months ago</div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>From Amazon sellers in Pune to D2C brands across Maharashtra - e-commerce accounting delivered with precision and on time.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Online Sellers and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for e-commerce accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1404,140 +410,87 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
+            
             <a href="#overview-section" class="toc-btn active">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is It</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Services</a>
-            <a href="#procedure-section" class="toc-btn">Process</a>
-            <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
-            <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Timeline</a>
-            <a href="#benefits-section" class="toc-btn">Why Patron</a>
-            <a href="#comparison-section" class="toc-btn">Comparison</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">E-commerce Accounting Services in Pune: Complete Overview</h2>
+            <h2 class="section-title">What E-Commerce Accounting Costs and Covers for Pune Businesses</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - E-commerce Accounting Services at a Glance</strong></p>
-                    <p>E-commerce accounting in Pune covers GST TCS reconciliation under Section 52 of the CGST Act, marketplace payment tracking across Amazon, Flipkart, and Meesho, multi-channel inventory valuation, and Income Tax TDS compliance under Section 194O. With Pune emerging as a major hub for D2C brands and online sellers - from IT professionals in Hinjewadi launching side ventures to full-scale e-commerce operations in Baner and Kharadi - accurate financial management is essential. GST returns for e-commerce sellers must be filed monthly (GSTR-1/3B), and failure to reconcile TCS credits can result in permanent loss of tax credits.</p>
+                    <p><strong>&#128204; TL;DR - E-Commerce Accounting Services at a Glance</strong></p>
+                    <p>Ecommerce accounting services in Pune start where the payout lands and work backwards to the order. Commission, shipping, RTO and return deductions are stripped out before revenue is recognised, and the TCS credit is pulled through GSTR-2B inside Maharashtra's 22nd filing window. Patron values stock warehouse by warehouse across Chakan and Wagholi fulfilment centres. Common among D2C sellers shipping from Pune.</p>
                 </div>
-                <p>Pune's e-commerce ecosystem has grown rapidly, powered by the city's IT workforce in Hinjewadi IT Park and Kharadi IT Park, a thriving D2C startup culture in Baner and Koregaon Park, and proximity to warehousing hubs in Chakan and Wagholi. India's D2C market is projected to reach USD 100 billion by 2025, and Pune is among the top tier-2 cities driving this growth, with brands like Heelium (sustainable activewear) and platforms like Shoptimize headquartered here. Learn more about <a href="/accounting-services-for-e-commerce-industry">e-commerce accounting services across India</a>.</p>
-                <div class="table-responsive-wrapper" style="margin-top:20px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td>Governing Framework</td><td>CGST Act 2017, Income Tax Act 1961, Companies Act 2013</td></tr>
-                        <tr><td>Applicable To</td><td>E-commerce sellers, D2C brands, marketplace operators, quick-commerce vendors in Pune</td></tr>
-                        <tr><td>Key Compliance</td><td>Monthly GSTR-1/3B, TCS credit claim (GSTR-2B), GSTR-8 for operators, Section 194O TDS</td></tr>
-                        <tr><td>Timeline</td><td>Monthly GST filing, quarterly TDS returns, annual ITR</td></tr>
-                        <tr><td>Cost Starting From</td><td>Rs 2,499/month (up to 100 transactions)</td></tr>
-                        <tr><td>Penalty for Non-Compliance</td><td>Late GSTR-3B: Rs 50/day. Section 73/74 demand notices for ITC mismatch</td></tr>
-                        <tr><td>Jurisdictional Office</td><td>GST Commissionerate, Pune | Income Tax Office, Pune</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p</p>
-                <p>Whether you sell on Amazon, Flipkart, Meesho, or your own Shopify store, e-commerce accounting in Pune requires daily transaction reconciliation, GST TCS tracking under the Pune Commissionerate jurisdiction, correct HSN/SAC classification for every product, and proper treatment of marketplace fees, shipping charges, and customer returns. Patron Accounting's Pune office at Wagholi provides end-to-end e-commerce accounting to online sellers and D2C brands across the city.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Money reaches a seller here in batches, days after despatch, under a reference that names neither the order nor the buyer. Ecommerce accounting in Pune therefore begins with documents rather than invoices: settlement files, courier manifests and return notes pulled into one period and matched one against another. Where despatch is from a third-party node at Lonikand, the operator's stock report becomes a source document in its own right, as matching payouts to despatch records shows.</p>
+                <p>Effort climbs with every extra sales channel, every state you hold stock in, and every fulfilment node added on the city's eastern belt, because one Maharashtra registration still leaves a separate stock ledger per warehouse to reconcile. Ecommerce accounting in Pune covers the books, the settlement workings and stock reporting; dispute recovery and matters before the state tax department are taken on separately.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is E-commerce Accounting?</h2>
+                <h2 class="section-title">What Do E-Commerce Accounting Mean for Pune Businesses?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>E-commerce accounting is the specialised practice of recording, classifying, and reporting financial transactions for businesses that sell goods or services through online platforms, governed by the Central Goods and Services Tax Act, 2017 and the Income Tax Act, 1961.</p>
-                    <p>Unlike traditional retail accounting, e-commerce accounting must handle high-volume daily transactions across multiple sales channels (Amazon, Flipkart, own website, quick-commerce), automatic TCS deductions by marketplace operators under Section 52 of the CGST Act at 1% of net taxable supplies, TDS deductions under Section 194O of the Income Tax Act at 0.1% on gross sales, and complex return/refund accounting where goods are returned weeks after the original sale.</p>
-                    <p>In Pune, where the e-commerce landscape spans IT professionals in Hinjewadi running side businesses on Amazon to established D2C brands in Baner shipping nationwide, accounting complexity is amplified by multi-state GST registration requirements, inventory stored across Pune warehouses in Wagholi and Chakan MIDC as well as marketplace fulfilment centres in other states, and the need to reconcile marketplace settlement reports with actual bank credits. The GST Commissionerate, Pune oversees compliance for all e-commerce sellers registered in the Pune jurisdiction.</p>
+                    <p>A marketplace settles in batched lump sums, tied to no single order. Ecommerce accounting services in Pune are the outsourced engagement that turns those payouts back into an accurate record of what was actually sold, kept and returned. Everything else follows from that single responsibility. Until each settlement is reconciled, a seller&#x27;s revenue, margin and stock are all estimates dressed up as figures.</p>
+<p>The engagement is defined by reconciliation rather than by entry. A payout arrives days after despatch under a reference that ties to nothing, so the settlement, order and return files are pulled together and matched before revenue is booked. The tax the operator has already collected is recovered, and a provision is set for goods that will be sent back. Stock is valued location by location where it sits in more than one place. Ecommerce accounting services in Pune hold those three strands, the settlement, the provision and the stock, to a single dated position every period.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for E-commerce Accounting:</strong></p>
-                    <ul>
-                        <li><strong>TCS (Section 52 CGST Act):</strong> 1% tax collected at source by marketplace operators on net taxable supplies before settling payments to sellers.</li>
-                        <li><strong>Section 194O TDS:</strong> 0.1% tax deducted at source by e-commerce operators on gross sales under the Income Tax Act, 1961.</li>
-                        <li><strong>GSTR-8:</strong> Monthly GST return filed by e-commerce operators reporting TCS collected and deposited.</li>
-                        <li><strong>GSTR-2B:</strong> Auto-populated return showing ITC and TCS credits available to sellers based on operator filings.</li>
-                        <li><strong>Marketplace Reconciliation:</strong> Matching e-commerce platform settlement reports with bank credits and accounting entries.</li>
-                        <li><strong>D2C (Direct-to-Consumer):</strong> Business model where brands sell directly through their own website, bypassing marketplace intermediaries.</li>
-                    </ul>
+                    <p><strong>Key Terms for E-Commerce Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/marketplace-settlement-reconciliation">Marketplace Settlement Reconciliation</a></span><span class="al-d">Matching a platform&#x27;s payout against its commission, shipping and return deductions line by line.</span></li><li><span class="al-t"><a href="/glossary/section-52-tcs-under-gst">Section 52 TCS under GST</a></span><span class="al-d">Tax the marketplace collects on your sales, claimable back through your own returns.</span></li><li><span class="al-t"><a href="/glossary/return-to-origin-rto-provisions">Return to Origin (RTO) Provisions</a></span><span class="al-d">A provision for goods dispatched but refused or undelivered, later returned to you.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">E-commerce Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>E-commerce</span>
-                        <strong>Pune Sellers</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/what-is-pune.webp" alt="What Is E-Commerce Accounting. Every marketplace settlement is a bundle of gross sales, commission, shipping in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs E-commerce Accounting in Pune?</h2>
+            <h2 class="section-title">Who Needs E-Commerce Accounting in Pune: From Hinjewadi to Growing SMEs</h2>
             <div class="content-text">
                 
-                <p><strong>Marketplace Sellers (Amazon, Flipkart, Meesho):</strong> Individual sellers and small businesses in Pune listing products on Amazon, Flipkart, and Meesho need monthly TCS reconciliation, GSTR-1/3B filing, and marketplace fee accounting. Under Section 52 of the CGST Act, Amazon and Flipkart deduct 1% TCS on every settlement. This TCS must be reconciled against GSTR-2B credits.</p>
-                <p><strong>D2C Brands:</strong> Pune has a growing D2C ecosystem with brands like Heelium (sustainable activewear) and platforms like Shoptimize operating from Baner, Koregaon Park, and Viman Nagar. D2C brands selling through Shopify or WooCommerce need payment gateway reconciliation (Razorpay, PayU, Cashfree), GST on direct sales, and marketing spend accounting.</p>
-                <p><strong>Quick-Commerce Vendors:</strong> Sellers supplying to Zepto, Blinkit, and Swiggy Instamart from Pune warehouses need daily reconciliation of high-frequency, low-value transactions. Section 9(5) of the CGST Act makes operators liable for GST on notified services.</p>
-                <p><strong>Multi-Channel Retailers:</strong> Pune businesses selling across Amazon + Flipkart + own website + offline stores need consolidated inventory valuation, channel-wise profitability analysis, and unified GST filing. Businesses in Magarpatta City and Baner often operate hybrid retail-plus-online models.</p>
-                <p>Any e-commerce seller in Pune with aggregate turnover exceeding Rs 20 lakh must register for <a href="/gst-registration">GST under Section 22 of the CGST Act</a>. E-commerce operators must register regardless of turnover under Section 24(x).</p>
+                <p>Ecommerce accounting services in Pune are for online sellers whose bank payout never equals the invoice raised. When commission, shipping, TCS and returns sit between the two, D2C brands shipping from Kharadi and Hadapsar need every settlement broken down.</p>
+  <ul>
+    <li>Amazon and Flipkart sellers in Wakad whose settlement report shows deductions they cannot tie to any order.</li>
+    <li>D2C brands on Shopify or WooCommerce matching Razorpay and COD remittances to orders dispatched from Baner.</li>
+    <li>Meesho and multi-marketplace sellers claiming the GST TCS credit sitting in the electronic cash ledger.</li>
+    <li>Apparel and footwear labels where returned and RTO stock builds faster than the books record it.</li>
+    <li>Sellers holding stock at Chakan fulfilment centres across several states, needing that inventory proved.</li>
+    <li>Growing <a href="/accounting-services-for-startups/pune">D2C startups</a> nearing a funding round who want turnover defended line by line.</li>
+    <li>Sellers where the operator deducts Section 194-O TDS at 0.1%, matched against booked sales.</li>
+  </ul>
 
             </div>
             </div>
@@ -1545,24 +498,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">Trusted for accounting across every major marketplace</p><div class="pa-logos-strip"><div class="pa-logos-track"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"><span class="pa-logos-dup" aria-hidden="true"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"></span></div></div></div></section><section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">E-commerce Accounting Services Included</h2>
+            <h2 class="section-title">E-Commerce Accounting Included for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Marketplace Reconciliation</td><td>Daily/weekly reconciliation of Amazon, Flipkart, and Meesho settlements against bank credits. TCS, commissions, shipping fees, and return adjustments tracked for Pune sellers</td></tr>
-                        <tr><td>GST TCS Credit Management</td><td>Monthly tracking of TCS under Section 52 CGST Act, reconciliation with GSTR-2B, and claiming TCS in electronic cash ledger via GST Commissionerate, Pune</td></tr>
-                        <tr><td>Multi-Channel Inventory Accounting</td><td>FIFO/weighted average valuation across Amazon FBA, own Pune warehouse (Wagholi, Chakan), and offline stores. Stock transfer entries for inter-channel movement</td></tr>
-                        <tr><td>GST Return Filing</td><td>Monthly GSTR-1, GSTR-3B, and annual GSTR-9 for Pune e-commerce sellers. GSTR-8 for operators collecting TCS</td></tr>
-                        <tr><td>Income Tax and TDS Compliance</td><td>Section 194O TDS reconciliation (0.1% on gross sales), advance tax computation, and ITR filing for Pune-based online sellers</td></tr>
-                        <tr><td>D2C Financial Reporting</td><td>Payment gateway reconciliation (Razorpay, PayU), marketing spend tracking, CAC analysis, and investor-ready financials for Pune D2C startups</td></tr>
-                        <tr><td>Return and Refund Accounting</td><td>Credit note management, GST reversal under Section 34 CGST Act, and inventory re-entry tracking for goods returned to Pune warehouses</td></tr>
-                        <tr><td>Maharashtra Professional Tax</td><td>PTRC and PTEC registration and filing under Maharashtra PT Act 1975 for Pune e-commerce businesses with employees</td></tr>
+                        <tr><td>Marketplace settlement reconciliation</td><td>Operator settlement reports reconciled to order-level sales for online sellers operating near Hinjewadi IT Park, the foundation of ecommerce accounting services in Pune <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Amazon and D2C sales booking</td><td>Marketplace and own-website orders booked with fees and payouts, delivering accounting for Amazon sellers in Pune that ties revenue to actual remittances <span class="badge-included">Weekly, reviewed monthly</span></td></tr>
+                        <tr><td>Returns and RTO provisioning</td><td>RTO, returns and cancellations reversed against the original invoice, with a period-end returns provision so reported sales are not inflated by failed deliveries <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>TCS and operator TDS credits</td><td>Section 52 GST TCS and Section 194-O TDS reconciled to GSTR-8 data and Form 26AS, so operator withholdings become usable credit each period <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Fulfilment centre stock control</td><td>Inventory across fulfilment centres and your Hinjewadi warehouse valued per location, part of the ecommerce bookkeeping services in Pune within our E-Commerce Accounting Services <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Channel-wise contribution reporting</td><td>A monthly contribution report by channel after fees and returns, with the annual PTEC profession-tax working prepared under Maharashtra rules for your team <span class="badge-included">Monthly, PTEC annually</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1572,151 +523,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How E-commerce Accounting Works in Pune</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Our 6-step process ensures your marketplace transactions are reconciled, TCS credits recovered, GST returns filed on time, and books audit-ready - from onboarding through annual compliance.</p>
+            <h2 class="section-title">How E-Commerce Accounting Works in Pune — Step by Step</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How marketplace settlements become books you can defend, step by step from settlement report to channel-level contribution.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 1</span>
-        <h3 class="step-title">Audit Current Sales Channels and GST Status</h3>
-        <p class="step-description">Review all active sales channels - Amazon Seller Central, Flipkart Seller Hub, Meesho Supplier Panel, own website, and any offline presence in Pune. Verify GST registration under the Pune Commissionerate jurisdiction. Patron's Pune team checks existing GSTR-1/3B filing history, TCS credit status, and pending notices within the first 5 working days.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Channel audit</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST status verified</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Pending notices checked</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="40" cy="35" r="10" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><circle cx="60" cy="35" r="10" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/><circle cx="80" cy="35" r="10" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><line x1="30" y1="58" x2="90" y2="58" stroke="#14365F" stroke-width="1.5" opacity="0.3"/></svg></div>
-            <span class="illustration-label">Channels Audited</span>
-            <span class="step-number-large">01</span>
-        </div>
-    </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Settlement report reconciliation</h3>
+    <p class="step-description">Each marketplace settlement is broken back to gross sales, commission, shipping, TCS and returns, because the bank credit is only a net figure. Gross turnover in the books comes from the portal's tax report, never from the amount that landed.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/step-1-settlement-report-reconciliation-pune.webp" alt="Illustration for Settlement report reconciliation: Each marketplace settlement is broken back to gross sales, commission, in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 2</span>
-        <h3 class="step-title">Set Up Accounting Structure with Channel Integration</h3>
-        <p class="step-description">Configure Tally Prime, Zoho Books, or preferred accounting software with separate ledgers for each marketplace channel. Patron integrates Amazon MWS API, Flipkart settlement reports, and payment gateway feeds. For Pune sellers with warehouses in Wagholi or Chakan MIDC, inventory tracking is configured with location-wise stock registers.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Marketplace API integrated</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Location-wise inventory</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Software configured</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="35" y1="25" x2="85" y2="25" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><rect x="35" y="33" width="20" height="15" rx="2" fill="#FFF3E0" stroke="#F5A623" stroke-width="0.8"/><rect x="62" y="33" width="20" height="15" rx="2" fill="#E8F5E9" stroke="#10B981" stroke-width="0.8"/><line x1="35" y1="58" x2="85" y2="58" stroke="#14365F" stroke-width="1.5" opacity="0.2"/></svg></div>
-            <span class="illustration-label">Integration Done</span>
-            <span class="step-number-large">02</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Returns and RTO treatment</h3>
+    <p class="step-description">Returns, cancellations and RTO consignments are matched back to the original order so the credit note references the right supply. Goods that never physically came back are separated from goods received, because the two have different consequences.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/step-2-returns-and-rto-treatment-pune.webp" alt="Illustration for Returns and RTO treatment: Returns, cancellations and RTO consignments are matched back to the original in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 3</span>
-        <h3 class="step-title">Implement TCS and TDS Reconciliation Workflow</h3>
-        <p class="step-description">Under Section 52 of the CGST Act, marketplace operators deduct 1% TCS. Under Section 194O of the IT Act, they deduct 0.1% TDS. Patron sets up automated reconciliation between marketplace settlement reports and GSTR-2B auto-populated TCS data for the Pune GST Commissionerate zone. TDS credits tracked against Form 26AS and AIS.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Automated TCS matching</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>TDS credit tracking</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Monthly reconciliation</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="30" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">TCS</text><path d="M40 45h40" stroke="#F5A623" stroke-width="2" stroke-dasharray="4 2"/><text x="40" y="60" font-size="8" fill="#10B981" font-weight="600" text-anchor="middle" font-family="Arial">GSTR-2B</text><text x="80" y="60" font-size="8" fill="#E8712C" font-weight="600" text-anchor="middle" font-family="Arial">26AS</text></svg></div>
-            <span class="illustration-label">TCS Reconciled</span>
-            <span class="step-number-large">03</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">TCS credit claim from operator</h3>
+    <p class="step-description">The tax collected by each operator under the e-commerce collection provisions is agreed to the statement it files, and the credit is then confirmed as accepted in the electronic cash ledger. Unaccepted or missing credit is taken back to the portal.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/step-3-tcs-credit-claim-from-operator-pune.webp" alt="Illustration for TCS credit claim from operator: The tax collected by each operator under the e-commerce collection in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 4</span>
-        <h3 class="step-title">Process Monthly Transactions and File GST Returns</h3>
-        <p class="step-description">Daily transaction recording from all channels, weekly marketplace reconciliation, and monthly closing. GSTR-1 (by the 11th) and GSTR-3B (by the 20th) filed monthly through GST portal for the Pune Commissionerate zone. ITC reconciled against GSTR-2B before each filing.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Daily recording</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GSTR-1 by 11th</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GSTR-3B by 20th</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="35" font-size="12" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><line x1="35" y1="45" x2="85" y2="45" stroke="#14365F" stroke-width="1" opacity="0.3"/><text x="45" y="58" font-size="8" fill="#10B981" font-weight="600" text-anchor="middle" font-family="Arial">3B</text><text x="60" y="58" font-size="8" fill="#F5A623" font-weight="600" text-anchor="middle" font-family="Arial">1</text><text x="75" y="58" font-size="8" fill="#E8712C" font-weight="600" text-anchor="middle" font-family="Arial">9</text></svg></div>
-            <span class="illustration-label">GST Filed</span>
-            <span class="step-number-large">04</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Operator TDS versus booked sales</h3>
+    <p class="step-description">Tax deducted by the operator on the gross amount of sales is compared with the turnover recorded per portal. A mismatch usually means the portal has reported sales the books have not picked up, and that difference is chased to the order.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/step-4-operator-tds-versus-booked-sales-pune.webp" alt="Illustration for Operator TDS versus booked sales: Tax deducted by the operator on the gross amount of sales is compared in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 5</span>
-        <h3 class="step-title">Generate Inventory Valuation and Channel Profitability Reports</h3>
-        <p class="step-description">Monthly inventory valuation using FIFO or weighted average per Ind AS 2. Channel-wise P&L analysis showing gross margin after marketplace fees, shipping costs, return rates, and ad spend. For Pune D2C brands, customer acquisition cost (CAC) and lifetime value (LTV) metrics tracked alongside standard reports.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Channel-wise P&L</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CAC/LTV metrics</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Inventory valued</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="5" width="70" height="75" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="35" y="18" width="50" height="25" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><rect x="35" y="48" width="50" height="25" rx="3" fill="#E8F5E9" stroke="#10B981" stroke-width="1"/><text x="60" y="33" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">Inventory</text><text x="60" y="63" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">P&amp;L</text></svg></div>
-            <span class="illustration-label">Reports Ready</span>
-            <span class="step-number-large">05</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Gateway and COD settlement matching</h3>
+    <p class="step-description">For own-website orders, gateway settlements are matched to orders with the discount charge shown as a cost rather than netted against revenue. Cash-on-delivery is tracked from courier remittance advice to bank, leaving unremitted collections visible.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/step-5-gateway-and-cod-settlement-matching-pune.webp" alt="Illustration for Gateway and COD settlement matching: For own-website orders, gateway settlements are matched to orders with in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 6</span>
-        <h3 class="step-title">Complete Annual Compliance and Tax Filing</h3>
-        <p class="step-description">Annual GSTR-9 filing by 31 December. Tax audit under Section 44AB for sellers with turnover exceeding Rs 1 crore (Rs 10 crore if 95%+ digital). ITR with correct Section 194O TDS credits. Maharashtra PT annual returns. Patron's Pune CA team ensures all annual filings completed before statutory deadlines.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GSTR-9 annual return</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Tax audit if applicable</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Maharashtra PT filed</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="35" r="15" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M53 35l4 4 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/><line x1="35" y1="60" x2="85" y2="60" stroke="#14365F" stroke-width="1.5" opacity="0.2"/></svg></div>
-            <span class="illustration-label">Compliance Done</span>
-            <span class="step-number-large">06</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Fulfilment centre stock control</h3>
+    <p class="step-description">Units held by the operator are reconciled to its inventory file, and write-offs matched to the credit received. A centre elsewhere in Maharashtra is an additional place of business on the existing number, whereas dispatching stock to a centre outside the state triggers registration there.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/step-6-fulfilment-centre-stock-control-pune.webp" alt="Illustration for Fulfilment centre stock control: Stock held at marketplace fulfilment centres is reconciled to the portal's in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Channel level contribution</h3>
+    <p class="step-description">Commission, shipping, platform advertising, packaging and return costs are pushed down to the channel and, where the data allows, the SKU. Only then does it become visible which listings are trading at a loss after all deductions.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-e-commerce-industry/pune/step-7-channel-level-contribution-pune.webp" alt="Illustration for Channel level contribution: Commission, shipping, platform advertising, packaging and return costs are in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for E-commerce Accounting in Pune</h2>
+            <h2 class="section-title">Documents Required for E-Commerce Accounting</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li><strong>GST Registration Certificate:</strong> GSTIN registered under GST Commissionerate, Pune. Multi-state GST registrations if selling inter-state from Pune.</li>
-                    <li><strong>Marketplace Seller Dashboard Access:</strong> Amazon Seller Central, Flipkart Seller Hub, Meesho Supplier Panel login credentials or settlement report exports.</li>
-                    <li><strong>Bank Statements:</strong> All bank accounts receiving marketplace settlements and payment gateway credits.</li>
-                    <li><strong>Purchase Invoices:</strong> GST-compliant invoices for all inventory purchases from Pune and inter-state suppliers.</li>
-                    <li><strong>Payment Gateway Reports:</strong> Razorpay, PayU, Cashfree, or Stripe settlement reports for D2C website sales.</li>
-                    <li><strong>Shipping and Logistics Invoices:</strong> Delhivery, BlueDart, Ecom Express invoices for shipping cost tracking.</li>
-                    <li><strong>Previous Financial Statements:</strong> Last 2 years' balance sheet, P&L, and tax returns.</li>
-                    <li><strong>Maharashtra PT Receipts:</strong> PTRC/PTEC registration and challan copies for Pune business.</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:16px;">
-                    <p><strong>Pune-Specific Tip:</strong> For Pune sellers using Amazon FBA, request the MTR (Merchant Tax Report) monthly from Seller Central for accurate TCS tracking. For sellers with warehouse space in Chakan MIDC or Wagholi, maintain separate stock registers for goods stored at Pune fulfilment centres versus Amazon/Flipkart warehouses in other states.</p>
-                </div>
+                <p>Alongside the settlement reports, a Pune seller carries both Maharashtra profession tax certificates, enrolment for the entity and registration for the salaries it pays.</p>
+<ul>
+    <li>Marketplace settlement reports (Amazon Payments/Settlement report, Flipkart Seller Settlement, Meesho payment file)</li>
+    <li>Order-level sales register / MTR (Merchant Tax Report) or GST report from each portal</li>
+    <li>Returns, RTO and cancellation report (courier return / customer return files)</li>
+    <li>GST TCS statement from the operator (GSTR-8 data / TCS certificate) and the electronic cash ledger TCS credit</li>
+    <li>Form 26AS and AIS showing Section 194-O TDS deducted by the operator</li>
+    <li>Purchase invoices from suppliers and vendors</li>
+    <li>Bank statements for every current account, in PDF and Excel or CSV</li>
+    <li>PTEC certificate (Certificate of Enrolment) under the Maharashtra State Tax on Professions, Trades, Callings and Employments Act, 1975, plus the annual PTEC challan</li>
+    <li>PTRC certificate plus monthly/annual PTRC returns and challans</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common E-commerce Accounting Challenges in Pune</h2>
+            <h2 class="section-title">E-Commerce Accounting Challenges Specific to Pune: Hinjewadi IT Park SEZ Rules and MIDC Estate Compliance</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>TCS Reconciliation Delays</td><td>Assessment notices from GST Commissionerate, Pune when TCS credits in GSTR-2B don't match claimed amounts</td><td>Automated monthly TCS reconciliation against GSTR-2B; mismatches flagged and resolved before GSTR-3B filing</td></tr>
-                        <tr><td>Multi-State GST Registration Burden</td><td>Managing 3-5 GSTINs with monthly filing for Pune sellers using FBA warehouses across states</td><td>Centralised multi-state GST compliance management from Pune office with state-wise return filing</td></tr>
-                        <tr><td>Marketplace Fee Misclassification</td><td>Lost ITC or incorrect claims on Amazon/Flipkart commissions, closing fees, and ad spend</td><td>Systematic classification of marketplace fees with correct ITC treatment per CGST Act Section 17(5)</td></tr>
-                        <tr><td>Return/Refund Accounting Complexity</td><td>15-25% return rates requiring GST reversal, inventory re-entry, and settlement adjustments</td><td>Automated credit note generation under Section 34, inventory re-entry tracking per return</td></tr>
-                        <tr><td>D2C Working Capital Pressure</td><td>25-30% COD returns blocking capital for 15-30 days; payment gateway T+2 to T+7 settlement cycles</td><td>Cash flow forecasting integrating COD cycles, gateway settlements, and marketing spend for Pune D2C brands</td></tr>
+                        <tr><td>A Hinjewadi SEZ seller shipping into the domestic market</td><td>SEZ and DTA sales taxed alike, so zero-rating, input credit and revenue all post wrongly.</td><td>Patron separates SEZ-to-DTA billing, accounting domestic clearances at the correct GST and keeping SEZ supplies distinct.</td></tr>
+                        <tr><td>A warehouse taken on an MIDC lease near Ranjangaon</td><td>The one-time leasehold premium gets expensed, so both depreciation and yearly profit come out wrong.</td><td>Our team capitalises the MIDC leasehold premium as an asset and charges only the ground rent to profit.</td></tr>
+                        <tr><td>Section 194-O TDS credit not reconciled to marketplace statements</td><td>The 0.1% deducted by operators drifts from Form 26AS, so TDS credit and gross sales disagree.</td><td>Patron reconciles 194-O TDS in Form 26AS to marketplace payout reports, so claimed credit ties to gross sales.</td></tr>
+                        <tr><td>COD remitted net by a Baner logistics partner, days late</td><td>Cash arrives after despatch under a batch reference, so sales and bank credits never line up.</td><td>Our team reconciles each COD batch to despatch records; see <a href="/blog/ecommerce-accounting-pune-settlement-reconciliation">settlement reconciliation for Pune sellers</a>.</td></tr>
+                        <tr><td>Prepaid receipts land net of gateway charges, unreconciled to orders</td><td>Gross sales, MDR and refunds settle in one payout, so order revenue and bank credits never tie.</td><td>Patron reconciles gateway settlements to orders, booking MDR and refunds separately so recorded revenue matches the bank.</td></tr>
 
                     </tbody>
                 </table>
@@ -1726,56 +643,58 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Fees for E-commerce Accounting in Pune</h2>
+            <h2 class="section-title">E-Commerce Accounting Fees in Pune</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Starter (up to 100 txns, 1 channel)</td><td>Rs 2,499/month</td></tr>
-                        <tr><td>Growth (101-300 txns, 2-3 channels)</td><td>Rs 3,500/month</td></tr>
-                        <tr><td>Business (301-500 txns, 3+ channels)</td><td>Rs 6,500/month</td></tr>
-                        <tr><td>Enterprise (500+ txns, multi-state)</td><td>Custom quote</td></tr>
-                        <tr><td>GST Return Filing (monthly)</td><td>Rs 1,500 - Rs 5,000/month</td></tr>
-                        <tr><td>Annual ITR + Tax Audit</td><td>Rs 15,000 - Rs 50,000/year</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one seller on a single marketplace with routine monthly orders</td><td>INR 3,499 per month<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; extra marketplaces, higher settlement lines or added GST states</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-entity seller books with custom settlement and payout reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">For Pune sellers the <strong>INR 3,499 per month</strong> Starter fee matches the national rate; price follows scope, marketplaces and settlement lines, never location. More marketplaces or settlement volume raise the tier. Local profession-tax registration is billed at actuals as a government charge. Request a customised estimate on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free E-commerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20e-commerce%20accounting%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free E-Commerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Timeline for E-commerce Accounting Setup in Pune</h2>
+            <h2 class="section-title">E-Commerce Accounting Compliance Calendar 2026 for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Initial Channel Audit and GST Review</td><td>3-5 working days</td></tr>
-                        <tr><td>Accounting Software Setup with Marketplace Integration</td><td>5-7 working days</td></tr>
-                        <tr><td>First Monthly MIS Delivery</td><td>Within 30 days</td></tr>
-                        <tr><td>TCS Reconciliation Backlog Clearing</td><td>30-45 days (if applicable)</td></tr>
-                        <tr><td>Full Stabilisation</td><td>60 days</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>TCS return by e-commerce operators (GSTR-8)</td><td>10th of every month</td><td>E-commerce operators collecting 0.5% TCS (0.25% CGST + 0.25% SGST) on supplies</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered Pune businesses filing monthly returns</td></tr>
+                        <tr><td>TDS under Section 194-O on e-commerce sales (0.1%)</td><td>7th of the following month</td><td>E-commerce operators deducting TDS on participant sales</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th monthly for turnover above Rs 5 crore; 22nd quarterly under QRMP for turnover up to Rs 5 crore (Category X)</td><td>GST-registered businesses in Pune</td></tr>
+                        <tr><td>Professional tax: PTRC monthly return and PTEC</td><td>PTRC by the 15th of every month; PTEC annually by 31 March</td><td>Employers and companies registered for profession tax in Maharashtra (Pune)</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered Pune businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Pune Processing Note:</strong> GST return deadlines are fixed (11th for GSTR-1, 20th for GSTR-3B). Patron's Pune team aligns onboarding to ensure no missed filing during transition. No visit to GST Commissionerate, Pune required - all handled electronically.</p>
+                    <p>A Pune marketplace seller works to the GSTR-8 TCS on the 10th and the quarterly GSTR-3B on the 22nd. Settlement reconciliation and the GSTR-2B TCS credit claim have to clear before filing. Profession tax under Maharashtra PTRC falls on the 15th monthly. For ecommerce accounting services in Pune, request a consultation on +91 94594 56700; our <a href="/blog/maharashtra-professional-tax-shops-act">local notes</a> go deeper.</p>
 
                 </div>
             </div>
@@ -1783,69 +702,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron for E-commerce Accounting in Pune</h2>
+            <h2 class="section-title">Why Professional E-Commerce Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                <h3>Pune Office Presence</h3>
-                <p>Patron operates from RTC Silver, Wagholi - giving e-commerce sellers and D2C founders direct access for consultations. Near Kharadi, Viman Nagar, and Wagholi growth corridor.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M16 11V3H8v8H2l10 10 10-10h-6z"/></svg></div>
-                <h3>E-commerce Industry Expertise</h3>
-                <p>Patron serves 15+ industry sectors including e-commerce. Our CA team understands marketplace settlement structures, TCS under Section 52, and D2C reporting requirements.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-                <h3>GST Commissionerate Familiarity</h3>
-                <p>Patron's Pune team files GST returns directly under the Pune Commissionerate zone and handles assessment notices, TCS mismatch resolution, and ITC reconciliation.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-                <h3>Technology Integration</h3>
-                <p>Patron works across Tally Prime, Zoho Books, QuickBooks, and Xero - integrating marketplace APIs for automated transaction recording. Real-time financial visibility for tech-savvy Pune sellers.</p>
-            </article>
-        </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Gross turnover you can defend</h3>
+  <p class="feature-text">Your books carry gross sales, commission, shipping and returns as separate figures, so the turnover you report matches the portal.</p><ul style="margin-top:12px;"><li>Figures taken from the portal tax report, not net bank credit</li><li>Order level sales register reconciled to settlement reports</li><li>Without the split, turnover understates what the operator already reported</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">TCS credit actually in hand</h3>
+  <p class="feature-text">You claim the tax each marketplace collected once it shows in your electronic cash ledger.</p><ul style="margin-top:12px;"><li>Collected TCS agreed to the operator's GSTR-8 statement</li><li>Missing credit chased while the settlement file is still available</li><li>Without it, collected tax is quietly written off as cost</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Channel-wise contribution after deductions</h3>
+  <p class="feature-text">You see commission, shipping, advertising, packaging and return costs sitting against the channel that incurred them.</p><ul style="margin-top:12px;"><li>Costs tied to the channel and, where data allows, the SKU</li><li>True contribution shown even when the account payout looks positive</li><li>Without it, you scale listings that lose money every order</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" /> <path d="M12 22V12" /> <polyline points="3.29 7 12 12 20.71 7" /> <path d="m7.5 4.27 9 5.15" /> </svg></div>
+  <h3 class="feature-title">Stock at fulfilment centres proved</h3>
+  <p class="feature-text">We agree units lying at fulfilment centres to the operator's inventory report and show goods in transit apart.</p><ul style="margin-top:12px;"><li>FBA and Flipkart Assured stock tied to the inventory report</li><li>Lost and damaged units matched to the reimbursement credited</li><li>Without it, unreimbursed shrinkage stays buried in cost of goods sold</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" /> <path d="M15 18H9" /> <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" /> <circle cx="17" cy="18" r="2" /> <circle cx="7" cy="18" r="2" /> </svg></div>
+  <h3 class="feature-title">Returns recorded against the right supply</h3>
+  <p class="feature-text">We tie every return, cancellation and RTO to the order it reverses, so each credit note points at the right supply.</p><ul style="margin-top:12px;"><li>Goods that never came back kept apart from goods received</li><li>Without it, revenue holds sales that were reversed months ago</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3 4 7l4 4" /> <path d="M4 7h16" /> <path d="m16 21 4-4-4-4" /> <path d="M20 17H4" /> </svg></div>
+  <h3 class="feature-title">Operator TDS matched to sales</h3>
+  <p class="feature-text">We compare the tax each operator deducted against the turnover your books recorded for that portal.</p><ul style="margin-top:12px;"><li>Section 194-O deduction at 0.1% checked against Form 26AS and AIS</li><li>Portal-reported sales chased to the order they belong to</li><li>Without it, portal-reported sales stay missing from your books</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trusted by E-commerce Businesses Across India</h2>
-            <div class="content-text">
-                
-                <p><strong>Trust Banner:</strong> 10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years</p>
-                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron serves e-commerce businesses across India while providing local expertise for Pune's GST and compliance needs. Trusted by Hyundai, Asian Paints, Bridgestone, and 10,000+ businesses.</p>
-
+            <h2 class="section-title">Why E-Commerce Accounting Services Clients in Pune Choose Patron Accounting</h2>
+            <p class="section-intro">Five things an online seller can check before handing over the settlement files. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Marketplace settlements reconciled to the rupee</strong><p>Every marketplace payout hides shipping, commission and RTO deductions. Over 15+ years our team has learned to reconcile Amazon and Flipkart settlements for D2C sellers, tying each credit back to the order behind it.</p></div>
+                <div><strong>Section 194-O TDS at 0.1% and GST TCS at 0.5%</strong><p>We credit the 0.5% GST TCS to your electronic cash ledger from the operator GSTR-8, and match the Section 194-O TDS at 0.1% to Form 26AS. Our 25,000+ filings make this monthly routine.</p></div>
+                <div><strong>Amazon, Flipkart, Shopify and your 3PL feeding one ledger</strong><p>We build inside the platform already running your books, whether Zoho Books, Xero, Tally Prime or Odoo. We configure whichever tool you run so Amazon, Flipkart, Shopify and your 3PL feed one ledger.</p></div>
+                <div><strong>A monthly marketplace channel profitability pack</strong><p>Every month you receive a channel profitability pack showing net margin per marketplace after all fees, plus GST on stock moving through your Chakan or Talegaon warehouse. This sits within our 25,000+ filings.</p></div>
+                <div><strong>Pune head office, from Kharadi to Chakan</strong><p>Patron is headquartered in Pune, with Kharadi and Baner offices and a Wagholi registered address. Our team reaches sellers in Hadapsar, Magarpatta and the Chakan fulfilment belt, drawing on 3,000+ businesses served and a 4.9 star rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY vs Professional E-commerce Accounting in Pune</h2>
+            <h2 class="section-title">Marketplace Panel Reports vs Reconciled Books: for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Parameter</th><th>Patron Accounting</th><th>DIY / In-House</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Marketplace Panel Reports</th><th>Reconciled Books</th></tr></thead>
                     <tbody>
-                        <tr><td>TCS Credit Recovery</td><td>100% reconciled monthly</td><td>Often missed, credits expire</td></tr>
-                        <tr><td>GST Filing Accuracy</td><td>Verified against GSTR-2B before filing</td><td>ITC mismatch risk</td></tr>
-                        <tr><td>Multi-Channel Reconciliation</td><td>Automated via API integration</td><td>Spreadsheet-based, error-prone</td></tr>
-                        <tr><td>Pune-Specific Expertise</td><td>GST Commissionerate Pune, Maharashtra PT</td><td>Limited jurisdictional knowledge</td></tr>
-                        <tr><td>Cost</td><td>Rs 2,499-6,500/month (no HR overhead)</td><td>Rs 15,000-25,000/month salary + overhead</td></tr>
-                        <tr><td>Scalability</td><td>Scales with transaction volume automatically</td><td>Requires additional hiring</td></tr>
+                        <tr><td>What it records</td><td>Captures only marketplace dashboard totals, fees and the net payout received</td><td>Records every order, charge and tax reconciled to bank and inventory</td></tr>
+                        <tr><td>Revenue recognition</td><td>Sales often shown net, which can understate gross turnover for filings</td><td>Gross turnover booked on supply, with deductions and TCS reported separately</td></tr>
+                        <tr><td>TCS credit capture</td><td>GST TCS and 0.1% 194-O credits are tough to trace from panels</td><td>Operator TCS and 194-O credit matched to each sale and claimed</td></tr>
+                        <tr><td>Warehouse stock</td><td>Stock across MIDC and fulfilment warehouses stays invisible to the panel</td><td>Inventory at MIDC and fulfilment centres proved and valued each period</td></tr>
+                        <tr><td>Returns and RTO</td><td>Returns and RTO absorb into net payouts, masking real product margin</td><td>Returns and RTO booked to original supplies, so margin stays honest</td></tr>
+                        <tr><td>Tax defensibility</td><td>Weak trail, so above the presumptive limit panels will not support an audit</td><td>Audit-ready books supporting a turnover figure you can defend confidently</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">For Pune sellers around Hinjewadi and MIDC warehousing estates, reconciled books are the lawful basis while panel reports remain raw input. Turnover above the presumptive limit forces reconciliation, so ecommerce accounting services in pune depend on <a href="/accounting-services-for-e-commerce-industry">specialist e-commerce accounting</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1855,238 +793,176 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services for E-commerce Businesses</h2>
+            <h2 class="section-title">Pune Rules for E-Commerce Sellers — Maharashtra PTRC/PTEC, Section 194-O TDS</h2>
             <div class="content-text">
                 
-                <p>Looking for related services? Explore these:</p>
-                <ul>
-                    <li><a href="/accounting-services-for-e-commerce-industry">Accounting Services for E-commerce Industry (India)</a> - National overview of e-commerce accounting services.</li>
-                    <li><a href="/accounting-services">Accounting Services (Overview)</a> - General accounting services for all business types.</li>
-                    <li><a href="/gst-registration">GST Registration</a> - New GST registration for e-commerce sellers across India.</li>
-                    <li><a href="/gst-returns">GST Returns Filing</a> - GSTR-1, GSTR-3B, GSTR-9 filing services.</li>
-                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR filing with Section 194O TDS credits.</li>
-                    <li><a href="/payroll-services">Payroll Services</a> - Salary processing and PTRC compliance for e-commerce employers.</li>
-                    <li><a href="/gst-returns-for-e-commerce-operator">GST Returns for E-commerce Operators</a> - GSTR-8 filing for marketplace operators.</li>
-                    <li><a href="/private-limited-company-registration">Private Limited Company Registration</a> - Company incorporation for scaling e-commerce brands.</li>
-                </ul>
+                <p>A Pune D2C or marketplace seller runs its warehouse payroll through Maharashtra's PTRC and holds a PTEC for the entity, a state layer that sits over taxes the marketplace has already deducted from each payout. The local obligation is small in rupees but easy to miss beside the settlement noise.</p>
+<p>So the books answer to Maharashtra and to the marketplace together. The operator's TDS and TCS are reconciled to the seller's ledgers, and every payout is unwound to the orders behind it. That is why a disciplined <a href="/glossary/marketplace-settlement-reconciliation">Marketplace Settlement Reconciliation</a> anchors the ledger. E-commerce accounting services in Pune answer to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Maharashtra State Tax on Professions, Trades, Callings and Employments Act 1975</strong></span><span class="al-d">Profession tax runs on PTEC for the entity and PTRC on warehouse and support staff, carried in the Pune payroll ledger.</span></li><li><span class="al-t"><strong>Section 194-O, Income-tax Act 1961 with Section 52, CGST Act 2017</strong></span><span class="al-d">Withholds 0.1% income-tax TDS and 0.5% GST TCS on net supplies (in force from 10 July 2024), each reconciled to the seller’s books.</span></li><li><span class="al-t"><strong>Section 35(1), CGST Act 2017</strong></span><span class="al-d">Input tax credit and output tax are held at the principal place of business and matched to the payout statements.</span></li><li><span class="al-t"><strong>Maharashtra Shops and Establishments Act 2017</strong></span><span class="al-d">The establishment registers under the state Shops Act, framing the employment records behind the payroll.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled, so a corrected settlement is logged. Full national detail sits on the <a href="/accounting-services-for-e-commerce-industry">parent e-commerce page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Compliance Framework for E-commerce Accounting in Pune</h2>
-            <div class="content-text">
-                
-                <p><strong>Governing Acts:</strong></p>
-                <ul>
-                    <li><strong>CGST Act, 2017:</strong> Section 52 mandates TCS by e-commerce operators at 1%. Section 9(5) makes operators liable for GST on notified services. Section 17(5) restricts ITC. Section 34 governs credit notes for returns. Section 73/74 covers demand and recovery.</li>
-                    <li><strong>Income Tax Act, 1961:</strong> Section 194O mandates 0.1% TDS by operators. Section 44AB requires tax audit for turnover exceeding Rs 1 crore (Rs 10 crore for 95%+ digital). Section 44AD/44ADA provides presumptive taxation for eligible small sellers.</li>
-                    <li><strong>Companies Act, 2013:</strong> Section 128 mandates proper books of account. Section 129 requires financial statement preparation. Applicable to Pune e-commerce businesses incorporated as Pvt Ltd or LLP.</li>
-                    <li><strong>Maharashtra PT Act, 1975:</strong> PTRC and PTEC mandatory for all Pune e-commerce businesses with employees. Monthly PT slab: Rs 200/month for income above Rs 10,000.</li>
-                    <li><strong>Consumer Protection (E-Commerce) Rules, 2020:</strong> Requires marketplace entities to display seller details including GST number.</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>Penalties:</strong></p>
-                <ul>
-                    <li>Late GSTR-3B filing: <strong>Rs 50/day</strong> (Rs 25 CGST + Rs 25 SGST); Rs 20/day for nil returns under Section 47 CGST Act</li>
-                    <li>TCS/ITC mismatch: Demand notices under <strong>Section 73/74</strong> CGST Act with interest at 18% p.a.</li>
-                    <li>Failure to maintain books: <strong>Rs 25,000</strong> under Section 271A of Income Tax Act</li>
-                    <li>Non-payment of Professional Tax: <strong>Rs 5 per day</strong> penalty under Maharashtra PT Act 1975</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>External Authority:</strong> <a href="https://cbic-gst.gov.in" target="_blank" rel="noopener">CBIC GST Portal - cbic-gst.gov.in</a></p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions: E-commerce Accounting in Pune</h2>
-                    <p class="faq-expanded__lead">Get answers to common questions about accounting, GST TCS, and compliance for e-commerce sellers and D2C brands in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'E-commerce Accounting in Pune'])
+                    <h2 class="faq-expanded__title">E-Commerce Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Settlement reconciliation, GST TCS, 194-O TDS, returns and pricing for Amazon, Flipkart, Meesho and D2C sellers.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your marketplace's books</h3>
+  <p class="faq-enquiry__sub">Send your marketplaces and monthly order volume for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>E-Commerce Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">Which GST office handles e-commerce seller compliance in Pune?</h3>
-                        <div class="faq-expanded__a"><p>GST Commissionerate, Pune handles all GST compliance for e-commerce sellers registered in the Pune jurisdiction. Income tax compliance is managed through the Pune Income Tax Office. Patron Accounting manages filings across both offices from our Pune location.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">Can I get e-commerce accounting done online from Pune?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Patron Accounting provides fully digital e-commerce accounting from our Pune office at RTC Silver, Wagholi. Marketplace data, bank statements, and invoices are collected digitally. All GST and ITR filings are completed online. Sellers can also visit for in-person consultations.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is the fee for e-commerce accounting in Pune?</h3>
-                        <div class="faq-expanded__a"><p>Fees start from Rs 2,499 per month for sellers with up to 100 transactions on a single marketplace. Multi-channel sellers with 300 plus transactions pay Rs 6,500 per month. Enterprise packages with multi-state GST are available at custom rates.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How long does it take to set up e-commerce accounting for a Pune seller?</h3>
-                        <div class="faq-expanded__a"><p>Initial channel audit takes 3 to 5 working days. Full accounting setup with marketplace integration is completed within 10 to 15 working days. First monthly MIS delivered within 30 days. TCS reconciliation backlogs cleared within 45 days if applicable.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">Do Amazon and Flipkart sellers in Pune need GST registration?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Under Section 24 of the CGST Act, all sellers making supplies through an e-commerce operator must register for GST regardless of turnover. Exception applies under Notification 34/2023 for sellers below threshold making only intra-state supplies with PAN enrolment.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">How does TCS under Section 52 affect Pune e-commerce sellers?</h3>
-                        <div class="faq-expanded__a"><p>Marketplace operators deduct 1 percent TCS on net taxable supplies before settling payments. For intra-state sales in Maharashtra, this is 0.5 percent CGST plus 0.5 percent SGST. TCS appears in GSTR-2B and can be claimed in electronic cash ledger. Patron reconciles monthly.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">What is the difference between TCS Section 52 and TDS Section 194O for e-commerce?</h3>
-                        <div class="faq-expanded__a"><p>TCS under Section 52 CGST Act is a GST mechanism collecting 1 percent tax at source on marketplace transactions. TDS under Section 194O Income Tax Act deducts 0.1 percent on gross sales. Both are deducted by the operator. TCS is claimed in GST returns, TDS in income tax returns.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">How does Maharashtra Professional Tax apply to e-commerce businesses in Pune?</h3>
-                        <div class="faq-expanded__a"><p>All Pune e-commerce businesses with employees must register for PTRC and deduct professional tax from salaries under Maharashtra PT Act 1975. Maximum PT is Rs 2,500 per annum for employees earning above Rs 10,000 monthly. PTEC for business entities is Rs 2,500 per year.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How much GST TCS do Amazon and Flipkart deduct from a Pune D2C brand, and how is it recovered?</h3>
+  <div class="faq-expanded__a"><p>Marketplaces deduct GST TCS at 0.5% of net taxable supplies, being 0.25% CGST plus 0.25% SGST, under Section 52. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. We reconcile every settlement report against GSTR-2B monthly so the accepted credit offsets your Maharashtra GSTR-3B liability due on the 22nd.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What TDS do e-commerce operators deduct from a Pune seller's payouts?</h3>
+  <div class="faq-expanded__a"><p>Section 194-O TDS is 0.1% of the gross sales value, deducted by the operator before the payout reaches your Pune bank account, not 1% as is often assumed. We match every 194-O entry in Form 26AS against seller-panel settlement files, because operators report on gross order value while your books carry sales net of returns, and that gap turns into a mismatch notice.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a Pune warehouse and packing team trigger Maharashtra professional tax?</h3>
+  <div class="faq-expanded__a"><p>Yes. Maharashtra needs PTEC for the business entity and PTRC once you pay salaries, including pickers and packers at a Chakan or Wagholi fulfilment unit. PTRC returns are monthly where the previous year liability exceeded Rs 1 lakh and annual below that. E-commerce payrolls run with both registrations mapped, so seasonal Diwali hiring does not create a PTRC gap.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a D2C brand in Baner with a third-party warehouse in Chakan need two GST registrations?</h3>
+  <div class="faq-expanded__a"><p>No. A Baner office and a Chakan 3PL warehouse both sit in Maharashtra, so one state GSTIN covers them with the warehouse added as an additional place of business. Only a fulfilment centre in another state needs its own registration there. We map each warehouse to the right GSTIN and reconcile stock transfers so marketplace inventory reports agree with your books.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can records be collected from a Kharadi office, or is everything online?</h3>
+  <div class="faq-expanded__a"><p>Both are available. Our Pune office at RTC Silver, Wagholi is roughly twenty minutes from Kharadi, so document pickup and quarter-end reviews at your premises are practical. Most e-commerce work still runs remotely because settlement reports, payment gateway statements and courier RTO files are portal downloads, not paper. On-site visits are reserved for stock counts and auditor walkthroughs.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you account for RTO parcels and customer returns that come back weeks after the sale?</h3>
+  <div class="faq-expanded__a"><p>Returns are provided for in the month of dispatch, using your own channel-wise return percentage, rather than being written off when the parcel physically arrives. COD-heavy categories such as apparel and footwear carry the highest rates, so an unprovided return pipeline overstates a Pune seller's monthly profit. Credit notes then reduce GST output tax in the month they are issued.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Why does a Flipkart payout never match the invoice value, and how is it corrected in the books?</h3>
+  <div class="faq-expanded__a"><p>A payout equals invoice value minus commission, fixed and closing fees, shipping, penalties, 0.5% GST TCS and 0.1% 194-O TDS, so it can never match. We rebuild each settlement line by line, post every deduction to its own ledger head, and claim input credit on marketplace commission invoices, which is the largest recoverable amount most Pune sellers leave unclaimed.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you bring Shopify, Razorpay and courier COD remittances into one set of books?</h3>
+  <div class="faq-expanded__a"><p>Each channel is reconciled to its own control account: gateway payouts against Razorpay settlement files, COD against courier remittance advice, and marketplace sales against settlement reports. Unmatched items age in a suspense ledger with a named owner and a date. For a Pune brand shipping nationally, the COD courier float is usually the largest reconciling item and the first thing an auditor questions.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does e-commerce accounting cost for a Pune seller, and what drives the price?</h3>
+  <div class="faq-expanded__a"><p>Fees are driven by monthly order volume, the number of sales channels and the number of GST registrations, not by turnover alone. A single-channel Pune seller costs far less than a brand running Amazon, Flipkart, Shopify and quick commerce with warehouses in three states. We quote a fixed monthly retainer after reviewing three months of settlement reports. Fees exclude GST and government charges.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How long must a Pune e-commerce company keep settlement files and books of account?</h3>
+  <div class="faq-expanded__a"><p>Eight financial years, under Section 128(5) of the Companies Act 2013, and your accounting software must maintain an unalterable audit trail with edit logs. Marketplace panels purge old settlement reports much sooner, so we archive each month's downloads to storage you control. Income-tax reassessment under Section 149 can reach three years three months, or five years three months above Rs 50 lakh escaped income.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Pune mein e-commerce ka accounting kaun karta hai?</strong> Patron Accounting's Pune office provides dedicated CA-led accounting for Amazon sellers, Flipkart vendors, D2C brands, and all online sellers in Pune.</p>
-                <p><strong>Amazon pe bechne ke liye GST registration Pune mein zaroori hai?</strong> Haan. Section 24(x) CGST Act ke under sabhi e-commerce sellers ko GST registration lena zaroori hai, chahe turnover kitna bhi ho.</p>
-                <p><strong>TCS kitna kata jaata hai marketplace se?</strong> 1% total (0.5% CGST + 0.5% SGST intra-state, ya 1% IGST inter-state) under Section 52 CGST Act.</p>
+                <p>An ecommerce accountant reconciles each marketplace settlement to the bank and books, tracks Section 52 GST TCS and Section 194-O TDS, provisions returns and RTO, and reports profit by channel for Amazon, Flipkart, Meesho and D2C sellers.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Do Not Let TCS Credits Expire - Start Reconciliation Today</h2>
+            <h2 class="section-title">E-Commerce Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>GSTR-3B due date is the 20th of every month - late filing attracts Rs 50 per day penalty under Section 47 of the CGST Act. TCS credits not reconciled within the financial year risk permanent loss if GSTR-8 filed by the operator does not match seller claims. Section 194O TDS credits expire if not claimed in the relevant assessment year's ITR. For Pune sellers, the GST Commissionerate has increased automated assessment notices for TCS/ITC mismatches - addressing these within 30 days prevents escalation to demand orders under Section 73/74.</p>
-                <p style="margin-top:16px;"><strong>Get started with e-commerce accounting - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20e-commerce%20accounting%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank">WhatsApp us</a>.</strong></p>
+                <p>Two dates drive an online seller's month: <strong>GSTR-8 TCS by the 10th</strong> and the <strong>Section 194-O TDS deposit by the 7th</strong>, both tied to marketplace settlements. Miss the reconciliation and your GSTR-2B credit will not tie out, inviting a mismatch notice. Patron reconciles each payout before the filing so the credit is claimed while the settlement file is still live. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Started with E-commerce Accounting in Pune</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your E-Commerce Accounting in Pune with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);">E-commerce accounting in Pune demands specialised expertise in marketplace reconciliation, GST TCS management under Section 52, income tax TDS compliance under Section 194O, and multi-channel inventory valuation across online and offline sales.</p>
-                <p style="color:rgba(255,255,255,0.9);">Patron Accounting's Pune office at RTC Silver, Wagholi provides end-to-end financial management for Amazon and Flipkart sellers, D2C brands in Baner and Koregaon Park, and quick-commerce vendors operating through the city's growing startup ecosystem in Hinjewadi and Kharadi.</p>
-                <p style="color:rgba(255,255,255,0.9);">With 15+ years of practice, 10,000+ businesses served, and a CA & CS team familiar with GST Commissionerate, Pune procedures and Maharashtra PT requirements, Patron Accounting delivers the accounting accuracy and compliance confidence that Pune's e-commerce sellers need to scale profitably.</p>
+                <p style="color:rgba(255,255,255,0.88);">The work lands on whoever has the marketplace password. Usually that is the operations person who also books couriers, or a founder reconciling payouts late on a Sunday. Ecommerce accounting services in Pune exist to take that file off both of them, because neither has the time nor the ledger training to finish it.</p>
+<p style="color:rgba(255,255,255,0.88);">Operators revise settlements after the fact, and a revision landing in July against a May payout used to mean reopening a closed month. Ecommerce accounting in Pune handles that correction in a stated adjustment window, leaving the earlier period alone, so nobody spends a morning working out what changed.</p>
+<p style="color:rgba(255,255,255,0.88);">The stock position is fixed on the last date goods were physically counted and agreed to an operator report. Anything booked after that date is rebuilt from settlement records and courier return files, following the same approach as <a href="/accounting-services-for-e-commerce-industry">our marketplace settlement work</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20e-commerce%20accounting%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-commerce%20Accounting%20Services%20in%20Pune&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20e-commerce%20accounting%20services%20in%20Pune.%0A%0APlease%20share%20details.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-Commerce%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20E-Commerce%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
-<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">E-commerce Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting serves e-commerce sellers in major cities across India. Find e-commerce accounting services near you.</p>
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title">Available Cities</div>
-                <div class="pa-block-sub">E-commerce accounting services</div>
-                <div class="pa-city-grid">
-                    <div class="pa-city-card" style="opacity:0.6; pointer-events:none; border:2px solid var(--orange); position:relative;">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div>
-                        <span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span>
-                    </div>
-                    <a href="/ecommerce-accounting-services/mumbai" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
-                    </a>
-                    <a href="/accounting-services-for-e-commerce-industry/delhi" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div>
-                    </a>
-                    <a href="/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                    </a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services in Pune</div>
-                <div class="pa-block-sub">End-to-end support for your e-commerce business</div>
-                <div class="pa-cross-grid">
-                    <a href="/accounting-services/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/gst-registration/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/gst-returns/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/income-tax-return/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/payroll-services/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/private-limited-company-registration/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">Pune</div></div></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 18 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">18 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 18 March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page covers e-commerce accounting services for online sellers and D2C brands in Pune. Content reviewed annually (Freshness Tier 2) reflecting GST TCS rate changes, Section 194O updates, marketplace compliance rules, and Maharashtra Professional Tax amendments.</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Selling on Amazon, Flipkart or Meesho &amp; need reconciled books?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free E-Commerce Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<section class="pa-localmap"><div class="pa-localmap-wrap"><div class="pa-localmap-info"><span class="pa-local2-kicker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span><h2>Visit our Pune office</h2><p>A local CA &amp; CS team for e-commerce accounting in Pune &mdash; visit our office or work with us online.</p><ul class="pa-localmap-details"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9h.01M9 12h.01M9 15h.01M9 18h.01"/></svg><span>RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+919459456700">+91 94594 56700</a></li></ul><a class="pa-localmap-btn" href="https://www.google.com/maps/search/?api=1&query=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India" target="_blank" rel="noopener">Get directions<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a></div><div class="pa-localmap-frame"><iframe src="https://www.google.com/maps?q=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India&ll=18.5794466,73.9682987&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Patron Accounting LLP office location on Google Maps"></iframe></div></div></section><section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">E-Commerce Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Maharashtra</div></div></div><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+@endsection
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
+
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2157,8 +1033,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2168,8 +1044,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2250,7 +1126,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2260,34 +1136,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2298,12 +1172,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2319,7 +1194,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2334,7 +1209,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2365,7 +1240,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2379,7 +1254,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered - init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2389,6 +1266,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2411,9 +1289,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2553,7 +1429,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2583,7 +1459,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2603,7 +1478,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2681,12 +1556,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2694,55 +1565,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2786,15 +1626,3 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
     var opts = { day: 'numeric', month: 'long', year: 'numeric' };
     var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
-
-    if (el1) el1.textContent = dateStr;
-    var el2 = document.getElementById('lastUpdatedFooter');
-    if (el2) el2.textContent = dateStr;
-})();
-</script>
-
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-@endsection

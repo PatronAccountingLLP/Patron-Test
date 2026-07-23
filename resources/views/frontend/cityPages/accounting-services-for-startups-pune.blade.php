@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-startups/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/accounting-services-for-startups/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-startups-pune-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup Accounting Services in Pune: What Is Included | Patron Accounting">
     <meta name="twitter:description" content="For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Book a local consultation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/accounting-services-for-startups/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-startups-pune-og.webp">
 <script type="application/ld+json">
 {
         "@context": "https://schema.org",

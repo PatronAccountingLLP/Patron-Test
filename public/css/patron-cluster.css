@@ -1741,3 +1741,14 @@ img,video,iframe{max-width:100%;}
   .pa-localmap-frame{min-height:300px;order:2;}}
 @media(max-width:640px){.pa-localmap-info{padding:26px 20px;}.pa-localmap-info h2{font-size:20px;}}
 
+
+/* ============================================================
+   FOOTER FIX (2026-07-23): the page-injected .wa-sticky-bar is a
+   position:fixed;bottom:0 bar that duplicated the site's seasonal
+   sticky strip (layout: itr-season-strips) and, being a 2nd fixed
+   bar, overlapped the site footer on short mobile viewports ("no
+   footer on mobile"). Normal site pages have only the ITR strip and
+   show the footer fine. Hide the duplicate + drop its reserved gap.
+   ============================================================ */
+.wa-sticky-bar{display:none !important;}
+main{padding-bottom:0 !important;}

@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-e-commerce-industry-pune-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Commerce Accounting Services in Pune, by Local CAs | Patron Accounting">
     <meta name="twitter:description" content="For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-e-commerce-industry-pune-og.webp">
 <script type="application/ld+json">
 {
         "@context": "https://schema.org",

@@ -24,6 +24,27 @@ RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-av
 
 WORKDIR /var/www/html
 
+# --- Production defaults baked into the image ------------------------------
+# These apply even if the service was NOT created from render.yaml (a plain
+# Docker web service ignores the blueprint's envVars). Any env var set in the
+# Render dashboard overrides these, so switching to a real DB later just works.
+# APP_KEY is intentionally omitted — the entrypoint mints one if unset.
+ENV APP_NAME="Patron Accounting" \
+    APP_ENV=production \
+    APP_DEBUG=false \
+    APP_TIMEZONE=Asia/Kolkata \
+    APP_URL=https://patron-test.onrender.com \
+    LOG_CHANNEL=stderr \
+    LOG_LEVEL=error \
+    DB_CONNECTION=sqlite \
+    DB_DATABASE=/var/www/html/database/database.sqlite \
+    SESSION_DRIVER=file \
+    CACHE_DRIVER=file \
+    QUEUE_CONNECTION=sync \
+    FILESYSTEM_DISK=local \
+    BROADCAST_DRIVER=log \
+    MAIL_MAILER=log
+
 # --- PHP dependencies (cached layer) ---------------------------------------
 COPY composer.json composer.lock ./
 RUN composer install --no-dev --no-scripts --no-autoloader --prefer-dist --no-interaction

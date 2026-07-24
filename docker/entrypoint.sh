@@ -39,6 +39,10 @@ chmod -R 775 storage bootstrap/cache || true
 # --- Optimize caches (all non-fatal so a bad cache never blocks boot) -------
 php artisan config:clear || true
 php artisan migrate --force || true
+# Idempotent content seeders (safe to run every boot). These upsert specific
+# posts whose migrations may already be recorded on the persistent disk, and
+# fix records hidden by a future published_at (server UTC vs IST).
+php artisan db:seed --class=BookkeepingVsAccountingBlogSeeder --force || true
 php artisan config:cache || true
 # Route caching is intentionally skipped: the app has pre-existing duplicate
 # route names (e.g. br.loan) that make route:cache fail. Uncached routes work

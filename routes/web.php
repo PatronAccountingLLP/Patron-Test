@@ -34,6 +34,15 @@ use App\Http\Controllers\DocFileController;
 // Frontend Routes
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 
+// ============ Glossary (Accounting cluster: 1 hub + 140 term pages) ============
+Route::get('/glossary', function () {
+    return view('glossary.index');
+})->name('glossary.index');
+Route::get('/glossary/{slug}', function ($slug) {
+    abort_unless(view()->exists('glossary.' . $slug), 404);
+    return view('glossary.' . $slug);
+})->where('slug', '[a-z0-9\-]+')->name('glossary.show');
+
 /*
  * Header/Footer assets served via app code.
  * The live public/ web root is a SEPARATE folder that does not receive deploys,

@@ -264,3 +264,16 @@
 .glh-vcard--soon .glh-vcard__t{color:#9CA3AF}
 .glh-vcard__soon{font-size:12px;font-weight:700;color:#B45309;background:#FFFBEB;border:1px solid #FDE68A;border-radius:50px;padding:3px 10px;align-self:flex-start;margin-top:8px}
 .glh-vcard__d{font-size:13px;color:#6B7280;line-height:1.55;margin-top:2px}
+
+/* ============ Hero visual polish ============ */
+.gl-hero{position:relative;overflow:hidden}
+.gl-hero::before{content:"";position:absolute;top:-150px;right:-90px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,#FDE7D6 0%,rgba(253,231,214,0) 70%);pointer-events:none;z-index:0}
+.gl-hero::after{content:"";position:absolute;bottom:-170px;left:-120px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,#E7EEF7 0%,rgba(231,238,247,0) 70%);pointer-events:none;z-index:0}
+.gl-hero .gl-wrap{position:relative;z-index:1}
+.gl-herobadges{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:24px}
+.gl-hb{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:#4B5563}
+.gl-hb svg{width:16px;height:16px;color:#0F9D58;flex-shrink:0}
+.gl-popular{margin-top:22px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.gl-popular__l{font-size:13px;font-weight:700;color:#14365F;margin-right:2px}
+.gl-popular a{display:inline-flex;align-items:center;padding:6px 14px;font-size:13px;font-weight:600;color:#14365F;background:#fff;border:1px solid #E5E7EB;border-radius:50px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.gl-popular a:hover{border-color:#E8712C;color:#E8712C;background:#FEF4EE}

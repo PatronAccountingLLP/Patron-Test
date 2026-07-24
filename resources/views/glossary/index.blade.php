@@ -7,7 +7,7 @@
     <link rel="canonical" href="https://www.patronaccounting.com/glossary">
     <meta name="robots" content="index, follow">
     <meta property="og:type" content="website"><meta property="og:title" content="Patron Glossary - Accounting, Tax, GST &amp; Compliance Terms"><meta property="og:url" content="https://www.patronaccounting.com/glossary"><meta property="og:site_name" content="Patron Accounting">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/glossary.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/glossary.css"><script src="/js/glossary.js" defer></script>
 @endsection
 
 @section('schema')
@@ -53,6 +53,36 @@
       "publisher": {
         "@id": "https://www.patronaccounting.com/#organization"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/glossary#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are some basic accounting terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common ones are assets (what a business owns), liabilities (what it owes), equity (the owners' stake), revenue (income earned) and expenses (costs incurred), plus the general ledger, journal entry and trial balance that record them. This glossary defines each in plain English with an Indian example."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 5 basic elements of accounting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The five elements are assets, liabilities, equity, income (revenue) and expenses. Every transaction affects at least two of them under double-entry; together they build the balance sheet (assets, liabilities and equity) and the profit and loss statement (income and expenses). Each has its own entry in this glossary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I learn and remember accounting terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with the fundamentals - assets, liabilities, equity, income and expenses - then use each term in context: read its worked example in INR, see how it is handled in Tally or Zoho Books, and follow the related-term links. Looking terms up here as questions come up makes them stick better than memorising a list."
+          }
+        }
+      ]
     },
     {
       "@type": [
@@ -140,7 +170,8 @@
 @verbatim
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap"><nav class="gl-crumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><span class="cur">Glossary</span></nav><div class="gl-cat">Patron Glossary &middot; by service</div><h1 class="gl-h1">The Patron Business Glossary</h1><p class="glh2-lead">Plain-language, CA-reviewed definitions across every service we run for Indian businesses. Choose a service area to browse its glossary.</p></div></section>
-  <div class="glh2-body"><div class="gl-wrap"><div class="glh-verts"><a href="/glossary/accounting" class="glh-vcard glh-vcard--live"><div class="glh-vcard__t">Accounting &amp; Bookkeeping</div><div class="glh-vcard__c">140 terms &middot; Live</div><span class="glh-vcard__go">Explore glossary &rarr;</span></a><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">GST</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Income Tax &amp; TDS</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Company Registration</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">ROC &amp; Compliance</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Payroll &amp; Labour</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Licenses &amp; Certificates</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Trademark &amp; IP</div><span class="glh-vcard__soon">Coming soon</span></div></div><section class="glh2-cta"><div class="glh2-cta__l"><div class="glh2-cta__ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div><h3>Rather have experts handle it?</h3><p>CA-led accounting, GST, tax and compliance for Indian businesses.</p></div></div><a class="glh2-cta__btn" href="/accounting-services">Explore Patron Services &rarr;</a></section></div></div>
+  <div class="glh2-body"><div class="gl-wrap"><div class="glh-verts"><a href="/glossary/accounting" class="glh-vcard glh-vcard--live"><div class="glh-vcard__t">Accounting &amp; Bookkeeping</div><div class="glh-vcard__d">Definitions for the ledgers, GST, reconciliation and reporting terms behind clean books.</div><span class="glh-vcard__go">Explore glossary &rarr;</span></a><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">GST</div><div class="glh-vcard__d">Registration, returns, input tax credit, e-invoicing and TCS terminology.</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Income Tax &amp; TDS</div><div class="glh-vcard__d">ITR, TDS/TCS, advance tax and assessment terms.</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Company Registration</div><div class="glh-vcard__d">Incorporation, DIN, MOA/AOA and post-registration terms.</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">ROC &amp; Compliance</div><div class="glh-vcard__d">Annual filings, MCA forms and corporate compliance terms.</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Payroll &amp; Labour</div><div class="glh-vcard__d">PF, ESI, gratuity and payroll-processing terms.</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Licenses &amp; Certificates</div><div class="glh-vcard__d">FSSAI, ISO, IEC and trade-licence terms.</div><span class="glh-vcard__soon">Coming soon</span></div><div class="glh-vcard glh-vcard--soon"><div class="glh-vcard__t">Trademark &amp; IP</div><div class="glh-vcard__d">Trademark, copyright and IP-protection terms.</div><span class="glh-vcard__soon">Coming soon</span></div></div><section class="glh2-cta"><div class="glh2-cta__l"><div class="glh2-cta__ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div><h3>Rather have experts handle it?</h3><p>CA-led accounting, GST, tax and compliance for Indian businesses.</p></div></div><a class="glh2-cta__btn" href="/accounting-services">Explore Patron Services &rarr;</a></section></div></div>
+  <section id="faq-section" class="gl-faq-section"><div class="faq-expanded"><aside class="faq-expanded__aside"><h2 class="faq-expanded__title">About the glossary</h2><p class="faq-expanded__lead">What the Patron glossary is and how to get the most from it.</p><a class="faq-expanded__cta" href="/contact-us">Have a question? Talk to a CA &rarr;</a></aside><div class="faq-expanded__list"><div class="faq-expanded__item"><h3 class="faq-expanded__q" aria-expanded="true" aria-controls="gfaq-1">What are some basic accounting terms?</h3><div class="faq-expanded__a" id="gfaq-1"><p>Common ones are assets (what a business owns), liabilities (what it owes), equity (the owners' stake), revenue (income earned) and expenses (costs incurred), plus the general ledger, journal entry and trial balance that record them. This glossary defines each in plain English with an Indian example.</p></div></div><div class="faq-expanded__item"><h3 class="faq-expanded__q" aria-expanded="true" aria-controls="gfaq-2">What are the 5 basic elements of accounting?</h3><div class="faq-expanded__a" id="gfaq-2"><p>The five elements are assets, liabilities, equity, income (revenue) and expenses. Every transaction affects at least two of them under double-entry; together they build the balance sheet (assets, liabilities and equity) and the profit and loss statement (income and expenses). Each has its own entry in this glossary.</p></div></div><div class="faq-expanded__item"><h3 class="faq-expanded__q" aria-expanded="true" aria-controls="gfaq-3">How can I learn and remember accounting terms?</h3><div class="faq-expanded__a" id="gfaq-3"><p>Start with the fundamentals - assets, liabilities, equity, income and expenses - then use each term in context: read its worked example in INR, see how it is handled in Tally or Zoho Books, and follow the related-term links. Looking terms up here as questions come up makes them stick better than memorising a list.</p></div></div></div></div></section>
   <footer class="gl-foot"><div class="gl-foot__in"><a href="/glossary/accounting">Accounting glossary &rarr;</a></div></footer>
 </div>
 @endverbatim

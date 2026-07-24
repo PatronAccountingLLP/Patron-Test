@@ -116,3 +116,29 @@
   if (document.readyState !== 'loading') init();
   else document.addEventListener('DOMContentLoaded', init);
 })();
+
+/* ---- Rotating hero CTA (term pages): 5 CTAs, ~7s cycle, pause on hover ---- */
+(function () {
+  function init() {
+    var wraps = [].slice.call(document.querySelectorAll('[data-rotate]'));
+    wraps.forEach(function (w) {
+      var slides = [].slice.call(w.querySelectorAll('.gl-rotcta__slide'));
+      var dots = [].slice.call(w.querySelectorAll('.gl-rotcta__dot'));
+      if (slides.length < 2) return;
+      var i = 0, timer = null;
+      function show(n) {
+        i = (n + slides.length) % slides.length;
+        slides.forEach(function (s, k) { s.classList.toggle('is-active', k === i); });
+        dots.forEach(function (d, k) { d.classList.toggle('is-active', k === i); });
+      }
+      function start() { stop(); timer = setInterval(function () { show(i + 1); }, 7000); }
+      function stop() { if (timer) { clearInterval(timer); timer = null; } }
+      dots.forEach(function (d, k) { d.addEventListener('click', function () { show(k); start(); }); });
+      w.addEventListener('mouseenter', stop);
+      w.addEventListener('mouseleave', start);
+      show(0); start();
+    });
+  }
+  if (document.readyState !== 'loading') init();
+  else document.addEventListener('DOMContentLoaded', init);
+})();

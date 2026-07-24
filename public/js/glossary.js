@@ -73,3 +73,46 @@
   if (document.readyState !== 'loading') init();
   else document.addEventListener('DOMContentLoaded', init);
 })();
+
+/* ---- Glossary HUB: live search + category filter (no-ops off the hub) ---- */
+(function () {
+  function init() {
+    var search = document.getElementById('glh2-search');
+    var pills = [].slice.call(document.querySelectorAll('.glh2-fpill'));
+    var groups = [].slice.call(document.querySelectorAll('.glh2-group'));
+    if (!groups.length) return;
+    var cat = 'all';
+    function apply() {
+      var q = (search ? search.value : '').trim().toLowerCase();
+      var totalShown = 0;
+      groups.forEach(function (g) {
+        var gk = g.getAttribute('data-group');
+        var shown = 0;
+        [].forEach.call(g.querySelectorAll('.glh2-card'), function (c) {
+          var okCat = (cat === 'all' || cat === gk);
+          var okQ = !q || c.getAttribute('data-term').indexOf(q) > -1;
+          var show = okCat && okQ;
+          c.style.display = show ? '' : 'none';
+          if (show) shown++;
+        });
+        g.style.display = shown ? '' : 'none';
+        var live = g.querySelector('.glh2-livecount');
+        if (live) live.textContent = shown;
+        totalShown += shown;
+      });
+      var nr = document.getElementById('glh2-noresults');
+      if (nr) nr.style.display = totalShown ? 'none' : '';
+    }
+    if (search) search.addEventListener('input', apply);
+    pills.forEach(function (p) {
+      p.addEventListener('click', function () {
+        cat = p.getAttribute('data-cat');
+        pills.forEach(function (x) { x.classList.remove('is-active'); });
+        p.classList.add('is-active');
+        apply();
+      });
+    });
+  }
+  if (document.readyState !== 'loading') init();
+  else document.addEventListener('DOMContentLoaded', init);
+})();

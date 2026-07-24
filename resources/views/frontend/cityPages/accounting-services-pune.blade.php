@@ -1,1099 +1,339 @@
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Accounting & Bookkeeping Services in Pune - Expert CAs</title>
-    <meta name="description" content="CA-assisted accounting services in Pune. Tally, Zoho Books and cloud accounting for IT, manufacturing and startups. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.">
-    <link rel="canonical" href="/accounting-services/pune">
+    <title>Accounting Services in Pune: Scope, Fees and Process | Patron Accounting</title>
+    <meta name="description" content="Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Ask for a scope call.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounting & Bookkeeping Services in Pune - Expert CAs">
-    <meta property="og:description" content="CA-assisted accounting services in Pune. Tally, Zoho Books and cloud accounting for IT, manufacturing and startups. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.">
-    <meta property="og:url" content="/accounting-services/pune">
+    <meta property="og:title" content="Accounting Services in Pune: Scope, Fees and Process | Patron Accounting">
+    <meta property="og:description" content="Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Ask for a scope call.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-pune-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounting & Bookkeeping Services in Pune - Expert CAs">
-    <meta name="twitter:description" content="CA-assisted accounting services in Pune. Tally, Zoho Books and cloud accounting for IT, manufacturing and startups. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-pune-og.webp">
+    <meta name="twitter:title" content="Accounting Services in Pune: Scope, Fees and Process | Patron Accounting">
+    <meta name="twitter:description" content="Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Ask for a scope call.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-pune-og.webp">
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Accounting Services in Pune",
-      "description": "CA-assisted accounting services in Pune. Tally, Zoho Books and cloud accounting for IT, manufacturing and startups. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.",
-      "url": "/accounting-services/pune",
-      "serviceType": "Accounting Services in Pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services/pune/#service",
+  "name": "Accounting Services in Pune",
+  "description": "Accounting services in Pune have to speak two languages: export invoicing for Hinjewadi IT firms, and BOM costing for the auto-component plants at Chakan.",
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services/pune"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting Services in Pune",
+    "itemListElement": [
+      {
         "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/accounting-services/pune",
-        "price": "5000"
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounting Services in Pune",
+          "description": "Accounting services in Pune have to speak two languages: export invoicing for Hinjewadi IT firms, and BOM costing for the auto-component plants at Chakan.",
+          "serviceType": "Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
+        }
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.patronaccounting.com/pune/#localbusiness",
+  "name": "Patron Accounting LLP - Pune (Wagholi HQ)",
+  "url": "https://www.patronaccounting.com/accounting-services/pune",
+  "telephone": "+91 94594 56700",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "412207",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Pune"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Wagholi"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Kharadi"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Baner"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services/pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting Services in Pune",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounting Services in Pune",
+          "description": "Accounting services in Pune have to speak two languages: export invoicing for Hinjewadi IT firms, and BOM costing for the auto-component plants at Chakan.",
+          "serviceType": "Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
+        }
+      }
+    ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.57944655,
+    "longitude": 73.9682987
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "206",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Accounting Services",
+      "item": "https://www.patronaccounting.com/accounting-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Pune",
+      "item": "https://www.patronaccounting.com/accounting-services/pune"
+    }
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services/pune/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services/pune/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much do accounting services cost in Pune?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accounting in Pune is normally priced as a monthly retainer rather than an hourly rate, set by transaction volume, the number of bank and payment accounts, payroll headcount, and whether GST and TDS return preparation sits inside the same scope. A dormant private limited company costs a fraction of a three-thousand-invoice trading business. We quote in writing after reviewing one month of statements."
       }
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounting Services India: Overview",
-          "item": "https://www.patronaccounting.com/accounting-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounting Services in Pune",
-          "item": "https://www.patronaccounting.com/accounting-services/pune"
-        }
-      ]
+      "@type": "Question",
+      "name": "Does the audit trail rule apply to a Pune private limited company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, every company must use accounting software with an edit log that records each change and cannot be switched off, mandatory for financial years beginning 1 April 2023, and the auditor reports on it separately. Proprietorships and partnerships sit outside the rule though lenders increasingly ask anyway. We confirm the audit trail flag is enabled in Tally or Zoho Books before the first entry."
+      }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which GST and RoC office handles accounting compliance in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The GST Commissionerate, Pune handles all indirect tax compliance including GST registration, return filing, and refund processing for businesses in Pune district. For company law matters, RoC Pune (Registrar of Companies, Pune) under the Ministry of Corporate Affairs handles incorporation, annual filings, and statutory compliance. Patron Accounting's Pune office coordinates with both these authorities regularly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get accounting services done online from Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron Accounting offers fully online accounting services from Pune. Your books can be maintained on Tally, Zoho Books, or QuickBooks with cloud access. Document collection, GST reconciliation, and financial reporting are all handled digitally. For businesses that prefer in-person discussion, Patron's Pune office at RTC Silver, Wagholi is available for walk-in consultations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the accounting service fee in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Accounting service fees in Pune start from Rs 5,000 per month for basic bookkeeping and go up to Rs 30,000 or more for full-service accounting that includes GST filing, payroll, PTRC compliance, financial statements, and audit support. The exact fee depends on transaction volume, entity type, and number of employees. Patron offers fixed monthly plans with no hidden charges."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to set up accounting services in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Onboarding typically takes 2 to 5 working days. This includes document collection, assessment of your current financial status, software setup in Tally or Zoho Books, and chart of accounts configuration. Monthly book updates are then delivered within 7 working days of each month-end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is PTRC and PTEC, and do Pune businesses need it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "PTRC (Professional Tax Registration Certificate) is mandatory for any employer in Maharashtra whose employees earn above Rs 7,500 per month (men) or Rs 25,000 per month (women). PTEC (Professional Tax Enrolment Certificate) is required for companies, LLPs, directors, and self-employed professionals, with an annual flat payment of Rs 2,500. As per the February 2026 Maharashtra amendment, PTRC returns are now due by the 15th of the following month. Patron bundles PTRC/PTEC compliance with all accounting service tiers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is outsourcing accounting services in Pune worth it for startups?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Outsourcing is typically more cost-effective than hiring a full-time accountant. A junior accountant in Pune costs Rs 15,000 to Rs 25,000 per month in salary alone, plus HR overhead. Professional accounting services start from Rs 5,000 per month and include CA-level oversight, multi-platform software access, and guaranteed compliance with GST, TDS, and Maharashtra PT requirements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I do not maintain books of accounts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 271A of the Income Tax Act, 1961, failure to maintain books of accounts attracts a penalty of Rs 25,000. Additionally, under Section 271B, failure to get accounts audited when required under Section 44AB attracts a penalty of 0.5% of turnover or Rs 1,50,000, whichever is lower. The GST Commissionerate, Pune can also issue notices for incomplete records during GST audits. Quick Answers What is accounting kya hota hai? Accounting means all financial transactions ka record rakhna - purchase, sale, expense, income - sab systematically record hota hai for tax and compliance. Pune mein CA firm ki zaroorat kab hoti hai? Jab aapka turnover Rs 1 crore cross kare ya company registered ho toh CA se audit karwana mandatory hai under IT Act Section 44AB. Kya online accounting safe hai? Haan - Zoho Books and Tally cloud mein data encrypted hota hai. Pune mein Patron Accounting ka office bhi hai agar aap in-person discuss karna chahein."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "What professional tax must a Pune business register for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maharashtra needs PTEC for the entity, proprietor or partner at Rs 2,500 a year, payable by 15 June since the February 2026 amendment to Rule 11(3), and PTRC where salaries cross the monthly wage threshold. PTRC returns are monthly where the previous year liability exceeded Rs 1 lakh, otherwise annual. Backdated PTRC returns each carry their own late fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When are GST returns due for a business in Pune?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maharashtra is a Category X state, so quarterly GSTR-3B under QRMP is due on the 22nd of the month following the quarter for turnover up to Rs 5 crore, while businesses above that file monthly by the 20th. GSTR-1 is monthly by the 11th or quarterly by the 13th. We close the books by the 5th so filing is never rushed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long must books of account and vouchers be preserved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Companies must preserve books of account and vouchers for eight financial years immediately preceding the current year under Section 128(5) of the Companies Act, while GST records run six years from the annual return due date. Reassessment under Section 149 can reach back three years and three months, or five years and three months where escaped income exceeds Rs 50 lakh."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does a Pune business need a tax audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A tax audit under Section 44AB is required once turnover crosses Rs 1 crore, extended to Rs 10 crore where cash receipts and cash payments are each 5% or less of the total. Professionals cross at Rs 50 lakh of gross receipts. Because that relief depends on cash ratios, we monitor the cash percentage monthly rather than discovering the position in September."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What local registrations does a business in Hinjewadi or Kharadi need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Establishments in Hinjewadi or Kharadi register under the Maharashtra Shops and Establishments Act once they employ ten or more workers, and file only an online Form F intimation below that. A trade licence comes from PMC or PCMC depending on the municipal limit, while parts of Hinjewadi fall under PMRDA, which changes who issues it. Renewal dates differ across the three bodies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a monthly close actually cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A monthly close covers bank and card reconciliation, input credit matching against GSTR-2B, a TDS deduction review, the payroll journal, provisions and prepaid entries, stock or work in progress updates where relevant, and a signed trial balance with profit and loss and balance sheet. Pune clients receive it by the 10th, leaving room before the 20th and 22nd GST dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does a handover work when a Pune business already has an in-house accountant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Handover starts with your existing Tally or Zoho Books data file, the last audited balance sheet, GST and TDS portal credentials and an open items list, followed by a two-week parallel run where opening balances are reconciled before we take over. QuickBooks users need a migration since it withdrew from India in 2023. In-house staff usually stay on payments and vendor coordination."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is an in-person meeting possible in Pune before signing up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Pune office at RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207 handles in-person scoping meetings and document handover, and visits to Hinjewadi, Kharadi, Baner or Chakan are arranged when a stock count or auditor walkthrough needs someone present. Routine work runs on a shared drive, so nothing waits on courier movement or traffic across the city."
+      }
     }
   ]
-}</script>
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services/pune",
+  "name": "Accounting Services in Pune",
+  "description": "Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Ask for a scope call.",
+  "url": "https://www.patronaccounting.com/accounting-services/pune",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services/pune/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services/pune/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column - right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION - Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 0; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot - Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
+<link rel="stylesheet" href="/css/patron-cluster.css">
 
 @section('content')
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;"><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li><span style="color:var(--orange);font-weight:600;">Pune</span></li></ol>
+    </div>
+</nav>
 
 
-<!-- HERO SECTION -->
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1102,10 +342,10 @@
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         Trusted by 10,000+ Businesses
-                    </div>
+                    </div><span class="pa-hero-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Accounting Services in Pune: CA-Managed Books for Growing Businesses
+                        Accounting Services in Pune
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1114,42 +354,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">18 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="#" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Documents:</span> PAN, GST certificate, bank statements, previous year financials</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Input credit you can keep:</span> You keep the input credit your books can back, vendor by vendor, before it is ever claimed on invoices alone.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Starting from Rs 5,000/month for basic bookkeeping</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Statements that map to Schedule III:</span> Your trial balance already carries the groupings financial statements need, so a lender pack or board pack is drawn straight off it.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> All business types - Pvt Ltd, LLP, proprietorship, partnership</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Party-wise debtor and creditor position:</span> You see who owes you and who you owe, name by name, with ageing. It replaces one net figure on the balance sheet.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> Books updated within 7 working days of document submission</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Payroll deductions that agree:</span> We compute each month's PF, ESI, Professional Tax and salary TDS off the salary register. Challans paid and the ledger charge then match.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Visit our Pune office or get started online - trusted by 10,000+ businesses across India</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounting%20Services%20in%20Pune&body=Hello%20Patron%2C%0A%0AI%20need%20accounting%20services%20in%20Pune.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20in%20Pune.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20in%20Pune" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1176,7 +414,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1206,7 +444,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Accounting Services'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1249,14 +487,14 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services/pune" selected>Accounting Services in Pune</option>
-                                <option value="tally-accounting/pune">Tally Accounting in Pune</option>
-                                <option value="zoho-books-accounting/pune">Zoho Books Accounting in Pune</option>
-                                <option value="payroll-services/pune">Payroll Services in Pune</option>
-                                <option value="income-tax-return/pune">Income Tax Return Filing in Pune</option>
-                                <option value="gst-registration/pune">GST Registration in Pune</option>
-                                <option value="private-limited-company-registration/pune">Pvt Ltd Registration in Pune</option>
-                                <option value="other">Other</option>
+                                <option value="accounting-services/pune" selected>Startup Accounting</option>
+                                    <option value="accounting-services">Accounting Services (All)</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="esop-accounting-ind-as-102">ESOP Accounting (Ind AS 102)</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1286,113 +524,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Our GST filing is always on time since we moved to Patron. The CA team knows their stuff cold. Highly recommended for IT companies.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AD</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Amit Deshmukh</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">CFO, IT Company, Hinjewadi</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron handled our Pvt Ltd registration and ongoing accounting end-to-end. Zero paperwork hassle for our founding team.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SJ</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Sneha Joshi</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Startup Founder, Baner</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">The PTRC compliance was something we had missed completely. Patron caught it during onboarding and regularised it within a week.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#10B981;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RP</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Rahul Patil</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Manufacturing, Chakan</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Moving from offline Tally to Zoho Books was seamless with Patron. Real-time dashboards have changed how we track cash flow.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#6366F1;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PK</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Priya Kulkarni</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Finance Head, SaaS Company, Kharadi</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Excellent service for company registration and compliance. The team is very responsive and handles everything end to end.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SA</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Demandify Media</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">6 months ago</div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>From IT startups in Hinjewadi to manufacturers in Chakan - Pune businesses trust Patron for accurate, timely accounting.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1418,138 +553,87 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
+            
             <a href="#overview-section" class="toc-btn active">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is It</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Services</a>
-            <a href="#procedure-section" class="toc-btn">Process</a>
-            <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
-            <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Timeline</a>
-            <a href="#benefits-section" class="toc-btn">Why Patron</a>
-            <a href="#comparison-section" class="toc-btn">Comparison</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounting Services in Pune: Complete Overview</h2>
+            <h2 class="section-title">What Accounting Costs and Covers for Pune Businesses</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Accounting Services Services at a Glance</strong></p>
-                    <p>Professional accounting services in Pune cover bookkeeping, financial reporting, tax compliance, and advisory for businesses operating across Hinjewadi, Kharadi, Chakan MIDC and other commercial zones. Every company registered under the Companies Act, 2013, or any entity with GST registration, must maintain books of accounts as prescribed under Section 128 of the Act. Pune businesses - from IT startups in Rajiv Gandhi Infotech Park to manufacturing units in MIDC Bhosari - need accurate accounting to meet statutory audit thresholds and avoid penalties under Section 271A of the Income Tax Act, 1961.</p>
+                    <p><strong>&#128204; TL;DR - Accounting Services at a Glance</strong></p>
+                    <p>Accounting services in Pune have to speak two languages: export invoicing for Hinjewadi IT firms, and BOM costing for the auto-component plants at Chakan. Maharashtra's monthly GST compliance cycle closes on the 22nd below the Rs 5 crore mark, with professional tax deducted alongside. Patron runs both from an office at Wagholi, closing the month to a published date. Appropriate for IT firms, manufacturers and service businesses across the city.</p>
                 </div>
-                <p>Pune has emerged as Maharashtra's second-largest economic hub, home to over 4,400 accounting service providers and 2,300 chartered accountant firms. The city's Hinjewadi IT Park and Kharadi IT corridor house hundreds of software companies that require Ind AS-compliant financial reporting. Simultaneously, Chakan's automotive manufacturing cluster - anchored by Tata Motors, Volkswagen, and Bajaj Auto facilities - demands specialised cost accounting and GST reconciliation. The GST Commissionerate, Pune oversees indirect tax compliance for businesses across the district, while RoC Pune handles all company law filings under the Ministry of Corporate Affairs. Learn more about <a href="/accounting-services">accounting services across India</a>.</p>
-                <div class="table-responsive-wrapper" style="margin-top:20px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td>Governing Acts</td><td>Companies Act 2013 (S128, S133), IT Act 1961 (S44AB), CGST Act 2017</td></tr>
-                        <tr><td>Applicable To</td><td>All registered businesses - Pvt Ltd, LLP, OPC, proprietorship, partnership</td></tr>
-                        <tr><td>Timeline</td><td>Books updated monthly; annual financials by 30 September</td></tr>
-                        <tr><td>Cost Starting From</td><td>Rs 5,000/month (basic bookkeeping) to Rs 25,000+/month (full-service)</td></tr>
-                        <tr><td>Penalty for Non-Compliance</td><td>Rs 25,000 under S271A IT Act for failure to maintain books</td></tr>
-                        <tr><td>Key Portals</td><td>incometax.gov.in, mca.gov.in, gst.gov.in</td></tr>
-                        <tr><td>Jurisdictional Office</td><td>GST Commissionerate, Pune; RoC Pune</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p</p>
-                <p>Whether you run a SaaS startup in Baner or a trading firm in Market Yard, professional accounting ensures your books satisfy the Income Tax Department, GST authorities, and the Registrar of Companies. Maharashtra's Professional Tax Act, 1975, adds another layer - every employer with salaried staff earning above Rs 7,500 per month (men) must obtain PTRC registration and deduct professional tax. Patron Accounting's Pune office at RTC Silver, Wagholi serves businesses across all these zones with CA-managed accounting services.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>A close runs late when inputs arrive out of order. Bank statements, sales and purchase invoices, expense bills and payroll inputs go into a shared folder; where the plant sits on the city's periphery, gate registers and job-work challans reach us after the bank and sales data, so posting is sequenced around the slower feed. Back come posted ledgers, tax workings and a dated trial balance, following the monthly MIS checklist.</p>
+                <p>Late returns carry interest and a daily late fee, and input credit missed inside the window is rarely recovered, which is the real cost of a slow close. The accounting services that Pune businesses retain from Patron cover posting, reconciliation and return workings, with dates read off the Maharashtra tax portal. Statutory audit and litigation support are separate engagements.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Are Accounting Services?</h2>
+                <h2 class="section-title">What Do Accounting Services Mean for Pune Businesses?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Accounting services refer to the professional recording, classifying, summarising, and reporting of financial transactions of a business entity, governed by Indian Accounting Standards (Ind AS) notified under Section 133 of the Companies Act, 2013. These services form the backbone of financial compliance for every registered business in India.</p>
-                    <p>For Pune-based businesses, accounting services go beyond basic bookkeeping. An IT company in Hinjewadi generating revenue from overseas clients needs foreign exchange accounting under Ind AS 21, while a manufacturer in Chakan MIDC requires inventory valuation under Ind AS 2 and cost allocation methods that satisfy both statutory audit and internal management reporting. The scale of Pune's commercial activity - spanning software services, automotive components, defence electronics, and food processing - means that generic accounting templates fail. Businesses here need accounting professionals who understand Maharashtra's regulatory environment, including Professional Tax deductions under the PT Act 1975, Shops and Establishments Act compliance, and zone-specific GST filing obligations handled by the GST Commissionerate, Pune.</p>
+                    <p>A company&#x27;s books must show, at the close, a position that balances. What the business owns is set against what it owes and what the owners hold, with the period&#x27;s earnings and spending resolved into the same ledger. Accounting services in Pune produce that position each month. Every transaction is posted to its class, and the balances are reconciled before the trial balance is signed.</p>
+<p>What the ledger has to stretch to differs by trade. An exporting software firm leans on receivables and foreign receipts. A component maker leans on stock, work in progress and the cost built into each part. Yet both resolve into the same core account classes. The engagement holds the books, the reconciliations and the monthly figures. The statutory audit and the returns filed from them are separate work. Accounting services in Pune end at a signed trial balance that ties, ready for whoever needs it next.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Accounting Services:</strong></p>
-                    <ul>
-                        <li><strong>Bookkeeping:</strong> The systematic recording of all financial transactions of a business entity in compliance with applicable accounting standards.</li>
-                        <li><strong>Ind AS:</strong> Indian Accounting Standards notified under Section 133 of the Companies Act, 2013 for financial reporting by companies.</li>
-                        <li><strong>PTRC:</strong> Professional Tax Registration Certificate under Maharashtra PT Act 1975, mandatory for employers with salaried staff.</li>
-                        <li><strong>PTEC:</strong> Professional Tax Enrolment Certificate required for companies, LLPs, directors at Rs 2,500 per year in Maharashtra.</li>
-                        <li><strong>Section 44AB:</strong> Income Tax Act provision mandating tax audit for businesses with turnover exceeding Rs 1 crore (Rs 10 crore digital).</li>
-                        <li><strong>Form 3CD:</strong> Tax audit report form filed by chartered accountants containing prescribed financial particulars.</li>
-                    </ul>
+                    <p><strong>Key Terms for Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/assets">Assets</a></span><span class="al-d">Everything the business owns or is owed that carries future economic value.</span></li><li><span class="al-t"><a href="/glossary/liabilities">Liabilities</a></span><span class="al-d">Amounts the business owes to others, from supplier bills to loans and taxes due.</span></li><li><span class="al-t"><a href="/glossary/equity">Equity</a></span><span class="al-d">The owners&#x27; residual stake in the business once every liability is subtracted from assets.</span></li><li><span class="al-t"><a href="/glossary/capital">Capital</a></span><span class="al-d">The funds owners put into the business to start and sustain its operations.</span></li><li><span class="al-t"><a href="/glossary/revenue">Revenue</a></span><span class="al-d">Income the business earns from selling its goods or services before any costs.</span></li><li><span class="al-t"><a href="/glossary/expenses">Expenses</a></span><span class="al-d">The costs incurred in running the business and earning its revenue during a period.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Accounting Services</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>CA-Managed</span>
-                        <strong>Pune Accounting</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services/pune/what-is-pune.webp" alt="What Are Accounting Services. Before a business can file a return, raise a loan or answer an auditor, its books have in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Accounting Services in Pune?</h2>
+            <h2 class="section-title">Who Needs Accounting Services in Pune: From Hinjewadi to Growing SMEs</h2>
             <div class="content-text">
                 
-                <p>Pune's diverse economy creates accounting demand across multiple sectors. IT and software companies in Hinjewadi, Kharadi, and Magarpatta Cybercity require monthly financial reporting, TDS compliance under Sections 194C/194J of the IT Act, and revenue recognition under Ind AS 115 for SaaS and project-based billing.</p>
-                <p>Manufacturing units across Chakan MIDC, MIDC Bhosari, and Pimpri-Chinchwad industrial belt need specialised cost accounting, inventory valuation, GST input credit reconciliation, and excise-equivalent record-keeping. Automotive ancillary units supplying to Tata Motors, Mercedes-Benz, and Bajaj Auto plants face stringent vendor audit requirements.</p>
-                <p>Startups and MSMEs in Baner, Wakad, and Koregaon Park must maintain books from day one. Under Section 44AB of the Income Tax Act, 1961, any business with turnover exceeding Rs 1 crore (Rs 10 crore if cash transactions below 5%) must get accounts audited. Even proprietorships registered under the Maharashtra Shops and Establishments Act, 2017, must maintain books for PTRC obligations.</p>
-                <p>Exporters operating from Pune's MIDC zones and SEZ units need accounting that tracks foreign currency receipts, duty drawback claims, and SOFTEX compliance. Education institutions, hospitals, and NGOs registered in Pune have their own reporting requirements under Section 12AA, 80G, and FCRA regulations.</p>
+                <p>Accounting services in Pune are for firms carrying real transaction volume across bank accounts and registrations, yet with nobody owning the monthly close. Most are companies, LLPs and proprietors in Hinjewadi, Baner and Pimpri-Chinchwad that have outgrown occasional help.</p>
+  <ul>
+    <li>Newly incorporated private limited companies in Wakad now due to file monthly GST and TDS, with no accountant hired.</li>
+    <li>Proprietors whose bookkeeper has left mid-year, leaving reconciliations and posting stalled across Baner offices.</li>
+    <li>LLPs that took a second state registration, doubling the returns each period now demands.</li>
+    <li>Firms whose headcount has grown until PF, ESI and <a href="/blog/maharashtra-professional-tax-shops-act">Maharashtra professional tax</a> each need computing monthly.</li>
+    <li>Owner-run businesses still keeping records in spreadsheets, now facing a lender review those files cannot answer.</li>
+    <li>Companies approaching their first statutory audit that need a trial balance an auditor accepts without rework.</li>
+    <li>Established Pimpri-Chinchwad firms whose ledgers drift because nobody reconciles them between one quarter and the next.</li>
+  </ul>
 
             </div>
             </div>
@@ -1557,26 +641,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounting Services Included in Pune</h2>
+            <h2 class="section-title">Accounting Services Included for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Day-to-Day Bookkeeping</td><td>Recording all purchase, sales, expense, and receipt transactions in Tally ERP 9, Zoho Books, or QuickBooks - aligned with Pune IT and manufacturing business workflows</td></tr>
-                        <tr><td>Bank Reconciliation</td><td>Monthly matching of bank statements with book entries, including multi-bank reconciliation for businesses across HDFC, ICICI, Kotak, and Bank of Maharashtra branches in Pune</td></tr>
-                        <tr><td>GST Accounting and Reconciliation</td><td>Input tax credit tracking, GSTR-2A/2B matching, reverse charge entries, and GST return preparation for filing with GST Commissionerate, Pune</td></tr>
-                        <tr><td>Payroll Accounting</td><td>Salary processing, TDS under Section 192, PF/ESI calculations, Professional Tax (PTRC) deduction as per Maharashtra PT Act slabs, and payslip generation</td></tr>
-                        <tr><td>Financial Statement Preparation</td><td>Balance sheet, profit and loss account, cash flow statement, and notes to accounts prepared under Ind AS or Indian GAAP as applicable</td></tr>
-                        <tr><td>MIS and Management Reporting</td><td>Monthly/quarterly MIS reports, dashboards, variance analysis, and budget-vs-actual tracking for Pune business owners and CFOs</td></tr>
-                        <tr><td>Accounts Payable and Receivable</td><td>Vendor payment scheduling, invoice tracking, ageing analysis, and debtor follow-up for Pune-based trading and service companies</td></tr>
-                        <tr><td>Cloud Accounting Migration</td><td>Transition from offline Tally to <a href="/zoho-books-accounting">Zoho Books</a>, QuickBooks Online - critical for Pune startups and remote-first IT teams</td></tr>
-                        <tr><td>Statutory Compliance Support</td><td>TDS return filing, advance tax computation, PTEC/PTRC payment, and liaison with GST Commissionerate Pune and Income Tax offices</td></tr>
-                        <tr><td>Year-End Finalization</td><td>Closing entries, depreciation calculations under Companies Act Schedule II, deferred tax computation, and preparation of financials for <a href="/statutory-audit">statutory audit</a></td></tr>
+                        <tr><td>Month-end close for Pune companies</td><td>Steady month-end close and ledger hygiene for IT and services firms in Hinjewadi IT Park, delivering accounting services in Pune built for scale <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>SEZ unit accounting and costing</td><td>Books kept for SEZ units in the Hinjewadi corridor, with cost centres and input credit split cleanly between exempt export income and domestic supply <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Statutory audit preparation</td><td>Schedule III statements, ledgers and working papers readied through the year, so bookkeeping services in Pune move into statutory audit without reopening prior months <span class="badge-included">Annually</span></td></tr>
+                        <tr><td>GST return workings and filing support</td><td>GSTR-2B reconciliation and monthly GST return workings, with export and SEZ supplies mapped correctly so refunds and input credit are not lost <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>TDS and PTEC compliance workings</td><td>TDS and TCS computation, 26AS reconciliation and the annual PTEC profession-tax working, keeping salary and vendor deductions matched to filed challans <span class="badge-included">Monthly, PTEC annually</span></td></tr>
+                        <tr><td>Online monthly reporting pack</td><td>Management accounts shared through our online accounting services in Pune, suited to the product teams we also support via <a href="/accounting-services-it-saas/pune">SaaS Accounting Services (IT & SaaS) Pune</a> <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1586,152 +666,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How Accounting Services Work in Pune</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Our 6-step process ensures your books are accurate, compliant, and audit-ready - from initial assessment through year-end finalization and statutory audit coordination.</p>
+            <h2 class="section-title">How Accounting Services Work in Pune — Step by Step</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers accounting for Pune businesses, step by step.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 1</span>
-        <h3 class="step-title">Initial Assessment and Onboarding</h3>
-        <p class="step-description">Patron's Pune team reviews your current books, previous financial statements, and compliance status. For Pune businesses registered with RoC Pune or holding GST registration under the Pune Commissionerate, we verify all pending filings - including PTRC returns, GST returns, and income tax obligations.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Current status review</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Compliance gap check</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Software access setup</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="35" r="15" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><path d="M53 35l4 4 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/><line x1="30" y1="60" x2="90" y2="60" stroke="#14365F" stroke-width="1.5" opacity="0.3"/></svg></div>
-            <span class="illustration-label">Assessment Done</span>
-            <span class="step-number-large">01</span>
-        </div>
-    </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Onboarding and records handover</h3>
+    <p class="step-description">We agree the entities, bank accounts and periods in scope, then collect the record set listed above for the full period. Access to the accounting file, bank portals and the GST portal is set up with named users before any entry is passed.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/pune/step-1-onboarding-and-records-handover-pune.webp" alt="Illustration for Onboarding and records handover: We agree the entities, bank accounts and periods in scope, then collect in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 2</span>
-        <h3 class="step-title">Chart of Accounts Setup</h3>
-        <p class="step-description">We design a customised chart of accounts in Tally ERP 9 or Zoho Books, structured to match your business type. For a Hinjewadi IT company, this includes revenue categories by project, client, and currency. For a Chakan MIDC manufacturing unit, it includes raw material, WIP, finished goods, and overhead allocation heads.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Industry-specific design</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Tally / Zoho Books</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="35" y1="25" x2="85" y2="25" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="35" y1="38" x2="75" y2="38" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="35" y1="48" x2="80" y2="48" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="35" y1="58" x2="65" y2="58" stroke="#14365F" stroke-width="2" opacity="0.3"/></svg></div>
-            <span class="illustration-label">Accounts Ready</span>
-            <span class="step-number-large">02</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Chart of accounts and openings</h3>
+    <p class="step-description">The chart of accounts is set to Schedule III groupings so the trial balance maps straight to the financial statements. Opening balances are taken from the prior year's signed accounts. Debtor and creditor detail comes across party by party, not as a single net figure.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/pune/step-2-chart-of-accounts-and-openings-pune.webp" alt="Illustration for Chart of accounts and openings: The chart of accounts is set to Schedule III groupings so the trial balance in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 3</span>
-        <h3 class="step-title">Monthly Transaction Recording</h3>
-        <p class="step-description">Our team records all transactions from source documents - purchase invoices, sales invoices, bank statements, petty cash vouchers, and journal entries. For Pune businesses with high transaction volumes (trading firms in Market Yard, e-commerce sellers in Kharadi), we use automated bank feed integrations.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Automated bank feeds</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Within 7 days of month-end</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="15" width="45" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><rect x="65" y="15" width="45" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><path d="M55 42L65 42" stroke="#F5A623" stroke-width="2" stroke-dasharray="3 2"/><circle cx="32" cy="35" r="8" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><circle cx="88" cy="35" r="8" fill="#E8F5E9" stroke="#10B981" stroke-width="1"/></svg></div>
-            <span class="illustration-label">Books Updated</span>
-            <span class="step-number-large">03</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Recording the month's transactions</h3>
+    <p class="step-description">Sales invoices, purchase bills, expenses, credit and debit notes and payroll are posted for the period, each against the correct GST treatment and place of supply. Petty cash goes in only against a signed voucher, not a summary figure.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/pune/step-3-recording-the-month-s-transactions-pune.webp" alt="Illustration for Recording the month's transactions: Sales invoices, purchase bills, expenses, credit and debit notes and in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 4</span>
-        <h3 class="step-title">GST Reconciliation and PTRC Compliance</h3>
-        <p class="step-description">Every month, we reconcile your purchase register with GSTR-2B data from the GST portal. Input tax credit mismatches are flagged and resolved before filing GSTR-3B with the GST Commissionerate, Pune. Professional Tax is computed using Maharashtra PT Act 1975 slab rates and PTRC returns are filed by the 15th of the following month.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>ITC mismatch resolution</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>PTRC by 15th monthly</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="35" font-size="14" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><line x1="35" y1="45" x2="85" y2="45" stroke="#14365F" stroke-width="1" opacity="0.3"/><text x="45" y="58" font-size="8" fill="#10B981" font-weight="600" text-anchor="middle" font-family="Arial">ITC</text><text x="75" y="58" font-size="8" fill="#E8712C" font-weight="600" text-anchor="middle" font-family="Arial">PTRC</text></svg></div>
-            <span class="illustration-label">GST Reconciled</span>
-            <span class="step-number-large">04</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Reconciliations before we report</h3>
+    <p class="step-description">Every bank account is reconciled to the statement. Purchase input credit is matched against the auto-drafted GSTR-2B, and tax credited at source is matched to Form 26AS and AIS, with the unmatched items listed back to you by vendor.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/pune/step-4-reconciliations-before-we-report-pune.webp" alt="Illustration for Reconciliations before we report: Every bank account is reconciled to the statement. Purchase input credit in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 5</span>
-        <h3 class="step-title">Financial Statement Preparation and Review</h3>
-        <p class="step-description">At year-end, Patron's CA team prepares your balance sheet, profit and loss account, and cash flow statement in compliance with Schedule III of the Companies Act, 2013. For entities filing with RoC Pune, we ensure the XBRL tagging matches MCA requirements.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Schedule III compliant</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>XBRL tagging for RoC</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="5" width="70" height="75" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="30" r="12" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M54 30l4 4 8-8" stroke="#10B981" stroke-width="2" stroke-linecap="round"/><line x1="38" y1="52" x2="82" y2="52" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><line x1="38" y1="60" x2="72" y2="60" stroke="#14365F" stroke-width="1.5" opacity="0.2"/></svg></div>
-            <span class="illustration-label">Statements Ready</span>
-            <span class="step-number-large">05</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Statutory workings prepared</h3>
+    <p class="step-description">The workings behind each filing are built first: GST summaries by rate and place of supply, deduction schedules by section, and the payroll statutory computation. Maharashtra's profession tax runs on separate registrations for salaries paid and for the business itself, and the welfare fund falls due twice a year.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/pune/step-5-statutory-workings-prepared-pune.webp" alt="Illustration for Statutory workings prepared: We prepare the workings the filings are built from. That means output and in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 6</span>
-        <h3 class="step-title">Audit Support and Handover</h3>
-        <p class="step-description">We prepare the complete audit file - trial balance, schedules, bank confirmations, debtor/creditor confirmations, and tax computation - for your statutory auditor. For businesses exceeding the Section 44AB threshold, we coordinate with the auditor to ensure Form 3CD is filed before the 30 September deadline.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Complete audit file</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Form 3CD coordination</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="35" y="22" width="50" height="35" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><path d="M53 42l7 6 7-6" stroke="#10B981" stroke-width="2" stroke-linecap="round"/><circle cx="85" cy="18" r="10" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/><path d="M81 18l3 3 6-6" stroke="#10B981" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-            <span class="illustration-label">Audit Handed Over</span>
-            <span class="step-number-large">06</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Monthly reporting and review</h3>
+    <p class="step-description">You receive a trial balance, profit and loss, balance sheet and debtor and creditor ageing for the period, with a short note on anything unusual. We walk through the open items and the entries still waiting on documents from your side.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/pune/step-6-monthly-reporting-and-review-pune.webp" alt="Illustration for Monthly reporting and review: You receive a trial balance, profit and loss, balance sheet and debtor and in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Year-end close and audit support</h3>
+    <p class="step-description">At year end we pass closing entries for depreciation, provisions, prepayments and accruals, then build the schedules the auditor will ask for. We answer audit queries directly and post the agreed audit adjustments back into the books.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/pune/step-7-year-end-close-and-audit-support-pune.webp" alt="Illustration for Year-end close and audit support: At year end we pass closing entries for depreciation, provisions, in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Accounting Services in Pune</h2>
+            <h2 class="section-title">Documents Required for Accounting Services</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li><strong>PAN Card of Entity:</strong> Mandatory for all tax filings and TDS compliance with the Income Tax Department</li>
-                    <li><strong>GST Registration Certificate:</strong> Required for GST accounting and return filing with GST Commissionerate, Pune</li>
-                    <li><strong>Certificate of Incorporation / Partnership Deed:</strong> Establishes the legal entity for RoC Pune filings and statutory audit</li>
-                    <li><strong>Bank Statements (All Accounts):</strong> Monthly statements from all bank accounts, including current accounts with Bank of Maharashtra, HDFC, and ICICI branches in Pune</li>
-                    <li><strong>Purchase and Sales Invoices:</strong> All GST-compliant invoices for input credit reconciliation and revenue recording</li>
-                    <li><strong>Previous Year Financial Statements:</strong> For opening balance migration and comparative analysis</li>
-                    <li><strong>TDS Certificates (Form 16/16A):</strong> Required for income tax computation and return filing</li>
-                    <li><strong>PTRC Registration Certificate:</strong> For employers in Maharashtra to verify Professional Tax compliance status</li>
-                    <li><strong>Loan Agreements and Fixed Deposit Receipts:</strong> For interest income/expense accounting and TDS treatment</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:16px;">
-                    <p><strong>Pune-Specific Tip:</strong> For businesses operating from MIDC Bhosari or Chakan industrial areas, include the MIDC allotment letter and any duty exemption certificates, as these affect depreciation schedules and capital subsidy accounting.</p>
-                </div>
+                <p>Ordinary bookkeeping records first, then the Maharashtra layer: profession tax enrolment, profession tax registration, and the licence agreement covering the premises.</p>
+<ul>
+    <li>Bank statements for every business bank account for the full period, in PDF and Excel or CSV</li>
+    <li>Sales invoices and tax invoices issued (including e-invoice IRN/QR files where e-invoicing applies)</li>
+    <li>Purchase invoices and vendor bills received</li>
+    <li>Expense bills, receipts and signed petty-cash vouchers</li>
+    <li>Credit notes and debit notes issued and received</li>
+    <li>GST data for each tax period: the auto-drafted GSTR-2B, and Form 26AS/AIS for tax credited at source</li>
+    <li>TDS/TCS challans, filed returns (24Q/26Q/27Q/27EQ) and Form 16/16A issued</li>
+    <li>PTEC certificate (Certificate of Enrolment) under the Maharashtra State Tax on Professions, Trades, Callings and Employments Act, 1975, plus the annual PTEC challan</li>
+    <li>PTRC certificate plus monthly/annual PTRC returns and challans</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Accounting Challenges Faced by Pune Businesses</h2>
+            <h2 class="section-title">Accounting Challenges Specific to Pune: Hinjewadi IT Park SEZ Rules and MIDC Estate Compliance</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>GST ITC Mismatch for IT Firms</td><td>Notices from GST Commissionerate, Pune for GSTR-2B discrepancies</td><td>Monthly GSTR-2B reconciliation with purchase register; ITC mismatches flagged and resolved before GSTR-3B filing</td></tr>
-                        <tr><td>PTRC Compliance Errors</td><td>Penalties under Maharashtra PT Act 1975 for growing startups missing registration threshold</td><td>Proactive PTRC registration monitoring; monthly return filing by 15th per Feb 2026 amendment</td></tr>
-                        <tr><td>Multi-Entity Consolidation</td><td>Complex inter-company transactions for Chakan manufacturing groups</td><td>Dedicated consolidation, related party disclosures under Ind AS 24, and elimination entries</td></tr>
-                        <tr><td>Tally to Cloud Migration</td><td>Data mapping issues when moving from offline Tally to Zoho Books/QuickBooks</td><td>Structured migration: data mapping, opening balance verification, GST reconfiguration for Maharashtra</td></tr>
-                        <tr><td>Year-End Compliance Rush</td><td>March-September crunch for books finalization, audit, and filing with RoC Pune</td><td>Monthly book closures eliminate backlog; audit file ready by June; RoC filing well before deadline</td></tr>
+                        <tr><td>Hinjewadi IT unit bills SEZ exports and DTA work from one ledger</td><td>Zero-rated export and taxable domestic income mix, so the SEZ return and refund carry wrong figures.</td><td>Split SEZ export and DTA sales into separate ledgers for the Hinjewadi unit, reconciled to the SEZ return each month</td></tr>
+                        <tr><td>Bank feeds for Kharadi and Baner operations left part-reconciled</td><td>Unreconciled receipts and charges distort cash, so the close slips past its date</td><td>Reconcile every bank and gateway account to statement before books lock; read <a href="/blog/choosing-accountant-pune">how to choose an accountant in Pune</a></td></tr>
+                        <tr><td>Large IT payroll's PF, ESI and profession tax not tied to the ledger</td><td>Statutory deductions in the payroll differ from what is booked and paid, so dues and returns disagree</td><td>Reconcile payroll PF, ESI and Maharashtra profession tax to the ledger and challans every month before books lock</td></tr>
+                        <tr><td>Fixed-asset register drifts from the ledger for MIDC-estate plants</td><td>Depreciation and asset balances differ from the schedule, so audit sign-off is delayed</td><td>Reconcile the asset register to the ledger, with block-wise depreciation and MIDC leasehold treatment</td></tr>
+                        <tr><td>Milestone-based IT contracts billed unevenly against work actually delivered</td><td>Unbilled revenue and advances from clients go unrecorded, so income and receivables misstate each period</td><td>Recognise unbilled revenue and client advances by milestone, reconciling contract value to billing at every close</td></tr>
 
                     </tbody>
                 </table>
@@ -1741,57 +786,58 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounting Service Fees in Pune</h2>
+            <h2 class="section-title">Accounting Fees in Pune</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Basic Bookkeeping</td><td>Rs 5,000 - Rs 8,000/month (Exl GST)</td></tr>
-                        <tr><td>Standard Accounting</td><td>Rs 10,000 - Rs 15,000/month (Exl GST)</td></tr>
-                        <tr><td>Full-Service Accounting</td><td>Rs 18,000 - Rs 30,000/month (Exl GST)</td></tr>
-                        <tr><td>Enterprise / Ind AS</td><td>Rs 35,000+/month (Exl GST)</td></tr>
-                        <tr><td>Maharashtra PTEC (Statutory)</td><td>Rs 2,500/year per entity</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one entity, one GST registration and routine monthly volume</td><td>INR 2,499<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; higher transaction volume, more GST registrations or an added entity</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-entity books across locations with custom monthly reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">Accounting services in Pune are billed by scope rather than location, so one entity with a single GST registration and routine volume matches our national <strong>INR 2,499</strong>. Transaction volume, added GST registrations and extra entities move it up. Get a scope-based quotation on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Accounting Services consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20in%20Pune" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounting Service Timeline in Pune</h2>
+            <h2 class="section-title">Accounting Compliance Calendar 2026 for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Onboarding and Assessment</td><td>2-3 working days</td></tr>
-                        <tr><td>Chart of Accounts Setup</td><td>3-5 working days</td></tr>
-                        <tr><td>Monthly Book Updates</td><td>Within 7 working days of month-end</td></tr>
-                        <tr><td>Quarterly TDS Returns</td><td>Before quarterly due date</td></tr>
-                        <tr><td>PTRC Returns</td><td>By 15th of following month</td></tr>
-                        <tr><td>Year-End Finalization</td><td>30-45 days post year-end</td></tr>
-                        <tr><td>Statutory Audit Coordination</td><td>As per auditor schedule; RoC Pune filing completed</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered Pune businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th monthly for turnover above Rs 5 crore; 22nd quarterly under QRMP for turnover up to Rs 5 crore (Category X)</td><td>GST-registered businesses in Pune</td></tr>
+                        <tr><td>Professional tax: PTRC monthly return and PTEC</td><td>PTRC by the 15th of every month; PTEC annually by 31 March</td><td>Employers and companies registered for profession tax in Maharashtra (Pune)</td></tr>
+                        <tr><td>Advance tax first instalment (15%)</td><td>15 June 2026</td><td>Companies, firms and individuals with a tax liability of Rs 10,000 or more</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered Pune businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Group A Processing Note:</strong> No visit to the GST Commissionerate, Pune or RoC Pune is required. Patron's Pune office at RTC Silver, Wagholi handles all filings electronically and coordinates with regulatory offices on your behalf.</p>
+                    <p>A Pune business files GSTR-3B on the 22nd each quarter and deposits TDS by the 7th monthly. At year-end the audit-trail certification has to be in place. Profession tax under Maharashtra PTRC falls on the 15th monthly. For accounting services in Pune, download Patron's 2026 calendar or call +91 94594 56700; our <a href="/blog/maharashtra-professional-tax-shops-act">local guide</a> has more.</p>
 
                 </div>
             </div>
@@ -1799,69 +845,83 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron Accounting for Accounting Services in Pune</h2>
+            <h2 class="section-title">Why Professional Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                <h3>Pune Office Presence</h3>
-                <p>Patron's Pune office at RTC Silver, Wagholi is accessible to businesses across Hinjewadi, Kharadi, Hadapsar, and the Chakan-Bhosari industrial belt. Walk-in consultations available.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
-                <h3>10,000+ Businesses Served</h3>
-                <p>Including IT companies in Pune's tech corridors, manufacturers in MIDC zones, and startups funded through Pune-based accelerators. Deep Maharashtra compliance expertise.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-                <h3>Jurisdictional Familiarity</h3>
-                <p>Regular filings with GST Commissionerate Pune, RoC Pune, and Income Tax offices. We know the processing patterns, query formats, and compliance timelines specific to Pune.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-                <h3>Technology-First Approach</h3>
-                <p>Patron operates on Tally, Zoho Books, and QuickBooks - the three most used platforms by Pune businesses. Real-time dashboard access for instant financial visibility.</p>
-            </article>
-        </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Input credit you can keep</h3>
+  <p class="feature-text">You keep the input credit your books can back, vendor by vendor, before it is ever claimed on invoices alone.</p><ul style="margin-top:12px;"><li>vendor by vendor list of credit not in auto-drafted GSTR-2B</li><li>tax deducted that never reached Form 26AS flagged</li><li>Without it, credit claimed on invoices alone and reversed on comparison</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">Statements that map to Schedule III</h3>
+  <p class="feature-text">Your trial balance already carries the groupings financial statements need, so a lender pack or board pack is drawn straight off it.</p><ul style="margin-top:12px;"><li>chart set to Schedule III groupings behind the trial balance</li><li>figures for lenders or a board drawn straight off it</li><li>Without it, chart regrouped by hand for every outside request</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /> </svg></div>
+  <h3 class="feature-title">Party-wise debtor and creditor position</h3>
+  <p class="feature-text">You see who owes you and who you owe, name by name, with ageing. It replaces one net figure on the balance sheet.</p><ul style="margin-top:12px;"><li>debtor and creditor detail held party by party, with ageing</li><li>old balances and duplicate payments visible, not netted into one figure</li><li>Without it, stale balances and duplicate payments stay hidden until reconciled</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /> </svg></div>
+  <h3 class="feature-title">Payroll deductions that agree</h3>
+  <p class="feature-text">We compute each month's PF, ESI, Professional Tax and salary TDS off the salary register. Challans paid and the ledger charge then match.</p><ul style="margin-top:12px;"><li>PF, ESI, Professional Tax and salary TDS computed off the salary register</li><li>challans paid reconciled to the ledger charge each month</li><li>Otherwise a difference surfaces only when an employee queries Form 16</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> </svg></div>
+  <h3 class="feature-title">One reconciled set of numbers</h3>
+  <p class="feature-text">You report one set of numbers, with bank balances, ledger balances and the figures behind your returns brought to agreement each period.</p><ul style="margin-top:12px;"><li>every bank account reconciled to its statement before reporting</li><li>ledger balances and return figures agreed each period</li><li>Without it, an unposted receipt shifts revenue and the tax position</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trusted by Businesses Across Pune and India</h2>
-            <div class="content-text">
-                
-                <p><strong>Trust Banner:</strong> 10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years</p>
-                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron serves Pune businesses with both local presence and national capability. Trusted by Hyundai, Asian Paints, Bridgestone, and 10,000+ businesses across India.</p>
-
+            <h2 class="section-title">Why Accounting & Bookkeeping Services Clients in Pune Choose Patron Accounting</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Books that close on time, not books that lag</strong><p>Across 15+ years and 3,000+ businesses, we run a fixed month-end routine so your ledger reconciles and closes each period instead of drifting weeks behind.</p></div>
+                <div><strong>Rule 3(1) audit trail live in your ledger</strong><p>The Rule 3(1) audit trail stays switched on and reviewed in your books, part of the same discipline behind our 25,000+ filings, ready before an auditor asks.</p></div>
+                <div><strong>We work in Zoho Books, Xero, Tally and Odoo</strong><p>Whether you use Zoho Books, Xero, Tally Prime or Odoo, we work inside it. Your chart of accounts and tax codes are configured inside the tool you already run.</p></div>
+                <div><strong>GST, TDS and profession tax filed monthly</strong><p>Each month we prepare and file your GST and TDS returns before the statutory date, and handle <a href="/blog/maharashtra-professional-tax-shops-act">Maharashtra PTRC and PTEC</a> alongside. This routine sits within our 25,000+ filings completed.</p></div>
+                <div><strong>Our Pune base spans Kharadi and Baner</strong><p>Our home base is Pune, with offices in Kharadi and Baner and the registered office in Wagholi. From here we cover Hinjewadi, Wakad and the PCMC belt, backed by 15+ years and 3,000+ businesses served since 2019.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY Accounting vs Professional Accounting Services</h2>
+            <h2 class="section-title">Outsourced vs In-House Accountant vs DIY: for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>Professional Accounting Firm (Patron)</th><th>DIY / In-House Accountant</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Outsourced</th><th>In-House Accountant</th></tr></thead>
                     <tbody>
-                        <tr><td>Cost</td><td>Rs 5,000-30,000/month based on tier - no HR overhead</td><td>Rs 15,000-25,000/month salary for junior accountant</td></tr>
-                        <tr><td>Expertise</td><td>CA-led team with specialists in tax, GST, audit, Ind AS</td><td>Limited to hired employee's knowledge</td></tr>
-                        <tr><td>Compliance Risk</td><td>Low - systematic calendar, multi-level review</td><td>High - missed deadlines, incorrect returns</td></tr>
-                        <tr><td>Technology</td><td>Multi-platform: Tally, Zoho, QuickBooks with cloud access</td><td>Dependent on employee's software skills</td></tr>
-                        <tr><td>Scalability</td><td>Scales automatically - same team handles increased volume</td><td>Hiring needed as business grows</td></tr>
-                        <tr><td>Maharashtra-Specific</td><td>Deep knowledge of PTRC/PTEC, Maharashtra GST procedures</td><td>Employee may not know PT Act / Shops Act nuances</td></tr>
+                        <tr><td>SEZ export books</td><td>Team handles Hinjewadi IT SEZ export proceeds and SOFTEX or EDF records reliably</td><td>One accountant can manage SEZ export documentation until unit volume rises</td></tr>
+                        <tr><td>Monthly cost</td><td>Retainer expands as billing rises, generally lighter than a salaried Pune hire</td><td>A fixed salary suits only firms with steady, high transaction counts</td></tr>
+                        <tr><td>Compliance risk</td><td>GST and TDS due dates are monitored, so returns rarely slip</td><td>Single-owner calendar, so one absence can still miss a filing window</td></tr>
+                        <tr><td>Expertise depth</td><td>Ind AS, SEZ and MIDC compliance specialists are available together</td><td>Depth tied to one hire, so niche SEZ queries still go outside</td></tr>
+                        <tr><td>Continuity cover</td><td>Firm covers leave and attrition, keeping Hinjewadi books current</td><td>Resignation in a competitive IT market stalls filings for weeks</td></tr>
+                        <tr><td>Software and controls</td><td>Cloud ledgers, reconciliations and review controls are part of the engagement</td><td>You own licences, backups and control design internally</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">For most Pune SMEs, from Hinjewadi IT SEZ units to MIDC estate suppliers, outsourced accounting services in pune win on export documentation and continuity. Hire in-house only once volume justifies a salaried desk over <a href="/accounting-services">managed accounting across India</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1871,221 +931,173 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services for Pune Businesses</h2>
+            <h2 class="section-title">Pune Rules for Businesses — Maharashtra PTRC/PTEC, the Audit-Trail Rule</h2>
             <div class="content-text">
                 
-                <p>Looking for related services? Explore these:</p>
-                <ul>
-                    <li><a href="/accounting-services">Accounting Services (India Overview)</a> - National overview of CA-managed accounting services across India.</li>
-                    <li><a href="/tally-accounting">Tally Accounting Services</a> - Dedicated Tally ERP 9 accounting and migration services.</li>
-                    <li><a href="/zoho-books-accounting">Zoho Books Accounting</a> - Cloud-based accounting on Zoho Books platform.</li>
-                    <li><a href="/payroll-services">Payroll Services</a> - Salary processing, TDS, PF, ESI, and PTRC compliance for employers.</li>
-                    <li><a href="/gst-registration">GST Registration</a> - New GST registration for businesses in Pune and across India.</li>
-                    <li><a href="/statutory-audit">Statutory Audit Services</a> - Annual audit under Companies Act and tax audit under Section 44AB.</li>
-                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR filing for companies, LLPs, proprietorships, and individuals.</li>
-                    <li><a href="/private-limited-company-compliance">Private Limited Company Compliance</a> - Annual ROC filings and company law compliance.</li>
-                </ul>
+                <p>A Pune business enrols for profession tax the moment it employs anyone, holding a PTEC for its own liability and a PTRC to deduct tax from wages, a two-registration system unique to Maharashtra. Registration under the state Shops Act follows, and together they set the records the ledger must carry before a single central rule applies.</p>
+<p>Over that state layer sits the Companies Act framework that fixes how the books are kept and closed. The audit trail has to stay live all year and Section 44AB decides when a tax audit bites, while local costs like Maharashtra stamp duty are captured here. Accounting services in Pune keep the state and central obligations aligned against the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Maharashtra State Tax on Professions, Trades, Callings and Employments Act 1975</strong></span><span class="al-d">The entity holds a PTEC for its own profession tax and a PTRC to deduct it from salaries, both reconciled in the payroll ledger.</span></li><li><span class="al-t"><strong>Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act 2017</strong></span><span class="al-d">The establishment registers under the state Shops Act, which sets the employment records the books must support.</span></li><li><span class="al-t"><strong>Section 128 with Section 129 and Schedule III, Companies Act 2013</strong></span><span class="al-d">The books stay on accrual and double entry and close into Schedule III statements, retained for eight years.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail is switched on through the year, and Section 44AB fixes the tax-audit threshold.</span></li><li><span class="al-t"><strong>Local Body Tax (LBT), discontinued</strong></span><span class="al-d">LBT was withdrawn for most dealers from 1 August 2015 and folded into GST, so only its <a href="/glossary/lbt-local-body-tax-assessment-history">LBT (Local Body Tax) Assessment History</a> remains relevant. Full national detail sits on the <a href="/accounting-services">India accounting page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Compliance Framework for Pune Businesses</h2>
-            <div class="content-text">
-                
-                <p><strong>Governing Acts:</strong></p>
-                <ul>
-                    <li><strong>Companies Act, 2013</strong> (Sections 128, 129, 133, 134, 137, 143) - Governs book maintenance, financial statement preparation, Ind AS applicability, and statutory audit</li>
-                    <li><strong>Income Tax Act, 1961</strong> (Sections 44AA, 44AB, 271A, 271B) - Mandates book maintenance, tax audit, and prescribes penalties for non-compliance</li>
-                    <li><strong>Central Goods and Services Tax Act, 2017</strong> (Sections 35, 39) - Requires GST-registered persons to maintain accounts and file returns</li>
-                    <li><strong>Maharashtra PT Act, 1975</strong> - PTRC and PTEC obligations for employers and self-employed professionals in Pune</li>
-                    <li><strong>Maharashtra Shops and Establishments Act, 2017</strong> - Applicable to commercial establishments in Pune including IT offices, trading firms, and service companies</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>Penalties:</strong></p>
-                <ul>
-                    <li>Failure to maintain books: <strong>Rs 25,000</strong> under Section 271A of the Income Tax Act, 1961</li>
-                    <li>Failure to get accounts audited (S44AB): <strong>0.5% of turnover or Rs 1,50,000, whichever is lower</strong> under Section 271B</li>
-                    <li>Late GST return filing: <strong>Rs 50/day</strong> (Rs 25 CGST + Rs 25 SGST) subject to maximum Rs 5,000 under Section 47 CGST Act</li>
-                    <li>Non-payment of Professional Tax (PTRC): <strong>Rs 5 per day</strong> penalty under Maharashtra PT Act 1975</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>Recent Amendment:</strong> Maharashtra GST Department revised PTRC due dates to 15th of the following month effective February 2026. PTEC annual payment due by 15th June. Source: <a href="https://www.mahagst.gov.in/en/pt-acts" target="_blank" rel="noopener">mahagst.gov.in</a></p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions: Accounting Services in Pune</h2>
-                    <p class="faq-expanded__lead">Get answers to common questions about accounting, bookkeeping, and compliance services for Pune businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Accounting Services in Pune'])
+                    <h2 class="faq-expanded__title">Accounting in Pune FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on accounting for Pune businesses - scope, local compliance, documents and pricing.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books in Pune</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Accounting in Pune</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">Which GST and RoC office handles accounting compliance in Pune?</h3>
-                        <div class="faq-expanded__a"><p>The GST Commissionerate, Pune handles all indirect tax compliance including GST registration, return filing, and refund processing for businesses in Pune district. For company law matters, RoC Pune (Registrar of Companies, Pune) under the Ministry of Corporate Affairs handles incorporation, annual filings, and statutory compliance. Patron Accounting's Pune office coordinates with both these authorities regularly.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">Can I get accounting services done online from Pune?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Patron Accounting offers fully online accounting services from Pune. Your books can be maintained on Tally, Zoho Books, or QuickBooks with cloud access. Document collection, GST reconciliation, and financial reporting are all handled digitally. For businesses that prefer in-person discussion, Patron's Pune office at RTC Silver, Wagholi is available for walk-in consultations.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is the accounting service fee in Pune?</h3>
-                        <div class="faq-expanded__a"><p>Accounting service fees in Pune start from Rs 5,000 per month for basic bookkeeping and go up to Rs 30,000 or more for full-service accounting that includes GST filing, payroll, PTRC compliance, financial statements, and audit support. The exact fee depends on transaction volume, entity type, and number of employees. Patron offers fixed monthly plans with no hidden charges.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How long does it take to set up accounting services in Pune?</h3>
-                        <div class="faq-expanded__a"><p>Onboarding typically takes 2 to 5 working days. This includes document collection, assessment of your current financial status, software setup in Tally or Zoho Books, and chart of accounts configuration. Monthly book updates are then delivered within 7 working days of each month-end.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What is PTRC and PTEC, and do Pune businesses need it?</h3>
-                        <div class="faq-expanded__a"><p>PTRC (Professional Tax Registration Certificate) is mandatory for any employer in Maharashtra whose employees earn above Rs 7,500 per month (men) or Rs 25,000 per month (women). PTEC (Professional Tax Enrolment Certificate) is required for companies, LLPs, directors, and self-employed professionals, with an annual flat payment of Rs 2,500. As per the February 2026 Maharashtra amendment, PTRC returns are now due by the 15th of the following month. Patron bundles PTRC/PTEC compliance with all accounting service tiers.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Is outsourcing accounting services in Pune worth it for startups?</h3>
-                        <div class="faq-expanded__a"><p>Outsourcing is typically more cost-effective than hiring a full-time accountant. A junior accountant in Pune costs Rs 15,000 to Rs 25,000 per month in salary alone, plus HR overhead. Professional accounting services start from Rs 5,000 per month and include CA-level oversight, multi-platform software access, and guaranteed compliance with GST, TDS, and Maharashtra PT requirements.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">What happens if I do not maintain books of accounts?</h3>
-                        <div class="faq-expanded__a"><p>Under Section 271A of the Income Tax Act, 1961, failure to maintain books of accounts attracts a penalty of Rs 25,000. Additionally, under Section 271B, failure to get accounts audited when required under Section 44AB attracts a penalty of 0.5% of turnover or Rs 1,50,000, whichever is lower. The GST Commissionerate, Pune can also issue notices for incomplete records during GST audits.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How much do accounting services cost in Pune?</h3>
+  <div class="faq-expanded__a"><p>Accounting in Pune is normally priced as a monthly retainer rather than an hourly rate, set by transaction volume, the number of bank and payment accounts, payroll headcount, and whether GST and TDS return preparation sits inside the same scope. A dormant private limited company costs a fraction of a three-thousand-invoice trading business. We quote in writing after reviewing one month of statements.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does the audit trail rule apply to a Pune private limited company?</h3>
+  <div class="faq-expanded__a"><p>Yes, every company must use accounting software with an edit log that records each change and cannot be switched off, mandatory for financial years beginning 1 April 2023, and the auditor reports on it separately. Proprietorships and partnerships sit outside the rule though lenders increasingly ask anyway. We confirm the audit trail flag is enabled in Tally or Zoho Books before the first entry.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What professional tax must a Pune business register for?</h3>
+  <div class="faq-expanded__a"><p>Maharashtra needs PTEC for the entity, proprietor or partner at Rs 2,500 a year, payable by 15 June since the February 2026 amendment to Rule 11(3), and PTRC where salaries cross the monthly wage threshold. PTRC returns are monthly where the previous year liability exceeded Rs 1 lakh, otherwise annual. Backdated PTRC returns each carry their own late fee.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">When are GST returns due for a business in Pune?</h3>
+  <div class="faq-expanded__a"><p>Maharashtra is a Category X state, so quarterly GSTR-3B under QRMP is due on the 22nd of the month following the quarter for turnover up to Rs 5 crore, while businesses above that file monthly by the 20th. GSTR-1 is monthly by the 11th or quarterly by the 13th. We close the books by the 5th so filing is never rushed.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How long must books of account and vouchers be preserved?</h3>
+  <div class="faq-expanded__a"><p>Companies must preserve books of account and vouchers for eight financial years immediately preceding the current year under Section 128(5) of the Companies Act, while GST records run six years from the annual return due date. Reassessment under Section 149 can reach back three years and three months, or five years and three months where escaped income exceeds Rs 50 lakh.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">When does a Pune business need a tax audit?</h3>
+  <div class="faq-expanded__a"><p>A tax audit under Section 44AB is required once turnover crosses Rs 1 crore, extended to Rs 10 crore where cash receipts and cash payments are each 5% or less of the total. Professionals cross at Rs 50 lakh of gross receipts. Because that relief depends on cash ratios, we monitor the cash percentage monthly rather than discovering the position in September.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What local registrations does a business in Hinjewadi or Kharadi need?</h3>
+  <div class="faq-expanded__a"><p>Establishments in Hinjewadi or Kharadi register under the Maharashtra Shops and Establishments Act once they employ ten or more workers, and file only an online Form F intimation below that. A trade licence comes from PMC or PCMC depending on the municipal limit, while parts of Hinjewadi fall under PMRDA, which changes who issues it. Renewal dates differ across the three bodies.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does a monthly close actually cover?</h3>
+  <div class="faq-expanded__a"><p>A monthly close covers bank and card reconciliation, input credit matching against GSTR-2B, a TDS deduction review, the payroll journal, provisions and prepaid entries, stock or work in progress updates where relevant, and a signed trial balance with profit and loss and balance sheet. Pune clients receive it by the 10th, leaving room before the 20th and 22nd GST dates.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How does a handover work when a Pune business already has an in-house accountant?</h3>
+  <div class="faq-expanded__a"><p>Handover starts with your existing Tally or Zoho Books data file, the last audited balance sheet, GST and TDS portal credentials and an open items list, followed by a two-week parallel run where opening balances are reconciled before we take over. QuickBooks users need a migration since it withdrew from India in 2023. In-house staff usually stay on payments and vendor coordination.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is an in-person meeting possible in Pune before signing up?</h3>
+  <div class="faq-expanded__a"><p>Yes, our Pune office at RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207 handles in-person scoping meetings and document handover, and visits to Hinjewadi, Kharadi, Baner or Chakan are arranged when a stock count or auditor walkthrough needs someone present. Routine work runs on a shared drive, so nothing waits on courier movement or traffic across the city.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>What is accounting kya hota hai?</strong> Accounting means all financial transactions ka record rakhna - purchase, sale, expense, income - sab systematically record hota hai for tax and compliance.</p>
-                <p><strong>Pune mein CA firm ki zaroorat kab hoti hai?</strong> Jab aapka turnover Rs 1 crore cross kare ya company registered ho toh CA se audit karwana mandatory hai under IT Act Section 44AB.</p>
-                <p><strong>Kya online accounting safe hai?</strong> Haan - Zoho Books and Tally cloud mein data encrypted hota hai. Pune mein Patron Accounting ka office bhi hai agar aap in-person discuss karna chahein.</p>
+                <p>A close runs late when inputs arrive out of order. Bank statements, sales and purchase invoices, expense bills and payroll inputs go into a shared folder; where the plant sits on the city's periphery, gate registers and job-work challans reach us after the bank and sales data, so posting is sequenced around the slower.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Do Not Wait Until March - Start Your Accounting Today</h2>
+            <h2 class="section-title">Accounting Deadlines in Pune You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Do not wait until March to sort your books. Under Section 271A of the Income Tax Act, the penalty for not maintaining books is Rs 25,000. The September 30 deadline for tax audit filing under Section 44AB carries a separate penalty of up to Rs 1,50,000. Maharashtra's revised PTRC due date of the 15th of each month means late professional tax deposits attract daily penalties. Start your accounting services today and avoid the year-end compliance rush.</p>
-                <p style="margin-top:16px;"><strong>Get a free accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank">WhatsApp us</a>.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Started with Professional Accounting Services in Pune</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounting Services in Pune with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);">Accounting services in Pune are essential for every business operating in Maharashtra's second-largest commercial centre - from Hinjewadi IT firms to Chakan manufacturing plants. With the GST Commissionerate, Pune actively monitoring return compliance and RoC Pune enforcing annual filing deadlines, accurate books are not optional.</p>
-                <p style="color:rgba(255,255,255,0.9);">Patron Accounting's Pune office at RTC Silver, Wagholi delivers CA-managed accounting across Tally, Zoho Books, and QuickBooks. The team handles everything from daily bookkeeping and GST reconciliation to financial statement preparation and statutory audit coordination. Maharashtra-specific compliance - including PTRC returns, PTEC payments, and Shops and Establishments Act requirements - is built into every service tier.</p>
-                <p style="color:rgba(255,255,255,0.9);">With over 10,000 businesses served, 4.9 Google rating, and 15+ years of practice, Patron Accounting LLP combines jurisdictional expertise with technology-driven financial management.</p>
+                <p style="color:rgba(255,255,255,0.88);">Reconciliation, not software, is the real constraint here. A firm can own the newest licences available and still close late. The work that takes time is agreeing balances with banks, vendors and the portal record, then explaining the differences that remain. That is what this engagement exists to do, month after month.</p>
+<p style="color:rgba(255,255,255,0.88);">Auditors at a component plant test consumption before anything else: material issued against production recorded, and closing stock valued consistently. A ledger carrying those workings month by month turns the year end visit into a check. Where an accounting company in Pune does not keep them, the same numbers are assembled twice.</p>
+<p style="color:rgba(255,255,255,0.88);">The delivery challan raised for each job work consignment is where we start: which processes go outside, whose premises the material sits on, and who reconciles the return against it. Scrap generated at the converter is settled in the same review, as our <a href="/accounting-services">wider bookkeeping practice</a> requires.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounting%20Services%20in%20Pune&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20accounting%20services%20in%20Pune.%0A%0APlease%20share%20details.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20in%20Pune" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
-<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting serves businesses in major cities across India. Find accounting services near you.</p>
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title">Available Cities</div>
-                <div class="pa-block-sub">Professional accounting services</div>
-                <div class="pa-city-grid">
-                    <div class="pa-city-card" style="opacity:0.6; pointer-events:none; border:2px solid var(--orange); position:relative;">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div>
-                        <span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span>
-                    </div>
-                    <a href="/accounting-services/mumbai" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
-                    </a>
-                    <a href="/accounting-services/delhi" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div>
-                    </a>
-                    <a href="/accounting-services/gurugram" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                    </a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services in Pune</div>
-                <div class="pa-block-sub">End-to-end support for your business compliance</div>
-                <div class="pa-cross-grid">
-                    <a href="/tally-accounting/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/zoho-books-accounting/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/payroll-services/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/income-tax-return/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/gst-registration/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/private-limited-company-registration/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">Pune</div></div></a>
-                </div>
-            </div>
+
+
+
+
+
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</section>
+</div>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 18 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">18 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 18 September 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page covers accounting services for businesses in Pune, Maharashtra. Content is reviewed every 6 months (Freshness Tier 2) to reflect changes in Ind AS, GST rules, Maharashtra Professional Tax rates, and Income Tax Act amendments.</p>
-        </div>
-    </div>
-</section>
-
- 
---}}
-@include('layouts.itr-season-strip')
-
+<section class="pa-localmap"><div class="pa-localmap-wrap"><div class="pa-localmap-info"><span class="pa-local2-kicker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span><h2>Visit our Pune office</h2><p>A local CA &amp; CS team for accounting in Pune &mdash; visit our office or work with us online.</p><ul class="pa-localmap-details"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9h.01M9 12h.01M9 15h.01M9 18h.01"/></svg><span>RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+919459456700">+91 94594 56700</a></li></ul><a class="pa-localmap-btn" href="https://www.google.com/maps/search/?api=1&query=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India" target="_blank" rel="noopener">Get directions<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a></div><div class="pa-localmap-frame"><iframe src="https://www.google.com/maps?q=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India&ll=18.5794466,73.9682987&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Patron Accounting LLP office location on Google Maps"></iframe></div></div></section><section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Maharashtra</div></div></div><a href="https://www.patronaccounting.com/accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a><a href="https://www.patronaccounting.com/accounting-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a><a href="https://www.patronaccounting.com/accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2156,8 +1168,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2167,8 +1179,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2249,7 +1261,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2259,34 +1271,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2297,12 +1307,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2318,7 +1329,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2333,7 +1344,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2364,7 +1375,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2378,7 +1389,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered - init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2388,6 +1401,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2410,9 +1424,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2552,7 +1564,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2582,7 +1594,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2602,7 +1613,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2680,12 +1691,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2693,55 +1700,60 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
 
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
+        }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
+        }
+    } catch(e) {}
+})();
+</script>
 
 <script>
 // BF-1: Set last updated date dynamically
@@ -2749,15 +1761,7 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
     var opts = { day: 'numeric', month: 'long', year: 'numeric' };
     var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
-
-    if (el1) el1.textContent = dateStr;
-    var el2 = document.getElementById('lastUpdatedFooter');
-    if (el2) el2.textContent = dateStr;
+    if (el1) { el1.textContent = dateStr; }
 })();
 </script>
-
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

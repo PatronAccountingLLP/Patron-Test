@@ -1,1099 +1,339 @@
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>School & College Accounting in Pune - Fees, GST & TDS</title>
-    <meta name="description" content="CA-managed accounting and trust compliance for schools and colleges in Pune. 12A, 80G, Bombay Public Trust Act, statutory audit. Serving SPPU affiliates. Call +91 945 945 6700.">
-    <link rel="canonical" href="/accounting-services-for-education-industry/pune">
+    <title>Accounting Services for Schools and Colleges in Pune | Patron Accounting</title>
+    <meta name="description" content="Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Get a compliance review.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-education-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="School & College Accounting in Pune - Fees, GST & TDS">
-    <meta property="og:description" content="CA-managed accounting and trust compliance for schools and colleges in Pune. 12A, 80G, Bombay Public Trust Act, statutory audit. Serving SPPU affiliates. Call +91 945 945 6700.">
-    <meta property="og:url" content="/accounting-services-for-education-industry/pune">
+    <meta property="og:title" content="Accounting Services for Schools and Colleges in Pune | Patron Accounting">
+    <meta property="og:description" content="Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Get a compliance review.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-education-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/education-schools-colleges-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-pune-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="School & College Accounting in Pune - Fees, GST & TDS">
-    <meta name="twitter:description" content="CA-managed accounting and trust compliance for schools and colleges in Pune. 12A, 80G, Bombay Public Trust Act, statutory audit. Serving SPPU affiliates. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/education-schools-colleges-pune-og.webp">
+    <meta name="twitter:title" content="Accounting Services for Schools and Colleges in Pune | Patron Accounting">
+    <meta name="twitter:description" content="Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Get a compliance review.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-pune-og.webp">
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Accounting for Schools and Colleges Pune",
-      "description": "CA-managed accounting and trust compliance for schools and colleges in Pune. 12A, 80G, Bombay Public Trust Act, statutory audit. Serving SPPU affiliates. Call +91 945 945 6700.",
-      "url": "/accounting-services-for-education-industry/pune",
-      "serviceType": "Accounting for Schools and Colleges Pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune/#service",
+  "name": "Accounting Services for Schools and Colleges in Pune",
+  "description": "Accounting services for schools in Pune answer one question first: whose money is this? Fee income, government grants and corpus each get their own fund, with the term-fee cut-off applied so revenue falls in the right period.",
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Education Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting Services for Schools and Colleges in Pune",
+    "itemListElement": [
+      {
         "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/accounting-services-for-education-industry/pune",
-        "price": "8000"
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounting Services for Schools and Colleges in Pune",
+          "description": "Accounting services for schools in Pune answer one question first: whose money is this? Fee income, government grants and corpus each get their own fund, with the term-fee cut-off applied so revenue falls in the right period.",
+          "serviceType": "Education Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
+        }
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.patronaccounting.com/pune/#localbusiness",
+  "name": "Patron Accounting LLP - Pune (Wagholi HQ)",
+  "url": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune",
+  "telephone": "+91 94594 56700",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "412207",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Pune"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Wagholi"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Kharadi"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Baner"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting Services for Schools and Colleges in Pune",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounting Services for Schools and Colleges in Pune",
+          "description": "Accounting services for schools in Pune answer one question first: whose money is this? Fee income, government grants and corpus each get their own fund, with the term-fee cut-off applied so revenue falls in the right period.",
+          "serviceType": "Education Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
+        }
+      }
+    ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.57944655,
+    "longitude": 73.9682987
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "206",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Accounting Services for Schools & Colleges",
+      "item": "https://www.patronaccounting.com/accounting-services-for-education-industry"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Pune",
+      "item": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune"
+    }
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When must a Pune school or college registered under Section 12A file Form 10B?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Form 10B or 10BB is due one month before the income-tax return date, so 30 September where the trust files ITR-7 by 31 October. Filing late, or on the wrong one of the two forms, puts the exemption for that year at risk. We fix the audit calendar to your fee cycle so March-quarter receipts and grant utilisation are closed by August."
       }
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounting Services For Education Industry",
-          "item": "https://www.patronaccounting.com/accounting-services-for-education-industry"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounting for Schools and Colleges Pune",
-          "item": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune"
-        }
-      ]
+      "@type": "Question",
+      "name": "Is GST payable on the fees charged by a Pune school or a coaching institute?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tuition and admission fees of a school up to higher secondary level are GST exempt, while a private coaching institute charges 18% GST on its fees. Hostel, transport and canteen provided by the exempt institution stay exempt, but the same services bought in from a contractor do not. We separate exempt and taxable streams before your Maharashtra GSTR-3B on the 22nd."
+      }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which office handles trust compliance for schools in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Educational trusts in Pune must file annual accounts with the Joint Charity Commissioner, Public Trusts Registration Office, located at Late B.S. Dhole Patil Marg, opposite Wadia College, Pune 411001. For income tax matters, the Income Tax Office, Pune handles 12A/80G approvals and ITR-7 processing. Patron Accounting's Pune office coordinates filings with both authorities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can school and college compliance be managed online from Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron Accounting offers fully online compliance management for Pune educational institutions. Books are maintained on Tally or Zoho Books with cloud access. Form 10B, ITR-7, TDS returns, PTRC returns, and Charity Commissioner filings are all handled electronically. For trust management committees that prefer in-person meetings, Patron's Pune office at RTC Silver, Wagholi is available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the accounting fee for schools and colleges in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees start from Rs 8,000 per month for a single-school trust and go up to Rs 40,000 or more for multi-institution trusts or universities. The fee includes bookkeeping, PTRC compliance, Charity Commissioner filings, and monthly MIS. Statutory audit (Form 10B) and 12A/80G registration are typically project-based engagements quoted separately."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to set up accounting for an educational trust?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Onboarding takes 3 to 5 working days, including trust deed review, compliance gap assessment, software setup, and chart of accounts configuration. Monthly book updates are delivered within 7 working days of each month-end. First-year Charity Commissioner filing can be completed within 30 days of onboarding if all documents are available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do Pune schools need to register for GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schools providing education from pre-primary to higher secondary are exempt from GST under Notification 12/2017 and do not need GST registration for educational services. However, if a school provides taxable ancillary services - hostel fees above Rs 7,500 per month, outsourced transport, or commercial canteen operations - and the aggregate turnover exceeds Rs 20 lakh, GST registration becomes mandatory."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is statutory audit mandatory for all educational trusts in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, if the total income of the trust before applying Section 11 exemption exceeds Rs 2,50,000, audit under Section 12A(b) is mandatory. The auditor must file Form 10B electronically before the ITR-7 due date (31 October). Additionally, the Bombay Public Trusts Act requires annual accounts to be audited and filed with the Joint Charity Commissioner, Pune."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if a school trust loses its 12A registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If a school trust's 12A/12AB registration is cancelled or not renewed, the trust's entire income - including fee collections, donations, and grants - becomes taxable at 30% (or applicable slab rate). This effectively cripples the trust's ability to reinvest in educational infrastructure. Patron ensures timely 12AB renewal filings and compliance to prevent any lapse. Quick Answers School ka audit karna zaroori hai kya? Haan - agar trust ki total income Rs 2,50,000 se zyada hai toh Section 12A ke under audit mandatory hai. Form 10B file karna padta hai. Education trust mein GST lagta hai kya? School aur college ki core education services exempt hain. Lekin coaching centre, hostel (Rs 7,500/month se zyada), aur commercial canteen pe 18% GST lagta hai. Pune mein Charity Commissioner office kahan hai? Late B.S. Dhole Patil Marg, Wadia College ke saamne, Pune 411001. Annual accounts yahan file karne hote hain."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "Is Maharashtra professional tax deducted from teachers' salaries in Pune?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A Pune institution paying salaries must hold PTRC and deduct professional tax monthly from pay above the Maharashtra exemption threshold, and hold PTEC for the entity itself. Visiting faculty paid a professional fee fall under Section 194J TDS instead, not PTRC. We keep that payroll split correct so part-time lecturers do not wrongly appear in the monthly PTRC return."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do coaching centres in Baner and Kharadi under one trust need separate books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One trust files one return, but each Baner and Kharadi centre needs its own cost centre so fee collection, faculty cost and rent are visible branch by branch. Maharashtra Shops and Establishment registration is per premises and PMC or PCMC trade licensing follows the branch address. We produce branch-level MIS alongside consolidated trust accounts your trustees can approve."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle the term fees Pune institutions collect in advance each June?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Advance fees are recognised across the terms they cover, so a full-year fee banked in June sits in deferred fee income and releases month by month. That keeps the surplus reported to your trustees honest instead of showing a false first-quarter windfall. Refunds on withdrawal during the Pune admission season are provided for as they arise, not at year end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you stop corpus donations, grants and general fee income being mixed together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Corpus donations, restricted grants and general fee income are held in separate funds with their own ledgers and utilisation statements. Corpus receipts must be invested in the modes specified under Section 11(5) and are not spendable income. A donor-wise grant utilisation report is produced monthly, so your Form 10B auditor and the granting body are working from identical figures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What must be filed after 80G receipts are issued to donors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every donation must be reported in Form 10BD by 31 May following the financial year, with Form 10BE certificates issued to donors by the same date. Without 10BE the donor cannot claim the deduction. We capture donor PAN at the point of receipt from your Pune alumni and CSR donors, because chasing PAN in May is why most institutions miss this."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which TDS sections apply to a Pune college's payments to visiting faculty and contractors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visiting faculty paid professional fees attract Section 194J at 10%, transport and housekeeping contractors attract Section 194C, and regular teaching staff fall under Section 192 on salary. Deposits are due by the 7th of the following month with quarterly returns after. We run one monthly TDS workflow for institutions so faculty honoraria are not defaulted into the salary head."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does accounting for a Pune school or coaching institute cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees depend on student numbers, the number of campuses and whether Form 10B audit support and 12A or 80G compliance are included, rather than on fee turnover. A single-branch Baner coaching institute is priced well below a multi-campus trust with hostels and grants. We quote a fixed monthly retainer after seeing one full year of receipts. Fees exclude GST and government charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the team have to sit in a Pune school office, or is the work done remotely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most of it runs remotely from our Pune office at RTC Silver, Wagholi, with fee software exports, bank statements and vouchers shared through a secure folder each month. On-site attendance is arranged for the annual audit, physical verification of fixed assets and trustee meetings. Institutions still collecting fees at an offline counter get a scheduled monthly pickup instead."
+      }
     }
   ]
-}</script>
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune",
+  "name": "Accounting Services for Schools and Colleges in Pune",
+  "description": "Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Get a compliance review.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column - right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION - Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot - Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
+<link rel="stylesheet" href="/css/patron-cluster.css">
 
 @section('content')
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;"><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services-for-education-industry" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Education Accounting</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li><span style="color:var(--orange);font-weight:600;">Pune</span></li></ol>
+    </div>
+</nav>
 
 
-<!-- HERO SECTION -->
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1102,10 +342,10 @@
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         Trusted by 10,000+ Businesses
-                    </div>
+                    </div><span class="pa-hero-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Accounting and Compliance for Schools and Colleges in Pune
+                        <a href="/accounting-services-for-education-industry">Accounting Services for Schools</a> and Colleges in Pune
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1114,42 +354,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">18 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="#" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Documents:</span> Trust deed, 12A certificate, PAN, bank statements, fee receipts</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Fee schedule the ledger follows:</span> You tie each fee head in the ledger to its approved schedule. A head added mid year is visible before it is billed.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Starting from Rs 8,000/month for school trust accounting</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Exemption status that holds:</span> You know each month how much income has been applied to your objects and how much sits set apart in permitted modes.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> Schools, colleges, coaching centres, education trusts, Section 8 companies</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Donation records donors accept:</span> Your donation register issues the annual statement and donor certificates straight from it. Corpus gifts stay recorded apart from general donations.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> Books updated monthly; Form 10B filed before ITR-7 due date</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Grant money proved used:</span> Each restricted grant carries its own ledger and closing balance. You can answer a funder's question about what its money paid for.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Visit our Pune office or get started online - trusted by 10,000+ businesses across India</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Education%20Sector%20Accounting%20in%20Pune&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20accounting%20services%20for%20schools%2Fcolleges%20in%20Pune.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Education%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Education%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20for%20my%20school%2Fcollege%20in%20Pune.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20education%20industry%20in%20Pune" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1176,7 +414,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1206,7 +444,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Education Sector Accounting'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Education Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1249,14 +487,14 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="education-schools-colleges/pune" selected>Education Sector Accounting in Pune</option>
-                                <option value="statutory-audit/pune">Statutory Audit in Pune</option>
-                                <option value="ngo-registration/pune">NGO Registration in Pune</option>
-                                <option value="income-tax-return/pune">Income Tax Return Filing in Pune</option>
-                                <option value="gst-registration/pune">GST Registration in Pune</option>
-                                <option value="payroll-services/pune">Payroll Services in Pune</option>
-                                <option value="registration-for-12a-80g-certificate/pune">12A and 80G Registration in Pune</option>
-                                <option value="other">Other</option>
+                                <option value="accounting-services-for-education-industry/pune" selected>Startup Accounting</option>
+                                    <option value="accounting-services">Accounting Services (All)</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="esop-accounting-ind-as-102">ESOP Accounting (Ind AS 102)</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1286,113 +524,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron handles our entire school trust accounting - from fee tracking to Charity Commissioner filings. No missed deadlines in 3 years.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RK</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajesh Kulkarni</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Trustee, Education Trust, Pune</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">The statutory audit was clean and completed well before deadline. No last-minute rush. Highly recommended for educational institutions.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:Principal, CBSE School, Kothrud;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AP</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Anita Patil</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">var(--blue)</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">GST classification for our coaching centre was confusing. Patron sorted exempt vs taxable in one consultation. Saved us from potential notices.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#10B981;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Sachin Mehta</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Owner, Coaching Institute, Shivajinagar</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">12A renewal was handled smoothly by Patron. We had almost missed the deadline but their team filed it in time. Very reliable.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#6366F1;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">DG</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Deepak Ghosh</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Secretary, Education Society, Hadapsar</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Excellent service for company registration and compliance. The team is very responsive and handles everything end to end.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SA</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Demandify Media</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">6 months ago</div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>From school trusts in Pune to colleges across Maharashtra - education sector compliance delivered on time, every time.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1418,139 +553,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
+            
             <a href="#overview-section" class="toc-btn active">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is It</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Services</a>
-            <a href="#procedure-section" class="toc-btn">Process</a>
-            <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
-            <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Timeline</a>
-            <a href="#benefits-section" class="toc-btn">Why Patron</a>
-            <a href="#comparison-section" class="toc-btn">Comparison</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounting and Compliance for Educational Institutions in Pune: Complete Overview</h2>
+            <h2 class="section-title">What Education Sector Accounting Costs and Covers for Pune Businesses</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Education Sector Accounting Services at a Glance</strong></p>
-                    <p>Accounting and compliance services for educational institutions in Pune cover trust accounting, statutory audit, 12A/80G registration, Bombay Public Trust Act filings, GST compliance, and TDS management. Pune - known as the 'Oxford of the East' - has over 612 colleges affiliated with Savitribai Phule Pune University (SPPU), thousands of schools under SSC, CBSE, ICSE, and IB boards, and a growing number of coaching centres. Every educational trust operating in Maharashtra must register under the Bombay Public Trusts Act, 1950, and file annual accounts with the Joint Charity Commissioner, Pune.</p>
+                    <p><strong>&#128204; TL;DR - Education Accounting Services at a Glance</strong></p>
+                    <p>Accounting services for schools in Pune answer one question first: whose money is this? Fee income, government grants and corpus each get their own fund, with the term-fee cut-off applied so revenue falls in the right period. Patron files whichever of Form 10B or 10BB applies, for institutions in Kothrud and Aundh, depositing Maharashtra professional tax on staff payroll monthly. Best suited to trusts and societies running schools and colleges.</p>
                 </div>
-                <p>Pune's education ecosystem is among the largest in India. <a href="/accounting-services-for-education-industry">Accounting services for the education sector across India</a> require specialised expertise, and Pune's density of institutions amplifies this need. Savitribai Phule Pune University alone oversees 612+ affiliated colleges and 300+ recognised research institutes across Pune, Ahmednagar, and Nashik districts. Major education trusts such as Deccan Education Society (founded 1884), Bharati Vidyapeeth, Symbiosis International University, and Pimpri Chinchwad Education Trust (PCET) operate dozens of institutions across the city.</p>
-                <div class="table-responsive-wrapper" style="margin-top:20px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td>Governing Acts</td><td>Bombay Public Trusts Act 1950, IT Act 1961 (S12A, 80G), Companies Act 2013 (S8), CGST Act 2017</td></tr>
-                        <tr><td>Applicable To</td><td>Schools, colleges, universities, coaching centres, education trusts, societies, Section 8 companies</td></tr>
-                        <tr><td>Timeline</td><td>Annual accounts by 30 Sep; Form 10B before ITR-7; Charity Commissioner filing by 30 Jun</td></tr>
-                        <tr><td>Cost Starting From</td><td>Rs 8,000/month (school trust) to Rs 35,000+/month (university-level)</td></tr>
-                        <tr><td>Penalty for Non-Compliance</td><td>Loss of 12A exemption; penalty under Bombay PT Act; Rs 25,000 under S271A IT Act</td></tr>
-                        <tr><td>Key Portals</td><td>incometax.gov.in, mahagst.gov.in, charity.maharashtra.gov.in</td></tr>
-                        <tr><td>Jurisdictional Office</td><td>Joint Charity Commissioner Pune; GST Commissionerate Pune; Income Tax Office Pune</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p</p>
-                <p>Educational institutions in Pune must navigate a complex regulatory framework. The Bombay Public Trusts Act, 1950 requires registration and annual filings with the Joint Charity Commissioner, Pune, located at Late B.S. Dhole Patil Marg, opposite Wadia College. Income tax compliance requires Section 12A/12AB registration for exemption, Section 80G approval for donor benefits, and annual filing of Form 10B (audit report) and ITR-7. GST exemptions apply to core educational services under Notification 12/2017, but ancillary services like hostel accommodation beyond Rs 7,500/month, transportation outsourced to third parties, and commercial canteen operations attract 18% GST. Maharashtra's Professional Tax Act adds PTRC obligations for school and college staff.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Accounting for schools in Pune turns on the week a term opens. Fees arrive in a compressed few days, concessions and refunds trail behind for another fortnight, and no month closes cleanly until they settle. Where a college is affiliated to Savitribai Phule Pune University, anything collected for the university is money held rather than fee income, so the two are separated at the point of entry, as a calendar for admission-season entries sets out.</p>
+                <p>Where a taxable coaching arm sits inside the same entity as the exempt degree stream, two revenue streams are forced apart in one ledger. Time requirements grow with fee heads, funds, and the campuses reporting together. School and college accounting in Pune covers that work; enrolment records and filings made through the Maharashtra tax portal are separate assignments.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Are Accounting Services for Schools and Colleges?</h2>
+                <h2 class="section-title">What Do Education Sector Accounting Mean for Pune Businesses?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Accounting services for educational institutions refer to the specialised financial management, statutory compliance, and audit functions required by schools, colleges, trusts, and societies operating under the Bombay Public Trusts Act, 1950, and the Income Tax Act, 1961 (Sections 11, 12A, and 80G).</p>
-                    <p>Unlike commercial entities, educational institutions in Pune operate as public charitable trusts or Section 8 companies with a non-profit mandate. Their accounting must track fee income segregated by course and board affiliation, grant receipts from government and CSR donors, corpus donations under Section 11(1)(d), and application of income towards educational purposes. A school affiliated with CBSE in Koregaon Park, a degree college under SPPU in Kothrud, and a coaching centre in Shivajinagar each have different compliance requirements - from Charity Commissioner filings to GST treatment. Patron Accounting's Pune office handles this spectrum with CA-level expertise in trust accounting and education sector compliance.</p>
+                    <p>This service works on a ledger split into funds, not a single stream of income. An institution&#x27;s fee collections, government grants and corpus donations each belong to a distinct fund, and the ledger has to keep them apart from the first receipt so none quietly subsidises another. Nothing crosses between funds without a reason recorded. Accounting services for schools in Pune build and maintain that fund-wise ledger as the record everything else is read from.</p>
+<p>Two things sit on top of the ledger. One is the year-end test that income has been applied to the institution&#x27;s objects and corpus kept as capital, not spent as revenue. The other is a clean cut-off, so fees belonging to a term fall in the period that term runs, not the week the money arrived. Accounting services for schools in Pune keep the funds separated, the application position current and the cut-off honest, which is what lets an exemption stand without a year-end reconstruction.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Education Sector Accounting:</strong></p>
-                    <ul>
-                        <li><strong>Section 12A Registration:</strong> Income tax exemption registration for charitable trusts including educational institutions under the Income Tax Act, 1961.</li>
-                        <li><strong>Form 10B:</strong> Statutory audit report required under Section 12A(b) for trusts claiming exemption under Section 11.</li>
-                        <li><strong>Bombay Public Trusts Act 1950:</strong> Maharashtra state legislation mandating registration and annual filing with the Joint Charity Commissioner.</li>
-                        <li><strong>ITR-7:</strong> Income tax return for trusts claiming exemption under Section 11 or Section 10(23C).</li>
-                        <li><strong>Section 80G Approval:</strong> Allows donors to claim tax deductions on contributions to approved educational institutions.</li>
-                        <li><strong>PTRC:</strong> Professional Tax Registration Certificate under Maharashtra Professional Tax Act 1975.</li>
-                    </ul>
+                    <p><strong>Key Terms for Education Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/fund-based-accounting">Fund-Based Accounting</a></span><span class="al-d">Keeping each source of money in its own fund, spent only on permitted purposes.</span></li><li><span class="al-t"><a href="/glossary/section-10-23c-exemption-rules">Section 10(23C) Exemption Rules</a></span><span class="al-d">Conditions letting an educational institution keep its income exempt from income tax.</span></li><li><span class="al-t"><a href="/glossary/85-income-application-rule">85% Income Application Rule</a></span><span class="al-d">At least eighty-five percent of income must be spent on the institution&#x27;s objects yearly.</span></li><li><span class="al-t"><a href="/glossary/restricted-corpus-donations">Restricted Corpus Donations</a></span><span class="al-d">Gifts a donor earmarks as permanent capital, kept separate from spendable income.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Education Sector Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Education Sector</span>
-                        <strong>Pune Compliance</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/what-is-pune.webp" alt="What Is Education Sector Accounting. Unlike ordinary business bookkeeping, which tracks profit for owners, accounting in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Education Sector Accounting Services in Pune?</h2>
+            <h2 class="section-title">Who Needs Education Sector Accounting in Pune: From Hinjewadi to Growing SMEs</h2>
             <div class="content-text">
                 
-                <p>Pune's education sector spans every level - from nursery schools to deemed universities. Schools affiliated with the Maharashtra State Board (SSC), CBSE, ICSE, IB, and Cambridge boards across Aundh, Baner, Kothrud, Deccan, Camp, and Hadapsar need trust accounting and annual Charity Commissioner filings.</p>
-                <p>Colleges affiliated with Savitribai Phule Pune University - including engineering, management, pharmacy, and arts institutions in areas like Shivajinagar, Karve Road, Akurdi, and Ravet - require <a href="/statutory-audit">statutory audit</a> under Section 12A(b), Form 10B filing, and compliance with UGC financial reporting norms.</p>
-                <p>Education trusts such as Deccan Education Society, Bharati Vidyapeeth, Maharashtra Academy of Engineering, PCET, and AISSMS that operate multiple institutions need consolidated accounting, inter-institution fund transfer tracking, and Bombay Public Trust Act Schedule IX-A filing with the Joint Charity Commissioner, Pune.</p>
-                <p>Coaching centres and private training institutes in Shivajinagar, Sadashiv Peth, FC Road, and Hinjewadi need <a href="/gst-registration">GST registration</a> and filing since coaching services attract 18% GST under the CGST Act, unlike exempt schools.</p>
-                <p>Section 8 companies established for educational purposes, international schools, deemed universities, and research foundations also require specialised accounting that addresses FCRA compliance (for foreign donations), CSR-1 registration (for receiving CSR funds), and Section 35(1)(ii) approvals for research institutions.</p>
+                <p>Every rupee a campus collects carries a label, whether a term fee, a government grant or a donation. Around Baner, Wakad and Viman Nagar, the trusts and societies behind schools and colleges need <a href="/accounting-services-for-education-industry">accounting services for schools in Pune</a> that keep each fund apart.</p>
+  <ul>
+    <li>Schools splitting collections for tuition, transport, hostel and exam heads, each tracked through the term.</li>
+    <li>Colleges living on grants whose donor later wants a full utilisation statement to release the balance.</li>
+    <li>Trusts under 12AB registration that must apply 85 percent of income to their objects yearly.</li>
+    <li>Endowment and corpus gifts that stay locked to their purpose, never mixed with day-to-day funds.</li>
+    <li>Institutions holding FCRA accounts where foreign contributions must sit in books kept entirely on their own.</li>
+    <li>Any dealing with a Section 13(3) specified person, which each has to be separately tested.</li>
+    <li>Colleges posting fee concessions and scholarships against each student rather than as one lump write-off.</li>
+    <li>Newer institutes in Talegaon still building fund-based books before their first exemption audit falls due.</li>
+  </ul>
 
             </div>
             </div>
@@ -1558,26 +642,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Services Included: Education Sector Accounting in Pune</h2>
+            <h2 class="section-title">Education Sector Accounting Included for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Trust Accounting and Bookkeeping</td><td>Recording fee collections, grants, donations, corpus funds, and expenses in Tally or Zoho Books - structured per Bombay Public Trust Act requirements</td></tr>
-                        <tr><td>Statutory Audit (Form 10B)</td><td>Annual audit by a practising CA as required under Section 12A(b) of the Income Tax Act for trusts whose income before exemption exceeds Rs 2,50,000</td></tr>
-                        <tr><td>12A/12AB Registration</td><td>Application and renewal of income tax exemption registration for new and existing educational trusts with the Income Tax Department, Pune</td></tr>
-                        <tr><td>80G Approval</td><td>Obtaining and maintaining Section 80G approval so donors to Pune schools and colleges receive tax deductions</td></tr>
-                        <tr><td>Bombay Public Trust Act Compliance</td><td>Annual filing of Schedule IX-A (change report) and audited accounts with the Joint Charity Commissioner, Pune</td></tr>
-                        <tr><td>GST Compliance for Education Sector</td><td>Determining exempt vs taxable supplies, GST registration for coaching centres, return filing for institutions with mixed supplies</td></tr>
-                        <tr><td>TDS Compliance</td><td>Deduction and filing of TDS under Sections 194C (contractors), 194J (professional fees), 192 (salaries) for school and college staff</td></tr>
-                        <tr><td>PTRC/PTEC Compliance</td><td>Maharashtra Professional Tax registration and return filing for educational institutions employing salaried staff in Pune</td></tr>
-                        <tr><td>ITR-7 Filing</td><td>Annual income tax return for trusts and institutions claiming exemption under Section 11 or Section 10(23C)</td></tr>
-                        <tr><td>FCRA and CSR-1 Registration</td><td>For institutions receiving foreign contributions or CSR funds from corporate donors</td></tr>
+                        <tr><td>Fund-based accounting for education institutions</td><td>Colleges and schools near Hinjewadi IT Park receive separate fund ledgers, the core of <a href="/accounting-services-for-education-industry">accounting services for schools in Pune</a> that keeps restricted funds apart <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Term-fee deferral and fee recognition</td><td>Tuition, transport and hostel fees are booked term by term, so revenue lands in the period earned and advance fees remain liabilities <span class="badge-included">Quarterly</span></td></tr>
+                        <tr><td>Grant and scholarship utilisation report</td><td>Grants and scholarship funds are tracked against spend to prove utilisation, part of the accounting for educational institutions in Pune that we handle <span class="badge-included">Quarterly</span></td></tr>
+                        <tr><td>Corpus and donation ledger</td><td>Corpus is separated from general donations, donor PAN captured and 80G receipts issued, supporting school and college accounting in Pune that donors trust <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Income application and specified person testing</td><td>We prepare the Section 11 application working and log specified person dealings, testing them against Section 13 before the filing deadline arrives <span class="badge-included">Half-yearly</span></td></tr>
+                        <tr><td>Management accounts and audit pack</td><td>Monthly MIS for management plus a year-end Form 10B audit pack, drawn from our Accounting Services for Schools menu <span class="badge-included">Monthly, annually</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1587,152 +667,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How Education Sector Accounting Works in Pune</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Our 6-step process ensures every compliance requirement for your school, college, or education trust in Pune is met systematically - from onboarding to annual filings with the Joint Charity Commissioner and Income Tax Department.</p>
+            <h2 class="section-title">How Education Sector Accounting Works in Pune — Step by Step</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers education accounting for Pune businesses, step by step.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 1</span>
-        <h3 class="step-title">Assessment of Legal Structure and Compliance Status</h3>
-        <p class="step-description">Patron's Pune team reviews your institution's legal structure - trust registered under Bombay Public Trusts Act 1950, society under Societies Registration Act 1860, or Section 8 company under Companies Act 2013. We verify 12A/12AB registration status, 80G approval, Charity Commissioner filing history, and pending compliances with the Joint Charity Commissioner, Pune at Late B.S. Dhole Patil Marg.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Trust structure review</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>12A/80G status check</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Compliance gap analysis</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="35" r="15" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><path d="M53 35l4 4 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/><line x1="30" y1="60" x2="90" y2="60" stroke="#14365F" stroke-width="1.5" opacity="0.3"/></svg></div>
-            <span class="illustration-label">Structure Reviewed</span>
-            <span class="step-number-large">01</span>
-        </div>
-    </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Fee demand to collection reconciliation</h3>
+    <p class="step-description">The fee software export is reconciled per student and per head: tuition, admission, transport, hostel and examination. That is agreed to what actually reached the bank, leaving a defensible outstanding fee figure. Fee collected for a later academic term is carried forward rather than taken to income.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/step-1-fee-demand-to-collection-reconciliation-pune.webp" alt="Illustration for Fee demand to collection reconciliation: The fee software export is reconciled per student and per head: in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 2</span>
-        <h3 class="step-title">Chart of Accounts Setup for Education Sector</h3>
-        <p class="step-description">We configure a customised chart of accounts in Tally or Zoho Books designed for educational institutions. Income heads are split by tuition fees, examination fees, hostel charges, transport income, grant receipts, donations, corpus contributions under Section 11(1)(d), and miscellaneous income.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Education-specific chart</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Tally / Zoho Books</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="35" y1="25" x2="85" y2="25" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="35" y1="38" x2="75" y2="38" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="35" y1="48" x2="80" y2="48" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="35" y1="58" x2="65" y2="58" stroke="#14365F" stroke-width="2" opacity="0.3"/></svg></div>
-            <span class="illustration-label">Accounts Ready</span>
-            <span class="step-number-large">02</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Concession and scholarship posting</h3>
+    <p class="step-description">Approved waivers, concessions and scholarships are posted against the fee demand rather than quietly netted out of collections. Gross fee income and the cost of concessions then both appear, which is what the governing body and the auditor need to see.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/step-2-concession-and-scholarship-posting-pune.webp" alt="Illustration for Concession and scholarship posting: Approved waivers, concessions and scholarships are posted against the in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 3</span>
-        <h3 class="step-title">Monthly Transaction Recording and Fund Tracking</h3>
-        <p class="step-description">Our team records all transactions from fee receipts, bank statements, vendor invoices, salary registers, and donation receipts. For Pune education trusts operating multiple schools or colleges - like Deccan Education Society with institutions across Shivajinagar and Fergusson College Road - we maintain institution-wise profit centres.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Institution-wise tracking</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Within 7 days of month-end</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="15" width="45" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><rect x="65" y="15" width="45" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><path d="M55 42L65 42" stroke="#F5A623" stroke-width="2" stroke-dasharray="3 2"/><circle cx="32" cy="35" r="8" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><circle cx="88" cy="35" r="8" fill="#E8F5E9" stroke="#10B981" stroke-width="1"/></svg></div>
-            <span class="illustration-label">Books Updated</span>
-            <span class="step-number-large">03</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Corpus and donation classification</h3>
+    <p class="step-description">Donations are split into corpus and general on the strength of the donor's written direction, not on how they were spent. Donor name, address and PAN are captured at receipt so the annual donation statement and donor certificates can be issued without chasing.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/step-3-corpus-and-donation-classification-pune.webp" alt="Illustration for Corpus and donation classification: Donations are split into corpus and general on the strength of the in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 4</span>
-        <h3 class="step-title">GST Determination and PTRC Filing</h3>
-        <p class="step-description">We assess each revenue stream for GST applicability. Core education services (pre-school to higher secondary, and degree courses recognised by SPPU or other universities) are exempt under Notification 12/2017. However, hostel charges above Rs 7,500/month, outsourced transport, canteen operations, and coaching/training not leading to recognised qualifications attract 18% GST.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Exempt vs taxable split</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>PTRC by 15th monthly</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="35" font-size="14" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><line x1="35" y1="45" x2="85" y2="45" stroke="#14365F" stroke-width="1" opacity="0.3"/><text x="45" y="58" font-size="8" fill="#10B981" font-weight="600" text-anchor="middle" font-family="Arial">EXEMPT</text><text x="75" y="58" font-size="8" fill="#E8712C" font-weight="600" text-anchor="middle" font-family="Arial">18%</text></svg></div>
-            <span class="illustration-label">GST Classified</span>
-            <span class="step-number-large">04</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Application and accumulation tracking</h3>
+    <p class="step-description">Spending is classified through the year as revenue or capital application towards the objects. The balance is tracked as accumulated or set apart, with the corresponding funds held in the permitted investment modes. This is monitored monthly, not discovered at year end.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/step-4-application-and-accumulation-tracking-pune.webp" alt="Illustration for Application and accumulation tracking: Spending is classified through the year as revenue or capital in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 5</span>
-        <h3 class="step-title">Year-End Finalization and Form 10B Audit</h3>
-        <p class="step-description">At financial year-end, Patron prepares the receipts and payments account, income and expenditure account, and balance sheet in the format prescribed by the Bombay Public Trusts Act. The <a href="/statutory-audit">statutory audit</a> under Section 12A(b) is conducted, and Form 10B is filed electronically.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Form 10B audit</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>85% application verified</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="5" width="70" height="75" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="30" r="12" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M54 30l4 4 8-8" stroke="#10B981" stroke-width="2" stroke-linecap="round"/><line x1="38" y1="52" x2="82" y2="52" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><line x1="38" y1="60" x2="72" y2="60" stroke="#14365F" stroke-width="1.5" opacity="0.2"/></svg></div>
-            <span class="illustration-label">Audit Complete</span>
-            <span class="step-number-large">05</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Specified person transaction testing</h3>
+    <p class="step-description">A standing list of specified persons is maintained from the trust deed and governing body records. Salary, rent, interest and purchases involving them are tested for reasonableness, with the comparable kept on file alongside the approval.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/step-5-specified-person-transaction-testing-pune.webp" alt="Illustration for Specified person transaction testing: A standing list of specified persons is maintained from the trust in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 6</span>
-        <h3 class="step-title">ITR-7 Filing and Charity Commissioner Submission</h3>
-        <p class="step-description">ITR-7 is filed electronically with the Income Tax Department claiming exemption under Section 11 (for 12A-registered trusts) or Section 10(23C). Simultaneously, audited accounts and Schedule IX-A change report are filed with the Joint Charity Commissioner, Pune. Post-filing, Patron coordinates any queries from the <a href="/income-tax-return">Income Tax Department</a>.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>ITR-7 e-filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Charity Commissioner done</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="35" y="22" width="50" height="35" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><path d="M53 42l7 6 7-6" stroke="#10B981" stroke-width="2" stroke-linecap="round"/><circle cx="85" cy="18" r="10" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/><path d="M81 18l3 3 6-6" stroke="#10B981" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-            <span class="illustration-label">Filing Done</span>
-            <span class="step-number-large">06</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Restricted fund segregation</h3>
+    <p class="step-description">Fee collection, general and any foreign contribution accounts are kept strictly apart in the ledger as well as at the bank, with no transfers that mix them. Foreign contribution is received and utilised only through the designated account.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/step-6-restricted-fund-segregation-pune.webp" alt="Illustration for Restricted fund segregation: Fee collection, general and any foreign contribution accounts are kept in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Year end audit pack assembly</h3>
+    <p class="step-description">Receipts and payments, income and expenditure and the balance sheet are prepared in the format the trust audit report expects. The application, accumulation and specified-person schedules are attached, so the auditor certifies from a complete file.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-education-industry/pune/step-7-year-end-audit-pack-assembly-pune.webp" alt="Illustration for Year end audit pack assembly: Receipts and payments, income and expenditure and the balance sheet are in Pune" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Education Sector Accounting in Pune</h2>
+            <h2 class="section-title">Documents Required for Education Sector Accounting</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li><strong>Trust Deed / Society Registration Certificate / Section 8 MOA:</strong> Establishes the legal entity for compliance</li>
-                    <li><strong>12A/12AB Registration Certificate:</strong> For income tax exemption eligibility</li>
-                    <li><strong>80G Approval Letter:</strong> For donor tax benefit status</li>
-                    <li><strong>PAN Card of Trust/Institution:</strong> Required for all tax filings</li>
-                    <li><strong>Bank Statements (All Accounts):</strong> Including fee collection accounts, donation accounts, and fixed deposit receipts</li>
-                    <li><strong>Fee Collection Records:</strong> Term-wise or month-wise fee receipts from students</li>
-                    <li><strong>Salary Registers and Attendance Records:</strong> For TDS and PTRC compliance</li>
-                    <li><strong>Previous Year Audited Financial Statements:</strong> For opening balance migration</li>
-                    <li><strong>Charity Commissioner Registration Certificate:</strong> Bombay Public Trust Act registration proof</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:16px;">
-                    <p><strong>Pune-Specific Tip:</strong> Schools and colleges registered under SPPU should also keep affiliation fee receipts and UGC grant utilisation certificates, as these affect audit reporting and Charity Commissioner filings.</p>
-                </div>
+                <p>Add to the fee records both Maharashtra profession tax certificates, plus the licence agreement for whichever building the classes actually run in.</p>
+<ul>
+    <li>Fee collection register / fee software export by student, term and fee head (tuition, admission, transport, hostel, exam)</li>
+    <li>Fee concession, scholarship and waiver approvals</li>
+    <li>Trust deed or society memorandum and rules, with the current 12AB registration order and 80G approval order</li>
+    <li>Donation register with donor name, address and PAN, separating corpus from general donations</li>
+    <li>Record of application of income, amounts accumulated or set apart, and investments held in Section 11(5) modes</li>
+    <li>Bank statements for every account, including separate fee-collection and FCRA accounts if held</li>
+    <li>Payroll records for teaching and non-teaching staff, with PF and ESI challans</li>
+    <li>PTEC certificate (Certificate of Enrolment) under the Maharashtra State Tax on Professions, Trades, Callings and Employments Act, 1975, plus the annual PTEC challan</li>
+    <li>PTRC certificate plus monthly/annual PTRC returns and challans</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges Faced by Pune Educational Institutions</h2>
+            <h2 class="section-title">Education Sector Accounting Challenges Specific to Pune: Hinjewadi IT Park SEZ Rules and MIDC Estate Compliance</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>Missed Charity Commissioner Annual Filings</td><td>Penalties and scrutiny of trust administration under Bombay Public Trusts Act</td><td>Automated reminders and proactive filing with Joint Charity Commissioner, Pune</td></tr>
-                        <tr><td>GST Confusion on Ancillary Services</td><td>Notices from GST Commissionerate, Pune for institutions with mixed supplies</td><td>Precise exempt vs taxable classification for each revenue stream</td></tr>
-                        <tr><td>12A/12AB Renewal Delays</td><td>Loss of tax exemption; trust income fully taxable at 30%</td><td>Timely 12AB renewal filings with Income Tax Department, Pune</td></tr>
-                        <tr><td>PTRC Non-Compliance for Staff</td><td>Daily penalties under Maharashtra PT Act 1975</td><td>PTRC registration and monthly return filing as part of bundled compliance</td></tr>
-                        <tr><td>Incorrect Form 10B Filing</td><td>Reassessment by Income Tax Department; potential loss of Section 11 exemption</td><td>CA-reviewed Form 10B with correct disclosures on income application and corpus</td></tr>
+                        <tr><td>Anonymous cash donations not segregated for Section 115BBC</td><td>Unidentified donations risk 30% tax under Section 115BBC, yet the books cannot evidence donor records.</td><td>Patron records donor identity against each receipt and flags anonymous gifts so the taxable portion is isolated.</td></tr>
+                        <tr><td>Salary and vendor TDS deductions not reconciled to the ledger</td><td>Deducted tax and expense heads drift from Form 26AS, so mismatches surface only during assessment.</td><td>We reconcile TDS ledgers to challans and 26AS each quarter, tying deductions to the correct expense.</td></tr>
+                        <tr><td>Government grants not tracked against sanction conditions</td><td>Unspent grant reads as surplus, and the 85% application test is missed at year-end.</td><td>Patron maintains a grant utilisation schedule against each sanction, matching spend to the purpose funded.</td></tr>
+                        <tr><td>Hostel and transport fees at a Katraj campus taxed inconsistently</td><td>Bundled and separate supplies get mixed, so GST is over-charged on some fees and missed on others.</td><td>Our team classifies hostel and transport as composite or mixed supply, applying the right rate and input credit.</td></tr>
+                        <tr><td>A Hinjewadi EdTech expenses all course-content development as it is incurred</td><td>Content that earns revenue for years is written off at once, understating assets and distorting early results.</td><td>Patron capitalises qualifying content as an intangible and amortises it over its useful life; read <a href="/blog/education-accounting-pune-edtech">accounting for Pune EdTech startups</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1742,59 +787,58 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Fees for Education Sector Accounting in Pune</h2>
+            <h2 class="section-title">Education Sector Accounting Fees in Pune</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Single School Trust</td><td>Rs 8,000 - Rs 12,000/month (Exl GST)</td></tr>
-                        <tr><td>Multi-Institution Trust</td><td>Rs 15,000 - Rs 25,000/month (Exl GST)</td></tr>
-                        <tr><td>College/University</td><td>Rs 25,000 - Rs 40,000/month (Exl GST)</td></tr>
-                        <tr><td>Coaching Centre</td><td>Rs 8,000 - Rs 15,000/month (Exl GST)</td></tr>
-                        <tr><td>12A/80G Registration (One-time)</td><td>Project-based - quoted separately</td></tr>
-                        <tr><td>Statutory Audit (Form 10B)</td><td>Depends on institution size - quoted separately</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; a single institution with standard fee and grant heads</td><td>INR 4,499<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; more fee heads, added fund accounting or a second campus</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-campus books with custom fund and grant reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">A single Pune institution is covered at <strong>INR 4,499,</strong> the same fee we charge nationwide, since scope not location sets the price. Fee heads, fund accounting and campus count are what raise the tier. Profession-tax registration under Maharashtra rules is an excluded statutory charge, billed at actuals. Ask for a <strong>fixed quote</strong> on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Education Sector Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20education%20sector%20accounting%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Education Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20education%20industry%20in%20Pune" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Timeline for Education Sector Accounting in Pune</h2>
+            <h2 class="section-title">Education Sector Accounting Compliance Calendar 2026 for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Onboarding and Assessment</td><td>3-5 working days</td></tr>
-                        <tr><td>Chart of Accounts Setup</td><td>3-5 working days</td></tr>
-                        <tr><td>Monthly Book Updates</td><td>Within 7 working days of month-end</td></tr>
-                        <tr><td>Quarterly TDS Returns</td><td>Before quarterly due date</td></tr>
-                        <tr><td>Year-End Finalization</td><td>30-45 days post year-end</td></tr>
-                        <tr><td>Form 10B Audit</td><td>Within 1 month of year-end close</td></tr>
-                        <tr><td>ITR-7 Filing</td><td>Before 31 October (annual due date)</td></tr>
-                        <tr><td>Charity Commissioner Filing</td><td>By 30 June (annual)</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th monthly for turnover above Rs 5 crore; 22nd quarterly under QRMP for turnover up to Rs 5 crore (Category X)</td><td>GST-registered businesses in Pune</td></tr>
+                        <tr><td>Professional tax: PTRC monthly return and PTEC</td><td>PTRC by the 15th of every month; PTEC annually by 31 March</td><td>Employers and companies registered for profession tax in Maharashtra (Pune)</td></tr>
+                        <tr><td>80G / 12A renewal and Form 10BD statement of donations</td><td>31 May 2026</td><td>Trusts issuing 80G receipts to donors</td></tr>
+                        <tr><td>Advance tax second instalment (45% cumulative)</td><td>15 September 2026</td><td>Companies, firms and individuals liable to advance tax</td></tr>
+                        <tr><td>Trust audit report (Form 10B / 10BB)</td><td>30 September 2026</td><td>Charitable trusts and institutions registered under 12A/12AB</td></tr>
+                        <tr><td>Trust income-tax return (ITR-7)</td><td>31 October 2026</td><td>Registered trusts, societies and Section 8 companies</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered Pune businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Group A Processing Note:</strong> No visit to the Joint Charity Commissioner Office, Pune or Income Tax Office is required. Patron's Pune office at RTC Silver, Wagholi handles all filings electronically and coordinates with regulatory offices on your behalf.</p>
+                    <p>In Pune, an education trust files the Form 10B audit by 30 September and books GSTR-3B on the 22nd. Fee-cycle revenue must be cut off cleanly at period end. Profession tax under Maharashtra PTRC falls on the 15th monthly. Patron handles accounting services for schools in Pune and sets filing reminders; call +91 94594 56700 or read our <a href="/blog/maharashtra-professional-tax-shops-act">local guide</a>.</p>
 
                 </div>
             </div>
@@ -1802,69 +846,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron Accounting for Education Sector in Pune</h2>
+            <h2 class="section-title">Why Professional Education Sector Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                <h3>Pune Office Presence</h3>
-                <p>Patron's office at RTC Silver, Wagholi is accessible to educational institutions across Shivajinagar, Kothrud, Aundh, Hadapsar, and the Pimpri-Chinchwad education corridor.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
-                <h3>Education Sector Expertise</h3>
-                <p>Over 10,000 businesses served including educational trusts, schools, and colleges. Deep knowledge of Bombay Public Trust Act, 12A/80G, and GST exemption rules.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-                <h3>Jurisdictional Familiarity</h3>
-                <p>Regular filings with Joint Charity Commissioner Pune, Income Tax Office Pune, and GST Commissionerate Pune. We know the processing patterns and timelines.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
-                <h3>Bundled Compliance</h3>
-                <p>Trust accounting, 12A/80G, Charity Commissioner filings, and PTRC bundled into a single engagement - no gaps, no missed deadlines.</p>
-            </article>
-        </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" /> <path d="M22 10v6" /> <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" /> </svg></div>
+  <h3 class="feature-title">Fee schedule the ledger follows</h3>
+  <p class="feature-text">You tie each fee head in the ledger to its approved schedule. A head added mid year is visible before it is billed.</p><ul style="margin-top:12px;"><li>Each fee head tied to its approved schedule</li><li>New heads visible before they are billed</li><li>Without it, fee taken during a pending appeal shows as income</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="11" x="3" y="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 10 0v4" /> </svg></div>
+  <h3 class="feature-title">Exemption status that holds</h3>
+  <p class="feature-text">You know each month how much income has been applied to your objects and how much sits set apart in permitted modes.</p><ul style="margin-top:12px;"><li>Income applied to objects tracked month by month</li><li>Accumulation held in Section 11(5) permitted modes</li><li>Without it, a shortfall surfaces after year-end with no room to correct</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" /> </svg></div>
+  <h3 class="feature-title">Donation records donors accept</h3>
+  <p class="feature-text">Your donation register issues the annual statement and donor certificates straight from it. Corpus gifts stay recorded apart from general donations.</p><ul style="margin-top:12px;"><li>Register carries donor name, address and PAN</li><li>Corpus gifts classified apart from general donations</li><li>Without PAN or written direction, donors chased months later</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div>
+  <h3 class="feature-title">Grant money proved used</h3>
+  <p class="feature-text">Each restricted grant carries its own ledger and closing balance. You can answer a funder's question about what its money paid for.</p><ul style="margin-top:12px;"><li>Each restricted grant on its own ledger and balance</li><li>Separate fee-collection and FCRA bank accounts supporting it</li><li>Without separation, purpose reconstructed from bank narrations</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /> <circle cx="12" cy="12" r="3" /> </svg></div>
+  <h3 class="feature-title">Specified person dealings tested</h3>
+  <p class="feature-text">We test salary, rent, interest and purchases involving trustees and their relatives against a comparable, and keep the approval alongside.</p><ul style="margin-top:12px;"><li>Trustee dealings tested against a comparable, approval kept</li><li>Register of specified persons under Section 13(3)</li><li>Without the file, a routine trustee payment can be disputed as a benefit</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">True cost of concessions</h3>
+  <p class="feature-text">You see waivers and scholarships as a cost in their own right, not as lower collections. Your governing body reads gross fee income separately.</p><ul style="margin-top:12px;"><li>Concessions, scholarships and waivers posted as a cost</li><li>Fee income shown gross, not netted off</li><li>Without it, rising concessions read as a fee shortfall</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trusted by Educational Institutions Across India</h2>
-            <div class="content-text">
-                
-                <p><strong>Trust Banner:</strong> 10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years</p>
-                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron serves Pune educational institutions with both local presence and national capability. Trusted by Hyundai, Asian Paints, Bridgestone, and 10,000+ businesses across India.</p>
-
+            <h2 class="section-title">Why <a href="/accounting-services-for-education-industry">Accounting Services for Schools & Colleges</a> Clients in Pune Choose Patron Accounting</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Fund-based books keep fees, grants and corpus apart</strong><p>We run fund-based accounting so tuition fees, government grants and corpus donations sit in separate funds, never pooled. That discipline comes from 15+ years handling institutional books.</p></div>
+                <div><strong>12A/80G status protected and Form 10B filed on time</strong><p>Whether an institution runs on 10(23C) or 12A, we protect the exemption and file Form 10B by the due date, part of 25,000+ filings completed.</p></div>
+                <div><strong>Fee-management software reconciled to the ledger, term by term</strong><p>We build inside the platform already running your books, whether Zoho Books, Xero, Tally Prime or Odoo, reconciling your fee-management software to the ledger each term.</p></div>
+                <div><strong>Term-wise fee and grant utilisation statements</strong><p>Each term we produce fee deferral and grant utilisation statements the trustees can table, and we run <a href="/blog/maharashtra-professional-tax-shops-act">PTRC and PTEC</a> on teaching payroll. This cadence is part of our 25,000+ filings completed.</p></div>
+                <div><strong>Our Pune offices in Kharadi and Baner</strong><p>Being headquartered in Pune, with Kharadi and Baner offices and a Wagholi registered address, we visit campuses across Wakad, Hadapsar and the Talegaon corridor in person. This local reach rests on 15+ years and 3,000+ businesses served.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">In-House Accountant vs Professional CA Firm for Schools</h2>
+            <h2 class="section-title">Trust Accounting vs Company Accounting for Institutions: for Pune Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>Professional CA Firm (Patron)</th><th>In-House Accountant</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Trust Accounting</th><th>Company Accounting for Institutions</th></tr></thead>
                     <tbody>
-                        <tr><td>Cost</td><td>Rs 8,000-40,000/month based on tier</td><td>Rs 18,000-30,000/month salary + HR overhead</td></tr>
-                        <tr><td>Trust Compliance Knowledge</td><td>Specialist: 12A, 80G, Charity Commissioner, Form 10B</td><td>Limited - may not know Bombay PT Act specifics</td></tr>
-                        <tr><td>GST Exemption Handling</td><td>Precise exempt vs taxable determination per revenue stream</td><td>High error risk on mixed supply classification</td></tr>
-                        <tr><td>Audit Capability</td><td>Integrated: accounting + audit under one roof</td><td>Cannot audit own books - separate CA needed</td></tr>
-                        <tr><td>Regulatory Liaison</td><td>All filings and queries handled electronically</td><td>Staff expected to visit Charity Commissioner office</td></tr>
-                        <tr><td>Turnaround</td><td>Monthly books within 7 days; Form 10B before ITR-7 deadline</td><td>Often delayed to September-October crunch</td></tr>
+                        <tr><td>What the method is</td><td>Fund-based accounting for a school run under a public trust or society.</td><td>Schedule III accrual accounting where the institution is a registered company.</td></tr>
+                        <tr><td>Eligibility and use</td><td>Fits Hinjewadi-belt trusts seeking Section 10(23C) or 12A exemption.</td><td>Fits corporate campuses; regular books are mandatory above the presumptive turnover limit.</td></tr>
+                        <tr><td>Recognising fees and grants</td><td>Fees, corpus and grants tracked by restricted and unrestricted fund.</td><td>Fees accrued as revenue; grants deferred and matched to the spend funded.</td></tr>
+                        <tr><td>Tax and exemption</td><td>Exemption requires 85% of income applied yearly; held-back surplus can be taxed.</td><td>Surplus taxed as company profit without any charitable application relief.</td></tr>
+                        <tr><td>MIS for management</td><td>Fund-wise reports show trustees how each grant and corpus balance moved.</td><td>Schedule III accounts aid lenders but obscure the fund restrictions donors set.</td></tr>
+                        <tr><td>Audit and filing</td><td>Charity Commissioner audit plus Form 10B or 10BB govern annual filing.</td><td>Companies Act statutory audit and MCA filing raise the compliance load.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Most Hinjewadi and MIDC-linked institutions in Pune run as public trusts, so fund-based accounting is the lawful fit; incorporated campuses keep company books. Careful accounting services for schools in pune follow the registered form. See Accounting Services for Schools & Colleges.</td></tr>
 
                     </tbody>
                 </table>
@@ -1874,236 +937,173 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services for Educational Institutions</h2>
+            <h2 class="section-title">Pune Rules for Schools and Colleges — Maharashtra PTRC/PTEC, Section 12A/80G</h2>
             <div class="content-text">
                 
-                <p>Educational institutions in Pune often require services beyond core accounting. Here are related services that complement education sector compliance:</p>
-                <ul>
-                    <li><a href="/accounting-services-for-education-industry">Accounting Services for Education Industry (India)</a> - National overview of education sector accounting and compliance requirements.</li>
-                    <li><a href="/statutory-audit">Statutory Audit Services</a> - Comprehensive audit including Form 10B for educational trusts and Section 12A(b) compliance.</li>
-                    <li><a href="/ngo-registration">NGO Registration</a> - Trust, society, and Section 8 company registration for new educational institutions.</li>
-                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-7 and other return filing for trusts claiming exemptions.</li>
-                    <li><a href="/gst-registration">GST Registration</a> - For coaching centres and institutions with taxable ancillary services.</li>
-                    <li><a href="/payroll-services">Payroll Services</a> - Salary processing, TDS, and PTRC compliance for teaching staff.</li>
-                    <li><a href="/internal-audit">Internal Audit</a> - Financial controls audit for larger educational trusts and universities.</li>
-                    <li><a href="#">12A and 80G Registration</a> - First-time and renewal registration for tax exemption.</li>
-                </ul>
+                <p>A Pune school or college deducts profession tax from teaching and administrative salaries under PTRC and enrols for PTEC in its own name, the state payroll layer that applies before any central rule. Where the institution is a registered trust, that layer sits over income that is largely exempt.</p>
+<p>The central exemption regime then governs the money itself. A trust's surplus is untaxed so long as it is spent on its objects, teaching is GST-free, and <a href="/glossary/fund-based-accounting">Fund-Based Accounting</a> keeps restricted grants apart from general fees. Accounting services for schools in Pune answer to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Maharashtra State Tax on Professions, Trades, Callings and Employments Act 1975</strong></span><span class="al-d">Profession tax is deducted from teaching and administrative staff under PTRC, with the institution enrolled for PTEC.</span></li><li><span class="al-t"><strong>Sections 12A/12AB, Income-tax Act 1961</strong></span><span class="al-d">Enjoys exemption on its surplus provided income serves its stated objects, with the 12AB status renewed periodically.</span></li><li><span class="al-t"><strong>Notification 12/2017-Central Tax (Rate), entry 66</strong></span><span class="al-d">Core schooling to the higher-secondary stage is GST-exempt, while side supplies may remain taxable.</span></li><li><span class="al-t"><strong>Maharashtra Shops and Establishments Act 2017</strong></span><span class="al-d">The establishment registers under the state Shops Act, framing the employment records the payroll rests on.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled, so a fee reversal is logged. Full 12A and 80G detail sits on the <a href="/accounting-services-for-education-industry">parent education page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Compliance Framework for Pune Educational Institutions</h2>
-            <div class="content-text">
-                
-                <p><strong>Governing Acts:</strong></p>
-                <ul>
-                    <li><strong>Bombay Public Trusts Act, 1950</strong> - Mandatory registration and annual filing for all public charitable trusts in Maharashtra. Joint Charity Commissioner, Pune oversees compliance.</li>
-                    <li><strong>Income Tax Act, 1961</strong> (Sections 11, 12A/12AB, 80G, 10(23C)) - Tax exemption for educational trusts; audit requirement under Section 12A(b); 85% application rule under Section 11(1)</li>
-                    <li><strong>CGST Act, 2017</strong> (Notification 12/2017) - Exemption for services by educational institutions up to higher secondary; 18% GST on coaching centres and ancillary services</li>
-                    <li><strong>Maharashtra PT Act, 1975</strong> - PTRC/PTEC obligations for schools and colleges employing salaried staff</li>
-                    <li><strong>Societies Registration Act, 1860</strong> - For educational societies (alternative to trust structure)</li>
-                    <li><strong>Companies Act, 2013 (Section 8)</strong> - For educational institutions structured as non-profit companies</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>Penalties:</strong></p>
-                <ul>
-                    <li>Loss of 12A/12AB registration: Trust income becomes <strong>fully taxable</strong> at 30%</li>
-                    <li>Failure to file Form 10B: Exemption under Section 11 <strong>denied</strong> for that year</li>
-                    <li>Failure to maintain books: <strong>Rs 25,000</strong> penalty under Section 271A of IT Act</li>
-                    <li>Late GST return: <strong>Rs 50/day</strong> (Rs 25 CGST + Rs 25 SGST) up to Rs 5,000 under Section 47 CGST Act</li>
-                    <li>PTRC non-compliance: <strong>Rs 5 per day</strong> penalty under Maharashtra PT Act 1975</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>Key Amendment:</strong> Maharashtra GST Department revised PTRC due dates to 15th of following month (effective February 2026). Source: <a href="https://www.mahagst.gov.in/en/pt-acts" target="_blank" rel="noopener">mahagst.gov.in</a></p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions: Education Accounting in Pune</h2>
-                    <p class="faq-expanded__lead">Get answers to common questions about accounting and compliance for schools, colleges, and educational trusts in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Education Accounting in Pune'])
+                    <h2 class="faq-expanded__title">Education Accounting in Pune FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on education accounting for Pune businesses - scope, local compliance, documents and pricing.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books in Pune</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Education Accounting in Pune</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">Which office handles trust compliance for schools in Pune?</h3>
-                        <div class="faq-expanded__a"><p>Educational trusts in Pune must file annual accounts with the Joint Charity Commissioner, Public Trusts Registration Office, located at Late B.S. Dhole Patil Marg, opposite Wadia College, Pune 411001. For income tax matters, the Income Tax Office, Pune handles 12A/80G approvals and ITR-7 processing. Patron Accounting's Pune office coordinates filings with both authorities.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">Can school and college compliance be managed online from Pune?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Patron Accounting offers fully online compliance management for Pune educational institutions. Books are maintained on Tally or Zoho Books with cloud access. Form 10B, ITR-7, TDS returns, PTRC returns, and Charity Commissioner filings are all handled electronically. For trust management committees that prefer in-person meetings, Patron's Pune office at RTC Silver, Wagholi is available.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is the accounting fee for schools and colleges in Pune?</h3>
-                        <div class="faq-expanded__a"><p>Fees start from Rs 8,000 per month for a single-school trust and go up to Rs 40,000 or more for multi-institution trusts or universities. The fee includes bookkeeping, PTRC compliance, Charity Commissioner filings, and monthly MIS. Statutory audit (Form 10B) and 12A/80G registration are typically project-based engagements quoted separately.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How long does it take to set up accounting for an educational trust?</h3>
-                        <div class="faq-expanded__a"><p>Onboarding takes 3 to 5 working days, including trust deed review, compliance gap assessment, software setup, and chart of accounts configuration. Monthly book updates are delivered within 7 working days of each month-end. First-year Charity Commissioner filing can be completed within 30 days of onboarding if all documents are available.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">Do Pune schools need to register for GST?</h3>
-                        <div class="faq-expanded__a"><p>Schools providing education from pre-primary to higher secondary are exempt from GST under Notification 12/2017 and do not need GST registration for educational services. However, if a school provides taxable ancillary services - hostel fees above Rs 7,500 per month, outsourced transport, or commercial canteen operations - and the aggregate turnover exceeds Rs 20 lakh, GST registration becomes mandatory.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Is statutory audit mandatory for all educational trusts in Pune?</h3>
-                        <div class="faq-expanded__a"><p>Yes, if the total income of the trust before applying Section 11 exemption exceeds Rs 2,50,000, audit under Section 12A(b) is mandatory. The auditor must file Form 10B electronically before the ITR-7 due date (31 October). Additionally, the Bombay Public Trusts Act requires annual accounts to be audited and filed with the Joint Charity Commissioner, Pune.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">What happens if a school trust loses its 12A registration?</h3>
-                        <div class="faq-expanded__a"><p>If a school trust's 12A/12AB registration is cancelled or not renewed, the trust's entire income - including fee collections, donations, and grants - becomes taxable at 30% (or applicable slab rate). This effectively cripples the trust's ability to reinvest in educational infrastructure. Patron ensures timely 12AB renewal filings and compliance to prevent any lapse.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">When must a Pune school or college registered under Section 12A file Form 10B?</h3>
+  <div class="faq-expanded__a"><p>Form 10B or 10BB is due one month before the income-tax return date, so 30 September where the trust files ITR-7 by 31 October. Filing late, or on the wrong one of the two forms, puts the exemption for that year at risk. We fix the audit calendar to your fee cycle so March-quarter receipts and grant utilisation are closed by August.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is GST payable on the fees charged by a Pune school or a coaching institute?</h3>
+  <div class="faq-expanded__a"><p>Tuition and admission fees of a school up to higher secondary level are GST exempt, while a private coaching institute charges 18% GST on its fees. Hostel, transport and canteen provided by the exempt institution stay exempt, but the same services bought in from a contractor do not. We separate exempt and taxable streams before your Maharashtra GSTR-3B on the 22nd.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is Maharashtra professional tax deducted from teachers' salaries in Pune?</h3>
+  <div class="faq-expanded__a"><p>Yes. A Pune institution paying salaries must hold PTRC and deduct professional tax monthly from pay above the Maharashtra exemption threshold, and hold PTEC for the entity itself. Visiting faculty paid a professional fee fall under Section 194J TDS instead, not PTRC. We keep that payroll split correct so part-time lecturers do not wrongly appear in the monthly PTRC return.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do coaching centres in Baner and Kharadi under one trust need separate books?</h3>
+  <div class="faq-expanded__a"><p>One trust files one return, but each Baner and Kharadi centre needs its own cost centre so fee collection, faculty cost and rent are visible branch by branch. Maharashtra Shops and Establishment registration is per premises and PMC or PCMC trade licensing follows the branch address. We produce branch-level MIS alongside consolidated trust accounts your trustees can approve.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you handle the term fees Pune institutions collect in advance each June?</h3>
+  <div class="faq-expanded__a"><p>Advance fees are recognised across the terms they cover, so a full-year fee banked in June sits in deferred fee income and releases month by month. That keeps the surplus reported to your trustees honest instead of showing a false first-quarter windfall. Refunds on withdrawal during the Pune admission season are provided for as they arise, not at year end.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you stop corpus donations, grants and general fee income being mixed together?</h3>
+  <div class="faq-expanded__a"><p>Corpus donations, restricted grants and general fee income are held in separate funds with their own ledgers and utilisation statements. Corpus receipts must be invested in the modes specified under Section 11(5) and are not spendable income. A donor-wise grant utilisation report is produced monthly, so your Form 10B auditor and the granting body are working from identical figures.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What must be filed after 80G receipts are issued to donors?</h3>
+  <div class="faq-expanded__a"><p>Every donation must be reported in Form 10BD by 31 May following the financial year, with Form 10BE certificates issued to donors by the same date. Without 10BE the donor cannot claim the deduction. We capture donor PAN at the point of receipt from your Pune alumni and CSR donors, because chasing PAN in May is why most institutions miss this.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which TDS sections apply to a Pune college's payments to visiting faculty and contractors?</h3>
+  <div class="faq-expanded__a"><p>Visiting faculty paid professional fees attract Section 194J at 10%, transport and housekeeping contractors attract Section 194C, and regular teaching staff fall under Section 192 on salary. Deposits are due by the 7th of the following month with quarterly returns after. We run one monthly TDS workflow for institutions so faculty honoraria are not defaulted into the salary head.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does accounting for a Pune school or coaching institute cost?</h3>
+  <div class="faq-expanded__a"><p>Fees depend on student numbers, the number of campuses and whether Form 10B audit support and 12A or 80G compliance are included, rather than on fee turnover. A single-branch Baner coaching institute is priced well below a multi-campus trust with hostels and grants. We quote a fixed monthly retainer after seeing one full year of receipts. Fees exclude GST and government charges.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does the team have to sit in a Pune school office, or is the work done remotely?</h3>
+  <div class="faq-expanded__a"><p>Most of it runs remotely from our Pune office at RTC Silver, Wagholi, with fee software exports, bank statements and vouchers shared through a secure folder each month. On-site attendance is arranged for the annual audit, physical verification of fixed assets and trustee meetings. Institutions still collecting fees at an offline counter get a scheduled monthly pickup instead.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>School ka audit karna zaroori hai kya?</strong> Haan - agar trust ki total income Rs 2,50,000 se zyada hai toh Section 12A ke under audit mandatory hai. Form 10B file karna padta hai.</p>
-                <p><strong>Education trust mein GST lagta hai kya?</strong> School aur college ki core education services exempt hain. Lekin coaching centre, hostel (Rs 7,500/month se zyada), aur commercial canteen pe 18% GST lagta hai.</p>
-                <p><strong>Pune mein Charity Commissioner office kahan hai?</strong> Late B.S. Dhole Patil Marg, Wadia College ke saamne, Pune 411001. Annual accounts yahan file karne hote hain.</p>
+                <p>Accounting for schools in Pune turns on the week a term opens. Fees arrive in a compressed few days, concessions and refunds trail behind for another fortnight, and no month closes cleanly until they settle. Where a college is affiliated to Savitribai Phule Pune University, anything collected for the university is.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Do Not Wait Until September - Start Your Trust Compliance Today</h2>
+            <h2 class="section-title">Education Accounting Deadlines in Pune You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Do not wait until September to sort your trust's books. The 31 October deadline for ITR-7 filing requires Form 10B audit to be completed first. The Charity Commissioner annual filing deadline is 30 June. Failure to file Form 10B on time results in denial of Section 11 exemption for that year - your school's entire income becomes taxable.</p>
-                <p style="margin-top:16px;"><strong>Get a free compliance assessment - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20education%20sector%20accounting%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank">WhatsApp us</a>.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. <strong>GSTR-3B (summary return and tax payment)</strong> is due 20th monthly for turnover above Rs 5 crore; 22nd quarterly under QRMP for turnover up to Rs 5 crore (Category X). Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Started with Education Sector Accounting in Pune</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Education Sector Accounting in Pune with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);">Accounting and compliance services for schools and colleges in Pune are critical for the thousands of educational institutions operating in Maharashtra's education capital. From SPPU-affiliated colleges to CBSE schools in Koregaon Park and coaching centres in Shivajinagar, every institution must navigate the Bombay Public Trusts Act, Section 12A/80G requirements, GST exemption rules, and PTRC obligations.</p>
-                <p style="color:rgba(255,255,255,0.9);">Patron Accounting's Pune office at RTC Silver, Wagholi delivers CA-managed education sector compliance covering trust accounting, statutory audit (Form 10B), 12A/80G registration, Charity Commissioner filings, and GST determination.</p>
-                <p style="color:rgba(255,255,255,0.9);">With over 10,000 businesses served, 4.9 Google rating, and 15+ years of practice, Patron Accounting LLP combines education sector expertise with technology-driven financial management.</p>
+                <p style="color:rgba(255,255,255,0.88);">Most institutions are weighing up the next grant, not whether to hire somebody to keep the books. A sanction with conditions attached becomes a reporting obligation for years afterwards. Accounting services for schools in Pune are what make that obligation survivable rather than something the school office quietly dreads at each renewal of the sanction.</p>
+<p style="color:rgba(255,255,255,0.88);">Unspent balances become visible while there is still time to spend them. A CA for schools in Pune keeps each sanction showing what is left against it and what its condition requires. Decisions on ordering equipment or appointing staff then rest on a real balance rather than an assumed one.</p>
+<p style="color:rgba(255,255,255,0.88);">We start by confirming which approvals the trust holds today, when each was last renewed, and which form its audit report was filed on last year. Those answers shape the earliest close, and how the <a href="/accounting-services-for-education-industry">wider education sector work</a> is staged around it.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20education%20sector%20accounting%20in%20Pune.%20Please%20share%20details%20and%20pricing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Education%20Sector%20Accounting%20in%20Pune&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20education%20sector%20accounting%20services%20in%20Pune.%0A%0APlease%20share%20details.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20education%20industry%20in%20Pune" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Education%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Education%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
-<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Education Sector Accounting Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting serves educational institutions in major cities across India. Find education sector accounting services near you.</p>
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title">Available Cities</div>
-                <div class="pa-block-sub">Education sector accounting and compliance services</div>
-                <div class="pa-city-grid">
-                    <div class="pa-city-card" style="opacity:0.6; pointer-events:none; border:2px solid var(--orange); position:relative;">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div>
-                        <span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span>
-                    </div>
-                    <a href="#" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
-                    </a>
-                    <a href="#" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div>
-                    </a>
-                    <a href="#" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                    </a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services in Pune</div>
-                <div class="pa-block-sub">End-to-end support for education sector compliance</div>
-                <div class="pa-cross-grid">
-                    <a href="/statutory-audit/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Statutory Audit</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/ngo-registration/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NGO Registration</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/income-tax-return/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/gst-registration/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/payroll-services/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Pune</div></div></a>
-                    <a href="/80g-registration/pune" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">12A and 80G Registration</div><div class="pa-card-sub">Pune</div></div></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 18 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">18 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 18 September 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page covers accounting and compliance services for schools, colleges, and educational trusts in Pune. Content is reviewed every 6 months (Freshness Tier 2) to reflect changes in Bombay Public Trust Act requirements, Income Tax Act amendments, GST exemption notifications, and Maharashtra Professional Tax rules.</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<section class="pa-localmap"><div class="pa-localmap-wrap"><div class="pa-localmap-info"><span class="pa-local2-kicker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span><h2>Visit our Pune office</h2><p>A local CA &amp; CS team for education accounting in Pune &mdash; visit our office or work with us online.</p><ul class="pa-localmap-details"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9h.01M9 12h.01M9 15h.01M9 18h.01"/></svg><span>RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+919459456700">+91 94594 56700</a></li></ul><a class="pa-localmap-btn" href="https://www.google.com/maps/search/?api=1&query=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India" target="_blank" rel="noopener">Get directions<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a></div><div class="pa-localmap-frame"><iframe src="https://www.google.com/maps?q=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India&ll=18.5794466,73.9682987&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Patron Accounting LLP office location on Google Maps"></iframe></div></div></section><section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">Education Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Maharashtra</div></div></div><a href="https://www.patronaccounting.com/accounting-services-for-education-industry/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-education-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-education-industry/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2174,8 +1174,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2185,8 +1185,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2267,7 +1267,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2277,34 +1277,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2315,12 +1313,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2336,7 +1335,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2351,7 +1350,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2382,7 +1381,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2396,7 +1395,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered - init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2406,6 +1407,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2428,9 +1430,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2570,7 +1570,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2600,7 +1600,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2620,7 +1619,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2698,12 +1697,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2711,55 +1706,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2803,15 +1767,7 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
     var opts = { day: 'numeric', month: 'long', year: 'numeric' };
     var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
-
-    if (el1) el1.textContent = dateStr;
-    var el2 = document.getElementById('lastUpdatedFooter');
-    if (el2) el2.textContent = dateStr;
+    if (el1) { el1.textContent = dateStr; }
 })();
 </script>
-
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

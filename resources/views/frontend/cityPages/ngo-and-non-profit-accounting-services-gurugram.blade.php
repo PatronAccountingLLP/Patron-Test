@@ -1,1103 +1,335 @@
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>NGO & Non-Profit Accounting Gurugram - Bookkeeping & Audit</title>
-    <meta name="description" content="CA-led accounting for NGOs and non-profits in Gurugram. 12A/80G compliance, FCRA returns, CSR fund tracking, trust audit. Serving Cyber City, Sohna Road, Udyog Vihar. Call +91 945 945 6700.">
-    <link rel="canonical" href="/ngo-and-non-profit-accounting-services/gurugram">
+    <title>NGO Accounting Services in Gurugram: What Is Included | Patron Accounting</title>
+    <meta name="description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Protect your registrations. Download the checklist.">
+    <link rel="canonical" href="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="NGO & Non-Profit Accounting Gurugram - Bookkeeping & Audit">
-    <meta property="og:description" content="CA-led accounting for NGOs and non-profits in Gurugram. 12A/80G compliance, FCRA returns, CSR fund tracking, trust audit. Serving Cyber City, Sohna Road, Udyog Vihar. Call +91 945 945 6700.">
-    <meta property="og:url" content="/ngo-and-non-profit-accounting-services/gurugram">
+    <meta property="og:title" content="NGO Accounting Services in Gurugram: What Is Included | Patron Accounting">
+    <meta property="og:description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Protect your registrations. Download the checklist.">
+    <meta property="og:url" content="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-non-profit-ngo/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/ngo-and-non-profit-accounting-services-gurugram-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="NGO & Non-Profit Accounting Gurugram - Bookkeeping & Audit">
-    <meta name="twitter:description" content="CA-led accounting for NGOs and non-profits in Gurugram. 12A/80G compliance, FCRA returns, CSR fund tracking, trust audit. Serving Cyber City, Sohna Road, Udyog Vihar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-non-profit-ngo/gurugram-og.webp">
+    <meta name="twitter:title" content="NGO Accounting Services in Gurugram: What Is Included | Patron Accounting">
+    <meta name="twitter:description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Protect your registrations. Download the checklist.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/ngo-and-non-profit-accounting-services-gurugram-og.webp">
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "NGO & Non-Profit Accounting in Gurugram",
-      "description": "CA-led accounting for NGOs and non-profits in Gurugram. 12A/80G compliance, FCRA returns, CSR fund tracking, trust audit. Serving Cyber City, Sohna Road, Udyog Vihar. Call +91 945 945 6700.",
-      "url": "/ngo-and-non-profit-accounting-services/gurugram",
-      "serviceType": "NGO & Non-Profit Accounting in Gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram/#service",
+  "name": "NGO Accounting Services in Gurugram",
+  "description": "NGO accounting services in Gurgaon separate each donor grant into its own fund, so corpus and restricted money never cross. Haryana levies no professional tax on programme payroll.",
+  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "NGO and Non-Profit Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Gurugram"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "NGO Accounting Services in Gurugram",
+    "itemListElement": [
+      {
         "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/ngo-and-non-profit-accounting-services/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "8000",
-          "maxPrice": "20000",
-          "priceCurrency": "INR"
+        "itemOffered": {
+          "@type": "Service",
+          "name": "NGO Accounting Services in Gurugram",
+          "description": "NGO accounting services in Gurgaon separate each donor grant into its own fund, so corpus and restricted money never cross. Haryana levies no professional tax on programme payroll.",
+          "serviceType": "NGO and Non-Profit Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Gurugram"
         }
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.patronaccounting.com/gurugram/#localbusiness",
+  "name": "Patron Accounting LLP - Gurugram",
+  "url": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram",
+  "telephone": "+91 94594 56700",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pioneer Urban Square, B109, Golf Course Ext Rd, Sector 62",
+    "addressLocality": "Gurugram",
+    "addressRegion": "Haryana",
+    "postalCode": "122018",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Gurugram"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Sector 62"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Golf Course Extension Road"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "NGO Accounting Services in Gurugram",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "NGO Accounting Services in Gurugram",
+          "description": "NGO accounting services in Gurgaon separate each donor grant into its own fund, so corpus and restricted money never cross. Haryana levies no professional tax on programme payroll.",
+          "serviceType": "NGO and Non-Profit Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Gurugram"
+        }
+      }
+    ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.415125756014717,
+    "longitude": 77.08828815355577
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "178",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "NGO & Non-Profit Accounting",
+      "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Gurugram",
+      "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram"
+    }
+  ],
+  "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does an NGO in Gurugram pay professional tax on its staff?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Haryana does not levy professional tax at all, so an NGO with staff in Cyber City or Udyog Vihar has no PTRC-style deduction to run. Haryana Labour Welfare Fund contributions do apply to covered establishments, which is the obligation most non-profits miss. We keep the LWF remittance on the payroll calendar and reconcile it to headcount each cycle."
       }
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "NGO Accounting and Compliance Services",
-          "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "NGO & Non-Profit Accounting in Gurugram",
-          "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram"
-        }
-      ]
+      "@type": "Question",
+      "name": "How must FCRA funds be kept separate from domestic donations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All foreign contribution must be received into the designated FCRA account at the State Bank of India, New Delhi Main Branch, and can never be mixed with domestic funds in any ledger or bank account. A single stray transfer risks the registration itself. We maintain wholly separate fund ledgers and reconcile both to their own bank statements every month."
+      }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which authority handles NGO tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IT Commissionerate (Exemptions) Gurugram for 12A/80G/ITR-7. Registrar of Societies Haryana for societies. MHA for FCRA. RoC Delhi for Section 8 companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get it online?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Fully digital. Walk-in at Golf Course Extension Road for NGO founders and trust committees. ITR-7, FC-4, society returns via cloud."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does it cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Small NGO: Rs 8,000-12,000/month. Medium with CSR: Rs 15,000-20,000. FCRA: Rs 20,000-30,000. Section 8: Rs 15,000-25,000. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if ITR-7 not filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Loss of 12A exemption – entire income taxable. Late fee Rs 5,000 S234F. Cannot claim S11/12 benefits. Catastrophic for NGO finances."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is FCRA required for all?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Only for foreign contributions. Domestic-only NGOs don't need FCRA. FCRA-registered: designated bank, FC-4 by 31 Dec, admin 20% cap."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does 85% rule work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Apply 85% for charitable purposes within FY. 15% accumulate freely. Beyond: Form 10 under S11(2) for specific project (max 5 years). Failure = income taxable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can NGOs receive CSR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes with CSR-1 (Form CSR-1 with MCA). Schedule VII activities. Utilization records. Impact reports. Gurugram Cyber City is major CSR funding hub. Quick Answers NGO ka tax kaise bachta hai? Section 12A se income tax-free, agar 85% charitable purpose pe kharch. Bina 12A ke normal tax lagta hai. 80G kya hai? Donors ko tax deduction milta hai (50%/100%). NGO 80G receipt issue karta hai. FCRA kab chahiye? Videsh se, NRI se, ya international foundation se donation le toh FCRA zaroori. FC-4 har saal 31 Dec tak."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "What FCRA disclosures does a Gurugram NGO have to make during the year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An FCRA-registered organisation files the annual FC-4 return with audited fund statements and keeps its receipts and utilisation disclosure current on its website within the prescribed quarterly timeline. Both draw on the same fund ledger, so a late close makes both late. We prepare fund-wise statements monthly so nothing is reconstructed under deadline pressure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which audit report applies to a Gurugram NGO, Form 10B or Form 10BB?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Form 10B applies where total income exceeds Rs 5 crore, where any foreign contribution is received, or where income is applied outside India, and Form 10BB covers everyone else. Any Gurugram NGO holding FCRA registration is therefore on Form 10B by default. Both are due by 30 September, a month before the return."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Cyber City CSR teams need from an NGO's books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CSR funders on Golf Course Road and in Cyber City typically require a project-wise utilisation certificate, an unspent balance statement and proof that their grant sat in a restricted fund rather than general reserves. Their own Section 135 reporting depends on yours. We tag each CSR grant at receipt and issue utilisation statements on the funder's cycle, not ours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a programme office near IMT Manesar need separate registration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each establishment needs its own Haryana Shops and Establishment registration, so an IMT Manesar programme office registers separately from the Gurugram head office even under one society or trust. Accounting stays consolidated with location tagging. We hold a location-wise registration and renewal calendar so a field office never operates on a lapsed permission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What has to be filed for donors to claim 80G?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "File the Form 10BD statement of donations by 31 May and issue each donor a Form 10BE certificate, because without them the donor's 80G claim fails regardless of your receipt. Corpus and anonymous donations need distinct treatment in the same statement. We maintain the donor master with PAN through the year so 31 May is an export, not a reconstruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is GSTR-3B due in Gurugram for an NGO with taxable activity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haryana falls in Category Y, so QRMP filers submit GSTR-3B by the 24th of the month after the quarter and monthly filers above Rs 5 crore turnover file by the 20th. Training fees, publication sales and consultancy income can all be taxable even for a registered charity. We test each income stream before assuming exemption applies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does NGO accounting cost in Gurugram?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fee is driven by the number of restricted funds and donors rather than by grant value, so a two-grant organisation costs far less than one running FCRA, CSR and government funds side by side. FCRA return preparation and utilisation certificates are quoted separately. We price after seeing your last audited accounts and one month of fund receipts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have a Gurugram office, and how are records handed over?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Delivery is remote, with visits to your Gurugram or Manesar premises arranged when a funder audit, board meeting or voucher handover needs someone present. We do not run a walk-in office in the city. Bank statements, grant agreements and vouchers move through a secure shared folder, and your fund ledgers stay in your own Tally file throughout."
+      }
     }
   ]
-}</script>
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram",
+  "name": "NGO Accounting Services in Gurugram",
+  "description": "Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Protect your registrations. Download the checklist.",
+  "url": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
+<link rel="stylesheet" href="/css/patron-cluster.css">
 
 @section('content')
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;"><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">NGO and Non-Profit Accounting</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li><span style="color:var(--orange);font-weight:600;">Gurugram</span></li></ol>
+    </div>
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1106,10 +338,10 @@
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         Trusted by 10,000+ Businesses
-                    </div>
+                    </div><span class="pa-hero-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Gurugram, Haryana</span>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        NGO and Non-Profit Accounting in Gurugram: 12A, 80G, FCRA, and CSR Compliance
+                        NGO Accounting Services in Gurugram
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1118,42 +350,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">02 April 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="#" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>12A/80G:</span> 85% income application tracking | Form 10B/10BB audit | ITR-7 by 31 Oct | 5-year renewal under 12AB</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Corpus that stays corpus:</span> The permanent fund on your balance sheet is one you can evidence entry by entry, from the paperwork the donor signed.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>FCRA:</span> Designated bank account | FC-4 by 31 Dec | Foreign contribution tracking | 20% admin cap | MHA compliance</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Foreign and domestic money apart:</span> Foreign contribution enters only the designated FCRA account and moves to utilisation accounts. It never shares an account or voucher series with.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>CSR Funds:</span> CSR-1 registration | Schedule VII tracking | Impact reports for Cyber City corporates | Utilization certificates</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Donor certificates that match filings:</span> Your receipt register is reconciled to the statement of donations filed, and the Form 10BE certificates issued tie back to it.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>From Rs 8,000/mo:</span> Small NGO Rs 8,000 | Medium with CSR Rs 15,000 | FCRA-registered Rs 20,000 | Section 8 company Rs 15,000</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Spending held to the approved budget:</span> We book each cost to the project and activity that incurred it. Each head is checked against what the funder sanctioned.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Our Gurugram office on Golf Course Extension Road serves NGO founders and trust committees &ndash; 10,000+ businesses with 4.9&#9733; rating</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20NGO%20and%20Non-Profit%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20NGO%20and%20Non-Profit%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20NGO%20accounting%20in%20Gurugram.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20ngo%20and%20non%20profit%20accounting%20services%20in%20Gurugram" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1180,7 +410,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1210,7 +440,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - NGO &amp; Non-Profit Accounting'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - NGO and Non-Profit Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1253,7 +483,14 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services-for-non-profit-ngo/gurugram" selected>NGO Accounting in Gurugram</option><option value="private-limited-company-registration/gurugram">Pvt Ltd Registration in Gurugram</option><option value="income-tax-return/gurugram">Income Tax Return in Gurugram</option><option value="gst-registration/gurugram">GST Registration in Gurugram</option><option value="startup-registration/gurugram">Startup Registration in Gurugram</option><option value="trademark-registration/gurugram">Trademark Registration in Gurugram</option><option value="payroll-services/gurugram">Payroll Services in Gurugram</option><option value="other">Other</option>
+                                <option value="ngo-and-non-profit-accounting-services/gurugram" selected>Startup Accounting</option>
+                                    <option value="accounting-services">Accounting Services (All)</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="esop-accounting-ind-as-102">ESOP Accounting (Ind AS 102)</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1283,56 +520,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get 12A/80G compliance, FCRA accounting, and CSR fund tracking that protects your NGO's registrations.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1358,106 +549,87 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <a href="#overview-section" class="toc-btn active">Overview</a><a href="#what-section" class="toc-btn">What Is</a><a href="#who-section" class="toc-btn">Who Needs</a><a href="#services-section" class="toc-btn">Services</a><a href="#procedure-section" class="toc-btn">Process</a><a href="#documents-section" class="toc-btn">Documents</a><a href="#challenges-section" class="toc-btn">Challenges</a><a href="#fees-section" class="toc-btn">Fees</a><a href="#timeline-section" class="toc-btn">NGO Types</a><a href="#benefits-section" class="toc-btn">Benefits</a><a href="#comparison-section" class="toc-btn">Patron vs Others</a><a href="#faq-section" class="toc-btn">FAQs</a>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">NGO &amp; Non-Profit Accounting in Gurugram &ndash; Overview</h2>
+            <h2 class="section-title">What NGO Accounting Costs and Covers for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - NGO &amp; Non-Profit Accounting Services at a Glance</strong></p>
-                    <p>Non-profit accounting covers 12A/12AB exemption (85% income application, Form 10B/10BB, ITR-7 by 31 Oct), 80G donor receipts, FCRA foreign contribution (FC-4 by 31 Dec, designated bank, 20% admin cap), CSR-1 fund tracking (Schedule VII), and society/trust audit. Income Tax Commissionerate (Exemptions) Gurugram + Registrar of Societies Haryana + MHA (FCRA). Gurugram is major CSR hub with DLF Cyber City corporates. No Professional Tax. From Rs 8,000/month.</p>
+                    <p><strong>&#128204; TL;DR - NGO and Non-Profit Accounting Services at a Glance</strong></p>
+                    <p>NGO accounting services in Gurgaon separate each donor grant into its own fund, so corpus and restricted money never cross. Haryana levies no professional tax on programme payroll. Patron prepares utilisation certificates for CSR funders headquartered in Cyber City and Udyog Vihar, and runs FCRA banking through the designated SBI New Delhi branch. Typically chosen by trusts and Section 8 companies delivering across the NCR.</p>
                 </div>
-                <p>Gurugram hosts hundreds of NGOs in education, healthcare, skill development. DLF Cyber City generates significant CSR funding under S135. 12A registrations now 5-year validity under 12AB. Learn more about <a href="/ngo-and-non-profit-accounting-services">NGO Accounting across India</a>.</p>
-                <p>Patron's Golf Course Extension Road office provides 12A/80G compliance, FCRA accounting, CSR tracking, and trust audit. For registration, see <a href="/ngo-registration">NGO Registration</a>. For general accounting, see <a href="/accounting-services/gurugram">Accounting Services Gurugram</a>.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Pay a programme salary from the wrong account and the foreign contribution position is compromised long before anyone notices. NGO bookkeeping work for Gurugram trusts fixes the payment discipline first: every disbursement mapped to a project cost centre, an approval trail behind each, and a monthly check of spend against the sanctioned budget line. A donor asking mid-year for spend by head is answered from the ledger, as fund tracking for grant recipients shows.</p>
+                <p>Mix restricted money with general funds and the cost is not a late fee. It is a grant returned and a funder that does not renew. Trust accounting in Gurgaon is therefore scoped around fund count, project count and the bank accounts running in parallel. Registration renewals, and any state matter before Haryana Excise and Taxation, sit outside the recurring retainer.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is Non-Profit Accounting?</h2>
+                <h2 class="section-title">What Do NGO Accounting Services Mean for Gurugram Businesses?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Specialized financial management of trusts, societies, and Section 8 companies: income &amp; expenditure tracking (not P&amp;L), fund-based accounting, 12A/12AB exemption compliance with 85% application, 80G donor receipts, FCRA foreign contribution accounting, and Form 10B/10BB audit. For <a href="/society-registration">Society Registration</a>, see our page.</p>
-                    <p>For Gurugram NGOs: must demonstrate every rupee applied for charitable purpose, donor restrictions respected, and financial transparency maintained for income tax, Registrar of Societies, and (if FCRA) Ministry of Home Affairs. For <a href="/section8-company-registration">Section 8 Registration</a>, see our page.</p>
+                    <p>Fund-based accounting is the framework here. Money is not pooled but held in separate funds, each set by its donor&#x27;s restriction. Corpus, restricted grants and general funds keep their own balances and are never spent across one another. NGO accounting services in Gurgaon are built to that discipline. Every receipt and payment is tracked against the fund and the project it belongs to.</p>
+<p>The test the framework must pass is simple. A funder asks, mid-year, exactly what its grant has paid for, and the answer comes straight from the ledger, not reconstructed afterwards. That is what lets a spend position be produced without a scramble at year end. Programme payroll is lighter on one count, since Haryana levies no profession tax, though its monthly welfare fund still applies. The exemption renewals and the statutory audit of the accounts are separate work. NGO accounting services in Gurgaon keep the fund records those filings will later draw on.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for NGO &amp; Non-Profit Accounting:</strong></p>
-                    <ul><li><strong>12A/12AB:</strong> Tax exemption. 85% income applied. 5-year renewal. Form 10AB 6 months before expiry</li><li><strong>80G:</strong> Donor tax deduction (50%/100%). NGO issues 80G receipts with URN</li><li><strong>FCRA 2010:</strong> Foreign donations. Designated bank. FC-4 by 31 Dec. Admin 20% cap</li><li><strong>CSR-1:</strong> Form CSR-1 with MCA. Schedule VII activities. Impact reports for corporates</li><li><strong>Form 10B/10BB:</strong> CA audit. 10B &lt; Rs 5 Cr income. 10BB larger. With ITR-7</li><li><strong>85% Rule:</strong> Must apply within FY. 15% accumulate freely. Beyond: Form 10 under S11(2)</li></ul>
+                    <p><strong>Key Terms for NGO and Non-Profit Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/fcra-designated-bank-account">FCRA Designated Bank Account</a></span><span class="al-d">The single SBI New Delhi account through which all foreign donations must first be received.</span></li><li><span class="al-t"><a href="/glossary/section-12a-80g-annual-upkeep">Section 12A / 80G Annual Upkeep</a></span><span class="al-d">Ongoing filings that keep a charity&#x27;s income-tax exemption and donor deduction status valid.</span></li><li><span class="al-t"><a href="/glossary/restricted-corpus-donations">Restricted Corpus Donations</a></span><span class="al-d">Gifts a donor ties to a specific purpose, which cannot be spent elsewhere.</span></li><li><span class="al-t"><a href="/glossary/fund-based-accounting">Fund-Based Accounting</a></span><span class="al-d">Keeping separate ledgers per fund so restricted and general money never mix.</span></li><li><span class="al-t"><a href="/glossary/section-10-23c-exemption-rules">Section 10(23C) Exemption Rules</a></span><span class="al-d">Income-tax conditions certain educational and charitable institutions meet to keep their income exempt.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">NGO &amp; Non-Profit Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>12A Compliant</span>
-                        <strong>Non-Profit</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/what-is-gurugram.webp" alt="What Are NGO Accounting Services. A grant is the unit this work is organised around, with every rupee tagged, from in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs NGO Accounting in Gurugram</h2>
+            <h2 class="section-title">Who Needs NGO Accounting Services in Gurugram: From Cyber Hub to Growing SMEs</h2>
             <div class="content-text">
                 
-                <p><strong>Charitable trusts (education, healthcare, welfare)</strong> &ndash; 12A/12AB maintenance, Form 10B, ITR-7, 85% tracking, trust deed compliance. Multi-location programs. For <a href="/income-tax-return">ITR Filing</a>, see our page.</p>
-                <p><strong>Societies (RWAs, professional bodies, cultural orgs)</strong> &ndash; Registrar of Societies Haryana annual returns. AGM within 6 months. Audited accounts. 12A/80G if registered.</p>
-                <p><strong>Section 8 companies</strong> &ndash; Highest compliance: RoC Delhi filings + 12A/80G/FCRA. Board compliance. For <a href="/statutory-audit">Statutory Audit</a>, see our page.</p>
-                <p><strong>FCRA-registered NGOs</strong> &ndash; Designated bank (SBI). FC-4 by 31 Dec. Separate FCRA accounts. 20% admin cap. 5-year renewal.</p>
-                <p><strong>CSR recipients</strong> &ndash; CSR-1 with MCA. Schedule VII utilization. Impact reports for Cyber City corporates. For <a href="/tds-return-filing-24q">TDS Return Filing</a>, see our page.</p>
+                <p>NGO accounting services in Gurgaon fit organisations that answer to their funders as much as to the tax department. Most are trusts, societies and Section 8 companies whose incoming money carries conditions and cannot simply pool into one general fund.</p>
+  <ul>
+    <li>Trusts on Golf Course Road that just received a first foreign grant, now running an <a href="/glossary/fcra-designated-bank-account">FCRA designated account</a>.</li>
+    <li>Section 8 companies juggling several donor projects, each grant tied to its own approved budget.</li>
+    <li>NGOs issuing utilisation certificates to donors and collecting them back from implementing partners.</li>
+    <li>Registered charities filing the annual donation statement so donors can claim 80G relief.</li>
+    <li>Societies whose auditor needs Form 10B because foreign contribution has changed the report form.</li>
+    <li>CSR-funded foundations around Sohna Road reporting to corporate donors on how each budget was spent.</li>
+    <li>Trusts holding corpus gifts with written donor directions that cannot be spent as ordinary income.</li>
+  </ul>
 
             </div>
             </div>
@@ -1465,17 +637,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Non-Profit Accounting Services Included</h2>
+            <h2 class="section-title">NGO Accounting Services Included for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>12A/12AB Tax Exemption</td><td>85% application tracking. Corpus vs general donations. 15% accumulation. Form 10B/10BB. ITR-7 by 31 Oct. Renewal Form 10AB</td></tr><tr><td>80G Donor Receipts</td><td>80G receipts with URN and registration number per Rule 111. Donor-wise register with PAN. Validity tracking</td></tr><tr><td>FCRA Foreign Contributions</td><td>Separate books for FCRA funds. Utilization tracking. FC-4 by 31 Dec to MHA. Designated bank reconciliation. 20% admin cap</td></tr><tr><td>CSR Fund Tracking (S135)</td><td>CSR receipts linked to Schedule VII. Utilization records. Impact reports for donor companies. CSR-1 compliance</td></tr><tr><td>Fund-Based Accounting</td><td>Restricted, unrestricted, corpus, FCRA, CSR segregation. Income &amp; Expenditure by fund. Proper fund accounting</td></tr><tr><td>Society/Trust Annual Filing</td><td>Registrar of Societies Haryana for societies. Trust deed compliance. RoC Delhi for Section 8. AGM documentation</td></tr><tr><td>TDS Compliance</td><td>S192 salaries, S194-I rent, S194C contractors, S194J professionals. No Professional Tax (Haryana). Form 16/16A</td></tr><tr><td>Statutory Audit &amp; Certification</td><td>Annual CA audit. Form 10B/10BB certifying charitable application, S11(5) investment compliance, fund utilization</td></tr>
+                        <tr><td>Fund-wise accounting and segregation</td><td>We segregate receipts into corpus, restricted and unrestricted funds for Udyog Vihar and Cyber City non-profits, anchoring ngo accounting services in gurgaon <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>FCRA fund bookkeeping</td><td>We keep foreign contribution funds unmixed from domestic money, tracking the designated account and utilisation accounts so FCRA balances stay clean <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Project-wise utilisation reporting</td><td>We report grant spending against approved budgets and issue utilisation certificates, extending our <a href="/ngo-and-non-profit-accounting-services">NGO & Non-Profit Accounting</a> approach for donor-restricted projects <span class="badge-included">Quarterly</span></td></tr>
+                        <tr><td>Donation records and 80G receipts</td><td>We maintain donor records with PAN and issue 80G donation receipts that match your filings, supporting trust accounting in gurgaon <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Section 12A and 80G upkeep</td><td>We maintain books and schedules that keep your Section 12A and 80G registrations compliant, ready for annual filing and renewal <span class="badge-included">Annually</span></td></tr>
+                        <tr><td>Society and trust financial statements</td><td>We prepare receipts and payments, income and expenditure and balance sheet, plus FC asset schedules supporting society accounting in gurgaon <span class="badge-included">Annually</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1485,47 +662,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How NGO Accounting Works in Gurugram</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Patron delivers ITR-7 before 31 October, FC-4 before 31 December, and 85% application tracked quarterly. Golf Course Extension Road office for NGO founders across Gurugram.</p>
+            <h2 class="section-title">How NGO Accounting Services Work in Gurugram — Step by Step</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers ngo and non-profit accounting for Gurugram businesses, step by step.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Assess NGO &amp; Configure System</h3><p class="step-description">Review trust/society/S8 structure. Verify 12A/12AB, 80G, FCRA, CSR-1, NGO Darpan registrations. Check trust deed/MoA restrictions. Set up fund-based accounting: unrestricted, restricted, corpus, FCRA, CSR ledgers. Income &amp; Expenditure format. 85% application tracking built into monthly reports.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Registrations verified</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>System configured</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="30" x2="90" y2="30" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><circle cx="85" cy="55" r="10" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/><path d="M80 55l3 3 6-6" stroke="#10B981" stroke-width="2" stroke-linecap="round"/></svg></div><span class="illustration-label">Onboarded</span><span class="step-number-large">01</span></div></div></div><div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Record Donations &amp; Track Application</h3><p class="step-description">Donations recorded with donor details, 80G receipts, fund classification (restricted/unrestricted/corpus/FCRA). Expenditure against charitable objects with project-wise allocation. CSR linked to Schedule VII. TDS on salaries S192, vendors S194C/194J. FCRA funds tracked separately. 85% application monitored quarterly.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Donations recorded</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>85% tracked</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="70" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="35" r="15" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><path d="M53 35l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/></svg></div><span class="illustration-label">Monthly Close</span><span class="step-number-large">02</span></div></div></div><div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">File Returns &amp; Annual Audit</h3><p class="step-description">ITR-7 by 31 Oct with Form 10B/10BB. FC-4 by 31 Dec (FCRA). Society returns with Registrar of Societies Haryana. TDS quarterly via TRACES. 12A/80G renewal Form 10AB 6 months before expiry. Income &amp; Expenditure + Balance Sheet. Audit certifying 85% application and S11(5) investment compliance.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Returns filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Audit completed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="35" y="25" width="50" height="8" rx="3" fill="#E8712C" opacity="0.3"/><path d="M80 55l-8 8-5-5" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/></svg></div><span class="illustration-label">Compliant</span><span class="step-number-large">03</span></div></div></div><div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Monitor Compliance &amp; Protect Registrations</h3><p class="step-description">Quarterly 85% tracking reports. Annual compliance calendar: ITR-7, FC-4, society return, 12A/80G renewal, FCRA renewal (5-year), AGM. Renewal reminders 9 months before expiry. Donor acknowledgment registers. CSR impact reports for corporate donors. Every deadline monitored to prevent registration cancellation.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All deadlines tracked</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Registrations protected</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="10" width="70" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="35" r="18" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M52 35l6 6 12-12" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Year-End Ready</span><span class="step-number-large">04</span></div></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Segregating receipts by restriction</h3>
+    <p class="step-description">Every receipt is classified at entry as corpus, restricted grant or unrestricted, with donor name, address and identification recorded. Corpus is treated as corpus only where the donor gave a specific written direction, and is then held in the permitted investment forms.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/step-1-segregating-receipts-by-restriction-gurugram.webp" alt="Illustration for Segregating receipts by restriction: Every receipt is classified at entry as corpus, restricted grant or in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Keeping FCRA funds unmixed</h3>
+    <p class="step-description">Where you hold FCRA registration, foreign contribution is received only in the designated FCRA account at the specified State Bank of India branch in New Delhi. From there it moves to utilisation accounts. Foreign and domestic money never share an account or a voucher series.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/step-2-keeping-fcra-funds-unmixed-gurugram.webp" alt="Illustration for Keeping FCRA funds unmixed: Where you hold FCRA registration, foreign contribution is received only in the in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Project-wise utilisation against budget</h3>
+    <p class="step-description">Spending is booked against the project and activity it belongs to and compared with the approved budget line by line. Shared overheads are allocated on the basis each donor accepted, and sub-grantee statements are absorbed before their utilisation is reported onward.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/step-3-project-wise-utilisation-against-budget-gurugram.webp" alt="Illustration for Project-wise utilisation against budget: Spending is booked against the project and activity it belongs to in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Maintaining prescribed trust records</h3>
+    <p class="step-description">Beyond the ledgers, the rules prescribe a specific set of records for a registered trust: contributions received, application of income, projects run, and details of specified persons. We keep those in the prescribed form rather than reconstructing them at audit.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/step-4-maintaining-prescribed-trust-records-gurugram.webp" alt="Illustration for Maintaining prescribed trust records: Beyond the ledgers, the rules prescribe a specific set of records for in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Donation statement to donor certificates</h3>
+    <p class="step-description">Donations eligible for deduction are reconciled from the receipt register to the statement of donations filed, and the certificates issued to donors are tied back to it. Mismatches are corrected before donors query their own tax records.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/step-5-donation-statement-to-donor-certificates-gurugram.webp" alt="Illustration for Donation statement to donor certificates: Donations eligible for deduction are reconciled from the receipt in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Determining the audit report form</h3>
+    <p class="step-description">Which audit report applies is tested each year: total income above the prescribed level, any foreign contribution received, or income applied outside India pushes you to the longer form. We settle that early so the right schedules are built through the year, not in a rush.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/step-6-determining-the-audit-report-form-gurugram.webp" alt="Illustration for Determining the audit report form: Which audit report applies is tested each year: total income above the in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Carrying forward FCRA schedules</h3>
+    <p class="step-description">The previous annual FCRA return's closing balances, asset schedule and utilisation position become this year's opening figures, and interest earned on foreign contribution is itself treated as foreign contribution. Assets bought from FC funds stay on a separate register.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/ngo-and-non-profit-accounting-services/gurugram/step-7-carrying-forward-fcra-schedules-gurugram.webp" alt="Illustration for Carrying forward FCRA schedules: The previous annual FCRA return's closing balances, asset schedule and in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required</h2>
+            <h2 class="section-title">Documents Required for NGO Accounting Services</h2>
             <div class="content-text">
                 
-                <ul><li><strong>Trust Deed / Society Registration / S8 CoI:</strong> Founding document with charitable objects</li><li><strong>12A/12AB Certificate:</strong> With URN from Income Tax</li><li><strong>80G Certificate:</strong> With validity and registration number</li><li><strong>FCRA Registration:</strong> MHA certificate with designated bank details</li><li><strong>NGO Darpan / CSR-1:</strong> For government grants and CSR eligibility</li><li><strong>Donor Records:</strong> Donor-wise with PAN, amount, date, 80G receipt numbers</li><li><strong>Bank Statements:</strong> Domestic + FCRA designated (if applicable)</li><li><strong>Previous Audit:</strong> Form 10B/10BB and ITR-7 acknowledgment</li></ul>
-                <div class="highlight-box" style="margin-top:16px;"><p><strong>Gurugram-Specific Tip:</strong> NGOs receiving CSR from DLF Cyber City corporates should maintain CSR-1 registration and project-wise utilization records matching Schedule VII activities for annual impact reporting to donor companies.</p></div>
+                <p>Donor records and corpus letters govern the accounting, and Haryana adds only an establishment registration and a labour welfare contribution that falls monthly.</p>
+<ul>
+    <li>Record of voluntary contributions with donor name, address and PAN, split into corpus, restricted and unrestricted</li>
+    <li>Corpus donation letters carrying the donor&#x27;s specific written direction</li>
+    <li>Grant sanction letters, donor agreements and approved project budgets with restriction conditions</li>
+    <li><a href="/glossary/fcra-designated-bank-account">FCRA designated account</a> statement (SBI Sansad Marg, New Delhi) and all FCRA utilisation account statements</li>
+    <li>Prior year Form FC-4 annual return with its FCRA asset and utilisation schedules</li>
+    <li>Utilisation certificates issued to donors, and UCs plus expense statements collected from sub-grantees / implementing partners</li>
+    <li>Bank statements for every account, separated into domestic and FCRA accounts</li>
+    <li>Registration certificate (Form F) under the Punjab Shops and Commercial Establishments Act, 1958 as applicable to Haryana</li>
+    <li>Haryana Labour Welfare Fund MONTHLY contribution challan and the contribution statement</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common NGO Accounting Challenges in Gurugram</h2>
+            <h2 class="section-title">NGO Accounting Challenges Specific to Gurugram: Udyog Vihar SEZ vs DTA, HSIIDC Plots and IMT Manesar Costing</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>85% Application Tracking</td><td>Must apply 85% within FY. Infrastructure capex timing critical &ndash; Rs 1 Cr building in March vs April shifts the application year</td><td>Patron tracks quarterly with CA oversight. Proactive capex planning. Form 10 under S11(2) for specific project accumulation</td></tr><tr><td>FCRA Compliance</td><td>Designated bank separate. FC-4 by 31 Dec. 20% admin cap. Non-filing = suspension/cancellation by MHA. Devastating for foreign-funded NGOs</td><td>Patron maintains separate FCRA books. FC-4 filed before deadline. Admin percentage monitored monthly</td></tr><tr><td>CSR Utilization Reporting</td><td>Corporates need annual impact reports and utilization certificates. Misutilization = disqualification as CSR partner</td><td>Patron prepares project-wise utilization certificates and impact reports for Cyber City corporate donors</td></tr><tr><td>12A/80G Renewal</td><td>5-year validity under 12AB. Form 10AB 6 months before expiry. Gap = no exemption, all income taxable</td><td>Patron sends renewal reminders 9 months before expiry. Form 10AB filed well within deadline. Zero gap risk</td></tr><tr><td>Dual Compliance Burden</td><td>Income Tax (12A/80G/ITR-7) + entity law (Societies Act/Trusts Act/Companies Act). Different deadlines, authorities</td><td>Patron manages all jurisdictions: IT Commissionerate, Registrar of Societies Haryana, MHA, RoC Delhi simultaneously</td></tr>
+                        <tr><td>CSR grants received without donor-wise cost and utilisation tracking</td><td>Spend cannot be evidenced to each funder, risking the return of unused CSR money.</td><td>Patron maintains a donor-wise cost ledger for each CSR grant, tied to its sanction and utilisation certificate.</td></tr>
+                        <tr><td>Skill-centre assets funded by a grant at IMT Manesar untracked</td><td>Grant-funded equipment and its disposal conditions are lost, breaching the funder's terms.</td><td>We keep a grant-wise asset register for the IMT Manesar skill centre with restrictions recorded.</td></tr>
+                        <tr><td>HSIIDC plot allotted to the trust treated as owned freehold</td><td>Leasehold premium and ground rent are misclassified, distorting the asset base.</td><td>Our team capitalises the HSIIDC leasehold premium and books ground rent to income and expenditure.</td></tr>
+                        <tr><td>Foreign and domestic donations flow through one bank account</td><td>Mixing local and FCRA money breaches the segregation rule and taints the annual return.</td><td>We keep FCRA receipts in the designated account, reconciled apart from local funds.</td></tr>
+                        <tr><td>Corpus donations spent on running programme costs</td><td>The endowment is eroded and the trust breaches donor and 12A conditions.</td><td>We flag any draw on corpus and report the endowment separately each period; see the <a href="/blog/ngo-accounting-gurugram-fcra-csr">Gurugram FCRA and CSR guide</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1535,7 +782,8 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
@@ -1545,37 +793,46 @@
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Small NGO (Trust/Society)</td><td>Rs 8,000 &ndash; Rs 12,000/month (bookkeeping + ITR-7 + Form 10B + TDS + 80G + society return)</td></tr><tr><td>Medium NGO (with CSR)</td><td>Rs 15,000 &ndash; Rs 20,000/month (+ CSR fund tracking + impact reports + multi-project accounting)</td></tr><tr><td>FCRA-Registered NGO</td><td>Rs 20,000 &ndash; Rs 30,000/month (+ FCRA accounting + FC-4 + designated bank reconciliation)</td></tr><tr><td>Section 8 Company</td><td>Rs 15,000 &ndash; Rs 25,000/month (+ RoC filings + board compliance + annual return MCA)</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one trust with a small set of restricted fund heads</td><td>INR 2,499<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; more grants, added fund heads or FCRA fund tracking</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multiple entities with custom donor and fund reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">A Gurugram trust with a handful of restricted fund heads starts NGO accounting at <strong>INR 2,499,</strong> priced by scope rather than location. More grants and separate fund heads raise the tier. Haryana levies no profession tax, so only Shops Act or LWF registration sits outside, billed at actuals. Book a scope call on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free NGO &amp; Non-Profit Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20NGO%20accounting%20in%20Gurugram.%20Please%20share%20details." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free NGO and Non-Profit Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20ngo%20and%20non%20profit%20accounting%20services%20in%20Gurugram" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Gurugram NGO Entity Types</h2>
+            <h2 class="section-title">NGO Accounting Compliance Calendar 2026 for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Charitable Trust</td><td>Medium-High: 12A, Form 10B, 85%, trust deed compliance | Multi-location programs, infrastructure projects</td></tr><tr><td>Society (Haryana)</td><td>Medium: Registrar annual return, AGM, 12A/80G | RWAs, professional bodies, cultural organizations</td></tr><tr><td>Section 8 Company</td><td>High: RoC + 12A/80G + FCRA (if applicable) | Highest compliance burden among NGO structures</td></tr><tr><td>FCRA-Registered</td><td>Very High: designated bank, FC-4, admin cap, renewal | Foreign-funded with MHA oversight</td></tr><tr><td>CSR Recipient</td><td>Medium: CSR-1, Schedule VII, impact reports | Cyber City corporate donors, utilization certificates</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th monthly for turnover above Rs 5 crore; 24th quarterly under QRMP for turnover up to Rs 5 crore (Category Y)</td><td>GST-registered businesses in Gurugram</td></tr>
+                        <tr><td>80G / 12A renewal and Form 10BD statement of donations</td><td>31 May 2026</td><td>Trusts issuing 80G receipts to donors</td></tr>
+                        <tr><td>Trust audit report (Form 10B / 10BB)</td><td>30 September 2026</td><td>Charitable trusts and institutions registered under 12A/12AB</td></tr>
+                        <tr><td>Trust income-tax return (ITR-7)</td><td>31 October 2026</td><td>Registered trusts, societies and Section 8 companies</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered Gurugram businesses above the annual-return and audit thresholds</td></tr>
+                        <tr><td>FCRA annual return (Form FC-4)</td><td>31 December 2026</td><td>NGOs holding FCRA registration and receiving foreign contribution</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Missing ITR-7 (31 October) = loss of 12A exemption</strong> &ndash; entire income taxable. Non-filing FC-4 (31 December) = FCRA suspension/cancellation. 12A/80G renewal gap = no exemption in interim. For Gurugram NGOs managing 12A + 80G + FCRA + CSR-1 + society returns simultaneously, year-round CA support is a survival requirement.</p>
+                    <p>In Gurugram, an NGO files the Form 10B audit by 30 September and makes its FCRA quarterly disclosure, with GSTR-3B on the 24th. Foreign contribution needs careful tracking. Haryana levies no professional tax, so GST and TDS set the local pace. Book a compliance review for ngo accounting services in Gurgaon on +91 94594 56700; see our <a href="/blog/haryana-shops-act-lwf-compliance">local notes</a>.</p>
 
                 </div>
             </div>
@@ -1583,42 +840,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron for NGO Accounting in Gurugram</h2>
+            <h2 class="section-title">Why Professional NGO Accounting Matters</h2>
         </div>
-        <div class="features-grid"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3 class="feature-title">12A/80G/FCRA Expertise</h3><p class="feature-text">Dedicated trust audit team. 85% application tracked quarterly. Form 10B/10BB. FC-4 before deadline. 12A/80G renewal reminders 9 months before expiry.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3 class="feature-title">CSR Fund Management</h3><p class="feature-text">Project-wise utilization per Schedule VII. Impact reports for Cyber City corporates. CSR-1 compliance. Donor accountability maintained.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3 class="feature-title">Multi-Authority Compliance</h3><p class="feature-text">IT Commissionerate (Exemptions) + Registrar of Societies Haryana + MHA (FCRA) + RoC Delhi. All jurisdictions managed simultaneously.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3 class="feature-title">Golf Course Extension Office</h3><p class="feature-text">Walk-in for NGO founders and trust committees across Gurugram. On-site support. 10,000+ businesses including hundreds of NGOs served.</p></article></div>
+        <div class="features-grid">
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /> </svg></div>
+  <h3 class="feature-title">Corpus that stays corpus</h3>
+  <p class="feature-text">The permanent fund on your balance sheet is one you can evidence entry by entry, from the paperwork the donor signed.</p><ul style="margin-top:12px;"><li>receipts segregated by restriction, corpus evidenced entry by entry</li><li>corpus donation letters held as the footing</li><li>Without it, corpus reclassified as ordinary income on assessment</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /> <path d="M2 12h20" /> </svg></div>
+  <h3 class="feature-title">Foreign and domestic money apart</h3>
+  <p class="feature-text">Foreign contribution enters only the designated FCRA account and moves to utilisation accounts. It never shares an account or voucher series with domestic funds.</p><ul style="margin-top:12px;"><li>foreign contribution kept in the designated SBI New Delhi account</li><li>no account or voucher series shared with domestic funds</li><li>Without it, the FCRA registration itself questioned</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Donor certificates that match filings</h3>
+  <p class="feature-text">Your receipt register is reconciled to the statement of donations filed, and the Form 10BE certificates issued tie back to it.</p><ul style="margin-top:12px;"><li>receipt register reconciled to Form 10BD filed</li><li>Form 10BE certificates issued tie back to the register</li><li>Without it, donors lose a deduction and come back to you</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" /> </svg></div>
+  <h3 class="feature-title">Spending held to the approved budget</h3>
+  <p class="feature-text">We book each cost to the project and activity that incurred it. Each head is checked against what the funder sanctioned.</p><ul style="margin-top:12px;"><li>spending compared with the approved budget line by line</li><li>overheads split on the basis each donor accepted</li><li>Without it, a donor disallowance refunded from unrestricted funds</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div>
+  <h3 class="feature-title">Prescribed trust records kept live</h3>
+  <p class="feature-text">A question about which project spent what, or who among your specified persons benefited, is answered from records that already exist.</p><ul style="margin-top:12px;"><li>Prescribed record set for a registered trust kept current</li><li>Specified-person and project queries answered from existing records</li><li>Without it, reconstruction from bank statements takes weeks of senior time</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">FC assets on their own register</h3>
+  <p class="feature-text">Assets bought from foreign contribution are held on a separate register. Interest earned on those funds is itself treated as foreign contribution.</p><ul style="margin-top:12px;"><li>FC asset register kept apart from the general schedule</li><li>interest on foreign contribution treated as foreign contribution</li><li>Without it, years of purchase history rebuilt for the annual return</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trusted by Gurugram NGOs</h2>
-            <div class="content-text">
-                
-                <p><strong>Trust Signals:</strong> 10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents | 15+ Years</p><blockquote style="border-left:3px solid var(--orange);padding:12px 20px;margin:16px 0;background:var(--orange-lighter);border-radius:0 var(--radius-sm) var(--radius-sm) 0;"><p style="font-style:italic;margin-bottom:8px;">&ldquo;Best service for NGO registration. Very responsive team that handles everything end to end including FCRA and NGO Darpan.&rdquo;</p><p style="font-size:13px;font-weight:700;color:var(--blue);margin:0;">&mdash; NGO Founder, Delhi NCR</p></blockquote><p>Offices in Pune, Mumbai, Delhi, and Gurugram serving NGOs, trusts, and societies.</p>
-
+            <h2 class="section-title">Why NGO & Non-Profit Accounting Clients in Gurugram Choose Patron Accounting</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Grant-wise books tracking every donor restriction</strong><p>With 15+ years across 3,000+ businesses, we keep grant-wise books where each donor restriction is tracked to its condition, so restricted and unrestricted funds never blur together.</p></div>
+                <div><strong>FCRA reporting, 12A/80G compliance and Form 10B audit</strong><p>FCRA reporting, 12A and 80G compliance and the Form 10B audit are routine filings, part of the 25,000+ filings completed, so donor and department deadlines are always met.</p></div>
+                <div><strong>Fund accounting configured per donor, not per account</strong><p>Your existing platform stays in place, whether Zoho Books, Xero, Tally Prime or Odoo, configuring fund accounting by donor and project rather than simply by bank account.</p></div>
+                <div><strong>Utilisation certificates and fund-wise statements every month</strong><p>Every month we issue utilisation certificates and fund-wise statements per donor and project, and run staff payroll under Haryana Labour Welfare Fund rules. This recurring work sits within our 25,000+ filings completed.</p></div>
+                <div><strong>Trusts and foundations supported across Gurugram</strong><p>Our Gurugram team supports trusts and foundations near Golf Course Road, Sohna Road and Sector 29. They are among the 3,000+ businesses served since 2019, at a 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Patron vs Local CA for NGO Accounting</h2>
+            <h2 class="section-title">Fund-Based Accounting vs Commercial Accounting: for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>Patron Accounting</th><th>Typical Gurugram CA</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Fund-Based Accounting</th><th>Commercial Accounting</th></tr></thead>
                     <tbody>
-                        <tr><td>12A/FCRA Expertise</td><td>Dedicated trust/NGO team with Form 10B/FC-4 experience</td><td>General audit &ndash; may miss NGO-specific requirements</td></tr><tr><td>85% Tracking</td><td>Quarterly application monitoring with proactive planning</td><td>Annual calculation at filing time &ndash; surprises common</td></tr><tr><td>Multi-Authority</td><td>IT + Societies + MHA + MCA managed simultaneously</td><td>Often single-authority focus, others missed</td></tr><tr><td>Pricing</td><td>Transparent from Rs 8,000/month</td><td>Unclear, hourly billing common</td></tr>
+                        <tr><td>What each method is</td><td>Tracks money by restricted, unrestricted and corpus funds against donor conditions.</td><td>Records all activity in one general ledger measuring surplus or profit.</td></tr>
+                        <tr><td>When it applies</td><td>Expected for trusts and societies handling grants, corpus and FCRA money.</td><td>Suits a trading arm or Section 8 body running fee-earning activity.</td></tr>
+                        <tr><td>Grant recognition</td><td>Grants recognised against sanctioned purpose, with unspent balances carried as restricted funds.</td><td>Income recognised on accrual when earned, without any donor restriction tagging.</td></tr>
+                        <tr><td>Foreign funds handling</td><td>Keeps FCRA money in separate books, matching Cyber City CSR donor terms.</td><td>Single ledger blurs foreign and domestic money, raising an FCRA breach risk.</td></tr>
+                        <tr><td>Compliance fit</td><td>Aligns with Form 10B or 10BB upkeep and 12A and 80G status.</td><td>Fits a normal income-tax return and audit, not exemption-linked trust reporting.</td></tr>
+                        <tr><td>Donor MIS clarity</td><td>Shows each Udyog Vihar grant spent within its approved budget clearly.</td><td>Gives whole-entity surplus but hides fund-wise accountability to individual donors.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Registered trusts and societies should use fund-based accounting to honour donor restrictions and FCRA rules; only a genuine commercial arm uses commercial accounting. For ngo accounting services in gurgaon, see NGO & Non-Profit Accounting.</td></tr>
 
                     </tbody>
                 </table>
@@ -1628,167 +931,169 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">Gurugram Rules for NGOs and Trusts — Haryana Zero PT and LWF, FCRA and Form 10B</h2>
             <div class="content-text">
                 
-                <p>Explore related services:</p><ul><li><a href="/ngo-and-non-profit-accounting-services">NGO Accounting (India)</a></li><li><a href="/accounting-services/gurugram">Accounting Services Gurugram</a></li><li><a href="/ngo-registration">NGO Registration</a></li><li><a href="/society-registration">Society Registration</a></li><li><a href="/section8-company-registration">Section 8 Registration</a></li><li><a href="/income-tax-return">Income Tax Return</a></li><li><a href="/tds-return-filing-24q">TDS Return Filing</a></li><li><a href="/statutory-audit">Statutory Audit</a></li></ul>
+                <p>A Gurugram trust or society runs its staff payroll without profession tax but tracks Haryana's monthly Labour Welfare Fund contribution, a small local line beneath a heavily central compliance. What defines these books is the exemption regime and, where foreign money is involved, the FCRA rules.</p>
+<p>So the framework joins a light Haryana payroll layer to the trust exemption and reporting duties. Income applied to charitable objects is exempt, foreign donations sit in a ring-fenced account, and the trust files an audit report in Form 10B, which is why <a href="/glossary/fund-based-accounting">Fund-Based Accounting</a> keeps restricted and unrestricted funds apart. NGO accounting services in Gurgaon answer to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Sections 11, 12 and 12AB, Income-tax Act 1961</strong></span><span class="al-d">A 12AB-registered trust or society is exempt on income applied to charitable objects, subject to the 85% application rule.</span></li><li><span class="al-t"><strong>Foreign Contribution (Regulation) Act 2010</strong></span><span class="al-d">Foreign donations require FCRA registration or prior permission, a designated SBI New Delhi account and annual reporting in Form FC-4.</span></li><li><span class="al-t"><strong>Section 12A(1)(b) with Form 10B/10BB</strong></span><span class="al-d">The trust files an audit report in Form 10B or 10BB, and fund accounting keeps restricted and unrestricted funds apart.</span></li><li><span class="al-t"><strong>No profession tax in Haryana; Haryana Labour Welfare Fund</strong></span><span class="al-d">Staff salaries carry no profession tax but the monthly Labour Welfare Fund contribution is tracked.</span></li><li><span class="al-t"><strong>Section 80G with Form 10BD, Income-tax Act 1961</strong></span><span class="al-d">80G approval lets donors deduct their gift, and the trust reports each donation in Form 10BD. Full national detail sits on the <a href="/ngo-and-non-profit-accounting-services">parent NGO page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal &amp; Compliance Framework</h2>
-            <div class="content-text">
-                
-                <ul><li><strong>IT S11/12/12A/12AB:</strong> Trust income exempt if 85% applied. 5-year renewal (10 years small trusts FY 2025-26). Form 10B/10BB audit</li><li><strong>S80G:</strong> Donors get 50%/100% deduction. 80G receipts per Rule 111 with URN</li><li><strong>FCRA 2010:</strong> MHA registration. Designated bank. FC-4 by 31 Dec. Admin capped 20%. 5-year renewal</li><li><strong>CSR-1 (S135):</strong> MCA registration for receiving CSR. Schedule VII activities. Impact reports</li><li><strong>NGO Darpan (NITI Aayog):</strong> Mandatory for government grants. Required before FCRA application</li><li><strong>ITR-7:</strong> Due 31 October with Form 10B/10BB. Late = loss of 12A exemption</li></ul><p><strong>Authority Portal:</strong> <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">incometax.gov.in</a> (Income Tax Department)</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">FAQs &ndash; NGO Accounting in Gurugram</h2>
-                    <p class="faq-expanded__lead">Get answers about tax authority, online availability, cost, ITR-7 consequences, FCRA requirement, 85% rule, and CSR eligibility for Gurugram NGOs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'NGO Accounting in Gurugram'])
+                    <h2 class="faq-expanded__title">NGO and Non-Profit Accounting in Gurugram FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on ngo and non-profit accounting for Gurugram businesses - scope, local compliance, documents and pricing.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books in Gurugram</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>NGO and Non-Profit Accounting in Gurugram</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">Which authority handles NGO tax?</h3>
-                        <div class="faq-expanded__a"><p>IT Commissionerate (Exemptions) Gurugram for 12A/80G/ITR-7. Registrar of Societies Haryana for societies. MHA for FCRA. RoC Delhi for Section 8 companies.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">Can I get it online?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Fully digital. Walk-in at Golf Course Extension Road for NGO founders and trust committees. ITR-7, FC-4, society returns via cloud.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What does it cost?</h3>
-                        <div class="faq-expanded__a"><p>Small NGO: Rs 8,000-12,000/month. Medium with CSR: Rs 15,000-20,000. FCRA: Rs 20,000-30,000. Section 8: Rs 15,000-25,000. Call +91 945 945 6700.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What if ITR-7 not filed?</h3>
-                        <div class="faq-expanded__a"><p>Loss of 12A exemption &ndash; entire income taxable. Late fee Rs 5,000 S234F. Cannot claim S11/12 benefits. Catastrophic for NGO finances.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">Is FCRA required for all?</h3>
-                        <div class="faq-expanded__a"><p>Only for foreign contributions. Domestic-only NGOs don't need FCRA. FCRA-registered: designated bank, FC-4 by 31 Dec, admin 20% cap.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">How does 85% rule work?</h3>
-                        <div class="faq-expanded__a"><p>Apply 85% for charitable purposes within FY. 15% accumulate freely. Beyond: Form 10 under S11(2) for specific project (max 5 years). Failure = income taxable.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">Can NGOs receive CSR?</h3>
-                        <div class="faq-expanded__a"><p>Yes with CSR-1 (Form CSR-1 with MCA). Schedule VII activities. Utilization records. Impact reports. Gurugram Cyber City is major CSR funding hub.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does an NGO in Gurugram pay professional tax on its staff?</h3>
+  <div class="faq-expanded__a"><p>No. Haryana does not levy professional tax at all, so an NGO with staff in Cyber City or Udyog Vihar has no PTRC-style deduction to run. Haryana Labour Welfare Fund contributions do apply to covered establishments, which is the obligation most non-profits miss. We keep the LWF remittance on the payroll calendar and reconcile it to headcount each cycle.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How must FCRA funds be kept separate from domestic donations?</h3>
+  <div class="faq-expanded__a"><p>All foreign contribution must be received into the designated FCRA account at the State Bank of India, New Delhi Main Branch, and can never be mixed with domestic funds in any ledger or bank account. A single stray transfer risks the registration itself. We maintain wholly separate fund ledgers and reconcile both to their own bank statements every month.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What FCRA disclosures does a Gurugram NGO have to make during the year?</h3>
+  <div class="faq-expanded__a"><p>An FCRA-registered organisation files the annual FC-4 return with audited fund statements and keeps its receipts and utilisation disclosure current on its website within the prescribed quarterly timeline. Both draw on the same fund ledger, so a late close makes both late. We prepare fund-wise statements monthly so nothing is reconstructed under deadline pressure.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which audit report applies to a Gurugram NGO, Form 10B or Form 10BB?</h3>
+  <div class="faq-expanded__a"><p>Form 10B applies where total income exceeds Rs 5 crore, where any foreign contribution is received, or where income is applied outside India, and Form 10BB covers everyone else. Any Gurugram NGO holding FCRA registration is therefore on Form 10B by default. Both are due by 30 September, a month before the return.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What do Cyber City CSR teams need from an NGO's books?</h3>
+  <div class="faq-expanded__a"><p>CSR funders on Golf Course Road and in Cyber City typically require a project-wise utilisation certificate, an unspent balance statement and proof that their grant sat in a restricted fund rather than general reserves. Their own Section 135 reporting depends on yours. We tag each CSR grant at receipt and issue utilisation statements on the funder's cycle, not ours.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a programme office near IMT Manesar need separate registration?</h3>
+  <div class="faq-expanded__a"><p>Each establishment needs its own Haryana Shops and Establishment registration, so an IMT Manesar programme office registers separately from the Gurugram head office even under one society or trust. Accounting stays consolidated with location tagging. We hold a location-wise registration and renewal calendar so a field office never operates on a lapsed permission.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What has to be filed for donors to claim 80G?</h3>
+  <div class="faq-expanded__a"><p>File the Form 10BD statement of donations by 31 May and issue each donor a Form 10BE certificate, because without them the donor's 80G claim fails regardless of your receipt. Corpus and anonymous donations need distinct treatment in the same statement. We maintain the donor master with PAN through the year so 31 May is an export, not a reconstruction.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">When is GSTR-3B due in Gurugram for an NGO with taxable activity?</h3>
+  <div class="faq-expanded__a"><p>Haryana falls in Category Y, so QRMP filers submit GSTR-3B by the 24th of the month after the quarter and monthly filers above Rs 5 crore turnover file by the 20th. Training fees, publication sales and consultancy income can all be taxable even for a registered charity. We test each income stream before assuming exemption applies.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does NGO accounting cost in Gurugram?</h3>
+  <div class="faq-expanded__a"><p>Fee is driven by the number of restricted funds and donors rather than by grant value, so a two-grant organisation costs far less than one running FCRA, CSR and government funds side by side. FCRA return preparation and utilisation certificates are quoted separately. We price after seeing your last audited accounts and one month of fund receipts.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do you have a Gurugram office, and how are records handed over?</h3>
+  <div class="faq-expanded__a"><p>Delivery is remote, with visits to your Gurugram or Manesar premises arranged when a funder audit, board meeting or voucher handover needs someone present. We do not run a walk-in office in the city. Bank statements, grant agreements and vouchers move through a secure shared folder, and your fund ledgers stay in your own Tally file throughout.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>NGO ka tax kaise bachta hai?</strong> Section 12A se income tax-free, agar 85% charitable purpose pe kharch. Bina 12A ke normal tax lagta hai.</p><p><strong>80G kya hai?</strong> Donors ko tax deduction milta hai (50%/100%). NGO 80G receipt issue karta hai.</p><p><strong>FCRA kab chahiye?</strong> Videsh se, NRI se, ya international foundation se donation le toh FCRA zaroori. FC-4 har saal 31 Dec tak.</p>
+                <p>Pay a programme salary from the wrong account and the foreign contribution position is compromised long before anyone notices. NGO bookkeeping work for Gurugram trusts fixes the payment discipline first: every disbursement mapped to a project cost centre, an approval trail behind each, and a monthly check of spend.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">ITR-7 or FC-4 Deadline? Protect Your Registrations</h2>
+            <h2 class="section-title">NGO and Non-Profit Accounting Deadlines in Gurugram You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Missing ITR-7 (31 Oct) = 12A exemption lost. FC-4 (31 Dec) missed = FCRA suspension. 12A/80G renewal gap = taxable interim. For Gurugram NGOs managing multiple registrations, every missed deadline risks your organization's funding and existence.</p><p><strong>Get started today &ndash; <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20NGO%20accounting%20in%20Gurugram." target="_blank">WhatsApp us</a>.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. <strong>GSTR-3B (summary return and tax payment)</strong> is due 20th monthly for turnover above Rs 5 crore; 24th quarterly under QRMP for turnover up to Rs 5 crore (Category Y). Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Compliant NGO Accounting in Gurugram</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your NGO Accounting Services in Gurugram with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.85);font-size:16px;line-height:1.7;">NGO accounting in Gurugram addresses the specialized compliance needs of charitable organizations &ndash; 12A/80G exemption, FCRA foreign contributions, CSR fund tracking, 85% income application, and multi-authority filing across Income Tax, Registrar of Societies, MHA, and RoC.</p><p style="color:rgba(255,255,255,0.85);font-size:16px;line-height:1.7;">Patron's Golf Course Extension Road office provides deep non-profit expertise with quarterly 85% tracking, FC-4 before deadline, and renewal reminders 9 months before expiry. Registrations protected year-round.</p><p style="color:rgba(255,255,255,0.85);font-size:16px;line-height:1.7;">With offices in Pune, Mumbai, Delhi, and Gurugram, 10,000+ businesses including hundreds of NGOs served, and 4.9 Google rating, Patron delivers NGO accounting that protects your organization's funding lifeline.</p>
+                <p style="color:rgba(255,255,255,0.88);">Payroll stops being a single line. Where staff work across grants, NGO accounting services in Gurgaon split each salary by the time actually recorded against each project code. The month then closes with programme costs a funder will accept and a clear administrative share that stands up when the accounts are reviewed.</p>
+<p style="color:rgba(255,255,255,0.88);">A renewal decision is taken on the closing position of the last grant: what remains unspent, what was committed but not disbursed, and whether the balance carries. Those three figures come off a trial balance kept fund by fund, and society accounting in Gurgaon puts them before the board, not only the funder.</p>
+<p style="color:rgba(255,255,255,0.88);">What each donor expects to see, and when, is settled at the outset. Donor reporting periods rarely match the Indian financial year, so the ledger produces both views from one set of entries. That is agreed before any month is posted under our <a href="/ngo-and-non-profit-accounting-services">fund accounting for charities</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20NGO%20accounting%20in%20Gurugram.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20ngo%20and%20non%20profit%20accounting%20services%20in%20Gurugram" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20NGO%20and%20Non-Profit%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20NGO%20and%20Non-Profit%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
-<section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">NGO Accounting Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides 12A/80G/FCRA-compliant NGO accounting in major cities with trust audit, CSR tracking, and multi-authority filing expertise.</p>
-           
-            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">NGO Accounting in Other Cities</div><div class="pa-block-sub">12A/80G/FCRA compliance across India</div><div class="pa-city-grid"><a href="/ngo-and-non-profit-accounting-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="#" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/ngo-and-non-profit-accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div></a><div class="pa-city-card" style="opacity:0.6; pointer-events:none; border:2px solid var(--orange); position:relative;"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div><span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span></div></div></div><div class="pa-city-block"><div class="pa-block-title">Related Services in Gurugram</div><div class="pa-block-sub">End-to-end NGO compliance</div><div class="pa-cross-grid"><a href="/private-limited-company-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">Gurugram</div></div></a><a href="/income-tax-return-filing/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Gurugram</div></div></a><a href="/gst-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Gurugram</div></div></a><a href="/startup-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Startup Registration</div><div class="pa-card-sub">Gurugram</div></div></a><a href="/trademark-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Registration</div><div class="pa-card-sub">Gurugram</div></div></a><a href="/payroll-services/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Gurugram</div></div></a></div></div>
-        </div>
-    </div>
-</section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 02 April 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">02 April 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 02 July 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This content is reviewed quarterly for Income Tax trust provisions, FCRA updates, and CSR compliance changes. Freshness Tier: 2.</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">NGO and Non-Profit Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Haryana</div></div></div><a href="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a><a href="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
@@ -1863,8 +1168,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -1874,8 +1179,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -1956,7 +1261,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -1966,34 +1271,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2004,12 +1307,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2085,7 +1389,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered — init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2095,6 +1401,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2117,9 +1424,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2289,7 +1594,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2309,7 +1613,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2387,12 +1691,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2400,55 +1700,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2486,8 +1755,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

@@ -23,164 +23,303 @@
     <meta name="twitter:title" content="Startup Accounting Services in Pune: What Is Included | Patron Accounting">
     <meta name="twitter:description" content="For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Book a local consultation.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-startups-pune-og.webp">
-<script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune#localbusiness",
-        "name": "Patron Accounting LLP - Pune",
-        "url": "https://www.patronaccounting.com/accounting-services-for-startups/pune",
-        "telephone": "+91 94594 56700",
-        "parentOrganization": {
-                "@id": "https://www.patronaccounting.com/#organization"
-        },
-        "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
-                "addressLocality": "Wagholi",
-                "addressRegion": "Maharashtra",
-                "postalCode": "412207",
-                "addressCountry": "IN"
-        },
-        "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "13",
-                "bestRating": "5",
-                "worstRating": "1"
-        },
-        "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 18.57944655,
-                "longitude": 73.9682987
-        },
-        "hasMap": "https://www.google.com/maps?q=18.5794466,73.9682987"
-}
-</script>
-<script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
-        },
-        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
-        "email": "sales@patronaccounting.com",
-        "telephone": "+91 94594 56700",
-        "areaServed": "India",
-        "foundingDate": "2019",
-        "founder": {
-                "@type": "Person",
-                "name": "CA Sundram Gupta"
-        },
-        "sameAs": [
-                "https://in.linkedin.com/company/patron-accounting-llp",
-                "https://www.instagram.com/patronaccounting/",
-                "https://www.facebook.com/share/1BqqRYkpJX/",
-                "https://www.youtube.com/@patronaccountingllp7130",
-                "https://x.com/LlpPatron"
-        ],
-        "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+919459456700",
-                "email": "sales@patronaccounting.com",
-                "contactType": "customer service",
-                "areaServed": "IN",
-                "availableLanguage": [
-                        "en",
-                        "hi"
-                ]
-        }
-}
-</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#service",
-        "name": "Startup Accounting Services in India",
-        "description": "Startup accounting for funded and bootstrapped Indian companies: cap-table to statutory-register tie-out, funding-round and convertible-instrument accounting, ESOP perquisite timing and option-register upkeep, investor MIS on burn and runway, and DPIIT recognition with Section 80-IAC deduction tracking.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Startup company", "sameAs": "https://en.wikipedia.org/wiki/Startup_company" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Startup Accounting Service Plans",
-            "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com" }, { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" }, { "@type": "ListItem", "position": 3, "name": "Startup Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-startups" }, { "@type": "ListItem", "position": 4, "name": "Pune", "item": "https://www.patronaccounting.com/accounting-services-for-startups/pune" } ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#service",
+  "name": "Startup Accounting Services in Pune",
+  "description": "Startup accounting services in Pune keep cap-table hygiene, burn reporting and statutory filings in step. ESOP perquisite TDS and the Section 80-IAC claim window are tracked from DPIIT recognition onward.",
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Startup Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Startup Accounting Services in Pune",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Startup Accounting Services in Pune",
+          "description": "Startup accounting services in Pune keep cap-table hygiene, burn reporting and statutory filings in step. ESOP perquisite TDS and the Section 80-IAC claim window are tracked from DPIIT recognition onward.",
+          "serviceType": "Startup Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.patronaccounting.com/pune/#localbusiness",
+  "name": "Patron Accounting LLP - Pune (Wagholi HQ)",
+  "url": "https://www.patronaccounting.com/accounting-services-for-startups/pune",
+  "telephone": "+91 94594 56700",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "412207",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" },
-            { "@type": "ListItem", "position": 3, "name": "Startup Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-startups/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "AdministrativeArea",
+      "name": "Pune"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#faq",
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "mainEntity": [
-            {"@type":"Question","name":"When must TDS on ESOP perquisites be paid by a Pune startup?","acceptedAnswer":{"@type":"Answer","text":"For a DPIIT-recognised eligible startup, Section 192(1C) allows ESOP perquisite TDS to be deferred to the earliest of forty-eight months from the end of the assessment year of allotment, the date the employee sells the shares, or the date they leave the company. Every other company deposits it with payroll TDS for the exercise month. Misreading this is a routine diligence finding."}},
-            {"@type":"Question","name":"Can a Pune startup still claim the Section 80-IAC tax holiday?","acceptedAnswer":{"@type":"Answer","text":"Section 80-IAC gives a full deduction of profits for three consecutive years out of the first ten, and needs DPIIT recognition plus separate approval from the Inter-Ministerial Board, with turnover staying under Rs 100 crore in the claim year. Since most Hinjewadi and Baner startups are loss-making early, we plan which three years to elect instead of defaulting to the first profitable one."}},
-            {"@type":"Question","name":"What professional tax registrations does a Pune startup need on day one?","acceptedAnswer":{"@type":"Answer","text":"PTEC for the company and PTRC for salaried employees are both required in Maharashtra, and the PTEC liability starts before your first hire. Founders drawing a salary at a Kharadi or Hinjewadi office are covered by PTRC like anyone else. We register both alongside the Shops and Establishment certificate at incorporation, because backdated PTRC returns each carry their own late fee."}},
-            {"@type":"Question","name":"What filing follows a share allotment to a foreign investor in a funding round?","acceptedAnswer":{"@type":"Answer","text":"Form FC-GPR must be filed on the RBI FIRMS portal within thirty days of allotting shares to a non-resident, supported by the FIRC, KYC from the remitting bank and a valuation report from a merchant banker or chartered accountant. Late filing attracts a Late Submission Fee. We usually align the board allotment date with the money-received date to keep that clock clean."}},
-            {"@type":"Question","name":"Does angel tax still apply when a startup raises at a premium?","acceptedAnswer":{"@type":"Answer","text":"No, Section 56(2)(viib) was withdrawn with effect from assessment year 2025-26, so share premium received from resident or non-resident investors is no longer taxed as income of the company. Valuation discipline still matters for FEMA pricing guidelines and for Section 56(2)(x) in the investor's hands. We keep the valuation report and cap table aligned so nothing needs reconstructing during reassessment."}},
-            {"@type":"Question","name":"What monthly reporting do investors expect from a Pune portfolio company?","acceptedAnswer":{"@type":"Answer","text":"Investors expect a monthly pack inside ten working days covering revenue by cohort, gross margin, net burn, runway in months, headcount and a cash bridge, sitting beside the statutory trial balance. Pune boards typically add cost per seat at your Hinjewadi or Kharadi office and hiring plan variance. We build the pack from the same ledger the auditor uses."}},
-            {"@type":"Question","name":"Does a pre-revenue startup still have GST filings in Maharashtra?","acceptedAnswer":{"@type":"Answer","text":"Yes, a registered startup with zero revenue still files nil returns, and Maharashtra sits in Category X, so quarterly GSTR-3B under QRMP falls due on the 22nd for turnover up to Rs 5 crore while monthly filers above that file by the 20th. Skipping nil returns blocks e-way bills and invites cancellation exactly when investor diligence begins."}},
-            {"@type":"Question","name":"Why do startup cap tables keep breaking between funding rounds?","acceptedAnswer":{"@type":"Answer","text":"Cap tables break because note conversions, ESOP pool top-ups and share splits get recorded in the term sheet but never in the statutory registers or the PAS-3 allotment filings. We reconcile the register of members, the MGT-7 or MGT-7A annual return, FC-GPR filings and the ESOP grant schedule to a single master cap table quarterly, so a data room takes days."}},
-            {"@type":"Question","name":"What does startup accounting cost in Pune?","acceptedAnswer":{"@type":"Answer","text":"The monthly retainer is driven by transaction volume, payroll headcount, whether ESOP and cap-table administration are included, and whether investor MIS is needed beyond statutory books. Quotes follow a thirty-minute review of your bank statements, cap table and last audited accounts. Annual ROC filings, the 80-IAC application and valuation coordination are quoted separately from the monthly retainer."}},
-            {"@type":"Question","name":"Are in-person meetings available at the Pune office?","acceptedAnswer":{"@type":"Answer","text":"Yes, our Pune office at RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207 handles in-person onboarding, board-pack walkthroughs and diligence support, and we travel to Hinjewadi, Kharadi or Baner for investor meetings by arrangement. Day-to-day work stays on a shared drive, with bank statements, invoices and payroll inputs uploaded monthly and closed books returned by the 10th."}}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "AdministrativeArea",
+      "name": "Wagholi"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune",
-        "name": "Startup Accounting Services in India",
-        "description": "For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Book a local consultation.",
-        "url": "https://www.patronaccounting.com/accounting-services-for-startups/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#service" },
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "reviewedBy": { "@id": "https://www.patronaccounting.com/#team" },
-        "lastReviewed": "2026-07-23",
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "AdministrativeArea",
+      "name": "Kharadi"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "13", "bestRating": "5", "worstRating": "1" }
+      "@type": "AdministrativeArea",
+      "name": "Baner"
     }
-    </script>
-    @endsection
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Startup Accounting Services in Pune",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Startup Accounting Services in Pune",
+          "description": "Startup accounting services in Pune keep cap-table hygiene, burn reporting and statutory filings in step. ESOP perquisite TDS and the Section 80-IAC claim window are tracked from DPIIT recognition onward.",
+          "serviceType": "Startup Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
+        }
+      }
+    ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.57944655,
+    "longitude": 73.9682987
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "206",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Startup Accounting Services India",
+      "item": "https://www.patronaccounting.com/accounting-services-for-startups"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Pune",
+      "item": "https://www.patronaccounting.com/accounting-services-for-startups/pune"
+    }
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When must TDS on ESOP perquisites be paid by a Pune startup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a DPIIT-recognised eligible startup, Section 192(1C) allows ESOP perquisite TDS to be deferred to the earliest of forty-eight months from the end of the assessment year of allotment, the date the employee sells the shares, or the date they leave the company. Every other company deposits it with payroll TDS for the exercise month. Misreading this is a routine diligence finding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a Pune startup still claim the Section 80-IAC tax holiday?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 80-IAC gives a full deduction of profits for three consecutive years out of the first ten, and needs DPIIT recognition plus separate approval from the Inter-Ministerial Board, with turnover staying under Rs 100 crore in the claim year. Since most Hinjewadi and Baner startups are loss-making early, we plan which three years to elect instead of defaulting to the first profitable one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What professional tax registrations does a Pune startup need on day one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PTEC for the company and PTRC for salaried employees are both required in Maharashtra, and the PTEC liability starts before your first hire. Founders drawing a salary at a Kharadi or Hinjewadi office are covered by PTRC like anyone else. We register both alongside the Shops and Establishment certificate at incorporation, because backdated PTRC returns each carry their own late fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What filing follows a share allotment to a foreign investor in a funding round?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Form FC-GPR must be filed on the RBI FIRMS portal within thirty days of allotting shares to a non-resident, supported by the FIRC, KYC from the remitting bank and a valuation report from a merchant banker or chartered accountant. Late filing attracts a Late Submission Fee. We usually align the board allotment date with the money-received date to keep that clock clean."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does angel tax still apply when a startup raises at a premium?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, Section 56(2)(viib) was withdrawn with effect from assessment year 2025-26, so share premium received from resident or non-resident investors is no longer taxed as income of the company. Valuation discipline still matters for FEMA pricing guidelines and for Section 56(2)(x) in the investor's hands. We keep the valuation report and cap table aligned so nothing needs reconstructing during reassessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What monthly reporting do investors expect from a Pune portfolio company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Investors expect a monthly pack inside ten working days covering revenue by cohort, gross margin, net burn, runway in months, headcount and a cash bridge, sitting beside the statutory trial balance. Pune boards typically add cost per seat at your Hinjewadi or Kharadi office and hiring plan variance. We build the pack from the same ledger the auditor uses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a pre-revenue startup still have GST filings in Maharashtra?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a registered startup with zero revenue still files nil returns, and Maharashtra sits in Category X, so quarterly GSTR-3B under QRMP falls due on the 22nd for turnover up to Rs 5 crore while monthly filers above that file by the 20th. Skipping nil returns blocks e-way bills and invites cancellation exactly when investor diligence begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do startup cap tables keep breaking between funding rounds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cap tables break because note conversions, ESOP pool top-ups and share splits get recorded in the term sheet but never in the statutory registers or the PAS-3 allotment filings. We reconcile the register of members, the MGT-7 or MGT-7A annual return, FC-GPR filings and the ESOP grant schedule to a single master cap table quarterly, so a data room takes days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does startup accounting cost in Pune?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The monthly retainer is driven by transaction volume, payroll headcount, whether ESOP and cap-table administration are included, and whether investor MIS is needed beyond statutory books. Quotes follow a thirty-minute review of your bank statements, cap table and last audited accounts. Annual ROC filings, the 80-IAC application and valuation coordination are quoted separately from the monthly retainer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are in-person meetings available at the Pune office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Pune office at RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207 handles in-person onboarding, board-pack walkthroughs and diligence support, and we travel to Hinjewadi, Kharadi or Baner for investor meetings by arrangement. Day-to-day work stays on a shared drive, with bank statements, invoices and payroll inputs uploaded monthly and closed books returned by the 10th."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune",
+  "name": "Startup Accounting Services in Pune",
+  "description": "For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Book a local consultation.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-startups/pune",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-startups/pune/#breadcrumb"
+  }
+}
+</script>
+@endsection
 
 <link rel="stylesheet" href="/css/patron-cluster.css">
 
@@ -223,17 +362,21 @@
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Cap table ties to the register:</span> Your working cap table is agreed to the statutory register of members and to every board and shareholder approval, so a diligence never opens a gap.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Cap table the register supports:</span> Your working cap table, the statutory register of members and the share capital in the books all carry the same holdings.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>ESOP perquisite timed right:</span> Option grants sit in a live register and the perquisite TDS is deposited by the 7th of the month after allotment, not discovered at year-end.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Option grants that stand up:</span> Your option grants, vesting, exercises and lapses sit in the Form SH-6 register, with board and shareholder approvals behind them.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Investor MIS you can defend:</span> Burn, runway and cohort metrics are rebuilt from the ledger, so the numbers you send investors match the numbers you file.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Investor metrics traceable to ledger:</span> Your burn, runway and revenue metrics are rebuilt from the trial balance on your own definitions. Any gap against the deck is explained.</p>
                         </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Convertible instruments in the right place:</span> We classify compulsorily convertible preference shares or debentures from the actual instrument terms, and treat round costs on a stated basis.</p>
                         </div>
+                    </div>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -244,7 +387,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20startups%20in%20Pune" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -530,7 +673,7 @@
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
             <h2 class="section-title">How Startup Accounting Services Work in Pune — Step by Step</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">How a funded company gets books that agree with its cap table, step by step from register tie-out to DPIIT and deduction-condition tracking.</p>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers startup accounting for Pune businesses, step by step.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
@@ -665,7 +808,7 @@
                 </div><p style="margin-top:14px;font-size:14px;">Startup accounting in Pune opens at <strong>INR 2,499 per month</strong> for one entity with routine monthly books, the same scope-based rate we charge nationally. Cap-table events, monthly burn lines and later funding stages raise the fee, not your address. Maharashtra profession-tax registration sits outside as an actuals-based government charge. Request a customised estimate on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
-                <p style="margin-top:16px;"><strong>Get a free Startup Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free Startup Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20startups%20in%20Pune" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -824,13 +967,13 @@
             
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Startup Accounting FAQs</h2>
-                    <p class="faq-expanded__lead">Cap table, ESOP perquisite, DPIIT and Section 80-IAC, investor MIS and pricing for funded and bootstrapped Indian startups.</p>
+                    <h2 class="faq-expanded__title">Startup Accounting in Pune FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on startup accounting for Pune businesses - scope, local compliance, documents and pricing.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
-  <h3 class="faq-enquiry__title">Ask about your startup's books</h3>
-  <p class="faq-enquiry__sub">Send your funding stage and number of entities for a scoped quote.</p>
-  <p class="faq-enquiry__context">Enquiring about: <strong>Startup Accounting</strong></p>
+  <h3 class="faq-enquiry__title">Ask about your books in Pune</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Startup Accounting in Pune</strong></p>
   <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
   <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
   <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
@@ -885,7 +1028,7 @@
             
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p>Startup accounting keeps a funded company's books agreeing with its cap table and statutory registers: it accounts for funding rounds and convertible instruments, maintains the ESOP option register and perquisite TDS, rebuilds investor MIS on burn and runway from the ledger, and tracks DPIIT recognition and Section 80-IAC deduction conditions.</p>
+                <p>Volume sets the rhythm. Bank lines, vendor bills, claims from engineers sitting on client campuses in Hinjewadi and subscription invoices billed in foreign currency arrive week after week, and each is coded, matched to an approval and posted before the close. Startup accounting services for Pune founders also treat a.</p>
 
             </div>
         </div>
@@ -896,10 +1039,10 @@
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Startup Accounting Deadlines You Cannot Afford to Miss</h2>
+            <h2 class="section-title">Startup Accounting Deadlines in Pune You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Three dates catch funded startups out. <strong>ESOP perquisite TDS is due by the 7th of the month after allotment</strong> &mdash; miss it and the shortfall surfaces in the employee's Form 16 and your TDS return. The <strong>first advance-tax instalment falls on 15 June</strong> once you are profitable, and <strong>Form AOC-4 and MGT-7 follow the AGM</strong> (roughly 29 October and 28 November for a 30 September AGM). Patron tracks each against your cap-table and payroll events so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. <strong>GSTR-3B (summary return and tax payment)</strong> is due 20th monthly for turnover above Rs 5 crore; 22nd quarterly under QRMP for turnover up to Rs 5 crore (Category X). Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
@@ -920,7 +1063,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20startups%20in%20Pune" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Startup%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Startup%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -952,8 +1095,6 @@
 </main>
 <script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
 <script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
-
-
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 

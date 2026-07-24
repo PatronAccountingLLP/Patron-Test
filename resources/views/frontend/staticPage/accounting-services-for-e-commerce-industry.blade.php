@@ -23,46 +23,6 @@
     <meta name="twitter:title" content="E-Commerce Accountants for Online Sellers in India | Patron Accounting">
     <meta name="twitter:description" content="Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-e-commerce-industry-og.webp">
-<script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
-        },
-        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
-        "email": "sales@patronaccounting.com",
-        "telephone": "+91 94594 56700",
-        "areaServed": "India",
-        "foundingDate": "2019",
-        "founder": {
-                "@type": "Person",
-                "name": "CA Sundram Gupta"
-        },
-        "sameAs": [
-                "https://in.linkedin.com/company/patron-accounting-llp",
-                "https://www.instagram.com/patronaccounting/",
-                "https://www.facebook.com/share/1BqqRYkpJX/",
-                "https://www.youtube.com/@patronaccountingllp7130",
-                "https://x.com/LlpPatron"
-        ],
-        "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+919459456700",
-                "email": "sales@patronaccounting.com",
-                "contactType": "customer service",
-                "areaServed": "IN",
-                "availableLanguage": [
-                        "en",
-                        "hi"
-                ]
-        }
-}
-</script>
 @endsection
 
 @section('schema')

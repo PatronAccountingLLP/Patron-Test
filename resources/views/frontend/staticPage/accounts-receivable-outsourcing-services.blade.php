@@ -23,46 +23,6 @@
     <meta name="twitter:title" content="Accounts Receivable Outsourcing Services, CA Managed | Patron Accounting">
     <meta name="twitter:description" content="Collections chased by ageing bucket, with a named owner per account. Fewer queries from your auditor, and a faster sign-off. Talk to a qualified CA.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounts-receivable-outsourcing-services-og.webp">
-<script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
-        },
-        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
-        "email": "sales@patronaccounting.com",
-        "telephone": "+91 94594 56700",
-        "areaServed": "India",
-        "foundingDate": "2019",
-        "founder": {
-                "@type": "Person",
-                "name": "CA Sundram Gupta"
-        },
-        "sameAs": [
-                "https://in.linkedin.com/company/patron-accounting-llp",
-                "https://www.instagram.com/patronaccounting/",
-                "https://www.facebook.com/share/1BqqRYkpJX/",
-                "https://www.youtube.com/@patronaccountingllp7130",
-                "https://x.com/LlpPatron"
-        ],
-        "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+919459456700",
-                "email": "sales@patronaccounting.com",
-                "contactType": "customer service",
-                "areaServed": "IN",
-                "availableLanguage": [
-                        "en",
-                        "hi"
-                ]
-        }
-}
-</script>
 @endsection
 
 @section('schema')

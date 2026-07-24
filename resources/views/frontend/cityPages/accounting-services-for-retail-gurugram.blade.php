@@ -1,821 +1,335 @@
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Retail Accounting in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Mall and online retail accounting in Gurugram from INR 3,499/mo. Revenue-share leases, CAM costs, POS, card and UPI, Amazon and Flipkart settlements.">
-    <link rel="canonical" href="/accounting-services-for-retail/gurugram">
+    <title>Retail Accounting Services in Gurugram, by Local CAs | Patron Accounting</title>
+    <meta name="description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Tie every till to the ledger daily. Book a free call.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-retail/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Retail Accounting in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Mall and online retail accounting in Gurugram from INR 3,499/mo. Revenue-share leases, CAM costs, POS, card and UPI, Amazon and Flipkart settlements.">
-    <meta property="og:url" content="/accounting-services-for-retail/gurugram">
+    <meta property="og:title" content="Retail Accounting Services in Gurugram, by Local CAs | Patron Accounting">
+    <meta property="og:description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Tie every till to the ledger daily. Book a free call.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-retail/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-retail/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-retail-gurugram-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Retail Accounting in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Mall and online retail accounting in Gurugram from INR 3,499/mo. Revenue-share leases, CAM costs, POS, card and UPI, Amazon and Flipkart settlements.">
-    <meta name="twitter:image" content="/images/accounting-services-for-retail/gurugram-og.webp">
+    <meta name="twitter:title" content="Retail Accounting Services in Gurugram, by Local CAs | Patron Accounting">
+    <meta name="twitter:description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Tie every till to the ledger daily. Book a free call.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-retail-gurugram-og.webp">
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "/accounting-services-for-retail/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "/"
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram/#service",
+  "name": "Retail Accounting Services in Gurugram",
+  "description": "Retail accounting services in Gurgaon tie POS takings to the ledger daily so shrinkage surfaces early. Store-wise profit and loss and multi-store stock are reported by Patron for chains across Cyber Hub and the Golf Course Road malls.",
+  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Retail Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Gurugram"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Retail Accounting Services in Gurugram",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Retail Accounting Services in Gurugram",
+          "description": "Retail accounting services in Gurgaon tie POS takings to the ledger daily so shrinkage surfaces early. Store-wise profit and loss and multi-store stock are reported by Patron for chains across Cyber Hub and the Golf Course Road malls.",
+          "serviceType": "Retail Accounting Service"
         },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Retail Sector Accounting",
-          "item": "/accounting-services-for-retail"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Retail Sector Accounting in Gurugram",
-          "item": "/accounting-services-for-retail/gurugram"
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Gurugram"
         }
-      ]
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.patronaccounting.com/gurugram/#localbusiness",
+  "name": "Patron Accounting LLP - Gurugram",
+  "url": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram",
+  "telephone": "+91 94594 56700",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Pioneer Urban Square, B109, Golf Course Ext Rd, Sector 62",
+    "addressLocality": "Gurugram",
+    "addressRegion": "Haryana",
+    "postalCode": "122018",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Gurugram"
     },
     {
-      "@type": "FAQPage",
-      "@id": "/accounting-services-for-retail/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How is a mall revenue-share or minimum-guarantee lease accounted for a Gurugram store?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most MG Road and Ambience Mall leases charge the higher of a minimum guarantee or a revenue-share percentage of sales, plus CAM. Patron Accounting books the higher amount each month, accrues the rent correctly, and ties the revenue-share calculation to your POS sales so a footfall-based outlet never under or over states occupancy cost."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you book CAM charges and other mall costs in Gurugram retail accounts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common Area Maintenance is recorded separately from base rent so a Cyber Hub or Sahara Mall outlet sees its true occupancy cost. Patron splits CAM, marketing fund, utilities, and signage charges, claims eligible input tax credit on each, and reconciles the mall invoice against the GST portal so nothing is missed at month-end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does a Gurugram retailer register for GST in Haryana or somewhere else?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A store operating in Gurugram registers under Haryana GST for its place of business, and any additional warehouse or outlet is added as an extra place of business on the same GSTIN. Patron Accounting handles the Haryana registration, maps each MG Road or Sector 29 location, and files B2C returns so all your Gurugram supplies report cleanly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does retail accounting cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees begin at INR 3,499/mo (Exl GST and Govt. Charges). What you pay scales with store count, monthly bill volume, marketplace channels, and the number of GST registrations. A single Galleria Market boutique sits at the lower end, while a multi-mall brand also selling on Amazon and Nykaa pays more; you get a fixed quote first."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are Amazon, Flipkart, and Nykaa settlements reconciled for Gurugram sellers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each payout is rebuilt back to gross taxable sales by adding back commission, Section 52 TCS, Section 194-O TDS, logistics, and returns, then matched to the bank credit and GSTR-1. The 1 percent marketplace TCS shown in GSTR-8 is reconciled to your GSTR-2B every month so a Sector 29 omnichannel brand loses no input credit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What records must a Gurugram retail business retain under GST and income tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 35 of the CGST Act 2017 and Section 44AA of the Income Tax Act require sales and purchase registers, stock records, cash book, and bank statements to be kept for 6 years. Patron maintains these per store and channel, along with Haryana profession tax records, so any audit or notice from the Haryana GST authority is answered fast."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should a small Gurugram shop choose composition or regular GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A trader under INR 1.5 crore turnover may opt for the composition levy at 1 percent under Section 10 of the CGST Act 2017, but loses input tax credit and cannot sell through TCS marketplaces. A Galleria Market boutique listing on Amazon or Nykaa must stay in regular GST. Patron models both paths against your numbers before you decide."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you run Gurugram retail books in Tally and Zoho Books with our POS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron keeps retail books in Tally Prime, Zoho Books, or QuickBooks and pulls in your POS, card and UPI, and marketplace data. We post day-wise sales by outlet, reconcile every tender and channel, and deliver a monthly margin and stock MIS so a Cyber Hub or Ambience Mall store sees performance by location and product line."
-          }
-        }
-      ]
+      "@type": "AdministrativeArea",
+      "name": "Sector 62"
     },
     {
-      "@type": "Service",
-      "@id": "/accounting-services-for-retail/gurugram#service",
-      "name": "Retail Sector Accounting in Gurugram",
-      "description": "Mall-led and online retail accounting in Gurugram covering revenue-share lease and CAM booking, POS and tender reconciliation, GST B2C and composition returns, and Amazon and Flipkart settlement matching. Patron Accounting delivers margin and stock MIS for MG Road, Cyber Hub, and Galleria Market retailers.",
-      "serviceType": "Retail Sector Accounting and Bookkeeping",
-      "url": "/accounting-services-for-retail/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Retail",
-          "sameAs": "https://en.wikipedia.org/wiki/Retail"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
+      "@type": "AdministrativeArea",
+      "name": "Golf Course Extension Road"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
       ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Retail Accounting Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "3499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "3499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly Retail Accounting per Store"
-            }
-          }
-        ]
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Retail Accounting Services in Gurugram",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Retail Accounting Services in Gurugram",
+          "description": "Retail accounting services in Gurgaon tie POS takings to the ledger daily so shrinkage surfaces early. Store-wise profit and loss and multi-store stock are reported by Patron for chains across Cyber Hub and the Golf Course Road malls.",
+          "serviceType": "Retail Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Gurugram"
+        }
+      }
+    ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.415125756014717,
+    "longitude": 77.08828815355577
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "178",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Retail Accounting Services in India",
+      "item": "https://www.patronaccounting.com/accounting-services-for-retail"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Gurugram",
+      "item": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram"
+    }
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does a Gurugram retail store deduct professional tax from store staff?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Haryana levies no professional tax, but the Haryana Labour Welfare Fund does apply, with an employee and employer contribution recovered through payroll and deposited by the establishment. A Gurugram store therefore carries an LWF line in its salary register that a Delhi store does not. We maintain the LWF register beside EPF and ESI so a labour inspection has one consistent source."
       }
     },
     {
-      "@type": "LocalBusiness",
-      "@id": "/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "/images/site-logo.svg",
-      "url": "/accounting-services-for-retail/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "/#organization"
+      "@type": "Question",
+      "name": "When does a Gurugram retailer file GSTR-3B, and what must be reconciled first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haryana sits in Category Y, so QRMP filers up to Rs 5 crore turnover file by the 24th of the month after the quarter, and retailers above Rs 5 crore file monthly by the 20th. Before filing, your POS day-end totals, card settlements and cash banked have to agree with the B2C table, or you declare turnover your bank statement cannot support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a Golf Course Road store need Haryana Shops and Establishment registration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a commercial establishment in Gurugram registers under the Haryana Shops and Establishments Act, and the registration, employee registers and wage records are the first things an inspection asks for. Renewal fees and penalties sit in your compliance schedule. We reconcile the headcount declared on the registration against payroll each quarter, because mall staff turnover on Golf Course Road makes that number drift fast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you account for a revenue-share rent in a Gurugram mall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Minimum guarantee rent, revenue share above the threshold and CAM charges are booked as three separate expense heads, with GST input credit claimed only where the landlord's invoice actually appears in GSTR-2B. Cyber Hub and Golf Course Road leases usually bill CAM and electricity apart from rent. Recording them as one figure hides store-level margin and turns lease renegotiation into guesswork."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is stock tracked across four Gurugram stores and a warehouse in Udyog Vihar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each store and the Udyog Vihar warehouse is created as a separate godown, so transfers move on a delivery challan and stock on hand is visible per location rather than as one company total. Shrinkage then becomes provable store by store. Without it, a Gurugram chain cannot tell whether a variance arose at the Cyber City counter or inside the warehouse."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does a Gurugram retail POS report never match the GST return?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because POS captures sale value at the till, while GST needs taxable value split by rate and net of discounts, returns and loyalty redemptions, and card settlement lands two days later. We map every tender type and tax rate to a ledger, then reconcile daily. Gurugram chains typically start around a 3% to 4% variance and close below 0.5% within one quarter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle stock shrinkage in retail books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shrinkage is provided monthly against rolling cycle counts rather than discovered at the annual physical verification, and input tax credit on written-off stock is reversed under Section 17(5), which most retailers forget entirely. We count high-value categories more often, so a Gurugram electronics floor is verified more frequently than slow-moving lines. The provision then stands up when your auditor tests it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does selling both in store and on marketplaces split Gurugram retail accounting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Marketplace sales carry GST TCS of 0.5% in total and TDS under Section 194-O at 0.1%, both claimed back as credit, while counter sales are ordinary B2C supplies. We keep a single stock pool but separate revenue channels, so a Gurugram retailer can compare store margin against online margin after commission, shipping and returns rather than guessing which channel pays."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does retail accounting cost in Gurugram?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees follow outlet count, monthly transaction volume and whether POS integration and stock reconciliation are in scope, rather than a single package price. A standalone Sector 29 store costs far less than a five-store chain with a warehouse and an online channel. We quote after reviewing one month of POS exports and bank statements. Amounts are exclusive of GST and government charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are on-site visits to Gurugram stores available, and how do documents reach you?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bookkeeping runs remotely, with visits to your Cyber City, Golf Course Road or IMT Manesar locations arranged for stock counts and cash-handling reviews. We do not operate an office in Gurugram. POS exports, purchase invoices and bank statements arrive through a shared folder or a scheduled POS export, so daily entries never wait for a store manager to find time to travel."
       }
     }
   ]
-}</script>
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram",
+  "name": "Retail Accounting Services in Gurugram",
+  "description": "Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Tie every till to the ledger daily. Book a free call.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* EXPERT ATTRIBUTION BOX (E-E-A-T) */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* HERO SECTION */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* FORM CARD */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* STATS BAR */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* TOC NAVIGATION */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* CONTENT SECTIONS */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* CITY & CROSS-SELL GRID CARDS */
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-icon svg { width: 16px; height: 16px; color: var(--orange); }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-
-        /* RESPONSIVE */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        .content-section[id] { scroll-margin-top: 80px; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-</style>
+<link rel="stylesheet" href="/css/patron-cluster.css">
 
 @section('content')
 <main>
 
 
-<!-- HERO SECTION -->
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;"><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/accounting-services-for-retail" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Retail Accounting</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li><li><span style="color:var(--orange);font-weight:600;">Gurugram</span></li></ol>
+    </div>
+</nav>
+
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -824,54 +338,52 @@
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         Trusted by 10,000+ Businesses
-                    </div>
+                    </div><span class="pa-hero-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Gurugram, Haryana</span>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Retail Sector Accounting in Gurugram
+                        Retail Accounting Services in Gurugram
                     </h1>
 
                     <div class="expert-attribution-box">
                         <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
                         <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
                         <span class="eab-meta">
-                            <span>ICAI and ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/accounting-services-for-retail" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Scope:</span> Revenue-share lease and CAM booking, POS and tender reconciliation, GST B2C returns, marketplace settlement matching</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Cash shortfalls traced to a shift:</span> We trace each store's counted cash to its deposit slip and bank credit, so a shortfall shows against one shift.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Starting from INR 3,499/mo (Exl GST and Govt. Charges)</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>True margin after card costs:</span> You keep revenue gross and see the card and UPI merchant discount as a cost you can read per store.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> Gurugram mall stores, high-street boutiques, multi-outlet brands, and omnichannel sellers</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Shrinkage you can act on:</span> We hold stock per location, so a gap between the count and the ledger points at one outlet, category and month.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Reporting:</span> Monthly margin, occupancy-cost, and stock MIS by outlet, channel, and product line</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Supplier claims fully collected:</span> We match every scheme, rebate and margin-support claim to the supplier credit note, so cost of goods falls where it should.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | 15+ Years Experience</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Retail%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Retail%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20retail%20accounting%20in%20Gurugram.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20retail%20in%20Gurugram" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -885,7 +397,7 @@
                             </div>
                             <div class="trust-item">
                                 <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
-                                <div class="trust-text"><strong>CA and CS</strong>Certified Experts</div>
+                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
                             </div>
                         </div>
                         <div class="google-rating">
@@ -898,7 +410,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -970,15 +482,16 @@
                         <div class="form-group">
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
-                                <option value='' disabled>Select a service</option>
-                                <option value="accounting-services-for-retail/gurugram" selected>Retail Sector Accounting in Gurugram</option>
-                                <option value="gst-returns/gurugram">GST Return Filing in Gurugram</option>
-                                <option value="income-tax-return/gurugram">Income Tax Return Filing in Gurugram</option>
-                                <option value="tally-accounting/gurugram">Tally Accounting in Gurugram</option>
-                                <option value="zoho-books-accounting/gurugram">Zoho Books Accounting in Gurugram</option>
-                                <option value="payroll-services/gurugram">Payroll Services in Gurugram</option>
-                                <option value="accounting-services-for-e-commerce-industry/gurugram">E-commerce Accounting in Gurugram</option>
-                                <option value="other">Other</option>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value="accounting-services-for-retail/gurugram" selected>Startup Accounting</option>
+                                    <option value="accounting-services">Accounting Services (All)</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="esop-accounting-ind-as-102">ESOP Accounting (Ind AS 102)</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="other">Other</option>
+
                             </select>
                         </div>
 
@@ -1007,236 +520,260 @@
     </div>
 </section>
 
-<!-- STATS BAR -->
+
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
-            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 11V3a1 1 0 00-1-1H9a1 1 0 00-1 1v8M5 11h14a1 1 0 011 1v8a1 1 0 01-1 1H5a1 1 0 01-1-1v-8a1 1 0 011-1z"/></svg></div>
-            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">Shops, chains, and online sellers across India.</span></div>
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
         </div>
         <div class="stat-item">
-            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
-            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Books Reconciled</span><span class="stat-desc">POS, settlements, and stock handled accurately.</span></div>
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
+            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
-            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by retailers, boutiques, and e-tailers.</span></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
         </div>
         <div class="certifications">
             <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
-            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your sales and financial data is fully protected.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
         </div>
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
+            
             <a href="#overview-section" class="toc-btn active">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is It</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Our Services</a>
-            <a href="#procedure-section" class="toc-btn">Process</a>
-            <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
-            <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Timeline</a>
-            <a href="#benefits-section" class="toc-btn">Why Patron</a>
-            <a href="#comparison-section" class="toc-btn">DIY vs Patron</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Retail Sector Accounting in Gurugram - Overview</h2>
+            <h2 class="section-title">What Retail Accounting Costs and Covers for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Retail Accounting in Gurugram at a Glance</strong></p>
-                    <p>Gurugram retail is mall-led and premium, so the books carry two extra weights most cities do not: revenue-share or minimum-guarantee leases and heavy CAM charges. Patron Accounting books occupancy cost the right way, posts daily POS sales, reconciles card and UPI heavy tenders, tracks stock across outlets, files GST B2C returns under Haryana GST, and grosses up Amazon, Flipkart, and Nykaa settlements. You receive a monthly margin, occupancy-cost, and stock MIS. Fees start from INR 3,499/mo, serving MG Road, Cyber Hub, Ambience Mall, and Galleria Market.</p>
+                    <p><strong>&#128204; TL;DR - Retail Accounting Services at a Glance</strong></p>
+                    <p>Retail accounting services in Gurgaon tie POS takings to the ledger daily so shrinkage surfaces early. Store-wise profit and loss and multi-store stock are reported by Patron for chains across Cyber Hub and the Golf Course Road malls. B2C return preparation completes inside Haryana's 24th statutory filing window. Common among retailers running outlets across Gurugram and the wider NCR.</p>
                 </div>
-
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Quick Reference</th><th>Details for Gurugram Retailers</th></tr></thead>
-                    <tbody>
-                        <tr><td>Governing Law</td><td>CGST Act 2017 Sections 10, 35, 52; Income Tax Act Section 44AA and Section 194-O</td></tr>
-                        <tr><td>Applicable To</td><td>Gurugram mall stores, high-street boutiques, multi-outlet brands, supermarkets, and omnichannel sellers</td></tr>
-                        <tr><td>Starting Price</td><td>Starting from INR 3,499/mo (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Composition Limit</td><td>Up to INR 1.5 crore turnover for the 1 percent levy under Section 10 (no TCS marketplace sales)</td></tr>
-                        <tr><td>Marketplace TCS</td><td>1 percent under Section 52, filed in seller GSTR-8, matched to GSTR-2B</td></tr>
-                        <tr><td>Records Retention</td><td>6 years under Section 35 CGST Act and Rule 6F</td></tr>
-                        <tr><td>Local Authority</td><td>Haryana GST (Gurugram); RoC Delhi (MCA); Haryana profession tax</td></tr>
-                    </tbody>
-                </table>
-                </div>
-
-                <p>Gurugram is NCR's premium shopping destination, and that shapes how its retail books look. A fashion store inside an MG Road mall such as MGF Metropolitan or Sahara Mall typically pays the higher of a minimum guarantee or a revenue-share slice of its sales, on top of CAM, so occupancy cost moves with footfall. A lifestyle boutique in Galleria Market in DLF Phase 4 runs leaner but still juggles seasonal buying and card-led tenders. A premium F&B-retail outlet in Cyber Hub or DLF CyberCity sees almost every bill settle through card or UPI. Retail accounting pulls all of this into one clean set of numbers. For the broader picture, see our national <a href="/accounting-services-for-retail">Retail Sector Accounting</a> service.</p>
-                <p>Patron Accounting's Gurugram team books the revenue-share or minimum-guarantee rent correctly, splits CAM from base rent, posts day-wise sales by outlet, reconciles every card and UPI tender, and grosses up marketplace payouts so GST B2C figures always tie out. For the day-to-day books beneath this, see our <a href="/accounting-services">Accounting Services</a>. This page is reviewed quarterly for accuracy.</p>
+                <p>Margins look healthy until a till is left out. You send the day-end POS export and the purchase invoices; back comes a coded ledger, gross margin by till and a variance list naming the counters that did not tie. Patron's <a href="/blog/retail-accounting-gurugram-mall">retail accounting for Gurugram stores</a> also produces the sales certificate a mall landlord asks for, because revenue-share rent cannot be accrued until certified takings and the POS export agree. Handover for mall-format tenants follows the same rhythm.</p>
+                <p>Three things move the effort: how many tills feed the ledger, how many entities sit behind the outlets, and whether stock is central or store by store. Retail accounting in Gurugram gets heavier once outlets straddle the Haryana border, because each registered place of business then keeps its own stock record and transfer trail. Deadlines sit with Haryana Excise and Taxation. Certification is a distinct assignment.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is Retail Sector Accounting?</h2>
+                <h2 class="section-title">What Do Retail Accounting Services Mean for Gurugram Businesses?</h2>
                 <div class="content-text what-is-definition">
-                    <p>Retail sector accounting is the specialised bookkeeping that captures high-volume, low-value sales across stores and online channels, reconciles every tender, values stock accurately, and books complex occupancy costs so the owner knows the real margin per outlet.</p>
-                    <p>In Gurugram, the occupancy side matters more than in most cities. For a single MG Road mall store it means accounting for a revenue-share or minimum-guarantee lease, separating CAM and marketing-fund charges, importing the POS day-close, and matching card and UPI to the bank. For a multi-outlet brand across Sector 29 and Galleria Market it adds inter-store transfers, location-wise stock, and group consolidation. For an omnichannel seller it means unpacking Amazon, Flipkart, and Nykaa settlement reports, where the bank credit is only the residue after commission, TCS, Section 194-O TDS, logistics, and returns.</p>
-                    <p>This works hand in hand with GST, since Gurugram retail blends B2C counter sales with marketplace TCS. If your business is mostly online, our <a href="/accounting-services-for-e-commerce-industry/gurugram">E-commerce Accounting in Gurugram</a> page covers platform reconciliation in more depth.</p>
+                    
+                    <p>Retail accounting services in Gurgaon are a monthly engagement whose single job is to make the counter&#x27;s story and the ledger&#x27;s story the same at every close. Everything else follows from that: the day&#x27;s tender breakdown, the card settlements that land net of fees, and the stock that should remain once sales are stripped out. The engagement owns the reconciliation, not the selling or the buying.</p>
+<p>Because the number has to be defensible, the work also carries stock loss as a provision as it arises, and holds each outlet&#x27;s record apart where a chain runs several. Haryana levies no profession tax, so the payroll side of a store&#x27;s books stays lighter than in a neighbouring state, though little else changes. Retail accounting services in Gurgaon end at a set of books a manager, an owner or a lender can rely on, rather than at the raw till exports they begin from.</p>
+
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Retail Accounting in Gurugram:</strong></p>
-                    <p><strong>Revenue-Share / Minimum-Guarantee Lease:</strong> Booking the higher of a fixed rent or a percentage of sales each month, the standard structure in Gurugram malls.</p>
-                    <p><strong>CAM Charges:</strong> Common Area Maintenance recorded apart from base rent so true occupancy cost is visible per outlet.</p>
-                    <p><strong>POS Reconciliation:</strong> Matching each store day-close (cash, card, UPI) to the bank and the sales ledger.</p>
-                    <p><strong>Settlement Reconciliation:</strong> Rebuilding a marketplace payout into taxable sales by adding back commission, TCS, TDS, logistics, and returns.</p>
-                    <p><strong>Composition Levy:</strong> A 1 percent flat scheme under Section 10 for small traders below INR 1.5 crore who do not sell through TCS marketplaces.</p>
+                    <p><strong>Key Terms for Retail Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/point-of-sale-pos-day-end-audit">Point-of-Sale (POS) Day-End Audit</a></span><span class="al-d">The end-of-day check tying till takings to cash banked and card receipts.</span></li><li><span class="al-t"><a href="/glossary/inventory-shrinkage-provision">Inventory Shrinkage Provision</a></span><span class="al-d">Money set aside for expected stock loss so margin is not overstated.</span></li><li><span class="al-t"><a href="/glossary/retail-inventory-method">Retail Inventory Method</a></span><span class="al-d">Valuing closing stock by working back from shelf price to cost.</span></li></ul></div>
+
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="35" y="35" width="130" height="110" rx="8" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="50" y1="58" x2="150" y2="58" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/>
-                            <line x1="50" y1="76" x2="130" y2="76" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
-                            <line x1="50" y1="92" x2="140" y2="92" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
-                            <line x1="50" y1="108" x2="120" y2="108" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
-                            <circle cx="150" cy="40" r="20" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M141 40l6 6 12-12" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <text x="100" y="168" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">POS, Stock, GST Reconciled</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Gurugram Retail</span>
-                        <strong>POS | Stock | GST 2B</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/what-is-gurugram.webp" alt="What Are Retail Accounting Services. Retail accounting keeps to a simple rule: the till, the stock record and the in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO NEEDS IT -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Retail Accounting in Gurugram?</h2>
+            <h2 class="section-title">Who Needs Retail Accounting Services in Gurugram: From Cyber Hub to Growing SMEs</h2>
             <div class="content-text">
-                <p>If your Gurugram business sells goods to end customers, whether from a mall unit, a high-street boutique, several outlets, or online marketplaces, retail-specific accounting keeps occupancy cost, margin, and GST under control.</p>
-                <ul>
-                    <li><strong>Mall Fashion and Lifestyle Stores (MG Road/Ambience Mall)</strong> - Outlets on revenue-share or minimum-guarantee leases with high CAM and footfall-driven sales.</li>
-                    <li><strong>High-Street Boutiques (Galleria Market/Sector 29)</strong> - Curated fashion, gifting, and dining-retail brands with seasonal buying and card-heavy tenders.</li>
-                    <li><strong>Multi-Outlet Brands (Sohna Road/Cyber Hub)</strong> - Apparel, footwear, and accessory chains needing location-wise stock and group margin consolidation.</li>
-                    <li><strong>Omnichannel Sellers</strong> - Sector 29 and DLF brands selling on Amazon, Flipkart, and Nykaa alongside a physical store, with TCS and settlements to reconcile.</li>
-                    <li><strong>Premium F&B-Retail Outlets (Cyber Hub/DLF CyberCity)</strong> - Card and UPI heavy counters with tight inventory turns and daily reconciliation needs.</li>
-                    <li><strong>Composition-Scheme Traders</strong> - Smaller Gurugram shops below INR 1.5 crore needing CMP-08 and GSTR-4 filed correctly under Section 10.</li>
-                </ul>
+                
+                <p>Retail accounting services in Gurgaon suit a store the moment its counter cash, card and UPI stop matching the bank deposit. Once a second till opens on MG Road or in Sector 29, each outlet has to be judged on its own figures.</p>
+  <ul>
+    <li>Standalone shops contributing to the <a href="/blog/haryana-shops-act-lwf-compliance">Haryana Labour Welfare Fund</a> as they move onto POS billing.</li>
+    <li>Fashion stores in Sector 29 whose loyalty points and gift cards pile into an unbooked liability.</li>
+    <li>Appliance retailers on MG Road that never chase down the supplier rebates owed to them.</li>
+    <li>Grocery chains in New Gurugram whose many tills feed one deposit every evening.</li>
+    <li>Pharmacy shops on Sohna Road discarding out-of-date batches that never touch the margin sheet.</li>
+    <li>Apparel outlets losing ground to shrinkage that only surfaces at the next stock count.</li>
+    <li>Franchisees remitting royalty on reported turnover while all counter cash lands in a single account.</li>
+  </ul>
+
+            </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Our Retail Accounting Services in Gurugram</h2>
+            <h2 class="section-title">Retail Accounting Services Included for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Lease and CAM Accounting</td><td>Book the higher of minimum guarantee or revenue-share rent each month, split out CAM and marketing-fund charges, and claim eligible input tax credit.</td></tr>
-                        <tr><td>POS and Tender Reconciliation</td><td>Pull each outlet day-close and tie cash, card, and UPI collections to the bank and the sales ledger, store by store.</td></tr>
-                        <tr><td>Multi-Outlet Inventory Accounting</td><td>Track stock by location, record inter-store transfers and shrinkage, and value closing stock for accurate per-outlet margin.</td></tr>
-                        <tr><td>Marketplace Settlement Matching</td><td>Rebuild Amazon, Flipkart, and Nykaa payouts, add back commission, TCS, Section 194-O TDS, logistics, and returns, and tie to bank.</td></tr>
-                        <tr><td>GST B2C and Composition Returns</td><td>File GSTR-1 and GSTR-3B for regular dealers, or CMP-08 and GSTR-4 for composition shops, and match TCS in GSTR-2B under Haryana GST.</td></tr>
-                        <tr><td>Payroll and Statutory Support</td><td>Store staff payroll, Haryana profession tax, and TDS so a growing Gurugram retail team stays compliant.</td></tr>
+                        <tr><td>Store stock and shrinkage control</td><td>Multi-store stock reconciled and a shrinkage provision raised for outlets around Udyog Vihar and Cyber City under retail accounting services in gurgaon <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>POS to ledger reconciliation</td><td>Daily Z-reports and tender-type breakups posted and reconciled to the ledger so each store closes cleanly every period <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Retail bookkeeping and ledgers</td><td>Full retail bookkeeping services in gurgaon covering purchase, sales and cash ledgers kept current for every store you run <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Merchant settlement and margin reporting</td><td>Card and UPI settlements matched to takings so discount charges are booked and real margin per store is reported <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Supplier rebate and scheme claims</td><td>Rebate, scheme and margin-support entitlements tracked against purchases so no supplier credit is missed across your outlets <span class="badge-included">Quarterly</span></td></tr>
+                        <tr><td>Voucher liability and GST workings</td><td>Gift voucher liability tracked and GST return workings prepared per store, aligned with <a href="/accounting-services-for-retail">Retail Accounting Services in India</a> <span class="badge-included">Monthly</span></td></tr>
+
                     </tbody>
                 </table>
                 </div>
-                <p>Want the underlying compliance as well? See <a href="/gst-returns">GST Return Filing</a> and <a href="/income-tax-return">Income Tax Return Filing</a> across India.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 7: PROCESS STEPS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How Retail Accounting Works in Gurugram: 6-Step Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">A CA-supervised method built for Gurugram's mall-led retail, from mapping your leases and channels to a monthly margin and occupancy MIS.</p>
+            <h2 class="section-title">How Retail Accounting Services Work in Gurugram — Step by Step</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers retail accounting for Gurugram businesses, step by step.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Outlet, Lease, and Channel Mapping</h3><p class="step-description">Our CA records every outlet, its lease type, CAM terms, POS system, bank account, GSTIN, and marketplace channel. An MG Road mall store, a Galleria Market boutique, and an Amazon listing are each scoped, so the books are structured before any posting begins. A fixed quote follows.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Leases Mapped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fixed Quote</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="45" cy="42" r="15" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><path d="M45 35v14M38 42h14" stroke="#14365F" stroke-width="2" stroke-linecap="round"/><line x1="70" y1="30" x2="95" y2="30" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="70" y1="42" x2="90" y2="42" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/></svg></div><span class="illustration-label">Mapped</span><span class="step-number-large">01</span></div></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Till report to tender breakup</h3>
+    <p class="step-description">Each till's daily Z-report is reconciled to the tender split: cash, card, UPI, wallet, voucher and credit sales. The point-of-sale total is the sales figure; the tender lines are only the ways that same sale was settled.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/step-1-till-report-to-tender-breakup-gurugram.webp" alt="Illustration for Till report to tender breakup: Each till's daily Z-report is reconciled to the tender split: cash, card, in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Acquirer settlement and discount rate</h3>
+    <p class="step-description">Card and UPI acquirer statements are matched to the card and UPI tender lines batch by batch. The merchant discount charge is recorded as a cost so revenue stays gross, and chargebacks and unsettled batches are carried as open items.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/step-2-acquirer-settlement-and-discount-rate-gurugram.webp" alt="Illustration for Acquirer settlement and discount rate: Card and UPI acquirer statements are matched to the card and UPI in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Cash up to deposit trail</h3>
+    <p class="step-description">Cash counted at close is traced through the cash-up sheet and deposit slip to the bank credit for each store and each day. Shortages and excesses go to their own account instead of being absorbed into sales, and petty cash runs on an imprest.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/step-3-cash-up-to-deposit-trail-gurugram.webp" alt="Illustration for Cash up to deposit trail: Cash counted at close is traced through the cash-up sheet and deposit slip to the in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Location stock and shrinkage</h3>
+    <p class="step-description">Stock is kept per location using goods receipts, inter-store transfer notes and physical counts, with transfers agreed at both ends so nothing sits in transit indefinitely. Write-offs are posted only against an approval, not to force a count to agree.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/step-4-location-stock-and-shrinkage-gurugram.webp" alt="Illustration for Location stock and shrinkage: Stock is kept per location using goods receipts, inter-store transfer notes in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Supplier scheme and rebate claims</h3>
+    <p class="step-description">Scheme, rebate and margin-support claims are matched to the supplier credit note and to the purchases they relate to. They are treated as a reduction in cost rather than as other income, with the tax treatment of the credit note checked against the underlying supply.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/step-5-supplier-scheme-and-rebate-claims-gurugram.webp" alt="Illustration for Supplier scheme and rebate claims: Scheme, rebate and margin-support claims are matched to the supplier in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Voucher and loyalty liability</h3>
+    <p class="step-description">Gift vouchers sold are carried as a liability until redeemed, and unredeemed value is released only on a stated policy. Transactions in vouchers themselves are outside the charge, so tax attaches to the underlying goods at redemption, and loyalty points are provided for.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/step-6-voucher-and-loyalty-liability-gurugram.webp" alt="Illustration for Voucher and loyalty liability: Gift vouchers sold are carried as a liability until redeemed, and unredeemed in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Store payroll and incentive accrual</h3>
+    <p class="step-description">Incentives are accrued against the sales that earned them, not the month they are paid out. Haryana levies no profession tax, so the deduction schedule is shorter here, but its labour welfare contribution is payable monthly and is easily under-accrued by teams used to other states.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/gurugram/step-7-store-payroll-and-incentive-accrual-gurugram.webp" alt="Illustration for Store payroll and incentive accrual: Incentive and commission are computed on each store's achieved sales in Gurugram" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">POS, Bank, and Marketplace Setup</h3><p class="step-description">We import your POS day-close, bank feeds, and Amazon, Flipkart, and Nykaa settlement reports into Tally or Zoho Books. The chart of accounts is built with outlet and channel cost centres, plus separate heads for base rent and CAM, so every rupee traces to where it was earned or spent.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Feeds Connected</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Cost Centres</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="28" y="25" width="64" height="8" rx="2" fill="#E8712C" opacity="0.3"/><rect x="28" y="38" width="48" height="8" rx="2" fill="#14365F" opacity="0.15"/><rect x="28" y="51" width="56" height="8" rx="2" fill="#14365F" opacity="0.15"/><circle cx="92" cy="62" r="12" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M87 62l3 3 7-7" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Set Up</span><span class="step-number-large">02</span></div></div></div>
-
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Daily Sales and Stock Posting</h3><p class="step-description">Counter and online sales are posted day-wise against the right outlet, HSN, and tax rate. Purchases, inter-store transfers, and stock adjustments are recorded so closing inventory and cost of goods sold stay correct for each Gurugram location, from Sector 29 to Cyber Hub.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Sales Posted</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Stock Tracked</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="20" width="45" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="32" y="50" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">POS</text><rect x="65" y="20" width="45" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="87" y="50" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">Books</text><path d="M55 47h10" stroke="#E8712C" stroke-width="2.5" stroke-linecap="round"/><path d="M60 42l5 5-5 5" stroke="#E8712C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Posted</span><span class="step-number-large">03</span></div></div></div>
-
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Tender, Rent, and Settlement Reconciliation</h3><p class="step-description">Every cash, card, and UPI tender is reconciled to the bank, the revenue-share rent is recalculated against actual POS sales, and each marketplace payout is grossed up to taxable sales. TCS under Section 52 is checked against GSTR-2B so no input credit slips for the period.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Rent Verified</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>TCS Matched</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="15" width="90" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="25" y="55" width="12" height="15" rx="2" fill="#E8712C" opacity="0.6"/><rect x="42" y="40" width="12" height="30" rx="2" fill="#14365F" opacity="0.4"/><rect x="59" y="30" width="12" height="40" rx="2" fill="#E8712C" opacity="0.6"/><rect x="76" y="25" width="12" height="45" rx="2" fill="#14365F" opacity="0.4"/></svg></div><span class="illustration-label">Reconciled</span><span class="step-number-large">04</span></div></div></div>
-
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">GST Filing and Compliance</h3><p class="step-description">B2C sales flow into GSTR-1 and GSTR-3B for regular dealers, or CMP-08 and GSTR-4 for composition shops, under Haryana GST. We compute liability, reconcile marketplace TCS, and file on time so a Gurugram retailer never carries an unmatched credit into the next period.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Returns Filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Credit Protected</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="40" r="16" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><path d="M60 32v8l5 4" stroke="#14365F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Filed</span><span class="step-number-large">05</span></div></div></div>
-
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Monthly Margin and Occupancy MIS</h3><p class="step-description">Each month a CA reviews the books and delivers a clear MIS: gross margin by outlet and channel, occupancy cost as a share of sales, best and slow-moving SKUs, and closing stock. You see exactly which MG Road or Sector 29 outlet earns after rent and CAM, and where cash sits idle.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>MIS Delivered</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Margin Clear</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="10" width="70" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="37" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M52 37l5 5 12-12" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="72" width="50" height="12" rx="6" fill="#F5A623" opacity="0.3"/><text x="60" y="81" font-size="6" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">MIS READY</text></svg></div><span class="illustration-label">Reported</span><span class="step-number-large">06</span></div></div></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Retail Accounting in Gurugram</h2>
+            <h2 class="section-title">Documents Required for Retail Accounting Services</h2>
             <div class="content-text">
-                <ul>
-                    <li><strong>Lease and CAM Agreements</strong> - Mall lease terms, minimum guarantee, revenue-share percentage, and CAM schedules</li>
-                    <li><strong>POS Day-Close Reports</strong> - Daily tender-wise sales summary for each outlet</li>
-                    <li><strong>Bank and Payment-Gateway Statements</strong> - For every account, plus card and UPI settlement files</li>
-                    <li><strong>Marketplace Settlement Reports</strong> - Amazon, Flipkart, and Nykaa payout and tax statements</li>
-                    <li><strong>Sales and Purchase Invoices</strong> - Including supplier schemes and credit and debit notes</li>
-                    <li><strong>Stock and Inventory Registers</strong> - Opening stock, purchases, transfers, and physical count sheets</li>
-                    <li><strong>GST Registration Certificate</strong> - Haryana GSTIN for each registration or composition enrolment</li>
-                    <li><strong>PAN of the Business Entity</strong></li>
-                    <li><strong>Payroll and Staff Records</strong> - Store staff salary and Haryana profession tax details</li>
-                    <li><strong>Existing Accounting File</strong> - Tally, Zoho Books, or QuickBooks data, if any</li>
-                </ul>
-                <div class="highlight-box">
-                    <p>All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                </div>
+                
+                <p>Store paperwork aside, Haryana&#x27;s contribution is a Form F registration and a welfare fund challan that falls due every month.</p>
+<ul>
+    <li>Daily sales summary / Z-report per till per store from the POS or billing software</li>
+    <li>Tender-type / mode-of-payment breakup: cash, card, UPI, wallet, gift voucher, credit sales</li>
+    <li>Card and UPI acquirer settlement statements (MDR statements)</li>
+    <li>Cash-up sheets, petty cash book and cash deposit slips per store</li>
+    <li>Stock records per location: opening stock, GRNs, inter-store transfer notes, physical count sheets and shrinkage/write-off approvals</li>
+    <li>Purchase invoices, GRNs and supplier credit notes including scheme, rebate and margin-support claims</li>
+    <li>Bank statements for every store and pooled account</li>
+    <li>Registration certificate (Form F) under the Punjab Shops and Commercial Establishments Act, 1958 as applicable to Haryana</li>
+    <li><a href="/blog/haryana-shops-act-lwf-compliance">Haryana Labour Welfare Fund</a> MONTHLY contribution challan and the contribution statement</li>
+</ul>
+
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES AND SOLUTIONS -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Retail Challenges and How Patron Solves Them</h2>
+            <h2 class="section-title">Retail Accounting Challenges Specific to Gurugram: Udyog Vihar SEZ vs DTA, HSIIDC Plots and IMT Manesar Costing</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Challenge</th><th>Patron's Solution</th></tr></thead>
+                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>Revenue-share rent booked at the wrong figure</td><td>Recompute the minimum guarantee against the sales-percentage each month and book the higher amount, tied to actual POS sales.</td></tr>
-                        <tr><td>CAM lumped into base rent</td><td>Split CAM, marketing fund, and utilities into separate heads and claim eligible input tax credit on each mall invoice.</td></tr>
-                        <tr><td>Net marketplace payout treated as revenue</td><td>Gross up every Amazon, Flipkart, and Nykaa settlement to taxable sales, recording commission, TCS, and TDS separately.</td></tr>
-                        <tr><td>Stock gaps across Gurugram outlets</td><td>Location-wise inventory with inter-store transfer entries and periodic physical counts to pin down shrinkage.</td></tr>
+                        <tr><td>Supplies from a Udyog Vihar SEZ unit into DTA billed like local sales</td><td>SEZ and DTA records diverge, and the zone unit's foreign-exchange working fails to reconcile</td><td>Our team tracks SEZ-to-DTA transfers separately for Udyog Vihar units, so zone books and domestic sales each reconcile.</td></tr>
+                        <tr><td>HSIIDC plot premium and annual lease rent lumped together</td><td>The one-time premium hits profit at once while the asset stays understated for years</td><td>Patron capitalises the HSIIDC leasehold premium and amortises it, keeping annual lease rent as period expense.</td></tr>
+                        <tr><td>Landed cost of stock trucked from IMT Manesar not built into inventory</td><td>Freight and handling sit in expenses while stock carries below cost, overstating margin</td><td>We load IMT Manesar inbound freight and handling into landed cost, so inventory and gross margin read accurately.</td></tr>
+                        <tr><td>Supplier scheme credits and target incentives booked as income on receipt</td><td>Incentives tied to purchases are recognised early and not netted from stock cost, so margin overstates.</td><td>Patron matches supplier incentives to the linked purchases and adjusts stock cost; see retail accounting for Gurugram stores.</td></tr>
+                        <tr><td>Sales returns and warranty replacements provided for only when they occur</td><td>Revenue is recognised in full while later returns and warranty claims hit a different period, distorting margin.</td><td>Our team provisions for expected returns and warranty cost against sales, matching the liability to the period earned.</td></tr>
+
                     </tbody>
                 </table>
                 </div>
@@ -1245,385 +782,764 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES + CTA 2 -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Retail Accounting Fees in Gurugram</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
-                <table class="table-amount">
+                <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 3,499/mo (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Additional Outlet or Channel</td><td>Priced per outlet and per marketplace based on volume</td></tr>
-                        <tr><td>Marketplace TCS (Section 52)</td><td>1 percent collected by the platform, claimed back via GSTR-2B (govt mechanism)</td></tr>
-                        <tr><td>Section 194-O TDS</td><td>0.1 percent on gross sales, deducted by the platform (govt charge)</td></tr>
-                        <tr><td>Accounting Software Subscription</td><td>Charged separately by Tally, Zoho, or the chosen provider</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one outlet with a single POS feed</td><td>INR 3,499 per month<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; more outlets, POS integrations and a larger SKU count</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-store books with custom stock and margin reporting</td><td>On quote</td></tr>
+
                     </tbody>
                 </table>
-                </div>
-                <div class="highlight-box">
-                    <p>All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the number of outlets, channels, lease complexity, and transaction volume. Government taxes such as TCS and TDS are statutory and adjusted through your GST and income tax returns.</p>
-                </div>
-
-                <div class="reviews-cta">
-                    <div class="reviews-cta-content">
-                        <div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
-                        <div class="reviews-cta-text">
-                            <h3>Get a fixed monthly quote for your Gurugram retail business</h3>
-                            <p>Share your outlets, leases, and channels and we respond within 2 hours.</p>
-                        </div>
-                    </div>
-                    <a href="tel:+919459456700" class="btn-cta">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                        Call +91 945 945 6700
-                    </a>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">One Gurugram outlet with a single POS feed sits at the entry price of <strong>INR 3,499 per month</strong>, the same rate charged nationally and set by scope. It climbs as outlets, POS integrations and SKU counts grow. Haryana has no profession tax, so only add-ons like Shops Act registration bill at actuals; see <a href="/blog/haryana-shops-act-lwf-compliance">Haryana employer compliance</a>. Request a customised estimate on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Retail Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20retail%20in%20Gurugram" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIME TAKEN -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Retail Accounting Turnaround in Gurugram</h2>
+            <h2 class="section-title">Retail Accounting Compliance Calendar 2026 for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Retail Setup</th><th>Typical Cycle</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Single mall store, counter only</td><td>Onboarding in 3 to 5 days; books closed within 5 days of month-end</td></tr>
-                        <tr><td>Multi-outlet brand</td><td>Onboarding in 1 to 2 weeks; outlet-wise close within 7 to 10 days of month-end</td></tr>
-                        <tr><td>Omnichannel seller</td><td>Onboarding in 1 to 2 weeks; settlement reconciliation monthly before GSTR-3B</td></tr>
-                        <tr><td>Supermarket or high-SKU vendor</td><td>Onboarding in 2 to 3 weeks; daily POS posting with monthly stock reconciliation</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered Gurugram businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th monthly for turnover above Rs 5 crore; 24th quarterly under QRMP for turnover up to Rs 5 crore (Category Y)</td><td>GST-registered businesses in Gurugram</td></tr>
+                        <tr><td>Advance tax second instalment (45% cumulative)</td><td>15 September 2026</td><td>Companies, firms and individuals liable to advance tax</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered Gurugram businesses above the annual-return and audit thresholds</td></tr>
+
                     </tbody>
                 </table>
                 </div>
-                <p>How fast we move depends on how cleanly POS, lease, and settlement data exports and on how many outlets and channels you operate. A single Galleria Market boutique onboards quickest; a multi-mall brand with Amazon and Nykaa needs a little longer to map leases and channels.</p>
+                <div class="highlight-box" style="margin-top:16px;">
+                    
+                    <p>In Gurugram, a store files GSTR-3B on the 24th under QRMP and depends on POS-to-books reconciliation first. B2C sales must reconcile to the till before each monthly return. Haryana levies no professional tax, so GST and TDS set the local pace. For retail accounting services in Gurgaon, request a consultation on +91 94594 56700; our <a href="/blog/haryana-shops-act-lwf-compliance">local notes</a> go deeper.</p>
+
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
-        <div class="why-choose-header">
-            <h2 class="section-title" style="text-align:center;">Why Choose Patron for Retail Accounting in Gurugram</h2>
+        <div style="text-align:center;margin-bottom:48px;">
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
+            <h2 class="section-title">Why Professional Retail Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
-                <h3 class="feature-title">Mall-Lease Specialists</h3>
-                <p class="feature-text">We understand revenue-share and minimum-guarantee structures, CAM splits, POS data, and marketplace settlements, so occupancy cost and margin land right the first time.</p>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">Cash shortfalls traced to a shift</h3>
+  <p class="feature-text">We trace each store's counted cash to its deposit slip and bank credit, so a shortfall shows against one shift.</p><ul style="margin-top:12px;"><li>Shortages sit in a dated account against the named store</li><li>Cash-up sheets, petty cash book and deposit slips reconciled daily</li><li>Without it, a steady cash leak hides inside sales</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" /> <path d="M12 22V12" /> <polyline points="3.29 7 12 12 20.71 7" /> <path d="m7.5 4.27 9 5.15" /> </svg></div>
+  <h3 class="feature-title">True margin after card costs</h3>
+  <p class="feature-text">You keep revenue gross and see the card and UPI merchant discount as a cost you can read per store.</p><ul style="margin-top:12px;"><li>Merchant discount from card and UPI acquirers posts as a visible cost</li><li>Read from MDR settlement statements, per store</li><li>Without the split, chargebacks and unsettled batches count as sales</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> </svg></div>
+  <h3 class="feature-title">Shrinkage you can act on</h3>
+  <p class="feature-text">We hold stock per location, so a gap between the count and the ledger points at one outlet, category and month.</p><ul style="margin-top:12px;"><li>Physical count sheets checked against the ledger per location</li><li>Write-off approvals tie each loss to a shop and month</li><li>Without it, missing stock becomes one year-end write-off, nothing recovered</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m11 17 2 2a1 1 0 1 0 3-3" /> <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" /> <path d="m21 3 1 11h-2" /> <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" /> <path d="M3 4h8" /> </svg></div>
+  <h3 class="feature-title">Supplier claims fully collected</h3>
+  <p class="feature-text">We match every scheme, rebate and margin-support claim to the supplier credit note, so cost of goods falls where it should.</p><ul style="margin-top:12px;"><li>Scheme, rebate and margin-support claims matched to their purchases</li><li>Evidenced by supplier credit notes and rebate claims</li><li>Without tracking, claims lapse and negotiated buying margin is never realised</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Voucher liability kept honest</h3>
+  <p class="feature-text">We hold gift vouchers and loyalty points as a liability until redeemed, releasing them only on a written policy.</p><ul style="margin-top:12px;"><li>Gift-voucher and loyalty liability reports track the balance</li><li>Released to revenue only on redemption, per policy</li><li>Without it, a festive run flatters one quarter, cost lands later</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3 4 7l4 4" /> <path d="M4 7h16" /> <path d="m16 21 4-4-4-4" /> <path d="M20 17H4" /> </svg></div>
+  <h3 class="feature-title">Incentives matched to their sales</h3>
+  <p class="feature-text">We accrue store incentive and commission in the month the sales were achieved, not the month they are paid.</p><ul style="margin-top:12px;"><li>Payroll register per store carries the incentive workings</li><li>Accrued to the sales month, not the payment month</li><li>Without it, appraisals judge a manager on mistimed payouts</li></ul>
+</article>
+</div>
+    </div>
+</section>
+
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Why Retail Accounting Services Clients in Gurugram Choose Patron Accounting</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>POS reconciled to the ledger daily</strong><p>We tie each till's POS totals back to the ledger so stock shrinkage surfaces between counts, not at audit. That daily sales reconciliation discipline comes from our 15+ years of experience.</p></div>
+                <div><strong>B2C invoicing, composition thresholds and store-wise GST</strong><p>We handle B2C invoice series, store-wise GST registration and the composition scheme threshold as routine work, part of the 25,000+ filings we have completed.</p></div>
+                <div><strong>POS, ERP and gateways in one chart of accounts</strong><p>We set up the software your finance team already runs, whether Zoho Books, Xero, Tally Prime or Odoo. Your POS, ERP and payment gateway feeds map into a single retail chart of accounts.</p></div>
+                <div><strong>Store-wise P&L and stock variance every month</strong><p>Every month we produce store-wise profit and loss and stock variance reports across your outlets, and run counter-staff payroll under Haryana Labour Welfare Fund rules. This routine sits within our 25,000+ filings completed.</p></div>
+                <div><strong>Store teams supported from Sector 29 to Cyber Hub</strong><p>Our Gurugram team supports stores from Sector 29 and Cyber Hub to Golf Course Road. All are counted among the 3,000+ businesses served since 2019, at a 4.9 star Google rating.</p></div>
             </div>
-            <div class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg></div>
-                <h3 class="feature-title">Haryana GST and TCS Accurate</h3>
-                <p class="feature-text">We reconcile marketplace TCS to GSTR-2B, file B2C returns under Haryana GST correctly, and advise composition versus regular GST under Section 10.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
-                <h3 class="feature-title">Software Agnostic</h3>
-                <p class="feature-text">Books run inside Tally Prime, Zoho Books, or QuickBooks, plugging into your existing POS and billing without forcing a migration.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
-                <h3 class="feature-title">Fixed Monthly Pricing</h3>
-                <p class="feature-text">A clear retainer from INR 3,499/mo scoped to your outlets, leases, and channels, keeping costs predictable as you scale.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></div>
-                <h3 class="feature-title">On-Ground Gurugram Knowledge</h3>
-                <p class="feature-text">Our Sohna Road HQ knows Haryana GST practice and the retail belts of MG Road, Cyber Hub, Ambience Mall, Sector 29, and Galleria Market.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
-                <h3 class="feature-title">Margin After Rent</h3>
-                <p class="feature-text">A monthly MIS that shows margin by outlet, channel, and SKU net of rent and CAM, so you back the winners and exit the dead inventory.</p>
-            </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: COMPARISON TABLE -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">In-House Bookkeeping vs Patron Retail Accounting</h2>
+            <h2 class="section-title">Retail Inventory Method vs Cost Method: for Gurugram Businesses</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
-                <table class="table-comparison">
-                    <thead><tr><th>Factor</th><th>Patron Professional</th><th>In-House / DIY</th></tr></thead>
+                <table>
+                    <thead><tr><th>Criterion</th><th>Retail Inventory Method</th><th>Cost Method</th></tr></thead>
                     <tbody>
-                        <tr><td>Revenue-share rent and CAM</td><td>Higher-of computed monthly; CAM split and ITC claimed</td><td>Flat rent assumed; occupancy cost understated</td></tr>
-                        <tr><td>POS to bank reconciliation</td><td>Daily, tender-wise, with shortfalls flagged</td><td>Often monthly; card and UPI gaps missed</td></tr>
-                        <tr><td>Marketplace settlement</td><td>Grossed up; commission, TCS, TDS split out</td><td>Net payout booked as sales; margin wrong</td></tr>
-                        <tr><td>Outlet-wise stock and margin</td><td>Tracked per location with MIS</td><td>Group-level only; weak outlets hidden</td></tr>
-                        <tr><td>GST and TCS reconciliation</td><td>Matched to GSTR-2B every month</td><td>Skipped; input credit lost</td></tr>
+                        <tr><td>Method in brief</td><td>Estimates stock cost from the retail selling price using a category cost-to-retail percentage.</td><td>Records the real landed cost of every item and releases it as goods sell.</td></tr>
+                        <tr><td>Fit for store format</td><td>Suits large Cyber City mall stores and quick-service counters carrying thousands of fast-moving lines.</td><td>Better for boutique DTA outlets and electronics stores holding fewer, higher-value units.</td></tr>
+                        <tr><td>Approval under standards</td><td>Ind AS 2 and AS 2 allow it only where the estimate stays close to actual cost.</td><td>Always compliant because cost is measured directly rather than approximated.</td></tr>
+                        <tr><td>Margin mix handling</td><td>Struggles when a mall store blends discounted and full-price ranges, blurring the pooled ratio.</td><td>Holds up across uneven mark-ups because each line carries its own recorded cost.</td></tr>
+                        <tr><td>Stocktake effort</td><td>Lighter counting since value derives from retail tags, useful for high-footfall Udyog Vihar showrooms.</td><td>Heavier recording per SKU, but shrinkage and theft show up item by item.</td></tr>
+                        <tr><td>Reporting depth</td><td>Quick department margins for weekly review, weaker on single-product profitability.</td><td>Precise per-item margin that supports range rationalisation and buying decisions.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Gurugram malls can run the retail inventory method when the cost-to-retail ratio is refreshed, while low-volume, high-value stores suit the cost method. Retail accounting services in Gurgaon follow the standard; see Retail Accounting Services in India.</td></tr>
+
                     </tbody>
                 </table>
                 </div>
-                <p>Selling heavily online too? Compare with <a href="/accounting-services-for-e-commerce-industry/gurugram">E-commerce Accounting in Gurugram</a> and our national <a href="/gst-returns">GST Return Filing</a> service.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 14: RELATED / PARTNER SERVICES -->
-<section class="content-section" id="related-section">
+
+
+
+
+
+
+<section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
-            <p class="pa-block-sub">Start with the national retail service, then explore complementary services across India.</p>
-            <ul>
-                <li><a href="/accounting-services-for-retail">Retail Sector Accounting in India</a> - the national parent service</li>
-                <li><a href="/accounting-services">Accounting Services</a> - the bookkeeping foundation under your retail books</li>
-                <li><a href="/gst-returns">GST Return Filing</a> - B2C, composition, and regular returns</li>
-                <li><a href="/income-tax-return">Income Tax Return Filing</a> - file accurate ITRs on clean retail books</li>
-                <li><a href="/payroll-services">Payroll Services</a> - store staff payroll and profession tax</li>
-                <li><a href="/tax-audit">Tax Audit</a> - audit support when turnover crosses the threshold</li>
-            </ul>
-
-            <h3 style="margin-top:32px;margin-bottom:8px;">More Services in Gurugram</h3>
-            <div class="pa-cross-grid" style="margin-top:12px;">
-                <a href="/accounting-services/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
-                    <div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
-                <a href="/gst-returns/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
-                    <div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
-                <a href="/accounting-services-for-e-commerce-industry/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg></div>
-                    <div><div class="pa-card-title">E-commerce Accounting</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
-                <a href="/tally-accounting/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
-                    <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
-                <a href="/zoho-books-accounting/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
-                    <div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
-                <a href="/payroll-services/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
-                    <div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section" id="legal-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal Framework for Retail Accounting in India</h2>
+            <h2 class="section-title">Gurugram Rules for Retailers — Haryana Zero PT and LWF, B2C Invoicing Rules</h2>
             <div class="content-text">
-                <p><strong>CGST Act 2017, Section 10:</strong> A trader with turnover up to <strong>INR 1.5 crore</strong> can opt for the composition levy at <strong>1 percent</strong>, but cannot claim input tax credit, cannot issue a tax invoice, and cannot supply through a marketplace that collects TCS.</p>
-                <p><strong>CGST Act 2017, Section 52:</strong> E-commerce operators collect <strong>TCS at 1 percent</strong> (0.5 percent CGST + 0.5 percent SGST) on net taxable supplies and report it in GSTR-8; the seller reconciles it against GSTR-2B.</p>
-                <p><strong>CGST Act 2017, Section 35:</strong> Every registered person must maintain true and correct accounts of production, stock, inward and outward supply, and input tax credit, kept for <strong>6 years</strong>.</p>
-                <p><strong>Income Tax Act, Section 194-O:</strong> E-commerce operators deduct <strong>TDS at 0.1 percent</strong> on the gross amount of sales to participants, with an exemption for small individual and HUF sellers below INR 5 lakh who furnish PAN.</p>
-                <p><strong>Income Tax Act, Section 44AA and Haryana PT:</strong> Books must be maintained above the prescribed threshold, and Gurugram retailers register for <strong>Haryana profession tax</strong> on their employees and trade.</p>
-                <p>Authority reference: <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal (gst.gov.in)</a>.</p>
+                
+                <p>A Gurugram retailer deducts no profession tax from counter staff but tracks Haryana's monthly Labour Welfare Fund contribution, a local line that runs beneath the central GST rules on every walk-in sale. Where a chain keeps a Delhi outlet too, the two are distinct persons under GST.</p>
+<p>The Haryana line aside, the books follow the central B2C framework. Counter sales run on consolidated invoices, a modest shop may sit in composition, and the till is reconciled to takings each night, which is what a <a href="/glossary/point-of-sale-pos-day-end-audit">Point-of-Sale (POS) Day-End Audit</a> checks. Retail accounting services in Gurgaon answer to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>No profession tax in Haryana; Haryana Labour Welfare Fund</strong></span><span class="al-d">Counter and floor staff carry no profession tax but the monthly Labour Welfare Fund contribution is tracked.</span></li><li><span class="al-t"><strong>Rule 46 and Rule 46A, CGST Rules 2017</strong></span><span class="al-d">Use consolidated tax invoices, or an invoice-cum-bill of supply when a basket holds both taxable and exempt goods.</span></li><li><span class="al-t"><strong>Section 10, CGST Act 2017</strong></span><span class="al-d">Can take the composition scheme up to Rs 1.5 crore turnover, on a flat rate with no input tax credit.</span></li><li><span class="al-t"><strong>Section 25(4), CGST Act 2017</strong></span><span class="al-d">A Gurugram store and a Delhi outlet are distinct persons under GST, so inter-branch stock transfers are invoiced.</span></li><li><span class="al-t"><strong>Section 35(1) with Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">GST accounts are kept at the principal place of business with the audit trail enabled. Full national detail sits on the <a href="/accounting-services-for-retail">parent retail page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
+
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 16: FAQs (H3) -->
-<section class="content-section" id="faq-section">
+
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions: Retail Accounting in Gurugram</h2>
-                    <p class="faq-expanded__lead">Real questions from Gurugram mall stores, boutiques, and online sellers about leases, POS, and GST.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Retail Accounting in Gurugram'])
+                    <h2 class="faq-expanded__title">Retail Accounting in Gurugram FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on retail accounting for Gurugram businesses - scope, local compliance, documents and pricing.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books in Gurugram</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Retail Accounting in Gurugram</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">How is a mall revenue-share or minimum-guarantee lease accounted for a Gurugram store?</h3>
-                        <div class="faq-expanded__a"><p>Most MG Road and Ambience Mall leases charge the higher of a minimum guarantee or a revenue-share percentage of sales, plus CAM. Patron Accounting books the higher amount each month, accrues the rent correctly, and ties the revenue-share calculation to your POS sales so a footfall-based outlet never under or over states occupancy cost.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">How do you book CAM charges and other mall costs in Gurugram retail accounts?</h3>
-                        <div class="faq-expanded__a"><p>Common Area Maintenance is recorded separately from base rent so a Cyber Hub or Sahara Mall outlet sees its true occupancy cost. Patron splits CAM, marketing fund, utilities, and signage charges, claims eligible input tax credit on each, and reconciles the mall invoice against the GST portal so nothing is missed at month-end.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">Does a Gurugram retailer register for GST in Haryana or somewhere else?</h3>
-                        <div class="faq-expanded__a"><p>A store operating in Gurugram registers under Haryana GST for its place of business, and any additional warehouse or outlet is added as an extra place of business on the same GSTIN. Patron Accounting handles the Haryana registration, maps each MG Road or Sector 29 location, and files B2C returns so all your Gurugram supplies report cleanly.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How much does retail accounting cost in Gurugram?</h3>
-                        <div class="faq-expanded__a"><p>Fees begin at INR 3,499/mo (Exl GST and Govt. Charges). What you pay scales with store count, monthly bill volume, marketplace channels, and the number of GST registrations. A single Galleria Market boutique sits at the lower end, while a multi-mall brand also selling on Amazon and Nykaa pays more; you get a fixed quote first.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">How are Amazon, Flipkart, and Nykaa settlements reconciled for Gurugram sellers?</h3>
-                        <div class="faq-expanded__a"><p>Each payout is rebuilt back to gross taxable sales by adding back commission, Section 52 TCS, Section 194-O TDS, logistics, and returns, then matched to the bank credit and GSTR-1. The 1 percent marketplace TCS shown in GSTR-8 is reconciled to your GSTR-2B every month so a Sector 29 omnichannel brand loses no input credit.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What records must a Gurugram retail business retain under GST and income tax?</h3>
-                        <div class="faq-expanded__a"><p>Section 35 of the CGST Act 2017 and Section 44AA of the Income Tax Act require sales and purchase registers, stock records, cash book, and bank statements to be kept for 6 years. Patron maintains these per store and channel, along with Haryana profession tax records, so any audit or notice from the Haryana GST authority is answered fast.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">Should a small Gurugram shop choose composition or regular GST?</h3>
-                        <div class="faq-expanded__a"><p>A trader under INR 1.5 crore turnover may opt for the composition levy at 1 percent under Section 10 of the CGST Act 2017, but loses input tax credit and cannot sell through TCS marketplaces. A Galleria Market boutique listing on Amazon or Nykaa must stay in regular GST. Patron models both paths against your numbers before you decide.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">Can you run Gurugram retail books in Tally and Zoho Books with our POS?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Patron keeps retail books in Tally Prime, Zoho Books, or QuickBooks and pulls in your POS, card and UPI, and marketplace data. We post day-wise sales by outlet, reconcile every tender and channel, and deliver a monthly margin and stock MIS so a Cyber Hub or Ambience Mall store sees performance by location and product line.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a Gurugram retail store deduct professional tax from store staff?</h3>
+  <div class="faq-expanded__a"><p>No. Haryana levies no professional tax, but the Haryana Labour Welfare Fund does apply, with an employee and employer contribution recovered through payroll and deposited by the establishment. A Gurugram store therefore carries an LWF line in its salary register that a Delhi store does not. We maintain the LWF register beside EPF and ESI so a labour inspection has one consistent source.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">When does a Gurugram retailer file GSTR-3B, and what must be reconciled first?</h3>
+  <div class="faq-expanded__a"><p>Haryana sits in Category Y, so QRMP filers up to Rs 5 crore turnover file by the 24th of the month after the quarter, and retailers above Rs 5 crore file monthly by the 20th. Before filing, your POS day-end totals, card settlements and cash banked have to agree with the B2C table, or you declare turnover your bank statement cannot support.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a Golf Course Road store need Haryana Shops and Establishment registration?</h3>
+  <div class="faq-expanded__a"><p>Yes, a commercial establishment in Gurugram registers under the Haryana Shops and Establishments Act, and the registration, employee registers and wage records are the first things an inspection asks for. Renewal fees and penalties sit in your compliance schedule. We reconcile the headcount declared on the registration against payroll each quarter, because mall staff turnover on Golf Course Road makes that number drift fast.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you account for a revenue-share rent in a Gurugram mall?</h3>
+  <div class="faq-expanded__a"><p>Minimum guarantee rent, revenue share above the threshold and CAM charges are booked as three separate expense heads, with GST input credit claimed only where the landlord's invoice actually appears in GSTR-2B. Cyber Hub and Golf Course Road leases usually bill CAM and electricity apart from rent. Recording them as one figure hides store-level margin and turns lease renegotiation into guesswork.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is stock tracked across four Gurugram stores and a warehouse in Udyog Vihar?</h3>
+  <div class="faq-expanded__a"><p>Each store and the Udyog Vihar warehouse is created as a separate godown, so transfers move on a delivery challan and stock on hand is visible per location rather than as one company total. Shrinkage then becomes provable store by store. Without it, a Gurugram chain cannot tell whether a variance arose at the Cyber City counter or inside the warehouse.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Why does a Gurugram retail POS report never match the GST return?</h3>
+  <div class="faq-expanded__a"><p>Because POS captures sale value at the till, while GST needs taxable value split by rate and net of discounts, returns and loyalty redemptions, and card settlement lands two days later. We map every tender type and tax rate to a ledger, then reconcile daily. Gurugram chains typically start around a 3% to 4% variance and close below 0.5% within one quarter.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you handle stock shrinkage in retail books?</h3>
+  <div class="faq-expanded__a"><p>Shrinkage is provided monthly against rolling cycle counts rather than discovered at the annual physical verification, and input tax credit on written-off stock is reversed under Section 17(5), which most retailers forget entirely. We count high-value categories more often, so a Gurugram electronics floor is verified more frequently than slow-moving lines. The provision then stands up when your auditor tests it.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does selling both in store and on marketplaces split Gurugram retail accounting?</h3>
+  <div class="faq-expanded__a"><p>Yes. Marketplace sales carry GST TCS of 0.5% in total and TDS under Section 194-O at 0.1%, both claimed back as credit, while counter sales are ordinary B2C supplies. We keep a single stock pool but separate revenue channels, so a Gurugram retailer can compare store margin against online margin after commission, shipping and returns rather than guessing which channel pays.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does retail accounting cost in Gurugram?</h3>
+  <div class="faq-expanded__a"><p>Fees follow outlet count, monthly transaction volume and whether POS integration and stock reconciliation are in scope, rather than a single package price. A standalone Sector 29 store costs far less than a five-store chain with a warehouse and an online channel. We quote after reviewing one month of POS exports and bank statements. Amounts are exclusive of GST and government charges.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Are on-site visits to Gurugram stores available, and how do documents reach you?</h3>
+  <div class="faq-expanded__a"><p>Bookkeeping runs remotely, with visits to your Cyber City, Golf Course Road or IMT Manesar locations arranged for stock counts and cash-handling reviews. We do not operate an office in Gurugram. POS exports, purchase invoices and bank statements arrive through a shared folder or a scheduled POS export, so daily entries never wait for a store manager to find time to travel.</p></div>
+</div>
                 </div>
             </div>
 
-        </div>
-    </div>
-</section>
+            
+            <div class="highlight-box" style="margin-top:32px;">
+                <p><strong>Quick Answers</strong></p>
+                <p>Margins look healthy until a till is left out. You send the day-end POS export and the purchase invoices; back comes a coded ledger, gross margin by till and a variance list naming the counters that did not tie. Patron's retail accounting for Gurugram stores also produces the sales certificate a mall landlord asks.</p>
 
-<!-- SECTION 17: QUICK ANSWERS -->
-<section class="content-section" id="quick-answers-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Quick Answers</h2>
-            <div class="content-text">
-                <p><strong>Biggest Gurugram retail blind spot?</strong> Treating mall rent as a flat figure; the revenue-share versus minimum-guarantee comparison and CAM must be booked correctly or occupancy cost is wrong.</p>
-                <p><strong>Composition or regular GST?</strong> Composition fits a small counter-only Gurugram shop below INR 1.5 crore; the moment you list on Amazon, Flipkart, or Nykaa you need regular GST.</p>
-                <p><strong>Can it run remotely?</strong> Yes. POS, lease, bank, and settlement files are shared online; we visit for physical stock counts when needed.</p>
-                <p><strong>What lands each month?</strong> Reconciled books, filed Haryana GST, and a margin, occupancy-cost, and stock MIS by outlet, channel, and product line.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 19: CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" id="conclusion-section" style="background: var(--blue) !important;">
+
+<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Run Your Gurugram Retail Business on Clear Numbers</h2>
+            <h2 class="section-title">Retail Accounting Deadlines in Gurugram You Cannot Afford to Miss</h2>
+            <div class="content-text">
+                
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="content-section" style="background: var(--blue) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Retail Accounting Services in Gurugram with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">In Gurugram, retail profit survives or dies on two things: getting mall occupancy cost right and keeping POS, stock, and marketplace settlements in sync. Whether you run a single store in Ambience Mall, a boutique in Galleria Market, a premium counter in Cyber Hub, or an omnichannel brand on Amazon and Nykaa, Patron Accounting's CA-supervised retail service books your revenue-share lease and CAM, reconciles every tender and channel, files your Haryana GST, and delivers a monthly margin MIS from INR 3,499/mo.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Explore the national <a href="/accounting-services-for-retail" style="color:#fff;text-decoration:underline;">Retail Sector Accounting</a> page, then pair it with <a href="/gst-returns" style="color:#fff;text-decoration:underline;">GST Return Filing</a> to keep compliance tight. Patron Accounting LLP serves 10,000+ businesses with a 4.9 Google rating.</p>
+                
+                <p style="color:rgba(255,255,255,0.88);">Unfinished books are paid for in working hours. Somebody rebuilds last month&#x27;s counter figures from memory, a supplier waits on a query nobody owns, and a number promised to a lender last week is still an estimate, revised twice since. Retail accounting services in Gurgaon are bought to get those hours back and keep them.</p>
+<p style="color:rgba(255,255,255,0.88);">Month end then runs in a known order rather than a rush. Exports and bank feeds land in the first days, queries go out while somebody still remembers the answer. The ledger closes mid month, and retail accounting in Gurugram puts the store pack in your hands before the return work starts.</p>
+<p style="color:rgba(255,255,255,0.88);">Structure comes first for a chain trading on both sides of the NCR border. A Gurugram head office and a Delhi outlet are distinct persons under GST. Central buying and shared services recharged between them are taxable supplies, and <a href="/accounting-services-for-retail">the wider chain accounting work</a> has to invoice them.</p>
+
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20retail%20accounting%20in%20Gurugram.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Retail%20Accounting%20in%20Gurugram&body=Hello%20Patron%20Team%2C%0A%0AI%20need%20retail%20sector%20accounting%20in%20Gurugram.%0A%0APlease%20contact%20me.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20retail%20in%20Gurugram" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Retail%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Retail%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- CITY INTERLINKING (CURRENT CITY = GURUGRAM, NOT LINKED) -->
-<section class="content-section" id="city-links-section">
-    <div class="content-container">
-        <div class="pa-city-block">
-            <div class="pa-block-title">Retail Sector Accounting by City</div>
-            <div class="pa-block-sub">Available across our four office cities. You are viewing the Gurugram page.</div>
-            <div class="pa-city-grid">
-                <div class="pa-city-card" style="opacity:0.6; pointer-events:none; border:2px solid var(--orange); position:relative;">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                    <span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span>
-                </div>
-                <a href="/accounting-services-for-retail/pune" class="pa-city-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div>
-                </a>
-                <a href="/accounting-services-for-retail/mumbai" class="pa-city-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
-                </a>
-                <a href="/accounting-services-for-retail/delhi" class="pa-city-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- SECTION 24: FRESHNESS FOOTER -->
-<section class="content-section" id="freshness-section" style="padding-top:32px;padding-bottom:48px;">
-    <div class="content-container">
-        <div class="content-text" style="font-size:13px;color:var(--text-muted);">
-            <p style="margin-bottom:4px;"><strong>Content Created:</strong> 23 June 2026 | <strong>Last Updated:</strong> <span id="lastUpdatedFooter">23 June 2026</span> | <strong>Next Review:</strong> 23 September 2026</p>
-            <p style="margin-bottom:0;">Reviewed by CA and CS Team, Patron Accounting LLP. Review Triggers: changes to GST composition limits, marketplace TCS or TDS rates, or Patron Accounting fees.</p>
-        </div>
-    </div>
-</section>
 
+
+
+
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">Retail Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Haryana</div></div></div><a href="https://www.patronaccounting.com/accounting-services-for-retail/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-retail/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-retail/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
 
 <script>
-// Country Code Dropdown
-var countries = [
-    { name: 'India', code: '+91', flag: '🇮🇳' },
-    { name: 'United States', code: '+1', flag: '🇺🇸' },
-    { name: 'United Kingdom', code: '+44', flag: '🇬🇧' },
-    { name: 'United Arab Emirates', code: '+971', flag: '🇦🇪' },
-    { name: 'Singapore', code: '+65', flag: '🇸🇬' },
-    { name: 'Australia', code: '+61', flag: '🇦🇺' },
-    { name: 'Canada', code: '+1', flag: '🇨🇦' },
-    { name: 'Germany', code: '+49', flag: '🇩🇪' },
-    { name: 'Saudi Arabia', code: '+966', flag: '🇸🇦' }
-];
-var selectedCountry = countries[0];
+(function() {
+    // ============================================
+    // CONFIGURATION — Update these values
+    // ============================================
+    const CONFIG = {
+        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        // Fallback static reviews (shown if API fails or key not set)
+        fallbackReviews: [
+            {
+                author_name: "Subhendu Mishra",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Rajib Dutta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Nishikant Gurav",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Nikhil Nimbhorkar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
+                relative_time_description: "4 months ago"
+            },
+            {
+                author_name: "Sameer Mehta",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
+                relative_time_description: "2 months ago"
+            },
+            {
+                author_name: "Preeti Singh Rathor",
+                profile_photo_url: "",
+                rating: 5,
+                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
+                relative_time_description: "3 months ago"
+            },
+            {
+                author_name: "Anita Gaur",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
+                relative_time_description: "5 months ago"
+            },
+            {
+                author_name: "Pankaj Arvikar",
+                profile_photo_url: "",
+                rating: 5,
+                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
+                relative_time_description: "1 month ago"
+            },
+            {
+                author_name: "Sunny Ashpal",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
+                relative_time_description: "6 months ago",
+                role: "Director - Demandify Media",
+                hasVideo: true,
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+            },
+            {
+                author_name: "Anjanay Srivastava",
+                profile_photo_url: "",
+                rating: 5,
+                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
+                relative_time_description: "4 months ago",
+                role: "Founder - Hunarsource Consulting",
+                hasVideo: true,
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+            }
+        ]
+    };
 
-function populateCountries() {
+    // ============================================
+    // HELPER: Generate star SVGs
+    // ============================================
+    function starsHTML(rating) {
+        let s = '';
+        for (let i = 0; i < 5; i++) {
+            s += i < rating
+                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
+                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+        }
+        return s;
+    }
+
+    // ============================================
+    // HELPER: Avatar color based on name
+    // ============================================
+    const avatarColors = ['', 'blue', 'teal', 'purple'];
+    function avatarClass(index) {
+        return avatarColors[index % avatarColors.length];
+    }
+
+    // ============================================
+    // RENDER: Build card HTML for a review
+    // ============================================
+    function buildVideoCard(review) {
+        return `
+        <div>
+            <div class="testi-video-card">
+                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
+                    <video preload="metadata" poster="${review.photoUrl || ''}">
+                        <source src="${review.videoUrl}" type="video/mp4">
+                    </video>
+                    <div class="testi-play-overlay">
+                        <div class="testi-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
+                </div>
+                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+                    <div class="testi-avatar">
+                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
+                    </div>
+                    <div>
+                        <div class="testi-name">${review.author_name}</div>
+                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function buildQuoteCard(review, index) {
+        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
+        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
+        const colorClass = avatarClass(index);
+
+        return `
+        <div>
+            <div class="testi-quote-card">
+                <div class="testi-quote-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testi-quote-text">${review.text || ''}</p>
+                <div class="testi-footer">
+                    <div class="testi-author">
+                        <div class="testi-avatar ${colorClass}">
+                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
+                        </div>
+                        <div>
+                            <div class="testi-name">${review.author_name}</div>
+                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
+                        </div>
+                    </div>
+                    <div class="testi-rating-row">
+                        <div class="testi-stars">${starsHTML(review.rating)}</div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    }
+
+    // ============================================
+    // RENDER: Populate slider with reviews
+    // ============================================
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
+
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
+
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
+    }
+
+    function initSlick(slider) {
+        if ($(slider).hasClass('slick-initialized')) return;
+        $(slider).slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 4500,
+            arrows: false,
+            cssEase: 'ease-in-out',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            swipe: true,
+            draggable: true,
+            touchMove: true,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 3 } },
+                { breakpoint: 900, settings: { slidesToShow: 2 } },
+                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
+            ]
+        });
+    }
+
+    // ============================================
+    // FETCH: Google Places API Reviews
+    // ============================================
+    function fetchGMBReviews() {
+        // If API key not set, use fallback
+        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
+            renderReviews(CONFIG.fallbackReviews);
+            return;
+        }
+
+        // Google Places API requires server-side proxy due to CORS
+        // Option 1: Use Google Maps JS API (requires loading Maps library)
+        // Option 2: Use a server-side proxy endpoint
+        // Below is the Google Maps JS API approach:
+
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
+        script.async = true;
+        script.defer = true;
+        script.onerror = function() {
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
+            renderReviews(CONFIG.fallbackReviews);
+        };
+        document.head.appendChild(script);
+    }
+
+    // Global callback for Google Maps JS API
+    window.initGMBReviews = function() {
+        try {
+            const service = new google.maps.places.PlacesService(document.createElement('div'));
+            service.getDetails({
+                placeId: CONFIG.placeId,
+                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
+            }, function(place, status) {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
+                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
+
+                    // Merge: video testimonials first, then GMB reviews
+                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
+                    const gmbReviews = place.reviews.map(function(r) {
+                        return {
+                            author_name: r.author_name,
+                            profile_photo_url: r.profile_photo_url,
+                            rating: r.rating,
+                            text: r.text,
+                            relative_time_description: r.relative_time_description
+                        };
+                    });
+
+                    renderReviews([...videoTestimonials, ...gmbReviews]);
+                } else {
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
+                    renderReviews(CONFIG.fallbackReviews);
+                }
+            });
+        } catch (e) {
+            console.log('[Testimonials] Error:', e);
+            renderReviews(CONFIG.fallbackReviews);
+        }
+    };
+
+    // ============================================
+    // INIT
+    // ============================================
+    document.addEventListener('DOMContentLoaded', function() {
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
+        const slider = document.getElementById('testimonialSlider');
+        if (slider && slider.children.length > 0) {
+            if (typeof $ !== 'undefined' && $.fn.slick) {
+                initSlick(slider);
+            } else {
+                window.addEventListener('load', function() {
+                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
+                });
+            }
+            return; // static cards are authoritative - stop here
+        }
+        fetchGMBReviews();
+    });
+})();
+
+// Video play/pause toggle for testimonial cards
+function toggleTestiVideo(area) {
+    const video = area.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+        // Pause all other videos first
+        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
+        video.play();
+        area.classList.add('playing');
+    } else {
+        video.pause();
+        area.classList.remove('playing');
+    }
+}
+
+</script>
+
+
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
     var container = document.getElementById('countryOptions');
     if (!container) return;
     container.innerHTML = '';
-    countries.forEach(function(c, i) {
-        var div = document.createElement('div');
-        div.className = 'country-option' + (i === 0 ? ' active' : '');
-        div.innerHTML = '<span class="flag-emoji">' + c.flag + '</span><span class="country-name">' + c.name + '</span><span class="dial-code">' + c.code + '</span>';
-        div.onclick = function(e) { e.stopPropagation(); selectCountry(c); };
-        container.appendChild(div);
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
     });
 }
-function selectCountry(c) {
-    selectedCountry = c;
-    document.getElementById('selectedFlag').textContent = c.flag;
-    document.getElementById('selectedCode').textContent = c.code;
-    document.getElementById('countryCodeDropdown').classList.remove('open');
-}
-function toggleCountryDropdown(e) {
-    e.stopPropagation();
-    document.getElementById('countryCodeDropdown').classList.toggle('open');
-}
-function filterCountries(val) {
-    val = (val || '').toLowerCase();
-    var opts = document.querySelectorAll('#countryOptions .country-option');
-    opts.forEach(function(o) {
-        var name = o.querySelector('.country-name').textContent.toLowerCase();
-        var code = o.querySelector('.dial-code').textContent.toLowerCase();
-        o.style.display = (name.indexOf(val) > -1 || code.indexOf(val) > -1) ? 'flex' : 'none';
-    });
-}
-document.addEventListener('click', function() {
-    var d = document.getElementById('countryCodeDropdown');
-    if (d) d.classList.remove('open');
-});
 
-// Field Error Helpers
-function clearFieldError(el) {
-    el.classList.remove('input-error');
-    var parent = el.closest('.form-group');
-    if (parent) {
-        var err = parent.querySelector('.field-error-msg');
-        if (err) err.remove();
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
     }
 }
-function setFieldError(el, message) {
-    el.classList.add('input-error');
-    var parent = el.closest('.form-group');
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
     if (parent && !parent.querySelector('.field-error-msg')) {
         var errDiv = document.createElement('div');
         errDiv.className = 'field-error-msg';
@@ -1632,20 +1548,27 @@ function setFieldError(el, message) {
     }
 }
 
-// Phone Validation
+// ── Phone Validation ──────────────────────────────────────────
 function validatePhone(val, dialCode) {
     val = val.replace(/[\s\-().]/g, '');
-    if (!val) { return { valid: false, message: 'Phone number is required' }; }
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
     if (dialCode === '+91') {
         if (!/^[6-9][0-9]{9}$/.test(val)) {
-            if (val.length !== 10) { return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' }; }
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
             return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
         }
         return { valid: true };
     }
-    if (!/^[0-9]{7,15}$/.test(val)) { return { valid: false, message: 'Enter a valid phone number (7-15 digits)' }; }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
+    }
     return { valid: true };
 }
+
 function validatePhoneOnBlur(input) {
     var val = input.value.trim();
     var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
@@ -1662,14 +1585,15 @@ function validatePhoneOnBlur(input) {
         errorEl.style.display = 'none';
     }
 }
+// ─────────────────────────────────────────────────────────────
 
 function validateConsultationForm() {
     var isValid = true;
+
     var nameField = document.getElementById('consultFullName');
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -1689,20 +1613,22 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
         var btn = document.getElementById('formSubmitBtn');
         btn.disabled = true;
         btn.textContent = 'Submitting...';
-        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote →'; }, 6000);
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
     }
     return isValid;
 }
 
+// Success state handler (Bigin iframe load)
 window.addEventListener('DOMContentLoaded', function() {
     populateCountries();
+    // Auto-embed page URL in form
     var pageSourceField = document.getElementById('pageSourceField');
     if (pageSourceField) { pageSourceField.value = window.location.href; }
     var iframe = document.getElementById('hidden208810000001209168Frame');
@@ -1732,7 +1658,7 @@ function showSuccessState() {
 </script>
 
 <script>
-// Bigin Mandatory Fields Validation
+// Bigin Mandatory Fields Validation (from Bigin source code)
 var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
 var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
 
@@ -1741,27 +1667,32 @@ function checkMandatory208810000001209168() {
     for(var i = 0; i < mndFields208810000001209168.length; i++) {
         var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
         if(fieldObj) {
-            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) { isReturn = false; }
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
         }
     }
-    if(isReturn) { document.getElementById('formSubmitBtn').disabled = true; }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
     return isReturn;
 }
 
+// Bigin iframe success handler (overrides our custom one above via event delegation)
 document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
     try {
         var doc = arguments[0].currentTarget.contentWindow.document;
-        if(doc.body && doc.body.childElementCount !== 0) { showSuccessState(); }
-    } catch (error) { showSuccessState(); }
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
 });
 </script>
 
-<!-- Bigin WebForm Script -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -1769,56 +1700,68 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
+</script>
+
+
+<script>
+(function() {
+    var waBar = document.getElementById('waBar');
+    var waClose = document.getElementById('waBarClose');
+    var dismissed = false;
+
+    // Initially hidden, show after scrolling 300px
+    waBar.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (dismissed) return;
+        if (window.scrollY > 300) {
+            waBar.classList.remove('hidden');
+        } else {
+            waBar.classList.add('hidden');
         }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
+    });
+
+    // Close button
+    waClose.addEventListener('click', function() {
+        dismissed = true;
+        waBar.classList.add('hidden');
+        // Remember dismissal for this session
+        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
+    });
+
+    // Check if already dismissed this session
+    try {
+        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
+            dismissed = true;
+            waBar.classList.add('hidden');
+            waBar.style.display = 'none';
         }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
+    } catch(e) {}
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

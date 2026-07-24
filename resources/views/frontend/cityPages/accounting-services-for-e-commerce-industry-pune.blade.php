@@ -23,164 +23,303 @@
     <meta name="twitter:title" content="E-Commerce Accounting Services in Pune, by Local CAs | Patron Accounting">
     <meta name="twitter:description" content="For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-e-commerce-industry-pune-og.webp">
-<script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune#localbusiness",
-        "name": "Patron Accounting LLP - Pune",
-        "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
-        "telephone": "+91 94594 56700",
-        "parentOrganization": {
-                "@id": "https://www.patronaccounting.com/#organization"
-        },
-        "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
-                "addressLocality": "Wagholi",
-                "addressRegion": "Maharashtra",
-                "postalCode": "412207",
-                "addressCountry": "IN"
-        },
-        "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "13",
-                "bestRating": "5",
-                "worstRating": "1"
-        },
-        "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 18.57944655,
-                "longitude": 73.9682987
-        },
-        "hasMap": "https://www.google.com/maps?q=18.5794466,73.9682987"
-}
-</script>
-<script type="application/ld+json">
-{
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "@id": "https://www.patronaccounting.com/#organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
-        },
-        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
-        "email": "sales@patronaccounting.com",
-        "telephone": "+91 94594 56700",
-        "areaServed": "India",
-        "foundingDate": "2019",
-        "founder": {
-                "@type": "Person",
-                "name": "CA Sundram Gupta"
-        },
-        "sameAs": [
-                "https://in.linkedin.com/company/patron-accounting-llp",
-                "https://www.instagram.com/patronaccounting/",
-                "https://www.facebook.com/share/1BqqRYkpJX/",
-                "https://www.youtube.com/@patronaccountingllp7130",
-                "https://x.com/LlpPatron"
-        ],
-        "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+919459456700",
-                "email": "sales@patronaccounting.com",
-                "contactType": "customer service",
-                "areaServed": "IN",
-                "availableLanguage": [
-                        "en",
-                        "hi"
-                ]
-        }
-}
-</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#service",
-        "name": "E-Commerce Accounting Services in India",
-        "description": "Settlement-wise accounting for online sellers in India: marketplace settlement reconciliation, GST TCS (Section 52) and Section 194-O TDS tracking, returns and RTO provisioning, fulfilment-centre stock control and channel-wise margin reporting.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "E-commerce", "sameAs": "https://en.wikipedia.org/wiki/E-commerce" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "E-Commerce Accounting Service Plans",
-            "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com" }, { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" }, { "@type": "ListItem", "position": 3, "name": "E-Commerce Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" }, { "@type": "ListItem", "position": 4, "name": "Pune", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" } ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#service",
+  "name": "E-Commerce Accounting Services in Pune",
+  "description": "Ecommerce accounting services in Pune start where the payout lands and work backwards to the order.",
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "E-Commerce Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "E-Commerce Accounting Services in Pune",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "E-Commerce Accounting Services in Pune",
+          "description": "Ecommerce accounting services in Pune start where the payout lands and work backwards to the order.",
+          "serviceType": "E-Commerce Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.patronaccounting.com/pune/#localbusiness",
+  "name": "Patron Accounting LLP - Pune (Wagholi HQ)",
+  "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
+  "telephone": "+91 94594 56700",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "412207",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" },
-            { "@type": "ListItem", "position": 3, "name": "E-Commerce Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "AdministrativeArea",
+      "name": "Pune"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#faq",
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "mainEntity": [
-            {"@type":"Question","name":"How much GST TCS do Amazon and Flipkart deduct from a Pune D2C brand, and how is it recovered?","acceptedAnswer":{"@type":"Answer","text":"Marketplaces deduct GST TCS at 0.5% of net taxable supplies, being 0.25% CGST plus 0.25% SGST, under Section 52. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. We reconcile every settlement report against GSTR-2B monthly so the accepted credit offsets your Maharashtra GSTR-3B liability due on the 22nd."}},
-            {"@type":"Question","name":"What TDS do e-commerce operators deduct from a Pune seller's payouts?","acceptedAnswer":{"@type":"Answer","text":"Section 194-O TDS is 0.1% of the gross sales value, deducted by the operator before the payout reaches your Pune bank account, not 1% as is often assumed. We match every 194-O entry in Form 26AS against seller-panel settlement files, because operators report on gross order value while your books carry sales net of returns, and that gap turns into a mismatch notice."}},
-            {"@type":"Question","name":"Does a Pune warehouse and packing team trigger Maharashtra professional tax?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maharashtra needs PTEC for the business entity and PTRC once you pay salaries, including pickers and packers at a Chakan or Wagholi fulfilment unit. PTRC returns are monthly where the previous year liability exceeded Rs 1 lakh and annual below that. E-commerce payrolls run with both registrations mapped, so seasonal Diwali hiring does not create a PTRC gap."}},
-            {"@type":"Question","name":"Does a D2C brand in Baner with a third-party warehouse in Chakan need two GST registrations?","acceptedAnswer":{"@type":"Answer","text":"No. A Baner office and a Chakan 3PL warehouse both sit in Maharashtra, so one state GSTIN covers them with the warehouse added as an additional place of business. Only a fulfilment centre in another state needs its own registration there. We map each warehouse to the right GSTIN and reconcile stock transfers so marketplace inventory reports agree with your books."}},
-            {"@type":"Question","name":"Can records be collected from a Kharadi office, or is everything online?","acceptedAnswer":{"@type":"Answer","text":"Both are available. Our Pune office at RTC Silver, Wagholi is roughly twenty minutes from Kharadi, so document pickup and quarter-end reviews at your premises are practical. Most e-commerce work still runs remotely because settlement reports, payment gateway statements and courier RTO files are portal downloads, not paper. On-site visits are reserved for stock counts and auditor walkthroughs."}},
-            {"@type":"Question","name":"How do you account for RTO parcels and customer returns that come back weeks after the sale?","acceptedAnswer":{"@type":"Answer","text":"Returns are provided for in the month of dispatch, using your own channel-wise return percentage, rather than being written off when the parcel physically arrives. COD-heavy categories such as apparel and footwear carry the highest rates, so an unprovided return pipeline overstates a Pune seller's monthly profit. Credit notes then reduce GST output tax in the month they are issued."}},
-            {"@type":"Question","name":"Why does a Flipkart payout never match the invoice value, and how is it corrected in the books?","acceptedAnswer":{"@type":"Answer","text":"A payout equals invoice value minus commission, fixed and closing fees, shipping, penalties, 0.5% GST TCS and 0.1% 194-O TDS, so it can never match. We rebuild each settlement line by line, post every deduction to its own ledger head, and claim input credit on marketplace commission invoices, which is the largest recoverable amount most Pune sellers leave unclaimed."}},
-            {"@type":"Question","name":"How do you bring Shopify, Razorpay and courier COD remittances into one set of books?","acceptedAnswer":{"@type":"Answer","text":"Each channel is reconciled to its own control account: gateway payouts against Razorpay settlement files, COD against courier remittance advice, and marketplace sales against settlement reports. Unmatched items age in a suspense ledger with a named owner and a date. For a Pune brand shipping nationally, the COD courier float is usually the largest reconciling item and the first thing an auditor questions."}},
-            {"@type":"Question","name":"What does e-commerce accounting cost for a Pune seller, and what drives the price?","acceptedAnswer":{"@type":"Answer","text":"Fees are driven by monthly order volume, the number of sales channels and the number of GST registrations, not by turnover alone. A single-channel Pune seller costs far less than a brand running Amazon, Flipkart, Shopify and quick commerce with warehouses in three states. We quote a fixed monthly retainer after reviewing three months of settlement reports. Fees exclude GST and government charges."}},
-            {"@type":"Question","name":"How long must a Pune e-commerce company keep settlement files and books of account?","acceptedAnswer":{"@type":"Answer","text":"Eight financial years, under Section 128(5) of the Companies Act 2013, and your accounting software must maintain an unalterable audit trail with edit logs. Marketplace panels purge old settlement reports much sooner, so we archive each month's downloads to storage you control. Income-tax reassessment under Section 149 can reach three years three months, or five years three months above Rs 50 lakh escaped income."}}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "AdministrativeArea",
+      "name": "Wagholi"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
-        "name": "E-Commerce Accounting Services in India",
-        "description": "For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.",
-        "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#service" },
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "reviewedBy": { "@id": "https://www.patronaccounting.com/#team" },
-        "lastReviewed": "2026-07-23",
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "AdministrativeArea",
+      "name": "Kharadi"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "13", "bestRating": "5", "worstRating": "1" }
+      "@type": "AdministrativeArea",
+      "name": "Baner"
     }
-    </script>
-    @endsection
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "E-Commerce Accounting Services in Pune",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "E-Commerce Accounting Services in Pune",
+          "description": "Ecommerce accounting services in Pune start where the payout lands and work backwards to the order.",
+          "serviceType": "E-Commerce Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "City",
+          "name": "Pune"
+        }
+      }
+    ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.57944655,
+    "longitude": 73.9682987
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "206",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "E-Commerce Accounting Services",
+      "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Pune",
+      "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune"
+    }
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much GST TCS do Amazon and Flipkart deduct from a Pune D2C brand, and how is it recovered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marketplaces deduct GST TCS at 0.5% of net taxable supplies, being 0.25% CGST plus 0.25% SGST, under Section 52. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. We reconcile every settlement report against GSTR-2B monthly so the accepted credit offsets your Maharashtra GSTR-3B liability due on the 22nd."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What TDS do e-commerce operators deduct from a Pune seller's payouts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 194-O TDS is 0.1% of the gross sales value, deducted by the operator before the payout reaches your Pune bank account, not 1% as is often assumed. We match every 194-O entry in Form 26AS against seller-panel settlement files, because operators report on gross order value while your books carry sales net of returns, and that gap turns into a mismatch notice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a Pune warehouse and packing team trigger Maharashtra professional tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Maharashtra needs PTEC for the business entity and PTRC once you pay salaries, including pickers and packers at a Chakan or Wagholi fulfilment unit. PTRC returns are monthly where the previous year liability exceeded Rs 1 lakh and annual below that. E-commerce payrolls run with both registrations mapped, so seasonal Diwali hiring does not create a PTRC gap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a D2C brand in Baner with a third-party warehouse in Chakan need two GST registrations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A Baner office and a Chakan 3PL warehouse both sit in Maharashtra, so one state GSTIN covers them with the warehouse added as an additional place of business. Only a fulfilment centre in another state needs its own registration there. We map each warehouse to the right GSTIN and reconcile stock transfers so marketplace inventory reports agree with your books."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can records be collected from a Kharadi office, or is everything online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both are available. Our Pune office at RTC Silver, Wagholi is roughly twenty minutes from Kharadi, so document pickup and quarter-end reviews at your premises are practical. Most e-commerce work still runs remotely because settlement reports, payment gateway statements and courier RTO files are portal downloads, not paper. On-site visits are reserved for stock counts and auditor walkthroughs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you account for RTO parcels and customer returns that come back weeks after the sale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Returns are provided for in the month of dispatch, using your own channel-wise return percentage, rather than being written off when the parcel physically arrives. COD-heavy categories such as apparel and footwear carry the highest rates, so an unprovided return pipeline overstates a Pune seller's monthly profit. Credit notes then reduce GST output tax in the month they are issued."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does a Flipkart payout never match the invoice value, and how is it corrected in the books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A payout equals invoice value minus commission, fixed and closing fees, shipping, penalties, 0.5% GST TCS and 0.1% 194-O TDS, so it can never match. We rebuild each settlement line by line, post every deduction to its own ledger head, and claim input credit on marketplace commission invoices, which is the largest recoverable amount most Pune sellers leave unclaimed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you bring Shopify, Razorpay and courier COD remittances into one set of books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each channel is reconciled to its own control account: gateway payouts against Razorpay settlement files, COD against courier remittance advice, and marketplace sales against settlement reports. Unmatched items age in a suspense ledger with a named owner and a date. For a Pune brand shipping nationally, the COD courier float is usually the largest reconciling item and the first thing an auditor questions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does e-commerce accounting cost for a Pune seller, and what drives the price?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees are driven by monthly order volume, the number of sales channels and the number of GST registrations, not by turnover alone. A single-channel Pune seller costs far less than a brand running Amazon, Flipkart, Shopify and quick commerce with warehouses in three states. We quote a fixed monthly retainer after reviewing three months of settlement reports. Fees exclude GST and government charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long must a Pune e-commerce company keep settlement files and books of account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eight financial years, under Section 128(5) of the Companies Act 2013, and your accounting software must maintain an unalterable audit trail with edit logs. Marketplace panels purge old settlement reports much sooner, so we archive each month's downloads to storage you control. Income-tax reassessment under Section 149 can reach three years three months, or five years three months above Rs 50 lakh escaped income."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
+  "name": "E-Commerce Accounting Services in Pune",
+  "description": "For Pune businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Start with a books review.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#breadcrumb"
+  }
+}
+</script>
+@endsection
 
 <link rel="stylesheet" href="/css/patron-cluster.css">
 
@@ -223,17 +362,21 @@
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Settlement reconciliation:</span> Every Amazon, Flipkart and Shopify payout matched to the rupee, not accepted at the net payout total.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Gross turnover you can defend:</span> Your books carry gross sales, commission, shipping and returns as separate figures, so the turnover you report matches the portal.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>TCS &amp; TDS tracked:</span> Section 194-O TDS at 0.1% and GST TCS at 0.5% reconciled into your electronic cash ledger and Form 26AS.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>TCS credit actually in hand:</span> You claim the tax each marketplace collected once it shows in your electronic cash ledger.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Returns &amp; stock proved:</span> RTO and returned stock provisioned, and inventory at FBA and Flipkart fulfilment centres tied to the operator report.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Channel-wise contribution after deductions:</span> You see commission, shipping, advertising, packaging and return costs sitting against the channel that incurred them.</p>
                         </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Stock at fulfilment centres proved:</span> We agree units lying at fulfilment centres to the operator's inventory report and show goods in transit apart.</p>
                         </div>
+                    </div>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -244,7 +387,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20e%20commerce%20industry%20in%20Pune" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -344,12 +487,12 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services-for-e-commerce-industry/pune" selected>E-Commerce Accounting</option>
+                                <option value="accounting-services-for-e-commerce-industry/pune" selected>Startup Accounting</option>
                                     <option value="accounting-services">Accounting Services (All)</option>
-                                    <option value="accounting-services-for-startups">Startup Accounting</option>
-                                    <option value="accounting-services-for-retail">Retail Accounting</option>
-                                    <option value="backlog-bookkeeping-catch-up-services">Bookkeeping Catch-up</option>
-                                    <option value="bank-credit-card-reconciliation-services">GST / TDS Reconciliation</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="esop-accounting-ind-as-102">ESOP Accounting (Ind AS 102)</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
                                     <option value="mis-reporting-services">MIS Reporting</option>
                                     <option value="other">Other</option>
 
@@ -382,7 +525,7 @@
 </section>
 
 
-<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Online Sellers and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for e-commerce accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
 
 
 <div class="stats-bar">
@@ -499,7 +642,7 @@
 </section>
 
 
-<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">Trusted for accounting across every major marketplace</p><div class="pa-logos-strip"><div class="pa-logos-track"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"><span class="pa-logos-dup" aria-hidden="true"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"></span></div></div></div></section><section class="content-section" id="services-section">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">E-Commerce Accounting Included for Pune Businesses</h2>
@@ -529,7 +672,7 @@
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
             <h2 class="section-title">How E-Commerce Accounting Works in Pune — Step by Step</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">How marketplace settlements become books you can defend, step by step from settlement report to channel-level contribution.</p>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers e-commerce accounting for Pune businesses, step by step.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
@@ -663,7 +806,7 @@
                 </div><p style="margin-top:14px;font-size:14px;">For Pune sellers the <strong>INR 3,499 per month</strong> Starter fee matches the national rate; price follows scope, marketplaces and settlement lines, never location. More marketplaces or settlement volume raise the tier. Local profession-tax registration is billed at actuals as a government charge. Request a customised estimate on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
-                <p style="margin-top:16px;"><strong>Get a free E-Commerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free E-Commerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20e%20commerce%20industry%20in%20Pune" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -752,7 +895,7 @@
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Why E-Commerce Accounting Services Clients in Pune Choose Patron Accounting</h2>
-            <p class="section-intro">Five things an online seller can check before handing over the settlement files. Each is a claim with the proof behind it.</p>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
             
             <div class="why-patron-grid">
                 <div><strong>Marketplace settlements reconciled to the rupee</strong><p>Every marketplace payout hides shipping, commission and RTO deductions. Over 15+ years our team has learned to reconcile Amazon and Flipkart settlements for D2C sellers, tying each credit back to the order behind it.</p></div>
@@ -821,13 +964,13 @@
             
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">E-Commerce Accounting FAQs</h2>
-                    <p class="faq-expanded__lead">Settlement reconciliation, GST TCS, 194-O TDS, returns and pricing for Amazon, Flipkart, Meesho and D2C sellers.</p>
+                    <h2 class="faq-expanded__title">E-Commerce Accounting in Pune FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on e-commerce accounting for Pune businesses - scope, local compliance, documents and pricing.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
-  <h3 class="faq-enquiry__title">Ask about your marketplace's books</h3>
-  <p class="faq-enquiry__sub">Send your marketplaces and monthly order volume for a scoped quote.</p>
-  <p class="faq-enquiry__context">Enquiring about: <strong>E-Commerce Accounting</strong></p>
+  <h3 class="faq-enquiry__title">Ask about your books in Pune</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>E-Commerce Accounting in Pune</strong></p>
   <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
   <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
   <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
@@ -882,7 +1025,7 @@
             
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p>An ecommerce accountant reconciles each marketplace settlement to the bank and books, tracks Section 52 GST TCS and Section 194-O TDS, provisions returns and RTO, and reports profit by channel for Amazon, Flipkart, Meesho and D2C sellers.</p>
+                <p>Money reaches a seller here in batches, days after despatch, under a reference that names neither the order nor the buyer. Ecommerce accounting in Pune therefore begins with documents rather than invoices: settlement files, courier manifests and return notes pulled into one period and matched one against another..</p>
 
             </div>
         </div>
@@ -893,10 +1036,10 @@
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">E-Commerce Deadlines You Cannot Afford to Miss</h2>
+            <h2 class="section-title">E-Commerce Accounting Deadlines in Pune You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Two dates drive an online seller's month: <strong>GSTR-8 TCS by the 10th</strong> and the <strong>Section 194-O TDS deposit by the 7th</strong>, both tied to marketplace settlements. Miss the reconciliation and your GSTR-2B credit will not tie out, inviting a mismatch notice. Patron reconciles each payout before the filing so the credit is claimed while the settlement file is still live. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>TCS return by e-commerce operators (GSTR-8)</strong> is due 10th of every month. <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
@@ -917,7 +1060,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20e%20commerce%20industry%20in%20Pune" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-Commerce%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20E-Commerce%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -937,20 +1080,18 @@
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Selling on Amazon, Flipkart or Meesho &amp; need reconciled books?</strong> Talk to our CA team.</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
         <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Get Free E-Commerce Quote &rarr;</span>
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
 </div>
 
-<section class="pa-localmap"><div class="pa-localmap-wrap"><div class="pa-localmap-info"><span class="pa-local2-kicker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span><h2>Visit our Pune office</h2><p>A local CA &amp; CS team for e-commerce accounting in Pune &mdash; visit our office or work with us online.</p><ul class="pa-localmap-details"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9h.01M9 12h.01M9 15h.01M9 18h.01"/></svg><span>RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+919459456700">+91 94594 56700</a></li></ul><a class="pa-localmap-btn" href="https://www.google.com/maps/search/?api=1&query=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India" target="_blank" rel="noopener">Get directions<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a></div><div class="pa-localmap-frame"><iframe src="https://www.google.com/maps?q=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India&ll=18.5794466,73.9682987&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Patron Accounting LLP office location on Google Maps"></iframe></div></div></section><section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">E-Commerce Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Maharashtra</div></div></div><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
+<section class="pa-localmap"><div class="pa-localmap-wrap"><div class="pa-localmap-info"><span class="pa-local2-kicker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span><h2>Visit our Pune office</h2><p>A local CA &amp; CS team for e-commerce accounting in Pune &mdash; visit our office or work with us online.</p><ul class="pa-localmap-details"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9h.01M9 12h.01M9 15h.01M9 18h.01"/></svg><span>RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+919459456700">+91 94594 56700</a></li></ul><a class="pa-localmap-btn" href="https://www.google.com/maps/search/?api=1&query=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India" target="_blank" rel="noopener">Get directions<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a></div><div class="pa-localmap-frame"><iframe src="https://www.google.com/maps?q=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India&ll=18.5794466,73.9682987&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Patron Accounting LLP office location on Google Maps"></iframe></div></div></section><section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">E-Commerce Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Maharashtra</div></div></div><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
 <script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
 <script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
-
-
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 

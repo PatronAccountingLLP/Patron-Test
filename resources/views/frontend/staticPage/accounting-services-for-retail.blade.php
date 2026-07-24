@@ -1,1121 +1,293 @@
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Retail Accounting Services in India 2026 | Patron Accounting</title>
-    <meta name="description" content="Retail accounting services in India - POS and daily sales reconciliation, multi-store inventory, and GST B2C compliance. From INR 3,499/mo (Exl GST).">
-    <link rel="canonical" href="/accounting-services-for-retail">
+    <title>Retail Accounting Services in India: What Is Included | Patron Accounting</title>
+    <meta name="description" content="POS reconciled to the ledger daily - shrinkage found in week one, not at audit. Get clean books, on time, without adding headcount. Get a fixed quote.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-retail">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Retail Accounting Services in India 2026 | Patron Accounting">
-    <meta property="og:description" content="Retail accounting services in India - POS and daily sales reconciliation, multi-store inventory, and GST B2C compliance. From INR 3,499/mo (Exl GST).">
-    <meta property="og:url" content="/accounting-services-for-retail">
+    <meta property="og:title" content="Retail Accounting Services in India: What Is Included | Patron Accounting">
+    <meta property="og:description" content="POS reconciled to the ledger daily - shrinkage found in week one, not at audit. Get clean books, on time, without adding headcount. Get a fixed quote.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-retail">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-retail-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-retail-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Retail Accounting Services in India 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Retail accounting services in India - POS and daily sales reconciliation, multi-store inventory, and GST B2C compliance. From INR 3,499/mo (Exl GST).">
-    <meta name="twitter:image" content="/images/accounting-services-for-retail-og.webp">
+    <meta name="twitter:title" content="Retail Accounting Services in India: What Is Included | Patron Accounting">
+    <meta name="twitter:description" content="POS reconciled to the ledger daily - shrinkage found in week one, not at audit. Get clean books, on time, without adding headcount. Get a fixed quote.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-retail-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "/accounting-services-for-retail/#service",
-        "name": "Retail Accounting Services in India",
-        "description": "Retail accounting services in India covering POS and daily sales reconciliation, multi-store inventory accounting under AS 2, GST on B2C sales, cash management, and store-wise profitability reporting for retail stores and chains, from INR 3,499 per month.",
-        "provider": { "@id": "/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/accounting-services-for-retail" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Retail", "sameAs": "https://en.wikipedia.org/wiki/Retail" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Retail Accounting Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Monthly retail accounting" }, "priceCurrency": "INR", "price": "3499" }
-            ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail/#service",
+  "name": "Retail Accounting Services in India",
+  "description": "Retail accounting services begin with daily POS reconciliation, so shrinkage surfaces in week one rather than at audit. Store-wise profit and loss, stock variance reporting and B2C GST invoicing follow the same cycle.",
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-retail-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Retail Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-retail"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Retail Accounting Services in India",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Retail Accounting Services in India",
+          "description": "Retail accounting services begin with daily POS reconciliation, so shrinkage surfaces in week one rather than at audit. Store-wise profit and loss, stock variance reporting and B2C GST invoicing follow the same cycle.",
+          "serviceType": "Retail Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "/accounting-services-for-retail/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting & Bookkeeping Services", "item": "/accounting-bookkeeping-services" },
-            { "@type": "ListItem", "position": 3, "name": "Retail Accounting", "item": "/accounting-services-for-retail" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "/accounting-services-for-retail/#faq",
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is retail accounting?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Retail accounting is accounting built for businesses selling directly to consumers through physical stores. It centres on reconciling high-volume point-of-sale transactions, tracking inventory across locations, and handling GST on business-to-consumer sales. The aim is accurate store-wise profitability and clean GST compliance rather than a month-end estimate." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is POS or daily sales reconciled?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Each day, the sales recorded at the point-of-sale system are matched against actual cash, card, and UPI collections and then to the books. Any difference is investigated and resolved. This daily reconciliation prevents leakage, catches collection shortfalls early, and ensures the revenue in your accounts reflects what was actually sold and received." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is GST charged on B2C retail sales?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Sales to unregistered end consumers are business-to-consumer (B2C) supplies. Intra-state B2C sales are reported in a consolidated, rate-wise summary in GSTR-1, while inter-state B2C sales above Rs 1 lakh are reported invoice-wise. GST is charged at the rate applicable to each product HSN classification, and we handle the reporting in your returns." }
-            },
-            {
-                "@type": "Question",
-                "name": "How does multi-store accounting work?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Multi-store accounting maintains both consolidated books for the business and store-wise records for each outlet. Sales, inventory, and expenses are tracked per store, then rolled up. This gives the owner store-wise profitability and inventory visibility while keeping a single, consolidated view for GST, audit, and overall financial reporting." }
-            },
-            {
-                "@type": "Question",
-                "name": "Should a retail store choose composition or regular GST?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The composition scheme, available up to Rs 1.5 crore turnover, offers a low flat rate and simpler quarterly CMP-08 and annual GSTR-4 filing, but the dealer cannot charge GST, issue a tax invoice, or claim input tax credit. The regular scheme allows input tax credit and tax invoices. The right choice depends on your customers, suppliers, and growth plans, which we assess for you." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is retail inventory valued?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Retail inventory is valued under Accounting Standard 2 at the lower of cost or net realisable value, tracked by SKU or barcode across stores. Regular stock reconciliation against physical counts identifies shrinkage from theft, damage, or error, so your inventory on the balance sheet and your reported margins stay accurate." }
-            },
-            {
-                "@type": "Question",
-                "name": "Do you work with our POS and billing software?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We connect your POS or billing system and bank feeds into the accounting software, whether Tally, Zoho Books, or a POS-integrated platform, so daily sales flow through and reconcile automatically. We work within your existing stack and set up store-wise reporting around it." }
-            },
-            {
-                "@type": "Question",
-                "name": "How much do retail accounting services cost in India?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting retail accounting starts from INR 3,499 per month (Exl GST and Govt. Charges), within an industry band of roughly Rs 3,000 to Rs 4,000 per month for a single store. The final fee depends on the number of stores, transaction volume, SKUs, and whether multi-store consolidation is needed. You receive a fixed quote after a free assessment." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "/accounting-services-for-retail",
-        "name": "Retail Accounting Services in India",
-        "description": "Retail accounting services in India - POS and daily sales reconciliation, multi-store inventory, and GST B2C compliance. From INR 3,499/mo (Exl GST).",
-        "url": "/accounting-services-for-retail",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "/" },
-        "about": { "@id": "/accounting-services-for-retail/#service" },
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
-        "author": { "@id": "/#team" },
-        "breadcrumb": { "@id": "/accounting-services-for-retail/#breadcrumb" }
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Retail Accounting Services in India",
+      "item": "https://www.patronaccounting.com/accounting-services-for-retail"
     }
-    </script>
-    <script type="application/ld+json">
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How Patron Accounting Sets Up Retail Accounting",
-        "description": "The process Patron Accounting follows to set up and run retail accounting, from reviewing your stores to filing GST and delivering store-wise reports.",
-        "totalTime": "P14D",
-        "step": [
-            { "@type": "HowToStep", "name": "Understand your retail setup", "text": "We review your stores, POS system, and product range to scope the engagement." },
-            { "@type": "HowToStep", "name": "Connect the data", "text": "We link your POS and bank feeds into the accounting system so daily sales flow through." },
-            { "@type": "HowToStep", "name": "Reconcile daily sales", "text": "We match POS sales to cash, card, and UPI collections every day and resolve differences." },
-            { "@type": "HowToStep", "name": "Track inventory and margin", "text": "We value stock under AS 2 and compute store-wise profitability." },
-            { "@type": "HowToStep", "name": "File and report", "text": "We complete GST and TDS and deliver store-wise sales, margin, and inventory reports." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "What is retail accounting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Retail accounting is the recording and reporting of a shop or chain's daily sales, purchases, stock movement and margins, usually with each outlet set up as a separate cost centre. It covers POS sales posting, cash and card settlement matching, vendor bills, shrinkage, GST returns for every GSTIN and store wise profit reporting. The term also refers to the retail inventory method of valuing closing stock."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "How are POS sales matched to GSTR-1 and GSTR-3B?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "POS sales are reconciled by matching daily Z reports to the sales register, then to the B2C summary or e-invoice data reported in GSTR-1, and finally to the tax paid in GSTR-3B. Variances usually come from returns, exchanges, discounts and card settlement timing. Closing this loop every month means the annual return does not surface a gap you cannot explain later."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Retail Accounting Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "POS reconciliation", "description": "Matching point-of-sale sales to cash, card, and book entries." },
-            { "@type": "DefinedTerm", "name": "B2C sales", "description": "Sales to unregistered end consumers, reported in summary in GSTR-1." },
-            { "@type": "DefinedTerm", "name": "Multi-store accounting", "description": "Consolidated and store-wise books across outlets." },
-            { "@type": "DefinedTerm", "name": "Shrinkage", "description": "Inventory loss from theft, damage, or error, tracked via reconciliation." }
-        ]
+      "@type": "Question",
+      "name": "Can you handle accounting for a retailer selling both in store and on marketplaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Omnichannel retail accounting maps store POS revenue and marketplace or website revenue into one ledger with separate revenue codes per channel. Marketplace settlements need extra care because the operator deducts commission, shipping and TCS at 0.5 percent under Section 52 of the GST law before remitting, so gross sales and not the net payout must be booked as revenue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is closing stock valued for a retail shop at year end?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Closing stock is valued at the lower of cost and net realisable value under AS 2, using either the retail inventory method, where the selling price of stock on hand is reduced by the standard gross margin, or actual cost under FIFO or weighted average. Retailers with wide SKU counts and frequent markdowns usually find the retail method faster to run and easier to audit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do retail accounting services cost per store each month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Retail accounting typically runs Rs 8,000 to Rs 15,000 a month for a single store with one GSTIN, and Rs 6,000 to Rs 10,000 per additional outlet once the POS feeds are standardised. Pricing moves with transaction volume, the number of states registered, payroll headcount and whether physical stock counts and vendor reconciliations are inside the agreed scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which accounting software is best for retail business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zoho Books and Tally Prime are the two we implement most for Indian retail, with the POS pushing one daily sales summary instead of line by line invoices. Zoho Books suits multi store and marketplace sellers who want cloud access and bank feeds. Tally Prime suits a single outlet carrying heavy inventory. QuickBooks is not an option in India after Intuit withdrew it in 2023."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are discounts, loyalty points and gift vouchers recorded in retail books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Discounts shown on the invoice reduce the taxable value directly, while post sale discounts need a credit note linked to the original invoice before GST can be reduced. Loyalty points and gift vouchers are recorded as a liability when issued and released to revenue only on redemption or expiry. Getting this wrong overstates revenue and inflates the GST you end up paying."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens when retail books are months behind and stock records do not match?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Books more than a year behind are rebuilt in a fixed sequence: bank statements first, then purchases and sales from GST returns and POS exports, then a physical stock count to set a clean opening balance. A twelve month retail cleanup usually takes 4 to 6 weeks. Shrinkage found during the count is written off with a documented management note so the auditor accepts it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to manage P&L in retail?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Manage a retail profit and loss store by store every month rather than only at company level, so gross margin, shrinkage, rent and staff cost are visible per outlet by about the tenth working day. Read gross margin percentage, sales per square foot and stock turns next to the rupee numbers. Markdowns, damaged goods and vendor discounts must be posted in the month they actually occur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does onboarding take and what has to be handed over?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Onboarding takes 7 to 10 working days. We need the last audited financials, current year trial balance, GST registration details for each state, POS or billing software exports, bank statements, vendor and customer masters and the last filed GST and TDS returns. Access is taken read only first, opening balances are reconciled, and we go live from the following month."
+      }
     }
-    </script>
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-retail",
+  "name": "Retail Accounting Services in India",
+  "description": "POS reconciled to the ledger daily - shrinkage found in week one, not at audit. Get clean books, on time, without adding headcount. Get a fixed quote.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-retail",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-retail/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/accounting-services-for-retail-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-retail-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-retail/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column - right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION - Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot - Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider .slick-slide > div { height: 100%; }
-        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
-        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #0F6E56;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #0F6E56;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">Retail Accounting Services</span></li>
+        </ol>
+    </div>
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1136,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">2 June 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Built for:</span> retail stores, chains, and multi-outlet businesses.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Cash shortfalls traced to a shift:</span> We trace each store's counted cash to its deposit slip and bank credit, so a shortfall shows against one shift.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> starting from INR 3,499 per month (Exl GST and Govt. Charges).</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>True margin after card costs:</span> You keep revenue gross and see the card and UPI merchant discount as a cost you can read per store.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Covers:</span> POS reconciliation, inventory, GST B2C, and cash management.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Shrinkage you can act on:</span> We hold stock per location, so a gap between the count and the ledger points at one outlet, category and month.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Reporting:</span> store-wise sales, margin, and inventory.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Supplier claims fully collected:</span> We match every scheme, rebate and margin-support claim to the supplier credit note, so cost of goods falls where it should.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Retail Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Retail Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Retail%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Retail%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Retail%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20retail" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1198,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1272,14 +442,12 @@
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
                                 <option value="accounting-services-for-retail" selected>Retail Accounting</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="accounting-services-for-trading-industry">Trading Accounting</option>
-                                <option value="accounting-services-for-e-commerce-industry">E-commerce Accounting</option>
-                                <option value="stock-audit">Stock Audit</option>
-                                <option value="gst-returns">GST Returns Filing</option>
-                                <option value="gst-registration">GST Registration</option>
-                                <option value="tally-accounting">Tally Accounting</option>
-                                <option value="other">Other</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1309,133 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director - Demandify Media</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Anjanay Srivastava</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Founder - Hunarsource Consulting</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PR</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Preeti Singh Rathor</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Talk to our retail accounting team about POS reconciliation, multi-store reporting, and GST B2C compliance.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1461,141 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
             
-            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-                <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
-                <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
-                <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
-                <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">Documents</button>
-                <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
-                <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
-                <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Timeline</button>
-                <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
-                <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">Comparison</button>
-                <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What This Service Covers: A Quick Overview</h2>
+            <h2 class="section-title">What Retail Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - Retail Accounting Services at a Glance</strong></p>
-                    <p>Retail accounting reconciles POS and daily sales to the books, tracks inventory across stores, and handles GST on high-volume B2C sales. It is built for physical retailers and chains, and starts from INR 3,499 per month, with store-wise sales and margin reporting.</p>
+                    <p>Retail accounting services begin with daily POS reconciliation, so shrinkage surfaces in week one rather than at audit. Store-wise profit and loss, stock variance reporting and B2C GST invoicing follow the same cycle. Patron reviews composition thresholds and store-wise GST registrations as you open locations. Ideal where a single counter is growing into a chain.</p>
                 </div>
-                <div class="table-responsive-wrapper" style="margin-bottom:20px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td>What it is</td><td>Accounting tailored to retail stores and chains</td></tr>
-                        <tr><td>Core scope</td><td>POS reconciliation, inventory, GST B2C</td></tr>
-                        <tr><td>Key output</td><td>Store-wise sales, margin, and stock</td></tr>
-                        <tr><td>GST</td><td>B2C reporting, composition or regular advice</td></tr>
-                        <tr><td>Cost</td><td>From INR 3,499 per month (Exl GST)</td></tr>
-                        <tr><td>Also covers</td><td>Cash management, TDS, and audit support</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p>Retail accounting services keep high-volume store sales accurate and GST-compliant. Patron Accounting has supported over 10,000 businesses across India and works on Tally, Zoho Books, and POS-integrated systems.</p>
-                <p>We reconcile POS and daily sales, track inventory across stores, handle GST on B2C sales, and deliver clear store-wise profitability, so you always know what each counter and product is really earning.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>GST law expects a stock record at every registered place of business, which is why counter takings and ledger entries must be brought together continuously rather than once a year. The <a href="/blog/gst-composition-vs-regular-retail">retail accounting</a> cycle sits on that: takings and card settlements matched to bank credits each morning, marketplace payouts traced to their remittance advice, physical counts scheduled against cycle-count lists, and the month closed only after variances are explained. How Mumbai stores handle that sequence shows the same work in practice.</p>
+                <p>Inside scope: day-to-day bookkeeping, stock ledger upkeep, the margin working and the store-wise reporting pack. Outside it: physical stock-take attendance, point-of-sale software licensing and any assessment representation, which Patron handles independently. What moves effort is counter count, daily transaction volume and each extra registration a growing retail business carries. The reporting rhythm follows the published return calendar, so the pack lands on the same day each period.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is Retail Accounting?</h2>
+                <h2 class="section-title">What Are Retail Accounting Services?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Retail accounting is accounting built for businesses that sell directly to consumers through one or more physical stores. Its defining features are high daily transaction volume, point-of-sale billing, inventory across locations, and GST on business-to-consumer sales.</p>
-                    <p>The core discipline is reconciliation: every day, sales recorded at the POS, cash and card collections, and inventory movements must tie back to the books. Done well, retail accounting gives the owner accurate store-wise profitability and clean GST compliance, instead of a month-end guess.</p>
+                    <p>Retail accounting keeps to a simple rule: the till, the stock record and the bank must agree every day, not once a year at audit. Retail accounting services are the outsourced function that holds those three in line across every counter you run.</p>
+<p>Daily takings and card settlements are reconciled to the bank, inventory is valued on a consistent basis, and the stock that quietly goes missing between counts is provisioned for. Each store&#x27;s numbers carry the date they were reconciled to. From that base it produces store-wise profit figures and the B2C invoicing a shop is obliged to raise. This service treats each register and each location as its own reconciling unit, so a shortfall shows up where it happened rather than lost in a group total. Accounting for retail business of this kind is bookkeeping paced to the trading day. Physical stock-take attendance, till software licensing and any assessment before the department are handled apart from this engagement.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Retail Accounting:</strong></p>
-                    <ul>
-                        <li><strong>POS reconciliation:</strong> matching point-of-sale sales to cash, card, and book entries.</li>
-                        <li><strong>B2C sales:</strong> sales to unregistered end consumers, reported in summary in GSTR-1.</li>
-                        <li><strong>Multi-store accounting:</strong> consolidated and store-wise books across outlets.</li>
-                        <li><strong>Shrinkage:</strong> inventory loss from theft, damage, or error, tracked via reconciliation.</li>
-                    </ul>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/point-of-sale-pos-day-end-audit">Point-of-Sale (POS) Day-End Audit</a></span><span class="al-d">Checking each day&#x27;s till takings against the POS system before banking them.</span></li><li><span class="al-t"><a href="/glossary/inventory-shrinkage-provision">Inventory Shrinkage Provision</a></span><span class="al-d">Setting aside for stock lost to theft, damage or counting errors.</span></li><li><span class="al-t"><a href="/glossary/retail-inventory-method">Retail Inventory Method</a></span><span class="al-d">Estimating stock value from selling prices and the store&#x27;s average margin.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Retail Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>From INR 3,499/mo</span>
-                        <strong>Store-wise Reporting</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-retail/what-is.webp" alt="What Are Retail Accounting Services. Retail accounting keeps to a simple rule: the till, the stock record and the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Retail Accounting?</h2>
+            <h2 class="section-title">Who Needs Retail Accounting Services in India?</h2>
             <div class="content-text">
                 
-                <p>Any consumer-facing store benefits, especially as transaction volume and outlets grow.</p>
-                <ul>
-                    <li>Single and multi-store retailers across apparel, grocery, and lifestyle.</li>
-                    <li>Retail chains needing consolidated and store-wise reporting.</li>
-                    <li>Stores running POS systems that must reconcile to the books daily.</li>
-                    <li>Retailers deciding between composition and regular GST.</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>GST note:</strong> retailers selling goods generally register once turnover crosses Rs 40 lakh (Rs 20 lakh in special-category states); high-volume B2C sales are reported in consolidated form in GSTR-1, with inter-state sales above Rs 1 lakh reported invoice-wise.</p>
-                </div>
+                <p>Any retailer whose takings pass through a till before they reach a ledger needs this. The moment a second counter opens, or card and UPI settlements stop matching the bank, retail accounting services become the only way to read each shop honestly.</p>
+  <ul>
+    <li>Apparel and footwear chains where each outlet carries its own stock and <a href="/blog/stock-shrinkage-gross-margin-retail">shrinkage eats into gross margin</a> between counts.</li>
+    <li>Supermarkets and grocery stores ringing high daily volumes across several tills into one deposit.</li>
+    <li>Chemist and pharmacy shops writing off expired batches that never reach the margin working.</li>
+    <li>Electronics and appliance dealers chasing supplier scheme and rebate claims that go uncollected.</li>
+    <li>Franchise outlets paying royalty on reported sales while pooling takings into one bank account.</li>
+    <li>Fashion and lifestyle stores running loyalty points and gift vouchers that build an unrecorded liability.</li>
+    <li>Owners weighing the composition scheme as turnover nears the threshold, set out in our note on <a href="/blog/gst-composition-vs-regular-retail">composition versus regular GST for retailers</a>.</li>
+    <li>Standalone shops moving off a paper cashbook onto POS billing for the first time.</li>
+  </ul>
 
             </div>
             </div>
@@ -1603,7 +595,7 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
@@ -1613,12 +605,12 @@
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>POS and sales reconciliation</td><td>Daily sales matched to cash, card, and UPI.</td></tr>
-                        <tr><td>Inventory accounting</td><td>Stock tracking and valuation under AS 2 across stores.</td></tr>
-                        <tr><td>GST compliance</td><td>B2C reporting, returns, and composition-versus-regular advice.</td></tr>
-                        <tr><td>Multi-store reporting</td><td>Consolidated and store-wise sales and margin.</td></tr>
-                        <tr><td>Cash and bank management</td><td>Daily cash control and bank reconciliation.</td></tr>
-                        <tr><td>Statutory accounting</td><td>Bookkeeping, TDS, payroll, and audit support.</td></tr>
+                        <tr><td>Daily sales and tender reconciliation</td><td>Till Z-reports matched to cash, card, UPI and voucher tenders per store, following our approach to <a href="/blog/daily-sales-reconciliation-retail">daily sales reconciliation</a> for clean books <span class="badge-included">Weekly</span></td></tr>
+                        <tr><td>Card and UPI settlement reconciliation</td><td>We reconcile acquirer settlement statements against recorded sales, recover deducted MDR and flag short credits, so your true margin after card costs is clear <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Store stock and shrinkage reporting</td><td>Location-wise stock movement, inter-store transfers and physical count variances captured through our retail bookkeeping services, with shrinkage and write-off provisions posted <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Gift voucher and loyalty accounting</td><td>Outstanding gift voucher and loyalty point balances tracked as liabilities and released only on redemption, keeping deferred income honest in your accounts <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Store payroll and sales incentives</td><td>Store staff salaries, statutory deductions and sales-linked incentives accrued and reconciled, matching each incentive to the sales that earned it <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Monthly retail accounts and MIS</td><td>Complete monthly close delivered as retail accounting services, with store-wise profit and loss, gross margin and MIS dashboards for owner review <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1628,146 +620,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How We Work With You</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">A clear, repeatable process that connects your POS and bank data, reconciles daily sales, and delivers store-wise reports on a fixed calendar.</p>
+            <h2 class="section-title">How Retail Accounting Services Work — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers retail accounting, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 1</span>
-                    <h3 class="step-title">Understand your retail setup</h3>
-                    <p class="step-description">We review your stores, POS, and product range to scope the work and set up the right structure.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Stores reviewed</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>POS mapped</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 40h80v45a4 4 0 01-4 4H24a4 4 0 01-4-4z" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M18 25h84l6 15H12z" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><rect x="52" y="60" width="16" height="29" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/></svg></div>
-                        <span class="illustration-label">Setup Reviewed</span>
-                        <span class="step-number-large">01</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Till report to tender breakup</h3>
+    <p class="step-description">Each till's daily Z-report is reconciled to the tender split: cash, card, UPI, wallet, voucher and credit sales. The point-of-sale total is the sales figure; the tender lines are only the ways that same sale was settled.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/step-1-till-report-to-tender-breakup.webp" alt="Illustration for Till report to tender breakup: Each till's daily Z-report is reconciled to the tender split: cash, card," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 2</span>
-                    <h3 class="step-title">Connect the data</h3>
-                    <p class="step-description">We link your POS and bank feeds into the accounting system so daily sales and collections flow through automatically.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>POS connected</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Bank feeds linked</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="30" width="44" height="40" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="61" y="30" width="44" height="40" rx="6" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><line x1="50" y1="50" x2="70" y2="50" stroke="#14365F" stroke-width="3" stroke-linecap="round"/></svg></div>
-                        <span class="illustration-label">Data Connected</span>
-                        <span class="step-number-large">02</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Acquirer settlement and discount rate</h3>
+    <p class="step-description">Card and UPI acquirer statements are matched to the card and UPI tender lines batch by batch. The merchant discount charge is recorded as a cost so revenue stays gross, and chargebacks and unsettled batches are carried as open items.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/step-2-acquirer-settlement-and-discount-rate.webp" alt="Illustration for Acquirer settlement and discount rate: Card and UPI acquirer statements are matched to the card and UPI" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 3</span>
-                    <h3 class="step-title">Reconcile daily sales</h3>
-                    <p class="step-description">We match POS sales to cash, card, and UPI collections each day and investigate any difference.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Daily match</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Leakage caught</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="45" cy="50" r="22" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M37 50l6 6 12-13" stroke="#25D366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M78 35v30M70 42l8-8 8 8M86 58l-8 8-8-8" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-                        <span class="illustration-label">Sales Reconciled</span>
-                        <span class="step-number-large">03</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Cash up to deposit trail</h3>
+    <p class="step-description">Cash counted at close is traced through the cash-up sheet and deposit slip to the bank credit for each store and each day. Shortages and excesses go to their own account instead of being absorbed into sales, and petty cash runs on an imprest.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/step-3-cash-up-to-deposit-trail.webp" alt="Illustration for Cash up to deposit trail: Cash counted at close is traced through the cash-up sheet and deposit slip to the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 4</span>
-                    <h3 class="step-title">Track inventory and margin</h3>
-                    <p class="step-description">We value stock under AS 2 and compute store-wise profitability so you see what each outlet earns.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>AS 2 valuation</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Store-wise margin</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 18l38 20v34L60 92 22 72V38z" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M22 38l38 20 38-20M60 58v34" stroke="#F5A623" stroke-width="2"/></svg></div>
-                        <span class="illustration-label">Margin Tracked</span>
-                        <span class="step-number-large">04</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Location stock and shrinkage</h3>
+    <p class="step-description">Stock is kept per location using goods receipts, inter-store transfer notes and physical counts, with transfers agreed at both ends so nothing sits in transit indefinitely. Write-offs are posted only against an approval, not to force a count to agree.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/step-4-location-stock-and-shrinkage.webp" alt="Illustration for Location stock and shrinkage: Stock is kept per location using goods receipts, inter-store transfer notes" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 5</span>
-                    <h3 class="step-title">File and report</h3>
-                    <p class="step-description">We complete GST and TDS and deliver store-wise sales, margin, and inventory reports on a fixed calendar.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST and TDS filed</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Reports delivered</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="32" y="14" width="56" height="72" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="44" y1="34" x2="76" y2="34" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="44" y1="48" x2="70" y2="48" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="44" y1="60" x2="72" y2="60" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/></svg></div>
-                        <span class="illustration-label">Filed and Reported</span>
-                        <span class="step-number-large">05</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Supplier scheme and rebate claims</h3>
+    <p class="step-description">Scheme, rebate and margin-support claims are matched to the supplier credit note and to the purchases they relate to. They are treated as a reduction in cost rather than as other income, with the tax treatment of the credit note checked against the underlying supply.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/step-5-supplier-scheme-and-rebate-claims.webp" alt="Illustration for Supplier scheme and rebate claims: Scheme, rebate and margin-support claims are matched to the supplier" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Voucher and loyalty liability</h3>
+    <p class="step-description">Gift vouchers sold are carried as a liability until redeemed, and unredeemed value is released only on a stated policy. Transactions in vouchers themselves are outside the charge, so tax attaches to the underlying goods at redemption, and loyalty points are provided for.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/step-6-voucher-and-loyalty-liability.webp" alt="Illustration for Voucher and loyalty liability: Gift vouchers sold are carried as a liability until redeemed, and unredeemed" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Store payroll and incentive accrual</h3>
+    <p class="step-description">Incentive and commission are computed on each store's achieved sales and accrued in the same month as those sales, so store-level profitability is not flattered by a payout that lands later. Statutory deductions are tracked per store.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-retail/step-7-store-payroll-and-incentive-accrual.webp" alt="Illustration for Store payroll and incentive accrual: Incentive and commission are computed on each store's achieved sales" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What We Need to Start</h2>
+            <h2 class="section-title">Documents Required for Retail Accounting Services</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li>Store list and POS or billing system details.</li>
-                    <li>Daily sales and collection summaries.</li>
-                    <li>Opening stock and product or SKU list.</li>
-                    <li>Bank statements for all outlets.</li>
-                    <li>GST registration and accounting software access.</li>
-                </ul>
-                <p style="margin-top:16px;">Ask us for a free retail reconciliation checklist before kickoff.</p>
-                <p style="margin-top:12px;"><strong>What you receive each month:</strong> reconciled daily sales tied to cash, card, and UPI collections; store-wise sales, gross margin, and inventory reports; GST returns filed with B2C summaries; and inventory valuation with shrinkage variance highlights.</p>
+                <p>Retail books are rebuilt till by till, which makes the daily Z-report and the tender-type split more useful than a monthly sales figure.</p>
+<ul>
+    <li>Daily sales summary / Z-report per till per store from the POS or billing software</li>
+    <li>Tender-type / mode-of-payment breakup: cash, card, UPI, wallet, gift voucher, credit sales</li>
+    <li>Card and UPI acquirer settlement statements (MDR statements)</li>
+    <li>Cash-up sheets, petty cash book and cash deposit slips per store</li>
+    <li>Stock records per location: opening stock, GRNs, inter-store transfer notes, physical count sheets and shrinkage/write-off approvals</li>
+    <li>Sales returns, exchange and gift-voucher/loyalty liability reports</li>
+    <li>Purchase invoices, GRNs and supplier credit notes including scheme, rebate and margin-support claims</li>
+    <li>Bank statements for every store and pooled account</li>
+    <li>Payroll register per store with incentive and commission workings, and PF, ESI and TDS challans</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Retail Challenges and How We Solve Them</h2>
+            <h2 class="section-title">Common Retail Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>POS sales not matching the books</td><td>Hidden revenue leakage and unreliable daily numbers</td><td>Daily reconciliation to cash, card, and UPI</td></tr>
-                        <tr><td>Stock differences across stores</td><td>Inaccurate inventory and overstated margins</td><td>Store-wise inventory tracking and variance review</td></tr>
-                        <tr><td>High-volume B2C GST reporting</td><td>Risk of notices from incorrect returns</td><td>Correct consolidated B2C reporting in GSTR-1</td></tr>
-                        <tr><td>No store-wise profit visibility</td><td>Loss-making outlets stay hidden in blended numbers</td><td>Store-wise sales and margin reports</td></tr>
+                        <tr><td>Promotional discounts and BOGO offers booked as gross sales</td><td>Revenue and GST liability overstated, so margins read healthier than the counter actually earns</td><td>Post scheme discounts and free-item give-aways as contra-revenue, so net sales and output tax match takings</td></tr>
+                        <tr><td>Gift cards and store credit treated as income on issue</td><td>Revenue recognised before redemption, breaching deferred-revenue timing and pulling GST forward</td><td>Hold gift-card proceeds in a liability ledger, releasing to revenue on redemption with a breakage schedule</td></tr>
+                        <tr><td>MRP-inclusive tags make GST back-calculation error-prone</td><td>Wrong tax fraction stripped out, so output tax is under or over reported per HSN slab</td><td>Configure rate-wise tax-inclusive pricing so GST is extracted correctly from MRP at each slab</td></tr>
+                        <tr><td>Cash-till shortfalls blend into sales without a variance trail</td><td>Skimming and miskeys stay hidden, and cash-in-hand never agrees with recorded sales</td><td>We run <a href="/blog/daily-sales-reconciliation-retail">daily sales reconciliation for retail</a> each morning, isolating till variance before it compounds</td></tr>
+                        <tr><td>Expired and dead stock carried at full cost on shelves</td><td>Closing inventory and gross margin inflated until a painful year-end write-off</td><td>Run SKU ageing and provide for slow-moving and expired stock each month, so margin stays honest</td></tr>
 
                     </tbody>
                 </table>
@@ -1777,52 +740,57 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Retail Accounting Fees in 2026</h2>
+            <h2 class="section-title">Retail Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td class="table-amount">Starting from INR 3,499 per month (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Retail industry band (market context)</td><td class="table-amount">Rs 3,000 to Rs 4,000 per month for a single store</td></tr>
-                        <tr><td>Multi-store or chain</td><td class="table-amount">Custom, quoted on scope after a free assessment</td></tr>
-                        <tr><td>GST government fee (filing)</td><td class="table-amount">Nil government fee for return filing on the GST portal</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one retail outlet with a single POS feed</td><td>INR 3,499 per month<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; more outlets or POS integrations and a wider SKU range</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-outlet retail books with custom stock and margin reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">A single outlet with one POS feed sits on the entry plan at <strong>INR 3,499 per month</strong>, with books reconciled daily. Costs rise as you add outlets, POS integrations or a broader SKU count as your store network grows. Book a scope call on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Retail Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Retail%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Retail Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20retail" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Onboarding Time</h2>
+            <h2 class="section-title">Retail Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Initial setup (POS and bank-feed connection, store-wise configuration)</td><td>About 1 to 2 weeks, depending on the number of stores</td></tr>
-                        <tr><td>Daily sales reconciliation</td><td>Ongoing, every business day</td></tr>
-                        <tr><td>Monthly close and store-wise reports</td><td>On a fixed monthly calendar</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Advance tax second instalment (45% cumulative)</td><td>15 September 2026</td><td>Companies, firms and individuals liable to advance tax</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p>Initial setup, including POS and bank-feed connection and store-wise configuration, typically takes about one to two weeks depending on the number of stores. After that, daily reconciliation and the monthly close, with store-wise reports, run on a fixed calendar.</p>
+                    <p>For a retailer the monthly pressure point is the 20th GSTR-3B, which relies on clean POS settlement and SKU-level reconciliation first. Advance tax on 15 September and the GSTR-9 by 31 December follow. Patron reconciles till data before each <a href="/blog/gst-composition-vs-regular-retail">retail accounting</a> filing so B2C output tax is right the first time. Book a compliance review with a Patron CA on +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1830,70 +798,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Benefits of Specialist Retail Accounting</h2>
+            <h2 class="section-title">Why Professional Retail Accounting Matters</h2>
         </div>
         <div class="features-grid">
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-            <h3 class="feature-title">No leakage in daily sales</h3>
-            <p class="feature-desc">Accurate, reconciled daily sales tied to cash, card, and UPI, so nothing slips through.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
-            <h3 class="feature-title">Store-wise profitability</h3>
-            <p class="feature-desc">See what each outlet earns instead of a single blended number across the business.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-            <h3 class="feature-title">Clean GST on B2C sales</h3>
-            <p class="feature-desc">Business-to-consumer sales reported correctly in GSTR-1, reducing the risk of notices.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
-            <h3 class="feature-title">Early shrinkage detection</h3>
-            <p class="feature-desc">Stock differences from theft, damage, or error are surfaced through regular reconciliation.</p>
-        </article>
-    </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">Cash shortfalls traced to a shift</h3>
+  <p class="feature-text">We trace each store's counted cash to its deposit slip and bank credit, so a shortfall shows against one shift.</p><ul style="margin-top:12px;"><li>Shortages sit in a dated account against the named store</li><li>Cash-up sheets, petty cash book and deposit slips reconciled daily</li><li>Without it, a steady cash leak hides inside sales</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" /> <path d="M12 22V12" /> <polyline points="3.29 7 12 12 20.71 7" /> <path d="m7.5 4.27 9 5.15" /> </svg></div>
+  <h3 class="feature-title">True margin after card costs</h3>
+  <p class="feature-text">You keep revenue gross and see the card and UPI merchant discount as a cost you can read per store.</p><ul style="margin-top:12px;"><li>Merchant discount from card and UPI acquirers posts as a visible cost</li><li>Read from MDR settlement statements, per store</li><li>Without the split, chargebacks and unsettled batches count as sales</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> </svg></div>
+  <h3 class="feature-title">Shrinkage you can act on</h3>
+  <p class="feature-text">We hold stock per location, so a gap between the count and the ledger points at one outlet, category and month.</p><ul style="margin-top:12px;"><li>Physical count sheets checked against the ledger per location</li><li>Write-off approvals tie each loss to a shop and month</li><li>Without it, missing stock becomes one year-end write-off, nothing recovered</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m11 17 2 2a1 1 0 1 0 3-3" /> <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" /> <path d="m21 3 1 11h-2" /> <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" /> <path d="M3 4h8" /> </svg></div>
+  <h3 class="feature-title">Supplier claims fully collected</h3>
+  <p class="feature-text">We match every scheme, rebate and margin-support claim to the supplier credit note, so cost of goods falls where it should.</p><ul style="margin-top:12px;"><li>Scheme, rebate and margin-support claims matched to their purchases</li><li>Evidenced by supplier credit notes and rebate claims</li><li>Without tracking, claims lapse and negotiated buying margin is never realised</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Voucher liability kept honest</h3>
+  <p class="feature-text">We hold gift vouchers and loyalty points as a liability until redeemed, releasing them only on a written policy.</p><ul style="margin-top:12px;"><li>Gift-voucher and loyalty liability reports track the balance</li><li>Released to revenue only on redemption, per policy</li><li>Without it, a festive run flatters one quarter, cost lands later</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3 4 7l4 4" /> <path d="M4 7h16" /> <path d="m16 21 4-4-4-4" /> <path d="M20 17H4" /> </svg></div>
+  <h3 class="feature-title">Incentives matched to their sales</h3>
+  <p class="feature-text">We accrue store incentive and commission in the month the sales were achieved, not the month they are paid.</p><ul style="margin-top:12px;"><li>Payroll register per store carries the incentive workings</li><li>Accrued to the sales month, not the payment month</li><li>Without it, appraisals judge a manager on mistimed payouts</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Retailers Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Processed | 15+ Years</strong></p>
-                <p>"Patron Accounting gives the best service related to all account handling of our firm. She files all returns timely and is most kind and respectful towards us." - Nikhil Nimbhorkar, Google Review</p>
-                <p>"I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free." - Subhendu Mishra, Google Review</p>
-                <p><strong>Outcome proof:</strong> a three-store retailer found that one outlet's POS collections were consistently short; daily reconciliation surfaced the leakage and recovered margin within a month.</p>
-                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Retail Accounting Services in India</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>POS reconciled to the ledger daily</strong><p>We tie each till's POS totals back to the ledger so stock shrinkage surfaces between counts, not at audit. That daily sales reconciliation discipline comes from our 15+ years of experience.</p></div>
+                <div><strong>B2C invoicing, composition thresholds and store-wise GST</strong><p>We handle B2C invoice series, store-wise GST registration and the <a href="/blog/gst-composition-vs-regular-retail">composition scheme threshold</a> as routine work, part of the 25,000+ filings we have completed.</p></div>
+                <div><strong>POS, ERP and gateways in one chart of accounts</strong><p>We work in whichever of Zoho Books, Xero, Tally Prime or Odoo you run. Your POS, ERP and payment gateway feeds map into a single retail chart of accounts.</p></div>
+                <div><strong>Store-wise P&L and stock variance every month</strong><p>Every month you get a store-wise profit and loss statement with stock variance, delivered on a fixed cadence and rated 4.9 on Google by the businesses we serve.</p></div>
+                <div><strong>Retailers among the 3,000+ businesses we serve</strong><p>Retail sits among the 3,000+ businesses we have served since 2019, from single proprietors to established mid-sized groups. That reach rests on 15+ years of experience and a 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Retail vs E-commerce vs Trading Accounting</h2>
+            <h2 class="section-title">Retail Inventory Method vs Cost Method</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>Retail</th><th>E-commerce</th><th>Trading</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Retail Inventory Method</th><th>Cost Method</th></tr></thead>
                     <tbody>
-                        <tr><td>Sales channel</td><td>Physical store / POS</td><td>Online marketplace</td><td>Wholesale / B2B</td></tr>
-                        <tr><td>GST focus</td><td>B2C summary</td><td>TCS and TDS reconciliation</td><td>B2B invoices</td></tr>
-                        <tr><td>Reconciliation</td><td>POS and cash</td><td>Settlement reports</td><td>Debtors and creditors</td></tr>
-                        <tr><td>Inventory</td><td>Store-wise</td><td>Warehouse / FBA</td><td>Bulk stock</td></tr>
+                        <tr><td>What it is</td><td>Ending stock at retail value converted to cost using a cost-to-retail ratio.</td><td>Each item carried at its actual purchase cost using FIFO or weighted average.</td></tr>
+                        <tr><td>Best-suited store</td><td>High-volume stores with many low-value SKUs and consistent mark-ups.</td><td>Stores with fewer, higher-value or barcode-tracked items and varied margins.</td></tr>
+                        <tr><td>Accuracy</td><td>An estimate; accuracy falls when mark-ups vary widely across departments.</td><td>Item-level accuracy, but only as good as the SKU and POS discipline.</td></tr>
+                        <tr><td>System needs</td><td>Workable without a full perpetual system, using department mark-up data.</td><td>Needs barcoded SKUs and a POS or ERP tracking cost per line.</td></tr>
+                        <tr><td>Shrinkage visibility</td><td>Shrinkage is inferred from the gap between expected and counted stock.</td><td>Shrinkage shows directly as a difference at SKU level on count.</td></tr>
+                        <tr><td>Statutory valuation</td><td>Accepted only if it reasonably approximates cost under AS 2 or Ind AS 2.</td><td>Directly meets AS 2 cost basis; LIFO is not permitted either way.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Neither method is inherently better. High-volume stores lean on the retail inventory method, while specialised or high-value shops suit the cost method. Sound retail accounting services choose by SKU mix and system maturity. See <a href="/blog/retail-inventory-method-vs-cost-method">retail inventory method compared</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1903,200 +889,189 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Retail Accounting</h2>
             <div class="content-text">
                 
-                <p>Retail accounting works alongside our wider compliance stack. Explore these closely related services:</p>
-                <ul>
-                    <li><a href="/accounting-services">Accounting Services</a> - full-service bookkeeping and financial reporting.</li>
-                    <li><a href="/accounting-services-for-trading-industry">Trading Accounting</a> - inventory-heavy accounting for wholesale and distribution businesses.</li>
-                    <li><a href="/stock-audit">Stock Audit</a> - independent verification of inventory and shrinkage.</li>
-                    <li><a href="/gst-returns">GST Returns Filing</a> - B2C and B2B return preparation and filing.</li>
-                    <li><a href="/gst-registration">GST Registration</a> - new registration and scheme selection for retailers.</li>
-                </ul>
+                <p>Retail numbers are kept to AS 2, the inventory standard, and that standard is made binding through the Companies Act and the Income-tax Act rather than left to practice. It sets a single discipline - value stock at the lower of cost and net realisable value - and everything from shrinkage provisions to the day's takings has to reconcile back to it.</p>
+<p>The second half of the framework is GST, because a retailer sells to walk-in customers who do not need a named invoice yet the tax still has to be captured. That is why the <a href="/glossary/point-of-sale-pos-day-end-audit">Point-of-Sale (POS) Day-End Audit</a> matters as a control and why the <a href="/glossary/retail-inventory-method">Retail Inventory Method</a> is the accepted shortcut for costing a fast-moving shelf. Retail accounting services hold the till, the stock record and the GST return to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>AS 2 / Ind AS 2, Valuation of Inventories</strong></span><span class="al-d">Stock is valued at the lower of cost and net realisable value, with the retail-inventory or weighted-average method applied consistently year on year.</span></li><li><span class="al-t"><strong>Rule 46 and Rule 46A, CGST Rules 2017</strong></span><span class="al-d">B2C counter sales use consolidated tax invoices or bills of supply, with a single invoice-cum-bill of supply where taxable and exempt goods sell together.</span></li><li><span class="al-t"><strong>Section 10, CGST Act 2017</strong></span><span class="al-d">A small retailer may opt for the composition scheme up to Rs 1.5 crore turnover, paying a flat rate without claiming input tax credit.</span></li><li><span class="al-t"><strong>Section 206C(1H), Income-tax Act 1961</strong></span><span class="al-d">TCS at 0.1% applies on sale of goods to a buyer beyond Rs 50 lakh in a year, unless TDS under 194Q has already been deducted.</span></li><li><span class="al-t"><strong>Section 35(1), CGST Act 2017</strong></span><span class="al-d">Accounts of stock, input tax credit and output tax are kept at the principal place of business and reconciled daily - the ledger side of an <a href="/glossary/inventory-shrinkage-provision">Inventory Shrinkage Provision</a>.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The billing software keeps its audit trail enabled, so a voided sale or a price override is always recorded. GST filing runs from the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">GST and Compliance for Retailers</h2>
-            <div class="content-text">
-                
-                <p>Retailers selling goods generally need GST registration once turnover crosses Rs 40 lakh, or Rs 20 lakh in special-category states. High-volume sales to unregistered consumers are reported in consolidated form in GSTR-1, while inter-state B2C sales above Rs 1 lakh are reported invoice-wise.</p>
-                <p>Smaller retailers may opt for the composition scheme, with turnover up to Rs 1.5 crore, filing CMP-08 quarterly and GSTR-4 annually at a low flat rate; however, a composition dealer cannot charge GST or issue a tax invoice and cannot claim input tax credit. We assess whether composition or the regular scheme suits your store, and value inventory under Accounting Standard 2 (AS 2) at the lower of cost or net realisable value.</p>
-                <p>For official guidance on B2C reporting and the composition scheme, refer to the <a href="https://www.gst.gov.in" target="_blank" rel="noopener">Goods and Services Tax portal (gst.gov.in)</a>.</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    <p class="faq-expanded__lead">Real questions retailers ask about POS reconciliation, GST on B2C sales, multi-store accounting, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    <h2 class="faq-expanded__title">Retail Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on retail accounting scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Retail Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is retail accounting?</h3>
-                        <div class="faq-expanded__a"><p>Retail accounting is accounting built for businesses selling directly to consumers through physical stores. It centres on reconciling high-volume point-of-sale transactions, tracking inventory across locations, and handling GST on business-to-consumer sales. The aim is accurate store-wise profitability and clean GST compliance rather than a month-end estimate.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">How is POS or daily sales reconciled?</h3>
-                        <div class="faq-expanded__a"><p>Each day, the sales recorded at the point-of-sale system are matched against actual cash, card, and UPI collections and then to the books. Any difference is investigated and resolved. This daily reconciliation prevents leakage, catches collection shortfalls early, and ensures the revenue in your accounts reflects what was actually sold and received.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">How is GST charged on B2C retail sales?</h3>
-                        <div class="faq-expanded__a"><p>Sales to unregistered end consumers are business-to-consumer (B2C) supplies. Intra-state B2C sales are reported in a consolidated, rate-wise summary in GSTR-1, while inter-state B2C sales above Rs 1 lakh are reported invoice-wise. GST is charged at the rate applicable to each product's HSN classification, and we handle the reporting in your returns.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How does multi-store accounting work?</h3>
-                        <div class="faq-expanded__a"><p>Multi-store accounting maintains both consolidated books for the business and store-wise records for each outlet. Sales, inventory, and expenses are tracked per store, then rolled up. This gives the owner store-wise profitability and inventory visibility while keeping a single, consolidated view for GST, audit, and overall financial reporting.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">Should a retail store choose composition or regular GST?</h3>
-                        <div class="faq-expanded__a"><p>The composition scheme, available up to Rs 1.5 crore turnover, offers a low flat rate and simpler quarterly CMP-08 and annual GSTR-4 filing, but the dealer cannot charge GST, issue a tax invoice, or claim input tax credit. The regular scheme allows input tax credit and tax invoices. The right choice depends on your customers, suppliers, and growth plans, which we assess for you.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">How is retail inventory valued?</h3>
-                        <div class="faq-expanded__a"><p>Retail inventory is valued under Accounting Standard 2 at the lower of cost or net realisable value, tracked by SKU or barcode across stores. Regular stock reconciliation against physical counts identifies shrinkage from theft, damage, or error, so your inventory on the balance sheet and your reported margins stay accurate.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">Do you work with our POS and billing software?</h3>
-                        <div class="faq-expanded__a"><p>Yes. We connect your POS or billing system and bank feeds into the accounting software, whether Tally, Zoho Books, or a POS-integrated platform, so daily sales flow through and reconcile automatically. We work within your existing stack and set up store-wise reporting around it.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">How much do retail accounting services cost in India?</h3>
-                        <div class="faq-expanded__a"><p>Patron Accounting retail accounting starts from INR 3,499 per month (Exl GST and Govt. Charges), within an industry band of roughly Rs 3,000 to Rs 4,000 per month for a single store. The final fee depends on the number of stores, transaction volume, SKUs, and whether multi-store consolidation is needed. You receive a fixed quote after a free assessment.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-9">
-                        <h3 class="faq-expanded__q">Retail store ke daily sales aur GST accounts kaise manage karein?</h3>
-                        <div class="faq-expanded__a"><p>Aap apne stores, POS system, aur daily sales aur collection summaries share kijiye. Hum POS sales ko cash, card, aur UPI se reconcile karke, store-wise inventory aur margin track karke, aur GST B2C reporting handle karke monthly reports dete hain. Free review ke liye call kijiye.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is retail accounting?</h3>
+  <div class="faq-expanded__a"><p>Retail accounting is the recording and reporting of a shop or chain's daily sales, purchases, stock movement and margins, usually with each outlet set up as a separate cost centre. It covers POS sales posting, cash and card settlement matching, vendor bills, shrinkage, GST returns for every GSTIN and store wise profit reporting. The term also refers to the retail inventory method of valuing closing stock.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How are POS sales matched to GSTR-1 and GSTR-3B?</h3>
+  <div class="faq-expanded__a"><p>POS sales are reconciled by matching daily Z reports to the sales register, then to the B2C summary or e-invoice data reported in GSTR-1, and finally to the tax paid in GSTR-3B. Variances usually come from returns, exchanges, discounts and card settlement timing. Closing this loop every month means the annual return does not surface a gap you cannot explain later.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can you handle accounting for a retailer selling both in store and on marketplaces?</h3>
+  <div class="faq-expanded__a"><p>Yes. Omnichannel retail accounting maps store POS revenue and marketplace or website revenue into one ledger with separate revenue codes per channel. Marketplace settlements need extra care because the operator deducts commission, shipping and TCS at 0.5 percent under Section 52 of the GST law before remitting, so gross sales and not the net payout must be booked as revenue.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is closing stock valued for a retail shop at year end?</h3>
+  <div class="faq-expanded__a"><p>Closing stock is valued at the lower of cost and net realisable value under AS 2, using either the retail inventory method, where the selling price of stock on hand is reduced by the standard gross margin, or actual cost under FIFO or weighted average. Retailers with wide SKU counts and frequent markdowns usually find the retail method faster to run and easier to audit.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How much do retail accounting services cost per store each month?</h3>
+  <div class="faq-expanded__a"><p>Retail accounting typically runs Rs 8,000 to Rs 15,000 a month for a single store with one GSTIN, and Rs 6,000 to Rs 10,000 per additional outlet once the POS feeds are standardised. Pricing moves with transaction volume, the number of states registered, payroll headcount and whether physical stock counts and vendor reconciliations are inside the agreed scope.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which accounting software is best for retail business?</h3>
+  <div class="faq-expanded__a"><p>Zoho Books and Tally Prime are the two we implement most for Indian retail, with the POS pushing one daily sales summary instead of line by line invoices. Zoho Books suits multi store and marketplace sellers who want cloud access and bank feeds. Tally Prime suits a single outlet carrying heavy inventory. QuickBooks is not an option in India after Intuit withdrew it in 2023.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How are discounts, loyalty points and gift vouchers recorded in retail books?</h3>
+  <div class="faq-expanded__a"><p>Discounts shown on the invoice reduce the taxable value directly, while post sale discounts need a credit note linked to the original invoice before GST can be reduced. Loyalty points and gift vouchers are recorded as a liability when issued and released to revenue only on redemption or expiry. Getting this wrong overstates revenue and inflates the GST you end up paying.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What happens when retail books are months behind and stock records do not match?</h3>
+  <div class="faq-expanded__a"><p>Books more than a year behind are rebuilt in a fixed sequence: bank statements first, then purchases and sales from GST returns and POS exports, then a physical stock count to set a clean opening balance. A twelve month retail cleanup usually takes 4 to 6 weeks. Shrinkage found during the count is written off with a documented management note so the auditor accepts it.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How to manage P&L in retail?</h3>
+  <div class="faq-expanded__a"><p>Manage a retail profit and loss store by store every month rather than only at company level, so gross margin, shrinkage, rent and staff cost are visible per outlet by about the tenth working day. Read gross margin percentage, sales per square foot and stock turns next to the rupee numbers. Markdowns, damaged goods and vendor discounts must be posted in the month they actually occur.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How long does onboarding take and what has to be handed over?</h3>
+  <div class="faq-expanded__a"><p>Onboarding takes 7 to 10 working days. We need the last audited financials, current year trial balance, GST registration details for each state, POS or billing software exports, bank statements, vendor and customer masters and the last filed GST and TDS returns. Access is taken read only first, opening balances are reconciled, and we go live from the following month.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <ul>
-                    <li><strong>Starting price?</strong> INR 3,499 per month (Exl GST).</li>
-                    <li><strong>Core focus?</strong> POS and daily sales reconciliation.</li>
-                    <li><strong>GST?</strong> B2C summary in GSTR-1; composition or regular.</li>
-                    <li><strong>Multi-store?</strong> Consolidated plus store-wise reporting.</li>
-                    <li><strong>Inventory?</strong> AS 2 valuation, tracked by SKU.</li>
-                </ul>
+                <p>GST law expects a stock record at every registered place of business, which is why counter takings and ledger entries must be brought together continuously rather than once a year. The retail accounting cycle sits on that: takings and card settlements matched to bank credits each morning, marketplace payouts traced to.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Daily Reconciliation Matters</h2>
+            <h2 class="section-title">Retail Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>In retail, margins are thin and volume is high, so small daily leakages in cash, card, or stock add up fast and stay hidden without reconciliation. Incorrect B2C GST reporting invites notices, and blended numbers hide which store or product is actually losing money. Reconciling daily and reporting store-wise keeps margin protected and compliance clean.</p>
-                <p><strong>Get a free, no-obligation quote. Call <a href="tel:+919459456700">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Retail%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank">WhatsApp our team</a> today.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Know What Every Store Really Earns</h2>
-            <div class="content-text" style="text-align:left;color:#FFFFFF !important;">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Retail Accounting Services with Patron Accounting</h2>
+            <div class="content-text" style="text-align:left;">
                 
-                <p>Retail success lives in the daily detail of sales, stock, and cash. Patron Accounting reconciles your POS and collections every day, tracks inventory across stores, handles GST on B2C sales, and reports store-wise profitability.</p>
-                <p>The result is no leakage, clean compliance, and clear visibility into which outlets and products drive your business. Call +91 945 945 6700, WhatsApp us, or request a free consultation.</p>
+                <p style="color:rgba(255,255,255,0.88);">The store manager ends up doing it. Takings are tallied after closing by whoever holds the keys. A part-time accountant visits on Saturdays with a laptop, and the owner reconciles cards against the bank on a phone between two shops. None of them was hired for this, and none of them owns the result.</p>
+<p style="color:rgba(255,255,255,0.88);">Store comparisons become possible once retail bookkeeping services run to one method. Each outlet closes on the same basis, so a dip at one counter reads as a dip rather than a posting difference. The question you take into a Monday review is which shop, not which spreadsheet.</p>
+<p style="color:rgba(255,255,255,0.88);">Before anything is posted, we look at your tills and card acquirers: what the point of sale software can export, and which banks settle your takings. Whether stock is tracked at each outlet decides what can be automated, as it does in <a href="/accounting-services-it-saas">our work with software clients</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Retail%20Accounting%20Services.%20Please%20share%20the%20process%2C%20inclusions%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Retail Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Retail Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20retail" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Retail%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Retail%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Retail Accounting Services Near You</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">On-the-ground support in major cities, plus remote service across India.</p>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Retail Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for retail accounting in these cities.</p>
             
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid">
-                    <a href="/accounting-services-for-retail/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/accounting-services-for-retail/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/accounting-services-for-retail/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                    <a href="/accounting-services-for-retail/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Retail Accounting</div>
-                <div class="pa-cross-grid"><a href="/accounting-bookkeeping-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting &amp; Bookkeeping Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/accounting-services-for-trading-industry" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trading Accounting</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">E-commerce Accounting</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/stock-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Stock Audit</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 2 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">2 June 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 2 December 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed every six months for accuracy on GST and tax-sensitive details (Freshness Tier 2).</p>
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Serve</div><div class="pa-block-sub">On-ground teams</div><div class="pa-city-grid"><a href="https://www.patronaccounting.com/accounting-services-for-retail/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-retail/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-retail/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-retail/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div>
+<div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
 
 
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2167,8 +1142,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2178,8 +1153,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2260,7 +1235,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2270,34 +1245,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-          function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2308,12 +1281,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2329,7 +1303,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2344,7 +1318,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2375,7 +1349,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2424,9 +1398,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2566,7 +1538,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2596,7 +1568,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-     var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2616,7 +1587,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2694,7 +1665,7 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
@@ -2703,55 +1674,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2789,10 +1729,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

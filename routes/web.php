@@ -34,14 +34,17 @@ use App\Http\Controllers\DocFileController;
 // Frontend Routes
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 
-// ============ Glossary (Accounting cluster: 1 hub + 140 term pages) ============
+// ============ Glossary: master hub + Accounting hub + 140 term pages ============
 Route::get('/glossary', function () {
     return view('glossary.index');
 })->name('glossary.index');
-Route::get('/glossary/{slug}', function ($slug) {
-    abort_unless(view()->exists('glossary.' . $slug), 404);
-    return view('glossary.' . $slug);
-})->where('slug', '[a-z0-9\-]+')->name('glossary.show');
+Route::get('/glossary/accounting', function () {
+    return view('glossary.accounting');
+})->name('glossary.accounting');
+Route::get('/glossary/accounting/{slug}', function ($slug) {
+    abort_unless(view()->exists('glossary.accounting.' . $slug), 404);
+    return view('glossary.accounting.' . $slug);
+})->where('slug', '[a-z0-9\-]+')->name('glossary.term');
 
 /*
  * Header/Footer assets served via app code.

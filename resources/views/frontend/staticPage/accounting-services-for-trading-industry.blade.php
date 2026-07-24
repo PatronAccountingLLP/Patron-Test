@@ -1,1113 +1,293 @@
-
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Trading Business Accounting Services - Inventory & GST</title>
-    <meta name="description" content="CA for wholesale and retail traders in India. GST compliance, e-invoicing above Rs 5 crore, e-way bill, 44AB audit, ITR from INR 2,999/month.">
-    <link rel="canonical" href="/accounting-services-for-trading-industry">
+    <title>Accounting for Trading Businesses in India, CA Managed | Patron Accounting</title>
+    <meta name="description" content="Lot-wise stock valued on a consistent cost-or-NRV basis, every close. Fewer surprises at year end and a shorter audit. Start with a books review.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-trading-industry">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trading Business Accounting Services - Inventory & GST">
-    <meta property="og:description" content="CA for wholesale and retail traders in India. GST compliance, e-invoicing above Rs 5 crore, e-way bill, 44AB audit, ITR from INR 2,999/month.">
-    <meta property="og:url" content="/accounting-services-for-trading-industry">
+    <meta property="og:title" content="Accounting for Trading Businesses in India, CA Managed | Patron Accounting">
+    <meta property="og:description" content="Lot-wise stock valued on a consistent cost-or-NRV basis, every close. Fewer surprises at year end and a shorter audit. Start with a books review.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-trading-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-trading-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-trading-industry-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trading Business Accounting Services - Inventory & GST">
-    <meta name="twitter:description" content="CA for wholesale and retail traders in India. GST compliance, e-invoicing above Rs 5 crore, e-way bill, 44AB audit, ITR from INR 2,999/month.">
-    <meta name="twitter:image" content="/images/accounting-services-for-trading-industry-og.webp">
+    <meta name="twitter:title" content="Accounting for Trading Businesses in India, CA Managed | Patron Accounting">
+    <meta name="twitter:description" content="Lot-wise stock valued on a consistent cost-or-NRV basis, every close. Fewer surprises at year end and a shorter audit. Start with a books review.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-trading-industry-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry/#service",
+  "name": "Accounting for Trading Businesses in India",
+  "description": "Accounting for trading business is stock-led: every lot valued on a consistent cost or net realisable value basis at each close. Purchase and sales registers tie to GSTR-2B and GSTR-1 before filing, with e-way bill data reconciled back to the sales register.",
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-trading-industry-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Trading Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting for Trading Businesses in India",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
           "@type": "Service",
-          "name": "Trading Wholesale Retail Accounting",
-          "description": "CA for wholesale and retail traders in India. GST compliance, e-invoicing above Rs 5 crore, e-way bill, 44AB audit, ITR from INR 2,999/month.",
-          "url": "/accounting-services-for-trading-industry",
-          "serviceType": "Trading Wholesale Retail Accounting",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
-          },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "/accounting-services-for-trading-industry",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "1",
-              "maxPrice": "50000",
-              "priceCurrency": "INR"
-            }
-          }
+          "name": "Accounting for Trading Businesses in India",
+          "description": "Accounting for trading business is stock-led: every lot valued on a consistent cost or net realisable value basis at each close. Purchase and sales registers tie to GSTR-2B and GSTR-1 before filing, with e-way bill data reconciled back to the sales register.",
+          "serviceType": "Trading Accounting Service"
         },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Trading Wholesale Retail Accounting",
-              "item": "/accounting-services-for-trading-industry"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What GST rate applies to wholesale and retail traders?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "GST rates depend on HSN code. Post GST 2.0 (56th Council, 22 September 2025): 0% essential goods, 5% basic necessities, 12% standard goods, 18% most manufactured items, 28% luxury/sin goods. Gold/silver at 3% (Chapter 71), diamonds at 0.25%. Traders must map every SKU to correct HSN and apply current rate."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the e-invoicing threshold for trading businesses?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Mandatory for B2B invoices if aggregate annual turnover (AATO) exceeds Rs 5 crore in any FY from 2017-18. IRN from IRP mandatory with QR code on invoice. 30-day upload rule for AATO above Rs 10 crore from 1 April 2025. Penalty up to Rs 25,000 per non-compliant invoice. B2C invoices exempt."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "When is an e-way bill required for goods transport?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Mandatory under Rule 138 CGST Rules for interstate consignments above Rs 50,000. Validity 1 day per 200 km. Intrastate thresholds vary: Maharashtra and Delhi Rs 1 lakh, Gujarat and Karnataka Rs 50,000. Penalty under Section 129: goods detained plus 100% of tax amount. Invoice splitting to avoid threshold is an offence."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is Section 44AD presumptive tax for traders?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Section 44AD allows resident individuals, HUFs, and partnership firms (not LLPs/companies) with turnover up to Rs 2 crore (Rs 3 crore if 95%+ digital) to declare 6% of digital and 8% of cash receipts as income. No books or audit required within limit. 5-year lock-in once opted. Advance tax by 15 March. ITR-4 filed."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "When is tax audit mandatory for a trader?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Under Section 44AB: mandatory if turnover exceeds Rs 1 crore (Rs 10 crore with 95% digital). Also mandatory if trader declares income below 6%/8% under 44AD and income exceeds basic exemption. Form 3CD audit by CA. Penalty: 0.5% of turnover or Rs 1.5 lakh under Section 271B."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is TCS under Section 206C for traders?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "TCS at 1% on scrap, minerals, timber, tendu leaves. 1% on motor vehicles above Rs 10 lakh under 206C(1F). Section 206C(1H) on general goods above Rs 50 lakh removed from FY 2025-26 (Budget 2025). Quarterly Form 27EQ. If buyer deducts 194Q TDS, seller need not collect TCS."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What ITR form do wholesale and retail traders file?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "ITR-4 (Sugam) for 44AD traders up to Rs 3 crore. ITR-3 for individuals with regular books. ITR-5 for partnership firms and LLPs. ITR-6 for private limited companies. Audit cases due 31 October. Non-audit individuals by 31 July. Companies also file AOC-4 and MGT-7 with MCA. Quick Answers Q: What is trading accounting? Specialist financial management for wholesale distributors, retail traders, and e-commerce sellers covering HSN-based GST, e-invoicing, e-way bill, ITC reconciliation, Section 44AD/44AB, TCS under 206C, and stock valuation. Q: Trading ka GST kaise bhare? GSTR-1 har mahine 11 tareekh tak aur GSTR-3B 20 tareekh tak file karo. HSN code sahi hona chahiye. Rs 5 crore se zyada turnover pe e-invoicing bhi mandatory hai. Q: Can a wholesale trader use 44AD? Yes, resident individual, HUF, or partnership (not LLP) with turnover up to Rs 3 crore (95% digital). Declare 6% digital / 8% cash as income. 5-year lock-in. ITR-4. Q: Retail dukan ka ITR kaise file hota hai? Section 44AD ke under ITR-4 file karo agar turnover Rs 3 crore se kam hai aur 95% digital payments hain. Isse zyada pe regular books aur ITR-3 file karna padta hai."
-              }
-            }
-          ]
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-      ]
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Trading Business Accounting Services",
+      "item": "https://www.patronaccounting.com/accounting-services-for-trading-industry"
     }
-    </script>
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does accounting for a trading or wholesale business include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It includes purchase and sales entry, stock ledgers, debtor and creditor reconciliation, GST return workings, TDS, freight and landed cost allocation, monthly gross margin reporting and year end finalisation. For wholesale and distribution clients we also track scheme discounts, credit notes, sales returns and dealer claims, because those are the entries that most often distort the margin you actually report."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you value closing stock for a distribution business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Closing stock is valued at the lower of cost and net realisable value under AS 2, with cost including purchase price, inward freight, customs duty and other landed costs but excluding recoverable GST. We agree whether you follow FIFO or weighted average at the start and apply it consistently, since changing method mid year distorts margin and invites an audit query."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should a trading firm use Section 44AD presumptive taxation or regular books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Presumptive taxation under Section 44AD suits small trading firms below the prescribed turnover limit that want minimal compliance, but it fixes declared profit at a deemed rate and blocks most expense claims. If your actual margin is thin, if you need bank funding, or if you are a company or LLP, regular books usually work out better. We model both before you decide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle import and export entries in the books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Import and export entries are recorded at the exchange rate on the transaction date. Landed cost carries basic customs duty, social welfare surcharge, clearing charges and inward freight. IGST paid at import is not a cost, it is booked as input tax credit receivable and matched to your credit ledger. Year end foreign currency balances are revalued and export refund claims tracked separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you reconcile hundreds of debtor and creditor ledgers every month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Party ledgers are reconciled monthly by importing counterparty statements and matching them line by line, with a formal balance confirmation cycle at year end. Unmatched items are grouped into invoices not booked, payments in transit, discounts and returns, and each group is routed to your sales or purchase team with a due date rather than left sitting in the ledger."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which GST returns does a trading business need to file each period?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A trading business registered under GST files an outward supply return and a summary return for each period, plus the annual return where applicable, and a separate set for every state registration it holds. We prepare the workings, reconcile sales against e-invoice and e-way bill data and match purchases to GSTR-2B before filing, so that eligible credit is not lost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does trading business accounting cost per month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trading business accounting generally costs Rs 10,000 to Rs 40,000 a month, based on the number of invoices, warehouses and GST registrations rather than on turnover. A single state wholesaler with about 300 invoices a month sits at the lower end. Stock valuation support, debtor reconciliation drives and year end finalisation can be added as separate fixed fee modules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are credit notes, discounts and sales returns recorded?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Credit notes, trade discounts and sales returns are recorded against the original invoice with the GST treatment applied correctly, so your books and your outward supply return tell the same story. Post sale discounts that were not agreed at the time of supply cannot always be adjusted against output tax, so we flag those separately and treat them as a margin item."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you manage books across multiple warehouses and state GST registrations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, books are maintained with location wise stock ledgers and a separate return set for each GSTIN. Stock transfers between your own branches are recorded with the correct documentation and valuation, and inter branch balances are reconciled every month so the consolidated accounts eliminate them cleanly instead of carrying a difference into the year end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly are gross margin numbers by product available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Product wise and category wise gross margin reports arrive with the monthly MIS, normally by the tenth working day after month end. The report shows sales, landed cost, discounts and returns for each product group along with stock cover in days. Where your billing software already tags SKUs, those tags are mapped to the ledger so nothing is entered twice."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry",
+  "name": "Accounting for Trading Businesses in India",
+  "description": "Lot-wise stock valued on a consistent cost-or-NRV basis, every close. Fewer surprises at year end and a shorter audit. Start with a books review.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-trading-industry",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/accounting-services-for-trading-industry-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-trading-industry-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
-<!-- BREADCRUMB -->
-{{-- <nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
     <div style="max-width:1320px;margin:0 auto;">
         <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
                     Home
                 </a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/accounting-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a>
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li><span style="color:var(--orange);font-weight:600;">Trading Accounting Services</span></li>
         </ol>
     </div>
-</nav> --}}
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1119,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Wholesale and Retail Trading Accounting and Compliance Services in India
+                        Accounting for Trading Businesses in India
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1128,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">12 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Multi-Rate GST Compliance:</span> HSN-based GST classification (0% to 28%), GSTR-1/3B monthly, ITC reconciliation against GSTR-2B, annual GSTR-9</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Stock that matches the godown:</span> Your book stock is agreed location by location: main premises, each declared godown and goods lying with consignees.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>E-Invoicing and E-Way Bill:</span> IRP integration for B2B invoices above Rs 5 crore AATO, e-way bill for consignments above Rs 50,000, dispatch team training</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Margin read by product group:</span> You get gross margin split by product group and explained: which lines fell, what discounts took, where slow movers tied cash.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Section 44AD and 44AB:</span> Presumptive tax at 6%/8% for traders up to Rs 3 crore; Section 44AB audit above Rs 1 crore; turnover monitoring</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Credit kept, not reversed:</span> You get a running list of purchase bills unpaid past the point where input tax credit must be reversed. It reaches you in time to act.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>600+ Trading Clients:</span> Starting from INR 2,999/month - FMCG, textiles, electronics, hardware, auto parts, pharma, jewellery, and grocery trading</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Import cost per item:</span> Every consignment enters the books with duty, freight, insurance and CHA charges in its landed cost per item. Import IGST comes off the Bill of Entry.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Trusted by 600+ wholesale and retail trading businesses across India</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Trading%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Trading%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20for%20my%20trading%20business.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20trading%20industry" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1190,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1263,7 +441,13 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services-for-trading-industry" selected>Trading Accounting</option><option value="accounting-services">Accounting Services</option><option value="gst-registration">GST Registration</option><option value="gst-returns">GST Return Filing</option><option value="income-tax-return">Income Tax Return</option><option value="tds-return-filing">TDS Return Filing</option><option value="payroll-services">Payroll Services</option><option value="private-limited-company-registration">Company Registration</option><option value="other">Other</option>
+                                <option value="accounting-services-for-trading-industry" selected>Trading Accounting</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1293,59 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron recovered Rs 8 lakh in blocked ITC by reconciling our GSTR-2B with 65 vendors every month. Their vendor follow-up process for missing GSTR-1 entries saved us lakhs in the first quarter alone.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RG</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rajesh G.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">FMCG Distributor, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We crossed Rs 5 crore AATO and had no idea e-invoicing was mandatory. Patron set up our Tally IRP integration, trained our billing team, and we went live with zero penalties. They caught it just in time.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SK</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Suresh K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Hardware Wholesaler, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">As a textile trader dealing in both 5% fabrics and 12% garments, getting the HSN-GST mapping right was critical. Patron mapped all 80 SKUs correctly and our GSTR-1 HSN summary now passes portal validation every time.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PM</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Priya M.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Textile Trader, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our dispatch team was generating e-way bills manually and missing consignments. Patron set up an EWB workflow integrated with our billing software. Zero goods detentions in the last 6 months.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">VJ</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Vikram J.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Auto Parts Distributor, Bengaluru</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div></div></div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get expert CA-managed accounting for your wholesale or retail trading business.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1371,97 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <a href="#overview-section" class="toc-btn">Overview</a><a href="#what-section" class="toc-btn">Trading Accounting</a><a href="#who-section" class="toc-btn">Who Needs It</a><a href="#services-section" class="toc-btn">Our Services</a><a href="#procedure-section" class="toc-btn">7-Step Process</a><a href="#documents-section" class="toc-btn">Documents</a><a href="#fees-section" class="toc-btn">Pricing</a><a href="#timeline-section" class="toc-btn">Deadlines</a><a href="#benefits-section" class="toc-btn">Why Patron</a><a href="#comparison-section" class="toc-btn">DIY vs Professional</a><a href="#faq-section" class="toc-btn">FAQs</a>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Wholesale and Retail Trading Accounting - Specialist CA Services for Indian Traders</h2>
+            <h2 class="section-title">What Trading Business Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - Trading Accounting Services at a Glance</strong></p>
-                    <p>Wholesale and retail traders must register for GST when aggregate turnover exceeds Rs 40 lakh (goods), file GSTR-1 by 11th and GSTR-3B by 20th monthly, generate e-invoices if AATO exceeds Rs 5 crore (B2B), issue e-way bills for consignments above Rs 50,000, and file ITR by 31 October. Traders up to Rs 3 crore turnover (95% digital) can use Section 44AD presumptive tax at 6%/8%. Patron Accounting provides trading sector CA services from INR 2,999 per month with 600+ clients served.</p>
+                    <p>Accounting for trading business is stock-led: every lot valued on a consistent cost or net realisable value basis at each close. Purchase and sales registers tie to GSTR-2B and GSTR-1 before filing, with e-way bill data reconciled back to the sales register. Patron reports godown-wise stock and splits margin by product line. Common among distributors, wholesalers and commodity traders across India.</p>
                 </div>
-                <p>The wholesale and retail trade sector employs over 100 million people and contributes 14-16% of India's GDP. Yet for most trading businesses - from a Rs 50 lakh textile shop to a Rs 200 crore FMCG distributor - the compliance burden is disproportionately large. A wholesale distributor supplying 50 product lines must classify each SKU under the correct HSN code, reconcile GSTR-2B monthly, generate e-invoices for every B2B sale above the threshold, create e-way bills for outward consignments, and file annual ITR with possible Section 44AB audit.</p>
-                <p>Patron Accounting handles this entire compliance stack for trading businesses with 600+ wholesale and retail clients across FMCG, textiles, electronics, hardware, auto parts, pharma distribution, grocery retail, and jewellery trading. Our CA team specialises in multi-rate GST classification, e-invoicing IRP integration, e-way bill management, Section 44AD monitoring, and TCS compliance under Section 206C.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Input credit is lost when the purchase register and the supplier's own filing part ways, and the shortfall shows only on close inspection. Patron lists the differences supplier by supplier, separates goods still in transit from bills never uploaded, ties credit notes back to the original invoice and chases what is missing before the return goes in. Accounting for a trading business leaves you the residual gap, as recovering credit lost to supplier mismatches explains.</p>
+                <p>The recurring cycle is what sits inside scope: purchase and sales coding, stock valuation at each close, the landed-cost working on imports, and every schedule that sits behind them. A wholesale business takes more effort where several godowns, branch registrations or import consignments are involved, and the filing rhythm follows the published return calendar. Physical stock counts are arranged separately.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What is Trading Accounting?</h2>
+                <h2 class="section-title">What Is Trading Business Accounting?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Trading accounting is specialist financial management for wholesale distributors, retail shops, dealers, stockists, C&F agents, and e-commerce sellers engaged in buying and reselling goods. It covers HSN-based GST classification for each product line, monthly GSTR-1 and GSTR-3B returns, ITC reconciliation against GSTR-2B, e-invoice generation for B2B sales, e-way bill management, stock valuation, TCS compliance under Section 206C, and income tax filing under Section 44AD or 44AB.</p><p>Unlike service sector businesses, trading companies deal with <strong>physical inventory</strong>, <strong>multi-rate GST across diverse product categories</strong> (0% to 28%), <strong>e-way bill compliance for every goods dispatch</strong>, and <strong>stock valuation at year-end</strong> under Section 145A. The e-invoicing mandate for AATO above Rs 5 crore and the 30-day upload rule for Rs 10 crore+ businesses add real-time compliance pressure.</p><p>Post <strong>GST 2.0</strong> (effective 22 September 2025 per 56th GST Council), rate restructuring across the 0%-5%-12%-18%-28% slabs means traders must update HSN-rate mappings for affected product lines.</p>
+                    <p>Every consignment of goods bought and sold is the unit this service is built around, from the price paid to the margin finally realised. Accounting for trading business is the discipline that values that stock accurately and keeps the purchase and sales records tying back to it.</p>
+<p>Closing stock is valued on a consistent basis at each period, so the profit reported is the profit actually earned rather than a figure agreed after the fact. It reconciles the purchase and sales registers against the returns filed at the portal, builds the landed cost of imported goods, and reports stock and margin by godown and by product line. Accounting for trading business treats the stock ledger, not the bank statement, as the spine of the accounts. Wholesale accounting services of this kind scale with the number of godowns and import consignments involved. Physical stock counts and any departmental representation are arranged separately from this engagement.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Trading Accounting:</strong></p>
-                    <p><strong>HSN Code:</strong> Harmonised System of Nomenclature classifying goods under GST - 4-digit below Rs 1.5 crore, 6-digit for Rs 1.5-5 crore, 8-digit above Rs 5 crore turnover</p><p><strong>E-Way Bill (Rule 138):</strong> Mandatory electronic waybill for interstate goods above Rs 50,000; validity 1 day per 200 km; detention and 100% penalty under Section 129</p><p><strong>Section 44AD:</strong> Presumptive tax for traders - 6% digital / 8% cash receipts as income; limit Rs 2 crore (Rs 3 crore digital); 5-year lock-in; ITR-4</p><p><strong>Section 206C TCS:</strong> 1% TCS on scrap, minerals, timber; 1% on motor vehicles above Rs 10 lakh; Section 206C(1H) on general goods removed from FY 2025-26</p><p><strong>GSTR-2B Reconciliation:</strong> Monthly matching of vendor GSTR-1 data against purchase invoices; ITC blocked under Section 16(2)(aa) if vendor has not filed</p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/gstr-2b-input-tax-credit-matching">GSTR-2B Input Tax Credit Matching</a></span><span class="al-d">Matching purchase bills to the GST credit statement before claiming that credit.</span></li><li><span class="al-t"><a href="/glossary/section-194q-tds-on-goods">Section 194Q TDS on Goods</a></span><span class="al-d">Tax buyers deduct when yearly purchases from a supplier cross a set limit.</span></li><li><span class="al-t"><a href="/glossary/landing-cost-adjustment">Landing Cost Adjustment</a></span><span class="al-d">Adding freight, duty and other charges to an item&#x27;s true purchase cost.</span></li><li><span class="al-t"><a href="/glossary/fifo-vs-weighted-average-cost">FIFO vs Weighted Average Cost</a></span><span class="al-d">Two ways of deciding which cost applies to the stock you sold.</span></li><li><span class="al-t"><a href="/glossary/section-52-tcs-under-gst">Section 52 TCS under GST</a></span><span class="al-d">Tax a marketplace collects on your sale and deposits under your GST number.</span></li><li><span class="al-t"><a href="/glossary/form-itc-04-job-work-tracking">Form ITC-04 Job Work Tracking</a></span><span class="al-d">A quarterly GST return for goods sent to and returned from job workers.</span></li><li><span class="al-t"><a href="/glossary/goods-transport-agency-gta-rcm">Goods Transport Agency (GTA) RCM</a></span><span class="al-d">When the buyer, not the transporter, pays the GST on freight.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <!-- Warehouse / Trading icon -->
-                            <rect x="35" y="45" width="130" height="75" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Warehouse roof -->
-                            <path d="M30 47L100 20L170 47" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Boxes/inventory inside -->
-                            <rect x="50" y="65" width="25" height="22" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <rect x="80" y="58" width="25" height="29" rx="3" fill="#E8F5E9" stroke="#25D366" stroke-width="1.2"/>
-                            <rect x="110" y="68" width="25" height="19" rx="3" fill="#E3F2FD" stroke="#14365F" stroke-width="1.2"/>
-                            <rect x="50" y="90" width="85" height="22" rx="3" fill="#14365F" opacity="0.08" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Truck/dispatch arrow -->
-                            <path d="M145 100h18" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/>
-                            <path d="M159 95l5 5-5 5" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Green badge -->
-                            <circle cx="155" cy="35" r="14" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M149 35l4 4 8-8" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- TRD tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">TRD</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Trading Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Trading Sector</span>
-                        <strong>GST + E-Invoice + E-Way Bill</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/what-is.webp" alt="What Is Trading Business Accounting. Every consignment of goods bought and sold is the unit this service is built" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Trading Accounting Services?</h2>
+            <h2 class="section-title">Who Needs Trading Business Accounting in India?</h2>
             <div class="content-text">
                 
-                <ul><li><strong>Wholesale Distributors and Super-Stockists:</strong> Hundreds of vendor invoices monthly; GSTR-2B reconciliation critical for ITC; e-invoicing above Rs 5 crore; e-way bill for every interstate dispatch</li><li><strong>Retail Shop Owners (Kirana, Pharmacy, Electronics):</strong> Monthly GST filing; QRMP scheme for turnover below Rs 5 crore; Section 44AD presumptive tax below Rs 3 crore; ITR-3 or ITR-4</li><li><strong>FMCG Dealers and Distributors:</strong> Multi-rate GST across product categories; large ITC claims; GSTR-2B mismatch issues; e-invoicing above threshold</li><li><strong>C&F Agents and Commission Agents:</strong> Agent commission at 18% GST; consignment stock e-way bills; reconciliation between principal and agent books</li><li><strong>E-Commerce Sellers (Amazon, Flipkart, Meesho):</strong> Mandatory GST regardless of turnover under Section 24(ix); 1% TCS by platform; e-invoicing if AATO above Rs 5 crore</li><li><strong>Auto Parts and Vehicle Dealers:</strong> GST 18-28%; TCS under 206C(1F) on motor vehicles above Rs 10 lakh; e-invoicing; e-way bill</li><li><strong>Jewellery and Bullion Traders:</strong> 3% GST on gold/silver; 0.25% on diamonds; TCS under Section 206C; hallmarking compliance</li><li><strong>Agricultural Commodity Traders:</strong> Mostly 0% GST but e-way bills for interstate; APMC compliance; Section 44AD for small traders</li></ul>
+                <p>Accounting for trading business suits firms whose profit is settled at the godown, not on the invoice. When stock outruns the paperwork, the businesses below each carry a distinct reason their books turn on inventory and supplier credit.</p>
+  <ul>
+    <li>Distributors holding stock across several godowns that must reconcile to one another.</li>
+    <li>Wholesalers moving goods on delivery challans to exhibitions or approval, where movements stay open.</li>
+    <li>Importers building landed cost from Bill of Entry, freight and customs duty per consignment.</li>
+    <li>Multi-state traders billing inter-state branch transfers between the same PAN and different GSTINs.</li>
+    <li>Commodity traders running trade and quantity schemes that shift the rate after a sale.</li>
+    <li>Buyers crossing the <a href="/blog/194q-vs-206c-1h-tds-tcs">194Q threshold</a> who must deduct TDS on their goods purchases.</li>
+    <li>Traders whose purchase register keeps parting ways with GSTR-2B at each filing.</li>
+    <li>Firms <a href="/blog/stock-valuation-trading-business">valuing closing stock</a> on FIFO or weighted average that a banker relies on.</li>
+  </ul>
 
             </div>
             </div>
@@ -1469,17 +595,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trading Sector Accounting Services by Patron Accounting</h2>
+            <h2 class="section-title">Our Trading Business Accounting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>GST Registration, HSN Mapping, and Monthly Returns</td><td>Registration, HSN code mapping for each product line, correct GST rate per GST 2.0, GSTR-1/GSTR-3B monthly, QRMP scheme, ITC reconciliation against GSTR-2B, GSTR-9 annual</td></tr><tr><td>E-Invoicing Compliance</td><td>IRP integration for B2B invoices (AATO above Rs 5 crore), IRN generation, QR code on invoices, 30-day upload monitoring, staff training, penalty prevention</td></tr><tr><td>E-Way Bill Management</td><td>EWB generation for interstate above Rs 50,000, state-specific intrastate thresholds, Part B vehicle details, dispatch workflow setup, team training</td></tr><tr><td>Section 44AD Presumptive Tax and ITR Filing</td><td>44AD eligibility assessment (Rs 2-3 crore), 6%/8% presumptive income, advance tax by 15 March, ITR-4; regular books ITR-3/5/6 with 44AB audit where applicable</td></tr><tr><td>TCS Compliance (Section 206C)</td><td>Specified goods tracking (scrap, minerals, vehicles), TCS collection, deposit by 7th, Form 27EQ quarterly, Form 27D certificates, Section 194Q coordination</td></tr><tr><td>Bookkeeping, Inventory, and Stock Valuation</td><td>Purchase/sales ledger, stock register, FIFO/weighted average valuation per Section 145A, HSN-wise inventory, monthly P&L, year-end stock count</td></tr><tr><td>Payroll, PF, ESI, and Labour Law</td><td>Monthly payroll, EPF ECR, ESI contributions, professional tax, Contract Labour Act compliance for warehouse and logistics staff</td></tr>
+                        <tr><td>Warehouse and godown stock reconciliation</td><td>Stock reconciled per godown and additional place of business against GRNs, transfers and physical counts, so book stock matches what is on the floor <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>GST input credit reconciliation</td><td>Purchase register matched to GSTR-2B so eligible input tax credit is claimed and not reversed, following our approach to <a href="/blog/gstr-2b-reconciliation-traders-itc">GSTR-2B reconciliation for traders</a> <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Import landed cost accounting</td><td>Bill of entry duty, IGST, freight and clearing charges built into landed cost per item, giving accurate margins for your import export business <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Branch transfer and challan tracking</td><td>Inter-state branch transfers between GSTINs valued correctly and open delivery challans closed off, keeping stock and turnover reconciled across locations <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Scheme, rate difference and credit notes</td><td>Trade schemes, quantity discounts and rate differences posted through credit and debit notes, matched supplier by supplier for wholesale accounting services <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Monthly trading accounts and margin review</td><td>Complete accounting for trading business each month with product-group margins, closing stock valuation and management accounts for owner review <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1489,52 +620,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How Trading Accounting Services Work - 7-Step Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">From HSN mapping to annual audit, every step managed by CAs with deep trading sector experience.</p>
+            <h2 class="section-title">How Trading Business Accounting Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers <a href="/blog/gstr-2b-reconciliation-traders-itc">trading accounting</a>, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Business Profile and Tax Regime Assessment</h3><p class="step-description">We map entity type, turnover, product mix, supply type (intra/inter-state/export), and sales channel. For individuals and firms below Rs 3 crore (95% digital), we assess Section 44AD eligibility. For e-commerce sellers, we confirm mandatory GST under Section 24(ix). For AATO above Rs 5 crore, we initiate e-invoicing setup.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Entity type confirmed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 44AD eligibility assessed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M50 38l7 7 13-13" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Regime Set</span><span class="step-number-large">01</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">HSN Code Mapping and GST Rate Structure</h3><p class="step-description">Every product mapped to correct 4/6/8-digit HSN code. GST rate determined per current notifications and GST 2.0 (56th Council). Product master created in accounting software. For FMCG distributors, this may involve 50-100 SKUs across different slabs.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> HSN codes mapped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST rates assigned</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Multi-rate structure set</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="8" width="90" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="24" x2="92" y2="24" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="28" y1="38" x2="82" y2="38" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="50" x2="72" y2="50" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="62" x2="78" y2="62" stroke="#14365F" stroke-width="2" opacity="0.3"/></svg></div><span class="illustration-label">Product Master Done</span><span class="step-number-large">02</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">GST Registration and Return Compliance</h3><p class="step-description">Registration on GST portal. GSTR-1 B2B reporting by 11th, GSTR-3B by 20th. QRMP scheme evaluated for below Rs 5 crore. ITC reconciliation: monthly GSTR-2B comparison against purchase invoices. Section 16(2)(aa) vendor follow-up for missing GSTR-1 entries.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST registered</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITC reconciliation active</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="12" width="80" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="28" y="22" width="24" height="12" rx="2" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><text x="40" y="31" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><rect x="58" y="22" width="24" height="12" rx="2" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/><text x="70" y="31" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">ITC</text><rect x="28" y="42" width="54" height="12" rx="2" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/></svg></div><span class="illustration-label">Returns Setup</span><span class="step-number-large">03</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">E-Invoicing and E-Way Bill Integration</h3><p class="step-description">For AATO above Rs 5 crore: billing software configured for IRP API. IRN generation and QR code tested. 30-day upload rule monitored. For e-way bill: EWB portal configured, dispatch checklist set up, Part B vehicle tracking, intrastate thresholds by state applied.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> E-invoice IRP live</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> E-way bill workflows</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="20" y="10" width="80" height="16" rx="6 6 0 0" fill="#14365F"/><text x="60" y="21" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">E-INVOICE</text><rect x="28" y="34" width="24" height="10" rx="2" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><text x="40" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">IRN</text><rect x="58" y="34" width="24" height="10" rx="2" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/><text x="70" y="42" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial">EWB</text><rect x="28" y="50" width="54" height="8" rx="2" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/></svg></div><span class="illustration-label">Dispatch Trained</span><span class="step-number-large">04</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Income Tax Return Filing</h3><p class="step-description">For 44AD: advance tax by 15 March (single instalment), ITR-4 with 6%/8% presumptive income. For regular books: P&L, balance sheet, stock valuation per Section 145A, Section 44AB audit Form 3CD if above Rs 1 crore. Companies: statutory audit + MCA filings.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITR filed correctly</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit complete</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="12" width="70" height="48" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="36" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M53 36l4 4 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="70" width="50" height="12" rx="6" fill="#F5A623" opacity="0.8"/><text x="60" y="79" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">FILED</text></svg></div><span class="illustration-label">Tax Compliant</span><span class="step-number-large">05</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">TCS Compliance under Section 206C</h3><p class="step-description">Review specified goods (scrap, minerals, vehicles). TCS collected at point of sale, deposited by 7th, Form 27EQ quarterly, Form 27D certificates issued. Section 194Q coordination where buyer TDS takes priority over seller TCS.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TCS collected</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Form 27EQ filed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="38" r="16" fill="none" stroke="#F5A623" stroke-width="2" stroke-dasharray="4 3"/><path d="M54 38l4 4 8-8" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Certificates Issued</span><span class="step-number-large">06</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 7</span><h3 class="step-title">Annual Close, Stock Valuation, and Audit</h3><p class="step-description">GSTR-9 by 31 December. Stock count and Section 145A valuation (FIFO/weighted average). 44AB audit Form 3CD where applicable. Statutory audit for companies. ITR by 31 October. TCS annual reconciliation. MCA filings for companies.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Stock valued</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-9 filed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="30" y="24" width="14" height="34" rx="2" fill="#F5A623"/><rect x="50" y="18" width="14" height="40" rx="2" fill="#25D366"/><rect x="70" y="28" width="14" height="30" rx="2" fill="#14365F" opacity="0.4"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Year Closed</span><span class="step-number-large">07</span></div></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Godown-wise stock reconciliation</h3>
+    <p class="step-description">Stock is reconciled location by location against the books: main premises, each declared godown, and goods held with consignees. Where records are required to be kept at a place of business, we check that the location is actually on your registration and that its records exist.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/step-1-godown-wise-stock-reconciliation.webp" alt="Illustration for Godown-wise stock reconciliation: Stock is reconciled location by location against the books: main" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Valuing inter-state branch transfers</h3>
+    <p class="step-description">Stock moved between your own registrations is a supply between distinct persons and needs a tax invoice, not a challan. We check the value adopted against the valuation rule and confirm the receiving branch has taken the credit.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/step-2-valuing-inter-state-branch-transfers.webp" alt="Illustration for Valuing inter-state branch transfers: Stock moved between your own registrations is a supply between" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Closing out delivery challan movements</h3>
+    <p class="step-description">Goods sent to exhibitions, to godowns or on approval move on a delivery challan. We track each challan to its close, whether a sale invoice is raised or the goods come back, so nothing sits open past the period allowed for approval supplies.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/step-3-closing-out-delivery-challan-movements.webp" alt="Illustration for Closing out delivery challan movements: Goods sent to exhibitions, to godowns or on approval move on a" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Building import landed cost</h3>
+    <p class="step-description">For each import consignment we assemble the Bill of Entry value, customs duty, ocean or air freight, insurance and CHA charges into a landed cost per item. Import IGST is claimed off the Bill of Entry data; basic duty stays in cost.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/step-4-building-import-landed-cost.webp" alt="Illustration for Building import landed cost: For each import consignment we assemble the Bill of Entry value, customs duty," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Handling schemes and rate differences</h3>
+    <p class="step-description">Sales returns, rate differences and quantity or trade schemes are put through the credit and debit note register. Where a discount is meant to reduce taxable value we check it was agreed before supply and linked to the original invoices.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/step-5-handling-schemes-and-rate-differences.webp" alt="Illustration for Handling schemes and rate differences: Sales returns, rate differences and quantity or trade schemes are" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Supplier-wise credit matching</h3>
+    <p class="step-description">The inward supply register is matched supplier by supplier to the auto-populated statement, and unmatched invoices are chased with the supplier. We also flag purchase bills unpaid beyond the period after which credit has to be reversed.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/step-6-supplier-wise-credit-matching.webp" alt="Illustration for Supplier-wise credit matching: The inward supply register is matched supplier by supplier to the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Closing stock and margin review</h3>
+    <p class="step-description">Closing stock is valued on a consistent basis, shortages, damages and slow movers are identified from the count, and gross margin is read by product group. The result explains why margin moved rather than only that it moved.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-trading-industry/step-7-closing-stock-and-margin-review.webp" alt="Illustration for Closing stock and margin review: Closing stock is valued on a consistent basis, shortages, damages and slow" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Trading Accounting</h2>
+            <h2 class="section-title">Documents Required for Trading Business Accounting</h2>
             <div class="content-text">
                 
-                <p>Provide the following for your trading accounting engagement:</p><ul><li><strong>PAN Card and Entity Documents</strong> - Certificate of incorporation, partnership deed, or proprietorship proof</li><li><strong>GST Registration Certificate</strong> - Or documents for new registration (address proof, bank details, DSC)</li><li><strong>Sales Register</strong> - HSN-wise breakup with buyer GSTIN for B2B supplies</li><li><strong>Purchase Register</strong> - Vendor GSTIN, HSN, GST amount for ITC claims</li><li><strong>GSTR-2B Download</strong> - From GST portal for monthly ITC reconciliation</li><li><strong>E-Invoices Generated</strong> - IRN and QR code confirmation for B2B (if applicable)</li><li><strong>E-Way Bills Generated</strong> - For all outward consignments above threshold</li><li><strong>Bank Statements</strong> - All business accounts for the full financial year</li><li><strong>Stock Valuation Statement</strong> - Opening and closing stock as on 31 March</li><li><strong>Section 80C/80D Investment Proofs</strong> - For Chapter VI-A deductions</li></ul>
+                <p>Stock held at a godown declared as an additional place of business drives most of what follows, alongside the usual purchase and sales records.</p>
+<ul>
+    <li>Godown-wise / additional-place-of-business stock records</li>
+    <li>Delivery challans for stock moved to godowns, exhibitions or on approval</li>
+    <li>Inter-state branch transfer invoices between distinct persons (same PAN, different GSTIN)</li>
+    <li>Bill of Entry and customs duty / IGST payment challans for import consignments</li>
+    <li>CHA / freight forwarder bills, ocean or air freight invoices and insurance for each consignment</li>
+    <li>Credit and debit notes register (sales returns, rate difference, trade and quantity schemes)</li>
+    <li>Sales invoice file and sales register (serially numbered tax invoices)</li>
+    <li>Purchase invoices and inward supply register with supplier GSTINs</li>
+    <li>Bank statements (all current, OD/CC and payment-gateway accounts) and the cash book</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges for Trading Businesses and How We Solve Them</h2>
+            <h2 class="section-title">Common Trading Business Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>GSTR-2B Mismatch - ITC Blocked</td><td>Vendor non-compliance blocks ITC under Section 16(2)(aa); significant working capital impact</td><td>Monthly vendor-level GSTR-2B reconciliation; follow-up with non-filers within amendment window</td></tr><tr><td>E-Invoice Non-Generation</td><td>Rs 25,000 penalty per invoice; buyer ITC denied; 30-day upload rejection for Rs 10 crore+</td><td>AATO assessment each April; IRP integration configured; QR code on all B2B invoices; real-time monitoring</td></tr><tr><td>E-Way Bill Avoidance (Invoice Splitting)</td><td>Goods detained under Section 129; tax plus 100% penalty; legal proceedings</td><td>EWB workflow for all dispatches above threshold; dispatch team trained; no invoice splitting permitted</td></tr><tr><td>Section 44AD 5-Year Lock-In</td><td>Turnover grows mid-year; unexpected audit with no books maintained</td><td>Quarterly turnover monitoring; advance warning before Rs 1 crore threshold; books started proactively</td></tr><tr><td>TCS Under Section 206C Missed</td><td>Wrong rate or missed deposit triggers Section 271H penalty</td><td>Specified goods tracked; TCS collected at sale; Form 27EQ filed quarterly; Section 194Q coordination</td></tr><tr><td>Incorrect Stock Valuation</td><td>Excess profit or loss reported; both income tax and GST implications</td><td>Year-end stock count; FIFO or weighted average per Section 145A; stock register maintained throughout FY</td></tr>
+                        <tr><td>Supplier ledgers carry unadjusted advances, debit notes and rate claims</td><td>Creditor balances overstated, duplicate payments slip through, and input credit is lost on mismatches.</td><td>Reconcile each supplier monthly, clearing advances and claims, to <a href="/blog/gstr-2b-reconciliation-traders-itc">stop losing input tax credit</a>.</td></tr>
+                        <tr><td>Goods in transit and consignment stock omitted at close</td><td>Closing stock understated, so gross profit swings between periods and bank stock statements misreport.</td><td>Apply a cut-off that captures in-transit and consignment stock with delivery evidence at every close.</td></tr>
+                        <tr><td>Damaged, expired or slow-moving wholesale stock carried at full cost</td><td>Inventory overstated, then a sudden write-off distorts one quarter's profit and the stock-turn ratio.</td><td>Provide for obsolescence by ageing bucket; value slow stock at net realisable value each close.</td></tr>
+                        <tr><td>Inward freight and clearing charges expensed, not added to stock</td><td>Cost of goods understated, so margins read better than they are and duty costing is wrong.</td><td>Apportion inward freight and clearing into inventory cost under AS 2, per consignment.</td></tr>
+                        <tr><td>Import purchases valued at invoice rate, ignoring duty and forex</td><td>Imported stock cost is wrong and duty-inclusive margin misstated for the import export business.</td><td>Land each import at invoice plus basic customs duty and the exchange difference to booking date, keeping creditable IGST out of cost.</td></tr>
 
                     </tbody>
                 </table>
@@ -1544,47 +740,57 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trading Accounting Service Fees 2026</h2>
+            <h2 class="section-title">Trading Business Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Basic Compliance (GST + Bookkeeping)</td><td>Rs. 3,500/month</td></tr><tr><td>Standard (Basic + E-Way Bill + ITC Reconciliation + MIS)</td><td>Rs. 6,500/month</td></tr><tr><td>E-Invoicing Setup and Support</td><td>Rs. 5,000 one-time + Rs. 2,000/month</td></tr><tr><td>Section 44AD Presumptive Filing (ITR-4 + GST + Advance Tax)</td><td>Rs. 4,000/year</td></tr><tr><td>Regular Books + Section 44AB Audit</td><td>Rs. 15,000/year</td></tr><tr><td>TCS Compliance (Form 27EQ + Certificates)</td><td>Rs. 3,000/quarter</td></tr><tr><td>Full Trading Sector Package (All-in-One)</td><td>Rs. 15,000/month</td></tr><tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 2,999 (Exl GST and Govt. Charges)</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one trading entity with routine monthly invoice volume</td><td>INR 2,999<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; rising purchase and sales invoices with more stock lines</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-entity or multi-branch books with custom stock reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">Accounting for a trading business is priced by the volume of purchase and sales invoices you raise and the number of stock lines we track. The entry plan suits one entity on routine monthly volume; heavier invoicing or added branches move it up. Speak with an accounting specialist on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Trading Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20trading%20accounting%20and%20GST%20compliance.%20Please%20share%20pricing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Trading Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20trading%20industry" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trading Business Compliance Deadlines 2026</h2>
+            <h2 class="section-title">Trading Business Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>TCS Deposit under Section 206C</td><td>7th of following month (30 April for March)</td></tr><tr><td>GSTR-1 (Outward Supply Return)</td><td>11th of following month</td></tr><tr><td>EPFO ECR and ESI Contribution</td><td>15th of following month</td></tr><tr><td>GSTR-3B (Summary + Tax Payment)</td><td>20th of following month</td></tr><tr><td>PMT-06 for QRMP Scheme</td><td>25th of following month</td></tr><tr><td>E-Invoice IRN (AATO above Rs 5 Crore)</td><td>Per B2B invoice (within 30 days for Rs 10 Crore+)</td></tr><tr><td>E-Way Bill</td><td>Per consignment above Rs 50,000 interstate</td></tr><tr><td>Advance Tax for 44AD Traders</td><td>15 March (single 100% instalment)</td></tr><tr><td>ITR-4 for Non-Audit Traders</td><td>31 July</td></tr><tr><td>Form 3CD Tax Audit / ITR-3/5/6</td><td>30 September (audit) / 31 October (ITR)</td></tr><tr><td>GSTR-9 Annual GST Return</td><td>31 December</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>MSME-1 half-yearly return on dues to micro and small suppliers</td><td>30 April 2026 and 31 October 2026</td><td>Companies with payments to MSME vendors outstanding beyond 45 days</td></tr>
+                        <tr><td>Advance tax first instalment (15%)</td><td>15 June 2026</td><td>Companies, firms and individuals with a tax liability of Rs 10,000 or more</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Note:</strong> E-invoice non-generation attracts Rs 25,000 per invoice penalty. E-way bill non-compliance triggers Section 129 goods detention plus 100% tax penalty. Late GSTR filing attracts Rs 50/day (CGST+SGST). Section 44AB audit non-compliance penalty: 0.5% of turnover or Rs 1.5 lakh. Patron Accounting sends proactive reminders for all deadlines.</p>
+                    <p>For a trading business the 11th GSTR-1 and 20th GSTR-3B set the monthly pace, with the tax audit on 30 September once turnover crosses the 44AB line. MSME-1 falls half-yearly. Patron matches your purchase register to GSTR-2B before each <a href="/blog/gstr-2b-reconciliation-traders-itc">trading accounting</a> filing so input credit holds. Request a consultation on +91 94594 56700 to set filing reminders.</p>
 
                 </div>
             </div>
@@ -1592,42 +798,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Professional Accounting Matters for Trading Businesses</h2>
+            <h2 class="section-title">Why Professional Trading Business Accounting Matters</h2>
         </div>
-        <div class="features-grid"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>ITC Maximised (Rs 10-50L/Month at Stake)</h3><p>Monthly vendor-level GSTR-2B reconciliation ensures every eligible input tax credit is claimed; missing invoices followed up within amendment window</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3>E-Invoice Compliance (Rs 25K/Invoice Penalty)</h3><p>IRP integration configured; every B2B invoice carries valid IRN and QR code; 30-day upload rule monitored for Rs 10 crore+ businesses</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/></svg></div><h3>E-Way Bill Managed (100% Penalty Risk)</h3><p>EWB workflows for all dispatches above threshold; dispatch teams trained; no invoice splitting; Section 129 detention prevented</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><h3>Section 44AD Monitored</h3><p>Quarterly turnover tracking prevents 5-year lock-in surprise; advance warning before Rs 1-3 crore threshold; books started proactively if needed</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg></div><h3>TCS Section 206C Compliant</h3><p>Specified goods tracked; TCS collected at sale; Form 27EQ filed quarterly; Section 194Q buyer TDS coordination handled</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg></div><h3>Stock Valuation Accurate</h3><p>Year-end stock count; FIFO or weighted average per Section 145A; stock register maintained throughout FY; closing stock correctly in income computation</p></article></div>
+        <div class="features-grid">
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" /> <path d="M12 22V12" /> <polyline points="3.29 7 12 12 20.71 7" /> <path d="m7.5 4.27 9 5.15" /> </svg></div>
+  <h3 class="feature-title">Stock that matches the godown</h3>
+  <p class="feature-text">Your book stock is agreed location by location: main premises, each declared godown and goods lying with consignees.</p><ul style="margin-top:12px;"><li>Stock reconciled per godown and additional place of business</li><li>Goods with consignees counted separately</li><li>Without it, shortages surface only at the annual count, after margin was reported</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Margin read by product group</h3>
+  <p class="feature-text">You get gross margin split by product group and explained: which lines fell, what discounts took, where slow movers tied cash.</p><ul style="margin-top:12px;"><li>Gross margin split by product group and explained</li><li>Scheme discounts and rate differences isolated</li><li>Without it, a blended margin hides which buying decision to change</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Credit kept, not reversed</h3>
+  <p class="feature-text">You get a running list of purchase bills unpaid past the point where input tax credit must be reversed. It reaches you in time to act.</p><ul style="margin-top:12px;"><li>Supplier-wise matching flags bills unpaid beyond the reversal period</li><li>Credit returns once the supplier is paid</li><li>Without it, credit is claimed then reversed later with interest</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" /> <path d="M15 18H9" /> <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" /> <circle cx="17" cy="18" r="2" /> <circle cx="7" cy="18" r="2" /> </svg></div>
+  <h3 class="feature-title">Import cost per item</h3>
+  <p class="feature-text">Every consignment enters the books with duty, freight, insurance and CHA charges in its landed cost per item. Import IGST comes off the Bill of Entry.</p><ul style="margin-top:12px;"><li>Duty, freight, insurance and CHA charges in landed cost per item</li><li>Import IGST claimed off the Bill of Entry</li><li>Without it, pricing off the supplier invoice sells at a margin never there</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div>
+  <h3 class="feature-title">Branch transfers priced correctly</h3>
+  <p class="feature-text">Stock moving between your own GSTINs goes out on a tax invoice valued against the valuation rule. You confirm the receiving branch took the credit.</p><ul style="margin-top:12px;"><li>Inter-state branch transfers invoiced between distinct persons</li><li>Value holds against the valuation rule; receiving branch credit confirmed</li><li>Without it, an unsupported outward supply sits at one GSTIN, unclaimed at the other</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /> <circle cx="12" cy="12" r="3" /> </svg></div>
+  <h3 class="feature-title">Open challans closed off</h3>
+  <p class="feature-text">We track goods sent to a godown, an exhibition or a customer on approval through to their close, either invoiced or returned.</p><ul style="margin-top:12px;"><li>Delivery challans tracked to invoice or return</li><li>Covers godown, exhibition and approval movements</li><li>Without it, stock sits elsewhere with no sale and the count disagrees with books</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">600+ Trading Businesses Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p>Patron Accounting serves 600+ wholesale and retail trading clients across FMCG, textiles, electronics, hardware, auto parts, pharma, grocery, and jewellery with <strong>4.8/5 client rating</strong>. We file 7,200+ GST returns, process 50,000+ e-invoices, and generate 20,000+ e-way bills monthly across our trading client base.</p><p>Offices in Mumbai, Pune, Delhi NCR, and Bengaluru with 12+ years of CA and CS experience in the trading sector.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Trading Business Accounting Services</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Lot-wise stock valued on a consistent cost-or-NRV basis, every close</strong><p>We value lot-wise stock at the lower of cost or net realisable value, applied the same way every close. That inventory judgement rests on 15+ years of trading-industry books.</p></div>
+                <div><strong>E-way bill data reconciled back to the sales register</strong><p>Reconciling <a href="/blog/eway-bill-einvoicing-traders">e-way bill and e-invoicing</a> data to the sales register is routine here, one thread in 25,000+ filings completed for Indian traders.</p></div>
+                <div><strong>Multi-godown and multi-state stock in one ledger</strong><p>We run Tally Prime, Odoo, Zoho Books and Xero, configuring multi-godown, multi-state stock so every location posts to one ledger.</p></div>
+                <div><strong>Stock and margin report each month, godown by godown</strong><p>Every month you get a stock and margin report broken out godown by godown, drawn from the ledger. Consistent delivery like this earns our 4.9 star Google rating.</p></div>
+                <div><strong>Trading and distribution businesses, commodity to FMCG</strong><p>Trading and distribution businesses, from commodity dealers to FMCG distributors, are among the 3,000+ businesses served since 2019. Our in-house team of CAs and CS runs their <a href="/accounting-bookkeeping-services">accounting and bookkeeping</a>.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY vs Professional Trading Accounting</h2>
+            <h2 class="section-title">Section 44AD Presumptive vs Regular Books</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Aspect</th><th>DIY / In-House</th><th>Patron Accounting</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Section 44AD Presumptive</th><th>Regular Books</th></tr></thead>
                     <tbody>
-                        <tr><td>GSTR-2B Reconciliation</td><td>Missed vendor mismatches; ITC blocked</td><td>Monthly vendor-level reconciliation; follow-up</td></tr><tr><td>E-Invoice Compliance</td><td>Software not IRP-integrated; Rs 25K penalty</td><td>IRP setup; QR on all B2B; 30-day rule monitored</td></tr><tr><td>E-Way Bill</td><td>Invoice splitting; goods detained; 100% penalty</td><td>EWB workflow all dispatches; team trained</td></tr><tr><td>44AD Lock-In Risk</td><td>Turnover grows; unexpected audit; no books</td><td>Quarterly monitoring; advance warning</td></tr><tr><td>TCS Section 206C</td><td>Wrong rate; Form 27EQ not filed</td><td>Specified goods tracked; filed quarterly</td></tr><tr><td>Stock Valuation</td><td>Incorrect closing stock; wrong profit</td><td>Section 145A compliant; FIFO/WA valuation</td></tr><tr><td>Cost</td><td>Penalties + ITC losses + detention risk</td><td>Transparent retainer from INR 2,999/month</td></tr>
+                        <tr><td>Eligibility</td><td>Resident trader with turnover up to ₹2 crore, or ₹3 crore if cash is 5% or less.</td><td>Any trader, and compulsory once turnover exceeds the presumptive limit.</td></tr>
+                        <tr><td>Income basis</td><td>Income deemed at 8% of turnover, or 6% on digital receipts.</td><td>Actual profit from real sales, purchases, stock and expenses.</td></tr>
+                        <tr><td>Record-keeping</td><td>Detailed books not mandatory, though basic records still advisable.</td><td>Full books, stock records and ledgers must be maintained.</td></tr>
+                        <tr><td>Tax audit</td><td>No 44AB audit while conditions hold and profit is declared at deemed rate.</td><td>Tax audit u/s 44AB applies once the turnover threshold is crossed.</td></tr>
+                        <tr><td>MIS clarity</td><td>No real margin or stock visibility, so decision-making stays blind.</td><td>True gross margin, stock and creditor position visible for control.</td></tr>
+                        <tr><td>Continuity rule</td><td>Opting out later locks you out of 44AD for five years.</td><td>No lock-in; you keep books every year regardless of turnover.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Presumptive suits low-margin traders under the turnover limit who value simplicity. Once turnover crosses it, regular books become compulsory and give control, so accounting for trading business should plan the shift. See <a href="/blog/section-44ad-presumptive-traders">Section 44AD presumptive for traders</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1637,167 +889,181 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services for Trading Businesses</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Trading Business Accounting</h2>
             <div class="content-text">
                 
-                <p>Complementary services for wholesale and retail traders:</p><ul><li><a href="/gst-registration">GST Registration</a> - Full registration with HSN advisory and multi-state registration for inter-state traders</li><li><a href="/gst-returns">GST Return Filing</a> - Monthly GSTR-1, GSTR-3B, and annual GSTR-9 for all trading entities</li><li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-3, ITR-4, ITR-5, ITR-6 for all trading entity types</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly Form 26Q and 24Q for trading businesses with vendor payments</li><li><a href="/private-limited-company-registration">Company Registration</a> - Private limited, LLP, or partnership for new trading ventures</li><li><a href="/payroll-services">Payroll Services</a> - Monthly payroll, PF, ESI for trading business employees and warehouse staff</li></ul>
+                <p>A trading margin is thin, and the exchequer's claim on it must be captured without the same rupee being taxed twice: the CGST Act governs the stock and the credit while the Income-tax Act governs the deduction and the collection. The two have to reconcile line by line.</p>
+<p>That reconciliation is the whole discipline. A purchase can carry both a TDS obligation and a supplier's TCS, and a single consignment moves under an e-way bill that must match the invoice it travels with. So <a href="/glossary/gstr-2b-input-tax-credit-matching">GSTR-2B Input Tax Credit Matching</a> and the <a href="/glossary/section-194q-tds-on-goods">Section 194Q TDS on Goods</a> check are not optional refinements; they are what stops a notice. Accounting for trading business holds the stock register, the credit ledger and the tax deductions against the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>AS 2 / Ind AS 2, Valuation of Inventories</strong></span><span class="al-d">Traded stock is valued at the lower of cost and net realisable value on a consistent FIFO or weighted-average basis - the choice behind <a href="/glossary/fifo-vs-weighted-average-cost">FIFO vs Weighted Average Cost</a>.</span></li><li><span class="al-t"><strong>Section 194Q and Section 206C(1H), Income-tax Act 1961</strong></span><span class="al-d">TDS at 0.1% on purchases above Rs 50 lakh, or TCS on sales where the buyer has not deducted, is reconciled so the transaction is taxed only once.</span></li><li><span class="al-t"><strong>Sections 16 and 17, CGST Act 2017</strong></span><span class="al-d">Input tax credit is matched to GSTR-2B before it is claimed, and the stock register ties to the outward supplies.</span></li><li><span class="al-t"><strong>Rule 138, CGST Rules 2017</strong></span><span class="al-d">An e-way bill supports movement of goods above the notified value and is reconciled against the tax invoice it accompanies.</span></li><li><span class="al-t"><strong>Section 35(1), CGST Act 2017</strong></span><span class="al-d">Accounts of inward and outward supplies, stock and tax are kept at the principal place of business for every GSTIN held.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled, so a rate correction or a landed-cost adjustment is always logged. GST return filing runs from the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Regulatory Framework for Trading Accounting</h2>
-            <div class="content-text">
-                
-                <p>Key statutory provisions for trading sector compliance:</p><ul><li><strong>CGST Act 2017, Section 9:</strong> GST levy on supply of goods; multi-rate structure (0-28%) per 56th GST Council; registration threshold Rs 40 lakh (goods) per Notification 10/2019-CT. <a href="https://cbic.gov.in" target="_blank" rel="noopener">CBIC Portal</a></li><li><strong>CGST Rules 2017, Rule 48(4):</strong> E-invoicing mandatory for B2B invoices if AATO exceeds Rs 5 crore; IRN from IRP; 30-day upload for Rs 10 crore from April 2025; penalty up to Rs 25,000</li><li><strong>CGST Rules 2017, Rule 138:</strong> E-way bill for interstate goods above Rs 50,000; validity 1 day per 200 km; Section 129 penalty. <a href="https://ewaybillgst.gov.in" target="_blank" rel="noopener">E-Way Bill Portal</a></li><li><strong>Section 44AD, Income Tax Act 1961:</strong> Presumptive tax for traders - 6%/8% of receipts; limit Rs 2 crore (Rs 3 crore digital); 5-year lock-in. <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Portal</a></li><li><strong>Section 44AB, Income Tax Act 1961:</strong> Mandatory audit if turnover above Rs 1 crore (Rs 10 crore digital); Form 3CD; penalty 0.5% or Rs 1.5 lakh under Section 271B</li><li><strong>Section 206C, Income Tax Act 1961:</strong> TCS at 1% on scrap, minerals, timber, motor vehicles above Rs 10 lakh; Section 206C(1H) removed from FY 2025-26</li><li><strong>Section 145A, Income Tax Act 1961:</strong> Stock valuation at cost or NRV whichever lower; FIFO or weighted average; closing stock included in income computation</li></ul>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Trading Accounting India</h2>
-                    <p class="faq-expanded__lead">Answers to common questions about GST, e-invoicing, e-way bills, Section 44AD, TCS, and compliance for wholesale and retail traders.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Trading Accounting India'])
+                    <h2 class="faq-expanded__title">Trading Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on trading accounting scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Trading Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What GST rate applies to wholesale and retail traders?</h3>
-                        <div class="faq-expanded__a"><p>GST rates depend on HSN code. Post GST 2.0 (56th Council, 22 September 2025): 0% essential goods, 5% basic necessities, 12% standard goods, 18% most manufactured items, 28% luxury/sin goods. Gold/silver at 3% (Chapter 71), diamonds at 0.25%. Traders must map every SKU to correct HSN and apply current rate.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What is the e-invoicing threshold for trading businesses?</h3>
-                        <div class="faq-expanded__a"><p>Mandatory for B2B invoices if aggregate annual turnover (AATO) exceeds Rs 5 crore in any FY from 2017-18. IRN from IRP mandatory with QR code on invoice. 30-day upload rule for AATO above Rs 10 crore from 1 April 2025. Penalty up to Rs 25,000 per non-compliant invoice. B2C invoices exempt.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">When is an e-way bill required for goods transport?</h3>
-                        <div class="faq-expanded__a"><p>Mandatory under Rule 138 CGST Rules for interstate consignments above Rs 50,000. Validity 1 day per 200 km. Intrastate thresholds vary: Maharashtra and Delhi Rs 1 lakh, Gujarat and Karnataka Rs 50,000. Penalty under Section 129: goods detained plus 100% of tax amount. Invoice splitting to avoid threshold is an offence.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What is Section 44AD presumptive tax for traders?</h3>
-                        <div class="faq-expanded__a"><p>Section 44AD allows resident individuals, HUFs, and partnership firms (not LLPs/companies) with turnover up to Rs 2 crore (Rs 3 crore if 95%+ digital) to declare 6% of digital and 8% of cash receipts as income. No books or audit required within limit. 5-year lock-in once opted. Advance tax by 15 March. ITR-4 filed.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">When is tax audit mandatory for a trader?</h3>
-                        <div class="faq-expanded__a"><p>Under Section 44AB: mandatory if turnover exceeds Rs 1 crore (Rs 10 crore with 95% digital). Also mandatory if trader declares income below 6%/8% under 44AD and income exceeds basic exemption. Form 3CD audit by CA. Penalty: 0.5% of turnover or Rs 1.5 lakh under Section 271B.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What is TCS under Section 206C for traders?</h3>
-                        <div class="faq-expanded__a"><p>TCS at 1% on scrap, minerals, timber, tendu leaves. 1% on motor vehicles above Rs 10 lakh under 206C(1F). Section 206C(1H) on general goods above Rs 50 lakh removed from FY 2025-26 (Budget 2025). Quarterly Form 27EQ. If buyer deducts 194Q TDS, seller need not collect TCS.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">What ITR form do wholesale and retail traders file?</h3>
-                        <div class="faq-expanded__a"><p>ITR-4 (Sugam) for 44AD traders up to Rs 3 crore. ITR-3 for individuals with regular books. ITR-5 for partnership firms and LLPs. ITR-6 for private limited companies. Audit cases due 31 October. Non-audit individuals by 31 July. Companies also file AOC-4 and MGT-7 with MCA.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does accounting for a trading or wholesale business include?</h3>
+  <div class="faq-expanded__a"><p>It includes purchase and sales entry, stock ledgers, debtor and creditor reconciliation, GST return workings, TDS, freight and landed cost allocation, monthly gross margin reporting and year end finalisation. For wholesale and distribution clients we also track scheme discounts, credit notes, sales returns and dealer claims, because those are the entries that most often distort the margin you actually report.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you value closing stock for a distribution business?</h3>
+  <div class="faq-expanded__a"><p>Closing stock is valued at the lower of cost and net realisable value under AS 2, with cost including purchase price, inward freight, customs duty and other landed costs but excluding recoverable GST. We agree whether you follow FIFO or weighted average at the start and apply it consistently, since changing method mid year distorts margin and invites an audit query.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Should a trading firm use Section 44AD presumptive taxation or regular books?</h3>
+  <div class="faq-expanded__a"><p>Presumptive taxation under Section 44AD suits small trading firms below the prescribed turnover limit that want minimal compliance, but it fixes declared profit at a deemed rate and blocks most expense claims. If your actual margin is thin, if you need bank funding, or if you are a company or LLP, regular books usually work out better. We model both before you decide.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you handle import and export entries in the books?</h3>
+  <div class="faq-expanded__a"><p>Import and export entries are recorded at the exchange rate on the transaction date. Landed cost carries basic customs duty, social welfare surcharge, clearing charges and inward freight. IGST paid at import is not a cost, it is booked as input tax credit receivable and matched to your credit ledger. Year end foreign currency balances are revalued and export refund claims tracked separately.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you reconcile hundreds of debtor and creditor ledgers every month?</h3>
+  <div class="faq-expanded__a"><p>Party ledgers are reconciled monthly by importing counterparty statements and matching them line by line, with a formal balance confirmation cycle at year end. Unmatched items are grouped into invoices not booked, payments in transit, discounts and returns, and each group is routed to your sales or purchase team with a due date rather than left sitting in the ledger.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which GST returns does a trading business need to file each period?</h3>
+  <div class="faq-expanded__a"><p>A trading business registered under GST files an outward supply return and a summary return for each period, plus the annual return where applicable, and a separate set for every state registration it holds. We prepare the workings, reconcile sales against e-invoice and e-way bill data and match purchases to GSTR-2B before filing, so that eligible credit is not lost.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does trading business accounting cost per month?</h3>
+  <div class="faq-expanded__a"><p>Trading business accounting generally costs Rs 10,000 to Rs 40,000 a month, based on the number of invoices, warehouses and GST registrations rather than on turnover. A single state wholesaler with about 300 invoices a month sits at the lower end. Stock valuation support, debtor reconciliation drives and year end finalisation can be added as separate fixed fee modules.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How are credit notes, discounts and sales returns recorded?</h3>
+  <div class="faq-expanded__a"><p>Credit notes, trade discounts and sales returns are recorded against the original invoice with the GST treatment applied correctly, so your books and your outward supply return tell the same story. Post sale discounts that were not agreed at the time of supply cannot always be adjusted against output tax, so we flag those separately and treat them as a margin item.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can you manage books across multiple warehouses and state GST registrations?</h3>
+  <div class="faq-expanded__a"><p>Yes, books are maintained with location wise stock ledgers and a separate return set for each GSTIN. Stock transfers between your own branches are recorded with the correct documentation and valuation, and inter branch balances are reconciled every month so the consolidated accounts eliminate them cleanly instead of carrying a difference into the year end.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How quickly are gross margin numbers by product available?</h3>
+  <div class="faq-expanded__a"><p>Product wise and category wise gross margin reports arrive with the monthly MIS, normally by the tenth working day after month end. The report shows sales, landed cost, discounts and returns for each product group along with stock cover in days. Where your billing software already tags SKUs, those tags are mapped to the ledger so nothing is entered twice.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Q: What is trading accounting?</strong> Specialist financial management for wholesale distributors, retail traders, and e-commerce sellers covering HSN-based GST, e-invoicing, e-way bill, ITC reconciliation, Section 44AD/44AB, TCS under 206C, and stock valuation.</p><p><strong>Q: Trading ka GST kaise bhare?</strong> GSTR-1 har mahine 11 tareekh tak aur GSTR-3B 20 tareekh tak file karo. HSN code sahi hona chahiye. Rs 5 crore se zyada turnover pe e-invoicing bhi mandatory hai.</p><p><strong>Q: Can a wholesale trader use 44AD?</strong> Yes, resident individual, HUF, or partnership (not LLP) with turnover up to Rs 3 crore (95% digital). Declare 6% digital / 8% cash as income. 5-year lock-in. ITR-4.</p><p><strong>Q: Retail dukan ka ITR kaise file hota hai?</strong> Section 44AD ke under ITR-4 file karo agar turnover Rs 3 crore se kam hai aur 95% digital payments hain. Isse zyada pe regular books aur ITR-3 file karna padta hai.</p>
+                <p>Input credit is lost when the purchase register and the supplier's own filing part ways, and the shortfall shows only on close inspection. Patron lists the differences supplier by supplier, separates goods still in transit from bills never uploaded, ties credit notes back to the original invoice and chases what is.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trading Compliance Penalties Are Severe - Act Now</h2>
+            <h2 class="section-title">Trading Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>A single missed e-invoice IRN costs Rs 25,000 per invoice and denies ITC to your buyer. A goods vehicle stopped without a valid e-way bill faces detention and 100% tax penalty under Section 129. Blocked ITC from GSTR-2B mismatches can run into lakhs monthly for wholesale distributors. And the Section 44AD 5-year lock-in can trigger unexpected audit obligations if turnover growth is not monitored.</p><p><strong>Call +91 945 945 6700 or WhatsApp us for a free trading accounting consultation. We will assess your compliance requirements, map your HSN structure, and have your systems in order within 10 working days.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>GSTR-3B (summary return and tax payment)</strong> is due 20th of every month for monthly filers. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Trading Accounting with Patron Accounting</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Trading Business Accounting with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">India's trading sector operates in one of the most compliance-intensive environments in the world. The obligation stack is formidable: HSN-GST mapping, e-invoicing, e-way bills, GSTR-2B reconciliation, Section 44AD monitoring, TCS compliance, stock valuation, and annual ITR with possible audit. A single error can cost lakhs in penalties and blocked ITC.</p><p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Patron Accounting brings 600+ trading clients and ICAI-certified CAs with deep sector expertise. From HSN mapping and IRP integration to monthly GSTR returns and annual audit, we manage the complete compliance lifecycle starting from INR 2,999 per month.</p>
+                <p style="color:rgba(255,255,255,0.88);">Closing stock in a trading ledger is often a figure someone agreed to rather than one somebody counted at the godown. Margin by product line is derived from it, the profit shown to your banker rests on it, and next year&#x27;s buying decisions follow it. Accounting for trading business closes that gap before it compounds.</p>
+<p style="color:rgba(255,255,255,0.88);">Under wholesale accounting services, purchases, sales and stock arrive at the close agreed to one another. Differences that used to surface at the year end are raised in the month they occur, with the supplier still answering emails. The closing figure carried into the next period needs no adjustment.</p>
+<p style="color:rgba(255,255,255,0.88);">The godown list opens the discussion: where stock sits, which addresses are declared, and whether imports use your IEC. Supplier concentration matters too, because two large suppliers who file erratically shape the work differently to many small ones. Any software line sits under <a href="/accounting-services-it-saas">our subscription revenue guidance</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20trading%20accounting%20and%20GST%20compliance.%20Please%20share%20pricing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Trading%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20accounting%20for%20my%20trading%20business.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20trading%20industry" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Trading%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Trading%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Trading Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">CA-managed accounting for wholesale and retail trading businesses in major Indian cities.</p>
-           
-            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-city-grid"><a href="/accounting-services-for-trading-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/trading-accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/accounting-services-for-trading-industry/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/accounting-services-for-trading-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div><div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Trading Accounting</div><div class="pa-cross-grid"><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a><a href="/tds-return-filing-24q" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a></div></div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Trading Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for trading accounting in these cities.</p>
+            
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 12 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">12 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 12 March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed annually or when GST rates, e-invoicing thresholds, e-way bill rules, or Section 44AD/44AB limits change via Finance Act or GST Council decisions. All regulatory citations verified against CBIC, Income Tax Act, and CGST Rules.</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
@@ -1872,8 +1138,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -1883,8 +1149,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -1965,7 +1231,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -1975,34 +1241,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-      function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2013,12 +1277,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2094,7 +1359,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered — init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2104,6 +1371,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2126,9 +1394,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2298,7 +1564,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2318,7 +1583,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2396,12 +1661,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2409,55 +1670,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2495,8 +1725,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

@@ -18,99 +18,249 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-e-commerce-industry-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Commerce Accountants for Online Sellers in India | Patron Accounting">
     <meta name="twitter:description" content="Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-e-commerce-industry-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#service",
-        "name": "E-Commerce Accounting Services in India",
-        "description": "Settlement-wise accounting for online sellers in India: marketplace settlement reconciliation, GST TCS (Section 52) and Section 194-O TDS tracking, returns and RTO provisioning, fulfilment-centre stock control and channel-wise margin reporting.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "E-commerce", "sameAs": "https://en.wikipedia.org/wiki/E-commerce" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "E-Commerce Accounting Service Plans",
-            "itemListElement": [
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Starter - E-Commerce Accounting", "description": "one seller on a single marketplace with routine monthly orders"}, "price": "3499", "priceCurrency": "INR", "description": "Per month, excl. GST & government charges", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Growth - E-Commerce Accounting", "description": "extra marketplaces, higher settlement lines or added GST states"}, "description": "On quote - scoped to marketplaces, order volume and GST states", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Managed - E-Commerce Accounting", "description": "multi-entity seller books with custom settlement and payout reporting"}, "description": "On quote - scoped to marketplaces, order volume and GST states", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"}
-            ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#service",
+  "name": "E-Commerce Accountants for Online Sellers in India",
+  "description": "An ecommerce accountant reconciles marketplace settlements to the rupee instead of accepting the payout total. Section 194-O TDS at 0.1% and GST TCS at 0.5% are tracked into your GSTR-2B.",
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "E-Commerce Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "E-Commerce Accountants for Online Sellers in India",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "E-Commerce Accountants for Online Sellers in India",
+          "description": "An ecommerce accountant reconciles marketplace settlements to the rupee instead of accepting the payout total. Section 194-O TDS at 0.1% and GST TCS at 0.5% are tracked into your GSTR-2B.",
+          "serviceType": "E-Commerce Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" },
-            { "@type": "ListItem", "position": 3, "name": "E-Commerce Accounting", "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#faq",
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "mainEntity": [
-            {"@type":"Question","name":"What is an e-commerce accountant?","acceptedAnswer":{"@type":"Answer","text":"An e-commerce accountant is a qualified accountant who reconciles marketplace settlement reports against your bank and books, then handles GST, TCS and TDS on online sales. The work differs from ordinary bookkeeping because Amazon, Flipkart and Meesho deduct commission, shipping, returns and penalties before payout, so gross sales never match the amount actually credited to you."}},
-            {"@type":"Question","name":"How are Amazon and Flipkart settlement reports reconciled with the books?","acceptedAnswer":{"@type":"Answer","text":"We download every settlement report, map each line to its order ID, and post commission, shipping, return and penalty entries separately instead of booking the net payout as sales. Reconciliation runs on a fortnightly cycle for most sellers, so differences are caught inside the same month. Unmatched lines are listed with the marketplace ticket reference raised."}},
-            {"@type":"Question","name":"How much GST TCS do marketplaces deduct and can it be claimed back?","acceptedAnswer":{"@type":"Answer","text":"Marketplaces deduct TCS at 0.5% of net taxable supplies under Section 52 of the CGST Act, split as 0.25% CGST and 0.25% SGST. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. Many sellers never accept it, so the money sits unused for months."}},
-            {"@type":"Question","name":"What TDS does a marketplace deduct on online sales?","acceptedAnswer":{"@type":"Answer","text":"E-commerce operators deduct TDS at 0.1% of gross sales under Section 194-O of the Income Tax Act, and the deduction appears in your Form 26AS. We reconcile 26AS against marketplace reports every quarter so nothing is lost at return time. Where the deduction is wrong, we raise the correction before the quarterly statement is filed."}},
-            {"@type":"Question","name":"Is GST registration needed in every state where stock is held?","acceptedAnswer":{"@type":"Answer","text":"Yes. Holding stock in a fulfilment centre creates a place of business, so a seller using warehouses in five states needs registration in each of them. We handle the additional registrations, state-wise returns and stock transfer documentation. Sellers shipping only from their own single location usually manage with one registration instead."}},
-            {"@type":"Question","name":"How do you account for returns, RTO and lost shipments?","acceptedAnswer":{"@type":"Answer","text":"Returns and RTO are booked as credit notes against the original invoice in the same GST period wherever possible, never netted off against sales. Lost or damaged shipments are carried as claims receivable from the courier or marketplace until reimbursed or written off. We maintain an ageing of open claims so recoveries get chased rather than quietly absorbed."}},
-            {"@type":"Question","name":"What does e-commerce accounting cost for a seller doing Rs 50 lakh a year?","acceptedAnswer":{"@type":"Answer","text":"A seller at that turnover typically pays Rs 12,000 to Rs 20,000 a month, covering bookkeeping, settlement reconciliation for up to three marketplaces, monthly GST returns and TDS support. Pricing moves with order volume, number of marketplaces and number of GST registrations rather than turnover alone. Annual filings and tax audit support are quoted separately."}},
-            {"@type":"Question","name":"Can books two years behind across four marketplaces be cleaned up?","acceptedAnswer":{"@type":"Answer","text":"Yes. Backlog clean-up starts with a scoping review of about five working days, after which you get a fixed quote and a month-by-month catch-up plan. Historic settlement reports are pulled marketplace by marketplace and rebuilt from order level, so GST returns already filed can be corrected through amendments wherever the time limit still permits it."}},
-            {"@type":"Question","name":"Which accounting software do you use for online sellers?","acceptedAnswer":{"@type":"Answer","text":"We work in Zoho Books or Tally for most Indian sellers, with marketplace data brought in through settlement report imports rather than manual typing. QuickBooks is no longer available in India after Intuit withdrew the product in 2023, so sellers still on it are migrated to Zoho Books with full history carried across. Xero suits overseas entities."}},
-            {"@type":"Question","name":"Which account is best for an e-commerce business?","acceptedAnswer":{"@type":"Answer","text":"Use a dedicated current account for the business, kept apart from any personal savings account, with every marketplace payout credited into it so settlements can be traced to order level reports. Sellers running more than three marketplaces often add a second account for payment gateway receipts. In the ledger, each platform is kept as its own receivable control account rather than one combined debtor."}}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry",
-        "name": "E-Commerce Accounting Services in India",
-        "description": "Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.",
-        "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#service" },
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "reviewedBy": { "@id": "https://www.patronaccounting.com/#team" },
-        "lastReviewed": "2026-07-23",
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#breadcrumb" }
+      "@type": "ListItem",
+      "position": 3,
+      "name": "E-Commerce Accounting Services",
+      "item": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry"
     }
-    </script>
-    <script type="application/ld+json">
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "13", "bestRating": "5", "worstRating": "1" }
+      "@type": "Question",
+      "name": "What is an e-commerce accountant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An e-commerce accountant is a qualified accountant who reconciles marketplace settlement reports against your bank and books, then handles GST, TCS and TDS on online sales. The work differs from ordinary bookkeeping because Amazon, Flipkart and Meesho deduct commission, shipping, returns and penalties before payout, so gross sales never match the amount actually credited to you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are Amazon and Flipkart settlement reports reconciled with the books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We download every settlement report, map each line to its order ID, and post commission, shipping, return and penalty entries separately instead of booking the net payout as sales. Reconciliation runs on a fortnightly cycle for most sellers, so differences are caught inside the same month. Unmatched lines are listed with the marketplace ticket reference raised."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much GST TCS do marketplaces deduct and can it be claimed back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marketplaces deduct TCS at 0.5% of net taxable supplies under Section 52 of the CGST Act, split as 0.25% CGST and 0.25% SGST. The credit reaches your electronic cash ledger only after you accept the TCS statement on the GST portal. Many sellers never accept it, so the money sits unused for months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What TDS does a marketplace deduct on online sales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "E-commerce operators deduct TDS at 0.1% of gross sales under Section 194-O of the Income Tax Act, and the deduction appears in your Form 26AS. We reconcile 26AS against marketplace reports every quarter so nothing is lost at return time. Where the deduction is wrong, we raise the correction before the quarterly statement is filed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is GST registration needed in every state where stock is held?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Holding stock in a fulfilment centre creates a place of business, so a seller using warehouses in five states needs registration in each of them. We handle the additional registrations, state-wise returns and stock transfer documentation. Sellers shipping only from their own single location usually manage with one registration instead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you account for returns, RTO and lost shipments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Returns and RTO are booked as credit notes against the original invoice in the same GST period wherever possible, never netted off against sales. Lost or damaged shipments are carried as claims receivable from the courier or marketplace until reimbursed or written off. We maintain an ageing of open claims so recoveries get chased rather than quietly absorbed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does e-commerce accounting cost for a seller doing Rs 50 lakh a year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A seller at that turnover typically pays Rs 12,000 to Rs 20,000 a month, covering bookkeeping, settlement reconciliation for up to three marketplaces, monthly GST returns and TDS support. Pricing moves with order volume, number of marketplaces and number of GST registrations rather than turnover alone. Annual filings and tax audit support are quoted separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can books two years behind across four marketplaces be cleaned up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Backlog clean-up starts with a scoping review of about five working days, after which you get a fixed quote and a month-by-month catch-up plan. Historic settlement reports are pulled marketplace by marketplace and rebuilt from order level, so GST returns already filed can be corrected through amendments wherever the time limit still permits it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which accounting software do you use for online sellers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We work in Zoho Books or Tally for most Indian sellers, with marketplace data brought in through settlement report imports rather than manual typing. QuickBooks is no longer available in India after Intuit withdrew the product in 2023, so sellers still on it are migrated to Zoho Books with full history carried across. Xero suits overseas entities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which account is best for an e-commerce business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a dedicated current account for the business, kept apart from any personal savings account, with every marketplace payout credited into it so settlements can be traced to order level reports. Sellers running more than three marketplaces often add a second account for payment gateway receipts. In the ledger, each platform is kept as its own receivable control account rather than one combined debtor."
+      }
     }
-    </script>
-    @endsection
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry",
+  "name": "E-Commerce Accountants for Online Sellers in India",
+  "description": "Marketplace settlements reconciled to the rupee, not to the payout total. Avoid audit delays and free your team from the ledger. Ask for a scope call.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#breadcrumb"
+  }
+}
+</script>
+@endsection
 
 <link rel="stylesheet" href="/css/patron-cluster.css">
 
@@ -129,7 +279,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="https://www.patronaccounting.com/accounting-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a>
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li><span style="color:var(--orange);font-weight:600;">E-Commerce Accounting Services</span></li>
@@ -166,17 +316,21 @@
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Settlement reconciliation:</span> Every Amazon, Flipkart and Shopify payout matched to the rupee, not accepted at the net payout total.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Gross turnover you can defend:</span> Your books carry gross sales, commission, shipping and returns as separate figures, so the turnover you report matches the portal.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>TCS &amp; TDS tracked:</span> Section 194-O TDS at 0.1% and GST TCS at 0.5% reconciled into your electronic cash ledger and Form 26AS.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>TCS credit actually in hand:</span> You claim the tax each marketplace collected once it shows in your electronic cash ledger.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Returns &amp; stock proved:</span> RTO and returned stock provisioned, and inventory at FBA and Flipkart fulfilment centres tied to the operator report.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Channel-wise contribution after deductions:</span> You see commission, shipping, advertising, packaging and return costs sitting against the channel that incurred them.</p>
                         </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Stock at fulfilment centres proved:</span> We agree units lying at fulfilment centres to the operator's inventory report and show goods in transit apart.</p>
                         </div>
+                    </div>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -187,7 +341,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20e%20commerce%20industry" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -288,12 +442,10 @@
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
                                 <option value="accounting-services-for-e-commerce-industry" selected>E-Commerce Accounting</option>
-                                    <option value="accounting-services">Accounting Services (All)</option>
-                                    <option value="accounting-services-for-startups">Startup Accounting</option>
-                                    <option value="accounting-services-for-retail">Retail Accounting</option>
-                                    <option value="backlog-bookkeeping-catch-up-services">Bookkeeping Catch-up</option>
-                                    <option value="bank-credit-card-reconciliation-services">GST / TDS Reconciliation</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
                                     <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
                                     <option value="other">Other</option>
 
                             </select>
@@ -325,7 +477,7 @@
 </section>
 
 
-<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Online Sellers and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for e-commerce accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
 
 
 <div class="stats-bar">
@@ -443,7 +595,7 @@
 </section>
 
 
-<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">Trusted for accounting across every major marketplace</p><div class="pa-logos-strip"><div class="pa-logos-track"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"><span class="pa-logos-dup" aria-hidden="true"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa marketplace" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/woocommerce.webp" alt="Woocommerce marketplace" loading="lazy" height="34"></span></div></div></div></section><section class="content-section" id="services-section">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our E-Commerce Accounting Services</h2>
@@ -473,7 +625,7 @@
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
             <h2 class="section-title">How E-Commerce Accounting Works — Our Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">How marketplace settlements become books you can defend, step by step from settlement report to channel-level contribution.</p>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers e-commerce accounting, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
@@ -608,7 +760,7 @@
                 </div><p style="margin-top:14px;font-size:14px;">One seller on a single marketplace fits the <strong>INR 3,499 per month</strong> Starter plan, with GST-ready books and settlement postings. Adding marketplaces, monthly order volume or fresh settlement lines is what lifts the tier, so your ecommerce accountant scopes the quote to real transaction counts. Speak with an accounting specialist on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
-                <p style="margin-top:16px;"><strong>Get a free E-Commerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free E-Commerce Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20e%20commerce%20industry" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -696,7 +848,7 @@
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Why Businesses Choose Patron Accounting for E-Commerce Accounting Services</h2>
-            <p class="section-intro">Five things an online seller can check before handing over the settlement files. Each is a claim with the proof behind it.</p>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
             
             <div class="why-patron-grid">
                 <div><strong>Marketplace settlements reconciled to the rupee</strong><p>Every marketplace payout hides shipping, commission and RTO deductions. Over 15+ years our team has learned to <a href="/blog/reconcile-marketplace-settlement-reports">reconcile Amazon and Flipkart settlements</a> for D2C sellers, tying each credit back to the order behind it.</p></div>
@@ -767,11 +919,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">E-Commerce Accounting FAQs</h2>
-                    <p class="faq-expanded__lead">Settlement reconciliation, GST TCS, 194-O TDS, returns and pricing for Amazon, Flipkart, Meesho and D2C sellers.</p>
+                    <p class="faq-expanded__lead">Common questions on e-commerce accounting scope, process, documents and pricing for Indian businesses.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
-  <h3 class="faq-enquiry__title">Ask about your marketplace's books</h3>
-  <p class="faq-enquiry__sub">Send your marketplaces and monthly order volume for a scoped quote.</p>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
   <p class="faq-enquiry__context">Enquiring about: <strong>E-Commerce Accounting</strong></p>
   <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
   <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
@@ -827,7 +979,7 @@
             
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p>An ecommerce accountant reconciles each marketplace settlement to the bank and books, tracks Section 52 GST TCS and Section 194-O TDS, provisions returns and RTO, and reports profit by channel for Amazon, Flipkart, Meesho and D2C sellers.</p>
+                <p>What lands in your inbox after the close is a settlement-wise reconciliation: every marketplace payout broken into gross sales, commission, shipping and returns, tied back to the revenue posted in your ledger. Alongside it sit a channel-wise margin summary, a stock position covering both your warehouse and the.</p>
 
             </div>
         </div>
@@ -838,10 +990,10 @@
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">E-Commerce Deadlines You Cannot Afford to Miss</h2>
+            <h2 class="section-title">E-Commerce Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Two dates drive an online seller's month: <strong>GSTR-8 TCS by the 10th</strong> and the <strong>Section 194-O TDS deposit by the 7th</strong>, both tied to marketplace settlements. Miss the reconciliation and your GSTR-2B credit will not tie out, inviting a mismatch notice. Patron reconciles each payout before the filing so the credit is claimed while the settlement file is still live. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>TCS return by e-commerce operators (GSTR-8)</strong> is due 10th of every month. <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
@@ -862,7 +1014,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20e%20commerce%20industry" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20E-Commerce%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20E-Commerce%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -875,16 +1027,16 @@
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="text-align:center;margin-bottom:12px;">E-Commerce Accounting Near You</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local e-commerce accounting teams for online sellers in these cities.</p>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for e-commerce accounting in these cities.</p>
             
-            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Serve</div><div class="pa-block-sub">On-ground e-commerce accounting teams</div><div class="pa-city-grid"><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Serve</div><div class="pa-block-sub">On-ground teams</div><div class="pa-city-grid"><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
 <a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div>
-<div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for online sellers</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Industries</div></a>
-<a href="https://www.patronaccounting.com/accounting-services-for-startups" class="pa-cross-card"><div class="pa-card-title">Startup Accounting</div></a>
-<a href="https://www.patronaccounting.com/accounting-services-for-retail" class="pa-cross-card"><div class="pa-card-title">Retail Accounting</div></a>
-<a href="https://www.patronaccounting.com/glossary/section-52-tcs-under-gst" class="pa-cross-card"><div class="pa-card-title">GST TCS Reconciliation</div></a></div></div>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div>
+<div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a>
+<a href="https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services" class="pa-cross-card"><div class="pa-card-title">Backlog Bookkeeping Catch-up</div></a></div></div>
         </div>
     </div>
 </section>
@@ -898,9 +1050,9 @@
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Selling on Amazon, Flipkart or Meesho &amp; need reconciled books?</strong> Talk to our CA team.</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
         <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Get Free E-Commerce Quote &rarr;</span>
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
@@ -910,8 +1062,6 @@
 </main>
 <script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
 <script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
-
-
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 

@@ -1,1165 +1,293 @@
 @extends('layouts.service-app')
-<!-- External Dependencies (loaded by master layout in production) -->
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Ind AS 102 ESOP Accounting Guide for Indian Companies</title>
-    <meta name="description" content="Ind AS 102 ESOP accounting service for Indian companies covers share-based payment expense, equity vs cash-settled, Black-Scholes. From Rs 40,000.">
-    <link rel="canonical" href="/esop-accounting-ind-as-102">
+    <title>ESOP Accounting Under Ind AS 102: Monthly CA Support | Patron Accounting</title>
+    <meta name="description" content="Grant-wise fair value and graded vesting, computed and documented. A close you can trust and a file the auditor accepts. Start with a books review.">
+    <link rel="canonical" href="https://www.patronaccounting.com/esop-accounting-ind-as-102">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Ind AS 102 ESOP Accounting Guide for Indian Companies | Patron Accounting">
-    <meta property="og:description" content="Ind AS 102 ESOP accounting service for Indian companies covers share-based payment expense, equity vs cash-settled, Black-Scholes. From Rs 40,000.">
-    <meta property="og:url" content="/esop-accounting-ind-as-102/">
+    <meta property="og:title" content="ESOP Accounting Under Ind AS 102: Monthly CA Support | Patron Accounting">
+    <meta property="og:description" content="Grant-wise fair value and graded vesting, computed and documented. A close you can trust and a file the auditor accepts. Start with a books review.">
+    <meta property="og:url" content="https://www.patronaccounting.com/esop-accounting-ind-as-102">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-accounting-ind-as-102-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/esop-accounting-ind-as-102-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ind AS 102 ESOP Accounting Guide for Indian Companies | Patron Accounting">
-    <meta name="twitter:description" content="Ind AS 102 ESOP accounting service for Indian companies covers share-based payment expense, equity vs cash-settled, Black-Scholes. From Rs 40,000.">
-    <meta name="twitter:image" content="/images/esop-accounting-ind-as-102-og.webp">
+    <meta name="twitter:title" content="ESOP Accounting Under Ind AS 102: Monthly CA Support | Patron Accounting">
+    <meta name="twitter:description" content="Grant-wise fair value and graded vesting, computed and documented. A close you can trust and a file the auditor accepts. Start with a books review.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/esop-accounting-ind-as-102-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "/esop-accounting-ind-as-102/#service",
-        "name": "ESOP Accounting under Ind AS 102",
-        "url": "/esop-accounting-ind-as-102/",
-        "description": "Ind AS 102 ESOP and SAR accounting service for Indian companies - Black-Scholes fair valuation, year-wise expense schedule, equity-settled and cash-settled treatment, forfeiture rate estimation, modification and cancellation accounting, Schedule III note disclosure and Directors' Report Rule 12(9) compliance. Coverage includes ICAI Guidance Note 2020 for non-Ind AS companies.",
-        "serviceType": "ESOP Accounting and Audit Support Service",
-        "areaServed": {
-            "@type": "Country",
-            "name": "India",
-            "sameAs": "https://en.wikipedia.org/wiki/India"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102/#service",
+  "name": "ESOP Accounting Under Ind AS 102",
+  "description": "Ind AS 102 requires share-based payments to be expensed at grant-date fair value across the vesting period, not at exercise.",
+  "image": "https://www.patronaccounting.com/images/esop-accounting-ind-as-102-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "ESOP Accounting (Ind AS 102) Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "ESOP Accounting Under Ind AS 102",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "ESOP Accounting Under Ind AS 102",
+          "description": "Ind AS 102 requires share-based payments to be expensed at grant-date fair value across the vesting period, not at exercise.",
+          "serviceType": "ESOP Accounting (Ind AS 102) Service"
         },
-        "provider": {
-            "@id": "/#organization"
-        },
-        "about": [
-            {
-                "@type": "Thing",
-                "name": "IFRS 2 Share-based Payment",
-                "sameAs": "https://en.wikipedia.org/wiki/IFRS_2"
-            },
-            {
-                "@type": "Thing",
-                "name": "Black-Scholes Model",
-                "sameAs": "https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model"
-            }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "ESOP Accounting Service Tiers",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Single Scheme Annual ESOP Accounting Run",
-                    "priceCurrency": "INR",
-                    "price": "40000",
-                    "description": "Black-Scholes, year-wise schedule, journal entries and Schedule III disclosure for one scheme with one grant batch"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Multi-Tranche Single Scheme Annual Run",
-                    "priceCurrency": "INR",
-                    "price": "60000",
-                    "description": "Multiple quarterly grants, forfeiture true-up and modifications if applicable"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Multi-Scheme Annual ESOP Accounting Run",
-                    "priceCurrency": "INR",
-                    "price": "90000",
-                    "description": "Two to three schemes with multi-scheme reconciliation and group consolidation"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Modification or Cancellation Accounting Event",
-                    "priceCurrency": "INR",
-                    "price": "20000",
-                    "description": "Incremental fair value working, journal entries and disclosure refresh for one modification event"
-                }
-            ]
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "/esop-accounting-ind-as-102/#breadcrumb",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Accounting Services",
-                "item": "/accounting-services/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "ESOP Accounting under Ind AS 102",
-                "item": "/esop-accounting-ind-as-102/"
-            }
-        ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ESOP Accounting (Ind AS 102)",
+      "item": "https://www.patronaccounting.com/esop-accounting-ind-as-102"
     }
-    </script>
-    <script type="application/ld+json">
+  ],
+  "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "/esop-accounting-ind-as-102/#faq",
-  "datePublished": "2026-05-11T08:00:00+05:30",
-  "dateModified": "2026-05-11T08:00:00+05:30",
+  "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is Ind AS 102?",
+      "name": "How is ESOP cost calculated and recognised under Ind AS 102?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ind AS 102 is the Indian Accounting Standard on Share-based Payment, notified under Section 133 of the Companies Act 2013 read with the Companies (Indian Accounting Standards) Rules 2015. It mandates recognition of compensation expense for ESOPs, SARs and other share-based payment arrangements over the vesting period, measured at the grant-date fair value for equity-settled awards and at remeasured fair value for cash-settled awards. The standard is materially converged with IFRS 2."
+        "text": "Under Ind AS 102 the ESOP cost equals the grant date fair value of the options multiplied by the number of options expected to vest, charged to the profit and loss across the vesting period with a matching credit to a share based payment reserve within equity. For equity settled awards the grant date fair value is never remeasured in later periods."
       }
     },
     {
       "@type": "Question",
-      "name": "Is Ind AS 102 applicable to private limited companies?",
+      "name": "What is a vesting condition as per Ind AS 102?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ind AS 102 is mandatory for unlisted private limited companies with a net worth of Rs 250 crore or more, and for any private limited company that is a holding, subsidiary, joint venture or associate of such a company or a listed entity. Smaller private limited companies follow the AS framework under Companies (Accounting Standards) Rules 2006 read with the ICAI Guidance Note on Accounting for Share-based Payments 2020, which permits either the Fair Value Method or the Intrinsic Value Method."
+        "text": "A vesting condition under Ind AS 102 is a condition an employee must satisfy to become entitled to the option, and it is either a service condition or a performance condition. Service conditions and non market performance conditions are reflected by revising the number of options expected to vest at each reporting date. Market conditions are built into the grant date fair value and are never trued up."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the difference between equity-settled and cash-settled share-based payment?",
+      "name": "Is a valuer needed for ESOP fair value, and which model is used?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Equity-settled SBP delivers the company's own equity instruments (ESOPs, RSUs) to the employee on vesting and exercise. The expense is the grant-date fair value, NOT remeasured later, with a credit to ESOP Reserve in equity. Cash-settled SBP (Stock Appreciation Rights, Phantom Stock) pays cash equal to the appreciation in share value. The liability is remeasured at fair value each reporting date until settled, with changes through P and L. The cumulative expense for cash-settled equals the actual cash paid."
+        "text": "Fair value is normally determined by a registered valuer or merchant banker using an option pricing model, most often Black Scholes for plain vanilla options and a binomial or lattice model where performance conditions or early exercise behaviour exist. The inputs are exercise price, share fair value, expected volatility, risk free rate, expected life and expected dividend yield, and each must be documented."
       }
     },
     {
       "@type": "Question",
-      "name": "How is the ESOP expense recognised in books?",
+      "name": "What does ESOP mean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For equity-settled awards: compute grant-date fair value per option using Black-Scholes, multiply by options expected to vest (after forfeiture estimate), divide by vesting period and recognise straight-line for cliff vesting or per-tranche for graded vesting under Ind AS 102 paragraph 20. Journal entry: Dr ESOP Compensation Expense (P and L) and Cr ESOP Reserve (Equity). True up at each reporting date for service and non-market performance conditions."
+        "text": "ESOP stands for Employee Stock Option Plan, a scheme under which a company grants employees the right to buy its shares at a fixed exercise price once a vesting period is completed. In India the issue is governed by Section 62(1)(b) of the Companies Act 2013 read with Rule 12 of the Companies (Share Capital and Debentures) Rules 2014, and the accounting charge follows Ind AS 102."
       }
     },
     {
       "@type": "Question",
-      "name": "How is forfeiture rate estimated under Ind AS 102?",
+      "name": "What entries are passed when options are granted, vested, exercised and lapsed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Forfeiture rate is estimated at the grant date based on historical employee attrition data, weighted for the seniority and tenure profile of grantees. The estimate is updated at each reporting date as actual forfeitures crystallise. At vesting date, cumulative expense is trued up to reflect the actual number of options that vested. Service conditions and non-market performance conditions are subject to true-up; market conditions (share price targets) are baked into the grant-date fair value and not adjusted later."
+        "text": "No entry is passed at grant. During vesting, employee benefits expense is debited and the share based payment reserve is credited each period. On exercise, bank and the reserve are debited while share capital and securities premium are credited. Where vested options lapse unexercised, the reserve is transferred to general reserve or retained earnings rather than reversed through profit."
       }
     },
     {
       "@type": "Question",
-      "name": "Can a non-Ind AS company use the intrinsic value method for ESOP?",
+      "name": "Can ESOPs be given to advisors?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The ICAI Guidance Note on Accounting for Share-based Payments (September 2020), applicable to non-Ind AS companies under the AS framework, permits both the Fair Value Method and the Intrinsic Value Method. Under Intrinsic Value, the expense equals FMV at grant minus exercise price multiplied by options expected to vest, recognised over the vesting period. For schemes with exercise price equal to face value, this often produces near-zero expense - a known Series A diligence flag. Most growth-stage companies voluntarily adopt the Fair Value Method."
+        "text": "No, an outside advisor or consultant cannot be granted ESOPs, because the Companies Act permits options only to permanent employees and directors of the company and of its holding, subsidiary or associate companies. Advisors are usually compensated instead through sweat equity shares, warrants or a cash settled plan. Where an advisor is formally appointed a director, options become possible and the charge still follows Ind AS 102."
       }
     },
     {
       "@type": "Question",
-      "name": "What is modification accounting under Ind AS 102?",
+      "name": "What happens in the books when an employee leaves before vesting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the company modifies an ESOP grant (extends exercise window, lowers exercise price, accelerates vesting, expands pool to existing grants), Ind AS 102 paragraph 27 requires the company to compute the incremental fair value (modified fair value minus original fair value at modification date) and recognise this incremental expense over the remaining vesting period. The original grant-date fair value continues to be recognised over its original vesting period."
+        "text": "Options that lapse before vesting because the employee resigns are reversed, so cumulative expense already charged is written back in the year the forfeiture occurs and only vested options continue to carry cost. Options lapsing after vesting are not reversed through the profit and loss. Because the vesting estimate is revised at every reporting date, the attrition assumption is a live number."
       }
     },
     {
       "@type": "Question",
-      "name": "ESOP accounting kaise karte hain? (How is ESOP accounting done?)",
+      "name": "What ESOP disclosures are required in financial statements?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "ESOP accounting Ind AS 102 ke under hoti hai. Grant date pe Black-Scholes se fair value nikalte hain, vesting period (typically 4 years) mein expense recognise karte hain - Dr ESOP Expense aur Cr ESOP Reserve. Cash-settled SAR ke liye liability ko har reporting date pe remeasure karna padta hai. Non-Ind AS companies ICAI Guidance Note 2020 follow karti hain. Patron 5 to 10 din mein full schedule aur journal entries deta hai. Call +91 945 945 6700."
+        "text": "Financial statements must disclose the nature and terms of each scheme, options outstanding, granted, exercised, forfeited and expired during the year, weighted average exercise price and remaining contractual life, the valuation model with its inputs, and the total expense recognised. Scheme details are also reported to shareholders and the relevant MCA forms are filed when shares are issued on exercise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the ESOP expense reduce taxable income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Ind AS 102 charge is a book expense, while the deduction under the Income Tax Act is generally the discount actually borne by the company and is claimed in the year of exercise rather than across the vesting period. That mismatch creates a timing difference and a deferred tax asset. Because case law has shifted on this point, the position is confirmed before filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does an ESOP accounting engagement involve and how long does it take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A first time Ind AS 102 setup takes 2 to 3 weeks and covers scheme document review, grant register build, valuation coordination, the vesting period expense schedule, deferred tax working and draft disclosures for the financial statements. Quarterly upkeep afterwards is lighter. Effort depends on the number of grant tranches and whether subsidiary or overseas employees are covered."
       }
     }
   ]
 }
-    </script>
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102",
+  "name": "ESOP Accounting Under Ind AS 102",
+  "description": "Grant-wise fair value and graded vesting, computed and documented. A close you can trust and a file the auditor accepts. Start with a books review.",
+  "url": "https://www.patronaccounting.com/esop-accounting-ind-as-102",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/esop-accounting-ind-as-102-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/esop-accounting-ind-as-102-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column  -  right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T)  -  Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION  -  Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        /* Conclusion + CTA Block (Dark) - force light text against dark navy
-           background. Overrides .content-text/strong/p default dark colours. */
-        .content-section[style*="var(--blue)"] .section-title,
-        .content-section[style*="var(--blue)"] h2 {
-            color: #FFFFFF !important;
-        }
-        .content-section[style*="var(--blue)"] .content-text,
-        .content-section[style*="var(--blue)"] .content-text p {
-            color: rgba(255,255,255,0.92) !important;
-        }
-        .content-section[style*="var(--blue)"] .content-text strong,
-        .content-section[style*="var(--blue)"] p strong {
-            color: #FFFFFF !important;
-            font-weight: 700;
-        }
-        .content-section[style*="var(--blue)"] .content-text a:not([style*="background"]) {
-            color: rgba(255,255,255,0.92) !important;
-            text-decoration: underline;
-        }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot  -  Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">ESOP Accounting Services</span></li>
+        </ol>
+    </div>
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1171,51 +299,49 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        ESOP Accounting under Ind AS 102
+                        ESOP Accounting Under Ind AS 102
                     </h1>
 
                     <div class="expert-attribution-box">
                         <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
-                        <span class="eab-title">Reviewed by CA &amp; CS Team &middot; Patron Accounting LLP</span>
+                        <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: 11 May 2026</span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Deliverables:</span> Black-Scholes fair value report, year-wise expense schedule, journal entries and Schedule III note disclosures</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Grant-wise charge tied to the register:</span> Each period's employee benefits expense traces back to individual grants, so the charge is never just a scheme-level total.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Rs 40,000 to Rs 1,20,000 per scheme per year depending on grants outstanding and complexity</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Graded vesting charged correctly:</span> Each tranche of a graded-vesting grant is a separate arrangement, so the cost lands front-loaded rather than spread evenly.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Frameworks:</span> Ind AS 102 for Ind AS companies; ICAI Guidance Note 2020 for AS framework companies</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Modifications with a documented treatment:</span> Each repricing, extension, acceleration, cancellation and lapse carries its own working, with incremental fair value spread over remaining vesting.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> 5 to 10 working days for year-end run; 2 to 3 working days for fresh-grant accounting</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Deferred tax computed alongside:</span> You get deferred tax on options measured at each reporting date, because the book charge and tax deduction land in different years.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | 15+ Years in Practice</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:info@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20ESOP%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20ESOP%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20scoping%20call%20for%20ESOP%20Accounting%20under%20Ind%20AS%20102." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20esop%20accounting%20ind%20as%20102" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1242,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1315,17 +441,13 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                
-                                <option value='ESOP Accounting under Ind AS 102' selected>ESOP Accounting under Ind AS 102</option>
-                                <option value='ESOP Management and Compliance'>ESOP Management and Compliance</option>
-                                <option value='Actuarial Valuation for Employee Benefits'>Actuarial Valuation for Employee Benefits</option>
-                                <option value='Private Limited Company Compliance'>Private Limited Company Compliance</option>
-                                <option value='Issue of Shares'>Issue of Shares</option>
-                                <option value='Statutory Audit'>Statutory Audit</option>
-                                <option value='Internal Audit'>Internal Audit</option>
-                                <option value='Accounting Services'>Accounting Services</option>
-                                <option value='Other'>Other</option>
-
+                                <option value="esop-accounting-ind-as-102" selected>ESOP Accounting</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1355,122 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
 
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Outstanding experience with Patron. Professionalism and timely communication made the process seamless.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Business Owner</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Glad I connected with Patron. Really helpful and took minimum time.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Entrepreneur</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Fantastic experience. Knowledgeable and smooth handling of all documentation.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NG</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Nishikant Gurav</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Client</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Best service for account handling. Extremely happy with dedicated point of contact.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Smooth process for ITR filing. They understand basics well and respond promptly.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SH</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Sameer Mehta</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Client</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 weeks ago</div>
-            </div>
-        </div>
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
 
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Ind AS 102 and ICAI Guidance Note 2020 dual coverage. Black-Scholes in-house. Schedule III and Directors' Report Rule 12(9) drafted to audit standard.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1496,143 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
             
-            <a href="#overview-section" class="toc-btn">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is Ind AS 102</a>
-            <a href="#who-section" class="toc-btn">Who Applies</a>
-            <a href="#services-section" class="toc-btn">Deliverables</a>
-            <a href="#process-section" class="toc-btn">7-Step Procedure</a>
-            <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#challenges-section" class="toc-btn">Common Errors</a>
-            <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Timeline</a>
-            <a href="#comparison-section" class="toc-btn">Equity vs Cash</a>
-            <a href="#legal-section" class="toc-btn">Legal Framework</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
-
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">ESOP Accounting under Ind AS 102 - Overview</h2>
+            <h2 class="section-title">What ESOP Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - ESOP Accounting Services at a Glance</strong></p>
-                    <p>ESOP accounting under Ind AS 102 requires recognising the grant-date fair value of equity-settled options as a compensation expense over the vesting period, with a corresponding credit to an ESOP Reserve under equity. Cash-settled SARs are recognised as a liability remeasured at each reporting date. Non-Ind AS companies follow the ICAI Guidance Note on Accounting for Share-based Payments 2020. The expense is computed via Black-Scholes or Binomial pricing, adjusted for service-based forfeitures and modifications.</p>
+                    <p>Ind AS 102 requires share-based payments to be expensed at grant-date fair value across the vesting period, not at exercise. The grant-wise charge for graded and cliff vesting is computed by Patron, with valuation inputs documented and the disclosures an auditor will test prepared in advance. Perquisite TDS on exercise is calculated alongside the accounting entry. Common among companies running ESOP pools from seed stage to pre-IPO.</p>
                 </div>
-                <p>ESOP accounting is the statutory expense recognition layer that translates a grant of stock options into Profit and Loss compensation cost over the vesting period. The exact treatment depends on whether the company applies Ind AS or the older AS framework, and on whether the scheme is equity-settled (ESOP) or cash-settled (SAR or Phantom Stock).</p>
-                <p>Patron Accounting LLP provides Ind AS 102 expense computation, Black-Scholes fair valuation, year-wise schedule, journal entries and Schedule III note disclosure as part of the audit engagement or as a standalone ESOP accounting deliverable. The firm has handled ESOP accounting for startups, growth-stage companies and listed entities since 2009, with CA, audit and tax teams under one roof across offices in Pune, Mumbai, Delhi and Gurugram.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>The ESOP register usually sits in a spreadsheet while the books sit in the accounting software, and the two drift apart the moment someone resigns mid-vesting. Patron works from the grant register itself, rebuilds it where it has gaps, and posts the charge and the corresponding reserve into your ledger each period with a working that ties every figure to the individual grant it came from. How share-based payments are expensed covers the mechanics.</p>
+                <p>Across every tranche granted since the pool opened, the workings must hold. ESOP accounting gets heavier with each tranche, modification, repricing or cancellation, not with headcount. Expense workings, journal entries and disclosure notes sit in scope. Independent valuation of shares does not, and is handled under a separate assignment, as is any technical opinion referred to the Institute of Chartered Accountants of India.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is Ind AS 102 ESOP Accounting</h2>
+                <h2 class="section-title">What Is ESOP Accounting?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Ind AS 102 ESOP accounting is the financial reporting treatment for share-based payment transactions under Indian Accounting Standard 102, notified under Section 133 of the Companies Act 2013 read with Rule 4 of the Companies (Indian Accounting Standards) Rules 2015.</p>
-                    <p>It mandates recognition of compensation expense at the grant-date fair value of equity-settled awards (or remeasured fair value of cash-settled awards) over the vesting period, with corresponding entries to an equity reserve or a liability.</p>
-                    <p>The standard is materially converged with IFRS 2 - Share-based Payment, the international standard issued by the IFRS Foundation. Non-Ind AS companies follow the ICAI Guidance Note on Accounting for Share-based Payments (September 2020) under the Companies (Accounting Standards) Rules 2006 framework.</p>
+                    <p>Ind AS 102 is the accounting standard that governs how a company records share-based payments, including employee stock options. ESOP accounting is the service that applies that standard to your scheme. It measures each grant at its grant-date fair value and spreads that charge across the period an employee must serve before the options vest. The charge is recognised whether the options are ultimately exercised or lapse unexercised.</p>
+<p>This service posts the resulting expense and the matching reserve into your ledger, grant by grant, and prepares the disclosures an auditor will later test. It reads the valuation an independent registered valuer supplies rather than producing that figure itself. Perquisite tax due when options are exercised is computed alongside the entry, and modifications, forfeitures and cancellations are reflected as they occur. Ind AS 102 work of this kind covers the numbers and the notes; the share valuation and any tax return remain separate assignments.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for ESOP Accounting:</strong></p>
-                    <p><strong>Grant Date:</strong> The date on which both parties (company and employee) agree to the share-based payment arrangement. For schemes requiring shareholder approval, grant date is the date approval is obtained.</p>
-                    <p><strong>Vesting Date:</strong> The date on which the employee becomes unconditionally entitled to the equity instrument. For service conditions, this is the end of the service period.</p>
-                    <p><strong>Fair Value:</strong> The price at which the option could be sold in an arm's-length transaction, determined using a recognised option pricing model such as Black-Scholes or Binomial.</p>
-                    <p><strong>Equity-Settled SBP:</strong> Awards settled by issuing the company's own equity instruments. Expense recognised over vesting period with credit to ESOP Reserve in equity.</p>
-                    <p><strong>Cash-Settled SBP:</strong> Awards settled by paying cash based on the value of equity instruments. Expense over vesting period with credit to a liability remeasured every reporting date.</p>
-                    <p><strong>Forfeiture Rate:</strong> Estimated percentage of granted options expected to forfeit due to attrition before vesting. Service and non-market performance conditions are trued up to actual outcomes.</p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/ind-as-102-share-based-payment">Ind AS 102 Share-based Payment</a></span><span class="al-d">The standard governing how companies expense options and other share-based employee rewards.</span></li><li><span class="al-t"><a href="/glossary/vesting-period-graded-amortization">Vesting Period Graded Amortization</a></span><span class="al-d">Spreading an option&#x27;s cost across the years an employee must serve to earn it.</span></li><li><span class="al-t"><a href="/glossary/esop-intrinsic-value-method">ESOP Intrinsic Value Method</a></span><span class="al-d">Older approach valuing an option as market price minus its exercise price.</span></li><li><span class="al-t"><a href="/glossary/cap-table-dilution">Cap Table Dilution</a></span><span class="al-d">How each new share grant shrinks existing owners&#x27; percentage stake in the company.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">ESOP Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Indian Accounting Standard</span>
-                        <strong>Ind AS 102</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/what-is.webp" alt="What Is ESOP Accounting. Ind AS 102 is the accounting standard that governs how a company records share-based" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Must Apply Ind AS 102 for ESOP Accounting</h2>
+            <h2 class="section-title">Who Needs ESOP Accounting in India?</h2>
             <div class="content-text">
                 
-                <h3>Ind AS Framework (Mandatory)</h3>
-                <ul>
-                    <li>All listed companies on Indian stock exchanges</li>
-                    <li>Unlisted companies with net worth equal to or greater than Rs 250 crore</li>
-                    <li>Holding, subsidiary, joint venture or associate companies of the above</li>
-                    <li>Voluntary adopters who have notified the choice (the choice is irrevocable)</li>
-                </ul>
-                <h3>AS Framework with ICAI Guidance Note 2020 (Non-Ind AS Companies)</h3>
-                <ul>
-                    <li>Unlisted companies with net worth below Rs 250 crore (most Seed and Series A startups)</li>
-                    <li>Small companies, One Person Companies and dormant companies</li>
-                    <li>Companies following Companies (Accounting Standards) Rules 2006 as amended in 2021</li>
-                </ul>
-                <p><em>Note: The ICAI Guidance Note on Accounting for Share-based Payments (September 2020) permits both the Fair Value Method and the Intrinsic Value Method (FMV at grant minus exercise price) for AS framework companies. Most Seed-stage Indian startups using the Intrinsic Value Method on exercise-price equal to face value end up with significant compensation expense not booked - a common Series A diligence flag.</em></p>
-                <h3>Trigger Events for Ind AS 102 Accounting</h3>
-                <ul>
-                    <li>First ESOP grant batch after scheme approval - opening balance and grant-date fair value computation</li>
-                    <li>Fresh grant tranche each quarter or each annual hiring cycle</li>
-                    <li>Modification - extension of exercise window, repricing, additional vesting acceleration</li>
-                    <li>Cancellation or settlement - acceleration of remaining unrecognised expense</li>
-                    <li>Annual year-end run for cumulative true-up and Schedule III disclosure</li>
-                    <li>Transition from AS to Ind AS - Ind AS 101 First-Time Adoption transitional provisions</li>
-                </ul>
+                <p>ESOP accounting under Ind AS 102 is for companies that have granted share options and now must expense them. Once a scheme is live and the first tranches vest, the businesses below carry a charge to compute grant by grant.</p>
+  <ul>
+    <li>Venture-backed startups running an ESOP pool from seed stage, with grants now needing a fair-value charge.</li>
+    <li>Companies whose graded or cliff vesting schedules must be <a href="/blog/esop-expense-vesting-period-accounting">charged across each vesting period</a>.</li>
+    <li>Firms that have repriced, modified or cancelled option grants part-way through vesting.</li>
+    <li>Businesses where the ESOP register in a spreadsheet has drifted from the entries in the ledger.</li>
+    <li>Pre-IPO companies facing diligence that ties the employee benefit charge back to the grant register.</li>
+    <li>Companies computing <a href="/blog/esop-perquisite-tax-employees">perquisite TDS on exercise</a> alongside the share-based payment entry.</li>
+    <li>Unlisted companies moving to Ind AS reporting that must restate earlier option grants.</li>
+    <li>Firms with deferred tax on the ESOP charge still to compute and disclose.</li>
+  </ul>
 
             </div>
             </div>
@@ -1640,26 +595,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Patron ESOP Accounting Deliverables</h2>
+            <h2 class="section-title">Our ESOP Accounting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        
-                        <tr><td><strong>Grant-Date Fair Value Computation</strong></td><td>Black-Scholes Option Pricing model run on each grant tranche using underlying share price (FMV from IBBI valuer), exercise price, expected option life, volatility, risk-free rate and dividend yield. Binomial model used where complex features apply.</td><td><span class="badge-included">Included</span></td></tr>
-                        <tr><td><strong>Year-Wise Expense Schedule</strong></td><td>Excel-style schedule covering each grant tranche, number of options, fair value per option, total expense, vesting schedule (cliff or graded), forfeiture rate, year-by-year expense recognition and cumulative expense to date.</td><td><span class="badge-included">Included</span></td></tr>
-                        <tr><td><strong>Journal Entry Schedule</strong></td><td>Quarterly or annual journal entries. ESOP Compensation Expense (P and L) debit, ESOP Reserve (Equity) credit for equity-settled, or SAR Liability for cash-settled. Forfeiture true-ups and modification entries documented separately.</td><td><span class="badge-included">Included</span></td></tr>
-                        <tr><td><strong>Forfeiture Rate Estimation and True-Up</strong></td><td>Historical employee attrition analysis to estimate forfeiture rate; revised at each reporting date based on actual outcomes; true-up of cumulative expense at year-end for service and non-market performance conditions.</td><td><span class="badge-included">Included</span></td></tr>
-                        <tr><td><strong>Modification and Cancellation Accounting</strong></td><td>On scheme modification (extension of exercise window, repricing, pool top-up impacting prior grants), Patron computes incremental fair value and recognises it over remaining vesting period. Cancellation accelerates remaining expense.</td><td><span class="badge-addon">Add-on</span></td></tr>
-                        <tr><td><strong>Schedule III Disclosure and Directors' Report Note</strong></td><td>Notes to Accounts disclosure under Schedule III; ESOP movement table (outstanding, granted, exercised, lapsed, expired); Directors' Report disclosure under Rule 12(9) of Companies (Share Capital and Debentures) Rules 2014.</td><td><span class="badge-included">Included</span></td></tr>
-                        <tr><td><strong>Audit Working Paper File</strong></td><td>Sensitivity analysis on Black-Scholes inputs (volatility, risk-free rate, expected life), source documents index and statutory auditor coordination - audit-ready file for sign-off without rework.</td><td><span class="badge-included">Included</span></td></tr>
-                        <tr><td><strong>Ind AS 101 First-Time Adoption (Transition)</strong></td><td>Migration from AS framework with ICAI Guidance Note to Ind AS 102 on crossing the net worth threshold; opening ESOP Reserve restated; prior years reconciled.</td><td><span class="badge-addon">Add-on</span></td></tr>
-
+                        <tr><td>Grant-date fair valuation review</td><td>Grant data collected and the valuation report read, fixing grant-date fair value used for share based payment accounting <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Vesting schedule and expense charge</td><td>Vesting schedule built and the Ind AS 102 charge spread as <a href="/blog/esop-expense-vesting-period-accounting">ESOP expense over the vesting period</a>, with true-up <span class="badge-included">Quarterly</span></td></tr>
+                        <tr><td>Modifications, forfeitures and exercises</td><td>Scheme modifications, forfeitures and exercises accounted with a documented treatment for each event that arises during the year <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Deferred tax computation</td><td>Deferred tax on the ESOP charge computed alongside the accounting entries, keeping esop accounting and tax in step <span class="badge-included">Annually</span></td></tr>
+                        <tr><td>Payroll interface support</td><td>Exercise-date fair value and quantities handed to payroll on time, supporting perquisite computation without giving employee tax advice <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Disclosures and audit file</td><td>Roll-forward note, reserve movement and standard disclosures prepared, with an esop advisory review ready for the audit <span class="badge-included">Annually</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1669,244 +620,95 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
-        <div class="section-header" style="text-align:center;margin-bottom:48px;">
+        <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">7-Step ESOP Accounting Procedure</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">From data collection to audit-ready Schedule III note, Patron's annual ESOP accounting run follows a documented seven-step procedure aligned to Ind AS 102 paragraphs 10 to 29 and the ICAI Guidance Note 2020. The full run completes in 5 to 10 working days.</p>
-        </div>
+            <h2 class="section-title">How ESOP Accounting Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers esop accounting, step by step from onboarding to a clean monthly close.</p>
+        </header>
         <div class="steps-container">
-            
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 1</span>
-                    <h3 class="step-title">Data Collection</h3>
-                    <p class="step-description">Collect the approved ESOP Scheme document, all Board Resolutions for grants, Form SH-6 Register of Employee Stock Options, IBBI Valuer FMV report and a list of grantees with grant dates, vesting schedules and exercise prices.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Scheme document
-                        </span>
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            SH-6 register
-                        </span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="5" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="22" x2="90" y2="22" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="30" y1="38" x2="80" y2="38" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="30" y1="50" x2="70" y2="50" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="30" y1="62" x2="75" y2="62" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/></svg>
-                        </div>
-                        <span class="illustration-label">Documents Ready</span>
-                        <span class="step-number-large">01</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Scheme and grant data collection</h3>
+    <p class="step-description">We collect the scheme document, board and shareholder approvals and every grant letter. From those we build a grant-wise register: grant date, number of options, exercise price, vesting conditions and employee identity. The accounting is done per grant, not per scheme.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/step-1-scheme-and-grant-data-collection.webp" alt="Illustration for Scheme and grant data collection: We collect the scheme document, board and shareholder approvals and every" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 2</span>
-                    <h3 class="step-title">Black-Scholes Input Build</h3>
-                    <p class="step-description">Compute expected share price volatility from listed peer comparables (typically 30 to 60 percent for Indian SaaS, 25 to 40 percent for B2B), risk-free rate from the RBI G-Sec yield curve matched to option life, expected option life (3 to 6 years) and dividend yield.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Peer volatility
-                        </span>
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            G-Sec yield curve
-                        </span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><polyline points="30,60 45,40 60,55 75,30 90,38" fill="none" stroke="#E8712C" stroke-width="2.5" stroke-linecap="round"/><circle cx="45" cy="40" r="3" fill="#E8712C"/><circle cx="75" cy="30" r="3" fill="#E8712C"/><line x1="30" y1="70" x2="90" y2="70" stroke="#14365F" stroke-width="0.8"/></svg>
-                        </div>
-                        <span class="illustration-label">Inputs Built</span>
-                        <span class="step-number-large">02</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Reading the valuation report</h3>
+    <p class="step-description">Fair value at grant date is taken from the registered valuer's report; we do not perform the valuation. We review the inputs and check that the model, the grant dates and the option terms in the report agree to the grant register before the numbers are used.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/step-2-reading-the-valuation-report.webp" alt="Illustration for Reading the valuation report: Fair value at grant date is taken from the registered valuer's report; we do" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 3</span>
-                    <h3 class="step-title">Fair Value Computation</h3>
-                    <p class="step-description">Run Black-Scholes per option for each grant tranche; overlay binomial model where performance conditions or market conditions exist. Document all inputs and the rationale for each parameter. Produce a sensitivity table showing fair value at +/- 10 percent volatility and risk-free rate.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Per-tranche fair value
-                        </span>
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Sensitivity table
-                        </span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="45" r="28" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><text x="60" y="50" font-size="20" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">FV</text><path d="M85 70l15 15" stroke="#14365F" stroke-width="3" stroke-linecap="round"/></svg>
-                        </div>
-                        <span class="illustration-label">Fair Value Set</span>
-                        <span class="step-number-large">03</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Building the vesting schedule</h3>
+    <p class="step-description">Each vesting tranche of a graded-vesting grant is treated as a separate arrangement with its own vesting period, so the charge is front-loaded rather than straight-lined across the whole grant. Service, performance and market conditions are separated at this stage.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/step-3-building-the-vesting-schedule.webp" alt="Illustration for Building the vesting schedule: Each vesting tranche of a graded-vesting grant is treated as a separate" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 4</span>
-                    <h3 class="step-title">Vesting Schedule Mapping</h3>
-                    <p class="step-description">Map vesting tranches against accounting periods. Straight-line recognition for cliff vesting; graded recognition for tranche-based vesting per Ind AS 102 paragraph 20 (each tranche treated as a separate award). Produce the year-wise expense schedule.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Cliff or graded
-                        </span>
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Para 20 tranches
-                        </span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="20" width="90" height="50" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="40" y1="25" x2="40" y2="65" stroke="#14365F" stroke-width="0.8"/><line x1="60" y1="25" x2="60" y2="65" stroke="#14365F" stroke-width="0.8"/><line x1="80" y1="25" x2="80" y2="65" stroke="#14365F" stroke-width="0.8"/><rect x="18" y="35" width="20" height="8" fill="#E8712C" opacity="0.7"/><rect x="42" y="42" width="16" height="8" fill="#E8712C" opacity="0.6"/><rect x="62" y="48" width="16" height="8" fill="#E8712C" opacity="0.5"/><rect x="82" y="55" width="20" height="8" fill="#E8712C" opacity="0.4"/></svg>
-                        </div>
-                        <span class="illustration-label">Schedule Mapped</span>
-                        <span class="step-number-large">04</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Expense charge and true-up</h3>
+    <p class="step-description">The grant-date fair value is charged to employee benefits expense over each tranche's vesting period with the credit in a share-based payment reserve within other equity. Estimates of how many options will vest on non-market conditions are revised at each reporting date.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/step-4-expense-charge-and-true-up.webp" alt="Illustration for Expense charge and true-up: The grant-date fair value is charged to employee benefits expense over each" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 5</span>
-                    <h3 class="step-title">Forfeiture Rate Application</h3>
-                    <p class="step-description">Apply the estimated forfeiture rate from historical attrition data, compute expected options to vest and true up at year-end to actual. Service conditions and non-market performance conditions are subject to true-up; market conditions are baked into grant-date fair value.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Attrition history
-                        </span>
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Year-end true-up
-                        </span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="40" cy="45" r="8" fill="#E8712C" opacity="0.7"/><circle cx="60" cy="45" r="8" fill="#E8712C" opacity="0.7"/><circle cx="80" cy="45" r="8" fill="#C13E3E" opacity="0.7"/><line x1="74" y1="39" x2="86" y2="51" stroke="#fff" stroke-width="2" stroke-linecap="round"/><line x1="86" y1="39" x2="74" y2="51" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>
-                        </div>
-                        <span class="illustration-label">Forfeiture Trued</span>
-                        <span class="step-number-large">05</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Modifications, forfeitures and exercises</h3>
+    <p class="step-description">Repricing, extension, acceleration, cancellation and lapse each have their own treatment, and incremental fair value on a modification is charged over the remaining vesting period. Exercises move the reserve to share capital and securities premium; expired options are transferred within equity.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/step-5-modifications-forfeitures-and-exercises.webp" alt="Illustration for Modifications, forfeitures and exercises: Repricing, extension, acceleration, cancellation and lapse each" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 6</span>
-                    <h3 class="step-title">Journal Entry Generation</h3>
-                    <p class="step-description">Generate quarterly and annual journal entries. Dr ESOP Compensation Expense in P and L; Cr ESOP Reserve in Equity for equity-settled awards, or Cr SAR Liability for cash-settled. Pass year-end remeasurement entries for cash-settled liabilities at fair value.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            P and L expense
-                        </span>
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            ESOP Reserve credit
-                        </span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="5" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="22" y="25" font-size="9" fill="#14365F" font-family="Courier New, monospace">Dr</text><line x1="38" y1="22" x2="98" y2="22" stroke="#14365F" stroke-width="1" opacity="0.4"/><text x="22" y="42" font-size="9" fill="#14365F" font-family="Courier New, monospace">Cr</text><line x1="38" y1="39" x2="98" y2="39" stroke="#14365F" stroke-width="1" opacity="0.4"/><line x1="22" y1="55" x2="98" y2="55" stroke="#E8712C" stroke-width="2" stroke-linecap="round"/><text x="22" y="68" font-size="7" fill="#14365F" font-family="Courier New, monospace" opacity="0.6">P&amp;L Entry</text></svg>
-                        </div>
-                        <span class="illustration-label">Entries Posted</span>
-                        <span class="step-number-large">06</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Deferred tax and payroll interface</h3>
+    <p class="step-description">Because the accounting charge and the tax deduction arise in different periods, we compute the deferred tax position at each reporting date and split any excess to equity. We also give payroll the exercise-date data it needs for perquisite valuation and withholding.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/step-6-deferred-tax-and-payroll-interface.webp" alt="Illustration for Deferred tax and payroll interface: Because the accounting charge and the tax deduction arise in different" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 7</span>
-                    <h3 class="step-title">Disclosure and Audit Coordination</h3>
-                    <p class="step-description">Draft the Schedule III Notes to Accounts paragraph (Note 14 typically) with ESOP movement table, the Directors' Report Rule 12(9) paragraph and the audit working paper file. Coordinate with the statutory auditor for sign-off without rework.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Schedule III note
-                        </span>
-                        <span class="highlight-tag">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            Audit working paper
-                        </span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="5" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="92" cy="20" r="14" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M85 20l5 5 8-8" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="25" y1="40" x2="80" y2="40" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="25" y1="52" x2="70" y2="52" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="25" y1="64" x2="75" y2="64" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/></svg>
-                        </div>
-                        <span class="illustration-label">Audit Ready</span>
-                        <span class="step-number-large">07</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Disclosures and audit file</h3>
+    <p class="step-description">We draft the note: nature and terms of each scheme, the options roll-forward from opening to closing with weighted average exercise prices, valuation model and inputs, and the total expense recognised. The supporting working papers go to the auditor as one file.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/esop-accounting-ind-as-102/step-7-disclosures-and-audit-file.webp" alt="Illustration for Disclosures and audit file: We draft the note: nature and terms of each scheme, the options roll-forward" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Documents and Data Checklist</h2>
-            <div class="content-text">
-                
-                <ul>
-                    <li>Approved ESOP Scheme Document and EGM Special Resolution</li>
-                    <li>All Board Resolutions for grant tranches (per quarter or per batch)</li>
-                    <li>Form SH-6 Register of Employee Stock Options</li>
-                    <li>Grant Letters with vesting schedule, exercise price and expiry per employee</li>
-                    <li>IBBI Registered Valuer FMV report (grant-date fair value source)</li>
-                    <li>List of grantees with grant date, options granted, vesting tranches and status (active, exited, exercised)</li>
-                    <li>Historical employee attrition data for forfeiture rate estimation</li>
-                    <li>Last year's audited financials (for opening ESOP Reserve balance)</li>
-                    <li>Any modification or cancellation Board Resolutions during the year</li>
-                </ul>
 
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- SECTION 9: CHALLENGES -->
+
+
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common ESOP Accounting Errors and How We Fix Them</h2>
+            <h2 class="section-title">Common ESOP Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        
-                        <tr><td><strong>Intrinsic Value Method on Face-Value Schemes</strong></td><td>Many Seed-stage startups use the ICAI Guidance Note's Intrinsic Value Method with exercise price equal to face value (Rs 10), producing near-zero compensation expense despite real economic value. Auditor non-disclosure flag triggers Series A diligence reopen.</td><td>Patron computes both Intrinsic Value (for current books) and shadow Fair Value (for diligence) to bridge the gap proactively before the next funding round.</td></tr>
-                        <tr><td><strong>Grant Date Confusion</strong></td><td>Founders treat the EGM resolution date as the grant date for all employees. Ind AS 102 defines grant date as the date both parties agree - for new hires, this is the date the grant letter is accepted, not the EGM date.</td><td>Patron tracks each grantee's individual grant date in the SH-6 register and runs separate fair value computations per grant cohort.</td></tr>
-                        <tr><td><strong>Cash-Settled SAR Treated as Equity-Settled</strong></td><td>Some schemes hide SAR features (cash payment on exercise window) inside the ESOP document. These are cash-settled SBPs requiring liability accounting with remeasurement at each reporting date.</td><td>Patron reviews the scheme document line by line, classifies each award correctly and applies the right measurement model.</td></tr>
-                        <tr><td><strong>Missing Forfeiture True-Up</strong></td><td>Companies estimate forfeiture rate at grant and forget to update. Ind AS 102 paragraph 20 requires updating the estimate at each reporting date and trueing-up cumulative expense at vesting based on actual outcomes.</td><td>Patron's annual run includes the forfeiture true-up working, with revised cumulative expense computation and audit-ready supporting paper.</td></tr>
-                        <tr><td><strong>Modification Not Accounted</strong></td><td>Pool top-ups, exercise window extensions or repricing are treated as administrative tweaks. Ind AS 102 paragraph 27 requires recognising incremental fair value over the remaining vesting period.</td><td>Patron computes incremental fair value at modification date and recognises the additional expense alongside the original grant expense.</td></tr>
-
+                        <tr><td>Employees resign mid-vesting, but the expense is never trued up</td><td>Share-based cost stays booked for options that will never vest, overstating expense and understating profit.</td><td>Patron trues up the forfeiture at each reporting date, reversing cost for unvested options; see <a href="/blog/what-is-ind-as-102">how Ind AS 102 works</a>.</td></tr>
+                        <tr><td>Repriced or modified grants skip the incremental fair-value charge</td><td>A repricing that raises award value goes unrecorded, understating expense until an auditor catches it.</td><td>We apply modification accounting, measuring incremental fair value at the change and spreading it over remaining vesting.</td></tr>
+                        <tr><td>Deferred tax on share-based expense left uncomputed</td><td>The timing difference between book expense and tax deduction is missed, misstating deferred tax assets.</td><td>Patron computes deferred tax on the ESOP charge, tracking the temporary difference to the exercise event.</td></tr>
+                        <tr><td>Cash-settled SARs treated like equity-settled options</td><td>A cash-settled award is a liability that must be remeasured, so profit and liabilities both mislead.</td><td>Our team classifies cash-settled SARs as a liability and remeasures fair value at each reporting date.</td></tr>
+                        <tr><td>Options granted to a subsidiary's employees hit the wrong entity</td><td>Group share-based cost lands in the parent alone, distorting each company's standalone results.</td><td>Patron allocates the group share-based charge and books a recharge, so each entity carries its own cost.</td></tr>
 
                     </tbody>
                 </table>
@@ -1916,65 +718,54 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">ESOP Accounting Fees and Engagement Tiers</h2>
+            <h2 class="section-title">ESOP Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        
-                        <tr><td>Single Scheme - Single Grant - Annual Run</td><td>Black-Scholes, year-wise schedule, journal entries and Schedule III disclosure for one scheme with one grant batch</td><td class="table-amount">Rs 40,000 to Rs 60,000 per year</td></tr>
-                        <tr><td>Single Scheme - Multiple Grant Tranches - Annual Run</td><td>Above plus multiple quarterly grants, forfeiture true-up and modifications if applicable</td><td class="table-amount">Rs 60,000 to Rs 90,000 per year</td></tr>
-                        <tr><td>Multi-Scheme Annual Run (2 to 3 schemes)</td><td>Above plus multi-scheme reconciliation and group consolidation if subsidiary grants exist</td><td class="table-amount">Rs 90,000 to Rs 1,20,000 per year</td></tr>
-                        <tr><td>Modification or Cancellation Accounting</td><td>Incremental fair value working plus journal entries and disclosure refresh for one modification event</td><td class="table-amount">Rs 20,000 to Rs 40,000 per event</td></tr>
-                        <tr><td>Ind AS 101 First-Time Adoption (Transition)</td><td>Migrate from AS framework with ICAI Guidance Note to Ind AS 102; opening balance restatement and prior-year reconciliation</td><td class="table-amount">Rs 1,00,000 to Rs 2,00,000 one-time</td></tr>
-                        <tr><td>Bundled with Audit Engagement</td><td>ESOP accounting embedded within the statutory audit deliverable</td><td class="table-amount">Quoted separately</td></tr>
-                        <tr><td><strong>Patron Accounting Professional Fees</strong></td><td>Standard starting price for single-scheme annual ESOP accounting run under Ind AS 102 or ICAI Guidance Note 2020</td><td class="table-amount"><strong>Starting from INR 40,000 (Excl. GST and Govt. Charges)</strong></td></tr>
-
+                        <tr><td><strong>Scoped engagement</strong> &mdash; a single entity at routine share-based-payment volume</td><td>On quote<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">ESOP accounting under Ind AS 102 is scoped per engagement, since grant structures, vesting terms and valuation inputs differ widely. What sets the fee is the scope of work: number of schemes, tranches and whether fair-value support is needed. Book a scope call on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;"><strong>Disclaimer:</strong> All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;"><strong>Get a free ESOP Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20quote%20for%20ESOP%20Accounting%20under%20Ind%20AS%20102." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free ESOP Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20esop%20accounting%20ind%20as%20102" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Engagement Timeline</h2>
+            <h2 class="section-title">ESOP Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        
-                        <tr><td>Data collection from finance and HR teams</td><td class="table-amount">1 to 2 working days</td></tr>
-                        <tr><td>Black-Scholes input build (volatility, risk-free, expected life)</td><td class="table-amount">1 working day</td></tr>
-                        <tr><td>Fair value computation and grant-wise schedule</td><td class="table-amount">1 to 2 working days</td></tr>
-                        <tr><td>Forfeiture rate estimation and true-up working</td><td class="table-amount">1 working day</td></tr>
-                        <tr><td>Journal entries and audit working paper file</td><td class="table-amount">1 working day</td></tr>
-                        <tr><td>Schedule III note and Directors' Report disclosure draft</td><td class="table-amount">1 working day</td></tr>
-                        <tr><td>Review with management and auditor coordination</td><td class="table-amount">1 to 2 working days</td></tr>
-                        <tr><td><strong>Total Annual Run</strong></td><td class="table-amount"><strong>5 to 10 working days</strong></td></tr>
-
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td><a href="/blog/esop-perquisite-tax-employees">ESOP perquisite</a> TDS deposit on allotment</td><td>7th of the month after allotment</td><td>Employers allotting shares under an approved ESOP</td></tr>
+                        <tr><td>Advance tax first instalment (15%)</td><td>15 June 2026</td><td>Companies, firms and individuals with a tax liability of Rs 10,000 or more</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Financial statements filing (Form AOC-4)</td><td>Within 30 days of the AGM (by 29 October 2026 for a 30 September AGM)</td><td>Companies filing audited financials with the ROC</td></tr>
+                        <tr><td>IND AS 102 / share-based payment disclosure at year-end</td><td>With the annual financial statements</td><td>Companies running equity-settled ESOP schemes</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    Fresh-grant fair value computation (quarterly grant batches) can be turned around in 2 to 3 working days from the date of data submission. Year-end consolidated run typically aligned to the statutory audit timeline (April to June for March year-end companies).
+                    <p>For ESOP accounting the live date is the perquisite TDS on the 7th of the month after allotment. The IND AS 102 charge is then disclosed at year-end and carried into the audit-case ITR on 31 October. Patron handles <a href="/blog/esop-perquisite-tax-employees">ESOP perquisite</a> tax and fair-value entries together. Download the 2026 calendar or talk to a CA on +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1982,84 +773,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Engage Patron for ESOP Accounting</h2>
+            <h2 class="section-title">Why Professional ESOP Accounting Matters</h2>
         </div>
         <div class="features-grid">
-    <article class="feature-card">
-        <h3>Dual Framework Coverage</h3>
-        <p>Ind AS 102 and ICAI Guidance Note 2020 dual coverage - one team handles both frameworks, including transition under Ind AS 101 when the company crosses the net worth threshold.</p>
-    </article>
-    <article class="feature-card">
-        <h3>In-House Black-Scholes</h3>
-        <p>Black-Scholes and Binomial computations done in-house with documented input rationale - no actuarial pass-through delays. Sensitivity analysis on volatility, risk-free rate and expected life included.</p>
-    </article>
-    <article class="feature-card">
-        <h3>Audit-Ready File</h3>
-        <p>Working paper file with full input source documentation - statutory auditor sign-off without rework. Coordinated with IBBI Valuer and SEBI Merchant Banker for input consistency.</p>
-    </article>
-    <article class="feature-card">
-        <h3>Schedule III + Rule 12(9)</h3>
-        <p>Notes to Accounts and Directors' Report disclosure drafted to audit standard. ESOP movement table aligned to the audit committee presentation format.</p>
-    </article>
-    <article class="feature-card">
-        <h3>Annual Retainer Calendar</h3>
-        <p>Engagement aligned to the financial year close calendar - no April scramble. Quarterly fresh-grant computations turned around in 2 to 3 working days.</p>
-    </article>
-    <article class="feature-card">
-        <h3>15+ Years Across MCA, ICAI</h3>
-        <p>Experience spans MCA filings, ICAI audit standards, statutory audit and Ind AS conversion engagements. CA, audit and tax teams under one roof.</p>
-    </article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 7h6v6" /> <path d="m22 7-8.5 8.5-5-5L2 17" /> </svg></div>
+  <h3 class="feature-title">Grant-wise charge tied to the register</h3>
+  <p class="feature-text">Each period's employee benefits expense traces back to individual grants, so the charge is never just a scheme-level total.</p><ul style="margin-top:12px;"><li>Grant date, option count, exercise price and vesting conditions held per grant</li><li>Without it, no one can attribute the charge once the owner leaves</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /> </svg></div>
+  <h3 class="feature-title">Graded vesting charged correctly</h3>
+  <p class="feature-text">Each tranche of a graded-vesting grant is a separate arrangement, so the cost lands front-loaded rather than spread evenly.</p><ul style="margin-top:12px;"><li>Each tranche carries its own vesting period and charge</li><li>Straight-lining understates the early years of the grant</li><li>Without it, correcting later restates comparatives investors have already seen</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div>
+  <h3 class="feature-title">Modifications with a documented treatment</h3>
+  <p class="feature-text">Each repricing, extension, acceleration, cancellation and lapse carries its own working, with incremental fair value spread over remaining vesting.</p><ul style="margin-top:12px;"><li>Incremental fair value spread over the remaining vesting period</li><li>Without it, a board decision lands as an unexplained movement in other equity</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Deferred tax computed alongside</h3>
+  <p class="feature-text">You get deferred tax on options measured at each reporting date, because the book charge and tax deduction land in different years.</p><ul style="margin-top:12px;"><li>Excess relief taken to equity, not to profit</li><li>Without it, a late audit adjustment changes reported profit after circulation</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /> </svg></div>
+  <h3 class="feature-title">Payroll given exercise-date data</h3>
+  <p class="feature-text">Payroll receives the exercise-date figures it needs to value the perquisite, taken from the same register that drives the charge.</p><ul style="margin-top:12px;"><li>Perquisite valued and withheld from the same grant register</li><li>Without it, employees meet an unexpected perquisite withholding on their salary slip</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Roll-forward note ready for audit</h3>
+  <p class="feature-text">You can show which assumptions produced last year's share-based payment note, because we wrote the papers while the decision was fresh.</p><ul style="margin-top:12px;"><li>Assumptions behind the share-based payment note documented when made</li><li>Without it, last year's assumptions are recalled from memory a year later</li></ul>
+</article>
 </div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trusted by Indian Businesses for Statutory Accounting</h2>
-            <div class="content-text">
-                
-                <p><strong>10,000+ Businesses Served | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years in Practice</strong></p>
-                <p>Our Series B investor's diligence team flagged missing share-based payment expense in our books. Patron rebuilt 2 years of ESOP accounting under the ICAI Guidance Note with shadow Fair Value workings, journal entries and a clean Schedule III note. The audit sign-off followed in three weeks. - CFO, B2B SaaS startup (Bengaluru).</p>
-                <p>As we crossed the Rs 250 crore net worth threshold and moved from AS framework to Ind AS, Patron ran the Ind AS 101 first-time adoption ESOP transition - opening ESOP Reserve restated, prior years reconciled. Zero adjustments at the audit committee. - Group Controller, growth-stage logistics (Mumbai).</p>
-                <p><strong>With offices in Pune, Mumbai, Delhi and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</strong></p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for ESOP Accounting (Ind AS 102)</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Grant-wise fair value and graded vesting, computed and documented</strong><p>ESOP accounting turns on the fair value of each grant. We compute grant-wise fair value and map graded vesting schedules, documenting the workings, and we set out <a href="/blog/fair-value-vs-intrinsic-value-esop">fair value versus intrinsic value</a> so the basis is defensible.</p></div>
+                <div><strong>Ind AS 102 expense recognition and <a href="/blog/esop-perquisite-tax-employees">perquisite TDS on exercise</a></strong><p>We handle Ind AS 102 expense recognition across the vesting period and the perquisite TDS due when employees exercise. With 25,000+ filings completed, this measurement and the payroll data behind it are routine for our team.</p></div>
+                <div><strong>Option register reconciled to the share register and cap table</strong><p>We reconcile your option register to the share register and cap table, then post the charge in whichever ledger you keep, Zoho Books, Xero, Tally Prime or Odoo. Modifications and cancellations are tracked with a documented treatment.</p></div>
+                <div><strong>Vesting-period charge computed each quarter, audit-ready</strong><p>Each quarter we compute the vesting-period charge and hand you an audit-ready roll-forward note. Our blog shows <a href="/blog/esop-expense-vesting-period-accounting">how ESOP expense is spread over vesting</a>, and the 4.9 star Google rating reflects clients whose auditors accepted the workings.</p></div>
+                <div><strong>ESOP pools among 3,000+ businesses served</strong><p>ESOP pools, from seed-stage startups to pre-IPO companies, sit among the 3,000+ businesses we have served since 2019. Behind the measurement stand 15+ years, our in-house team of CAs and CS, and a 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Equity-Settled vs Cash-Settled Share-Based Payment</h2>
+            <h2 class="section-title">Intrinsic Value Method vs Fair Value Method</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead>
-                        <tr>
-                            <th>Parameter</th>
-                            <th>Equity-Settled (ESOP / RSU)</th>
-                            <th>Cash-Settled (SAR / Phantom)</th>
-                        </tr>
-</thead>
+                    <thead><tr><th>Criterion</th><th>Intrinsic Value Method</th><th>Fair Value Method</th></tr></thead>
                     <tbody>
-                        
-                        <tr><td><strong>Settlement</strong></td><td>Company's own equity shares delivered on exercise</td><td>Cash equal to the appreciation in share value</td></tr>
-                        <tr><td><strong>Measurement Date</strong></td><td>Grant date fair value, NOT remeasured</td><td>Remeasured at fair value every reporting date until settled</td></tr>
-                        <tr><td><strong>Credit Account</strong></td><td>ESOP Reserve under Equity</td><td>SAR Liability under Other Liabilities</td></tr>
-                        <tr><td><strong>P and L Impact</strong></td><td>Compensation expense over vesting period, fixed at grant</td><td>Compensation expense plus remeasurement gains and losses</td></tr>
-                        <tr><td><strong>Cumulative Expense</strong></td><td>Equal to grant-date fair value times options vested</td><td>Equal to actual cash paid on settlement</td></tr>
-                        <tr><td><strong>Schedule III Presentation</strong></td><td>Reserves and Surplus - ESOP Reserve</td><td>Current or Non-Current Liabilities - SAR Liability</td></tr>
-                        <tr><td><strong>Ind AS 102 Paragraphs</strong></td><td>Paragraphs 10 to 29</td><td>Paragraphs 30 to 33D</td></tr>
-
+                        <tr><td>What the method is</td><td>Charge based on market price less exercise price at grant</td><td>Charge based on option fair value using a valuation model</td></tr>
+                        <tr><td>Permitted under Ind AS 102</td><td>Not permitted for expense recognition, save rare unmeasurable cases</td><td>The mandatory method for share-based payment expense</td></tr>
+                        <tr><td>Expense recognition</td><td>Understates or omits time value, often a lower charge</td><td>Captures time value, spread over the vesting period</td></tr>
+                        <tr><td>Compliance and tax impact</td><td>Risks non-compliant financials and audit qualification for Ind AS filers</td><td>Aligns book charge with the standard, cleaner audit position</td></tr>
+                        <tr><td>MIS and financial clarity</td><td>May flatter early profits, understates true employee cost</td><td>Reflects the genuine cost of options in the accounts</td></tr>
+                        <tr><td>Valuation effort</td><td>Simple to compute, no option pricing model needed</td><td>Needs an option pricing model such as Black Scholes</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Under Ind AS 102 the fair value method is mandatory for ESOP expense recognition. Intrinsic value is not permitted except where fair value cannot be measured reliably. Follow the standard, not preference. Read fair value versus intrinsic value.</td></tr>
 
                     </tbody>
                 </table>
@@ -2069,221 +864,186 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Patron Services</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for ESOP Accounting</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li><strong><a href="/esop-management-and-compliance-services/">ESOP Management and Compliance</a></strong> - ongoing vesting, exercise tracking, SH-6 register maintenance and annual ESOP disclosures.</li>
-                    <li><strong><a href="/actuarial-valuation-services-for-employee-benefits/">Actuarial Valuation for Employee Benefits</a></strong> - Ind AS 19 gratuity and leave encashment actuarial (complementary to Ind AS 102 work).</li>
-                    <li><strong><a href="/private-limited-company-compliance/">Private Limited Company Compliance</a></strong> - Directors' Report Rule 12(9) disclosure and MGT-14 coordination for ESOP scheme adoption.</li>
-                    <li><strong><a href="/issue-of-shares/">Issue of Shares</a></strong> - share allotment accounting and PAS-3 filing at ESOP exercise.</li>
-                    <li><strong><a href="/transfer-of-shares/">Transfer of Shares</a></strong> - secondary transfer accounting after ESOP exercise and exit events.</li>
-                    <li><strong><a href="/statutory-audit/">Statutory Audit</a></strong> - audit engagement where ESOP accounting is delivered as an embedded module.</li>
-                    <li><strong><a href="/internal-audit/">Internal Audit</a></strong> - internal control review covering ESOP scheme administration and SH-6 register accuracy.</li>
-                </ul>
+                <p>ESOP numbers are kept to Ind AS 102, and that standard is made binding through the Companies Act's requirement that the financial statements be true and fair. The standard treats an option granted to an employee as a cost of their service, so a scheme that pays nothing in cash still leaves a charge in the profit and loss.</p>
+<p>The framework then splits into two clocks that rarely align: the accounting charge spread over the vesting period and the tax event that lands only on exercise. That is why <a href="/glossary/vesting-period-graded-amortization">Vesting Period Graded Amortization</a> governs the books while a separate perquisite arises for the employee, and why the choice against an <a href="/glossary/esop-intrinsic-value-method">ESOP Intrinsic Value Method</a> matters for what gets disclosed. ESOP accounting keeps both clocks and the disclosures aligned against the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Ind AS 102, Share-based Payment</strong></span><span class="al-d">The fair value of options at grant is charged to profit and loss over the vesting period, with graded vesting recognised tranche by tranche - the heart of <a href="/glossary/ind-as-102-share-based-payment">Ind AS 102 Share-based Payment</a>. Companies on AS instead follow ICAI's Guidance Note on Accounting for Share-based Payments (revised 2020).</span></li><li><span class="al-t"><strong>Section 17(2)(vi) with Rule 3(8), Income-tax Act 1961</strong></span><span class="al-d">The gap between fair market value on exercise and the exercise price is a perquisite in the employee's hands, with TDS deducted under Section 192.</span></li><li><span class="al-t"><strong>Section 192(1C)/191(2), Income-tax Act 1961</strong></span><span class="al-d">An eligible startup may defer the perquisite TDS to the earliest of five years, sale, or exit, easing the employee's cash position.</span></li><li><span class="al-t"><strong>Schedule III with the Guidance Note on Share-based Payments</strong></span><span class="al-d">The outstanding options, weighted exercise price and the year's charge are disclosed in the notes to accounts.</span></li><li><span class="al-t"><strong>Companies (Accounting Standards) Rules 2021 and Companies (Indian Accounting Standards) Rules 2015</strong></span><span class="al-d">The standard that applies follows the company's framework, with Ind AS 102 binding once the company is on Ind AS.</span></li><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">The books carrying the charge stay on accrual and double entry, retained for eight years. A neglected scheme is first rebuilt through <a href="/backlog-bookkeeping-catch-up-services">catch-up bookkeeping</a>.</span></li></ul>
+<p class="compliance-note"><strong>Practical note:</strong> the perquisite TDS on exercise is the step most often missed, because the accounting charge under Ind AS 102 and the tax event fall in different periods.</p><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Accounting Framework</h2>
-            <div class="content-text">
-                
-                <ul>
-                    <li><strong>Indian Accounting Standard (Ind AS) 102 - Share-based Payment</strong> - notified under Section 133 of the Companies Act 2013 read with Rule 4 of the Companies (Indian Accounting Standards) Rules 2015. <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs (MCA21)</a>.</li>
-                    <li><strong>Ind AS 102 paragraphs 7 to 9</strong> - recognition principle. Goods or services received are recognised when received with a corresponding equity or liability entry.</li>
-                    <li><strong>Ind AS 102 paragraphs 10 to 29</strong> - equity-settled SBP. Fair value at grant date NOT remeasured; recognised over vesting period.</li>
-                    <li><strong>Ind AS 102 paragraphs 19 to 21</strong> - vesting and non-vesting conditions. Service and non-market performance conditions trued up to actual outcomes; market conditions baked into grant-date fair value.</li>
-                    <li><strong>Ind AS 102 paragraphs 26 to 29</strong> - modifications, cancellations and settlements. Incremental fair value over remaining vesting period; cancellation accelerates remaining expense.</li>
-                    <li><strong>Ind AS 102 paragraphs 30 to 33D</strong> - cash-settled SBP. Liability remeasured at fair value each reporting date until settled; changes through P and L.</li>
-                    <li><strong>Ind AS 102 paragraphs 44 to 52</strong> - disclosure requirements. Description of arrangements, weighted average exercise price, total expense and year-end movement table.</li>
-                    <li><strong>Companies (Indian Accounting Standards) Rules 2015</strong> - mandatory Ind AS for listed companies, unlisted companies with net worth equal to or greater than Rs 250 crore, and group entities of the above.</li>
-                    <li><strong>Companies (Accounting Standards) Rules 2006 (as amended 2021)</strong> - AS framework for non-Ind AS companies.</li>
-                    <li><strong>ICAI Guidance Note on Accounting for Share-based Payments (September 2020)</strong> - for AS framework companies. Permits Fair Value Method or Intrinsic Value Method. <a href="https://www.icai.org" target="_blank" rel="noopener">Institute of Chartered Accountants of India (ICAI)</a>.</li>
-                    <li><strong>Schedule III, Companies Act 2013</strong> - presentation of ESOP Reserve under Reserves and Surplus on the balance sheet and Notes to Accounts disclosure.</li>
-                    <li><strong>Rule 12(9), Companies (Share Capital and Debentures) Rules 2014</strong> - ESOP disclosure in Directors' Report (options granted, vested, exercised, lapsed, employees benefited).</li>
-                    <li><strong>Section 134(3)(c), Companies Act 2013</strong> - statutory requirement for the Directors' Report to include the prescribed disclosures.</li>
-                    <li><strong>IFRS 2 - Share-based Payment</strong> - international standard issued by the <a href="https://www.ifrs.org" target="_blank" rel="noopener">IFRS Foundation</a>. Ind AS 102 is materially converged with this.</li>
-                </ul>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    <p class="faq-expanded__lead">Quick answers on Ind AS 102 applicability, measurement, journal entries, forfeiture and modification accounting.</p>
-                    @include('partials.faq-enquiry-form')
+                    <h2 class="faq-expanded__title">ESOP Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on esop accounting scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>ESOP Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is Ind AS 102?</h3>
-                        <div class="faq-expanded__a"><p>Ind AS 102 is the Indian Accounting Standard on Share-based Payment, notified under Section 133 of the Companies Act 2013 read with the Companies (Indian Accounting Standards) Rules 2015. It mandates recognition of compensation expense for ESOPs, SARs and other share-based payment arrangements over the vesting period, measured at the grant-date fair value for equity-settled awards and at remeasured fair value for cash-settled awards. The standard is materially converged with IFRS 2.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">Is Ind AS 102 applicable to private limited companies?</h3>
-                        <div class="faq-expanded__a"><p>Ind AS 102 is mandatory for unlisted private limited companies with a net worth of Rs 250 crore or more, and for any private limited company that is a holding, subsidiary, joint venture or associate of such a company or a listed entity. Smaller private limited companies follow the AS framework under Companies (Accounting Standards) Rules 2006 read with the ICAI Guidance Note on Accounting for Share-based Payments 2020, which permits either the Fair Value Method or the Intrinsic Value Method.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is the difference between equity-settled and cash-settled share-based payment?</h3>
-                        <div class="faq-expanded__a"><p>Equity-settled SBP delivers the company's own equity instruments (ESOPs, RSUs) to the employee on vesting and exercise. The expense is the grant-date fair value, NOT remeasured later, with a credit to ESOP Reserve in equity. Cash-settled SBP (Stock Appreciation Rights, Phantom Stock) pays cash equal to the appreciation in share value. The liability is remeasured at fair value each reporting date until settled, with changes through P and L. The cumulative expense for cash-settled equals the actual cash paid.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How is the ESOP expense recognised in books?</h3>
-                        <div class="faq-expanded__a"><p>For equity-settled awards: compute grant-date fair value per option using Black-Scholes, multiply by options expected to vest (after forfeiture estimate), divide by vesting period and recognise straight-line for cliff vesting or per-tranche for graded vesting under Ind AS 102 paragraph 20. Journal entry: Dr ESOP Compensation Expense (P and L) and Cr ESOP Reserve (Equity). True up at each reporting date for service and non-market performance conditions.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">How is forfeiture rate estimated under Ind AS 102?</h3>
-                        <div class="faq-expanded__a"><p>Forfeiture rate is estimated at the grant date based on historical employee attrition data, weighted for the seniority and tenure profile of grantees. The estimate is updated at each reporting date as actual forfeitures crystallise. At vesting date, cumulative expense is trued up to reflect the actual number of options that vested. Service conditions and non-market performance conditions are subject to true-up; market conditions (share price targets) are baked into the grant-date fair value and not adjusted later.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Can a non-Ind AS company use the intrinsic value method for ESOP?</h3>
-                        <div class="faq-expanded__a"><p>Yes. The ICAI Guidance Note on Accounting for Share-based Payments (September 2020), applicable to non-Ind AS companies under the AS framework, permits both the Fair Value Method and the Intrinsic Value Method. Under Intrinsic Value, the expense equals FMV at grant minus exercise price multiplied by options expected to vest, recognised over the vesting period. For schemes with exercise price equal to face value, this often produces near-zero expense - a known Series A diligence flag. Most growth-stage companies voluntarily adopt the Fair Value Method.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">What is modification accounting under Ind AS 102?</h3>
-                        <div class="faq-expanded__a"><p>If the company modifies an ESOP grant (extends exercise window, lowers exercise price, accelerates vesting, expands pool to existing grants), Ind AS 102 paragraph 27 requires the company to compute the incremental fair value (modified fair value minus original fair value at modification date) and recognise this incremental expense over the remaining vesting period. The original grant-date fair value continues to be recognised over its original vesting period.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">ESOP accounting kaise karte hain? (How is ESOP accounting done?)</h3>
-                        <div class="faq-expanded__a"><p>ESOP accounting Ind AS 102 ke under hoti hai. Grant date pe Black-Scholes se fair value nikalte hain, vesting period (typically 4 years) mein expense recognise karte hain - Dr ESOP Expense aur Cr ESOP Reserve. Cash-settled SAR ke liye liability ko har reporting date pe remeasure karna padta hai. Non-Ind AS companies ICAI Guidance Note 2020 follow karti hain. Patron 5 to 10 din mein full schedule aur journal entries deta hai. Call +91 945 945 6700.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is ESOP cost calculated and recognised under Ind AS 102?</h3>
+  <div class="faq-expanded__a"><p>Under Ind AS 102 the ESOP cost equals the grant date fair value of the options multiplied by the number of options expected to vest, charged to the profit and loss across the vesting period with a matching credit to a share based payment reserve within equity. For equity settled awards the grant date fair value is never remeasured in later periods.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is a vesting condition as per Ind AS 102?</h3>
+  <div class="faq-expanded__a"><p>A vesting condition under Ind AS 102 is a condition an employee must satisfy to become entitled to the option, and it is either a service condition or a performance condition. Service conditions and non market performance conditions are reflected by revising the number of options expected to vest at each reporting date. Market conditions are built into the grant date fair value and are never trued up.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is a valuer needed for ESOP fair value, and which model is used?</h3>
+  <div class="faq-expanded__a"><p>Fair value is normally determined by a registered valuer or merchant banker using an option pricing model, most often Black Scholes for plain vanilla options and a binomial or lattice model where performance conditions or early exercise behaviour exist. The inputs are exercise price, share fair value, expected volatility, risk free rate, expected life and expected dividend yield, and each must be documented.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does ESOP mean?</h3>
+  <div class="faq-expanded__a"><p>ESOP stands for Employee Stock Option Plan, a scheme under which a company grants employees the right to buy its shares at a fixed exercise price once a vesting period is completed. In India the issue is governed by Section 62(1)(b) of the Companies Act 2013 read with Rule 12 of the Companies (Share Capital and Debentures) Rules 2014, and the accounting charge follows Ind AS 102.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What entries are passed when options are granted, vested, exercised and lapsed?</h3>
+  <div class="faq-expanded__a"><p>No entry is passed at grant. During vesting, employee benefits expense is debited and the share based payment reserve is credited each period. On exercise, bank and the reserve are debited while share capital and securities premium are credited. Where vested options lapse unexercised, the reserve is transferred to general reserve or retained earnings rather than reversed through profit.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can ESOPs be given to advisors?</h3>
+  <div class="faq-expanded__a"><p>No, an outside advisor or consultant cannot be granted ESOPs, because the Companies Act permits options only to permanent employees and directors of the company and of its holding, subsidiary or associate companies. Advisors are usually compensated instead through sweat equity shares, warrants or a cash settled plan. Where an advisor is formally appointed a director, options become possible and the charge still follows Ind AS 102.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What happens in the books when an employee leaves before vesting?</h3>
+  <div class="faq-expanded__a"><p>Options that lapse before vesting because the employee resigns are reversed, so cumulative expense already charged is written back in the year the forfeiture occurs and only vested options continue to carry cost. Options lapsing after vesting are not reversed through the profit and loss. Because the vesting estimate is revised at every reporting date, the attrition assumption is a live number.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What ESOP disclosures are required in financial statements?</h3>
+  <div class="faq-expanded__a"><p>Financial statements must disclose the nature and terms of each scheme, options outstanding, granted, exercised, forfeited and expired during the year, weighted average exercise price and remaining contractual life, the valuation model with its inputs, and the total expense recognised. Scheme details are also reported to shareholders and the relevant MCA forms are filed when shares are issued on exercise.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does the ESOP expense reduce taxable income?</h3>
+  <div class="faq-expanded__a"><p>The Ind AS 102 charge is a book expense, while the deduction under the Income Tax Act is generally the discount actually borne by the company and is claimed in the year of exercise rather than across the vesting period. That mismatch creates a timing difference and a deferred tax asset. Because case law has shifted on this point, the position is confirmed before filing.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does an ESOP accounting engagement involve and how long does it take?</h3>
+  <div class="faq-expanded__a"><p>A first time Ind AS 102 setup takes 2 to 3 weeks and covers scheme document review, grant register build, valuation coordination, the vesting period expense schedule, deferred tax working and draft disclosures for the financial statements. Quarterly upkeep afterwards is lighter. Effort depends on the number of grant tranches and whether subsidiary or overseas employees are covered.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <ul>
-                    <li><strong>What journal entry is passed at grant?</strong> No entry at grant. Expense is recognised over the vesting period starting from the grant date.</li>
-                    <li><strong>Is grant-date fair value remeasured later for equity-settled awards?</strong> No. Equity-settled grant-date fair value is fixed. Cash-settled liability is remeasured each reporting date.</li>
-                    <li><strong>What happens to the ESOP Reserve at exercise?</strong> On exercise, the ESOP Reserve balance transfers to Share Capital and Securities Premium against the new share allotment.</li>
-                    <li><strong>What if options lapse unexercised after vesting?</strong> The ESOP Reserve is transferred to General Reserve at expiry. No P and L impact post the vesting date.</li>
-                    <li><strong>Is Black-Scholes mandatory?</strong> Ind AS 102 paragraph B4 requires a recognised option pricing model. Black-Scholes is most common; Binomial is used for complex features; Monte Carlo for market conditions.</li>
-                    <li><strong>When is ESOP expense reversed?</strong> Forfeiture before vesting for service conditions and non-market performance conditions - true-up reversal of cumulative expense at the reporting date or vesting date.</li>
-                </ul>
+                <p>The ESOP register usually sits in a spreadsheet while the books sit in the accounting software, and the two drift apart the moment someone resigns mid-vesting. Patron works from the grant register itself, rebuilds it where it has gaps, and posts the charge and the corresponding reserve into your ledger each period.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Series A or Audit Coming Up - Get Your ESOP Accounting in Order</h2>
+            <h2 class="section-title">ESOP Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                Missing share-based payment expense in the books is the most common Series A diligence reopen. Wrong classification of SARs as equity-settled is the most common audit qualification. Get a free scoping call with the Patron Ind AS 102 team - we will tell you in 20 minutes what your ESOP accounting actually needs. <strong>Call +91 945 945 6700</strong> or <strong>WhatsApp us</strong> for a free scoping conversation.
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>ESOP perquisite TDS deposit on allotment</strong> is due 7th of the month after allotment. <strong>Advance tax first instalment (15%)</strong> is due 15 June 2026. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Your ESOP Accounting Done Right - Talk to Patron</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your ESOP Accounting with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.92);">ESOP accounting under Ind AS 102 (or the ICAI Guidance Note 2020 for non-Ind AS companies) is the layer where stock option grants become P and L compensation expense over the vesting period. The mechanics are technical - Black-Scholes inputs, vesting tranches, forfeiture true-ups and modification accounting - but the audit and diligence consequences of getting it wrong are significant.</p>
-                <p style="color:rgba(255,255,255,0.92);">Patron Accounting LLP handles ESOP accounting as a focused deliverable or as an embedded module within the statutory audit engagement, with CA, audit and tax teams under one roof. The firm has been advising Indian businesses since 2009 across Pune, Mumbai, Delhi and Gurugram.</p>
-                <p style="color:rgba(255,255,255,0.92);"><strong>Call +91 945 945 6700 or WhatsApp us</strong> for a free scoping call. Response within 2 hours during business hours.</p>
+                <p style="color:rgba(255,255,255,0.88);">Boards approve fresh grants while earlier tranches remain uncosted, and the finance team then rebuilds a full year of vesting in the fortnight before the audit. That work is done twice: once badly under pressure, once properly when Ind AS 102 workings are questioned. The cost is senior time, taken at the worst moment.</p>
+<p style="color:rgba(255,255,255,0.88);">Diligence on a funding round reaches the cap table quickly, and the question that follows is whether the reported employee benefit charge reconciles to the grant register. With the ESOP accounting already assembled tranche by tranche and the assumptions written down, that thread closes in one exchange rather than a reconstruction exercise.</p>
+<p style="color:rgba(255,255,255,0.88);">Your scheme document is where this starts, together with the grant letters actually issued under it. Dates, exercise price, vesting conditions, and any grants made in a predecessor entity. Those facts set the charge, and older periods may need <a href="/backlog-bookkeeping-catch-up-services">books brought up to date</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20quote%20for%20ESOP%20Accounting%20under%20Ind%20AS%20102." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20esop%20accounting%20ind%20as%20102" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20ESOP%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20ESOP%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Pan-India Coverage for ESOP Accounting</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">ESOP accounting under Ind AS 102 is delivered remotely from our Pune, Mumbai, Delhi and Gurugram offices to companies across India. The engagement is location-agnostic - statutory deliverables are framework-driven, not jurisdiction-driven.</p>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">ESOP Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for esop accounting in these cities.</p>
             
-            
-            <div class="pa-cross-block">
-                <h3 class="pa-cross-title">Related National Services</h3>
-                <div class="pa-cross-grid">
-                    <a href="/esop-management-and-compliance-services/" class="pa-cross-card">
-                        <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div class="pa-cross-text"><strong>ESOP Management and Compliance</strong><span>Vesting, exercise tracking, SH-6 register</span></div>
-                    </a>
-                    <a href="/actuarial-valuation-services-for-employee-benefits/" class="pa-cross-card">
-                        <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div class="pa-cross-text"><strong>Actuarial Valuation - Employee Benefits</strong><span>Ind AS 19 gratuity, leave actuarial</span></div>
-                    </a>
-                    <a href="/statutory-audit/" class="pa-cross-card">
-                        <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div class="pa-cross-text"><strong>Statutory Audit</strong><span>Bundled audit engagement option</span></div>
-                    </a>
-                    <a href="/private-limited-company-compliance/" class="pa-cross-card">
-                        <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div class="pa-cross-text"><strong>Private Limited Company Compliance</strong><span>Directors' Report Rule 12(9)</span></div>
-                    </a>
-                    <a href="/issue-of-shares/" class="pa-cross-card">
-                        <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div class="pa-cross-text"><strong>Issue of Shares</strong><span>Share allotment, PAS-3 at exercise</span></div>
-                    </a>
-                    <a href="/internal-audit/" class="pa-cross-card">
-                        <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div class="pa-cross-text"><strong>Internal Audit</strong><span>ESOP scheme administration review</span></div>
-                    </a>
-                </div>
-            </div>
-
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 11 May 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> 11 May 2026 &nbsp;|&nbsp; <strong>Next Review:</strong> 11 August 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team &middot; Patron Accounting LLP</p>
-            <p>Tier 2 quarterly review. Triggers for review: Ind AS 102 amendments by ICAI or NACAS, ICAI Guidance Note revisions, Companies (Indian Accounting Standards) Rules updates and IFRS 2 amendments adopted into Ind AS. Sources: MCA21 notifications, ICAI announcements and IFRS Foundation updates.</p>
+
+
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</section>
+</div>
 
-<!-- STICKY WHATSAPP BAR -->
-@include('layouts.itr-season-strip')
-
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
-<!-- Google Maps Places Library (for GMB reviews) -->
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
+
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION  -  Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2354,8 +1114,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2365,8 +1125,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2447,7 +1207,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2457,34 +1217,33 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-       function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
 
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
         $(slider).slick({
@@ -2494,12 +1253,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2515,7 +1275,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set  -  using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2530,7 +1290,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API  -  using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2561,7 +1321,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews  -  using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2575,7 +1335,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered  -  init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2585,6 +1347,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2607,9 +1370,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM  -  Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2749,7 +1510,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2798,8 +1559,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        var phoneVal = phoneInput.value.trim();
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2877,12 +1637,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2890,55 +1646,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2976,11 +1701,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-
-
-
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

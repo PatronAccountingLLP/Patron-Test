@@ -1,1121 +1,293 @@
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Accounts Payable Outsourcing 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts payable outsourcing services in India for invoice processing, 3-way matching, and vendor payments. Starting at INR 7,499/mo. MSME 45-day compliant.">
-    <link rel="canonical" href="/accounts-payable-outsourcing-services">
+    <title>Accounts Payable Outsourcing Services for Indian SMEs | Patron Accounting</title>
+    <meta name="description" content="Three-way match on every invoice - PO, GRN and bill before payment. Stop month-end running into the middle of the next one. Download the checklist.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounts-payable-outsourcing-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounts Payable Outsourcing 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts payable outsourcing services in India for invoice processing, 3-way matching, and vendor payments. Starting at INR 7,499/mo. MSME 45-day compliant.">
-    <meta property="og:url" content="/accounts-payable-outsourcing-services">
+    <meta property="og:title" content="Accounts Payable Outsourcing Services for Indian SMEs | Patron Accounting">
+    <meta property="og:description" content="Three-way match on every invoice - PO, GRN and bill before payment. Stop month-end running into the middle of the next one. Download the checklist.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounts-payable-outsourcing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounts-payable-outsourcing-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounts-payable-outsourcing-services-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounts Payable Outsourcing 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts payable outsourcing services in India for invoice processing, 3-way matching, and vendor payments. Starting at INR 7,499/mo. MSME 45-day compliant.">
-    <meta name="twitter:image" content="/images/accounts-payable-outsourcing-services-og.webp">
+    <meta name="twitter:title" content="Accounts Payable Outsourcing Services for Indian SMEs | Patron Accounting">
+    <meta name="twitter:description" content="Three-way match on every invoice - PO, GRN and bill before payment. Stop month-end running into the middle of the next one. Download the checklist.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounts-payable-outsourcing-services-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "/accounts-payable-outsourcing-services/#service",
-        "name": "Accounts Payable Outsourcing Services in India",
-        "description": "Accounts payable outsourcing services in India managing vendor invoice capture and validation, three-way matching, recording, TDS deduction, MSME 45-day payment scheduling under Section 43B(h), vendor reconciliation, and GSTR-2B input tax credit matching, from INR 7,499 per month.",
-        "provider": { "@id": "/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/accounts-payable-outsourcing-services" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Accounts payable", "sameAs": "https://en.wikipedia.org/wiki/Accounts_payable" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "AP Outsourcing Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Monthly accounts payable outsourcing" }, "priceCurrency": "INR", "price": "7499" }
-            ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/#service",
+  "name": "Accounts Payable Outsourcing Services",
+  "description": "Accounts payable outsourcing puts a three-way match on every invoice, checking purchase order, goods receipt and bill before any payment leaves. Section 43B(h) dues to MSME vendors are tracked against the 45-day limit so the deduction is not lost.",
+  "image": "https://www.patronaccounting.com/images/accounts-payable-outsourcing-services-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Accounts Payable Outsourcing Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounts Payable Outsourcing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounts Payable Outsourcing Services",
+          "description": "Accounts payable outsourcing puts a three-way match on every invoice, checking purchase order, goods receipt and bill before any payment leaves. Section 43B(h) dues to MSME vendors are tracked against the 45-day limit so the deduction is not lost.",
+          "serviceType": "Accounts Payable Outsourcing Service"
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "/accounts-payable-outsourcing-services/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting & Bookkeeping Services", "item": "/accounting-bookkeeping-services" },
-            { "@type": "ListItem", "position": 3, "name": "AP Outsourcing", "item": "/accounts-payable-outsourcing-services" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "/accounts-payable-outsourcing-services/#faq",
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "How much does accounts payable outsourcing cost in India?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting accounts payable outsourcing starts from INR 7,499 per month (Exl GST and Govt. Charges) for roughly 50 to 150 invoices. Across the India market, per-invoice pricing typically runs from Rs 20 to Rs 150 depending on complexity, while monthly engagements vary with volume. You receive a fixed quote after a free assessment of your invoice flow." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is accounts payable outsourcing?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Accounts payable outsourcing means delegating your vendor invoice and payment cycle to an external provider. It covers invoice capture, three-way matching, recording, TDS deduction, payment scheduling, and vendor reconciliation. The goal is accurate, on-time payments with strong controls and full compliance, without expanding your in-house team." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is three-way matching in accounts payable?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Three-way matching compares the purchase order, the goods receipt note, and the vendor invoice before a payment is approved. All three must agree on items, quantities, rates, and amounts. This control prevents overpayment, duplicate payments, and fraud, and it is a core step in every invoice we process." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is it safe to outsource accounts payable?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, when the provider uses secure access, defined approval controls, and three-way matching. Payment authority can remain with you while the provider handles processing and scheduling. We work through secure software access and documented workflows so visibility and control stay with your business." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the MSME 45-day payment rule?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 43B(h) of the Income Tax Act, effective 1 April 2024, a buyer can claim a deduction for amounts payable to micro and small enterprises only if paid within the statutory timeline. That timeline is 15 days where there is no written agreement, capped at 45 days where one exists, under Section 15 of the MSMED Act 2006." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if I do not deduct TDS on vendor payments?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Failure to deduct or deposit applicable TDS can lead to 30 percent disallowance of the related expense and interest exposure. Our AP process deducts the correct TDS before payment and supports timely deposit, so the expense remains fully deductible." }
-            },
-            {
-                "@type": "Question",
-                "name": "How does accounts payable affect GST input credit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "You can claim input tax credit only on vendor bills that appear in your GSTR-2B, which depends on the vendor filing GSTR-1. Unrecorded or unmatched bills mean lost credit. We reconcile every bill against GSTR-2B and follow up on missing vendor filings." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can you work with our existing accounting software?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We operate in Tally, Zoho Books, QuickBooks, and Xero, and integrate with your current vendor master and approval matrix. Onboarding usually takes one to two weeks, including a short parallel run before we go live." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "/accounts-payable-outsourcing-services",
-        "name": "Accounts Payable Outsourcing Services in India",
-        "description": "Accounts payable outsourcing services in India for invoice processing, 3-way matching, and vendor payments. Starting at INR 7,499/mo. MSME 45-day compliant.",
-        "url": "/accounts-payable-outsourcing-services",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "/" },
-        "about": { "@id": "/accounts-payable-outsourcing-services/#service" },
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
-        "author": { "@id": "/#team" },
-        "breadcrumb": { "@id": "/accounts-payable-outsourcing-services/#breadcrumb" }
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Accounts Payable Outsourcing",
+      "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services"
     }
-    </script>
-    <script type="application/ld+json">
+  ],
+  "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How Patron Accounting Runs Your Accounts Payable",
-        "description": "The six-step process Patron Accounting follows for accounts payable outsourcing, from receiving the vendor invoice to reconciling against GSTR-2B.",
-        "totalTime": "P14D",
-        "step": [
-            { "@type": "HowToStep", "name": "Receive the vendor invoice", "text": "We verify GSTIN, HSN or SAC, tax rate, and your company details; reject non-compliant invoices." },
-            { "@type": "HowToStep", "name": "Three-way match", "text": "We match purchase order, goods receipt note, and invoice on items, quantity, and amount." },
-            { "@type": "HowToStep", "name": "Record the bill", "text": "We post the vendor bill in Tally, Zoho Books, QuickBooks, or Xero and tag MSME vendors." },
-            { "@type": "HowToStep", "name": "Deduct TDS", "text": "We apply the correct TDS section and rate before scheduling payment." },
-            { "@type": "HowToStep", "name": "Schedule and pay", "text": "We pay MSME vendors within 45 days and use full negotiated terms for others." },
-            { "@type": "HowToStep", "name": "Reconcile", "text": "We reconcile vendor ledgers and match purchases to GSTR-2B for accurate ITC." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "How do you evaluate an accounts payable outsourcing provider?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Judge a provider on four things: invoice turnaround time, three-way match accuracy, whether GST input credit matching is included, and how vendor queries get escalated. Ask for a sample month of exception reports rather than a brochure. A provider who cannot tell you their error rate per thousand invoices is simply not measuring it."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "What is AP outsourcing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accounts payable outsourcing is handing the invoice to payment cycle to an external team that receives vendor bills, checks them against the purchase order and goods receipt note, codes them to the correct ledger, matches input credit against GSTR-2B, applies TDS and prepares the payment file for your approval. Expenditure approval and the bank release stay with you. Pricing is per invoice or a fixed monthly retainer."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "AP Outsourcing Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Three-way matching", "description": "Matching the purchase order, goods receipt note, and vendor invoice before payment." },
-            { "@type": "DefinedTerm", "name": "DPO", "description": "Days payable outstanding - the average time you take to pay vendors." },
-            { "@type": "DefinedTerm", "name": "GSTR-2B", "description": "The auto-drafted statement that determines eligible input tax credit." },
-            { "@type": "DefinedTerm", "name": "Section 43B(h)", "description": "The income tax clause linking MSME payment timing to deductibility." }
-        ]
+      "@type": "Question",
+      "name": "How is GST input credit on vendor bills protected from being lost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every purchase invoice is matched against GSTR-2B before payment is released, so bills a vendor has not uploaded are held back and chased instead of paid. Unmatched credits go to you weekly with vendor names and amounts. This single control often recovers more than the cost of the service within the first two quarters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle TDS deduction on vendor payments as part of the process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Each invoice is coded to the correct TDS section at entry, deduction is applied before payment, and the monthly challan is prepared for your approval and deposit. Quarterly statements and Form 16A issue are included where you want the full cycle. Vendor PAN and lower deduction certificates are validated at onboarding, not at return time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you get access to the client bank account or release payments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We prepare the payment file and the approval note, and your authorised signatory releases funds from your own banking portal. Maker and checker stay inside your company, which preserves the segregation of duties auditors expect to see. Where you want us in the maker role, we take initiate rights only, never final authorisation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to outsource accounts payable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accounts payable outsourcing in India generally costs Rs 25 to Rs 60 per invoice, or a fixed monthly retainer where volume is stable, with the rate driven by invoice complexity and whether GST and TDS matching sit inside the scope. A business processing 2,000 invoices a month usually spends less than one in house payables executive costs. Setup and system integration are billed once."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you stop duplicate and fraudulent invoices getting paid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Duplicate checks run on vendor GSTIN, invoice number, date and amount at the point of entry, and any match is quarantined for review before it reaches a payment run. New vendor bank details are confirmed by call-back to a number already on record, never from the invoice itself. Stopped amounts are reported to you monthly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does accounts payable onboarding take and what is required from the client?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Onboarding runs 3 to 4 weeks. Week one covers your vendor master, approval matrix, payment terms and chart of accounts. Week two we run in parallel with your existing team on live invoices. From week three we take over, working to a documented process note signed off by your finance head before cutover."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work inside an existing ERP or your own system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We work inside your system, whether that is Tally, Zoho Books, SAP, Oracle or Microsoft Dynamics, using restricted user roles your IT team creates. Nothing is copied into a parallel ledger. Where you have no ERP at all, we implement Zoho Books and run payables from there with your approval workflow built into it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you outsource accounts payable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and most of the cycle can be outsourced, including invoice receipt, three way matching, coding, exception handling, vendor query response, TDS deduction, ageing reports and preparation of the payment file. What should stay inside your company is approval of the expenditure and the final release of funds from your own bank portal, so the maker and checker split auditors expect is not broken."
+      }
     }
-    </script>
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services",
+  "name": "Accounts Payable Outsourcing Services",
+  "description": "Three-way match on every invoice - PO, GRN and bill before payment. Stop month-end running into the middle of the next one. Download the checklist.",
+  "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/accounts-payable-outsourcing-services-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/accounts-payable-outsourcing-services-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column - right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION - Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot - Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider .slick-slide > div { height: 100%; }
-        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
-        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #0F6E56;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #0F6E56;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
 
-<!-- HERO SECTION -->
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">Accounts Payable Outsourcing Services</span></li>
+        </ol>
+    </div>
+</nav>
+
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1127,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Accounts Payable Outsourcing Services in India
+                        Accounts Payable Outsourcing Services
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1136,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">2 June 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Scope:</span> invoice capture, 3-way matching, payment scheduling, vendor reconciliation.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Payment only against proof:</span> We pay no bill until the purchase order and the goods receipt agree with it on quantity, rate and tax.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> starting from INR 7,499 per month (Exl GST and Govt. Charges).</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>MSME dues visible before payment:</span> We flag every micro and small vendor from their Udyam declaration and list those dues separately in the payment run.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> ideal for businesses processing 50 to 150-plus vendor invoices a month.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Credit confirmed ahead of payment:</span> We claim credit only on invoices your supplier has reported in GSTR-2B, parking and chasing anything missing before you pay.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Compliance:</span> MSME pay within 45 days, TDS deducted before payment, ITC matched to GSTR-2B.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Reasons behind every held invoice:</span> You get an ageing and a hold report each period, saying why any particular bill has not been paid.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20AP Outsourcing%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20AP Outsourcing%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts%20Payable%20Outsourcing%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts%20Payable%20Outsourcing%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Accounts%20Payable%20Outsourcing%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounts%20payable%20outsourcing%20services" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1198,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1228,7 +398,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - AP Outsourcing'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Accounts Payable Outsourcing'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1272,12 +442,12 @@
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
                                 <option value="accounts-payable-outsourcing-services" selected>Accounts Payable Outsourcing</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="tds-return">TDS Return Filing</option>
-                                <option value="gst-returns">GST Returns Filing</option>
-                                <option value="payroll-processing-and-management-services">Payroll Processing and Management</option>
-                                <option value="udyam-registration">Udyam Registration</option>
-                                <option value="other">Other</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1307,133 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director - Demandify Media</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Anjanay Srivastava</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Founder - Hunarsource Consulting</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PR</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Preeti Singh Rathor</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Talk to our accounts payable team about invoice processing, three-way matching, TDS, MSME 45-day payments, and GSTR-2B reconciliation.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1459,141 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
             
-            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-                <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
-                <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
-                <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
-                <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">What We Need</button>
-                <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
-                <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
-                <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Onboarding</button>
-                <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
-                <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">In-House vs Outsourced</button>
-                <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What This Service Covers: A Quick Overview</h2>
+            <h2 class="section-title">What Accounts Payable Outsourcing Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - AP Outsourcing Services at a Glance</strong></p>
-                    <p>Accounts payable outsourcing hands your end-to-end vendor invoice and payment cycle to an external team. It suits businesses processing 50-plus invoices a month, costs from INR 7,499 per month, and keeps you compliant with the MSME 45-day rule under Section 43B(h).</p>
+                    <p><strong>&#128204; TL;DR - Accounts Payable Outsourcing Services at a Glance</strong></p>
+                    <p>Accounts payable outsourcing puts a three-way match on every invoice, checking purchase order, goods receipt and bill before any payment leaves. Section 43B(h) dues to MSME vendors are tracked against the 45-day limit so the deduction is not lost. Patron runs vendor ageing, payment cycles and TDS deduction on a fixed weekly rhythm. Built for businesses processing high invoice volumes.</p>
                 </div>
-                <div class="table-responsive-wrapper" style="margin-bottom:20px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td>What it is</td><td>Outsourced vendor invoice and payment processing</td></tr>
-                        <tr><td>Applicable to</td><td>Businesses with recurring vendor invoices</td></tr>
-                        <tr><td>Pricing</td><td>From INR 7,499 per month (Exl GST)</td></tr>
-                        <tr><td>Key compliance</td><td>MSME 45-day rule, Section 43B(h)</td></tr>
-                        <tr><td>TDS risk</td><td>30% expense disallowance on non-deduction</td></tr>
-                        <tr><td>GST link</td><td>ITC only on bills appearing in GSTR-2B</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p>Accounts payable outsourcing services let you run a reliable AP function without building an in-house team. Patron Accounting has supported over 10,000 businesses across India and manages payables on Tally, Zoho Books, QuickBooks, and Xero.</p>
-                <p>We run your AP function accurately and on time, while keeping you compliant with the MSME 45-day rule, TDS, and GST input credit rules.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Money leaves on a schedule here rather than on request. Bills arrive by email or through a vendor portal, are coded to the right cost centre and the right approver, and then sit in a payment run that is released on the same day each week under maker and checker control. Anything that fails validation is held back, queried with the vendor and reported as blocked, a route mapped out in this walk through the purchase-to-pay cycle.</p>
+                <p>Complexity depends on invoice count, how long the vendor list runs, the entities and states you pay from, and whether approvals run through a proper system or over scattered email threads. Accounts payable services cover the coding, the matching, payment preparation and deduction of tax, with challans lodged on the Income Tax e-filing portal. Vendor negotiation and treasury calls remain entirely yours to make.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is Accounts Payable Outsourcing?</h2>
+                <h2 class="section-title">What Are Accounts Payable Outsourcing Services?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Accounts payable outsourcing is the practice of delegating your vendor invoice processing, approval, and payment workflow to a specialised external provider. It covers invoice capture, matching, recording, scheduling, and reconciliation.</p>
-                    <p>In India, AP is not only an operational task but a compliance control. Section 43B(h) of the Income Tax Act, inserted by the Finance Act 2023 and effective from 1 April 2024, allows a tax deduction for amounts payable to micro and small enterprises only if paid within the statutory timeline. This makes disciplined AP central to both cash flow and tax outcomes.</p>
+                    <p>When a payables cycle ends, the books have to show exactly what the business owes, to whom, and by when, with every bill already checked. Accounts payable outsourcing is the arrangement that produces that position by running the whole payment function outside your team.</p>
+<p>Supplier bills come in and are matched, each against its purchase order and goods receipt, before anything is paid. Each bill is posted to its cost centre, and payments released on a fixed cycle under maker and checker control. It tracks what is owed to small suppliers against the statutory payment window, so the related deduction is not forfeited. This function keeps vendor balances agreed and the ageing current, with tax deducted at the point of booking. These <a href="/blog/ap-automation-invoice-processing">accounts payable</a> services stop at preparation: the decision to pay, to negotiate or to hold a vendor stays with you, and challan filing runs on the tax portal.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for AP Outsourcing:</strong></p>
-                    <ul>
-                        <li><strong>Three-way matching:</strong> matching the purchase order, goods receipt note, and vendor invoice before payment.</li>
-                        <li><strong>DPO:</strong> days payable outstanding - the average time you take to pay vendors.</li>
-                        <li><strong>GSTR-2B:</strong> the auto-drafted statement that determines eligible input tax credit.</li>
-                        <li><strong>Section 43B(h):</strong> the income tax clause linking MSME payment timing to deductibility.</li>
-                    </ul>
+                    <p><strong>Key Terms for Accounts Payable Outsourcing:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/accounts-payable">Accounts Payable</a></span><span class="al-d">The money your business owes suppliers for bills not yet paid.</span></li><li><span class="al-t"><a href="/glossary/three-way-matching">Three-Way Matching</a></span><span class="al-d">Checking the invoice against its purchase order and goods received before paying.</span></li><li><span class="al-t"><a href="/glossary/purchase-order-po-tolerance">Purchase Order (PO) Tolerance</a></span><span class="al-d">The small price or quantity gap allowed before an invoice is queried.</span></li><li><span class="al-t"><a href="/glossary/section-43b-h-msme-clock">Section 43B(h) MSME Clock</a></span><span class="al-d">The 45-day limit to pay small suppliers or lose the deduction.</span></li><li><span class="al-t"><a href="/glossary/hubdoc-automation">Hubdoc Automation</a></span><span class="al-d">Software that captures bills and pushes them into your accounts automatically.</span></li><li><span class="al-t"><a href="/glossary/vendor-balance-confirmation">Vendor Balance Confirmation</a></span><span class="al-d">Agreeing the balance you owe directly with the supplier&#x27;s own records.</span></li><li><span class="al-t"><a href="/glossary/segregation-of-duties-sod">Segregation of Duties (SoD)</a></span><span class="al-d">Splitting tasks so no single person can approve and pay alone.</span></li><li><span class="al-t"><a href="/glossary/gstr-2b-input-tax-credit-matching">GSTR-2B Input Tax Credit Matching</a></span><span class="al-d">Matching purchase bills to the GST credit statement before claiming that credit.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">AP Outsourcing</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>From INR 7,499/mo</span>
-                        <strong>MSME 45-Day Compliant</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/what-is.webp" alt="What Are Accounts Payable Outsourcing Services. When a payables cycle ends, the books have to show exactly what the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Should Outsource Accounts Payable?</h2>
+            <h2 class="section-title">Who Needs Accounts Payable Outsourcing Services in India?</h2>
             <div class="content-text">
                 
-                <p>Any business with growing vendor volume but a small finance team benefits from AP outsourcing, especially where MSME and TDS compliance is at stake.</p>
-                <ul>
-                    <li>Businesses processing more than 50 vendor invoices per month.</li>
-                    <li>Companies scaling faster than they can hire qualified AP staff.</li>
-                    <li>Buyers with registered MSME vendors who must meet the 45-day rule.</li>
-                    <li>Firms wanting visibility and controls without added headcount.</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Compliance note:</strong> under Section 15 of the MSMED Act 2006, payment to a Udyam-registered micro or small enterprise is due within 15 days where there is no written agreement, capped at 45 days where one exists.</p>
-                </div>
+                <p>This suits any business where bills arrive faster than one person can code, match and pay them. Once vendors run into the hundreds, or approvals scatter across email and several entities, accounts payable outsourcing puts one controlled payment run in place of the scramble.</p>
+  <ul>
+    <li>Manufacturers and traders booking hundreds of vendor bills a month that outrun one accounts person.</li>
+    <li>Companies paying vendors across several GSTINs and states, each entity with its own approval chain.</li>
+    <li>Businesses buying from MSME-registered suppliers who must track dues to protect the deduction.</li>
+    <li>Firms losing input credit because bills get paid before GSTR-2B is even checked.</li>
+    <li>Groups where invoices approve over email and nobody can state the payables balance on demand.</li>
+    <li>Fast-growing companies whose vendor master is thick with duplicates and stale bank details.</li>
+    <li>Contractors and project firms <a href="/blog/three-way-matching-accounts-payable">matching every bill to its purchase order and goods receipt</a> before release.</li>
+    <li>Shared-service teams handling <a href="/blog/ap-automation-invoice-processing">invoice processing</a> at a volume a small in-house desk cannot staff.</li>
+  </ul>
 
             </div>
             </div>
@@ -1601,22 +595,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Our Accounts Payable Services</h2>
+            <h2 class="section-title">Our Accounts Payable Outsourcing Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Invoice capture and validation</td><td>Verifying GSTIN, HSN/SAC, tax rate, and amount on every bill.</td></tr>
-                        <tr><td>Three-way matching</td><td>Matching PO, goods receipt, and invoice before approval.</td></tr>
-                        <tr><td>Payment scheduling</td><td>Prioritising MSME vendors within 45 days and optimising DPO for others.</td></tr>
-                        <tr><td>TDS handling</td><td>Deducting applicable TDS before payment and supporting timely deposit.</td></tr>
-                        <tr><td>Vendor reconciliation</td><td>Reconciling vendor ledgers and resolving disputes.</td></tr>
-                        <tr><td>AP reporting</td><td>Ageing reports, payment runs, and exception summaries.</td></tr>
+                        <tr><td>Vendor master clean-up</td><td>We standardise your vendor master with PAN, GSTIN, bank details, payment terms and the correct TDS section for each supplier <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Invoice capture and processing</td><td>Our <a href="/blog/ap-automation-invoice-processing">invoice processing</a> services digitise every vendor bill, code it to the right ledger and cost centre, and queue it for approval <span class="badge-included">Weekly</span></td></tr>
+                        <tr><td>Three-way invoice matching</td><td>We match each invoice to its purchase order and goods receipt note, holding any bill that fails until the difference is resolved <span class="badge-included">Weekly</span></td></tr>
+                        <tr><td>GST and TDS checks</td><td>We match purchases to GSTR-2B before release, decide withholding at booking, and flag MSME dues so payments respect the statutory clock <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Payment run preparation</td><td>Our accounts payable outsourcing team builds a scheduled payment proposal by due date, ready for your authorised signatories to review and release <span class="badge-included">Weekly</span></td></tr>
+                        <tr><td>Vendor statement reconciliation</td><td>We reconcile <a href="/blog/vendor-reconciliation-guide">supplier statements</a> to your ledger, agree balances in writing, and clear old items, a discipline shared with <a href="/backlog-bookkeeping-catch-up-services">backlog bookkeeping clean-up</a> work <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1626,164 +620,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">The 6-Step Accounts Payable Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">A clear, repeatable process that validates invoices, runs three-way matching, deducts TDS, prioritises MSME payments within 45 days, and reconciles against GSTR-2B.</p>
+            <h2 class="section-title">How Accounts Payable Outsourcing Services Work — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers accounts payable outsourcing, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 1</span>
-                    <h3 class="step-title">Receive the vendor invoice</h3>
-                    <p class="step-description">We verify GSTIN, HSN or SAC, tax rate, and your company details, and reject non-compliant invoices.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GSTIN verified</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Non-compliant rejected</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="34" y="16" width="52" height="72" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="44" y1="32" x2="76" y2="32" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="44" y1="46" x2="70" y2="46" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><circle cx="72" cy="64" r="10" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><path d="M68 64l3 3 6-7" stroke="#25D366" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-                        <span class="illustration-label">Invoice Received</span>
-                        <span class="step-number-large">01</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Clean the vendor master</h3>
+    <p class="step-description">We rebuild the vendor master so each vendor carries PAN, GSTIN, bank details, agreed payment terms and the TDS section that applies. Udyam declarations are collected and every vendor is flagged micro, small or other, because that flag later drives both the payment window and disclosure.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/step-1-clean-the-vendor-master.webp" alt="Illustration for Clean the vendor master: We rebuild the vendor master so each vendor carries PAN, GSTIN, bank details," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 2</span>
-                    <h3 class="step-title">Three-way match</h3>
-                    <p class="step-description">We match purchase order, goods receipt note, and invoice on items, quantity, and amount.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>PO, GRN, invoice</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Items and amount</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="16" y="34" width="26" height="32" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.4"/><rect x="47" y="34" width="26" height="32" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.4"/><rect x="78" y="34" width="26" height="32" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.4"/><path d="M24 50l3 3 5-6M55 50l3 3 5-6M86 50l3 3 5-6" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-                        <span class="illustration-label">Three-Way Matched</span>
-                        <span class="step-number-large">02</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Three-way match every invoice</h3>
+    <p class="step-description">Each invoice is matched to its purchase order and to the goods receipt note or service acceptance before it is booked. Quantity, rate and tax are compared line by line; mismatches are held rather than posted, and short supply or rate differences go back as a debit note.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/step-2-three-way-match-every-invoice.webp" alt="Illustration for Three-way match every invoice: Each invoice is matched to its purchase order and to the goods receipt note" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 3</span>
-                    <h3 class="step-title">Record the bill</h3>
-                    <p class="step-description">We post the vendor bill in your software and tag MSME vendors for the 45-day rule.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Posted in software</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>MSME tagged</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="28" y="24" width="64" height="52" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="40" x2="92" y2="40" stroke="#14365F" stroke-width="1.5"/><line x1="38" y1="54" x2="62" y2="54" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/><line x1="38" y1="64" x2="56" y2="64" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/></svg></div>
-                        <span class="illustration-label">Bill Recorded</span>
-                        <span class="step-number-large">03</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Decide withholding at booking</h3>
+    <p class="step-description">Withholding is determined when the invoice is booked, not when it is paid, because tax is deductible at credit or payment, whichever comes first. The GST position is settled in the same entry: creditable, blocked, or payable by the recipient under reverse charge.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/step-3-decide-withholding-at-booking.webp" alt="Illustration for Decide withholding at booking: Withholding is determined when the invoice is booked, not when it is paid," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 4</span>
-                    <h3 class="step-title">Deduct TDS</h3>
-                    <p class="step-description">We apply the correct TDS section and rate before scheduling payment.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Correct section</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Right rate</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="50" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="56" font-size="15" fill="#F5A623" font-weight="700" text-anchor="middle" font-family="Arial">TDS</text><path d="M44 30l-6-6M76 30l6-6" stroke="#E8712C" stroke-width="2" stroke-linecap="round"/></svg></div>
-                        <span class="illustration-label">TDS Deducted</span>
-                        <span class="step-number-large">04</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Match to GSTR-2B before payment</h3>
+    <p class="step-description">Before an invoice is released for payment we reconcile the purchase register to GSTR-2B for that tax period. Credit is taken only where the supplier has actually reported the invoice; anything missing is parked, the vendor is chased, and the payment decision is revisited.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/step-4-match-to-gstr-2b-before-payment.webp" alt="Illustration for Match to GSTR-2B before payment: Before an invoice is released for payment we reconcile the purchase" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 5</span>
-                    <h3 class="step-title">Schedule and pay</h3>
-                    <p class="step-description">We pay MSME vendors within 45 days and use full negotiated terms for others.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>MSME within 45 days</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>DPO optimised</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="36" width="72" height="34" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="44" cy="53" r="9" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><text x="44" y="57" font-size="10" fill="#E8712C" font-weight="700" text-anchor="middle" font-family="Arial">Rs</text><line x1="60" y1="48" x2="86" y2="48" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><line x1="60" y1="58" x2="80" y2="58" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/></svg></div>
-                        <span class="illustration-label">Scheduled and Paid</span>
-                        <span class="step-number-large">05</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Build the payment proposal</h3>
+    <p class="step-description">The payment run is built from ageing and agreed terms, with micro and small vendors listed separately. Paying them beyond the period allowed under the MSMED Act does not only strain the relationship; it pushes the income-tax deduction into the year the money actually moves.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/step-5-build-the-payment-proposal.webp" alt="Illustration for Build the payment proposal: The payment run is built from ageing and agreed terms, with micro and small" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 6</span>
-                    <h3 class="step-title">Reconcile</h3>
-                    <p class="step-description">We reconcile vendor ledgers and match purchases to GSTR-2B for accurate ITC.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Ledgers reconciled</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GSTR-2B matched</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="32" width="36" height="36" rx="5" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="64" y="32" width="36" height="36" rx="5" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><path d="M56 50h8M60 44l6 6-6 6" stroke="#E8712C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-                        <span class="illustration-label">Reconciled</span>
-                        <span class="step-number-large">06</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Reconcile with each vendor</h3>
+    <p class="step-description">Vendor statements are reconciled to our ledger each cycle, with advances adjusted, debit and credit notes matched, and goods received but not invoiced accrued. Disagreements are settled with the vendor in writing rather than left sitting in the books as an unexplained balance.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/step-6-reconcile-with-each-vendor.webp" alt="Illustration for Reconcile with each vendor: Vendor statements are reconciled to our ledger each cycle, with advances" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Close and report payables</h3>
+    <p class="step-description">Each period closes with a payables ageing, a hold report explaining why particular invoices remain unpaid, the dues position for micro and small enterprises, and the goods-received-not-invoiced accrual. That pack is what your finance team and your auditor will ask for first.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-payable-outsourcing-services/step-7-close-and-report-payables.webp" alt="Illustration for Close and report payables: Each period closes with a payables ageing, a hold report explaining why" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What We Need to Start</h2>
+            <h2 class="section-title">Documents Required for Accounts Payable Outsourcing Services</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li>Accounting software access (Tally, Zoho, QuickBooks, or Xero).</li>
-                    <li>Vendor master with Udyam or MSME status where available.</li>
-                    <li>Purchase orders and goods receipt notes, if used.</li>
-                    <li>Bank access or payment approval workflow.</li>
-                    <li>Applicable TDS rates and your approval matrix.</li>
-                </ul>
-                <p style="margin-top:16px;">Ask us for a free AP onboarding checklist before kickoff.</p>
-                <p style="margin-top:12px;"><strong>Reports you receive:</strong> an AP ageing report by vendor and due date; an MSME 45-day exposure tracker flagging at-risk invoices; a payment run schedule with approvals and TDS summary; and a vendor reconciliation statement with a GSTR-2B match report.</p>
+                <p>Nothing can be matched or paid until the vendor master is clean, which is why the first items here establish who your vendors actually are.</p>
+<ul>
+    <li>Purchase orders and goods receipt notes / service acceptance confirmations</li>
+    <li>Vendor contracts, rate cards and annual maintenance agreements</li>
+    <li>GSTR-2B for each tax period</li>
+    <li>Vendor MSME/Udyam registration declarations showing micro or small classification</li>
+    <li>Purchase returns, debit notes raised on vendors and vendor credit notes received</li>
+    <li>Advance payment vouchers and the vendor advance ledger</li>
+    <li>Vendor master file with PAN, GSTIN, bank details, payment terms and TDS section applicable</li>
+    <li>Vendor tax invoices and bills of supply for the period</li>
+    <li>Bank statements and NEFT/RTGS/UPI payment confirmations or bank payment advices</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges and How We Solve Them</h2>
+            <h2 class="section-title">Common Accounts Payable Outsourcing Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>Missed MSME 45-day deadlines</td><td>Deferred deduction, interest exposure</td><td>Auto-flag MSME invoices and prioritise their payment runs</td></tr>
-                        <tr><td>Duplicate or fraudulent payments</td><td>Direct cash loss</td><td>Enforce three-way matching before any approval</td></tr>
-                        <tr><td>TDS errors and disallowance</td><td>30% expense disallowance</td><td>Deduct correct TDS before payment, support timely deposit</td></tr>
-                        <tr><td>Lost GST input credit</td><td>Higher net tax cost</td><td>Match every bill to GSTR-2B and chase missing vendor filings</td></tr>
+                        <tr><td>Duplicate invoices slip through when vendors resend by email</td><td>The same bill is paid twice, cash lost and recovery from the vendor slow</td><td>We screen vendor, invoice number and amount for duplicates before the <a href="/blog/accounts-payable-process-p2p-cycle">purchase to pay payment run</a> releases funds</td></tr>
+                        <tr><td>Vendor advances and debit notes left unadjusted against bills</td><td>Payables overstated, and the vendor ledger never agrees with the supplier statement at close</td><td>Reconcile advances, TDS and debit notes to the vendor statement monthly, so open items reflect real dues</td></tr>
+                        <tr><td>ITC claimed on invoices missing from GSTR-2B</td><td>Input credit reversed with interest, and the cost lands back in expense</td><td>Match every purchase to GSTR-2B and park unmatched invoices until the vendor uploads, protecting the credit</td></tr>
+                        <tr><td>TDS deducted under the wrong section or rate</td><td>Short deduction triggers Section 40(a)(ia) disallowance and interest on the shortfall</td><td>Map each vendor to the correct 194 section at onboarding, so deduction is right at invoice booking</td></tr>
+                        <tr><td>Goods received but not invoiced by period close</td><td>Expenses and payables understated, so margin is overstated for the month</td><td>Raise a GRN-based accrual for un-invoiced receipts, so the close reflects the true liability</td></tr>
 
                     </tbody>
                 </table>
@@ -1793,51 +740,56 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounts Payable Outsourcing Fees in 2026</h2>
+            <h2 class="section-title">Accounts Payable Outsourcing Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td class="table-amount">Starting from INR 7,499 per month (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Per-invoice market range (context)</td><td class="table-amount">Rs 20 to Rs 150 per invoice, by complexity</td></tr>
-                        <tr><td>Dedicated resource (mid-market)</td><td class="table-amount">Custom monthly, quoted on scope after a free assessment</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; routine monthly bill volume for one entity with simple approvals</td><td>INR 7,499 per month<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; higher vendor bill volume with multi-step approval routing</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-entity payables with custom controls and monthly reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">Your accounts payable outsourcing starts at <strong>INR 7,499 per month</strong> for routine bill volume in one entity with simple approvals. What moves the price up is the number of monthly vendor bills processed and how many approval steps your routing needs. Get a scope-based quotation on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free AP Outsourcing consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Accounts%20Payable%20Outsourcing%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Accounts Payable Outsourcing consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounts%20payable%20outsourcing%20services" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">How Quickly We Onboard</h2>
+            <h2 class="section-title">Accounts Payable Outsourcing Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Onboarding</td><td>About 1 to 2 weeks: vendor master, access, approval matrix, parallel run</td></tr>
-                        <tr><td>Live invoice turnaround</td><td>About 2 to 3 days per invoice, faster for clean matched bills</td></tr>
-                        <tr><td>AP ageing and reporting</td><td>On an agreed monthly or weekly calendar</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Form 15CA / 15CB on foreign remittances</td><td>Before each outward foreign remittance</td><td>Businesses remitting payments to non-residents</td></tr>
+                        <tr><td>MSME-1 half-yearly return on dues to micro and small suppliers</td><td>30 April 2026 and 31 October 2026</td><td>Companies with payments to MSME vendors outstanding beyond 45 days</td></tr>
+                        <tr><td>TDS return for Jan-Mar quarter (Form 24Q / 26Q)</td><td>31 May 2026</td><td>Deductors filing quarterly TDS statements</td></tr>
+                        <tr><td>TDS return for Apr-Jun quarter (Form 24Q / 26Q)</td><td>31 July 2026</td><td>Deductors filing quarterly TDS statements</td></tr>
+                        <tr><td>TDS return for Jul-Sep quarter (Form 24Q / 26Q)</td><td>31 October 2026</td><td>Deductors filing quarterly TDS statements</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p>Standard onboarding takes about one to two weeks: vendor master setup, software access, approval matrix, and a short parallel run. Live invoice turnaround then typically settles to two to three days per invoice, faster for clean, matched bills.</p>
+                    <p>In accounts payable the calendar is TDS-led: deposit by the 7th, then the quarterly TDS returns on 31 May, 31 July and 31 October. MSME-1 reports dues held beyond 45 days. Patron runs <a href="/blog/ap-automation-invoice-processing">accounts payable</a> so vendor TDS and 15CA workings clear before each date. Get a filing-reminder schedule set up; call +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1845,70 +797,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Benefits of Outsourcing Accounts Payable</h2>
+            <h2 class="section-title">Why Professional Accounts Payable Outsourcing Matters</h2>
         </div>
         <div class="features-grid">
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
-            <h3 class="feature-title">Lower processing cost</h3>
-            <p class="feature-desc">No recruitment or training overhead for an AP team.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-            <h3 class="feature-title">Protected tax deduction</h3>
-            <p class="feature-desc">On-time MSME payments that safeguard your Section 43B(h) deduction.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 15l2 2 4-4"/></svg></div>
-            <h3 class="feature-title">Stronger controls</h3>
-            <p class="feature-desc">Three-way matching that cuts duplicate payments and fraud.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M19 9l-5 5-4-4-3 3"/></svg></div>
-            <h3 class="feature-title">Better working capital</h3>
-            <p class="feature-desc">Disciplined DPO management without breaching MSME timelines.</p>
-        </article>
-    </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" /> <path d="M12 22V12" /> <polyline points="3.29 7 12 12 20.71 7" /> <path d="m7.5 4.27 9 5.15" /> </svg></div>
+  <h3 class="feature-title">Payment only against proof</h3>
+  <p class="feature-text">We pay no bill until the purchase order and the goods receipt agree with it on quantity, rate and tax.</p><ul style="margin-top:12px;"><li>Three-way match across invoice, purchase order and goods receipt note</li><li>Short supply goes back as a debit note</li><li>Without the gate, you pay for goods that never arrived</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div>
+  <h3 class="feature-title">MSME dues visible before payment</h3>
+  <p class="feature-text">We flag every micro and small vendor from their Udyam declaration and list those dues separately in the payment run.</p><ul style="margin-top:12px;"><li>Section 43B(h) allows the deduction only in the year of payment</li><li>Micro and small flags read from Udyam declarations</li><li>Without tracking, the deduction is pushed into a later year</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Credit confirmed ahead of payment</h3>
+  <p class="feature-text">We claim credit only on invoices your supplier has reported in GSTR-2B, parking and chasing anything missing before you pay.</p><ul style="margin-top:12px;"><li>Each invoice matched to GSTR-2B for the tax period</li><li>Missing invoices parked and chased before money moves</li><li>Without it, you pay the vendor and reverse the credit later</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m11 17 2 2a1 1 0 1 0 3-3" /> <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" /> <path d="m21 3 1 11h-2" /> <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" /> <path d="M3 4h8" /> </svg></div>
+  <h3 class="feature-title">Reasons behind every held invoice</h3>
+  <p class="feature-text">You get an ageing and a hold report each period, saying why any particular bill has not been paid.</p><ul style="margin-top:12px;"><li>Holds tagged as failed match, missing declaration or vendor query</li><li>The hold report sits in the period-end pack</li><li>Without it, the vendor call escalates to the owner</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> </svg></div>
+  <h3 class="feature-title">Vendor balances agreed in writing</h3>
+  <p class="feature-text">We reconcile vendor statements to your ledger each cycle, adjusting advances and accruing goods received but not yet invoiced.</p><ul style="margin-top:12px;"><li>Advances and debit and credit notes settled on paper</li><li>Vendor advance ledger reconciled while both sides hold the paperwork</li><li>Without it, unexplained old balances get raised at audit</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Withholding fixed at booking</h3>
+  <p class="feature-text">We decide tax deduction when the invoice is booked, not when it is paid, using the section stored against the vendor.</p><ul style="margin-top:12px;"><li>TDS section held on the vendor master drives the deduction</li><li>Deduction fixed at booking, not at payment</li><li>Without it, the deduction is reported in the wrong period</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Businesses Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Processed | 15+ Years</strong></p>
-                <p>"Patron Accounting gives the best service related to all account handling of our firm. She files all returns timely and is most kind and respectful towards us." - Nikhil Nimbhorkar, Google Review</p>
-                <p>"I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free." - Subhendu Mishra, Google Review</p>
-                <p><strong>Outcome proof:</strong> a mid-market client cut duplicate payments to near zero and brought every MSME invoice within the 45-day window after switching to managed AP.</p>
-                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Accounts Payable Outsourcing</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Three-way match on every invoice before payment</strong><p>We match purchase order, goods receipt note and vendor bill before any payment leaves, so nothing is paid on trust. This <a href="/blog/three-way-matching-accounts-payable">three-way matching</a> rigour comes from 15+ years of experience.</p></div>
+                <div><strong>Section 43B(h) MSME 45-day payment tracking built into the run</strong><p>Section 43B(h) means dues to MSME suppliers must clear within the statutory window or the deduction is lost. We flag each one inside the payment run, part of 25,000+ filings completed.</p></div>
+                <div><strong>Approval workflow inside your ERP, audit trail per approver</strong><p>You keep the ledger you already run, Zoho Books, Xero, Tally Prime or Odoo. Approvals sit inside the tool you run, so every held or released bill carries a named approver trail.</p></div>
+                <div><strong>Payment run and vendor ageing, fixed weekly cycle</strong><p>Each week we complete the payment run and circulate a vendor ageing statement reconciled to supplier statements, so balances stay current. This accuracy feeds the 25,000+ filings we have completed.</p></div>
+                <div><strong>AP engagements among 3,000+ businesses served</strong><p>Accounts payable runs are among the 3,000+ businesses we have served since 2019. Our in-house team of CAs and CS handles them, with 15+ years of experience and a 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">In-House vs Outsourced Accounts Payable</h2>
+            <h2 class="section-title">In-House AP Team vs Outsourced AP</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>In-House AP</th><th>Patron Outsourced AP</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>In-House AP Team</th><th>Outsourced AP</th></tr></thead>
                     <tbody>
-                        <tr><td>Cost</td><td>Salaries, software, infrastructure</td><td>From INR 7,499 per month, no overhead</td></tr>
-                        <tr><td>MSME 45-day tracking</td><td>Manual, easy to miss</td><td>Auto-flagged and prioritised</td></tr>
-                        <tr><td>Controls</td><td>Depends on team size</td><td>Three-way matching enforced</td></tr>
-                        <tr><td>Scalability</td><td>Hiring lag at peaks</td><td>Scales with volume on demand</td></tr>
+                        <tr><td>Monthly cost</td><td>Salaries for a full AP desk, a high fixed monthly cost</td><td>A managed fee that flexes with invoice volume, no idle staff</td></tr>
+                        <tr><td>Compliance risk</td><td>MSME payment deadlines under 43B(h) can slip without a tracked calendar</td><td>MSME dues and withholding are flagged before payment as standard</td></tr>
+                        <tr><td>Invoice controls</td><td>Three-way matching depends on how the team is trained and staffed</td><td>Purchase order, goods receipt and invoice matched on every bill</td></tr>
+                        <tr><td>Scalability</td><td>A volume spike means overtime or a rushed extra hire</td><td>Capacity absorbs seasonal peaks without recruitment lag</td></tr>
+                        <tr><td>Continuity</td><td>Leave or exit delays vendor payments until cover is arranged</td><td>A team keeps payments running through absence and turnover</td></tr>
+                        <tr><td>Segregation of duties</td><td>Small teams often let one person book and release payment</td><td>Recording, approval and payment stay in separate hands</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">A large firm with steady, high invoice volume can justify an in-house desk. For most SMEs, accounts payable outsourcing gives tighter control at lower fixed cost, supported by <a href="/blog/three-way-matching-accounts-payable">disciplined three-way matching</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1918,200 +888,185 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Accounts Payable Outsourcing</h2>
             <div class="content-text">
                 
-                <p>Pair AP outsourcing with these closely related services:</p>
-                <ul>
-                    <li><a href="/accounting-services">Accounting Services</a> - full-service bookkeeping behind your payables.</li>
-                    <li><a href="/tds-return">TDS Return Filing</a> - quarterly TDS return preparation and filing.</li>
-                    <li><a href="/gst-returns">GST Returns Filing</a> - return preparation and GSTR-2B reconciliation.</li>
-                    <li><a href="/payroll-processing-and-management-services">Payroll Processing and Management</a> - end-to-end payroll alongside AP.</li>
-                    <li><a href="/udyam-registration">Udyam Registration</a> - register your own MSME status.</li>
-                </ul>
+                <p>Every bill a payables function books is also a tax event: deduct the right TDS and the expense stands, miss it and Section 40(a)(ia) disallows part of it. Behind that sits Section 128 of the Companies Act, which demands a complete, dated creditors ledger in the first place.</p>
+<p>That double check is where the compliance lives. So <a href="/glossary/three-way-matching">Three-Way Matching</a> against the purchase order and the goods received note is a compliance control as much as a payment one, and the <a href="/glossary/section-43b-h-msme-clock">Section 43B(h) MSME Clock</a> decides when a small supplier's bill must be paid for the deduction to hold. Accounts payable outsourcing runs that ledger against the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Chapter XVII-B, Income-tax Act 1961</strong></span><span class="al-d">Tax is deducted at source on covered payments and deposited by the 7th of the next month; non-deduction disallows 30% of the expense under Section 40(a)(ia).</span></li><li><span class="al-t"><strong>Section 31, CGST Act 2017 with Rule 46 and 48</strong></span><span class="al-d">The vendor tax invoice must carry the prescribed fields, and above Rs 5 crore turnover an IRN before input tax credit can be claimed on it.</span></li><li><span class="al-t"><strong>Section 128, Companies Act 2013 and Section 44AA, Income-tax Act 1961</strong></span><span class="al-d">The underlying obligation to keep a complete double-entry creditors ledger sits behind every payables task, whichever entity holds the books.</span></li><li><span class="al-t"><strong>Section 44AA, Income-tax Act 1961</strong></span><span class="al-d">A non-corporate business maintains its books once income or turnover crosses the prescribed limits, so the expenses claimed can be substantiated - starting with <a href="/glossary/accounts-payable">Accounts Payable</a>.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled while bills are posted or corrected, so a back-dated invoice cannot pass unrecorded. A large arrears backlog is handled by <a href="/backlog-bookkeeping-catch-up-services">catch-up bookkeeping</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Compliance Framework</h2>
-            <div class="content-text">
-                
-                <p>The MSME 45-day payment rule sits in Section 43B(h) of the Income Tax Act, inserted by the Finance Act 2023 and effective from 1 April 2024. A buyer can deduct an MSME expense only in the year of payment if it crosses the statutory timeline.</p>
-                <p>Under Section 15 of the MSMED Act 2006, payment is due within 15 days where there is no written agreement, capped at 45 days where one exists. Section 16 imposes interest at three times the RBI bank rate, compounded monthly, on delayed payments. Separately, failure to deduct TDS can trigger 30 percent disallowance of the related expense, and GST input tax credit is available only on bills reflected in GSTR-2B.</p>
-                <p>For official guidance on the Section 43B(h) framework, refer to the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department (incometax.gov.in)</a>.</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    <p class="faq-expanded__lead">Real questions businesses ask about AP outsourcing cost, three-way matching, the MSME 45-day rule, TDS, GST input credit, and software.</p>
-                    @include('partials.faq-enquiry-form')
+                    <h2 class="faq-expanded__title">Accounts Payable Outsourcing FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on accounts payable outsourcing scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Accounts Payable Outsourcing</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">How much does accounts payable outsourcing cost in India?</h3>
-                        <div class="faq-expanded__a"><p>Patron Accounting accounts payable outsourcing starts from INR 7,499 per month (Exl GST and Govt. Charges) for roughly 50 to 150 invoices. Across the India market, per-invoice pricing typically runs from Rs 20 to Rs 150 depending on complexity, while monthly engagements vary with volume. You receive a fixed quote after a free assessment of your invoice flow.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What is accounts payable outsourcing?</h3>
-                        <div class="faq-expanded__a"><p>Accounts payable outsourcing means delegating your vendor invoice and payment cycle to an external provider. It covers invoice capture, three-way matching, recording, TDS deduction, payment scheduling, and vendor reconciliation. The goal is accurate, on-time payments with strong controls and full compliance, without expanding your in-house team.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is three-way matching in accounts payable?</h3>
-                        <div class="faq-expanded__a"><p>Three-way matching compares the purchase order, the goods receipt note, and the vendor invoice before a payment is approved. All three must agree on items, quantities, rates, and amounts. This control prevents overpayment, duplicate payments, and fraud, and it is a core step in every invoice we process.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">Is it safe to outsource accounts payable?</h3>
-                        <div class="faq-expanded__a"><p>Yes, when the provider uses secure access, defined approval controls, and three-way matching. Payment authority can remain with you while the provider handles processing and scheduling. We work through secure software access and documented workflows so visibility and control stay with your business.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What is the MSME 45-day payment rule?</h3>
-                        <div class="faq-expanded__a"><p>Under Section 43B(h) of the Income Tax Act, effective 1 April 2024, a buyer can claim a deduction for amounts payable to micro and small enterprises only if paid within the statutory timeline. That timeline is 15 days where there is no written agreement, capped at 45 days where one exists, under Section 15 of the MSMED Act 2006.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What happens if I do not deduct TDS on vendor payments?</h3>
-                        <div class="faq-expanded__a"><p>Failure to deduct or deposit applicable TDS can lead to 30 percent disallowance of the related expense and interest exposure. Our AP process deducts the correct TDS before payment and supports timely deposit, so the expense remains fully deductible.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">How does accounts payable affect GST input credit?</h3>
-                        <div class="faq-expanded__a"><p>You can claim input tax credit only on vendor bills that appear in your GSTR-2B, which depends on the vendor filing GSTR-1. Unrecorded or unmatched bills mean lost credit. We reconcile every bill against GSTR-2B and follow up on missing vendor filings.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">Can you work with our existing accounting software?</h3>
-                        <div class="faq-expanded__a"><p>Yes. We operate in Tally, Zoho Books, QuickBooks, and Xero, and integrate with your current vendor master and approval matrix. Onboarding usually takes one to two weeks, including a short parallel run before we go live.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-9">
-                        <h3 class="faq-expanded__q">Vendor bills outsource karna ho to kaise shuru karein?</h3>
-                        <div class="faq-expanded__a"><p>Aap apna accounting software access, vendor master, aur approval matrix share kijiye. Hum invoice capture, three-way matching, TDS, aur MSME 45-day payments sab handle kar dete hain. Free assessment ke liye call kijiye.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you evaluate an accounts payable outsourcing provider?</h3>
+  <div class="faq-expanded__a"><p>Judge a provider on four things: invoice turnaround time, three-way match accuracy, whether GST input credit matching is included, and how vendor queries get escalated. Ask for a sample month of exception reports rather than a brochure. A provider who cannot tell you their error rate per thousand invoices is simply not measuring it.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is AP outsourcing?</h3>
+  <div class="faq-expanded__a"><p>Accounts payable outsourcing is handing the invoice to payment cycle to an external team that receives vendor bills, checks them against the purchase order and goods receipt note, codes them to the correct ledger, matches input credit against GSTR-2B, applies TDS and prepares the payment file for your approval. Expenditure approval and the bank release stay with you. Pricing is per invoice or a fixed monthly retainer.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is GST input credit on vendor bills protected from being lost?</h3>
+  <div class="faq-expanded__a"><p>Every purchase invoice is matched against GSTR-2B before payment is released, so bills a vendor has not uploaded are held back and chased instead of paid. Unmatched credits go to you weekly with vendor names and amounts. This single control often recovers more than the cost of the service within the first two quarters.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do you handle TDS deduction on vendor payments as part of the process?</h3>
+  <div class="faq-expanded__a"><p>Yes. Each invoice is coded to the correct TDS section at entry, deduction is applied before payment, and the monthly challan is prepared for your approval and deposit. Quarterly statements and Form 16A issue are included where you want the full cycle. Vendor PAN and lower deduction certificates are validated at onboarding, not at return time.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do you get access to the client bank account or release payments?</h3>
+  <div class="faq-expanded__a"><p>No. We prepare the payment file and the approval note, and your authorised signatory releases funds from your own banking portal. Maker and checker stay inside your company, which preserves the segregation of duties auditors expect to see. Where you want us in the maker role, we take initiate rights only, never final authorisation.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How much does it cost to outsource accounts payable?</h3>
+  <div class="faq-expanded__a"><p>Accounts payable outsourcing in India generally costs Rs 25 to Rs 60 per invoice, or a fixed monthly retainer where volume is stable, with the rate driven by invoice complexity and whether GST and TDS matching sit inside the scope. A business processing 2,000 invoices a month usually spends less than one in house payables executive costs. Setup and system integration are billed once.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you stop duplicate and fraudulent invoices getting paid?</h3>
+  <div class="faq-expanded__a"><p>Duplicate checks run on vendor GSTIN, invoice number, date and amount at the point of entry, and any match is quarantined for review before it reaches a payment run. New vendor bank details are confirmed by call-back to a number already on record, never from the invoice itself. Stopped amounts are reported to you monthly.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How long does accounts payable onboarding take and what is required from the client?</h3>
+  <div class="faq-expanded__a"><p>Onboarding runs 3 to 4 weeks. Week one covers your vendor master, approval matrix, payment terms and chart of accounts. Week two we run in parallel with your existing team on live invoices. From week three we take over, working to a documented process note signed off by your finance head before cutover.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do you work inside an existing ERP or your own system?</h3>
+  <div class="faq-expanded__a"><p>We work inside your system, whether that is Tally, Zoho Books, SAP, Oracle or Microsoft Dynamics, using restricted user roles your IT team creates. Nothing is copied into a parallel ledger. Where you have no ERP at all, we implement Zoho Books and run payables from there with your approval workflow built into it.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can you outsource accounts payable?</h3>
+  <div class="faq-expanded__a"><p>Yes, and most of the cycle can be outsourced, including invoice receipt, three way matching, coding, exception handling, vendor query response, TDS deduction, ageing reports and preparation of the payment file. What should stay inside your company is approval of the expenditure and the final release of funds from your own bank portal, so the maker and checker split auditors expect is not broken.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <ul>
-                    <li><strong>Starting price?</strong> INR 7,499 per month (Exl GST).</li>
-                    <li><strong>Best for?</strong> 50 to 150-plus invoices a month.</li>
-                    <li><strong>MSME rule?</strong> Pay within 45 days under Section 43B(h).</li>
-                    <li><strong>Software?</strong> Tally, Zoho Books, QuickBooks, Xero.</li>
-                    <li><strong>Onboarding?</strong> One to two weeks.</li>
-                </ul>
+                <p>Money leaves on a schedule here rather than on request. Bills arrive by email or through a vendor portal, are coded to the right cost centre and the right approver, and then sit in a payment run that is released on the same day each week under maker and checker control. Anything that fails validation is held back,.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Acting Now Matters</h2>
+            <h2 class="section-title">Accounts Payable Outsourcing Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Each MSME invoice that slips past 45 days can defer your tax deduction to a later year under Section 43B(h) and attract interest at three times the RBI bank rate, compounded monthly. With the financial year-end cut-off fixed at 31 March, undisciplined AP creates a tax problem and a vendor problem at once. Outsourcing puts controls in place before the deadline bites.</p>
-                <p><strong>Get a free, no-obligation quote. Call <a href="tel:+919459456700">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Accounts%20Payable%20Outsourcing%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank">WhatsApp our team</a> today.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-3B (summary return and tax payment)</strong> is due 20th of every month for monthly filers. <strong>Form 15CA / 15CB on foreign remittances</strong> is due Before each outward foreign remittance. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Run a Compliant, Worry-Free AP Function</h2>
-            <div class="content-text" style="text-align:left;color:#FFFFFF !important;">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounts Payable Outsourcing Services with Patron Accounting</h2>
+            <div class="content-text" style="text-align:left;">
                 
-                <p>Accounts payable is where cash leaves your business, so accuracy and timing matter. Patron Accounting runs your invoice processing, matching, TDS, and vendor payments with strong controls and full MSME and GST compliance.</p>
-                <p>You keep visibility and authority while we handle the work. Call +91 945 945 6700, WhatsApp us, or request a free consultation.</p>
+                <p style="color:rgba(255,255,255,0.88);">Typing invoices in is not what you are choosing between. It is whether you genuinely want to know your payables position on any given day without asking three people, and whether approvals should live in a system that remembers who gave them. Everything else about the payables function follows from that answer.</p>
+<p style="color:rgba(255,255,255,0.88);">With accounts payable services running, your payables balance becomes a number you can plan cash against. What is due, what is approved and what is deliberately parked all sit in one view. A decision to release or defer is made against the record rather than the loudest reminder in your inbox.</p>
+<p style="color:rgba(255,255,255,0.88);">Approval authority is agreed before anything is processed: who signs off what amount, which costs need a second pair of eyes, and how bills reach you now. Your vendor master gets looked at in the same conversation, alongside <a href="/backlog-bookkeeping-catch-up-services">bringing old ledgers up to date</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Accounts%20Payable%20Outsourcing%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20AP Outsourcing%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20AP Outsourcing%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounts%20payable%20outsourcing%20services" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts%20Payable%20Outsourcing%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts%20Payable%20Outsourcing%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Accounts Payable Services Near You</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">On-the-ground support in major cities, plus remote payables management across India.</p>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Accounts Payable Outsourcing Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for accounts payable outsourcing in these cities.</p>
             
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid">
-                    <a href="/accounts-payable-outsourcing-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/accounts-payable-outsourcing-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/accounts-payable-outsourcing-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                    <a href="/accounts-payable-outsourcing-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for AP Outsourcing</div>
-                <div class="pa-cross-grid"><a href="/accounting-bookkeeping-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting &amp; Bookkeeping Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/tds-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/payroll-processing-and-management-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Processing and Management</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/udyam-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Udyam Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 2 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">2 June 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 2 December 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed every six months for accuracy on MSME and TDS compliance and service details (Freshness Tier 2).</p>
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
 
 
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2182,8 +1137,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2193,8 +1148,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2275,7 +1230,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2285,34 +1240,33 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-        function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
 
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
         $(slider).slick({
@@ -2322,12 +1276,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2343,7 +1298,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2358,7 +1313,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2389,7 +1344,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2438,9 +1393,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2580,7 +1533,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2610,7 +1563,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-     var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2630,7 +1582,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2708,7 +1660,7 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
@@ -2717,55 +1669,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2803,9 +1724,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

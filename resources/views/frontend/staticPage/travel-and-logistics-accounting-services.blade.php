@@ -1,1089 +1,293 @@
-
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Travel & Logistics Accounting - Freight, GST & Compliance</title>
-    <meta name="description" content="Accounting for logistics and transport companies in India. GST on freight, GTA compliance, RCM management, e-way bill support, and ITR filing from Rs. 2,999 per month.">
-    <link rel="canonical" href="/travel-and-logistics-accounting-services">
+    <title>Travel Agency and Logistics: Scope, Fees and Process | Patron Accounting</title>
+    <meta name="description" content="Trip-wise and lane-wise margin, not a single freight revenue line. See the numbers while they can still change something. Download the checklist.">
+    <link rel="canonical" href="https://www.patronaccounting.com/travel-and-logistics-accounting-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Travel & Logistics Accounting - Freight, GST & Compliance">
-    <meta property="og:description" content="Accounting for logistics and transport companies in India. GST on freight, GTA compliance, RCM management, e-way bill support, and ITR filing from Rs. 2,999 per month.">
-    <meta property="og:url" content="/travel-and-logistics-accounting-services">
+    <meta property="og:title" content="Travel Agency and Logistics: Scope, Fees and Process | Patron Accounting">
+    <meta property="og:description" content="Trip-wise and lane-wise margin, not a single freight revenue line. See the numbers while they can still change something. Download the checklist.">
+    <meta property="og:url" content="https://www.patronaccounting.com/travel-and-logistics-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/travel-and-logistics-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/travel-and-logistics-accounting-services-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Travel & Logistics Accounting - Freight, GST & Compliance">
-    <meta name="twitter:description" content="Accounting for logistics and transport companies in India. GST on freight, GTA compliance, RCM management, e-way bill support, and ITR filing from Rs. 2,999 per month.">
-    <meta name="twitter:image" content="/images/travel-and-logistics-accounting-services-og.webp">
+    <meta name="twitter:title" content="Travel Agency and Logistics: Scope, Fees and Process | Patron Accounting">
+    <meta name="twitter:description" content="Trip-wise and lane-wise margin, not a single freight revenue line. See the numbers while they can still change something. Download the checklist.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/travel-and-logistics-accounting-services-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services/#service",
+  "name": "Travel Agency and Logistics Accounting Services",
+  "description": "Travel agency accounting reports margin trip by trip and lane by lane rather than as one freight revenue line. Pure-agent recoveries are separated by Patron under Rule 33, so GST applies to your commission alone.",
+  "image": "https://www.patronaccounting.com/images/travel-and-logistics-accounting-services-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Travel and Logistics Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Travel Agency and Logistics Accounting Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
           "@type": "Service",
-          "name": "Logistics and Transport Accounting Services",
-          "description": "Accounting for logistics and transport companies in India. GST on freight, GTA compliance, RCM management, e-way bill support, and ITR filing from Rs. 2,999 per month.",
-          "url": "/travel-and-logistics-accounting-services",
-          "serviceType": "Logistics and Transport Accounting Services",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
-          }
+          "name": "Travel Agency and Logistics Accounting Services",
+          "description": "Travel agency accounting reports margin trip by trip and lane by lane rather than as one freight revenue line. Pure-agent recoveries are separated by Patron under Rule 33, so GST applies to your commission alone.",
+          "serviceType": "Travel and Logistics Accounting Service"
         },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Logistics and Transport Accounting Services",
-              "item": "/travel-and-logistics-accounting-services"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is a Goods Transport Agency (GTA) under GST?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A Goods Transport Agency (GTA) is any person who provides a service in relation to the transportation of goods by road and issues a consignment note (LR or GR). This definition was updated by Notification No. 16/2025-Central Tax (Rate) dated 16th July 2025. The consignment note is the critical document that distinguishes a GTA from a regular transporter. GTA services are a composite supply including the principal transport and ancillary services like loading, unloading, packing, and temporary warehousing at the same GST rate."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the GST rate on freight charges for GTA services in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "GST on GTA road freight depends on the mechanism chosen. Under RCM (default for specified recipients), the recipient pays 5% GST and the GTA pays nothing. If the GTA opts for forward charge, it can choose 5% without ITC or 18% with full ITC. The 18% option is favourable for GTAs with high input costs (fuel, maintenance, tyres) as they can claim ITC. Air freight attracts 18% GST. Rail freight for general cargo attracts 5%. Export freight (air and sea) is zero-rated."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the Reverse Charge Mechanism (RCM) for transport companies?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Under RCM for GTA services, the liability to pay GST shifts from the GTA (service provider) to the recipient. This applies when the recipient is a registered factory, body corporate, partnership firm, or any other registered GST taxpayer liable to pay freight. The recipient pays 5% GST directly through GSTR-3B and can claim ITC if the transport is for business purposes. GTAs operating exclusively under RCM are not required to register under GST even if turnover exceeds the threshold."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the e-way bill threshold limit in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "An e-way bill must be generated for goods movement when consignment value exceeds Rs 50,000 per invoice or delivery challan. This applies to both inter-state and intra-state movements. Some states have higher intra-state limits - for example, Jharkhand has set Rs 1,00,000. E-way bills must be generated before goods are moved. Validity is 1 day per 200 km of travel distance. The E-Way Bill 2.0 Portal launched July 2025 runs in parallel with the main portal."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is Section 44AE presumptive taxation for transport businesses?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Section 44AE of the Income Tax Act provides a simplified scheme for small goods vehicle operators owning up to 10 vehicles at any time during the year. Profit is presumed at Rs 1,000 per tonne of gross vehicle weight per month for heavy goods vehicles (over 12 tonnes) and Rs 7,500 per vehicle per month for light goods vehicles. No detailed books of accounts are required, making it ideal for small fleet operators."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is TDS applicable on freight payments to truck owners?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. TDS under Section 194C is deductible at 1% for individual/HUF transporters and 2% for companies. TDS applies on single payments above Rs 30,000 or aggregate payments above Rs 1,00,000 per year. An important exemption under Section 194C(6): no TDS is required if the transporter provides their PAN and owns 10 or fewer goods carriages - covering most small fleet owner-operators."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does a GTA need to register under GST?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A GTA is exempt from mandatory GST registration if it exclusively provides services where the entire GST liability is paid by the recipient under RCM. If a GTA opts for forward charge (5% or 18%), it must register, file monthly GSTR-1 and GSTR-3B, and issue GST-compliant tax invoices. The forward charge election must be made at the start of the financial year and cannot be changed during the year."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What are the common GST exemptions for transport services in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Road transport exemptions include: agricultural produce, milk, salt, food grains, newspapers, defence materials, and relief materials. Small shipment exemptions: freight below Rs 1,500 per consignment or below Rs 750 per single consignee per journey. Export freight (air and sea) is zero-rated. Passenger transport exemptions include non-AC sleeper class rail, metro, and rural non-motorised transport. Quick Answers What is logistics accounting? Logistics accounting is specialist financial management for transport companies covering GTA GST compliance (RCM/forward charge), e-way bill management under Section 68 CGST Act, fleet depreciation, driver payroll with Section 194C TDS, and ITR filing with Section 44AE presumptive taxation. What is a consignment note? A consignment note (LR or GR) is the document issued by a GTA that distinguishes it from a regular transporter under GST. It is the trigger for RCM or forward charge GST treatment and must accompany every freight transaction. What is the F and B cost benchmark for transport companies? For transport, the key cost benchmark is fuel as a percentage of revenue - typically 35%-45%. Patron Accounting tracks fuel cost per km, per trip, and per vehicle monthly against industry benchmarks."
-              }
-            }
-          ]
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-      ]
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Travel & Logistics Accounting",
+      "item": "https://www.patronaccounting.com/travel-and-logistics-accounting-services"
     }
-    </script>
+  ],
+  "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is accounting done for a travel agency in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The first decision is whether you bill as an agent or as a principal, because that changes both revenue recognition and GST treatment. Agents record only commission as income, while tour operators selling packages record the gross package value. Supplier bookings, customer advances, refunds and cancellation charges each need their own ledger so per-booking margin stays visible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What records must a travel agency maintain for GST and income tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Keep booking-wise invoices, supplier bills from airlines, hotels and consolidators, credit notes for cancellations, commission statements, foreign exchange documents for outbound travel and a customer advance register. GST law requires these to be preserved for the period the Act prescribes, and the same set supports income tax assessment. We maintain them monthly rather than at year end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can travel agency accounting be handled in Tally?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tally works well once cost centres are set up per booking or per branch and separate ledgers exist for supplier payables, customer advances and commission income. GST rate masters need care, because commission, packages and air ticketing are not treated alike. Agencies with high booking volume usually move to Zoho Books for easier reconciliation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is GST treated on tour packages compared with air ticket commission?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The two follow different valuation rules, so they must be invoiced and recorded separately instead of being lumped into one line. Package sales, air ticket commission and hotel bookings each carry their own taxable value basis and input credit position. We map every revenue stream to its correct treatment and document it, since this is a common notice trigger."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should a transport business pay GST under forward charge or reverse charge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A goods transport agency can either remain under reverse charge, where the recipient pays the tax, or opt for forward charge by filing the prescribed declaration, which opens input credit on trucks, fuel and spares. The option applies for the financial year and cannot be switched midway. We model both positions on your actual cost structure first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you account for pure agent recoveries billed to customers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Amounts collected purely as reimbursement on behalf of a customer stay outside taxable value only where every pure agent condition in the GST valuation rules is satisfied and the supplier invoice names the customer. Otherwise the whole amount becomes taxable. We test each recovery type once, document the position and then apply it consistently across billings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you track profitability per trip, per vehicle or per route?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Cost centres are set up so fuel, driver wages, tolls, FASTag, maintenance and loan EMIs are captured per vehicle, with revenue tagged per trip or route. You receive a monthly contribution statement showing which routes and vehicles actually earn. Most operators discover two or three loss-making routes they had never separated out before."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle driver advances, cash expenses and fuel bills on the road?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drivers receive an advance against a numbered voucher, and every settlement is matched to fuel, toll and repair bills within a fixed cycle, usually 7 days from trip completion. Unsupported cash spends sit in a suspense ledger and are reported monthly. Cash payments above the limit allowed under the Income Tax Act are flagged before booking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does accounting for a travel or logistics business cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A single-location travel agency, or a fleet of up to 20 vehicles, usually pays Rs 10,000 to Rs 18,000 a month covering bookkeeping, GST returns, TDS and monthly MIS. Multi-branch agencies, larger fleets and per-vehicle profitability reporting move the fee higher. Annual filings, audit support and e-way bill reconciliation are quoted separately from this."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you reconcile e-way bills and vendor GST data for logistics companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. E-way bill data is reconciled against sales invoices and against GSTR-1 every month, so mismatches get corrected before the department raises them. On the purchase side, vendor invoices are matched to GSTR-2B before credit is claimed. Transport operators are scrutinised frequently, so this reconciliation forms part of the standard monthly scope."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services",
+  "name": "Travel Agency and Logistics Accounting Services",
+  "description": "Trip-wise and lane-wise margin, not a single freight revenue line. See the numbers while they can still change something. Download the checklist.",
+  "url": "https://www.patronaccounting.com/travel-and-logistics-accounting-services",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/travel-and-logistics-accounting-services-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/travel-and-logistics-accounting-services-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column  -  right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T)  -  Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION  -  Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot  -  Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
-<!-- HERO SECTION -->
+
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">Travel and Logistics Accounting Services</span></li>
+        </ol>
+    </div>
+</nav>
+
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1095,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Logistics and Transport Accounting Services for Companies in India
+                        Travel Agency and Logistics Accounting Services
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1104,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">15 January 2024</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>GTA GST Compliance:</span> RCM vs. forward charge election, correct rate application (5% or 18%), and return filing</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Recoveries kept out of turnover:</span> We keep amounts collected on a customer's behalf, from airfare to port charges, out of your own billing value.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>E-Way Bill Management:</span> Generation, validity tracking, 2FA compliance, and E-Way Bill 2.0 portal integration from July 2025</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Job margin released when closed:</span> We hold your bookings and freight jobs in a job-wise ledger until the trip or lane is complete.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Freight Reconciliation:</span> Consignment note accounting, multi-trip ledger management, and driver settlement tracking</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Driver advances that come back:</span> We close every trip sheet against the advance drawn, covering diesel, toll, loading, detention and batta actually spent.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>ITR for Transport Firms:</span> Section 44AE presumptive taxation, depreciation on fleet assets, and advance tax planning</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Hired truck deductions properly supported:</span> We process attached and market vehicle bills only against the small transporter declaration that removes the deduction obligation.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">300+ transport and logistics companies served | 4.8 star rating | Pan-India service</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Logistics%20Accounting&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20logistics%20accounting%20support.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Travel%20and%20Logistics%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Travel%20and%20Logistics%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20Logistics%20and%20Transport%20Accounting.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20travel%20and%20logistics%20accounting%20services" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1166,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1196,7 +398,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Logistics and Transport Accounting'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Travel and Logistics Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1239,15 +441,13 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="travel-and-logistics-accounting-services" selected>Logistics and Transport Accounting</option>
-                                <option value="gst-registration">GST Registration</option>
-                                <option value="gst-returns">GST Returns</option>
-                                <option value="income-tax-return">Income Tax Return Filing</option>
-                                <option value="tds-return-filing">TDS Return Filing</option>
-                                <option value="tax-audit">Tax Audit</option>
-                                <option value="payroll-services-for-travel-and-logistics-industry">Logistics Payroll</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="other">Other</option>
+                                <option value="travel-and-logistics-accounting-services" selected>Travel and Logistics Accounting</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1277,101 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We run 28 trucks across Maharashtra and Gujarat. Understanding which trips fell under RCM vs forward charge was a constant headache. Patron Accounting set up our entire GTA GST structure correctly from day one and handles all our state-wise compliance.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">FO</div>
-        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Fleet Owner</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Transport Company, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our courier business was getting notices for incorrect e-way bill compliance. After engaging Patron Accounting, they set up a proper monthly reconciliation process and got us fully compliant within 60 days.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CD</div>
-        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Courier Director</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Express Delivery, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Section 44AE presumptive tax was something no other CA explained to us clearly. Patron Accounting showed us how much we could save by opting in, and now our ITR filing is straightforward every year.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">TP</div>
-        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Transport Proprietor</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Truck Operator, Nagpur</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Managing TDS under Section 194C for 40+ sub-contractor drivers was a nightmare. Patron Accounting set up an automated system, verifies PAN for the 194C(6) exemption, and files our 26Q returns on time every quarter.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">LM</div>
-        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Logistics Manager</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">3PL Company, Delhi NCR</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our freight forwarding business handles road, rail, and air cargo. Each mode has different GST rates. Patron's team classified everything correctly and our GST returns have been error-free for 2 years.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">FF</div>
-        <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Ajay Patel</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Freight Forwarder, Ahmedabad</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">5 months ago</div>
-    </div>
-</div>
 
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get expert GTA GST, e-way bill, and fleet accounting support for your transport business.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
 
-<!-- STATS BAR -->
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1397,131 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
+            
             <a href="#overview-section" class="toc-btn active">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is It</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">GTA GST</a>
-            <a href="#procedure-section" class="toc-btn">Process</a>
-            <a href="#documents-section" class="toc-btn">Fleet and Payroll</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
-            <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Calendar</a>
-            <a href="#benefits-section" class="toc-btn">Why Us</a>
-            <a href="#comparison-section" class="toc-btn">GST Rates</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Logistics and Transport Accounting Services - Overview</h2>
+            <h2 class="section-title">What Travel and Logistics Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Logistics and Transport Accounting Services at a Glance</strong></p>
-                    <p>Logistics and transport companies in India must navigate GTA GST (RCM vs forward charge), e-way bill compliance under Section 68 CGST Act, fleet depreciation, driver payroll with Section 194C TDS, and Section 44AE presumptive taxation. Patron Accounting provides specialist CA services from Rs 2,999 per month.</p>
+                    <p><strong>&#128204; TL;DR - Travel and Logistics Accounting Services at a Glance</strong></p>
+                    <p>Travel agency accounting reports margin trip by trip and lane by lane rather than as one freight revenue line. Pure-agent recoveries are separated by Patron under Rule 33, so GST applies to your commission alone. Agent and airline settlements are reconciled monthly, with route costing kept beside the statutory books. Works well for travel agencies, freight forwarders and fleet operators.</p>
                 </div>
-                <p>India's logistics and transport sector operates under one of the most complex GST frameworks in any industry - Goods Transport Agencies (GTAs) must navigate the Reverse Charge Mechanism (RCM), forward charge elections, multi-modal freight GST rates, mandatory e-way bill compliance, and income tax obligations unique to the sector.</p>
-                <p>Whether you run a small fleet of trucks, a pan-India 3PL operation, a freight forwarding company, or a courier business, Patron Accounting LLP delivers specialist accounting, GST compliance, and tax filing services built specifically for logistics and transport businesses.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Money arrives ahead of the service in this trade. A customer pays for a booking weeks before departure, the airline or consolidator settles later at a net figure, and a freight job is invoiced when the container moves but costed only once demurrage and detention are known. Patron parks all of it in a job-wise ledger until the trip or lane closes, then releases the margin. How operators choose their GST route matters here.</p>
+                <p>Treat a recovery as your own revenue and tax is paid on money that was never yours. Scope for logistics accounting services follows the count of jobs, agents and settlement statements handled each month, and each additional branch raising them. Job costing, reconciliation and the pure-agent split are included. Returns submitted to the government GST portal and audit representation are separate engagements.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What is Logistics and Transport Accounting?</h2>
+                <h2 class="section-title">What Is Travel and Logistics Accounting?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Logistics and transport accounting is the specialist practice of recording, managing, and reporting financial transactions for businesses involved in the movement of goods by road, rail, air, or sea.</p>
-                    <p>Unlike general business accounting, transport accounting must handle per-trip revenue and cost tracking, fleet asset depreciation, driver payroll with per-diem allowances, Reverse Charge Mechanism (RCM) GST on freight, consignment note compliance, e-way bill reconciliation, and tax planning specific to Goods Transport Agencies (GTAs).</p>
-                    <p>For Indian logistics businesses, professional accounting covers five core areas: GTA GST compliance (RCM vs forward charge), e-way bill management under Section 68 CGST Act, fleet and asset accounting, payroll and driver settlements with Section 194C TDS, and ITR filing with Section 44AE presumptive taxation.</p>
+                    <p>Each trip or freight job, with its own fares, hire, fuel and settlement, is the unit this work is built on. Travel agency accounting is the service that keeps a job-wise ledger over it. It holds every booking or consignment in that ledger while a trip or lane is still running, releasing the margin only once the job closes. A booking still awaiting departure is treated as a liability until the service is delivered.</p>
+<p>Airline, agent and aggregator settlements are reconciled each month, matching gross billing to the net figure finally remitted. It separates pure-agent recoveries from fees, so tax attaches only to your own commission and not to money passing through. Logistics accounting services here also cost each route and vehicle beside the statutory books. Demurrage and detention are held against the job until the final figure is known. Travel agency accounting stays with job costing and reconciliation; the GST returns and any assessment are handled by other teams.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Logistics and Transport Accounting:</strong></p>
-                    <ul>
-                        <li><strong>Goods Transport Agency (GTA):</strong> Any person providing goods transport by road who issues a consignment note - definition updated by Notification No. 16/2025-CT(Rate)</li>
-                        <li><strong>Reverse Charge Mechanism (RCM):</strong> GST liability shifts from GTA to the recipient; recipient pays 5% GST and can claim ITC for business use</li>
-                        <li><strong>E-Way Bill:</strong> Mandatory electronic document under Section 68 CGST Act for goods movement above Rs 50,000; validity 1 day per 200 km</li>
-                        <li><strong>Consignment Note (LR/GR):</strong> Document that distinguishes a GTA from regular transporter and triggers specific GST provisions</li>
-                        <li><strong>Section 44AE:</strong> Presumptive taxation for operators owning up to 10 goods vehicles - Rs 1,000 per tonne per month (heavy) or Rs 7,500 per vehicle per month (light)</li>
-                        <li><strong>Section 194C TDS:</strong> TDS on contractor freight payments at 1% (individual/HUF) or 2% (company) on payments above Rs 30,000 per contract</li>
-                    </ul>
+                    <p><strong>Key Terms for Travel and Logistics Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/goods-transport-agency-gta-rcm">Goods Transport Agency (GTA) RCM</a></span><span class="al-d">Rule making the customer, not the transporter, pay the GST.</span></li><li><span class="al-t"><a href="/glossary/trip-wise-profit-and-loss-statement">Trip-Wise Profit and Loss Statement</a></span><span class="al-d">Profit worked out for each individual trip rather than the whole fleet.</span></li><li><span class="al-t"><a href="/glossary/fuel-fleet-card-reconciliation">Fuel Fleet Card Reconciliation</a></span><span class="al-d">Matching fuel-card statements to actual vehicle fuelling and expense records.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- GTA tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">GTA</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Logistics and Transport Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Sector-Specialist</span>
-                        <strong>GTA and Fleet Accounting Expert</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/what-is.webp" alt="What Is Travel and Logistics Accounting. Each trip or freight job, with its own fares, hire, fuel and settlement, is" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Logistics and Transport Accounting Services</h2>
+            <h2 class="section-title">Who Needs Travel and Logistics Accounting in India?</h2>
             <div class="content-text">
                 
-                <p>Any business in India involved in the movement of goods requires specialist accounting support:</p>
-                <ul>
-                    <li>Goods Transport Agencies (GTAs) - issuing consignment notes and transporting goods by road</li>
-                    <li>Fleet owners and truck operators - managing single vehicles to large multi-state fleets</li>
-                    <li>Third-party logistics (3PL) companies - warehousing, distribution, and last-mile delivery</li>
-                    <li>Freight forwarders - coordinating multi-modal shipments including road, rail, air, and sea</li>
-                    <li>Courier companies - domestic and international parcel delivery subject to 18% GST</li>
-                    <li>Cold chain operators - refrigerated transport with additional compliance requirements</li>
-                    <li>E-commerce logistics providers - last-mile delivery partners for Amazon, Flipkart, and Meesho</li>
-                    <li>Import and export logistics firms - customs duty, IGST on imports, and zero-rated export freight</li>
-                </ul>
+                <p>Travel agency accounting and logistics accounting sit together because both trades bill and settle out of step. On one side, travel agents, tour operators and ticketing desks. On the other, freight forwarders, goods transporters and fleet owners. Each needs profit seen at the level of a single trip or booking.</p>
+  <ul>
+    <li>Freight forwarders invoicing a container job that can only be costed once demurrage and detention land.</li>
+    <li>Fleet operators running owned and hired trucks who need <a href="/blog/trip-wise-profitability-logistics">cost measured vehicle by vehicle</a>.</li>
+    <li>Goods transport agencies issuing consignment notes and deciding the charge mechanism customer by customer.</li>
+    <li>Travel agencies collecting the full fare weeks before departure, then settled net by the airline.</li>
+    <li>Tour operators selling overseas packages where <a href="/blog/tcs-on-overseas-tour-packages">TCS falls on the amount collected</a> from the traveller.</li>
+    <li>Transporters hiring market vehicles who must gather PAN declarations to support the lower deduction.</li>
+    <li>Operators running warehousing and CFS handling beside movement, billing storage and demurrage.</li>
+    <li>Ticketing and IATA agents earning commission that must be split from fare passed to the airline.</li>
+  </ul>
 
             </div>
             </div>
@@ -1529,22 +595,23 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">GST for Goods Transport Agencies (GTA) - Rates, RCM, and Forward Charge</h2>
+            <h2 class="section-title">Our Travel and Logistics Accounting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>RCM (Default) - Road GTA</td><td>5% GST - paid by registered recipient; GTA does not need GST registration if exclusively under RCM</td></tr>
-                        <tr><td>Forward Charge - Concessional</td><td>5% GST - paid by GTA; no ITC available; irrevocable annual election</td></tr>
-                        <tr><td>Forward Charge - Standard (GTA Opts In)</td><td>18% GST - paid by GTA; full ITC available on fuel, maintenance, tyres, tolls; annual election before FY starts</td></tr>
-                        <tr><td>GTA Exemptions</td><td>Agricultural produce, milk, salt, food grains, newspapers, defence materials; freight below Rs 1,500 per consignment or Rs 750 per single consignee per journey</td></tr>
-                        <tr><td>E-Way Bill Requirement</td><td>Mandatory for goods above Rs 50,000 per consignment under Section 68 CGST Act and Rule 138; validity 1 day per 200 km</td></tr>
-                        <tr><td>ITC for Mixed Hotels... (not applicable)</td><td>For hotels with mixed rates, see our <a href="/hospitality-sector-accounting-services">Hospitality Accounting</a> page</td></tr>
+                        <tr><td>Consignment note and e-way bill control</td><td>Serially numbered lorry receipts and e-way bills tracked against invoices, with cancelled notes accounted, keeping your consignment series under control <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Trip settlement and driver advance accounting</td><td>Driver advances settled against trip sheets for diesel, toll and detention, so trip margins are released only when each trip closes <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Trip-wise profit and loss reporting</td><td>Revenue and cost captured per trip and vehicle to deliver <a href="/blog/trip-wise-profitability-logistics">trip-wise profitability accounting</a> that shows which routes and vehicles earn <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>GTA and RCM position accounting</td><td>Customer-wise reverse charge or forward charge position on GTA freight documented and applied, with the annual forward-charge option recorded for logistics accounting services <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Vehicle cost and compliance tracking</td><td>Fuel, FASTag, tyre and repair costs pooled per vehicle alongside insurance, permit and fitness validity, showing each vehicle earning against its cost <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Hired truck deduction and PAN declarations</td><td>Attached and market-vehicle hire bills accounted with Section 194C(6) PAN declarations captured, so hired truck deductions are properly supported <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Travel booking and commission accounting</td><td>Air, hotel and tour bookings valued correctly with <a href="/blog/travel-agent-commission-tds">agent commission</a>s and recoveries separated from turnover, delivering reliable travel agency accounting <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1554,119 +621,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">Our 8-Step Logistics Accounting Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">From onboarding and vehicle setup through to ITR filing, our structured process ensures complete GST, e-way bill, TDS, and income tax compliance for your transport business.</p>
+            <h2 class="section-title">How Travel and Logistics Accounting Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers <a href="/blog/gta-gst-5-rcm-vs-12-itc">travel and logistics accounting</a>, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Onboarding</h3><p class="step-description">Share fleet details, LR books, GST logins, bank statements, and e-way bill portal access. We review your GTA classification and current compliance status.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Fleet details shared</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GTA status reviewed</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="30" x2="90" y2="30" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="30" y1="45" x2="75" y2="45" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><path d="M85 55l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Onboarded</span><span class="step-number-large">01</span></div></div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Consignment note series control</h3>
+    <p class="step-description">Lorry receipts are accounted as a controlled serial series, issued, used and cancelled, with each one tied to the freight bill it supports. The consignment note is what makes the movement a transport agency service, so gaps in the series are chased.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/step-1-consignment-note-series-control.webp" alt="Illustration for Consignment note series control: Lorry receipts are accounted as a controlled serial series, issued, used" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Vehicle and Route Setup</h3><p class="step-description">We configure vehicle-wise cost centres in accounting software aligned with your fleet, route assignments, and driver roster.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Cost centres configured</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Routes mapped</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="35" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="65" y="15" width="35" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="55" y1="42" x2="65" y2="42" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><circle cx="37" cy="42" r="10" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><circle cx="82" cy="42" r="10" fill="#E8F5E9" stroke="#10B981" stroke-width="1"/></svg></div><span class="illustration-label">Fleet Setup</span><span class="step-number-large">02</span></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Setting the charge mechanism customer-wise</h3>
+    <p class="step-description">For each customer we record whether tax on the transport service is paid by them under reverse charge or by you under forward charge. We also record whether the forward-charge option was validly exercised for the year, then check that invoice wording matches that position.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/step-2-setting-the-charge-mechanism-customer-wise.webp" alt="Illustration for Setting the charge mechanism customer-wise: For each customer we record whether tax on the transport" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Monthly Bookkeeping</h3><p class="step-description">All consignment notes, freight invoices, fuel bills, toll receipts, and sub-contractor payments recorded daily.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> LR notes recorded</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Fuel costs tracked</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="5" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="25" x2="90" y2="25" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><line x1="30" y1="38" x2="80" y2="38" stroke="#14365F" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/><line x1="30" y1="50" x2="70" y2="50" stroke="#14365F" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/><line x1="30" y1="62" x2="60" y2="62" stroke="#14365F" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/></svg></div><span class="illustration-label">Books Updated</span><span class="step-number-large">03</span></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Settling trips and driver advances</h3>
+    <p class="step-description">Each trip sheet is closed against the advance drawn: diesel, toll, loading and unloading, detention and driver batta actually incurred. Unsettled advances are aged by driver so cash on the road does not quietly become an unrecoverable balance.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/step-3-settling-trips-and-driver-advances.webp" alt="Illustration for Settling trips and driver advances: Each trip sheet is closed against the advance drawn: diesel, toll," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">E-Way Bill Reconciliation</h3><p class="step-description">Monthly reconciliation of e-way bills generated vs invoices issued to identify discrepancies and ensure Section 68 compliance.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> E-way bills matched</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Discrepancies flagged</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="20" y="10" width="80" height="16" rx="6" fill="#14365F"/><rect x="30" y="35" width="15" height="25" rx="2" fill="#10B981" opacity="0.6"/><rect x="52" y="40" width="15" height="20" rx="2" fill="#F5A623" opacity="0.6"/><rect x="74" y="32" width="15" height="28" rx="2" fill="#10B981" opacity="0.6"/></svg></div><span class="illustration-label">E-Way Reconciled</span><span class="step-number-large">04</span></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Hired truck deduction declarations</h3>
+    <p class="step-description">Bills from attached and market vehicles are processed against the small-transporter declaration and identification number that removes the deduction obligation. Missing declarations are collected before payment, and the payments are still reported in the return.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/step-4-hired-truck-deduction-declarations.webp" alt="Illustration for Hired truck deduction declarations: Bills from attached and market vehicles are processed against the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">GST Return Filing</h3><p class="step-description">GSTR-1 and GSTR-3B filed monthly with correct RCM and forward charge treatment for all GTA transactions.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-1 and 3B filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> RCM correctly applied</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="15" width="80" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="48" font-size="14" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><path d="M82 55l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">GST Filed</span><span class="step-number-large">05</span></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Matching e-way bills to invoices</h3>
+    <p class="step-description">E-way bills generated are matched to the invoices and consignment notes behind them, including the vehicle-update entries made in transit. Bills generated but never billed, or expired without closure, are listed and explained.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/step-5-matching-e-way-bills-to-invoices.webp" alt="Illustration for Matching e-way bills to invoices: E-way bills generated are matched to the invoices and consignment notes" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">TDS Compliance</h3><p class="step-description">Monthly TDS deduction on contractor payments under Section 194C, quarterly 26Q returns, and Form 16A issuance to sub-contractors.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TDS deducted monthly</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 26Q filed quarterly</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="40" r="25" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="38" font-size="9" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">194C</text><text x="60" y="48" font-size="8" fill="#F5A623" font-weight="600" text-anchor="middle" font-family="Arial">TDS</text></svg></div><span class="illustration-label">TDS Compliant</span><span class="step-number-large">06</span></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Cost and validity per vehicle</h3>
+    <p class="step-description">Fuel, toll tag, tyre and repair spend is pooled vehicle by vehicle and read against kilometres and revenue to give cost per vehicle. Registration, insurance, permit and fitness expiry dates are tracked alongside, since a lapsed document stops the asset earning.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/step-6-cost-and-validity-per-vehicle.webp" alt="Illustration for Cost and validity per vehicle: Fuel, toll tag, tyre and repair spend is pooled vehicle by vehicle and read" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 7</span><h3 class="step-title">Financial Reporting</h3><p class="step-description">Vehicle-wise P and L, cash flow statement, and fleet performance report delivered by 10th of every month.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Fleet P and L ready</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Cash flow reported</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="45" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="65" y="10" width="45" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="22" y1="30" x2="52" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><line x1="72" y1="30" x2="102" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/></svg></div><span class="illustration-label">Reports Ready</span><span class="step-number-large">07</span></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Valuing travel bookings correctly</h3>
+    <p class="step-description">On the travel desk, we establish whether you are billing a commission on bookings, an agent's value determined on the prescribed basis, or an inclusive tour price. That choice decides both the taxable value and whether input credit on bought-in services is available.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/travel-and-logistics-accounting-services/step-7-valuing-travel-bookings-correctly.webp" alt="Illustration for Valuing travel bookings correctly: On the travel desk, we establish whether you are billing a commission on" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content"><span class="step-badge">Step 8</span><h3 class="step-title">ITR Filing</h3><p class="step-description">Annual income tax return with Section 44AE or 44AB treatment, fleet depreciation, and all TDS credit claims optimised.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITR filed with credits</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Depreciation claimed</span></div>
-    </div>
-    <div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="10" width="70" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="37" r="20" fill="#E8F5E9" stroke="#10B981" stroke-width="2"/><path d="M50 37l7 7 14-14" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">ITR Complete</span><span class="step-number-large">08</span></div></div>
-</div>
-
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Fleet Accounting, Bookkeeping, and Driver Payroll Compliance</h2>
+            <h2 class="section-title">Documents Required for Travel and Logistics Accounting</h2>
             <div class="content-text">
                 
-                <h3>Fleet and Asset Accounting</h3>
-                <ul>
-                    <li>Vehicle-wise profit and loss tracking: revenue per truck minus fuel, driver wages, maintenance, tolls, and insurance</li>
-                    <li>Fixed asset register with depreciation rates under Income Tax Act and Companies Act</li>
-                    <li>Fuel cost management: fuel card reconciliation, mileage logs, and per-km cost benchmarking</li>
-                    <li>Tyre and parts inventory accounting: spares, replacements, and capitalisation vs expense decisions</li>
-                    <li>Toll and highway charge reconciliation: FastTag statements reconciled with trip records</li>
-                    <li>Loan EMI and vehicle finance: interest vs principal separation and balance sheet presentation</li>
-                    <li>Fleet disposal accounting: capital gains on vehicle sale, GST on used commercial vehicles</li>
-                </ul>
-                <h3>Consignment Note and Freight Invoice Management</h3>
-                <p>Every GTA transaction must be supported by a consignment note (LR or GR). Patron Accounting records freight revenue per consignment, reconciles LR numbers with client payments, and manages accounts receivable for outstanding freight collections.</p>
-                <h3>Driver Payroll and Contractor Compliance</h3>
-                <ul>
-                    <li>Full-time driver wages with PF, ESI, professional tax, and per-diem allowances (partially tax exempt)</li>
-                    <li>Section 194C TDS on sub-contractor payments: 1% for individual/HUF, 2% for companies; applicable above Rs 30,000 per contract or Rs 1,00,000 aggregate per year</li>
-                    <li>Section 194C(6) exemption: no TDS if transporter provides PAN and owns 10 or fewer goods carriages</li>
-                    <li>Section 194T TDS at 10% on partner remuneration in LLP-structured logistics businesses (effective April 2025)</li>
-                </ul>
-                <h3>Trip and Route-Wise Profitability</h3>
-                <p>We set up trip-wise cost allocation covering fuel, driver wages, tolls, vehicle depreciation, and maintenance so you know exactly which routes and clients are profitable and which are bleeding margins.</p>
+                <p>The consignment note is what the whole engagement hangs on, evidencing the service, the GST position and the customer&#x27;s claim in one document.</p>
+<ul>
+    <li>Consignment notes / lorry receipts (LR, bilty): serially numbered, issued and cancelled</li>
+    <li>E-way bills generated and the transporter&#x27;s Part-B / vehicle-update records</li>
+    <li>Trip sheets with driver advance vouchers and the trip settlement (diesel, toll, loading/unloading, detention)</li>
+    <li>Market-vehicle / attached-truck hire bills with Section 194C(6) PAN declarations from small transporters</li>
+    <li>Vehicle-wise fuel, FASTag/toll, tyre and repair statements plus vehicle documents (RC, insurance, permit, fitness, hypothecation)</li>
+    <li>Warehouse and CFS storage, handling and demurrage bills, and the record of goods handled for clients</li>
+    <li>RCM position paper: customer-wise declarations of whether GST on the GTA service is paid by the recipient or under forward charge, plus the annual forward-charge option filing</li>
+    <li>Freight bills / service invoices raised on customers, with the customer-wise rate contract</li>
+    <li>Bank statements, cash book and the branch cash imprest / petty-cash statements</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Key Accounting Challenges for Logistics and Transport Companies</h2>
+            <h2 class="section-title">Common Travel and Logistics Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>GTA classification confusion</td><td>Determining whether consignment note was issued and whether RCM or forward charge applies</td><td>Transaction-level GTA classification with RCM vs forward charge modelling before each FY</td></tr>
-                        <tr><td>Multi-state e-way bill compliance</td><td>Different intra-state thresholds, state-specific registrations, and ITC reconciliation across states</td><td>State-wise rule tracking and consolidated multi-GSTIN compliance management</td></tr>
-                        <tr><td>High invoice volumes</td><td>Hundreds of consignment notes, freight bills, and toll receipts per month</td><td>Daily bookkeeping with automated consignment note matching and bank reconciliation</td></tr>
-                        <tr><td>Driver cash advances</td><td>Unaccounted advances create receivable and payroll reconciliation issues</td><td>Structured advance tracking with trip-wise settlement and monthly reconciliation</td></tr>
-                        <tr><td>Section 194C TDS management</td><td>Correctly applying TDS on every sub-contractor payment and filing quarterly returns</td><td>Automated TDS deduction with PAN verification and quarterly 26Q filing</td></tr>
-                        <tr><td>Fleet depreciation complexity</td><td>Choosing tax-efficient depreciation for new and used vehicles in same fleet</td><td>Block-of-asset depreciation scheduling under IT Act with annual review</td></tr>
+                        <tr><td>Customer booking advances recognised as revenue before travel</td><td>Revenue overstated pre-departure, and refunds on cancellation reverse income already booked</td><td>Hold booking receipts as advance liability and recognise on the travel date, with a cancellation-refund provision</td></tr>
+                        <tr><td>IATA BSP settlements not matched to ticket sales</td><td>Airline dues and commission drift from the sales register, and unreconciled balances build up</td><td>Reconcile the BSP billing statement to ticket-wise sales each fortnight, so payables and commission tie out</td></tr>
+                        <tr><td>Demurrage and detention costs booked only when invoiced</td><td>Freight-job margin looks strong, then collapses when the port charge lands late</td><td>Accrue demurrage and detention against the job at close, so lane margin reflects true cost</td></tr>
+                        <tr><td>Driver imprest and fuel advances left unsettled on the ledger</td><td>Cash advances masquerade as expense, so trip cost and cash-in-hand both read wrong</td><td>Run imprest accounts settled against fuel and toll vouchers per trip, before cost is booked</td></tr>
+                        <tr><td>GTA freight under reverse charge posted as ordinary expense</td><td>The RCM liability and its credit go unrecorded, exposing interest on the shortfall</td><td>Flag <a href="/blog/gta-gst-5-rcm-vs-12-itc">GTA reverse charge under GST</a> bills, so the liability and matching credit both hit the books</td></tr>
 
                     </tbody>
                 </table>
@@ -1676,60 +741,57 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Logistics and Transport Accounting - Fees and Pricing 2026</h2>
+            <h2 class="section-title">Travel and Logistics Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 3,499 (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Starter</td><td>Rs 2,999/month (bookkeeping + GSTR-1 + GSTR-3B + e-way bill tracking; fleet up to 5 vehicles or turnover up to Rs 50 lakh)</td></tr>
-                        <tr><td>Growth</td><td>Rs 5,999/month (Starter + Section 194C TDS + driver payroll + fleet P and L + quarterly advance tax)</td></tr>
-                        <tr><td>Scale</td><td>Rs 9,999/month (Growth + multi-state GST + tax audit support + Section 44AE/44AB ITR + dedicated CA)</td></tr>
-                        <tr><td>Enterprise</td><td>Custom pricing (all compliance, export LUT/refund, multi-entity consolidation, audit, MIS dashboards)</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one entity with routine trips or consignments billed</td><td>INR 3,499 per month<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; higher trip or consignment volume across added branches</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-branch books with <a href="/blog/trip-wise-profitability-logistics">trip-wise profitability</a> and custom reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">Travel agency accounting and logistics books start at <strong>INR 3,499 per month</strong> for one entity with routine billing. Your fee tracks the trips or consignments billed each month and how many branches you run. Ask for a <strong>fixed quote</strong> on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Logistics and Transport Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20Logistics%20Accounting%20services%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Travel and Logistics Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20travel%20and%20logistics%20accounting%20services" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Logistics and Transport Compliance Calendar 2026</h2>
+            <h2 class="section-title">Travel and Logistics Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>7th of next month</td><td>TDS deposit for Section 194C contractor payments</td></tr>
-                        <tr><td>11th of next month</td><td>GSTR-1 (outward supply return - freight invoices)</td></tr>
-                        <tr><td>20th of next month</td><td>GSTR-3B with GST payment and RCM self-assessment</td></tr>
-                        <tr><td>31 July (quarterly)</td><td>TDS return 26Q for contractor payments (Q1)</td></tr>
-                        <tr><td>15 June (annual)</td><td>Advance tax - 15% of estimated annual liability</td></tr>
-                        <tr><td>31 July (annual)</td><td>ITR filing for non-audit cases (proprietors, HUFs)</td></tr>
-                        <tr><td>30 September (annual)</td><td>Tax audit Form 3CD (turnover above Rs 1 crore)</td></tr>
-                        <tr><td>31 October (annual)</td><td>ITR filing for audit cases - companies, LLPs</td></tr>
-                        <tr><td>31 December (annual)</td><td>GSTR-9 annual return (turnover above Rs 2 crore)</td></tr>
-                        <tr><td>31 March (annual)</td><td>GTA forward charge election filing for next FY</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Advance tax second instalment (45% cumulative)</td><td>15 September 2026</td><td>Companies, firms and individuals liable to advance tax</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Important:</strong> GTA forward charge election must be filed before March 31 for the following financial year and is irrevocable for the full year. GSTR-1 and GSTR-3B have strict monthly deadlines with Rs 50/day late fee. E-way bill non-compliance attracts penalty of Rs 10,000 or tax evaded, whichever is higher. Patron Accounting manages all calendars with advance reminders.</p>
+                    <p>For a travel or logistics firm the 20th GSTR-3B and the 7th TDS recur monthly, with the tax audit on 30 September. GTA supplies under reverse charge need care each return. Patron maps <a href="/blog/gta-gst-5-rcm-vs-12-itc">travel and logistics accounting</a> to these dates so RCM and ITC positions stay clean. Download the 2026 calendar or talk to a CA on +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1737,59 +799,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron Accounting for Logistics and Transport</h2>
+            <h2 class="section-title">Why Professional Travel and Logistics Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>GTA GST Expertise</h3><p>RCM vs forward charge modelling, annual election support, Notification No. 16/2025 compliance, and full return filing.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>E-Way Bill Management</h3><p>2FA setup, E-Way Bill 2.0 integration, state-wise threshold tracking, and monthly reconciliation vs invoices.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Section 44AE Specialists</h3><p>Presumptive taxation for fleets up to 10 vehicles - simplified and compliant ITR without detailed books.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Fleet Accounting</h3><p>Vehicle-wise P and L, depreciation scheduling, FastTag reconciliation, fuel cost benchmarking, and disposal accounting.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>TDS Compliance</h3><p>Section 194C contractor TDS with PAN verification, Section 194T partner TDS, and quarterly 26Q returns managed and filed.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3>Multi-State and Export Support</h3><p>State-wise GST registrations, consolidated reporting, LUT filing, zero-rated supply returns, and IGST refund claims.</p></article>
-        </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div>
+  <h3 class="feature-title">Recoveries kept out of turnover</h3>
+  <p class="feature-text">We keep amounts collected on a customer's behalf, from airfare to port charges, out of your own billing value.</p><ul style="margin-top:12px;"><li>Pure-agent recoveries separated under Rule 33 of the CGST Rules</li><li>Reported turnover then reflects the commission actually earned</li><li>Without it, inflated turnover distorts the ratios a banker reads</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" /> <path d="M15 18H9" /> <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" /> <circle cx="17" cy="18" r="2" /> <circle cx="7" cy="18" r="2" /> </svg></div>
+  <h3 class="feature-title">Job margin released when closed</h3>
+  <p class="feature-text">We hold your bookings and freight jobs in a job-wise ledger until the trip or lane is complete.</p><ul style="margin-top:12px;"><li>Demurrage and detention charged in before margin is recognised</li><li>Job-wise ledger tracks each booking and freight job to close</li><li>Without it, profit and its costs fall in different months</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="11" x="3" y="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 10 0v4" /> </svg></div>
+  <h3 class="feature-title">Driver advances that come back</h3>
+  <p class="feature-text">We close every trip sheet against the advance drawn, covering diesel, toll, loading, detention and batta actually spent.</p><ul style="margin-top:12px;"><li>Trip sheets settled against driver advance vouchers</li><li>Unsettled advances aged driver by driver</li><li>Without it, road cash becomes a balance nobody can recover</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Hired truck deductions properly supported</h3>
+  <p class="feature-text">We process attached and market vehicle bills only against the small transporter declaration that removes the deduction obligation.</p><ul style="margin-top:12px;"><li>Declaration relies on Section 194C(6) PAN declarations from the transporter</li><li>Payments still reported in the return</li><li>Without the declaration, thirty per cent of the cost can be disallowed</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Consignment note series under control</h3>
+  <p class="feature-text">We run your lorry receipts as a controlled serial series, each one tied to the freight bill behind it.</p><ul style="margin-top:12px;"><li>Serially numbered LR / bilty tracked as issued, used or cancelled</li><li>The consignment note evidences the movement and the customer's claim</li><li>Without control, a gap in the series is questioned first</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Vehicles earning against their cost</h3>
+  <p class="feature-text">You see which trucks pay for themselves and which are carried by the rest of the fleet.</p><ul style="margin-top:12px;"><li>Vehicle-wise fuel, FASTag, tyre and repair statements build the record</li><li>A renewal, sale or rate revision reads that vehicle's own record</li><li>Without it, a truck can run at a loss unmeasured for a year</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What Our Logistics Clients Say</h2>
-            <div class="content-text">
-                
-                <div class="highlight-box">
-                    <p><em>300+ transport and logistics companies served | 4.8 star rating | Pan-India service | Specialist CA team with GTA GST, e-way bill, RCM, and fleet accounting expertise</em></p>
-                </div>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Travel & Logistics Accounting</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Trip-wise and lane-wise margin, not one revenue line</strong><p>We measure margin trip by trip and lane by lane for freight operators, and fare by fare for travel agencies, rather than one revenue line. This trip-wise profitability view comes from 15+ years of experience.</p></div>
+                <div><strong>Pure-agent recoveries separated from principal supply</strong><p>We keep pure-agent recoveries, such as freight paid on a client's behalf, out of your taxable turnover, so GST applies only to your own margin. This is part of the 25,000+ filings we have completed.</p></div>
+                <div><strong>TMS and freight-billing systems reconciled into the ledger</strong><p>We set up the software your finance team already runs, whether Zoho Books, Xero, Tally Prime or Odoo, reconciling your TMS, freight-billing and travel booking systems into one ledger.</p></div>
+                <div><strong>Trip margin and agent reconciliation each month</strong><p>Every month you get trip and lane margin with airline and agent commission reconciliations settled, so closed jobs and net fares both tie out. Operators rate this 4.9 on Google.</p></div>
+                <div><strong>Freight and travel firms among 3,000+ served</strong><p>Freight forwarders, fleet operators and travel agencies sit among the 3,000+ businesses we have served since 2019. Our in-house team of CAs and CS brings 15+ years of experience and a 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">GST Rates Across All Transport Modes in India</h2>
+            <h2 class="section-title">GTA Forward Charge vs RCM</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Mode of Transport</th><th>Type of Service</th><th>GST Rate</th><th>ITC</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>GTA Forward Charge</th><th>RCM</th></tr></thead>
                     <tbody>
-                        <tr><td>Road - GTA (RCM)</td><td>Freight with consignment note</td><td>5% (paid by recipient)</td><td>Recipient only</td></tr>
-                        <tr><td>Road - GTA (Forward)</td><td>GTA opts into forward charge</td><td>5% or 18% (paid by GTA)</td><td>18% only</td></tr>
-                        <tr><td>Road - Non-GTA</td><td>Transport without consignment note</td><td>18%</td><td>Available</td></tr>
-                        <tr><td>Rail</td><td>General cargo by rail</td><td>5%</td><td>Available</td></tr>
-                        <tr><td>Air - Domestic</td><td>Domestic air freight</td><td>18%</td><td>Available</td></tr>
-                        <tr><td>Air - Export</td><td>Export air freight from India</td><td>Nil (Zero-rated)</td><td>Eligible under LUT</td></tr>
-                        <tr><td>Ocean - Import</td><td>International sea freight import</td><td>5% under RCM</td><td>Importer claims</td></tr>
-                        <tr><td>Ocean - Export</td><td>Export ocean freight from India</td><td>Nil (Zero-rated)</td><td>Eligible under LUT</td></tr>
-                        <tr><td>Courier Services</td><td>All courier company services</td><td>18%</td><td>Available</td></tr>
+                        <tr><td>Who pays GST</td><td>Forward charge: the GTA charges and pays tax on its invoice.</td><td>RCM: the recipient pays GST directly to the government.</td></tr>
+                        <tr><td>Rate and credit</td><td>Forward charge: 5% without ITC, or 18% with full ITC.</td><td>RCM: 5%, recipient claims credit subject to the rules.</td></tr>
+                        <tr><td>How to opt</td><td>Forward charge: opt via Annexure V by 31 March of preceding year.</td><td>RCM: automatic default when no Annexure V is filed.</td></tr>
+                        <tr><td>Mid-year change</td><td>Forward charge: locked once, cannot switch during the year.</td><td>RCM: applies wherever forward charge is not opted.</td></tr>
+                        <tr><td>Cash-flow effect</td><td>Forward charge: the GTA funds the tax and recovers it in price.</td><td>RCM: recipient outflow, credit recovered on the next return.</td></tr>
+                        <tr><td>Book-keeping impact</td><td>Forward charge: output tax recorded on the GTA books.</td><td>RCM: recipient records a self-invoice and the liability.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">For transporters, 18% forward charge suits customers who want full input credit; 5% RCM stays the simpler default when clients absorb the tax. Sound travel agency accounting locks this choice before the year starts, following current <a href="/blog/gta-gst-5-rcm-vs-12-itc">GTA under GST rules</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1799,230 +890,185 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services for Logistics Businesses</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Travel and Logistics Accounting</h2>
             <div class="content-text">
                 
-                <p>Patron Accounting also provides these complementary services for logistics businesses:</p>
-                <ul>
-                    <li><a href="/gst-registration">GST Registration</a> - Register your GTA or logistics company for GST with complete documentation support</li>
-                    <li><a href="/gst-returns">GST Return Filing</a> - Monthly GSTR-1, GSTR-3B, and annual GSTR-9 for GTAs and logistics firms</li>
-                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR for transport proprietors, LLPs, and companies including Section 44AE</li>
-                    <li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly 26Q for contractor payments under Section 194C</li>
-                    <li><a href="/tax-audit">Tax Audit</a> - Section 44AB audit for logistics businesses with turnover above Rs 1 crore</li>
-                    <li><a href="/payroll-services">Payroll Services</a> - Driver payroll with PF, ESI, and per-diem compliance</li>
-                </ul>
+                <p>An incorporated transport or travel business triggers a GST regime unlike most others, because the way a supply is taxed depends on where the journey runs and who bears the tax. The place-of-supply rules under the IGST Act sit at the centre of the framework, and reverse charge on goods transport shifts the liability onto the customer's books.</p>
+<p>So the compliance turns on classifying each supply correctly before it is invoiced. A domestic leg, an inter-state haul and a freight job under a goods transport agency are taxed differently, and the deduction on hire has its own rules. That is why <a href="/glossary/goods-transport-agency-gta-rcm">Goods Transport Agency (GTA) RCM</a> and a clean <a href="/glossary/trip-wise-profit-and-loss-statement">Trip-Wise Profit and Loss Statement</a> are the compliance spine, not just management detail. Travel agency accounting answers to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Sections 12 and 13, IGST Act 2017</strong></span><span class="al-d">Place-of-supply rules decide whether a transport or travel supply is intra-state or inter-state, fixing CGST/SGST versus IGST on each invoice.</span></li><li><span class="al-t"><strong>Notification 13/2017-Central Tax (Rate)</strong></span><span class="al-d">Goods transport agency services attract GST under reverse charge, which the recipient's books self-invoice and pay.</span></li><li><span class="al-t"><strong>Section 194C, Income-tax Act 1961</strong></span><span class="al-d">Payments to transporters and contractors carry TDS at 1%/2%, with the transport exemption tracked against valid declarations.</span></li><li><span class="al-t"><strong>AS 9 / Ind AS 115</strong></span><span class="al-d">Freight and travel revenue is recognised as the journey is performed, and agent commissions are booked net where the agent is not the principal.</span></li><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">The underlying books stay on accrual and double entry at the registered office, retained for eight years - the ledger behind a <a href="/glossary/fuel-fleet-card-reconciliation">Fuel Fleet Card Reconciliation</a>.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled, so a re-rated trip or a reversed booking is logged. General GST filing runs from the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal Framework for Logistics and Transport Accounting in India</h2>
-            <div class="content-text">
-                
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Law / Notification</th><th>Key Provision</th><th>Impact on Logistics Accounting</th></tr></thead>
-                    <tbody>
-                        <tr><td><a href="https://cbic.gov.in" target="_blank" rel="noopener">CGST Act 2017, Section 68 and Rule 138</a></td><td>E-way bill mandatory for movement of goods above Rs 50,000</td><td>E-way bill generation, validity tracking, and reconciliation</td></tr>
-                        <tr><td>CGST Act 2017, Section 9(3) and Notification No. 13/2017-CT(Rate)</td><td>RCM applicable when GTA provides services to specified registered recipients</td><td>RCM vs forward charge determination per transaction</td></tr>
-                        <tr><td>Notification No. 16/2025-CT(Rate), 16 July 2025</td><td>Updated definition of GTA for clarity on multi-modal operators</td><td>GTA classification and composite supply treatment</td></tr>
-                        <tr><td><a href="https://ewaybillgst.gov.in" target="_blank" rel="noopener">E-Way Bill Portal</a> and E-Way Bill 2.0 (July 2025)</td><td>2FA mandatory from April 2025; documents over 180 days ineligible from Jan 2025</td><td>Portal compliance and 2FA setup</td></tr>
-                        <tr><td>Income Tax Act 1961, Section 44AE</td><td>Presumptive taxation for goods vehicle operators owning up to 10 vehicles</td><td>Simplified ITR for small fleet operators</td></tr>
-                        <tr><td>Income Tax Act 1961, Section 44AB</td><td>Tax audit for turnover above Rs 1 crore (or Rs 10 crore for digital transactions)</td><td>Mandatory audit and Form 3CD filing</td></tr>
-                        <tr><td>Income Tax Act 1961, Section 194C</td><td>TDS on contractor payments at 1% (individual/HUF) or 2% (company)</td><td>Monthly TDS deduction and quarterly 26Q returns</td></tr>
-                        <tr><td>Income Tax Act 1961, Section 194T</td><td>TDS at 10% on partner remuneration in LLPs/partnerships (effective April 2025)</td><td>Partner remuneration TDS compliance</td></tr>
-                    </tbody>
-                </table>
-                </div>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Logistics and Transport Accounting</h2>
-                    <p class="faq-expanded__lead">Get answers about GTA GST rates, RCM on freight, e-way bill thresholds, Section 44AE presumptive tax, TDS on contractor payments, and transport compliance in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Logistics and Transport Accounting'])
+                    <h2 class="faq-expanded__title">Travel and Logistics Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on travel and logistics accounting scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Travel and Logistics Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is a Goods Transport Agency (GTA) under GST?</h3>
-                        <div class="faq-expanded__a"><p>A Goods Transport Agency (GTA) is any person who provides a service in relation to the transportation of goods by road and issues a consignment note (LR or GR). This definition was updated by Notification No. 16/2025-Central Tax (Rate) dated 16th July 2025. The consignment note is the critical document that distinguishes a GTA from a regular transporter. GTA services are a composite supply including the principal transport and ancillary services like loading, unloading, packing, and temporary warehousing at the same GST rate.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What is the GST rate on freight charges for GTA services in India?</h3>
-                        <div class="faq-expanded__a"><p>GST on GTA road freight depends on the mechanism chosen. Under RCM (default for specified recipients), the recipient pays 5% GST and the GTA pays nothing. If the GTA opts for forward charge, it can choose 5% without ITC or 18% with full ITC. The 18% option is favourable for GTAs with high input costs (fuel, maintenance, tyres) as they can claim ITC. Air freight attracts 18% GST. Rail freight for general cargo attracts 5%. Export freight (air and sea) is zero-rated.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is the Reverse Charge Mechanism (RCM) for transport companies?</h3>
-                        <div class="faq-expanded__a"><p>Under RCM for GTA services, the liability to pay GST shifts from the GTA (service provider) to the recipient. This applies when the recipient is a registered factory, body corporate, partnership firm, or any other registered GST taxpayer liable to pay freight. The recipient pays 5% GST directly through GSTR-3B and can claim ITC if the transport is for business purposes. GTAs operating exclusively under RCM are not required to register under GST even if turnover exceeds the threshold.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What is the e-way bill threshold limit in India?</h3>
-                        <div class="faq-expanded__a"><p>An e-way bill must be generated for goods movement when consignment value exceeds Rs 50,000 per invoice or delivery challan. This applies to both inter-state and intra-state movements. Some states have higher intra-state limits - for example, Jharkhand has set Rs 1,00,000. E-way bills must be generated before goods are moved. Validity is 1 day per 200 km of travel distance. The E-Way Bill 2.0 Portal launched July 2025 runs in parallel with the main portal.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What is Section 44AE presumptive taxation for transport businesses?</h3>
-                        <div class="faq-expanded__a"><p>Section 44AE of the Income Tax Act provides a simplified scheme for small goods vehicle operators owning up to 10 vehicles at any time during the year. Profit is presumed at Rs 1,000 per tonne of gross vehicle weight per month for heavy goods vehicles (over 12 tonnes) and Rs 7,500 per vehicle per month for light goods vehicles. No detailed books of accounts are required, making it ideal for small fleet operators.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Is TDS applicable on freight payments to truck owners?</h3>
-                        <div class="faq-expanded__a"><p>Yes. TDS under Section 194C is deductible at 1% for individual/HUF transporters and 2% for companies. TDS applies on single payments above Rs 30,000 or aggregate payments above Rs 1,00,000 per year. An important exemption under Section 194C(6): no TDS is required if the transporter provides their PAN and owns 10 or fewer goods carriages - covering most small fleet owner-operators.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">Does a GTA need to register under GST?</h3>
-                        <div class="faq-expanded__a"><p>A GTA is exempt from mandatory GST registration if it exclusively provides services where the entire GST liability is paid by the recipient under RCM. If a GTA opts for forward charge (5% or 18%), it must register, file monthly GSTR-1 and GSTR-3B, and issue GST-compliant tax invoices. The forward charge election must be made at the start of the financial year and cannot be changed during the year.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">What are the common GST exemptions for transport services in India?</h3>
-                        <div class="faq-expanded__a"><p>Road transport exemptions include: agricultural produce, milk, salt, food grains, newspapers, defence materials, and relief materials. Small shipment exemptions: freight below Rs 1,500 per consignment or below Rs 750 per single consignee per journey. Export freight (air and sea) is zero-rated. Passenger transport exemptions include non-AC sleeper class rail, metro, and rural non-motorised transport.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is accounting done for a travel agency in India?</h3>
+  <div class="faq-expanded__a"><p>The first decision is whether you bill as an agent or as a principal, because that changes both revenue recognition and GST treatment. Agents record only commission as income, while tour operators selling packages record the gross package value. Supplier bookings, customer advances, refunds and cancellation charges each need their own ledger so per-booking margin stays visible.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What records must a travel agency maintain for GST and income tax?</h3>
+  <div class="faq-expanded__a"><p>Keep booking-wise invoices, supplier bills from airlines, hotels and consolidators, credit notes for cancellations, commission statements, foreign exchange documents for outbound travel and a customer advance register. GST law requires these to be preserved for the period the Act prescribes, and the same set supports income tax assessment. We maintain them monthly rather than at year end.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can travel agency accounting be handled in Tally?</h3>
+  <div class="faq-expanded__a"><p>Yes. Tally works well once cost centres are set up per booking or per branch and separate ledgers exist for supplier payables, customer advances and commission income. GST rate masters need care, because commission, packages and air ticketing are not treated alike. Agencies with high booking volume usually move to Zoho Books for easier reconciliation.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is GST treated on tour packages compared with air ticket commission?</h3>
+  <div class="faq-expanded__a"><p>The two follow different valuation rules, so they must be invoiced and recorded separately instead of being lumped into one line. Package sales, air ticket commission and hotel bookings each carry their own taxable value basis and input credit position. We map every revenue stream to its correct treatment and document it, since this is a common notice trigger.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Should a transport business pay GST under forward charge or reverse charge?</h3>
+  <div class="faq-expanded__a"><p>A goods transport agency can either remain under reverse charge, where the recipient pays the tax, or opt for forward charge by filing the prescribed declaration, which opens input credit on trucks, fuel and spares. The option applies for the financial year and cannot be switched midway. We model both positions on your actual cost structure first.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you account for pure agent recoveries billed to customers?</h3>
+  <div class="faq-expanded__a"><p>Amounts collected purely as reimbursement on behalf of a customer stay outside taxable value only where every pure agent condition in the GST valuation rules is satisfied and the supplier invoice names the customer. Otherwise the whole amount becomes taxable. We test each recovery type once, document the position and then apply it consistently across billings.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can you track profitability per trip, per vehicle or per route?</h3>
+  <div class="faq-expanded__a"><p>Yes. Cost centres are set up so fuel, driver wages, tolls, FASTag, maintenance and loan EMIs are captured per vehicle, with revenue tagged per trip or route. You receive a monthly contribution statement showing which routes and vehicles actually earn. Most operators discover two or three loss-making routes they had never separated out before.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you handle driver advances, cash expenses and fuel bills on the road?</h3>
+  <div class="faq-expanded__a"><p>Drivers receive an advance against a numbered voucher, and every settlement is matched to fuel, toll and repair bills within a fixed cycle, usually 7 days from trip completion. Unsupported cash spends sit in a suspense ledger and are reported monthly. Cash payments above the limit allowed under the Income Tax Act are flagged before booking.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does accounting for a travel or logistics business cost?</h3>
+  <div class="faq-expanded__a"><p>A single-location travel agency, or a fleet of up to 20 vehicles, usually pays Rs 10,000 to Rs 18,000 a month covering bookkeeping, GST returns, TDS and monthly MIS. Multi-branch agencies, larger fleets and per-vehicle profitability reporting move the fee higher. Annual filings, audit support and e-way bill reconciliation are quoted separately from this.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do you reconcile e-way bills and vendor GST data for logistics companies?</h3>
+  <div class="faq-expanded__a"><p>Yes. E-way bill data is reconciled against sales invoices and against GSTR-1 every month, so mismatches get corrected before the department raises them. On the purchase side, vendor invoices are matched to GSTR-2B before credit is claimed. Transport operators are scrutinised frequently, so this reconciliation forms part of the standard monthly scope.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>What is logistics accounting?</strong><br>Logistics accounting is specialist financial management for transport companies covering GTA GST compliance (RCM/forward charge), e-way bill management under Section 68 CGST Act, fleet depreciation, driver payroll with Section 194C TDS, and ITR filing with Section 44AE presumptive taxation.</p>
-                <p><strong>What is a consignment note?</strong><br>A consignment note (LR or GR) is the document issued by a GTA that distinguishes it from a regular transporter under GST. It is the trigger for RCM or forward charge GST treatment and must accompany every freight transaction.</p>
-                <p><strong>What is the F and B cost benchmark for transport companies?</strong><br>For transport, the key cost benchmark is fuel as a percentage of revenue - typically 35%-45%. Patron Accounting tracks fuel cost per km, per trip, and per vehicle monthly against industry benchmarks.</p>
+                <p>Money arrives ahead of the service in this trade. A customer pays for a booking weeks before departure, the airline or consolidator settles later at a net figure, and a freight job is invoiced when the container moves but costed only once demurrage and detention are known. Patron parks all of it in a job-wise ledger.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Income Tax and ITR Filing for Transport Companies</h2>
+            <h2 class="section-title">Travel and Logistics Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Income tax compliance for logistics businesses is shaped by unique provisions under Sections 44AE and 44AB. Patron Accounting handles:</p>
-                <ul>
-                    <li>Section 44AE presumptive taxation: Rs 1,000 per tonne per month (heavy) or Rs 7,500 per vehicle per month (light) for operators with up to 10 vehicles</li>
-                    <li>Section 44AB tax audit for turnover above Rs 1 crore (or Rs 10 crore for digital transactions)</li>
-                    <li>ITR-3 for proprietors, ITR-5 for LLPs/partnerships, ITR-6 for companies</li>
-                    <li>Fleet depreciation under Schedule II (Companies Act) or IT Act Block of Assets</li>
-                    <li>Advance tax quarterly deposits: 15 June, 15 September, 15 December, 15 March</li>
-                    <li>Reconciliation of Form 26AS for all TDS deducted on freight payments from corporate clients</li>
-                    <li>Export documentation: LUT filing, IGST refund claims for zero-rated exports</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>File your transport ITR correctly - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20logistics%20ITR%20filing." target="_blank">WhatsApp us</a> for a free assessment.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Logistics Compliance Today</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Travel and Logistics Accounting with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">India's logistics sector demands specialist accounting - from GTA GST compliance (RCM vs forward charge), e-way bill management, and multi-state operations to fleet depreciation, driver payroll with Section 194C TDS, and Section 44AE presumptive taxation. Getting any of these wrong means GST notices, TDS defaults, e-way bill penalties, and revenue leakage.</p>
-                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">Patron Accounting LLP provides end-to-end logistics accounting built around the unique requirements of GTAs, fleet owners, freight forwarders, 3PL companies, and courier businesses. Our sector-specialist CA team handles everything from daily consignment note recording to annual ITR filing.</p>
-                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;"><strong>300+ transport companies served | 4.8 star rating | Pan-India service | Starting from Rs 2,999/month</strong></p>
+                <p style="color:rgba(255,255,255,0.88);">Freight forwarding is the larger part of this work, and it is the part that decides how the engagement is built: jobs, lanes, hired vehicles and settlement statements. Travel agency accounting shares the same file-by-file discipline on a much shorter cycle, which is why the two sit together rather than on separate pages.</p>
+<p style="color:rgba(255,255,255,0.88);">Lane profitability is what changes the business. A route running at negative margin, once empty return legs and detention are charged against it, can be repriced with the customer or refused outright. Logistics accounting services also let hired vehicle rates be renegotiated on what each operator actually delivered over the quarter.</p>
+<p style="color:rgba(255,255,255,0.88);">Which side of the business dominates has to be established: a forwarder with hired trucks and a retail travel counter need the ledger cut differently, and most operators run some of both. That split decides reporting structure, as it does for <a href="/accounting-services-it-saas">software product companies we serve</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20Logistics%20Accounting%20services%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Logistics%20and%20Transport%20Accounting&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Logistics%20Accounting%20services.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20travel%20and%20logistics%20accounting%20services" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Travel%20and%20Logistics%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Travel%20and%20Logistics%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Logistics and Transport Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides GTA GST compliance, e-way bill management, and transport accounting services across major Indian cities.</p>
-           
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid">
-                    <a href="/travel-and-logistics-accounting-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/travel-and-logistics-accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/travel-and-logistics-accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                    <a href="/travel-and-logistics-accounting-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Logistics and Transport Accounting</div>
-                <div class="pa-cross-grid">
-                    <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/tds-return-filing-24q" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a>
-                </div>
-            </div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Travel and Logistics Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for travel and logistics accounting in these cities.</p>
+            
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 15 January 2024 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">15 January 2024</span> &nbsp;|&nbsp; <strong>Next Review:</strong> September 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed bi-annually or when GST Council revises GTA rates, RCM rules, or e-way bill thresholds. Next review: September 2026. Key notifications: No. 16/2025-CT(Rate), No. 13/2017-CT(Rate).</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION  -  Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2093,8 +1139,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2104,8 +1150,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2186,7 +1232,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2196,33 +1242,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-        function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2233,12 +1278,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2254,7 +1300,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set  -  using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2269,7 +1315,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API  -  using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2300,7 +1346,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews  -  using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2314,7 +1360,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered  -  init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2324,6 +1372,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2346,9 +1395,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM  -  Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2488,7 +1535,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2518,7 +1565,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2538,7 +1584,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2616,12 +1662,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2629,55 +1671,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2715,8 +1726,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

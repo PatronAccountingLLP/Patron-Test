@@ -1,1089 +1,293 @@
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Accounts Reconciliation and Audit 2026 | Patron Accounting</title>
-    <meta name="description" content="Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.">
-    <link rel="canonical" href="/accounts-reconciliation-and-audit">
+    <title>Accounts Reconciliation Services and Audit Support | Patron Accounting</title>
+    <meta name="description" content="Every control account reconciled - GST, TDS, inter-company, bank, stock. Books you can hand to a lender or an investor. Start with a books review.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounts-reconciliation-and-audit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounts Reconciliation and Audit 2026 | Patron Accounting">
-    <meta property="og:description" content="Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.">
-    <meta property="og:url" content="/accounts-reconciliation-and-audit">
+    <meta property="og:title" content="Accounts Reconciliation Services and Audit Support | Patron Accounting">
+    <meta property="og:description" content="Every control account reconciled - GST, TDS, inter-company, bank, stock. Books you can hand to a lender or an investor. Start with a books review.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounts-reconciliation-and-audit">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounts-reconciliation-and-audit-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounts-reconciliation-and-audit-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounts Reconciliation and Audit 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.">
-    <meta name="twitter:image" content="/images/accounts-reconciliation-and-audit-og.webp">
+    <meta name="twitter:title" content="Accounts Reconciliation Services and Audit Support | Patron Accounting">
+    <meta name="twitter:description" content="Every control account reconciled - GST, TDS, inter-company, bank, stock. Books you can hand to a lender or an investor. Start with a books review.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounts-reconciliation-and-audit-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "/accounts-reconciliation-and-audit/#service",
-        "name": "Accounts Reconciliation and Audit Support in India",
-        "description": "Patron Accounting provides accounts reconciliation and audit support for Indian businesses, covering bank, vendor, customer, GST, and TDS reconciliation, exception resolution, and audit-ready working papers aligned with GST and audit requirements.",
-        "provider": { "@id": "/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/accounts-reconciliation-and-audit" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Reconciliation (accounting)", "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Accounts Reconciliation and Audit Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Accounts Reconciliation and Audit Support", "priceCurrency": "INR", "price": "9999", "description": "Bank, GST, TDS, vendor, customer, and ledger reconciliation with audit-ready working papers. Starting from INR 9,999 (Exl GST and Govt. Charges)." }
-            ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/#service",
+  "name": "Accounts Reconciliation Services and Audit Support",
+  "description": "Accounts reconciliation services close every control account: GST, TDS, inter-company, bank and stock.",
+  "image": "https://www.patronaccounting.com/images/accounts-reconciliation-and-audit-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Accounts Reconciliation and Audit Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounts Reconciliation Services and Audit Support",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounts Reconciliation Services and Audit Support",
+          "description": "Accounts reconciliation services close every control account: GST, TDS, inter-company, bank and stock.",
+          "serviceType": "Accounts Reconciliation and Audit Service"
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "/accounts-reconciliation-and-audit/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "/accounting-services" },
-            { "@type": "ListItem", "position": 3, "name": "Accounts Reconciliation and Audit", "item": "/accounts-reconciliation-and-audit" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "/accounts-reconciliation-and-audit/#faq",
-        "datePublished": "2026-06-05T08:00:00+05:30",
-        "dateModified": "2026-06-05T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is account reconciliation?", "acceptedAnswer": { "@type": "Answer", "text": "Account reconciliation is the process of comparing internal accounting records against an independent external source, such as a bank statement, GSTR-2B, or Form 26AS, identifying differences, and correcting them so the balances agree. It confirms that your books reflect reality and prepares them for accurate reporting and audit." } },
-        { "@type": "Question", "name": "What happens if GSTR-2B and GSTR-3B do not match?", "acceptedAnswer": { "@type": "Answer", "text": "A mismatch usually means input tax credit claimed in GSTR-3B is not reflected in GSTR-2B, often because a supplier filed late or with a wrong GSTIN. Under Section 16(2)(c) of the CGST Act, such credit can be blocked, and claiming it anyway can attract 18% per annum interest and a notice." } },
-        { "@type": "Question", "name": "What is GSTR-9C?", "acceptedAnswer": { "@type": "Answer", "text": "GSTR-9C is the annual reconciliation statement filed alongside GSTR-9 by every registered person with aggregate turnover above Rs 5 crore. It forces a three-way comparison of input tax credit per audited books, per GSTR-2B, and per GSTR-3B, and unresolved differences can lead to interest and penalties." } },
-        { "@type": "Question", "name": "Why should I reconcile before an audit?", "acceptedAnswer": { "@type": "Answer", "text": "Reconciliation removes the errors and mismatches that otherwise surface as audit findings. Clean bank, GST, and TDS reconciliations confirm balances, protect input tax credit, and produce the working papers an auditor needs, making statutory, internal, and GST audits faster and far less stressful." } },
-        { "@type": "Question", "name": "How much does accounts reconciliation and audit support cost?", "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting engagements start from INR 9,999 (Exl GST and Govt. Charges). Final fees depend on the number of accounts, transaction volume, the reconciliation period, and the depth of audit support required. Call +91 945 945 6700 for a free, no-obligation quote." } },
-        { "@type": "Question", "name": "How often should a business reconcile its accounts?", "acceptedAnswer": { "@type": "Answer", "text": "Bank and GST reconciliations are best done monthly, since GSTR-2B is generated on the 14th and GSTR-3B is due on the 20th, leaving a short window. Vendor, customer, and ledger reconciliations should be done at least monthly, with a full year-end reconciliation before finalising accounts." } },
-        { "@type": "Question", "name": "What are the main types of reconciliation?", "acceptedAnswer": { "@type": "Answer", "text": "The main types are bank reconciliation, vendor or accounts payable reconciliation, customer or accounts receivable reconciliation, general ledger and balance sheet reconciliation, GST reconciliation against GSTR-2B and GSTR-3B, and TDS reconciliation against Form 26AS and AIS. Each matches an internal record to a specific external source." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "/accounts-reconciliation-and-audit",
-        "name": "Accounts Reconciliation and Audit Support in India",
-        "description": "Bank, GST, TDS and ledger reconciliation plus audit support for Indian businesses. Fix mismatches, protect ITC and stay audit-ready. Starting from INR 9,999.",
-        "url": "/accounts-reconciliation-and-audit",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "/" },
-        "about": { "@id": "/accounts-reconciliation-and-audit/#service" },
-        "datePublished": "2026-06-05T08:00:00+05:30",
-        "dateModified": "2026-06-05T08:00:00+05:30",
-        "author": { "@id": "/#team" },
-        "breadcrumb": { "@id": "/accounts-reconciliation-and-audit/#breadcrumb" }
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Accounts Reconciliation & Audit",
+      "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
     }
-    </script>
-    <script type="application/ld+json">
+  ],
+  "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How the Accounts Reconciliation and Audit Process Works",
-        "description": "A six-step reconciliation and audit-support process: gather source documents, match records, identify exceptions, resolve and correct, verify balances, and prepare audit-ready working papers.",
-        "totalTime": "P21D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Gather sources", "text": "Collect bank statements, books, GSTR-2B, GSTR-3B, and Form 26AS for the period." },
-        { "@type": "HowToStep", "position": 2, "name": "Match records", "text": "Compare each internal record against its external source using consistent matching logic." },
-        { "@type": "HowToStep", "position": 3, "name": "Identify exceptions", "text": "Flag timing differences, missing invoices, and wrong GSTIN or section codes." },
-        { "@type": "HowToStep", "position": 4, "name": "Resolve and correct", "text": "Follow up with vendors, post adjustments, and reverse ineligible credit where required." },
-        { "@type": "HowToStep", "position": 5, "name": "Verify balances", "text": "Confirm the general ledger and control accounts agree before finalising." },
-        { "@type": "HowToStep", "position": 6, "name": "Prepare for audit", "text": "Compile reconciliation statements and working papers for the auditor." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "What is customer reconciliation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Customer reconciliation is the process of matching the balance your books show for a customer against the balance that customer shows for you, then identifying and clearing every difference. Typical differences are invoices not booked, credit notes, TDS deducted by the customer, short payments, discounts and payments in transit. The exercise closes with a signed balance confirmation from the customer."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "Is a bank reconciliation statement prepared by the bank or by the customer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A bank reconciliation statement is prepared by the account holder, not by the bank. The bank only issues a statement of the transactions it has recorded. Your accounts team compares that statement with the cash book and explains the gaps, which usually arise from cheques issued but not presented, deposits not yet cleared, bank charges and direct credits not yet entered."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Accounts Reconciliation and Audit Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Reconciliation", "description": "Matching an internal record against an external source to confirm balances agree." },
-        { "@type": "DefinedTerm", "name": "GSTR-2B", "description": "The static monthly statement of eligible input tax credit auto-generated from suppliers filings." },
-        { "@type": "DefinedTerm", "name": "Form 26AS and AIS", "description": "TRACES statements showing TDS credited and reported income against your PAN." },
-        { "@type": "DefinedTerm", "name": "GSTR-9C", "description": "The annual reconciliation statement mandatory for aggregate turnover above Rs 5 crore." }
-        ]
+      "@type": "Question",
+      "name": "What are global reconciliation services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Global reconciliation services means reconciling accounts across multiple entities, currencies and accounting systems into one consistent position, usually for a group with Indian and overseas operations. The work covers intercompany balances, foreign currency revaluation, bank accounts in different countries and mapping local ledgers to a group chart of accounts before consolidation. Every adjustment carries a documented audit trail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you run vendor reconciliation across a large supplier base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vendor reconciliation is run in batches, top 50 suppliers by value first, and a base of several hundred vendors is normally cleared in four to six weeks. We collect supplier statements, match them against the purchase ledger, split differences into unbooked invoices, debit notes, TDS and advances, and close each account with a written confirmation from the supplier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What documents do you need to start a reconciliation assignment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We need your trial balance, party wise ledgers, bank statements for the period, purchase and sales registers, GST returns already filed, TDS challans and returns, and any counterparty statements you already hold. Read only access to your Tally or Zoho Books data speeds the work up considerably. Fieldwork can begin within three working days of receiving these."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an account reconciliation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An account reconciliation compares a balance in your books against an independent record, such as a bank statement, a supplier statement or a GST return, and explains every difference until the two agree. Differences usually arise from timing, unbooked invoices, TDS deducted by the counterparty, bank charges and posting errors. Each item is documented and cleared through a journal entry your management approves."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main types of account reconciliation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Account reconciliation covers five main types in practice: bank, customer or debtor, vendor or creditor, inter company, and statutory reconciliations such as the purchase register against GSTR-2B. Each compares an internal ledger with an external record and explains the gap. Bank reconciliation is only the starting point, and the vendor and GST ones usually surface the larger money differences."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What audit support is provided during a statutory audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Audit support means preparing the schedules your auditor asks for, answering queries and sitting with the audit team through fieldwork. That covers fixed asset registers, ageing of debtors and creditors, stock summaries, related party listings, statutory dues workings and confirmation letters. Our team absorbs the back and forth so your finance staff are not pulled off routine monthly work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the purchase register reconciled with GSTR-2B every month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the purchase register is matched against GSTR-2B monthly and we report credit that is available, credit missing because the supplier has not filed, and credit claimed in your books without support. Suppliers who repeatedly fail to file are escalated in writing so payment can be held back, which protects the credit instead of chasing it a year later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a reconciliation and audit support assignment cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A one off reconciliation and audit support assignment usually costs Rs 25,000 to Rs 1,50,000, priced on the number of ledgers, the period covered and the condition of the records. Ongoing monthly reconciliation bundled into a bookkeeping retainer costs much less. We quote a fixed fee after reviewing your trial balance and a sample of open items."
+      }
     }
-    </script>
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit",
+  "name": "Accounts Reconciliation Services and Audit Support",
+  "description": "Every control account reconciled - GST, TDS, inter-company, bank, stock. Books you can hand to a lender or an investor. Start with a books review.",
+  "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/accounts-reconciliation-and-audit-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/accounts-reconciliation-and-audit-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider .slick-slide > div { height: 100%; }
-        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
-        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #0F6E56;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #0F6E56;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">Accounts Reconciliation and Audit Services</span></li>
+        </ol>
+    </div>
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1095,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Accounts Reconciliation and Audit
+                        Accounts Reconciliation Services and Audit Support
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1104,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated"></span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Inputs:</span> Bank statements, books, GSTR-2B, Form 26AS, and ledgers.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Ownership for every control account:</span> We give each account that must be reconciled a named owner, a frequency and the evidence that proves it.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Transparent engagements starting from INR 9,999, scoped to volume.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Sub-ledgers that agree at source:</span> Receivables, payables, fixed assets and inventory tie to their control accounts through the entry that caused each difference.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> Any business with bank, vendor, customer, GST, or TDS mismatches.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Third-party evidence behind each balance:</span> Bank, customer, vendor, lender and related-party confirmations sit behind your balances, with every difference already broken down.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> A focused reconciliation cycle is typically completed in 1 to 3 weeks.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Input credit traced to evidence:</span> We agree your input credit to the evidence behind it, so each claim traces to a matched record.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | 15+ Years Experience</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts Reconciliation and Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts Reconciliation and Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts%20Reconciliation%20and%20Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts%20Reconciliation%20and%20Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20help%20with%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounts%20reconciliation%20and%20audit" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1166,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1240,14 +442,12 @@
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
                                 <option value="accounts-reconciliation-and-audit" selected>Accounts Reconciliation and Audit</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="internal-audit">Internal Audit Service</option>
-                                <option value="gst-audit">GST Audit Service</option>
-                                <option value="statutory-audit">Statutory Audit Service</option>
-                                <option value="tax-audit">Tax Audit Service</option>
-                                <option value="stock-audit">Stock Audit</option>
-                                <option value="gst-returns">GST Returns</option>
-                                <option value="other">Other</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1277,74 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace with real testimonial-card divs. Cards are locked to a fixed 370px height by CSS for a uniform row.
-             TEXT CARD (single-row style): quote mark on top; review text (`flex:1`, top-aligned); single author row {avatar + name + "Google Review" + 5 orange stars stacked, with "X months ago" pushed to the far right via margin-left:auto}.
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             Avatar bg cycles across cards: var(--orange), var(--blue), #7C3AED (purple), #0D9488 (teal).
-             VIDEO CARD (optional; only if real video testimonials exist) - video fills top 298px with poster + centred play button + stars overlay; circular author photo below:
-             <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-                 <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                     <video preload="metadata" poster="POSTER_URL" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="VIDEO_URL" type="video/mp4"></video>
-                     <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                     <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                 </div>
-                 <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                     <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="POSTER_URL" alt="Name" style="width:100%;height:100%;object-fit:cover;"></div>
-                     <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Name</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role - Company</div></div>
-                 </div>
-             </div>
-             ORDER (when video testimonials are used): 1st video, 2nd a text review, 3rd second video, then remaining text reviews. Content from real-testimonials.json.
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PR</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Preeti Singh Rathor</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Real reviews from businesses we support across India.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1370,117 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <!-- TOC_NAVIGATION_ITEMS PATTERN — use class "toc-btn" (NOT "toc-pill"); the CSS (.toc-btn) and scroll-spy JS (querySelectorAll('.toc-btn')) both target this exact class. First item gets "toc-btn active". One button per content section, in document order. Pattern:
-                <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-                (repeat for who-section, services-section, procedure-section, documents-section, challenges-section, fees-section, timeline-section, benefits-section, comparison-section, faq-section)
-            -->
-            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-            <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-            <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
-            <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
-            <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
-            <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">Checklist</button>
-            <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
-            <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
-            <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Timeline</button>
-            <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
-            <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">DIY vs Patron</button>
-            <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounts Reconciliation and Audit Overview</h2>
+            <h2 class="section-title">What Accounts Reconciliation Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - Accounts Reconciliation and Audit Services at a Glance</strong></p>
-                    <p>Accounts reconciliation and audit is the process of matching your internal records against external sources such as bank statements, GSTR-2B, and Form 26AS, resolving differences, and verifying the books so they are accurate and audit-ready. Patron Accounting reconciles every account and supports your audit, starting from INR 9,999 (Exl GST and Govt. Charges).</p>
+                    <p>Accounts reconciliation services close every control account: GST, TDS, inter-company, bank and stock. Patron matches GSTR-2B against the purchase register and Form 26AS against TDS deducted, line by line, then hands over a pack with each exception owned and dated. Audit queries are then answered from that pack. Best suited to businesses facing statutory, internal or due-diligence review.</p>
                 </div>
-                <p>Reconciliation is the financial defence mechanism every Indian business needs. Unmatched bank entries hide errors, GSTR-2B gaps block input tax credit, and Form 26AS mismatches distort tax credits. Left unresolved, these surface as audit findings, GST notices, and 18% interest.</p>
-                <p>Patron Accounting, with 15+ years of experience, reconciles each account against its source and prepares clean books for statutory, internal, and GST audits. We match every internal record against its external source, resolve exceptions, and prepare your books for a clean audit.</p><div class="table-responsive-wrapper" style="margin-top:20px;"><table><thead><tr><th>Parameter</th><th>Detail</th></tr></thead><tbody><tr><td>Service</td><td>Accounts reconciliation and audit support</td></tr><tr><td>Applicable To</td><td>Startups, SMEs, and growing companies</td></tr><tr><td>Core Reconciliations</td><td>Bank, AP, AR, GL, GST, TDS, inter-company</td></tr><tr><td>Key GST Anchor</td><td>GSTR-9C mandatory above Rs 5 crore turnover</td></tr><tr><td>ITC Rule</td><td>Section 16(2)(c), CGST Act 2017</td></tr><tr><td>Timeline</td><td>1 to 3 weeks per reconciliation cycle</td></tr><tr><td>Starting Cost</td><td>INR 9,999 (Exl GST and Govt. Charges)</td></tr></tbody></table></div><p style="margin-top:16px;"></p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Control accounts are worked through in a fixed order, bank first, then the statutory ledgers, then inter-company and stock, so that a difference surfacing late in the run does not send the earlier accounts reconciliation work back to the start again. Balances are agreed to third-party statements rather than to internal reports, and every adjusting entry is drafted and put up for your approval before it is posted, following the method set out in this guide to reconciliation types.</p>
+                <p>An unmatched credit is not merely a bookkeeping nuisance. It becomes input tax reversed with interest, or a deduction denied at assessment, and both of those surface long after the period has been shut. Reconciliation services move with the count of ledgers, bank accounts and registrations in play, and with how clean the GST portal records come back. Forensic investigation is scoped separately.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is Accounts Reconciliation and Audit</h2>
+                <h2 class="section-title">What Is Accounts Reconciliation?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Accounts reconciliation is the process of comparing internal accounting records against an independent external source, identifying differences, and correcting them so balances are accurate. Audit support then verifies those reconciled records against evidence for statutory, internal, or GST audit purposes.</p><p>The general ledger is the single source of truth, and sub-ledgers such as accounts payable, accounts receivable, and the GST register feed into it. Reconciliation confirms that the ledger agrees with bank statements, the GST portal, and TRACES before financial statements are finalised.</p>
+                    <p>Every control account in your ledger, bank, GST, TDS, inter-company and stock, carries a balance that has to be proved against something outside the business. Accounts reconciliation services are the engagement that proves each of those balances and lists whatever will not agree.</p>
+<p>Control accounts are worked in a set order, each balance agreed to a third-party statement rather than an internal report. Every correcting entry is drafted for your approval before it is posted. It matches the GST credit statement to the purchase register and the tax-credit statement to tax actually deducted, line by line. Timing differences and genuine breaks are separated, not merged into one figure. Accounts reconciliation services then hand over a pack in which each unmatched item is owned by a name and carries a date. From that pack, an auditor&#x27;s questions can be answered directly. The reconciliation services stop there: the statutory audit opinion itself, and any forensic investigation, are separate engagements.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Accounts Reconciliation and Audit:</strong></p>
-                    <p><strong>Reconciliation:</strong> Matching an internal record against an external source to confirm balances agree.</p><p><strong>GSTR-2B:</strong> The static monthly statement of eligible input tax credit auto-generated from suppliers filings.</p><p><strong>Form 26AS and AIS:</strong> TRACES statements showing TDS credited and reported income against your PAN.</p><p><strong>GSTR-9C:</strong> The annual reconciliation statement mandatory for aggregate turnover above Rs 5 crore.</p><div class="table-responsive-wrapper" style="margin-top:16px;"><table><thead><tr><th>Type</th><th>Matches Against</th><th>Why It Matters</th></tr></thead><tbody><tr><td>Bank reconciliation</td><td>Bank statement</td><td>Confirms true cash position</td></tr><tr><td>Vendor (AP)</td><td>Supplier statements</td><td>Avoids overpayment and disputes</td></tr><tr><td>Customer (AR)</td><td>Customer ledgers</td><td>Keeps the ageing report accurate</td></tr><tr><td>GST reconciliation</td><td>GSTR-2B and GSTR-3B</td><td>Protects input tax credit</td></tr><tr><td>TDS reconciliation</td><td>Form 26AS and AIS</td><td>Secures correct tax credit</td></tr></tbody></table></div>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/inter-company-ledger-reconciliation">Inter-Company Ledger Reconciliation</a></span><span class="al-d">Agreeing the balances between two companies under the same ownership.</span></li><li><span class="al-t"><a href="/glossary/vendor-balance-confirmation">Vendor Balance Confirmation</a></span><span class="al-d">Agreeing the amount you owe directly with the supplier&#x27;s own records.</span></li><li><span class="al-t"><a href="/glossary/statutory-vs-internal-audit">Statutory vs Internal Audit</a></span><span class="al-d">The difference between a legally required audit and a voluntary internal review.</span></li><li><span class="al-t"><a href="/glossary/outstanding-balances-migration">Outstanding Balances Migration</a></span><span class="al-d">Carrying open balances correctly when moving to new accounting software.</span></li><li><span class="al-t"><a href="/glossary/three-way-matching">Three-Way Matching</a></span><span class="al-d">Checking an invoice against its purchase order and goods received before paying.</span></li><li><span class="al-t"><a href="/glossary/bank-reconciliation">Bank Reconciliation</a></span><span class="al-d">Matching your cash book to the bank statement line by line.</span></li><li><span class="al-t"><a href="/glossary/outstanding-checks-timing-differences">Outstanding Checks / Timing Differences</a></span><span class="al-d">Payments recorded in your books but not yet cleared by the bank.</span></li><li><span class="al-t"><a href="/glossary/standard-operating-procedure-sop">Standard Operating Procedure (SOP)</a></span><span class="al-d">A written step-by-step method so a task is done the same way each time.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Accounts Reconciliation and Audit</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Audit-ready in</span>
-                        <strong>1 to 3 weeks</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/what-is.webp" alt="What Is Accounts Reconciliation. Every control account in your ledger, bank, GST, TDS, inter-company and stock," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs This Service</h2>
+            <h2 class="section-title">Who Needs Accounts Reconciliation in India?</h2>
             <div class="content-text">
                 
-                <p>Reconciliation value rises with transaction volume, vendor count, and compliance exposure.</p><ul><li>Businesses with multiple bank accounts and high transaction volume.</li><li>Companies claiming input tax credit who must protect it under GST.</li><li>Entities above Rs 5 crore turnover preparing GSTR-9 and GSTR-9C.</li><li>Any business approaching a statutory, internal, or GST audit.</li></ul>
+                <p>Accounts reconciliation services are for businesses where someone outside has begun asking questions the internal reports were never built to answer. When control accounts no longer agree to their evidence, the organisations below need each balance proved.</p>
+  <ul>
+    <li>Companies facing a first statutory audit, with a new auditor asking for schedules they never kept.</li>
+    <li>Businesses inside buyer due diligence, needing balances confirmed by the party on the other side.</li>
+    <li>Groups carrying <a href="/glossary/inter-company-ledger-reconciliation">inter-company balances</a> that refuse to eliminate against each other at period end.</li>
+    <li>Firms whose GSTR-2B will not match the purchase register, with input credit at risk of reversal.</li>
+    <li>Businesses where Form 26AS and the TDS receivable in the books have drifted apart.</li>
+    <li>Companies carrying old customer and vendor differences forward from one year to the next.</li>
+    <li>Businesses whose sub-ledgers for receivables, payables and stock no longer tie to their control accounts.</li>
+    <li>Firms facing an <a href="/blog/internal-vs-statutory-audit">internal audit</a> or lender review that wants balances proved rather than described.</li>
+  </ul>
 
             </div>
             </div>
@@ -1488,17 +595,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Our Reconciliation and Audit Services</h2>
+            <h2 class="section-title">Our Accounts Reconciliation Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Bank reconciliation</td><td>Cash and bank ledgers matched to statements with exceptions cleared.</td></tr><tr><td>GST reconciliation</td><td>Purchase register matched to GSTR-2B and GSTR-3B to protect input tax credit.</td></tr><tr><td>TDS reconciliation</td><td>Books matched to Form 26AS and AIS so tax credits are correct.</td></tr><tr><td>Vendor and customer reconciliation</td><td>Supplier and customer balances confirmed and disputes resolved.</td></tr><tr><td>Ledger and balance sheet reconciliation</td><td>Control accounts verified before finalisation.</td></tr><tr><td>Audit support</td><td>Reconciled records and working papers prepared for a smooth audit.</td></tr>
+                        <tr><td>Reconciliation scope mapping</td><td>Our accounts reconciliation services define every control account to be reconciled, so nothing on the balance sheet is left without an owner <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Sub-ledger to control tie-out</td><td>We tie receivables, payables, fixed assets and inventory sub-ledgers to their control accounts, so each agrees at source before review <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Third-party confirmations</td><td>We obtain balance confirmations from banks, vendors and lenders, and run customer reconciliation, so evidence sits behind every material balance <span class="badge-included">Quarterly</span></td></tr>
+                        <tr><td>Statutory position reconciliation</td><td>We reconcile GSTR-2B to the purchase register and Form 26AS to the books, so input credit and TDS trace to evidence <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Inter-company elimination</td><td>We reconcile and eliminate inter-company and inter-branch balances, following this <a href="/blog/account-reconciliation-types-process">account reconciliation types guide</a>, so group balances net off cleanly <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Audit schedule preparation</td><td>We prepare audit-ready schedules in advance and support your auditor's queries, so reconciliation services carry through to a smoother statutory audit <span class="badge-included">Annually</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1508,51 +620,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">The 6-Step Reconciliation and Audit Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">A structured, CA-led cycle that turns scattered records into reconciled, audit-ready books, from gathering source documents to preparing working papers for your auditor.</p>
+            <h2 class="section-title">How Accounts Reconciliation Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers accounts reconciliation and audit, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Gather Sources</h3><p class="step-description">Collect bank statements, books, GSTR-2B, GSTR-3B, and Form 26AS for the period.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Period scoped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Sources collected</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="84" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="34" y1="28" x2="86" y2="28" stroke="#E8712C" stroke-width="3" stroke-linecap="round"/><line x1="34" y1="44" x2="78" y2="44" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="34" y1="58" x2="82" y2="58" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="34" y1="72" x2="66" y2="72" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/></svg></div><span class="illustration-label">Documents Ready</span><span class="step-number-large">01</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Match Records</h3><p class="step-description">Compare each internal record against its external source using consistent matching logic.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Invoice-level matching</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Consistent logic</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="14" y="22" width="40" height="56" rx="5" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="66" y="22" width="40" height="56" rx="5" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><path d="M54 50h12" stroke="#14365F" stroke-width="2"/><path d="M60 44l6 6-6 6" stroke="#14365F" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="64" r="9" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M30 64l3 3 5-6" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Records Matched</span><span class="step-number-large">02</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Identify Exceptions</h3><p class="step-description">Flag timing differences, missing invoices, and wrong GSTIN or section codes.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Exceptions flagged</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Root cause noted</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="52" cy="48" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="71" y1="67" x2="92" y2="88" stroke="#14365F" stroke-width="3" stroke-linecap="round"/><path d="M52 38v14" stroke="#E8712C" stroke-width="3" stroke-linecap="round"/><circle cx="52" cy="60" r="2.4" fill="#E8712C"/></svg></div><span class="illustration-label">Gaps Found</span><span class="step-number-large">03</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Resolve and Correct</h3><p class="step-description">Follow up with vendors, post adjustments, and reverse ineligible credit where required.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Vendor follow-up</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Adjustments posted</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 28l14 14-22 22-14-14a3 3 0 010-4l18-18a3 3 0 014 0z" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><circle cx="82" cy="34" r="14" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M76 34l4 4 8-9" stroke="#10B981" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Differences Cleared</span><span class="step-number-large">04</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Verify Balances</h3><p class="step-description">Confirm the general ledger and control accounts agree before finalising.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GL agreed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Controls verified</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 12l34 12v18c0 22-16 34-34 40-18-6-34-18-34-40V24z" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M48 50l8 8 18-20" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Balances Verified</span><span class="step-number-large">05</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Prepare for Audit</h3><p class="step-description">Compile reconciliation statements and working papers for the auditor.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Working papers ready</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit-ready</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="14" width="72" height="72" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="38" y1="34" x2="82" y2="34" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="38" y1="48" x2="82" y2="48" stroke="#14365F" stroke-width="2" opacity="0.3"/><circle cx="84" cy="74" r="16" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><path d="M78 74l4 4 8-9" stroke="#E8712C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Audit Prepared</span><span class="step-number-large">06</span></div></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Define the reconciliation universe</h3>
+    <p class="step-description">We list every account that must be reconciled, who owns it, how often, and what evidence proves it. Most reconciliation failures are not arithmetic. They are accounts nobody was ever made responsible for, which then go unreconciled for years.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/step-1-define-the-reconciliation-universe.webp" alt="Illustration for Define the reconciliation universe: We list every account that must be reconciled, who owns it, how often," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Tie sub-ledgers to control accounts</h3>
+    <p class="step-description">Receivables, payables, fixed assets and inventory sub-ledgers are agreed to their control accounts in the general ledger. Differences are traced back to the individual entry that caused them and corrected, never squared off with a journal that makes the two columns match.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/step-2-tie-sub-ledgers-to-control-accounts.webp" alt="Illustration for Tie sub-ledgers to control accounts: Receivables, payables, fixed assets and inventory sub-ledgers are" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Obtain third-party confirmations</h3>
+    <p class="step-description">Confirmations are sought from banks, customers, vendors, lenders and related parties, and each is compared with the ledger. Differences are analysed into their real causes, such as items in transit, charges never recorded or disputed debits, rather than reported as a single unexplained number.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/step-3-obtain-third-party-confirmations.webp" alt="Illustration for Obtain third-party confirmations: Confirmations are sought from banks, customers, vendors, lenders and" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Reconcile the statutory positions</h3>
+    <p class="step-description">GSTR-2B is reconciled to the purchase register, GSTR-1 and 3B to the books, and both to the electronic credit and cash ledgers. Form 26AS and the annual information statement are agreed to revenue recorded and to tax deducted at source shown as receivable.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/step-4-reconcile-the-statutory-positions.webp" alt="Illustration for Reconcile the statutory positions: GSTR-2B is reconciled to the purchase register, GSTR-1 and 3B to the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Eliminate <a href="/glossary/inter-company-ledger-reconciliation">inter-company balances</a></h3>
+    <p class="step-description">Inter-company and inter-branch balances are matched pair by pair and any mismatch resolved at source before elimination. Timing differences, exchange differences and unrealised margin on stock still held within the group are identified separately in the elimination schedule.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/step-5-eliminate-inter-company-balances.webp" alt="Illustration for Eliminate inter-company balances: Inter-company and inter-branch balances are matched pair by pair and any" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Prepare the audit schedules</h3>
+    <p class="step-description">We build the lead schedules the auditor will ask for, each agreed to the trial balance, with movement workings and indexed supporting documents behind them. A well-built file shortens the audit because the questions are answered before they are asked.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/step-6-prepare-the-audit-schedules.webp" alt="Illustration for Prepare the audit schedules: We build the lead schedules the auditor will ask for, each agreed to the trial" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Support the auditor's queries</h3>
+    <p class="step-description">During fieldwork we respond to observations, retrieve documents and prepare the adjustments management agrees to pass. The statutory audit itself, and the opinion on the financial statements, remain the work of your appointed auditor. We support that process; we do not perform it.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounts-reconciliation-and-audit/step-7-support-the-auditor-s-queries.webp" alt="Illustration for Support the auditor's queries: During fieldwork we respond to observations, retrieve documents and prepare" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Information Checklist</h2>
+            <h2 class="section-title">Documents Required for Accounts Reconciliation</h2>
             <div class="content-text">
                 
-                <ul><li>Bank statements for all accounts for the period.</li><li>Trial balance and general ledger.</li><li>Purchase and sales registers.</li><li>GSTR-2B, GSTR-3B, and GSTR-1 summaries.</li><li>Form 26AS and AIS from TRACES.</li><li>Vendor and customer statements where available.</li></ul><h3 style="margin-top:28px;">What You Receive</h3><p>Each engagement delivers clear, audit-ready outputs.</p><ul><li>Reconciliation statements for every account covered.</li><li>An exception list with resolution status and supporting notes.</li><li>A GST input tax credit reconciliation summary.</li><li>A TDS and Form 26AS matching summary.</li><li>Working papers ready for your auditor.</li></ul>
+                <p>Reconciliation is an evidence exercise: every balance in your books has to be agreed back to something issued by somebody else.</p>
+<ul>
+    <li>Third-party balance confirmations from banks, customers, vendors, lenders and related parties</li>
+    <li>Inter-company and inter-branch reconciliations with elimination schedules</li>
+    <li>GSTR-2B versus purchase register, and GSTR-1/3B versus books, with the electronic credit and cash ledgers</li>
+    <li>Form 26AS and AIS reconciled against revenue in the books and TDS receivable</li>
+    <li>Fixed asset register agreed to the general ledger, with the physical verification report</li>
+    <li>Book stock versus physical count reconciliation with explanations for material differences</li>
+    <li>Trial balance and full general ledger for the period under review</li>
+    <li>Sub-ledger detail for receivables, payables, fixed assets and inventory, tied to their control accounts</li>
+    <li>Bank statements and the completed bank reconciliation statement for every account</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges and How We Solve Them</h2>
+            <h2 class="section-title">Common Accounts Reconciliation Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>GSTR-2B shows less ITC than the purchase register</td><td>Blocked or delayed input tax credit</td><td>Invoice-level matching and structured vendor follow-up</td></tr><tr><td>Form 26AS does not match booked TDS</td><td>Wrong or lost tax credit</td><td>Section-wise reconciliation and correction of mismatches</td></tr><tr><td>Unexplained bank differences</td><td>Inaccurate cash position</td><td>Timing items and outstanding entries identified and cleared</td></tr><tr><td>Year-end GSTR-9C three-way gaps</td><td>Interest and penalty exposure</td><td>Books, GSTR-2B, and GSTR-3B reconciled before filing</td></tr>
+                        <tr><td>Party ledgers disagree with customer and supplier statements</td><td>Disputed balances stall collections and payments, and confirmations sent for audit come back mismatched.</td><td>Patron runs party-wise reconciliation, agreeing each customer and vendor balance to their statement before confirmations go out.</td></tr>
+                        <tr><td>Suspense and clearing accounts accumulate unexplained balances</td><td>The trial balance carries figures no one can source, and every one becomes an audit query.</td><td>We clear suspense and clearing accounts, ageing each item to an owner; see <a href="/blog/balance-sheet-reconciliation-checklist">balance-sheet reconciliation checklist</a>.</td></tr>
+                        <tr><td>The fixed asset register drifts from the general ledger</td><td>Depreciation is charged on assets that no longer exist, and written-down values no longer tie out.</td><td>Patron reconciles the fixed asset register to the ledger, tagging additions and disposals to each account.</td></tr>
+                        <tr><td>Sales register, GSTR-1 and e-invoice IRNs disagree</td><td>Turnover reported three ways diverges, inviting reconciliation notices comparing your returns against reported invoices.</td><td>Our team runs a three-way turnover reconciliation across the sales register, GSTR-1 and generated e-invoice IRNs.</td></tr>
+                        <tr><td>Payment-gateway payouts never matched back to invoices</td><td>Net settlements hide fees and refunds, so recorded revenue and bank credits stop agreeing.</td><td>Patron matches each gateway payout to its invoices, stripping fees and refunds to a clean revenue figure.</td></tr>
 
                     </tbody>
                 </table>
@@ -1562,47 +740,54 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Fees</h2>
+            <h2 class="section-title">Accounts Reconciliation Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 9,999 (Exl GST and Govt. Charges)</td></tr><tr><td>Government or statutory fees</td><td>Not applicable - reconciliation and audit support carry no separate government fee</td></tr>
+                        <tr><td><strong>Standard</strong> &mdash; a defined set of accounts across a single period</td><td>INR 9,999<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Complex</strong> &mdash; larger data volumes, longer history or a multi-entity scope</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">The <strong>INR 9,999</strong> Standard project reconciles a defined set of accounts for one period, matching ledgers to statements and flagging the breaks. Scope widens the fee: more accounts, a longer history or several entities in the review. Ask for a <strong>fixed quote</strong> on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Accounts Reconciliation and Audit consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Accounts Reconciliation and Audit consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounts%20reconciliation%20and%20audit" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Time Taken</h2>
+            <h2 class="section-title">Accounts Reconciliation Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Focused single-period reconciliation cycle</td><td>1 to 3 weeks</td></tr><tr><td>Year-end clean-up across multiple accounts</td><td>3 to 6 weeks, depending on volume</td></tr><tr><td>Full GSTR-9C three-way reconciliation</td><td>Scoped to transaction volume and open exceptions</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>TDS return for Jan-Mar quarter (Form 24Q / 26Q)</td><td>31 May 2026</td><td>Deductors filing quarterly TDS statements</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p>A focused reconciliation cycle is typically completed in 1 to 3 weeks. Year-end clean-ups across multiple accounts and a full GSTR-9C reconciliation take longer, depending on transaction volume and how many exceptions need vendor follow-up.</p>
+                    <p>Reconciliation is the work that clears before every date that matters: the 20th GSTR-3B, the quarterly TDS return on 31 May and the tax audit on 30 September. Patron runs <a href="/blog/account-reconciliation-types-process">account reconciliation</a> so differences are settled long before a filing or auditor asks. Call +91 94594 56700 for a 2026 calendar mapped to your books.</p>
 
                 </div>
             </div>
@@ -1610,42 +795,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Benefits of Professional Reconciliation</h2>
+            <h2 class="section-title">Why Professional Accounts Reconciliation Matters</h2>
         </div>
-        <div class="features-grid"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div><h3 class="feature-title">Protected Input Tax Credit</h3><p class="feature-text">Matching against GSTR-2B protects eligible input tax credit and reduces GST notices.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/></svg></div><h3 class="feature-title">Reliable Cash Position</h3><p class="feature-text">Clean bank reconciliation gives an accurate cash position and dependable financial statements.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></div><h3 class="feature-title">Correct Tax Credits</h3><p class="feature-text">Form 26AS and AIS matching secures the right TDS credit against your PAN.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3 class="feature-title">Faster, Smoother Audits</h3><p class="feature-text">Reconciled books and ready working papers make statutory, internal, and GST audits faster.</p></article></div>
+        <div class="features-grid">
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3 4 7l4 4" /> <path d="M4 7h16" /> <path d="m16 21 4-4-4-4" /> <path d="M20 17H4" /> </svg></div>
+  <h3 class="feature-title">Ownership for every control account</h3>
+  <p class="feature-text">We give each account that must be reconciled a named owner, a frequency and the evidence that proves it.</p><ul style="margin-top:12px;"><li>Owner, frequency and proving evidence set for every control account</li><li>Without it, unowned accounts drift for years until diligence forces them open</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z" /> <path d="M12 22V12" /> <polyline points="3.29 7 12 12 20.71 7" /> <path d="m7.5 4.27 9 5.15" /> </svg></div>
+  <h3 class="feature-title">Sub-ledgers that agree at source</h3>
+  <p class="feature-text">Receivables, payables, fixed assets and inventory tie to their control accounts through the entry that caused each difference.</p><ul style="margin-top:12px;"><li>Differences explained by real entries, not a balancing journal</li><li>Without it, a squared-off schedule collapses the moment a balance is sampled</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">Third-party evidence behind each balance</h3>
+  <p class="feature-text">Bank, customer, vendor, lender and related-party confirmations sit behind your balances, with every difference already broken down.</p><ul style="margin-top:12px;"><li>Differences split into items in transit, unrecorded charges or disputed debits</li><li>Without it, the counterparty's figure contradicts yours before you can explain it</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Input credit traced to evidence</h3>
+  <p class="feature-text">We agree your input credit to the evidence behind it, so each claim traces to a matched record.</p><ul style="margin-top:12px;"><li>GSTR-2B agreed to the purchase register and electronic credit ledger</li><li>Form 26AS agreed to revenue and tax deducted as receivable</li><li>Without the match, credit is reversed once the supplier stops responding</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Group balances that eliminate cleanly</h3>
+  <p class="feature-text">You get consolidated figures built from matched pairs, with whatever remains named as timing, exchange or intra-group margin.</p><ul style="margin-top:12px;"><li>Inter-company balances eliminated through matched pairs, not a balancing entry</li><li>Residuals named: timing, exchange, or margin on stock inside the group</li><li>Without it, a plug at consolidation opens every entity behind it</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> </svg></div>
+  <h3 class="feature-title">Audit schedules ready in advance</h3>
+  <p class="feature-text">Your lead schedules come indexed and agreed to the trial balance, so the month keeps closing while fieldwork runs.</p><ul style="margin-top:12px;"><li>Movement workings and supporting documents filed behind each schedule</li><li>Without them, fieldwork is spent retrieving papers and the next close slips</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Businesses Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <div class="highlight-box" style="margin-bottom:20px;"><p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years Experience</strong></p></div><p>In one engagement our team recovered input tax credit that had been wrongly treated as blocked, after invoice-level reconciliation against GSTR-2B confirmed the credits were eligible once suppliers amended their filings.</p><p>Trusted by businesses including Hyundai, Asian Paints, and Bridgestone. With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India, both in-person and remotely.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Accounts Reconciliation & Audit</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Every control account reconciled, GST to stock</strong><p>A clean set of books turns on control accounts agreeing. We reconcile every one, from GST and TDS to inter-company and stock, alongside dedicated <a href="/bank-credit-card-reconciliation-services">bank and credit card reconciliation</a>, so each balance carries audit evidence.</p></div>
+                <div><strong>GSTR-2B versus books and 26AS versus TDS matched</strong><p>We match GSTR-2B against the purchase register and 26AS against your TDS, line by line, so input credit is not reversed. Our 25,000+ filings make this our regular work, not a year-end panic.</p></div>
+                <div><strong>Reconciliation run from the ledger with a documented exception list</strong><p>We run reconciliations inside Zoho Books, Xero, Tally Prime or Odoo, whichever ledger you keep. Every exception is listed and documented, so you see what did not match and why, ready for the auditor.</p></div>
+                <div><strong>Full reconciliation pack after every period close</strong><p>After each period close you receive a full reconciliation pack, sub-ledgers tied to source and third-party confirmations attached. You can follow the method in <a href="/blog/balance-sheet-reconciliation-checklist">a month-end reconciliation checklist</a> we publish.</p></div>
+                <div><strong>Reconciliation and audit among 3,000+ businesses served</strong><p>Reconciliation and <a href="/blog/internal-vs-statutory-audit">internal audit</a> engagements sit among the 3,000+ businesses we have served since 2019. With 15+ years of experience and a 4.9 star Google rating, our in-house team of CAs and CS owns each balance.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY vs Professional Reconciliation</h2>
+            <h2 class="section-title">Internal Audit vs Statutory Audit Support</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>DIY Reconciliation</th><th>Patron Accounting</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Internal Audit</th><th>Statutory Audit Support</th></tr></thead>
                     <tbody>
-                        <tr><td>Matching logic</td><td>Spreadsheet, error-prone</td><td>Structured invoice-level matching</td></tr><tr><td>GST ITC protection</td><td>Often missed</td><td>Reconciled against GSTR-2B</td></tr><tr><td>TDS credits</td><td>Frequently mismatched</td><td>Matched to Form 26AS and AIS</td></tr><tr><td>Exception resolution</td><td>Unowned backlog</td><td>Tracked and cleared with follow-up</td></tr><tr><td>Audit readiness</td><td>Weak</td><td>Working papers prepared</td></tr>
+                        <tr><td>Purpose</td><td>Internal audit: ongoing check of controls and processes.</td><td>Statutory audit support: readying books for the external auditor.</td></tr>
+                        <tr><td>Trigger</td><td>Internal audit: chosen by management, voluntary for most.</td><td>Statutory audit support: needed where statute mandates an audit.</td></tr>
+                        <tr><td>Focus</td><td>Internal audit: risk, fraud and efficiency across the year.</td><td>Statutory audit support: accuracy of the year-end financial statements.</td></tr>
+                        <tr><td>Frequency</td><td>Internal audit: continuous or quarterly reviews through the year.</td><td>Statutory audit support: annual, concentrated at the close.</td></tr>
+                        <tr><td>Who relies on it</td><td>Internal audit: the board and owners for decisions.</td><td>Statutory audit support: the auditor, lenders and regulators.</td></tr>
+                        <tr><td>Reconciliation link</td><td>Internal audit: keeps ledgers reconciled through the year.</td><td>Statutory audit support: clean reconciliations speed the audit sign-off.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Growing SMEs gain from continuous internal audit that catches errors early, while statutory audit support becomes essential once a mandatory audit applies. Strong accounts reconciliation services underpin both, as an <a href="/blog/internal-vs-statutory-audit">internal versus statutory audit</a> comparison shows.</td></tr>
 
                     </tbody>
                 </table>
@@ -1655,152 +886,181 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Accounts Reconciliation</h2>
             <div class="content-text">
                 
-                <p>Pair reconciliation with the right ongoing support:</p><ul><li><a href="/accounting-services">Accounting Services</a> for managed books that stay reconciled month on month.</li><li><a href="/internal-audit">Internal Audit</a> to test controls once accounts are reconciled.</li><li><a href="/gst-audit">GST Audit</a> for GST assurance built on clean reconciliations.</li><li><a href="/statutory-audit">Statutory Audit</a> where reconciled books make the audit faster.</li><li><a href="/gst-returns">GST Returns</a> filed on reconciled GSTR-2B and GSTR-3B data.</li><li><a href="/tax-audit">Tax Audit</a> supported by verified books and working papers.</li></ul>
+                <p>An incorporated business triggers the fullest compliance of any entity type, and reconciliation is what makes that compliance survivable: every control account has to be proved against an outside record before an auditor or an assessing officer reads it. Section 128 requires the books to be true and fair, and a reconciled ledger is how that claim is defended.</p>
+<p>The framework therefore treats reconciliation as audit preparation, not housekeeping. A bank, a GST credit register and an inter-company balance each have to agree with a source outside the ledger, which is why <a href="/glossary/vendor-balance-confirmation">Vendor Balance Confirmation</a> and <a href="/glossary/inter-company-ledger-reconciliation">Inter-Company Ledger Reconciliation</a> are evidence an auditor relies on. Accounts reconciliation services close those differences against the provisions below, and the distinction between <a href="/glossary/statutory-vs-internal-audit">Statutory vs Internal Audit</a> decides who then relies on the result.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">The books are kept true and fair on accrual and double entry, which a reconciled set of control accounts is what proves.</span></li><li><span class="al-t"><strong>Section 44AB, Income-tax Act 1961</strong></span><span class="al-d">Where turnover crosses Rs 1 crore, or Rs 10 crore with cash within 5%, or Rs 50 lakh for professionals, the reconciled accounts feed the tax audit report.</span></li><li><span class="al-t"><strong>Section 128 and Section 44AA, Income-tax Act 1961</strong></span><span class="al-d">The underlying double-entry obligation applies to every entity, so the same reconciliation discipline covers companies and non-corporates alike.</span></li><li><span class="al-t"><strong>Section 44AA, Income-tax Act 1961</strong></span><span class="al-d">A non-corporate business maintains books once the limits are crossed, and reconciliation is how those books are kept defensible.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled, so any adjusting entry made during reconciliation is itself on record. Conducting the statutory audit sits on the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Compliance Framework</h2>
-            <div class="content-text">
-                
-                <p>Under <strong>Section 16(2)(c) of the CGST Act, 2017</strong>, input tax credit is allowed only when the supplier has filed and the invoice appears in your GSTR-2B. Claiming credit that is not reflected can attract <strong>18% per annum interest</strong> and penalty under Section 122, making GST reconciliation a financial safeguard, not just a formality.</p><p>For aggregate turnover above Rs 5 crore, the annual reconciliation statement <strong>GSTR-9C</strong> requires a three-way match of input tax credit per audited books, per GSTR-2B, and per GSTR-3B. Returns are filed through the <a href="https://www.gst.gov.in" target="_blank" rel="noopener">Goods and Services Tax portal</a>.</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    <p class="faq-expanded__lead">Common questions about accounts reconciliation, GST and TDS matching, and audit readiness.</p>
-                    @include('partials.faq-enquiry-form')
+                    <h2 class="faq-expanded__title">Accounts Reconciliation and Audit FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on accounts reconciliation and audit scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Accounts Reconciliation and Audit</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is account reconciliation?</h3>
-                        <div class="faq-expanded__a"><p>Account reconciliation is the process of comparing internal accounting records against an independent external source, such as a bank statement, GSTR-2B, or Form 26AS, identifying differences, and correcting them so the balances agree. It confirms that your books reflect reality and prepares them for accurate reporting and audit.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What are the main types of reconciliation?</h3>
-                        <div class="faq-expanded__a"><p>The main types are bank reconciliation, vendor or accounts payable reconciliation, customer or accounts receivable reconciliation, general ledger and balance sheet reconciliation, GST reconciliation against GSTR-2B and GSTR-3B, and TDS reconciliation against Form 26AS and AIS. Each matches an internal record to a specific external source.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">Why should I reconcile before an audit?</h3>
-                        <div class="faq-expanded__a"><p>Reconciliation removes the errors and mismatches that otherwise surface as audit findings. Clean bank, GST, and TDS reconciliations confirm balances, protect input tax credit, and produce the working papers an auditor needs, making statutory, internal, and GST audits faster and far less stressful.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What happens if GSTR-2B and GSTR-3B do not match?</h3>
-                        <div class="faq-expanded__a"><p>A mismatch usually means input tax credit claimed in GSTR-3B is not reflected in GSTR-2B, often because a supplier filed late or with a wrong GSTIN. Under Section 16(2)(c) of the CGST Act, such credit can be blocked, and claiming it anyway can attract 18% per annum interest and a notice.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">How much does accounts reconciliation and audit support cost?</h3>
-                        <div class="faq-expanded__a"><p>Patron Accounting engagements start from INR 9,999 (Exl GST and Govt. Charges). Final fees depend on the number of accounts, transaction volume, the reconciliation period, and the depth of audit support required. Call +91 945 945 6700 for a free, no-obligation quote.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">How often should a business reconcile its accounts?</h3>
-                        <div class="faq-expanded__a"><p>Bank and GST reconciliations are best done monthly, since GSTR-2B is generated on the 14th and GSTR-3B is due on the 20th, leaving a short window. Vendor, customer, and ledger reconciliations should be done at least monthly, with a full year-end reconciliation before finalising accounts.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">What is GSTR-9C?</h3>
-                        <div class="faq-expanded__a"><p>GSTR-9C is the annual reconciliation statement filed alongside GSTR-9 by every registered person with aggregate turnover above Rs 5 crore. It forces a three-way comparison of input tax credit per audited books, per GSTR-2B, and per GSTR-3B, and unresolved differences can lead to interest and penalties.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is customer reconciliation?</h3>
+  <div class="faq-expanded__a"><p>Customer reconciliation is the process of matching the balance your books show for a customer against the balance that customer shows for you, then identifying and clearing every difference. Typical differences are invoices not booked, credit notes, TDS deducted by the customer, short payments, discounts and payments in transit. The exercise closes with a signed balance confirmation from the customer.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is a bank reconciliation statement prepared by the bank or by the customer?</h3>
+  <div class="faq-expanded__a"><p>A bank reconciliation statement is prepared by the account holder, not by the bank. The bank only issues a statement of the transactions it has recorded. Your accounts team compares that statement with the cash book and explains the gaps, which usually arise from cheques issued but not presented, deposits not yet cleared, bank charges and direct credits not yet entered.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What are global reconciliation services?</h3>
+  <div class="faq-expanded__a"><p>Global reconciliation services means reconciling accounts across multiple entities, currencies and accounting systems into one consistent position, usually for a group with Indian and overseas operations. The work covers intercompany balances, foreign currency revaluation, bank accounts in different countries and mapping local ledgers to a group chart of accounts before consolidation. Every adjustment carries a documented audit trail.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you run vendor reconciliation across a large supplier base?</h3>
+  <div class="faq-expanded__a"><p>Vendor reconciliation is run in batches, top 50 suppliers by value first, and a base of several hundred vendors is normally cleared in four to six weeks. We collect supplier statements, match them against the purchase ledger, split differences into unbooked invoices, debit notes, TDS and advances, and close each account with a written confirmation from the supplier.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What documents do you need to start a reconciliation assignment?</h3>
+  <div class="faq-expanded__a"><p>We need your trial balance, party wise ledgers, bank statements for the period, purchase and sales registers, GST returns already filed, TDS challans and returns, and any counterparty statements you already hold. Read only access to your Tally or Zoho Books data speeds the work up considerably. Fieldwork can begin within three working days of receiving these.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is an <a href="/blog/account-reconciliation-types-process">account reconciliation</a>?</h3>
+  <div class="faq-expanded__a"><p>An account reconciliation compares a balance in your books against an independent record, such as a bank statement, a supplier statement or a GST return, and explains every difference until the two agree. Differences usually arise from timing, unbooked invoices, TDS deducted by the counterparty, bank charges and posting errors. Each item is documented and cleared through a journal entry your management approves.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What are the main types of account reconciliation?</h3>
+  <div class="faq-expanded__a"><p>Account reconciliation covers five main types in practice: bank, customer or debtor, vendor or creditor, inter company, and statutory reconciliations such as the purchase register against GSTR-2B. Each compares an internal ledger with an external record and explains the gap. Bank reconciliation is only the starting point, and the vendor and GST ones usually surface the larger money differences.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What audit support is provided during a statutory audit?</h3>
+  <div class="faq-expanded__a"><p>Audit support means preparing the schedules your auditor asks for, answering queries and sitting with the audit team through fieldwork. That covers fixed asset registers, ageing of debtors and creditors, stock summaries, related party listings, statutory dues workings and confirmation letters. Our team absorbs the back and forth so your finance staff are not pulled off routine monthly work.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is the purchase register reconciled with GSTR-2B every month?</h3>
+  <div class="faq-expanded__a"><p>Yes, the purchase register is matched against GSTR-2B monthly and we report credit that is available, credit missing because the supplier has not filed, and credit claimed in your books without support. Suppliers who repeatedly fail to file are escalated in writing so payment can be held back, which protects the credit instead of chasing it a year later.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does a reconciliation and audit support assignment cost?</h3>
+  <div class="faq-expanded__a"><p>A one off reconciliation and audit support assignment usually costs Rs 25,000 to Rs 1,50,000, priced on the number of ledgers, the period covered and the condition of the records. Ongoing monthly reconciliation bundled into a bookkeeping retainer costs much less. We quote a fixed fee after reviewing your trial balance and a sample of open items.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Is bank reconciliation enough on its own?</strong> No, GST and TDS reconciliations are also needed for compliance.</p><p><strong>Does reconciliation protect input tax credit?</strong> Yes, matching against GSTR-2B safeguards eligible credit.</p><p><strong>When is GSTR-9C required?</strong> For aggregate turnover above Rs 5 crore.</p>
+                <p>Control accounts are worked through in a fixed order, bank first, then the statutory ledgers, then inter-company and stock, so that a difference surfacing late in the run does not send the earlier accounts reconciliation work back to the start again. Balances are agreed to third-party statements rather than to.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Reconcile Before Mismatches Become Notices</h2>
+            <h2 class="section-title">Accounts Reconciliation and Audit Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Every month that bank, GST, and TDS mismatches go unresolved increases the risk of blocked input tax credit, 18% interest, and audit findings. A focused reconciliation cycle takes just 1 to 3 weeks and leaves your books clean and audit-ready.</p><p><strong>Talk to a reconciliation expert - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank">WhatsApp us</a> for a free, no-obligation consultation.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>GSTR-3B (summary return and tax payment)</strong> is due 20th of every month for monthly filers. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounts Reconciliation and Audit Today</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounts Reconciliation with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:#FFFFFF;">Accounts reconciliation and audit support turns scattered, mismatched records into clean, verified financials that protect input tax credit, secure tax credits, and stand up to scrutiny. Done correctly, reconciliation is a financial defence mechanism that prevents notices and accelerates every audit.</p><p style="color:#FFFFFF;">Patron Accounting brings 15+ years of experience and CA-led rigour to every reconciliation and audit engagement. Starting from INR 9,999 (Exl GST and Govt. Charges).</p>
+                <p style="color:rgba(255,255,255,0.88);">Most engagements begin with a new auditor asking for schedules. A buyer&#x27;s diligence list does the same, as does a lender wanting balances confirmed by the other side. In each case somebody outside the business has asked a question the internal reports were never built to answer, and accounts reconciliation services follow.</p>
+<p style="color:rgba(255,255,255,0.88);">Customer reconciliation returns a difference you can close rather than one you can describe. Every open item is traceable to where it started and to whoever can settle it, so the list shortens instead of being carried forward another year. Nothing sits in suspense waiting for a decision nobody owns.</p>
+<p style="color:rgba(255,255,255,0.88);">Scope is the open question: which control accounts are in doubt, and how old the differences are. Then who the pack is for, because an auditor, a buyer and a bank want the same balances proved differently. <a href="/backlog-bookkeeping-catch-up-services">Rebuilding years of missing entries</a> is separate work.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20accounts%20reconciliation%20and%20audit%20support.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts Reconciliation and Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts Reconciliation and Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounts%20reconciliation%20and%20audit" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounts%20Reconciliation%20and%20Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounts%20Reconciliation%20and%20Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Related Reconciliation and Audit Services</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">End-to-end accounting, audit, and compliance support that builds on clean reconciliations.</p>
-       
-            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Accounts Reconciliation and Audit</div><div class="pa-cross-grid"><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/internal-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Internal Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/statutory-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Statutory Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a></div></div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 5 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter"></span> &nbsp;|&nbsp; <strong>Next Review:</strong> 5 December 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed every 6 months and whenever GST law, ITC rules, the GSTR-9C threshold, or pricing change (Freshness Tier 2).</p>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Accounts Reconciliation and Audit Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for accounts reconciliation and audit in these cities.</p>
+            
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
 
 
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
@@ -1875,8 +1135,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -1886,8 +1146,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -1968,7 +1228,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -1978,34 +1238,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-        function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2016,12 +1274,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2132,9 +1391,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2274,7 +1531,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2304,7 +1561,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-     var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2324,7 +1580,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2402,7 +1658,7 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
@@ -2411,55 +1667,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2498,19 +1723,12 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 <script>
-// BF-1: Last Updated mirrors schema dateModified (stable, not live new Date())
+// BF-1: Set last updated date dynamically
 (function() {
-    var dateStr = '5 June 2026';
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
-    var el2 = document.getElementById('lastUpdatedFooter');
-    if (el1) el1.textContent = dateStr;
-    if (el2) el2.textContent = dateStr;
+    if (el1) { el1.textContent = dateStr; }
 })();
 </script>
-
-
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

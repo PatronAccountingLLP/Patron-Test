@@ -1,1100 +1,293 @@
-
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Accounting & Bookkeeping Services in India - Expert CAs</title>
-    <meta name="description" content="Professional accounting services in India for SMEs and companies. Bookkeeping, financial reporting, GST compliance. Starting from Rs. 2,499/month.">
-    <link rel="canonical" href="/accounting-services">
+    <title>Accounting Services in India for Indian Businesses | Patron Accounting</title>
+    <meta name="description" content="Books that close, not books that lag - month-end shut on a fixed date. Save hours every month and stop chasing your own paperwork. Request a proposal.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounting & Bookkeeping Services in India - Expert CAs">
-    <meta property="og:description" content="Professional accounting services in India for SMEs and companies. Bookkeeping, financial reporting, GST compliance. Starting from Rs. 2,499/month.">
-    <meta property="og:url" content="/accounting-services">
+    <meta property="og:title" content="Accounting Services in India for Indian Businesses | Patron Accounting">
+    <meta property="og:description" content="Books that close, not books that lag - month-end shut on a fixed date. Save hours every month and stop chasing your own paperwork. Request a proposal.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounting & Bookkeeping Services in India - Expert CAs">
-    <meta name="twitter:description" content="Professional accounting services in India for SMEs and companies. Bookkeeping, financial reporting, GST compliance. Starting from Rs. 2,499/month.">
-    <meta name="twitter:image" content="/images/accounting-services-og.webp">
+    <meta name="twitter:title" content="Accounting Services in India for Indian Businesses | Patron Accounting">
+    <meta name="twitter:description" content="Books that close, not books that lag - month-end shut on a fixed date. Save hours every month and stop chasing your own paperwork. Request a proposal.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services/#service",
+  "name": "Accounting Services in India",
+  "description": "Accounting services cover the full monthly cycle: bookkeeping, bank and ledger reconciliation, GST and TDS filing, and a trial balance that closes on a fixed date. The Rule 3(1) audit trail stays switched on in your ledger all year.",
+  "image": "https://www.patronaccounting.com/images/accounting-services-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting Services in India",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
           "@type": "Service",
-          "name": "Accounting Services India: Overview",
-          "description": "Professional accounting services in India for SMEs and companies. Bookkeeping, financial reporting, GST compliance. Starting from Rs. 2,499/month.",
-          "url": "/accounting-services",
-          "serviceType": "Accounting Services India: Overview",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
-          },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "/accounting-services",
-            "price": "2499"
-          }
+          "name": "Accounting Services in India",
+          "description": "Accounting services cover the full monthly cycle: bookkeeping, bank and ledger reconciliation, GST and TDS filing, and a trial balance that closes on a fixed date. The Rule 3(1) audit trail stays switched on in your ledger all year.",
+          "serviceType": "Accounting Service"
         },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Accounting Services India: Overview",
-              "item": "/accounting-services"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What are accounting services and what do they include?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Accounting services are professional financial management activities covering bookkeeping (recording daily transactions), financial statement preparation (P&L, Balance Sheet, Cash Flow), GST compliance, TDS tracking, payroll accounting, bank reconciliation, and MIS reporting. In India, they must comply with the Companies Act 2013, Income Tax Act 1961, and GST laws. Patron Accounting provides end-to-end services starting from Rs. 2,499 per month."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is it mandatory to maintain books of accounts in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Under Section 128 of the Companies Act 2013, all registered companies must maintain books on accrual basis using double-entry. Under Section 44AA of the Income Tax Act 1961, businesses with gross receipts above Rs. 25 lakh and professionals above Rs. 10 lakh must maintain prescribed books. Non-compliance attracts fines from Rs. 50,000 to Rs. 5 lakh."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the difference between bookkeeping and accounting?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bookkeeping is the recording phase - entering daily transactions (sales, purchases, payments, receipts) into account books. Accounting goes further by classifying, summarizing, and analyzing those records to produce financial statements, tax computations, and management insights. Bookkeeping is the foundation; accounting is the structure built on it. Both are required for full legal compliance."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How much do accounting services cost in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Accounting services range from Rs. 999 to Rs. 30,000 per month depending on transaction volume, entity type, and scope. Patron Accounting charges Rs. 2,499/month for up to 100 transactions (Starter), Rs. 3,500/month for 101-300 transactions (Growth), and Rs. 6,500/month for 301-500 transactions (Business). Enterprise clients with 500+ transactions receive custom quotes."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What accounting software does Patron Accounting use?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We work across all major platforms: TallyPrime (most widely used for GST compliance), Zoho Books (cloud-based for startups and SMEs), QuickBooks Online (US-reporting requirements), Xero (foreign-owned companies), and Busy (manufacturing and trading). We also support seamless migration between platforms with data integrity assurance."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do I need an in-house accountant or can I outsource?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "For businesses below Rs. 5 crore turnover, outsourcing to a CA-led firm like Patron Accounting is significantly more cost-effective. It eliminates salary costs (Rs. 25,000-50,000/month for a bookkeeper), recruitment, training, software licensing, and leave management. Outsourced accounting provides CA oversight ensuring audit-ready, compliant books at all times. Quick Answers Q: What does an accounting service do? An accounting service records, classifies, and reports all financial transactions, ensuring compliance with Indian tax laws, GST, and Companies Act requirements. Q: Accounting services ke liye kitna paisa lagta hai? India mein accounting services Rs. 2,499 se Rs. 30,000 per month mein milti hain, transaction volume ke hisab se. Q: Is bookkeeping required for a proprietorship? Yes. Under Section 44AA of the Income Tax Act 1961, proprietorships with business turnover above Rs. 25 lakh must maintain prescribed books. Q: What is the penalty for not maintaining books? Under Section 128(6) of Companies Act 2013, fine between Rs. 50,000 and Rs. 5 lakh for directors/CFO responsible for compliance."
-              }
-            }
-          ]
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-      ]
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Accounting Services",
+      "item": "https://www.patronaccounting.com/accounting-services"
     }
-    </script>
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is accounting services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accounting services are the recording, classifying and reporting of a business's financial transactions, covering bookkeeping, ledger maintenance, bank reconciliation, GST and TDS workings, payroll entries and year end financial statements. In India these are prepared under Accounting Standards or Ind AS and must support filings required by the Income Tax Act and the Companies Act. Most SMEs outsource the whole stack to a CA firm on a monthly retainer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are big 4 accounting firms located in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Big 4 firms, Deloitte, PwC, EY and KPMG, operate from Mumbai, Delhi NCR including Gurugram and Noida, Bengaluru, Hyderabad, Chennai, Pune, Kolkata and Ahmedabad. Their Indian network entities are ICAI registered audit practices with separate advisory arms. Their fee levels are set for large listed groups, so a mid sized CA firm usually delivers comparable compliance quality to an SME at a far lower cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are financial accounting advisory services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Financial accounting advisory services cover technical accounting work outside routine bookkeeping, such as Ind AS transition, revenue recognition policy, lease accounting, business combination entries, fair valuation support and restatement of prior year figures. Engagements are scoped as a one time project rather than a monthly retainer, and they close with a documented accounting position paper that your statutory auditor can review before signing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do accounting advisory services include for a growing company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accounting advisory services include chart of accounts design, month end close process build, MIS and KPI reporting frameworks, internal financial control documentation, accounting software or ERP selection and a CFO level review of numbers before board and investor meetings. The work is advisory rather than transactional, so it is priced per project, commonly Rs 25,000 to Rs 1,50,000 depending on entity size and scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does accounting services cost in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Outsourced accounting in India typically costs Rs 5,000 to Rs 15,000 a month for a proprietorship or LLP with under 100 transactions, and Rs 15,000 to Rs 40,000 a month for a mid sized private limited company. Fees move with transaction volume, the number of GSTINs, the software used and whether payroll, TDS and MIS reporting are bundled into the same retainer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does IoT impact accounting services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IoT devices push transaction data from POS terminals, warehouse scanners, fuel sensors and connected meters straight into accounting software, which removes manual entry and shortens the month end close by several days. For Indian businesses the practical gain is live stock and sales data feeding the GST returns, so GSTR-1 and GSTR-3B are reconciled from source records instead of being rebuilt from spreadsheets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the types of accounting services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main types are bookkeeping and ledger maintenance, statutory compliance accounting for GST and TDS, payroll accounting, management accounting and MIS, cost and inventory accounting, financial reporting under AS or Ind AS, and forensic or investigative accounting. Most Indian SMEs buy the first four as one bundled monthly retainer and add reporting or forensic work as separate projects when a specific need arises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which accounting services give the best value for the price?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bundled monthly retainers give the best value, because one fee covering bookkeeping, GST returns, TDS and payroll costs roughly 30 to 40 percent less than buying each service separately or hiring an in house accountant at Rs 25,000 to Rs 35,000 a month plus PF and gratuity. The cheapest quote is rarely the best value when reconciliations and senior review are excluded."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is forensic accounting and when does a business need it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Forensic accounting is the examination of books to detect fraud, misappropriation or manipulated records and to produce findings that stand up before a court, tribunal or insurer. Indian businesses commission it after suspected cash or stock theft, vendor kickbacks, partner disputes, or before acquiring a company. The work covers ledger tracing, bank and vendor sampling, interviews and a written report with supporting evidence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is meant by services rendered in accounting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Services rendered means the service has actually been performed for the customer, which is the point at which revenue is recognised, whether or not an invoice has been raised or payment received. Under the accrual basis followed in India, unbilled work sits as accrued revenue and reverses when the tax invoice is issued. The invoice date also drives the time of supply for GST purposes."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services",
+  "name": "Accounting Services in India",
+  "description": "Books that close, not books that lag - month-end shut on a fixed date. Save hours every month and stop chasing your own paperwork. Request a proposal.",
+  "url": "https://www.patronaccounting.com/accounting-services",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/accounting-services-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/accounting-services-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
-<!-- BREADCRUMB -->
-{{-- <nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
     <div style="max-width:1320px;margin:0 auto;">
         <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
                     Home
                 </a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Services</a>
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
-            <li><span style="color:var(--orange);font-weight:600;">Accounting Services Services</span></li>
+            <li><span style="color:var(--orange);font-weight:600;">Accounting Services</span></li>
         </ol>
     </div>
-</nav> --}}
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1106,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Accounting Services in India - Complete Overview 2026
+                        Accounting Services in India
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1115,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">12 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Expert CA-Led Accounting:</span> Dedicated CA-supervised bookkeeping and financial reporting for startups, SMEs, private limited companies, and LLPs across India</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Input credit you can keep:</span> You keep the input credit your books can back, vendor by vendor, before it is ever claimed on invoices alone.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Full Legal Compliance:</span> Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act 1961 - all statutory requirements covered</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Statements that map to Schedule III:</span> Your trial balance already carries the groupings financial statements need, so a lender pack or board pack is drawn straight off it.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Cloud-Based Tools:</span> Accounting on Tally, Zoho Books, QuickBooks, and Xero - real-time access to your financials from anywhere</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Party-wise debtor and creditor position:</span> You see who owes you and who you owe, name by name, with ageing. It replaces one net figure on the balance sheet.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Affordable Plans:</span> Starting from Rs. 2,499/month with dedicated CA assigned and weekly financial reports included</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Payroll deductions that agree:</span> We compute each month's PF, ESI, Professional Tax and salary TDS off the salary register. Challans paid and the ledger charge then match.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Trusted by 3,000+ businesses across India for accounting and financial reporting</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20for%20my%20business.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1177,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1207,7 +398,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Accounting Services'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1250,15 +441,12 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services" selected>Accounting Services</option>
-                                <option value="payroll-services">Payroll Services</option>
-                                <option value="tally-accounting">Tally Accounting</option>
-                                <option value="zoho-books-accounting">Zoho Books Accounting</option>
-                                <option value="quickbooks-accounting">QuickBooks Accounting</option>
-                                <option value="gst-returns">GST Return Filing</option>
-                                <option value="income-tax-return">Income Tax Return</option>
-                                <option value="tax-audit">Tax Audit</option>
-                                <option value="other">Other</option>
+                                <option value="accounting-services" selected>Accounting</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1288,91 +476,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron Accounting's team has kept our books impeccable for two years. Their monthly MIS reports give us the financial clarity to make growth decisions confidently.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AK</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Amit K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Series A SaaS Startup, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-            </div>
-        </div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We switched from an in-house accountant to Patron and save Rs. 35,000 per month. Our books are more accurate now and always GST-audit-ready. Highly recommended.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PS</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Priya S.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Manufacturing Company, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-            </div>
-        </div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The GST ITC reconciliation that Patron does every month has saved us from multiple ITC disallowances. Their 2A/2B matching is thorough and they follow up with vendors proactively.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RG</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rahul G.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Trading Company, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-            </div>
-        </div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">As an NGO, our accounting requirements are unique. Patron set up our Chart of Accounts correctly for FCRA compliance and delivers monthly statements that satisfy our donors and auditors.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NK</div>
-                <div><div style="font-weight:700;font-size:13px;color:var(--blue);">Neha K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">NGO Director, Bangalore</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div>
-                <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get expert CA-managed accounting, bookkeeping, and GST compliance for your business.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1398,46 +505,48 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <a href="#overview-section" class="toc-btn">Overview</a>
-            <a href="#what-section" class="toc-btn">What Are Accounting Services</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Our Services</a>
-            <a href="#procedure-section" class="toc-btn">6-Step Process</a>
-            <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#fees-section" class="toc-btn">Pricing</a>
-            <a href="#timeline-section" class="toc-btn">Timeline</a>
-            <a href="#benefits-section" class="toc-btn">Benefits</a>
-            <a href="#comparison-section" class="toc-btn">Outsource vs In-House</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounting Services in India - End-to-End CA-Managed Financial Management</h2>
+            <h2 class="section-title">What Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Accounting Services Services at a Glance</strong></p>
-                    <p>Every registered business in India is legally required to maintain accurate books of accounts. Accounting services encompass bookkeeping, financial reporting, tax compliance, GST filing, payroll processing, and strategic financial advisory. Patron Accounting LLP delivers end-to-end accounting services combining CA expertise with cloud-based tools like Tally, Zoho Books, QuickBooks, and Xero - starting from INR 2,499 per month with a dedicated Chartered Accountant assigned to every engagement.</p>
+                    <p><strong>&#128204; TL;DR - Accounting Services at a Glance</strong></p>
+                    <p>Accounting services cover the full monthly cycle: bookkeeping, bank and ledger reconciliation, GST and TDS filing, and a trial balance that closes on a fixed date. The Rule 3(1) audit trail stays switched on in your ledger all year. Patron runs that close for Indian businesses so month-end lands on schedule instead of drifting into the next quarter. Suited to companies, LLPs and proprietorships without an in-house finance team.</p>
                 </div>
-                <p>Under Section 128 of the Companies Act 2013, every company must maintain books of accounts on an accrual basis. Under Section 44AA of the Income Tax Act 1961, businesses with gross receipts exceeding Rs. 25 lakh must maintain prescribed books. Non-compliance attracts fines from Rs. 50,000 to Rs. 5 lakh under Section 128(6). Professional accounting services ensure your business meets all statutory requirements while providing the financial clarity needed for growth.</p>
-                <p>Patron Accounting LLP serves 3,000+ businesses across India with a team of 25+ qualified Chartered Accountants and Company Secretaries. We cover all major accounting platforms (Tally, Zoho Books, QuickBooks, Xero, Busy), support 15+ industry sectors, and deliver monthly books within 7 working days - ensuring your financials are always audit-ready and decision-ready.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Every month begins the day your bank statements and sales registers arrive. Entries are posted across the month, ledgers reconciled against bank and vendor balances, then TDS and GST workings prepared during the filing week. Queries on missing bills go back in one batch. The close produces a trial balance, a profit and loss statement and a balance sheet, each dated. Patron publishes a plain checklist of deliverables so nothing waits on a reminder.</p>
+                <p>By the second month the drivers are plain: transaction volume, each GST registration you hold, payroll headcount and every bank account feeding the ledger. A second entity or a second state doubles the reconciliation work. Bookkeeping services here cover posting, reconciliation and statutory workings, with returns lodged at the GST portal. Statutory audit and departmental representation are quoted separately.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
@@ -1445,75 +554,38 @@
                 <h2 class="section-title">What Are Accounting Services?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Accounting services are professional financial management activities - including recording, classifying, summarizing, and reporting business transactions - that ensure a company's books are accurate, compliant, and decision-ready under Indian GAAP and applicable statutes.</p>
-                <p>In India, accounting encompasses four core processes: <strong>recording</strong> every transaction (bookkeeping), <strong>classifying</strong> transactions into meaningful categories, <strong>summarizing</strong> data into financial statements (Profit and Loss, Balance Sheet, Cash Flow), and <strong>analyzing</strong> results for strategic decision-making. These processes must conform to Indian GAAP, Ind AS (for applicable companies), and requirements under the Companies Act 2013, Income Tax Act 1961, and GST laws.</p>
-                <p>Patron Accounting LLP provides all six core service areas: bookkeeping and daily transaction recording, financial statement preparation per Schedule III, GST-compliant bookkeeping and return support, TDS accounting and compliance, accounts payable and receivable management, and MIS reporting with financial analysis.</p>
+                    <p>Before a business can file a return, raise a loan or answer an auditor, its books have to be complete and current. Accounting services are the engagement that keeps them that way, producing a reliable set of financial statements at every period close. That single responsibility, an accurate ledger closed on time and ready to report from, is what the service answers for.</p>
+<p>Routine bookkeeping is covered, along with the reconciliation of every ledger against bank and vendor records, and the preparation of a trial balance, profit and loss account and balance sheet. Each statement carries the date its books were closed. These books record what the business earned, spent, owns and owes, keeping the audit trail live throughout the year. Statutory returns are prepared from these books, though the filings themselves belong to separate tax and audit teams. Good bookkeeping services here mean each transaction is classified consistently and posted to the right head. The figures then agree with one another, and can be defended when a lender, an auditor or a partner asks.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Accounting Services:</strong></p>
-                    <p><strong>Bookkeeping:</strong> Recording daily financial transactions (sales, purchases, receipts, payments) in account books - the input layer of accounting</p>
-                    <p><strong>Financial Accounting:</strong> Preparation of formal Profit and Loss Account, Balance Sheet, and Cash Flow Statement per Schedule III of the Companies Act 2013</p>
-                    <p><strong>Management Accounting (MIS):</strong> Internal reports for decision-making including budget vs. actuals, cash flow forecasts, and KPI dashboards</p>
-                    <p><strong>Ind AS:</strong> Indian Accounting Standards issued by ICAI; mandatory for companies with net worth above Rs. 250 crore or listed status</p>
-                    <p><strong>Accrual Basis:</strong> Mandatory accounting method under Section 128(1) - income and expenses recorded when earned or incurred, not when cash moves</p>
+                    <p><strong>Key Terms for Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/assets">Assets</a></span><span class="al-d">What the business owns or controls and expects to bring future value.</span></li><li><span class="al-t"><a href="/glossary/liabilities">Liabilities</a></span><span class="al-d">What the business owes to others, from supplier bills to bank loans.</span></li><li><span class="al-t"><a href="/glossary/equity">Equity</a></span><span class="al-d">The owners&#x27; residual stake in the business once liabilities are subtracted from assets.</span></li><li><span class="al-t"><a href="/glossary/capital">Capital</a></span><span class="al-d">Money and assets the owners put into the business to run it.</span></li><li><span class="al-t"><a href="/glossary/revenue">Revenue</a></span><span class="al-d">Income the business earns from selling its goods or services.</span></li><li><span class="al-t"><a href="/glossary/expenses">Expenses</a></span><span class="al-d">The costs the business incurs to earn its revenue and keep running.</span></li><li><span class="al-t"><a href="/glossary/accrual-accounting">Accrual Accounting</a></span><span class="al-d">Recording income and costs when they are earned or incurred, not when cash moves.</span></li><li><span class="al-t"><a href="/glossary/cash-accounting">Cash Accounting</a></span><span class="al-d">Recording income and costs only when money actually enters or leaves the bank.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <!-- Calculator icon -->
-                            <rect x="40" y="30" width="120" height="110" rx="8" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <rect x="52" y="42" width="96" height="24" rx="4" fill="#14365F"/>
-                            <text x="100" y="59" font-size="14" fill="#F5A623" font-weight="700" text-anchor="middle" font-family="Arial">P &amp; L</text>
-                            <!-- Button grid -->
-                            <rect x="55" y="76" width="20" height="16" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <rect x="82" y="76" width="20" height="16" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <rect x="109" y="76" width="20" height="16" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <rect x="55" y="100" width="20" height="16" rx="3" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/>
-                            <rect x="82" y="100" width="20" height="16" rx="3" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/>
-                            <rect x="109" y="100" width="20" height="16" rx="3" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- ACCT tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">ACCT</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Accounting Services</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>CA-Managed</span>
-                        <strong>Accounting + Compliance</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services/what-is.webp" alt="What Are Accounting Services. Before a business can file a return, raise a loan or answer an auditor, its books have" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Who Needs Accounting Services in India?</h2>
             <div class="content-text">
                 
-                <p>Under <strong>Section 128 of the Companies Act 2013</strong>, every company (Private Limited, OPC, LLP, Public Limited, Section 8) must maintain books of accounts on an accrual basis using the double-entry system. Non-compliance attracts a fine between Rs. 50,000 and Rs. 5 lakh under Section 128(6).</p>
-                <p>Under <strong>Section 44AA of the Income Tax Act 1961</strong>, books of accounts are mandatory for:</p>
-                <ul>
-                    <li>Businesses with gross receipts exceeding <strong>Rs. 25 lakh</strong> in any of the three preceding years</li>
-                    <li>Professionals (doctors, lawyers, architects, CAs) with gross receipts exceeding <strong>Rs. 10 lakh</strong></li>
-                    <li>Newly established businesses or professions likely to exceed the above thresholds</li>
-                    <li><strong>GST-registered businesses</strong> (all turnover levels) needing monthly/quarterly return preparation</li>
-                    <li>Companies subject to <strong>tax audit under Section 44AB</strong> (turnover above Rs. 1 crore for business; Rs. 50 lakh for profession)</li>
-                    <li>Private Limited Companies and LLPs needing annual financial statements for <strong>ROC filing</strong></li>
-                    <li>Businesses applying for bank loans, tenders, or government contracts requiring certified financial statements</li>
-                </ul>
+                <p>This service suits businesses that run real transaction volume across several bank accounts and tax registrations, yet have nobody owning <a href="/accounting-bookkeeping-services">the monthly bookkeeping and year-end close</a>. Most are companies, LLPs and proprietorships that have grown past ad hoc help but are not ready to hire salaried accountants.</p>
+  <ul>
+    <li>Newly incorporated private limited companies now due to file monthly GST and TDS, with no accountant on the rolls yet.</li>
+    <li>Proprietors and small business owners whose bookkeeper has left mid-year, leaving posting and reconciliations stalled.</li>
+    <li>LLPs that have taken a second state registration, doubling the returns and reconciliation each period now demands.</li>
+    <li>Firms whose headcount has grown until PF, ESI and professional tax deductions each need computing every month.</li>
+    <li>Owner-run businesses still keeping records in spreadsheets, now facing a lender's review those files cannot answer.</li>
+    <li>Companies approaching their first statutory audit that need a trial balance an auditor will accept without rework.</li>
+    <li>Established firms that want to know <a href="/blog/ca-charges-for-monthly-accounting-india">what a CA charges for monthly accounting</a> before handing the ledger across.</li>
+  </ul>
 
             </div>
             </div>
@@ -1521,22 +593,23 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">6 Core Accounting Services We Provide</h2>
+            <h2 class="section-title">Our Accounting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Bookkeeping and Transaction Recording</td><td>Complete data entry of all sales, purchases, receipts, payments, bank transactions, and journal entries in Tally, Zoho Books, QuickBooks, or Xero. Monthly, fortnightly, or weekly frequency.</td></tr>
-                        <tr><td>Financial Statement Preparation</td><td>Profit and Loss Account, Balance Sheet, Cash Flow Statement, and Notes to Accounts per Schedule III of the Companies Act 2013. ROC-ready and audit-ready format.</td></tr>
-                        <tr><td>GST-Compliant Bookkeeping</td><td>ITC reconciliation, GST-ready invoicing setup, GSTR-2A/2B matching, and data preparation for GSTR-1, GSTR-3B, and GSTR-9 filings.</td></tr>
-                        <tr><td>TDS Accounting and Compliance</td><td>TDS deduction tracking across all categories (salary, contractor, rent, professional fees), Form 26AS reconciliation, and data for 24Q/26Q returns.</td></tr>
-                        <tr><td>AP and AR Management</td><td>Systematic tracking of vendor payments and customer collections, aging reports, and reconciliation to prevent cash flow gaps and reduce bad debts.</td></tr>
-                        <tr><td>MIS Reporting and Analysis</td><td>Monthly management reports including revenue vs. budget, expense analysis, department-wise P and L, cash flow forecasts, and working capital metrics.</td></tr>
+                        <tr><td>Transaction recording and ledger posting</td><td>Sales, purchase and expense vouchers coded and posted to the correct ledgers, keeping your bookkeeping current and your accounting services accurate throughout the month <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Bank and card reconciliation</td><td>Every business bank and credit-card statement matched to booked entries, with unexplained items chased and cleared before your figures are reported <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>GST return workings and filing support</td><td>Outward and inward supply workings prepared, GSTR-2B input credit matched and filing support given so your returns agree with the books <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>TDS computation and 26AS reconciliation</td><td>Tax deducted at source computed, challans tracked and 26AS reconciled, with quarterly return support and Form 16A workings kept ready <span class="badge-included">Monthly, filed quarterly</span></td></tr>
+                        <tr><td>Payroll and statutory dues accounting</td><td>Salary, PF, ESI and professional tax entries booked from your payroll register, with deductions agreed to the related challans <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Management reports (MIS)</td><td>Profit and loss, balance sheet and party-wise debtor and creditor position delivered so owners see one reconciled set of numbers. Read <a href="/blog/what-does-accounting-service-include">what an accounting service includes</a> for detail <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Year-end close and trial balance</td><td>Books closed at year end with a trial balance and schedules mapped to Schedule III, ready for your statutory auditor <span class="badge-included">Annually</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1546,136 +619,103 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How Accounting Services Work - 6-Step Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Patron Accounting follows a structured engagement process for all accounting clients - from initial onboarding to year-end audit readiness, all supervised by qualified Chartered Accountants.</p>
+            <h2 class="section-title">How Accounting Services Work — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers accounting, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 1</span>
-        <h3 class="step-title">Business Onboarding and Chart of Accounts Setup</h3>
-        <p class="step-description">Initial consultation to understand your business nature, industry, GST registration status, entity type, and reporting needs. We create a customized Chart of Accounts aligned with Schedule III of the Companies Act 2013 and your internal management reporting structure.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> COA designed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Entity-specific setup</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M50 38l7 7 13-13" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div>
-            <span class="illustration-label">Onboarding Done</span>
-            <span class="step-number-large">01</span>
-        </div>
-    </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Onboarding and records handover</h3>
+    <p class="step-description">We agree the entities, bank accounts and periods in scope, then collect the record set listed above for the full period. Access to the accounting file, bank portals and the GST portal is set up with named users before any entry is passed.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/step-1-onboarding-and-records-handover.webp" alt="Illustration for Onboarding and records handover: We agree the entities, bank accounts and periods in scope, then collect" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 2</span>
-        <h3 class="step-title">Document Collection and Data Security</h3>
-        <p class="step-description">You share invoices, bank statements, expense receipts, payroll data, and vendor bills via secure cloud upload (Google Drive, Dropbox, or our client portal). All data is handled under strict confidentiality with access controls.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Secure upload</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Confidential handling</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="12" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="32" y="24" width="56" height="8" rx="2" fill="#F5A623" opacity="0.3"/><rect x="32" y="38" width="56" height="8" rx="2" fill="#14365F" opacity="0.15"/><rect x="32" y="52" width="40" height="8" rx="2" fill="#14365F" opacity="0.15"/><path d="M60 76l-8-8h16z" fill="#F5A623" opacity="0.6" transform="rotate(180 60 72)"/></svg></div>
-            <span class="illustration-label">Docs Collected</span>
-            <span class="step-number-large">02</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Chart of accounts and openings</h3>
+    <p class="step-description">The chart of accounts is set to Schedule III groupings so the trial balance maps straight to the financial statements. Opening balances are taken from the prior year's signed accounts. Debtor and creditor detail comes across party by party, not as a single net figure.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/step-2-chart-of-accounts-and-openings.webp" alt="Illustration for Chart of accounts and openings: The chart of accounts is set to Schedule III groupings so the trial balance" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 3</span>
-        <h3 class="step-title">Transaction Entry and Classification</h3>
-        <p class="step-description">Our CA-supervised team processes all transactions in your designated accounting software using the double-entry system mandated under Section 128(1) of the Companies Act 2013. Transactions are coded to correct ledgers, cost centres, and GST heads (CGST/SGST/IGST).</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Double-entry system</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST head coding</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Section 128 compliant</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="8" width="90" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="24" x2="92" y2="24" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="28" y1="38" x2="82" y2="38" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="28" y1="50" x2="72" y2="50" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/><line x1="28" y1="62" x2="78" y2="62" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/></svg></div>
-            <span class="illustration-label">Entries Done</span>
-            <span class="step-number-large">03</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Recording the month's transactions</h3>
+    <p class="step-description">Sales invoices, purchase bills, expenses, credit and debit notes and payroll are posted for the period, each against the correct GST treatment and place of supply. Petty cash goes in only against a signed voucher, not a summary figure.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/step-3-recording-the-month-s-transactions.webp" alt="Illustration for Recording the month's transactions: Sales invoices, purchase bills, expenses, credit and debit notes and" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 4</span>
-        <h3 class="step-title">Compliance Checks and Reconciliation</h3>
-        <p class="step-description">Monthly reconciliation of bank accounts, credit card statements, loan accounts, and GST ITC (Form 2A/2B vs. books). TDS liability calculation and confirmation of deductions under Income Tax Act 1961 (Sections 192, 194C, 194J). ESI and PF payable verification.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Bank reconciliation</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST ITC matching</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TDS verified</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="38" r="16" fill="none" stroke="#F5A623" stroke-width="2" stroke-dasharray="4 3"/><path d="M54 38l4 4 8-8" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div>
-            <span class="illustration-label">Reconciled</span>
-            <span class="step-number-large">04</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Reconciliations before we report</h3>
+    <p class="step-description">Every bank account is reconciled to the statement. Purchase input credit is matched against the auto-drafted GSTR-2B, and tax credited at source is matched to Form 26AS and AIS, with the unmatched items listed back to you by vendor.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/step-4-reconciliations-before-we-report.webp" alt="Illustration for Reconciliations before we report: Every bank account is reconciled to the statement. Purchase input credit" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 5</span>
-        <h3 class="step-title">Financial Reporting and Review</h3>
-        <p class="step-description">Finalized monthly accounts are compiled into the Profit and Loss Statement, Balance Sheet, and Cash Flow Statement. MIS reports and variance analysis are prepared and shared with management within 7 working days of receiving complete data.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> P&L and Balance Sheet</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> MIS reports delivered</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="20" y="10" width="80" height="16" rx="6 6 0 0" fill="#14365F"/><text x="60" y="21" font-size="8" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">FINANCIALS</text><rect x="30" y="34" width="14" height="24" rx="2" fill="#F5A623"/><rect x="50" y="28" width="14" height="30" rx="2" fill="#25D366"/><rect x="70" y="38" width="14" height="20" rx="2" fill="#14365F" opacity="0.4"/></svg></div>
-            <span class="illustration-label">Reports Ready</span>
-            <span class="step-number-large">05</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Statutory workings prepared</h3>
+    <p class="step-description">We prepare the workings the filings are built from. That means output and input GST summaries by rate and place of supply, TDS and TCS deduction schedules by section, and the payroll statutory computation for PF, ESI, Professional Tax and salary TDS.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/step-5-statutory-workings-prepared.webp" alt="Illustration for Statutory workings prepared: We prepare the workings the filings are built from. That means output and" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 6</span>
-        <h3 class="step-title">Year-End Finalization and Audit Readiness</h3>
-        <p class="step-description">Annual financial statements are prepared in Schedule III format, all ledgers squared off, and audit working papers compiled. For companies requiring statutory audit, books are handed over to the statutory auditor in audit-ready condition with supporting schedules.</p>
-        <div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Schedule III format</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit working papers</span></div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="12" width="70" height="48" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="36" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M53 36l4 4 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="70" width="50" height="12" rx="6" fill="#F5A623" opacity="0.8"/><text x="60" y="79" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">COMPLIANT</text></svg></div>
-            <span class="illustration-label">Audit Ready</span>
-            <span class="step-number-large">06</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Monthly reporting and review</h3>
+    <p class="step-description">You receive a trial balance, profit and loss, balance sheet and debtor and creditor ageing for the period, with a short note on anything unusual. We walk through the open items and the entries still waiting on documents from your side.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/step-6-monthly-reporting-and-review.webp" alt="Illustration for Monthly reporting and review: You receive a trial balance, profit and loss, balance sheet and debtor and" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Year-end close and audit support</h3>
+    <p class="step-description">At year end we pass closing entries for depreciation, provisions, prepayments and accruals, then build the schedules the auditor will ask for. We answer audit queries directly and post the agreed audit adjustments back into the books.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services/step-7-year-end-close-and-audit-support.webp" alt="Illustration for Year-end close and audit support: At year end we pass closing entries for depreciation, provisions," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Accounting Services</h2>
             <div class="content-text">
                 
-                <p>Provide the following on a monthly basis to initiate and maintain your accounting engagement:</p>
-                <ul>
-                    <li><strong>Bank Statements</strong> - All accounts, PDF or downloaded from net banking</li>
-                    <li><strong>Sales Invoices / E-Invoices</strong> - PDF or Excel format</li>
-                    <li><strong>Purchase Invoices and Expense Receipts</strong> - All vendor bills and reimbursements</li>
-                    <li><strong>GST Portal Credentials</strong> - View-only access for ITC reconciliation</li>
-                    <li><strong>Salary Register / Payroll Summary</strong> - Monthly payroll data</li>
-                    <li><strong>TDS Deduction Details</strong> - Nature of payment, amount, PAN of deductee</li>
-                    <li><strong>Loan Statements</strong> - If any EMI or interest charges apply</li>
-                    <li><strong>Previous Month's Finalized Books</strong> - For first-time clients only</li>
-                    <li><strong>Entity Documents</strong> - PAN, GST certificate, MCA incorporation certificate (one-time)</li>
-                </ul>
+                <p>Everything below is source material rather than summaries, because the books get written from what your bank, your customers and your vendors actually issued.</p>
+<ul>
+    <li>Bank statements for every business bank account for the full period, in PDF and Excel or CSV</li>
+    <li>Sales invoices and tax invoices issued (including e-invoice IRN/QR files where e-invoicing applies)</li>
+    <li>Purchase invoices and vendor bills received</li>
+    <li>Expense bills, receipts and signed petty-cash vouchers</li>
+    <li>Credit notes and debit notes issued and received</li>
+    <li>GST data for each tax period: the auto-drafted GSTR-2B, and Form 26AS/AIS for tax credited at source</li>
+    <li>TDS/TCS challans, filed returns (24Q/26Q/27Q/27EQ) and Form 16/16A issued</li>
+    <li>Payroll register / salary sheet with PF, ESI, Professional Tax and TDS workings, plus the related challans</li>
+    <li>Opening trial balance, or the previous year&#x27;s signed financial statements with schedules</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
@@ -1685,12 +725,11 @@
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>GST ITC Mismatch (2A/2B vs. Books)</td><td>ITC disallowance under Section 16 of CGST Act 2017</td><td>Monthly 2A/2B reconciliation, mismatch flagging within 3 working days, vendor follow-up for amendments</td></tr>
-                        <tr><td>Delayed Books Leading to Tax Penalties</td><td>Erroneous ITR/GST filings and penalty exposure</td><td>Fortnightly or monthly closing cycles with checklists preventing year-end data scramble</td></tr>
-                        <tr><td>Cash Flow Surprises</td><td>Working capital gaps affecting business operations</td><td>Monthly MIS reports with 13-week rolling cash flow forecast for proactive management</td></tr>
-                        <tr><td>Switching Accounting Software</td><td>Data loss and compliance timeline disruptions</td><td>Seamless migration support (Tally to Zoho, Zoho to QuickBooks, etc.) with data integrity verification</td></tr>
-                        <tr><td>Non-Compliance with Section 128</td><td>Fine Rs. 50,000 to Rs. 5 lakh for directors/CFO</td><td>CA-supervised books maintained on accrual basis per Companies Act 2013 at all times</td></tr>
-                        <tr><td>Multi-State GST Complexity</td><td>Incorrect CGST/SGST/IGST allocation</td><td>State-wise ledger segregation and place-of-supply based tax classification</td></tr>
+                        <tr><td>Backlogged entries leave ledgers unposted for weeks</td><td>Management reads stale numbers, so pricing and cash calls run on last quarter's position.</td><td>Patron posts daily and reconciles balances weekly, covering the full <a href="/blog/what-does-accounting-service-include">monthly accounting scope</a>.</td></tr>
+                        <tr><td>Bank feed and cash book diverge over time</td><td>Unreconciled differences hide duplicate payments and missed receipts worth real money on the balance sheet.</td><td>We run line-by-line bank reconciliation each week, clearing the suspense account before differences compound.</td></tr>
+                        <tr><td>Input credit claimed without GSTR-2B matching</td><td>Excess ITC is reversed with interest at 18% once the department cross-checks the purchase register.</td><td>Our team matches the purchase register to GSTR-2B monthly and holds unmatched credit until the vendor uploads.</td></tr>
+                        <tr><td>TDS deducted but not reconciled to Form 26AS</td><td>Vendors dispute their credits and short-pay, straining working capital and creating recurring ledger differences.</td><td>We reconcile the TDS ledger to Form 26AS each quarter so deductee credits tie out cleanly.</td></tr>
+                        <tr><td>Audit trail edit-log left switched off in software</td><td>Rule 3(1) non-compliance is flagged at audit, weakening confidence in the whole set of books.</td><td>Patron keeps the Rule 3(1) audit trail switched on all year and reviews it at each close.</td></tr>
 
                     </tbody>
                 </table>
@@ -1700,58 +739,57 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Accounting Service Fees and Pricing Plans 2026</h2>
+            <h2 class="section-title">Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Starter Plan (Up to 100 transactions/month)</td><td>Rs. 1,500/month</td></tr>
-                        <tr><td>Growth Plan (101-300 transactions/month)</td><td>Rs. 3,500/month</td></tr>
-                        <tr><td>Business Plan (301-500 transactions/month)</td><td>Rs. 6,500/month</td></tr>
-                        <tr><td>Enterprise Plan (500+ transactions)</td><td>Custom Quote</td></tr>
-                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 2,499 (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>One-Time Setup Fee</td><td>Rs. 2,000 (waived for annual subscriptions)</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one entity, one GST registration and routine monthly transaction volume</td><td>INR 2,499<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; rising transaction volume, extra GST registrations or a second entity</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multiple entities or locations with custom monthly management reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">The entry plan at <strong>INR 2,499</strong> covers one entity with a single GST registration and routine monthly books. Your fee rises as transaction volume, extra GST registrations or added entities widen the work, as our <a href="/blog/ca-charges-for-monthly-accounting-india">monthly accounting cost guide</a> explains. Request a customised estimate on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Accounting Services consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20start%20accounting%20services.%20Please%20share%20pricing%20and%20plans." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Timeline for Accounting Services Delivery</h2>
+            <h2 class="section-title">Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Onboarding and COA Setup</td><td>3-5 working days (one-time)</td></tr>
-                        <tr><td>Monthly Books Completion</td><td>Within 7 working days of receiving all documents</td></tr>
-                        <tr><td>Bank Reconciliation</td><td>Completed simultaneously with monthly books</td></tr>
-                        <tr><td>Financial Statement Delivery</td><td>Within 2 working days of books finalization</td></tr>
-                        <tr><td>Year-End Accounts Finalization</td><td>Within 15 working days after March 31</td></tr>
-                        <tr><td>Audit Support (Query Responses)</td><td>Within 48 hours of auditor queries</td></tr>
-                        <tr><td>GST Data Readiness</td><td>Books ready for return filing by the 5th of each month</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Advance tax first instalment (15%)</td><td>15 June 2026</td><td>Companies, firms and individuals with a tax liability of Rs 10,000 or more</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Note:</strong> Turnaround times assume timely document submission. For businesses with 500+ monthly transactions or multi-entity consolidation, custom timelines are agreed during onboarding. First-month onboarding may take slightly longer as we set up the Chart of Accounts and establish data flow processes.</p>
+                    <p>The tightest recurring date for most businesses is the 20th, when GSTR-3B and its tax payment fall due, just after the 7th for TDS. Late filing draws interest at 18% a year. Patron folds every deadline into your <a href="/blog/ca-charges-for-monthly-accounting-india">monthly accounting</a> routine and files ahead of each one. Call +91 94594 56700 for a 2026 calendar mapped to your books.</p>
 
                 </div>
             </div>
@@ -1759,56 +797,83 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Benefits of Professional Accounting Services</h2>
+            <h2 class="section-title">Why Professional Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3>Legal Compliance Assurance</h3><p>Books maintained per Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act 1961 - avoiding penalties ranging from Rs. 50,000 to Rs. 5 lakh</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Tax Optimization</h3><p>Accurate books enable complete deduction claims, ITC availment, and proper depreciation accounting - reducing overall tax liability legitimately</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg></div><h3>Audit Readiness</h3><p>CA-prepared books structured for smooth statutory audit (Companies Act), tax audit (Section 44AB), and GST audit requirements at all times</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><h3>Business Decision-Making</h3><p>Monthly MIS reports provide real-time profitability visibility, helping founders and CFOs make informed expansion, hiring, and investment decisions</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg></div><h3>Cost Savings vs. In-House</h3><p>Outsourcing eliminates in-house bookkeeper salary (Rs. 25,000-50,000/month), recruitment, training, software licensing, and office overhead costs</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3>Investor and Bank Readiness</h3><p>Clean, CA-certified financial statements required for bank loans, overdraft facilities, PE/VC fundraising, and government scheme applications</p></article>
-        </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Input credit you can keep</h3>
+  <p class="feature-text">You keep the input credit your books can back, vendor by vendor, before it is ever claimed on invoices alone.</p><ul style="margin-top:12px;"><li>vendor by vendor list of credit not in auto-drafted GSTR-2B</li><li>tax deducted that never reached Form 26AS flagged</li><li>Without it, credit claimed on invoices alone and reversed on comparison</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">Statements that map to Schedule III</h3>
+  <p class="feature-text">Your trial balance already carries the groupings financial statements need, so a lender pack or board pack is drawn straight off it.</p><ul style="margin-top:12px;"><li>chart set to Schedule III groupings behind the trial balance</li><li>figures for lenders or a board drawn straight off it</li><li>Without it, chart regrouped by hand for every outside request</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /> </svg></div>
+  <h3 class="feature-title">Party-wise debtor and creditor position</h3>
+  <p class="feature-text">You see who owes you and who you owe, name by name, with ageing. It replaces one net figure on the balance sheet.</p><ul style="margin-top:12px;"><li>debtor and creditor detail held party by party, with ageing</li><li>old balances and duplicate payments visible, not netted into one figure</li><li>Without it, stale balances and duplicate payments stay hidden until reconciled</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /> </svg></div>
+  <h3 class="feature-title">Payroll deductions that agree</h3>
+  <p class="feature-text">We compute each month's PF, ESI, Professional Tax and salary TDS off the salary register. Challans paid and the ledger charge then match.</p><ul style="margin-top:12px;"><li>PF, ESI, Professional Tax and salary TDS computed off the salary register</li><li>challans paid reconciled to the ledger charge each month</li><li>Otherwise a difference surfaces only when an employee queries Form 16</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> </svg></div>
+  <h3 class="feature-title">One reconciled set of numbers</h3>
+  <p class="feature-text">You report one set of numbers, with bank balances, ledger balances and the figures behind your returns brought to agreement each period.</p><ul style="margin-top:12px;"><li>every bank account reconciled to its statement before reporting</li><li>ledger balances and return figures agreed each period</li><li>Without it, an unposted receipt shifts revenue and the tax position</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why 3,000+ Businesses Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p>Patron Accounting LLP serves 3,000+ businesses across India with a team of 25+ qualified Chartered Accountants and Company Secretaries. We maintain a <strong>4.8/5 Google rating</strong> from 500+ verified client reviews and a 94% client retention rate.</p>
-                <p>Our clients span 15+ industry sectors including IT, e-commerce, manufacturing, trading, NGO, hospitality, and real estate across offices in Pune, Mumbai, Delhi, and Bangalore - with pan-India remote service delivery covering all 28 states and 8 Union Territories.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Accounting & Bookkeeping Services in India</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Books that close on time, not books that lag</strong><p>Across 15+ years and 3,000+ businesses, we run a fixed month-end routine so your ledger reconciles and closes each period instead of drifting weeks behind.</p></div>
+                <div><strong>Rule 3(1) audit trail live in your ledger</strong><p>The Rule 3(1) audit trail stays switched on and reviewed in your books, part of the same discipline behind our 25,000+ filings, ready before an auditor asks.</p></div>
+                <div><strong>We work in Zoho Books, Xero, Tally and Odoo</strong><p>We work in whichever of Zoho Books, Xero, Tally Prime or Odoo you run. Your chart of accounts and tax codes are configured inside the tool you already run.</p></div>
+                <div><strong>GST and TDS filed before the statutory date</strong><p>Every month we prepare and file your GST and TDS returns ahead of the due date, the monthly cadence behind our 25,000+ filings and 4.9 star Google rating.</p></div>
+                <div><strong>15+ years across 3,000+ Indian businesses</strong><p>Our in-house team of CAs and CS brings 15+ years of experience to 3,000+ businesses served since 2019. Clients range from proprietors to mid-sized groups under one hub of <a href="/accounting-bookkeeping-services">accounting and bookkeeping services</a>.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Outsourced Accounting vs. In-House Accountant vs. DIY</h2>
+            <h2 class="section-title">Outsourced vs In-House Accountant vs DIY</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Parameter</th><th>Patron Accounting (Outsourced)</th><th>In-House Accountant</th><th>DIY / Software Only</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Outsourced</th><th>In-House Accountant</th></tr></thead>
                     <tbody>
-                        <tr><td>Monthly Cost</td><td>Rs. 2,499-6,500</td><td>Rs. 25,000-50,000+ (salary + overhead)</td><td>Rs. 500-5,000 (software fee only)</td></tr>
-                        <tr><td>CA Supervision</td><td>Yes - dedicated CA oversight</td><td>Depends on hire quality</td><td>No</td></tr>
-                        <tr><td>Legal Compliance</td><td>Full - Companies Act, GST, TDS, ROC</td><td>Varies by skill level</td><td>High risk of errors</td></tr>
-                        <tr><td>Software Included</td><td>Tally, Zoho, QuickBooks (included)</td><td>Additional cost</td><td>Paid subscription only</td></tr>
-                        <tr><td>Scalability</td><td>Instant - upgrade plan as needed</td><td>Rehire/train for growth</td><td>Limited</td></tr>
-                        <tr><td>Audit Readiness</td><td>Always audit-ready</td><td>Depends on quality</td><td>High audit risk</td></tr>
-                        <tr><td>Best For</td><td>SMEs, startups, growing businesses</td><td>Large businesses (500+ cr. turnover)</td><td>Very small, early-stage only</td></tr>
+                        <tr><td>Monthly cost</td><td>Predictable retainer covering a whole team, lower than a full salary</td><td>Full salary plus benefits and software, the highest fixed monthly commitment</td></tr>
+                        <tr><td>Compliance risk</td><td>Multiple reviewers and deadline tracking reduce missed returns and wrong ledgers</td><td>One person carries the calendar, so any absence can mean a slip</td></tr>
+                        <tr><td>Depth of expertise</td><td>Access to a mix of skills across tax, payroll and reporting</td><td>Limited to one hire's knowledge, though deeper on your own books</td></tr>
+                        <tr><td>Scalability</td><td>Capacity expands as volume rises without recruitment or training lag</td><td>Growth needs another hire, adding cost and management time</td></tr>
+                        <tr><td>Continuity</td><td>Cover continues through absence and turnover because a team holds the work</td><td>Leave or exit stalls the books until a replacement settles in</td></tr>
+                        <tr><td>Software and controls</td><td>Cloud tools and segregation of duties come built into the model</td><td>Controls depend on how the role is designed and supervised</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">For most growing SMEs, outsourced accounting services balance cost, cover and control best. A high-volume business may justify a dedicated in-house team, as <a href="/blog/ca-vs-acca-vs-cpa-for-business">CA vs ACCA vs CPA</a> explains.</td></tr>
 
                     </tbody>
                 </table>
@@ -1818,190 +883,187 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services from Patron Accounting</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Accounting</h2>
             <div class="content-text">
                 
-                <p>Patron Accounting offers integrated services that complement your accounting engagement:</p>
-                <ul>
-                    <li><a href="/payroll-services">Payroll Services</a> - Salary computation, statutory deductions (PF, ESI, PT), payslip generation, and Form 16 preparation</li>
-                    <li><a href="/gst-returns">GST Returns</a> - Monthly GSTR-1 and GSTR-3B filing, ITC reconciliation, GSTR-9 annual return</li>
-                    <li><a href="/income-tax-return">Income Tax Return (ITR)</a> - Business ITR preparation and e-filing with advance tax computation</li>
-                    <li><a href="/tax-audit">Tax Audit</a> - Section 44AB audit for businesses above Rs. 1 crore turnover; Form 3CA/3CB/3CD</li>
-                    <li><a href="/private-limited-company-compliance">Private Limited Company Compliance</a> - Annual ROC filing, AOC-4, MGT-7, Board resolutions</li>
-                    <li><a href="/tally-accounting">Tally Accounting</a> - Dedicated TallyPrime bookkeeping with custom voucher types and cost centres</li>
-                </ul>
+                <p>Section 128 of the Companies Act 2013 does more than any other provision to shape a set of Indian books: it requires every company to keep its accounts on the accrual basis and the double-entry system, at the registered office, and to preserve them for eight years. Around that spine sits a wider framework - the income-tax rules that decide when books become compulsory, the GST rules that decide what a registered person records, and the accounting standards that decide how each number is measured.</p>
+<p>Good accounting services keep all of these true at once rather than one at a time. The same ledger has to satisfy a lender reading the balance sheet, an assessing officer reading the profit and loss, and a GST officer reading the outward-supply register, so the design of the <a href="/glossary/assets">Assets</a>, <a href="/glossary/liabilities">Liabilities</a>, <a href="/glossary/equity">Equity</a> and <a href="/glossary/capital">Capital</a> heads is a compliance decision, not a bookkeeping preference. The provisions below are the ones an outsourced function is answering to every month.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">Books of account are kept on accrual and double entry at the registered office, may be held electronically, and are retained for eight financial years.</span></li><li><span class="al-t"><strong>Section 129 read with Schedule III, Companies Act 2013</strong></span><span class="al-d">The balance sheet and profit and loss are drawn in the Schedule III format and must present a true and fair view of the company's affairs.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The accounting software must keep an audit trail of every edit, switched on all year, so a back-dated change can never pass unrecorded. The MCA's proviso to Rule 3(1) and ICAI's 2023 Implementation Guide on audit-trail reporting set what an auditor tests.</span></li><li><span class="al-t"><strong>Section 44AB, Income-tax Act 1961</strong></span><span class="al-d">A tax audit is triggered above Rs 1 crore turnover, or Rs 10 crore where cash receipts and payments each stay within 5%, and above Rs 50 lakh for professionals.</span></li><li><span class="al-t"><strong>Companies (Accounting Standards) Rules 2021 and Companies (Indian Accounting Standards) Rules 2015</strong></span><span class="al-d">Most private companies measure their numbers under the ICAI Accounting Standards, with Ind AS becoming binding once a company lists or its net worth is Rs 250 crore or more.</span></li><li><span class="al-t"><strong>Section 35(1), CGST Act 2017</strong></span><span class="al-d">A registered person maintains accounts of inward and outward supplies, stock, input tax credit and output tax at the principal place of business, tying the books to the returns filed on the <a href="/accounting-bookkeeping-services">GST portal</a>.</span></li></ul>
+<p class="compliance-note"><strong>Practical note:</strong> the audit trail is where companies most often slip: the feature ships with the software but was never switched on, and under Rule 3(1) it is usually the first thing an auditor tests.</p><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal Framework for Accounting in India</h2>
-            <div class="content-text">
-                
-                <p>Key statutory provisions governing accounting and financial reporting:</p>
-                <ul>
-                    <li><strong>Section 128, Companies Act 2013:</strong> Every company must maintain books of accounts at its registered office on accrual basis using double-entry system. Books to be preserved for 8 financial years. Non-compliance: fine Rs. 50,000 to Rs. 5 lakh under Section 128(6). <a href="https://www.indiacode.nic.in/show-data?actid=AC_CEN_22_29_00008_201318_1517807327856&orderno=131" target="_blank" rel="noopener">India Code - Section 128</a></li>
-                    <li><strong>Section 44AA, Income Tax Act 1961:</strong> Mandatory books for businesses with turnover exceeding Rs. 25 lakh and professionals with receipts exceeding Rs. 10 lakh in any of the three preceding years</li>
-                    <li><strong>Section 44AB, Income Tax Act 1961:</strong> Tax audit required for business turnover above Rs. 1 crore (Rs. 10 crore if 95%+ digital transactions) and professionals above Rs. 50 lakh</li>
-                    <li><strong>Rule 3, Companies (Accounts) Rules 2014:</strong> Electronic books permitted; backup servers must be in India; audit trail mandatory from FY beginning on or after 1 April 2023</li>
-                    <li><strong>CGST Act 2017, Section 35:</strong> Every registered person must maintain accounts of production, inward/outward supply, stock, ITC availed, and output tax payable/paid</li>
-                </ul>
-                <p>For authoritative reference on accounting standards, visit the <a href="https://www.icai.org" target="_blank" rel="noopener">Institute of Chartered Accountants of India (ICAI)</a>.</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Accounting Services India</h2>
-                    <p class="faq-expanded__lead">Answers to common questions about accounting services, legal requirements, costs, and how Patron Accounting helps Indian businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Accounting Services'])
+                    <h2 class="faq-expanded__title">Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on accounting scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What are accounting services and what do they include?</h3>
-                        <div class="faq-expanded__a"><p>Accounting services are professional financial management activities covering bookkeeping (recording daily transactions), financial statement preparation (P&L, Balance Sheet, Cash Flow), GST compliance, TDS tracking, payroll accounting, bank reconciliation, and MIS reporting. In India, they must comply with the Companies Act 2013, Income Tax Act 1961, and GST laws. Patron Accounting provides end-to-end services starting from Rs. 2,499 per month.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">Is it mandatory to maintain books of accounts in India?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Under Section 128 of the Companies Act 2013, all registered companies must maintain books on accrual basis using double-entry. Under Section 44AA of the Income Tax Act 1961, businesses with gross receipts above Rs. 25 lakh and professionals above Rs. 10 lakh must maintain prescribed books. Non-compliance attracts fines from Rs. 50,000 to Rs. 5 lakh.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is the difference between bookkeeping and accounting?</h3>
-                        <div class="faq-expanded__a"><p>Bookkeeping is the recording phase - entering daily transactions (sales, purchases, payments, receipts) into account books. Accounting goes further by classifying, summarizing, and analyzing those records to produce financial statements, tax computations, and management insights. Bookkeeping is the foundation; accounting is the structure built on it. Both are required for full legal compliance.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How much do accounting services cost in India?</h3>
-                        <div class="faq-expanded__a"><p>Accounting services range from Rs. 999 to Rs. 30,000 per month depending on transaction volume, entity type, and scope. Patron Accounting charges Rs. 2,499/month for up to 100 transactions (Starter), Rs. 3,500/month for 101-300 transactions (Growth), and Rs. 6,500/month for 301-500 transactions (Business). Enterprise clients with 500+ transactions receive custom quotes.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What accounting software does Patron Accounting use?</h3>
-                        <div class="faq-expanded__a"><p>We work across all major platforms: TallyPrime (most widely used for GST compliance), Zoho Books (cloud-based for startups and SMEs), QuickBooks Online (US-reporting requirements), Xero (foreign-owned companies), and Busy (manufacturing and trading). We also support seamless migration between platforms with data integrity assurance.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Do I need an in-house accountant or can I outsource?</h3>
-                        <div class="faq-expanded__a"><p>For businesses below Rs. 5 crore turnover, outsourcing to a CA-led firm like Patron Accounting is significantly more cost-effective. It eliminates salary costs (Rs. 25,000-50,000/month for a bookkeeper), recruitment, training, software licensing, and leave management. Outsourced accounting provides CA oversight ensuring audit-ready, compliant books at all times.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is accounting services?</h3>
+  <div class="faq-expanded__a"><p>Accounting services are the recording, classifying and reporting of a business's financial transactions, covering bookkeeping, ledger maintenance, bank reconciliation, GST and TDS workings, payroll entries and year end financial statements. In India these are prepared under Accounting Standards or Ind AS and must support filings required by the Income Tax Act and the Companies Act. Most SMEs outsource the whole stack to a CA firm on a monthly retainer.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Where are big 4 accounting firms located in India?</h3>
+  <div class="faq-expanded__a"><p>The Big 4 firms, Deloitte, PwC, EY and KPMG, operate from Mumbai, Delhi NCR including Gurugram and Noida, Bengaluru, Hyderabad, Chennai, Pune, Kolkata and Ahmedabad. Their Indian network entities are ICAI registered audit practices with separate advisory arms. Their fee levels are set for large listed groups, so a mid sized CA firm usually delivers comparable compliance quality to an SME at a far lower cost.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What are financial accounting advisory services?</h3>
+  <div class="faq-expanded__a"><p>Financial accounting advisory services cover technical accounting work outside routine bookkeeping, such as Ind AS transition, revenue recognition policy, lease accounting, business combination entries, fair valuation support and restatement of prior year figures. Engagements are scoped as a one time project rather than a monthly retainer, and they close with a documented accounting position paper that your statutory auditor can review before signing.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What do accounting advisory services include for a growing company?</h3>
+  <div class="faq-expanded__a"><p>Accounting advisory services include chart of accounts design, month end close process build, MIS and KPI reporting frameworks, internal financial control documentation, accounting software or ERP selection and a CFO level review of numbers before board and investor meetings. The work is advisory rather than transactional, so it is priced per project, commonly Rs 25,000 to Rs 1,50,000 depending on entity size and scope.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How much does accounting services cost in India?</h3>
+  <div class="faq-expanded__a"><p>Outsourced accounting in India typically costs Rs 5,000 to Rs 15,000 a month for a proprietorship or LLP with under 100 transactions, and Rs 15,000 to Rs 40,000 a month for a mid sized private limited company. Fees move with transaction volume, the number of GSTINs, the software used and whether payroll, TDS and MIS reporting are bundled into the same retainer.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How does IoT impact accounting services?</h3>
+  <div class="faq-expanded__a"><p>IoT devices push transaction data from POS terminals, warehouse scanners, fuel sensors and connected meters straight into accounting software, which removes manual entry and shortens the month end close by several days. For Indian businesses the practical gain is live stock and sales data feeding the GST returns, so GSTR-1 and GSTR-3B are reconciled from source records instead of being rebuilt from spreadsheets.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What are the types of accounting services?</h3>
+  <div class="faq-expanded__a"><p>The main types are bookkeeping and ledger maintenance, statutory compliance accounting for GST and TDS, payroll accounting, management accounting and MIS, cost and inventory accounting, financial reporting under AS or Ind AS, and forensic or investigative accounting. Most Indian SMEs buy the first four as one bundled monthly retainer and add reporting or forensic work as separate projects when a specific need arises.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which accounting services give the best value for the price?</h3>
+  <div class="faq-expanded__a"><p>Bundled monthly retainers give the best value, because one fee covering bookkeeping, GST returns, TDS and payroll costs roughly 30 to 40 percent less than buying each service separately or hiring an in house accountant at Rs 25,000 to Rs 35,000 a month plus PF and gratuity. The cheapest quote is rarely the best value when reconciliations and senior review are excluded.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is forensic accounting and when does a business need it?</h3>
+  <div class="faq-expanded__a"><p>Forensic accounting is the examination of books to detect fraud, misappropriation or manipulated records and to produce findings that stand up before a court, tribunal or insurer. Indian businesses commission it after suspected cash or stock theft, vendor kickbacks, partner disputes, or before acquiring a company. The work covers ledger tracing, bank and vendor sampling, interviews and a written report with supporting evidence.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is meant by services rendered in accounting?</h3>
+  <div class="faq-expanded__a"><p>Services rendered means the service has actually been performed for the customer, which is the point at which revenue is recognised, whether or not an invoice has been raised or payment received. Under the accrual basis followed in India, unbilled work sits as accrued revenue and reverses when the tax invoice is issued. The invoice date also drives the time of supply for GST purposes.</p></div>
+</div>
                 </div>
             </div>
 
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Q: What does an accounting service do?</strong> An accounting service records, classifies, and reports all financial transactions, ensuring compliance with Indian tax laws, GST, and Companies Act requirements.</p>
-                <p><strong>Q: Accounting services ke liye kitna paisa lagta hai?</strong> India mein accounting services Rs. 2,499 se Rs. 30,000 per month mein milti hain, transaction volume ke hisab se.</p>
-                <p><strong>Q: Is bookkeeping required for a proprietorship?</strong> Yes. Under Section 44AA of the Income Tax Act 1961, proprietorships with business turnover above Rs. 25 lakh must maintain prescribed books.</p>
-                <p><strong>Q: What is the penalty for not maintaining books?</strong> Under Section 128(6) of Companies Act 2013, fine between Rs. 50,000 and Rs. 5 lakh for directors/CFO responsible for compliance.</p>
+                <p>Every month begins the day your bank statements and sales registers arrive. Entries are posted across the month, ledgers reconciled against bank and vendor balances, then TDS and GST workings prepared during the filing week. Queries on missing bills go back in one batch. The close produces a trial balance, a profit.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Compliance Deadlines You Cannot Miss</h2>
+            <h2 class="section-title">Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Non-compliance with accounting and reporting deadlines attracts significant penalties: <strong>GST Returns (GSTR-3B)</strong> due by 20th of every month with late fee Rs. 50/day each for CGST and SGST. <strong>TDS payment</strong> due by 7th of following month with 1.5%/month interest for delay. <strong>ROC filing (AOC-4/MGT-7)</strong> late fee Rs. 100/day per form. <strong>Income Tax Return</strong> due by 31 October (audit cases) or 31 July (non-audit).</p>
-                <p><strong>Do not wait for penalties to pile up. Call <a href="tel:+919459456700" style="color:inherit;">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20for%20my%20business.%20Please%20share%20details.">WhatsApp us now</a> to start your accounting engagement and get your books in order within 7 working days.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounting Engagement with Patron Accounting</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounting Services with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Accounting services form the backbone of every compliant and financially healthy Indian business. Whether you are a bootstrapped startup, a growing SME, or an established private limited company, professionally managed books ensure you meet your legal obligations under the Companies Act 2013, Income Tax Act 1961, and GST law - while giving you the financial clarity to grow with confidence.</p>
-                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Patron Accounting LLP combines CA expertise, modern cloud-based tools, and India-specific regulatory knowledge to deliver accounting services that are accurate, timely, and always audit-ready. With plans starting at Rs. 2,499 per month and a dedicated CA assigned to every engagement, professional accounting has never been more accessible.</p>
+                <p style="color:rgba(255,255,255,0.88);">Spreadsheet ledgers cost time before they cost anything else. A partner answering a lender&#x27;s question opens three files and still guesses. Sales figures argue with the bank balance, and every management decision waits on a number nobody trusts. The working cost is not the bookkeeping itself; it is everything that pauses behind it.</p>
+<p style="color:rgba(255,255,255,0.88);">By the third cycle, bookkeeping services settle into a rhythm you stop noticing. Your involvement shrinks to answering what genuinely needs you. Numbers land in your inbox on a date you already know rather than a date you chase. Nothing is rebuilt before a board meeting, and the books are already agreed.</p>
+<p style="color:rgba(255,255,255,0.88);">Your handover month sets the starting point: which period Patron picks up, and what state the current-year books are in. We then settle who keeps raising invoices, and which of your people signs off the close, before <a href="/accounting-bookkeeping-services">the broader bookkeeping work we handle</a> begins.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20start%20accounting%20services.%20Please%20share%20pricing%20and%20plans." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounting%20Services.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">CA-managed accounting and bookkeeping services available in major Indian cities.</p>
-
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid"><a href="/accounting-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/accounting-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Accounting Services</div>
-                <div class="pa-cross-grid"><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit</div><div class="pa-card-sub">India</div></div></a><a href="/tally-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">India</div></div></a><a href="/zoho-books-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">India</div></div></a></div>
-            </div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for accounting in these cities.</p>
+            
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Serve</div><div class="pa-block-sub">On-ground teams</div><div class="pa-city-grid"><a href="https://www.patronaccounting.com/accounting-services/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div>
+<div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a>
+<a href="https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services" class="pa-cross-card"><div class="pa-card-title">Backlog Bookkeeping Catch-up</div></a></div></div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 12 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">12 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 12 April 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed annually (April cycle) or when changes occur to the Companies Act 2013, Income Tax Act 1961, or ICAI Accounting Standards affecting bookkeeping requirements.</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
@@ -2076,8 +1138,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2087,8 +1149,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2169,7 +1231,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2179,34 +1241,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-       function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2217,12 +1277,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2298,7 +1359,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered — init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2308,6 +1371,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2330,9 +1394,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2502,7 +1564,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2522,7 +1583,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2600,12 +1661,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2613,60 +1670,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
 
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-
-    var OFFSET = 200; // clears the fixed navbar + sticky TOC bar
-    var ticking = false;
-
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2704,8 +1725,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

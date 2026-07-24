@@ -1,1092 +1,293 @@
-
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Hotel & Restaurant Accounting - POS, OTA & GST Services</title>
-    <meta name="description" content="Hospitality accounting for hotels and restaurants in India. New GST rates, OTA reconciliation, F and B cost control, ITR filing from Rs. 3,499 per month.">
-    <link rel="canonical" href="/hospitality-sector-accounting-services">
+    <title>Accounting for Hotels and Restaurants for Indian SMEs | Patron Accounting</title>
+    <meta name="description" content="Outlet-wise food cost and wastage, not a single kitchen expense head. Stop month-end running into the middle of the next one. Request a proposal.">
+    <link rel="canonical" href="https://www.patronaccounting.com/hospitality-sector-accounting-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Hotel & Restaurant Accounting - POS, OTA & GST Services">
-    <meta property="og:description" content="Hospitality accounting for hotels and restaurants in India. New GST rates, OTA reconciliation, F and B cost control, ITR filing from Rs. 3,499 per month.">
-    <meta property="og:url" content="/hospitality-sector-accounting-services">
+    <meta property="og:title" content="Accounting for Hotels and Restaurants for Indian SMEs | Patron Accounting">
+    <meta property="og:description" content="Outlet-wise food cost and wastage, not a single kitchen expense head. Stop month-end running into the middle of the next one. Request a proposal.">
+    <meta property="og:url" content="https://www.patronaccounting.com/hospitality-sector-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/hospitality-sector-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/hospitality-sector-accounting-services-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Hotel & Restaurant Accounting - POS, OTA & GST Services">
-    <meta name="twitter:description" content="Hospitality accounting for hotels and restaurants in India. New GST rates, OTA reconciliation, F and B cost control, ITR filing from Rs. 3,499 per month.">
-    <meta name="twitter:image" content="/images/hospitality-sector-accounting-services-og.webp">
+    <meta name="twitter:title" content="Accounting for Hotels and Restaurants for Indian SMEs | Patron Accounting">
+    <meta name="twitter:description" content="Outlet-wise food cost and wastage, not a single kitchen expense head. Stop month-end running into the middle of the next one. Request a proposal.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/hospitality-sector-accounting-services-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services/#service",
+  "name": "Accounting for Hotels and Restaurants",
+  "description": "Accounting for hotels and restaurants tracks food cost and wastage outlet by outlet instead of one kitchen expense head. Room, banquet and food revenue are split for GST rate purposes.",
+  "image": "https://www.patronaccounting.com/images/hospitality-sector-accounting-services-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Hospitality Sector Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting for Hotels and Restaurants",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
           "@type": "Service",
-          "name": "Hotel and Restaurant Accounting Services",
-          "description": "Hospitality accounting for hotels and restaurants in India. New GST rates, OTA reconciliation, F and B cost control, ITR filing from Rs. 3,499 per month.",
-          "url": "/hospitality-sector-accounting-services",
-          "serviceType": "Hotel and Restaurant Accounting Services",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
-          }
+          "name": "Accounting for Hotels and Restaurants",
+          "description": "Accounting for hotels and restaurants tracks food cost and wastage outlet by outlet instead of one kitchen expense head. Room, banquet and food revenue are split for GST rate purposes.",
+          "serviceType": "Hospitality Sector Accounting Service"
         },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Hotel and Restaurant Accounting Services",
-              "item": "/hospitality-sector-accounting-services"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is the new GST rate on hotel rooms in India after September 2025?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Effective September 22, 2025, hotel rooms are taxed under a two-slab structure per Notification No. 15/2025-Central Tax (Rate): rooms priced at Rs 7,500 or below per night attract 5% GST without Input Tax Credit (ITC), reduced from the earlier 12%. Rooms priced above Rs 7,500 per night continue at 18% GST with full ITC. The earlier 'declared tariff' concept has been removed - GST is now charged on the actual transaction value or price paid by the guest."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is a 'Specified Premises' hotel for GST purposes?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A hotel qualifies as 'Specified Premises' for a financial year if any room in the property was sold for more than Rs 7,500 per night during the previous financial year, or if the hotel voluntarily declares itself as Specified Premises by filing a declaration before March 31 of the preceding year. The classification determines whether the hotel's restaurant must charge 5% or 18% GST. Once opted in, the classification applies for the full financial year."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What GST rate applies to restaurants inside hotels?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Restaurant GST depends on the hotel's classification. Restaurants in hotels that are NOT Specified Premises (room tariff below Rs 7,500) charge 5% GST without ITC, same as standalone restaurants. Restaurants in Specified Premises hotels charge 18% GST with full ITC. This change was effective April 1, 2025 under Notification No. 5/2025-Central Tax (Rate). Standalone restaurants outside hotels always charge 5% without ITC."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How is Swiggy and Zomato TCS handled for restaurant GST compliance?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Swiggy and Zomato collect Tax Collected at Source (TCS) at 1% under Section 52 of the CGST Act on net taxable food sales. This TCS is deposited and reported in GSTR-8 by the 10th of the following month. Restaurants must reconcile this TCS with GSTR-2B monthly and claim credit in GSTR-3B. If annual payments from Swiggy or Zomato exceed Rs 30 lakh, they deduct TDS at 0.1% under Section 194O which must be claimed in ITR via Form 26AS."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is ITC reversal for hotels with mixed room tariffs?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Hotels with rooms in both the 5% slab (Rs 7,500 or below) and 18% slab (above Rs 7,500) cannot claim full ITC on inputs used for the lower-rated rooms. Under Section 17 of the CGST Act and Rules 42-43 of the CGST Rules, hotels must calculate a proportionate monthly ITC reversal based on the ratio of exempt or 5% turnover to total turnover. Our CA team computes and reports this reversal correctly every month."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can restaurants use the GST Composition Scheme?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Standalone restaurants with annual turnover below Rs 1.5 crore (Rs 75 lakh in special category states) can opt for the Composition Scheme. The restaurant pays a flat 5% GST on total turnover, cannot charge GST separately on bills, and cannot claim ITC. Returns are simplified to a quarterly CMP-08 statement and an annual GSTR-4. Restaurants in hotels cannot use the Composition Scheme."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How are OTA commissions accounted for in hotel GST returns?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "OTAs like MakeMyTrip, Booking.com, and Goibibo earn commissions by deducting from room revenue. OTA commissions are a service for which the OTA charges GST. If the OTA is an ecommerce operator, they collect TCS at 1% on room revenue before remitting to you. You must reconcile OTA settlements with your booking system, account for commission as an expense (deductible in ITR), and reconcile TCS credits from GSTR-8 in your GSTR-3B monthly."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What accounting records must hotels and restaurants maintain under GST?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Under the CGST Act, all registered businesses must maintain accounts and records for at least 72 months (6 years) from the due date of the annual return. Hotels and restaurants must maintain: daily room occupancy records, F and B sales data, purchase invoices with GSTIN, employee records, TCS deduction certificates from OTAs and aggregators, payment gateway settlement reports, and advance deposit registers. Quick Answers What is hospitality accounting? Hospitality accounting is specialised financial management for hotels, restaurants, resorts, and food businesses covering GST compliance (5%/18% rates), OTA reconciliation, F and B cost control, payroll, and ITR filing. Is GST registration mandatory for cloud kitchens on Swiggy/Zomato? Yes. Restaurants listed on ecommerce platforms like Swiggy or Zomato must register for GST regardless of turnover under ecommerce operator rules in the CGST Act. What is the F and B cost benchmark for Indian restaurants? Industry benchmark for F and B cost is 25%-35% of revenue. Patron Accounting tracks this monthly using: F and B Cost % = (Opening Stock + Purchases - Closing Stock) / Revenue x 100."
-              }
-            }
-          ]
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-      ]
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hotel & Restaurant Accounting",
+      "item": "https://www.patronaccounting.com/hospitality-sector-accounting-services"
     }
-    </script>
+  ],
+  "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does accounting for a hotel or restaurant cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers daily sales reconciliation from the POS and property management system, food and beverage stock accounting, purchase and vendor entries, OTA and aggregator payout matching, payroll, GST returns, TDS and monthly departmental profit reporting. Year end finalisation and support for the statutory or tax audit are included in the annual scope rather than billed as a surprise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you reconcile OTA payouts from platforms like MakeMyTrip and Booking.com?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each booking in the property management system is matched to the platform remittance advice, then split into gross tariff, platform commission, taxes collected at source and cancellations. The net credit reaching your bank is never equal to room revenue, so we book revenue gross with commission shown as an expense, which is the treatment your GST and income tax positions require."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you match daily POS sales with Swiggy and Zomato settlements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Daily POS sales are reconciled against card settlements, UPI credits and aggregator payouts, with commission, packaging charges and refunds shown separately. Aggregators deduct TDS under Section 194-O at 0.1 percent and GST TCS under Section 52 at 0.5 percent, so the bank credit sits well below billed sales. Every payout cycle is matched back to the day it relates to."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is GST handled for restaurant sales and hotel room revenue?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standalone restaurants charge GST at 5 percent without input tax credit. Inside a hotel, the rate on restaurant supplies and on room revenue follows the value of supply per unit per day, with Rs 7,500 as the dividing threshold. The declared tariff test was withdrawn from 1 April 2025, so classification now follows actual transaction value. We confirm your banding in writing before the first return."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you account for food and beverage stock and wastage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Food and beverage stock runs on a monthly consumption cycle of opening stock plus purchases less closing stock, supported by a physical count on the last day of the month. Wastage, staff meals and complimentary covers are recorded separately so they do not inflate cost of goods sold, and the variance against your standard recipe cost is reported to management."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you produce cost per cover and departmental profit reports?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Cost per cover, average revenue per cover, food cost percentage and departmental profit for rooms, food and beverage and banquets reach you with the month end pack, usually inside ten working days. Figures are pulled from your POS and property management exports and mapped to the ledger, so outlet managers never key the same numbers twice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does hospitality accounting cost per outlet each month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hospitality accounting typically costs Rs 12,000 to Rs 45,000 a month per outlet, depending on covers, the number of aggregator and OTA channels and whether payroll is included. A single restaurant on one GSTIN sits at the lower end, while a hotel with rooms, banquets and several revenue centres sits higher. Multi outlet groups get a reduced per unit rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle several outlets under one GSTIN versus separate ones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Outlets in the same state can run under one GSTIN with separate cost centres in the books, while outlets in different states need their own registration and their own returns. Outlet wise profit and loss accounts are maintained in both cases, so you can compare units on equal terms even when the tax filing is consolidated at state level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if reported turnover does not match POS and aggregator data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A gap between reported turnover and POS or aggregator data has to be closed before the audit, because the department receives aggregator and tax collected at source data independently of your returns. We rebuild sales from source reports, quantify the shortfall, correct returns where the period is still open and compute tax and interest so you can regularise deliberately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is service charge, tips and hotel payroll treated in the accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Service charge collected from guests is recorded as a liability where it is pooled for distribution to staff and as income only where the business retains it, so the treatment follows your written policy. Tips paid directly by guests stay outside revenue. Payroll entries cover wages, PF, ESI and professional tax in states that levy it, such as Maharashtra and Gujarat."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services",
+  "name": "Accounting for Hotels and Restaurants",
+  "description": "Outlet-wise food cost and wastage, not a single kitchen expense head. Stop month-end running into the middle of the next one. Request a proposal.",
+  "url": "https://www.patronaccounting.com/hospitality-sector-accounting-services",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/hospitality-sector-accounting-services-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/hospitality-sector-accounting-services-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column  -  right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T)  -  Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION  -  Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot  -  Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
-<!-- BREADCRUMB -->
+
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">Hospitality Sector Accounting Services</span></li>
+        </ol>
+    </div>
+</nav>
 
 
-<!-- HERO SECTION -->
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1098,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Hospitality Accounting Services for Hotels and Restaurants in India
+                        Accounting for Hotels and Restaurants
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1107,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">15 January 2024</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Hotel GST Compliance:</span> Updated 5% and 18% rate structure effective September 2025 with Specified Premises classification advisory</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Gross revenue behind net remittances:</span> We post OTA and aggregator payouts back to the gross booking value they represent, not just what hits the bank.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Restaurant Accounting:</span> Swiggy, Zomato, and Dineout TCS reconciliation, GSTR filing, and aggregator TDS management</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Food cost per outlet:</span> You see which kitchen is losing margin in the month it starts, while the portioning and purchase rate are still fresh.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>OTA Reconciliation:</span> MakeMyTrip, Booking.com, Goibibo, Agoda - multi-channel commission tracking and settlement matching</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>A tariff position you can prove:</span> We record each night sold at the value it was actually let for, room by room.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>F and B Cost Control:</span> Monthly food cost percentage, recipe costing, wastage tracking, and department-wise P and L reporting</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Liquor kept out of credit:</span> We keep alcoholic liquor outside GST, running it through state excise and VAT and reconciling bar sales to the stock register.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">200+ hotels and restaurants served | 4.9 star rating | Pan-India service across metro, Tier 2, and Tier 3 cities</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Hospitality%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Hospitality%20Accounting%20services.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Hospitality%20Sector%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Hospitality%20Sector%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20Hospitality%20Accounting%20Services%20for%20my%20hotel%20or%20restaurant.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20hospitality%20sector%20accounting%20services" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1169,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1199,7 +398,7 @@
                         <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                         <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Hospitality Accounting'/>
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Hospitality Sector Accounting'/>
                         <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
                         <input type='hidden' name='Stage' value='Qualification'/>
                         <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
@@ -1242,15 +441,13 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="hospitality-sector-accounting-services" selected>Hospitality Accounting (Hotels/Restaurants)</option>
-                                <option value="gst-registration">GST Registration</option>
-                                <option value="gst-returns">GST Returns</option>
-                                <option value="gst-returns-for-restaurants-food-businesses">GST for Restaurants</option>
-                                <option value="income-tax-return">Income Tax Return Filing</option>
-                                <option value="payroll-services-for-the-hospitality-industry">Hospitality Payroll</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="private-limited-company-registration">Company Registration</option>
-                                <option value="other">Other</option>
+                                <option value="hospitality-sector-accounting-services" selected>Hospitality Sector Accounting</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1280,121 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our hotel has rooms in both the 5% and 18% GST slabs. The monthly ITC reversal calculation under Rules 42-43 was completely beyond us. Patron Accounting handles it perfectly every month and we have never had a GST notice since.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">HO</div>
-        <div>
-            <div style="font-weight:700;font-size:13px;color:var(--blue);">Hotel Owner</div>
-            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Boutique Hotel, Pune</div>
-            <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        </div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We are listed on Swiggy, Zomato, and Dineout, and also take direct orders. Reconciling TCS across platforms was a mess until we hired Patron Accounting. Now our GSTR-3B matches perfectly every month.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RO</div>
-        <div>
-            <div style="font-weight:700;font-size:13px;color:var(--blue);">Restaurant Owner</div>
-            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Multi-outlet Chain, Mumbai</div>
-            <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        </div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Managing four OTA channels and Booking.com was creating constant discrepancies in our accounts. Patron Accounting's OTA reconciliation service reconciles everything within days of each settlement.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RS</div>
-        <div>
-            <div style="font-weight:700;font-size:13px;color:var(--blue);">Resort Manager</div>
-            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Beach Resort, Goa</div>
-            <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        </div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">As a cloud kitchen on three delivery platforms, keeping track of TCS, commissions, and net payouts was impossible in-house. Patron's team handles everything and our food cost tracking has improved our margins by 4%.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CK</div>
-        <div>
-            <div style="font-weight:700;font-size:13px;color:var(--blue);">Naveen Reddy</div>
-            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Cloud Kitchen Owner, Hyderabad</div>
-            <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        </div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-    </div>
-</div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-    <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The Specified Premises classification change caught us off guard. Patron Accounting explained the implications, filed our declaration on time, and updated our restaurant billing to 18% with ITC. Saved us from a major compliance gap.</div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-        <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">GM</div>
-        <div>
-            <div style="font-weight:700;font-size:13px;color:var(--blue);">Vivek Malhotra</div>
-            <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">General Manager, Heritage Hotel Delhi</div>
-            <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        </div>
-        <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">5 months ago</div>
-    </div>
-</div>
 
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get expert GST, OTA reconciliation, and F and B accounting support for your hotel or restaurant.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
 
-<!-- STATS BAR -->
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1420,130 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
+            
             <a href="#overview-section" class="toc-btn active">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is It</a>
-            <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Hotel GST</a>
-            <a href="#procedure-section" class="toc-btn">Process</a>
-            <a href="#documents-section" class="toc-btn">F and B Control</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
-            <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Calendar</a>
-            <a href="#benefits-section" class="toc-btn">Why Us</a>
-            <a href="#comparison-section" class="toc-btn">Restaurant GST</a>
-            <a href="#faq-section" class="toc-btn">FAQs</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Hospitality Accounting Services - Overview</h2>
+            <h2 class="section-title">What Hotel and Restaurant Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Hospitality Accounting Services at a Glance</strong></p>
-                    <p>Hotels and restaurants in India face multi-slab GST (5% and 18%), Specified Premises classification, OTA commission reconciliation, Swiggy/Zomato TCS, F and B cost benchmarking, and complex payroll. Patron Accounting provides specialist CA services from Rs 3,499 per month.</p>
+                    <p><strong>&#128204; TL;DR - Hospitality Sector Accounting Services at a Glance</strong></p>
+                    <p>Accounting for hotels and restaurants tracks food cost and wastage outlet by outlet instead of one kitchen expense head. Room, banquet and food revenue are split for GST rate purposes. Patron grosses up aggregator commission from Swiggy and Zomato, claims the Section 194-O credit and reports outlet profit and loss with food-cost percentage. Typically chosen by hotels, restaurant groups and cloud kitchens.</p>
                 </div>
-                <p>India's hospitality sector operates under one of the most complex GST frameworks in any industry - with multiple rate slabs, the new 'Specified Premises' classification, OTA commission structures, food cost benchmarks, and occupancy-driven revenue accounting that demand specialist CA expertise.</p>
-                <p>Whether you run a boutique hotel, a restaurant chain, a cloud kitchen, or a resort, Patron Accounting LLP delivers end-to-end hospitality accounting built around the unique financial requirements of your business - from daily revenue reconciliation to annual ITR filing.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Very little of the money arrives the way it was billed. A guest folio settles part in card, part in cash, part against a corporate account; an OTA remits net of commission, well after checkout, in a lump covering many stays; the delivery aggregator pays on its own cycle. Patron unpicks those settlements, posts gross revenue against net receipts, and closes each outlet on the same calendar. Matching OTA settlement reports is where most of the time goes.</p>
+                <p>Hotel accounting services here take in the daily revenue postings, the purchase and consumption side, and the settlement reconciliations. Payroll for a large casual workforce, licence renewals and stock counts on the floor are handled separately. The engagement expands as outlets multiply and further aggregator and OTA channels go live, and with the registrations you hold on the Goods and Services Tax portal.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What is Hospitality Accounting?</h2>
+                <h2 class="section-title">What Is Hotel and Restaurant Accounting?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Hospitality accounting is the specialised practice of recording, tracking, and analysing financial transactions for hotels, restaurants, resorts, banquet halls, and food and beverage businesses.</p>
-                    <p>Unlike general business accounting, hospitality accounting must handle multiple revenue streams (room revenue, F and B, spa, events), dynamic pricing models, OTA channel reconciliation, food cost management, labour cost optimisation, advance deposit accounting, and India's multi-slab GST structure that changed significantly in 2025.</p>
-                    <p>For Indian hospitality businesses, professional accounting covers five core areas: GST compliance (different rates for rooms, restaurants, spa), revenue reconciliation (OTA settlements, POS, walk-ins), F and B cost control (25%-35% benchmark), payroll and labour cost management, and ITR filing with TDS compliance.</p>
+                    <p>Each outlet is the unit everything is organised around here, with each hotel, restaurant or cloud kitchen closed on its own set of numbers. Accounting for hotels and restaurants is the service built on that unit. It follows food cost and wastage for each outlet in turn, and splits room, banquet and food revenue so each is booked at the correct GST rate.</p>
+<p>Commission that aggregators and travel portals deduct before remitting is grossed up, and gross revenue is posted against the net amount actually received. It reports profit and loss for each outlet, with the food-cost percentage set beside it. Liquor sales, which sit outside the GST credit chain, are kept in a separate ledger. Restaurant accounting services of this kind close every outlet on one calendar, so a group can be read as a whole rather than one property at a time. Accounting for hotels covers the books and the settlement reconciliations; the GST returns behind them are filed elsewhere.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Hospitality Accounting:</strong></p>
-                    <ul>
-                        <li><strong>Specified Premises:</strong> Hotel where any room was sold above Rs 7,500/night in the previous financial year - determines restaurant GST rate (5% or 18%)</li>
-                        <li><strong>OTA Commission:</strong> 15%-25% fee charged by MakeMyTrip, Booking.com, Goibibo on room revenue - must be reconciled monthly</li>
-                        <li><strong>TCS under Section 52:</strong> 1% Tax Collected at Source by Swiggy, Zomato, and OTAs on supplier payments under CGST Act</li>
-                        <li><strong>F and B Cost Percentage:</strong> (Opening Stock + Purchases - Closing Stock) / Revenue x 100 - industry benchmark 25%-35%</li>
-                        <li><strong>ITC Reversal (Rules 42-43):</strong> Monthly proportionate Input Tax Credit reversal for hotels with both 5% and 18% room categories</li>
-                        <li><strong>Section 194O TDS:</strong> 0.1% TDS by Swiggy/Zomato on restaurant payments exceeding Rs 30 lakh/year</li>
-                    </ul>
+                    <p><strong>Key Terms for Hospitality Sector Accounting:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/online-travel-agency-ota-deductions">Online Travel Agency (OTA) Deductions</a></span><span class="al-d">Commission a travel portal keeps before remitting a hotel&#x27;s booking money.</span></li><li><span class="al-t"><a href="/glossary/food-cost-variance-percentage">Food Cost Variance Percentage</a></span><span class="al-d">Gap between expected and actual food cost, shown as a percentage of sales.</span></li><li><span class="al-t"><a href="/glossary/room-night-occupancy-yield">Room Night Occupancy Yield</a></span><span class="al-d">Revenue earned per available room night after allowing for occupancy.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- GST tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">GST</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Hospitality Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Sector-Specialist</span>
-                        <strong>Hotels and Restaurants Expert</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/what-is.webp" alt="What Is Hotel and Restaurant Accounting. Each outlet is the unit everything is organised around here, with each" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Hospitality Accounting Services in India</h2>
+            <h2 class="section-title">Who Needs Hotel and Restaurant Accounting in India?</h2>
             <div class="content-text">
                 
-                <p>Any business in India's hospitality and food service sector needs specialised accounting support:</p>
-                <ul>
-                    <li>Hotels - budget hotels, mid-scale properties, luxury hotels, resorts, and boutique accommodations</li>
-                    <li>Restaurants - standalone restaurants, cloud kitchens, QSRs, fine dining, and multi-outlet chains</li>
-                    <li>Banquet halls and event venues - managing advance deposits, catering billing, and event-wise profitability</li>
-                    <li>Food delivery businesses - cloud kitchens listed on Swiggy, Zomato, and Dunzo</li>
-                    <li>Cafes, bakeries, and casual dining establishments with Swiggy or Zomato presence</li>
-                    <li>Hotel chains and franchisees requiring consolidated multi-property reporting</li>
-                    <li>Resort and spa operators with multiple taxable services at different GST rates</li>
-                </ul>
+                <p>Accounting for hotels and restaurants suits operators whose takings split across cash, card, corporate folios and third-party channels that all settle on different days. It becomes essential the moment a single kitchen or property turns into a group with separate menus and tariffs.</p>
+  <ul>
+    <li>Hotels taking OTA bookings that remit net of commission, long after the guest has left.</li>
+    <li>Restaurants and cloud kitchens paid by Swiggy and Zomato on the aggregator's cycle, not at the sale.</li>
+    <li>Bars and licensed restaurants selling liquor that sits outside the GST credit chain.</li>
+    <li>Banquet and event venues taking deposits months before a function that must be held as liability.</li>
+    <li>Hotels charging <a href="/blog/gst-on-hotel-rooms-restaurant-food">room tariffs across GST slabs</a> that must be proven against the notified value.</li>
+    <li>Multi-outlet restaurant groups that cannot rank formats until <a href="/blog/food-cost-percentage-restaurants">food cost is tracked per kitchen</a>.</li>
+    <li>Resorts bundling stay, meals and services into one package that has to be unpicked for GST.</li>
+    <li>Establishments collecting a service charge that must stay apart from taxable revenue.</li>
+  </ul>
 
             </div>
             </div>
@@ -1551,24 +595,23 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">GST Compliance for Hotels - Updated 2025 Rates and Specified Premises</h2>
+            <h2 class="section-title">Our Hotel and Restaurant Accounting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Hotel Rooms up to Rs 7,500/night</td><td>5% GST without ITC (reduced from 12% - effective Sept 22, 2025 per Notification No. 15/2025-CT(Rate))</td></tr>
-                        <tr><td>Hotel Rooms above Rs 7,500/night</td><td>18% GST with full ITC (unchanged)</td></tr>
-                        <tr><td>Restaurant in Non-Specified Premises</td><td>5% GST without ITC (room tariff below Rs 7,500)</td></tr>
-                        <tr><td>Restaurant in Specified Premises</td><td>18% GST with full ITC (room tariff above Rs 7,500 in previous year) per Notification No. 5/2025-CT(Rate)</td></tr>
-                        <tr><td>Standalone Restaurant (outside hotel)</td><td>5% GST without ITC</td></tr>
-                        <tr><td>Spa, Health Club, Beauty Services in Hotels</td><td>5% GST without ITC (effective Sept 22, 2025 - replaced earlier 12%)</td></tr>
-                        <tr><td>Aerated Drinks and Mocktails (served as F and B)</td><td>18% GST (distinct from aerated beverages sold as goods at 40%)</td></tr>
-                        <tr><td>Mixed Hotels (5% + 18% rooms)</td><td>Monthly proportionate ITC reversal under Section 17 and Rules 42-43, CGST Rules</td></tr>
+                        <tr><td>Night audit and daily revenue posting</td><td>Night audit and daily sales reports from the PMS or POS posted and reconciled into month-end revenue for rooms, food and beverage <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>OTA settlement reconciliation</td><td>Gross room revenue reconciled behind net OTA remittances, recovering commission and TDS deductions the way we <a href="/blog/ota-settlement-reconciliation-hotels">reconcile OTA settlements</a> each month <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Food and beverage cost control</td><td>Kitchen, store and bar physical counts turned into food cost and consumption reports per outlet, giving restaurant accounting services that protect margins <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Room tariff and GST slab mapping</td><td>Room revenue split by tariff slab for GST rate purposes and packages unbundled into room and food, giving a defensible tax position <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Liquor and excise stock accounting</td><td>Liquor purchases and bar sales maintained through the excise stock register outside the GST credit chain, with duty and VAT positions reconciled <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Banquet advances and service charge pool</td><td>Banquet event advances held as liabilities until the event and the service charge pool accounted separately, keeping <a href="/blog/gst-on-hotel-rooms-restaurant-food">hospitality accounting</a> services clean <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Monthly hotel accounts and MIS</td><td>A full monthly close delivered as accounting for hotels, with department-wise profit and loss, occupancy and RevPAR reporting for owners <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1578,215 +621,117 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">Our 8-Step Hospitality Accounting Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">From onboarding and revenue integration through to ITR filing, our structured process ensures complete GST, OTA, F and B, and income tax compliance for your hotel or restaurant.</p>
+            <h2 class="section-title">How Hotel and Restaurant Accounting Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers hospitality sector accounting, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 1</span>
-        <h3 class="step-title">Onboarding</h3>
-        <p class="step-description">Share PMS access, POS reports, OTA credentials, GST login, and bank statements. We review your property type, GST classification, and current compliance status.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> PMS and POS access shared</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST status reviewed</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="30" x2="90" y2="30" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="30" y1="45" x2="75" y2="45" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><line x1="30" y1="57" x2="65" y2="57" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><path d="M85 55l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-            <span class="illustration-label">Onboarded</span>
-            <span class="step-number-large">01</span>
-        </div>
-    </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Posting the night audit</h3>
+    <p class="step-description">The daily sales and night audit report from the property system is reconciled to the month-end revenue summary and posted by stream. Rooms sold, average rate and yield statistics are captured at the same time so the operating numbers tie to the ledger.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/step-1-posting-the-night-audit.webp" alt="Illustration for Posting the night audit: The daily sales and night audit report from the property system is reconciled to" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 2</span>
-        <h3 class="step-title">Revenue Integration</h3>
-        <p class="step-description">We pull data from all booking channels, payment gateways, and daily F and B POS reports into a unified accounting system.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Multi-channel data pulled</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Revenue streams mapped</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="15" width="40" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="65" y="15" width="40" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="50" y1="42" x2="65" y2="42" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><circle cx="57" cy="42" r="8" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><text x="57" y="46" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">+</text></svg></div>
-            <span class="illustration-label">Integrated</span>
-            <span class="step-number-large">02</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Mapping tariff slabs to rates</h3>
+    <p class="step-description">Room revenue is split by the value actually charged per unit per day, because that value decides which accommodation rate and credit position applies. The preceding year's position is also checked, since it governs how restaurant service inside the hotel is taxed.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/step-2-mapping-tariff-slabs-to-rates.webp" alt="Illustration for Mapping tariff slabs to rates: Room revenue is split by the value actually charged per unit per day," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 3</span>
-        <h3 class="step-title">Daily/Weekly Reconciliation</h3>
-        <p class="step-description">Revenue reconciliation, OTA commission tracking, and bank statement matching. Early detection of discrepancies prevents revenue leakage.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> OTA settlements matched</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Bank reconciled</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="5" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="20" y="5" width="80" height="18" rx="6" fill="#14365F"/><rect x="30" y="30" width="15" height="30" rx="2" fill="#10B981" opacity="0.6"/><rect x="52" y="40" width="15" height="20" rx="2" fill="#F5A623" opacity="0.6"/><rect x="74" y="35" width="15" height="25" rx="2" fill="#10B981" opacity="0.6"/></svg></div>
-            <span class="illustration-label">Reconciled</span>
-            <span class="step-number-large">03</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Unbundling packages and F&B</h3>
+    <p class="step-description">Inclusive rates, meal plans and stay packages are broken into their room and food and beverage components, because the two carry different treatment. Complimentary rooms, staff meals and house use are stripped out of saleable revenue.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/step-3-unbundling-packages-and-f-b.webp" alt="Illustration for Unbundling packages and F&B: Inclusive rates, meal plans and stay packages are broken into their room and" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 4</span>
-        <h3 class="step-title">Monthly GST Filing</h3>
-        <p class="step-description">GSTR-1 and GSTR-3B with full TCS reconciliation from Swiggy, Zomato, and OTAs, plus ITC computation for Specified Premises hotels.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-1 and 3B filed</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TCS credits claimed</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="70" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="30" x2="90" y2="30" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><text x="60" y="55" font-size="12" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><path d="M85 60l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-            <span class="illustration-label">GST Filed</span>
-            <span class="step-number-large">04</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Liquor outside the GST ledger</h3>
+    <p class="step-description">Alcoholic liquor for human consumption stays outside GST and runs on state excise and value added tax, which differ by state. We reconcile bar sales to the excise daily stock register and keep liquor purchases out of the input credit pool.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/step-4-liquor-outside-the-gst-ledger.webp" alt="Illustration for Liquor outside the GST ledger: Alcoholic liquor for human consumption stays outside GST and runs on state" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 5</span>
-        <h3 class="step-title">F and B Cost Report</h3>
-        <p class="step-description">Monthly food cost percentage, wastage report, recipe costing, and department-wise P and L for kitchen, bar, banquet, and delivery.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Food cost tracked</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Wastage identified</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="20" width="80" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><polyline points="30,60 45,40 60,50 80,30" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" fill="none"/><circle cx="30" cy="60" r="3" fill="#14365F"/><circle cx="45" cy="40" r="3" fill="#14365F"/><circle cx="60" cy="50" r="3" fill="#14365F"/><circle cx="80" cy="30" r="3" fill="#F5A623"/></svg></div>
-            <span class="illustration-label">Cost Controlled</span>
-            <span class="step-number-large">05</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Food cost from physical counts</h3>
+    <p class="step-description">Kitchen, stores and bar counts are converted into consumption for the period and read against covers served, giving a food and beverage cost percentage. Wastage, staff meals and inter-outlet transfers are separated so the cost figure means something.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/step-5-food-cost-from-physical-counts.webp" alt="Illustration for Food cost from physical counts: Kitchen, stores and bar counts are converted into consumption for the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 6</span>
-        <h3 class="step-title">Financial Reporting</h3>
-        <p class="step-description">P and L, Balance Sheet, and Cash Flow Statement delivered by 10th of every month with channel-wise and department-wise breakdowns.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> P and L by 10th</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Department-wise reporting</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="45" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="65" y="10" width="45" height="60" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="22" y1="30" x2="52" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><line x1="72" y1="30" x2="102" y2="30" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/></svg></div>
-            <span class="illustration-label">Reports Ready</span>
-            <span class="step-number-large">06</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Banquet advances against events</h3>
+    <p class="step-description">Banquet event orders are matched to the advances and deposits collected, and those balances stay as liabilities until the event is held. Cancellations, forfeitures and unadjusted deposits are reviewed rather than left sitting in the ledger.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/step-6-banquet-advances-against-events.webp" alt="Illustration for Banquet advances against events: Banquet event orders are matched to the advances and deposits collected," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 7</span>
-        <h3 class="step-title">Payroll Processing</h3>
-        <p class="step-description">Monthly payroll with PF, ESI, and professional tax for full-time, part-time, and contract hospitality staff. Tip income accounting included.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Payroll processed</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> PF/ESI filed</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="35" r="15" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="70" cy="35" r="15" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="55" cy="60" r="15" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><line x1="55" y1="52" x2="55" y2="68" stroke="#14365F" stroke-width="1.5"/><line x1="47" y1="60" x2="63" y2="60" stroke="#14365F" stroke-width="1.5"/></svg></div>
-            <span class="illustration-label">Payroll Done</span>
-            <span class="step-number-large">07</span>
-        </div>
-    </div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Service charge pool accounting</h3>
+    <p class="step-description">Any service charge collected and passed to staff is accounted through the distribution record rather than treated as ordinary revenue, and the payroll effect of the distribution is recorded. Shift rosters are reconciled to the payroll register for the period.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/hospitality-sector-accounting-services/step-7-service-charge-pool-accounting.webp" alt="Illustration for Service charge pool accounting: Any service charge collected and passed to staff is accounted through the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
 </div>
-<div class="step-card">
-    <div class="step-content">
-        <span class="step-badge">Step 8</span>
-        <h3 class="step-title">ITR Filing</h3>
-        <p class="step-description">Annual income tax return with all deductions and TDS credits claimed optimally. OTA, Swiggy, and Zomato TDS reconciliation with Form 26AS.</p>
-        <div class="step-highlights">
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITR filed with all credits</span>
-            <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> TDS fully reconciled</span>
-        </div>
-    </div>
-    <div class="step-visual">
-        <div class="step-illustration">
-            <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="10" width="70" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="37" r="20" fill="#E8F5E9" stroke="#10B981" stroke-width="2"/><path d="M50 37l7 7 14-14" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-            <span class="illustration-label">ITR Complete</span>
-            <span class="step-number-large">08</span>
-        </div>
-    </div>
-</div>
-
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Hospitality Bookkeeping and F and B Cost Control</h2>
+            <h2 class="section-title">Documents Required for Hotel and Restaurant Accounting</h2>
             <div class="content-text">
                 
-                <h3>Daily Revenue Reconciliation</h3>
-                <p>We reconcile your daily physical occupancy or restaurant covers against PMS or POS data, OTA bookings, and cash collections. Revenue from walk-ins, direct bookings, OTAs, and restaurant service must match bank deposits and payment gateway settlements every day.</p>
-                <h3>F and B Cost Control</h3>
-                <ul>
-                    <li>Monthly food cost percentage calculation: (Opening Stock + Purchases - Closing Stock) / Revenue x 100</li>
-                    <li>Recipe costing and menu contribution margin analysis per dish or category</li>
-                    <li>Wastage tracking and spoilage accounting to identify leakage points</li>
-                    <li>Vendor payment reconciliation and accounts payable management</li>
-                    <li>Stock audit support and inventory variance analysis</li>
-                    <li>Department-wise P and L: kitchen, bar, banquet, and delivery tracked separately</li>
-                    <li>COGS calculation for cloud kitchens and standalone restaurants filing ITR</li>
-                </ul>
-                <h3>OTA Commission Reconciliation</h3>
-                <ul>
-                    <li>Reconciling OTA settlements against PMS booking data across MakeMyTrip, Booking.com, Goibibo, Agoda</li>
-                    <li>Identifying discrepancies in commission charges, cancellation deductions, and promotional adjustments</li>
-                    <li>Tracking GST on OTA commissions - OTAs collect TCS at 1% which must be reconciled with GSTR-2B</li>
-                    <li>Monitoring ADR, RevPAR, and channel-wise contribution</li>
-                </ul>
-                <h3>Payroll and Labour Cost Accounting</h3>
-                <p>Labour costs typically represent 30%-40% of total hospitality revenue. We manage payroll for full-time, part-time, and contract workers, handling PF, ESI, professional tax, and TDS deductions. Section 194T TDS at 10% on partner remuneration in LLP-structured hospitality businesses is also managed.</p>
+                <p>Room tariff decides the GST rate and occupancy explains the numbers, and both live in the property management system rather than the ledger.</p>
+<ul>
+    <li>Occupancy and covers statistics (rooms sold, ARR, RevPAR, covers and average cover value)</li>
+    <li>Room-tariff-slab revenue split for GST rate purposes (units at or below the notified value versus above it)</li>
+    <li>Liquor purchase invoices and the excise daily stock register (FL-3 / bar licence register)</li>
+    <li>State VAT / excise returns and duty payment challans on liquor sales</li>
+    <li>F&amp;B and beverage physical stock counts (kitchen, stores, bar) with the food-cost / consumption report</li>
+    <li>Banquet Event Orders (BEO) and the banquet / event advance and deposit register</li>
+    <li>Daily Sales Report / night audit report from the PMS or POS, with the month-end revenue summary</li>
+    <li>Bank statements plus card, UPI and payment-gateway settlement reports</li>
+    <li>Payroll register with shift rosters, plus the service-charge / tip pool distribution record</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Key Accounting Challenges for Hotels and Restaurants in India</h2>
+            <h2 class="section-title">Common Hotel and Restaurant Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>Multi-slab GST structure</td><td>Rooms, restaurants, spa, and banquets all attract different rates requiring precise billing</td><td>Expert rate mapping per Notification No. 15/2025 and 5/2025 with automated billing verification</td></tr>
-                        <tr><td>Specified Premises classification</td><td>Hotels must determine and declare status annually, impacting restaurant GST for the full year</td><td>Annual classification advisory and pre-year declaration filing before March 31</td></tr>
-                        <tr><td>ITC reversal for mixed-category hotels</td><td>Budget (5%) and premium (18%) rooms require monthly proportionate ITC calculation</td><td>Monthly ITC computation under Section 17 and Rules 42-43, CGST Rules</td></tr>
-                        <tr><td>OTA reconciliation across platforms</td><td>Multiple settlement cycles, commission rates, and TCS deductions create discrepancies</td><td>Multi-channel reconciliation with single monthly revenue report by channel</td></tr>
-                        <tr><td>Swiggy/Zomato TCS reconciliation</td><td>1% TCS on food delivery sales must be matched with GSTR-2B monthly</td><td>Automated TCS reconciliation and GSTR-3B credit claim</td></tr>
-                        <tr><td>F and B cost tracking across outlets</td><td>Multiple kitchens, bars, and dining outlets need separate tracking</td><td>Department-wise P and L with monthly food cost reports and wastage analysis</td></tr>
+                        <tr><td>Banquet and event advances booked as revenue on receipt</td><td>Revenue recognised before the event, distorting the month and pulling GST timing forward</td><td>Hold event deposits as advance liability and recognise on the function date; banquet catering follows the <a href="/blog/gst-on-hotel-rooms-restaurant-food">GST on hotel and restaurant food</a> slab</td></tr>
+                        <tr><td>Service charge and tips mixed into hotel revenue</td><td>A distribution liability sits inside income, overstating turnover and misstating staff payouts</td><td>Route service charge to a payable pool and settle it to staff, keeping it out of revenue</td></tr>
+                        <tr><td>Inter-outlet stock transfers untracked between kitchen and bar</td><td>Outlet food and beverage costs distort, and one outlet quietly subsidises another</td><td>Record requisition-based transfers at cost, so each outlet carries its true consumption and food-cost percentage</td></tr>
+                        <tr><td>Complimentary rooms and covers left unrecorded</td><td>Occupancy and cover counts overstate yield while the cost of the comp disappears</td><td>Book comps at cost against a contra head, so occupancy yield and food cost stay honest</td></tr>
+                        <tr><td>Night-audit cut-off blurs revenue across the date change</td><td>A stay spanning midnight lands in the wrong day, so month-end room revenue misstates</td><td>Lock the night-audit close at a stated hour, so occupied-room revenue falls in the correct period</td></tr>
 
                     </tbody>
                 </table>
@@ -1796,58 +741,57 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Hospitality Accounting - Fees and Pricing 2026</h2>
+            <h2 class="section-title">Hotel and Restaurant Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 3,999 (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Starter - Restaurant</td><td>Rs 3,499/month (bookkeeping + GSTR-1 + GSTR-3B + TCS reconciliation, up to 2 aggregators)</td></tr>
-                        <tr><td>Growth - Hotel</td><td>Rs 6,999/month (Starter + OTA reconciliation up to 4 channels + F and B cost report + P and L)</td></tr>
-                        <tr><td>Scale - Hotel Chain</td><td>Rs 12,999/month (Growth + multi-property reporting + payroll + GSTR-9 + advance tax + dedicated CA)</td></tr>
-                        <tr><td>Enterprise</td><td>Custom pricing (all returns, audit, multi-entity consolidation, transfer pricing, MIS dashboards)</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one outlet with routine monthly covers and stock</td><td>INR 3,999<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; more outlets, higher covers and larger consumable stock tracking</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-outlet hotel and restaurant books with custom reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">Hotel and restaurant books begin at <strong>INR 3,999</strong> for one outlet with routine monthly covers and stock. Accounting for hotels grows in price with more outlets, higher covers and the consumable stock you carry. Speak with an accounting specialist on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Hospitality Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20Hospitality%20Accounting%20services%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Hospitality Sector Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20hospitality%20sector%20accounting%20services" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Hospitality Compliance Calendar 2026</h2>
+            <h2 class="section-title">Hotel and Restaurant Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>10th of next month</td><td>GSTR-8 (TCS filing by Swiggy, Zomato, MakeMyTrip)</td></tr>
-                        <tr><td>11th of next month</td><td>GSTR-1 (monthly outward supply return)</td></tr>
-                        <tr><td>20th of next month</td><td>GSTR-3B with GST payment and TCS credit claim</td></tr>
-                        <tr><td>7th of next month</td><td>TDS deposit for operators deducting TDS on staff, rent, contractors</td></tr>
-                        <tr><td>15 June (annual)</td><td>Advance tax - 15% of estimated annual liability</td></tr>
-                        <tr><td>31 July (annual)</td><td>ITR filing (non-audit cases)</td></tr>
-                        <tr><td>31 December (annual)</td><td>GSTR-9 and GSTR-9C (turnover above Rs 2 crore)</td></tr>
-                        <tr><td>31 March (annual)</td><td>Specified Premises declaration (if changing status for next FY)</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Advance tax second instalment (45% cumulative)</td><td>15 September 2026</td><td>Companies, firms and individuals liable to advance tax</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Income-tax return, audit cases</td><td>31 October 2026</td><td>Companies and audit-liable firms</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Important:</strong> GSTR-1 and GSTR-3B have strict monthly deadlines. Late GSTR-1 attracts Rs 50/day (CGST + SGST); late GSTR-3B attracts 18% per annum interest on tax due. Swiggy/Zomato TCS must be reconciled monthly to avoid credit leakage. Patron Accounting manages all filing calendars with advance reminders.</p>
+                    <p>For a hotel or restaurant the 20th GSTR-3B and the 15th for PF and ESI recur monthly, with the tax audit on 30 September. Room and food supplies carry different GST rates, and OTA settlements and food-cost variance need reconciling first. Patron aligns <a href="/blog/gst-on-hotel-rooms-restaurant-food">hospitality accounting</a> with each due date so rate-wise output tax is right. Call +91 94594 56700 for a 2026 calendar mapped to your books.</p>
 
                 </div>
             </div>
@@ -1855,79 +799,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron Accounting for Hotels and Restaurants</h2>
+            <h2 class="section-title">Why Professional Hotel and Restaurant Accounting Matters</h2>
         </div>
         <div class="features-grid">
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                <h3>GST Rate Expertise</h3>
-                <p>Fully updated on September 2025 rate changes - 5% vs 18%, Specified Premises classification, ITC reversal computations.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div>
-                <h3>OTA Reconciliation</h3>
-                <p>Multi-channel reconciliation across MakeMyTrip, Booking.com, Goibibo, Agoda, and direct bookings with TCS tracking.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                <h3>F and B Cost Control</h3>
-                <p>Monthly food cost reports, recipe costing, inventory variance analysis, and department-wise P and L for kitchen, bar, banquet.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Aggregator Compliance</h3>
-                <p>Swiggy, Zomato TCS reconciliation and Section 194O TDS credit management - zero credit leakage guarantee.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
-                <h3>Technology-Enabled</h3>
-                <p>Integration with IDS, Opera, Zoho Books, TallyPrime, and popular POS systems for seamless data flow.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div>
-                <h3>Dedicated CA for Your Property</h3>
-                <p>Assigned Chartered Accountant for your hotel or restaurant, available for calls and consultations. Pan-India coverage.</p>
-            </article>
-        </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /> <path d="M2 12h20" /> </svg></div>
+  <h3 class="feature-title">Gross revenue behind net remittances</h3>
+  <p class="feature-text">We post OTA and aggregator payouts back to the gross booking value they represent, not just what hits the bank.</p><ul style="margin-top:12px;"><li>Commission grossed up from the night audit postings</li><li>OTA and aggregator settlements restored to gross booking value</li><li>Without it, turnover disagrees with platform-reported revenue</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /> <path d="M7 2v20" /> <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" /> </svg></div>
+  <h3 class="feature-title">Food cost per outlet</h3>
+  <p class="feature-text">You see which kitchen is losing margin in the month it starts, while the portioning and purchase rate are still fresh.</p><ul style="margin-top:12px;"><li>Food cost drawn from F&B stock counts and consumption</li><li>Margin loss traced to one kitchen each month</li><li>Without it, kitchen slippage surfaces a year too late</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">A tariff position you can prove</h3>
+  <p class="feature-text">We record each night sold at the value it was actually let for, room by room.</p><ul style="margin-top:12px;"><li>Room-tariff-slab revenue split holds each night at its rate</li><li>You can show the rate applied if it is questioned</li><li>Without it, discounted nights cannot be separated out later</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 22h8" /> <path d="M7 10h10" /> <path d="M12 15v7" /> <path d="M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z" /> </svg></div>
+  <h3 class="feature-title">Liquor kept out of credit</h3>
+  <p class="feature-text">We keep alcoholic liquor outside GST, running it through state excise and VAT and reconciling bar sales to the stock register.</p><ul style="margin-top:12px;"><li>Bar sales reconciled to the FL-3 excise daily stock register</li><li>State VAT returns cover liquor, kept out of input credit</li><li>Without it, you claim input credit that was never available</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div>
+  <h3 class="feature-title">Event advances held as liability</h3>
+  <p class="feature-text">We hold banquet advances and deposits as liabilities against the event order until the function is actually held.</p><ul style="margin-top:12px;"><li>Banquet Event Orders and advance register carry the liability</li><li>Cancellations and forfeitures reviewed before revenue is recognised</li><li>Without it, a busy season inflates one month, cost lands next</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /> </svg></div>
+  <h3 class="feature-title">Service charge handled separately</h3>
+  <p class="feature-text">We record service charge collected and passed to staff through the distribution record, not as your own revenue.</p><ul style="margin-top:12px;"><li>Tip pool distribution record carries the amount passed to staff</li><li>Payroll effect posted alongside the service charge</li><li>Without it, turnover and staff cost are both misstated</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What Our Hospitality Clients Say</h2>
-            <div class="content-text">
-                
-                <div class="highlight-box">
-                    <p><em>200+ hotels and restaurants served | 4.9 star rating | Pan-India service | Sector-specialist CA team with hospitality GST, OTA, and F and B expertise</em></p>
-                </div>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Hotel & Restaurant Accounting</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Outlet-wise food cost and wastage tracking</strong><p>We track food cost and wastage outlet by outlet instead of one kitchen expense line, so a leaking site shows up in the month it happens. This food cost detail comes from 15+ years of experience.</p></div>
+                <div><strong>Aggregator commission grossed up and 194-O credits claimed</strong><p>We gross up Swiggy and Zomato revenue to the full sale, not the net remittance, and claim the 194-O tax collected as credit. We also handle <a href="/blog/section-194h-tds-ota-commission">TDS on aggregator commission</a>, part of 25,000+ filings completed.</p></div>
+                <div><strong>POS, aggregator settlements and inventory in one ledger</strong><p>We set up the software your finance team already runs, whether Zoho Books, Xero, Tally Prime or Odoo. Your POS, Swiggy and Zomato settlements and stock all feed into a single ledger.</p></div>
+                <div><strong>Outlet P&L with food-cost percentage each month</strong><p>Every month each outlet gets its own profit and loss statement with food-cost percentage, so you compare sites on the same measure. Restaurant groups rate this 4.9 on Google.</p></div>
+                <div><strong>Hotels and restaurants among 3,000+ businesses served</strong><p>Hotels, restaurant groups and cloud kitchens sit among the 3,000+ businesses we have served since 2019. Our in-house team of CAs and CS brings 15+ years of experience and a 4.9 star Google rating.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Restaurant GST Rates - Standalone vs Specified Premises Hotels</h2>
+            <h2 class="section-title">Owned Property vs OTA-Led Revenue Accounting</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Restaurant Type</th><th>GST Rate</th><th>ITC Allowed</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Owned Property</th><th>OTA-Led Revenue Accounting</th></tr></thead>
                     <tbody>
-                        <tr><td>Standalone restaurant (not in hotel)</td><td>5%</td><td>Not Allowed</td></tr>
-                        <tr><td>Restaurant in non-Specified Premises hotel (rooms below Rs 7,500)</td><td>5%</td><td>Not Allowed</td></tr>
-                        <tr><td>Restaurant in Specified Premises hotel (rooms above Rs 7,500)</td><td>18%</td><td>Full ITC</td></tr>
-                        <tr><td>Composition Scheme restaurant (turnover below Rs 1.5 crore)</td><td>5% flat</td><td>Not Allowed (quarterly CMP-08)</td></tr>
-                        <tr><td>Cloud kitchen on Swiggy/Zomato</td><td>5%</td><td>Not Allowed (+ 1% TCS by aggregator)</td></tr>
+                        <tr><td>Revenue source</td><td>Owned: guest pays the hotel directly, full tariff booked.</td><td>OTA-led: booking flows through an aggregator, net of commission.</td></tr>
+                        <tr><td>Gross versus net</td><td>Owned: gross room revenue shows clearly on the folio.</td><td>OTA-led: gross must be grossed up before netting commission.</td></tr>
+                        <tr><td>Commission and TDS</td><td>Owned: no aggregator commission, no Section 194H exposure.</td><td>OTA-led: commission attracts Section 194H TDS obligations.</td></tr>
+                        <tr><td>Reconciliation effort</td><td>Owned: the PMS ties to bank with few variances.</td><td>OTA-led: settlement reports need matching against payouts and deductions.</td></tr>
+                        <tr><td>Occupancy visibility</td><td>Owned: room-night yield read straight from the PMS.</td><td>OTA-led: channel mix distorts yield until settlements are posted.</td></tr>
+                        <tr><td>Cash-flow timing</td><td>Owned: cash collected at guest checkout, immediate inflow.</td><td>OTA-led: payout delayed to the aggregator cycle, financing gap.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Direct, owned-property hotels can keep simpler gross accounting; properties leaning on aggregators must record gross revenue then reconcile deductions, since net-only booking understates turnover and GST. Reliable accounting for hotels means learning to reconcile OTA settlements precisely.</td></tr>
 
                     </tbody>
                 </table>
@@ -1937,230 +890,185 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services for Hospitality Businesses</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Hotel and Restaurant Accounting</h2>
             <div class="content-text">
                 
-                <p>Patron Accounting also provides these complementary services for hospitality businesses:</p>
-                <ul>
-                    <li><a href="/gst-registration">GST Registration</a> - Register for GST as a hotel or restaurant with complete documentation support</li>
-                    <li><a href="/gst-returns">GST Return Filing</a> - Monthly GSTR-1, GSTR-3B, and annual GSTR-9 for all hospitality businesses</li>
-                    <li><a href="/gst-returns-for-restaurants-food-businesses">GST Returns for Restaurants</a> - Specialised GST filing for food businesses</li>
-                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - Annual ITR-3, ITR-5, or ITR-6 for hospitality businesses</li>
-                    <li><a href="/payroll-services">Payroll Services</a> - Monthly payroll with PF, ESI, and professional tax for hospitality staff</li>
-                    <li><a href="/private-limited-company-registration">Company Registration</a> - Incorporate your hotel or restaurant brand as a Pvt Ltd company</li>
-                </ul>
+                <p>What the exchequer is protecting across a hotel and its restaurant is a clean split between differently taxed revenue streams, and Section 35 of the CGST Act is where the demand to keep those records begins. A room night, a restaurant cover and a banquet advance each carry their own GST treatment, and blurring them is where liability leaks.</p>
+<p>So the books are built to keep the streams apart from the first invoice. Room tariff and food and beverage sit on different GST slabs with restricted credit, advances are held until the stay or the event is delivered, and rent to a landlord carries its own deduction. That is why an <a href="/glossary/online-travel-agency-ota-deductions">Online Travel Agency (OTA) Deductions</a> reconciliation and a live <a href="/glossary/food-cost-variance-percentage">Food Cost Variance Percentage</a> are compliance tools as much as management ones. Accounting for hotels and restaurants answers to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Notification 11/2017-Central Tax (Rate)</strong></span><span class="al-d">Room tariffs and restaurant supply carry their own GST slabs with restricted input tax credit, so the books keep the two streams apart.</span></li><li><span class="al-t"><strong>AS 9 / Ind AS 115</strong></span><span class="al-d">Room and banquet revenue is recognised on occupancy and event completion, with advances held as unearned income until then.</span></li><li><span class="al-t"><strong>Section 194-I, Income-tax Act 1961</strong></span><span class="al-d">Rent for premises and equipment attracts TDS, kept distinct from contractor payments deducted under 194C.</span></li><li><span class="al-t"><strong>AS 2 / Ind AS 2, Valuation of Inventories</strong></span><span class="al-d">Food, beverage and consumables stock is valued at the lower of cost and net realisable value, with day-end wastage recorded.</span></li><li><span class="al-t"><strong>Section 35(1), CGST Act 2017</strong></span><span class="al-d">Accounts of outward supplies, input tax credit and output tax are kept at the principal place of business for each registered outlet.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The POS and accounting software keep the audit trail enabled, so a voided cover or a re-rated tariff is logged. Filing runs from the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal Framework for Hospitality Accounting in India</h2>
-            <div class="content-text">
-                
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Law / Notification</th><th>Key Provision</th><th>Impact on Hospitality Accounting</th></tr></thead>
-                    <tbody>
-                        <tr><td>Notification No. 15/2025-CT(Rate)</td><td>Hotel room GST: 5% for rooms up to Rs 7,500/night; 18% above Rs 7,500 (effective Sept 22, 2025)</td><td>Rate classification and billing system update</td></tr>
-                        <tr><td>Notification No. 5/2025-CT(Rate)</td><td>Specified Premises classification and restaurant GST rules (effective April 1, 2025)</td><td>Annual classification declaration and restaurant rate determination</td></tr>
-                        <tr><td><a href="https://cbic.gov.in" target="_blank" rel="noopener">CGST Act 2017, Section 52</a></td><td>TCS at 1% collected by OTAs and food delivery aggregators on supplier payments</td><td>Monthly TCS reconciliation with GSTR-2B</td></tr>
-                        <tr><td>CGST Act 2017, Section 17 and Rules 42-43</td><td>ITC reversal for hotels with mixed-rate room categories</td><td>Monthly proportionate ITC computation</td></tr>
-                        <tr><td>CGST Act 2017, Section 15</td><td>GST on actual transaction value (declared tariff concept removed)</td><td>Billing based on price paid by guest</td></tr>
-                        <tr><td>Income Tax Act 1961, Section 194O</td><td>TDS by Swiggy/Zomato at 0.1% on payments above Rs 30 lakh/year</td><td>Annual TDS credit reconciliation via Form 26AS</td></tr>
-                        <tr><td>Income Tax Act 1961, Section 44AB</td><td>Tax audit for hospitality businesses with turnover above Rs 1 crore</td><td>Mandatory audit and Form 3CD filing</td></tr>
-                    </tbody>
-                </table>
-                </div>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Hospitality Accounting</h2>
-                    <p class="faq-expanded__lead">Get answers about new hotel GST rates, Specified Premises classification, Swiggy/Zomato TCS, OTA reconciliation, ITC reversal, and restaurant compliance in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Hospitality Accounting'])
+                    <h2 class="faq-expanded__title">Hospitality Sector Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on hospitality sector accounting scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Hospitality Sector Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is the new GST rate on hotel rooms in India after September 2025?</h3>
-                        <div class="faq-expanded__a"><p>Effective September 22, 2025, hotel rooms are taxed under a two-slab structure per Notification No. 15/2025-Central Tax (Rate): rooms priced at Rs 7,500 or below per night attract 5% GST without Input Tax Credit (ITC), reduced from the earlier 12%. Rooms priced above Rs 7,500 per night continue at 18% GST with full ITC. The earlier 'declared tariff' concept has been removed - GST is now charged on the actual transaction value or price paid by the guest.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What is a 'Specified Premises' hotel for GST purposes?</h3>
-                        <div class="faq-expanded__a"><p>A hotel qualifies as 'Specified Premises' for a financial year if any room in the property was sold for more than Rs 7,500 per night during the previous financial year, or if the hotel voluntarily declares itself as Specified Premises by filing a declaration before March 31 of the preceding year. The classification determines whether the hotel's restaurant must charge 5% or 18% GST. Once opted in, the classification applies for the full financial year.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What GST rate applies to restaurants inside hotels?</h3>
-                        <div class="faq-expanded__a"><p>Restaurant GST depends on the hotel's classification. Restaurants in hotels that are NOT Specified Premises (room tariff below Rs 7,500) charge 5% GST without ITC, same as standalone restaurants. Restaurants in Specified Premises hotels charge 18% GST with full ITC. This change was effective April 1, 2025 under Notification No. 5/2025-Central Tax (Rate). Standalone restaurants outside hotels always charge 5% without ITC.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How is Swiggy and Zomato TCS handled for restaurant GST compliance?</h3>
-                        <div class="faq-expanded__a"><p>Swiggy and Zomato collect Tax Collected at Source (TCS) at 1% under Section 52 of the CGST Act on net taxable food sales. This TCS is deposited and reported in GSTR-8 by the 10th of the following month. Restaurants must reconcile this TCS with GSTR-2B monthly and claim credit in GSTR-3B. If annual payments from Swiggy or Zomato exceed Rs 30 lakh, they deduct TDS at 0.1% under Section 194O which must be claimed in ITR via Form 26AS.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What is ITC reversal for hotels with mixed room tariffs?</h3>
-                        <div class="faq-expanded__a"><p>Hotels with rooms in both the 5% slab (Rs 7,500 or below) and 18% slab (above Rs 7,500) cannot claim full ITC on inputs used for the lower-rated rooms. Under Section 17 of the CGST Act and Rules 42-43 of the CGST Rules, hotels must calculate a proportionate monthly ITC reversal based on the ratio of exempt or 5% turnover to total turnover. Our CA team computes and reports this reversal correctly every month.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Can restaurants use the GST Composition Scheme?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Standalone restaurants with annual turnover below Rs 1.5 crore (Rs 75 lakh in special category states) can opt for the Composition Scheme. The restaurant pays a flat 5% GST on total turnover, cannot charge GST separately on bills, and cannot claim ITC. Returns are simplified to a quarterly CMP-08 statement and an annual GSTR-4. Restaurants in hotels cannot use the Composition Scheme.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">How are OTA commissions accounted for in hotel GST returns?</h3>
-                        <div class="faq-expanded__a"><p>OTAs like MakeMyTrip, Booking.com, and Goibibo earn commissions by deducting from room revenue. OTA commissions are a service for which the OTA charges GST. If the OTA is an ecommerce operator, they collect TCS at 1% on room revenue before remitting to you. You must reconcile OTA settlements with your booking system, account for commission as an expense (deductible in ITR), and reconcile TCS credits from GSTR-8 in your GSTR-3B monthly.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">What accounting records must hotels and restaurants maintain under GST?</h3>
-                        <div class="faq-expanded__a"><p>Under the CGST Act, all registered businesses must maintain accounts and records for at least 72 months (6 years) from the due date of the annual return. Hotels and restaurants must maintain: daily room occupancy records, F and B sales data, purchase invoices with GSTIN, employee records, TCS deduction certificates from OTAs and aggregators, payment gateway settlement reports, and advance deposit registers.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does accounting for a hotel or restaurant cover?</h3>
+  <div class="faq-expanded__a"><p>It covers daily sales reconciliation from the POS and property management system, food and beverage stock accounting, purchase and vendor entries, OTA and aggregator payout matching, payroll, GST returns, TDS and monthly departmental profit reporting. Year end finalisation and support for the statutory or tax audit are included in the annual scope rather than billed as a surprise.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you reconcile OTA payouts from platforms like MakeMyTrip and Booking.com?</h3>
+  <div class="faq-expanded__a"><p>Each booking in the property management system is matched to the platform remittance advice, then split into gross tariff, platform commission, taxes collected at source and cancellations. The net credit reaching your bank is never equal to room revenue, so we book revenue gross with commission shown as an expense, which is the treatment your GST and income tax positions require.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you match daily POS sales with Swiggy and Zomato settlements?</h3>
+  <div class="faq-expanded__a"><p>Daily POS sales are reconciled against card settlements, UPI credits and aggregator payouts, with commission, packaging charges and refunds shown separately. Aggregators deduct TDS under Section 194-O at 0.1 percent and GST TCS under Section 52 at 0.5 percent, so the bank credit sits well below billed sales. Every payout cycle is matched back to the day it relates to.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is GST handled for restaurant sales and hotel room revenue?</h3>
+  <div class="faq-expanded__a"><p>Standalone restaurants charge GST at 5 percent without input tax credit. Inside a hotel, the rate on restaurant supplies and on room revenue follows the value of supply per unit per day, with Rs 7,500 as the dividing threshold. The declared tariff test was withdrawn from 1 April 2025, so classification now follows actual transaction value. We confirm your banding in writing before the first return.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you account for food and beverage stock and wastage?</h3>
+  <div class="faq-expanded__a"><p>Food and beverage stock runs on a monthly consumption cycle of opening stock plus purchases less closing stock, supported by a physical count on the last day of the month. Wastage, staff meals and complimentary covers are recorded separately so they do not inflate cost of goods sold, and the variance against your standard recipe cost is reported to management.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can you produce cost per cover and departmental profit reports?</h3>
+  <div class="faq-expanded__a"><p>Yes. Cost per cover, average revenue per cover, food cost percentage and departmental profit for rooms, food and beverage and banquets reach you with the month end pack, usually inside ten working days. Figures are pulled from your POS and property management exports and mapped to the ledger, so outlet managers never key the same numbers twice.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does hospitality accounting cost per outlet each month?</h3>
+  <div class="faq-expanded__a"><p>Hospitality accounting typically costs Rs 12,000 to Rs 45,000 a month per outlet, depending on covers, the number of aggregator and OTA channels and whether payroll is included. A single restaurant on one GSTIN sits at the lower end, while a hotel with rooms, banquets and several revenue centres sits higher. Multi outlet groups get a reduced per unit rate.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you handle several outlets under one GSTIN versus separate ones?</h3>
+  <div class="faq-expanded__a"><p>Outlets in the same state can run under one GSTIN with separate cost centres in the books, while outlets in different states need their own registration and their own returns. Outlet wise profit and loss accounts are maintained in both cases, so you can compare units on equal terms even when the tax filing is consolidated at state level.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What happens if reported turnover does not match POS and aggregator data?</h3>
+  <div class="faq-expanded__a"><p>A gap between reported turnover and POS or aggregator data has to be closed before the audit, because the department receives aggregator and tax collected at source data independently of your returns. We rebuild sales from source reports, quantify the shortfall, correct returns where the period is still open and compute tax and interest so you can regularise deliberately.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is service charge, tips and hotel payroll treated in the accounts?</h3>
+  <div class="faq-expanded__a"><p>Service charge collected from guests is recorded as a liability where it is pooled for distribution to staff and as income only where the business retains it, so the treatment follows your written policy. Tips paid directly by guests stay outside revenue. Payroll entries cover wages, PF, ESI and professional tax in states that levy it, such as Maharashtra and Gujarat.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>What is hospitality accounting?</strong><br>Hospitality accounting is specialised financial management for hotels, restaurants, resorts, and food businesses covering GST compliance (5%/18% rates), OTA reconciliation, F and B cost control, payroll, and ITR filing.</p>
-                <p><strong>Is GST registration mandatory for cloud kitchens on Swiggy/Zomato?</strong><br>Yes. Restaurants listed on ecommerce platforms like Swiggy or Zomato must register for GST regardless of turnover under ecommerce operator rules in the CGST Act.</p>
-                <p><strong>What is the F and B cost benchmark for Indian restaurants?</strong><br>Industry benchmark for F and B cost is 25%-35% of revenue. Patron Accounting tracks this monthly using: F and B Cost % = (Opening Stock + Purchases - Closing Stock) / Revenue x 100.</p>
+                <p>Very little of the money arrives the way it was billed. A guest folio settles part in card, part in cash, part against a corporate account; an OTA remits net of commission, well after checkout, in a lump covering many stays; the delivery aggregator pays on its own cycle. Patron unpicks those settlements, posts gross.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Income Tax and ITR Filing for Hospitality Businesses</h2>
+            <h2 class="section-title">Hospitality Sector Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Income tax compliance for hospitality businesses involves careful management of business income, allowable deductions, TDS credits, and advance tax. Patron Accounting handles:</p>
-                <ul>
-                    <li>ITR-3 for proprietors running hotels, restaurants, or resorts</li>
-                    <li>ITR-5 for LLPs and partnership firms in hospitality</li>
-                    <li>ITR-6 for Private Limited or Limited Liability companies</li>
-                    <li>Presumptive taxation under Section 44AD for eligible restaurants below Rs 3 crore turnover</li>
-                    <li>Tax audit under Section 44AB for businesses exceeding Rs 1 crore threshold</li>
-                    <li>Advance tax planning and quarterly deposits (June 15, September 15, December 15, March 15)</li>
-                    <li>Reconciliation of all TDS deducted by OTAs, Swiggy, Zomato with Form 26AS</li>
-                    <li>Deduction claims for renovation costs, equipment depreciation, staff training, and F and B expenses</li>
-                </ul>
-                <p style="margin-top:16px;"><strong>File your hospitality ITR correctly - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20hotel%20restaurant%20ITR%20filing." target="_blank">WhatsApp us</a> for a free assessment.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Hotel or Restaurant Compliance Today</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Hotel and Restaurant Accounting with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">India's hospitality sector demands specialist accounting expertise - from multi-slab GST (5% and 18%), Specified Premises classification, and monthly ITC reversal to OTA commission reconciliation, Swiggy/Zomato TCS, F and B cost benchmarking, and complex payroll. Getting any of these wrong means GST notices, TDS defaults, and revenue leakage.</p>
-                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;">Patron Accounting LLP provides end-to-end hospitality accounting built around the unique financial requirements of hotels, restaurants, resorts, cloud kitchens, and food businesses. Our sector-specialist CA team handles everything from daily revenue reconciliation to annual ITR filing - so you can focus on running your property.</p>
-                <p style="color:rgba(255,255,255,0.9);font-size:16px;line-height:1.7;"><strong>200+ hotels and restaurants served | 4.9 star rating | Pan-India service | Starting from Rs 3,499/month</strong></p>
+                <p style="color:rgba(255,255,255,0.88);">Most operators notice it at the second outlet. One property a manager could hold in one head; two, with different menus, different tariffs and separate settlements, and nobody can say which one is making money. Accounting for hotels stops being a bookkeeping chore at that point and becomes the only way to see the group.</p>
+<p style="color:rgba(255,255,255,0.88);">Landlords and lenders both ask the same question before a new lease is signed: what does this format actually earn once rent, salaries and consumption are charged against it. Accounting for restaurants answers that directly from a comparable site, so the next deal is negotiated from a number rather than an average.</p>
+<p style="color:rgba(255,255,255,0.88);">Your channel list comes first: which OTAs and aggregators remit to you, and whether the property management and point-of-sale systems export at the level a ledger actually needs. Each of them settles on its own cycle. The same reconciliation habit drives <a href="/accounting-services-it-saas">how recurring revenue is booked</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20am%20interested%20in%20Hospitality%20Accounting%20services%20from%20Patron%20Accounting.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Hospitality%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Hospitality%20Accounting%20services%20for%20my%20hotel%20or%20restaurant.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20hospitality%20sector%20accounting%20services" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Hospitality%20Sector%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Hospitality%20Sector%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Hospitality Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides hospitality accounting, hotel GST compliance, and restaurant bookkeeping services across major Indian cities.</p>
-       
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid">
-                    <a href="/hospitality-sector-accounting-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/hospitality-accounting-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/hospitality-sector-accounting-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                    <a href="/hospitality-sector-accounting-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Hospitality Accounting</div>
-                <div class="pa-cross-grid">
-                    <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns-for-restaurants-food-businesses" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST for Restaurants</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/private-limited-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Company Registration</div><div class="pa-card-sub">India</div></div></a>
-                </div>
-            </div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Hospitality Sector Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for hospitality sector accounting in these cities.</p>
+            
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 15 January 2024 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">15 January 2024</span> &nbsp;|&nbsp; <strong>Next Review:</strong> September 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed bi-annually or when GST Council changes hospitality rates or ITC rules. Next review: September 2026. Key notifications: No. 15/2025-CT(Rate), No. 5/2025-CT(Rate).</p>
-        </div>
-    </div>
-</section>
 
-<!-- STICKY WHATSAPP BAR -->
-{{--
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION  -  Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2231,8 +1139,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2242,8 +1150,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2324,7 +1232,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2334,34 +1242,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2372,12 +1278,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2393,7 +1300,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set  -  using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2408,7 +1315,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API  -  using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2439,7 +1346,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews  -  using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2453,7 +1360,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered  -  init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2463,6 +1372,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2485,9 +1395,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM  -  Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2627,7 +1535,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2657,7 +1565,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2677,7 +1584,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2755,12 +1662,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2768,55 +1671,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2854,8 +1726,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

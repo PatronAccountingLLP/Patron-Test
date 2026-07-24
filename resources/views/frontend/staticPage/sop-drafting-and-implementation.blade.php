@@ -1,1089 +1,293 @@
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>SOP Drafting and Implementation in 2026 | Patron Accounting</title>
-    <meta name="description" content="Expert SOP drafting and implementation for Indian businesses: process mapping, internal controls, role clarity and team rollout. Starting from INR 9,999.">
-    <link rel="canonical" href="/sop-drafting-and-implementation">
+    <title>Accounting SOP Drafting and Implementation in India | Patron Accounting</title>
+    <meta name="description" content="SOPs written from your actual process, then tested against it. Clean books every month, filings on time and no scramble at year end. See our pricing.">
+    <link rel="canonical" href="https://www.patronaccounting.com/sop-drafting-and-implementation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="SOP Drafting and Implementation in 2026 | Patron Accounting">
-    <meta property="og:description" content="Expert SOP drafting and implementation for Indian businesses: process mapping, internal controls, role clarity and team rollout. Starting from INR 9,999.">
-    <meta property="og:url" content="/sop-drafting-and-implementation">
+    <meta property="og:title" content="Accounting SOP Drafting and Implementation in India | Patron Accounting">
+    <meta property="og:description" content="SOPs written from your actual process, then tested against it. Clean books every month, filings on time and no scramble at year end. See our pricing.">
+    <meta property="og:url" content="https://www.patronaccounting.com/sop-drafting-and-implementation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sop-drafting-and-implementation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/sop-drafting-and-implementation-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SOP Drafting and Implementation in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Expert SOP drafting and implementation for Indian businesses: process mapping, internal controls, role clarity and team rollout. Starting from INR 9,999.">
-    <meta name="twitter:image" content="/images/sop-drafting-and-implementation-og.webp">
+    <meta name="twitter:title" content="Accounting SOP Drafting and Implementation in India | Patron Accounting">
+    <meta name="twitter:description" content="SOPs written from your actual process, then tested against it. Clean books every month, filings on time and no scramble at year end. See our pricing.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/sop-drafting-and-implementation-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "/sop-drafting-and-implementation/#service",
-        "name": "SOP Drafting and Implementation Services in India",
-        "description": "Patron Accounting provides SOP drafting and implementation for Indian businesses, covering process discovery, control and gap analysis, SOP drafting with roles and escalation, stakeholder validation, and implementation with team training aligned with recognised internal control principles.",
-        "provider": { "@id": "/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/sop-drafting-and-implementation" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Standard operating procedure", "sameAs": "https://en.wikipedia.org/wiki/Standard_operating_procedure" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "SOP Drafting and Implementation Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "SOP Drafting and Implementation", "priceCurrency": "INR", "price": "9999", "description": "Process discovery, control analysis, SOP drafting, validation, and implementation with team training. Starting from INR 9,999 (Exl GST and Govt. Charges)." }
-            ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/#service",
+  "name": "Accounting SOP Drafting and Implementation",
+  "description": "An accounting SOP documents each finance process step by step, naming who performs it, who approves it and what evidence it leaves. Patron drafts yours by walking the desk, not the policy manual, then proves it on live transactions.",
+  "image": "https://www.patronaccounting.com/images/sop-drafting-and-implementation-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "SOP Drafting and Implementation Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting SOP Drafting and Implementation",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounting SOP Drafting and Implementation",
+          "description": "An accounting SOP documents each finance process step by step, naming who performs it, who approves it and what evidence it leaves. Patron drafts yours by walking the desk, not the policy manual, then proves it on live transactions.",
+          "serviceType": "SOP Drafting and Implementation Service"
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "/sop-drafting-and-implementation/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Internal Audit", "item": "/internal-audit" },
-            { "@type": "ListItem", "position": 3, "name": "SOP Drafting and Implementation", "item": "/sop-drafting-and-implementation" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "/sop-drafting-and-implementation/#faq",
-        "datePublished": "2026-06-05T08:00:00+05:30",
-        "dateModified": "2026-06-05T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a standard operating procedure?", "acceptedAnswer": { "@type": "Answer", "text": "A standard operating procedure, or SOP, is a documented, step-by-step instruction set that defines how a routine task is performed, who is responsible, and the expected output and quality standard. SOPs create consistency, reduce errors, and make training and audits easier by capturing how work should be done every time." } },
-        { "@type": "Question", "name": "What does an SOP include?", "acceptedAnswer": { "@type": "Answer", "text": "A well-built SOP includes the purpose and scope, roles and responsibilities, step-by-step instructions, controls and checkpoints, required documentation, an escalation protocol, and revision control. Patron Accounting builds these components consistently across your SOP set so they support internal controls and stay practical for daily use." } },
-        { "@type": "Question", "name": "How do you draft and implement an SOP?", "acceptedAnswer": { "@type": "Answer", "text": "Drafting and implementation follow six steps: scope and prioritise processes, discover and map the current process, analyse control gaps, draft clear procedures, validate with stakeholders, and implement with training and a review cycle. Implementation and adoption matter as much as the document itself." } },
-        { "@type": "Question", "name": "How much does SOP drafting and implementation cost?", "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting SOP engagements start from INR 9,999 (Exl GST and Govt. Charges). Final fees depend on the number of SOPs, process complexity, number of locations, and the depth of implementation and training support. Call +91 945 945 6700 for a free, no-obligation quote." } },
-        { "@type": "Question", "name": "Who needs SOPs in their business?", "acceptedAnswer": { "@type": "Answer", "text": "SOPs add the most value when processes are repeated by multiple people or across locations. Startups formalising operations, SMEs reducing key-person dependency, multi-location businesses, and companies preparing for audit, due diligence, or certification all benefit from documented, control-ready procedures." } },
-        { "@type": "Question", "name": "What is the difference between an SOP and a policy?", "acceptedAnswer": { "@type": "Answer", "text": "A policy states what an organisation will do and why, setting direction and rules. An SOP explains how a specific task is carried out, step by step, including who does it and to what standard. Policies set intent; SOPs operationalise that intent into repeatable actions." } },
-        { "@type": "Question", "name": "How long does it take to create SOPs?", "acceptedAnswer": { "@type": "Answer", "text": "A focused SOP set for one or two processes is typically delivered in 2 to 4 weeks. Larger, multi-department or multi-location programmes take longer, based on the number of SOPs and the depth of implementation and training. We agree a realistic timeline during the initial scoping discussion." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "/sop-drafting-and-implementation",
-        "name": "SOP Drafting and Implementation Services in India",
-        "description": "Expert SOP drafting and implementation for Indian businesses: process mapping, internal controls, role clarity and team rollout. Starting from INR 9,999.",
-        "url": "/sop-drafting-and-implementation",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "/" },
-        "about": { "@id": "/sop-drafting-and-implementation/#service" },
-        "datePublished": "2026-06-05T08:00:00+05:30",
-        "dateModified": "2026-06-05T08:00:00+05:30",
-        "author": { "@id": "/#team" },
-        "breadcrumb": { "@id": "/sop-drafting-and-implementation/#breadcrumb" }
+      "@type": "ListItem",
+      "position": 3,
+      "name": "SOP Drafting & Implementation",
+      "item": "https://www.patronaccounting.com/sop-drafting-and-implementation"
     }
-    </script>
-    <script type="application/ld+json">
+  ],
+  "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How the SOP Drafting and Implementation Process Works",
-        "description": "A six-step SOP process: scope and prioritise, discover and map, analyse gaps, draft SOPs, validate and approve, and implement and sustain with training and revision control.",
-        "totalTime": "P28D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Scope and prioritise", "text": "Agree which processes need SOPs first, based on risk and frequency." },
-        { "@type": "HowToStep", "position": 2, "name": "Discover and map", "text": "Document the current process through walkthroughs and observation." },
-        { "@type": "HowToStep", "position": 3, "name": "Analyse gaps", "text": "Identify control weaknesses, bottlenecks, and unclear ownership." },
-        { "@type": "HowToStep", "position": 4, "name": "Draft SOPs", "text": "Write clear procedures with roles, steps, controls, and escalation." },
-        { "@type": "HowToStep", "position": 5, "name": "Validate and approve", "text": "Review with stakeholders, refine, and obtain sign-off." },
-        { "@type": "HowToStep", "position": 6, "name": "Implement and sustain", "text": "Train teams, roll out, and set a review cycle with revision control." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "What is SOP in accounting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An SOP in accounting is a written standard operating procedure that sets out exactly how each finance task is performed, who performs it, who approves it and by when. A full set usually covers invoicing, purchase approval, payments, bank reconciliation, payroll, GST and TDS compliance and month end closing, with formats, checklists and approval limits attached to every process."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "What is SOP in finance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An SOP in finance is a documented control framework covering how money moves through the business, including budgeting, expense approval, vendor onboarding, payment release, banking authority and reporting. It is wider than an accounting SOP because it also fixes financial authority limits and segregation of duties, so that no single person can raise, approve and pay the same transaction."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "SOP Drafting and Implementation Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Standard Operating Procedure (SOP)", "description": "A documented, repeatable method for performing a specific task to a defined standard." },
-        { "@type": "DefinedTerm", "name": "Internal Control", "description": "A process that safeguards assets, ensures reliable records, and promotes operational efficiency." },
-        { "@type": "DefinedTerm", "name": "Segregation of Duties", "description": "Splitting a task across people so no single person controls a whole transaction." },
-        { "@type": "DefinedTerm", "name": "Revision Control", "description": "Version tracking so each SOP shows its current, approved edition and change history." }
-        ]
+      "@type": "Question",
+      "name": "What does SOP stand for in accounting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SOP stands for standard operating procedure. In an accounting context it is the approved written instruction telling your team how a specific finance process must be carried out every time, in the same sequence and with the same documentation. It is a control document rather than a training note, normally signed off by management and reviewed at least once a year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you prepare an SOP for an accounting department?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accounting SOPs are prepared in four stages, starting with process walkthroughs and interviews, then a documented map of how work is done today, then a redesign with controls and approval limits, then the written SOP with formats and checklists. A single department is normally covered in three to five weeks, and each process owner signs off before rollout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does an accounting SOP mean for a finance team day to day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Day to day it means every routine task has a named owner, a fixed sequence and a due date, so work does not stall when one person is on leave or resigns. Your team follows a checklist for the month end close, approvals move within set limits, and errors get caught at the review stage instead of surfacing during the audit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to draft and roll out a full set of accounting SOPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drafting and rolling out a full set of accounting SOPs takes six to ten weeks for a mid sized business, of which two to three weeks is process study and the rest is drafting, review and implementation. Implementation covers team training, a trial run across one complete month end close and a review of exceptions before final sign off."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an SOP checklist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An SOP checklist is the working sheet that converts a written procedure into tick box steps a team completes and signs, with a date and preparer name against every line. In accounting it is used most for the month end close, bank reconciliation, payment release and statutory due dates for GST and TDS. Every SOP we draft carries its own checklist, so compliance is evidenced rather than assumed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does SOP drafting and implementation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A full accounting SOP assignment usually costs Rs 50,000 to Rs 3,00,000 as a one time fee, depending on the number of processes, locations and entities covered. A single process such as accounts payable can be documented for considerably less. Annual review and update of an existing SOP set is quoted separately as a fixed yearly fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you make sure the team actually follows the SOP after handover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Adherence is built in through a 60 to 90 day implementation phase in which monthly compliance checks are run against the SOP and exceptions are reported to management, rather than a document being handed over and forgotten. Checklists are embedded into the monthly close, approval limits are configured in your software, and every deviation is reported with the reason."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is SOP development?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SOP development is the full cycle of building a procedure, from studying how the work is done today through drafting, piloting, approval, rollout and periodic revision, rather than only writing a document. An accounting engagement of this kind runs six to ten weeks and ends with a version numbered, dated document approved by management, reviewed at least once a year or whenever the law or your software changes."
+      }
     }
-    </script>
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation",
+  "name": "Accounting SOP Drafting and Implementation",
+  "description": "SOPs written from your actual process, then tested against it. Clean books every month, filings on time and no scramble at year end. See our pricing.",
+  "url": "https://www.patronaccounting.com/sop-drafting-and-implementation",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/sop-drafting-and-implementation-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/sop-drafting-and-implementation-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider .slick-slide > div { height: 100%; }
-        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
-        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #0F6E56;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #0F6E56;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">SOP Drafting and Implementation Services</span></li>
+        </ol>
+    </div>
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1095,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        SOP Drafting and Implementation
+                        Accounting SOP Drafting and Implementation
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1104,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated"></span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Inputs:</span> Process walkthroughs, existing checklists, org chart, and role descriptions.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Approval limits matched to the mandate:</span> The authority matrix is written in value bands by role and reconciled to the transaction limits configured on your banking mandate.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> Transparent engagements starting from INR 9,999, scoped to process count.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Vendor setup split from payment:</span> The same person no longer creates a vendor and releases its payment, because roles and workflows in your accounting software block it.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Eligibility:</span> Startups, SMEs, and growing companies standardizing finance and operations.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Process knowledge held by the department:</span> Each cycle exists on paper with its trigger, steps, control points and evidence, plus a named owner and a review date.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Timeline:</span> A focused process SOP set is typically delivered in 2 to 4 weeks.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Directors' control assertion supported:</span> Your directors sign with the work behind the signature already done: tested procedures, approval bands and an evidence trail all in place.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | 15+ Years Experience</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20SOP Drafting and Implementation%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20SOP Drafting and Implementation%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20SOP%20Drafting%20and%20Implementation%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20SOP%20Drafting%20and%20Implementation%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20help%20with%20SOP%20drafting%20and%20implementation.%20Please%20share%20the%20process%2C%20inputs%20required%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20sop%20drafting%20and%20implementation" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1166,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1240,14 +442,12 @@
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
                                 <option value="sop-drafting-and-implementation" selected>SOP Drafting and Implementation</option>
-                                <option value="internal-audit">Internal Audit Service</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="statutory-audit">Statutory Audit Service</option>
-                                <option value="payroll-services">Payroll Services</option>
-                                <option value="tax-audit">Tax Audit Service</option>
-                                <option value="gst-audit">GST Audit Service</option>
-                                <option value="secretarial-audit">Secretarial Audit Service</option>
-                                <option value="other">Other</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1277,74 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace with real testimonial-card divs. Cards are locked to a fixed 370px height by CSS for a uniform row.
-             TEXT CARD (single-row style): quote mark on top; review text (`flex:1`, top-aligned); single author row {avatar + name + "Google Review" + 5 orange stars stacked, with "X months ago" pushed to the far right via margin-left:auto}.
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             Avatar bg cycles across cards: var(--orange), var(--blue), #7C3AED (purple), #0D9488 (teal).
-             VIDEO CARD (optional; only if real video testimonials exist) - video fills top 298px with poster + centred play button + stars overlay; circular author photo below:
-             <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-                 <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                     <video preload="metadata" poster="POSTER_URL" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="VIDEO_URL" type="video/mp4"></video>
-                     <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                     <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                 </div>
-                 <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                     <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="POSTER_URL" alt="Name" style="width:100%;height:100%;object-fit:cover;"></div>
-                     <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Name</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role - Company</div></div>
-                 </div>
-             </div>
-             ORDER (when video testimonials are used): 1st video, 2nd a text review, 3rd second video, then remaining text reviews. Content from real-testimonials.json.
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PR</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Preeti Singh Rathor</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div></div></div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Real reviews from businesses we support across India.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1370,117 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <!-- TOC_NAVIGATION_ITEMS PATTERN — use class "toc-btn" (NOT "toc-pill"); the CSS (.toc-btn) and scroll-spy JS (querySelectorAll('.toc-btn')) both target this exact class. First item gets "toc-btn active". One button per content section, in document order. Pattern:
-                <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-                (repeat for who-section, services-section, procedure-section, documents-section, challenges-section, fees-section, timeline-section, benefits-section, comparison-section, faq-section)
-            -->
-            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-            <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-            <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
-            <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
-            <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
-            <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">Checklist</button>
-            <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
-            <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
-            <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Timeline</button>
-            <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
-            <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">DIY vs Patron</button>
-            <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">SOP Drafting and Implementation Overview</h2>
+            <h2 class="section-title">What Accounting SOP Drafting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - SOP Drafting and Implementation Services at a Glance</strong></p>
-                    <p>SOP drafting and implementation is the structured creation and rollout of documented, step-by-step procedures that define who does what, when, and to what standard across your business. Patron Accounting maps your processes, embeds internal controls, and trains your team for real adoption, starting from INR 9,999 (Exl GST and Govt. Charges).</p>
+                    <p>An accounting SOP documents each finance process step by step, naming who performs it, who approves it and what evidence it leaves. Patron drafts yours by walking the desk, not the policy manual, then proves it on live transactions. Controls map to the internal financial controls Section 134(5) asks directors to affirm, with approval limits fixed in writing. Suited to growing finance teams tightening control.</p>
                 </div>
-                <p>As a business grows, undocumented processes create errors, key-person dependency, and weak controls. SOP drafting and implementation converts that tacit knowledge into clear procedures that improve consistency, reduce risk, and make audits and scaling far easier.</p>
-                <p>Patron Accounting, with 15+ years of advisory experience, builds SOPs around recognised internal control principles so they strengthen governance, not just paperwork. We document your processes, build in controls and role clarity, and drive adoption with training, not just paperwork.</p><div class="table-responsive-wrapper" style="margin-top:20px;"><table><thead><tr><th>Parameter</th><th>Detail</th></tr></thead><tbody><tr><td>Service</td><td>SOP drafting and implementation</td></tr><tr><td>Applicable To</td><td>Startups, SMEs, family businesses, growing companies</td></tr><tr><td>Core Deliverable</td><td>Documented, control-ready standard operating procedures</td></tr><tr><td>Framework Basis</td><td>COSO internal control components and ICAI best practices</td></tr><tr><td>Timeline</td><td>2 to 4 weeks for a focused process set</td></tr><tr><td>Starting Cost</td><td>INR 9,999 (Exl GST and Govt. Charges)</td></tr><tr><td>Governance Link</td><td>Internal financial controls under Companies Act, 2013</td></tr></tbody></table></div><p style="margin-top:16px;"></p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>A written process and a practised one are seldom the same thing, and the vouchers show which is which. Patron reads the trail first, tracing a sample of purchases, goods receipts and payments end to end to find where an approval was skipped or evidence was never captured. Every gap found becomes a written step carrying an owner, a limit and a named document. Writing procedures your team will follow sets out the format we use.</p>
+                <p>Payments-only procedures and a full finance SOP are different pieces of work, the second covering procure-to-pay, order-to-cash, payroll and close. Workload increases when more processes are brought into scope, when locations run them differently today and when approval layers stack up. Drafting, testing, staff walkthroughs and the handover pack are included. Software changes and any filing through the government GST portal are not.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is SOP Drafting and Implementation</h2>
+                <h2 class="section-title">What Is Accounting SOP Drafting?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>A standard operating procedure is a documented, step-by-step instruction set that defines how a routine task is performed, who is responsible, and the expected output and quality standard. SOP drafting and implementation is the end-to-end work of creating these documents and embedding them into daily operations.</p><p>Effective SOPs align with internal control principles. The COSO framework, widely used in India, defines five components: control environment, risk assessment, control activities, information and communication, and monitoring. Well-built SOPs operationalise these controls inside everyday processes.</p>
+                    <p>By the time this work ends, every finance task carries three facts: the person who runs it, the limit at which it is approved, and the record it must leave. An accounting SOP is the document that fixes all three. It records each process step by step, sets an approval limit against each one, and names the record that must be kept as proof.</p>
+<p>Patron drafts it by walking the actual desk rather than copying a policy manual, tracing real purchases, receipts and payments to find where an approval is skipped or evidence is lost. Each gap found becomes a written step with an owner and a control. The finance SOP maps those controls to the internal financial controls the Companies Act asks directors to affirm, and separates duties so no single person runs a transaction end to end. The finished document is handed to the team as the reference they work from daily. The document defines and enforces process; it is neither an audit nor a software rollout.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for SOP Drafting and Implementation:</strong></p>
-                    <p><strong>Standard Operating Procedure (SOP):</strong> A documented, repeatable method for performing a specific task to a defined standard.</p><p><strong>Internal Control:</strong> A process that safeguards assets, ensures reliable records, and promotes operational efficiency.</p><p><strong>Segregation of Duties:</strong> Splitting a task across people so no single person controls a whole transaction.</p><p><strong>Revision Control:</strong> Version tracking so each SOP shows its current, approved edition and change history.</p><div class="table-responsive-wrapper" style="margin-top:16px;"><table><thead><tr><th>Type</th><th>Used By</th><th>Example</th></tr></thead><tbody><tr><td>Technical SOP</td><td>Operational staff</td><td>Invoice processing, stock receipt</td></tr><tr><td>Management SOP</td><td>Managers</td><td>Approval and review workflows</td></tr><tr><td>Administrative SOP</td><td>Support functions</td><td>Onboarding, document retention</td></tr></tbody></table></div>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/standard-operating-procedure-sop">Standard Operating Procedure (SOP)</a></span><span class="al-d">A written, step-by-step instruction for how a task should be done.</span></li><li><span class="al-t"><a href="/glossary/financial-internal-controls">Financial Internal Controls</a></span><span class="al-d">Checks built into finance processes to prevent error and fraud.</span></li><li><span class="al-t"><a href="/glossary/segregation-of-duties-sod">Segregation of Duties (SoD)</a></span><span class="al-d">Splitting a task so no one person controls it end to end.</span></li><li><span class="al-t"><a href="/glossary/month-end-close-checklist">Month-End Close Checklist</a></span><span class="al-d">The list of tasks completed to finalise each month&#x27;s accounts.</span></li><li><span class="al-t"><a href="/glossary/tally-vault">Tally Vault</a></span><span class="al-d">A Tally password feature that encrypts and hides a company&#x27;s data.</span></li><li><span class="al-t"><a href="/glossary/dunning-letters">Dunning Letters</a></span><span class="al-d">Reminder notices sent to customers to collect overdue payment.</span></li><li><span class="al-t"><a href="/glossary/statutory-vs-internal-audit">Statutory vs Internal Audit</a></span><span class="al-d">One audit is required by law; the other is management&#x27;s own review.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">SOP Drafting and Implementation</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Delivered in</span>
-                        <strong>2 to 4 weeks</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/sop-drafting-and-implementation/what-is.webp" alt="What Is Accounting SOP Drafting. By the time this work ends, every finance task carries three facts: the person who" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Should Use This Service</h2>
+            <h2 class="section-title">Who Needs Accounting SOP Drafting in India?</h2>
             <div class="content-text">
                 
-                <p>SOPs add the most value when processes are repeated by multiple people or across locations.</p><ul><li>Startups formalising operations ahead of funding or scale.</li><li>SMEs reducing dependence on a few key employees.</li><li>Multi-location businesses needing consistent execution.</li><li>Companies preparing for audit, due diligence, or certification.</li></ul>
+                <p>Written procedures and practised ones drift apart as a finance team grows, and the businesses below feel the gap first. Each has reached a size where undocumented process has started to cost them something concrete.</p>
+  <ul>
+    <li>Companies where one accountant holds the process in their head and is now leaving.</li>
+    <li>Finance teams after a duplicate payment slipped through with no second approval.</li>
+    <li>Businesses carrying an audit observation repeated for a second year on controls.</li>
+    <li>Directors who must affirm internal financial controls but have nothing written to point to.</li>
+    <li>Growing firms wanting to push routine payment approvals down a level safely.</li>
+    <li>Multi-location businesses where each branch runs procure-to-pay its own way.</li>
+    <li>Owners needing a <a href="/glossary/standard-operating-procedure-sop">finance SOP</a> across procure-to-pay, order-to-cash, payroll and close.</li>
+    <li>Teams wanting an <a href="/blog/accounts-payable-sop-template">approval matrix</a> that fixes each limit and its evidence in writing.</li>
+  </ul>
 
             </div>
             </div>
@@ -1488,17 +595,22 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Our SOP Services</h2>
+            <h2 class="section-title">Our Accounting SOP Drafting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Process discovery</td><td>Walkthroughs and interviews to map how each process actually runs today.</td></tr><tr><td>Gap and control analysis</td><td>We identify weak points, missing approvals, and control gaps.</td></tr><tr><td>SOP drafting</td><td>Clear documents covering purpose, scope, roles, steps, controls, and escalation.</td></tr><tr><td>Stakeholder validation</td><td>Department leaders review drafts for accuracy and feasibility.</td></tr><tr><td>Implementation and training</td><td>Rollout, team training, and a handover so SOPs are actually followed.</td></tr><tr><td>Review and sustain</td><td>Revision control and feedback loops keep SOPs current as you change.</td></tr>
+                        <tr><td>Current-state documentation</td><td>Our accounting SOP work starts by documenting what your team actually does across procure-to-pay, order-to-cash, payroll and the month-end close <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Roles and access mapping</td><td>We map who does each task, which systems they use, and their access rights, so segregation of duties can be tested <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Control gap analysis</td><td>Our sop drafting services find where controls are missing or overlap, following this <a href="/blog/why-businesses-need-financial-sops">why businesses need financial SOPs</a> guidance <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Approval matrix design</td><td>We design an <a href="/blog/accounts-payable-sop-template">approval matrix</a> matched to your banking mandate, splitting vendor setup from payment, so authorisation limits are enforced by role <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Target SOP writing</td><td>We write the finance SOP for each cycle, with clear steps, owners and controls, so process knowledge stays inside your department <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Rollout and review</td><td>We configure the system to enforce the rules, prove each procedure on live work, then review after rollout and refine where needed <span class="badge-included">One-time (setup), then reviewed</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1508,51 +620,116 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">The 6-Step SOP Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">A structured, CA-led approach that turns how your business actually works into clear, control-ready procedures your team follows, from scoping priorities to training and ongoing review.</p>
+            <h2 class="section-title">How Accounting SOP Drafting Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers sop drafting and implementation, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Scope and Prioritise</h3><p class="step-description">Agree which processes need SOPs first, based on risk and frequency.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Priorities agreed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Risk-based scope</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="22" y="16" width="76" height="14" rx="4" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><rect x="22" y="40" width="60" height="14" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><rect x="22" y="64" width="44" height="14" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><circle cx="104" cy="23" r="3" fill="#E8712C"/></svg></div><span class="illustration-label">Scope Set</span><span class="step-number-large">01</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Discover and Map</h3><p class="step-description">Document the current process through walkthroughs and observation.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Walkthroughs done</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Process mapped</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="28" cy="30" r="9" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><circle cx="92" cy="30" r="9" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="74" r="9" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M37 30h46M32 38l24 30M88 38L64 68" stroke="#14365F" stroke-width="1.6" opacity="0.5"/></svg></div><span class="illustration-label">Process Mapped</span><span class="step-number-large">02</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Analyse Gaps</h3><p class="step-description">Identify control weaknesses, bottlenecks, and unclear ownership.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Gaps identified</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Controls reviewed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="46" r="24" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="68" y1="64" x2="90" y2="86" stroke="#14365F" stroke-width="3" stroke-linecap="round"/><path d="M50 36v12" stroke="#E8712C" stroke-width="3" stroke-linecap="round"/><circle cx="50" cy="56" r="2.4" fill="#E8712C"/></svg></div><span class="illustration-label">Gaps Found</span><span class="step-number-large">03</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Draft SOPs</h3><p class="step-description">Write clear procedures with roles, steps, controls, and escalation.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Roles defined</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Controls embedded</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="26" y="10" width="68" height="80" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="38" y1="28" x2="82" y2="28" stroke="#E8712C" stroke-width="3" stroke-linecap="round"/><line x1="38" y1="42" x2="74" y2="42" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><line x1="38" y1="54" x2="78" y2="54" stroke="#14365F" stroke-width="2" opacity="0.3" stroke-linecap="round"/><path d="M70 70l8-8 6 6-8 8h-6z" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.4"/></svg></div><span class="illustration-label">SOPs Drafted</span><span class="step-number-large">04</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Validate and Approve</h3><p class="step-description">Review with stakeholders, refine, and obtain sign-off.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Stakeholder review</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Sign-off obtained</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="16" width="72" height="56" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M44 44l8 8 18-20" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="48" y="78" width="24" height="6" rx="3" fill="#E8712C"/></svg></div><span class="illustration-label">Approved</span><span class="step-number-large">05</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Implement and Sustain</h3><p class="step-description">Train teams, roll out, and set a review cycle with revision control.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Team trained</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Review cycle set</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="12" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/><circle cx="80" cy="40" r="12" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M24 78c0-9 7-16 16-16s16 7 16 16M64 78c0-9 7-16 16-16s16 7 16 16" stroke="#14365F" stroke-width="1.6" fill="none"/></svg></div><span class="illustration-label">Implemented</span><span class="step-number-large">06</span></div></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Document what actually happens</h3>
+    <p class="step-description">Before designing anything we walk each cycle with the person who performs it and trace one live document set end to end. The written process and the real process almost always differ, and the design has to start from the real one.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/sop-drafting-and-implementation/step-1-document-what-actually-happens.webp" alt="Illustration for Document what actually happens: Before designing anything we walk each cycle with the person who performs" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Map roles, systems and access</h3>
+    <p class="step-description">We map the finance team's actual responsibilities against the org chart, then against what the software permits: user roles, access rights, and the maker-checker configuration on the banking mandate. What people are allowed to do and what they can do rarely match.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/sop-drafting-and-implementation/step-2-map-roles-systems-and-access.webp" alt="Illustration for Map roles, systems and access: We map the finance team's actual responsibilities against the org chart," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Find the control gaps</h3>
+    <p class="step-description">The as-is picture is tested for segregation of duties conflicts, such as the same person creating a vendor and releasing its payment, or raising and approving a journal. We also look for missing approvals, routine manual overrides and reconciliations nobody performs.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/sop-drafting-and-implementation/step-3-find-the-control-gaps.webp" alt="Illustration for Find the control gaps: The as-is picture is tested for segregation of duties conflicts, such as the same" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Design the approval matrix</h3>
+    <p class="step-description">Authority is set out in value bands by role rather than by individual name, with a stated delegation for absence. It is then reconciled to the transaction limits already configured on the banking mandate. A matrix the bank does not enforce is only a suggestion.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/sop-drafting-and-implementation/step-4-design-the-approval-matrix.webp" alt="Illustration for Design the approval matrix: Authority is set out in value bands by role rather than by individual name," loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Write the target SOP</h3>
+    <p class="step-description">Each cycle is written up with its trigger, the sequence of steps, the inputs, the control points and the evidence retained at each point. It also records what happens when something goes wrong and who decides. A flowchart and a responsibility matrix accompany the text.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/sop-drafting-and-implementation/step-5-write-the-target-sop.webp" alt="Illustration for Write the target SOP: Each cycle is written up with its trigger, the sequence of steps, the inputs, the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Make the system enforce it</h3>
+    <p class="step-description">An SOP the software does not enforce decays within a quarter. Roles, approval workflows, document numbering series, mandatory fields and period locking are configured so that the documented route becomes the only route a transaction can actually take.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/sop-drafting-and-implementation/step-6-make-the-system-enforce-it.webp" alt="Illustration for Make the system enforce it: An SOP the software does not enforce decays within a quarter. Roles, approval" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Roll out, then review</h3>
+    <p class="step-description">The team is walked through the new procedure and runs one full cycle under it while we watch for where it breaks. The SOP is then revised against what actually happened, an owner is named for each document, and a review date is set.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/sop-drafting-and-implementation/step-7-roll-out-then-review.webp" alt="Illustration for Roll out, then review: The team is walked through the new procedure and runs one full cycle under it while" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Information Checklist</h2>
+            <h2 class="section-title">Documents Required for Accounting SOP Drafting</h2>
             <div class="content-text">
                 
-                <ul><li>Organisation chart and reporting lines.</li><li>Existing process notes, checklists, or templates.</li><li>List of key processes and owners.</li><li>Access to relevant software and systems used in each process.</li><li>Recent audit observations or known pain points.</li><li>Regulatory or industry standards that apply to your processes.</li></ul><h3 style="margin-top:28px;">What a Patron SOP Contains</h3><p>Each SOP is practical and audit-ready, with consistent components across the set.</p><ul><li>Purpose and scope of the procedure.</li><li>Roles, responsibilities, and segregation of duties.</li><li>Step-by-step instructions with decision points.</li><li>Controls, checkpoints, and required documentation.</li><li>Escalation protocol and exception handling.</li><li>Revision control with version and approval history.</li></ul>
+                <p>Writing a procedure means documenting the one you already run, so this begins with who approves what, and up to what limit.</p>
+<ul>
+    <li>Delegation of authority / approval matrix with expense and payment authorisation limits</li>
+    <li>Chart of accounts and the significant accounting policies note or accounting manual</li>
+    <li>Sample end-to-end document sets for each cycle: procure-to-pay, order-to-cash, payroll, fixed assets and month-end close</li>
+    <li>Accounting or ERP software details with the user list, roles and access-rights report</li>
+    <li>Banking mandate: authorised signatories, transaction limits and maker-checker configuration</li>
+    <li>The month-end close calendar or checklist currently in use</li>
+    <li>Existing process notes, flowcharts or SOP documents, in whatever state they exist</li>
+    <li>Organisation chart of the finance and accounts team with roles, reporting lines and current responsibilities</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges and How We Solve Them</h2>
+            <h2 class="section-title">Common Accounting SOP Drafting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>SOPs written but never followed</td><td>Wasted effort and no real change</td><td>Implementation, training, and adoption tracking, not just documents</td></tr><tr><td>Procedures too generic to be useful</td><td>Staff ignore them in practice</td><td>Discovery-based drafting tailored to how your business actually works</td></tr><tr><td>No clear ownership of tasks</td><td>Errors and accountability gaps</td><td>Defined roles and segregation of duties in every SOP</td></tr><tr><td>SOPs go stale after changes</td><td>Outdated, unreliable procedures</td><td>Revision control and scheduled review cycles</td></tr>
+                        <tr><td>One person raises the PO, approves the invoice and pays</td><td>No independent check on spend, exposing the firm to fraud and duplicate payments.</td><td>Separate initiation, approval and payment in the SOP with a documented segregation-of-duties matrix; use an <a href="/blog/accounts-payable-sop-template">accounts payable SOP template</a>.</td></tr>
+                        <tr><td>Month-end close runs on memory, not a checklist</td><td>Entries get missed and the close date slips, forcing numbers to be restated.</td><td>Fix a dated close checklist with an owner and sign-off for each reconciliation and accrual.</td></tr>
+                        <tr><td>Vendor and customer master changes made without control</td><td>Bank details can be altered unnoticed, opening a payment-diversion risk.</td><td>Route master changes through maker-checker in the SOP, retaining evidence for every amendment.</td></tr>
+                        <tr><td>Reconciliations done irregularly and never independently reviewed</td><td>Bank, GST and inter-company differences surface only at audit, when they are costly to fix.</td><td>Set reconciliation frequency, reviewer and escalation for unresolved items in the finance SOP.</td></tr>
+                        <tr><td>Documented SOP ignored in practice, with no exception tracking</td><td>Controls exist on paper only, leaving the Section 134(5) assertion unsupportable.</td><td>Sample-test after rollout, log deviations, and tighten the steps that repeatedly fail.</td></tr>
 
                     </tbody>
                 </table>
@@ -1562,47 +739,54 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Fees</h2>
+            <h2 class="section-title">Accounting SOP Drafting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 9,999 (Exl GST and Govt. Charges)</td></tr><tr><td>Government or statutory fees</td><td>Not applicable - SOP drafting and implementation carries no separate government fee</td></tr>
+                        <tr><td><strong>Standard</strong> &mdash; a defined set of core finance-process SOPs</td><td>INR 9,999<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Complex</strong> &mdash; more processes documented plus hands-on roll-out support</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">An accounting SOP engagement starts at a one-time <strong>INR 9,999</strong> for a defined set of core finance processes, documented and ready to use. The fee grows with the number of processes covered and the depth of roll-out support your team needs. Get a scope-based quotation on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free SOP Drafting and Implementation consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20SOP%20drafting%20and%20implementation.%20Please%20share%20the%20process%2C%20inputs%20required%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free SOP Drafting and Implementation consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20sop%20drafting%20and%20implementation" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Time Taken</h2>
+            <h2 class="section-title">Accounting SOP Drafting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Focused SOP set for one or two processes</td><td>2 to 4 weeks</td></tr><tr><td>Multi-department SOP programme</td><td>4 to 8 weeks, depending on scope</td></tr><tr><td>Multi-location rollout with training</td><td>Scoped to number of SOPs and locations</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p>A focused SOP set for one or two processes is typically delivered in 2 to 4 weeks. Larger, multi-department or multi-location programmes take longer, depending on the number of SOPs and the depth of implementation and training required.</p>
+                    <p>A written accounting SOP is what keeps the monthly dates, the 7th TDS and 20th GSTR-3B, from depending on one person's memory. Patron drafts a <a href="/blog/how-to-write-accounting-sop">documented procedure</a> that assigns each recurring filing an owner and a cut-off. Book a compliance review with a Patron CA on +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1610,42 +794,83 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Benefits of Professional SOPs</h2>
+            <h2 class="section-title">Why Professional Accounting SOP Drafting Matters</h2>
         </div>
-        <div class="features-grid"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h10"/><path d="M18 15l2 2-2 2"/></svg></div><h3 class="feature-title">Consistency and Fewer Errors</h3><p class="feature-text">Documented procedures bring consistency and fewer errors across teams and locations.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div><h3 class="feature-title">Stronger Internal Controls</h3><p class="feature-text">SOPs built on COSO principles strengthen internal controls and reduce operational risk.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg></div><h3 class="feature-title">Faster Onboarding</h3><p class="feature-text">Clear procedures make onboarding and training faster and far easier for new staff.</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></div><h3 class="feature-title">Audit and Due-Diligence Ready</h3><p class="feature-text">Structured, defensible SOPs support audit, due diligence, growth, and funding.</p></article></div>
+        <div class="features-grid">
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /> <circle cx="12" cy="12" r="3" /> </svg></div>
+  <h3 class="feature-title">Approval limits matched to the mandate</h3>
+  <p class="feature-text">The authority matrix is written in value bands by role and reconciled to the transaction limits configured on your banking mandate.</p><ul style="margin-top:12px;"><li>Authority matrix set in value bands by role</li><li>Reconciled to banking mandate transaction limits and maker-checker setup</li><li>Without it, an unauthorised payment leaves the account, caught only on review</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m11 17 2 2a1 1 0 1 0 3-3" /> <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" /> <path d="m21 3 1 11h-2" /> <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" /> <path d="M3 4h8" /> </svg></div>
+  <h3 class="feature-title">Vendor setup split from payment</h3>
+  <p class="feature-text">The same person no longer creates a vendor and releases its payment, because roles and workflows in your accounting software block it.</p><ul style="margin-top:12px;"><li>Roles and workflows separate vendor creation from payment</li><li>Enforced in the software, not by a written note</li><li>Without it, the same segregation observation recurs year after year</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Process knowledge held by the department</h3>
+  <p class="feature-text">Each cycle exists on paper with its trigger, steps, control points and evidence, plus a named owner and a review date.</p><ul style="margin-top:12px;"><li>Each cycle documented with trigger, steps, controls and evidence</li><li>Named owner and review date on every cycle</li><li>Without it, one person's exit takes the vendor and payment rules along</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13 5h8" /> <path d="M13 12h8" /> <path d="M13 19h8" /> <path d="m3 17 2 2 4-4" /> <path d="m3 7 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Directors' control assertion supported</h3>
+  <p class="feature-text">Your directors sign with the work behind the signature already done: tested procedures, approval bands and an evidence trail all in place.</p><ul style="margin-top:12px;"><li>Controls map to internal financial controls Section 134(5) asks directors to affirm</li><li>Tested procedures, approval bands and evidence trail in place</li><li>Without them, the assertion rests on what people say happens</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="8" height="4" x="8" y="2" rx="1" ry="1" /> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /> <path d="m9 14 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">A procedure proved on live work</h3>
+  <p class="feature-text">Your team runs one full cycle under the new procedure while we watch where it breaks. We revise the document against what happened.</p><ul style="margin-top:12px;"><li>One full cycle run under the new procedure</li><li>Document revised against what actually happened</li><li>Without it, the SOP is abandoned at the first transaction it does not cover</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Businesses Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <div class="highlight-box" style="margin-bottom:20px;"><p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years Experience</strong></p></div><p>In one engagement our team rebuilt a finance team's purchase-to-pay process where missing approvals had caused duplicate payments, embedding a clear three-step control that eliminated the leakage.</p><p>Trusted by businesses including Hyundai, Asian Paints, and Bridgestone. With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India, both in-person and remotely.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for SOP Drafting & Implementation</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>SOPs written from your actual process, then tested against it</strong><p>We write each SOP from your real process, walk it through with the team, then test it against live work. That practical grounding comes from 15+ years of experience.</p></div>
+                <div><strong>Controls mapped to the statutory requirement they satisfy</strong><p>Every control we write maps to the GST, TDS or Companies Act requirement it exists to satisfy. Knowing which rule sits behind each step comes from 25,000+ filings completed.</p></div>
+                <div><strong>Written for the software your team uses, screen by screen</strong><p>We write the procedures for the exact software your team runs, screen by screen, whether Tally Prime, Zoho Books, Xero or Odoo. We work across Zoho Books and Xero.</p></div>
+                <div><strong>Drafted, walked through and signed off by your team</strong><p>Each SOP is drafted, walked through with the owners and signed off, from a <a href="/blog/month-end-close-sop">month-end close procedure</a> to payables. Delivery your team actually adopts backs our 4.9 star Google rating.</p></div>
+                <div><strong>Finance SOP implementations across many industries</strong><p>We have implemented <a href="/blog/why-businesses-need-financial-sops">financial SOPs</a> for businesses among the 3,000+ served since 2019, across many industries. Our in-house team of CAs and CS, ISO Certified and MCA Registered, drafts and installs them.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY vs Professional SOPs</h2>
+            <h2 class="section-title">Undocumented Process vs Written Accounting SOP</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>DIY SOPs</th><th>Patron Accounting</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Undocumented Process</th><th>Written Accounting SOP</th></tr></thead>
                     <tbody>
-                        <tr><td>Process accuracy</td><td>Based on assumptions</td><td>Built from real walkthroughs</td></tr><tr><td>Internal controls</td><td>Often missing</td><td>Embedded using COSO principles</td></tr><tr><td>Adoption</td><td>Documents ignored</td><td>Training and rollout drive usage</td></tr><tr><td>Maintenance</td><td>Quickly outdated</td><td>Revision control and review cycle</td></tr><tr><td>Audit readiness</td><td>Weak</td><td>Structured and defensible</td></tr>
+                        <tr><td>Process consistency</td><td>Each person works their own way, so output varies</td><td>Every close follows the same defined steps each month</td></tr>
+                        <tr><td>Key-person risk</td><td>Process knowledge sits in one head and leaves with them</td><td>Knowledge stays with the department, not a single employee</td></tr>
+                        <tr><td>Error and fraud risk</td><td>No defined approvals, so segregation of duties often breaks</td><td>Approval limits and duty splits are written and enforced</td></tr>
+                        <tr><td>Onboarding speed</td><td>New staff learn slowly by watching and asking</td><td>New hires follow a <a href="/blog/how-to-write-accounting-sop">documented procedure</a> from day one</td></tr>
+                        <tr><td>Control evidence</td><td>Little to show auditors or directors on how controls run</td><td>Documented controls support the directors' control assertion</td></tr>
+                        <tr><td>Upfront effort</td><td>No setup effort, but recurring errors cost more later</td><td>Time to draft and test, repaid in fewer mistakes</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">A one-person finance function may manage informally for a while. As the team and volume grow, a written accounting SOP protects consistency and control, as <a href="/blog/why-businesses-need-financial-sops">why growing businesses need SOPs</a> explains.</td></tr>
 
                     </tbody>
                 </table>
@@ -1655,150 +880,181 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Accounting SOP Drafting</h2>
             <div class="content-text">
                 
-                <p>Pair SOP work with the right ongoing support:</p><ul><li><a href="/internal-audit">Internal Audit</a> to test that your controls and SOPs work in practice.</li><li><a href="/accounting-services">Accounting Services</a> for managed books that follow your finance SOPs.</li><li><a href="/statutory-audit">Statutory Audit</a> where strong SOPs support internal financial controls reporting.</li><li><a href="/payroll-services">Payroll Services</a> to standardise payroll processing under clear procedures.</li><li><a href="/tax-audit">Tax Audit</a> supported by documented, control-ready processes.</li><li><a href="/gst-audit">GST Audit</a> built on consistent, well-controlled finance procedures.</li></ul>
+                <p>The record the statute quietly demands behind every finance task is evidence of control - who approved a payment, at what limit, leaving what trail - and Section 128's true-and-fair requirement cannot be met without it. An accounting SOP is the document that fixes those controls so the books can actually be relied on.</p>
+<p>So an SOP is written against the law, not just against good practice. The audit trail has to be preserved, duties have to be split so no one person both records and approves, and the month-end has to close to a repeatable checklist. That is why <a href="/glossary/financial-internal-controls">Financial Internal Controls</a> and <a href="/glossary/segregation-of-duties-sod">Segregation of Duties (SoD)</a> are the backbone of the document. The provisions below are what a compliant accounting SOP is built to satisfy.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">The books are kept true and fair on accrual and double entry, which is impossible without documented controls over who posts and who approves.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled, and the SOP mandates it as a control that cannot be waived - reinforced by a disciplined <a href="/glossary/month-end-close-checklist">Month-End Close Checklist</a>.</span></li><li><span class="al-t"><strong>Section 128 and Section 44AA, Income-tax Act 1961</strong></span><span class="al-d">The double-entry obligation applies to every entity, so the SOP is drafted to fit a company or a non-corporate business alike.</span></li><li><span class="al-t"><strong>Section 44AA, Income-tax Act 1961</strong></span><span class="al-d">Books must be maintained once the limits are crossed, and the SOP is what makes that maintenance consistent month on month.</span></li><li><span class="al-t"><strong>Section 44AB, Income-tax Act 1961</strong></span><span class="al-d">Where a tax audit applies, a documented control environment is exactly what the auditor tests, so the SOP is written with that scrutiny in mind. Restoring a lapsed process starts with <a href="/backlog-bookkeeping-catch-up-services">catch-up bookkeeping</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Governance and Compliance Context</h2>
-            <div class="content-text">
-                
-                <p>Under the <strong>Companies Act, 2013</strong>, the board's report must state that directors have laid down internal financial controls and that such controls are adequate and operating effectively, and the statutory auditor reports on internal financial controls over financial reporting under Section 143(3)(i). Well-drafted SOPs provide the documented basis for those controls.</p><p>While there is no standalone statutory penalty for lacking an SOP, weak internal controls can lead to audit qualifications, governance findings, and operational losses. For corporate compliance context, refer to the <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>.</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    <p class="faq-expanded__lead">Common questions about SOP drafting, what SOPs include, implementation, and audit readiness.</p>
-                    @include('partials.faq-enquiry-form')
+                    <h2 class="faq-expanded__title">SOP Drafting and Implementation FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on sop drafting and implementation scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>SOP Drafting and Implementation</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is a standard operating procedure?</h3>
-                        <div class="faq-expanded__a"><p>A standard operating procedure, or SOP, is a documented, step-by-step instruction set that defines how a routine task is performed, who is responsible, and the expected output and quality standard. SOPs create consistency, reduce errors, and make training and audits easier by capturing how work should be done every time.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What does an SOP include?</h3>
-                        <div class="faq-expanded__a"><p>A well-built SOP includes the purpose and scope, roles and responsibilities, step-by-step instructions, controls and checkpoints, required documentation, an escalation protocol, and revision control. Patron Accounting builds these components consistently across your SOP set so they support internal controls and stay practical for daily use.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">How do you draft and implement an SOP?</h3>
-                        <div class="faq-expanded__a"><p>Drafting and implementation follow six steps: scope and prioritise processes, discover and map the current process, analyse control gaps, draft clear procedures, validate with stakeholders, and implement with training and a review cycle. Implementation and adoption matter as much as the document itself.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">How much does SOP drafting and implementation cost?</h3>
-                        <div class="faq-expanded__a"><p>Patron Accounting SOP engagements start from INR 9,999 (Exl GST and Govt. Charges). Final fees depend on the number of SOPs, process complexity, number of locations, and the depth of implementation and training support. Call +91 945 945 6700 for a free, no-obligation quote.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">Who needs SOPs in their business?</h3>
-                        <div class="faq-expanded__a"><p>SOPs add the most value when processes are repeated by multiple people or across locations. Startups formalising operations, SMEs reducing key-person dependency, multi-location businesses, and companies preparing for audit, due diligence, or certification all benefit from documented, control-ready procedures.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What is the difference between an SOP and a policy?</h3>
-                        <div class="faq-expanded__a"><p>A policy states what an organisation will do and why, setting direction and rules. An SOP explains how a specific task is carried out, step by step, including who does it and to what standard. Policies set intent; SOPs operationalise that intent into repeatable actions.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">How long does it take to create SOPs?</h3>
-                        <div class="faq-expanded__a"><p>A focused SOP set for one or two processes is typically delivered in 2 to 4 weeks. Larger, multi-department or multi-location programmes take longer, based on the number of SOPs and the depth of implementation and training. We agree a realistic timeline during the initial scoping discussion.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is SOP in accounting?</h3>
+  <div class="faq-expanded__a"><p>An SOP in accounting is a written standard operating procedure that sets out exactly how each finance task is performed, who performs it, who approves it and by when. A full set usually covers invoicing, purchase approval, payments, bank reconciliation, payroll, GST and TDS compliance and month end closing, with formats, checklists and approval limits attached to every process.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is SOP in finance?</h3>
+  <div class="faq-expanded__a"><p>An SOP in finance is a documented control framework covering how money moves through the business, including budgeting, expense approval, vendor onboarding, payment release, banking authority and reporting. It is wider than an accounting SOP because it also fixes financial authority limits and segregation of duties, so that no single person can raise, approve and pay the same transaction.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does SOP stand for in accounting?</h3>
+  <div class="faq-expanded__a"><p>SOP stands for standard operating procedure. In an accounting context it is the approved written instruction telling your team how a specific finance process must be carried out every time, in the same sequence and with the same documentation. It is a control document rather than a training note, normally signed off by management and reviewed at least once a year.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you prepare an SOP for an accounting department?</h3>
+  <div class="faq-expanded__a"><p>Accounting SOPs are prepared in four stages, starting with process walkthroughs and interviews, then a documented map of how work is done today, then a redesign with controls and approval limits, then the written SOP with formats and checklists. A single department is normally covered in three to five weeks, and each process owner signs off before rollout.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does an accounting SOP mean for a finance team day to day?</h3>
+  <div class="faq-expanded__a"><p>Day to day it means every routine task has a named owner, a fixed sequence and a due date, so work does not stall when one person is on leave or resigns. Your team follows a checklist for the month end close, approvals move within set limits, and errors get caught at the review stage instead of surfacing during the audit.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How long does it take to draft and roll out a full set of accounting SOPs?</h3>
+  <div class="faq-expanded__a"><p>Drafting and rolling out a full set of accounting SOPs takes six to ten weeks for a mid sized business, of which two to three weeks is process study and the rest is drafting, review and implementation. Implementation covers team training, a trial run across one complete month end close and a review of exceptions before final sign off.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is an SOP checklist?</h3>
+  <div class="faq-expanded__a"><p>An SOP checklist is the working sheet that converts a written procedure into tick box steps a team completes and signs, with a date and preparer name against every line. In accounting it is used most for the month end close, bank reconciliation, payment release and statutory due dates for GST and TDS. Every SOP we draft carries its own checklist, so compliance is evidenced rather than assumed.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does SOP drafting and implementation cost?</h3>
+  <div class="faq-expanded__a"><p>A full accounting SOP assignment usually costs Rs 50,000 to Rs 3,00,000 as a one time fee, depending on the number of processes, locations and entities covered. A single process such as accounts payable can be documented for considerably less. Annual review and update of an existing SOP set is quoted separately as a fixed yearly fee.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you make sure the team actually follows the SOP after handover?</h3>
+  <div class="faq-expanded__a"><p>Adherence is built in through a 60 to 90 day implementation phase in which monthly compliance checks are run against the SOP and exceptions are reported to management, rather than a document being handed over and forgotten. Checklists are embedded into the monthly close, approval limits are configured in your software, and every deviation is reported with the reason.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is SOP development?</h3>
+  <div class="faq-expanded__a"><p>SOP development is the full cycle of building a procedure, from studying how the work is done today through drafting, piloting, approval, rollout and periodic revision, rather than only writing a document. An accounting engagement of this kind runs six to ten weeks and ends with a version numbered, dated document approved by management, reviewed at least once a year or whenever the law or your software changes.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Are SOPs only for large companies?</strong> No, even small teams benefit from documented, repeatable procedures.</p><p><strong>Do SOPs help with audits?</strong> Yes, they document internal controls and support audit readiness.</p><p><strong>Can SOPs be updated later?</strong> Yes, revision control keeps each SOP current as processes change.</p>
+                <p>A written process and a practised one are seldom the same thing, and the vouchers show which is which. Patron reads the trail first, tracing a sample of purchases, goods receipts and payments end to end to find where an approval was skipped or evidence was never captured. Every gap found becomes a written step.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Turn Process Knowledge Into Controls Before It Walks Out the Door</h2>
+            <h2 class="section-title">SOP Drafting and Implementation Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Every undocumented process is a key-person risk, a control gap, and an audit finding waiting to happen. A focused SOP set takes just 2 to 4 weeks and leaves your team with clear, control-ready procedures they actually follow.</p><p><strong>Talk to an SOP specialist - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20SOP%20drafting%20and%20implementation.%20Please%20share%20the%20process%2C%20inputs%20required%2C%20and%20fees." target="_blank">WhatsApp us</a> for a free, no-obligation consultation.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your SOP Drafting and Implementation Today</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounting SOP Drafting with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:#FFFFFF;">SOP drafting and implementation converts how your business works into clear, control-ready procedures that improve consistency, reduce risk, and support growth. Done well, SOPs are followed, not filed away, because they are built from real processes and rolled out with training.</p><p style="color:#FFFFFF;">Patron Accounting brings 15+ years of advisory experience and recognised internal control principles to every SOP engagement. Starting from INR 9,999 (Exl GST and Govt. Charges).</p>
+                <p style="color:rgba(255,255,255,0.88);">Somebody resigns, and that is usually where this begins. The accountant who knew which vendor was approved by whom, and which payment needed a second signature, leaves at a fortnight&#x27;s notice. It then emerges that almost none of it was ever written down. The knowledge sat inside one person&#x27;s head, and never once in the department&#x27;s files.</p>
+<p style="color:rgba(255,255,255,0.88);">Delegation becomes safe at that point. SOP development services specify the ceiling, the evidence required and the person accountable, so a director can push approval of routine payments down a level. An exception then surfaces as a visible breach rather than as a matter of opinion after the fact.</p>
+<p style="color:rgba(255,255,255,0.88);">One incident usually prompts this: a duplicate payment, a stock issue nobody authorised, or an audit observation repeated for a second year running. That incident is where the drafting starts, and it is also where <a href="/backlog-bookkeeping-catch-up-services">reconstructing months of missing records</a> may first be needed.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20a%20free%20quote%20for%20SOP%20drafting%20and%20implementation.%20Please%20share%20the%20process%2C%20inputs%20required%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20SOP Drafting and Implementation%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20SOP Drafting and Implementation%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20sop%20drafting%20and%20implementation" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20SOP%20Drafting%20and%20Implementation%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20SOP%20Drafting%20and%20Implementation%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Related Advisory and Assurance Services</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">End-to-end support that builds on well-documented, control-ready SOPs.</p>
-        
-            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for SOP Drafting and Implementation</div><div class="pa-cross-grid"><a href="/internal-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Internal Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/statutory-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Statutory Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a><a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit Service</div><div class="pa-card-sub">India</div></div></a></div></div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 5 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter"></span> &nbsp;|&nbsp; <strong>Next Review:</strong> 5 March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed every 9 to 12 months and whenever internal control guidance, Companies Act requirements, or pricing change (Freshness Tier 3).</p>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">SOP Drafting and Implementation Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for sop drafting and implementation in these cities.</p>
+            
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
 
+
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
+
 <script>
 (function() {
     // ============================================
@@ -1873,8 +1129,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -1884,8 +1140,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -1966,7 +1222,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -1976,34 +1232,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-           function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2014,12 +1268,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2130,9 +1385,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2272,7 +1525,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2302,7 +1555,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-     var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2322,7 +1574,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2400,7 +1652,7 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
@@ -2409,55 +1661,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2496,16 +1717,12 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 <script>
-// BF-1: Last Updated mirrors schema dateModified (stable, not live new Date())
+// BF-1: Set last updated date dynamically
 (function() {
-    var dateStr = '5 June 2026';
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
-    var el2 = document.getElementById('lastUpdatedFooter');
-    if (el1) el1.textContent = dateStr;
-    if (el2) el2.textContent = dateStr;
+    if (el1) { el1.textContent = dateStr; }
 })();
 </script>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

@@ -1,1113 +1,293 @@
-
-
 @extends('layouts.service-app')
 
-{{-- External Dependencies (loaded by master layout in production) --}}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Service Sector Accounting - Project Billing & GST India</title>
-    <meta name="description" content="CA services for service sector companies in India. GST at 18%, TDS under Section 194J, presumptive tax 44ADA, ITR filing from INR 2,499/month.">
-    <link rel="canonical" href="/accounting-services-for-the-service-sector-industry">
+    <title>Accounting for Consultants: Scope, Fees and Process | Patron Accounting</title>
+    <meta name="description" content="Unbilled WIP visible every month, not discovered at year end. Save hours every month, close on time and keep audit season uneventful. See our pricing.">
+    <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Service Sector Accounting - Project Billing & GST India">
-    <meta property="og:description" content="CA services for service sector companies in India. GST at 18%, TDS under Section 194J, presumptive tax 44ADA, ITR filing from INR 2,499/month.">
-    <meta property="og:url" content="/accounting-services-for-the-service-sector-industry">
+    <meta property="og:title" content="Accounting for Consultants: Scope, Fees and Process | Patron Accounting">
+    <meta property="og:description" content="Unbilled WIP visible every month, not discovered at year end. Save hours every month, close on time and keep audit season uneventful. See our pricing.">
+    <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-the-service-sector-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-the-service-sector-industry-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Service Sector Accounting - Project Billing & GST India">
-    <meta name="twitter:description" content="CA services for service sector companies in India. GST at 18%, TDS under Section 194J, presumptive tax 44ADA, ITR filing from INR 2,499/month.">
-    <meta name="twitter:image" content="/images/accounting-services-for-the-service-sector-industry-og.webp">
+    <meta name="twitter:title" content="Accounting for Consultants: Scope, Fees and Process | Patron Accounting">
+    <meta name="twitter:description" content="Unbilled WIP visible every month, not discovered at year end. Save hours every month, close on time and keep audit season uneventful. See our pricing.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-the-service-sector-industry-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/#service",
+  "name": "Accounting for Consultants and Service Businesses",
+  "description": "Accounting for consultants makes unbilled work in progress visible every month instead of at year end.",
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-the-service-sector-industry-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Service Sector Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting for Consultants and Service Businesses",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
           "@type": "Service",
-          "name": "Service Sector Accounting Services India",
-          "description": "CA services for service sector companies in India. GST at 18%, TDS under Section 194J, presumptive tax 44ADA, ITR filing from INR 2,499/month.",
-          "url": "/accounting-services-for-the-service-sector-industry",
-          "serviceType": "Service Sector Accounting Services India",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
-          },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "/accounting-services-for-the-service-sector-industry",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "75",
-              "maxPrice": "50000",
-              "priceCurrency": "INR"
-            }
-          }
+          "name": "Accounting for Consultants and Service Businesses",
+          "description": "Accounting for consultants makes unbilled work in progress visible every month instead of at year end.",
+          "serviceType": "Service Sector Accounting Service"
         },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Service Sector Accounting Services India",
-              "item": "/accounting-services-for-the-service-sector-industry"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is the GST rate on service sector companies in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most professional, consulting, technical, and support services attract 18% GST. SAC 9983 covers professional, scientific, and technical services. SAC 9985 covers support services including HR outsourcing and facility management. Registration is mandatory when turnover exceeds Rs 20 lakh or for any inter-state supply. Service exports are zero-rated under LUT per Rule 96A CGST Rules 2017."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does Section 194J TDS apply to consulting firms?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Section 194J requires TDS at 10% on professional fees (legal, CA, medical, engineering, consulting per Section 44AA) and 2% on technical/managerial/consultancy services above Rs 50,000 per year per category from FY 2025-26. Since 1 October 2024, Budget 2024 explicitly clarified that 194J payments are not work under 194C. TDS must be deposited by 7th of the following month."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is Section 44ADA and who can use it?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Section 44ADA allows resident individuals and partnership firms (not LLPs) in specified professions to declare 50% of gross receipts as taxable income without maintaining detailed books. Standard threshold is Rs 50 lakh, enhanced to Rs 75 lakh if 95%+ receipts are through banking channels. Full advance tax is due by 15 March. File ITR-4 (Sugam)."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "When is tax audit mandatory for service sector businesses?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Tax audit under Section 44AB is mandatory if professional receipts exceed Rs 50 lakh, or if income declared below 50% of receipts under 44ADA and exceeds basic exemption. For companies, audit applies if turnover exceeds Rs 1 crore (Rs 10 crore for digital). Audit report in Form 3CD by a CA must be filed before ITR."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is RCM for service sector companies?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Reverse Charge Mechanism requires the Indian service company to pay 18% IGST on import of services from foreign vendors (SaaS, cloud, consultants) under Sections 5(3)/5(4) IGST Act. RCM must be paid in cash in GSTR-3B (ITC cannot offset in same month). Same amount can be claimed as ITC in following period for business use."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What ITR form do service companies and consultants file?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "ITR-4 (Sugam) for 44ADA professionals with receipts up to Rs 75 lakh. ITR-3 for individuals with regular books. ITR-5 for partnership firms and LLPs. ITR-6 for private limited companies. Audit cases due by 31 October. Non-audit 44ADA professionals file by 31 July."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does zero-rated export of services work?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Export is zero-rated under Section 16(1)(a) IGST Act when all five conditions under Section 2(6) are met (supplier in India, recipient outside, place of supply outside, foreign exchange payment, not same entity branches). File LUT under Rule 96A at start of each FY. Track forex receipts via FIRC from bank. Quick Answers Q: What is service sector accounting? Specialist financial management for consulting, IT, advertising, HR, and professional services covering 18% GST (GSTR-1/3B), TDS under Section 194J, Section 44ADA presumptive tax, RCM, payroll, and ITR filing. Q: Service sector ka CA kaise choose kare? Service sector ke liye aise CA chahiye jo 194J vs 194C TDS, 44ADA presumptive scheme, aur foreign vendor RCM samjhte hon. Patron Accounting mein 500+ service sector clients hain. Q: What is SAC code 9983? SAC 9983 covers Professional, Scientific, and Technical Services under GST - consulting, IT, advertising, engineering, architecture. All supplies at 18% GST. Q: Can a consulting firm use 44ADA? Yes, a resident individual or partnership firm (not LLP) providing consulting as a specified profession can use 44ADA if receipts are within Rs 75 lakh with 95%+ digital payments."
-              }
-            }
-          ]
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-      ]
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Service Sector Accounting (Project Billing)",
+      "item": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry"
     }
-    </script>
+  ],
+  "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the chart of accounts for service industry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A service business chart of accounts splits fee income by service line, then cost of delivery such as consultant salaries, subcontractor fees and project travel, and only then administrative overhead, so gross margin per service line is visible every month. It also needs control accounts for unbilled revenue, advances from clients, TDS receivable under Section 194J and GST input and output ledgers. We build this before the first entry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you account for unbilled revenue on ongoing projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unbilled revenue is recognised each month for work delivered but not yet invoiced and carried as a contract asset, then reversed when the invoice is raised. We reconcile timesheets or delivery milestones with the invoice register every month, so the profit and loss shows earned revenue rather than only collections and long projects do not distort a quarter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What expenses can a consultant claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A consultant can claim any expense incurred wholly and exclusively for the profession under Section 37 of the Income Tax Act, including office rent, laptops and software, professional subscriptions, client travel, subcontractor fees, telephone and internet, and the business share of vehicle running cost. Personal spending is not allowable, capital purchases are claimed through depreciation, and cash payments above the Section 40A(3) limit are disallowed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is GST payable on consulting services exported to overseas clients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Export of services is zero rated under GST, so no tax is charged on the invoice where you export under a Letter of Undertaking. The LUT has to be filed on the GST portal for each financial year, payment must be received in convertible foreign exchange, and the bank realisation advice or FIRC has to be kept for every invoice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is TDS deducted by clients under Section 194J adjusted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TDS deducted by clients on professional fees at 10 percent is booked against each invoice and reconciled every quarter with Form 26AS and the annual information statement. Any deduction a client has not actually deposited is followed up before the return is filed, because credit is allowed only for amounts appearing against your PAN in the department's records."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does monthly accounting cost for a consulting firm or agency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly accounting for a consulting firm or agency typically costs Rs 8,000 to Rs 20,000 a month for up to 150 transactions, and Rs 25,000 to Rs 45,000 where payroll, project profitability reporting and multi state GST are involved. Fees move with invoice volume, headcount and the number of GST registrations rather than with your revenue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you report profitability for each client or project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, client and project level profitability is reported monthly, usually within 10 working days of month end, once costs are tagged. Direct salaries, subcontractor cost and pass through expenses are mapped to each engagement using cost centres in Zoho Books or Tally, so you can see gross margin by client, by service line and by delivery team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should reimbursable expenses billed to clients be recorded?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reimbursable expenses can be excluded from your taxable value only where you act as a pure agent and meet the conditions in the GST valuation rules, otherwise they form part of the value of your invoice. We keep the third party invoice in the client's name where the pure agent route is used, because the documentation is what an officer checks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are retainer fees received in advance treated in the books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Retainer fees received in advance are shown as a liability and released to income as the work is performed each month. GST is generally payable on receipt of an advance for services, so the tax is discharged in the month of receipt even though revenue is recognised later. Unused retainer balances are tracked client wise for refund or adjustment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens when invoices, timesheets and books have not been reconciled for a year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A twelve month clean up usually takes 3 to 6 weeks and starts by rebuilding the invoice register from the GST portal, matching it to bank credits and identifying invoices raised but never recorded. We then reconcile TDS credits, write up unbilled work and restate the profit and loss month by month so the annual return goes out on correct numbers."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry",
+  "name": "Accounting for Consultants and Service Businesses",
+  "description": "Unbilled WIP visible every month, not discovered at year end. Save hours every month, close on time and keep audit season uneventful. See our pricing.",
+  "url": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/accounting-services-for-the-service-sector-industry-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/accounting-services-for-the-service-sector-industry-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
-{{-- BREADCRUMB --}}
-{{-- <nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
     <div style="max-width:1320px;margin:0 auto;">
         <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
                     Home
                 </a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/accounting-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting Services</a>
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li><span style="color:var(--orange);font-weight:600;">Service Sector Accounting Services</span></li>
         </ol>
     </div>
-</nav> --}}
+</nav>
 
-{{-- HERO SECTION --}}
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1119,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Service Sector Accounting and Compliance Services in India
+                        Accounting for Consultants and Service Businesses
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1128,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">12 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>GST Compliance (18%):</span> SAC 9983/9985 at 18% GST, GSTR-1 by 11th, GSTR-3B by 20th, ITC reconciliation, LUT for zero-rated service exports</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Revenue tied to the fee basis:</span> How each engagement earns comes from the signed contract, and that basis drives the accounting, not the invoice date.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Section 194J TDS:</span> 10% on professional fees, 2% on technical services above Rs 50,000/year - post October 2024 CBDT clarification compliance</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Unbilled work valued monthly:</span> We value open engagements against the billing plan each month end, so delivered but uninvoiced effort shows as an asset.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Section 44ADA Presumptive:</span> 50% of receipts as taxable income for eligible professionals up to Rs 75 lakh - no audit, ITR-4 filing, advance tax by 15 March</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Realisation per engagement:</span> Each month closes with fee earned, delivery cost, write-offs and recovery against the contracted rate, engagement by engagement.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>500+ Service Sector Clients:</span> Starting from INR 2,499/month - consulting, IT, advertising, recruitment, event management, and professional services across India</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Client advances kept as liabilities:</span> You hold retainers and advances as liabilities, released only against the invoice they belong to.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Trusted by 500+ service sector clients across consulting, IT, advertising, HR, and professional services</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Service%20Sector%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Service%20Sector%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20accounting%20services%20for%20my%20service%20sector%20company.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20the%20service%20sector%20industry" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1190,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1263,7 +441,13 @@
                             <label class="form-label">Service Needed</label>
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
-                                <option value="accounting-services-for-the-service-sector-industry" selected>Service Sector Accounting</option><option value="accounting-services">Accounting Services</option><option value="gst-registration">GST Registration</option><option value="gst-returns">GST Return Filing</option><option value="income-tax-return">Income Tax Return</option><option value="tds-return-filing">TDS Return Filing</option><option value="payroll-services">Payroll Services</option><option value="private-limited-company-registration">Company Registration</option><option value="other">Other</option>
+                                <option value="accounting-services-for-the-service-sector-industry" selected>Service Sector Accounting</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1293,59 +477,10 @@
     </div>
 </section>
 
-{{-- TESTIMONIALS --}}
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        {{-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        --}}
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron classified all our vendor TDS correctly after the October 2024 amendment. We were deducting 194C on fees that should have been 194J. They corrected 8 months of filings and prevented a Section 201 demand.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AK</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Arun K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Partner, Consulting LLP, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">As a freelance consultant, Patron helped me use Section 44ADA optimally. They monitor my receipts quarterly and alerted me when I was approaching the Rs 75 lakh threshold. Saved me from an unexpected audit.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SP</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Sneha P.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Independent Consultant, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Our ad agency had missed RCM on Google Ads and Meta invoices for over a year. Patron identified the exposure, filed voluntary disclosures, and now tracks every foreign vendor payment monthly. Peace of mind.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RJ</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rahul J.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Advertising Agency, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div></div></div>
-<div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron handles our complete compliance - GST returns, TDS on sub-consultant fees, annual audit, and MCA filings. One CA partner for everything. Our month-end close went from 5 days to 1 day.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MK</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Meera K.</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">CFO, IT Services, Bengaluru</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div></div></div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get expert CA-managed accounting for your service sector business.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-{{-- STATS BAR --}}
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1371,97 +506,88 @@
     </div>
 </div>
 
-{{-- TOC NAVIGATION --}}
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <a href="#overview-section" class="toc-btn">Overview</a><a href="#what-section" class="toc-btn">Service Sector Accounting</a><a href="#who-section" class="toc-btn">Who Needs It</a><a href="#services-section" class="toc-btn">Our Services</a><a href="#procedure-section" class="toc-btn">7-Step Process</a><a href="#documents-section" class="toc-btn">Documents</a><a href="#fees-section" class="toc-btn">Pricing</a><a href="#timeline-section" class="toc-btn">Deadlines</a><a href="#benefits-section" class="toc-btn">Why Patron</a><a href="#comparison-section" class="toc-btn">DIY vs Professional</a><a href="#faq-section" class="toc-btn">FAQs</a>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-{{-- SECTION 2: OVERVIEW / INTRO + TL;DR --}}
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Service Sector Accounting - Specialist CA Services for Consulting, IT, and Professional Services</h2>
+            <h2 class="section-title">What Service Sector Accounting Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - Service Sector Accounting Services at a Glance</strong></p>
-                    <p>Service sector companies pay 18% GST on most supplies (SAC 9983/9985), file GSTR-1 by 11th and GSTR-3B by 20th each month, deduct TDS under Section 194J at 10% (professional) or 2% (technical) above Rs 50,000/year, and file ITR-3/ITR-4/ITR-6 by 31 October. Professionals with receipts up to Rs 75 lakh may use Section 44ADA presumptive tax (50% of receipts = taxable income). Patron Accounting provides full service sector CA services from INR 2,499 per month with 500+ clients served.</p>
+                    <p>Accounting for consultants makes unbilled <a href="/blog/unbilled-revenue-wip-service-firms">work in progress</a> visible every month instead of at year end. Patron reports engagement-wise realisation and WIP ageing, applies place-of-supply rules to inter-state assignments and reconciles Section 194J deductions against Form 26AS. Retainer and milestone billing are tracked to the contract that created them. Best suited to consultancies, agencies and firms billing time rather than goods.</p>
                 </div>
-                <p>The service sector is India's largest GDP contributor, accounting for over 54% of gross value added in FY 2024-25. Yet service businesses - from a two-person consulting partnership to a 200-employee IT services firm - carry disproportionate compliance burdens. A consulting LLP must navigate 18% GST, monthly GSTR returns, quarterly TDS on professional fees, RCM on import of services from overseas vendors, and annual ITR with a potential Section 44AB tax audit.</p>
-                <p>Patron Accounting handles this entire compliance lifecycle with 500+ service sector clients across consulting, IT, advertising, recruitment, HR outsourcing, event management, and professional services. Our CA team specialises in the unique intersection of Section 194J TDS classification (post October 2024 amendment), Section 44ADA threshold monitoring, and RCM compliance on imported services that defines service sector accounting.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>The books sit in whichever ledger your practice already runs, with a timesheet or billing tool feeding into it. Patron maps every engagement to one code that is carried across both systems, so hours booked, invoices raised and amounts still open reconcile back to a single figure. Journals for accrued income and provisions are posted at close, and accounting for a consultancy ends in schedules an auditor can trace, as project billing for media agencies illustrates.</p>
+                <p>Where staff book time in arrears rather than daily, effort rises, as it does when live engagements multiply, when retainers sit beside milestone contracts and when registrations span several states at once. Service industry accounting includes each month's close, the engagement schedule, the ledger review and returns filed through the GST portal. Statutory audit, transfer pricing and litigation support are commissioned independently.</p>
             </div>
         </div>
     </div>
 </section>
 
-{{-- SECTION 3: WHAT IS GSTAT APPEAL FILING --}}
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What is Service Sector Accounting?</h2>
+                <h2 class="section-title">What Is Service Sector Accounting?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>Service sector accounting is specialist financial management for companies, LLPs, partnerships, and individual professionals in consulting, advertising, recruitment, HR outsourcing, event management, logistics support, media, and other service industries. It covers GST registration and monthly compliance (GSTR-1, GSTR-3B, GSTR-9), TDS under Sections 194J and 194C, Section 44ADA or 44AB income tax compliance, payroll and labour law, RCM on imported services, and annual ITR filing.</p><p>Unlike manufacturing or trading businesses, service sector entities have <strong>no inventory</strong> but face complex <strong>TDS classification challenges</strong> (194J vs 194C), <strong>RCM obligations on foreign SaaS/cloud subscriptions</strong>, and the unique <strong>Section 44ADA presumptive taxation</strong> option for eligible professionals. The October 2024 CBDT clarification that Section 194J payments are not "work" under Section 194C makes correct vendor classification critical.</p><p>SAC codes <strong>9983</strong> (professional, scientific, technical services) and <strong>9985</strong> (support services including HR outsourcing, facility management) cover most service sector supplies at 18% GST.</p>
+                    <p>Accounting for consultants is the engagement that turns time and contracts into a defensible set of books, and its single job is to keep the value of unbilled work visible every month. A firm that sells hours, not goods, has revenue sitting in timesheets long before an invoice exists, and that is what this service captures.</p>
+<p>Each engagement is mapped to one code, so hours worked, amounts invoiced and balances still open all reconcile to a single figure. It reports profitability by engagement, applies the right place-of-supply treatment to assignments that cross state lines, and matches tax deducted by clients against the annual tax statement. Accounting for consultants tracks retainers and milestone fees back to the contract that created them. Service industry accounting of this kind ends in schedules an auditor can trace. In short, it is bookkeeping built for a business that bills time rather than stock. A statutory audit, along with transfer pricing and litigation support, is arranged separately from this engagement.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Service Sector Accounting:</strong></p>
-                    <p><strong>SAC 9983:</strong> GST code for professional, scientific, and technical services - consulting, IT, advertising, architecture, engineering at 18%</p><p><strong>Section 194J TDS:</strong> 10% on professional fees, 2% on technical services above Rs 50,000/year (revised FY 2025-26); explicitly separated from 194C since October 2024</p><p><strong>Section 44ADA:</strong> Presumptive tax for specified professionals - 50% of gross receipts as income; threshold Rs 50 lakh (Rs 75 lakh with 95% digital); no books/audit; ITR-4</p><p><strong>RCM on Imported Services:</strong> 18% IGST payable by Indian service company on foreign SaaS, cloud, and consultant invoices under Sections 9(3)/9(4) CGST and 5(3)/5(4) IGST Act</p><p><strong>LUT (Rule 96A):</strong> Annual filing enabling zero-rated export of services without upfront IGST payment under Section 16(1)(a) IGST Act</p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/unbilled-revenue-wip-hours">Unbilled Revenue (WIP Hours)</a></span><span class="al-d">Work done and earned but not yet invoiced to the client.</span></li><li><span class="al-t"><a href="/glossary/milestone-vs-retainer-billing">Milestone vs Retainer Billing</a></span><span class="al-d">Charging on completed stages versus a fixed recurring fee each period.</span></li><li><span class="al-t"><a href="/glossary/project-wise-profitability-margin">Project-Wise Profitability Margin</a></span><span class="al-d">The profit each engagement leaves after its own direct costs.</span></li><li><span class="al-t"><a href="/glossary/contribution-margin-dashboard">Contribution Margin Dashboard</a></span><span class="al-d">A live view of what each service line adds after variable costs.</span></li><li><span class="al-t"><a href="/glossary/ind-as-115-revenue-recognition">Ind AS 115 Revenue Recognition</a></span><span class="al-d">The standard setting when revenue is booked as work is delivered.</span></li><li><span class="al-t"><a href="/glossary/percentage-of-completion-method-pocm">Percentage of Completion Method (POCM)</a></span><span class="al-d">Booking revenue in step with how much of a project is finished.</span></li><li><span class="al-t"><a href="/glossary/section-44ada-presumptive-cap">Section 44ADA Presumptive Cap</a></span><span class="al-d">The turnover limit up to which professionals can declare income on a presumptive basis.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            {{-- Building / Tribunal --}}
-                            {{-- Service sector / people + briefcase icon --}}
-                            <rect x="40" y="40" width="120" height="85" rx="8" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            {{-- Briefcase --}}
-                            <rect x="70" y="55" width="60" height="40" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/>
-                            <rect x="85" y="48" width="30" height="10" rx="3" fill="none" stroke="#F5A623" stroke-width="1.5"/>
-                            <line x1="100" y1="68" x2="100" y2="82" stroke="#14365F" stroke-width="2"/>
-                            <circle cx="100" cy="72" r="3" fill="#F5A623"/>
-                            {{-- People silhouettes --}}
-                            <circle cx="55" cy="60" r="8" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/>
-                            <path d="M43 82C43 74 49 70 55 70C61 70 67 74 67 82" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/>
-                            <circle cx="145" cy="60" r="8" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/>
-                            <path d="M133 82C133 74 139 70 145 70C151 70 157 74 157 82" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/>
-                            {{-- Green check badge --}}
-                            <circle cx="155" cy="38" r="14" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M149 38l4 4 8-8" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            {{-- SVC tag --}}
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">SVC</text>
-                            {{-- Label --}}
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Service Sector Accounting</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Service Sector</span>
-                        <strong>GST + TDS + 44ADA</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/what-is.webp" alt="What Is Service Sector Accounting. Accounting for consultants is the engagement that turns time and contracts into a" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-{{-- SECTION 4: WHO CAN FILE --}}
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Service Sector Accounting Services?</h2>
+            <h2 class="section-title">Who Needs Service Sector Accounting in India?</h2>
             <div class="content-text">
                 
-                <ul><li><strong>Consulting Firms and Advisory LLPs:</strong> Monthly GST, TDS under 194J on sub-consultant fees, quarterly 26Q returns, annual ITR-6 with possible Section 44AB audit</li><li><strong>Individual Consultants and Freelancers:</strong> Section 44ADA if receipts below Rs 75 lakh (50% taxable); or regular books + ITR-3 if above; GST if turnover exceeds Rs 20 lakh</li><li><strong>Advertising Agencies:</strong> 18% GST on commission and fees; TDS under 194J on creative professionals; 194C on print/broadcast contracts</li><li><strong>Recruitment and HR Outsourcing:</strong> 18% GST on placement fees; 194J on recruitment agency fees; EPF and ESI for placed workforce</li><li><strong>IT and Software Service Companies:</strong> 18% domestic; zero-rated exports under LUT; RCM on imported SaaS; 194J at 2% on technical payments</li><li><strong>Event Management Companies:</strong> 18% GST; TDS under 194C on vendor contracts (not 194J per CBDT); complex ITC reconciliation</li><li><strong>Architecture, Engineering, and Design Firms:</strong> 18% GST; 194J at 10%; Section 44ADA for individual practitioners below threshold</li><li><strong>Logistics Support and Facility Management:</strong> 18% GST; RCM on GTA services; 194C on transport contracts; labour law compliance</li></ul>
+                <p>Accounting for consultants suits firms that sell time and expertise rather than stock. When revenue is earned before it is billed and staff book their hours after the fact, the businesses below need <a href="/blog/unbilled-revenue-wip-service-firms">work in progress</a> valued every month.</p>
+  <ul>
+    <li>Management and strategy consultancies billing by the hour, carrying unbilled work between one invoice run and the next.</li>
+    <li>Creative and media agencies running monthly <a href="/blog/retainer-vs-milestone-billing">retainers alongside milestone project fees</a> on a single client.</li>
+    <li>Architecture, design and engineering practices valuing work in progress per project before any bill goes out.</li>
+    <li>PR and marketing agencies recharging pass-through media and print costs their clients later approve.</li>
+    <li>Studios leaning on subcontractors and associates whose cost must sit against the engagement that used them.</li>
+    <li>Professional firms where Section 194J TDS deducted by clients must reconcile against Form 26AS.</li>
+    <li>Practices taking assignments across several states, applying place-of-supply rules to each engagement.</li>
+    <li>Consultancies holding client retainers as advances until the work behind them is delivered.</li>
+  </ul>
 
             </div>
             </div>
@@ -1469,17 +595,22 @@
     </div>
 </section>
 
-{{-- SECTION 5: OUR SERVICES --}}
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Service Sector Accounting Services by Patron Accounting</h2>
+            <h2 class="section-title">Our Service Sector Accounting Services</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>GST Registration and Monthly Compliance</td><td>Registration, GSTR-1 by 11th, GSTR-3B by 20th, GSTR-9 annual, ITC reconciliation, LUT filing for service exporters, RCM tracking on imported services</td></tr><tr><td>TDS Compliance (Section 194J and 194C)</td><td>194J at 10% professional / 2% technical; 194C contractor classification per October 2024 amendment; Form 26Q quarterly; Form 16A issuance</td></tr><tr><td>Income Tax Filing (44ADA and Regular)</td><td>ITR-4 for 44ADA, ITR-3 for regular individuals, ITR-5 for firms/LLPs, ITR-6 for companies; Section 44AB audit Form 3CD where applicable</td></tr><tr><td>Bookkeeping and Financial Statements</td><td>Accrual or cash basis per tax regime; project-wise revenue tracking; depreciation per Schedule II and Section 32; monthly MIS reports</td></tr><tr><td>Payroll, PF, ESI, and Labour Law</td><td>Monthly payroll, TDS Section 192, EPFO ECR by 15th, ESI contributions, professional tax, Contract Labour Act compliance for HR outsourcing</td></tr><tr><td>Export of Services - LUT and Refund</td><td>Annual LUT under Rule 96A, Section 2(6) IGST Act export verification, FIRC documentation, RFD-01 refund applications, forex receipt tracking</td></tr>
+                        <tr><td>Engagement profitability reporting</td><td>Revenue, delivery cost and realisation reported per engagement, so professional services accounting shows which clients and projects actually make money <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Unbilled revenue and WIP valuation</td><td>Open work valued and carried as unbilled revenue against the billing plan, using our method for <a href="/blog/unbilled-revenue-wip-service-firms">unbilled revenue and WIP</a> each month <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Client advance and retainer tracking</td><td>Retainer and advance receipts held as liabilities and adjusted against invoices only as work is billed, keeping deferred fees accurate <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Milestone and retainer billing support</td><td>Invoices raised against milestones or retainers from your engagement terms, with credit notes and write-offs recorded cleanly for each client <span class="badge-included">On event / as needed</span></td></tr>
+                        <tr><td>Associate and subcontractor cost accounting</td><td>Associate, freelancer and subcontractor invoices coded to the right engagement, giving project accounting services that show true delivery cost <span class="badge-included">Monthly</span></td></tr>
+                        <tr><td>Monthly retainer accounting close</td><td>A monthly retainer covering bookkeeping, bank reconciliation and management accounts, our accounting for consultants keeps your firm's books review-ready <span class="badge-included">Monthly</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1489,52 +620,117 @@
     </div>
 </section>
 
-{{-- SECTION 7: 7-STEP PROCESS --}}
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">How Service Sector Accounting Works - 7-Step Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">From business structure assessment to annual audit, every step managed by CAs with service sector specialisation.</p>
+            <h2 class="section-title">How Service Sector Accounting Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers service sector accounting, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Business Structure and Tax Regime Assessment</h3><p class="step-description">We determine entity type (individual/firm/LLP/company) and assess Section 44ADA eligibility for professionals below Rs 75 lakh. We confirm 95% banking channel receipts for enhanced threshold. For LLPs, companies, and above-threshold professionals, we plan regular bookkeeping and Section 44AB audit.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Entity type confirmed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 44ADA eligibility assessed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M50 38l7 7 13-13" stroke="#F5A623" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Regime Set</span><span class="step-number-large">01</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">GST Registration and Compliance Setup</h3><p class="step-description">GST registration when turnover exceeds Rs 20 lakh. SAC code mapping: 9983 for professional services, 9985 for support services. LUT filed under Rule 96A for service exporters. GSTR-1 by 11th, GSTR-3B by 20th compliance calendar set up. QRMP scheme evaluated for eligible taxpayers.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GST registered</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> SAC codes mapped</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITC tracking active</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="12" width="80" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="28" y="22" width="24" height="12" rx="2" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><text x="40" y="31" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><rect x="58" y="22" width="24" height="12" rx="2" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/><text x="70" y="31" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial">SAC</text><rect x="28" y="42" width="54" height="12" rx="2" fill="#E3F2FD" stroke="#14365F" stroke-width="1"/></svg></div><span class="illustration-label">LUT Filed</span><span class="step-number-large">02</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">TDS Setup and Vendor Classification</h3><p class="step-description">All vendor payments classified: Section 194J at 10% for professional fees, 194J at 2% for technical services, 194C at 1%/2% for contractors. Post October 2024 framework applied explicitly. PAN verified for all vendors. Monthly TDS deposits by 7th and Form 26Q quarterly.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 194J vs 194C classified</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Vendor matrix built</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="8" width="90" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="28" y1="24" x2="92" y2="24" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><line x1="28" y1="38" x2="82" y2="38" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="50" x2="72" y2="50" stroke="#14365F" stroke-width="2" opacity="0.3"/><line x1="28" y1="62" x2="78" y2="62" stroke="#14365F" stroke-width="2" opacity="0.3"/></svg></div><span class="illustration-label">TDS Ready</span><span class="step-number-large">03</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Income Tax Return Filing</h3><p class="step-description">For 44ADA: ITR-4 with 50% presumptive income, advance tax by 15 March. For regular books: ITR-3/ITR-5/ITR-6 with Form 3CD audit where Section 44AB applies. Statutory audit for companies under Section 143 Companies Act. MCA filings AOC-4 and MGT-7.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITR filed correctly</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Audit complete</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="12" width="70" height="48" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="36" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M53 36l4 4 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="35" y="70" width="50" height="12" rx="6" fill="#F5A623" opacity="0.8"/><text x="60" y="79" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">FILED</text></svg></div><span class="illustration-label">Tax Compliant</span><span class="step-number-large">04</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">RCM Compliance on Imported Services</h3><p class="step-description">For foreign SaaS, cloud, and consultant payments: 18% IGST calculated under RCM per Section 5(3)/5(4) IGST Act. RCM paid in cash in GSTR-3B (ITC cannot offset in same month). ITC claimed in following period. Full foreign vendor tracking maintained.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> RCM calculated</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITC claimed next period</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="38" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="38" r="16" fill="none" stroke="#F5A623" stroke-width="2" stroke-dasharray="4 3"/><path d="M54 38l4 4 8-8" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">RCM Compliant</span><span class="step-number-large">05</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Payroll and Labour Law Compliance</h3><p class="step-description">Monthly payroll: salary, professional tax, TDS Section 192, EPFO ECR by 15th, ESI by 15th. For HR outsourcing firms: Contract Labour Act compliance. Form 16 at year-end. PF and ESI reconciliation.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Payroll processed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> PF/ESI filed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="58" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="30" y="24" width="14" height="34" rx="2" fill="#F5A623"/><rect x="50" y="18" width="14" height="40" rx="2" fill="#25D366"/><rect x="70" y="28" width="14" height="30" rx="2" fill="#14365F" opacity="0.4"/><rect x="30" y="76" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Staff Compliant</span><span class="step-number-large">06</span></div></div></div>
-<div class="step-card"><div class="step-content"><span class="step-badge">Step 7</span><h3 class="step-title">Annual Close and Audit</h3><p class="step-description">GSTR-9 annual return by 31 December. ITR by 31 October for audit cases. Section 44AB Form 3CD tax audit where applicable. Statutory audit for companies. MCA filings. Advance tax reconciliation. Form 16A issuance to all TDS deductees by 15 June.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> GSTR-9 filed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Annual audit done</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="12" width="70" height="48" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="35" y="22" width="50" height="14" rx="3" fill="#14365F"/><text x="60" y="32" font-size="7" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial">FY CLOSED</text><rect x="35" y="42" width="50" height="10" rx="2" fill="#E8F5E9" stroke="#25D366" stroke-width="1"/><rect x="30" y="70" width="60" height="6" rx="3" fill="#14365F" opacity="0.12"/></svg></div><span class="illustration-label">Year Closed</span><span class="step-number-large">07</span></div></div></div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Reading engagement terms into billing</h3>
+    <p class="step-description">We work through each signed engagement letter, SOW and retainer agreement and record how that engagement earns: fixed fee, time and materials, milestone or monthly retainer. That fee basis, not the invoice date, drives how the engagement is accounted for.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/step-1-reading-engagement-terms-into-billing.webp" alt="Illustration for Reading engagement terms into billing: We work through each signed engagement letter, SOW and retainer" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Matching timesheets to invoices</h3>
+    <p class="step-description">The time-tracking export is reconciled by client, project and person against invoices actually raised. Hours recorded but not billed are carried as unbilled; hours abandoned are written off only against a named approval, so realisation is visible rather than hidden.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/step-2-matching-timesheets-to-invoices.webp" alt="Illustration for Matching timesheets to invoices: The time-tracking export is reconciled by client, project and person" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Valuing unbilled work in progress</h3>
+    <p class="step-description">At each month end we value open engagements against the billing plan and recognise revenue as the promised service is delivered, not as bills go out. The unbilled schedule is rolled forward so the balance is explainable line by line.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/step-3-valuing-unbilled-work-in-progress.webp" alt="Illustration for Valuing unbilled work in progress: At each month end we value open engagements against the billing plan and" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Tracking unadjusted client advances</h3>
+    <p class="step-description">Retainers and advances are held as liabilities and adjusted only against the invoice they relate to. Because GST on a service falls due on the earlier of invoice or receipt, we check that receipt vouchers and the advance ledger agree with what was reported.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/step-4-tracking-unadjusted-client-advances.webp" alt="Illustration for Tracking unadjusted client advances: Retainers and advances are held as liabilities and adjusted only" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Separating pass-through client costs</h3>
+    <p class="step-description">Reimbursables are tested against the pure agent conditions: third-party bill in the client's name, client authorisation on record and recovery at actual. Costs that fail the test are treated as your own expense and recovered as taxable value instead.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/step-5-separating-pass-through-client-costs.webp" alt="Illustration for Separating pass-through client costs: Reimbursables are tested against the pure agent conditions:" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Costing associates and subcontractors</h3>
+    <p class="step-description">Associate, freelancer and subcontractor invoices are tagged to the engagement they served, and deduction is applied at the rate their engagement terms call for. This keeps delivery cost against the right revenue instead of pooling it in overheads.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/step-6-costing-associates-and-subcontractors.webp" alt="Illustration for Costing associates and subcontractors: Associate, freelancer and subcontractor invoices are tagged to the" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Reporting engagement level profitability</h3>
+    <p class="step-description">Each month closes with a view per engagement: fee earned, cost of delivery, write-offs and realisation against the contracted rate. Loss-making engagements and stale unbilled balances are listed for you to price or close.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/accounting-services-for-the-service-sector-industry/step-7-reporting-engagement-level-profitability.webp" alt="Illustration for Reporting engagement level profitability: Each month closes with a view per engagement: fee earned, cost of" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-{{-- SECTION 8: DOCUMENTS REQUIRED --}}
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Service Sector Accounting</h2>
             <div class="content-text">
                 
-                <p>Provide the following for your service sector accounting engagement:</p><ul><li><strong>PAN Card and Entity Documents</strong> - Certificate of incorporation, partnership deed, or LLP agreement</li><li><strong>Proof of Business Address</strong> - Electricity bill or rent agreement for GST registration</li><li><strong>Bank Account Details</strong> - Cancelled cheque or statement for all business accounts</li><li><strong>Vendor List with PAN</strong> - Nature of service for each vendor (to classify under 194J or 194C)</li><li><strong>Monthly Payment Schedule</strong> - For all professional and contractor payments requiring TDS</li><li><strong>Bank Statements</strong> - Full financial year for ITR preparation</li><li><strong>Sales Invoices and Receipts Register</strong> - Total gross professional receipts</li><li><strong>TDS Certificates Received</strong> - Form 16A from clients who deducted TDS</li><li><strong>Section 80C/80D Investment Proofs</strong> - For Chapter VI-A deductions</li><li><strong>Existing GST Invoices</strong> - For reviewing SAC code mapping</li></ul>
+                <p>With no goods to count, the trail for a services firm runs from the engagement letter through the timesheet to the invoice.</p>
+<ul>
+    <li>Signed engagement letters, SOWs and retainer agreements with fee basis and milestone terms</li>
+    <li>Timesheets / time-tracking export by client, project and person</li>
+    <li>Unbilled revenue / work-in-progress schedule and the billing plan for open engagements</li>
+    <li>Advance / retainer receipts register showing unadjusted client advances</li>
+    <li>Reimbursable / pass-through expense records with client approval and supporting third-party bills</li>
+    <li>Subcontractor and associate/freelancer invoices with the engagement terms</li>
+    <li>Sales invoices raised, with credit notes and write-offs</li>
+    <li>Bank statements for all accounts, and business credit card statements</li>
+    <li>Purchase and expense bills: rent, software subscriptions, travel, professional indemnity insurance</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-{{-- SECTION 9: CHALLENGES --}}
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges for Service Sector Businesses</h2>
+            <h2 class="section-title">Common Service Sector Accounting Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>194J vs 194C Misclassification</td><td>Short-deduction notices, interest at 1.5% per month under Section 201(1A), expense disallowance</td><td>Post October 2024 framework applied: professional at 10%, technical at 2%, contractor under 194C - every vendor correctly classified</td></tr><tr><td>RCM on Foreign SaaS Missed</td><td>GSTR-3B mismatches, demand notices, 18% interest under Section 50 CGST Act</td><td>Monthly foreign vendor tracking; RCM computed and paid in GSTR-3B cash; ITC claimed in following period</td></tr><tr><td>44ADA Threshold Breach</td><td>No books maintained when receipts exceed limit mid-year; mandatory audit triggered</td><td>Quarterly receipt monitoring with alerts before Rs 50L/75L threshold; books started in time if needed</td></tr><tr><td>ITC Reversal on Exempt Supplies</td><td>Proportionate ITC reversal missed under Rule 42 CGST Rules</td><td>Annual ITC reversal calculations prepared; GSTR-9 reconciliation filed; service offering restructuring advisory</td></tr><tr><td>LUT Not Renewed for Exporters</td><td>IGST charged on zero-rated export creating unexpected liability</td><td>Annual LUT filed at start of each financial year under Rule 96A; export invoices verified before dispatch</td></tr><tr><td>Missing MCA Filings for Companies</td><td>Rs 100/day per officer penalty under Companies Act 2013</td><td>AOC-4 within 30 days of AGM and MGT-7 within 60 days tracked with proactive reminders</td></tr>
+                        <tr><td>Fixed-fee engagements recognised when invoiced, not as delivered</td><td>Revenue lands in lumps at billing, so profit and advance-tax estimates swing with paperwork, not real progress.</td><td>Our team recognises revenue by percentage completion against cost-to-complete estimates; read <a href="/blog/unbilled-revenue-wip-service-firms">unbilled revenue for service firms</a>.</td></tr>
+                        <tr><td>Non-billable hours and write-downs erode realisation unseen</td><td>Effective rate per hour drops below cost without anyone noticing until the engagement has already lost money.</td><td>Patron reports realisation against standard rates per engagement, surfacing write-offs and utilisation gaps monthly.</td></tr>
+                        <tr><td>Reimbursable costs billed with GST as though they were fees</td><td>Tax charged on pure pass-through costs inflates invoices and overstates both revenue and output GST.</td><td>We segregate pure-agent reimbursements under GST valuation rules, keeping pass-through costs out of taxable turnover.</td></tr>
+                        <tr><td>Long debtor cycles carry no doubtful-debt provision</td><td>Debtors look fully collectable on the balance sheet while old, doubtful invoices quietly sit uncollected.</td><td>Patron provides for doubtful debts by ageing bucket, so receivables reflect what will actually be collected.</td></tr>
+                        <tr><td>Fixed-price overruns hit before anyone re-forecasts the margin</td><td>Costs quietly cross the budget mid-project, and the loss only surfaces when the final invoice is raised.</td><td>Our team tracks cost-to-complete against contract value each month, flagging engagements slipping into loss early.</td></tr>
 
                     </tbody>
                 </table>
@@ -1544,47 +740,57 @@
     </div>
 </section>
 
-{{-- SECTION 10: FEES --}}
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Service Sector Accounting Fees 2026</h2>
+            <h2 class="section-title">Service Sector Accounting Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Basic Compliance (GST + TDS + Bookkeeping)</td><td>Rs. 4,000/month</td></tr><tr><td>Standard (Basic + Payroll up to 25 + PF + ESI + MIS)</td><td>Rs. 7,000/month</td></tr><tr><td>Section 44ADA Presumptive Filing (ITR-4 + GST + Advance Tax)</td><td>Rs. 5,000/year</td></tr><tr><td>Regular Books + ITR-3/ITR-5 + Audit</td><td>Rs. 12,000/year</td></tr><tr><td>Company Annual (ITR-6 + Statutory Audit + MCA)</td><td>Rs. 15,000/year</td></tr><tr><td>LUT Filing for Service Exporters</td><td>Rs. 2,000/year</td></tr><tr><td>Full Service Sector Package (All-in-One)</td><td>Rs. 18,000/month</td></tr><tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 2,499 (Exl GST and Govt. Charges)</td></tr>
+                        <tr><td><strong>Starter</strong> &mdash; one service entity with routine monthly billing and receivables</td><td>INR 2,499<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Growth</strong> &mdash; higher invoice volume, added GST states or a second entity</td><td>On quote</td></tr>
+                        <tr><td><strong>Managed</strong> &mdash; multi-entity books with custom receivable and revenue reporting</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">Our Starter plan suits a single consultancy at <strong>INR 2,499</strong>: monthly billing, receivable tracking and clean ledgers. What moves accounting for consultants up a tier is invoice volume and how many receivables need chasing, not headcount. Request a customised estimate on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Service Sector Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20service%20sector%20accounting%20and%20compliance.%20Please%20share%20pricing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Service Sector Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20the%20service%20sector%20industry" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-{{-- SECTION 11: TIMELINE --}}
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Service Sector Compliance Deadlines 2026</h2>
+            <h2 class="section-title">Service Sector Accounting Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>TDS Deposit (Section 194J/194C)</td><td>7th of following month (30 April for March)</td></tr><tr><td>GSTR-1 (Outward Supply Return)</td><td>11th of following month</td></tr><tr><td>EPFO ECR and ESI Contribution</td><td>15th of following month</td></tr><tr><td>GSTR-3B (Summary + Tax Payment)</td><td>20th of following month</td></tr><tr><td>Advance Tax for 44ADA Professionals</td><td>15 March (single instalment - 100%)</td></tr><tr><td>ITR-4 for Non-Audit 44ADA Professionals</td><td>31 July</td></tr><tr><td>ITR-3/ITR-5/ITR-6 (Audit Cases)</td><td>31 October</td></tr><tr><td>GSTR-9 Annual GST Return</td><td>31 December</td></tr><tr><td>Form 16A Issuance to TDS Deductees</td><td>15 June after FY</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>GST PMT-06 (QRMP monthly tax payment)</td><td>25th of the month for the first two months of each quarter</td><td>QRMP filers paying tax monthly while filing GSTR-3B quarterly</td></tr>
+                        <tr><td>TDS return for Jan-Mar quarter (Form 24Q / 26Q)</td><td>31 May 2026</td><td>Deductors filing quarterly TDS statements</td></tr>
+                        <tr><td>Income-tax return, non-audit cases</td><td>31 July 2026</td><td>Proprietors, firms and individuals not liable to tax audit</td></tr>
+                        <tr><td>Advance tax second instalment (45% cumulative)</td><td>15 September 2026</td><td>Companies, firms and individuals liable to advance tax</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p><strong>Note:</strong> Late GSTR filing attracts Rs 50/day (CGST+SGST) under Section 47 CGST Act. Late TDS deposit attracts 1.5% per month interest under Section 201(1A). Late TDS return attracts Rs 200/day under Section 234E. Non-filing of MCA returns attracts Rs 100/day per officer. Patron Accounting sends proactive reminders for all deadlines.</p>
+                    <p>For a service firm the recurring dates are the 194J TDS on the 7th and the 20th GSTR-3B, with the non-audit ITR on 31 July. Unbilled revenue needs a cut-off before each close. Patron builds these into your <a href="/blog/gst-on-consultancy-services-india">consultancy accounting</a> rhythm so revenue and TDS reconcile cleanly. Download the 2026 calendar or talk to a CA on +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1592,42 +798,88 @@
     </div>
 </section>
 
-{{-- SECTION 12: BENEFITS --}}
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Professional Accounting Matters for Service Sector</h2>
+            <h2 class="section-title">Why Professional Service Sector Accounting Matters</h2>
         </div>
-        <div class="features-grid"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3>TDS Mismatch Notices Avoided</h3><p>Correct 194J vs 194C classification per post October 2024 amendment; every vendor payment correctly classified preventing Section 201 demands</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>ITC Maximised</h3><p>Properly maintained GSTR-1/GSTR-3B reconciliation and vendor GSTR-2B matching ensures every eligible input tax credit is claimed</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></div><h3>RCM Compliance Managed</h3><p>Every foreign SaaS subscription and consultant invoice tracked; RCM IGST paid and ITC claimed correctly in following period</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><h3>44ADA Threshold Monitored</h3><p>Quarterly receipt tracking with alerts when projected receipts approach Rs 50L/75L limit; no surprise audit requirements</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg></div><h3>LUT Renewed for Exporters</h3><p>Annual LUT filed at start of each financial year under Rule 96A; export invoices compliant from day one</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div><h3>Clean MCA Filings</h3><p>AOC-4 and MGT-7 filed within statutory deadlines; Rs 100/day per officer penalty under Companies Act 2013 prevented</p></article></div>
+        <div class="features-grid">
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div>
+  <h3 class="feature-title">Revenue tied to the fee basis</h3>
+  <p class="feature-text">How each engagement earns comes from the signed contract, and that basis drives the accounting, not the invoice date.</p><ul style="margin-top:12px;"><li>Basis read from engagement letters, SOWs and retainer agreements</li><li>Fixed fee, milestone, time and materials or retainer each treated on its terms</li><li>Without it, bill-date accounting lands income in the wrong month</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="11" x="3" y="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 10 0v4" /> </svg></div>
+  <h3 class="feature-title">Unbilled work valued monthly</h3>
+  <p class="feature-text">We value open engagements against the billing plan each month end, so delivered but uninvoiced effort shows as an asset.</p><ul style="margin-top:12px;"><li>Unbilled revenue carried on a rolled-forward WIP schedule</li><li>Without it, a year's leakage surfaces only at the annual accounts</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Realisation per engagement</h3>
+  <p class="feature-text">Each month closes with fee earned, delivery cost, write-offs and recovery against the contracted rate, engagement by engagement.</p><ul style="margin-top:12px;"><li>Recovery measured against the rate each engagement was contracted at</li><li>Without it, a loss-making job is repriced only after it finishes</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 3 4 7l4 4" /> <path d="M4 7h16" /> <path d="m16 21 4-4-4-4" /> <path d="M20 17H4" /> </svg></div>
+  <h3 class="feature-title">Client advances kept as liabilities</h3>
+  <p class="feature-text">You hold retainers and advances as liabilities, released only against the invoice they belong to.</p><ul style="margin-top:12px;"><li>Receipt vouchers agreed to the advance and retainer register</li><li>Released against the specific invoice, keeping the tax position supported</li><li>Without it, advances booked as income inflate a good month</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Pass-through costs tested properly</h3>
+  <p class="feature-text">We test each reimbursable against the pure agent conditions, so genuine recharges stay out of your taxable value.</p><ul style="margin-top:12px;"><li>Pure agent conditions: client-name bill, written authorisation, recovery at actual</li><li>Costs that fail the test recovered as taxable value</li><li>Without it, travel and printing recharges become a liability at assessment</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13 5h8" /> <path d="M13 12h8" /> <path d="M13 19h8" /> <path d="m3 17 2 2 4-4" /> <path d="m3 7 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">Delivery cost against the right revenue</h3>
+  <p class="feature-text">We tag associate and subcontractor invoices to the engagement they served rather than pooling them in overheads.</p><ul style="margin-top:12px;"><li>Deduction applied on the terms of each subcontractor's contract</li><li>Without it, true engagement margin stays hidden in overheads</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-{{-- SECTION 12A: SOCIAL PROOF --}}
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">500+ Service Sector Clients Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p>Patron Accounting serves 500+ service sector clients across consulting, IT, advertising, HR outsourcing, recruitment, event management, and professional services. Our ICAI-registered CAs specialise in the service sector compliance framework with a <strong>4.8/5 client rating</strong>.</p><p>Offices in Mumbai, Pune, Delhi NCR, and Bengaluru with dedicated teams for Section 194J TDS, Section 44ADA presumptive filing, RCM compliance, and service export LUT management.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Service Sector Accounting (Project Billing)</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>Unbilled WIP visible every month, not discovered at year end</strong><p>Retainers and milestone fees leave work unbilled between invoice runs. Across 15+ years serving consultancies, we value unbilled revenue and WIP every month, so realisation is visible long before the year-end review.</p></div>
+                <div><strong>Place-of-supply on inter-state work and Section 194J deduction</strong><p>We set place-of-supply correctly on inter-state engagements and deduct Section 194J at source. With 25,000+ filings behind us, clients can <a href="/blog/section-194j-tds-consultants-26as">claim 194J credit via 26AS</a> without the year-end scramble.</p></div>
+                <div><strong>Project billing and time capture wired into the ledger</strong><p>We build inside the platform already running your books, whether Zoho Books, Xero, Tally Prime or Odoo. We wire your project billing and time capture into the ledger, so hours booked flow straight to revenue.</p></div>
+                <div><strong>Engagement-wise realisation and WIP ageing every month</strong><p>Each month you receive engagement-wise realisation and WIP ageing, showing which jobs are earning and which are stuck. The cadence is monthly, and our 4.9 star Google rating reflects firms that finally trust their numbers.</p></div>
+                <div><strong>Consultancies and agencies among 3,000+ businesses served</strong><p>Consultancies, agencies and professional practices sit among the 3,000+ businesses we have served since 2019. That reach, with 15+ years of experience and a 4.9 star Google rating, stands behind every engagement.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-{{-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON --}}
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY vs Professional Service Sector Accounting</h2>
+            <h2 class="section-title">Milestone Billing vs Retainer Billing</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Aspect</th><th>DIY / In-House</th><th>Patron Accounting</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Milestone Billing</th><th>Retainer Billing</th></tr></thead>
                     <tbody>
-                        <tr><td>TDS Classification</td><td>194J vs 194C confusion; wrong rate applied</td><td>Post October 2024 framework; correct rate guaranteed</td></tr><tr><td>RCM on Imports</td><td>Foreign vendor invoices missed; IGST unpaid</td><td>Monthly tracking; RCM in GSTR-3B; ITC claimed</td></tr><tr><td>44ADA Threshold</td><td>Receipts exceed limit mid-year; no books</td><td>Quarterly monitoring; alert before breach</td></tr><tr><td>GSTR Accuracy</td><td>B2B invoices not reported; ITC denied to buyers</td><td>Invoice-level accuracy; GSTR-2B reconciliation</td></tr><tr><td>LUT for Exports</td><td>Not renewed; IGST charged on zero-rated</td><td>Annual LUT filed at FY start; compliant invoices</td></tr><tr><td>Cost</td><td>Interest + penalties + disallowance + demands</td><td>Transparent retainer from INR 2,499/month</td></tr>
+                        <tr><td>What it is</td><td>Fees invoiced when defined project milestones or deliverables are accepted.</td><td>A fixed periodic fee for ongoing availability or a recurring scope.</td></tr>
+                        <tr><td>Revenue recognition</td><td>Recognised as performance obligations are met, often over time via POCM.</td><td>Recognised evenly across the retainer period as the service is delivered.</td></tr>
+                        <tr><td>Unbilled vs advance</td><td>Work done ahead of a milestone sits as unbilled revenue or WIP.</td><td>Fees billed ahead of delivery sit as a client advance liability.</td></tr>
+                        <tr><td>Cash flow</td><td>Lumpy inflows tied to sign-offs, with gaps between milestones.</td><td>Predictable monthly inflow that smooths working-capital planning.</td></tr>
+                        <tr><td>Profitability tracking</td><td>Margin read per project once delivery cost meets milestone revenue.</td><td>Margin depends on hours consumed against the fixed fee each month.</td></tr>
+                        <tr><td>TDS and compliance</td><td>Client deducts TDS per invoice; credit tracked against each milestone.</td><td>Regular TDS on each periodic bill; simpler to reconcile in 26AS.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">Match the model to the engagement; milestone billing suits defined project work, retainers suit continuing advisory. Both need unbilled revenue and advances tracked correctly, which is where accounting for consultants earns its keep. See unbilled revenue and WIP.</td></tr>
 
                     </tbody>
                 </table>
@@ -1637,190 +889,186 @@
     </div>
 </section>
 
-{{-- SECTION 14: RELATED SERVICES --}}
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Related Services for Service Sector Companies</h2>
-            <div class="content-text">
-                
-                <p>Complementary services for service sector businesses:</p><ul><li><a href="/gst-registration">GST Registration</a> - Full registration process with SAC code advisory for service companies</li><li><a href="/gst-returns">GST Return Filing</a> - Monthly GSTR-1 and GSTR-3B filing for all service sector entities</li><li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-3, ITR-4, ITR-5, ITR-6 for all entity types</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly Form 26Q and 24Q with Form 16A issuance</li><li><a href="/private-limited-company-registration">Company Registration</a> - Private limited company, LLP, or partnership for new service ventures</li><li><a href="/payroll-services">Payroll Services</a> - Monthly payroll, PF, ESI, and professional tax for service sector teams</li></ul>
 
-            </div>
-        </div>
-    </div>
-</section>
 
-{{-- SECTION 15A: LEGAL FRAMEWORK --}}
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Legal and Regulatory Framework for Service Sector Accounting</h2>
             <div class="content-text">
                 
-                <p>Key statutory provisions for service sector compliance:</p><ul><li><strong>CGST Act 2017, Section 9:</strong> GST levy on services at 18% under SAC 9983/9985; RCM under Section 9(3)/9(4) on notified and unregistered supplier transactions. <a href="https://cbic.gov.in" target="_blank" rel="noopener">CBIC Portal</a></li><li><strong>IGST Act 2017, Section 5:</strong> Inter-state supply and import of services; RCM at 18% on foreign vendor payments under Section 5(3)/5(4)</li><li><strong>Rule 96A, CGST Rules 2017:</strong> LUT filing for zero-rated export of services without IGST; annual renewal; five conditions under Section 2(6) IGST Act. <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a></li><li><strong>Section 194J, Income Tax Act 1961:</strong> TDS at 10% on professional fees, 2% on technical services above Rs 50,000/year (FY 2025-26); separated from 194C since October 2024. <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Portal</a></li><li><strong>Section 44ADA, Income Tax Act 1961:</strong> Presumptive taxation at 50% of receipts for specified professionals; Rs 50L standard / Rs 75L digital threshold</li><li><strong>Section 44AB, Income Tax Act 1961:</strong> Mandatory tax audit if professional receipts exceed Rs 50 lakh or business turnover exceeds Rs 1 crore; Form 3CD</li><li><strong>EPF and MP Act 1952 / ESI Act 1948:</strong> PF mandatory for 20+ employees at 12%; ESI for 10+ employees earning up to Rs 21,000/month</li></ul>
+                <p>For a firm that sells hours rather than goods, Section 128 still defines the books, but the provision that shapes them most in practice is the revenue standard, because the hardest question each month is how much of the work done has actually been earned. The framework around it decides when a service is invoiced, where it is taxed and how the fee is measured.</p>
+<p>The answer changes with the contract. A retainer, a milestone and a time-and-materials engagement are recognised differently, so <a href="/glossary/unbilled-revenue-wip-hours">Unbilled Revenue (WIP Hours)</a> is carried where work is ahead of billing, and the <a href="/glossary/milestone-vs-retainer-billing">Milestone vs Retainer Billing</a> split drives both the ledger and the GST invoice. Accounting for consultants keeps these judgements consistent against the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>AS 9 / Ind AS 115</strong></span><span class="al-d">Fee income is recognised as the service is performed, with unbilled revenue carried for work delivered but not yet invoiced.</span></li><li><span class="al-t"><strong>Sections 12 and 13, IGST Act 2017</strong></span><span class="al-d">The place-of-supply rules decide whether a service is intra-state or inter-state, fixing CGST/SGST versus IGST on each invoice.</span></li><li><span class="al-t"><strong>Section 194J, Income-tax Act 1961</strong></span><span class="al-d">Professional and technical fees attract TDS at 10% (2% for technical services), which the books track against Form 26AS.</span></li><li><span class="al-t"><strong>Section 44ADA, Income-tax Act 1961</strong></span><span class="al-d">Eligible professionals up to Rs 75 lakh receipts may declare 50% presumptive income instead of maintaining full books.</span></li><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">An incorporated agency keeps its books on accrual and double entry at the registered office, retained for eight years.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail stays enabled, so a revised time sheet or a reclassified retainer leaves a record - the basis of a defensible <a href="/glossary/project-wise-profitability-margin">Project-Wise Profitability Margin</a>. Filing runs from the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-{{-- FAQ SECTION --}}
+
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Service Sector Accounting India</h2>
-                    <p class="faq-expanded__lead">Answers to common questions about GST, TDS, Section 44ADA, RCM, and compliance for consulting, IT, and professional service companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Service Sector Accounting India'])
+                    <h2 class="faq-expanded__title">Service Sector Accounting FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on service sector accounting scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Service Sector Accounting</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is the GST rate on service sector companies in India?</h3>
-                        <div class="faq-expanded__a"><p>Most professional, consulting, technical, and support services attract 18% GST. SAC 9983 covers professional, scientific, and technical services. SAC 9985 covers support services including HR outsourcing and facility management. Registration is mandatory when turnover exceeds Rs 20 lakh or for any inter-state supply. Service exports are zero-rated under LUT per Rule 96A CGST Rules 2017.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">How does Section 194J TDS apply to consulting firms?</h3>
-                        <div class="faq-expanded__a"><p>Section 194J requires TDS at 10% on professional fees (legal, CA, medical, engineering, consulting per Section 44AA) and 2% on technical/managerial/consultancy services above Rs 50,000 per year per category from FY 2025-26. Since 1 October 2024, Budget 2024 explicitly clarified that 194J payments are not work under 194C. TDS must be deposited by 7th of the following month.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">What is Section 44ADA and who can use it?</h3>
-                        <div class="faq-expanded__a"><p>Section 44ADA allows resident individuals and partnership firms (not LLPs) in specified professions to declare 50% of gross receipts as taxable income without maintaining detailed books. Standard threshold is Rs 50 lakh, enhanced to Rs 75 lakh if 95%+ receipts are through banking channels. Full advance tax is due by 15 March. File ITR-4 (Sugam).</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">When is tax audit mandatory for service sector businesses?</h3>
-                        <div class="faq-expanded__a"><p>Tax audit under Section 44AB is mandatory if professional receipts exceed Rs 50 lakh, or if income declared below 50% of receipts under 44ADA and exceeds basic exemption. For companies, audit applies if turnover exceeds Rs 1 crore (Rs 10 crore for digital). Audit report in Form 3CD by a CA must be filed before ITR.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What is RCM for service sector companies?</h3>
-                        <div class="faq-expanded__a"><p>Reverse Charge Mechanism requires the Indian service company to pay 18% IGST on import of services from foreign vendors (SaaS, cloud, consultants) under Sections 5(3)/5(4) IGST Act. RCM must be paid in cash in GSTR-3B (ITC cannot offset in same month). Same amount can be claimed as ITC in following period for business use.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What ITR form do service companies and consultants file?</h3>
-                        <div class="faq-expanded__a"><p>ITR-4 (Sugam) for 44ADA professionals with receipts up to Rs 75 lakh. ITR-3 for individuals with regular books. ITR-5 for partnership firms and LLPs. ITR-6 for private limited companies. Audit cases due by 31 October. Non-audit 44ADA professionals file by 31 July.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">How does zero-rated export of services work?</h3>
-                        <div class="faq-expanded__a"><p>Export is zero-rated under Section 16(1)(a) IGST Act when all five conditions under Section 2(6) are met (supplier in India, recipient outside, place of supply outside, foreign exchange payment, not same entity branches). File LUT under Rule 96A at start of each FY. Track forex receipts via FIRC from bank.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What is the chart of accounts for service industry?</h3>
+  <div class="faq-expanded__a"><p>A service business chart of accounts splits fee income by service line, then cost of delivery such as consultant salaries, subcontractor fees and project travel, and only then administrative overhead, so gross margin per service line is visible every month. It also needs control accounts for unbilled revenue, advances from clients, TDS receivable under Section 194J and GST input and output ledgers. We build this before the first entry.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you account for unbilled revenue on ongoing projects?</h3>
+  <div class="faq-expanded__a"><p>Unbilled revenue is recognised each month for work delivered but not yet invoiced and carried as a contract asset, then reversed when the invoice is raised. We reconcile timesheets or delivery milestones with the invoice register every month, so the profit and loss shows earned revenue rather than only collections and long projects do not distort a quarter.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What expenses can a consultant claim?</h3>
+  <div class="faq-expanded__a"><p>A consultant can claim any expense incurred wholly and exclusively for the profession under Section 37 of the Income Tax Act, including office rent, laptops and software, professional subscriptions, client travel, subcontractor fees, telephone and internet, and the business share of vehicle running cost. Personal spending is not allowable, capital purchases are claimed through depreciation, and cash payments above the Section 40A(3) limit are disallowed.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is GST payable on consulting services exported to overseas clients?</h3>
+  <div class="faq-expanded__a"><p>Export of services is zero rated under GST, so no tax is charged on the invoice where you export under a Letter of Undertaking. The LUT has to be filed on the GST portal for each financial year, payment must be received in convertible foreign exchange, and the bank realisation advice or FIRC has to be kept for every invoice.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is TDS deducted by clients under Section 194J adjusted?</h3>
+  <div class="faq-expanded__a"><p>TDS deducted by clients on professional fees at 10 percent is booked against each invoice and reconciled every quarter with Form 26AS and the annual information statement. Any deduction a client has not actually deposited is followed up before the return is filed, because credit is allowed only for amounts appearing against your PAN in the department's records.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How much does monthly accounting cost for a consulting firm or agency?</h3>
+  <div class="faq-expanded__a"><p>Monthly accounting for a consulting firm or agency typically costs Rs 8,000 to Rs 20,000 a month for up to 150 transactions, and Rs 25,000 to Rs 45,000 where payroll, project profitability reporting and multi state GST are involved. Fees move with invoice volume, headcount and the number of GST registrations rather than with your revenue.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can you report profitability for each client or project?</h3>
+  <div class="faq-expanded__a"><p>Yes, client and project level profitability is reported monthly, usually within 10 working days of month end, once costs are tagged. Direct salaries, subcontractor cost and pass through expenses are mapped to each engagement using cost centres in Zoho Books or Tally, so you can see gross margin by client, by service line and by delivery team.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How should reimbursable expenses billed to clients be recorded?</h3>
+  <div class="faq-expanded__a"><p>Reimbursable expenses can be excluded from your taxable value only where you act as a pure agent and meet the conditions in the GST valuation rules, otherwise they form part of the value of your invoice. We keep the third party invoice in the client's name where the pure agent route is used, because the documentation is what an officer checks.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How are retainer fees received in advance treated in the books?</h3>
+  <div class="faq-expanded__a"><p>Retainer fees received in advance are shown as a liability and released to income as the work is performed each month. GST is generally payable on receipt of an advance for services, so the tax is discharged in the month of receipt even though revenue is recognised later. Unused retainer balances are tracked client wise for refund or adjustment.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What happens when invoices, timesheets and books have not been reconciled for a year?</h3>
+  <div class="faq-expanded__a"><p>A twelve month clean up usually takes 3 to 6 weeks and starts by rebuilding the invoice register from the GST portal, matching it to bank credits and identifying invoices raised but never recorded. We then reconcile TDS credits, write up unbilled work and restate the profit and loss month by month so the annual return goes out on correct numbers.</p></div>
+</div>
                 </div>
             </div>
 
-
-            {{-- Quick Answers --}}
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <p><strong>Q: What is service sector accounting?</strong> Specialist financial management for consulting, IT, advertising, HR, and professional services covering 18% GST (GSTR-1/3B), TDS under Section 194J, Section 44ADA presumptive tax, RCM, payroll, and ITR filing.</p><p><strong>Q: Service sector ka CA kaise choose kare?</strong> Service sector ke liye aise CA chahiye jo 194J vs 194C TDS, 44ADA presumptive scheme, aur foreign vendor RCM samjhte hon. Patron Accounting mein 500+ service sector clients hain.</p><p><strong>Q: What is SAC code 9983?</strong> SAC 9983 covers Professional, Scientific, and Technical Services under GST - consulting, IT, advertising, engineering, architecture. All supplies at 18% GST.</p><p><strong>Q: Can a consulting firm use 44ADA?</strong> Yes, a resident individual or partnership firm (not LLP) providing consulting as a specified profession can use 44ADA if receipts are within Rs 75 lakh with 95%+ digital payments.</p>
+                <p>The books sit in whichever ledger your practice already runs, with a timesheet or billing tool feeding into it. Patron maps every engagement to one code that is carried across both systems, so hours booked, invoices raised and amounts still open reconcile back to a single figure. Journals for accrued income and.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-{{-- SECTION 18: URGENCY CTA --}}
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Service Sector Compliance is Not Optional</h2>
+            <h2 class="section-title">Service Sector Accounting Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>Wrong TDS classification triggers Section 201 short-deduction demand with 1.5% monthly interest. Missed RCM on foreign SaaS creates accumulated GST liability with 18% annual interest. Breaching the 44ADA threshold without books means a surprise mandatory audit. And every missed GSTR-3B deadline attracts Rs 50/day late fee plus 18% interest on unpaid tax.</p><p><strong>Call +91 945 945 6700 or WhatsApp us for a free service sector accounting consultation. We will assess your compliance requirements and have your systems in order within 10 working days.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>GSTR-3B (summary return and tax payment)</strong> is due 20th of every month for monthly filers. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-{{-- CONCLUSION + CTA BLOCK (Dark) --}}
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Service Sector Accounting with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">India's service sector operates at the intersection of CGST/IGST for indirect tax, Income Tax for direct tax (with both 44ADA and regular regimes), EPF/ESI for labour law, and the Companies Act for corporate governance. The compliance burden is real - but with the right CA partner, it is entirely manageable.</p><p style="color:rgba(255,255,255,0.9);font-size:15px;line-height:1.7;">Patron Accounting serves 500+ service sector clients with ICAI-registered CAs specialising in consulting, IT, advertising, HR, and professional services. Starting from INR 2,499 per month, we handle every aspect of service sector compliance so you can focus on revenue generation.</p>
+                <p style="color:rgba(255,255,255,0.88);">What changes first under accounting for consultants is the middle of the month. Unbilled hours are already valued instead of nothing happening until an invoice run. An engagement running past its budget is flagged while it is still running, and the partner review has numbers in front of it rather than impressions.</p>
+<p style="color:rgba(255,255,255,0.88);">Month end under accounting for agencies starts with the engagement schedule rather than the bank. Hours booked convert into a billing decision while the client still remembers the work, and the close lands on figures your partners reviewed first. Recovery on a job is known while that job can still be steered.</p>
+<p style="color:rgba(255,255,255,0.88);">We ask how your people record time: daily, weekly or from memory at the end of a job. Then comes the shape of your contracts, and which of them bill on milestones your finance team never sees, a pattern shared with <a href="/accounting-services-it-saas">software firms we already support</a>.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20service%20sector%20accounting%20and%20compliance.%20Please%20share%20pricing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Service%20Sector%20Accounting&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20accounting%20services%20for%20my%20service%20sector%20business.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20the%20service%20sector%20industry" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Service%20Sector%20Accounting%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Service%20Sector%20Accounting%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-{{-- GSTAT STATE BENCH CITY PAGES (32 Pages) --}}
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Service Sector Accounting Services Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">CA-managed accounting for consulting, IT, and professional service companies in major Indian cities.</p>
-            {{-- CITY_PAGES_GRID PATTERN:
-                BLOCK 1 — City cards (pa-city-grid, 4 cols desktop):
-                <div class="pa-city-block" style="margin-bottom:40px;">
-                    <div class="pa-city-grid">
-                        <a href="/accounting-services-for-the-service-sector-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                        <a href="#" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                        <a href="/accounting-services-for-the-service-sector-industry/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                        <a href="/accounting-services-for-the-service-sector-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                        <a href="#" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Bangalore</div><div class="pa-card-sub">Karnataka</div></div></a>
-                        <a href="#" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Hyderabad</div><div class="pa-card-sub">Telangana</div></div></a>
-                        <a href="#" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Chennai</div><div class="pa-card-sub">Tamil Nadu</div></div></a>
-                        <a href="#" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a>
-                    </div>
-                </div>
-                BLOCK 2 — Cross-sell services (pa-cross-grid, 3 cols desktop):
-                <div class="pa-city-block">
-                    <div class="pa-block-title">Related Services</div>
-                    <div class="pa-block-sub">End-to-end support for Service Sector Accounting</div>
-                    <div class="pa-cross-grid">
-                        <a href="/{{RELATED_SLUG_1}}" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">{{RELATED_SERVICE_1}}</div><div class="pa-card-sub">India</div></div></a>
-                        (repeat for 5-6 related services)
-                    </div>
-                </div>
-            --}}
-            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-city-grid"><a href="/accounting-services-for-the-service-sector-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/service-sector-accounting/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/accounting-services-for-the-service-sector-industry/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/accounting-services-for-the-service-sector-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a></div></div><div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Service Sector Accounting</div><div class="pa-cross-grid"><a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a><a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a><a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a><a href="/tds-return-filing-24q" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a><a href="/payroll-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">India</div></div></a></div></div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Service Sector Accounting Near You</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for service sector accounting in these cities.</p>
+            
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Serve</div><div class="pa-block-sub">On-ground teams</div><div class="pa-city-grid"><a href="https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div>
+<div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
-{{-- CONTENT FRESHNESS FOOTER --}}
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 12 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">12 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 12 March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed annually or when GST rates, TDS thresholds, or Section 44ADA limits change via Finance Act amendments. All regulatory citations verified against CBIC, Income Tax Act, and CGST/IGST Act provisions.</p>
-        </div>
-    </div>
-</section>
 
-{{-- STICKY WHATSAPP BAR --}}
-{{--
+
+
+
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-{{-- Google Maps Places Library (for GMB reviews) --}}
 
 
-{{-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id --}}
+
 <script>
 (function() {
     // ============================================
@@ -1895,8 +1143,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -1906,8 +1154,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -1988,7 +1236,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -1998,34 +1246,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2036,12 +1282,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2117,7 +1364,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered — init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -2127,6 +1376,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -2149,9 +1399,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-{{-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ --}}
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2321,7 +1569,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2341,7 +1588,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2419,12 +1666,8 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-{{-- Bigin WebForm Script (handles form POST to Bigin servers) --}}
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
-<script>
-
-</script>
 
 <script>
 // TOC scroll arrows
@@ -2432,55 +1675,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-{{-- WhatsApp Sticky Bar Script --}}
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2518,8 +1730,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

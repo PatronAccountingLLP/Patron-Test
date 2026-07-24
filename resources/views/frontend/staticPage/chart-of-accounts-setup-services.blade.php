@@ -1,1121 +1,293 @@
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Chart of Accounts Setup Services in 2026 | Patron Accounting</title>
-    <meta name="description" content="Chart of accounts setup services in India - GST, TDS, and PF-ready structure in Tally, Zoho, or QuickBooks. One-time, from INR 4,999 (Exl GST).">
-    <link rel="canonical" href="/chart-of-accounts-setup-services">
+    <title>Chart of Accounts Setup Services: Monthly CA Support | Patron Accounting</title>
+    <meta name="description" content="A COA built for the reports you need, not copied from a default template. Predictable monthly reporting you can plan against. Book a consultation.">
+    <link rel="canonical" href="https://www.patronaccounting.com/chart-of-accounts-setup-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Chart of Accounts Setup Services in 2026 | Patron Accounting">
-    <meta property="og:description" content="Chart of accounts setup services in India - GST, TDS, and PF-ready structure in Tally, Zoho, or QuickBooks. One-time, from INR 4,999 (Exl GST).">
-    <meta property="og:url" content="/chart-of-accounts-setup-services">
+    <meta property="og:title" content="Chart of Accounts Setup Services: Monthly CA Support | Patron Accounting">
+    <meta property="og:description" content="A COA built for the reports you need, not copied from a default template. Predictable monthly reporting you can plan against. Book a consultation.">
+    <meta property="og:url" content="https://www.patronaccounting.com/chart-of-accounts-setup-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/chart-of-accounts-setup-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og/chart-of-accounts-setup-services-og.webp">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Chart of Accounts Setup Services in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Chart of accounts setup services in India - GST, TDS, and PF-ready structure in Tally, Zoho, or QuickBooks. One-time, from INR 4,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/chart-of-accounts-setup-services-og.webp">
+    <meta name="twitter:title" content="Chart of Accounts Setup Services: Monthly CA Support | Patron Accounting">
+    <meta name="twitter:description" content="A COA built for the reports you need, not copied from a default template. Predictable monthly reporting you can plan against. Book a consultation.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/chart-of-accounts-setup-services-og.webp">
+<script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://www.patronaccounting.com/#organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp"
+        },
+        "image": "https://www.patronaccounting.com/images/Patron_Accounting_Logo_HD_Transparent.webp",
+        "email": "sales@patronaccounting.com",
+        "telephone": "+91 94594 56700",
+        "areaServed": "India",
+        "foundingDate": "2019",
+        "founder": {
+                "@type": "Person",
+                "name": "CA Sundram Gupta"
+        },
+        "sameAs": [
+                "https://in.linkedin.com/company/patron-accounting-llp",
+                "https://www.instagram.com/patronaccounting/",
+                "https://www.facebook.com/share/1BqqRYkpJX/",
+                "https://www.youtube.com/@patronaccountingllp7130",
+                "https://x.com/LlpPatron"
+        ],
+        "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919459456700",
+                "email": "sales@patronaccounting.com",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": [
+                        "en",
+                        "hi"
+                ]
+        }
+}
+</script>
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "/chart-of-accounts-setup-services/#service",
-        "name": "Chart of Accounts Setup Services in India",
-        "description": "Chart of accounts setup services in India covering a five-category structure (assets, liabilities, equity, income, expenses), logical numbering, India tax heads for GST, TDS, PF, ESI, Professional Tax, and Cess, and configuration in Tally, Zoho Books, QuickBooks, or Xero for new entities, migrations, and restructuring, from INR 4,999 one-time.",
-        "provider": { "@id": "/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/chart-of-accounts-setup-services" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chart of accounts", "sameAs": "https://en.wikipedia.org/wiki/Chart_of_accounts" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Chart of Accounts Setup Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chart of accounts setup (one-time)" }, "priceCurrency": "INR", "price": "4999" }
-            ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/#service",
+  "name": "Chart of Accounts Setup Services",
+  "description": "Chart of accounts setup decides, before the first entry, how every transaction will be grouped and reported. Patron builds the code structure so a single posting feeds both the GST return and the Schedule III board pack.",
+  "image": "https://www.patronaccounting.com/images/chart-of-accounts-setup-services-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Chart of Accounts Setup Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Chart of Accounts Setup Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Chart of Accounts Setup Services",
+          "description": "Chart of accounts setup decides, before the first entry, how every transaction will be grouped and reported. Patron builds the code structure so a single posting feeds both the GST return and the Schedule III board pack.",
+          "serviceType": "Chart of Accounts Setup Service"
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "/chart-of-accounts-setup-services/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting & Bookkeeping Services", "item": "/accounting-bookkeeping-services" },
-            { "@type": "ListItem", "position": 3, "name": "Chart of Accounts Setup", "item": "/chart-of-accounts-setup-services" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "/chart-of-accounts-setup-services/#faq",
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a chart of accounts?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A chart of accounts (COA) is a structured list of every financial account a business uses to record transactions, organised into assets, liabilities, equity, income, and expenses. It is the backbone of the accounting system; every invoice, bill, bank entry, and journal is recorded against an account in this chart." }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the five categories of a chart of accounts?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The five categories are assets (what you own), liabilities (what you owe), equity (owner's investment and retained earnings), income (what you earn), and expenses (what you spend). The first three are balance sheet accounts and the last two are income statement accounts, mirroring the structure of financial statements." }
-            },
-            {
-                "@type": "Question",
-                "name": "How do you set up a chart of accounts?",
-                "acceptedAnswer": { "@type": "Answer", "text": "You start by defining the five categories, add relevant sub-accounts, assign a numbering system, and customise it for your business type and compliance needs. In India this means adding GST, TDS, PF, ESI, Professional Tax, and Cess accounts. A well-structured setup ensures accurate tracking and reliable reporting." }
-            },
-            {
-                "@type": "Question",
-                "name": "What numbering system should a chart of accounts use?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A common convention assigns 1000s to assets, 2000s to liabilities, 3000s to equity, 4000s to income, and 5000s to expenses. Indian businesses often use a five or six-digit scheme for flexibility. The key is to leave gaps between numbers so new accounts can be added later without disrupting the structure." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between a chart of accounts and a general ledger?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The chart of accounts is the list of all account categories and defines the structure, while the general ledger records the actual financial transactions under those accounts. In short, the COA is the framework and the ledger is the data posted within it." }
-            },
-            {
-                "@type": "Question",
-                "name": "What India-specific accounts must a chart of accounts include?",
-                "acceptedAnswer": { "@type": "Answer", "text": "An India-ready COA should include GST accounts for CGST, SGST, and IGST input and output, TDS payable, PF and ESI payable, Professional Tax, and Cess. These ensure that input tax credit is separated from output liability and that statutory deductions are tracked correctly for compliant filings." }
-            },
-            {
-                "@type": "Question",
-                "name": "How much does chart of accounts setup cost in India?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting chart of accounts setup starts from INR 4,999 one-time (Exl GST and Govt. Charges). Across the market, standalone setup typically ranges from Rs 3,000 to Rs 8,000 depending on the software and complexity. The setup is bundled free with our annual accounting engagements." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can you set up the chart of accounts in our software?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We configure the COA directly in Tally, Zoho Books, QuickBooks, or Xero, including India tax heads and sub-accounts. For businesses migrating from Tally, we map the ledger list to the new platform and import it cleanly so nothing is lost in the move." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "/chart-of-accounts-setup-services",
-        "name": "Chart of Accounts Setup Services in India",
-        "description": "Chart of accounts setup services in India - GST, TDS, and PF-ready structure in Tally, Zoho, or QuickBooks. One-time, from INR 4,999 (Exl GST).",
-        "url": "/chart-of-accounts-setup-services",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "/" },
-        "about": { "@id": "/chart-of-accounts-setup-services/#service" },
-        "datePublished": "2026-06-02T08:00:00+05:30",
-        "dateModified": "2026-06-02T08:00:00+05:30",
-        "author": { "@id": "/#team" },
-        "breadcrumb": { "@id": "/chart-of-accounts-setup-services/#breadcrumb" }
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Chart of Accounts Setup",
+      "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services"
     }
-    </script>
-    <script type="application/ld+json">
+  ],
+  "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How Patron Accounting Sets Up a Chart of Accounts",
-        "description": "The five-step process Patron Accounting follows to set up a chart of accounts, from understanding the business to configuring it in your software with India tax heads.",
-        "totalTime": "P4D",
-        "step": [
-            { "@type": "HowToStep", "name": "Understand the business", "text": "We review your model, reports needed, and compliance profile." },
-            { "@type": "HowToStep", "name": "Define categories", "text": "We organise accounts into assets, liabilities, equity, income, and expenses." },
-            { "@type": "HowToStep", "name": "Assign numbering", "text": "We apply a 1000s to 5000s scheme with sub-accounts and gaps for growth." },
-            { "@type": "HowToStep", "name": "Add India tax heads", "text": "We configure GST, TDS, PF, ESI, Professional Tax, and Cess accounts." },
-            { "@type": "HowToStep", "name": "Configure and handover", "text": "We build it in your software, test postings, and brief your team." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "How do you set up a chart of accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chart of accounts is set up by listing every reporting requirement first, then building groups for assets, liabilities, equity, income and expenses, numbering them in blocks and mapping each one to the Schedule III heads used in Indian financial statements. GST input and output ledgers, TDS payable heads and related party accounts are created at this stage rather than bolted on later."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "Can a new chart of accounts still be built in QuickBooks in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "QuickBooks withdrew from India in 2023 and stopped serving Indian subscribers, so a new chart of accounts should not be built there. Businesses still holding an old QuickBooks file should export the account list and trial balance and rebuild the structure in Zoho Books, Tally, Xero or Odoo, with GST and TDS ledgers mapped correctly during the move."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Chart of Accounts Setup Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Account head", "description": "An individual line in the COA, such as Rent or Sales." },
-            { "@type": "DefinedTerm", "name": "Sub-account", "description": "A nested breakdown under a parent account for detail." },
-            { "@type": "DefinedTerm", "name": "Account numbering", "description": "A code that groups accounts by type for easy lookup." },
-            { "@type": "DefinedTerm", "name": "General ledger", "description": "The record of actual transactions posted to each account." }
-        ]
+      "@type": "Question",
+      "name": "How do you design a chart of accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chart of accounts is designed around the decisions the business needs to make, with a short account list and depth pushed into cost centres, departments and tags instead. Keep 60 to 120 ledgers for a small company, separate direct cost from overhead, and avoid one off ledgers for single vendors, because those make year on year comparison impossible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is a QuickBooks chart of accounts redesigned for an Indian accounting system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Redesign starts by mapping every old QuickBooks account to a new head, merging duplicates and dropping accounts with no balance and no future use. The imported structure rarely fits Indian reporting, so rate wise GST sales heads, TDS receivable and payable ledgers and Schedule III groupings are added before opening balances are posted in the new software."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a chart of accounts setup take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chart of accounts setup takes 5 to 10 working days for a single entity and 2 to 3 weeks where multiple branches, GST registrations or a group consolidation are involved. That covers the design discussion, building the structure in your software, posting opening balances and running a test month of transactions before the structure is signed off."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a chart of accounts setup cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A one time chart of accounts setup costs Rs 15,000 to Rs 40,000 for a single entity and Rs 50,000 upwards for group structures with several branches or GST registrations. The fee covers the design document, configuration in Zoho Books, Tally, Xero or Odoo, opening balance migration and a written mapping sheet your team keeps for reference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the 5 basic charts of accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chart of accounts rests on five basic account types: assets, liabilities, equity, income and expenses, and every ledger you create sits under one of them. In India each type is then mapped to the Schedule III heads used in the balance sheet and profit and loss account, with GST input and output ledgers and TDS receivable and payable heads built in from the start."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a chart of accounts be restructured without losing earlier year data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, restructuring is done by mapping old ledgers to new ones and merging rather than deleting, so historical vouchers stay intact and comparative figures still pull correctly. We take a full backup before any change, run the merge in a test company first, and hand you a mapping sheet showing where every old balance has landed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should GST ledgers be built into the chart of accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, separate ledgers for CGST, SGST, IGST and cess on both the input and output side belong in the chart of accounts, along with a control account for the electronic cash ledger. Relying only on the software's automatic tax handling makes GSTR-3B reconciliation harder, because the liability and credit balances then have no visible ledger to tie back to."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should the chart of accounts handle multiple branches and state GST registrations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each state registration needs its own set of GST ledgers while operating heads stay common, with the branch identified through a cost centre or location dimension instead of duplicated ledgers. Inter branch transfers get a dedicated control account that must net to zero on consolidation, which is the first thing auditors test in a multi state structure."
+      }
     }
-    </script>
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services",
+  "name": "Chart of Accounts Setup Services",
+  "description": "A COA built for the reports you need, not copied from a default template. Predictable monthly reporting you can plan against. Book a consultation.",
+  "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/chart-of-accounts-setup-services-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/chart-of-accounts-setup-services-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/#breadcrumb"
+  }
+}
+</script>
 @endsection
 
+<link rel="stylesheet" href="/css/patron-cluster.css">
+
 @section('content')
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column - right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION - Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot - Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider .slick-slide > div { height: 100%; }
-        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
-        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #0F6E56;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #0F6E56;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
 <main>
 
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Home
+                </a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li style="display:flex;align-items:center;gap:8px;">
+                <a href="https://www.patronaccounting.com/accounting-bookkeeping-services/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Accounting & Bookkeeping Services</a>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
+            </li>
+            <li><span style="color:var(--orange);font-weight:600;">Chart of Accounts Setup Services</span></li>
+        </ol>
+    </div>
+</nav>
 
-<!-- HERO SECTION -->
+
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1127,7 +299,7 @@
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Chart of Accounts Setup Services in India
+                        Chart of Accounts Setup Services
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -1136,42 +308,40 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">2 June 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Scope:</span> five-category structure, numbering, sub-accounts, and India tax heads.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>One head, one meaning:</span> Each account name states what belongs in it, and only named people can create a new ledger.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Fees:</span> starting from INR 4,999 one-time (Exl GST and Govt. Charges).</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Tax figures traceable to ledgers:</span> We keep output and input tax by GSTIN, reverse charge apart and deduction at source split by section.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Software:</span> Tally, Zoho Books, QuickBooks, and Xero.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Room to grow without renumbering:</span> We lay out code blocks with deliberate gaps, so a new product line or branch slots in where it belongs.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Best for:</span> new entities, software migrations, and account restructuring.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Branch reporting without spreadsheets:</span> We carry location, department and project on the transaction as dimensions, instead of repeating a ledger for every branch.</p>
                         </div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Chart of Accounts Setup%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Chart of Accounts Setup%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Chart%20of%20Accounts%20Setup%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Chart%20of%20Accounts%20Setup%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Chart%20of%20Accounts%20Setup%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20chart%20of%20accounts%20setup%20services" target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1198,7 +368,7 @@
                                     <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                     <span class="rating-score">4.9</span>
                                 </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1272,13 +442,12 @@
                             <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
                                 <option value='' disabled selected>Select a service</option>
                                 <option value="chart-of-accounts-setup-services" selected>Chart of Accounts Setup</option>
-                                <option value="accounting-services">Accounting Services</option>
-                                <option value="gst-registration">GST Registration</option>
-                                <option value="gst-returns">GST Returns Filing</option>
-                                <option value="tds-return">TDS Return Filing</option>
-                                <option value="migration-from-tally-to-zoho">Migration from Tally to Zoho</option>
-                                <option value="private-limited-company-registration">Private Limited Company Registration</option>
-                                <option value="other">Other</option>
+                                    <option value="accounting-services">All Accounting Services</option>
+                                    <option value="accounting-services-for-e-commerce-industry">E-Commerce Accounting</option>
+                                    <option value="financial-statement-preparation-services">Financial Statement Preparation</option>
+                                    <option value="mis-reporting-services">MIS Reporting</option>
+                                    <option value="backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-up</option>
+                                    <option value="other">Other</option>
 
                             </select>
                         </div>
@@ -1308,133 +477,10 @@
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Sunny Ashpal</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director - Demandify Media</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I recently got my business incorporated and I am extremely satisfied with their services. They made the entire process of incorporation smooth and hassle-free. The team was very professional, knowledgeable, and always ready to assist me.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">S</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Shahriar</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:0;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;overflow:hidden;">
-            <div style="position:relative;cursor:pointer;height:298px;flex-shrink:0;background:#000;" onclick="var v=this.querySelector('video'); if(v.paused){v.play();this.querySelector('.testi-play-ov').style.display='none';}else{v.pause();this.querySelector('.testi-play-ov').style.display='flex';}">
-                <video preload="metadata" poster="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><source src="/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4"></video>
-                <div class="testi-play-ov" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:54px;height:54px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,0.35);"><svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;margin-left:2px;"><path d="M8 5v14l11-7z"/></svg></div></div>
-                <div style="position:absolute;left:16px;bottom:12px;color:var(--orange);font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                <div style="width:36px;height:36px;border-radius:50%;overflow:hidden;flex-shrink:0;"><img src="/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava" style="width:100%;height:100%;object-fit:cover;"></div>
-                <div style="min-width:0;"><div style="font-weight:700;font-size:13px;color:var(--blue);">Anjanay Srivastava</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Founder - Hunarsource Consulting</div></div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">NN</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Nikhil Nimbhorkar</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SM</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Subhendu Mishra</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AG</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Ayushi Garg</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RD</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajib Dutta</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-            <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-            <div style="font-size:13px;color:var(--text-primary);line-height:1.6;flex:1;">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</div>
-            <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">MS</div>
-                <div>
-                    <div style="font-weight:700;font-size:13px;color:var(--blue);">Monika Sharma</div>
-                    <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Google Review</div>
-                    <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Talk to our accounting setup team about a clean, GST and TDS-ready chart of accounts configured in your software.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
-    </div>
-</section>
 
-<!-- STATS BAR -->
+<section class="testimonials-section"><div class="section-container"><div class="section-header"><h2>Real Stories from Real People</h2><p>Verified Google reviews from founders and businesses Patron works with across India.</p></div><div class="testi-loading" id="testiLoading" style="display:none;"></div><div class="testimonial-slider" id="testimonialSlider" style="display:block;"></div><div class="reviews-cta" style="margin-top:30px;"><div class="reviews-cta-content"><div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google - trusted for startup accounting since 2019.</p></div></div><a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div></section>
+
+
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
@@ -1460,141 +506,88 @@
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
+
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
             
-            <button class="toc-btn active" onclick="document.getElementById('overview-section').scrollIntoView({behavior:'smooth'})">Overview</button>
-                <button class="toc-btn" onclick="document.getElementById('what-section').scrollIntoView({behavior:'smooth'})">What Is It</button>
-                <button class="toc-btn" onclick="document.getElementById('who-section').scrollIntoView({behavior:'smooth'})">Who Needs It</button>
-                <button class="toc-btn" onclick="document.getElementById('services-section').scrollIntoView({behavior:'smooth'})">Our Services</button>
-                <button class="toc-btn" onclick="document.getElementById('procedure-section').scrollIntoView({behavior:'smooth'})">Process</button>
-                <button class="toc-btn" onclick="document.getElementById('documents-section').scrollIntoView({behavior:'smooth'})">What We Need</button>
-                <button class="toc-btn" onclick="document.getElementById('challenges-section').scrollIntoView({behavior:'smooth'})">Challenges</button>
-                <button class="toc-btn" onclick="document.getElementById('fees-section').scrollIntoView({behavior:'smooth'})">Fees</button>
-                <button class="toc-btn" onclick="document.getElementById('timeline-section').scrollIntoView({behavior:'smooth'})">Timeline</button>
-                <button class="toc-btn" onclick="document.getElementById('benefits-section').scrollIntoView({behavior:'smooth'})">Benefits</button>
-                <button class="toc-btn" onclick="document.getElementById('comparison-section').scrollIntoView({behavior:'smooth'})">DIY vs Patron</button>
-                <button class="toc-btn" onclick="document.getElementById('faq-section').scrollIntoView({behavior:'smooth'})">FAQs</button>
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+                    <a href="#what-section" class="toc-btn">What Is It</a>
+                    <a href="#who-section" class="toc-btn">Who Needs It</a>
+                    <a href="#services-section" class="toc-btn">Services</a>
+                    <a href="#procedure-section" class="toc-btn">Process</a>
+                    <a href="#documents-section" class="toc-btn">Documents</a>
+                    <a href="#challenges-section" class="toc-btn">Challenges</a>
+                    <a href="#fees-section" class="toc-btn">Fees</a>
+                    <a href="#timeline-section" class="toc-btn">Calendar</a>
+                    <a href="#benefits-section" class="toc-btn">Benefits</a>
+                    <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+                    <a href="#comparison-section" class="toc-btn">Comparison</a>
+                    <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
+
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What This Service Covers: A Quick Overview</h2>
+            <h2 class="section-title">What Chart of Accounts Setup Covers — Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - Chart of Accounts Setup Services at a Glance</strong></p>
-                    <p>Chart of accounts setup builds the structured list of accounts your books run on, organised into five categories with India tax heads for GST, TDS, and PF. It is a one-time service for new entities and migrations, starting from INR 4,999.</p>
+                    <p>Chart of accounts setup decides, before the first entry, how every transaction will be grouped and reported. Patron builds the code structure so a single posting feeds both the GST return and the Schedule III board pack. Opening balances are migrated and reconciled before go-live. Works well for new entities, ERP migrations and books that have outgrown their codes.</p>
                 </div>
-                <div class="table-responsive-wrapper" style="margin-bottom:20px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td>What it is</td><td>The structured master list of accounts in your books</td></tr>
-                        <tr><td>Categories</td><td>Assets, Liabilities, Equity, Income, Expenses</td></tr>
-                        <tr><td>Numbering</td><td>1000s Assets to 5000s Expenses</td></tr>
-                        <tr><td>India heads</td><td>GST, TDS, PF, ESI, Professional Tax, Cess</td></tr>
-                        <tr><td>Cost</td><td>From INR 4,999 one-time (Exl GST)</td></tr>
-                        <tr><td>Best for</td><td>New entities, migrations, restructuring</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p>Chart of accounts setup services give your accounting system the right skeleton from the start. Patron Accounting has supported over 10,000 businesses across India and configures the COA on Tally, Zoho Books, QuickBooks, and Xero.</p>
-                <p>We design a clean, GST and TDS-ready chart of accounts in Tally, Zoho Books, or QuickBooks, structured for accurate reporting and easy compliance from day one.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>Schedule III fixes the heads under which a company must present its accounts, and no amount of year-end regrouping makes a badly numbered ledger fall into them cleanly. So the work starts with the reports you are obliged to produce, then reasons backwards to codes. Patron drafts the account tree, agrees naming and numbering conventions with you, loads it into the software and runs a test posting before anyone books live entries. How account codes are structured explains the numbering logic.</p>
+                <p>Get the structure wrong and cost surfaces later, in regrouped comparatives, disallowed claims and GST heads that cannot be traced to a ledger. Chart of accounts design grows with the entities, locations and registrations you report on. Loading the final structure into your software is included. Ongoing bookkeeping is not, and any restatement under the accounting standards issued by ICAI is available as an independent engagement.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
+
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is a Chart of Accounts?</h2>
+                <h2 class="section-title">What Is Chart of Accounts Setup?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p>A chart of accounts (COA) is a structured list of every financial account a business uses to record transactions, organised into assets, liabilities, equity, income, and expenses. It is the backbone of your accounting system.</p>
-                    <p>Every invoice, bill, bank entry, and journal is recorded against an account in this chart. The COA defines the structure, while the general ledger captures the actual transactions. If the chart is set up wrong, with missing GST accounts or unclear expense heads, every financial report you generate becomes misleading.</p>
+                    <p>Chart of accounts setup is not ongoing bookkeeping, though the two are often confused. It is the one-time design that decides, before a single entry is booked, how every future transaction will be grouped, named and numbered. The books that follow can only report as cleanly as this structure allows.</p>
+<p>Work starts from the statements you must file, then runs back to the account codes that will feed them. One posting is made to serve both your tax working and your board pack. It drafts the account tree, agrees the naming and numbering conventions, loads the structure into your software and runs a test posting before any live entry is made. Opening balances are brought across and agreed before the system goes live. It is a design exercise, not a data-entry one. The <a href="/blog/chart-of-accounts-template-india-gst">chart of accounts</a> design is fixed here; the routine bookkeeping that runs on it afterwards, and any restatement under the accounting standards, sit outside this engagement.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Chart of Accounts Setup:</strong></p>
-                    <ul>
-                        <li><strong>Account head:</strong> an individual line in the COA, such as Rent or Sales.</li>
-                        <li><strong>Sub-account:</strong> a nested breakdown under a parent account for detail.</li>
-                        <li><strong>Account numbering:</strong> a code that groups accounts by type for easy lookup.</li>
-                        <li><strong>General ledger:</strong> the record of actual transactions posted to each account.</li>
-                    </ul>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/parent-child-ledger-hierarchy">Parent-Child Ledger Hierarchy</a></span><span class="al-d">Grouping detailed ledgers under summary heads so reports roll up neatly.</span></li><li><span class="al-t"><a href="/glossary/segmented-chart-of-accounts">Segmented Chart of Accounts</a></span><span class="al-d">Codes that split figures by branch, department or product for reporting.</span></li><li><span class="al-t"><a href="/glossary/operational-cost-centers">Operational Cost Centers</a></span><span class="al-d">Tags that show which team or location a cost belongs to.</span></li><li><span class="al-t"><a href="/glossary/double-entry-bookkeeping">Double-Entry Bookkeeping</a></span><span class="al-d">Recording every transaction twice, as a debit and a matching credit.</span></li><li><span class="al-t"><a href="/glossary/general-ledger">General Ledger</a></span><span class="al-d">The master record holding every account and its running balance.</span></li><li><span class="al-t"><a href="/glossary/ledger-mapping-schema">Ledger Mapping Schema</a></span><span class="al-d">The rules linking each transaction type to the ledger it posts to.</span></li><li><span class="al-t"><a href="/glossary/bank-clearing-account">Bank Clearing Account</a></span><span class="al-d">A holding account for money in transit between bank and books.</span></li></ul></div>
 
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Chart of Accounts Setup</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>From INR 4,999</span>
-                        <strong>GST and TDS-Ready</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/what-is.webp" alt="What Is Chart of Accounts Setup. Chart of accounts setup is not ongoing bookkeeping, though the two are often" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Chart of Accounts Setup?</h2>
+            <h2 class="section-title">Who Needs Chart of Accounts Setup in India?</h2>
             <div class="content-text">
                 
-                <p>Any business setting up or restructuring its accounting system needs a properly designed COA, especially before transactions start flowing.</p>
-                <ul>
-                    <li>Newly registered companies, LLPs, and proprietorships starting their books.</li>
-                    <li>Businesses migrating from Tally to Zoho Books or QuickBooks.</li>
-                    <li>Companies whose existing COA is messy, duplicated, or non-compliant.</li>
-                    <li>Growing businesses that have outgrown a few basic expense categories.</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>India note:</strong> an India-ready COA must include GST accounts for CGST, SGST, and IGST input and output, plus TDS payable, PF and ESI payable, Professional Tax, and Cess, so compliance is built in from the start.</p>
-                </div>
+                <p>This is for businesses at a starting line: a new company, a move to fresh accounting software, or a ledger grown into hundreds of overlapping heads. Each one needs the chart of accounts setup done before transactions pile onto a design nobody chose.</p>
+  <ul>
+    <li>Newly incorporated companies opening their books and needing a code structure before the first entry.</li>
+    <li>Companies moving onto new accounting software whose old ledger list is a flat, unusable jumble.</li>
+    <li>Groups that added entities, branches and GSTINs faster than <a href="/blog/chart-of-accounts-numbering-system">a sensible numbering system</a> could keep up.</li>
+    <li>Businesses whose month-end needs heavy regrouping because one ledger head carries three different meanings.</li>
+    <li>Firms facing investor or lender reporting their current codes cannot produce without a manual working.</li>
+    <li>Businesses wanting a chart of accounts design where department, project and location spend falls out of one entry.</li>
+    <li>Indian firms needing <a href="/blog/chart-of-accounts-template-india-gst">GST ledgers built into the structure</a>, not bolted on at return time.</li>
+    <li>Businesses handing over from a departing accountant whose personal coding no one else can follow.</li>
+  </ul>
 
             </div>
             </div>
@@ -1602,7 +595,7 @@
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
@@ -1612,12 +605,12 @@
                 <table>
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
-                        <tr><td>Structure design</td><td>A five-category COA mapped to your business model and reports.</td></tr>
-                        <tr><td>Numbering system</td><td>A logical 1000s to 5000s scheme with room to expand.</td></tr>
-                        <tr><td>India tax heads</td><td>GST, TDS, PF, ESI, Professional Tax, and Cess accounts.</td></tr>
-                        <tr><td>Industry customisation</td><td>Inventory, projects, or service-specific accounts as needed.</td></tr>
-                        <tr><td>Software configuration</td><td>Setup in Tally, Zoho Books, QuickBooks, or Xero.</td></tr>
-                        <tr><td>Migration mapping</td><td>Tally-to-Zoho or other ledger mapping and clean import.</td></tr>
+                        <tr><td>Reporting obligations review</td><td>We start your chart of accounts setup from the reporting you must produce, covering Schedule III, lender, investor and parent-company formats <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Existing ledger audit</td><td>We audit your current ledger master, finding duplicate, unused and misgrouped heads, so the redesign starts from a clear picture <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Code structure design</td><td>Our chart of accounts design gives each head one meaning and a numbering system with room to grow, following this <a href="/blog/chart-of-accounts-numbering-system">numbering system guide</a> <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Dimensions and tax build-in</td><td>We separate cost centre, department and project dimensions from account heads and build GST and TDS tracking into the structure from the start <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Software configuration and migration</td><td>We configure the structure in your accounting software, migrate opening balances so they agree, and restrict who can create new ledgers <span class="badge-included">One-time (setup)</span></td></tr>
+                        <tr><td>Chart of accounts documentation</td><td>We write down the naming rules and posting logic, so the structure survives handover and new staff use it consistently <span class="badge-included">One-time (setup)</span></td></tr>
 
                     </tbody>
                 </table>
@@ -1627,146 +620,118 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
+
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">The 5-Step Setup Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">A clear, repeatable process that understands your business, defines the five categories, assigns numbering, adds India tax heads, and configures the COA in your software.</p>
+            <h2 class="section-title">How Chart of Accounts Setup Works — Our Process</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">How Patron delivers chart of accounts setup, step by step from onboarding to a clean monthly close.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 1</span>
-                    <h3 class="step-title">Understand the business</h3>
-                    <p class="step-description">We review your model, the reports you need, and your compliance profile to scope the right COA.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Model reviewed</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Reports scoped</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30 80V40h26v40M64 80V26h26v54z" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="38" y="50" width="8" height="8" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><rect x="72" y="38" width="8" height="8" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><rect x="72" y="54" width="8" height="8" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/></svg></div>
-                        <span class="illustration-label">Business Understood</span>
-                        <span class="step-number-large">01</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Start from the reporting obligations</h3>
+    <p class="step-description">We begin with what the numbers must eventually become: legal entities, branches, GSTINs and states, the Schedule III groupings that apply, and any investor, lender or parent-company format. The chart is then designed backwards from those outputs rather than upwards from transactions.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/step-1-start-from-the-reporting-obligations.webp" alt="Illustration for Start from the reporting obligations: We begin with what the numbers must eventually become: legal" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 2</span>
-                    <h3 class="step-title">Define categories</h3>
-                    <p class="step-description">We organise accounts into assets, liabilities, equity, income, and expenses.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Five categories</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Mapped to reports</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="26" y="22" width="68" height="14" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><rect x="26" y="42" width="68" height="14" rx="3" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/><rect x="26" y="62" width="68" height="14" rx="3" fill="#F0F4F8" stroke="#14365F" stroke-width="1.2"/></svg></div>
-                        <span class="illustration-label">Categories Defined</span>
-                        <span class="step-number-large">02</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Audit the existing ledger master</h3>
+    <p class="step-description">The current ledger export is reviewed for the familiar damage: duplicate vendor accounts, ledgers named after individuals, expense buckets called miscellaneous, and accounts created in a hurry and never used again. Each one is marked keep, merge or retire before any new design begins.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/step-2-audit-the-existing-ledger-master.webp" alt="Illustration for Audit the existing ledger master: The current ledger export is reviewed for the familiar damage: duplicate" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 3</span>
-                    <h3 class="step-title">Assign numbering</h3>
-                    <p class="step-description">We apply a 1000s to 5000s scheme with sub-accounts and gaps for growth.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>1000s to 5000s</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Gaps for growth</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="34" y="18" width="52" height="64" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="46" y="40" font-size="11" fill="#14365F" font-weight="700" font-family="Arial">1000</text><text x="46" y="56" font-size="11" fill="#F5A623" font-weight="700" font-family="Arial">2000</text><text x="46" y="72" font-size="11" fill="#14365F" font-weight="700" font-family="Arial">5000</text></svg></div>
-                        <span class="illustration-label">Numbering Assigned</span>
-                        <span class="step-number-large">03</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Design the code structure</h3>
+    <p class="step-description">Account codes are laid out in blocks that follow the reporting groupings, with deliberate gaps so new accounts fit later without renumbering. Depth is kept shallow on purpose: one account should mean one thing, and its name should make clear what belongs in it.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/step-3-design-the-code-structure.webp" alt="Illustration for Design the code structure: Account codes are laid out in blocks that follow the reporting groupings, with" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 4</span>
-                    <h3 class="step-title">Add India tax heads</h3>
-                    <p class="step-description">We configure GST, TDS, PF, ESI, Professional Tax, and Cess accounts so compliance is built in.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST and TDS</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>PF, ESI, PT</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="50" r="26" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="56" font-size="16" fill="#F5A623" font-weight="700" text-anchor="middle" font-family="Arial">GST</text><circle cx="86" cy="30" r="12" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><path d="M80 30l4 4 8-8" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-                        <span class="illustration-label">Tax Heads Added</span>
-                        <span class="step-number-large">04</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Separate dimensions from accounts</h3>
+    <p class="step-description">Department, cost centre, location and project are configured as dimensions carried on the transaction, never as duplicated ledgers. Repeating the same expense account for every branch is the most common reason a chart becomes unusable, and it makes consolidated reporting impossible without spreadsheets.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/step-4-separate-dimensions-from-accounts.webp" alt="Illustration for Separate dimensions from accounts: Department, cost centre, location and project are configured as" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 5</span>
-                    <h3 class="step-title">Configure and handover</h3>
-                    <p class="step-description">We build it in your software, test postings, and brief your team for a smooth start.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Software built</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Team briefed</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="28" y="28" width="64" height="44" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="50" r="9" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/><path d="M56 50l3 3 6-7" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><g stroke="#14365F" stroke-width="2" stroke-linecap="round"><line x1="60" y1="36" x2="60" y2="40"/><line x1="60" y1="60" x2="60" y2="64"/></g></svg></div>
-                        <span class="illustration-label">Configured and Handed Over</span>
-                        <span class="step-number-large">05</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Build tax into the structure</h3>
+    <p class="step-description">Ledgers are structured so that tax falls out of them. Output and input tax are held by GSTIN, reverse charge exposures kept separate, tax deducted at source split by section, and revenue accounts aligned to HSN and SAC codes. Return preparation then becomes a report, not a project.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/step-5-build-tax-into-the-structure.webp" alt="Illustration for Build tax into the structure: Ledgers are structured so that tax falls out of them. Output and input tax" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Configure, migrate and restrict</h3>
+    <p class="step-description">The chart is created in your accounting software, old ledgers are mapped one-to-one to new ones, and balances are migrated and agreed back to the trial balance. Posting rights are set by role and the ability to create new ledgers is restricted to named people.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/step-6-configure-migrate-and-restrict.webp" alt="Illustration for Configure, migrate and restrict: The chart is created in your accounting software, old ledgers are mapped" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 7</span>
+    <h3 class="step-title">Write the rules down</h3>
+    <p class="step-description">A short manual accompanies the chart: what posts where, how accounts are named, which dimensions are mandatory on which transaction types, and who approves a new ledger. Without that document the chart drifts back to its old state within about a year.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/accounting-cluster/chart-of-accounts-setup-services/step-7-write-the-rules-down.webp" alt="Illustration for Write the rules down: A short manual accompanies the chart: what posts where, how accounts are named, which" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
 
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
+
+
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What We Need to Start</h2>
+            <h2 class="section-title">Documents Required for Chart of Accounts Setup</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li>Business type, industry, and entity structure.</li>
-                    <li>Accounting software in use or planned.</li>
-                    <li>GST registration and applicable tax details.</li>
-                    <li>Existing COA or Tally ledger list, if migrating.</li>
-                    <li>Reports and KPIs you want the COA to support.</li>
-                </ul>
-                <p style="margin-top:16px;">Ask us for a free India-ready COA template before kickoff.</p>
-                <p style="margin-top:12px;"><strong>What you receive:</strong> a configured, GST and TDS-ready chart of accounts in your software; a documented COA list with numbering and account types; a sub-account structure for key expense and income heads; and a short guide so your team posts to the right accounts.</p>
+                <p>This is a design exercise fed by structure and reporting needs rather than by vouchers, and ten items genuinely cover it.</p>
+<ul>
+    <li>List of legal entities, branches, GSTINs and states of operation</li>
+    <li>Organisation structure: departments, cost centres, projects and locations to be reported on</li>
+    <li>Product and service catalogue or price list with HSN/SAC codes and applicable GST rates</li>
+    <li>List of all bank, loan, credit card, wallet and payment gateway accounts</li>
+    <li>Reporting requirements: Schedule III groupings needed, plus any investor, lender or parent-company reporting format</li>
+    <li>Tax positions to be tracked: GST rates in use, reverse charge exposures, and the TDS/TCS sections applicable</li>
+    <li>Accounting software in use, its edition, and the user and role list</li>
+    <li>Any existing approval matrix or accounting policy note</li>
+    <li>Existing chart of accounts / ledger master export from the current accounting software</li>
+    <li>Latest trial balance and the last signed financial statements</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges and How We Solve Them</h2>
+            <h2 class="section-title">Common Chart of Accounts Setup Challenges and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>No GST or TDS accounts in the COA</td><td>Errors cascade into returns and audits</td><td>Add CGST, SGST, IGST, and TDS heads from the start</td></tr>
-                        <tr><td>Duplicate or unclear expense heads</td><td>Misleading, hard-to-read reports</td><td>Rationalise into a clean, logical structure</td></tr>
-                        <tr><td>No room to add accounts later</td><td>Costly restructuring as you grow</td><td>Numbering with gaps designed for growth</td></tr>
-                        <tr><td>Messy Tally-to-cloud migration</td><td>Lost or mismapped ledgers</td><td>Map ledgers correctly and import cleanly</td></tr>
+                        <tr><td>Expense heads sprawl with duplicate and overlapping account codes</td><td>Reports fragment, the same cost lands in three ledgers and analysis breaks down</td><td>We rationalise to a numbered hierarchy with one head per cost type; see how to <a href="/blog/set-up-chart-of-accounts-india">set up a chart of accounts</a></td></tr>
+                        <tr><td>No sub-ledger structure for cost centres or locations</td><td>Branch or project profitability cannot be pulled without manual re-sorting each period</td><td>Build dimensions and cost centres into the code, so one posting reports by entity, branch and project</td></tr>
+                        <tr><td>GST rate and place-of-supply not designed into ledgers</td><td>Returns filled by manual regrouping, with mismatches against 2B and 3B every cycle</td><td>Tag tax type and HSN at account level, so postings feed the GST return without rework</td></tr>
+                        <tr><td>Schedule III groupings bolted on at year-end</td><td>Audit regrouping eats weeks, and the board pack never ties to the ledger</td><td>Align account heads to Schedule III line items from the start, so statements assemble directly</td></tr>
+                        <tr><td>Inconsistent codes across group entities block consolidation</td><td>Intercompany elimination and consolidated reporting need manual mapping each period</td><td>Issue a uniform group chart with a mapping key, so entities consolidate cleanly</td></tr>
 
                     </tbody>
                 </table>
@@ -1776,52 +741,54 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
+
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Chart of Accounts Setup Fees in 2026</h2>
+            <h2 class="section-title">Chart of Accounts Setup Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td class="table-amount">Starting from INR 4,999 one-time (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Market band by software (context)</td><td class="table-amount">Rs 3,000 to Rs 8,000 one-time</td></tr>
-                        <tr><td>Migration-linked or multi-entity</td><td class="table-amount">Custom, quoted on scope after a free assessment</td></tr>
-                        <tr><td>Bundled with annual accounting engagement</td><td class="table-amount">Included free</td></tr>
+                        <tr><td><strong>Standard</strong> &mdash; a single-entity chart with a standard ledger structure</td><td>INR 4,999 one-time<br><span style="font-size:12px;color:var(--text-muted);">Excl. GST & Government Charges</span></td></tr>
+                        <tr><td><strong>Complex</strong> &mdash; a group structure with many ledgers or multi-entity mapping</td><td>On quote</td></tr>
 
                     </tbody>
                 </table>
-                </div>
+                </div><p style="margin-top:14px;font-size:14px;">A single-entity chart of accounts setup is a one-time project at <strong>INR 4,999,</strong> covering your ledgers, groups and opening balances. The fee depends on your group structure and the <a href="/blog/what-is-chart-of-accounts">number of ledgers we design</a>, so multi-entity mapping sits higher. Schedule a pricing consultation on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Chart of Accounts Setup consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Chart%20of%20Accounts%20Setup%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Get a free Chart of Accounts Setup consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20chart%20of%20accounts%20setup%20services" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
+
 <section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Turnaround Time</h2>
+            <h2 class="section-title">Chart of Accounts Setup Compliance Calendar 2026</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
+                    <thead><tr><th>Compliance</th><th>Due Date</th><th>Applies To</th></tr></thead>
                     <tbody>
-                        <tr><td>Standard COA setup</td><td>About 2 to 4 business days once we have details and software access</td></tr>
-                        <tr><td>Migration-linked setup</td><td>A little longer, depending on the volume of ledgers to map</td></tr>
-                        <tr><td>Handover and team briefing</td><td>On completion, after test postings</td></tr>
+                        <tr><td>TDS / TCS deposit (Challan ITNS-281)</td><td>7th of every month (30 April for March)</td><td>Every business that deducts tax at source on salaries, rent, contractor or professional fees</td></tr>
+                        <tr><td>GSTR-1 (outward supplies)</td><td>11th of every month for monthly filers</td><td>GST-registered businesses filing monthly returns</td></tr>
+                        <tr><td>Provident Fund (ECR) and ESI contribution</td><td>15th of every month</td><td>Employers registered under EPF and ESI</td></tr>
+                        <tr><td>GSTR-3B (summary return and tax payment)</td><td>20th of every month for monthly filers</td><td>GST-registered businesses filing monthly; QRMP filers pay via PMT-06</td></tr>
+                        <tr><td>Tax audit report (Form 3CA/3CB-3CD)</td><td>30 September 2026</td><td>Businesses crossing the Section 44AB turnover threshold</td></tr>
+                        <tr><td>Annual GST return GSTR-9 and reconciliation GSTR-9C</td><td>31 December 2026</td><td>GST-registered businesses above the annual-return and audit thresholds</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <div class="highlight-box" style="margin-top:16px;">
                     
-                    <p>A standard chart of accounts setup is typically completed within two to four business days once we understand your business and have software access. Migration-linked setups take a little longer, depending on the volume of ledgers to map and import.</p>
+                    <p>A chart of accounts is worth setting up before your first filing dates, the 11th GSTR-1 and 20th GSTR-3B, so tax codes map cleanly from day one. Patron builds a GST-ready <a href="/blog/chart-of-accounts-template-india-gst">chart of accounts</a> that carries through to the year-end audit. Get a filing-reminder schedule set up; call +91 94594 56700.</p>
 
                 </div>
             </div>
@@ -1829,70 +796,88 @@
     </div>
 </section>
 
-<!-- SECTION 12: BENEFITS -->
+
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Benefits of a Professionally Built COA</h2>
+            <h2 class="section-title">Why Professional Chart of Accounts Setup Matters</h2>
         </div>
         <div class="features-grid">
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
-            <h3 class="feature-title">Accurate reports from day one</h3>
-            <p class="feature-desc">Meaningful financial reports built on a correct account structure.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-            <h3 class="feature-title">Compliance built in</h3>
-            <p class="feature-desc">GST and TDS heads embedded in the structure from the start.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
-            <h3 class="feature-title">Clean, scalable numbering</h3>
-            <p class="feature-desc">A logical scheme with gaps that grows with your business.</p>
-        </article>
-        <article class="feature-card">
-            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
-            <h3 class="feature-title">Fewer errors, easier audits</h3>
-            <p class="feature-desc">A clear structure means fewer posting errors and smoother audits later.</p>
-        </article>
-    </div>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /> </svg></div>
+  <h3 class="feature-title">One head, one meaning</h3>
+  <p class="feature-text">Each account name states what belongs in it, and only named people can create a new ledger.</p><ul style="margin-top:12px;"><li>Code structure designed, then ledger creation restricted to named staff</li><li>One meaning per head stops three versions of an expense</li><li>Without it, comparatives are regrouped by hand every year</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> </svg></div>
+  <h3 class="feature-title">Tax figures traceable to ledgers</h3>
+  <p class="feature-text">We keep output and input tax by GSTIN, reverse charge apart and deduction at source split by section.</p><ul style="margin-top:12px;"><li>GSTINs by state and TDS/TCS sections built into the structure</li><li>A queried return figure points to the ledger it came from</li><li>Without it, return figures are rebuilt from invoices under query</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /> <circle cx="12" cy="12" r="3" /> </svg></div>
+  <h3 class="feature-title">Room to grow without renumbering</h3>
+  <p class="feature-text">We lay out code blocks with deliberate gaps, so a new product line or branch slots in where it belongs.</p><ul style="margin-top:12px;"><li>Deliberate gaps in the number blocks leave room to grow</li><li>New accounts land where they belong, not at the bottom</li><li>Without gaps, the numbering soon stops matching the business</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> </svg></div>
+  <h3 class="feature-title">Branch reporting without spreadsheets</h3>
+  <p class="feature-text">We carry location, department and project on the transaction as dimensions, instead of repeating a ledger for every branch.</p><ul style="margin-top:12px;"><li>Dimensions sit on the transaction, separate from the accounts</li><li>One rent head reports by branch without duplicate ledgers</li><li>Without dimensions, consolidation becomes a manual mapping every month</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" /> <path d="M21 3v5h-5" /> <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" /> <path d="M8 16H3v5" /> </svg></div>
+  <h3 class="feature-title">Opening balances that agree</h3>
+  <p class="feature-text">We map old ledgers one to one onto the new tree and agree migrated balances to the trial balance before go-live.</p><ul style="margin-top:12px;"><li>Migrated balances tied back to the latest trial balance</li><li>Old ledger master export mapped one to one</li><li>Without it, later differences are argued twice, migration versus current period</li></ul>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" /> </svg></div>
+  <h3 class="feature-title">A structure that survives handover</h3>
+  <p class="feature-text">A written manual records what posts where, which dimensions are mandatory and who may approve a new ledger.</p><ul style="margin-top:12px;"><li>The accounting manual sets posting rules and approval rights</li><li>Mandatory dimensions and ledger approvals written down for the next person</li><li>Without it, the chart drifts back after a staff change</li></ul>
+</article>
+</div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+
+
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Businesses Trust Patron Accounting</h2>
-            <div class="content-text">
-                
-                <p><strong>10,000+ Businesses | 4.9 Google Rating | 50,000+ Documents Processed | 15+ Years</strong></p>
-                <p>"Patron Accounting gives the best service related to all account handling of our firm. She files all returns timely and is most kind and respectful towards us." - Nikhil Nimbhorkar, Google Review</p>
-                <p>"I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free." - Subhendu Mishra, Google Review</p>
-                <p><strong>Outcome proof:</strong> a newly incorporated company started on a clean, GST-ready COA, avoiding the mid-year restructuring its peers needed before their first audit.</p>
-                <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</p>
-
+            <h2 class="section-title">Why Businesses Choose Patron Accounting for Chart of Accounts Setup</h2>
+            <p class="section-intro">Five things a founder can check before handing over the books. Each is a claim with the proof behind it.</p>
+            
+            <div class="why-patron-grid">
+                <div><strong>A COA built for the reports you need</strong><p>We design the ledger structure around the reports you must produce, not a stock template, so every head has one clear meaning. This <a href="/blog/chart-of-accounts-numbering-system">account code structure</a> work draws on 15+ years of experience.</p></div>
+                <div><strong>GST, TDS and Schedule III mapping designed in</strong><p>We map GST, TDS and Schedule III groupings into the ledgers from the first entry, following a <a href="/blog/chart-of-accounts-template-india-gst">GST-ready ledger template</a> so statutory figures trace to source. That reflects the 25,000+ filings we have completed.</p></div>
+                <div><strong>Built natively in Zoho Books, Xero or Odoo</strong><p>We work in whichever of Zoho Books, Xero, Tally Prime or Odoo you run. The chart of accounts is built directly in the platform you run, not a spreadsheet imported later.</p></div>
+                <div><strong>Live COA with opening balances migrated</strong><p>We hand over a live chart of accounts with opening balances migrated and agreed to your last signed figures, so the first month closes clean. Clients rate this 4.9 on Google.</p></div>
+                <div><strong>Charts designed across the 3,000+ businesses served</strong><p>The businesses whose books we have structured sit among the 3,000+ we have served since 2019, from proprietorships to mid-sized groups. Our in-house team of CAs and CS brings 15+ years of experience.</p></div>
             </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope and turnaround are confirmed in your engagement letter.</p>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
+
+
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY vs Professional COA Setup</h2>
+            <h2 class="section-title">Default Software COA vs Custom Segmented COA</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Factor</th><th>DIY / Default</th><th>Patron COA Setup</th></tr></thead>
+                    <thead><tr><th>Criterion</th><th>Default Software COA</th><th>Custom Segmented COA</th></tr></thead>
                     <tbody>
-                        <tr><td>GST and TDS heads</td><td>Often missing or wrong</td><td>Built in from the start</td></tr>
-                        <tr><td>Structure</td><td>Generic default</td><td>Tailored to your business</td></tr>
-                        <tr><td>Scalability</td><td>Runs out of room</td><td>Numbered with gaps for growth</td></tr>
-                        <tr><td>Reporting</td><td>Messy and unclear</td><td>Clean, report-ready</td></tr>
+                        <tr><td>Setup effort</td><td>Default: ready out of the box, quick to start.</td><td>Custom: designed upfront, taking more time to build.</td></tr>
+                        <tr><td>Structure</td><td>Default: generic single-level heads with little grouping.</td><td>Custom: parent-child hierarchy with cost centres and segments.</td></tr>
+                        <tr><td>Reporting depth</td><td>Default: totals only, with limited drill-down by unit.</td><td>Custom: branch, product and department views without spreadsheets.</td></tr>
+                        <tr><td>Tax mapping</td><td>Default: broad heads make GST and TDS harder to trace.</td><td>Custom: ledgers aligned to return lines and tax figures.</td></tr>
+                        <tr><td>Scalability</td><td>Default: renumbering often needed as the business grows.</td><td>Custom: spare codes left to add heads later.</td></tr>
+                        <tr><td>Handover risk</td><td>Default: meanings drift as staff add duplicate heads.</td><td>Custom: one head one meaning, surviving staff changes.</td></tr>
+                        <tr><td><strong>Verdict</strong></td><td colspan="2">A default software chart of accounts suits a very small single-location business. Any firm with branches, GST complexity or growth plans is better served by a custom segmented design following a <a href="/blog/chart-of-accounts-numbering-system">chart of accounts numbering system</a>.</td></tr>
 
                     </tbody>
                 </table>
@@ -1902,199 +887,185 @@
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
+
+
+
+
+
+
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">Legal and Regulatory Framework for Chart of Accounts Setup</h2>
             <div class="content-text">
                 
-                <p>COA setup is the foundation for our wider accounting and compliance stack. Explore these closely related services:</p>
-                <ul>
-                    <li><a href="/accounting-services">Accounting Services</a> - full-service bookkeeping and financial reporting.</li>
-                    <li><a href="/gst-registration">GST Registration</a> - new GST registration for your entity.</li>
-                    <li><a href="/gst-returns">GST Returns Filing</a> - monthly and annual return preparation and filing.</li>
-                    <li><a href="/tds-return">TDS Return Filing</a> - quarterly TDS return preparation and filing.</li>
-                    <li><a href="/private-limited-company-registration">Private Limited Company Registration</a> - incorporation for new entities.</li>
-                </ul>
+                <p>One transaction wears two faces the moment it is booked: an accounting face measured under the standards and a tax face measured under the CGST and Income-tax Acts. A chart of accounts is where those two are reconciled in advance, by deciding which ledger a rupee lands in before it is ever posted, so the same expense reads correctly for the profit and loss and for the GST return.</p>
+<p>That is why the design is a compliance exercise, not a naming one. The heads have to carry the input-tax split, the TDS nature of a payment and the Schedule III grouping all at once, which is why a <a href="/glossary/segmented-chart-of-accounts">Segmented Chart of Accounts</a> and a clean <a href="/glossary/parent-child-ledger-hierarchy">Parent-Child Ledger Hierarchy</a> matter more than tidy labels. Chart of accounts setup builds that structure to satisfy the provisions below from the first entry.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">The books are kept on accrual and double entry, so the ledger structure must support that discipline before the first voucher is posted - the basis of <a href="/glossary/double-entry-bookkeeping">Double-Entry Bookkeeping</a>.</span></li><li><span class="al-t"><strong>Companies (Accounting Standards) Rules 2021 and Companies (Indian Accounting Standards) Rules 2015</strong></span><span class="al-d">The heads are mapped to the applicable AS or Ind AS grouping, so measurement and disclosure fall out of the structure automatically.</span></li><li><span class="al-t"><strong>Section 35(1), CGST Act 2017</strong></span><span class="al-d">The accounts must separate inward and outward supplies, input tax credit and output tax, which the ledger design has to accommodate for every GSTIN.</span></li><li><span class="al-t"><strong>Section 128 and Section 44AA, Income-tax Act 1961</strong></span><span class="al-d">The same double-entry obligation applies whichever entity holds the books, so the chart is built to fit a company or a non-corporate alike.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The software's audit trail is enabled from set-up, so any later change to a ledger head is itself on record. Ongoing posting is handled separately under <a href="/backlog-bookkeeping-catch-up-services">catch-up bookkeeping</a> where records are behind.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Why an India-Ready COA Matters for Compliance</h2>
-            <div class="content-text">
-                
-                <p>In India, the chart of accounts is not just an organisational tool; it is the basis for GST and TDS compliance. GST rules require businesses to segregate input tax credit from output tax liability across CGST, SGST, and IGST, which only a correctly structured COA can support.</p>
-                <p>A COA missing these heads leads to errors that cascade into GST returns, financial statements, and tax audits. Setting it up correctly at the start, with TDS payable, PF and ESI, Professional Tax, and Cess accounts in place, keeps every downstream filing clean.</p>
-                <p>For official guidance on the GST account structure that your COA must support, refer to the <a href="https://www.gst.gov.in" target="_blank" rel="noopener">Goods and Services Tax portal (gst.gov.in)</a>.</p>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    <p class="faq-expanded__lead">Real questions businesses ask about the chart of accounts, the five categories, numbering, India tax heads, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    <h2 class="faq-expanded__title">Chart of Accounts Setup FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on chart of accounts setup scope, process, documents and pricing for Indian businesses.</p>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
+  <h3 class="faq-enquiry__title">Ask about your books</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <p class="faq-enquiry__context">Enquiring about: <strong>Chart of Accounts Setup</strong></p>
+  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
+  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
+  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
+  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
+  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
+</form>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is a chart of accounts?</h3>
-                        <div class="faq-expanded__a"><p>A chart of accounts (COA) is a structured list of every financial account a business uses to record transactions, organised into assets, liabilities, equity, income, and expenses. It is the backbone of the accounting system; every invoice, bill, bank entry, and journal is recorded against an account in this chart.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">What are the five categories of a chart of accounts?</h3>
-                        <div class="faq-expanded__a"><p>The five categories are assets (what you own), liabilities (what you owe), equity (owner's investment and retained earnings), income (what you earn), and expenses (what you spend). The first three are balance sheet accounts and the last two are income statement accounts, mirroring the structure of financial statements.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">How do you set up a chart of accounts?</h3>
-                        <div class="faq-expanded__a"><p>You start by defining the five categories, add relevant sub-accounts, assign a numbering system, and customise it for your business type and compliance needs. In India this means adding GST, TDS, PF, ESI, Professional Tax, and Cess accounts. A well-structured setup ensures accurate tracking and reliable reporting.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What numbering system should a chart of accounts use?</h3>
-                        <div class="faq-expanded__a"><p>A common convention assigns 1000s to assets, 2000s to liabilities, 3000s to equity, 4000s to income, and 5000s to expenses. Indian businesses often use a five or six-digit scheme for flexibility. The key is to leave gaps between numbers so new accounts can be added later without disrupting the structure.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What is the difference between a chart of accounts and a general ledger?</h3>
-                        <div class="faq-expanded__a"><p>The chart of accounts is the list of all account categories and defines the structure, while the general ledger records the actual financial transactions under those accounts. In short, the COA is the framework and the ledger is the data posted within it.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What India-specific accounts must a chart of accounts include?</h3>
-                        <div class="faq-expanded__a"><p>An India-ready COA should include GST accounts for CGST, SGST, and IGST input and output, TDS payable, PF and ESI payable, Professional Tax, and Cess. These ensure that input tax credit is separated from output liability and that statutory deductions are tracked correctly for compliant filings.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">How much does chart of accounts setup cost in India?</h3>
-                        <div class="faq-expanded__a"><p>Patron Accounting chart of accounts setup starts from INR 4,999 one-time (Exl GST and Govt. Charges). Across the market, standalone setup typically ranges from Rs 3,000 to Rs 8,000 depending on the software and complexity. The setup is bundled free with our annual accounting engagements.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">Can you set up the chart of accounts in our software?</h3>
-                        <div class="faq-expanded__a"><p>Yes. We configure the COA directly in Tally, Zoho Books, QuickBooks, or Xero, including India tax heads and sub-accounts. For businesses migrating from Tally, we map the ledger list to the new platform and import it cleanly so nothing is lost in the move.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-9">
-                        <h3 class="faq-expanded__q">Naye business ke liye chart of accounts kaise set up karein?</h3>
-                        <div class="faq-expanded__a"><p>Aap apna business type, software, aur GST details share kijiye. Hum assets, liabilities, equity, income, aur expenses ki five-category structure banakar, numbering aur GST, TDS, PF jaise India tax heads ke saath aapke software mein COA set up kar dete hain. Free template ke liye call kijiye.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you set up a chart of accounts?</h3>
+  <div class="faq-expanded__a"><p>A chart of accounts is set up by listing every reporting requirement first, then building groups for assets, liabilities, equity, income and expenses, numbering them in blocks and mapping each one to the Schedule III heads used in Indian financial statements. GST input and output ledgers, TDS payable heads and related party accounts are created at this stage rather than bolted on later.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can a new chart of accounts still be built in QuickBooks in India?</h3>
+  <div class="faq-expanded__a"><p>QuickBooks withdrew from India in 2023 and stopped serving Indian subscribers, so a new chart of accounts should not be built there. Businesses still holding an old QuickBooks file should export the account list and trial balance and rebuild the structure in Zoho Books, Tally, Xero or Odoo, with GST and TDS ledgers mapped correctly during the move.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How do you design a chart of accounts?</h3>
+  <div class="faq-expanded__a"><p>A chart of accounts is designed around the decisions the business needs to make, with a short account list and depth pushed into cost centres, departments and tags instead. Keep 60 to 120 ledgers for a small company, separate direct cost from overhead, and avoid one off ledgers for single vendors, because those make year on year comparison impossible.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How is a QuickBooks chart of accounts redesigned for an Indian accounting system?</h3>
+  <div class="faq-expanded__a"><p>Redesign starts by mapping every old QuickBooks account to a new head, merging duplicates and dropping accounts with no balance and no future use. The imported structure rarely fits Indian reporting, so rate wise GST sales heads, TDS receivable and payable ledgers and Schedule III groupings are added before opening balances are posted in the new software.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How long does a chart of accounts setup take?</h3>
+  <div class="faq-expanded__a"><p>A chart of accounts setup takes 5 to 10 working days for a single entity and 2 to 3 weeks where multiple branches, GST registrations or a group consolidation are involved. That covers the design discussion, building the structure in your software, posting opening balances and running a test month of transactions before the structure is signed off.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What does a chart of accounts setup cost?</h3>
+  <div class="faq-expanded__a"><p>A one time chart of accounts setup costs Rs 15,000 to Rs 40,000 for a single entity and Rs 50,000 upwards for group structures with several branches or GST registrations. The fee covers the design document, configuration in Zoho Books, Tally, Xero or Odoo, opening balance migration and a written mapping sheet your team keeps for reference.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What are the 5 basic charts of accounts?</h3>
+  <div class="faq-expanded__a"><p>A chart of accounts rests on five basic account types: assets, liabilities, equity, income and expenses, and every ledger you create sits under one of them. In India each type is then mapped to the Schedule III heads used in the balance sheet and profit and loss account, with GST input and output ledgers and TDS receivable and payable heads built in from the start.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can a chart of accounts be restructured without losing earlier year data?</h3>
+  <div class="faq-expanded__a"><p>Yes, restructuring is done by mapping old ledgers to new ones and merging rather than deleting, so historical vouchers stay intact and comparative figures still pull correctly. We take a full backup before any change, run the merge in a test company first, and hand you a mapping sheet showing where every old balance has landed.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Should GST ledgers be built into the chart of accounts?</h3>
+  <div class="faq-expanded__a"><p>Yes, separate ledgers for CGST, SGST, IGST and cess on both the input and output side belong in the chart of accounts, along with a control account for the electronic cash ledger. Relying only on the software's automatic tax handling makes GSTR-3B reconciliation harder, because the liability and credit balances then have no visible ledger to tie back to.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How should the chart of accounts handle multiple branches and state GST registrations?</h3>
+  <div class="faq-expanded__a"><p>Each state registration needs its own set of GST ledgers while operating heads stay common, with the branch identified through a cost centre or location dimension instead of duplicated ledgers. Inter branch transfers get a dedicated control account that must net to zero on consolidation, which is the first thing auditors test in a multi state structure.</p></div>
+</div>
                 </div>
             </div>
 
-
-            <!-- Quick Answers -->
+            
             <div class="highlight-box" style="margin-top:32px;">
                 <p><strong>Quick Answers</strong></p>
-                <ul>
-                    <li><strong>Starting price?</strong> INR 4,999 one-time (Exl GST).</li>
-                    <li><strong>Categories?</strong> Assets, liabilities, equity, income, expenses.</li>
-                    <li><strong>Numbering?</strong> 1000s assets to 5000s expenses.</li>
-                    <li><strong>India heads?</strong> GST, TDS, PF, ESI, Professional Tax, Cess.</li>
-                    <li><strong>Software?</strong> Tally, Zoho Books, QuickBooks, Xero.</li>
-                </ul>
+                <p>Schedule III fixes the heads under which a company must present its accounts, and no amount of year-end regrouping makes a badly numbered ledger fall into them cleanly. So the work starts with the reports you are obliged to produce, then reasons backwards to codes. Patron drafts the account tree, agrees naming and.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
+
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Why Acting Now Matters</h2>
+            <h2 class="section-title">Chart of Accounts Setup Deadlines You Cannot Afford to Miss</h2>
             <div class="content-text">
                 
-                <p>A weak chart of accounts at the start creates errors that cascade into GST returns, financial statements, and tax audits, often forcing a costly mid-year restructuring. Setting it up correctly before transactions begin, with GST and TDS heads in place, saves rework and keeps every filing clean. The right time to fix the foundation is before you build on it.</p>
-                <p><strong>Get a free, no-obligation quote. Call <a href="tel:+919459456700">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Chart%20of%20Accounts%20Setup%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank">WhatsApp our team</a> today.</strong></p>
+                <p><strong>TDS / TCS deposit (Challan ITNS-281)</strong> is due 7th of every month (30 April for March). <strong>GSTR-1 (outward supplies)</strong> is due 11th of every month for monthly filers. <strong>Provident Fund (ECR) and ESI contribution</strong> is due 15th of every month. Patron tracks each against your books so nothing is reconstructed after the fact. Call <a href="tel:+919459456700">+91 94594 56700</a> to set up a filing-reminder schedule.</p>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
+
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Build Your Books on the Right Foundation</h2>
-            <div class="content-text" style="text-align:left;color:#FFFFFF !important;">
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Chart of Accounts Setup with Patron Accounting</h2>
+            <div class="content-text" style="text-align:left;">
                 
-                <p>The chart of accounts is the skeleton of your accounting system, and getting it right at the start pays off for years. Patron Accounting designs a clean, GST and TDS-ready COA tailored to your business and configured in your software.</p>
-                <p>The result is accurate reporting, easy compliance, and room to grow. Call +91 945 945 6700, WhatsApp us, or request a free consultation.</p>
+                <p style="color:rgba(255,255,255,0.88);">Postings stop being a judgement call. The head already exists, only one person can add another, and the person coding a bill is not inventing a category on the last working day of the month. The report your board reads comes out of the ledger as it stands, not out of a spreadsheet built beside it.</p>
+<p style="color:rgba(255,255,255,0.88);">Chart of accounts design lets one code answer several questions at once. Spend by department, spend by project and spend by location fall out of the same entry without anyone recoding it. A number quoted in a management meeting survives contact with the audited accounts. Nobody has to remember last time&#x27;s coding.</p>
+<p style="color:rgba(255,255,255,0.88);">Two things open this one: who codes entries day to day, and which software the structure lives inside. Existing balances matter too, because an entity changing mid-year carries history that must land somewhere sensible in the new tree. <a href="/backlog-bookkeeping-catch-up-services">Unposted history from earlier years</a> is handled separately.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20Chart%20of%20Accounts%20Setup%20Services.%20Please%20share%20the%20process%2C%20scope%2C%20and%20fees." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Chart of Accounts Setup%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Chart of Accounts Setup%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20chart%20of%20accounts%20setup%20services" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Chart%20of%20Accounts%20Setup%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Chart%20of%20Accounts%20Setup%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Chart of Accounts Setup Near You</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">On-the-ground support in major cities, plus remote setup across India.</p>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams for chart of accounts setup in these cities.</p>
             
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid">
-                    <a href="/chart-of-accounts-setup-services/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/chart-of-accounts-setup-services/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/chart-of-accounts-setup-services/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                    <a href="/chart-of-accounts-setup-services/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                </div>
-            </div>
-            <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Chart of Accounts Setup</div>
-                <div class="pa-cross-grid"><a href="/accounting-bookkeeping-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting &amp; Bookkeeping Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/tds-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/migration-from-tally-to-zoho" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Migration from Tally to Zoho</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/private-limited-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Private Limited Company Registration</div><div class="pa-card-sub">India</div></div></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 2 June 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">2 June 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 2 March 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page is reviewed periodically for accuracy on accounting practice and service details (Freshness Tier 3).</p>
+            <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">All Accounting Services</div></a>
+<a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="pa-cross-card"><div class="pa-card-title">E-Commerce Accounting</div></a>
+<a href="https://www.patronaccounting.com/financial-statement-preparation-services" class="pa-cross-card"><div class="pa-card-title">Financial Statement Preparation</div></a>
+<a href="https://www.patronaccounting.com/mis-reporting-services" class="pa-cross-card"><div class="pa-card-title">MIS Reporting</div></a></div></div>
         </div>
     </div>
 </section>
 
 
+
+
+
+<div class="wa-sticky-bar" id="waBar">
+    <div class="wa-sticky-bar-content">
+        <div class="wa-sticky-bar-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </div>
+        <span class="wa-sticky-bar-text"><strong>Need investor-ready books &amp; cap table management?</strong> Talk to our CA team.</span>
+        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20startup%20accounting%20and%20investor-ready%20books" target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>Get Free Startup Quote &rarr;</span>
+        </a>
+        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-<!-- Google Maps Places Library (for GMB reviews) -->
 
 
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2165,8 +1136,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -2176,8 +1147,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -2258,7 +1229,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -2268,34 +1239,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-        function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -2306,12 +1275,13 @@ initSlick(slider);
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 4500,
             arrows: false,
             cssEase: 'ease-in-out',
             pauseOnHover: true,
             pauseOnFocus: true,
             swipe: true,
+            draggable: true,
             touchMove: true,
             responsive: [
                 { breakpoint: 1200, settings: { slidesToShow: 3 } },
@@ -2327,7 +1297,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2342,7 +1312,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2373,7 +1343,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2422,9 +1392,7 @@ function toggleTestiVideo(area) {
 
 </script>
 
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
+
 <script>
 // Country Data (46 countries)
 var countries = [
@@ -2564,7 +1532,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -2594,7 +1562,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-     var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -2614,7 +1581,7 @@ function validateConsultationForm() {
     if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
 
     if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var phoneVal = (document.getElementById('phoneNumberInput')||{value:''}).value.trim(); document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
         var serviceName = serviceField.options[serviceField.selectedIndex].text;
         document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
         document.getElementById('pageSourceField').value = window.location.href;
@@ -2692,7 +1659,7 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 });
 </script>
 
-<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
@@ -2701,55 +1668,24 @@ const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); var _w=document.getElementById('tocWrapper'); if(_w){_w.scrollTo({left:btn.offsetLeft-_w.offsetWidth/2+btn.offsetWidth/2,behavior:'smooth'});} }
+    });
+});
 </script>
 
-<!-- WhatsApp Sticky Bar Script -->
+
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -2787,7 +1723,13 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+    if (el1) { el1.textContent = dateStr; }
+})();
+</script>
 @endsection

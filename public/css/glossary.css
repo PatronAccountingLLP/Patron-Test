@@ -277,3 +277,18 @@
 .gl-popular__l{font-size:13px;font-weight:700;color:#14365F;margin-right:2px}
 .gl-popular a{display:inline-flex;align-items:center;padding:6px 14px;font-size:13px;font-weight:600;color:#14365F;background:#fff;border:1px solid #E5E7EB;border-radius:50px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
 .gl-popular a:hover{border-color:#E8712C;color:#E8712C;background:#FEF4EE}
+
+/* ============ Hero CTA / offer card (right column) ============ */
+.gl-herogrid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:48px;align-items:center}
+.gl-heromain{min-width:0}
+.gl-herocta{background:#14365F;border-radius:16px;padding:26px 28px;color:#fff;box-shadow:0 14px 34px rgba(15,44,92,.20);position:relative;overflow:hidden}
+.gl-herocta::before{content:"";position:absolute;top:-40px;right:-40px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,rgba(232,113,44,.35),transparent 70%)}
+.gl-herocta__badge{position:relative;display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#FFD9BE;background:rgba(232,113,44,.20);border:1px solid rgba(232,113,44,.55);border-radius:50px;padding:5px 13px;margin-bottom:14px}
+.gl-herocta h3{position:relative;font-size:20px;font-weight:800;color:#fff;margin:0 0 8px;line-height:1.25}
+.gl-herocta p{position:relative;font-size:14px;color:rgba(255,255,255,.78);line-height:1.6;margin:0 0 18px}
+.gl-herocta__btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;height:48px;background:#E8712C;color:#fff;border-radius:10px;font-weight:700;font-size:15px}
+.gl-herocta__btn:hover{background:#D4621F}
+.gl-herocta__trust{position:relative;margin-top:14px;font-size:12.5px;color:rgba(255,255,255,.72);font-weight:600;text-align:center}
+.gl-herocta__trust .star{color:#FDBA57}
+.gl-page a.gl-herocta__btn{color:#fff}
+@media(max-width:900px){.gl-herogrid{grid-template-columns:1fr;gap:28px}}

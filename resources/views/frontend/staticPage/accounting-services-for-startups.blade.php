@@ -1516,7 +1516,7 @@
 /* -- WHAT-IS illustration: keep it STICKY (follows the reader) but offset below the
       sticky TOC so it no longer clips; centred horizontally. -- */
 .two-column{align-items:flex-start !important;}
-.column-image{position:sticky !important;top:100px !important;align-self:flex-start !important;
+.column-image{position:sticky !important;top:160px !important;align-self:flex-start !important;
   display:flex !important;align-items:center !important;justify-content:center !important;
   overflow:visible !important;}
 .column-image img{max-width:100%;height:auto;margin:0 auto;display:block;}

@@ -1752,3 +1752,12 @@ img,video,iframe{max-width:100%;}
    ============================================================ */
 .wa-sticky-bar{display:none !important;}
 main{padding-bottom:0 !important;}
+
+/* ============================================================
+   IMAGE CROP FIX (2026-07-24): the sticky .column-image was pinned at
+   top:100px, but the sticky header (.pa-h ~70px) + pill-TOC (.toc-section
+   at top:70px, ~80px tall) stack to ~150px (site uses scroll-margin-top:150px).
+   So the image stuck BEHIND the nav and its top was cropped. Pin it below
+   the stack. Mobile kills .column-image sticky separately, so desktop-only.
+   ============================================================ */
+.column-image{top:160px !important;}

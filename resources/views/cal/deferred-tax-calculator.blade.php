@@ -1310,6 +1310,18 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
         .wa-sticky-bar-btn span { display: none; }
     }
+
+/* Embed mode (?embed=1): show ONLY the calculator widget, recoloured to the
+   service page's palette, when iframed into a cluster page. */
+body.is-embed .toc-nav,
+body.is-embed .breadcrumb,
+body.is-embed .hero,
+body.is-embed .tldr,
+body.is-embed .content-section,
+body.is-embed .sidebar-col,
+body.is-embed .wa-sticky-bar,
+body.is-embed .body-cta,
+body.is-embed .cta-card { display: none !important; }
 </style>
 
 <!-- STICKY WHATSAPP BAR -->

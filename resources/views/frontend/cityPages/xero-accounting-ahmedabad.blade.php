@@ -593,7 +593,7 @@
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Xero Accounting:</strong></p>
-                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/multi-currency-bank-feed">Multi-Currency Bank Feed</a></span><span class="al-d">An automatic import of bank transactions in more than one currency into the accounting ledger.</span></li><li><span class="al-t"><a href="/glossary/xero-bank-rules">Xero Bank Rules</a></span><span class="al-d">Preset conditions that auto-code recurring bank lines to the right account in Xero.</span></li><li><span class="al-t"><a href="/glossary/hubdoc-automation">Hubdoc Automation</a></span><span class="al-d">A tool that captures bills and receipts and pushes their data into Xero.</span></li><li><span class="al-t"><a href="/glossary/automated-bank-feeds">Automated Bank Feeds</a></span><span class="al-d">A direct link importing bank transactions into the ledger without manual statement entry.</span></li></ul></div>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/accounting/multi-currency-bank-feed">Multi-Currency Bank Feed</a></span><span class="al-d">An automatic import of bank transactions in more than one currency into the accounting ledger.</span></li><li><span class="al-t"><a href="/glossary/accounting/xero-bank-rules">Xero Bank Rules</a></span><span class="al-d">Preset conditions that auto-code recurring bank lines to the right account in Xero.</span></li><li><span class="al-t"><a href="/glossary/accounting/hubdoc-automation">Hubdoc Automation</a></span><span class="al-d">A tool that captures bills and receipts and pushes their data into Xero.</span></li><li><span class="al-t"><a href="/glossary/accounting/automated-bank-feeds">Automated Bank Feeds</a></span><span class="al-d">A direct link importing bank transactions into the ledger without manual statement entry.</span></li></ul></div>
 
                 </div>
             </div>
@@ -618,7 +618,7 @@
     <li>Global-facing SMEs whose bank statements cannot auto-feed and must be imported into the ledger.</li>
     <li>Firms needing GST and TDS handled around Xero, since it does not do them natively.</li>
     <li>Owner-run exporters near Prahlad Nagar weighing Xero against Zoho Books before committing their ledger.</li>
-    <li><a href="/glossary/gift-city-ifsc-tax-holiday">GIFT City</a> exporters on Xero needing multi-currency receipts revalued and mapped for statutory filing.</li>
+    <li><a href="/glossary/accounting/gift-city-ifsc-tax-holiday">GIFT City</a> exporters on Xero needing multi-currency receipts revalued and mapped for statutory filing.</li>
   </ul>
 
             </div>
@@ -628,7 +628,7 @@
 </section>
 
 
-<section class="content-section" id="services-section">
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-strip"><div class="pa-logos-track"><img src="/images/accounting-cluster/_platform-logos/xero.webp" alt="Xero" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify" loading="lazy" height="34"><span class="pa-logos-dup" aria-hidden="true"><img src="/images/accounting-cluster/_platform-logos/xero.webp" alt="Xero" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify" loading="lazy" height="34"></span></div></div></div></section><section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Xero Accounting Included for Ahmedabad Businesses</h2>
@@ -935,7 +935,7 @@
             <div class="content-text">
                 
                 <p>An Ahmedabad company on Xero carries Gujarat's profession tax on its payroll through the employer's enrolment, whether the ledger sits on a desktop or in the cloud. What the platform itself must satisfy is the edit-log rule, and the eight-year retention of the records behind it.</p>
-<p>So the audit trail governs the cloud ledger while Gujarat's profession tax runs alongside it. The records must remain retrievable in India and invoicing must satisfy the tax-invoice rules, which is why a reconciled <a href="/glossary/multi-currency-bank-feed">Multi-Currency Bank Feed</a> and clean edit history matter. Xero bookkeeping in Ahmedabad answers to the provisions below.</p>
+<p>So the audit trail governs the cloud ledger while Gujarat's profession tax runs alongside it. The records must remain retrievable in India and invoicing must satisfy the tax-invoice rules, which is why a reconciled <a href="/glossary/accounting/multi-currency-bank-feed">Multi-Currency Bank Feed</a> and clean edit history matter. Xero bookkeeping in Ahmedabad answers to the provisions below.</p>
 <ul class="al-list"><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The cloud ledger keeps an audit trail of every change with its date, switched on all year and never disabled.</span></li><li><span class="al-t"><strong>Gujarat State Tax on Professions, Trades, Callings and Employments Act 1976</strong></span><span class="al-d">Profession tax runs through the employer's enrolment and monthly deduction, carried in the payroll module whatever the platform.</span></li><li><span class="al-t"><strong>Rule 3, Companies (Accounts) Rules 2014 with Section 128(1)</strong></span><span class="al-d">Are kept accessible in India, legible and backed up, and available for the full eight-year retention span.</span></li><li><span class="al-t"><strong>Section 31 with Rule 48, CGST Act 2017</strong></span><span class="al-d">Invoicing carries the tax-invoice fields and, above Rs 5 crore turnover, an IRN through the e-invoice portal.</span></li><li><span class="al-t"><strong>Section 128(5), Companies Act 2013</strong></span><span class="al-d">The ledger and its vouchers are preserved for eight years, so an export cannot break the trail. Full platform detail sits on the <a href="/xero-accounting">parent Xero page</a>.</span></li></ul><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></p>
 
             </div>

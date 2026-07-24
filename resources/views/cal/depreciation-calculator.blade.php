@@ -321,6 +321,18 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 .slider-row .slider-val:focus{border-color:var(--primary)}
 @media(max-width:600px){.dep-hero{grid-template-columns:1fr}.asset-chips{grid-template-columns:1fr 1fr}}
 
+
+/* Embed mode (?embed=1): show ONLY the calculator widget, recoloured to the
+   service page's palette, when iframed into a cluster page. */
+body.is-embed .toc-nav,
+body.is-embed .breadcrumb,
+body.is-embed .hero,
+body.is-embed .tldr,
+body.is-embed .content-section,
+body.is-embed .sidebar-col,
+body.is-embed .wa-sticky-bar,
+body.is-embed .body-cta,
+body.is-embed .cta-card { display: none !important; }
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#rates">Depreciation Rates</a><a href="#rules">Key Rules</a><a href="#tax">Tax Impact</a><a href="#faqs">FAQs</a></div></nav>

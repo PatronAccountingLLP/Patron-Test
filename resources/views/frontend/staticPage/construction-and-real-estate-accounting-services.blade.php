@@ -26,99 +26,201 @@
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#service",
-        "name": "Construction & Real Estate Accounting Services in India",
-        "description": "Project-wise accounting for construction and real-estate companies in India: percentage-of-completion revenue under Ind AS 115 / AS 7, RERA 70% designated-account tracking, retention and RA-bill management, Section 194C contractor TDS, Ind AS 116 lease accounting and Schedule III financials.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Real estate development", "sameAs": "https://en.wikipedia.org/wiki/Real_estate_development" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Construction & Real Estate Accounting Service Plans",
-            "itemListElement": [
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Starter - Construction & Real Estate Accounting", "description": "one entity running a single project ledger"}, "price": "3499", "priceCurrency": "INR", "description": "Per month, excl. GST & government charges", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services"},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Growth - Construction & Real Estate Accounting", "description": "several active projects with phase-wise WIP tracking"}, "description": "On quote - scoped to number of projects, RERA registrations and transaction volume", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services"},
-                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Managed - Construction & Real Estate Accounting", "description": "multiple entities or sites with custom project reporting"}, "description": "On quote - scoped to number of projects, RERA registrations and transaction volume", "availability": "https://schema.org/InStock", "url": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services"}
-            ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#service",
+  "name": "Accounting for Construction and Real Estate Companies",
+  "description": "Accounting for a construction company runs project-wise, with every cost traceable to a tower, wing and unit. Revenue recognition follows Ind AS 115 on the basis your project structure actually supports.",
+  "image": "https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp",
+  "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+  },
+  "serviceType": "Construction and Real Estate Accounting Service",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India",
+    "sameAs": "https://en.wikipedia.org/wiki/India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting for Construction and Real Estate Companies",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accounting for Construction and Real Estate Companies",
+          "description": "Accounting for a construction company runs project-wise, with every cost traceable to a tower, wing and unit. Revenue recognition follows Ind AS 115 on the basis your project structure actually supports.",
+          "serviceType": "Construction and Real Estate Accounting Service"
+        },
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "India"
         }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Accounting Services", "item": "https://www.patronaccounting.com/accounting-services" },
-            { "@type": "ListItem", "position": 3, "name": "Construction & Real Estate Accounting", "item": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#faq",
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "mainEntity": [
-            {"@type":"Question","name":"What type of accounting is used in construction?","acceptedAnswer":{"@type":"Answer","text":"Construction uses project based accrual accounting, where every contract is a separate cost centre and revenue is recognised by stage of completion rather than when money is received. Work in progress, retention money, mobilisation advances and running account bills are tracked contract by contract. Companies reporting under Ind AS apply Ind AS 115, and companies on AS follow AS 7 for contract revenue."}},
-            {"@type":"Question","name":"How do you keep project wise books for multiple sites?","acceptedAnswer":{"@type":"Answer","text":"Each site is set up as a separate cost centre in Tally, Zoho Books or your ERP, so material, labour, subcontractor and overhead costs are tagged at the point of entry. You receive a project wise cost to date, billed to date and margin statement every month, and the consolidated accounts are built from those without any manual regrouping at year end."}},
-            {"@type":"Question","name":"How do you handle RERA reporting and project escrow account tracking?","acceptedAnswer":{"@type":"Answer","text":"For RERA registered projects the designated project bank account is tracked separately, with collections from allottees mapped into it and withdrawals monitored against the certification requirement set by the regulator. Books are kept project wise so the periodic disclosures and the certificates your CA, architect and engineer must sign can be produced from the ledgers without reconstruction."}},
-            {"@type":"Question","name":"What is construction accounting?","acceptedAnswer":{"@type":"Answer","text":"Construction accounting tracks cost and revenue by individual project instead of only at company level, because every site carries its own budget, billing cycle and margin. It covers work in progress valuation, subcontractor bills, retention money, material issued from stores, plant and machinery cost and GST on works contracts. Ordinary financial accounting closes a clean trial balance but cannot tell you which site is losing money."}},
-            {"@type":"Question","name":"What is the role of an accountant in real estate?","acceptedAnswer":{"@type":"Answer","text":"A real estate accountant keeps project wise books for a developer, covering land and approval cost capitalisation, collections from allottees, movement in the RERA designated project bank account, GST on bookings, TDS on contractor and professional payments, and revenue recognition on handover of units. The role also produces the ledgers behind periodic RERA disclosures and the schedules a statutory auditor tests at year end."}},
-            {"@type":"Question","name":"How do you track subcontractor bills, retention money and TDS?","acceptedAnswer":{"@type":"Answer","text":"Subcontractor bills are booked against the project cost centre with the measurement sheet reference, retention money is parked in a separate liability account and released only when the defect liability period ends, and TDS is deducted at the applicable contractor rate and deposited monthly. Mobilisation advances are tracked and recovered proportionately across running account bills."}},
-            {"@type":"Question","name":"What GST issues arise for real estate developers and how do you manage them?","acceptedAnswer":{"@type":"Answer","text":"Developers face input tax credit restrictions on residential projects, reverse charge where procurement from registered suppliers falls short, and different treatment for units sold before and after completion. We compute the tax on each booking correctly, prepare the credit reversal working where units are sold after the completion certificate, and reconcile collections against the returns filed every month."}},
-            {"@type":"Question","name":"What does construction and real estate accounting cost per month?","acceptedAnswer":{"@type":"Answer","text":"Construction and real estate accounting generally costs Rs 20,000 to Rs 75,000 a month. Pricing follows the count of active projects, sites and GST registrations, not turnover, so a single project developer sits near the lower end. RERA reporting support, escrow reconciliation and year end finalisation are quoted separately once we have seen the project structure."}},
-            {"@type":"Question","name":"Can you take over part completed project books in the middle of a year?","acceptedAnswer":{"@type":"Answer","text":"Yes, mid year takeover of part completed project books is routine and we normally go live within 15 working days. Work starts from the last reconciled trial balance, project wise cost cards are rebuilt from purchase and subcontractor records, collections are reconciled with the project account, and you get a written list of unrecorded items before routine processing begins."}},
-            {"@type":"Question","name":"How are land, approval and development costs carried in the books?","acceptedAnswer":{"@type":"Answer","text":"Land cost, approval and sanction fees, development expenses, eligible borrowing costs and site overheads are accumulated as project inventory and released to the profit and loss account as revenue is recognised. Costs are allocated across towers or phases on a defensible basis such as saleable area, and the allocation working is documented so your auditor can test it."}}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services",
-        "name": "Construction & Real Estate Accounting Services in India",
-        "description": "Project-wise books - every cost traceable to a tower, wing and unit. Know where you stand before your accountant tells you. Get a compliance review.",
-        "url": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#service" },
-        "datePublished": "2026-07-23T08:00:00+05:30",
-        "dateModified": "2026-07-23T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "reviewedBy": { "@id": "https://www.patronaccounting.com/#team" },
-        "lastReviewed": "2026-07-23",
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "13", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-{ "@context": "https://schema.org", "@graph": [
-  { "@type": ["Organization","AccountingService"], "@id": "https://www.patronaccounting.com/#organization", "name": "Patron Accounting LLP", "legalName": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/patron-logo.webp" }, "image": "https://www.patronaccounting.com/images/patron-logo.webp", "email": "sales@patronaccounting.com", "telephone": "+91-94594-56700", "foundingDate": "2019", "address": { "@type": "PostalAddress", "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi", "addressLocality": "Pune", "addressRegion": "Maharashtra", "postalCode": "412207", "addressCountry": "IN" }, "contactPoint": { "@type": "ContactPoint", "telephone": "+91-94594-56700", "email": "sales@patronaccounting.com", "contactType": "customer service", "areaServed": "IN", "availableLanguage": ["en","hi"] }, "areaServed": "IN", "sameAs": [ "https://www.facebook.com/share/1BqqRYkpJX/", "https://www.instagram.com/patronaccounting/", "https://x.com/LlpPatron", "https://www.youtube.com/@patronaccountingllp7130" ] },
-  { "@type": "Organization", "@id": "https://www.patronaccounting.com/#team", "name": "Patron Accounting - CA & CS Team", "parentOrganization": { "@id": "https://www.patronaccounting.com/#organization" }, "member": { "@id": "https://www.patronaccounting.com/#reviewer-sundram" }, "employee": { "@id": "https://www.patronaccounting.com/#reviewer-sundram" } },
-  { "@type": "Person", "@id": "https://www.patronaccounting.com/#reviewer-sundram", "name": "CA Sundram Gupta", "honorificPrefix": "CA", "jobTitle": "Founder & Chartered Accountant (FCA)", "worksFor": { "@id": "https://www.patronaccounting.com/#organization" }, "hasCredential": { "@type": "EducationalOccupationalCredential", "credentialCategory": "Fellow Chartered Accountant (FCA), ICAI" }, "url": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta", "sameAs": [ "https://www.patronaccounting.com/authorhub/ca-sundram-gupta" ] }
-] }
+      }
+    ]
+  }
+}
 </script>
-
-    @endsection
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Accounting & Bookkeeping Services",
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Construction & Real Estate Accounting",
+      "item": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services"
+    }
+  ],
+  "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#breadcrumb"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#faq",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What type of accounting is used in construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Construction uses project based accrual accounting, where every contract is a separate cost centre and revenue is recognised by stage of completion rather than when money is received. Work in progress, retention money, mobilisation advances and running account bills are tracked contract by contract. Companies reporting under Ind AS apply Ind AS 115, and companies on AS follow AS 7 for contract revenue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you keep project wise books for multiple sites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each site is set up as a separate cost centre in Tally, Zoho Books or your ERP, so material, labour, subcontractor and overhead costs are tagged at the point of entry. You receive a project wise cost to date, billed to date and margin statement every month, and the consolidated accounts are built from those without any manual regrouping at year end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you handle RERA reporting and project escrow account tracking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For RERA registered projects the designated project bank account is tracked separately, with collections from allottees mapped into it and withdrawals monitored against the certification requirement set by the regulator. Books are kept project wise so the periodic disclosures and the certificates your CA, architect and engineer must sign can be produced from the ledgers without reconstruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is construction accounting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Construction accounting tracks cost and revenue by individual project instead of only at company level, because every site carries its own budget, billing cycle and margin. It covers work in progress valuation, subcontractor bills, retention money, material issued from stores, plant and machinery cost and GST on works contracts. Ordinary financial accounting closes a clean trial balance but cannot tell you which site is losing money."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the role of an accountant in real estate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A real estate accountant keeps project wise books for a developer, covering land and approval cost capitalisation, collections from allottees, movement in the RERA designated project bank account, GST on bookings, TDS on contractor and professional payments, and revenue recognition on handover of units. The role also produces the ledgers behind periodic RERA disclosures and the schedules a statutory auditor tests at year end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you track subcontractor bills, retention money and TDS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Subcontractor bills are booked against the project cost centre with the measurement sheet reference, retention money is parked in a separate liability account and released only when the defect liability period ends, and TDS is deducted at the applicable contractor rate and deposited monthly. Mobilisation advances are tracked and recovered proportionately across running account bills."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What GST issues arise for real estate developers and how do you manage them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Developers face input tax credit restrictions on residential projects, reverse charge where procurement from registered suppliers falls short, and different treatment for units sold before and after completion. We compute the tax on each booking correctly, prepare the credit reversal working where units are sold after the completion certificate, and reconcile collections against the returns filed every month."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does construction and real estate accounting cost per month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Construction and real estate accounting generally costs Rs 20,000 to Rs 75,000 a month. Pricing follows the count of active projects, sites and GST registrations, not turnover, so a single project developer sits near the lower end. RERA reporting support, escrow reconciliation and year end finalisation are quoted separately once we have seen the project structure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you take over part completed project books in the middle of a year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, mid year takeover of part completed project books is routine and we normally go live within 15 working days. Work starts from the last reconciled trial balance, project wise cost cards are rebuilt from purchase and subcontractor records, collections are reconciled with the project account, and you get a written list of unrecorded items before routine processing begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are land, approval and development costs carried in the books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Land cost, approval and sanction fees, development expenses, eligible borrowing costs and site overheads are accumulated as project inventory and released to the profit and loss account as revenue is recognised. Costs are allocated across towers or phases on a defensible basis such as saleable area, and the allocation working is documented so your auditor can test it."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services",
+  "name": "Accounting for Construction and Real Estate Companies",
+  "description": "Project-wise books - every cost traceable to a tower, wing and unit. Know where you stand before your accountant tells you. Get a compliance review.",
+  "url": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services",
+  "inLanguage": "en-IN",
+  "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+  },
+  "about": {
+    "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#service"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp"
+  },
+  "image": "https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp",
+  "datePublished": "2026-07-24T08:00:00+05:30",
+  "dateModified": "2026-07-24T08:00:00+05:30",
+  "author": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "reviewedBy": {
+    "@id": "https://www.patronaccounting.com/#team"
+  },
+  "lastReviewed": "2026-07-24",
+  "breadcrumb": {
+    "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#breadcrumb"
+  }
+}
+</script>
+@endsection
 
 <link rel="stylesheet" href="/css/patron-cluster.css">
 
@@ -417,7 +519,7 @@
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Construction & Real Estate Accounting:</strong></p>
-                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/percentage-of-completion-method-pocm">Percentage of Completion Method (POCM)</a></span><span class="al-d">Recognises project revenue in proportion to how much of the work is finished.</span></li><li><span class="al-t"><a href="/glossary/rera-70-escrow-compliance">RERA 70% Escrow Compliance</a></span><span class="al-d">Rule requiring seventy per cent of buyer money to stay in a designated project account.</span></li><li><span class="al-t"><a href="/glossary/joint-development-agreement-jda">Joint Development Agreement (JDA)</a></span><span class="al-d">Contract where a landowner and builder share a project&#x27;s revenue or built area.</span></li></ul></div>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="/glossary/accounting/percentage-of-completion-method-pocm">Percentage of Completion Method (POCM)</a></span><span class="al-d">Recognises project revenue in proportion to how much of the work is finished.</span></li><li><span class="al-t"><a href="/glossary/accounting/rera-70-escrow-compliance">RERA 70% Escrow Compliance</a></span><span class="al-d">Rule requiring seventy per cent of buyer money to stay in a designated project account.</span></li><li><span class="al-t"><a href="/glossary/accounting/joint-development-agreement-jda">Joint Development Agreement (JDA)</a></span><span class="al-d">Contract where a landowner and builder share a project&#x27;s revenue or built area.</span></li></ul></div>
 
                 </div>
             </div>
@@ -600,7 +702,7 @@
                 <table>
                     <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
                     <tbody>
-                        <tr><td>Land and JDA cost not apportioned across saleable units</td><td>Unit-level cost comes out wrong, so pricing and profit per flat are miscalculated from the start.</td><td>We apportion land and <a href="/glossary/joint-development-agreement-jda">joint development agreement</a> cost per saleable area for each unit.</td></tr>
+                        <tr><td>Land and JDA cost not apportioned across saleable units</td><td>Unit-level cost comes out wrong, so pricing and profit per flat are miscalculated from the start.</td><td>We apportion land and <a href="/glossary/accounting/joint-development-agreement-jda">joint development agreement</a> cost per saleable area for each unit.</td></tr>
                         <tr><td>Customer advances parked as income instead of liability</td><td>Booked revenue outpaces construction progress, overstating profit and distorting the project result for the period.</td><td>We hold advances as liabilities and release them to revenue only against certified progress.</td></tr>
                         <tr><td>Retention and mobilisation advances unreconciled with contractors</td><td>Vendor balances drift, so final running-account bill settlements throw up disputed sums.</td><td>Patron reconciles retention and running-account bills to each contractor ledger every month.</td></tr>
                         <tr><td>Input credit on under-construction and completed sales not split</td><td>Blocked ITC on completed-property sales is claimed by mistake, inviting reversal with interest.</td><td>We split input credit between under-construction and completed inventory according to the sale stage.</td></tr>
@@ -793,8 +895,8 @@
             <div class="content-text">
                 
                 <p>The record a developer's statute demands is a project-level account that ties every rupee collected to the construction it funded, and the Real Estate (Regulation and Development) Act 2016 is what forces that account into being. Around it, the revenue standard decides when a sale becomes income and the tax law decides the value a unit is taxed at.</p>
-<p>These pull in different directions, so the books have to serve all three at once. Buyer money is ring-fenced before it can be recognised as revenue, and a unit sold below its stamp-duty value is still taxed on that value. That is why <a href="/glossary/rera-70-escrow-compliance">RERA 70% Escrow Compliance</a> governs the cash and why a <a href="/glossary/joint-development-agreement-jda">Joint Development Agreement (JDA)</a> needs its own accounting treatment. Accounting for construction company records answers to the provisions below.</p>
-<ul class="al-list"><li><span class="al-t"><strong>Real Estate (Regulation and Development) Act 2016</strong></span><span class="al-d">70% of buyer collections sit in a designated RERA escrow account and are drawn only against certified construction cost.</span></li><li><span class="al-t"><strong>Ind AS 115 / AS 7</strong></span><span class="al-d">Revenue is recognised over time as performance obligations are met, replacing the older <a href="/glossary/percentage-of-completion-method-pocm">Percentage of Completion Method (POCM)</a> for Ind AS reporters. AS reporters apply ICAI's Guidance Note on Accounting for Real Estate Transactions (revised 2012).</span></li><li><span class="al-t"><strong>Notification 03/2019-Central Tax (Rate)</strong></span><span class="al-d">Under-construction residential sales are taxed at 1% for affordable housing or 5% otherwise, without input tax credit and subject to the 80% inward-supply condition.</span></li><li><span class="al-t"><strong>Sections 43CA and 50C, Income-tax Act 1961</strong></span><span class="al-d">Where a sale price falls below the stamp-duty value beyond the safe harbour, the stamp value is deemed the consideration for tax.</span></li><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">The books stay on accrual and double entry at the registered office, retained for eight years across the length of a project.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail is enabled, so a cost-to-complete revision or a unit re-pricing is logged. General filing runs from the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul>
+<p>These pull in different directions, so the books have to serve all three at once. Buyer money is ring-fenced before it can be recognised as revenue, and a unit sold below its stamp-duty value is still taxed on that value. That is why <a href="/glossary/accounting/rera-70-escrow-compliance">RERA 70% Escrow Compliance</a> governs the cash and why a <a href="/glossary/accounting/joint-development-agreement-jda">Joint Development Agreement (JDA)</a> needs its own accounting treatment. Accounting for construction company records answers to the provisions below.</p>
+<ul class="al-list"><li><span class="al-t"><strong>Real Estate (Regulation and Development) Act 2016</strong></span><span class="al-d">70% of buyer collections sit in a designated RERA escrow account and are drawn only against certified construction cost.</span></li><li><span class="al-t"><strong>Ind AS 115 / AS 7</strong></span><span class="al-d">Revenue is recognised over time as performance obligations are met, replacing the older <a href="/glossary/accounting/percentage-of-completion-method-pocm">Percentage of Completion Method (POCM)</a> for Ind AS reporters. AS reporters apply ICAI's Guidance Note on Accounting for Real Estate Transactions (revised 2012).</span></li><li><span class="al-t"><strong>Notification 03/2019-Central Tax (Rate)</strong></span><span class="al-d">Under-construction residential sales are taxed at 1% for affordable housing or 5% otherwise, without input tax credit and subject to the 80% inward-supply condition.</span></li><li><span class="al-t"><strong>Sections 43CA and 50C, Income-tax Act 1961</strong></span><span class="al-d">Where a sale price falls below the stamp-duty value beyond the safe harbour, the stamp value is deemed the consideration for tax.</span></li><li><span class="al-t"><strong>Section 128, Companies Act 2013</strong></span><span class="al-d">The books stay on accrual and double entry at the registered office, retained for eight years across the length of a project.</span></li><li><span class="al-t"><strong>Rule 3(1), Companies (Accounts) Rules 2014</strong></span><span class="al-d">The audit trail is enabled, so a cost-to-complete revision or a unit re-pricing is logged. General filing runs from the <a href="/accounting-bookkeeping-services">hub page</a>.</span></li></ul>
 <p class="compliance-note"><strong>Practical note:</strong> During a RERA or tax review, the escrow withdrawals are reconciled to certified construction cost, and a drawdown ahead of certification is the usual flag.</p><p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a> &middot; <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a> &middot; <a href="https://maharera.maharashtra.gov.in" target="_blank" rel="noopener">MahaRERA</a></p>
 
             </div>

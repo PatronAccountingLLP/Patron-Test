@@ -1018,6 +1018,56 @@
   .patron-blog-detail .pbd-article .key-takeaways ul { margin: 0; padding-left: 20px; }
   .patron-blog-detail .pbd-article .key-terms li,
   .patron-blog-detail .pbd-article .key-takeaways li { margin-bottom: 6px; }
+
+  /* ============ MODERN HERO (mirrors accounting cluster pages) ============ */
+  .patron-blog-detail .pbd-hero {
+    position: relative;
+    padding: 30px 0 40px;
+    margin-bottom: 8px;
+  }
+  /* full-bleed cream→white gradient band behind the hero */
+  .patron-blog-detail .pbd-hero::before {
+    content: "";
+    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 100vw; height: 100%; z-index: 0;
+    background: linear-gradient(180deg, #FDFBF7 0%, var(--p-bg-surface) 100%);
+    border-bottom: 1px solid var(--p-border);
+  }
+  .patron-blog-detail .pbd-hero-grid {
+    position: relative; z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 430px;
+    gap: 48px;
+    align-items: center;
+  }
+  .patron-blog-detail .pbd-hero-content { min-width: 0; }
+  .patron-blog-detail .pbd-hero-meta { margin-bottom: 14px; }
+  .patron-blog-detail .pbd-hero-cat {
+    background: rgba(242, 101, 34, 0.10);
+    border-color: rgba(242, 101, 34, 0.25);
+    color: var(--p-orange);
+  }
+  .patron-blog-detail .pbd-hero h1 { font-size: 36px; margin: 0 0 14px; }
+  .patron-blog-detail .pbd-hero-excerpt {
+    display: block; margin: 0 0 22px; font-size: 17px; color: var(--p-text-muted);
+    line-height: 1.6; max-width: 620px;
+  }
+  .patron-blog-detail .pbd-hero-author { margin-bottom: 0; max-width: 460px; }
+  /* image lives in the right column: contained card, not full-bleed */
+  .patron-blog-detail .pbd-hero-media { min-width: 0; }
+  .patron-blog-detail .pbd-hero-image {
+    width: 100%; aspect-ratio: 4 / 3; object-fit: cover; margin: 0;
+    border-radius: var(--p-radius-lg); border: 1px solid var(--p-border);
+    box-shadow: 0 22px 44px -20px rgba(11, 46, 79, 0.38);
+  }
+  @media (max-width: 900px) {
+    .patron-blog-detail .pbd-hero { padding: 22px 0 26px; }
+    .patron-blog-detail .pbd-hero-grid { grid-template-columns: 1fr; gap: 22px; }
+    .patron-blog-detail .pbd-hero h1 { font-size: 27px; }
+    .patron-blog-detail .pbd-hero-excerpt { font-size: 15px; margin-bottom: 18px; }
+    /* image below the headline + author, and capped so it never dominates */
+    .patron-blog-detail .pbd-hero-image { aspect-ratio: 16 / 9; max-height: 240px; }
+  }
 </style>
 @endpush
 
@@ -1036,53 +1086,61 @@
       <span aria-current="page">{{ Str::limit($post->title, 60) }}</span>
     </nav>
 
-    {{-- ============ ARTICLE HERO ============ --}}
+    {{-- ============ ARTICLE HERO (modern, cluster-style) ============ --}}
+    @php
+      $heroExcerpt = $post->excerpt ?: ($post->description ?: \Illuminate\Support\Str::limit(trim(strip_tags($post->key_points ?? '')), 165));
+    @endphp
     <header class="pbd-hero">
-      <div class="pbd-hero-meta">
-        @if($primaryCategory)
-          <a href="{{ route('frontend.posts.index', ['category' => $primaryCategory->slug]) }}" class="pbd-hero-cat">{{ $primaryCategory->name }}</a>
-          <span class="pbd-hero-meta-divider">·</span>
-        @endif
-        <span>{{ $readingMinutes }} min read</span>
-        <span class="pbd-hero-meta-divider">·</span>
-        <span>{{ ($post->published_at ?? $post->updated_at)->format('M j, Y') }}</span>
-        @if($post->updated_at && $post->published_at && $post->updated_at->gt($post->published_at->addDays(7)))
-          <span class="pbd-hero-meta-divider">·</span>
-          <span>Updated {{ $post->updated_at->format('M j, Y') }}</span>
-        @endif
-      </div>
-
-      <h1>{{ $post->title }}</h1>
-
-      {{-- @if($post->excerpt || $post->description)
-        <p class="pbd-hero-excerpt">{{ $post->excerpt ?: $post->description }}</p>
-      @endif --}}
-
-      @if($primaryAuthor)
-        @php
-          $authorSlug = Str::slug($primaryAuthor->name);
-          $authorUrl = url('/authorhub/' . $authorSlug);
-        @endphp
-        <a class="pbd-hero-author" href="{{ $authorUrl }}" aria-label="View author profile: {{ $primaryAuthor->name }}">
-          <div class="pbd-hero-author-avatar-wrap" aria-hidden="true">
-            @if($primaryAuthor->profile_image)
-              <img class="pbd-hero-author-avatar pbd-hero-author-avatar-img" src="{{ Storage::url($primaryAuthor->profile_image) }}" alt="" loading="eager" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-              <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback" style="display:none;">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
-            @else
-              <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
+      <div class="pbd-hero-grid">
+        <div class="pbd-hero-content">
+          <div class="pbd-hero-meta">
+            @if($primaryCategory)
+              <a href="{{ route('frontend.posts.index', ['category' => $primaryCategory->slug]) }}" class="pbd-hero-cat">{{ $primaryCategory->name }}</a>
+            @endif
+            <span>{{ $readingMinutes }} min read</span>
+            <span class="pbd-hero-meta-divider">·</span>
+            <span>{{ ($post->published_at ?? $post->updated_at)->format('M j, Y') }}</span>
+            @if($post->updated_at && $post->published_at && $post->updated_at->gt($post->published_at->addDays(7)))
+              <span class="pbd-hero-meta-divider">·</span>
+              <span>Updated {{ $post->updated_at->format('M j, Y') }}</span>
             @endif
           </div>
-          <div class="pbd-hero-author-text">
-            <p class="pbd-hero-author-name">{{ $primaryAuthor->name }}</p>
-            <p class="pbd-hero-author-byline">Chartered Accountant · <span class="pbd-hero-author-cta">View profile</span></p>
-          </div>
-          <svg class="pbd-hero-author-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
-        </a>
-      @endif
 
-      @if($post->featured_image)
-        <img class="pbd-hero-image" src="{{ $post->featured_image_url }}" alt="{{ $post->featured_image_alt ?? $post->title }}" loading="eager">
-      @endif
+          <h1>{{ $post->title }}</h1>
+
+          @if($heroExcerpt)
+            <p class="pbd-hero-excerpt">{{ $heroExcerpt }}</p>
+          @endif
+
+          @if($primaryAuthor)
+            @php
+              $authorSlug = Str::slug($primaryAuthor->name);
+              $authorUrl = url('/authorhub/' . $authorSlug);
+            @endphp
+            <a class="pbd-hero-author" href="{{ $authorUrl }}" aria-label="View author profile: {{ $primaryAuthor->name }}">
+              <div class="pbd-hero-author-avatar-wrap" aria-hidden="true">
+                @if($primaryAuthor->profile_image)
+                  <img class="pbd-hero-author-avatar pbd-hero-author-avatar-img" src="{{ Storage::url($primaryAuthor->profile_image) }}" alt="" loading="eager" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                  <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback" style="display:none;">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
+                @else
+                  <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
+                @endif
+              </div>
+              <div class="pbd-hero-author-text">
+                <p class="pbd-hero-author-name">{{ $primaryAuthor->name }}</p>
+                <p class="pbd-hero-author-byline">Reviewed by CA &amp; CS Team · <span class="pbd-hero-author-cta">View profile</span></p>
+              </div>
+              <svg class="pbd-hero-author-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          @endif
+        </div>
+
+        @if($post->featured_image)
+          <div class="pbd-hero-media">
+            <img class="pbd-hero-image" src="{{ $post->featured_image_url }}" alt="{{ $post->featured_image_alt ?? $post->title }}" loading="eager">
+          </div>
+        @endif
+      </div>
     </header>
 
     {{-- ============ MAIN LAYOUT ============ --}}

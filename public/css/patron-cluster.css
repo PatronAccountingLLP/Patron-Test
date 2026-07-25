@@ -1644,40 +1644,37 @@ img,video,iframe{max-width:100%;}
    PLATFORM / MARKETPLACE LOGOS strip (industry pages)
    ============================================================ */
 .pa-logos-section{padding:48px 32px;background:linear-gradient(180deg,var(--gray-50) 0%,#ffffff 100%);}
-.pa-logos-wrap{max-width:1280px;margin:0 auto;text-align:center;}
+.pa-logos-wrap{max-width:1180px;margin:0 auto;text-align:center;}
 .pa-logos-title{display:inline-block;position:relative;font-size:12.5px;font-weight:700;
-  letter-spacing:.09em;text-transform:uppercase;color:var(--text-muted);margin:0 0 26px;}
+  letter-spacing:.09em;text-transform:uppercase;color:var(--text-muted);margin:0 0 30px;}
 .pa-logos-title::before,.pa-logos-title::after{content:"";position:absolute;top:50%;width:34px;height:1px;
   background:var(--gray-200);}
 .pa-logos-title::before{right:calc(100% + 16px);}
 .pa-logos-title::after{left:calc(100% + 16px);}
-/* the white rounded panel (clips the marquee) */
-.pa-logos-strip{background:#ffffff;border:1px solid var(--gray-200);border-radius:20px;
-  padding:28px 30px;box-shadow:0 14px 40px rgba(15,54,95,.07);overflow:hidden;position:relative;}
-/* DESKTOP: one static, centred line of logos */
-.pa-logos-track{display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;gap:14px 30px;}
-.pa-logos-track img{height:auto;width:auto;max-height:34px;max-width:150px;object-fit:contain;
-  display:block;flex:0 0 auto;transition:transform .25s ease,filter .25s ease;}
-.pa-logos-track img[src*="meesho"],.pa-logos-track img[src*="xero"],
-.pa-logos-track img[src*="zomato"],.pa-logos-track img[src*="zoho.webp"]{max-height:46px;}
-.pa-logos-track img:hover{transform:scale(1.12) translateY(-4px);
-  filter:drop-shadow(0 12px 20px rgba(15,54,95,.20));}
-.pa-logos-dup{display:none;}   /* 2nd set - only revealed for the mobile marquee loop */
-
-/* MOBILE / TABLET: auto-scrolling logo slider (seamless marquee) -- */
-@media(max-width:1024px){
-  .pa-logos-section{padding:36px 16px;}
-  .pa-logos-title::before,.pa-logos-title::after{width:22px;}
-  .pa-logos-strip{padding:22px 0;border-radius:16px;}
-  .pa-logos-track{width:max-content;justify-content:flex-start;gap:0;
-    animation:pa-logos-marquee 24s linear infinite;will-change:transform;}
-  .pa-logos-dup{display:contents;}                 /* reveal the duplicate set */
-  .pa-logos-track img{max-height:28px !important;max-width:none !important;margin-right:38px !important;}
-  .pa-logos-track img[src*="meesho"]{max-height:38px !important;}
-  .pa-logos-strip:hover .pa-logos-track,.pa-logos-strip:active .pa-logos-track{animation-play-state:paused;}
+/* CARD VERSION -- centred, auto-wrapping; logo size scales with count */
+.pa-logos-cards{display:flex;flex-wrap:wrap;align-items:stretch;justify-content:center;gap:20px;}
+.pa-logo-card{display:flex;align-items:center;justify-content:center;background:#ffffff;
+  border:1px solid var(--gray-200);border-radius:18px;padding:26px 42px;
+  box-shadow:0 10px 30px rgba(15,54,95,.06);
+  transition:transform .28s cubic-bezier(.2,.7,.3,1),box-shadow .28s ease,border-color .28s ease;}
+.pa-logo-card:hover{transform:translateY(-6px);box-shadow:0 20px 42px rgba(15,54,95,.14);border-color:#d7dee6;}
+.pa-logo-card img{height:46px;width:auto;max-width:190px;object-fit:contain;display:block;transition:transform .28s ease;}
+.pa-logo-card:hover img{transform:scale(1.05);}
+/* fewer logos -> larger; more logos -> smaller (never blank, never crowded) */
+.pa-logos-cards[data-count="1"] img,.pa-logos-cards[data-count="2"] img{height:64px;}
+.pa-logos-cards[data-count="1"] .pa-logo-card,.pa-logos-cards[data-count="2"] .pa-logo-card{padding:34px 60px;}
+.pa-logos-cards[data-count="3"] img{height:54px;}
+.pa-logos-cards[data-count="3"] .pa-logo-card{padding:30px 50px;}
+.pa-logos-cards[data-count="4"] img{height:48px;}
+.pa-logos-cards[data-count="4"] .pa-logo-card{padding:28px 44px;}
+.pa-logos-cards[data-count="5"] img,.pa-logos-cards[data-count="6"] img{height:40px;}
+.pa-logos-cards[data-count="5"] .pa-logo-card,.pa-logos-cards[data-count="6"] .pa-logo-card{padding:24px 34px;}
+@media(max-width:1024px){.pa-logos-section{padding:36px 16px;}.pa-logos-title::before,.pa-logos-title::after{width:22px;}}
+@media(max-width:640px){
+  .pa-logos-cards{gap:14px;}
+  .pa-logo-card{padding:20px 26px !important;flex:1 1 40%;}
+  .pa-logo-card img{height:36px !important;}
 }
-@keyframes pa-logos-marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
-@media(prefers-reduced-motion:reduce){.pa-logos-track{animation:none !important;}}
 
 /* -- compact single-line logos row inside the hero (label sits inline so it does
       not crowd the hero) -- */
@@ -1761,3 +1758,19 @@ main{padding-bottom:0 !important;}
    the stack. Mobile kills .column-image sticky separately, so desktop-only.
    ============================================================ */
 .column-image{top:160px !important;}
+
+/* ===== Client Portal section (compact grid) ===== */
+.portal-grid-sec .portal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:40px;}
+.portal-grid-sec .portal-card{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--gray-200);border-radius:16px;overflow:hidden;box-shadow:var(--shadow-md);transition:box-shadow .2s,transform .2s;}
+.portal-grid-sec .portal-card:hover{box-shadow:var(--shadow-lg);transform:translateY(-3px);}
+.portal-grid-sec .browser-frame{border:0;border-radius:0;box-shadow:none;background:#0f1120;}
+.portal-grid-sec .bbar{display:flex;align-items:center;gap:6px;padding:9px 12px;background:#1e2033;}
+.portal-grid-sec .bbar span{width:9px;height:9px;border-radius:50%;background:#ff5f57;}
+.portal-grid-sec .bbar span:nth-child(2){background:#febc2e;}.portal-grid-sec .bbar span:nth-child(3){background:#28c840;}
+.portal-grid-sec .browser-frame img{display:block;width:100%;height:170px;object-fit:cover;object-position:top;}
+.portal-grid-sec .portal-card__body{padding:20px 22px 24px;position:relative;}
+.portal-grid-sec .portal-card__num{position:absolute;top:-18px;left:22px;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--blue);color:#fff;font-weight:800;font-size:15px;box-shadow:0 4px 10px rgba(27,54,93,.3);}
+.portal-grid-sec .portal-card__body h3{font-size:17px;font-weight:750;color:var(--blue);margin:14px 0 8px;line-height:1.3;}
+.portal-grid-sec .portal-card__body p{font-size:14px;color:var(--text-secondary);line-height:1.6;margin:0;}
+@media(max-width:900px){.portal-grid-sec .portal-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.portal-grid-sec .portal-grid{grid-template-columns:1fr;}}

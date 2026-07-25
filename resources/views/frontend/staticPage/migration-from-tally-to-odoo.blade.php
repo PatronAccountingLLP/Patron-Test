@@ -471,7 +471,7 @@
 </section>
 
 
-<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-strip"><div class="pa-logos-track"><img src="/images/accounting-cluster/_platform-logos/tally.webp" alt="Tally" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/odoo.webp" alt="Odoo" loading="lazy" height="34"><span class="pa-logos-dup" aria-hidden="true"><img src="/images/accounting-cluster/_platform-logos/tally.webp" alt="Tally" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/odoo.webp" alt="Odoo" loading="lazy" height="34"></span></div></div></div></section><section class="content-section" id="services-section">
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="2"><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/tally.webp" alt="Tally" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/odoo.webp" alt="Odoo" loading="lazy"></div></div></div></section><section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our Tally to Odoo Migration Services</h2>

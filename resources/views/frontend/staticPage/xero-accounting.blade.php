@@ -470,7 +470,7 @@
 </section>
 
 
-<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-strip"><div class="pa-logos-track"><img src="/images/accounting-cluster/_platform-logos/xero.webp" alt="Xero" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify" loading="lazy" height="34"><span class="pa-logos-dup" aria-hidden="true"><img src="/images/accounting-cluster/_platform-logos/xero.webp" alt="Xero" loading="lazy" height="34"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify" loading="lazy" height="34"></span></div></div></div></section><section class="content-section" id="services-section">
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="3"><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/xero.webp" alt="Xero" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/zoho-books.webp" alt="Zoho Books" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/tally.webp" alt="Tally" loading="lazy"></div></div></div></section><section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our Xero Accounting Services</h2>

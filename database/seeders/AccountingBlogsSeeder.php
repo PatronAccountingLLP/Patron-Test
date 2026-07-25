@@ -23,7 +23,9 @@ class AccountingBlogsSeeder extends Seeder
             Schema::table('posts', function ($t) { $t->text('key_points')->nullable(); });
         }
 
-        $path = database_path('seeders/data/accounting_blogs.json');
+        // NOTE: resources/ (not database/) because the Render persistent disk
+        // mounts over database/ and would shadow a data file placed there.
+        $path = resource_path('blog-data/accounting_blogs.json');
         if (! is_file($path)) return;
         $posts = json_decode(file_get_contents($path), true);
         if (! is_array($posts)) return;

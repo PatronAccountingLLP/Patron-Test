@@ -1036,9 +1036,9 @@
   .patron-blog-detail .pbd-hero-grid {
     position: relative; z-index: 1;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 430px;
-    gap: 48px;
-    align-items: center;
+    grid-template-columns: minmax(0, 1fr) 400px;
+    gap: 44px;
+    align-items: start;
   }
   .patron-blog-detail .pbd-hero-content { min-width: 0; }
   .patron-blog-detail .pbd-hero-meta { margin-bottom: 14px; }

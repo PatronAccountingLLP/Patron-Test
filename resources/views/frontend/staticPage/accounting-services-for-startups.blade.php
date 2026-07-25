@@ -785,15 +785,214 @@
             <h2 class="section-title">Free tool: Burn-Rate &amp; Cash-Runway Calculator</h2>
             <div class="content-text">
                 <p>Estimate your monthly burn and how many months of runway you have left &mdash; instantly.</p>
-                <div style="margin-top:20px;border:1px solid var(--blue-lighter);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 4px 16px rgba(27,54,93,.08);">
-                    <iframe id="leaseToolFrame" src="/tools/burn-rate-calculator?embed=1" title="Free tool: Burn-Rate &amp; Cash-Runway Calculator" loading="lazy" scrolling="no" style="width:100%;border:0;min-height:560px;display:block;"></iframe>
+
+                <style>
+                /* Burn-Rate calculator — inlined & themed to the startup page tokens (brc- namespace) */
+                #tool-section .brc-wrap{--brc-navy:var(--blue,#1B365D);--brc-navy-light:#2a4d78;--brc-orange:var(--orange,#E8712C);--brc-surface:var(--blue-lighter,#F4F7FB);--brc-border:var(--gray-200,#E5E7EB);--brc-text:var(--text-secondary,#4B5563);--brc-muted:var(--text-muted,#6B7280);--brc-mono:'Space Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin-top:22px;}
+                #tool-section .brc-help{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:#FFF3E9;border:1px solid #F6D7BE;border-radius:12px;padding:14px 18px;margin-bottom:18px;}
+                #tool-section .brc-help p{margin:0;flex:1 1 300px;font-size:14px;color:#7a4a24;line-height:1.5;}
+                #tool-section .brc-help strong{color:#5f3717;}
+                #tool-section .brc-help-actions{display:flex;gap:8px;flex-wrap:wrap;}
+                #tool-section .brc-hbtn{display:inline-flex;align-items:center;gap:6px;padding:9px 15px;border-radius:8px;font-size:13.5px;font-weight:700;text-decoration:none;line-height:1;white-space:nowrap;border:0;transition:transform .15s,box-shadow .15s;}
+                #tool-section .brc-hbtn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.12);}
+                #tool-section .brc-hbtn svg{width:15px;height:15px;flex-shrink:0;}
+                #tool-section .brc-hbtn-call{background:var(--orange,#E8712C);color:#fff;}
+                #tool-section .brc-hbtn-wa{background:#25D366;color:#fff;}
+                #tool-section .brc-card{background:#fff;border:1px solid var(--brc-border);border-radius:16px;box-shadow:0 10px 30px rgba(27,54,93,.08);padding:28px;}
+                #tool-section .brc-title{font-size:20px;font-weight:700;color:var(--brc-navy);margin:0 0 20px;line-height:1.3;}
+                #tool-section .brc-label{display:block;font-size:12px;font-weight:700;color:var(--brc-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:7px;}
+                #tool-section .brc-field{margin-bottom:18px;}
+                #tool-section .brc-toggle{display:flex;gap:4px;background:var(--brc-surface);border-radius:10px;padding:4px;}
+                #tool-section .brc-tbtn{flex:1;padding:10px 8px;border:0;border-radius:7px;font:inherit;font-size:14px;font-weight:700;color:var(--brc-muted);background:transparent;cursor:pointer;transition:all .2s;}
+                #tool-section .brc-tbtn.active{background:#fff;color:var(--brc-navy);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+                #tool-section .brc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-bottom:20px;}
+                #tool-section .brc-input{width:100%;padding:12px 15px;border:2px solid var(--brc-border);border-radius:10px;font:inherit;font-size:17px;font-weight:700;font-family:var(--brc-mono);color:var(--brc-navy);background:var(--brc-surface);outline:none;transition:border-color .2s;}
+                #tool-section .brc-input:focus{border-color:var(--brc-navy);}
+                #tool-section .brc-hint{font-size:11.5px;color:var(--brc-muted);margin-top:5px;line-height:1.4;}
+                #tool-section .brc-calc{width:100%;padding:15px;background:var(--brc-navy);color:#fff;border:0;border-radius:10px;font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background .2s,transform .1s;}
+                #tool-section .brc-calc:hover{background:var(--brc-navy-light);}
+                #tool-section .brc-calc:active{transform:scale(.99);}
+                #tool-section .brc-result{display:none;margin-top:26px;padding-top:24px;border-top:1px solid var(--brc-border);}
+                #tool-section .brc-result.show{display:block;}
+                #tool-section .brc-rgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;}
+                #tool-section .brc-rcard{background:var(--brc-surface);border:1px solid var(--brc-border);border-radius:10px;padding:15px 18px;}
+                #tool-section .brc-rcard.full{grid-column:1/-1;background:var(--brc-navy);border-color:var(--brc-navy);}
+                #tool-section .brc-rcard.full .brc-rlabel,#tool-section .brc-rcard.full .brc-rval{color:#fff;}
+                #tool-section .brc-rlabel{font-size:11.5px;font-weight:700;color:var(--brc-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+                #tool-section .brc-rval{font-family:var(--brc-mono);font-size:22px;font-weight:700;color:var(--brc-navy);}
+                #tool-section .brc-break{margin-top:16px;background:var(--brc-surface);border-radius:10px;padding:8px 18px;}
+                #tool-section .brc-brow{display:flex;justify-content:space-between;gap:12px;padding:8px 0;font-size:14px;}
+                #tool-section .brc-brow:not(:last-child){border-bottom:1px dashed var(--brc-border);}
+                #tool-section .brc-blabel{color:var(--brc-text);}
+                #tool-section .brc-bval{font-family:var(--brc-mono);font-weight:700;color:var(--brc-navy);}
+                #tool-section .brc-health{margin-top:16px;}
+                #tool-section .brc-pill{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:700;}
+                #tool-section .brc-pill.good{background:#D1FAE5;color:#047857;}
+                #tool-section .brc-pill.ok{background:#FEF3C7;color:#B45309;}
+                #tool-section .brc-pill.bad{background:#FEE2E2;color:#DC2626;}
+                #tool-section .brc-note{font-size:13px;color:var(--brc-text);margin:10px 0 0;line-height:1.6;}
+                #tool-section .brc-reset{margin-top:18px;padding:8px 16px;border:1px solid var(--brc-border);border-radius:8px;background:#fff;color:var(--brc-muted);font:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;}
+                #tool-section .brc-reset:hover{border-color:#DC2626;color:#DC2626;}
+                </style>
+
+                <div class="brc-wrap">
+                    <div class="brc-help">
+                        <p>Need help reading your numbers? <strong>Talk to a CA in 30 seconds.</strong> Free consultation, no obligation.</p>
+                        <div class="brc-help-actions">
+                            <a href="tel:+919459456700" class="brc-hbtn brc-hbtn-call" aria-label="Call +91 945 945 6700"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+91 945 945 6700</a>
+                            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20used%20the%20Burn%20Rate%20Calculator%20and%20need%20help%20with%20startup%20cash-flow%20and%20runway%20planning." class="brc-hbtn brc-hbtn-wa" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0 0 20.464 3.488"/></svg>WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="brc-card">
+                        <h3 class="brc-title">Calculate Your Burn Rate &amp; Runway</h3>
+
+                        <div class="brc-field">
+                            <span class="brc-label">Amounts entered in</span>
+                            <div class="brc-toggle" id="brcUnit" role="group" aria-label="Unit">
+                                <button type="button" class="brc-tbtn active" data-unit="rupees">&#8377; Rupees</button>
+                                <button type="button" class="brc-tbtn" data-unit="lakh">&#8377; Lakh</button>
+                                <button type="button" class="brc-tbtn" data-unit="crore">&#8377; Crore</button>
+                            </div>
+                        </div>
+
+                        <div class="brc-grid">
+                            <div>
+                                <label class="brc-label" for="brcCash">Current Cash Balance</label>
+                                <input class="brc-input" type="text" id="brcCash" placeholder="e.g. 50" inputmode="decimal" autocomplete="off">
+                                <div class="brc-hint">Money in the bank right now.</div>
+                            </div>
+                            <div>
+                                <label class="brc-label" for="brcExp">Monthly Expenses</label>
+                                <input class="brc-input" type="text" id="brcExp" placeholder="e.g. 8" inputmode="decimal" autocomplete="off">
+                                <div class="brc-hint">All cash going out per month (salaries, rent, software, marketing).</div>
+                            </div>
+                            <div>
+                                <label class="brc-label" for="brcRev">Monthly Revenue</label>
+                                <input class="brc-input" type="text" id="brcRev" placeholder="e.g. 3" inputmode="decimal" autocomplete="off">
+                                <div class="brc-hint">Cash income per month. Enter 0 if pre-revenue.</div>
+                            </div>
+                            <div>
+                                <label class="brc-label" for="brcGrowth">Monthly Revenue Growth %</label>
+                                <input class="brc-input" type="text" id="brcGrowth" placeholder="e.g. 10" inputmode="decimal" autocomplete="off">
+                                <div class="brc-hint">Optional. Compounds monthly to project breakeven.</div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="brc-calc" id="brcCalc">Calculate Runway</button>
+
+                        <div class="brc-result" id="brcResult">
+                            <div class="brc-rgrid">
+                                <div class="brc-rcard">
+                                    <div class="brc-rlabel">Gross Burn / Month</div>
+                                    <div class="brc-rval" id="brcGross">&mdash;</div>
+                                </div>
+                                <div class="brc-rcard">
+                                    <div class="brc-rlabel">Net Burn / Month</div>
+                                    <div class="brc-rval" id="brcNet">&mdash;</div>
+                                </div>
+                                <div class="brc-rcard full">
+                                    <div class="brc-rlabel">Cash Runway</div>
+                                    <div class="brc-rval" id="brcRunway">&mdash;</div>
+                                </div>
+                            </div>
+                            <div class="brc-break" id="brcBreak"></div>
+                            <div class="brc-health">
+                                <span class="brc-rlabel" style="display:block;margin-bottom:6px;">Health Assessment</span>
+                                <span class="brc-pill" id="brcPill">&mdash;</span>
+                                <p class="brc-note" id="brcNoteText"></p>
+                            </div>
+                            <button type="button" class="brc-reset" id="brcReset">&#8635; Reset Calculator</button>
+                        </div>
+                    </div>
                 </div>
-                <p style="margin-top:14px;font-size:14px;"><a href="/tools/burn-rate-calculator" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">Open the full calculator &#8599;</a></p>
+
+                <script>
+                (function(){
+                    var root = document.getElementById('tool-section');
+                    if(!root || root.dataset.brcInit) return;
+                    root.dataset.brcInit = '1';
+                    var unit = 'rupees';
+                    function mult(){ return unit === 'crore' ? 1e7 : unit === 'lakh' ? 1e5 : 1; }
+                    function parseINR(raw){ if(raw==null) return NaN; var c=String(raw).replace(/[,\s₹]/g,''); if(c==='') return NaN; var n=parseFloat(c); return isFinite(n)?n:NaN; }
+                    function money(n){ return '₹' + Math.round(n).toLocaleString('en-IN'); }
+                    function months(m){ if(!isFinite(m)) return '∞'; var w=Math.floor(m), d=Math.round((m-w)*30); if(w>=1) return w+' mo'+(d>0?' '+d+' d':''); return d+' days'; }
+                    function outDate(m){ if(!isFinite(m)) return 'Cash-flow positive'; var dt=new Date(); dt.setMonth(dt.getMonth()+Math.floor(m)); return dt.toLocaleDateString('en-IN',{month:'short',year:'numeric'}); }
+                    function row(l,v){ return '<div class="brc-brow"><span class="brc-blabel">'+l+'</span><span class="brc-bval">'+v+'</span></div>'; }
+                    function $(id){ return document.getElementById(id); }
+
+                    root.querySelectorAll('#brcUnit .brc-tbtn').forEach(function(b){
+                        b.addEventListener('click', function(){
+                            unit = b.dataset.unit;
+                            root.querySelectorAll('#brcUnit .brc-tbtn').forEach(function(x){ x.classList.remove('active'); });
+                            b.classList.add('active');
+                        });
+                    });
+
+                    function calculate(){
+                        var m = mult();
+                        var cash = (parseINR($('brcCash').value)||0)*m;
+                        var exp  = (parseINR($('brcExp').value)||0)*m;
+                        var rev  = (parseINR($('brcRev').value)||0)*m;
+                        var growth = (parseINR($('brcGrowth').value)||0)/100;
+                        var gross = exp, net = exp - rev;
+
+                        $('brcGross').textContent = money(gross)+' /mo';
+                        $('brcNet').textContent = (net<=0?'+':'')+money(Math.abs(net))+' /mo';
+
+                        var pill=$('brcPill'), note=$('brcNoteText'), runwayText, rows='';
+                        if(net<=0){
+                            runwayText='Cash-flow positive 🎉';
+                            pill.textContent='Excellent'; pill.className='brc-pill good';
+                            note.textContent='Your revenue meets or exceeds expenses, so you are not burning cash at current performance. Keep monitoring as you scale costs.';
+                        } else {
+                            var simple = cash/net, modeled = simple, breakeven=null;
+                            if(growth>0 && rev>0){
+                                var bal=cash, r=rev, mo=0;
+                                while(bal>0 && mo<600){
+                                    var mn = exp-r;
+                                    if(mn<=0){ breakeven=mo; modeled=Infinity; break; }
+                                    bal-=mn; r=r*(1+growth); mo++;
+                                }
+                                if(breakeven===null && bal<=0) modeled=mo;
+                            }
+                            runwayText = months(modeled);
+                            rows += row('Cash balance', money(cash));
+                            rows += row('Monthly gross burn', money(gross));
+                            rows += row('Monthly net burn (start)', money(net));
+                            rows += row('Runway (no growth)', months(simple));
+                            if(growth>0 && rev>0){
+                                rows += row('Runway (with '+(growth*100).toFixed(1)+'% growth)', months(modeled));
+                                rows += row('Projected breakeven', breakeven!==null ? ('Month '+breakeven+' ('+outDate(breakeven)+')') : 'Beyond 50 yrs');
+                            }
+                            rows += row('Est. cash-out date', outDate(modeled));
+                            var eff = isFinite(modeled)?modeled:999;
+                            if(eff>=18){ pill.textContent='Healthy'; pill.className='brc-pill good'; note.textContent='You have 18+ months of runway — comfortably above the 2026 benchmark. You can plan your next raise on your own terms.'; }
+                            else if(eff>=9){ pill.textContent='Caution'; pill.className='brc-pill ok'; note.textContent='With 9–18 months left, this is the window to start preparing your next fundraise or push toward breakeven before runway tightens.'; }
+                            else if(eff>=6){ pill.textContent='Warning'; pill.className='brc-pill ok'; note.textContent='Under 9 months of runway. Begin raising now and avoid letting cash drop below 6 months during the process, as it weakens your leverage.'; }
+                            else { pill.textContent='Critical'; pill.className='brc-pill bad'; note.textContent='Less than 6 months of runway. Act immediately — cut burn, accelerate collections, or secure bridge funding / venture debt to extend runway.'; }
+                        }
+                        $('brcRunway').textContent = runwayText;
+                        $('brcBreak').innerHTML = rows;
+                        var rs=$('brcResult'); rs.classList.add('show'); rs.scrollIntoView({behavior:'smooth',block:'nearest'});
+                    }
+
+                    $('brcCalc').addEventListener('click', calculate);
+                    ['brcCash','brcExp','brcRev','brcGrowth'].forEach(function(id){
+                        $(id).addEventListener('keydown', function(e){ if(e.key==='Enter') calculate(); });
+                    });
+                    $('brcReset').addEventListener('click', function(){
+                        ['brcCash','brcExp','brcRev','brcGrowth'].forEach(function(id){ $(id).value=''; });
+                        $('brcResult').classList.remove('show');
+                    });
+                })();
+                </script>
+
+                <p style="margin-top:16px;font-size:14px;"><a href="/tools/burn-rate-calculator" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">Open the full calculator &#8599;</a></p>
             </div>
         </div>
     </div>
 </section>
-<script>window.addEventListener("message",function(e){var d=e.data;if(d&&d.patronTool==="burn-rate-calculator"&&d.height){var f=document.getElementById("leaseToolFrame");if(f){f.style.minHeight=d.height+"px";}}});</script>
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">

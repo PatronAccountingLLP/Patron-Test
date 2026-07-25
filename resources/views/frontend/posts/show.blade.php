@@ -321,7 +321,7 @@
   .patron-blog-detail .pbd-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 320px;
-    gap: 48px;
+    gap: 40px;
     margin-bottom: 64px;
   }
 
@@ -363,7 +363,12 @@
     font-size: 17px;
     line-height: 1.7;
     color: var(--p-charcoal);
-    max-width: 720px;
+    max-width: none;   /* fill the column so body text reaches the sidebar — no blank band */
+  }
+  .patron-blog-detail .pbd-article p,
+  .patron-blog-detail .pbd-article li {
+    text-align: justify;
+    text-justify: inter-word;
   }
   .patron-blog-detail .pbd-article h2 {
     font-family: 'Barlow', sans-serif;
@@ -551,7 +556,6 @@
   .patron-blog-detail .pbd-faq-section {
     margin: 8px 0 56px;
   }
-  /* The "Talk to a CA" button inside the FAQ aside */
   .patron-blog-detail .pbd-faq-section .pbd-contact-buttons {
     margin-top: 20px;
     display: flex;
@@ -916,113 +920,9 @@
     .patron-blog-detail .pbd-article { font-size: 16px; }
     .patron-blog-detail .pbd-article h2 { font-size: 24px; margin: 36px 0 12px; }
     .patron-blog-detail .pbd-article h3 { font-size: 19px; margin: 28px 0 10px; }
-    .patron-blog-detail .pbd-faq { padding: 24px; }
-    .patron-blog-detail .pbd-faq h2 { font-size: 22px; }
     .patron-blog-detail .pbd-related-grid { grid-template-columns: 1fr; gap: 16px; }
     .patron-blog-detail .pbd-share { flex-wrap: wrap; }
     .patron-blog-detail .pbd-share-feedback { width: 100%; margin: 8px 0 0; }
-  }
-
-  /* ============ CLUSTER ADDITIONS: figures + callout boxes ============ */
-  .patron-blog-detail .pbd-article .pbd-figure { margin: 28px 0; }
-  .patron-blog-detail .pbd-article .pbd-figure img { width: 100%; height: auto; border: 1px solid var(--p-border); border-radius: var(--p-radius-md); display: block; }
-  .patron-blog-detail .pbd-article .pbd-figure figcaption { font-size: 12px; color: var(--p-text-muted); text-align: center; margin-top: 8px; }
-  .patron-blog-detail .pbd-article .ca-tip,
-  .patron-blog-detail .pbd-article .common-mistake,
-  .patron-blog-detail .pbd-article .key-terms,
-  .patron-blog-detail .pbd-article .key-takeaways {
-    margin: 26px 0; padding: 18px 20px; border-radius: var(--p-radius-md);
-    border: 1px solid var(--p-border); border-left-width: 4px; font-size: 16px; line-height: 1.6;
-  }
-  .patron-blog-detail .pbd-article .ca-tip { background: #EAF1F8; border-left-color: var(--p-navy); }
-  .patron-blog-detail .pbd-article .common-mistake { background: #FDECEA; border-left-color: #B42318; }
-  .patron-blog-detail .pbd-article .key-terms { background: var(--p-bg-alt); border-left-color: var(--p-navy); }
-  .patron-blog-detail .pbd-article .key-takeaways { background: #FFF4EC; border-left-color: var(--p-orange); }
-  .patron-blog-detail .pbd-article .ca-tip strong,
-  .patron-blog-detail .pbd-article .common-mistake strong { color: var(--p-navy); }
-  .patron-blog-detail .pbd-article .key-terms h3,
-  .patron-blog-detail .pbd-article .key-takeaways h3 { margin: 0 0 10px; font-size: 17px; }
-  .patron-blog-detail .pbd-article .key-terms ul,
-  .patron-blog-detail .pbd-article .key-takeaways ul { margin: 0; padding-left: 20px; }
-  .patron-blog-detail .pbd-article .key-terms li,
-  .patron-blog-detail .pbd-article .key-takeaways li { margin-bottom: 6px; }
-
-  /* ============ MODERN HERO (mirrors accounting cluster pages) ============ */
-  .patron-blog-detail .pbd-hero {
-    position: relative;
-    padding: 30px 0 40px;
-    margin-bottom: 8px;
-  }
-  /* full-bleed cream→white gradient band behind the hero */
-  .patron-blog-detail .pbd-hero::before {
-    content: "";
-    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
-    width: 100vw; height: 100%; z-index: 0;
-    background: linear-gradient(180deg, #FDFBF7 0%, var(--p-bg-surface) 100%);
-    border-bottom: 1px solid var(--p-border);
-  }
-  /* editorial single-column hero (clean, typography-first — no side widget) */
-  .patron-blog-detail .pbd-hero-inner {
-    position: relative; z-index: 1;
-    max-width: 880px;
-  }
-  .patron-blog-detail .pbd-hero-meta { margin-bottom: 16px; }
-  .patron-blog-detail .pbd-hero-cat {
-    background: rgba(242, 101, 34, 0.10);
-    border-color: rgba(242, 101, 34, 0.25);
-    color: var(--p-orange);
-  }
-  .patron-blog-detail .pbd-hero h1 {
-    font-size: 44px; margin: 0 0 18px; line-height: 1.14;
-    letter-spacing: -0.022em; text-wrap: balance;
-  }
-  .patron-blog-detail .pbd-hero-excerpt {
-    display: block; margin: 0 0 26px; font-size: 19px; color: #4B5563;
-    line-height: 1.58; max-width: 700px; font-weight: 400;
-  }
-  /* byline bar: author left, trust cues right, single hairline-topped row */
-  .patron-blog-detail .pbd-hero-byline {
-    display: flex; align-items: center; justify-content: space-between;
-    flex-wrap: wrap; gap: 16px 28px;
-    padding-top: 22px; margin-top: 4px;
-    border-top: 1px solid var(--p-border);
-  }
-  /* author is now a plain inline credit, not a boxed card */
-  .patron-blog-detail .pbd-hero-byline .pbd-hero-author {
-    display: flex; align-items: center; gap: 13px;
-    padding: 0; border: 0; background: transparent; margin: 0; max-width: none;
-  }
-  .patron-blog-detail .pbd-hero-byline .pbd-hero-author:hover { background: transparent; }
-  .patron-blog-detail .pbd-hero-byline .pbd-hero-author:hover .pbd-hero-author-name { color: var(--p-orange); }
-  .patron-blog-detail .pbd-hero-byline .pbd-hero-author-avatar {
-    width: 46px; height: 46px; font-size: 16px;
-  }
-  .patron-blog-detail .pbd-hero-byline .pbd-hero-author-name { font-size: 14.5px; transition: color var(--p-t-fast); }
-  .patron-blog-detail .pbd-hero-byline .pbd-hero-author-byline { font-size: 12.5px; }
-  /* trust cues */
-  .patron-blog-detail .pbd-hero-trust {
-    display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
-  }
-  .patron-blog-detail .pbd-hero-trust-item {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-size: 12px; font-weight: 600; color: var(--p-charcoal);
-    background: var(--p-bg-surface); border: 1px solid var(--p-border);
-    padding: 5px 11px; border-radius: var(--p-radius-pill);
-  }
-  .patron-blog-detail .pbd-hero-trust-item svg { width: 13px; height: 13px; color: #1B7A3A; }
-  .patron-blog-detail .pbd-hero-rating {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-size: 12px; color: var(--p-charcoal);
-    background: var(--p-bg-surface); border: 1px solid var(--p-border);
-    padding: 5px 11px; border-radius: var(--p-radius-pill);
-  }
-  .patron-blog-detail .pbd-hero-rating svg { width: 14px; height: 14px; color: #F4B400; }
-  .patron-blog-detail .pbd-hero-rating strong { color: var(--p-navy); font-weight: 700; }
-  @media (max-width: 900px) {
-    .patron-blog-detail .pbd-hero { padding: 22px 0 26px; }
-    .patron-blog-detail .pbd-hero h1 { font-size: 29px; }
-    .patron-blog-detail .pbd-hero-excerpt { font-size: 16px; margin-bottom: 22px; }
-    .patron-blog-detail .pbd-hero-byline { gap: 14px 18px; }
   }
 </style>
 @endpush
@@ -1042,70 +942,53 @@
       <span aria-current="page">{{ Str::limit($post->title, 60) }}</span>
     </nav>
 
-    {{-- ============ ARTICLE HERO (modern, cluster-style) ============ --}}
-    @php
-      $heroExcerpt = $post->excerpt ?: ($post->description ?: \Illuminate\Support\Str::limit(trim(strip_tags($post->key_points ?? '')), 165));
-    @endphp
+    {{-- ============ ARTICLE HERO ============ --}}
     <header class="pbd-hero">
-      <div class="pbd-hero-inner">
-        <div class="pbd-hero-meta">
-          @if($primaryCategory)
-            <a href="{{ route('frontend.posts.index', ['category' => $primaryCategory->slug]) }}" class="pbd-hero-cat">{{ $primaryCategory->name }}</a>
-          @endif
-          <span>{{ $readingMinutes }} min read</span>
+      <div class="pbd-hero-meta">
+        @if($primaryCategory)
+          <a href="{{ route('frontend.posts.index', ['category' => $primaryCategory->slug]) }}" class="pbd-hero-cat">{{ $primaryCategory->name }}</a>
           <span class="pbd-hero-meta-divider">·</span>
-          <span>{{ ($post->published_at ?? $post->updated_at)->format('M j, Y') }}</span>
-          @if($post->updated_at && $post->published_at && $post->updated_at->gt($post->published_at->addDays(7)))
-            <span class="pbd-hero-meta-divider">·</span>
-            <span>Updated {{ $post->updated_at->format('M j, Y') }}</span>
-          @endif
-        </div>
-
-        <h1>{{ $post->title }}</h1>
-
-        @if($heroExcerpt)
-          <p class="pbd-hero-excerpt">{{ $heroExcerpt }}</p>
         @endif
-
-        {{-- byline bar: author on the left, trust cues on the right, one hairline-topped row --}}
-        <div class="pbd-hero-byline">
-          @if($primaryAuthor)
-            @php
-              $authorSlug = Str::slug($primaryAuthor->name);
-              $authorUrl = url('/authorhub/' . $authorSlug);
-            @endphp
-            <a class="pbd-hero-author" href="{{ $authorUrl }}" aria-label="View author profile: {{ $primaryAuthor->name }}">
-              <div class="pbd-hero-author-avatar-wrap" aria-hidden="true">
-                @if($primaryAuthor->profile_image)
-                  <img class="pbd-hero-author-avatar pbd-hero-author-avatar-img" src="{{ Storage::url($primaryAuthor->profile_image) }}" alt="" loading="eager" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-                  <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback" style="display:none;">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
-                @else
-                  <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
-                @endif
-              </div>
-              <div class="pbd-hero-author-text">
-                <p class="pbd-hero-author-name">{{ $primaryAuthor->name }}</p>
-                <p class="pbd-hero-author-byline">Reviewed by CA &amp; CS Team · <span class="pbd-hero-author-cta">View profile</span></p>
-              </div>
-            </a>
-          @endif
-
-          <div class="pbd-hero-trust">
-            <span class="pbd-hero-trust-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
-              ICAI &amp; ICSI Registered
-            </span>
-            <span class="pbd-hero-trust-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
-              15+ Years
-            </span>
-            <span class="pbd-hero-rating" title="Rated 4.9 on Google">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              <strong>4.9</strong> Google
-            </span>
-          </div>
-        </div>
+        <span>{{ $readingMinutes }} min read</span>
+        <span class="pbd-hero-meta-divider">·</span>
+        <span>{{ ($post->published_at ?? $post->updated_at)->format('M j, Y') }}</span>
+        @if($post->updated_at && $post->published_at && $post->updated_at->gt($post->published_at->addDays(7)))
+          <span class="pbd-hero-meta-divider">·</span>
+          <span>Updated {{ $post->updated_at->format('M j, Y') }}</span>
+        @endif
       </div>
+
+      <h1>{{ $post->title }}</h1>
+
+      {{-- @if($post->excerpt || $post->description)
+        <p class="pbd-hero-excerpt">{{ $post->excerpt ?: $post->description }}</p>
+      @endif --}}
+
+      @if($primaryAuthor)
+        @php
+          $authorSlug = Str::slug($primaryAuthor->name);
+          $authorUrl = url('/authorhub/' . $authorSlug);
+        @endphp
+        <a class="pbd-hero-author" href="{{ $authorUrl }}" aria-label="View author profile: {{ $primaryAuthor->name }}">
+          <div class="pbd-hero-author-avatar-wrap" aria-hidden="true">
+            @if($primaryAuthor->profile_image)
+              <img class="pbd-hero-author-avatar pbd-hero-author-avatar-img" src="{{ Storage::url($primaryAuthor->profile_image) }}" alt="" loading="eager" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback" style="display:none;">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
+            @else
+              <div class="pbd-hero-author-avatar pbd-hero-author-avatar-fallback">{{ strtoupper(substr($primaryAuthor->name, 0, 1)) }}</div>
+            @endif
+          </div>
+          <div class="pbd-hero-author-text">
+            <p class="pbd-hero-author-name">{{ $primaryAuthor->name }}</p>
+            <p class="pbd-hero-author-byline">Chartered Accountant · <span class="pbd-hero-author-cta">View profile</span></p>
+          </div>
+          <svg class="pbd-hero-author-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      @endif
+
+      @if($post->featured_image)
+        <img class="pbd-hero-image" src="{{ $post->featured_image_url }}" alt="{{ $post->featured_image_alt ?? $post->title }}" loading="eager">
+      @endif
     </header>
 
     {{-- ============ MAIN LAYOUT ============ --}}
@@ -1253,12 +1136,7 @@
           <aside class="faq-expanded__aside">
             <h2 class="faq-expanded__title" id="pbdFaqHeading">{{ $post->faq_title ?: 'Frequently asked questions' }}</h2>
             <p class="faq-expanded__lead">{{ $post->faq_subtitle ?: 'Answers to the questions we hear most from clients on this topic.' }}</p>
-            <div class="pbd-contact-buttons">
-              <a href="tel:+919459456700" class="pbd-btn pbd-btn-orange pbd-btn-block">
-                <svg class="pbd-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                Talk to a CA
-              </a>
-            </div>
+            @include('partials.faq-enquiry-form', ['enquiryService' => ($primaryCategory->name ?? 'Accounting & Bookkeeping')])
           </aside>
           <div class="faq-expanded__list">
             @foreach($post->faq_items as $faq)

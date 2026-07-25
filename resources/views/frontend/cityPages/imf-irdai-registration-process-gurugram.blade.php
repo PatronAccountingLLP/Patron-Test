@@ -922,101 +922,17 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="form-card" id="consultationFormCard">
-                    <div class="form-header">
-                        <h2 class="form-title">Get Free Consultation</h2>
-                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
-                    </div>
-
-                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
-
-                    <form id='BiginWebToRecordForm208810000001209168'
-                          name='BiginWebToRecordForm208810000001209168'
-                          action='https://bigin.zoho.in/crm/WebToRecordForm'
-                          method='POST'
-                          enctype='multipart/form-data'
-                          target='hidden208810000001209168Frame'
-                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
-                          accept-charset='UTF-8'>
-
-                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
-                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
-                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
-                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
-                        <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - IMF IRDAI Registration in Gurugram'/>
-                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
-                        <input type='hidden' name='Stage' value='Qualification'/>
-                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
-
-                        <div class="form-group">
-                            <label class="form-label">Full Name</label>
-                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
-                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label">Phone Number</label>
-                            <div class="phone-group" id="phoneGroup">
-                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
-                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
-                                    <span class="selected-code" id="selectedCode">+91</span>
-                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
-                                    <div class="country-dropdown-list" id="countryDropdownList">
-                                        <input type="text" class="country-search-input" id="countrySearchInput"
-                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
-                                        <div class="country-options" id="countryOptions"></div>
-                                    </div>
-                                </div>
-                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
-                                       placeholder='Enter phone number'
-                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
-                                       onblur='validatePhoneOnBlur(this)'/>
-                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
-                            </div>
-                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label">City</label>
-                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
-                                   class='form-input' placeholder='Enter your city' value='Gurugram' oninput='clearFieldError(this)'/>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label">Service Needed</label>
-                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
-                                <option value='' disabled>Select a service</option>
-                                <option value="imf-irdai-registration-process/gurugram" selected>IMF IRDAI Registration Process in Gurugram</option>
-                                <option value="irda-imf-business-registration/gurugram">IRDA IMF Business Registration in Gurugram</option>
-                                <option value="ismp-certification-isp-appointment/gurugram">ISMP Certification &amp; ISP Appointment in Gurugram</option>
-                                <option value="imf-compliance-retainer-services/gurugram">IMF Compliance Retainer in Gurugram</option>
-                                <option value="imf-services">IMF Services Hub</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-
-                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
-                    </form>
-
-                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
-
-                    <div class="form-footer">
-                        <span class="form-footer-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                            100% Secure
-                        </span>
-                        <span class="form-footer-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
-                            No Spam
-                        </span>
-                        <span class="form-footer-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
-                            Quick Response
-                        </span>
-                    </div>
-                </div>
+                @include('partials.enquiry-form', [
+                    'selected' => 'imf-irdai-registration-process/gurugram',
+                    'options'  => [
+                        'imf-irdai-registration-process/gurugram' => 'IMF IRDAI Registration Process in Gurugram',
+                        'irda-imf-business-registration/gurugram' => 'IRDA IMF Business Registration in Gurugram',
+                        'ismp-certification-isp-appointment/gurugram' => 'ISMP Certification &amp; ISP Appointment in Gurugram',
+                        'imf-compliance-retainer-services/gurugram' => 'IMF Compliance Retainer in Gurugram',
+                        'imf-services' => 'IMF Services Hub',
+                        'other' => 'Other',
+                    ],
+                ])
             </div>
         </div>
     </div>
@@ -1759,123 +1675,10 @@ function toggleTestiVideo(area){
 <!-- ============================================
      CONSULTATION FORM  -  Country Dropdown + Validation + Bigin Integration
      ============================================ -->
-<script>
-// Country Data
-var countries = [
-    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
-    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
-    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
-    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
-    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
-    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
-    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" }
-];
 
-var selectedCountry = countries[0];
-
-function toggleCountryDropdown(event) {
-    event.stopPropagation();
-    var dd = document.getElementById('countryCodeDropdown');
-    dd.classList.toggle('open');
-    if (dd.classList.contains('open')) {
-        var search = document.getElementById('countrySearchInput');
-        if (search) { search.value = ''; filterCountries(''); search.focus(); }
-    }
-}
-
-function renderCountryOptions(list) {
-    var container = document.getElementById('countryOptions');
-    if (!container) return;
-    container.innerHTML = '';
-    list.forEach(function(c) {
-        var opt = document.createElement('div');
-        opt.className = 'country-option' + (c.iso === selectedCountry.iso ? ' active' : '');
-        opt.innerHTML = '<span class="flag-emoji">' + c.flag + '</span><span class="country-name">' + c.name + '</span><span class="dial-code">' + c.code + '</span>';
-        opt.addEventListener('click', function(e) {
-            e.stopPropagation();
-            selectedCountry = c;
-            document.getElementById('selectedFlag').textContent = c.flag;
-            document.getElementById('selectedCode').textContent = c.code;
-            document.getElementById('countryCodeDropdown').classList.remove('open');
-        });
-        container.appendChild(opt);
-    });
-}
-
-function filterCountries(query) {
-    query = (query || '').toLowerCase();
-    var filtered = countries.filter(function(c) {
-        return c.name.toLowerCase().indexOf(query) !== -1 || c.code.indexOf(query) !== -1;
-    });
-    renderCountryOptions(filtered);
-}
-
-document.addEventListener('click', function(e) {
-    var dd = document.getElementById('countryCodeDropdown');
-    if (dd && !dd.contains(e.target)) dd.classList.remove('open');
-});
-
-renderCountryOptions(countries);
-
-// ============================================
-// VALIDATION
-// ============================================
-function clearFieldError(el) {
-    el.classList.remove('input-error');
-    var msg = el.parentNode.querySelector('.field-error-msg');
-    if (msg) msg.remove();
-}
-
-function showFieldError(el, message) {
-    el.classList.add('input-error');
-    var existing = el.parentNode.querySelector('.field-error-msg');
-    if (existing) existing.remove();
-    var msg = document.createElement('div');
-    msg.className = 'field-error-msg';
-    msg.textContent = message;
-    el.parentNode.appendChild(msg);
-}
-
-function validatePhoneOnBlur(el) {
-    var val = el.value.trim();
-    var group = document.getElementById('phoneGroup');
-    var err = document.getElementById('phoneError');
-    if (val.length > 0 && val.length < 7) {
-        group.classList.add('input-error');
-        if (err) { err.textContent = 'Please enter a valid phone number.'; err.style.display = 'block'; }
-    } else {
-        group.classList.remove('input-error');
-        if (err) err.style.display = 'none';
-    }
-}
-
-function validateConsultationForm() {
-    var ok = true;
-    var name = document.getElementById('consultFullName');
-    var phone = document.getElementById('phoneNumberInput');
-    var service = document.getElementById('consultService');
-
-    if (!name.value.trim()) { showFieldError(name, 'Please enter your name.'); ok = false; }
-    if (!phone.value.trim() || phone.value.trim().length < 7) {
-        document.getElementById('phoneGroup').classList.add('input-error');
-        var err = document.getElementById('phoneError');
-        if (err) { err.textContent = 'Please enter a valid phone number.'; err.style.display = 'block'; }
-        ok = false;
-    }
-    if (!service.value) { showFieldError(service, 'Please select a service.'); ok = false; }
-
-    if (ok) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phone.value.trim();
-        try {
-            document.getElementById('pageSourceField').value = window.location.pathname;
-        } catch (e) {}
-    }
-    return ok;
-}
-</script>
 
 <!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
-<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+
 
 <script>
 // TOC scroll arrows

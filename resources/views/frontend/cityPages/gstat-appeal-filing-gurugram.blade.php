@@ -1352,269 +1352,184 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="form-card" id="consultationFormCard">
-                    <div class="form-header">
-                        <h2 class="form-title">Get Free Consultation</h2>
-                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
-                    </div>
-
-                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
-
-                    <form id='BiginWebToRecordForm208810000001209168'
-                          name='BiginWebToRecordForm208810000001209168'
-                          action='https://bigin.zoho.in/crm/WebToRecordForm'
-                          method='POST'
-                          enctype='multipart/form-data'
-                          target='hidden208810000001209168Frame'
-                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
-                          accept-charset='UTF-8'>
-
-                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
-                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
-                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
-                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
-                        <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - GSTAT Appeal Filing in Gurugram'/>
-                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
-                        <input type='hidden' name='Stage' value='Qualification'/>
-                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
-
-                        <div class="form-group">
-                            <label class="form-label">Full Name</label>
-                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
-                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label">Phone Number</label>
-                            <div class="phone-group" id="phoneGroup">
-                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
-                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
-                                    <span class="selected-code" id="selectedCode">+91</span>
-                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
-                                    <div class="country-dropdown-list" id="countryDropdownList">
-                                        <input type="text" class="country-search-input" id="countrySearchInput"
-                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
-                                        <div class="country-options" id="countryOptions"></div>
-                                    </div>
-                                </div>
-                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
-                                       placeholder='Enter phone number'
-                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
-                                       onblur='validatePhoneOnBlur(this)'/>
-                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
-                            </div>
-                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label">City</label>
-                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
-                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label">Service Needed</label>
-                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
-                                <option value='' disabled selected>Select a service</option>
-                                <option value="GSTAT Appeal Filing in Gurugram" selected>GSTAT Appeal Filing in Gurugram</option>
-                                <option value="Accounting Services for Education Industry in Gurugram">Accounting Services for Education Industry in Gurugram</option>
-                                <option value="Accounting Services for Trading Industry in Gurugram">Accounting Services for Trading Industry in Gurugram</option>
-                                <option value="Accounting Services for e-Commerce Industry in Gurugram">Accounting Services for e-Commerce Industry in Gurugram</option>
-                                <option value="Accounting Services for the Service Sector Industry in Gurugram">Accounting Services for the Service Sector Industry in Gurugram</option>
-                                <option value="Accounting Services in Gurugram">Accounting Services in Gurugram</option>
-                                <option value="Actuarial Valuation Services for Employee Benefits in Gurugram">Actuarial Valuation Services for Employee Benefits in Gurugram</option>
-                                <option value="Ad Code Registration in Gurugram">Ad Code Registration in Gurugram</option>
-                                <option value="Appointment of Auditor in Gurugram">Appointment of Auditor in Gurugram</option>
-                                <option value="Appointment of Director in Gurugram">Appointment of Director in Gurugram</option>
-                                <option value="Brand Copyright Registration in Gurugram">Brand Copyright Registration in Gurugram</option>
-                                <option value="Change in Authorised Capital in Gurugram">Change in Authorised Capital in Gurugram</option>
-                                <option value="Change in Name of Company in Gurugram">Change in Name of Company in Gurugram</option>
-                                <option value="Change in Object Clause in Gurugram">Change in Object Clause in Gurugram</option>
-                                <option value="Change in Registered Office in Gurugram">Change in Registered Office in Gurugram</option>
-                                <option value="Change of Auditor in Gurugram">Change of Auditor in Gurugram</option>
-                                <option value="Company Closure in Gurugram">Company Closure in Gurugram</option>
-                                <option value="Company Registration in UAE in Gurugram">Company Registration in UAE in Gurugram</option>
-                                <option value="Company Registration in USA in Gurugram">Company Registration in USA in Gurugram</option>
-                                <option value="Construction and Real Estate Accounting Services in Gurugram">Construction and Real Estate Accounting Services in Gurugram</option>
-                                <option value="Convert LLP to Private Limited Company in Gurugram">Convert LLP to Private Limited Company in Gurugram</option>
-                                <option value="Convert Partnership to LLP in Gurugram">Convert Partnership to LLP in Gurugram</option>
-                                <option value="Convert Partnership to Pvt Ltd Company in Gurugram">Convert Partnership to Pvt Ltd Company in Gurugram</option>
-                                <option value="Copyright Assignment in Gurugram">Copyright Assignment in Gurugram</option>
-                                <option value="Copyright Disclaimer in Gurugram">Copyright Disclaimer in Gurugram</option>
-                                <option value="Copyright Objection in Gurugram">Copyright Objection in Gurugram</option>
-                                <option value="Copyright Registration for Artistic Work in Gurugram">Copyright Registration for Artistic Work in Gurugram</option>
-                                <option value="Copyright Registration for Broadcast in Gurugram">Copyright Registration for Broadcast in Gurugram</option>
-                                <option value="Copyright Registration for Cinematographic Film in Gurugram">Copyright Registration for Cinematographic Film in Gurugram</option>
-                                <option value="Copyright Registration for Dramatic Work in Gurugram">Copyright Registration for Dramatic Work in Gurugram</option>
-                                <option value="Copyright Registration for Literary Work in Gurugram">Copyright Registration for Literary Work in Gurugram</option>
-                                <option value="Copyright Registration for Musical Work in Gurugram">Copyright Registration for Musical Work in Gurugram</option>
-                                <option value="Copyright Registration for Sound Recording in Gurugram">Copyright Registration for Sound Recording in Gurugram</option>
-                                <option value="Copyright Registration in Gurugram">Copyright Registration in Gurugram</option>
-                                <option value="DSC Registration in Gurugram">DSC Registration in Gurugram</option>
-                                <option value="DUNS Number Service in Gurugram">DUNS Number Service in Gurugram</option>
-                                <option value="Director Kyc in Gurugram">Director Kyc in Gurugram</option>
-                                <option value="Double Currency Networth Format in Gurugram">Double Currency Networth Format in Gurugram</option>
-                                <option value="Drug License in Gurugram">Drug License in Gurugram</option>
-                                <option value="ESIC Calculation and Compliance Services in Gurugram">ESIC Calculation and Compliance Services in Gurugram</option>
-                                <option value="ESIC Registration in Gurugram">ESIC Registration in Gurugram</option>
-                                <option value="ESIC Return in Gurugram">ESIC Return in Gurugram</option>
-                                <option value="ESOP Management and Compliance Services in Gurugram">ESOP Management and Compliance Services in Gurugram</option>
-                                <option value="FCRA Registration in Gurugram">FCRA Registration in Gurugram</option>
-                                <option value="FDI Compliance in Gurugram">FDI Compliance in Gurugram</option>
-                                <option value="FSSAI Central License in Gurugram">FSSAI Central License in Gurugram</option>
-                                <option value="FSSAI Registration in Gurugram">FSSAI Registration in Gurugram</option>
-                                <option value="FSSAI Renewal in Gurugram">FSSAI Renewal in Gurugram</option>
-                                <option value="FSSAI Returns in Gurugram">FSSAI Returns in Gurugram</option>
-                                <option value="FSSAI State License in Gurugram">FSSAI State License in Gurugram</option>
-                                <option value="Fla Returns in Gurugram">Fla Returns in Gurugram</option>
-                                <option value="GST Annual Returns in Gurugram">GST Annual Returns in Gurugram</option>
-                                <option value="GST Audit in Gurugram">GST Audit in Gurugram</option>
-                                <option value="GST Notice in Gurugram">GST Notice in Gurugram</option>
-                                <option value="GST Refund in Gurugram">GST Refund in Gurugram</option>
-                                <option value="GST Registration in Gurugram">GST Registration in Gurugram</option>
-                                <option value="GST Return Filing for Freelancers in Gurugram">GST Return Filing for Freelancers in Gurugram</option>
-                                <option value="GST Returns for OIDAR in Gurugram">GST Returns for OIDAR in Gurugram</option>
-                                <option value="GST Returns for Restaurants Food Businesses in Gurugram">GST Returns for Restaurants Food Businesses in Gurugram</option>
-                                <option value="GST Returns for SEZ in Gurugram">GST Returns for SEZ in Gurugram</option>
-                                <option value="GST Returns for e-Commerce Operator in Gurugram">GST Returns for e-Commerce Operator in Gurugram</option>
-                                <option value="GST Returns in Gurugram">GST Returns in Gurugram</option>
-                                <option value="Gratuity Calculation and Compliance Services in Gurugram">Gratuity Calculation and Compliance Services in Gurugram</option>
-                                <option value="Healthcare Sector Accounting Services in Gurugram">Healthcare Sector Accounting Services in Gurugram</option>
-                                <option value="Hospitality Sector Accounting Services in Gurugram">Hospitality Sector Accounting Services in Gurugram</option>
-                                <option value="IEC Registration in Gurugram">IEC Registration in Gurugram</option>
-                                <option value="IEC Renewal in Gurugram">IEC Renewal in Gurugram</option>
-                                <option value="IRDA Imf Business Registration in Gurugram">IRDA Imf Business Registration in Gurugram</option>
-                                <option value="ISO Registration Certification Services in Gurugram">ISO Registration Certification Services in Gurugram</option>
-                                <option value="ITR Filing for Freelancers Professionals in Gurugram">ITR Filing for Freelancers Professionals in Gurugram</option>
-                                <option value="ITR Filing for Salary in Gurugram">ITR Filing for Salary in Gurugram</option>
-                                <option value="ITR for Business in Gurugram">ITR for Business in Gurugram</option>
-                                <option value="ITR for Capital Gains in Gurugram">ITR for Capital Gains in Gurugram</option>
-                                <option value="ITR for Companies in Gurugram">ITR for Companies in Gurugram</option>
-                                <option value="ITR for Crypto Traders in Gurugram">ITR for Crypto Traders in Gurugram</option>
-                                <option value="ITR for Fando Traders in Gurugram">ITR for Fando Traders in Gurugram</option>
-                                <option value="ITR for Influencers in Gurugram">ITR for Influencers in Gurugram</option>
-                                <option value="ITR for Property Sale in Gurugram">ITR for Property Sale in Gurugram</option>
-                                <option value="Income Tax Demand Under Section 156 in Gurugram">Income Tax Demand Under Section 156 in Gurugram</option>
-                                <option value="Income Tax Notice for Defective Return in Gurugram">Income Tax Notice for Defective Return in Gurugram</option>
-                                <option value="Income Tax Notice in Gurugram">Income Tax Notice in Gurugram</option>
-                                <option value="Income Tax Notices Under Section 142 1 in Gurugram">Income Tax Notices Under Section 142 1 in Gurugram</option>
-                                <option value="Income Tax Notices Under Section 143 3 in Gurugram">Income Tax Notices Under Section 143 3 in Gurugram</option>
-                                <option value="Income Tax Notices Under Section 147 in Gurugram">Income Tax Notices Under Section 147 in Gurugram</option>
-                                <option value="Income Tax Notices Under Section 148 in Gurugram">Income Tax Notices Under Section 148 in Gurugram</option>
-                                <option value="Income Tax Return in Gurugram">Income Tax Return in Gurugram</option>
-                                <option value="Internal Audit in Gurugram">Internal Audit in Gurugram</option>
-                                <option value="Issue of Shares in Gurugram">Issue of Shares in Gurugram</option>
-                                <option value="It Sector Accounting Services in Gurugram">It Sector Accounting Services in Gurugram</option>
-                                <option value="LLP Agreement Change in Gurugram">LLP Agreement Change in Gurugram</option>
-                                <option value="LLP Contribution Change in Gurugram">LLP Contribution Change in Gurugram</option>
-                                <option value="LLP Incorporation in Gurugram">LLP Incorporation in Gurugram</option>
-                                <option value="LLP Name Change in Gurugram">LLP Name Change in Gurugram</option>
-                                <option value="LLP Partner Change in Gurugram">LLP Partner Change in Gurugram</option>
-                                <option value="Legal Drafting in Gurugram">Legal Drafting in Gurugram</option>
-                                <option value="Logo Copyright Registration in Gurugram">Logo Copyright Registration in Gurugram</option>
-                                <option value="MSDS Certificate Services in Gurugram">MSDS Certificate Services in Gurugram</option>
-                                <option value="Migration from Tally to Zoho in Gurugram">Migration from Tally to Zoho in Gurugram</option>
-                                <option value="NGO Registration in Gurugram">NGO Registration in Gurugram</option>
-                                <option value="NGO and Non Profit Accounting Services in Gurugram">NGO and Non Profit Accounting Services in Gurugram</option>
-                                <option value="Net Worth Certificate Sole Proprietorship in Gurugram">Net Worth Certificate Sole Proprietorship in Gurugram</option>
-                                <option value="Net Worth Certificate for Joint Owners in India in Gurugram">Net Worth Certificate for Joint Owners in India in Gurugram</option>
-                                <option value="Net Worth Certificate for Partnership Firms in Gurugram">Net Worth Certificate for Partnership Firms in Gurugram</option>
-                                <option value="Net Worth Certificate for Visa in Gurugram">Net Worth Certificate for Visa in Gurugram</option>
-                                <option value="Net Worth Certificate in Gurugram">Net Worth Certificate in Gurugram</option>
-                                <option value="Nidhi Company Registration in Gurugram">Nidhi Company Registration in Gurugram</option>
-                                <option value="Odoo Accounting in Gurugram">Odoo Accounting in Gurugram</option>
-                                <option value="One Person Company Registration in Gurugram">One Person Company Registration in Gurugram</option>
-                                <option value="PAN Registration in Gurugram">PAN Registration in Gurugram</option>
-                                <option value="PF Registration in Gurugram">PF Registration in Gurugram</option>
-                                <option value="PF Return in Gurugram">PF Return in Gurugram</option>
-                                <option value="POSH Compliance Services in Gurugram">POSH Compliance Services in Gurugram</option>
-                                <option value="Partnership Firm Registration in Gurugram">Partnership Firm Registration in Gurugram</option>
-                                <option value="Patent Registration in Gurugram">Patent Registration in Gurugram</option>
-                                <option value="Payroll Processing Services for Education Industry in Gurugram">Payroll Processing Services for Education Industry in Gurugram</option>
-                                <option value="Payroll Processing and Management Services in Gurugram">Payroll Processing and Management Services in Gurugram</option>
-                                <option value="Payroll Processing for the Healthcare Industry in Gurugram">Payroll Processing for the Healthcare Industry in Gurugram</option>
-                                <option value="Payroll Services for Construction Real Estate Industry in Gurugram">Payroll Services for Construction Real Estate Industry in Gurugram</option>
-                                <option value="Payroll Services for It and Software Industry in Gurugram">Payroll Services for It and Software Industry in Gurugram</option>
-                                <option value="Payroll Services for Ngonon Profit Industry in Gurugram">Payroll Services for Ngonon Profit Industry in Gurugram</option>
-                                <option value="Payroll Services for Security Agencies in Gurugram">Payroll Services for Security Agencies in Gurugram</option>
-                                <option value="Payroll Services for Service Sector Businesses in Gurugram">Payroll Services for Service Sector Businesses in Gurugram</option>
-                                <option value="Payroll Services for Trading Industry in Gurugram">Payroll Services for Trading Industry in Gurugram</option>
-                                <option value="Payroll Services for Travel and Logistics Industry in Gurugram">Payroll Services for Travel and Logistics Industry in Gurugram</option>
-                                <option value="Payroll Services for the Hospitality Industry in Gurugram">Payroll Services for the Hospitality Industry in Gurugram</option>
-                                <option value="Payroll Services in Gurugram">Payroll Services in Gurugram</option>
-                                <option value="Private Limited Company Compliance in Gurugram">Private Limited Company Compliance in Gurugram</option>
-                                <option value="Private Limited Company Registration in Gurugram">Private Limited Company Registration in Gurugram</option>
-                                <option value="Producer Company Registration in Gurugram">Producer Company Registration in Gurugram</option>
-                                <option value="Proprietorship Registration in Gurugram">Proprietorship Registration in Gurugram</option>
-                                <option value="Pt Return in Gurugram">Pt Return in Gurugram</option>
-                                <option value="Public Company Registration in Gurugram">Public Company Registration in Gurugram</option>
-                                <option value="Pvt LLP Compliance in Gurugram">Pvt LLP Compliance in Gurugram</option>
-                                <option value="Quickbooks Accounting in Gurugram">Quickbooks Accounting in Gurugram</option>
-                                <option value="Registrar of Companies in Gurugram">Registrar of Companies in Gurugram</option>
-                                <option value="Registration for 12A 80G Certificate in Gurugram">Registration for 12A 80G Certificate in Gurugram</option>
-                                <option value="Removal of Director in Gurugram">Removal of Director in Gurugram</option>
-                                <option value="Resignation of Director in Gurugram">Resignation of Director in Gurugram</option>
-                                <option value="Secretarial Audit in Gurugram">Secretarial Audit in Gurugram</option>
-                                <option value="Section8 Company Registration in Gurugram">Section8 Company Registration in Gurugram</option>
-                                <option value="Shop Act Registration in Gurugram">Shop Act Registration in Gurugram</option>
-                                <option value="Society Registration in Gurugram">Society Registration in Gurugram</option>
-                                <option value="Startup Registration in Gurugram">Startup Registration in Gurugram</option>
-                                <option value="Statutory Audit in Gurugram">Statutory Audit in Gurugram</option>
-                                <option value="Stock Audit in Gurugram">Stock Audit in Gurugram</option>
-                                <option value="TAN Registration in Gurugram">TAN Registration in Gurugram</option>
-                                <option value="TDS Return Filing in Gurugram">TDS Return Filing in Gurugram</option>
-                                <option value="TDS Return in Gurugram">TDS Return in Gurugram</option>
-                                <option value="Tally Accounting in Gurugram">Tally Accounting in Gurugram</option>
-                                <option value="Tax Audit in Gurugram">Tax Audit in Gurugram</option>
-                                <option value="Tax Planning Services in Gurugram">Tax Planning Services in Gurugram</option>
-                                <option value="Trademark Assignment in Gurugram">Trademark Assignment in Gurugram</option>
-                                <option value="Trademark Formality Check Fail in Gurugram">Trademark Formality Check Fail in Gurugram</option>
-                                <option value="Trademark Hearing in Gurugram">Trademark Hearing in Gurugram</option>
-                                <option value="Trademark Infringement in Gurugram">Trademark Infringement in Gurugram</option>
-                                <option value="Trademark Notice in Gurugram">Trademark Notice in Gurugram</option>
-                                <option value="Trademark Opposition in Gurugram">Trademark Opposition in Gurugram</option>
-                                <option value="Trademark Rectification in Gurugram">Trademark Rectification in Gurugram</option>
-                                <option value="Trademark Registration in Gurugram">Trademark Registration in Gurugram</option>
-                                <option value="Trademark Renewal in Gurugram">Trademark Renewal in Gurugram</option>
-                                <option value="Trademark Renewal in India in Gurugram">Trademark Renewal in India in Gurugram</option>
-                                <option value="Trademark Search Report in Gurugram">Trademark Search Report in Gurugram</option>
-                                <option value="Transfer of Shares in Gurugram">Transfer of Shares in Gurugram</option>
-                                <option value="Travel and Logistics Accounting Services in Gurugram">Travel and Logistics Accounting Services in Gurugram</option>
-                                <option value="Turnover Certificate for Current Account in Gurugram">Turnover Certificate for Current Account in Gurugram</option>
-                                <option value="Turnover Certificate for Tender in Gurugram">Turnover Certificate for Tender in Gurugram</option>
-                                <option value="Turnover Certificate in Gurugram">Turnover Certificate in Gurugram</option>
-                                <option value="Udyam Registration in Gurugram">Udyam Registration in Gurugram</option>
-                                <option value="Us Bank Account Opening in Gurugram">Us Bank Account Opening in Gurugram</option>
-                                <option value="Xero Accounting in Gurugram">Xero Accounting in Gurugram</option>
-                                <option value="Zoho Books Accounting in Gurugram">Zoho Books Accounting in Gurugram</option>
-                                <option value="e-Commerce Sector Payroll Processing Services in Gurugram">e-Commerce Sector Payroll Processing Services in Gurugram</option>
-                                <option value="Other">Other</option>
-
-                            </select>
-                        </div>
-
-                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
-                    </form>
-
-                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
-
-                    <div class="form-footer">
-                        <span class="form-footer-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                            100% Secure
-                        </span>
-                        <span class="form-footer-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
-                            No Spam
-                        </span>
-                        <span class="form-footer-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
-                            Quick Response
-                        </span>
-                    </div>
-                </div>
+                @include('partials.enquiry-form', [
+                    'selected' => 'GSTAT Appeal Filing in Gurugram',
+                    'options'  => [
+                        'GSTAT Appeal Filing in Gurugram' => 'GSTAT Appeal Filing in Gurugram',
+                        'Accounting Services for Education Industry in Gurugram' => 'Accounting Services for Education Industry in Gurugram',
+                        'Accounting Services for Trading Industry in Gurugram' => 'Accounting Services for Trading Industry in Gurugram',
+                        'Accounting Services for e-Commerce Industry in Gurugram' => 'Accounting Services for e-Commerce Industry in Gurugram',
+                        'Accounting Services for the Service Sector Industry in Gurugram' => 'Accounting Services for the Service Sector Industry in Gurugram',
+                        'Accounting Services in Gurugram' => 'Accounting Services in Gurugram',
+                        'Actuarial Valuation Services for Employee Benefits in Gurugram' => 'Actuarial Valuation Services for Employee Benefits in Gurugram',
+                        'Ad Code Registration in Gurugram' => 'Ad Code Registration in Gurugram',
+                        'Appointment of Auditor in Gurugram' => 'Appointment of Auditor in Gurugram',
+                        'Appointment of Director in Gurugram' => 'Appointment of Director in Gurugram',
+                        'Brand Copyright Registration in Gurugram' => 'Brand Copyright Registration in Gurugram',
+                        'Change in Authorised Capital in Gurugram' => 'Change in Authorised Capital in Gurugram',
+                        'Change in Name of Company in Gurugram' => 'Change in Name of Company in Gurugram',
+                        'Change in Object Clause in Gurugram' => 'Change in Object Clause in Gurugram',
+                        'Change in Registered Office in Gurugram' => 'Change in Registered Office in Gurugram',
+                        'Change of Auditor in Gurugram' => 'Change of Auditor in Gurugram',
+                        'Company Closure in Gurugram' => 'Company Closure in Gurugram',
+                        'Company Registration in UAE in Gurugram' => 'Company Registration in UAE in Gurugram',
+                        'Company Registration in USA in Gurugram' => 'Company Registration in USA in Gurugram',
+                        'Construction and Real Estate Accounting Services in Gurugram' => 'Construction and Real Estate Accounting Services in Gurugram',
+                        'Convert LLP to Private Limited Company in Gurugram' => 'Convert LLP to Private Limited Company in Gurugram',
+                        'Convert Partnership to LLP in Gurugram' => 'Convert Partnership to LLP in Gurugram',
+                        'Convert Partnership to Pvt Ltd Company in Gurugram' => 'Convert Partnership to Pvt Ltd Company in Gurugram',
+                        'Copyright Assignment in Gurugram' => 'Copyright Assignment in Gurugram',
+                        'Copyright Disclaimer in Gurugram' => 'Copyright Disclaimer in Gurugram',
+                        'Copyright Objection in Gurugram' => 'Copyright Objection in Gurugram',
+                        'Copyright Registration for Artistic Work in Gurugram' => 'Copyright Registration for Artistic Work in Gurugram',
+                        'Copyright Registration for Broadcast in Gurugram' => 'Copyright Registration for Broadcast in Gurugram',
+                        'Copyright Registration for Cinematographic Film in Gurugram' => 'Copyright Registration for Cinematographic Film in Gurugram',
+                        'Copyright Registration for Dramatic Work in Gurugram' => 'Copyright Registration for Dramatic Work in Gurugram',
+                        'Copyright Registration for Literary Work in Gurugram' => 'Copyright Registration for Literary Work in Gurugram',
+                        'Copyright Registration for Musical Work in Gurugram' => 'Copyright Registration for Musical Work in Gurugram',
+                        'Copyright Registration for Sound Recording in Gurugram' => 'Copyright Registration for Sound Recording in Gurugram',
+                        'Copyright Registration in Gurugram' => 'Copyright Registration in Gurugram',
+                        'DSC Registration in Gurugram' => 'DSC Registration in Gurugram',
+                        'DUNS Number Service in Gurugram' => 'DUNS Number Service in Gurugram',
+                        'Director Kyc in Gurugram' => 'Director Kyc in Gurugram',
+                        'Double Currency Networth Format in Gurugram' => 'Double Currency Networth Format in Gurugram',
+                        'Drug License in Gurugram' => 'Drug License in Gurugram',
+                        'ESIC Calculation and Compliance Services in Gurugram' => 'ESIC Calculation and Compliance Services in Gurugram',
+                        'ESIC Registration in Gurugram' => 'ESIC Registration in Gurugram',
+                        'ESIC Return in Gurugram' => 'ESIC Return in Gurugram',
+                        'ESOP Management and Compliance Services in Gurugram' => 'ESOP Management and Compliance Services in Gurugram',
+                        'FCRA Registration in Gurugram' => 'FCRA Registration in Gurugram',
+                        'FDI Compliance in Gurugram' => 'FDI Compliance in Gurugram',
+                        'FSSAI Central License in Gurugram' => 'FSSAI Central License in Gurugram',
+                        'FSSAI Registration in Gurugram' => 'FSSAI Registration in Gurugram',
+                        'FSSAI Renewal in Gurugram' => 'FSSAI Renewal in Gurugram',
+                        'FSSAI Returns in Gurugram' => 'FSSAI Returns in Gurugram',
+                        'FSSAI State License in Gurugram' => 'FSSAI State License in Gurugram',
+                        'Fla Returns in Gurugram' => 'Fla Returns in Gurugram',
+                        'GST Annual Returns in Gurugram' => 'GST Annual Returns in Gurugram',
+                        'GST Audit in Gurugram' => 'GST Audit in Gurugram',
+                        'GST Notice in Gurugram' => 'GST Notice in Gurugram',
+                        'GST Refund in Gurugram' => 'GST Refund in Gurugram',
+                        'GST Registration in Gurugram' => 'GST Registration in Gurugram',
+                        'GST Return Filing for Freelancers in Gurugram' => 'GST Return Filing for Freelancers in Gurugram',
+                        'GST Returns for OIDAR in Gurugram' => 'GST Returns for OIDAR in Gurugram',
+                        'GST Returns for Restaurants Food Businesses in Gurugram' => 'GST Returns for Restaurants Food Businesses in Gurugram',
+                        'GST Returns for SEZ in Gurugram' => 'GST Returns for SEZ in Gurugram',
+                        'GST Returns for e-Commerce Operator in Gurugram' => 'GST Returns for e-Commerce Operator in Gurugram',
+                        'GST Returns in Gurugram' => 'GST Returns in Gurugram',
+                        'Gratuity Calculation and Compliance Services in Gurugram' => 'Gratuity Calculation and Compliance Services in Gurugram',
+                        'Healthcare Sector Accounting Services in Gurugram' => 'Healthcare Sector Accounting Services in Gurugram',
+                        'Hospitality Sector Accounting Services in Gurugram' => 'Hospitality Sector Accounting Services in Gurugram',
+                        'IEC Registration in Gurugram' => 'IEC Registration in Gurugram',
+                        'IEC Renewal in Gurugram' => 'IEC Renewal in Gurugram',
+                        'IRDA Imf Business Registration in Gurugram' => 'IRDA Imf Business Registration in Gurugram',
+                        'ISO Registration Certification Services in Gurugram' => 'ISO Registration Certification Services in Gurugram',
+                        'ITR Filing for Freelancers Professionals in Gurugram' => 'ITR Filing for Freelancers Professionals in Gurugram',
+                        'ITR Filing for Salary in Gurugram' => 'ITR Filing for Salary in Gurugram',
+                        'ITR for Business in Gurugram' => 'ITR for Business in Gurugram',
+                        'ITR for Capital Gains in Gurugram' => 'ITR for Capital Gains in Gurugram',
+                        'ITR for Companies in Gurugram' => 'ITR for Companies in Gurugram',
+                        'ITR for Crypto Traders in Gurugram' => 'ITR for Crypto Traders in Gurugram',
+                        'ITR for Fando Traders in Gurugram' => 'ITR for Fando Traders in Gurugram',
+                        'ITR for Influencers in Gurugram' => 'ITR for Influencers in Gurugram',
+                        'ITR for Property Sale in Gurugram' => 'ITR for Property Sale in Gurugram',
+                        'Income Tax Demand Under Section 156 in Gurugram' => 'Income Tax Demand Under Section 156 in Gurugram',
+                        'Income Tax Notice for Defective Return in Gurugram' => 'Income Tax Notice for Defective Return in Gurugram',
+                        'Income Tax Notice in Gurugram' => 'Income Tax Notice in Gurugram',
+                        'Income Tax Notices Under Section 142 1 in Gurugram' => 'Income Tax Notices Under Section 142 1 in Gurugram',
+                        'Income Tax Notices Under Section 143 3 in Gurugram' => 'Income Tax Notices Under Section 143 3 in Gurugram',
+                        'Income Tax Notices Under Section 147 in Gurugram' => 'Income Tax Notices Under Section 147 in Gurugram',
+                        'Income Tax Notices Under Section 148 in Gurugram' => 'Income Tax Notices Under Section 148 in Gurugram',
+                        'Income Tax Return in Gurugram' => 'Income Tax Return in Gurugram',
+                        'Internal Audit in Gurugram' => 'Internal Audit in Gurugram',
+                        'Issue of Shares in Gurugram' => 'Issue of Shares in Gurugram',
+                        'It Sector Accounting Services in Gurugram' => 'It Sector Accounting Services in Gurugram',
+                        'LLP Agreement Change in Gurugram' => 'LLP Agreement Change in Gurugram',
+                        'LLP Contribution Change in Gurugram' => 'LLP Contribution Change in Gurugram',
+                        'LLP Incorporation in Gurugram' => 'LLP Incorporation in Gurugram',
+                        'LLP Name Change in Gurugram' => 'LLP Name Change in Gurugram',
+                        'LLP Partner Change in Gurugram' => 'LLP Partner Change in Gurugram',
+                        'Legal Drafting in Gurugram' => 'Legal Drafting in Gurugram',
+                        'Logo Copyright Registration in Gurugram' => 'Logo Copyright Registration in Gurugram',
+                        'MSDS Certificate Services in Gurugram' => 'MSDS Certificate Services in Gurugram',
+                        'Migration from Tally to Zoho in Gurugram' => 'Migration from Tally to Zoho in Gurugram',
+                        'NGO Registration in Gurugram' => 'NGO Registration in Gurugram',
+                        'NGO and Non Profit Accounting Services in Gurugram' => 'NGO and Non Profit Accounting Services in Gurugram',
+                        'Net Worth Certificate Sole Proprietorship in Gurugram' => 'Net Worth Certificate Sole Proprietorship in Gurugram',
+                        'Net Worth Certificate for Joint Owners in India in Gurugram' => 'Net Worth Certificate for Joint Owners in India in Gurugram',
+                        'Net Worth Certificate for Partnership Firms in Gurugram' => 'Net Worth Certificate for Partnership Firms in Gurugram',
+                        'Net Worth Certificate for Visa in Gurugram' => 'Net Worth Certificate for Visa in Gurugram',
+                        'Net Worth Certificate in Gurugram' => 'Net Worth Certificate in Gurugram',
+                        'Nidhi Company Registration in Gurugram' => 'Nidhi Company Registration in Gurugram',
+                        'Odoo Accounting in Gurugram' => 'Odoo Accounting in Gurugram',
+                        'One Person Company Registration in Gurugram' => 'One Person Company Registration in Gurugram',
+                        'PAN Registration in Gurugram' => 'PAN Registration in Gurugram',
+                        'PF Registration in Gurugram' => 'PF Registration in Gurugram',
+                        'PF Return in Gurugram' => 'PF Return in Gurugram',
+                        'POSH Compliance Services in Gurugram' => 'POSH Compliance Services in Gurugram',
+                        'Partnership Firm Registration in Gurugram' => 'Partnership Firm Registration in Gurugram',
+                        'Patent Registration in Gurugram' => 'Patent Registration in Gurugram',
+                        'Payroll Processing Services for Education Industry in Gurugram' => 'Payroll Processing Services for Education Industry in Gurugram',
+                        'Payroll Processing and Management Services in Gurugram' => 'Payroll Processing and Management Services in Gurugram',
+                        'Payroll Processing for the Healthcare Industry in Gurugram' => 'Payroll Processing for the Healthcare Industry in Gurugram',
+                        'Payroll Services for Construction Real Estate Industry in Gurugram' => 'Payroll Services for Construction Real Estate Industry in Gurugram',
+                        'Payroll Services for It and Software Industry in Gurugram' => 'Payroll Services for It and Software Industry in Gurugram',
+                        'Payroll Services for Ngonon Profit Industry in Gurugram' => 'Payroll Services for Ngonon Profit Industry in Gurugram',
+                        'Payroll Services for Security Agencies in Gurugram' => 'Payroll Services for Security Agencies in Gurugram',
+                        'Payroll Services for Service Sector Businesses in Gurugram' => 'Payroll Services for Service Sector Businesses in Gurugram',
+                        'Payroll Services for Trading Industry in Gurugram' => 'Payroll Services for Trading Industry in Gurugram',
+                        'Payroll Services for Travel and Logistics Industry in Gurugram' => 'Payroll Services for Travel and Logistics Industry in Gurugram',
+                        'Payroll Services for the Hospitality Industry in Gurugram' => 'Payroll Services for the Hospitality Industry in Gurugram',
+                        'Payroll Services in Gurugram' => 'Payroll Services in Gurugram',
+                        'Private Limited Company Compliance in Gurugram' => 'Private Limited Company Compliance in Gurugram',
+                        'Private Limited Company Registration in Gurugram' => 'Private Limited Company Registration in Gurugram',
+                        'Producer Company Registration in Gurugram' => 'Producer Company Registration in Gurugram',
+                        'Proprietorship Registration in Gurugram' => 'Proprietorship Registration in Gurugram',
+                        'Pt Return in Gurugram' => 'Pt Return in Gurugram',
+                        'Public Company Registration in Gurugram' => 'Public Company Registration in Gurugram',
+                        'Pvt LLP Compliance in Gurugram' => 'Pvt LLP Compliance in Gurugram',
+                        'Quickbooks Accounting in Gurugram' => 'Quickbooks Accounting in Gurugram',
+                        'Registrar of Companies in Gurugram' => 'Registrar of Companies in Gurugram',
+                        'Registration for 12A 80G Certificate in Gurugram' => 'Registration for 12A 80G Certificate in Gurugram',
+                        'Removal of Director in Gurugram' => 'Removal of Director in Gurugram',
+                        'Resignation of Director in Gurugram' => 'Resignation of Director in Gurugram',
+                        'Secretarial Audit in Gurugram' => 'Secretarial Audit in Gurugram',
+                        'Section8 Company Registration in Gurugram' => 'Section8 Company Registration in Gurugram',
+                        'Shop Act Registration in Gurugram' => 'Shop Act Registration in Gurugram',
+                        'Society Registration in Gurugram' => 'Society Registration in Gurugram',
+                        'Startup Registration in Gurugram' => 'Startup Registration in Gurugram',
+                        'Statutory Audit in Gurugram' => 'Statutory Audit in Gurugram',
+                        'Stock Audit in Gurugram' => 'Stock Audit in Gurugram',
+                        'TAN Registration in Gurugram' => 'TAN Registration in Gurugram',
+                        'TDS Return Filing in Gurugram' => 'TDS Return Filing in Gurugram',
+                        'TDS Return in Gurugram' => 'TDS Return in Gurugram',
+                        'Tally Accounting in Gurugram' => 'Tally Accounting in Gurugram',
+                        'Tax Audit in Gurugram' => 'Tax Audit in Gurugram',
+                        'Tax Planning Services in Gurugram' => 'Tax Planning Services in Gurugram',
+                        'Trademark Assignment in Gurugram' => 'Trademark Assignment in Gurugram',
+                        'Trademark Formality Check Fail in Gurugram' => 'Trademark Formality Check Fail in Gurugram',
+                        'Trademark Hearing in Gurugram' => 'Trademark Hearing in Gurugram',
+                        'Trademark Infringement in Gurugram' => 'Trademark Infringement in Gurugram',
+                        'Trademark Notice in Gurugram' => 'Trademark Notice in Gurugram',
+                        'Trademark Opposition in Gurugram' => 'Trademark Opposition in Gurugram',
+                        'Trademark Rectification in Gurugram' => 'Trademark Rectification in Gurugram',
+                        'Trademark Registration in Gurugram' => 'Trademark Registration in Gurugram',
+                        'Trademark Renewal in Gurugram' => 'Trademark Renewal in Gurugram',
+                        'Trademark Renewal in India in Gurugram' => 'Trademark Renewal in India in Gurugram',
+                        'Trademark Search Report in Gurugram' => 'Trademark Search Report in Gurugram',
+                        'Transfer of Shares in Gurugram' => 'Transfer of Shares in Gurugram',
+                        'Travel and Logistics Accounting Services in Gurugram' => 'Travel and Logistics Accounting Services in Gurugram',
+                        'Turnover Certificate for Current Account in Gurugram' => 'Turnover Certificate for Current Account in Gurugram',
+                        'Turnover Certificate for Tender in Gurugram' => 'Turnover Certificate for Tender in Gurugram',
+                        'Turnover Certificate in Gurugram' => 'Turnover Certificate in Gurugram',
+                        'Udyam Registration in Gurugram' => 'Udyam Registration in Gurugram',
+                        'Us Bank Account Opening in Gurugram' => 'Us Bank Account Opening in Gurugram',
+                        'Xero Accounting in Gurugram' => 'Xero Accounting in Gurugram',
+                        'Zoho Books Accounting in Gurugram' => 'Zoho Books Accounting in Gurugram',
+                        'e-Commerce Sector Payroll Processing Services in Gurugram' => 'e-Commerce Sector Payroll Processing Services in Gurugram',
+                        'Other' => 'Other',
+                    ],
+                ])
             </div>
         </div>
     </div>
@@ -2771,271 +2686,8 @@ function toggleTestiVideo(area) {
 }
 
 </script>
-<script>
-// Country Data (46 countries)
-var countries = [
-    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
-    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
-    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
-    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
-    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
-    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
-    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
-    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
-    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
-    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
-    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
-    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
-    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
-    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
-    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
-    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
-    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
-    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
-    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
-    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
-    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
-    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
-    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
-    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
-    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
-    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
-    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
-    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
-    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
-    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
-    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
-    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
-    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
-    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
-    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
-    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
-    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
-    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
-    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
-    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
-    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
-    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
-    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
-    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
-    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
-    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
-];
 
-var selectedCountry = countries[0]; // Default: India
 
-function populateCountries(filter) {
-    filter = filter || '';
-    var container = document.getElementById('countryOptions');
-    if (!container) return;
-    container.innerHTML = '';
-    var filtered = filter
-        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
-        : countries;
-    filtered.forEach(function(country) {
-        var option = document.createElement('div');
-        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
-        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
-        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
-        container.appendChild(option);
-    });
-}
-
-function selectCountry(country) {
-    selectedCountry = country;
-    document.getElementById('selectedFlag').textContent = country.flag;
-    document.getElementById('selectedCode').textContent = country.code;
-    document.getElementById('countryCodeDropdown').classList.remove('open');
-    document.getElementById('countrySearchInput').value = '';
-    populateCountries();
-    document.getElementById('phoneNumberInput').focus();
-}
-
-function toggleCountryDropdown(event) {
-    event.stopPropagation();
-    var dropdown = document.getElementById('countryCodeDropdown');
-    var isOpen = dropdown.classList.contains('open');
-    if (isOpen) {
-        dropdown.classList.remove('open');
-    } else {
-        dropdown.classList.add('open');
-        document.getElementById('countrySearchInput').value = '';
-        populateCountries();
-        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
-    }
-}
-
-function filterCountries(value) { populateCountries(value); }
-
-// Close dropdown on outside click
-document.addEventListener('click', function(e) {
-    var dropdown = document.getElementById('countryCodeDropdown');
-    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
-});
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
-});
-
-// Form Validation
-function clearFieldError(fieldObj) {
-    fieldObj.classList.remove('input-error');
-    var parent = fieldObj.closest('.form-group');
-    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
-}
-
-function setFieldError(fieldObj, message) {
-    fieldObj.classList.add('input-error');
-    var parent = fieldObj.closest('.form-group');
-    if (parent && !parent.querySelector('.field-error-msg')) {
-        var errDiv = document.createElement('div');
-        errDiv.className = 'field-error-msg';
-        errDiv.textContent = message;
-        parent.appendChild(errDiv);
-    }
-}
-
-// ── Phone Validation ──────────────────────────────────────────
-function validatePhone(val, dialCode) {
-    val = val.replace(/[\s\-().]/g, '');
-    if (!val) {
-        return { valid: false, message: 'Phone number is required' };
-    }
-    if (dialCode === '+91') {
-        if (!/^[6-9][0-9]{9}$/.test(val)) {
-            if (val.length !== 10) {
-                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
-            }
-            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
-        }
-        return { valid: true };
-    }
-    if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
-    }
-    return { valid: true };
-}
-
-function validatePhoneOnBlur(input) {
-    var val = input.value.trim();
-    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
-    var result = validatePhone(val, dialCode);
-    var errorEl = document.getElementById('phoneError');
-    var groupEl = document.getElementById('phoneGroup');
-    if (val === '') return;
-    if (!result.valid) {
-        groupEl.classList.add('input-error');
-        errorEl.textContent = result.message;
-        errorEl.style.display = 'block';
-    } else {
-        groupEl.classList.remove('input-error');
-        errorEl.style.display = 'none';
-    }
-}
-// ─────────────────────────────────────────────────────────────
-
-function validateConsultationForm() {
-    var isValid = true;
-
-    var nameField = document.getElementById('consultFullName');
-    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
-
-    var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
-    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
-    if (!phoneResult.valid) {
-        setFieldError(phoneInput, phoneResult.message);
-        document.getElementById('phoneGroup').classList.add('input-error');
-        document.getElementById('phoneError').textContent = phoneResult.message;
-        document.getElementById('phoneError').style.display = 'block';
-        isValid = false;
-    } else {
-        document.getElementById('phoneGroup').classList.remove('input-error');
-        document.getElementById('phoneError').style.display = 'none';
-    }
-
-    var cityField = document.getElementById('consultCity');
-    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
-
-    var serviceField = document.getElementById('consultService');
-    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
-
-    if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
-        var serviceName = serviceField.options[serviceField.selectedIndex].text;
-        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
-        document.getElementById('pageSourceField').value = window.location.href;
-        var btn = document.getElementById('formSubmitBtn');
-        btn.disabled = true;
-        btn.textContent = 'Submitting...';
-        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
-    }
-    return isValid;
-}
-
-// Success state handler (Bigin iframe load)
-window.addEventListener('DOMContentLoaded', function() {
-    populateCountries();
-    // Auto-embed page URL in form
-    var pageSourceField = document.getElementById('pageSourceField');
-    if (pageSourceField) { pageSourceField.value = window.location.href; }
-    var iframe = document.getElementById('hidden208810000001209168Frame');
-    if (iframe) {
-        iframe.addEventListener('load', function() {
-            try {
-                var iframeDoc = this.contentWindow.document;
-                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
-            } catch (error) { showSuccessState(); }
-        });
-    }
-});
-
-function showSuccessState() {
-    var formCard = document.getElementById('consultationFormCard');
-    if (formCard) {
-        formCard.innerHTML =
-            '<div class="form-success">' +
-                '<div class="form-success-icon">' +
-                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
-                '</div>' +
-                '<h3>Thank You!</h3>' +
-                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
-            '</div>';
-    }
-}
-</script>
-<script>
-// Bigin Mandatory Fields Validation (from Bigin source code)
-var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
-var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
-
-function checkMandatory208810000001209168() {
-    var isReturn = true;
-    for(var i = 0; i < mndFields208810000001209168.length; i++) {
-        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
-        if(fieldObj) {
-            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-                isReturn = false;
-            }
-        }
-    }
-    if(isReturn) {
-        document.getElementById('formSubmitBtn').disabled = true;
-    }
-    return isReturn;
-}
-
-// Bigin iframe success handler (overrides our custom one above via event delegation)
-document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
-    try {
-        var doc = arguments[0].currentTarget.contentWindow.document;
-        if(doc.body && doc.body.childElementCount !== 0) {
-            showSuccessState();
-        }
-    } catch (error) {
-        showSuccessState();
-    }
-});
-</script>
 <script>
 
 </script>

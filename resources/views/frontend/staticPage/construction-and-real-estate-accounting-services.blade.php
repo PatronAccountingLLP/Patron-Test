@@ -576,13 +576,560 @@
                 <div style="display:flex;align-items:center;gap:10px;padding:14px 20px;background:var(--blue);color:#fff;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:0 0 auto;"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8" y2="10"/><line x1="12" y1="10" x2="12" y2="10"/><line x1="16" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="8" y2="14"/><line x1="12" y1="14" x2="12" y2="14"/><line x1="16" y1="14" x2="16" y2="18"/><line x1="8" y1="18" x2="12" y2="18"/></svg><span style="font-weight:700;font-size:15px;">Lease Accounting Calculator (Ind AS 116)</span>
                     <a href="/tools/lease-accounting-calculator-ind-as-116" target="_blank" rel="noopener" style="margin-left:auto;color:#fff;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap;opacity:.92;">Open full tool &#8599;</a>
                 </div>
-                <iframe id="leaseToolFrame" src="/tools/lease-accounting-calculator-ind-as-116?embed=1" title="Convert a Site or Office Lease into an Ind AS 116 ROU Asset" loading="lazy" scrolling="no" style="width:100%;border:0;min-height:880px;display:block;"></iframe>
+<style>
+/* Lease Accounting Calculator (Ind AS 116) — inlined & themed to the page tokens (rou- namespace) */
+#tool-section .rou-wrap{--rou-navy:var(--blue,#1B365D);--rou-navy-light:var(--blue-light,#2A4A7A);--rou-navy-dark:#12294A;--rou-accent:var(--orange,#E8712C);--rou-accent-light:#F4A15E;--rou-surface:var(--blue-lighter,#F4F7FB);--rou-border:var(--gray-200,#E5E7EB);--rou-text:var(--text-secondary,#4B5563);--rou-muted:var(--text-muted,#6B7280);--rou-mono:'Space Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;padding:26px 24px 28px;}
+#tool-section .rou-intro{font-size:14px;color:var(--rou-text);margin:0 0 22px;line-height:1.65;}
+#tool-section .rou-sec-title{font-family:var(--rou-mono);font-size:12px;font-weight:700;color:var(--rou-accent);text-transform:uppercase;letter-spacing:1px;margin:22px 0 12px;padding-top:16px;border-top:1px solid var(--rou-border);}
+#tool-section .rou-sec-title:first-of-type{margin-top:0;padding-top:0;border-top:none;}
+#tool-section .rou-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-bottom:18px;}
+#tool-section .rou-field label,#tool-section .rou-field .rou-lbl{display:block;font-size:12px;font-weight:700;color:var(--rou-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:7px;}
+#tool-section .rou-opt{color:var(--rou-muted);font-weight:400;text-transform:none;letter-spacing:0;}
+#tool-section .rou-input{width:100%;padding:12px 15px;border:2px solid var(--rou-border);border-radius:10px;font:inherit;font-size:17px;font-weight:700;font-family:var(--rou-mono);color:var(--rou-navy);background:var(--rou-surface);outline:none;transition:border-color .2s;}
+#tool-section .rou-input:focus{border-color:var(--rou-navy);}
+#tool-section .rou-hint{display:block;font-size:11.5px;color:var(--rou-muted);margin-top:5px;line-height:1.4;}
+#tool-section .rou-toggle{display:flex;flex-wrap:wrap;gap:4px;background:var(--rou-surface);border-radius:10px;padding:4px;}
+#tool-section .rou-tbtn{flex:1 1 auto;min-width:0;padding:10px 12px;border:0;border-radius:7px;font:inherit;font-size:13.5px;font-weight:700;color:var(--rou-muted);background:transparent;cursor:pointer;transition:all .2s;}
+#tool-section .rou-tbtn.active{background:#fff;color:var(--rou-navy);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+#tool-section .rou-calc{width:100%;padding:14px;background:var(--rou-navy);color:#fff;border:0;border-radius:10px;font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background .2s,transform .1s;margin-top:8px;}
+#tool-section .rou-calc:hover{background:var(--rou-navy-light);}
+#tool-section .rou-calc:active{transform:scale(.99);}
+#tool-section .rou-reset{width:100%;padding:12px;background:#fff;color:var(--rou-muted);border:1px solid var(--rou-border);border-radius:10px;font:inherit;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s;margin-top:12px;}
+#tool-section .rou-reset:hover{border-color:var(--rou-navy);color:var(--rou-navy);}
+#tool-section .rou-result{display:none;margin-top:26px;}
+#tool-section .rou-result.show{display:block;}
+#tool-section .rou-divider{height:1px;background:var(--rou-border);margin-bottom:24px;}
+#tool-section .rou-verdict{border-radius:12px;padding:22px 24px;margin-bottom:20px;border-left:6px solid var(--rou-accent);background:linear-gradient(135deg,#EEF3FA 0%,var(--rou-surface) 100%);}
+#tool-section .rou-verdict-label{font-family:var(--rou-mono);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--rou-muted);margin-bottom:6px;}
+#tool-section .rou-verdict-head{font-size:20px;font-weight:700;color:var(--rou-navy);margin-bottom:4px;line-height:1.3;}
+#tool-section .rou-verdict-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-top:14px;}
+#tool-section .rou-vg-item{background:rgba(255,255,255,.75);border-radius:8px;padding:14px 16px;}
+#tool-section .rou-vg-label{font-size:11px;font-weight:700;color:var(--rou-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+#tool-section .rou-vg-value{font-family:var(--rou-mono);font-size:22px;font-weight:700;color:var(--rou-navy);line-height:1.1;}
+#tool-section .rou-summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:20px;}
+#tool-section .rou-scard{background:var(--rou-surface);border-radius:10px;padding:15px 16px;border:1px solid var(--rou-border);}
+#tool-section .rou-scard.rou-hl{background:var(--rou-navy);border-color:var(--rou-navy);}
+#tool-section .rou-scard.rou-hl .rou-slabel,#tool-section .rou-scard.rou-hl .rou-svalue{color:#fff;}
+#tool-section .rou-slabel{font-size:11px;font-weight:700;color:var(--rou-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+#tool-section .rou-svalue{font-family:var(--rou-mono);font-size:16px;font-weight:700;color:var(--rou-navy);line-height:1.4;}
+#tool-section .rou-banner{padding:14px 18px;border-radius:10px;margin-bottom:18px;font-size:14px;line-height:1.6;background:#EAF1FA;color:#1E3A63;border-left:4px solid var(--rou-navy);}
+#tool-section .rou-banner strong{color:var(--rou-navy);}
+#tool-section .rou-basis{background:var(--rou-surface);border:1px solid var(--rou-border);border-radius:10px;padding:18px 20px;margin-bottom:16px;}
+#tool-section .rou-basis-label{font-family:var(--rou-mono);font-size:11px;font-weight:700;color:var(--rou-accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+#tool-section .rou-basis-text{font-size:13.5px;color:var(--rou-text);line-height:1.7;}
+#tool-section .rou-h3{font-size:18px;color:var(--rou-navy);margin:24px 0 6px;font-weight:700;}
+#tool-section .rou-note{font-size:13px;color:var(--rou-text);margin-bottom:8px;line-height:1.6;}
+#tool-section .rou-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+#tool-section .rou-table{width:100%;border-collapse:collapse;margin:8px 0;font-size:12px;min-width:560px;}
+#tool-section .rou-table thead th{background:var(--rou-navy);color:#fff;padding:10px 8px;text-align:right;font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;}
+#tool-section .rou-table thead th:first-child{text-align:left;border-radius:6px 0 0 0;}
+#tool-section .rou-table thead th:last-child{border-radius:0 6px 0 0;}
+#tool-section .rou-table tbody td{padding:8px;border-bottom:1px solid var(--rou-border);color:var(--rou-text);font-size:12px;text-align:right;font-family:var(--rou-mono);white-space:nowrap;}
+#tool-section .rou-table tbody td:first-child{text-align:left;font-family:inherit;font-weight:600;color:var(--rou-navy);}
+#tool-section .rou-table tbody tr:nth-child(even){background:var(--rou-surface);}
+#tool-section .rou-table tfoot td{padding:10px 8px;background:var(--rou-surface);font-weight:700;color:var(--rou-navy);border-top:2px solid var(--rou-navy);font-size:12px;text-align:right;font-family:var(--rou-mono);white-space:nowrap;}
+#tool-section .rou-table tfoot td:first-child{text-align:left;font-family:inherit;}
+#tool-section .rou-compare-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:14px 0;}
+#tool-section .rou-ccard{background:var(--rou-surface);border:1px solid var(--rou-border);border-radius:10px;padding:16px 18px;}
+#tool-section .rou-ccard.rou-indas{border-left:4px solid var(--rou-navy);}
+#tool-section .rou-ccard.rou-oldas{border-left:4px solid var(--rou-muted);}
+#tool-section .rou-ccard h4{font-size:12px;font-weight:700;color:var(--rou-accent);text-transform:uppercase;letter-spacing:.5px;margin:0 0 8px;font-family:var(--rou-mono);}
+#tool-section .rou-ccard .rou-ttl-label{font-size:11px;color:var(--rou-muted);margin:6px 0 2px;}
+#tool-section .rou-ccard .rou-ttl-value{font-family:var(--rou-mono);font-size:18px;font-weight:700;color:var(--rou-navy);}
+#tool-section .rou-je{background:var(--rou-navy-dark);color:#E7EEF7;padding:18px 22px;border-radius:10px;font-family:var(--rou-mono);font-size:13px;line-height:1.9;margin:14px 0;overflow-x:auto;}
+#tool-section .rou-je-label{color:var(--rou-accent-light);font-weight:700;display:block;margin-bottom:6px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;}
+#tool-section .rou-je-row{display:grid;grid-template-columns:1fr 90px 90px;gap:8px;}
+#tool-section .rou-je-amt{text-align:right;}
+#tool-section .rou-openfull{display:inline-block;margin-top:20px;font-size:14px;color:var(--blue,#1B365D);font-weight:600;text-decoration:none;}
+#tool-section .rou-openfull:hover{text-decoration:underline;}
+@media (max-width:600px){
+    #tool-section .rou-je-row{grid-template-columns:1fr 70px 70px;}
+    #tool-section .rou-je{font-size:11px;padding:14px 16px;}
+}
+</style>
+                <div class="rou-wrap">
+                    <p class="rou-intro">Enter your lease terms below. The calculator builds the present value of lease payments at your discount rate (IBR), constructs the amortization schedule period-by-period, and aggregates to year-wise output with journal entries.</p>
+
+                    <div class="rou-sec-title">Lease Terms</div>
+
+                    <div class="rou-row">
+                        <div class="rou-field">
+                            <label for="rouTermYears">Lease Term (Years)</label>
+                            <input class="rou-input" type="number" id="rouTermYears" min="1" max="30" step="1" placeholder="5" inputmode="numeric">
+                            <span class="rou-hint">Whole years from 1 to 30. For periods less than 12 months, the short-term exemption may apply.</span>
+                        </div>
+                        <div class="rou-field">
+                            <label for="rouDiscount">Discount Rate (Annual %)</label>
+                            <input class="rou-input" type="number" id="rouDiscount" min="0" max="50" step="0.01" placeholder="9" inputmode="decimal">
+                            <span class="rou-hint">Lessee's Incremental Borrowing Rate (IBR) &mdash; e.g., 8-12% for Indian corporates.</span>
+                        </div>
+                    </div>
+
+                    <div class="rou-field" style="margin-bottom:18px;">
+                        <span class="rou-lbl">Payment Frequency</span>
+                        <div class="rou-toggle" id="rouFreqGroup" role="tablist" aria-label="Payment frequency">
+                            <button type="button" class="rou-tbtn" data-value="12" data-label="Monthly" role="tab" aria-selected="false">Monthly</button>
+                            <button type="button" class="rou-tbtn" data-value="4" data-label="Quarterly" role="tab" aria-selected="false">Quarterly</button>
+                            <button type="button" class="rou-tbtn" data-value="2" data-label="Half-Yearly" role="tab" aria-selected="false">Half-Yearly</button>
+                            <button type="button" class="rou-tbtn active" data-value="1" data-label="Annual" role="tab" aria-selected="true">Annual</button>
+                        </div>
+                    </div>
+
+                    <div class="rou-row">
+                        <div class="rou-field">
+                            <label for="rouPayment">Lease Payment per Period (&#8377;)</label>
+                            <input class="rou-input" type="number" id="rouPayment" min="0" step="any" placeholder="100000" inputmode="decimal">
+                            <span class="rou-hint">Fixed payment amount in &#8377; for the chosen frequency.</span>
+                        </div>
+                        <div class="rou-field">
+                            <span class="rou-lbl">Payment Timing</span>
+                            <div class="rou-toggle" id="rouTimingGroup" role="tablist" aria-label="Payment timing">
+                                <button type="button" class="rou-tbtn active" data-value="arrears" role="tab" aria-selected="true">In Arrears (End)</button>
+                                <button type="button" class="rou-tbtn" data-value="advance" role="tab" aria-selected="false">In Advance (Start)</button>
+                            </div>
+                            <span class="rou-hint">Most operating leases are in arrears (rent at end of period).</span>
+                        </div>
+                    </div>
+
+                    <div class="rou-row">
+                        <div class="rou-field">
+                            <label for="rouEsc">Annual Escalation (%) <span class="rou-opt">&mdash; Optional</span></label>
+                            <input class="rou-input" type="number" id="rouEsc" min="0" max="50" step="0.01" placeholder="0" inputmode="decimal">
+                            <span class="rou-hint">Compound % increase applied each year (e.g., 5% step-up). Leave 0 if fixed.</span>
+                        </div>
+                        <div class="rou-field">
+                            <label for="rouAdvance">Advance Payment / Prepayment (&#8377;) <span class="rou-opt">&mdash; Optional</span></label>
+                            <input class="rou-input" type="number" id="rouAdvance" min="0" step="any" placeholder="0" inputmode="decimal">
+                            <span class="rou-hint">Non-refundable lease payments before commencement (capitalised in ROU).</span>
+                        </div>
+                    </div>
+
+                    <div class="rou-row">
+                        <div class="rou-field">
+                            <label for="rouIDC">Initial Direct Costs (&#8377;) <span class="rou-opt">&mdash; Optional</span></label>
+                            <input class="rou-input" type="number" id="rouIDC" min="0" step="any" placeholder="0" inputmode="decimal">
+                            <span class="rou-hint">Brokerage, legal fees, registration directly attributable to the lease.</span>
+                        </div>
+                        <div class="rou-field">
+                            <label for="rouIncentive">Lease Incentives Received (&#8377;) <span class="rou-opt">&mdash; Optional</span></label>
+                            <input class="rou-input" type="number" id="rouIncentive" min="0" step="any" placeholder="0" inputmode="decimal">
+                            <span class="rou-hint">Cash or rent-free period value received from lessor (reduces ROU).</span>
+                        </div>
+                    </div>
+
+                    <div class="rou-field" style="margin-bottom:8px;">
+                        <label for="rouRestoration">Restoration / Dismantling Cost &mdash; PV (&#8377;) <span class="rou-opt">&mdash; Optional</span></label>
+                        <input class="rou-input" type="number" id="rouRestoration" min="0" step="any" placeholder="0" inputmode="decimal">
+                        <span class="rou-hint">Present value of estimated end-of-lease restoration obligation under Ind AS 37.</span>
+                    </div>
+
+                    <button type="button" class="rou-calc" id="rouCalcBtn">Calculate ROU &amp; Schedule</button>
+                    <button type="button" class="rou-reset" id="rouResetBtn">Reset</button>
+
+                    <div class="rou-result" id="rouResult" aria-live="polite">
+                        <div class="rou-divider"></div>
+                        <div class="rou-verdict">
+                            <div class="rou-verdict-label">Initial Recognition (Day 1)</div>
+                            <div class="rou-verdict-head">Right-of-Use Asset &amp; Lease Liability</div>
+                            <div class="rou-verdict-grid">
+                                <div class="rou-vg-item">
+                                    <div class="rou-vg-label">Lease Liability</div>
+                                    <div class="rou-vg-value" id="rouInitLiability">&#8377;0</div>
+                                </div>
+                                <div class="rou-vg-item">
+                                    <div class="rou-vg-label">ROU Asset</div>
+                                    <div class="rou-vg-value" id="rouInitRou">&#8377;0</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rou-summary-grid" id="rouSummaryGrid"></div>
+
+                        <div class="rou-banner" id="rouAdvisory"></div>
+
+                        <div class="rou-basis">
+                            <div class="rou-basis-label">Calculation Basis</div>
+                            <div class="rou-basis-text" id="rouBasisText"></div>
+                        </div>
+
+                        <h3 class="rou-h3">Year-wise Amortization Schedule</h3>
+                        <p class="rou-note">Aggregated annual view. Period-level computation uses your selected frequency internally.</p>
+                        <div class="rou-table-wrap">
+                            <table class="rou-table" id="rouScheduleTable">
+                                <thead>
+                                    <tr>
+                                        <th>Year</th>
+                                        <th>Op. Liability</th>
+                                        <th>Lease Payment</th>
+                                        <th>Interest</th>
+                                        <th>Cl. Liability</th>
+                                        <th>ROU Dep.</th>
+                                        <th>Cl. ROU</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="rouScheduleBody"></tbody>
+                                <tfoot id="rouScheduleFoot"></tfoot>
+                            </table>
+                        </div>
+
+                        <h3 class="rou-h3">Ind AS 116 vs Old AS 17 (Operating Lease)</h3>
+                        <p class="rou-note">Total cash outflow is identical. The expense pattern differs significantly &mdash; Ind AS 116 is front-loaded due to constant interest on a reducing liability.</p>
+                        <div class="rou-compare-grid" id="rouCompareGrid"></div>
+
+                        <h3 class="rou-h3">Journal Entry &mdash; At Commencement</h3>
+                        <div class="rou-je" id="rouJEInit"></div>
+
+                        <h3 class="rou-h3">Journal Entry &mdash; Year 1 End</h3>
+                        <div class="rou-je" id="rouJEY1"></div>
+                    </div>
+
+                    <a class="rou-openfull" href="/tools/lease-accounting-calculator-ind-as-116" target="_blank" rel="noopener">Open the full calculator &#8599;</a>
+                </div>
+                <script>
+                (function(){
+                    'use strict';
+                    var root = document.getElementById('tool-section');
+                    if (!root || root.getAttribute('data-rou-init')) return;
+                    root.setAttribute('data-rou-init', '1');
+                    function $(id){ return root.querySelector('#' + id); }
+
+                    // ===== TOGGLE GROUP HELPER =====
+                    function setupToggle(groupId){
+                        var group = $(groupId);
+                        if (!group) return;
+                        group.addEventListener('click', function(e){
+                            var btn = e.target.closest('.rou-tbtn');
+                            if (!btn || !group.contains(btn)) return;
+                            group.querySelectorAll('.rou-tbtn').forEach(function(b){
+                                b.classList.remove('active');
+                                b.setAttribute('aria-selected', 'false');
+                            });
+                            btn.classList.add('active');
+                            btn.setAttribute('aria-selected', 'true');
+                        });
+                    }
+                    function getActiveValue(groupId){
+                        var group = $(groupId);
+                        if (!group) return null;
+                        var active = group.querySelector('.rou-tbtn.active');
+                        return active ? active.dataset.value : null;
+                    }
+                    function getActiveLabel(groupId){
+                        var group = $(groupId);
+                        if (!group) return '';
+                        var active = group.querySelector('.rou-tbtn.active');
+                        return active ? (active.dataset.label || active.textContent) : '';
+                    }
+                    setupToggle('rouFreqGroup');
+                    setupToggle('rouTimingGroup');
+
+                    // ===== FORMATTING =====
+                    function fmtINR(num){
+                        if (num === undefined || num === null || isNaN(num)) return '₹0';
+                        var sign = num < 0 ? '-' : '';
+                        var abs = Math.abs(num);
+                        return sign + '₹' + abs.toLocaleString('en-IN', {maximumFractionDigits: 0, minimumFractionDigits: 0});
+                    }
+                    function fmtINRDecimal(num){
+                        return num.toLocaleString('en-IN', {maximumFractionDigits: 0, minimumFractionDigits: 0});
+                    }
+
+                    // ===== READ INPUTS =====
+                    function readInputs(){
+                        return {
+                            termYears: parseInt($('rouTermYears').value, 10) || 0,
+                            discountRate: parseFloat($('rouDiscount').value) || 0,
+                            frequency: parseInt(getActiveValue('rouFreqGroup'), 10) || 1,
+                            frequencyLabel: getActiveLabel('rouFreqGroup'),
+                            payment: parseFloat($('rouPayment').value) || 0,
+                            timing: getActiveValue('rouTimingGroup') || 'arrears',
+                            escalation: parseFloat($('rouEsc').value) || 0,
+                            advancePayment: parseFloat($('rouAdvance').value) || 0,
+                            initialDirectCost: parseFloat($('rouIDC').value) || 0,
+                            leaseIncentive: parseFloat($('rouIncentive').value) || 0,
+                            restorationCost: parseFloat($('rouRestoration').value) || 0
+                        };
+                    }
+                    function validateInputs(inp){
+                        if (!inp.termYears || inp.termYears < 1 || inp.termYears > 30) return 'Lease term must be between 1 and 30 years.';
+                        if (!inp.discountRate || inp.discountRate <= 0) return 'Please enter a positive discount rate (annual %).';
+                        if (!inp.payment || inp.payment <= 0) return 'Please enter a positive lease payment per period.';
+                        return null;
+                    }
+
+                    // ===== CORE COMPUTATION (preserved exactly) =====
+                    function computeLease(inp){
+                        var periodsPerYear = inp.frequency;
+                        var totalPeriods = inp.termYears * periodsPerYear;
+                        var periodRate = (inp.discountRate / 100) / periodsPerYear;
+
+                        // Build payment array — escalation is annual compound
+                        var payments = [];
+                        for (var i = 0; i < totalPeriods; i++) {
+                            var yearIndex = Math.floor(i / periodsPerYear);
+                            var escFactor = Math.pow(1 + inp.escalation / 100, yearIndex);
+                            payments.push(inp.payment * escFactor);
+                        }
+
+                        // Compute PV at commencement
+                        var pv = 0;
+                        for (var j = 0; j < totalPeriods; j++) {
+                            var t = (inp.timing === 'advance') ? j : (j + 1);
+                            pv += payments[j] / Math.pow(1 + periodRate, t);
+                        }
+                        var initLiability = pv;
+                        var initRou = pv + inp.advancePayment + inp.initialDirectCost + inp.restorationCost - inp.leaseIncentive;
+
+                        // Period-wise schedule
+                        var liability = initLiability;
+                        var periodRows = [];
+
+                        for (var k = 0; k < totalPeriods; k++) {
+                            var opening = liability;
+                            var payment = payments[k];
+                            var interest, principal;
+
+                            if (inp.timing === 'advance') {
+                                // Payment first, then interest on remaining balance
+                                principal = payment; // payment reduces principal first
+                                var afterPayment = opening - payment;
+                                if (afterPayment < 0) afterPayment = 0;
+                                interest = afterPayment * periodRate;
+                                liability = afterPayment + interest;
+                            } else {
+                                // Arrears: interest accrues then payment
+                                interest = opening * periodRate;
+                                principal = payment - interest;
+                                liability = opening + interest - payment;
+                            }
+                            if (liability < 0.01 && liability > -0.01) liability = 0;
+
+                            periodRows.push({
+                                period: k + 1,
+                                yearIndex: Math.floor(k / periodsPerYear) + 1,
+                                opening: opening,
+                                payment: payment,
+                                interest: interest,
+                                principal: principal,
+                                closing: liability
+                            });
+                        }
+
+                        // Aggregate to year-wise
+                        var annualDep = initRou / inp.termYears;
+                        var yearRows = [];
+                        var cumDep = 0;
+                        for (var y = 1; y <= inp.termYears; y++) {
+                            var yearPeriods = periodRows.filter(function(r){ return r.yearIndex === y; });
+                            var yOpening = yearPeriods[0].opening;
+                            var yClosing = yearPeriods[yearPeriods.length - 1].closing;
+                            var totalPayment = yearPeriods.reduce(function(s, r){ return s + r.payment; }, 0);
+                            var totalInterestY = yearPeriods.reduce(function(s, r){ return s + r.interest; }, 0);
+                            cumDep += annualDep;
+                            var closingRou = Math.max(0, initRou - cumDep);
+                            yearRows.push({
+                                year: y,
+                                opening: yOpening,
+                                payment: totalPayment,
+                                interest: totalInterestY,
+                                closing: yClosing,
+                                depreciation: annualDep,
+                                closingRou: closingRou
+                            });
+                        }
+
+                        // Totals
+                        var totalCash = yearRows.reduce(function(s, r){ return s + r.payment; }, 0);
+                        var totalInterest = yearRows.reduce(function(s, r){ return s + r.interest; }, 0);
+                        var totalDepreciation = yearRows.reduce(function(s, r){ return s + r.depreciation; }, 0);
+                        var totalIndASExpense = totalInterest + totalDepreciation;
+
+                        // Old AS 17 operating lease — straight-line rent
+                        var totalNominalRent = payments.reduce(function(s, p){ return s + p; }, 0);
+                        var annualOpLease = totalNominalRent / inp.termYears;
+
+                        return {
+                            inp: inp,
+                            initLiability: initLiability,
+                            initRou: initRou,
+                            annualDep: annualDep,
+                            yearRows: yearRows,
+                            totalCash: totalCash,
+                            totalInterest: totalInterest,
+                            totalDepreciation: totalDepreciation,
+                            totalIndASExpense: totalIndASExpense,
+                            totalNominalRent: totalNominalRent,
+                            annualOpLease: annualOpLease,
+                            periodicRate: periodRate * 100
+                        };
+                    }
+
+                    // ===== RENDER =====
+                    function renderResult(r){
+                        $('rouInitLiability').textContent = fmtINR(r.initLiability);
+                        $('rouInitRou').textContent = fmtINR(r.initRou);
+
+                        // Summary grid
+                        var grid = $('rouSummaryGrid');
+                        grid.innerHTML = '';
+                        var summary = [
+                            {label: 'Total Cash Outflow', value: fmtINR(r.totalCash), highlight: true},
+                            {label: 'Total Interest', value: fmtINR(r.totalInterest)},
+                            {label: 'Total Depreciation', value: fmtINR(r.totalDepreciation)},
+                            {label: 'Effective Period Rate', value: r.periodicRate.toFixed(3) + '%'},
+                            {label: 'Lease Term', value: r.inp.termYears + ' years (' + (r.inp.termYears * r.inp.frequency) + ' periods)'},
+                            {label: 'Frequency', value: r.inp.frequencyLabel + ' / ' + (r.inp.timing === 'advance' ? 'Advance' : 'Arrears')}
+                        ];
+                        summary.forEach(function(s){
+                            var c = document.createElement('div');
+                            c.className = 'rou-scard' + (s.highlight ? ' rou-hl' : '');
+                            c.innerHTML = '<div class="rou-slabel">' + s.label + '</div><div class="rou-svalue">' + s.value + '</div>';
+                            grid.appendChild(c);
+                        });
+
+                        // Advisory banner
+                        var advisory = $('rouAdvisory');
+                        var advHtml = '<strong>Recognition:</strong> ROU asset and lease liability are recognised on Day 1 at the values above. ROU is depreciated straight-line over ' + r.inp.termYears + ' years (₹' + fmtINRDecimal(r.annualDep) + ' per year). Interest accrues on the lease liability at ' + r.periodicRate.toFixed(3) + '% per ' + r.inp.frequencyLabel.toLowerCase() + ' period.';
+                        if (r.inp.termYears <= 1) {
+                            advHtml += '<br><br><strong>Short-term lease alert:</strong> Lease term ≤ 12 months. You may elect the short-term exemption under Para 5(a) and expense lease payments straight-line in P&amp;L instead.';
+                        }
+                        advisory.innerHTML = advHtml;
+
+                        // Basis text
+                        $('rouBasisText').innerHTML = 'Lease Liability = PV of ' + (r.inp.termYears * r.inp.frequency) + ' lease payments at ' + r.inp.discountRate + '% IBR (' + r.periodicRate.toFixed(3) + '% per period). ROU Asset = Lease Liability + Advance Payments (₹' + fmtINRDecimal(r.inp.advancePayment) + ') + Initial Direct Costs (₹' + fmtINRDecimal(r.inp.initialDirectCost) + ') + PV Restoration (₹' + fmtINRDecimal(r.inp.restorationCost) + ') − Lease Incentives (₹' + fmtINRDecimal(r.inp.leaseIncentive) + '). Computation per Ind AS 116 Para 23-26.';
+
+                        // Schedule table
+                        var tbody = $('rouScheduleBody');
+                        var tfoot = $('rouScheduleFoot');
+                        tbody.innerHTML = '';
+                        r.yearRows.forEach(function(row){
+                            var tr = document.createElement('tr');
+                            tr.innerHTML =
+                                '<td>Y' + row.year + '</td>' +
+                                '<td>' + fmtINRDecimal(row.opening) + '</td>' +
+                                '<td>' + fmtINRDecimal(row.payment) + '</td>' +
+                                '<td>' + fmtINRDecimal(row.interest) + '</td>' +
+                                '<td>' + fmtINRDecimal(row.closing) + '</td>' +
+                                '<td>' + fmtINRDecimal(row.depreciation) + '</td>' +
+                                '<td>' + fmtINRDecimal(row.closingRou) + '</td>';
+                            tbody.appendChild(tr);
+                        });
+                        tfoot.innerHTML =
+                            '<tr><td>Total</td><td>—</td>' +
+                            '<td>' + fmtINRDecimal(r.totalCash) + '</td>' +
+                            '<td>' + fmtINRDecimal(r.totalInterest) + '</td>' +
+                            '<td>—</td>' +
+                            '<td>' + fmtINRDecimal(r.totalDepreciation) + '</td>' +
+                            '<td>—</td></tr>';
+
+                        // Compare grid
+                        var compareGrid = $('rouCompareGrid');
+                        compareGrid.innerHTML =
+                            '<div class="rou-ccard rou-indas">' +
+                            '<h4>Ind AS 116 (ROU Model)</h4>' +
+                            '<div class="rou-ttl-label">Total P&amp;L Expense (over lease life)</div>' +
+                            '<div class="rou-ttl-value">' + fmtINR(r.totalIndASExpense) + '</div>' +
+                            '<div class="rou-ttl-label">Avg Annual: Dep</div>' +
+                            '<div class="rou-ttl-value">' + fmtINR(r.totalDepreciation / r.inp.termYears) + '</div>' +
+                            '<div class="rou-ttl-label">Avg Annual: Interest</div>' +
+                            '<div class="rou-ttl-value">' + fmtINR(r.totalInterest / r.inp.termYears) + '</div>' +
+                            '<div style="font-size:11px;color:var(--rou-muted);margin-top:8px;line-height:1.5;">Front-loaded &mdash; interest is high in early years. Total = depreciation + interest over lease life.</div>' +
+                            '</div>' +
+                            '<div class="rou-ccard rou-oldas">' +
+                            '<h4>Old AS 17 / Ind AS 17 (Op. Lease)</h4>' +
+                            '<div class="rou-ttl-label">Total P&amp;L Expense (over lease life)</div>' +
+                            '<div class="rou-ttl-value">' + fmtINR(r.totalNominalRent) + '</div>' +
+                            '<div class="rou-ttl-label">Annual Rent Expense</div>' +
+                            '<div class="rou-ttl-value">' + fmtINR(r.annualOpLease) + '</div>' +
+                            '<div class="rou-ttl-label">EBITDA Impact</div>' +
+                            '<div class="rou-ttl-value">Reduces by full rent</div>' +
+                            '<div style="font-size:11px;color:var(--rou-muted);margin-top:8px;line-height:1.5;">Straight-line &mdash; equal annual rent. EBITDA is lower than under Ind AS 116 by the rent amount.</div>' +
+                            '</div>';
+
+                        // Journal entry — at commencement
+                        var jeInit = $('rouJEInit');
+                        var jeHtml = '<span class="rou-je-label">Initial Recognition (Commencement Date)</span>';
+                        jeHtml += '<div class="rou-je-row"><span>Right-of-Use Asset A/c &nbsp;Dr.</span><span class="rou-je-amt">' + fmtINRDecimal(r.initRou) + '</span><span></span></div>';
+                        jeHtml += '<div class="rou-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Lease Liability A/c</span><span></span><span class="rou-je-amt">' + fmtINRDecimal(r.initLiability) + '</span></div>';
+                        if (r.inp.advancePayment > 0) {
+                            jeHtml += '<div class="rou-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c (advance payment)</span><span></span><span class="rou-je-amt">' + fmtINRDecimal(r.inp.advancePayment) + '</span></div>';
+                        }
+                        if (r.inp.initialDirectCost > 0) {
+                            jeHtml += '<div class="rou-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c (initial direct costs)</span><span></span><span class="rou-je-amt">' + fmtINRDecimal(r.inp.initialDirectCost) + '</span></div>';
+                        }
+                        if (r.inp.restorationCost > 0) {
+                            jeHtml += '<div class="rou-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Restoration Provision A/c</span><span></span><span class="rou-je-amt">' + fmtINRDecimal(r.inp.restorationCost) + '</span></div>';
+                        }
+                        if (r.inp.leaseIncentive > 0) {
+                            jeHtml += '<div class="rou-je-row"><span>Lease Incentive Receivable / Bank A/c &nbsp;Dr.</span><span class="rou-je-amt">' + fmtINRDecimal(r.inp.leaseIncentive) + '</span><span></span></div>';
+                            jeHtml += '<div class="rou-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Right-of-Use Asset A/c</span><span></span><span class="rou-je-amt">' + fmtINRDecimal(r.inp.leaseIncentive) + '</span></div>';
+                        }
+                        jeHtml += '<div class="rou-je-row" style="opacity:0.7;"><span>(Being initial recognition of ROU and lease liability per Ind AS 116)</span><span></span><span></span></div>';
+                        jeInit.innerHTML = jeHtml;
+
+                        // Journal entry — Year 1
+                        var jeY1 = $('rouJEY1');
+                        var y1 = r.yearRows[0];
+                        var jeY1Html = '<span class="rou-je-label">During Year 1 (Aggregate)</span>';
+                        jeY1Html += '<div class="rou-je-row"><span>Finance Cost A/c &nbsp;Dr.</span><span class="rou-je-amt">' + fmtINRDecimal(y1.interest) + '</span><span></span></div>';
+                        jeY1Html += '<div class="rou-je-row"><span>Lease Liability A/c &nbsp;Dr.</span><span class="rou-je-amt">' + fmtINRDecimal(y1.payment - y1.interest) + '</span><span></span></div>';
+                        jeY1Html += '<div class="rou-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Bank A/c (lease payments)</span><span></span><span class="rou-je-amt">' + fmtINRDecimal(y1.payment) + '</span></div>';
+                        jeY1Html += '<div class="rou-je-row" style="opacity:0.7;"><span>(Being lease payments split into interest and principal)</span><span></span><span></span></div>';
+                        jeY1Html += '<div class="rou-je-row" style="margin-top:12px;"><span>Depreciation A/c &nbsp;Dr.</span><span class="rou-je-amt">' + fmtINRDecimal(y1.depreciation) + '</span><span></span></div>';
+                        jeY1Html += '<div class="rou-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Accumulated Depreciation — ROU A/c</span><span></span><span class="rou-je-amt">' + fmtINRDecimal(y1.depreciation) + '</span></div>';
+                        jeY1Html += '<div class="rou-je-row" style="opacity:0.7;"><span>(Being ROU asset depreciated over lease term)</span><span></span><span></span></div>';
+                        jeY1.innerHTML = jeY1Html;
+
+                        // Show
+                        var section = $('rouResult');
+                        section.classList.add('show');
+                        setTimeout(function(){
+                            section.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+                        }, 100);
+                    }
+
+                    // ===== EVENT HANDLERS =====
+                    $('rouCalcBtn').addEventListener('click', function(){
+                        var inp = readInputs();
+                        var err = validateInputs(inp);
+                        if (err) { alert(err); return; }
+                        renderResult(computeLease(inp));
+                    });
+
+                    $('rouResetBtn').addEventListener('click', function(){
+                        ['rouTermYears', 'rouDiscount', 'rouPayment', 'rouEsc', 'rouAdvance', 'rouIDC', 'rouIncentive', 'rouRestoration'].forEach(function(id){
+                            var el = $(id);
+                            if (el) el.value = '';
+                        });
+                        var defaults = {rouFreqGroup: '1', rouTimingGroup: 'arrears'};
+                        Object.keys(defaults).forEach(function(gid){
+                            var g = $(gid);
+                            if (!g) return;
+                            g.querySelectorAll('.rou-tbtn').forEach(function(b){
+                                var isDefault = b.dataset.value === defaults[gid];
+                                b.classList.toggle('active', isDefault);
+                                b.setAttribute('aria-selected', isDefault ? 'true' : 'false');
+                            });
+                        });
+                        $('rouResult').classList.remove('show');
+                    });
+
+                    // Enter key support (scoped to this section's inputs)
+                    root.querySelectorAll('.rou-wrap input[type="number"]').forEach(function(el){
+                        el.addEventListener('keypress', function(e){
+                            if (e.key === 'Enter') {
+                                e.preventDefault();
+                                $('rouCalcBtn').click();
+                            }
+                        });
+                    });
+                })();
+                </script>
             </div>
             <p style="text-align:center;margin:16px auto 0;font-size:13px;color:var(--text-muted);max-width:760px;">Estimates only, computed in your browser &mdash; not a substitute for a signed valuation or auditor sign-off.</p>
         </div>
     </div>
 </section>
-<script>window.addEventListener("message",function(e){var d=e.data;if(d&&d.patronTool==="lease-accounting-calculator-ind-as-116"&&d.height){var f=document.getElementById("leaseToolFrame");if(f){f.style.minHeight=d.height+"px";}}});</script>
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">

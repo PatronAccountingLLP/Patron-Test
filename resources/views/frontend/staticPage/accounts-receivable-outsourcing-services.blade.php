@@ -789,15 +789,342 @@
             <h2 class="section-title">Free tool: ECL Estimator (Ind AS 109)</h2>
             <div class="content-text">
                 <p>Estimate expected-credit-loss provisioning on your trade receivables.</p>
-                <div style="margin-top:20px;border:1px solid var(--blue-lighter);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 4px 16px rgba(27,54,93,.08);">
-                    <iframe id="leaseToolFrame" src="/tools/ecl-calculator-ind-as-109?embed=1" title="Free tool: ECL Estimator (Ind AS 109)" loading="lazy" scrolling="no" style="width:100%;border:0;min-height:560px;display:block;"></iframe>
+                <style>
+                /* ECL Estimator (Ind AS 109) — inlined & themed to the AR service-page tokens (ecl- namespace) */
+                #tool-section .ecl-wrap{--ecl-navy:var(--blue,#1B365D);--ecl-navy-light:#2a4d78;--ecl-orange:var(--orange,#E8712C);--ecl-surface:var(--blue-lighter,#F4F7FB);--ecl-border:var(--gray-200,#E5E7EB);--ecl-text:var(--text-secondary,#4B5563);--ecl-muted:var(--text-muted,#6B7280);--ecl-mono:'Space Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin-top:22px;}
+                #tool-section .ecl-card{background:#fff;border:1px solid var(--ecl-border);border-radius:16px;box-shadow:0 10px 30px rgba(27,54,93,.08);padding:28px;}
+                #tool-section .ecl-title{font-size:20px;font-weight:700;color:var(--ecl-navy);margin:0 0 6px;line-height:1.3;}
+                #tool-section .ecl-intro{font-size:14px;color:var(--ecl-text);margin:0 0 20px;line-height:1.6;}
+                #tool-section .ecl-sec-title{font-size:12px;font-weight:700;color:var(--ecl-orange);text-transform:uppercase;letter-spacing:.5px;margin:22px 0 12px;padding-top:16px;border-top:1px solid var(--ecl-border);}
+                #tool-section .ecl-sec-title:first-of-type{margin-top:0;padding-top:0;border-top:0;}
+                #tool-section .ecl-toggle{display:flex;gap:4px;background:var(--ecl-surface);border-radius:10px;padding:4px;flex-wrap:wrap;}
+                #tool-section .ecl-tbtn{flex:1 1 auto;min-width:0;padding:10px 8px;border:0;border-radius:7px;font:inherit;font-size:13.5px;font-weight:700;color:var(--ecl-muted);background:transparent;cursor:pointer;transition:all .2s;}
+                #tool-section .ecl-tbtn.active{background:#fff;color:var(--ecl-navy);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+                #tool-section .ecl-approach{margin-bottom:22px;}
+                #tool-section .ecl-approach .ecl-tbtn{padding:13px 12px;font-size:14px;}
+                #tool-section .ecl-approach .ecl-tbtn.active{background:var(--ecl-navy);color:#fff;}
+                #tool-section .ecl-label{display:block;font-size:12px;font-weight:700;color:var(--ecl-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:7px;}
+                #tool-section .ecl-field{margin-bottom:18px;}
+                #tool-section .ecl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-bottom:6px;}
+                #tool-section .ecl-input{width:100%;padding:12px 15px;border:2px solid var(--ecl-border);border-radius:10px;font:inherit;font-size:17px;font-weight:700;font-family:var(--ecl-mono);color:var(--ecl-navy);background:var(--ecl-surface);outline:none;transition:border-color .2s;}
+                #tool-section .ecl-input:focus{border-color:var(--ecl-navy);}
+                #tool-section .ecl-hint{font-size:11.5px;color:var(--ecl-muted);margin-top:5px;line-height:1.4;}
+                #tool-section .ecl-block{display:none;}
+                #tool-section .ecl-block.active{display:block;}
+                #tool-section .ecl-note{font-size:13px;color:var(--ecl-text);margin:0 0 16px;line-height:1.6;}
+                #tool-section .ecl-bucket{display:grid;grid-template-columns:1.4fr 1fr 90px;gap:12px;align-items:end;margin-bottom:12px;}
+                #tool-section .ecl-bucket .ecl-blabel{font-size:12px;font-weight:600;color:var(--ecl-text);padding-bottom:12px;}
+                #tool-section .ecl-bucket .ecl-input{font-size:14px;padding:10px 12px;}
+                #tool-section .ecl-bhead{font-size:11px;color:var(--ecl-muted);margin:8px 0 4px;}
+                #tool-section .ecl-calc{width:100%;padding:15px;background:var(--ecl-navy);color:#fff;border:0;border-radius:10px;font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background .2s,transform .1s;margin-top:8px;}
+                #tool-section .ecl-calc:hover{background:var(--ecl-navy-light);}
+                #tool-section .ecl-calc:active{transform:scale(.99);}
+                #tool-section .ecl-reset{width:100%;padding:12px;margin-top:12px;border:1px solid var(--ecl-border);border-radius:10px;background:#fff;color:var(--ecl-muted);font:inherit;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s;}
+                #tool-section .ecl-reset:hover{border-color:var(--ecl-navy);color:var(--ecl-navy);}
+                #tool-section .ecl-result{display:none;margin-top:26px;padding-top:24px;border-top:1px solid var(--ecl-border);}
+                #tool-section .ecl-result.show{display:block;}
+                #tool-section .ecl-verdict{border-radius:12px;padding:22px;margin-bottom:20px;border-left:6px solid var(--ecl-navy);background:var(--ecl-surface);}
+                #tool-section .ecl-vlabel{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--ecl-muted);margin-bottom:6px;}
+                #tool-section .ecl-vhead{font-size:20px;font-weight:700;color:var(--ecl-navy);margin-bottom:4px;line-height:1.3;}
+                #tool-section .ecl-vgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:14px;}
+                #tool-section .ecl-vitem{background:#fff;border:1px solid var(--ecl-border);border-radius:8px;padding:12px 14px;}
+                #tool-section .ecl-vil{font-size:11px;font-weight:700;color:var(--ecl-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+                #tool-section .ecl-viv{font-family:var(--ecl-mono);font-size:19px;font-weight:700;color:var(--ecl-navy);line-height:1.1;}
+                #tool-section .ecl-sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px;}
+                #tool-section .ecl-scard{background:var(--ecl-surface);border:1px solid var(--ecl-border);border-radius:10px;padding:14px 16px;}
+                #tool-section .ecl-scard.full{background:var(--ecl-navy);border-color:var(--ecl-navy);}
+                #tool-section .ecl-scard.full .ecl-slabel,#tool-section .ecl-scard.full .ecl-sval{color:#fff;}
+                #tool-section .ecl-slabel{font-size:11px;font-weight:700;color:var(--ecl-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+                #tool-section .ecl-sval{font-family:var(--ecl-mono);font-size:15px;font-weight:700;color:var(--ecl-navy);}
+                #tool-section .ecl-banner{padding:14px 18px;border-radius:10px;margin-bottom:18px;font-size:14px;line-height:1.6;background:var(--ecl-surface);border-left:4px solid var(--ecl-orange);color:var(--ecl-text);}
+                #tool-section .ecl-banner strong{color:var(--ecl-navy);}
+                #tool-section .ecl-basis{background:#fff;border:1px solid var(--ecl-border);border-radius:10px;padding:16px 18px;margin-bottom:16px;}
+                #tool-section .ecl-basis-label{font-size:11px;font-weight:700;color:var(--ecl-orange);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+                #tool-section .ecl-basis-text{font-size:14px;color:var(--ecl-text);line-height:1.7;}
+                #tool-section .ecl-mwrap{overflow-x:auto;}
+                #tool-section .ecl-mtable{width:100%;border-collapse:collapse;margin:8px 0;font-size:13px;}
+                #tool-section .ecl-mtable thead th{background:var(--ecl-navy);color:#fff;padding:10px 8px;text-align:right;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px;}
+                #tool-section .ecl-mtable thead th:first-child{text-align:left;}
+                #tool-section .ecl-mtable tbody td{padding:8px;border-bottom:1px solid var(--ecl-border);color:var(--ecl-text);text-align:right;font-family:var(--ecl-mono);}
+                #tool-section .ecl-mtable tbody td:first-child{text-align:left;font-family:inherit;font-weight:600;color:var(--ecl-navy);}
+                #tool-section .ecl-mtable tbody tr:nth-child(even){background:var(--ecl-surface);}
+                #tool-section .ecl-mtable tfoot td{padding:10px 8px;background:var(--ecl-surface);font-weight:700;color:var(--ecl-navy);border-top:2px solid var(--ecl-navy);text-align:right;font-family:var(--ecl-mono);}
+                #tool-section .ecl-mtable tfoot td:first-child{text-align:left;font-family:inherit;}
+                #tool-section .ecl-je-title{font-size:16px;font-weight:700;color:var(--ecl-navy);margin:24px 0 6px;}
+                #tool-section .ecl-je{background:var(--ecl-navy);color:#e6edf6;padding:18px 20px;border-radius:10px;font-family:var(--ecl-mono);font-size:13px;line-height:1.9;margin:8px 0;overflow-x:auto;}
+                #tool-section .ecl-je-label{color:var(--ecl-orange);font-weight:700;display:block;margin-bottom:6px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;}
+                #tool-section .ecl-je-row{display:grid;grid-template-columns:1fr 90px 90px;gap:8px;}
+                #tool-section .ecl-je-amt{text-align:right;}
+                #tool-section .ecl-open{margin-top:16px;font-size:14px;}
+                #tool-section .ecl-open a{color:var(--blue,#1B365D);font-weight:600;text-decoration:none;}
+                </style>
+
+                <div class="ecl-wrap">
+                    <div class="ecl-card">
+                        <h3 class="ecl-title">Compute Expected Credit Loss</h3>
+                        <p class="ecl-intro">Pick your approach &mdash; General for loans and debt instruments, or Simplified for trade receivables. The calculator applies the Ind AS 109 methodology and generates a journal entry plus disclosure narrative.</p>
+
+                        <div class="ecl-toggle ecl-approach" id="eclApproach" role="tablist" aria-label="ECL approach">
+                            <button type="button" class="ecl-tbtn active" data-value="general" role="tab" aria-selected="true">General Approach (3-Stage)</button>
+                            <button type="button" class="ecl-tbtn" data-value="simplified" role="tab" aria-selected="false">Simplified (Provision Matrix)</button>
+                        </div>
+
+                        <div class="ecl-block active" id="eclGeneralBlock">
+                            <div class="ecl-sec-title">Asset Classification</div>
+                            <div class="ecl-field">
+                                <span class="ecl-label">Stage Classification</span>
+                                <div class="ecl-toggle" id="eclStageGroup" role="tablist">
+                                    <button type="button" class="ecl-tbtn active" data-value="1" role="tab" aria-selected="true">Stage 1 (Performing)</button>
+                                    <button type="button" class="ecl-tbtn" data-value="2" role="tab" aria-selected="false">Stage 2 (SICR)</button>
+                                    <button type="button" class="ecl-tbtn" data-value="3" role="tab" aria-selected="false">Stage 3 (Impaired)</button>
+                                </div>
+                                <div class="ecl-hint" id="eclStageHelper">Stage 1: No SICR &mdash; recognise 12-month ECL. Interest on gross carrying amount.</div>
+                            </div>
+                            <div class="ecl-sec-title">ECL Components (PD &times; LGD &times; EAD)</div>
+                            <div class="ecl-grid">
+                                <div>
+                                    <label class="ecl-label" for="eclEad">Exposure At Default (EAD) &mdash; &#8377;</label>
+                                    <input class="ecl-input" type="number" id="eclEad" min="0" step="any" placeholder="e.g. 10000000" inputmode="decimal">
+                                    <div class="ecl-hint">Outstanding gross exposure including accrued interest.</div>
+                                </div>
+                                <div>
+                                    <label class="ecl-label" for="eclPd">Probability of Default (PD) &mdash; %</label>
+                                    <input class="ecl-input" type="number" id="eclPd" min="0" max="100" step="0.01" placeholder="e.g. 2.5" inputmode="decimal">
+                                    <div class="ecl-hint" id="eclPdHelper">12-month PD for Stage 1 (typical 0.5-3% for investment-grade).</div>
+                                </div>
+                                <div>
+                                    <label class="ecl-label" for="eclLgd">Loss Given Default (LGD) &mdash; %</label>
+                                    <input class="ecl-input" type="number" id="eclLgd" min="0" max="100" step="0.01" placeholder="e.g. 45" inputmode="decimal">
+                                    <div class="ecl-hint">Expected loss as % of EAD after collateral recoveries (typical 30-60% unsecured).</div>
+                                </div>
+                                <div>
+                                    <label class="ecl-label" for="eclDiscount">Discount Factor &mdash; Optional</label>
+                                    <input class="ecl-input" type="number" id="eclDiscount" min="0" max="100" step="0.01" placeholder="e.g. 95" inputmode="decimal">
+                                    <div class="ecl-hint">Time-value discount factor as % of nominal (e.g. 95 for 5% discount). Blank = none.</div>
+                                </div>
+                            </div>
+                            <button type="button" class="ecl-calc" id="eclBtnGeneral">Compute ECL (General Approach)</button>
+                            <button type="button" class="ecl-reset" id="eclResetGeneral">Reset</button>
+                        </div>
+
+                        <div class="ecl-block" id="eclSimplifiedBlock">
+                            <div class="ecl-sec-title">Provision Matrix &mdash; Trade Receivables Aging</div>
+                            <p class="ecl-note">Enter outstanding receivable amounts in each aging bucket. Default rates are illustrative &mdash; derive from your historical credit loss experience adjusted for forward-looking information per Ind AS 109 Para 5.5.15.</p>
+                            <div class="ecl-bucket"><div class="ecl-blabel">Current (Not Due)</div><input class="ecl-input" type="number" id="eclBucket0" min="0" step="any" placeholder="Amount &#8377;" inputmode="decimal"><input class="ecl-input" type="number" id="eclRate0" min="0" max="100" step="0.01" value="0.5" inputmode="decimal"></div>
+                            <div class="ecl-bucket"><div class="ecl-blabel">1&#8211;30 days past due</div><input class="ecl-input" type="number" id="eclBucket1" min="0" step="any" placeholder="Amount &#8377;" inputmode="decimal"><input class="ecl-input" type="number" id="eclRate1" min="0" max="100" step="0.01" value="2" inputmode="decimal"></div>
+                            <div class="ecl-bucket"><div class="ecl-blabel">31&#8211;60 days past due</div><input class="ecl-input" type="number" id="eclBucket2" min="0" step="any" placeholder="Amount &#8377;" inputmode="decimal"><input class="ecl-input" type="number" id="eclRate2" min="0" max="100" step="0.01" value="5" inputmode="decimal"></div>
+                            <div class="ecl-bucket"><div class="ecl-blabel">61&#8211;90 days past due</div><input class="ecl-input" type="number" id="eclBucket3" min="0" step="any" placeholder="Amount &#8377;" inputmode="decimal"><input class="ecl-input" type="number" id="eclRate3" min="0" max="100" step="0.01" value="15" inputmode="decimal"></div>
+                            <div class="ecl-bucket"><div class="ecl-blabel">91&#8211;180 days past due</div><input class="ecl-input" type="number" id="eclBucket4" min="0" step="any" placeholder="Amount &#8377;" inputmode="decimal"><input class="ecl-input" type="number" id="eclRate4" min="0" max="100" step="0.01" value="30" inputmode="decimal"></div>
+                            <div class="ecl-bucket"><div class="ecl-blabel">181&#8211;365 days past due</div><input class="ecl-input" type="number" id="eclBucket5" min="0" step="any" placeholder="Amount &#8377;" inputmode="decimal"><input class="ecl-input" type="number" id="eclRate5" min="0" max="100" step="0.01" value="60" inputmode="decimal"></div>
+                            <div class="ecl-bucket"><div class="ecl-blabel">&gt; 365 days past due</div><input class="ecl-input" type="number" id="eclBucket6" min="0" step="any" placeholder="Amount &#8377;" inputmode="decimal"><input class="ecl-input" type="number" id="eclRate6" min="0" max="100" step="0.01" value="100" inputmode="decimal"></div>
+                            <div class="ecl-bhead">Left: bucket name. Centre: outstanding &#8377;. Right: default rate %.</div>
+                            <button type="button" class="ecl-calc" id="eclBtnSimplified">Compute ECL (Provision Matrix)</button>
+                            <button type="button" class="ecl-reset" id="eclResetSimplified">Reset</button>
+                        </div>
+
+                        <div class="ecl-result" id="eclResult" aria-live="polite">
+                            <div class="ecl-verdict" id="eclVerdict">
+                                <div class="ecl-vlabel" id="eclVLabel">Expected Credit Loss</div>
+                                <div class="ecl-vhead" id="eclVHead"></div>
+                                <div class="ecl-vgrid" id="eclVGrid"></div>
+                            </div>
+                            <div class="ecl-sgrid" id="eclSGrid"></div>
+                            <div class="ecl-banner" id="eclBanner"></div>
+                            <div class="ecl-basis">
+                                <div class="ecl-basis-label">Calculation Basis</div>
+                                <div class="ecl-basis-text" id="eclBasis"></div>
+                            </div>
+                            <div id="eclMatrix"></div>
+                            <div class="ecl-je-title">Journal Entry &mdash; Year-End</div>
+                            <div class="ecl-je" id="eclJe"></div>
+                        </div>
+                    </div>
                 </div>
-                <p style="margin-top:14px;font-size:14px;"><a href="/tools/ecl-calculator-ind-as-109" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">Open the full calculator &#8599;</a></p>
+
+                <p class="ecl-open"><a href="/tools/ecl-calculator-ind-as-109" target="_blank" rel="noopener">Open the full calculator &#8599;</a></p>
+
+                <script>
+                (function(){
+                    var root = document.getElementById('tool-section');
+                    if(!root || root.dataset.eclInit) return;
+                    root.dataset.eclInit = '1';
+
+                    function $(id){ return root.querySelector('#'+id); }
+                    function fmtINR(num){ if(num===undefined||num===null||isNaN(num)) return '₹0'; var sign=num<0?'-':''; var abs=Math.abs(num); return sign+'₹'+abs.toLocaleString('en-IN',{maximumFractionDigits:0,minimumFractionDigits:0}); }
+                    function fmtINRDecimal(num){ return num.toLocaleString('en-IN',{maximumFractionDigits:0,minimumFractionDigits:0}); }
+
+                    function setupToggle(id,onChange){
+                        var group=$(id); if(!group) return;
+                        group.addEventListener('click',function(e){
+                            var btn=e.target.closest('.ecl-tbtn'); if(!btn||!group.contains(btn)) return;
+                            group.querySelectorAll('.ecl-tbtn').forEach(function(b){ b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+                            btn.classList.add('active'); btn.setAttribute('aria-selected','true');
+                            if(onChange) onChange();
+                        });
+                    }
+                    function activeVal(id){ var g=$(id); if(!g) return null; var a=g.querySelector('.ecl-tbtn.active'); return a?a.dataset.value:null; }
+
+                    setupToggle('eclApproach',function(){
+                        var v=activeVal('eclApproach');
+                        $('eclGeneralBlock').classList.toggle('active',v==='general');
+                        $('eclSimplifiedBlock').classList.toggle('active',v==='simplified');
+                        $('eclResult').classList.remove('show');
+                    });
+
+                    setupToggle('eclStageGroup',function(){
+                        var s=activeVal('eclStageGroup');
+                        var sh=$('eclStageHelper'), ph=$('eclPdHelper');
+                        if(s==='1'){ sh.textContent='Stage 1: No SICR — recognise 12-month ECL. Interest on gross carrying amount.'; ph.textContent='12-month PD for Stage 1 (typical 0.5-3% for investment-grade).'; }
+                        else if(s==='2'){ sh.textContent='Stage 2: SICR triggered (e.g. 30+ DPD) — recognise lifetime ECL. Interest on gross.'; ph.textContent='Lifetime PD for Stage 2 (typical 5-30% depending on residual life).'; }
+                        else { sh.textContent='Stage 3: Credit-impaired (e.g. 90+ DPD or default) — lifetime ECL. Interest on net carrying amount.'; ph.textContent='Lifetime PD for Stage 3 (typical 50-100%; often near 100% post-default).'; }
+                    });
+
+                    function computeGeneral(){
+                        var stage=activeVal('eclStageGroup');
+                        var ead=parseFloat($('eclEad').value)||0;
+                        var pd=parseFloat($('eclPd').value)||0;
+                        var lgd=parseFloat($('eclLgd').value)||0;
+                        var di=$('eclDiscount').value;
+                        var discount=di?parseFloat(di):100;
+                        if(ead<=0){ alert('Please enter a positive EAD value.'); return; }
+                        if(pd<=0||pd>100){ alert('PD must be between 0 and 100%.'); return; }
+                        if(lgd<=0||lgd>100){ alert('LGD must be between 0 and 100%.'); return; }
+                        if(discount<=0||discount>100){ alert('Discount factor must be between 0 and 100%.'); return; }
+                        var ecl=ead*(pd/100)*(lgd/100)*(discount/100);
+                        var coverageRatio=(ecl/ead)*100;
+                        renderGeneral({stage:stage,ead:ead,pd:pd,lgd:lgd,discount:discount,ecl:ecl,coverageRatio:coverageRatio});
+                    }
+
+                    function renderGeneral(r){
+                        $('eclVerdict').style.borderLeftColor = r.stage==='1'?'#059669':r.stage==='2'?'#E8712C':'#DC2626';
+                        $('eclVLabel').textContent='Stage '+r.stage+' — '+(r.stage==='1'?'12-Month ECL':'Lifetime ECL');
+                        var desc={'1':'Performing Asset (No SICR)','2':'Underperforming Asset (SICR)','3':'Credit-Impaired Asset'};
+                        $('eclVHead').textContent=desc[r.stage];
+                        $('eclVGrid').innerHTML =
+                            '<div class="ecl-vitem"><div class="ecl-vil">EAD</div><div class="ecl-viv">'+fmtINR(r.ead)+'</div></div>'+
+                            '<div class="ecl-vitem"><div class="ecl-vil">ECL</div><div class="ecl-viv">'+fmtINR(r.ecl)+'</div></div>'+
+                            '<div class="ecl-vitem"><div class="ecl-vil">Coverage Ratio</div><div class="ecl-viv">'+r.coverageRatio.toFixed(2)+'%</div></div>';
+                        var items=[
+                            {label:'Stage',value:'Stage '+r.stage,full:true},
+                            {label:'PD Type',value:r.stage==='1'?'12-month':'Lifetime'},
+                            {label:'PD',value:r.pd.toFixed(2)+'%'},
+                            {label:'LGD',value:r.lgd.toFixed(2)+'%'},
+                            {label:'Discount Factor',value:r.discount.toFixed(2)+'%'},
+                            {label:'Interest Basis',value:r.stage==='3'?'Net Carrying':'Gross Carrying'}
+                        ];
+                        var sg=$('eclSGrid'); sg.innerHTML='';
+                        items.forEach(function(s){ var c=document.createElement('div'); c.className='ecl-scard'+(s.full?' full':''); c.innerHTML='<div class="ecl-slabel">'+s.label+'</div><div class="ecl-sval">'+s.value+'</div>'; sg.appendChild(c); });
+                        var adv=$('eclBanner'); var a='<strong>Stage '+r.stage+' classification confirmed.</strong> ';
+                        if(r.stage==='1'){ a+='No significant increase in credit risk since initial recognition. ECL is computed on a 12-month basis. Continue monitoring credit indicators — move to Stage 2 if SICR triggers (e.g., 30+ DPD, rating downgrade).'; }
+                        else if(r.stage==='2'){ a+='Significant increase in credit risk since initial recognition. Lifetime ECL recognised. Reassess at each reporting date — backwards transition to Stage 1 requires sustained improvement in credit indicators.'; }
+                        else { a+='Credit-impaired asset — default has occurred. Lifetime ECL recognised. Interest revenue from next period is computed on net carrying amount (gross less ECL). RBI proposed framework requires minimum 6-month probationary period before backwards transition.'; }
+                        adv.innerHTML=a;
+                        var basis='<strong>General Approach (3-Stage Model)</strong> per Ind AS 109 Para 5.5.<br>';
+                        basis+='ECL = PD × LGD × EAD = '+r.pd+'% × '+r.lgd+'% × ₹'+fmtINRDecimal(r.ead);
+                        if(r.discount<100) basis+=' × '+r.discount+'% (discount)';
+                        basis+=' = <strong>₹'+fmtINRDecimal(r.ecl)+'</strong>.<br>';
+                        basis+='Coverage ratio = ECL ÷ EAD = '+r.coverageRatio.toFixed(2)+'%.<br>';
+                        basis+='<em>Stage rationale:</em> '+(r.stage==='1'?'Asset performing; no SICR identified; 12-month PD horizon applied.':r.stage==='2'?'Significant increase in credit risk identified; lifetime PD horizon applied.':'Credit-impaired; lifetime PD ≈ 100%; interest on net carrying amount.');
+                        $('eclBasis').innerHTML=basis;
+                        $('eclMatrix').innerHTML='';
+                        var je='<span class="ecl-je-label">ECL Recognition (Year-End)</span>';
+                        je+='<div class="ecl-je-row"><span>Impairment Loss / Bad Debt Provision A/c &nbsp;Dr.</span><span class="ecl-je-amt">'+fmtINRDecimal(r.ecl)+'</span><span></span></div>';
+                        je+='<div class="ecl-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Loss Allowance — ECL A/c</span><span></span><span class="ecl-je-amt">'+fmtINRDecimal(r.ecl)+'</span></div>';
+                        je+='<div class="ecl-je-row" style="opacity:.7;"><span>(Being expected credit loss recognised on Stage '+r.stage+' financial asset per Ind AS 109)</span><span></span><span></span></div>';
+                        $('eclJe').innerHTML=je;
+                        showResults();
+                    }
+
+                    var BUCKETS=[
+                        {label:'Current (Not Due)',i:0},
+                        {label:'1–30 days',i:1},
+                        {label:'31–60 days',i:2},
+                        {label:'61–90 days',i:3},
+                        {label:'91–180 days',i:4},
+                        {label:'181–365 days',i:5},
+                        {label:'> 365 days',i:6}
+                    ];
+                    function computeSimplified(){
+                        var totalReceivables=0, totalEcl=0, rows=[];
+                        for(var k=0;k<BUCKETS.length;k++){
+                            var b=BUCKETS[k];
+                            var amt=parseFloat($('eclBucket'+b.i).value)||0;
+                            var rate=parseFloat($('eclRate'+b.i).value)||0;
+                            var ecl=amt*(rate/100);
+                            totalReceivables+=amt; totalEcl+=ecl;
+                            rows.push({label:b.label,amount:amt,rate:rate,ecl:ecl});
+                        }
+                        if(totalReceivables<=0){ alert('Please enter at least one receivable amount.'); return; }
+                        var coverageRatio=(totalEcl/totalReceivables)*100;
+                        renderSimplified({rows:rows,totalReceivables:totalReceivables,totalEcl:totalEcl,coverageRatio:coverageRatio});
+                    }
+
+                    function renderSimplified(r){
+                        $('eclVerdict').style.borderLeftColor='#1B365D';
+                        $('eclVLabel').textContent='Simplified Approach — Lifetime ECL';
+                        $('eclVHead').textContent='Trade Receivables Provision Matrix';
+                        $('eclVGrid').innerHTML =
+                            '<div class="ecl-vitem"><div class="ecl-vil">Total Receivables</div><div class="ecl-viv">'+fmtINR(r.totalReceivables)+'</div></div>'+
+                            '<div class="ecl-vitem"><div class="ecl-vil">Total ECL</div><div class="ecl-viv">'+fmtINR(r.totalEcl)+'</div></div>'+
+                            '<div class="ecl-vitem"><div class="ecl-vil">Coverage Ratio</div><div class="ecl-viv">'+r.coverageRatio.toFixed(2)+'%</div></div>';
+                        var items=[
+                            {label:'Approach',value:'Simplified',full:true},
+                            {label:'ECL Horizon',value:'Lifetime'},
+                            {label:'Aging Buckets',value:'7'},
+                            {label:'Total Receivables',value:fmtINR(r.totalReceivables)},
+                            {label:'Total ECL',value:fmtINR(r.totalEcl)},
+                            {label:'Net Carrying',value:fmtINR(r.totalReceivables-r.totalEcl)}
+                        ];
+                        var sg=$('eclSGrid'); sg.innerHTML='';
+                        items.forEach(function(s){ var c=document.createElement('div'); c.className='ecl-scard'+(s.full?' full':''); c.innerHTML='<div class="ecl-slabel">'+s.label+'</div><div class="ecl-sval">'+s.value+'</div>'; sg.appendChild(c); });
+                        var adv=$('eclBanner'); var a='<strong>Simplified Approach applied.</strong> Lifetime ECL recognised on all trade receivables — no SICR tracking required per Ind AS 109 Para 5.5.15. ';
+                        if(r.coverageRatio>30){ a+='<br><strong>High coverage ratio ('+r.coverageRatio.toFixed(2)+'%):</strong> Significant credit risk concentration in older buckets. Review credit policy and collection effort.'; }
+                        else if(r.coverageRatio<1&&r.totalReceivables>0){ a+='<br><strong>Low coverage ratio ('+r.coverageRatio.toFixed(2)+'%):</strong> Verify default rates against historical loss experience and forward-looking forecasts.'; }
+                        adv.innerHTML=a;
+                        var basis='<strong>Simplified Approach (Provision Matrix)</strong> per Ind AS 109 Para 5.5.15. ';
+                        basis+='Total Receivables: ₹'+fmtINRDecimal(r.totalReceivables)+'. Total Lifetime ECL: ₹'+fmtINRDecimal(r.totalEcl)+'. ';
+                        basis+='Coverage ratio: '+r.coverageRatio.toFixed(2)+'%. Default rates should be derived from historical credit loss experience adjusted for current conditions and forward-looking information.';
+                        $('eclBasis').innerHTML=basis;
+                        var m='<div class="ecl-je-title">Provision Matrix — Bucket Breakdown</div>';
+                        m+='<div class="ecl-mwrap"><table class="ecl-mtable">';
+                        m+='<thead><tr><th>Aging Bucket</th><th>Receivable</th><th>Rate %</th><th>ECL</th></tr></thead><tbody>';
+                        r.rows.forEach(function(row){ m+='<tr><td>'+row.label+'</td><td>'+fmtINRDecimal(row.amount)+'</td><td>'+row.rate.toFixed(2)+'%</td><td>'+fmtINRDecimal(row.ecl)+'</td></tr>'; });
+                        m+='</tbody><tfoot><tr><td>Total</td><td>'+fmtINRDecimal(r.totalReceivables)+'</td><td>'+r.coverageRatio.toFixed(2)+'%</td><td>'+fmtINRDecimal(r.totalEcl)+'</td></tr></tfoot></table></div>';
+                        $('eclMatrix').innerHTML=m;
+                        var je='<span class="ecl-je-label">ECL Recognition (Year-End)</span>';
+                        je+='<div class="ecl-je-row"><span>Impairment Loss / Bad Debt Provision A/c &nbsp;Dr.</span><span class="ecl-je-amt">'+fmtINRDecimal(r.totalEcl)+'</span><span></span></div>';
+                        je+='<div class="ecl-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Loss Allowance — Trade Receivables A/c</span><span></span><span class="ecl-je-amt">'+fmtINRDecimal(r.totalEcl)+'</span></div>';
+                        je+='<div class="ecl-je-row" style="opacity:.7;"><span>(Being lifetime ECL on trade receivables per Ind AS 109 simplified approach)</span><span></span><span></span></div>';
+                        $('eclJe').innerHTML=je;
+                        showResults();
+                    }
+
+                    function showResults(){ var s=$('eclResult'); s.classList.add('show'); setTimeout(function(){ s.scrollIntoView({behavior:'smooth',block:'nearest'}); },100); }
+
+                    $('eclBtnGeneral').addEventListener('click',computeGeneral);
+                    $('eclBtnSimplified').addEventListener('click',computeSimplified);
+                    $('eclResetGeneral').addEventListener('click',function(){
+                        ['eclEad','eclPd','eclLgd','eclDiscount'].forEach(function(id){ $(id).value=''; });
+                        $('eclStageGroup').querySelectorAll('.ecl-tbtn').forEach(function(b,i){ b.classList.toggle('active',i===0); b.setAttribute('aria-selected',i===0?'true':'false'); });
+                        $('eclResult').classList.remove('show');
+                    });
+                    $('eclResetSimplified').addEventListener('click',function(){
+                        for(var i=0;i<7;i++){ $('eclBucket'+i).value=''; }
+                        var defaults=[0.5,2,5,15,30,60,100];
+                        for(var j=0;j<7;j++){ $('eclRate'+j).value=defaults[j]; }
+                        $('eclResult').classList.remove('show');
+                    });
+                    root.querySelectorAll('.ecl-input').forEach(function(el){
+                        el.addEventListener('keypress',function(e){
+                            if(e.key==='Enter'){ e.preventDefault(); if(activeVal('eclApproach')==='general') $('eclBtnGeneral').click(); else $('eclBtnSimplified').click(); }
+                        });
+                    });
+                })();
+                </script>
             </div>
         </div>
     </div>
 </section>
-<script>window.addEventListener("message",function(e){var d=e.data;if(d&&d.patronTool==="ecl-calculator-ind-as-109"&&d.height){var f=document.getElementById("leaseToolFrame");if(f){f.style.minHeight=d.height+"px";}}});</script>
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">

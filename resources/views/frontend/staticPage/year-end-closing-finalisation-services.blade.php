@@ -792,15 +792,418 @@
             <h2 class="section-title">Free tool: Deferred Tax Calculator</h2>
             <div class="content-text">
                 <p>Work out deferred tax assets and liabilities from your timing differences.</p>
-                <div style="margin-top:20px;border:1px solid var(--blue-lighter);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 4px 16px rgba(27,54,93,.08);">
-                    <iframe id="leaseToolFrame" src="/tools/deferred-tax-calculator?embed=1" title="Free tool: Deferred Tax Calculator" loading="lazy" scrolling="no" style="width:100%;border:0;min-height:560px;display:block;"></iframe>
+                <style>
+                /* Deferred Tax Calculator — inlined & themed to page tokens (dtx- namespace) */
+                #tool-section .dtx-wrap{--dtx-navy:var(--blue,#1B365D);--dtx-navy-light:#2a4d78;--dtx-accent:var(--orange,#E8712C);--dtx-surface:var(--blue-lighter,#F4F7FB);--dtx-border:var(--gray-200,#E5E7EB);--dtx-text:var(--text-secondary,#4B5563);--dtx-muted:var(--text-muted,#6B7280);--dtx-green:#059669;--dtx-red:#DC2626;--dtx-info:#0EA5E9;--dtx-mono:'Space Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin-top:22px;}
+                #tool-section .dtx-card{background:#fff;border:1px solid var(--dtx-border);border-radius:16px;box-shadow:0 10px 30px rgba(27,54,93,.08);padding:28px;}
+                #tool-section .dtx-title{font-size:20px;font-weight:700;color:var(--dtx-navy);margin:0 0 6px;line-height:1.3;}
+                #tool-section .dtx-intro{font-size:14px;color:var(--dtx-text);margin:0 0 20px;line-height:1.6;}
+                #tool-section .dtx-stitle{font-family:var(--dtx-mono);font-size:12px;font-weight:700;color:var(--dtx-accent);text-transform:uppercase;letter-spacing:1px;margin:24px 0 12px;padding-top:16px;border-top:1px solid var(--dtx-border);}
+                #tool-section .dtx-stitle:first-of-type{margin-top:0;padding-top:0;border-top:none;}
+                #tool-section .dtx-field{margin-bottom:16px;}
+                #tool-section .dtx-label{display:block;font-size:12px;font-weight:700;color:var(--dtx-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:7px;}
+                #tool-section .dtx-toggle{display:flex;flex-wrap:wrap;gap:4px;background:var(--dtx-surface);border-radius:10px;padding:4px;}
+                #tool-section .dtx-tbtn{flex:1 1 auto;min-width:0;padding:10px 12px;border:0;border-radius:7px;font:inherit;font-size:13px;font-weight:700;color:var(--dtx-muted);background:transparent;cursor:pointer;transition:all .2s;}
+                #tool-section .dtx-tbtn.active{background:#fff;color:var(--dtx-navy);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+                #tool-section .dtx-tbtn *{pointer-events:none;}
+                #tool-section .dtx-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:14px;}
+                #tool-section .dtx-helper{display:block;font-size:11.5px;color:var(--dtx-muted);margin-top:6px;line-height:1.4;}
+                #tool-section .dtx-input{width:100%;padding:12px 15px;border:2px solid var(--dtx-border);border-radius:10px;font:inherit;font-size:17px;font-weight:700;font-family:var(--dtx-mono);color:var(--dtx-navy);background:var(--dtx-surface);outline:none;transition:border-color .2s;}
+                #tool-section .dtx-input:focus{border-color:var(--dtx-navy);}
+                #tool-section .dtx-conditional{display:none;}
+                #tool-section .dtx-conditional.show{display:block;}
+                #tool-section .dtx-er{background:var(--dtx-navy);color:#fff;border-radius:10px;padding:16px 18px;margin:14px 0 22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;}
+                #tool-section .dtx-er-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;opacity:.85;}
+                #tool-section .dtx-er-formula{font-family:var(--dtx-mono);font-size:12px;opacity:.85;margin-top:2px;}
+                #tool-section .dtx-er-value{font-family:var(--dtx-mono);font-size:28px;font-weight:700;color:var(--dtx-accent);line-height:1.1;}
+                #tool-section .dtx-trow{display:grid;grid-template-columns:1fr 100px 130px;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--dtx-border);}
+                #tool-section .dtx-trow:last-child{border-bottom:none;}
+                #tool-section .dtx-tlabel{font-size:13px;color:var(--dtx-navy);font-weight:600;line-height:1.4;}
+                #tool-section .dtx-tlabel .dtx-desc{display:block;font-size:11px;color:var(--dtx-muted);font-weight:400;margin-top:2px;line-height:1.4;}
+                #tool-section .dtx-tamount{width:100%;padding:8px 10px;border:1.5px solid var(--dtx-border);border-radius:8px;font-family:var(--dtx-mono);font-size:14px;font-weight:700;color:var(--dtx-navy);background:var(--dtx-surface);outline:none;transition:border-color .2s;text-align:right;}
+                #tool-section .dtx-tamount:focus{border-color:var(--dtx-navy);}
+                #tool-section .dtx-tlabel-input{width:100%;padding:8px 10px;border:1.5px solid var(--dtx-border);border-radius:8px;font:inherit;font-size:13px;color:var(--dtx-navy);background:var(--dtx-surface);outline:none;}
+                #tool-section .dtx-tlabel-input:focus{border-color:var(--dtx-navy);}
+                #tool-section .dtx-ttype{display:flex;background:var(--dtx-surface);border-radius:8px;padding:2px;gap:2px;}
+                #tool-section .dtx-ttbtn{flex:1;padding:6px 4px;border:0;border-radius:6px;font:inherit;font-size:11px;font-weight:700;color:var(--dtx-muted);background:transparent;cursor:pointer;transition:all .2s;}
+                #tool-section .dtx-ttbtn *{pointer-events:none;}
+                #tool-section .dtx-ttbtn.active.dtx-dta{background:var(--dtx-green);color:#fff;}
+                #tool-section .dtx-ttbtn.active.dtx-dtl{background:var(--dtx-red);color:#fff;}
+                @media (max-width:560px){#tool-section .dtx-trow{grid-template-columns:1fr;gap:6px;}}
+                #tool-section .dtx-calc{width:100%;padding:15px;background:var(--dtx-navy);color:#fff;border:0;border-radius:10px;font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background .2s,transform .1s;margin-top:14px;}
+                #tool-section .dtx-calc:hover{background:var(--dtx-navy-light);}
+                #tool-section .dtx-calc:active{transform:scale(.99);}
+                #tool-section .dtx-reset{width:100%;padding:12px;background:#fff;color:var(--dtx-muted);border:1px solid var(--dtx-border);border-radius:10px;font:inherit;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s;margin-top:12px;}
+                #tool-section .dtx-reset:hover{border-color:var(--dtx-red);color:var(--dtx-red);}
+                #tool-section .dtx-result{display:none;margin-top:26px;padding-top:24px;border-top:1px solid var(--dtx-border);}
+                #tool-section .dtx-result.visible{display:block;}
+                #tool-section .dtx-verdict{border-radius:10px;padding:22px;margin-bottom:20px;border-left:6px solid var(--dtx-info);background:var(--dtx-surface);}
+                #tool-section .dtx-verdict.dtx-dta{background:#ECFDF5;border-left-color:var(--dtx-green);}
+                #tool-section .dtx-verdict.dtx-dtl{background:#FEF2F2;border-left-color:var(--dtx-red);}
+                #tool-section .dtx-verdict.dtx-zero{background:#EFF6FF;border-left-color:var(--dtx-info);}
+                #tool-section .dtx-vlabel{font-family:var(--dtx-mono);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--dtx-muted);margin-bottom:6px;}
+                #tool-section .dtx-vheadline{font-size:20px;font-weight:700;color:var(--dtx-navy);margin-bottom:4px;line-height:1.3;}
+                #tool-section .dtx-vamount{font-family:var(--dtx-mono);font-size:30px;font-weight:700;color:var(--dtx-navy);margin:8px 0;line-height:1.1;}
+                #tool-section .dtx-vamount.dtx-dta{color:var(--dtx-green);}
+                #tool-section .dtx-vamount.dtx-dtl{color:var(--dtx-red);}
+                #tool-section .dtx-vsub{font-size:14px;color:var(--dtx-text);}
+                #tool-section .dtx-sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px;}
+                #tool-section .dtx-scard{background:var(--dtx-surface);border-radius:10px;padding:16px;border:1px solid var(--dtx-border);}
+                #tool-section .dtx-scard.highlight{background:var(--dtx-navy);border-color:var(--dtx-navy);}
+                #tool-section .dtx-scard.highlight .dtx-slabel,#tool-section .dtx-scard.highlight .dtx-svalue{color:#fff;}
+                #tool-section .dtx-slabel{font-size:11px;font-weight:600;color:var(--dtx-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+                #tool-section .dtx-svalue{font-family:var(--dtx-mono);font-size:16px;font-weight:700;color:var(--dtx-navy);line-height:1.4;}
+                #tool-section .dtx-banner{padding:14px 18px;border-radius:10px;margin-bottom:18px;font-size:14px;line-height:1.6;}
+                #tool-section .dtx-banner.dtx-success{background:#D1FAE5;color:#065F46;border-left:4px solid var(--dtx-green);}
+                #tool-section .dtx-banner.dtx-warn{background:#FEF3C7;color:#92400E;border-left:4px solid var(--dtx-accent);}
+                #tool-section .dtx-banner.dtx-info{background:#DBEAFE;color:#1E40AF;border-left:4px solid var(--dtx-info);}
+                #tool-section .dtx-tablewrap{overflow-x:auto;}
+                #tool-section .dtx-btable{width:100%;border-collapse:collapse;margin:8px 0;font-size:13px;}
+                #tool-section .dtx-btable thead th{background:var(--dtx-navy);color:#fff;padding:10px 12px;text-align:left;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px;}
+                #tool-section .dtx-btable thead th.right{text-align:right;}
+                #tool-section .dtx-btable tbody td{padding:10px 12px;border-bottom:1px solid var(--dtx-border);color:var(--dtx-text);font-size:13px;}
+                #tool-section .dtx-btable tbody td.right{text-align:right;font-family:var(--dtx-mono);font-weight:600;}
+                #tool-section .dtx-badge{display:inline-block;font-family:var(--dtx-mono);font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;}
+                #tool-section .dtx-badge.dtx-dta{background:#D1FAE5;color:#065F46;}
+                #tool-section .dtx-badge.dtx-dtl{background:#FEE2E2;color:#991B1B;}
+                #tool-section .dtx-btable tfoot td{padding:12px;background:var(--dtx-surface);font-weight:700;color:var(--dtx-navy);border-top:2px solid var(--dtx-navy);font-size:13px;}
+                #tool-section .dtx-btable tfoot td.right{text-align:right;font-family:var(--dtx-mono);}
+                #tool-section .dtx-subhead{font-size:16px;font-weight:700;color:var(--dtx-navy);margin:24px 0 4px;}
+                #tool-section .dtx-je{background:#12233d;color:#E6EDF6;padding:18px 22px;border-radius:10px;font-family:var(--dtx-mono);font-size:13px;line-height:1.9;margin:8px 0;overflow-x:auto;}
+                #tool-section .dtx-je-label{color:var(--dtx-accent);font-weight:700;display:block;margin-bottom:6px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;}
+                #tool-section .dtx-je-row{display:grid;grid-template-columns:1fr 90px 90px;gap:8px;}
+                #tool-section .dtx-je-amt{text-align:right;}
+                </style>
+
+                <div class="dtx-wrap">
+                    <div class="dtx-card">
+                        <h3 class="dtx-title">Compute DTA &amp; DTL Instantly</h3>
+                        <p class="dtx-intro">Pick your tax regime and surcharge slab, then enter the timing or temporary differences below. The calculator auto-applies the effective tax rate (base + surcharge + 4% cess) and gives you a journal entry-ready breakdown.</p>
+
+                        <div class="dtx-stitle">Tax Regime</div>
+                        <div class="dtx-field">
+                            <span class="dtx-label">Select Applicable Tax Regime</span>
+                            <div class="dtx-toggle" id="dtx-regimeGroup" role="tablist" aria-label="Tax regime">
+                                <button type="button" class="dtx-tbtn active" data-value="std25" data-base="25" role="tab" aria-selected="true">Std 25%</button>
+                                <button type="button" class="dtx-tbtn" data-value="std30" data-base="30" role="tab" aria-selected="false">Std 30%</button>
+                                <button type="button" class="dtx-tbtn" data-value="115baa" data-base="22" role="tab" aria-selected="false">115BAA 22%</button>
+                                <button type="button" class="dtx-tbtn" data-value="115bab" data-base="15" role="tab" aria-selected="false">115BAB 15%</button>
+                                <button type="button" class="dtx-tbtn" data-value="foreign" data-base="35" role="tab" aria-selected="false">Foreign 35%</button>
+                                <button type="button" class="dtx-tbtn" data-value="custom" data-base="0" role="tab" aria-selected="false">Custom</button>
+                            </div>
+                            <span class="dtx-helper">Std 25% = domestic co with turnover &#8804; &#8377;400 cr in FY 2024-25. Std 30% = domestic co with turnover &gt; &#8377;400 cr. 115BAA/BAB = concessional regimes (flat 10% surcharge). Foreign rate reduced to 35% by Finance (No. 2) Act, 2024.</span>
+                        </div>
+
+                        <div class="dtx-row">
+                            <div class="dtx-field" id="dtx-domesticSurchargeRow" style="margin-bottom:0;">
+                                <span class="dtx-label">Surcharge (Domestic)</span>
+                                <div class="dtx-toggle" id="dtx-surchargeGroup" role="tablist">
+                                    <button type="button" class="dtx-tbtn active" data-value="0" role="tab" aria-selected="true">0% (&#8804;&#8377;1cr)</button>
+                                    <button type="button" class="dtx-tbtn" data-value="7" role="tab" aria-selected="false">7% (&#8377;1&#8211;10cr)</button>
+                                    <button type="button" class="dtx-tbtn" data-value="12" role="tab" aria-selected="false">12% (&gt;&#8377;10cr)</button>
+                                </div>
+                            </div>
+                            <div class="dtx-field dtx-conditional" id="dtx-foreignSurchargeRow" style="margin-bottom:0;">
+                                <span class="dtx-label">Surcharge (Foreign)</span>
+                                <div class="dtx-toggle" id="dtx-surchargeForeignGroup" role="tablist">
+                                    <button type="button" class="dtx-tbtn active" data-value="0" role="tab" aria-selected="true">0% (&#8804;&#8377;1cr)</button>
+                                    <button type="button" class="dtx-tbtn" data-value="2" role="tab" aria-selected="false">2% (&#8377;1&#8211;10cr)</button>
+                                    <button type="button" class="dtx-tbtn" data-value="5" role="tab" aria-selected="false">5% (&gt;&#8377;10cr)</button>
+                                </div>
+                            </div>
+                            <div class="dtx-field dtx-conditional" id="dtx-customRateRow" style="margin-bottom:0;">
+                                <label class="dtx-label" for="dtx-customRate">Custom Effective Rate (%)</label>
+                                <input class="dtx-input" type="number" id="dtx-customRate" min="0" max="100" step="0.001" placeholder="e.g. 25.168" inputmode="decimal">
+                                <span class="dtx-helper">Enter the full effective rate including surcharge and cess.</span>
+                            </div>
+                        </div>
+
+                        <div class="dtx-er" id="dtx-effectiveRateDisplay">
+                            <div>
+                                <div class="dtx-er-label">Effective Tax Rate</div>
+                                <div class="dtx-er-formula" id="dtx-erFormula">25% &#215; 1.00 (no surcharge) &#215; 1.04 (cess)</div>
+                            </div>
+                            <div class="dtx-er-value" id="dtx-erValue">26.00%</div>
+                        </div>
+
+                        <div class="dtx-stitle">Timing / Temporary Differences (&#8377;)</div>
+                        <p class="dtx-intro" style="margin-bottom:14px;font-size:13px;">Enter the absolute amount of each timing difference (positive number). The DTA/DTL type is pre-set based on conventional treatment but can be toggled per row.</p>
+
+                        <div id="dtx-timingRows">
+                            <div class="dtx-trow" data-id="dep">
+                                <div class="dtx-tlabel">Depreciation Difference<span class="dtx-desc">Tax dep (WDV) less Book dep (SLM) &#8212; typically DTL in early asset years</span></div>
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="dep">
+                                    <button type="button" class="dtx-ttbtn dtx-dta" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl active" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="s43b">
+                                <div class="dtx-tlabel">Section 43B Disallowance<span class="dtx-desc">PF, ESI, GST, bonus, leave encashment paid after due date</span></div>
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="s43b">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="prdd">
+                                <div class="dtx-tlabel">Provision for Doubtful Debts<span class="dtx-desc">Movement during year &#8212; allowed on actual write-off only</span></div>
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="prdd">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="grat">
+                                <div class="dtx-tlabel">Provision for Gratuity<span class="dtx-desc">Allowed on actual payment basis under Sec 36(1)(v)</span></div>
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="grat">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="leave">
+                                <div class="dtx-tlabel">Provision for Leave Encashment<span class="dtx-desc">Sec 43B(f) &#8212; allowed only on actual payment</span></div>
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="leave">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="warr">
+                                <div class="dtx-tlabel">Provision for Warranty<span class="dtx-desc">Allowed on actual claim payment</span></div>
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="warr">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="bfloss">
+                                <div class="dtx-tlabel">B/F Losses &amp; Unabsorbed Depreciation<span class="dtx-desc">Virtual certainty required under AS 22 for DTA recognition</span></div>
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="bfloss">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="custom1">
+                                <input type="text" class="dtx-tlabel-input" placeholder="Other timing difference 1" value="">
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="custom1">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="custom2">
+                                <input type="text" class="dtx-tlabel-input" placeholder="Other timing difference 2" value="">
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="custom2">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                            <div class="dtx-trow" data-id="custom3">
+                                <input type="text" class="dtx-tlabel-input" placeholder="Other timing difference 3" value="">
+                                <input type="number" class="dtx-tamount" placeholder="0" min="0" step="any" inputmode="decimal">
+                                <div class="dtx-ttype" data-row="custom3">
+                                    <button type="button" class="dtx-ttbtn dtx-dta active" data-type="dta">DTA</button>
+                                    <button type="button" class="dtx-ttbtn dtx-dtl" data-type="dtl">DTL</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="dtx-calc" id="dtx-btnCalculate">Calculate Deferred Tax</button>
+                        <button type="button" class="dtx-reset" id="dtx-btnReset">Reset All</button>
+
+                        <div class="dtx-result" id="dtx-resultSection" aria-live="polite">
+                            <div class="dtx-verdict" id="dtx-verdictCard">
+                                <div class="dtx-vlabel" id="dtx-verdictLabel">Net Position</div>
+                                <div class="dtx-vheadline" id="dtx-verdictHeadline"></div>
+                                <div class="dtx-vamount" id="dtx-verdictAmount"></div>
+                                <div class="dtx-vsub" id="dtx-verdictSub"></div>
+                            </div>
+                            <div class="dtx-sgrid" id="dtx-summaryGrid"></div>
+                            <div class="dtx-banner" id="dtx-advisoryBanner"></div>
+                            <h4 class="dtx-subhead">Detailed Breakdown</h4>
+                            <div class="dtx-tablewrap">
+                                <table class="dtx-btable" id="dtx-breakdownTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Timing Difference</th>
+                                            <th>Type</th>
+                                            <th class="right">Amount (&#8377;)</th>
+                                            <th class="right">Tax Effect (&#8377;)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="dtx-breakdownBody"></tbody>
+                                    <tfoot id="dtx-breakdownFoot"></tfoot>
+                                </table>
+                            </div>
+                            <h4 class="dtx-subhead">Journal Entry</h4>
+                            <div class="dtx-je" id="dtx-journalEntry"></div>
+                        </div>
+                    </div>
                 </div>
+
+                <script>
+                (function(){
+                    'use strict';
+                    var root = document.getElementById('tool-section');
+                    if(!root || root.dataset.dtxInit) return;
+                    root.dataset.dtxInit = '1';
+                    function $(id){ return document.getElementById(id); }
+
+                    function setupToggleGroup(id, onChange){
+                        var group = $(id);
+                        if(!group) return;
+                        group.addEventListener('click', function(e){
+                            var btn = e.target.closest('.dtx-tbtn');
+                            if(!btn || !group.contains(btn)) return;
+                            group.querySelectorAll('.dtx-tbtn').forEach(function(b){ b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+                            btn.classList.add('active');
+                            btn.setAttribute('aria-selected','true');
+                            if(onChange) onChange();
+                        });
+                    }
+                    function getActiveValue(groupId){ var g=$(groupId); if(!g) return null; var a=g.querySelector('.dtx-tbtn.active'); return a?a.dataset.value:null; }
+                    function getActiveButton(groupId){ var g=$(groupId); if(!g) return null; return g.querySelector('.dtx-tbtn.active'); }
+
+                    function computeEffectiveRate(){
+                        var regime = getActiveValue('dtx-regimeGroup');
+                        var regimeBtn = getActiveButton('dtx-regimeGroup');
+                        var baseRate = regimeBtn ? parseFloat(regimeBtn.dataset.base) : 25;
+                        var surcharge = 0;
+                        if(regime==='115baa' || regime==='115bab'){ surcharge = 10; }
+                        else if(regime==='foreign'){ surcharge = parseFloat(getActiveValue('dtx-surchargeForeignGroup'))||0; }
+                        else if(regime==='custom'){
+                            var customRate = parseFloat($('dtx-customRate').value)||0;
+                            return {effective:customRate, base:customRate, surcharge:0, cess:0, formula:'Custom rate as entered'};
+                        } else { surcharge = parseFloat(getActiveValue('dtx-surchargeGroup'))||0; }
+                        var cess = 4;
+                        var effective = baseRate*(1+surcharge/100)*(1+cess/100);
+                        var surchargeText = surcharge===0 ? '1.00 (no surcharge)' : '1.'+(surcharge<10 ? '0'+surcharge : surcharge);
+                        var formula = baseRate+'% × '+surchargeText+' × 1.04 (cess)';
+                        return {effective:effective, base:baseRate, surcharge:surcharge, cess:cess, formula:formula};
+                    }
+                    function updateEffectiveRateDisplay(){
+                        var r = computeEffectiveRate();
+                        $('dtx-erValue').textContent = r.effective.toFixed(3)+'%';
+                        $('dtx-erFormula').textContent = r.formula;
+                    }
+                    function onRegimeChange(){
+                        var regime = getActiveValue('dtx-regimeGroup');
+                        var domesticRow = $('dtx-domesticSurchargeRow');
+                        var foreignRow = $('dtx-foreignSurchargeRow');
+                        var customRow = $('dtx-customRateRow');
+                        domesticRow.style.display = (regime==='std25'||regime==='std30') ? '' : 'none';
+                        foreignRow.classList.toggle('show', regime==='foreign');
+                        customRow.classList.toggle('show', regime==='custom');
+                        $('dtx-effectiveRateDisplay').style.display='';
+                        if(regime==='115baa'||regime==='115bab'){ domesticRow.style.display='none'; }
+                        updateEffectiveRateDisplay();
+                    }
+                    setupToggleGroup('dtx-regimeGroup', onRegimeChange);
+                    setupToggleGroup('dtx-surchargeGroup', updateEffectiveRateDisplay);
+                    setupToggleGroup('dtx-surchargeForeignGroup', updateEffectiveRateDisplay);
+                    $('dtx-customRate').addEventListener('input', updateEffectiveRateDisplay);
+                    onRegimeChange();
+
+                    root.querySelectorAll('.dtx-ttype').forEach(function(toggle){
+                        toggle.addEventListener('click', function(e){
+                            var btn = e.target.closest('.dtx-ttbtn');
+                            if(!btn || !toggle.contains(btn)) return;
+                            toggle.querySelectorAll('.dtx-ttbtn').forEach(function(b){ b.classList.remove('active'); });
+                            btn.classList.add('active');
+                        });
+                    });
+
+                    var TIMING_LABELS = { dep:'Depreciation Difference', s43b:'Section 43B Disallowance', prdd:'Provision for Doubtful Debts', grat:'Provision for Gratuity', leave:'Provision for Leave Encashment', warr:'Provision for Warranty', bfloss:'B/F Losses & Unabsorbed Depreciation' };
+
+                    function readTimingRows(){
+                        var rows = [];
+                        root.querySelectorAll('.dtx-trow').forEach(function(row){
+                            var id = row.dataset.id;
+                            var amountEl = row.querySelector('.dtx-tamount');
+                            var amount = parseFloat(amountEl.value)||0;
+                            var typeBtn = row.querySelector('.dtx-ttbtn.active');
+                            var type = typeBtn ? typeBtn.dataset.type : 'dta';
+                            var label = TIMING_LABELS[id];
+                            if(!label){ var li = row.querySelector('.dtx-tlabel-input'); label = li && li.value.trim() ? li.value.trim() : ('Other '+id.replace('custom','')); }
+                            if(amount>0){ rows.push({id:id, label:label, amount:amount, type:type}); }
+                        });
+                        return rows;
+                    }
+                    function fmtINR(num){ if(num===0) return '₹0'; var sign = num<0?'-':''; var abs=Math.abs(num); return sign+'₹'+abs.toLocaleString('en-IN',{maximumFractionDigits:2, minimumFractionDigits:2}); }
+                    function fmtINRPlain(num){ return Math.round(num).toLocaleString('en-IN'); }
+
+                    function calculate(){
+                        var rate = computeEffectiveRate();
+                        var rows = readTimingRows();
+                        if(rows.length===0){ alert('Please enter at least one timing difference amount to calculate deferred tax.'); return; }
+                        var totalDTA=0, totalDTL=0, breakdown=[];
+                        rows.forEach(function(r){
+                            var taxEffect = r.amount*(rate.effective/100);
+                            if(r.type==='dta') totalDTA+=taxEffect; else totalDTL+=taxEffect;
+                            breakdown.push({label:r.label, type:r.type, amount:r.amount, taxEffect:taxEffect});
+                        });
+                        var netAmount = totalDTA-totalDTL;
+                        var netType='zero';
+                        if(netAmount>0.01) netType='dta'; else if(netAmount<-0.01) netType='dtl';
+                        renderResult({rate:rate, breakdown:breakdown, totalDTA:totalDTA, totalDTL:totalDTL, netAmount:netAmount, netType:netType});
+                    }
+
+                    function renderResult(r){
+                        var card=$('dtx-verdictCard'), headline=$('dtx-verdictHeadline'), amount=$('dtx-verdictAmount'), sub=$('dtx-verdictSub');
+                        card.className='dtx-verdict dtx-'+r.netType;
+                        amount.className='dtx-vamount dtx-'+r.netType;
+                        if(r.netType==='dta'){ headline.textContent='Net Deferred Tax Asset'; amount.textContent=fmtINR(Math.abs(r.netAmount)); sub.textContent='Recognise as Non-Current Asset on the balance sheet (subject to virtual certainty for losses).'; }
+                        else if(r.netType==='dtl'){ headline.textContent='Net Deferred Tax Liability'; amount.textContent=fmtINR(Math.abs(r.netAmount)); sub.textContent='Recognise as Non-Current Liability on the balance sheet — no recognition test required.'; }
+                        else { headline.textContent='Net Position: Nil'; amount.textContent=fmtINR(0); sub.textContent='DTA and DTL fully offset — disclosure of gross movement still required.'; }
+
+                        var grid=$('dtx-summaryGrid'); grid.innerHTML='';
+                        var summary=[ {label:'Effective Tax Rate', value:r.rate.effective.toFixed(3)+'%', highlight:true}, {label:'Total DTA', value:fmtINR(r.totalDTA)}, {label:'Total DTL', value:fmtINR(r.totalDTL)} ];
+                        summary.forEach(function(s){ var c=document.createElement('div'); c.className='dtx-scard'+(s.highlight?' highlight':''); c.innerHTML='<div class="dtx-slabel">'+s.label+'</div><div class="dtx-svalue">'+s.value+'</div>'; grid.appendChild(c); });
+
+                        var advisory=$('dtx-advisoryBanner');
+                        if(r.netType==='dta'){ advisory.className='dtx-banner dtx-success'; advisory.innerHTML='<strong>Recognition guidance:</strong> A net DTA position is recognised when there is reasonable certainty of future taxable income to absorb the deductible differences. For DTA arising from unabsorbed depreciation or carry-forward losses, AS 22 requires <em>virtual certainty supported by convincing evidence</em> — binding contracts, signed export orders or robust forecasts. Reassess at each balance sheet date.'; }
+                        else if(r.netType==='dtl'){ advisory.className='dtx-banner dtx-warn'; advisory.innerHTML='<strong>Recognition guidance:</strong> DTL is always recognised in full — no recognition test applies. Disclose under Non-Current Liabilities. Remember to remeasure on tax rate change (e.g., regime switch to 115BAA, foreign rate cut to 35%) with the difference routed through Profit and Loss Account.'; }
+                        else { advisory.className='dtx-banner dtx-info'; advisory.innerHTML='<strong>Set-off note:</strong> Even when net position is nil, AS 22 / Ind AS 12 requires disclosure of gross DTA and DTL movements separately. Set-off in financial statements is permitted only when there is a legally enforceable right and the taxes are levied by the same tax authority.'; }
+
+                        var tbody=$('dtx-breakdownBody'), tfoot=$('dtx-breakdownFoot'); tbody.innerHTML='';
+                        r.breakdown.forEach(function(b){ var tr=document.createElement('tr'); tr.innerHTML='<td>'+b.label+'</td>'+'<td><span class="dtx-badge dtx-'+b.type+'">'+b.type.toUpperCase()+'</span></td>'+'<td class="right">'+fmtINRPlain(b.amount)+'</td>'+'<td class="right">'+fmtINRPlain(b.taxEffect)+'</td>'; tbody.appendChild(tr); });
+                        tfoot.innerHTML='<tr><td colspan="3" class="right">Total DTA</td><td class="right">'+fmtINRPlain(r.totalDTA)+'</td></tr>'+'<tr><td colspan="3" class="right">Total DTL</td><td class="right">'+fmtINRPlain(r.totalDTL)+'</td></tr>'+'<tr><td colspan="3" class="right">Net '+(r.netType==='dta'?'DTA':(r.netType==='dtl'?'DTL':'Position'))+'</td><td class="right">'+fmtINRPlain(Math.abs(r.netAmount))+'</td></tr>';
+
+                        var je=$('dtx-journalEntry'); var jeHtml='<span class="dtx-je-label">Journal Entry (in books of account)</span>';
+                        if(r.netType==='dta'){ jeHtml+='<div class="dtx-je-row"><span>Deferred Tax Asset A/c &nbsp;Dr.</span><span class="dtx-je-amt">'+fmtINRPlain(Math.abs(r.netAmount))+'</span><span></span></div>'; jeHtml+='<div class="dtx-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Deferred Tax Income / P&L A/c</span><span></span><span class="dtx-je-amt">'+fmtINRPlain(Math.abs(r.netAmount))+'</span></div>'; jeHtml+='<div class="dtx-je-row" style="opacity:0.7;"><span>(Being net DTA recognised on timing differences)</span><span></span><span></span></div>'; }
+                        else if(r.netType==='dtl'){ jeHtml+='<div class="dtx-je-row"><span>Deferred Tax Expense / P&L A/c &nbsp;Dr.</span><span class="dtx-je-amt">'+fmtINRPlain(Math.abs(r.netAmount))+'</span><span></span></div>'; jeHtml+='<div class="dtx-je-row"><span>&nbsp;&nbsp;&nbsp;&nbsp;To Deferred Tax Liability A/c</span><span></span><span class="dtx-je-amt">'+fmtINRPlain(Math.abs(r.netAmount))+'</span></div>'; jeHtml+='<div class="dtx-je-row" style="opacity:0.7;"><span>(Being net DTL recognised on timing differences)</span><span></span><span></span></div>'; }
+                        else { jeHtml+='<div class="dtx-je-row" style="opacity:0.85;"><span>No net entry required — gross movements offset.</span><span></span><span></span></div>'; jeHtml+='<div class="dtx-je-row" style="opacity:0.7;"><span>Disclose gross DTA & DTL separately in Notes to Accounts.</span><span></span><span></span></div>'; }
+                        je.innerHTML=jeHtml;
+
+                        var section=$('dtx-resultSection'); section.classList.add('visible');
+                        setTimeout(function(){ section.scrollIntoView({behavior:'smooth', block:'nearest'}); }, 100);
+                    }
+
+                    $('dtx-btnCalculate').addEventListener('click', calculate);
+                    $('dtx-btnReset').addEventListener('click', function(){
+                        root.querySelectorAll('.dtx-tamount').forEach(function(el){ el.value=''; });
+                        root.querySelectorAll('.dtx-tlabel-input').forEach(function(el){ el.value=''; });
+                        $('dtx-customRate').value='';
+                        var defaults = { 'dtx-regimeGroup':'std25', 'dtx-surchargeGroup':'0', 'dtx-surchargeForeignGroup':'0' };
+                        Object.keys(defaults).forEach(function(gid){ var g=$(gid); if(!g) return; g.querySelectorAll('.dtx-tbtn').forEach(function(b){ var isDefault=b.dataset.value===defaults[gid]; b.classList.toggle('active', isDefault); b.setAttribute('aria-selected', isDefault?'true':'false'); }); });
+                        var conventionDefaults = { dep:'dtl', s43b:'dta', prdd:'dta', grat:'dta', leave:'dta', warr:'dta', bfloss:'dta', custom1:'dta', custom2:'dta', custom3:'dta' };
+                        root.querySelectorAll('.dtx-ttype').forEach(function(t){ var rowId=t.dataset.row; var def=conventionDefaults[rowId]||'dta'; t.querySelectorAll('.dtx-ttbtn').forEach(function(b){ b.classList.toggle('active', b.dataset.type===def); }); });
+                        $('dtx-resultSection').classList.remove('visible');
+                        onRegimeChange();
+                    });
+
+                    root.querySelectorAll('input[type="number"]').forEach(function(el){ el.addEventListener('keypress', function(e){ if(e.key==='Enter'){ e.preventDefault(); calculate(); } }); });
+                })();
+                </script>
                 <p style="margin-top:14px;font-size:14px;"><a href="/tools/deferred-tax-calculator" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">Open the full calculator &#8599;</a></p>
             </div>
         </div>
     </div>
 </section>
-<script>window.addEventListener("message",function(e){var d=e.data;if(d&&d.patronTool==="deferred-tax-calculator"&&d.height){var f=document.getElementById("leaseToolFrame");if(f){f.style.minHeight=d.height+"px";}}});</script>
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">

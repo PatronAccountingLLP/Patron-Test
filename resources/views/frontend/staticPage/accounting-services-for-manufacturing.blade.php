@@ -793,15 +793,246 @@
             <h2 class="section-title">Free tool: Depreciation Calculator</h2>
             <div class="content-text">
                 <p>Compute depreciation on plant and machinery under the Companies Act and Income-tax Act.</p>
-                <div style="margin-top:20px;border:1px solid var(--blue-lighter);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 4px 16px rgba(27,54,93,.08);">
-                    <iframe id="leaseToolFrame" src="/tools/depreciation-calculator?embed=1" title="Free tool: Depreciation Calculator" loading="lazy" scrolling="no" style="width:100%;border:0;min-height:560px;display:block;"></iframe>
+                <style>
+                /* Depreciation calculator — inlined & themed to the manufacturing page tokens (dep- namespace) */
+                #tool-section .dep-wrap{--dep-navy:var(--blue,#1B365D);--dep-navy-light:#2a4d78;--dep-orange:var(--orange,#E8712C);--dep-surface:var(--blue-lighter,#F4F7FB);--dep-border:var(--gray-200,#E5E7EB);--dep-text:var(--text-secondary,#4B5563);--dep-muted:var(--text-muted,#6B7280);--dep-mono:ui-monospace,'Space Mono',SFMono-Regular,Menlo,Consolas,monospace;margin-top:22px;}
+                #tool-section .dep-card{background:#fff;border:1px solid var(--dep-border);border-radius:16px;box-shadow:0 10px 30px rgba(27,54,93,.08);padding:28px;}
+                #tool-section .dep-title{font-size:20px;font-weight:700;color:var(--dep-navy);margin:0 0 20px;line-height:1.3;}
+                #tool-section .dep-label{display:block;font-size:12px;font-weight:700;color:var(--dep-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;}
+                #tool-section .dep-chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:18px;}
+                #tool-section .dep-chip{padding:10px 12px;border:2px solid var(--dep-border);border-radius:10px;font:inherit;font-size:13px;font-weight:700;color:var(--dep-muted);background:#fff;cursor:pointer;text-align:center;transition:all .2s;line-height:1.3;}
+                #tool-section .dep-chip:hover{border-color:var(--dep-navy);color:var(--dep-navy);}
+                #tool-section .dep-chip.active{border-color:var(--dep-navy);color:var(--dep-navy);background:var(--dep-surface);}
+                #tool-section .dep-chip small{display:block;font-size:10px;font-weight:600;opacity:.7;margin-top:2px;}
+                #tool-section .dep-sgroup{margin-bottom:20px;}
+                #tool-section .dep-srow{display:flex;align-items:center;gap:12px;}
+                #tool-section .dep-range{flex:1;-webkit-appearance:none;appearance:none;height:6px;border-radius:3px;background:var(--dep-border);outline:none;}
+                #tool-section .dep-range::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:var(--dep-navy);cursor:pointer;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.2);}
+                #tool-section .dep-range::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--dep-navy);cursor:pointer;border:3px solid #fff;}
+                #tool-section .dep-sval{min-width:120px;padding:11px 14px;border:2px solid var(--dep-border);border-radius:10px;font-family:var(--dep-mono);font-size:15px;font-weight:700;color:var(--dep-navy);background:var(--dep-surface);text-align:right;outline:none;transition:border-color .2s;}
+                #tool-section .dep-sval:focus{border-color:var(--dep-navy);}
+                #tool-section .dep-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-bottom:18px;}
+                #tool-section .dep-toggle{display:flex;gap:4px;background:var(--dep-surface);border-radius:10px;padding:4px;}
+                #tool-section .dep-tbtn{flex:1;padding:10px 8px;border:0;border-radius:7px;font:inherit;font-size:13.5px;font-weight:700;color:var(--dep-muted);background:transparent;cursor:pointer;transition:all .2s;line-height:1.35;}
+                #tool-section .dep-tbtn.active{background:#fff;color:var(--dep-navy);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+                #tool-section .dep-tbtn small{font-weight:400;font-size:11px;opacity:.7;}
+                #tool-section .dep-field{margin-bottom:18px;}
+                #tool-section .dep-num{width:100%;max-width:140px;padding:11px 14px;border:2px solid var(--dep-border);border-radius:10px;font:inherit;font-size:16px;font-weight:700;font-family:var(--dep-mono);color:var(--dep-navy);background:var(--dep-surface);outline:none;transition:border-color .2s;}
+                #tool-section .dep-num:focus{border-color:var(--dep-navy);}
+                #tool-section .dep-calc{width:100%;padding:15px;background:var(--dep-navy);color:#fff;border:0;border-radius:10px;font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background .2s,transform .1s;margin-top:6px;}
+                #tool-section .dep-calc:hover{background:var(--dep-navy-light);}
+                #tool-section .dep-calc:active{transform:scale(.99);}
+                #tool-section .dep-reset{margin-top:14px;padding:9px 18px;border:1px solid var(--dep-border);border-radius:8px;background:#fff;color:var(--dep-muted);font:inherit;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;}
+                #tool-section .dep-reset:hover{border-color:var(--dep-orange);color:var(--dep-orange);}
+                #tool-section .dep-result{display:none;margin-top:26px;padding-top:24px;border-top:1px solid var(--dep-border);}
+                #tool-section .dep-result.show{display:block;}
+                #tool-section .dep-hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:0 0 18px;}
+                #tool-section .dep-box{border-radius:12px;padding:20px;text-align:center;color:#fff;}
+                #tool-section .dep-box.annual{background:linear-gradient(135deg,var(--dep-navy),var(--dep-navy-light));}
+                #tool-section .dep-box.total{background:linear-gradient(135deg,var(--dep-orange),#f0925a);}
+                #tool-section .dep-box.wdv{background:linear-gradient(135deg,#2a4d78,#3a6098);}
+                #tool-section .dep-box .db-label{font-size:11px;font-weight:700;opacity:.85;text-transform:uppercase;letter-spacing:.5px;}
+                #tool-section .dep-box .db-value{font-family:var(--dep-mono);font-size:clamp(1.2rem,2.5vw,1.6rem);font-weight:800;margin-top:4px;}
+                #tool-section .dep-box .db-sub{font-size:11px;opacity:.85;margin-top:2px;}
+                #tool-section .dep-note{background:#FFF3E9;border-left:4px solid var(--dep-orange);border-radius:0 10px 10px 0;padding:14px 18px;margin:0 0 18px;}
+                #tool-section .dep-note p{margin:0;font-size:14px;color:#7a4a24;line-height:1.6;}
+                #tool-section .dep-note strong{color:#5f3717;}
+                #tool-section .dep-rcard{background:#fff;border:1px solid var(--dep-border);border-radius:12px;margin-bottom:16px;overflow:hidden;}
+                #tool-section .dep-rcard-hd{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--dep-border);background:var(--dep-surface);}
+                #tool-section .dep-rcard-hd h4{font-size:15px;font-weight:700;color:var(--dep-navy);margin:0;}
+                #tool-section .dep-badge{font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px;background:#fff;color:var(--dep-navy);border:1px solid var(--dep-border);white-space:nowrap;}
+                #tool-section .dep-rcard-bd{padding:18px;}
+                #tool-section .dep-table{width:100%;border-collapse:collapse;font-size:14px;margin:0;}
+                #tool-section .dep-table td{padding:10px 14px;border-bottom:1px solid var(--dep-border);color:var(--dep-text);}
+                #tool-section .dep-table tr:last-child td{border-bottom:0;}
+                #tool-section .dep-table tr:nth-child(even){background:var(--dep-surface);}
+                #tool-section .dep-table td:last-child{font-family:var(--dep-mono);text-align:right;font-weight:700;color:var(--dep-navy);}
+                #tool-section .dep-table .hi{color:var(--dep-orange);}
+                #tool-section .dep-yr{max-height:420px;overflow:auto;border:1px solid var(--dep-border);border-radius:10px;}
+                #tool-section .dep-yr table{width:100%;border-collapse:collapse;font-size:13px;}
+                #tool-section .dep-yr th{background:var(--dep-navy);color:#fff;padding:10px 12px;text-align:right;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.3px;position:sticky;top:0;}
+                #tool-section .dep-yr th:first-child{text-align:center;}
+                #tool-section .dep-yr td{padding:8px 12px;border-bottom:1px solid var(--dep-border);text-align:right;font-family:var(--dep-mono);font-size:12px;color:var(--dep-text);}
+                #tool-section .dep-yr td:first-child{text-align:center;font-family:inherit;font-weight:700;color:var(--dep-navy);}
+                #tool-section .dep-yr td.hi{color:var(--dep-orange);font-weight:700;}
+                #tool-section .dep-yr tr:nth-child(even){background:var(--dep-surface);}
+                #tool-section .dep-actions{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap;}
+                #tool-section .dep-abtn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:8px;font-size:14px;font-weight:700;text-decoration:none;transition:all .2s;border:1.5px solid var(--dep-border);color:var(--dep-navy);background:#fff;}
+                #tool-section .dep-abtn:hover{border-color:var(--dep-navy);transform:translateY(-1px);}
+                #tool-section .dep-abtn svg{width:18px;height:18px;flex-shrink:0;}
+                </style>
+
+                <div class="dep-wrap">
+                    <div class="dep-card">
+                        <h3 class="dep-title">Calculate Depreciation</h3>
+
+                        <span class="dep-label">Asset Category</span>
+                        <div class="dep-chips" id="dep-assetType">
+                            <button type="button" class="dep-chip active" data-val="pm15">Plant &amp; Machinery<small>15% WDV</small></button>
+                            <button type="button" class="dep-chip" data-val="comp40">Computers / Software<small>40% WDV</small></button>
+                            <button type="button" class="dep-chip" data-val="vehicle15">Motor Vehicles<small>15% WDV</small></button>
+                            <button type="button" class="dep-chip" data-val="bldg10">Building (Non-Res)<small>10% WDV</small></button>
+                            <button type="button" class="dep-chip" data-val="bldg5">Building (Residential)<small>5% WDV</small></button>
+                            <button type="button" class="dep-chip" data-val="furn10">Furniture &amp; Fittings<small>10% WDV</small></button>
+                            <button type="button" class="dep-chip" data-val="intang25">Intangible Assets<small>25% WDV</small></button>
+                            <button type="button" class="dep-chip" data-val="custom">Custom Rate<small>Enter manually</small></button>
+                        </div>
+
+                        <div class="dep-sgroup">
+                            <label class="dep-label" for="dep-valCost">Asset Cost (&#8377;)</label>
+                            <div class="dep-srow">
+                                <input type="range" class="dep-range" id="dep-sliderCost" min="10000" max="100000000" step="10000" value="1000000" aria-label="Asset cost slider">
+                                <input type="text" class="dep-sval" id="dep-valCost" value="10,00,000" inputmode="numeric" autocomplete="off" aria-label="Asset cost">
+                            </div>
+                        </div>
+
+                        <div class="dep-sgroup">
+                            <label class="dep-label" for="dep-valRate">Depreciation Rate (% p.a.)</label>
+                            <div class="dep-srow">
+                                <input type="range" class="dep-range" id="dep-sliderRate" min="1" max="100" step="0.5" value="15" aria-label="Depreciation rate slider">
+                                <input type="text" class="dep-sval" id="dep-valRate" value="15" style="min-width:80px" inputmode="decimal" autocomplete="off" aria-label="Depreciation rate">
+                            </div>
+                        </div>
+
+                        <div class="dep-grid">
+                            <div>
+                                <span class="dep-label">Method</span>
+                                <div class="dep-toggle" id="dep-method" role="group" aria-label="Depreciation method">
+                                    <button type="button" class="dep-tbtn active" data-val="wdv">WDV<br><small>IT Act (mandatory)</small></button>
+                                    <button type="button" class="dep-tbtn" data-val="slm">SLM<br><small>Companies Act</small></button>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="dep-label">Used 180+ days in Year 1?</span>
+                                <div class="dep-toggle" id="dep-halfYear" role="group" aria-label="Half-year rule">
+                                    <button type="button" class="dep-tbtn active" data-val="full">Yes<br><small>Full rate</small></button>
+                                    <button type="button" class="dep-tbtn" data-val="half">No<br><small>Half rate</small></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dep-field">
+                            <label class="dep-label" for="dep-inYears">Number of Years</label>
+                            <input type="number" class="dep-num" id="dep-inYears" value="10" min="1" max="50">
+                        </div>
+
+                        <button type="button" class="dep-calc" id="dep-calcBtn">Calculate Depreciation</button>
+                        <button type="button" class="dep-reset" id="dep-resetBtn">&#8634; Reset</button>
+
+                        <div class="dep-result" id="dep-resPanel"><div id="dep-resBody"></div></div>
+                    </div>
                 </div>
+
+                <script>
+                (function(){
+                    var root = document.getElementById('tool-section');
+                    if(!root || root.dataset.depInit) return;
+                    root.dataset.depInit = '1';
+                    function $(id){ return document.getElementById(id); }
+                    var RATES = {pm15:15,comp40:40,vehicle15:15,bldg10:10,bldg5:5,furn10:10,intang25:25,custom:15};
+                    function fmt(n){ return '₹' + Math.round(n).toLocaleString('en-IN'); }
+                    function fmtL(n){ if(n>=10000000) return '₹'+(n/10000000).toFixed(2)+' Cr'; if(n>=100000) return '₹'+(n/100000).toFixed(2)+' L'; return fmt(n); }
+                    function getTg(id){ var g=$(id); var a=g.querySelector('.dep-tbtn.active'); return a?a.getAttribute('data-val'):''; }
+
+                    root.querySelectorAll('#dep-assetType .dep-chip').forEach(function(el){
+                        el.addEventListener('click', function(){
+                            root.querySelectorAll('#dep-assetType .dep-chip').forEach(function(c){ c.classList.remove('active'); });
+                            el.classList.add('active');
+                            var r = RATES[el.getAttribute('data-val')];
+                            $('dep-sliderRate').value = r; $('dep-valRate').value = r;
+                        });
+                    });
+
+                    ['dep-method','dep-halfYear'].forEach(function(gid){
+                        root.querySelectorAll('#'+gid+' .dep-tbtn').forEach(function(btn){
+                            btn.addEventListener('click', function(){
+                                $(gid).querySelectorAll('.dep-tbtn').forEach(function(b){ b.classList.remove('active'); });
+                                btn.classList.add('active');
+                            });
+                        });
+                    });
+
+                    $('dep-sliderCost').addEventListener('input', function(){ var v=parseInt($('dep-sliderCost').value); $('dep-valCost').value=v.toLocaleString('en-IN'); });
+                    $('dep-valCost').addEventListener('input', function(){ var v=parseInt($('dep-valCost').value.replace(/[^0-9]/g,''))||0; $('dep-sliderCost').value=v; $('dep-valCost').value=v?v.toLocaleString('en-IN'):''; });
+                    $('dep-sliderRate').addEventListener('input', function(){ $('dep-valRate').value=$('dep-sliderRate').value; });
+                    $('dep-valRate').addEventListener('input', function(){ $('dep-sliderRate').value=parseFloat($('dep-valRate').value)||0; });
+
+                    function resetForm(){
+                        root.querySelectorAll('#dep-assetType .dep-chip').forEach(function(c,i){ c.classList.toggle('active', i===0); });
+                        $('dep-sliderCost').value=1000000; $('dep-valCost').value='10,00,000';
+                        $('dep-sliderRate').value=15; $('dep-valRate').value='15';
+                        $('dep-inYears').value=10;
+                        ['dep-method','dep-halfYear'].forEach(function(g){ $(g).querySelectorAll('.dep-tbtn').forEach(function(b,i){ b.classList.toggle('active', i===0); }); });
+                        $('dep-resPanel').classList.remove('show');
+                    }
+
+                    function calcDep(){
+                        var cost = parseInt($('dep-valCost').value.replace(/[^0-9]/g,''))||0;
+                        var rate = parseFloat($('dep-valRate').value)||0;
+                        var years = parseInt($('dep-inYears').value)||10;
+                        var isWDV = getTg('dep-method')==='wdv';
+                        var isHalf = getTg('dep-halfYear')==='half';
+                        if(!cost || !rate){ alert('Please enter asset cost and depreciation rate.'); return; }
+
+                        var yearData=[];
+                        var wdv=cost, totalDep=0;
+                        for(var y=1;y<=years;y++){
+                            var r=rate;
+                            if(y===1&&isHalf)r=rate/2;
+                            var dep;
+                            if(isWDV){dep=Math.round(wdv*r/100);}
+                            else{dep=Math.round(cost*r/100);if(y===1&&isHalf)dep=Math.round(cost*r/200);}
+                            if(isWDV&&dep>wdv)dep=Math.round(wdv);
+                            if(!isWDV){var remaining=cost-totalDep;if(dep>remaining)dep=Math.round(remaining);}
+                            totalDep+=dep;
+                            var closing=isWDV?(wdv-dep):Math.max(0,cost-totalDep);
+                            yearData.push({year:y,opening:Math.round(isWDV?wdv:(cost-totalDep+dep)),dep:dep,accumulated:Math.round(totalDep),closing:Math.round(closing),rateUsed:r});
+                            if(isWDV)wdv-=dep;
+                            if(closing<=0)break;
+                        }
+
+                        var yr1Dep=yearData[0]?yearData[0].dep:0;
+                        var finalWDV=yearData.length?yearData[yearData.length-1].closing:cost;
+
+                        var h='';
+                        h+='<div class="dep-hero"><div class="dep-box annual"><div class="db-label">Year 1 Depreciation</div><div class="db-value">'+fmt(yr1Dep)+'</div><div class="db-sub">'+(isHalf?'Half rate: '+(rate/2)+'%':'Full rate: '+rate+'%')+'</div></div>';
+                        h+='<div class="dep-box total"><div class="db-label">Total Depreciation ('+yearData.length+' yrs)</div><div class="db-value">'+fmtL(totalDep)+'</div><div class="db-sub">'+Math.round(totalDep/cost*100)+'% of cost</div></div>';
+                        h+='<div class="dep-box wdv"><div class="db-label">'+(isWDV?'Closing WDV':'Book Value')+'</div><div class="db-value">'+fmtL(finalWDV)+'</div><div class="db-sub">After '+yearData.length+' years</div></div></div>';
+
+                        var taxRate=25;
+                        var yr1Save=Math.round(yr1Dep*taxRate/100);
+                        h+='<div class="dep-note"><p><strong>Year 1 Tax Saving (at '+taxRate+'% rate):</strong> '+fmt(yr1Dep)+' depreciation saves '+fmt(yr1Save)+' in tax. Effective asset cost in year 1: '+fmt(cost-yr1Save)+'. Total depreciation of '+fmtL(totalDep)+' over '+yearData.length+' years saves ~'+fmtL(Math.round(totalDep*taxRate/100))+' in total tax.</p></div>';
+
+                        h+='<div class="dep-rcard"><div class="dep-rcard-hd"><h4>Depreciation Summary</h4><span class="dep-badge">'+(isWDV?'WDV':'SLM')+'</span></div><div class="dep-rcard-bd"><table class="dep-table"><tbody>';
+                        h+='<tr><td>Asset Cost</td><td>'+fmt(cost)+'</td></tr>';
+                        h+='<tr><td>Rate</td><td>'+rate+'% '+(isWDV?'WDV':'SLM')+'</td></tr>';
+                        h+='<tr><td>Method</td><td>'+(isWDV?'Written Down Value':'Straight Line')+'</td></tr>';
+                        h+='<tr><td>Half-Year Rule</td><td>'+(isHalf?'Applied (Year 1 at '+rate/2+'%)':'Not applied')+'</td></tr>';
+                        h+='<tr><td>Year 1 Depreciation</td><td class="hi">'+fmt(yr1Dep)+'</td></tr>';
+                        h+='<tr><td>Total Depreciation</td><td>'+fmt(totalDep)+'</td></tr>';
+                        h+='<tr><td>'+(isWDV?'Final WDV':'Final Book Value')+'</td><td>'+fmt(finalWDV)+'</td></tr>';
+                        h+='</tbody></table></div></div>';
+
+                        h+='<div class="dep-rcard"><div class="dep-rcard-hd"><h4>Year-Wise Depreciation Schedule</h4><span class="dep-badge">Schedule</span></div><div class="dep-rcard-bd"><div class="dep-yr"><table><thead><tr><th>Year</th><th>Opening</th><th>Rate</th><th>Depreciation</th><th>Accumulated</th><th>Closing</th></tr></thead><tbody>';
+                        yearData.forEach(function(d){ h+='<tr><td>'+d.year+'</td><td>'+fmt(d.opening)+'</td><td>'+d.rateUsed+'%</td><td class="hi">'+fmt(d.dep)+'</td><td>'+fmt(d.accumulated)+'</td><td>'+fmt(d.closing)+'</td></tr>'; });
+                        h+='</tbody></table></div></div></div>';
+
+                        h+='<div class="dep-actions"><a href="https://wa.me/919459456700?text=Hi%2C%20I%20used%20the%20Depreciation%20Calculator.%20I%20need%20help%20with%20fixed%20asset%20depreciation%20and%20tax." target="_blank" rel="noopener" class="dep-abtn"><svg viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> Ask a CA</a><a href="/tools/income-tax-calculator" class="dep-abtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h5"/></svg> Income Tax Calculator</a></div>';
+
+                        $('dep-resBody').innerHTML = h;
+                        var rp = $('dep-resPanel'); rp.classList.add('show'); rp.scrollIntoView({behavior:'smooth',block:'nearest'});
+                    }
+
+                    $('dep-calcBtn').addEventListener('click', calcDep);
+                    $('dep-resetBtn').addEventListener('click', resetForm);
+                    root.querySelector('.dep-card').addEventListener('keydown', function(e){ if(e.key==='Enter' && e.target.tagName==='INPUT'){ e.preventDefault(); calcDep(); } });
+                })();
+                </script>
                 <p style="margin-top:14px;font-size:14px;"><a href="/tools/depreciation-calculator" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">Open the full calculator &#8599;</a></p>
             </div>
         </div>
     </div>
 </section>
-<script>window.addEventListener("message",function(e){var d=e.data;if(d&&d.patronTool==="depreciation-calculator"&&d.height){var f=document.getElementById("leaseToolFrame");if(f){f.style.minHeight=d.height+"px";}}});</script>
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">

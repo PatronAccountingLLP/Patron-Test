@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Parent-Subsidiary Consolidation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Combining group entities and cancelling intra-group balances. The definition, the entry it drives and the mistake to avoid. Current Indian practice.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/parent-subsidiary-consolidation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Parent-Subsidiary Consolidation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Combining group entities and cancelling intra-group balances. The definition, the entry it drives and the mistake to avoid. Current Indian practice.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/parent-subsidiary-consolidation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/parent-subsidiary-consolidation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/parent-subsidiary-consolidation#article",
       "headline": "Parent-Subsidiary Consolidation",
-      "description": "",
+      "description": "Combining group entities and cancelling intra-group balances. The definition, the entry it drives and the mistake to avoid. Current Indian practice.",
       "inLanguage": "en-IN",
       "wordCount": 1051,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/parent-subsidiary-consolidation",
       "name": "Parent-Subsidiary Consolidation: Meaning and Example",
-      "description": "",
+      "description": "Combining group entities and cancelling intra-group balances. The definition, the entry it drives and the mistake to avoid. Current Indian practice.",
       "url": "https://www.patronaccounting.com/glossary/accounting/parent-subsidiary-consolidation",
       "inLanguage": "en-IN",
       "isPartOf": {

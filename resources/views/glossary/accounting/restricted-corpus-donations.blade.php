@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Restricted Corpus Donations: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Gifts a donor has tied to a purpose, which cannot be spent freely. What it means, why it matters and where you will meet it. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/restricted-corpus-donations">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Restricted Corpus Donations: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Gifts a donor has tied to a purpose, which cannot be spent freely. What it means, why it matters and where you will meet it. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/restricted-corpus-donations">
     <meta property="og:image" content="https://www.patronaccounting.com/images/restricted-corpus-donations-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/restricted-corpus-donations#article",
       "headline": "Restricted Corpus Donations",
-      "description": "",
+      "description": "Gifts a donor has tied to a purpose, which cannot be spent freely. What it means, why it matters and where you will meet it. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1096,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/restricted-corpus-donations",
       "name": "Restricted Corpus Donations: Meaning and Example",
-      "description": "",
+      "description": "Gifts a donor has tied to a purpose, which cannot be spent freely. What it means, why it matters and where you will meet it. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/restricted-corpus-donations",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Equity: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="What is left for the owners once every liability is deducted from assets. The meaning, the treatment and the disclosure it feeds. Browse the glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/equity">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Equity: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="What is left for the owners once every liability is deducted from assets. The meaning, the treatment and the disclosure it feeds. Browse the glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/equity">
     <meta property="og:image" content="https://www.patronaccounting.com/images/equity-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/equity#article",
       "headline": "Equity",
-      "description": "",
+      "description": "What is left for the owners once every liability is deducted from assets. The meaning, the treatment and the disclosure it feeds. Browse the glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1077,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/equity",
       "name": "Equity: Meaning and Example",
-      "description": "",
+      "description": "What is left for the owners once every liability is deducted from assets. The meaning, the treatment and the disclosure it feeds. Browse the glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/equity",
       "inLanguage": "en-IN",
       "isPartOf": {

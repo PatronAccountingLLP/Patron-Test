@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Variance Analysis: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Explaining the gap between what was budgeted and what actually happened. What it means, why it matters and where you will meet it. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/variance-analysis">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Variance Analysis: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Explaining the gap between what was budgeted and what actually happened. What it means, why it matters and where you will meet it. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/variance-analysis">
     <meta property="og:image" content="https://www.patronaccounting.com/images/variance-analysis-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/variance-analysis#article",
       "headline": "Variance Analysis",
-      "description": "",
+      "description": "Explaining the gap between what was budgeted and what actually happened. What it means, why it matters and where you will meet it. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1135,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/variance-analysis",
       "name": "Variance Analysis: Meaning and Example",
-      "description": "",
+      "description": "Explaining the gap between what was budgeted and what actually happened. What it means, why it matters and where you will meet it. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/variance-analysis",
       "inLanguage": "en-IN",
       "isPartOf": {

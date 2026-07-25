@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Current Assets: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Assets expected to turn into cash within the operating cycle. The definition, the entry it drives and the mistake to avoid. Current Indian practice.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/current-assets">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Current Assets: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Assets expected to turn into cash within the operating cycle. The definition, the entry it drives and the mistake to avoid. Current Indian practice.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/current-assets">
     <meta property="og:image" content="https://www.patronaccounting.com/images/current-assets-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/current-assets#article",
       "headline": "Current Assets",
-      "description": "",
+      "description": "Assets expected to turn into cash within the operating cycle. The definition, the entry it drives and the mistake to avoid. Current Indian practice.",
       "inLanguage": "en-IN",
       "wordCount": 1102,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/current-assets",
       "name": "Current Assets: Meaning and Example",
-      "description": "",
+      "description": "Assets expected to turn into cash within the operating cycle. The definition, the entry it drives and the mistake to avoid. Current Indian practice.",
       "url": "https://www.patronaccounting.com/glossary/accounting/current-assets",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Gujarat GST Bhavan Assessment: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="How Gujarat assessments are run and what evidence they demand. The definition, the entry it drives and the mistake to avoid. With the numbers set out.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/gujarat-gst-bhavan-assessment">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Gujarat GST Bhavan Assessment: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="How Gujarat assessments are run and what evidence they demand. The definition, the entry it drives and the mistake to avoid. With the numbers set out.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/gujarat-gst-bhavan-assessment">
     <meta property="og:image" content="https://www.patronaccounting.com/images/gujarat-gst-bhavan-assessment-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gujarat-gst-bhavan-assessment#article",
       "headline": "Gujarat GST Bhavan Assessment",
-      "description": "",
+      "description": "How Gujarat assessments are run and what evidence they demand. The definition, the entry it drives and the mistake to avoid. With the numbers set out.",
       "inLanguage": "en-IN",
       "wordCount": 1354,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gujarat-gst-bhavan-assessment",
       "name": "Gujarat GST Bhavan Assessment: Meaning and Example",
-      "description": "",
+      "description": "How Gujarat assessments are run and what evidence they demand. The definition, the entry it drives and the mistake to avoid. With the numbers set out.",
       "url": "https://www.patronaccounting.com/glossary/accounting/gujarat-gst-bhavan-assessment",
       "inLanguage": "en-IN",
       "isPartOf": {

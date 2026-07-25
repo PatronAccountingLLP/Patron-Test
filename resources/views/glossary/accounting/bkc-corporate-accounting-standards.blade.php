@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>BKC Corporate Accounting Standards: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The reporting expectations of listed and MNC finance teams in BKC. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/bkc-corporate-accounting-standards">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="BKC Corporate Accounting Standards: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The reporting expectations of listed and MNC finance teams in BKC. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/bkc-corporate-accounting-standards">
     <meta property="og:image" content="https://www.patronaccounting.com/images/bkc-corporate-accounting-standards-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bkc-corporate-accounting-standards#article",
       "headline": "BKC Corporate Accounting Standards",
-      "description": "",
+      "description": "The reporting expectations of listed and MNC finance teams in BKC. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.",
       "inLanguage": "en-IN",
       "wordCount": 1455,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bkc-corporate-accounting-standards",
       "name": "BKC Corporate Accounting Standards: Meaning and Example",
-      "description": "",
+      "description": "The reporting expectations of listed and MNC finance teams in BKC. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/bkc-corporate-accounting-standards",
       "inLanguage": "en-IN",
       "isPartOf": {

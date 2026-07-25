@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Multi-Currency Bank Feed: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Foreign-currency accounts feeding in with the rate applied per line. What it is, how it is measured and who has to report it. A practitioner guide.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/multi-currency-bank-feed">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Multi-Currency Bank Feed: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Foreign-currency accounts feeding in with the rate applied per line. What it is, how it is measured and who has to report it. A practitioner guide.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/multi-currency-bank-feed">
     <meta property="og:image" content="https://www.patronaccounting.com/images/multi-currency-bank-feed-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/multi-currency-bank-feed#article",
       "headline": "Multi-Currency Bank Feed",
-      "description": "",
+      "description": "Foreign-currency accounts feeding in with the rate applied per line. What it is, how it is measured and who has to report it. A practitioner guide.",
       "inLanguage": "en-IN",
       "wordCount": 1077,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/multi-currency-bank-feed",
       "name": "Multi-Currency Bank Feed: Meaning and Example",
-      "description": "",
+      "description": "Foreign-currency accounts feeding in with the rate applied per line. What it is, how it is measured and who has to report it. A practitioner guide.",
       "url": "https://www.patronaccounting.com/glossary/accounting/multi-currency-bank-feed",
       "inLanguage": "en-IN",
       "isPartOf": {

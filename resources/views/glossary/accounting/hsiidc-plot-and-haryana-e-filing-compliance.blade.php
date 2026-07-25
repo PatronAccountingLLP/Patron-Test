@@ -2,13 +2,13 @@
 
 
 @section('meta')
-    <title>HSIIDC Plot &amp; Haryana e-Filing Compliance: Meaning and Example</title>
-    <meta name="description" content="">
+    <title>HSIIDC Plot &amp; Haryana e-Filing Compliance: Meaning</title>
+    <meta name="description" content="Haryana plot obligations and the state&#x27;s electronic filing regime. The meaning, the treatment and the disclosure it feeds. Updated for Indian rules.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/hsiidc-plot-and-haryana-e-filing-compliance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="HSIIDC Plot &amp; Haryana e-Filing Compliance: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="HSIIDC Plot &amp; Haryana e-Filing Compliance: Meaning | Patron Accounting">
+    <meta property="og:description" content="Haryana plot obligations and the state&#x27;s electronic filing regime. The meaning, the treatment and the disclosure it feeds. Updated for Indian rules.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/hsiidc-plot-and-haryana-e-filing-compliance">
     <meta property="og:image" content="https://www.patronaccounting.com/images/hsiidc-plot-and-haryana-e-filing-compliance-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/hsiidc-plot-and-haryana-e-filing-compliance#article",
       "headline": "HSIIDC Plot & Haryana e-Filing Compliance",
-      "description": "",
+      "description": "Haryana plot obligations and the state's electronic filing regime. The meaning, the treatment and the disclosure it feeds. Updated for Indian rules.",
       "inLanguage": "en-IN",
       "wordCount": 1343,
       "about": {
@@ -128,8 +128,8 @@
     {
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/hsiidc-plot-and-haryana-e-filing-compliance",
-      "name": "HSIIDC Plot & Haryana e-Filing Compliance: Meaning and Example",
-      "description": "",
+      "name": "HSIIDC Plot & Haryana e-Filing Compliance: Meaning",
+      "description": "Haryana plot obligations and the state's electronic filing regime. The meaning, the treatment and the disclosure it feeds. Updated for Indian rules.",
       "url": "https://www.patronaccounting.com/glossary/accounting/hsiidc-plot-and-haryana-e-filing-compliance",
       "inLanguage": "en-IN",
       "isPartOf": {

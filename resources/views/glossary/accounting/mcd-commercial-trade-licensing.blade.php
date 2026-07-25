@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>MCD Commercial Trade Licensing: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The municipal licence a Delhi commercial establishment trades under. What it is, how it is measured and who has to report it. With worked examples.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/mcd-commercial-trade-licensing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="MCD Commercial Trade Licensing: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The municipal licence a Delhi commercial establishment trades under. What it is, how it is measured and who has to report it. With worked examples.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/mcd-commercial-trade-licensing">
     <meta property="og:image" content="https://www.patronaccounting.com/images/mcd-commercial-trade-licensing-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/mcd-commercial-trade-licensing#article",
       "headline": "MCD Commercial Trade Licensing",
-      "description": "",
+      "description": "The municipal licence a Delhi commercial establishment trades under. What it is, how it is measured and who has to report it. With worked examples.",
       "inLanguage": "en-IN",
       "wordCount": 1342,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/mcd-commercial-trade-licensing",
       "name": "MCD Commercial Trade Licensing: Meaning and Example",
-      "description": "",
+      "description": "The municipal licence a Delhi commercial establishment trades under. What it is, how it is measured and who has to report it. With worked examples.",
       "url": "https://www.patronaccounting.com/glossary/accounting/mcd-commercial-trade-licensing",
       "inLanguage": "en-IN",
       "isPartOf": {

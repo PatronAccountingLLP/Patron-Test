@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Cost of Goods Sold: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The direct cost of the goods or services actually sold in the period. Defined in plain English, with an example of where. Reviewed by our CA team.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/cost-of-goods-sold">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cost of Goods Sold: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The direct cost of the goods or services actually sold in the period. Defined in plain English, with an example of where. Reviewed by our CA team.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/cost-of-goods-sold">
     <meta property="og:image" content="https://www.patronaccounting.com/images/cost-of-goods-sold-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cost-of-goods-sold#article",
       "headline": "Cost of Goods Sold",
-      "description": "",
+      "description": "The direct cost of the goods or services actually sold in the period. Defined in plain English, with an example of where. Reviewed by our CA team.",
       "inLanguage": "en-IN",
       "wordCount": 1216,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cost-of-goods-sold",
       "name": "Cost of Goods Sold: Meaning and Example",
-      "description": "",
+      "description": "The direct cost of the goods or services actually sold in the period. Defined in plain English, with an example of where. Reviewed by our CA team.",
       "url": "https://www.patronaccounting.com/glossary/accounting/cost-of-goods-sold",
       "inLanguage": "en-IN",
       "isPartOf": {

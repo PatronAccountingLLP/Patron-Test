@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Monthly Burn Rate: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The net cash a business consumes in a month after all receipts. What it is, how it is measured and who has to report it. With the numbers set out.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/monthly-burn-rate">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Monthly Burn Rate: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The net cash a business consumes in a month after all receipts. What it is, how it is measured and who has to report it. With the numbers set out.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/monthly-burn-rate">
     <meta property="og:image" content="https://www.patronaccounting.com/images/monthly-burn-rate-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/monthly-burn-rate#article",
       "headline": "Monthly Burn Rate",
-      "description": "",
+      "description": "The net cash a business consumes in a month after all receipts. What it is, how it is measured and who has to report it. With the numbers set out.",
       "inLanguage": "en-IN",
       "wordCount": 1099,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/monthly-burn-rate",
       "name": "Monthly Burn Rate: Meaning and Example",
-      "description": "",
+      "description": "The net cash a business consumes in a month after all receipts. What it is, how it is measured and who has to report it. With the numbers set out.",
       "url": "https://www.patronaccounting.com/glossary/accounting/monthly-burn-rate",
       "inLanguage": "en-IN",
       "isPartOf": {

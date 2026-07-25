@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Closing Journal Entries: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The entries that shut a period, moving balances where they belong. Explained simply, with the ledger entry that goes with it. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/closing-journal-entries">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Closing Journal Entries: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The entries that shut a period, moving balances where they belong. Explained simply, with the ledger entry that goes with it. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/closing-journal-entries">
     <meta property="og:image" content="https://www.patronaccounting.com/images/closing-journal-entries-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/closing-journal-entries#article",
       "headline": "Closing Journal Entries",
-      "description": "",
+      "description": "The entries that shut a period, moving balances where they belong. Explained simply, with the ledger entry that goes with it. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1073,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/closing-journal-entries",
       "name": "Closing Journal Entries: Meaning and Example",
-      "description": "",
+      "description": "The entries that shut a period, moving balances where they belong. Explained simply, with the ledger entry that goes with it. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/closing-journal-entries",
       "inLanguage": "en-IN",
       "isPartOf": {

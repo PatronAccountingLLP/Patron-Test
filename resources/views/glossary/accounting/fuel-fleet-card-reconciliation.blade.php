@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Fuel Fleet Card Reconciliation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Fuel card statements matched to trips, vehicles and drivers. What it is, how it is measured and who has to report it. With the disclosure checklist.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/fuel-fleet-card-reconciliation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Fuel Fleet Card Reconciliation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Fuel card statements matched to trips, vehicles and drivers. What it is, how it is measured and who has to report it. With the disclosure checklist.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/fuel-fleet-card-reconciliation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/fuel-fleet-card-reconciliation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/fuel-fleet-card-reconciliation#article",
       "headline": "Fuel Fleet Card Reconciliation",
-      "description": "",
+      "description": "Fuel card statements matched to trips, vehicles and drivers. What it is, how it is measured and who has to report it. With the disclosure checklist.",
       "inLanguage": "en-IN",
       "wordCount": 1062,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/fuel-fleet-card-reconciliation",
       "name": "Fuel Fleet Card Reconciliation: Meaning and Example",
-      "description": "",
+      "description": "Fuel card statements matched to trips, vehicles and drivers. What it is, how it is measured and who has to report it. With the disclosure checklist.",
       "url": "https://www.patronaccounting.com/glossary/accounting/fuel-fleet-card-reconciliation",
       "inLanguage": "en-IN",
       "isPartOf": {

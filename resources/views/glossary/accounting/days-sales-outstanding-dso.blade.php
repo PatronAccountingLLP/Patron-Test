@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Days Sales Outstanding (DSO): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The average number of days it takes to collect a rupee of sales. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/days-sales-outstanding-dso">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Days Sales Outstanding (DSO): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The average number of days it takes to collect a rupee of sales. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/days-sales-outstanding-dso">
     <meta property="og:image" content="https://www.patronaccounting.com/images/days-sales-outstanding-dso-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/days-sales-outstanding-dso#article",
       "headline": "Days Sales Outstanding (DSO)",
-      "description": "",
+      "description": "The average number of days it takes to collect a rupee of sales. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.",
       "inLanguage": "en-IN",
       "wordCount": 1119,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/days-sales-outstanding-dso",
       "name": "Days Sales Outstanding (DSO): Meaning and Example",
-      "description": "",
+      "description": "The average number of days it takes to collect a rupee of sales. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/days-sales-outstanding-dso",
       "inLanguage": "en-IN",
       "isPartOf": {

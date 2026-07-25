@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Standard Cost Variance: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The difference between expected and actual cost, split by cause. What it is, how it is measured and who has to report it. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/standard-cost-variance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Standard Cost Variance: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The difference between expected and actual cost, split by cause. What it is, how it is measured and who has to report it. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/standard-cost-variance">
     <meta property="og:image" content="https://www.patronaccounting.com/images/standard-cost-variance-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/standard-cost-variance#article",
       "headline": "Standard Cost Variance",
-      "description": "",
+      "description": "The difference between expected and actual cost, split by cause. What it is, how it is measured and who has to report it. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1168,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/standard-cost-variance",
       "name": "Standard Cost Variance: Meaning and Example",
-      "description": "",
+      "description": "The difference between expected and actual cost, split by cause. What it is, how it is measured and who has to report it. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/standard-cost-variance",
       "inLanguage": "en-IN",
       "isPartOf": {

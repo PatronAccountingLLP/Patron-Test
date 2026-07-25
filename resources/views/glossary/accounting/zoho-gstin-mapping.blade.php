@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Zoho GSTIN Mapping: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Mapping each GSTIN to its branch so Zoho files against the right state. The definition, the entry it drives and the mistake. Browse the glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/zoho-gstin-mapping">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Zoho GSTIN Mapping: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Mapping each GSTIN to its branch so Zoho files against the right state. The definition, the entry it drives and the mistake. Browse the glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/zoho-gstin-mapping">
     <meta property="og:image" content="https://www.patronaccounting.com/images/zoho-gstin-mapping-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/zoho-gstin-mapping#article",
       "headline": "Zoho GSTIN Mapping",
-      "description": "",
+      "description": "Mapping each GSTIN to its branch so Zoho files against the right state. The definition, the entry it drives and the mistake. Browse the glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1080,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/zoho-gstin-mapping",
       "name": "Zoho GSTIN Mapping: Meaning and Example",
-      "description": "",
+      "description": "Mapping each GSTIN to its branch so Zoho files against the right state. The definition, the entry it drives and the mistake. Browse the glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/zoho-gstin-mapping",
       "inLanguage": "en-IN",
       "isPartOf": {

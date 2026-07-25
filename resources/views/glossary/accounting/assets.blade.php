@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Assets: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="What a business owns or controls and expects future benefit from. Explained simply, with the ledger entry that goes with it. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/assets">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Assets: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="What a business owns or controls and expects future benefit from. Explained simply, with the ledger entry that goes with it. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/assets">
     <meta property="og:image" content="https://www.patronaccounting.com/images/assets-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/assets#article",
       "headline": "Assets",
-      "description": "",
+      "description": "What a business owns or controls and expects future benefit from. Explained simply, with the ledger entry that goes with it. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1139,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/assets",
       "name": "Assets: Meaning and Example",
-      "description": "",
+      "description": "What a business owns or controls and expects future benefit from. Explained simply, with the ledger entry that goes with it. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/assets",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Unbilled Revenue (WIP Hours): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Work performed but not yet invoiced, recognised in the right period. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/unbilled-revenue-wip-hours">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Unbilled Revenue (WIP Hours): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Work performed but not yet invoiced, recognised in the right period. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/unbilled-revenue-wip-hours">
     <meta property="og:image" content="https://www.patronaccounting.com/images/unbilled-revenue-wip-hours-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/unbilled-revenue-wip-hours#article",
       "headline": "Unbilled Revenue (WIP Hours)",
-      "description": "",
+      "description": "Work performed but not yet invoiced, recognised in the right period. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.",
       "inLanguage": "en-IN",
       "wordCount": 1037,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/unbilled-revenue-wip-hours",
       "name": "Unbilled Revenue (WIP Hours): Meaning and Example",
-      "description": "",
+      "description": "Work performed but not yet invoiced, recognised in the right period. The meaning, the treatment and the disclosure it feeds. Written by qualified CAs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/unbilled-revenue-wip-hours",
       "inLanguage": "en-IN",
       "isPartOf": {

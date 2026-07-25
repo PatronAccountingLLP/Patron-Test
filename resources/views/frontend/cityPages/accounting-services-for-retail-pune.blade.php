@@ -678,6 +678,66 @@
 </section>
 
 
+<!-- ============ CLIENT PORTAL / HOW IT WORKS (shared block) ============ -->
+<section class="content-section portal-grid-sec" id="client-portal-section" style="background: var(--cream) !important;">
+  <div class="section-container">
+    <header class="section-header" style="text-align:center;margin-bottom:8px;">
+      <span class="section-eyebrow">Client Portal</span>
+      <h2 class="section-title">How You Work With Patron</h2>
+      <p class="section-subtitle" style="margin:0 auto;">Everything happens in one secure login. You can see your active services, the Patron team on your account, and anything still pending. Once you raise a request, it moves through the same clear steps every time, so you always know exactly where your work stands.</p>
+    </header>
+    <div class="portal-grid">
+      <article class="portal-card">
+        <div class="browser-frame"><div class="bbar"><span></span><span></span><span></span></div>
+          <img src="/images/accounting-cluster/portal/portal-1-sign-in.webp" alt="Secure client portal login screen" loading="lazy" width="1280" height="627"></div>
+        <div class="portal-card__body"><span class="portal-card__num">1</span>
+          <h3>Sign in securely</h3><p>Your books, documents and requests all sit behind one private, password protected login. The team handling your account is shown on screen, so nothing sensitive ever needs to travel over email or WhatsApp.</p></div>
+      </article>
+      <article class="portal-card">
+        <div class="browser-frame"><div class="bbar"><span></span><span></span><span></span></div>
+          <img src="/images/accounting-cluster/portal/portal-3-request-service.webp" alt="Service catalogue inside the client portal" loading="lazy" width="1280" height="773"></div>
+        <div class="portal-card__body"><span class="portal-card__num">2</span>
+          <h3>Raise your request</h3><p>Choose the service you need from the menu inside the portal, where the price is shown before you go ahead. Your request is logged the moment you send it, with no phone calls or reminder emails to wait on.</p></div>
+      </article>
+      <article class="portal-card">
+        <div class="browser-frame"><div class="bbar"><span></span><span></span><span></span></div>
+          <img src="/images/accounting-cluster/portal/portal-4-gst.webp" alt="GST registration document checklist in the client portal, with an upload button beside each item" loading="lazy" width="1280" height="1012"></div>
+        <div class="portal-card__body"><span class="portal-card__num">3</span>
+          <h3>Share what the service asks for</h3><p>For every service, the portal lists the exact documents it needs, each with its own upload button. The example shown here is the GST registration checklist. When a service needs nothing from you, it simply asks for nothing.</p></div>
+      </article>
+      <article class="portal-card">
+        <div class="browser-frame"><div class="bbar"><span></span><span></span><span></span></div>
+          <img src="/images/accounting-cluster/portal/portal-5-tracker.webp" alt="Live request tracker inside the client portal" loading="lazy" width="1280" height="493"></div>
+        <div class="portal-card__body"><span class="portal-card__num">4</span>
+          <h3>We review, prepare and file</h3><p>Once your documents are in, your team checks them, prepares the work and files it for you. A live tracker shows each stage as it happens, from review to processing to done, so you never have to ask where things stand.</p></div>
+      </article>
+      <article class="portal-card">
+        <div class="browser-frame"><div class="bbar"><span></span><span></span><span></span></div>
+          <img src="/images/accounting-cluster/portal/portal-6-deliverables.webp" alt="Deliverables area of the client portal" loading="lazy" width="1280" height="546"></div>
+        <div class="portal-card__body"><span class="portal-card__num">5</span>
+          <h3>Collect your finished work</h3><p>Every completed return, computation and certificate is placed in your Deliverables area. You can open, print or download any of them as a PDF whenever you need a copy.</p></div>
+      </article>
+    </div>
+  </div>
+  <div class="portal-lightbox" id="portalLightbox" aria-hidden="true" role="dialog" aria-label="Portal screenshot">
+    <button type="button" class="portal-lightbox__close" aria-label="Close">&times;</button>
+    <img src="" alt="">
+  </div>
+  <script>
+  (function(){
+    var lb=document.getElementById('portalLightbox'); if(!lb) return;
+    var big=lb.querySelector('img');
+    document.querySelectorAll('#client-portal-section .portal-card .browser-frame img').forEach(function(t){
+      t.addEventListener('click',function(){ big.src=this.currentSrc||this.src; big.alt=this.alt; lb.classList.add('is-open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; });
+    });
+    function shut(){ lb.classList.remove('is-open'); lb.setAttribute('aria-hidden','true'); document.body.style.overflow=''; big.removeAttribute('src'); }
+    lb.addEventListener('click',function(e){ if(e.target===lb||e.target.classList.contains('portal-lightbox__close')) shut(); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&lb.classList.contains('is-open')) shut(); });
+  })();
+  </script>
+</section>
+<!-- ============ /CLIENT PORTAL ============ -->
+
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
@@ -1005,7 +1065,7 @@
 
 <section class="pa-localmap"><div class="pa-localmap-wrap"><div class="pa-localmap-info"><span class="pa-local2-kicker"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Pune, Maharashtra</span><h2>Visit our Pune office</h2><p>A local CA &amp; CS team for retail accounting in Pune &mdash; visit our office or work with us online.</p><ul class="pa-localmap-details"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9h.01M9 12h.01M9 15h.01M9 18h.01"/></svg><span>RTC Silver, B4-708, Sai Satyam Park, Wagholi 412207</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+919459456700">+91 94594 56700</a></li></ul><a class="pa-localmap-btn" href="https://www.google.com/maps/search/?api=1&query=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India" target="_blank" rel="noopener">Get directions<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></a></div><div class="pa-localmap-frame"><iframe src="https://www.google.com/maps?q=Patron%20Accounting%20LLP%20-%20Pune%2C%20RTC%20Silver%2C%20B4-708%2C%20Sai%20Satyam%20Park%2C%20Wagholi%20412207%2C%20Pune%2C%20Maharashtra%2C%20India&ll=18.5794466,73.9682987&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Patron Accounting LLP office location on Google Maps"></iframe></div></div></section><section class="content-section pa-sibling-cities"><div class="content-container"><div class="text-content"><h2 class="section-title">Retail Accounting Across Key Cities</h2><p class="section-intro">Your city is highlighted below &mdash; we run the same on-ground service across these cities too.</p><div class="pa-city-grid"><div class="pa-city-card pa-city-card--here"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune<span class="pa-here-badge">You are here</span></div><div class="pa-card-sub">Maharashtra</div></div></div><a href="https://www.patronaccounting.com/accounting-services-for-retail/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-retail/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a><a href="https://www.patronaccounting.com/accounting-services-for-retail/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a></div></div></div></section><div class="eeat-review-wrap"><div class="eeat-review"><div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div><div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; compliance &nbsp;&middot;&nbsp; Last reviewed 23 July 2026 &nbsp;&middot;&nbsp; Next review 23 October 2026</div><div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a><a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a><a href="https://www.startupindia.gov.in" target="_blank" rel="noopener">Startup India (DPIIT)</a></div></div></div>
 </main>
-<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list&&!document.querySelector('.faq-expanded__toggle-all'))list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
 <script>(function(){function bind(){if(typeof $==='undefined'||!$.fn.slick){return setTimeout(bind,200);}var $s=$('#testimonialSlider');document.querySelectorAll('#testimonialSlider video').forEach(function(v){v.addEventListener('play',function(){try{$s.slick('slickPause');}catch(e){}});v.addEventListener('pause',function(){try{$s.slick('slickPlay');}catch(e){}});v.addEventListener('ended',function(){try{$s.slick('slickPlay');}catch(e){}});});}if(document.readyState!=='loading')bind();else document.addEventListener('DOMContentLoaded',bind);})();</script>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

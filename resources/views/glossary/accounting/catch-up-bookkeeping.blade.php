@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Catch-Up Bookkeeping: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Rebuilding months or years of unrecorded transactions into clean books. The meaning, the treatment and the disclosure it feeds. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/catch-up-bookkeeping">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Catch-Up Bookkeeping: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Rebuilding months or years of unrecorded transactions into clean books. The meaning, the treatment and the disclosure it feeds. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/catch-up-bookkeeping">
     <meta property="og:image" content="https://www.patronaccounting.com/images/catch-up-bookkeeping-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/catch-up-bookkeeping#article",
       "headline": "Catch-Up Bookkeeping",
-      "description": "",
+      "description": "Rebuilding months or years of unrecorded transactions into clean books. The meaning, the treatment and the disclosure it feeds. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1114,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/catch-up-bookkeeping",
       "name": "Catch-Up Bookkeeping: Meaning and Example",
-      "description": "",
+      "description": "Rebuilding months or years of unrecorded transactions into clean books. The meaning, the treatment and the disclosure it feeds. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/catch-up-bookkeeping",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Inventory Shrinkage Provision: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="A charge for stock lost to theft, damage and counting error. Explained simply, with the ledger entry that goes with it. Written by qualified CAs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/inventory-shrinkage-provision">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Inventory Shrinkage Provision: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="A charge for stock lost to theft, damage and counting error. Explained simply, with the ledger entry that goes with it. Written by qualified CAs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/inventory-shrinkage-provision">
     <meta property="og:image" content="https://www.patronaccounting.com/images/inventory-shrinkage-provision-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/inventory-shrinkage-provision#article",
       "headline": "Inventory Shrinkage Provision",
-      "description": "",
+      "description": "A charge for stock lost to theft, damage and counting error. Explained simply, with the ledger entry that goes with it. Written by qualified CAs.",
       "inLanguage": "en-IN",
       "wordCount": 1072,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/inventory-shrinkage-provision",
       "name": "Inventory Shrinkage Provision: Meaning and Example",
-      "description": "",
+      "description": "A charge for stock lost to theft, damage and counting error. Explained simply, with the ledger entry that goes with it. Written by qualified CAs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/inventory-shrinkage-provision",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Udyog Vihar SEZ vs DTA Compliance: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Different tax and documentation rules either side of the SEZ line. Explained simply, with the ledger entry that goes with it. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/udyog-vihar-sez-vs-dta-compliance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Udyog Vihar SEZ vs DTA Compliance: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Different tax and documentation rules either side of the SEZ line. Explained simply, with the ledger entry that goes with it. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/udyog-vihar-sez-vs-dta-compliance">
     <meta property="og:image" content="https://www.patronaccounting.com/images/udyog-vihar-sez-vs-dta-compliance-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/udyog-vihar-sez-vs-dta-compliance#article",
       "headline": "Udyog Vihar SEZ vs DTA Compliance",
-      "description": "",
+      "description": "Different tax and documentation rules either side of the SEZ line. Explained simply, with the ledger entry that goes with it. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1332,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/udyog-vihar-sez-vs-dta-compliance",
       "name": "Udyog Vihar SEZ vs DTA Compliance: Meaning and Example",
-      "description": "",
+      "description": "Different tax and documentation rules either side of the SEZ line. Explained simply, with the ledger entry that goes with it. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/udyog-vihar-sez-vs-dta-compliance",
       "inLanguage": "en-IN",
       "isPartOf": {

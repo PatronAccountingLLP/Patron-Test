@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Financial Internal Controls: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The checks that stop error and fraud before they reach the ledger. The definition, the entry it drives and the mistake to avoid. A practitioner guide.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/financial-internal-controls">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Financial Internal Controls: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The checks that stop error and fraud before they reach the ledger. The definition, the entry it drives and the mistake to avoid. A practitioner guide.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/financial-internal-controls">
     <meta property="og:image" content="https://www.patronaccounting.com/images/financial-internal-controls-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/financial-internal-controls#article",
       "headline": "Financial Internal Controls",
-      "description": "",
+      "description": "The checks that stop error and fraud before they reach the ledger. The definition, the entry it drives and the mistake to avoid. A practitioner guide.",
       "inLanguage": "en-IN",
       "wordCount": 997,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/financial-internal-controls",
       "name": "Financial Internal Controls: Meaning and Example",
-      "description": "",
+      "description": "The checks that stop error and fraud before they reach the ledger. The definition, the entry it drives and the mistake to avoid. A practitioner guide.",
       "url": "https://www.patronaccounting.com/glossary/accounting/financial-internal-controls",
       "inLanguage": "en-IN",
       "isPartOf": {

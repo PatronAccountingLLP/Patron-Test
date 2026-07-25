@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>GSTR-2B Input Tax Credit Matching: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Credit claimed only where the supplier&#x27;s invoice appears in your 2B. What it means, why it matters and where you will meet it. With worked examples.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/gstr-2b-input-tax-credit-matching">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="GSTR-2B Input Tax Credit Matching: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Credit claimed only where the supplier&#x27;s invoice appears in your 2B. What it means, why it matters and where you will meet it. With worked examples.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/gstr-2b-input-tax-credit-matching">
     <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-2b-input-tax-credit-matching-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gstr-2b-input-tax-credit-matching#article",
       "headline": "GSTR-2B Input Tax Credit Matching",
-      "description": "",
+      "description": "Credit claimed only where the supplier's invoice appears in your 2B. What it means, why it matters and where you will meet it. With worked examples.",
       "inLanguage": "en-IN",
       "wordCount": 1211,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gstr-2b-input-tax-credit-matching",
       "name": "GSTR-2B Input Tax Credit Matching: Meaning and Example",
-      "description": "",
+      "description": "Credit claimed only where the supplier's invoice appears in your 2B. What it means, why it matters and where you will meet it. With worked examples.",
       "url": "https://www.patronaccounting.com/glossary/accounting/gstr-2b-input-tax-credit-matching",
       "inLanguage": "en-IN",
       "isPartOf": {

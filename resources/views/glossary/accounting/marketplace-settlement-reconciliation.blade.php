@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Marketplace Settlement Reconciliation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Tying marketplace payouts back to orders, fees, returns and taxes. Defined in plain English, with an example of where it shows up. See related terms.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/marketplace-settlement-reconciliation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Marketplace Settlement Reconciliation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Tying marketplace payouts back to orders, fees, returns and taxes. Defined in plain English, with an example of where it shows up. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/marketplace-settlement-reconciliation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/marketplace-settlement-reconciliation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/marketplace-settlement-reconciliation#article",
       "headline": "Marketplace Settlement Reconciliation",
-      "description": "",
+      "description": "Tying marketplace payouts back to orders, fees, returns and taxes. Defined in plain English, with an example of where it shows up. See related terms.",
       "inLanguage": "en-IN",
       "wordCount": 1016,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/marketplace-settlement-reconciliation",
       "name": "Marketplace Settlement Reconciliation: Meaning and Example",
-      "description": "",
+      "description": "Tying marketplace payouts back to orders, fees, returns and taxes. Defined in plain English, with an example of where it shows up. See related terms.",
       "url": "https://www.patronaccounting.com/glossary/accounting/marketplace-settlement-reconciliation",
       "inLanguage": "en-IN",
       "isPartOf": {

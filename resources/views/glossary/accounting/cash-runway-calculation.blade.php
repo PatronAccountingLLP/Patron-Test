@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Cash Runway Calculation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Cash on hand divided by burn, expressed as months of survival. The meaning, the treatment and the disclosure it feeds. A practical guide for India.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/cash-runway-calculation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cash Runway Calculation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Cash on hand divided by burn, expressed as months of survival. The meaning, the treatment and the disclosure it feeds. A practical guide for India.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/cash-runway-calculation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/cash-runway-calculation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-runway-calculation#article",
       "headline": "Cash Runway Calculation",
-      "description": "",
+      "description": "Cash on hand divided by burn, expressed as months of survival. The meaning, the treatment and the disclosure it feeds. A practical guide for India.",
       "inLanguage": "en-IN",
       "wordCount": 1039,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-runway-calculation",
       "name": "Cash Runway Calculation: Meaning and Example",
-      "description": "",
+      "description": "Cash on hand divided by burn, expressed as months of survival. The meaning, the treatment and the disclosure it feeds. A practical guide for India.",
       "url": "https://www.patronaccounting.com/glossary/accounting/cash-runway-calculation",
       "inLanguage": "en-IN",
       "isPartOf": {

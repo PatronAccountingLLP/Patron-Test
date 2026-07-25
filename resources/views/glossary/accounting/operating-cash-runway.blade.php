@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Operating Cash Runway: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="How many months current cash covers the current operating burn. The definition, the entry it drives and the mistake to avoid. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/operating-cash-runway">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Operating Cash Runway: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="How many months current cash covers the current operating burn. The definition, the entry it drives and the mistake to avoid. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/operating-cash-runway">
     <meta property="og:image" content="https://www.patronaccounting.com/images/operating-cash-runway-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/operating-cash-runway#article",
       "headline": "Operating Cash Runway",
-      "description": "",
+      "description": "How many months current cash covers the current operating burn. The definition, the entry it drives and the mistake to avoid. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1133,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/operating-cash-runway",
       "name": "Operating Cash Runway: Meaning and Example",
-      "description": "",
+      "description": "How many months current cash covers the current operating burn. The definition, the entry it drives and the mistake to avoid. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/operating-cash-runway",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>EBITDA: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Earnings before interest, tax, depreciation and amortisation. Explained simply, with the ledger entry that goes with it. Straight answers, no fluff.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/ebitda">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="EBITDA: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Earnings before interest, tax, depreciation and amortisation. Explained simply, with the ledger entry that goes with it. Straight answers, no fluff.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/ebitda">
     <meta property="og:image" content="https://www.patronaccounting.com/images/ebitda-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ebitda#article",
       "headline": "EBITDA",
-      "description": "",
+      "description": "Earnings before interest, tax, depreciation and amortisation. Explained simply, with the ledger entry that goes with it. Straight answers, no fluff.",
       "inLanguage": "en-IN",
       "wordCount": 1223,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ebitda",
       "name": "EBITDA: Meaning and Example",
-      "description": "",
+      "description": "Earnings before interest, tax, depreciation and amortisation. Explained simply, with the ledger entry that goes with it. Straight answers, no fluff.",
       "url": "https://www.patronaccounting.com/glossary/accounting/ebitda",
       "inLanguage": "en-IN",
       "isPartOf": {

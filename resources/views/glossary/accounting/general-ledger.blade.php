@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>General Ledger: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The master record every trial balance and financial statement is built from. The meaning, the treatment and the disclosure it feeds. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/general-ledger">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="General Ledger: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The master record every trial balance and financial statement is built from. The meaning, the treatment and the disclosure it feeds. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/general-ledger">
     <meta property="og:image" content="https://www.patronaccounting.com/images/glossary/general-ledger-flow.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/general-ledger#article",
       "headline": "General Ledger",
-      "description": "",
+      "description": "The master record every trial balance and financial statement is built from. The meaning, the treatment and the disclosure it feeds. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1097,
       "about": {
@@ -133,7 +133,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/general-ledger",
       "name": "General Ledger: Meaning and Example",
-      "description": "",
+      "description": "The master record every trial balance and financial statement is built from. The meaning, the treatment and the disclosure it feeds. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/general-ledger",
       "inLanguage": "en-IN",
       "isPartOf": {

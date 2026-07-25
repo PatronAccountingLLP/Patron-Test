@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Month-End Close Checklist: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The ordered list of reconciliations and entries that shuts a month. What it is, how it is measured and who has to report it. For Indian preparers.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/month-end-close-checklist">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Month-End Close Checklist: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The ordered list of reconciliations and entries that shuts a month. What it is, how it is measured and who has to report it. For Indian preparers.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/month-end-close-checklist">
     <meta property="og:image" content="https://www.patronaccounting.com/images/month-end-close-checklist-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/month-end-close-checklist#article",
       "headline": "Month-End Close Checklist",
-      "description": "",
+      "description": "The ordered list of reconciliations and entries that shuts a month. What it is, how it is measured and who has to report it. For Indian preparers.",
       "inLanguage": "en-IN",
       "wordCount": 1015,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/month-end-close-checklist",
       "name": "Month-End Close Checklist: Meaning and Example",
-      "description": "",
+      "description": "The ordered list of reconciliations and entries that shuts a month. What it is, how it is measured and who has to report it. For Indian preparers.",
       "url": "https://www.patronaccounting.com/glossary/accounting/month-end-close-checklist",
       "inLanguage": "en-IN",
       "isPartOf": {

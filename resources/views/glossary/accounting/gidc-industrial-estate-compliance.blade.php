@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>GIDC Industrial Estate Compliance: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Plot and filing obligations attaching to a GIDC estate unit. What it means, why it matters and where you will meet it. Straight answers, no fluff.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/gidc-industrial-estate-compliance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="GIDC Industrial Estate Compliance: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Plot and filing obligations attaching to a GIDC estate unit. What it means, why it matters and where you will meet it. Straight answers, no fluff.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/gidc-industrial-estate-compliance">
     <meta property="og:image" content="https://www.patronaccounting.com/images/gidc-industrial-estate-compliance-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gidc-industrial-estate-compliance#article",
       "headline": "GIDC Industrial Estate Compliance",
-      "description": "",
+      "description": "Plot and filing obligations attaching to a GIDC estate unit. What it means, why it matters and where you will meet it. Straight answers, no fluff.",
       "inLanguage": "en-IN",
       "wordCount": 1346,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gidc-industrial-estate-compliance",
       "name": "GIDC Industrial Estate Compliance: Meaning and Example",
-      "description": "",
+      "description": "Plot and filing obligations attaching to a GIDC estate unit. What it means, why it matters and where you will meet it. Straight answers, no fluff.",
       "url": "https://www.patronaccounting.com/glossary/accounting/gidc-industrial-estate-compliance",
       "inLanguage": "en-IN",
       "isPartOf": {

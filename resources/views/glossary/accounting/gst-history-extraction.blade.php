@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>GST History Extraction: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Pulling filed return data out of the portal before a system change. What it is, how it is measured and who has to report it. With a worked example.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/gst-history-extraction">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="GST History Extraction: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Pulling filed return data out of the portal before a system change. What it is, how it is measured and who has to report it. With a worked example.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/gst-history-extraction">
     <meta property="og:image" content="https://www.patronaccounting.com/images/gst-history-extraction-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gst-history-extraction#article",
       "headline": "GST History Extraction",
-      "description": "",
+      "description": "Pulling filed return data out of the portal before a system change. What it is, how it is measured and who has to report it. With a worked example.",
       "inLanguage": "en-IN",
       "wordCount": 1092,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gst-history-extraction",
       "name": "GST History Extraction: Meaning and Example",
-      "description": "",
+      "description": "Pulling filed return data out of the portal before a system change. What it is, how it is measured and who has to report it. With a worked example.",
       "url": "https://www.patronaccounting.com/glossary/accounting/gst-history-extraction",
       "inLanguage": "en-IN",
       "isPartOf": {

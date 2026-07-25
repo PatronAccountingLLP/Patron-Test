@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Gross Profit: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Revenue less the direct cost of what was sold. Defined in plain English, with an example of where it shows up. See related terms in the glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/gross-profit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Gross Profit: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Revenue less the direct cost of what was sold. Defined in plain English, with an example of where it shows up. See related terms in the glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/gross-profit">
     <meta property="og:image" content="https://www.patronaccounting.com/images/gross-profit-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gross-profit#article",
       "headline": "Gross Profit",
-      "description": "",
+      "description": "Revenue less the direct cost of what was sold. Defined in plain English, with an example of where it shows up. See related terms in the glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1226,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gross-profit",
       "name": "Gross Profit: Meaning and Example",
-      "description": "",
+      "description": "Revenue less the direct cost of what was sold. Defined in plain English, with an example of where it shows up. See related terms in the glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/gross-profit",
       "inLanguage": "en-IN",
       "isPartOf": {

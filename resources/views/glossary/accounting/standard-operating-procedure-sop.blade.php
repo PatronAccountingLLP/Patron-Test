@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Standard Operating Procedure (SOP): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The written step-by-step a finance task is performed and reviewed by. What it means, why it matters and where you will meet it. Browse the glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/standard-operating-procedure-sop">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Standard Operating Procedure (SOP): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The written step-by-step a finance task is performed and reviewed by. What it means, why it matters and where you will meet it. Browse the glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/standard-operating-procedure-sop">
     <meta property="og:image" content="https://www.patronaccounting.com/images/standard-operating-procedure-sop-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/standard-operating-procedure-sop#article",
       "headline": "Standard Operating Procedure (SOP)",
-      "description": "",
+      "description": "The written step-by-step a finance task is performed and reviewed by. What it means, why it matters and where you will meet it. Browse the glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1023,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/standard-operating-procedure-sop",
       "name": "Standard Operating Procedure (SOP): Meaning and Example",
-      "description": "",
+      "description": "The written step-by-step a finance task is performed and reviewed by. What it means, why it matters and where you will meet it. Browse the glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/standard-operating-procedure-sop",
       "inLanguage": "en-IN",
       "isPartOf": {

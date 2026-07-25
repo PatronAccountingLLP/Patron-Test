@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Hubdoc Automation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Bills captured from email, then published to the ledger with the document. What it means, why it matters and where you will meet it. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/hubdoc-automation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Hubdoc Automation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Bills captured from email, then published to the ledger with the document. What it means, why it matters and where you will meet it. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/hubdoc-automation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/hubdoc-automation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/hubdoc-automation#article",
       "headline": "Hubdoc Automation",
-      "description": "",
+      "description": "Bills captured from email, then published to the ledger with the document. What it means, why it matters and where you will meet it. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1032,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/hubdoc-automation",
       "name": "Hubdoc Automation: Meaning and Example",
-      "description": "",
+      "description": "Bills captured from email, then published to the ledger with the document. What it means, why it matters and where you will meet it. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/hubdoc-automation",
       "inLanguage": "en-IN",
       "isPartOf": {

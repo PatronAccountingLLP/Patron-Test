@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Working Capital: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Current assets less current liabilities, the cash needed to keep running. Explained simply, with the ledger entry that goes with it. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/working-capital">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Working Capital: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Current assets less current liabilities, the cash needed to keep running. Explained simply, with the ledger entry that goes with it. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/working-capital">
     <meta property="og:image" content="https://www.patronaccounting.com/images/working-capital-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/working-capital#article",
       "headline": "Working Capital",
-      "description": "",
+      "description": "Current assets less current liabilities, the cash needed to keep running. Explained simply, with the ledger entry that goes with it. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1205,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/working-capital",
       "name": "Working Capital: Meaning and Example",
-      "description": "",
+      "description": "Current assets less current liabilities, the cash needed to keep running. Explained simply, with the ledger entry that goes with it. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/working-capital",
       "inLanguage": "en-IN",
       "isPartOf": {

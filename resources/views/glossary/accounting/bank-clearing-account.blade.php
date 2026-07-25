@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Bank Clearing Account: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="A holding account for payments in transit between initiation and clearing. What it means, why it matters and where you will meet it. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/bank-clearing-account">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Bank Clearing Account: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="A holding account for payments in transit between initiation and clearing. What it means, why it matters and where you will meet it. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/bank-clearing-account">
     <meta property="og:image" content="https://www.patronaccounting.com/images/bank-clearing-account-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bank-clearing-account#article",
       "headline": "Bank Clearing Account",
-      "description": "",
+      "description": "A holding account for payments in transit between initiation and clearing. What it means, why it matters and where you will meet it. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1075,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bank-clearing-account",
       "name": "Bank Clearing Account: Meaning and Example",
-      "description": "",
+      "description": "A holding account for payments in transit between initiation and clearing. What it means, why it matters and where you will meet it. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/bank-clearing-account",
       "inLanguage": "en-IN",
       "isPartOf": {

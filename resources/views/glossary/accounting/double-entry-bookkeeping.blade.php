@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Double-Entry Bookkeeping: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Every transaction posted twice, so debits and credits always agree. What it is, how it is measured and who has to report it. With a worked example.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/double-entry-bookkeeping">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Double-Entry Bookkeeping: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Every transaction posted twice, so debits and credits always agree. What it is, how it is measured and who has to report it. With a worked example.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/double-entry-bookkeeping">
     <meta property="og:image" content="https://www.patronaccounting.com/images/double-entry-bookkeeping-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/double-entry-bookkeeping#article",
       "headline": "Double-Entry Bookkeeping",
-      "description": "",
+      "description": "Every transaction posted twice, so debits and credits always agree. What it is, how it is measured and who has to report it. With a worked example.",
       "inLanguage": "en-IN",
       "wordCount": 1141,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/double-entry-bookkeeping",
       "name": "Double-Entry Bookkeeping: Meaning and Example",
-      "description": "",
+      "description": "Every transaction posted twice, so debits and credits always agree. What it is, how it is measured and who has to report it. With a worked example.",
       "url": "https://www.patronaccounting.com/glossary/accounting/double-entry-bookkeeping",
       "inLanguage": "en-IN",
       "isPartOf": {

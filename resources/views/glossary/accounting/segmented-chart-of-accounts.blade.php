@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Segmented Chart of Accounts: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="A chart coded by division, location or project as well as by nature. Defined in plain English, with an example of where it shows up. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/segmented-chart-of-accounts">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Segmented Chart of Accounts: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="A chart coded by division, location or project as well as by nature. Defined in plain English, with an example of where it shows up. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/segmented-chart-of-accounts">
     <meta property="og:image" content="https://www.patronaccounting.com/images/segmented-chart-of-accounts-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/segmented-chart-of-accounts#article",
       "headline": "Segmented Chart of Accounts",
-      "description": "",
+      "description": "A chart coded by division, location or project as well as by nature. Defined in plain English, with an example of where it shows up. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1009,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/segmented-chart-of-accounts",
       "name": "Segmented Chart of Accounts: Meaning and Example",
-      "description": "",
+      "description": "A chart coded by division, location or project as well as by nature. Defined in plain English, with an example of where it shows up. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/segmented-chart-of-accounts",
       "inLanguage": "en-IN",
       "isPartOf": {

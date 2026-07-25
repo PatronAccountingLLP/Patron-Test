@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Cash Accounting: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Income and cost recorded only when money is actually received or paid. Explained simply, with the ledger entry that goes with it. Browse the glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/cash-accounting">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cash Accounting: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Income and cost recorded only when money is actually received or paid. Explained simply, with the ledger entry that goes with it. Browse the glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/cash-accounting">
     <meta property="og:image" content="https://www.patronaccounting.com/images/cash-accounting-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-accounting#article",
       "headline": "Cash Accounting",
-      "description": "",
+      "description": "Income and cost recorded only when money is actually received or paid. Explained simply, with the ledger entry that goes with it. Browse the glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1155,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-accounting",
       "name": "Cash Accounting: Meaning and Example",
-      "description": "",
+      "description": "Income and cost recorded only when money is actually received or paid. Explained simply, with the ledger entry that goes with it. Browse the glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/cash-accounting",
       "inLanguage": "en-IN",
       "isPartOf": {

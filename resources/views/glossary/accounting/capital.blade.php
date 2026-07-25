@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Capital: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The money and resources the owners have put into the business. A plain-English definition with a worked example from Indian books. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/capital">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Capital: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The money and resources the owners have put into the business. A plain-English definition with a worked example from Indian books. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/capital">
     <meta property="og:image" content="https://www.patronaccounting.com/images/capital-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/capital#article",
       "headline": "Capital",
-      "description": "",
+      "description": "The money and resources the owners have put into the business. A plain-English definition with a worked example from Indian books. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1046,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/capital",
       "name": "Capital: Meaning and Example",
-      "description": "",
+      "description": "The money and resources the owners have put into the business. A plain-English definition with a worked example from Indian books. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/capital",
       "inLanguage": "en-IN",
       "isPartOf": {

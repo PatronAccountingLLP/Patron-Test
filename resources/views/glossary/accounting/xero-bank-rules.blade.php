@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Xero Bank Rules: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Conditions that auto-code recurring bank lines before a human reviews them. The meaning, the treatment and the disclosure it feeds. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/xero-bank-rules">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Xero Bank Rules: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Conditions that auto-code recurring bank lines before a human reviews them. The meaning, the treatment and the disclosure it feeds. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/xero-bank-rules">
     <meta property="og:image" content="https://www.patronaccounting.com/images/xero-bank-rules-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/xero-bank-rules#article",
       "headline": "Xero Bank Rules",
-      "description": "",
+      "description": "Conditions that auto-code recurring bank lines before a human reviews them. The meaning, the treatment and the disclosure it feeds. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1024,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/xero-bank-rules",
       "name": "Xero Bank Rules: Meaning and Example",
-      "description": "",
+      "description": "Conditions that auto-code recurring bank lines before a human reviews them. The meaning, the treatment and the disclosure it feeds. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/xero-bank-rules",
       "inLanguage": "en-IN",
       "isPartOf": {

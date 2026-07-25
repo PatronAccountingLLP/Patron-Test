@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Deferred Revenue (Unearned Revenue): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Cash received for a service not yet delivered, held as a liability. What it means, why it matters and where you will meet it. Current Indian practice.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/deferred-revenue-unearned-revenue">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Deferred Revenue (Unearned Revenue): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Cash received for a service not yet delivered, held as a liability. What it means, why it matters and where you will meet it. Current Indian practice.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/deferred-revenue-unearned-revenue">
     <meta property="og:image" content="https://www.patronaccounting.com/images/deferred-revenue-unearned-revenue-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/deferred-revenue-unearned-revenue#article",
       "headline": "Deferred Revenue (Unearned Revenue)",
-      "description": "",
+      "description": "Cash received for a service not yet delivered, held as a liability. What it means, why it matters and where you will meet it. Current Indian practice.",
       "inLanguage": "en-IN",
       "wordCount": 1112,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/deferred-revenue-unearned-revenue",
       "name": "Deferred Revenue (Unearned Revenue): Meaning and Example",
-      "description": "",
+      "description": "Cash received for a service not yet delivered, held as a liability. What it means, why it matters and where you will meet it. Current Indian practice.",
       "url": "https://www.patronaccounting.com/glossary/accounting/deferred-revenue-unearned-revenue",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Transfer Pricing for IT Services: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Pricing services to a related overseas party at arm&#x27;s length. The definition, the entry it drives and the mistake to avoid. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/transfer-pricing-for-it-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Transfer Pricing for IT Services: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Pricing services to a related overseas party at arm&#x27;s length. The definition, the entry it drives and the mistake to avoid. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/transfer-pricing-for-it-services">
     <meta property="og:image" content="https://www.patronaccounting.com/images/transfer-pricing-for-it-services-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/transfer-pricing-for-it-services#article",
       "headline": "Transfer Pricing for IT Services",
-      "description": "",
+      "description": "Pricing services to a related overseas party at arm's length. The definition, the entry it drives and the mistake to avoid. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1252,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/transfer-pricing-for-it-services",
       "name": "Transfer Pricing for IT Services: Meaning and Example",
-      "description": "",
+      "description": "Pricing services to a related overseas party at arm's length. The definition, the entry it drives and the mistake to avoid. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/transfer-pricing-for-it-services",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Monthly Recurring Revenue (MRR): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The normalised subscription revenue a business earns each month. Explained simply, with the ledger entry that goes with it. With the numbers set out.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/monthly-recurring-revenue-mrr">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Monthly Recurring Revenue (MRR): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The normalised subscription revenue a business earns each month. Explained simply, with the ledger entry that goes with it. With the numbers set out.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/monthly-recurring-revenue-mrr">
     <meta property="og:image" content="https://www.patronaccounting.com/images/monthly-recurring-revenue-mrr-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/monthly-recurring-revenue-mrr#article",
       "headline": "Monthly Recurring Revenue (MRR)",
-      "description": "",
+      "description": "The normalised subscription revenue a business earns each month. Explained simply, with the ledger entry that goes with it. With the numbers set out.",
       "inLanguage": "en-IN",
       "wordCount": 1066,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/monthly-recurring-revenue-mrr",
       "name": "Monthly Recurring Revenue (MRR): Meaning and Example",
-      "description": "",
+      "description": "The normalised subscription revenue a business earns each month. Explained simply, with the ledger entry that goes with it. With the numbers set out.",
       "url": "https://www.patronaccounting.com/glossary/accounting/monthly-recurring-revenue-mrr",
       "inLanguage": "en-IN",
       "isPartOf": {

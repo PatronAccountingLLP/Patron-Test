@@ -2,13 +2,13 @@
 
 
 @section('meta')
-    <title>Software Export Revenue (Section 10AA SEZ): Meaning and Example</title>
-    <meta name="description" content="">
+    <title>Software Export Revenue (Section 10AA SEZ): Meaning</title>
+    <meta name="description" content="The deduction available to SEZ units on export of services. Defined in plain English, with an example of where it shows up. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/software-export-revenue-section-10aa-sez">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Software Export Revenue (Section 10AA SEZ): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Software Export Revenue (Section 10AA SEZ): Meaning | Patron Accounting">
+    <meta property="og:description" content="The deduction available to SEZ units on export of services. Defined in plain English, with an example of where it shows up. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/software-export-revenue-section-10aa-sez">
     <meta property="og:image" content="https://www.patronaccounting.com/images/software-export-revenue-section-10aa-sez-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/software-export-revenue-section-10aa-sez#article",
       "headline": "Software Export Revenue (Section 10AA SEZ)",
-      "description": "",
+      "description": "The deduction available to SEZ units on export of services. Defined in plain English, with an example of where it shows up. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1300,
       "about": {
@@ -128,8 +128,8 @@
     {
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/software-export-revenue-section-10aa-sez",
-      "name": "Software Export Revenue (Section 10AA SEZ): Meaning and Example",
-      "description": "",
+      "name": "Software Export Revenue (Section 10AA SEZ): Meaning",
+      "description": "The deduction available to SEZ units on export of services. Defined in plain English, with an example of where it shows up. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/software-export-revenue-section-10aa-sez",
       "inLanguage": "en-IN",
       "isPartOf": {

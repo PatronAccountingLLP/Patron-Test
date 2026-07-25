@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Notes to Accounts: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The disclosures that make the face of the financial statements readable. What it means, why it matters and where you will meet it. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/notes-to-accounts">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Notes to Accounts: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The disclosures that make the face of the financial statements readable. What it means, why it matters and where you will meet it. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/notes-to-accounts">
     <meta property="og:image" content="https://www.patronaccounting.com/images/notes-to-accounts-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/notes-to-accounts#article",
       "headline": "Notes to Accounts",
-      "description": "",
+      "description": "The disclosures that make the face of the financial statements readable. What it means, why it matters and where you will meet it. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1078,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/notes-to-accounts",
       "name": "Notes to Accounts: Meaning and Example",
-      "description": "",
+      "description": "The disclosures that make the face of the financial statements readable. What it means, why it matters and where you will meet it. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/notes-to-accounts",
       "inLanguage": "en-IN",
       "isPartOf": {

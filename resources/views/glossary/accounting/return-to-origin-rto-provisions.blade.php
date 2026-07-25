@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Return to Origin (RTO) Provisions: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Provisioning for shipped orders that come back undelivered. The definition, the entry it drives and the mistake to avoid. Indian accounting glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/return-to-origin-rto-provisions">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Return to Origin (RTO) Provisions: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Provisioning for shipped orders that come back undelivered. The definition, the entry it drives and the mistake to avoid. Indian accounting glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/return-to-origin-rto-provisions">
     <meta property="og:image" content="https://www.patronaccounting.com/images/return-to-origin-rto-provisions-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/return-to-origin-rto-provisions#article",
       "headline": "Return to Origin (RTO) Provisions",
-      "description": "",
+      "description": "Provisioning for shipped orders that come back undelivered. The definition, the entry it drives and the mistake to avoid. Indian accounting glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1023,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/return-to-origin-rto-provisions",
       "name": "Return to Origin (RTO) Provisions: Meaning and Example",
-      "description": "",
+      "description": "Provisioning for shipped orders that come back undelivered. The definition, the entry it drives and the mistake to avoid. Indian accounting glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/return-to-origin-rto-provisions",
       "inLanguage": "en-IN",
       "isPartOf": {

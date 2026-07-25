@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Percentage of Completion Method (POCM): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Revenue recognised in step with how far a contract has progressed. What it is, how it is measured and who has to report it. Current Indian practice.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/percentage-of-completion-method-pocm">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Percentage of Completion Method (POCM): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Revenue recognised in step with how far a contract has progressed. What it is, how it is measured and who has to report it. Current Indian practice.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/percentage-of-completion-method-pocm">
     <meta property="og:image" content="https://www.patronaccounting.com/images/percentage-of-completion-method-pocm-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/percentage-of-completion-method-pocm#article",
       "headline": "Percentage of Completion Method (POCM)",
-      "description": "",
+      "description": "Revenue recognised in step with how far a contract has progressed. What it is, how it is measured and who has to report it. Current Indian practice.",
       "inLanguage": "en-IN",
       "wordCount": 1217,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/percentage-of-completion-method-pocm",
       "name": "Percentage of Completion Method (POCM): Meaning and Example",
-      "description": "",
+      "description": "Revenue recognised in step with how far a contract has progressed. What it is, how it is measured and who has to report it. Current Indian practice.",
       "url": "https://www.patronaccounting.com/glossary/accounting/percentage-of-completion-method-pocm",
       "inLanguage": "en-IN",
       "isPartOf": {

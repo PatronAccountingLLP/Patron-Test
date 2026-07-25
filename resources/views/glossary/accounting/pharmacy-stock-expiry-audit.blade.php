@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Pharmacy Stock Expiry Audit: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Checking batch expiry so unsaleable stock is written off, not carried. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/pharmacy-stock-expiry-audit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Pharmacy Stock Expiry Audit: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Checking batch expiry so unsaleable stock is written off, not carried. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/pharmacy-stock-expiry-audit">
     <meta property="og:image" content="https://www.patronaccounting.com/images/pharmacy-stock-expiry-audit-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/pharmacy-stock-expiry-audit#article",
       "headline": "Pharmacy Stock Expiry Audit",
-      "description": "",
+      "description": "Checking batch expiry so unsaleable stock is written off, not carried. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1243,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/pharmacy-stock-expiry-audit",
       "name": "Pharmacy Stock Expiry Audit: Meaning and Example",
-      "description": "",
+      "description": "Checking batch expiry so unsaleable stock is written off, not carried. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/pharmacy-stock-expiry-audit",
       "inLanguage": "en-IN",
       "isPartOf": {

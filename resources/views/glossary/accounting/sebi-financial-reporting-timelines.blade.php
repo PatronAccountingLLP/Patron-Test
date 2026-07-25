@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>SEBI Financial Reporting Timelines: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The quarterly and annual deadlines a listed entity reports against. Defined in plain English, with an example of where it shows up. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/sebi-financial-reporting-timelines">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="SEBI Financial Reporting Timelines: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The quarterly and annual deadlines a listed entity reports against. Defined in plain English, with an example of where it shows up. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/sebi-financial-reporting-timelines">
     <meta property="og:image" content="https://www.patronaccounting.com/images/sebi-financial-reporting-timelines-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/sebi-financial-reporting-timelines#article",
       "headline": "SEBI Financial Reporting Timelines",
-      "description": "",
+      "description": "The quarterly and annual deadlines a listed entity reports against. Defined in plain English, with an example of where it shows up. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1340,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/sebi-financial-reporting-timelines",
       "name": "SEBI Financial Reporting Timelines: Meaning and Example",
-      "description": "",
+      "description": "The quarterly and annual deadlines a listed entity reports against. Defined in plain English, with an example of where it shows up. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/sebi-financial-reporting-timelines",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Depreciation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Spreading the cost of a fixed asset across the years it is used. Defined in plain English, with an example of where it shows up. With worked examples.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/depreciation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Depreciation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Spreading the cost of a fixed asset across the years it is used. Defined in plain English, with an example of where it shows up. With worked examples.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/depreciation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/depreciation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/depreciation#article",
       "headline": "Depreciation",
-      "description": "",
+      "description": "Spreading the cost of a fixed asset across the years it is used. Defined in plain English, with an example of where it shows up. With worked examples.",
       "inLanguage": "en-IN",
       "wordCount": 1308,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/depreciation",
       "name": "Depreciation: Meaning and Example",
-      "description": "",
+      "description": "Spreading the cost of a fixed asset across the years it is used. Defined in plain English, with an example of where it shows up. With worked examples.",
       "url": "https://www.patronaccounting.com/glossary/accounting/depreciation",
       "inLanguage": "en-IN",
       "isPartOf": {

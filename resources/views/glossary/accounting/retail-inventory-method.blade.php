@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Retail Inventory Method: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Stock valued back from retail price using the margin achieved. What it is, how it is measured and who has to report it. Written by qualified CAs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/retail-inventory-method">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Retail Inventory Method: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Stock valued back from retail price using the margin achieved. What it is, how it is measured and who has to report it. Written by qualified CAs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/retail-inventory-method">
     <meta property="og:image" content="https://www.patronaccounting.com/images/retail-inventory-method-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/retail-inventory-method#article",
       "headline": "Retail Inventory Method",
-      "description": "",
+      "description": "Stock valued back from retail price using the margin achieved. What it is, how it is measured and who has to report it. Written by qualified CAs.",
       "inLanguage": "en-IN",
       "wordCount": 1105,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/retail-inventory-method",
       "name": "Retail Inventory Method: Meaning and Example",
-      "description": "",
+      "description": "Stock valued back from retail price using the margin achieved. What it is, how it is measured and who has to report it. Written by qualified CAs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/retail-inventory-method",
       "inLanguage": "en-IN",
       "isPartOf": {

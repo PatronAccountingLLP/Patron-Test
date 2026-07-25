@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Direct vs Indirect Factory Overheads: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Costs traceable to a product versus those absorbed across production. What it means, why it matters and where you will meet it. Written for preparers.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/direct-vs-indirect-factory-overheads">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Direct vs Indirect Factory Overheads: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Costs traceable to a product versus those absorbed across production. What it means, why it matters and where you will meet it. Written for preparers.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/direct-vs-indirect-factory-overheads">
     <meta property="og:image" content="https://www.patronaccounting.com/images/direct-vs-indirect-factory-overheads-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/direct-vs-indirect-factory-overheads#article",
       "headline": "Direct vs Indirect Factory Overheads",
-      "description": "",
+      "description": "Costs traceable to a product versus those absorbed across production. What it means, why it matters and where you will meet it. Written for preparers.",
       "inLanguage": "en-IN",
       "wordCount": 1096,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/direct-vs-indirect-factory-overheads",
       "name": "Direct vs Indirect Factory Overheads: Meaning and Example",
-      "description": "",
+      "description": "Costs traceable to a product versus those absorbed across production. What it means, why it matters and where you will meet it. Written for preparers.",
       "url": "https://www.patronaccounting.com/glossary/accounting/direct-vs-indirect-factory-overheads",
       "inLanguage": "en-IN",
       "isPartOf": {

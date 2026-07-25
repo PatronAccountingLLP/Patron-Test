@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Accrual Accounting: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Income and cost recorded when earned or incurred, not when cash moves. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/accrual-accounting">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Accrual Accounting: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Income and cost recorded when earned or incurred, not when cash moves. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/accrual-accounting">
     <meta property="og:image" content="https://www.patronaccounting.com/images/accrual-accounting-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accrual-accounting#article",
       "headline": "Accrual Accounting",
-      "description": "",
+      "description": "Income and cost recorded when earned or incurred, not when cash moves. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1119,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accrual-accounting",
       "name": "Accrual Accounting: Meaning and Example",
-      "description": "",
+      "description": "Income and cost recorded when earned or incurred, not when cash moves. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/accrual-accounting",
       "inLanguage": "en-IN",
       "isPartOf": {

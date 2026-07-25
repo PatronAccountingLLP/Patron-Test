@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Odoo Double-Entry Engine: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The layer that turns every Odoo document into balanced journal lines. Defined in plain English, with an example of where. Reviewed by our CA team.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/odoo-double-entry-engine">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Odoo Double-Entry Engine: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The layer that turns every Odoo document into balanced journal lines. Defined in plain English, with an example of where. Reviewed by our CA team.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/odoo-double-entry-engine">
     <meta property="og:image" content="https://www.patronaccounting.com/images/odoo-double-entry-engine-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/odoo-double-entry-engine#article",
       "headline": "Odoo Double-Entry Engine",
-      "description": "",
+      "description": "The layer that turns every Odoo document into balanced journal lines. Defined in plain English, with an example of where. Reviewed by our CA team.",
       "inLanguage": "en-IN",
       "wordCount": 1058,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/odoo-double-entry-engine",
       "name": "Odoo Double-Entry Engine: Meaning and Example",
-      "description": "",
+      "description": "The layer that turns every Odoo document into balanced journal lines. Defined in plain English, with an example of where. Reviewed by our CA team.",
       "url": "https://www.patronaccounting.com/glossary/accounting/odoo-double-entry-engine",
       "inLanguage": "en-IN",
       "isPartOf": {

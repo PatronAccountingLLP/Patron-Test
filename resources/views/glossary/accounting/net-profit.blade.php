@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Net Profit: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="What remains after every expense, interest and tax is deducted. What it means, why it matters and where you will meet it. Updated for Indian rules.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/net-profit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Net Profit: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="What remains after every expense, interest and tax is deducted. What it means, why it matters and where you will meet it. Updated for Indian rules.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/net-profit">
     <meta property="og:image" content="https://www.patronaccounting.com/images/net-profit-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/net-profit#article",
       "headline": "Net Profit",
-      "description": "",
+      "description": "What remains after every expense, interest and tax is deducted. What it means, why it matters and where you will meet it. Updated for Indian rules.",
       "inLanguage": "en-IN",
       "wordCount": 1225,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/net-profit",
       "name": "Net Profit: Meaning and Example",
-      "description": "",
+      "description": "What remains after every expense, interest and tax is deducted. What it means, why it matters and where you will meet it. Updated for Indian rules.",
       "url": "https://www.patronaccounting.com/glossary/accounting/net-profit",
       "inLanguage": "en-IN",
       "isPartOf": {

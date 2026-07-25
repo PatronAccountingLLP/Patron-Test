@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Segregation of Duties (SoD): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="No one person able to initiate, approve and record the same transaction. Explained simply, with the ledger entry that goes with it. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/segregation-of-duties-sod">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Segregation of Duties (SoD): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="No one person able to initiate, approve and record the same transaction. Explained simply, with the ledger entry that goes with it. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/segregation-of-duties-sod">
     <meta property="og:image" content="https://www.patronaccounting.com/images/segregation-of-duties-sod-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/segregation-of-duties-sod#article",
       "headline": "Segregation of Duties (SoD)",
-      "description": "",
+      "description": "No one person able to initiate, approve and record the same transaction. Explained simply, with the ledger entry that goes with it. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1029,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/segregation-of-duties-sod",
       "name": "Segregation of Duties (SoD): Meaning and Example",
-      "description": "",
+      "description": "No one person able to initiate, approve and record the same transaction. Explained simply, with the ledger entry that goes with it. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/segregation-of-duties-sod",
       "inLanguage": "en-IN",
       "isPartOf": {

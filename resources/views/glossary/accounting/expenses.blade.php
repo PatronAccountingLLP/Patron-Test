@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Expenses: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The costs consumed in earning revenue during a period. What it means, why it matters and where you will meet it. See related terms in the glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/expenses">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Expenses: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The costs consumed in earning revenue during a period. What it means, why it matters and where you will meet it. See related terms in the glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/expenses">
     <meta property="og:image" content="https://www.patronaccounting.com/images/expenses-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/expenses#article",
       "headline": "Expenses",
-      "description": "",
+      "description": "The costs consumed in earning revenue during a period. What it means, why it matters and where you will meet it. See related terms in the glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1102,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/expenses",
       "name": "Expenses: Meaning and Example",
-      "description": "",
+      "description": "The costs consumed in earning revenue during a period. What it means, why it matters and where you will meet it. See related terms in the glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/expenses",
       "inLanguage": "en-IN",
       "isPartOf": {

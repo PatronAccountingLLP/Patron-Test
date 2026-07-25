@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>ERP Open Balances: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The unsettled debtor, creditor and stock balances a new ERP starts from. What it means, why it matters and where you will meet it. See related terms.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/erp-open-balances">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="ERP Open Balances: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The unsettled debtor, creditor and stock balances a new ERP starts from. What it means, why it matters and where you will meet it. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/erp-open-balances">
     <meta property="og:image" content="https://www.patronaccounting.com/images/erp-open-balances-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/erp-open-balances#article",
       "headline": "ERP Open Balances",
-      "description": "",
+      "description": "The unsettled debtor, creditor and stock balances a new ERP starts from. What it means, why it matters and where you will meet it. See related terms.",
       "inLanguage": "en-IN",
       "wordCount": 1080,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/erp-open-balances",
       "name": "ERP Open Balances: Meaning and Example",
-      "description": "",
+      "description": "The unsettled debtor, creditor and stock balances a new ERP starts from. What it means, why it matters and where you will meet it. See related terms.",
       "url": "https://www.patronaccounting.com/glossary/accounting/erp-open-balances",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Prior-Period Adjustments: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Corrections to a closed period, disclosed rather than buried in this year. What it means, why it matters and where you will meet it. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/prior-period-adjustments">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Prior-Period Adjustments: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Corrections to a closed period, disclosed rather than buried in this year. What it means, why it matters and where you will meet it. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/prior-period-adjustments">
     <meta property="og:image" content="https://www.patronaccounting.com/images/prior-period-adjustments-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/prior-period-adjustments#article",
       "headline": "Prior-Period Adjustments",
-      "description": "",
+      "description": "Corrections to a closed period, disclosed rather than buried in this year. What it means, why it matters and where you will meet it. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1042,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/prior-period-adjustments",
       "name": "Prior-Period Adjustments: Meaning and Example",
-      "description": "",
+      "description": "Corrections to a closed period, disclosed rather than buried in this year. What it means, why it matters and where you will meet it. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/prior-period-adjustments",
       "inLanguage": "en-IN",
       "isPartOf": {

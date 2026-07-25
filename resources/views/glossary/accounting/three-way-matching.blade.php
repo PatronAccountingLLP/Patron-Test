@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Three-Way Matching: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Purchase order, goods receipt and invoice agreed before any payment runs. What it means, why it matters and where you will meet it. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/three-way-matching">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Three-Way Matching: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Purchase order, goods receipt and invoice agreed before any payment runs. What it means, why it matters and where you will meet it. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/three-way-matching">
     <meta property="og:image" content="https://www.patronaccounting.com/images/three-way-matching-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/three-way-matching#article",
       "headline": "Three-Way Matching",
-      "description": "",
+      "description": "Purchase order, goods receipt and invoice agreed before any payment runs. What it means, why it matters and where you will meet it. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1036,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/three-way-matching",
       "name": "Three-Way Matching: Meaning and Example",
-      "description": "",
+      "description": "Purchase order, goods receipt and invoice agreed before any payment runs. What it means, why it matters and where you will meet it. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/three-way-matching",
       "inLanguage": "en-IN",
       "isPartOf": {

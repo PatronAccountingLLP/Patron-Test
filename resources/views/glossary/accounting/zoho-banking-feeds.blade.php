@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Zoho Banking Feeds: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Bank transactions pulled into Zoho Books automatically for matching. What it means, why it matters and where you will meet it. Part of our glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/zoho-banking-feeds">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Zoho Banking Feeds: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Bank transactions pulled into Zoho Books automatically for matching. What it means, why it matters and where you will meet it. Part of our glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/zoho-banking-feeds">
     <meta property="og:image" content="https://www.patronaccounting.com/images/zoho-banking-feeds-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/zoho-banking-feeds#article",
       "headline": "Zoho Banking Feeds",
-      "description": "",
+      "description": "Bank transactions pulled into Zoho Books automatically for matching. What it means, why it matters and where you will meet it. Part of our glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1080,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/zoho-banking-feeds",
       "name": "Zoho Banking Feeds: Meaning and Example",
-      "description": "",
+      "description": "Bank transactions pulled into Zoho Books automatically for matching. What it means, why it matters and where you will meet it. Part of our glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/zoho-banking-feeds",
       "inLanguage": "en-IN",
       "isPartOf": {

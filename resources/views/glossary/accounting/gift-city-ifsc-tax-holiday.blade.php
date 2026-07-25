@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>GIFT City IFSC Tax Holiday: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The concessional regime available to units in the IFSC at GIFT City. Defined in plain English, with an example of where it shows up. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/gift-city-ifsc-tax-holiday">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="GIFT City IFSC Tax Holiday: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The concessional regime available to units in the IFSC at GIFT City. Defined in plain English, with an example of where it shows up. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/gift-city-ifsc-tax-holiday">
     <meta property="og:image" content="https://www.patronaccounting.com/images/gift-city-ifsc-tax-holiday-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gift-city-ifsc-tax-holiday#article",
       "headline": "GIFT City IFSC Tax Holiday",
-      "description": "",
+      "description": "The concessional regime available to units in the IFSC at GIFT City. Defined in plain English, with an example of where it shows up. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1334,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/gift-city-ifsc-tax-holiday",
       "name": "GIFT City IFSC Tax Holiday: Meaning and Example",
-      "description": "",
+      "description": "The concessional regime available to units in the IFSC at GIFT City. Defined in plain English, with an example of where it shows up. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/gift-city-ifsc-tax-holiday",
       "inLanguage": "en-IN",
       "isPartOf": {

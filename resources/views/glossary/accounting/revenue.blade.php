@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Revenue: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Income earned from selling goods or services, before any costs. Defined in plain English, with an example of where it shows up. Written for preparers.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/revenue">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Revenue: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Income earned from selling goods or services, before any costs. Defined in plain English, with an example of where it shows up. Written for preparers.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/revenue">
     <meta property="og:image" content="https://www.patronaccounting.com/images/revenue-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/revenue#article",
       "headline": "Revenue",
-      "description": "",
+      "description": "Income earned from selling goods or services, before any costs. Defined in plain English, with an example of where it shows up. Written for preparers.",
       "inLanguage": "en-IN",
       "wordCount": 1132,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/revenue",
       "name": "Revenue: Meaning and Example",
-      "description": "",
+      "description": "Income earned from selling goods or services, before any costs. Defined in plain English, with an example of where it shows up. Written for preparers.",
       "url": "https://www.patronaccounting.com/glossary/accounting/revenue",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Bill of Materials (BOM) Costing: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Product cost built from each component and operation it consumes. The definition, the entry it drives and the mistake to avoid. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/bill-of-materials-bom-costing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Bill of Materials (BOM) Costing: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Product cost built from each component and operation it consumes. The definition, the entry it drives and the mistake to avoid. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/bill-of-materials-bom-costing">
     <meta property="og:image" content="https://www.patronaccounting.com/images/bill-of-materials-bom-costing-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bill-of-materials-bom-costing#article",
       "headline": "Bill of Materials (BOM) Costing",
-      "description": "",
+      "description": "Product cost built from each component and operation it consumes. The definition, the entry it drives and the mistake to avoid. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1109,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bill-of-materials-bom-costing",
       "name": "Bill of Materials (BOM) Costing: Meaning and Example",
-      "description": "",
+      "description": "Product cost built from each component and operation it consumes. The definition, the entry it drives and the mistake to avoid. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/bill-of-materials-bom-costing",
       "inLanguage": "en-IN",
       "isPartOf": {

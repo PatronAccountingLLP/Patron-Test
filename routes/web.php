@@ -32,6 +32,9 @@ use App\Http\Controllers\DocFileController;
 
 
 // Frontend Routes
+// Accounting Cluster 301 redirects (must precede page/city routes so old paths 301 instead of rendering)
+require __DIR__.'/accounting-cluster-redirects.php';
+
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 
 // ============ Glossary: master hub + Accounting hub + 140 term pages ============

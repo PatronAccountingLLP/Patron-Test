@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Joint Development Agreement (JDA): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Landowner and developer sharing area or revenue, with its own tax timing. What it means, why it matters and where you will meet it. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/joint-development-agreement-jda">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Joint Development Agreement (JDA): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Landowner and developer sharing area or revenue, with its own tax timing. What it means, why it matters and where you will meet it. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/joint-development-agreement-jda">
     <meta property="og:image" content="https://www.patronaccounting.com/images/joint-development-agreement-jda-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/joint-development-agreement-jda#article",
       "headline": "Joint Development Agreement (JDA)",
-      "description": "",
+      "description": "Landowner and developer sharing area or revenue, with its own tax timing. What it means, why it matters and where you will meet it. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1143,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/joint-development-agreement-jda",
       "name": "Joint Development Agreement (JDA): Meaning and Example",
-      "description": "",
+      "description": "Landowner and developer sharing area or revenue, with its own tax timing. What it means, why it matters and where you will meet it. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/joint-development-agreement-jda",
       "inLanguage": "en-IN",
       "isPartOf": {

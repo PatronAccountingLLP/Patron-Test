@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Section 52 TCS under GST: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Tax collected at source by a marketplace on supplies made through it. What it means, why it matters and where you will meet it. See related terms.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/section-52-tcs-under-gst">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Section 52 TCS under GST: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Tax collected at source by a marketplace on supplies made through it. What it means, why it matters and where you will meet it. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/section-52-tcs-under-gst">
     <meta property="og:image" content="https://www.patronaccounting.com/images/section-52-tcs-under-gst-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-52-tcs-under-gst#article",
       "headline": "Section 52 TCS under GST",
-      "description": "",
+      "description": "Tax collected at source by a marketplace on supplies made through it. What it means, why it matters and where you will meet it. See related terms.",
       "inLanguage": "en-IN",
       "wordCount": 1256,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-52-tcs-under-gst",
       "name": "Section 52 TCS under GST: Meaning and Example",
-      "description": "",
+      "description": "Tax collected at source by a marketplace on supplies made through it. What it means, why it matters and where you will meet it. See related terms.",
       "url": "https://www.patronaccounting.com/glossary/accounting/section-52-tcs-under-gst",
       "inLanguage": "en-IN",
       "isPartOf": {

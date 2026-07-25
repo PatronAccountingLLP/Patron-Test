@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Landing Cost Adjustment: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Freight, duty and insurance loaded onto the cost of the goods. Explained simply, with the ledger entry that goes with it. Current Indian practice.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/landing-cost-adjustment">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Landing Cost Adjustment: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Freight, duty and insurance loaded onto the cost of the goods. Explained simply, with the ledger entry that goes with it. Current Indian practice.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/landing-cost-adjustment">
     <meta property="og:image" content="https://www.patronaccounting.com/images/landing-cost-adjustment-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/landing-cost-adjustment#article",
       "headline": "Landing Cost Adjustment",
-      "description": "",
+      "description": "Freight, duty and insurance loaded onto the cost of the goods. Explained simply, with the ledger entry that goes with it. Current Indian practice.",
       "inLanguage": "en-IN",
       "wordCount": 1248,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/landing-cost-adjustment",
       "name": "Landing Cost Adjustment: Meaning and Example",
-      "description": "",
+      "description": "Freight, duty and insurance loaded onto the cost of the goods. Explained simply, with the ledger entry that goes with it. Current Indian practice.",
       "url": "https://www.patronaccounting.com/glossary/accounting/landing-cost-adjustment",
       "inLanguage": "en-IN",
       "isPartOf": {

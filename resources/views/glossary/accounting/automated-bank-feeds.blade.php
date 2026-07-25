@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Automated Bank Feeds: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="A direct connection that imports bank lines without manual entry. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/automated-bank-feeds">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Automated Bank Feeds: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="A direct connection that imports bank lines without manual entry. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/automated-bank-feeds">
     <meta property="og:image" content="https://www.patronaccounting.com/images/automated-bank-feeds-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/automated-bank-feeds#article",
       "headline": "Automated Bank Feeds",
-      "description": "",
+      "description": "A direct connection that imports bank lines without manual entry. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.",
       "inLanguage": "en-IN",
       "wordCount": 1057,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/automated-bank-feeds",
       "name": "Automated Bank Feeds: Meaning and Example",
-      "description": "",
+      "description": "A direct connection that imports bank lines without manual entry. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.",
       "url": "https://www.patronaccounting.com/glossary/accounting/automated-bank-feeds",
       "inLanguage": "en-IN",
       "isPartOf": {

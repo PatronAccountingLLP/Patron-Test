@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Cash Flow Statement: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Where cash actually came from and where it went, split three ways. A plain-English definition with a worked example. From our accounting glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/cash-flow-statement">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cash Flow Statement: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Where cash actually came from and where it went, split three ways. A plain-English definition with a worked example. From our accounting glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/cash-flow-statement">
     <meta property="og:image" content="https://www.patronaccounting.com/images/cash-flow-statement-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-flow-statement#article",
       "headline": "Cash Flow Statement",
-      "description": "",
+      "description": "Where cash actually came from and where it went, split three ways. A plain-English definition with a worked example. From our accounting glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1177,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-flow-statement",
       "name": "Cash Flow Statement: Meaning and Example",
-      "description": "",
+      "description": "Where cash actually came from and where it went, split three ways. A plain-English definition with a worked example. From our accounting glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/cash-flow-statement",
       "inLanguage": "en-IN",
       "isPartOf": {

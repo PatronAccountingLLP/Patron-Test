@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Point-of-Sale (POS) Day-End Audit: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Tying each till&#x27;s day-end takings to banking and to the sales ledger. The definition, the entry it drives and the mistake to avoid. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/point-of-sale-pos-day-end-audit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Point-of-Sale (POS) Day-End Audit: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Tying each till&#x27;s day-end takings to banking and to the sales ledger. The definition, the entry it drives and the mistake to avoid. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/point-of-sale-pos-day-end-audit">
     <meta property="og:image" content="https://www.patronaccounting.com/images/point-of-sale-pos-day-end-audit-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/point-of-sale-pos-day-end-audit#article",
       "headline": "Point-of-Sale (POS) Day-End Audit",
-      "description": "",
+      "description": "Tying each till's day-end takings to banking and to the sales ledger. The definition, the entry it drives and the mistake to avoid. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1207,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/point-of-sale-pos-day-end-audit",
       "name": "Point-of-Sale (POS) Day-End Audit: Meaning and Example",
-      "description": "",
+      "description": "Tying each till's day-end takings to banking and to the sales ledger. The definition, the entry it drives and the mistake to avoid. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/point-of-sale-pos-day-end-audit",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Vendor Balance Confirmation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Written agreement from a supplier that your creditor balance is right. Defined in plain English, with an example of where. Written by qualified CAs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/vendor-balance-confirmation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Vendor Balance Confirmation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Written agreement from a supplier that your creditor balance is right. Defined in plain English, with an example of where. Written by qualified CAs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/vendor-balance-confirmation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/vendor-balance-confirmation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/vendor-balance-confirmation#article",
       "headline": "Vendor Balance Confirmation",
-      "description": "",
+      "description": "Written agreement from a supplier that your creditor balance is right. Defined in plain English, with an example of where. Written by qualified CAs.",
       "inLanguage": "en-IN",
       "wordCount": 989,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/vendor-balance-confirmation",
       "name": "Vendor Balance Confirmation: Meaning and Example",
-      "description": "",
+      "description": "Written agreement from a supplier that your creditor balance is right. Defined in plain English, with an example of where. Written by qualified CAs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/vendor-balance-confirmation",
       "inLanguage": "en-IN",
       "isPartOf": {

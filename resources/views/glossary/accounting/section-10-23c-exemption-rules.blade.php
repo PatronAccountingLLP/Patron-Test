@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Section 10(23C) Exemption Rules: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The exemption route for approved educational and medical institutions. What it is, how it is measured and who has to report it. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/section-10-23c-exemption-rules">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Section 10(23C) Exemption Rules: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The exemption route for approved educational and medical institutions. What it is, how it is measured and who has to report it. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/section-10-23c-exemption-rules">
     <meta property="og:image" content="https://www.patronaccounting.com/images/section-10-23c-exemption-rules-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-10-23c-exemption-rules#article",
       "headline": "Section 10(23C) Exemption Rules",
-      "description": "",
+      "description": "The exemption route for approved educational and medical institutions. What it is, how it is measured and who has to report it. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1172,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-10-23c-exemption-rules",
       "name": "Section 10(23C) Exemption Rules: Meaning and Example",
-      "description": "",
+      "description": "The exemption route for approved educational and medical institutions. What it is, how it is measured and who has to report it. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/section-10-23c-exemption-rules",
       "inLanguage": "en-IN",
       "isPartOf": {

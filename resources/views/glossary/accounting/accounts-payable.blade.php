@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Accounts Payable: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="What the business owes suppliers for goods and services already received. What it is, how it is measured and who has to report it. See related terms.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/accounts-payable">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Accounts Payable: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="What the business owes suppliers for goods and services already received. What it is, how it is measured and who has to report it. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/accounts-payable">
     <meta property="og:image" content="https://www.patronaccounting.com/images/accounts-payable-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accounts-payable#article",
       "headline": "Accounts Payable",
-      "description": "",
+      "description": "What the business owes suppliers for goods and services already received. What it is, how it is measured and who has to report it. See related terms.",
       "inLanguage": "en-IN",
       "wordCount": 1106,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accounts-payable",
       "name": "Accounts Payable: Meaning and Example",
-      "description": "",
+      "description": "What the business owes suppliers for goods and services already received. What it is, how it is measured and who has to report it. See related terms.",
       "url": "https://www.patronaccounting.com/glossary/accounting/accounts-payable",
       "inLanguage": "en-IN",
       "isPartOf": {

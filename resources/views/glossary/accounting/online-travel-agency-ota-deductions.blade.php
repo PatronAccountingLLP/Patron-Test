@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Online Travel Agency (OTA) Deductions: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Commission an aggregator withholds before it pays the property. Explained simply, with the ledger entry that goes with it. Updated for Indian rules.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/online-travel-agency-ota-deductions">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Online Travel Agency (OTA) Deductions: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Commission an aggregator withholds before it pays the property. Explained simply, with the ledger entry that goes with it. Updated for Indian rules.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/online-travel-agency-ota-deductions">
     <meta property="og:image" content="https://www.patronaccounting.com/images/online-travel-agency-ota-deductions-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/online-travel-agency-ota-deductions#article",
       "headline": "Online Travel Agency (OTA) Deductions",
-      "description": "",
+      "description": "Commission an aggregator withholds before it pays the property. Explained simply, with the ledger entry that goes with it. Updated for Indian rules.",
       "inLanguage": "en-IN",
       "wordCount": 1037,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/online-travel-agency-ota-deductions",
       "name": "Online Travel Agency (OTA) Deductions: Meaning and Example",
-      "description": "",
+      "description": "Commission an aggregator withholds before it pays the property. Explained simply, with the ledger entry that goes with it. Updated for Indian rules.",
       "url": "https://www.patronaccounting.com/glossary/accounting/online-travel-agency-ota-deductions",
       "inLanguage": "en-IN",
       "isPartOf": {

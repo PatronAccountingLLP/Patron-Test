@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>FCRA Designated Bank Account: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The single account all foreign contribution must first be received into. What it means, why it matters and where you will meet it. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/fcra-designated-bank-account">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="FCRA Designated Bank Account: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The single account all foreign contribution must first be received into. What it means, why it matters and where you will meet it. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/fcra-designated-bank-account">
     <meta property="og:image" content="https://www.patronaccounting.com/images/fcra-designated-bank-account-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/fcra-designated-bank-account#article",
       "headline": "FCRA Designated Bank Account",
-      "description": "",
+      "description": "The single account all foreign contribution must first be received into. What it means, why it matters and where you will meet it. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1229,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/fcra-designated-bank-account",
       "name": "FCRA Designated Bank Account: Meaning and Example",
-      "description": "",
+      "description": "The single account all foreign contribution must first be received into. What it means, why it matters and where you will meet it. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/fcra-designated-bank-account",
       "inLanguage": "en-IN",
       "isPartOf": {

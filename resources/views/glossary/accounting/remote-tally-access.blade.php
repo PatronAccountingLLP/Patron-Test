@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Remote Tally Access: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Reaching a Tally company from outside the office without copying data. The meaning, the treatment and the disclosure it feeds. See related terms.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/remote-tally-access">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Remote Tally Access: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Reaching a Tally company from outside the office without copying data. The meaning, the treatment and the disclosure it feeds. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/remote-tally-access">
     <meta property="og:image" content="https://www.patronaccounting.com/images/remote-tally-access-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/remote-tally-access#article",
       "headline": "Remote Tally Access",
-      "description": "",
+      "description": "Reaching a Tally company from outside the office without copying data. The meaning, the treatment and the disclosure it feeds. See related terms.",
       "inLanguage": "en-IN",
       "wordCount": 1120,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/remote-tally-access",
       "name": "Remote Tally Access: Meaning and Example",
-      "description": "",
+      "description": "Reaching a Tally company from outside the office without copying data. The meaning, the treatment and the disclosure it feeds. See related terms.",
       "url": "https://www.patronaccounting.com/glossary/accounting/remote-tally-access",
       "inLanguage": "en-IN",
       "isPartOf": {

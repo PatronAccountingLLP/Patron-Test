@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Statutory vs Internal Audit: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="One is required by law, the other is commissioned to test controls. Defined in plain English, with an example of where it shows up. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/statutory-vs-internal-audit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Statutory vs Internal Audit: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="One is required by law, the other is commissioned to test controls. Defined in plain English, with an example of where it shows up. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/statutory-vs-internal-audit">
     <meta property="og:image" content="https://www.patronaccounting.com/images/statutory-vs-internal-audit-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/statutory-vs-internal-audit#article",
       "headline": "Statutory vs Internal Audit",
-      "description": "",
+      "description": "One is required by law, the other is commissioned to test controls. Defined in plain English, with an example of where it shows up. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1275,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/statutory-vs-internal-audit",
       "name": "Statutory vs Internal Audit: Meaning and Example",
-      "description": "",
+      "description": "One is required by law, the other is commissioned to test controls. Defined in plain English, with an example of where it shows up. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/statutory-vs-internal-audit",
       "inLanguage": "en-IN",
       "isPartOf": {

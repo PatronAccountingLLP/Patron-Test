@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Section 194Q TDS on Goods: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Buyer-side deduction on purchases of goods above the annual threshold. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/section-194q-tds-on-goods">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Section 194Q TDS on Goods: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Buyer-side deduction on purchases of goods above the annual threshold. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/section-194q-tds-on-goods">
     <meta property="og:image" content="https://www.patronaccounting.com/images/section-194q-tds-on-goods-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-194q-tds-on-goods#article",
       "headline": "Section 194Q TDS on Goods",
-      "description": "",
+      "description": "Buyer-side deduction on purchases of goods above the annual threshold. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1386,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-194q-tds-on-goods",
       "name": "Section 194Q TDS on Goods: Meaning and Example",
-      "description": "",
+      "description": "Buyer-side deduction on purchases of goods above the annual threshold. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/section-194q-tds-on-goods",
       "inLanguage": "en-IN",
       "isPartOf": {

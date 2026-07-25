@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>ESOP Intrinsic Value Method: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Option cost taken as market price less exercise price at grant. Defined in plain English, with an example of where it shows up. Read the full guide.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/esop-intrinsic-value-method">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="ESOP Intrinsic Value Method: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Option cost taken as market price less exercise price at grant. Defined in plain English, with an example of where it shows up. Read the full guide.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/esop-intrinsic-value-method">
     <meta property="og:image" content="https://www.patronaccounting.com/images/esop-intrinsic-value-method-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/esop-intrinsic-value-method#article",
       "headline": "ESOP Intrinsic Value Method",
-      "description": "",
+      "description": "Option cost taken as market price less exercise price at grant. Defined in plain English, with an example of where it shows up. Read the full guide.",
       "inLanguage": "en-IN",
       "wordCount": 1342,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/esop-intrinsic-value-method",
       "name": "ESOP Intrinsic Value Method: Meaning and Example",
-      "description": "",
+      "description": "Option cost taken as market price less exercise price at grant. Defined in plain English, with an example of where it shows up. Read the full guide.",
       "url": "https://www.patronaccounting.com/glossary/accounting/esop-intrinsic-value-method",
       "inLanguage": "en-IN",
       "isPartOf": {

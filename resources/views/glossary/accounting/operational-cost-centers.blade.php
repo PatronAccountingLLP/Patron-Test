@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Operational Cost Centers: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Cost buckets that mirror how the business is actually run. What it means, why it matters and where you will meet it. With the disclosure checklist.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/operational-cost-centers">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Operational Cost Centers: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Cost buckets that mirror how the business is actually run. What it means, why it matters and where you will meet it. With the disclosure checklist.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/operational-cost-centers">
     <meta property="og:image" content="https://www.patronaccounting.com/images/operational-cost-centers-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/operational-cost-centers#article",
       "headline": "Operational Cost Centers",
-      "description": "",
+      "description": "Cost buckets that mirror how the business is actually run. What it means, why it matters and where you will meet it. With the disclosure checklist.",
       "inLanguage": "en-IN",
       "wordCount": 1037,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/operational-cost-centers",
       "name": "Operational Cost Centers: Meaning and Example",
-      "description": "",
+      "description": "Cost buckets that mirror how the business is actually run. What it means, why it matters and where you will meet it. With the disclosure checklist.",
       "url": "https://www.patronaccounting.com/glossary/accounting/operational-cost-centers",
       "inLanguage": "en-IN",
       "isPartOf": {

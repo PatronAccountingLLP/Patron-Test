@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Inter-Company Ledger Reconciliation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Agreeing balances between group entities before consolidation. The meaning, the treatment and the disclosure it feeds. With the disclosure checklist.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/inter-company-ledger-reconciliation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Inter-Company Ledger Reconciliation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Agreeing balances between group entities before consolidation. The meaning, the treatment and the disclosure it feeds. With the disclosure checklist.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/inter-company-ledger-reconciliation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/inter-company-ledger-reconciliation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/inter-company-ledger-reconciliation#article",
       "headline": "Inter-Company Ledger Reconciliation",
-      "description": "",
+      "description": "Agreeing balances between group entities before consolidation. The meaning, the treatment and the disclosure it feeds. With the disclosure checklist.",
       "inLanguage": "en-IN",
       "wordCount": 984,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/inter-company-ledger-reconciliation",
       "name": "Inter-Company Ledger Reconciliation: Meaning and Example",
-      "description": "",
+      "description": "Agreeing balances between group entities before consolidation. The meaning, the treatment and the disclosure it feeds. With the disclosure checklist.",
       "url": "https://www.patronaccounting.com/glossary/accounting/inter-company-ledger-reconciliation",
       "inLanguage": "en-IN",
       "isPartOf": {

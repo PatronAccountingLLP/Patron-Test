@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Form ITC-04 Job Work Tracking: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The return reporting goods sent to and received back from job workers. Defined in plain English, with an example of where. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/form-itc-04-job-work-tracking">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Form ITC-04 Job Work Tracking: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The return reporting goods sent to and received back from job workers. Defined in plain English, with an example of where. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/form-itc-04-job-work-tracking">
     <meta property="og:image" content="https://www.patronaccounting.com/images/form-itc-04-job-work-tracking-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/form-itc-04-job-work-tracking#article",
       "headline": "Form ITC-04 Job Work Tracking",
-      "description": "",
+      "description": "The return reporting goods sent to and received back from job workers. Defined in plain English, with an example of where. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1254,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/form-itc-04-job-work-tracking",
       "name": "Form ITC-04 Job Work Tracking: Meaning and Example",
-      "description": "",
+      "description": "The return reporting goods sent to and received back from job workers. Defined in plain English, with an example of where. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/form-itc-04-job-work-tracking",
       "inLanguage": "en-IN",
       "isPartOf": {

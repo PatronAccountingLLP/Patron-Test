@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Fixed Assets: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Long-lived assets held for use in the business, not for resale. What it means, why it matters and where you will meet it. Reviewed by our CA team.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/fixed-assets">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Fixed Assets: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Long-lived assets held for use in the business, not for resale. What it means, why it matters and where you will meet it. Reviewed by our CA team.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/fixed-assets">
     <meta property="og:image" content="https://www.patronaccounting.com/images/fixed-assets-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/fixed-assets#article",
       "headline": "Fixed Assets",
-      "description": "",
+      "description": "Long-lived assets held for use in the business, not for resale. What it means, why it matters and where you will meet it. Reviewed by our CA team.",
       "inLanguage": "en-IN",
       "wordCount": 1169,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/fixed-assets",
       "name": "Fixed Assets: Meaning and Example",
-      "description": "",
+      "description": "Long-lived assets held for use in the business, not for resale. What it means, why it matters and where you will meet it. Reviewed by our CA team.",
       "url": "https://www.patronaccounting.com/glossary/accounting/fixed-assets",
       "inLanguage": "en-IN",
       "isPartOf": {

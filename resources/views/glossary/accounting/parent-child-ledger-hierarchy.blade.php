@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Parent-Child Ledger Hierarchy: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Ledger groups nested so reports roll up without manual regrouping. A plain-English definition with a worked example. From our accounting glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/parent-child-ledger-hierarchy">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Parent-Child Ledger Hierarchy: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Ledger groups nested so reports roll up without manual regrouping. A plain-English definition with a worked example. From our accounting glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/parent-child-ledger-hierarchy">
     <meta property="og:image" content="https://www.patronaccounting.com/images/parent-child-ledger-hierarchy-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/parent-child-ledger-hierarchy#article",
       "headline": "Parent-Child Ledger Hierarchy",
-      "description": "",
+      "description": "Ledger groups nested so reports roll up without manual regrouping. A plain-English definition with a worked example. From our accounting glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1016,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/parent-child-ledger-hierarchy",
       "name": "Parent-Child Ledger Hierarchy: Meaning and Example",
-      "description": "",
+      "description": "Ledger groups nested so reports roll up without manual regrouping. A plain-English definition with a worked example. From our accounting glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/parent-child-ledger-hierarchy",
       "inLanguage": "en-IN",
       "isPartOf": {

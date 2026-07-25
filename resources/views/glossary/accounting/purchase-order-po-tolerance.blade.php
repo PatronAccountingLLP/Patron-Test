@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Purchase Order (PO) Tolerance: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The permitted gap between ordered and invoiced value before escalation. The definition, the entry it drives and the mistake. Written for preparers.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/purchase-order-po-tolerance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Purchase Order (PO) Tolerance: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The permitted gap between ordered and invoiced value before escalation. The definition, the entry it drives and the mistake. Written for preparers.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/purchase-order-po-tolerance">
     <meta property="og:image" content="https://www.patronaccounting.com/images/purchase-order-po-tolerance-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/purchase-order-po-tolerance#article",
       "headline": "Purchase Order (PO) Tolerance",
-      "description": "",
+      "description": "The permitted gap between ordered and invoiced value before escalation. The definition, the entry it drives and the mistake. Written for preparers.",
       "inLanguage": "en-IN",
       "wordCount": 1056,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/purchase-order-po-tolerance",
       "name": "Purchase Order (PO) Tolerance: Meaning and Example",
-      "description": "",
+      "description": "The permitted gap between ordered and invoiced value before escalation. The definition, the entry it drives and the mistake. Written for preparers.",
       "url": "https://www.patronaccounting.com/glossary/accounting/purchase-order-po-tolerance",
       "inLanguage": "en-IN",
       "isPartOf": {

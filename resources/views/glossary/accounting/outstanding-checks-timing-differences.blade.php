@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Outstanding Checks / Timing Differences: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Cheques issued but not yet presented, reconciling book to bank. The definition, the entry it drives and the mistake to avoid. With worked examples.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/outstanding-checks-timing-differences">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Outstanding Checks / Timing Differences: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Cheques issued but not yet presented, reconciling book to bank. The definition, the entry it drives and the mistake to avoid. With worked examples.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/outstanding-checks-timing-differences">
     <meta property="og:image" content="https://www.patronaccounting.com/images/outstanding-checks-timing-differences-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/outstanding-checks-timing-differences#article",
       "headline": "Outstanding Checks / Timing Differences",
-      "description": "",
+      "description": "Cheques issued but not yet presented, reconciling book to bank. The definition, the entry it drives and the mistake to avoid. With worked examples.",
       "inLanguage": "en-IN",
       "wordCount": 1096,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/outstanding-checks-timing-differences",
       "name": "Outstanding Checks / Timing Differences: Meaning and Example",
-      "description": "",
+      "description": "Cheques issued but not yet presented, reconciling book to bank. The definition, the entry it drives and the mistake to avoid. With worked examples.",
       "url": "https://www.patronaccounting.com/glossary/accounting/outstanding-checks-timing-differences",
       "inLanguage": "en-IN",
       "isPartOf": {

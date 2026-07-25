@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Liabilities: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="What a business owes, settled by an outflow of economic resources. What it is, how it is measured and who has to report it. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/liabilities">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Liabilities: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="What a business owes, settled by an outflow of economic resources. What it is, how it is measured and who has to report it. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/liabilities">
     <meta property="og:image" content="https://www.patronaccounting.com/images/liabilities-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/liabilities#article",
       "headline": "Liabilities",
-      "description": "",
+      "description": "What a business owes, settled by an outflow of economic resources. What it is, how it is measured and who has to report it. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1083,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/liabilities",
       "name": "Liabilities: Meaning and Example",
-      "description": "",
+      "description": "What a business owes, settled by an outflow of economic resources. What it is, how it is measured and who has to report it. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/liabilities",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Ind AS 102 Share-based Payment: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="ESOP cost measured at grant-date fair value and spread over vesting. The meaning, the treatment and the disclosure it feeds. With worked examples.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/ind-as-102-share-based-payment">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Ind AS 102 Share-based Payment: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="ESOP cost measured at grant-date fair value and spread over vesting. The meaning, the treatment and the disclosure it feeds. With worked examples.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/ind-as-102-share-based-payment">
     <meta property="og:image" content="https://www.patronaccounting.com/images/ind-as-102-share-based-payment-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ind-as-102-share-based-payment#article",
       "headline": "Ind AS 102 Share-based Payment",
-      "description": "",
+      "description": "ESOP cost measured at grant-date fair value and spread over vesting. The meaning, the treatment and the disclosure it feeds. With worked examples.",
       "inLanguage": "en-IN",
       "wordCount": 1232,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ind-as-102-share-based-payment",
       "name": "Ind AS 102 Share-based Payment: Meaning and Example",
-      "description": "",
+      "description": "ESOP cost measured at grant-date fair value and spread over vesting. The meaning, the treatment and the disclosure it feeds. With worked examples.",
       "url": "https://www.patronaccounting.com/glossary/accounting/ind-as-102-share-based-payment",
       "inLanguage": "en-IN",
       "isPartOf": {

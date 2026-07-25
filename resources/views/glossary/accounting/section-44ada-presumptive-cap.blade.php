@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Section 44ADA Presumptive Cap: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Presumptive taxation for professionals up to the prescribed receipts limit. What it means, why it matters and where you. Updated for Indian rules.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/section-44ada-presumptive-cap">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Section 44ADA Presumptive Cap: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Presumptive taxation for professionals up to the prescribed receipts limit. What it means, why it matters and where you. Updated for Indian rules.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/section-44ada-presumptive-cap">
     <meta property="og:image" content="https://www.patronaccounting.com/images/section-44ada-presumptive-cap-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-44ada-presumptive-cap#article",
       "headline": "Section 44ADA Presumptive Cap",
-      "description": "",
+      "description": "Presumptive taxation for professionals up to the prescribed receipts limit. What it means, why it matters and where you. Updated for Indian rules.",
       "inLanguage": "en-IN",
       "wordCount": 1240,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-44ada-presumptive-cap",
       "name": "Section 44ADA Presumptive Cap: Meaning and Example",
-      "description": "",
+      "description": "Presumptive taxation for professionals up to the prescribed receipts limit. What it means, why it matters and where you. Updated for Indian rules.",
       "url": "https://www.patronaccounting.com/glossary/accounting/section-44ada-presumptive-cap",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Accrued Liabilities: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Costs incurred but not yet invoiced, recognised in the right period. What it is, how it is measured and who has to report it. Before your next close.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/accrued-liabilities">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Accrued Liabilities: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Costs incurred but not yet invoiced, recognised in the right period. What it is, how it is measured and who has to report it. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/accrued-liabilities">
     <meta property="og:image" content="https://www.patronaccounting.com/images/accrued-liabilities-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accrued-liabilities#article",
       "headline": "Accrued Liabilities",
-      "description": "",
+      "description": "Costs incurred but not yet invoiced, recognised in the right period. What it is, how it is measured and who has to report it. Before your next close.",
       "inLanguage": "en-IN",
       "wordCount": 1075,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accrued-liabilities",
       "name": "Accrued Liabilities: Meaning and Example",
-      "description": "",
+      "description": "Costs incurred but not yet invoiced, recognised in the right period. What it is, how it is measured and who has to report it. Before your next close.",
       "url": "https://www.patronaccounting.com/glossary/accounting/accrued-liabilities",
       "inLanguage": "en-IN",
       "isPartOf": {

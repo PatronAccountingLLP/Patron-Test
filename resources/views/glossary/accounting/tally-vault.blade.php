@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Tally Vault: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Tally&#x27;s password layer that encrypts company data at rest. Explained simply, with the ledger entry that goes with it. A practical guide for India.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/tally-vault">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Tally Vault: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Tally&#x27;s password layer that encrypts company data at rest. Explained simply, with the ledger entry that goes with it. A practical guide for India.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/tally-vault">
     <meta property="og:image" content="https://www.patronaccounting.com/images/tally-vault-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/tally-vault#article",
       "headline": "Tally Vault",
-      "description": "",
+      "description": "Tally's password layer that encrypts company data at rest. Explained simply, with the ledger entry that goes with it. A practical guide for India.",
       "inLanguage": "en-IN",
       "wordCount": 1048,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/tally-vault",
       "name": "Tally Vault: Meaning and Example",
-      "description": "",
+      "description": "Tally's password layer that encrypts company data at rest. Explained simply, with the ledger entry that goes with it. A practical guide for India.",
       "url": "https://www.patronaccounting.com/glossary/accounting/tally-vault",
       "inLanguage": "en-IN",
       "isPartOf": {

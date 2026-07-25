@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Food Cost Variance Percentage: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Actual food cost measured against theoretical, outlet by outlet. What it is, how it is measured and who has to report it. Straight answers, no fluff.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/food-cost-variance-percentage">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Food Cost Variance Percentage: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Actual food cost measured against theoretical, outlet by outlet. What it is, how it is measured and who has to report it. Straight answers, no fluff.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/food-cost-variance-percentage">
     <meta property="og:image" content="https://www.patronaccounting.com/images/food-cost-variance-percentage-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/food-cost-variance-percentage#article",
       "headline": "Food Cost Variance Percentage",
-      "description": "",
+      "description": "Actual food cost measured against theoretical, outlet by outlet. What it is, how it is measured and who has to report it. Straight answers, no fluff.",
       "inLanguage": "en-IN",
       "wordCount": 1130,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/food-cost-variance-percentage",
       "name": "Food Cost Variance Percentage: Meaning and Example",
-      "description": "",
+      "description": "Actual food cost measured against theoretical, outlet by outlet. What it is, how it is measured and who has to report it. Straight answers, no fluff.",
       "url": "https://www.patronaccounting.com/glossary/accounting/food-cost-variance-percentage",
       "inLanguage": "en-IN",
       "isPartOf": {

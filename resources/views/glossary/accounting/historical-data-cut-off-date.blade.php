@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Historical Data Cut-off Date: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The date before which history is archived, not carried forward. Defined in plain English, with an example of where it shows up. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/historical-data-cut-off-date">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Historical Data Cut-off Date: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The date before which history is archived, not carried forward. Defined in plain English, with an example of where it shows up. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/historical-data-cut-off-date">
     <meta property="og:image" content="https://www.patronaccounting.com/images/historical-data-cut-off-date-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/historical-data-cut-off-date#article",
       "headline": "Historical Data Cut-off Date",
-      "description": "",
+      "description": "The date before which history is archived, not carried forward. Defined in plain English, with an example of where it shows up. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1115,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/historical-data-cut-off-date",
       "name": "Historical Data Cut-off Date: Meaning and Example",
-      "description": "",
+      "description": "The date before which history is archived, not carried forward. Defined in plain English, with an example of where it shows up. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/historical-data-cut-off-date",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -61,7 +61,8 @@
 
 <!-- Main Content -->
 <div id="originalContent">
-    {!! $content->content !!}
+    {{-- demote the first <h1> inside the DB content to <h2> so the banner H1 is the page's only H1 --}}
+    {!! preg_replace('/<h1\b[^>]*>(.*?)<\/h1>/is', '<h2>$1</h2>', $content->content, 1) !!}
       @isset($content->{'interlink_page'})
         <div class="interlink-page main-content">
             {!! $content->{'interlink_page'} !!}
@@ -72,8 +73,44 @@
 @endsection
 
 @push('meta-content')
-    {!! $content->meta_title !!}
+    {{-- strip any "FY 20xx-xx" year fragment (with its separator + optional "Guide") from the DB title (QC: no year in title) --}}
+    {!! preg_replace('/\s*[|,\x{2013}\x{2014}-]?\s*FY\s*20\d{2}[-\/]\d{2}(?:\s*Guide)?/iu', '', $content->meta_title) !!}
     {!! $content->canonical !!}
+    @php
+        $stdMeta = json_decode(@file_get_contents(resource_path('data/accounting-standards-meta.json')), true) ?: [];
+        $sm = $stdMeta[$content->slug] ?? null;
+        $stdUrl = 'https://www.patronaccounting.com/accounting-standards/'.$content->slug;
+        $stdName = 'Accounting Standard '.$content->std_no.' - '.\Illuminate\Support\Str::title($content->std_name);
+    @endphp
+    @if($sm && !empty($sm['description']))
+    <meta name="description" content="{{ $sm['description'] }}">
+    <meta property="og:description" content="{{ $sm['description'] }}">
+    <meta name="twitter:description" content="{{ $sm['description'] }}">
+    @endif
+    <script type="application/ld+json">
+    {!! json_encode([
+        '@context' => 'https://schema.org',
+        '@graph' => [
+            [
+                '@type' => 'BreadcrumbList',
+                'itemListElement' => [
+                    ['@type'=>'ListItem','position'=>1,'name'=>'Home','item'=>'https://www.patronaccounting.com/'],
+                    ['@type'=>'ListItem','position'=>2,'name'=>'Accounting Standards','item'=>'https://www.patronaccounting.com/accounting-standards'],
+                    ['@type'=>'ListItem','position'=>3,'name'=>$stdName,'item'=>$stdUrl],
+                ],
+            ],
+            [
+                '@type' => 'Article',
+                'headline' => $stdName,
+                'description' => ($sm['description'] ?? ''),
+                'url' => $stdUrl,
+                'mainEntityOfPage' => ['@type'=>'WebPage','@id'=>$stdUrl],
+                'author' => ['@type'=>'Organization','name'=>'Patron Accounting'],
+                'publisher' => ['@type'=>'Organization','name'=>'Patron Accounting','logo'=>['@type'=>'ImageObject','url'=>'https://www.patronaccounting.com/images/accounting-cluster/_platform-logos/patron-logo.webp']],
+            ],
+        ],
+    ], JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE) !!}
+    </script>
 @endpush
 @push('styles')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

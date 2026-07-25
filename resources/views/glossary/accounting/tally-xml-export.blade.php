@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Tally XML Export: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Tally&#x27;s structured export format, used for migration and bulk correction. What it is, how it is measured and who has to report it. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/tally-xml-export">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Tally XML Export: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Tally&#x27;s structured export format, used for migration and bulk correction. What it is, how it is measured and who has to report it. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/tally-xml-export">
     <meta property="og:image" content="https://www.patronaccounting.com/images/tally-xml-export-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/tally-xml-export#article",
       "headline": "Tally XML Export",
-      "description": "",
+      "description": "Tally's structured export format, used for migration and bulk correction. What it is, how it is measured and who has to report it. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1070,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/tally-xml-export",
       "name": "Tally XML Export: Meaning and Example",
-      "description": "",
+      "description": "Tally's structured export format, used for migration and bulk correction. What it is, how it is measured and who has to report it. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/tally-xml-export",
       "inLanguage": "en-IN",
       "isPartOf": {

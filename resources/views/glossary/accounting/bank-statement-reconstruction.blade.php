@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Bank Statement Reconstruction: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Rebuilding the cash book from statements when vouchers are missing. Defined in plain English, with an example of where it shows up. Explained by a CA.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/bank-statement-reconstruction">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Bank Statement Reconstruction: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Rebuilding the cash book from statements when vouchers are missing. Defined in plain English, with an example of where it shows up. Explained by a CA.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/bank-statement-reconstruction">
     <meta property="og:image" content="https://www.patronaccounting.com/images/bank-statement-reconstruction-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bank-statement-reconstruction#article",
       "headline": "Bank Statement Reconstruction",
-      "description": "",
+      "description": "Rebuilding the cash book from statements when vouchers are missing. Defined in plain English, with an example of where it shows up. Explained by a CA.",
       "inLanguage": "en-IN",
       "wordCount": 1078,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bank-statement-reconstruction",
       "name": "Bank Statement Reconstruction: Meaning and Example",
-      "description": "",
+      "description": "Rebuilding the cash book from statements when vouchers are missing. Defined in plain English, with an example of where it shows up. Explained by a CA.",
       "url": "https://www.patronaccounting.com/glossary/accounting/bank-statement-reconstruction",
       "inLanguage": "en-IN",
       "isPartOf": {

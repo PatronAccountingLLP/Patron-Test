@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Maharashtra Stamp Act Provisions: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="State stamp duty on instruments, and what it costs to get it wrong. Defined in plain English, with an example of where it shows up. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/maharashtra-stamp-act-provisions">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Maharashtra Stamp Act Provisions: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="State stamp duty on instruments, and what it costs to get it wrong. Defined in plain English, with an example of where it shows up. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/maharashtra-stamp-act-provisions">
     <meta property="og:image" content="https://www.patronaccounting.com/images/maharashtra-stamp-act-provisions-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/maharashtra-stamp-act-provisions#article",
       "headline": "Maharashtra Stamp Act Provisions",
-      "description": "",
+      "description": "State stamp duty on instruments, and what it costs to get it wrong. Defined in plain English, with an example of where it shows up. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1388,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/maharashtra-stamp-act-provisions",
       "name": "Maharashtra Stamp Act Provisions: Meaning and Example",
-      "description": "",
+      "description": "State stamp duty on instruments, and what it costs to get it wrong. Defined in plain English, with an example of where it shows up. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/maharashtra-stamp-act-provisions",
       "inLanguage": "en-IN",
       "isPartOf": {

@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Zoho Custom Modules: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Extra fields and record types added to Zoho for a business&#x27;s own workflow. Explained simply, with the ledger entry. From our accounting glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/zoho-custom-modules">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Zoho Custom Modules: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Extra fields and record types added to Zoho for a business&#x27;s own workflow. Explained simply, with the ledger entry. From our accounting glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/zoho-custom-modules">
     <meta property="og:image" content="https://www.patronaccounting.com/images/zoho-custom-modules-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/zoho-custom-modules#article",
       "headline": "Zoho Custom Modules",
-      "description": "",
+      "description": "Extra fields and record types added to Zoho for a business's own workflow. Explained simply, with the ledger entry. From our accounting glossary.",
       "inLanguage": "en-IN",
       "wordCount": 986,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/zoho-custom-modules",
       "name": "Zoho Custom Modules: Meaning and Example",
-      "description": "",
+      "description": "Extra fields and record types added to Zoho for a business's own workflow. Explained simply, with the ledger entry. From our accounting glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/zoho-custom-modules",
       "inLanguage": "en-IN",
       "isPartOf": {

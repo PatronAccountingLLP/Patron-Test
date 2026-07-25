@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Section 12A / 80G Annual Upkeep: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The filings and records that keep a trust&#x27;s registrations alive. Defined in plain English, with an example of where it shows up. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/section-12a-80g-annual-upkeep">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Section 12A / 80G Annual Upkeep: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The filings and records that keep a trust&#x27;s registrations alive. Defined in plain English, with an example of where it shows up. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/section-12a-80g-annual-upkeep">
     <meta property="og:image" content="https://www.patronaccounting.com/images/section-12a-80g-annual-upkeep-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-12a-80g-annual-upkeep#article",
       "headline": "Section 12A / 80G Annual Upkeep",
-      "description": "",
+      "description": "The filings and records that keep a trust's registrations alive. Defined in plain English, with an example of where it shows up. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1258,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-12a-80g-annual-upkeep",
       "name": "Section 12A / 80G Annual Upkeep: Meaning and Example",
-      "description": "",
+      "description": "The filings and records that keep a trust's registrations alive. Defined in plain English, with an example of where it shows up. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/section-12a-80g-annual-upkeep",
       "inLanguage": "en-IN",
       "isPartOf": {

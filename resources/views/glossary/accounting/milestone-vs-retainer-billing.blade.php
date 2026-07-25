@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Milestone vs Retainer Billing: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Billing on delivery events versus a fixed recurring fee. A plain-English definition with a worked example from Indian books. A practitioner guide.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/milestone-vs-retainer-billing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Milestone vs Retainer Billing: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Billing on delivery events versus a fixed recurring fee. A plain-English definition with a worked example from Indian books. A practitioner guide.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/milestone-vs-retainer-billing">
     <meta property="og:image" content="https://www.patronaccounting.com/images/milestone-vs-retainer-billing-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/milestone-vs-retainer-billing#article",
       "headline": "Milestone vs Retainer Billing",
-      "description": "",
+      "description": "Billing on delivery events versus a fixed recurring fee. A plain-English definition with a worked example from Indian books. A practitioner guide.",
       "inLanguage": "en-IN",
       "wordCount": 1014,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/milestone-vs-retainer-billing",
       "name": "Milestone vs Retainer Billing: Meaning and Example",
-      "description": "",
+      "description": "Billing on delivery events versus a fixed recurring fee. A plain-English definition with a worked example from Indian books. A practitioner guide.",
       "url": "https://www.patronaccounting.com/glossary/accounting/milestone-vs-retainer-billing",
       "inLanguage": "en-IN",
       "isPartOf": {

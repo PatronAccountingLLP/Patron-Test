@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>NCR Inter-State GST Reconciliation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Getting place of supply right across the Delhi, Haryana and UP border. The meaning, the treatment and the disclosure it feeds. Read the full guide.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/ncr-inter-state-gst-reconciliation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="NCR Inter-State GST Reconciliation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Getting place of supply right across the Delhi, Haryana and UP border. The meaning, the treatment and the disclosure it feeds. Read the full guide.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/ncr-inter-state-gst-reconciliation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/ncr-inter-state-gst-reconciliation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ncr-inter-state-gst-reconciliation#article",
       "headline": "NCR Inter-State GST Reconciliation",
-      "description": "",
+      "description": "Getting place of supply right across the Delhi, Haryana and UP border. The meaning, the treatment and the disclosure it feeds. Read the full guide.",
       "inLanguage": "en-IN",
       "wordCount": 1359,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ncr-inter-state-gst-reconciliation",
       "name": "NCR Inter-State GST Reconciliation: Meaning and Example",
-      "description": "",
+      "description": "Getting place of supply right across the Delhi, Haryana and UP border. The meaning, the treatment and the disclosure it feeds. Read the full guide.",
       "url": "https://www.patronaccounting.com/glossary/accounting/ncr-inter-state-gst-reconciliation",
       "inLanguage": "en-IN",
       "isPartOf": {

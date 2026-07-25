@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>IMT Manesar Industrial Costing: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Cost structures particular to manufacturing in the Manesar belt. What it is, how it is measured and who has to report it. Updated for Indian rules.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/imt-manesar-industrial-costing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="IMT Manesar Industrial Costing: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Cost structures particular to manufacturing in the Manesar belt. What it is, how it is measured and who has to report it. Updated for Indian rules.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/imt-manesar-industrial-costing">
     <meta property="og:image" content="https://www.patronaccounting.com/images/imt-manesar-industrial-costing-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/imt-manesar-industrial-costing#article",
       "headline": "IMT Manesar Industrial Costing",
-      "description": "",
+      "description": "Cost structures particular to manufacturing in the Manesar belt. What it is, how it is measured and who has to report it. Updated for Indian rules.",
       "inLanguage": "en-IN",
       "wordCount": 1344,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/imt-manesar-industrial-costing",
       "name": "IMT Manesar Industrial Costing: Meaning and Example",
-      "description": "",
+      "description": "Cost structures particular to manufacturing in the Manesar belt. What it is, how it is measured and who has to report it. Updated for Indian rules.",
       "url": "https://www.patronaccounting.com/glossary/accounting/imt-manesar-industrial-costing",
       "inLanguage": "en-IN",
       "isPartOf": {

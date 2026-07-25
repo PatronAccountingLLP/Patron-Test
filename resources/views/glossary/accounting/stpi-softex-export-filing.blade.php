@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>STPI / SOFTEX Export Filing: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The declaration that evidences software export against each invoice. Defined in plain English, with an example of where it shows up. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/stpi-softex-export-filing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="STPI / SOFTEX Export Filing: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The declaration that evidences software export against each invoice. Defined in plain English, with an example of where it shows up. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/stpi-softex-export-filing">
     <meta property="og:image" content="https://www.patronaccounting.com/images/stpi-softex-export-filing-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/stpi-softex-export-filing#article",
       "headline": "STPI / SOFTEX Export Filing",
-      "description": "",
+      "description": "The declaration that evidences software export against each invoice. Defined in plain English, with an example of where it shows up. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1274,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/stpi-softex-export-filing",
       "name": "STPI / SOFTEX Export Filing: Meaning and Example",
-      "description": "",
+      "description": "The declaration that evidences software export against each invoice. Defined in plain English, with an example of where it shows up. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/stpi-softex-export-filing",
       "inLanguage": "en-IN",
       "isPartOf": {

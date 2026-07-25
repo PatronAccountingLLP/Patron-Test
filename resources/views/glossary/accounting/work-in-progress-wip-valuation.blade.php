@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Work-in-Progress (WIP) Valuation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Part-finished production valued at material, labour and overhead. A plain-English definition with a worked example. With the disclosure checklist.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/work-in-progress-wip-valuation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Work-in-Progress (WIP) Valuation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Part-finished production valued at material, labour and overhead. A plain-English definition with a worked example. With the disclosure checklist.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/work-in-progress-wip-valuation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/work-in-progress-wip-valuation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/work-in-progress-wip-valuation#article",
       "headline": "Work-in-Progress (WIP) Valuation",
-      "description": "",
+      "description": "Part-finished production valued at material, labour and overhead. A plain-English definition with a worked example. With the disclosure checklist.",
       "inLanguage": "en-IN",
       "wordCount": 1103,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/work-in-progress-wip-valuation",
       "name": "Work-in-Progress (WIP) Valuation: Meaning and Example",
-      "description": "",
+      "description": "Part-finished production valued at material, labour and overhead. A plain-English definition with a worked example. With the disclosure checklist.",
       "url": "https://www.patronaccounting.com/glossary/accounting/work-in-progress-wip-valuation",
       "inLanguage": "en-IN",
       "isPartOf": {

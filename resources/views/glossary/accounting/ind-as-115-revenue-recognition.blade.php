@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Ind AS 115 Revenue Recognition: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Revenue recognised as each performance obligation is satisfied. The definition, the entry it drives and the mistake to avoid. Written for Indian SMEs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/ind-as-115-revenue-recognition">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Ind AS 115 Revenue Recognition: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Revenue recognised as each performance obligation is satisfied. The definition, the entry it drives and the mistake to avoid. Written for Indian SMEs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/ind-as-115-revenue-recognition">
     <meta property="og:image" content="https://www.patronaccounting.com/images/ind-as-115-revenue-recognition-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ind-as-115-revenue-recognition#article",
       "headline": "Ind AS 115 Revenue Recognition",
-      "description": "",
+      "description": "Revenue recognised as each performance obligation is satisfied. The definition, the entry it drives and the mistake to avoid. Written for Indian SMEs.",
       "inLanguage": "en-IN",
       "wordCount": 1207,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/ind-as-115-revenue-recognition",
       "name": "Ind AS 115 Revenue Recognition: Meaning and Example",
-      "description": "",
+      "description": "Revenue recognised as each performance obligation is satisfied. The definition, the entry it drives and the mistake to avoid. Written for Indian SMEs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/ind-as-115-revenue-recognition",
       "inLanguage": "en-IN",
       "isPartOf": {

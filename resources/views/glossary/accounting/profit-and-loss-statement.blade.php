@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Profit &amp; Loss Statement: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Income less expenses over a period, ending in profit or loss. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/profit-and-loss-statement">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Profit &amp; Loss Statement: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Income less expenses over a period, ending in profit or loss. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/profit-and-loss-statement">
     <meta property="og:image" content="https://www.patronaccounting.com/images/profit-and-loss-statement-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/profit-and-loss-statement#article",
       "headline": "Profit & Loss Statement",
-      "description": "",
+      "description": "Income less expenses over a period, ending in profit or loss. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.",
       "inLanguage": "en-IN",
       "wordCount": 1182,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/profit-and-loss-statement",
       "name": "Profit & Loss Statement: Meaning and Example",
-      "description": "",
+      "description": "Income less expenses over a period, ending in profit or loss. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.",
       "url": "https://www.patronaccounting.com/glossary/accounting/profit-and-loss-statement",
       "inLanguage": "en-IN",
       "isPartOf": {

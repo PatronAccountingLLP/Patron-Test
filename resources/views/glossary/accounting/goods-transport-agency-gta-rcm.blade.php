@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Goods Transport Agency (GTA) RCM: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="GST paid by the recipient on freight rather than by the transporter. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/goods-transport-agency-gta-rcm">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Goods Transport Agency (GTA) RCM: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="GST paid by the recipient on freight rather than by the transporter. The definition, the entry it drives and the mistake to avoid. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/goods-transport-agency-gta-rcm">
     <meta property="og:image" content="https://www.patronaccounting.com/images/goods-transport-agency-gta-rcm-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/goods-transport-agency-gta-rcm#article",
       "headline": "Goods Transport Agency (GTA) RCM",
-      "description": "",
+      "description": "GST paid by the recipient on freight rather than by the transporter. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1267,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/goods-transport-agency-gta-rcm",
       "name": "Goods Transport Agency (GTA) RCM: Meaning and Example",
-      "description": "",
+      "description": "GST paid by the recipient on freight rather than by the transporter. The definition, the entry it drives and the mistake to avoid. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/goods-transport-agency-gta-rcm",
       "inLanguage": "en-IN",
       "isPartOf": {

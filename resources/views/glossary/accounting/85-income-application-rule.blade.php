@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>85% Income Application Rule: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="A trust must apply 85 per cent of income to its objects, or accumulate. The meaning, the treatment and the disclosure it feeds. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/85-income-application-rule">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="85% Income Application Rule: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="A trust must apply 85 per cent of income to its objects, or accumulate. The meaning, the treatment and the disclosure it feeds. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/85-income-application-rule">
     <meta property="og:image" content="https://www.patronaccounting.com/images/85-income-application-rule-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/85-income-application-rule#article",
       "headline": "85% Income Application Rule",
-      "description": "",
+      "description": "A trust must apply 85 per cent of income to its objects, or accumulate. The meaning, the treatment and the disclosure it feeds. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1129,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/85-income-application-rule",
       "name": "85% Income Application Rule: Meaning and Example",
-      "description": "",
+      "description": "A trust must apply 85 per cent of income to its objects, or accumulate. The meaning, the treatment and the disclosure it feeds. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/85-income-application-rule",
       "inLanguage": "en-IN",
       "isPartOf": {

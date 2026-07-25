@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Section 43B(h) MSME Clock: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The 45-day window to pay small suppliers, or the deduction is lost. Explained simply, with the ledger entry that goes with it. Part of our glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/section-43b-h-msme-clock">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Section 43B(h) MSME Clock: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The 45-day window to pay small suppliers, or the deduction is lost. Explained simply, with the ledger entry that goes with it. Part of our glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/section-43b-h-msme-clock">
     <meta property="og:image" content="https://www.patronaccounting.com/images/section-43b-h-msme-clock-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-43b-h-msme-clock#article",
       "headline": "Section 43B(h) MSME Clock",
-      "description": "",
+      "description": "The 45-day window to pay small suppliers, or the deduction is lost. Explained simply, with the ledger entry that goes with it. Part of our glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1296,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/section-43b-h-msme-clock",
       "name": "Section 43B(h) MSME Clock: Meaning and Example",
-      "description": "",
+      "description": "The 45-day window to pay small suppliers, or the deduction is lost. Explained simply, with the ledger entry that goes with it. Part of our glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/section-43b-h-msme-clock",
       "inLanguage": "en-IN",
       "isPartOf": {

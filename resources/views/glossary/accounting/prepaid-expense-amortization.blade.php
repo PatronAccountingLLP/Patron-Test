@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Prepaid Expense Amortization: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Spreading a prepaid cost across the periods it actually covers. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/prepaid-expense-amortization">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Prepaid Expense Amortization: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Spreading a prepaid cost across the periods it actually covers. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/prepaid-expense-amortization">
     <meta property="og:image" content="https://www.patronaccounting.com/images/prepaid-expense-amortization-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/prepaid-expense-amortization#article",
       "headline": "Prepaid Expense Amortization",
-      "description": "",
+      "description": "Spreading a prepaid cost across the periods it actually covers. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.",
       "inLanguage": "en-IN",
       "wordCount": 1135,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/prepaid-expense-amortization",
       "name": "Prepaid Expense Amortization: Meaning and Example",
-      "description": "",
+      "description": "Spreading a prepaid cost across the periods it actually covers. The meaning, the treatment and the disclosure it feeds. Straight answers, no fluff.",
       "url": "https://www.patronaccounting.com/glossary/accounting/prepaid-expense-amortization",
       "inLanguage": "en-IN",
       "isPartOf": {

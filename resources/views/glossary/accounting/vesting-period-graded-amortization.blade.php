@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Vesting Period Graded Amortization: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Each tranche of options expensed over its own vesting period. A plain-English definition with a worked example from Indian books. Read the full guide.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/vesting-period-graded-amortization">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Vesting Period Graded Amortization: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Each tranche of options expensed over its own vesting period. A plain-English definition with a worked example from Indian books. Read the full guide.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/vesting-period-graded-amortization">
     <meta property="og:image" content="https://www.patronaccounting.com/images/vesting-period-graded-amortization-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/vesting-period-graded-amortization#article",
       "headline": "Vesting Period Graded Amortization",
-      "description": "",
+      "description": "Each tranche of options expensed over its own vesting period. A plain-English definition with a worked example from Indian books. Read the full guide.",
       "inLanguage": "en-IN",
       "wordCount": 1185,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/vesting-period-graded-amortization",
       "name": "Vesting Period Graded Amortization: Meaning and Example",
-      "description": "",
+      "description": "Each tranche of options expensed over its own vesting period. A plain-English definition with a worked example from Indian books. Read the full guide.",
       "url": "https://www.patronaccounting.com/glossary/accounting/vesting-period-graded-amortization",
       "inLanguage": "en-IN",
       "isPartOf": {

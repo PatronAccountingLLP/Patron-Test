@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Delhi Nil Professional Tax Regime: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Delhi levies no professional tax, unlike most neighbouring states. A plain-English definition with a worked example. From our accounting glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/delhi-nil-professional-tax-regime">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Delhi Nil Professional Tax Regime: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Delhi levies no professional tax, unlike most neighbouring states. A plain-English definition with a worked example. From our accounting glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/delhi-nil-professional-tax-regime">
     <meta property="og:image" content="https://www.patronaccounting.com/images/delhi-nil-professional-tax-regime-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/delhi-nil-professional-tax-regime#article",
       "headline": "Delhi Nil Professional Tax Regime",
-      "description": "",
+      "description": "Delhi levies no professional tax, unlike most neighbouring states. A plain-English definition with a worked example. From our accounting glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1185,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/delhi-nil-professional-tax-regime",
       "name": "Delhi Nil Professional Tax Regime: Meaning and Example",
-      "description": "",
+      "description": "Delhi levies no professional tax, unlike most neighbouring states. A plain-English definition with a worked example. From our accounting glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/delhi-nil-professional-tax-regime",
       "inLanguage": "en-IN",
       "isPartOf": {

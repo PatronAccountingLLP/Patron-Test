@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Bank Reconciliation: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Matching the ledger to the bank statement and explaining every difference. What it means, why it matters and where you will meet it. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/bank-reconciliation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Bank Reconciliation: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Matching the ledger to the bank statement and explaining every difference. What it means, why it matters and where you will meet it. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/bank-reconciliation">
     <meta property="og:image" content="https://www.patronaccounting.com/images/bank-reconciliation-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bank-reconciliation#article",
       "headline": "Bank Reconciliation",
-      "description": "",
+      "description": "Matching the ledger to the bank statement and explaining every difference. What it means, why it matters and where you will meet it. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1035,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/bank-reconciliation",
       "name": "Bank Reconciliation: Meaning and Example",
-      "description": "",
+      "description": "Matching the ledger to the bank statement and explaining every difference. What it means, why it matters and where you will meet it. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/bank-reconciliation",
       "inLanguage": "en-IN",
       "isPartOf": {

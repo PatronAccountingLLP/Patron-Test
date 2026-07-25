@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>LBT (Local Body Tax) Assessment History: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="The repealed municipal levy still surfacing in old assessments. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/lbt-local-body-tax-assessment-history">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="LBT (Local Body Tax) Assessment History: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="The repealed municipal levy still surfacing in old assessments. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/lbt-local-body-tax-assessment-history">
     <meta property="og:image" content="https://www.patronaccounting.com/images/lbt-local-body-tax-assessment-history-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/lbt-local-body-tax-assessment-history#article",
       "headline": "LBT (Local Body Tax) Assessment History",
-      "description": "",
+      "description": "The repealed municipal levy still surfacing in old assessments. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.",
       "inLanguage": "en-IN",
       "wordCount": 1388,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/lbt-local-body-tax-assessment-history",
       "name": "LBT (Local Body Tax) Assessment History: Meaning and Example",
-      "description": "",
+      "description": "The repealed municipal levy still surfacing in old assessments. Explained simply, with the ledger entry that goes with it. Reviewed by our CA team.",
       "url": "https://www.patronaccounting.com/glossary/accounting/lbt-local-body-tax-assessment-history",
       "inLanguage": "en-IN",
       "isPartOf": {

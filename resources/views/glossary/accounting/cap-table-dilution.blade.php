@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Cap Table Dilution: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="How each new share issue reduces the percentages existing holders own. Defined in plain English, with an example of where. Updated for Indian rules.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/cap-table-dilution">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cap Table Dilution: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="How each new share issue reduces the percentages existing holders own. Defined in plain English, with an example of where. Updated for Indian rules.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/cap-table-dilution">
     <meta property="og:image" content="https://www.patronaccounting.com/images/cap-table-dilution-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cap-table-dilution#article",
       "headline": "Cap Table Dilution",
-      "description": "",
+      "description": "How each new share issue reduces the percentages existing holders own. Defined in plain English, with an example of where. Updated for Indian rules.",
       "inLanguage": "en-IN",
       "wordCount": 1088,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cap-table-dilution",
       "name": "Cap Table Dilution: Meaning and Example",
-      "description": "",
+      "description": "How each new share issue reduces the percentages existing holders own. Defined in plain English, with an example of where. Updated for Indian rules.",
       "url": "https://www.patronaccounting.com/glossary/accounting/cap-table-dilution",
       "inLanguage": "en-IN",
       "isPartOf": {

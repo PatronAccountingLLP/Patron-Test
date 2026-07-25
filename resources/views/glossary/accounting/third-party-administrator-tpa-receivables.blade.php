@@ -2,13 +2,13 @@
 
 
 @section('meta')
-    <title>Third-Party Administrator (TPA) Receivables: Meaning and Example</title>
-    <meta name="description" content="">
+    <title>Third-Party Administrator (TPA) Receivables: Meaning</title>
+    <meta name="description" content="Hospital claims owed by insurers, aged by payer not by patient. Defined in plain English, with an example of where it shows up. In plain English.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/third-party-administrator-tpa-receivables">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Third-Party Administrator (TPA) Receivables: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Third-Party Administrator (TPA) Receivables: Meaning | Patron Accounting">
+    <meta property="og:description" content="Hospital claims owed by insurers, aged by payer not by patient. Defined in plain English, with an example of where it shows up. In plain English.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/third-party-administrator-tpa-receivables">
     <meta property="og:image" content="https://www.patronaccounting.com/images/third-party-administrator-tpa-receivables-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/third-party-administrator-tpa-receivables#article",
       "headline": "Third-Party Administrator (TPA) Receivables",
-      "description": "",
+      "description": "Hospital claims owed by insurers, aged by payer not by patient. Defined in plain English, with an example of where it shows up. In plain English.",
       "inLanguage": "en-IN",
       "wordCount": 1024,
       "about": {
@@ -128,8 +128,8 @@
     {
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/third-party-administrator-tpa-receivables",
-      "name": "Third-Party Administrator (TPA) Receivables: Meaning and Example",
-      "description": "",
+      "name": "Third-Party Administrator (TPA) Receivables: Meaning",
+      "description": "Hospital claims owed by insurers, aged by payer not by patient. Defined in plain English, with an example of where it shows up. In plain English.",
       "url": "https://www.patronaccounting.com/glossary/accounting/third-party-administrator-tpa-receivables",
       "inLanguage": "en-IN",
       "isPartOf": {

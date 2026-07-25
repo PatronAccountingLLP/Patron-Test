@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Inventory Voucher Mapping: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Matching each stock movement type to its equivalent in the new system. The definition, the entry it drives and the mistake to avoid. Explained simply.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/inventory-voucher-mapping">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Inventory Voucher Mapping: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Matching each stock movement type to its equivalent in the new system. The definition, the entry it drives and the mistake to avoid. Explained simply.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/inventory-voucher-mapping">
     <meta property="og:image" content="https://www.patronaccounting.com/images/inventory-voucher-mapping-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/inventory-voucher-mapping#article",
       "headline": "Inventory Voucher Mapping",
-      "description": "",
+      "description": "Matching each stock movement type to its equivalent in the new system. The definition, the entry it drives and the mistake to avoid. Explained simply.",
       "inLanguage": "en-IN",
       "wordCount": 1048,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/inventory-voucher-mapping",
       "name": "Inventory Voucher Mapping: Meaning and Example",
-      "description": "",
+      "description": "Matching each stock movement type to its equivalent in the new system. The definition, the entry it drives and the mistake to avoid. Explained simply.",
       "url": "https://www.patronaccounting.com/glossary/accounting/inventory-voucher-mapping",
       "inLanguage": "en-IN",
       "isPartOf": {

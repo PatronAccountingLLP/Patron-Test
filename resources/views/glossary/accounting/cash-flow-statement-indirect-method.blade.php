@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Cash Flow Statement (Indirect Method): Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Operating cash derived by adjusting profit for non-cash items. The meaning, the treatment and the disclosure it feeds. A practical guide for India.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/cash-flow-statement-indirect-method">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cash Flow Statement (Indirect Method): Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Operating cash derived by adjusting profit for non-cash items. The meaning, the treatment and the disclosure it feeds. A practical guide for India.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/cash-flow-statement-indirect-method">
     <meta property="og:image" content="https://www.patronaccounting.com/images/cash-flow-statement-indirect-method-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-flow-statement-indirect-method#article",
       "headline": "Cash Flow Statement (Indirect Method)",
-      "description": "",
+      "description": "Operating cash derived by adjusting profit for non-cash items. The meaning, the treatment and the disclosure it feeds. A practical guide for India.",
       "inLanguage": "en-IN",
       "wordCount": 1130,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/cash-flow-statement-indirect-method",
       "name": "Cash Flow Statement (Indirect Method): Meaning and Example",
-      "description": "",
+      "description": "Operating cash derived by adjusting profit for non-cash items. The meaning, the treatment and the disclosure it feeds. A practical guide for India.",
       "url": "https://www.patronaccounting.com/glossary/accounting/cash-flow-statement-indirect-method",
       "inLanguage": "en-IN",
       "isPartOf": {

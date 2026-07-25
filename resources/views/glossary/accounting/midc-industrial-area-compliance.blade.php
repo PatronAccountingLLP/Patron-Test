@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>MIDC Industrial Area Compliance: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Plot, lease and filing obligations attaching to an MIDC unit. What it means, why it matters and where you will meet it. Written by qualified CAs.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/midc-industrial-area-compliance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="MIDC Industrial Area Compliance: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Plot, lease and filing obligations attaching to an MIDC unit. What it means, why it matters and where you will meet it. Written by qualified CAs.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/midc-industrial-area-compliance">
     <meta property="og:image" content="https://www.patronaccounting.com/images/midc-industrial-area-compliance-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/midc-industrial-area-compliance#article",
       "headline": "MIDC Industrial Area Compliance",
-      "description": "",
+      "description": "Plot, lease and filing obligations attaching to an MIDC unit. What it means, why it matters and where you will meet it. Written by qualified CAs.",
       "inLanguage": "en-IN",
       "wordCount": 1392,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/midc-industrial-area-compliance",
       "name": "MIDC Industrial Area Compliance: Meaning and Example",
-      "description": "",
+      "description": "Plot, lease and filing obligations attaching to an MIDC unit. What it means, why it matters and where you will meet it. Written by qualified CAs.",
       "url": "https://www.patronaccounting.com/glossary/accounting/midc-industrial-area-compliance",
       "inLanguage": "en-IN",
       "isPartOf": {

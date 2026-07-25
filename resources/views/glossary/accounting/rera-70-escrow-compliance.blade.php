@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>RERA 70% Escrow Compliance: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Seventy per cent of buyer receipts held in a project-specific account. The meaning, the treatment and the disclosure it feeds. See related terms.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/rera-70-escrow-compliance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="RERA 70% Escrow Compliance: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Seventy per cent of buyer receipts held in a project-specific account. The meaning, the treatment and the disclosure it feeds. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/rera-70-escrow-compliance">
     <meta property="og:image" content="https://www.patronaccounting.com/images/rera-70-escrow-compliance-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/rera-70-escrow-compliance#article",
       "headline": "RERA 70% Escrow Compliance",
-      "description": "",
+      "description": "Seventy per cent of buyer receipts held in a project-specific account. The meaning, the treatment and the disclosure it feeds. See related terms.",
       "inLanguage": "en-IN",
       "wordCount": 1230,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/rera-70-escrow-compliance",
       "name": "RERA 70% Escrow Compliance: Meaning and Example",
-      "description": "",
+      "description": "Seventy per cent of buyer receipts held in a project-specific account. The meaning, the treatment and the disclosure it feeds. See related terms.",
       "url": "https://www.patronaccounting.com/glossary/accounting/rera-70-escrow-compliance",
       "inLanguage": "en-IN",
       "isPartOf": {

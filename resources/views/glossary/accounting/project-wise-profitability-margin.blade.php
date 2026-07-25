@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Project-Wise Profitability Margin: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Margin measured per engagement rather than across the whole firm. Defined in plain English, with an example of where it shows up. Read the full guide.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/project-wise-profitability-margin">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Project-Wise Profitability Margin: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Margin measured per engagement rather than across the whole firm. Defined in plain English, with an example of where it shows up. Read the full guide.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/project-wise-profitability-margin">
     <meta property="og:image" content="https://www.patronaccounting.com/images/project-wise-profitability-margin-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/project-wise-profitability-margin#article",
       "headline": "Project-Wise Profitability Margin",
-      "description": "",
+      "description": "Margin measured per engagement rather than across the whole firm. Defined in plain English, with an example of where it shows up. Read the full guide.",
       "inLanguage": "en-IN",
       "wordCount": 1047,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/project-wise-profitability-margin",
       "name": "Project-Wise Profitability Margin: Meaning and Example",
-      "description": "",
+      "description": "Margin measured per engagement rather than across the whole firm. Defined in plain English, with an example of where it shows up. Read the full guide.",
       "url": "https://www.patronaccounting.com/glossary/accounting/project-wise-profitability-margin",
       "inLanguage": "en-IN",
       "isPartOf": {

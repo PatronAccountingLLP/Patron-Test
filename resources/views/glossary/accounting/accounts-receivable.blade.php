@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Accounts Receivable: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="What customers owe the business for invoices already raised. The meaning, the treatment and the disclosure it feeds. From our accounting glossary.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/accounts-receivable">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Accounts Receivable: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="What customers owe the business for invoices already raised. The meaning, the treatment and the disclosure it feeds. From our accounting glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/accounts-receivable">
     <meta property="og:image" content="https://www.patronaccounting.com/images/accounts-receivable-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -105,7 +105,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accounts-receivable#article",
       "headline": "Accounts Receivable",
-      "description": "",
+      "description": "What customers owe the business for invoices already raised. The meaning, the treatment and the disclosure it feeds. From our accounting glossary.",
       "inLanguage": "en-IN",
       "wordCount": 1095,
       "about": {
@@ -130,7 +130,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/accounts-receivable",
       "name": "Accounts Receivable: Meaning and Example",
-      "description": "",
+      "description": "What customers owe the business for invoices already raised. The meaning, the treatment and the disclosure it feeds. From our accounting glossary.",
       "url": "https://www.patronaccounting.com/glossary/accounting/accounts-receivable",
       "inLanguage": "en-IN",
       "isPartOf": {

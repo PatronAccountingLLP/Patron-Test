@@ -3,12 +3,12 @@
 
 @section('meta')
     <title>Foreign Currency Receivables: Meaning and Example</title>
-    <meta name="description" content="">
+    <meta name="description" content="Export debtors restated at the closing rate, with the difference booked. What it means, why it matters and where you will meet it. See related terms.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary/accounting/foreign-currency-receivables">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Foreign Currency Receivables: Meaning and Example | Patron Accounting">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Export debtors restated at the closing rate, with the difference booked. What it means, why it matters and where you will meet it. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/foreign-currency-receivables">
     <meta property="og:image" content="https://www.patronaccounting.com/images/foreign-currency-receivables-og.webp">
     <meta property="og:site_name" content="Patron Accounting">
@@ -104,7 +104,7 @@
       "@type": "Article",
       "@id": "https://www.patronaccounting.com/glossary/accounting/foreign-currency-receivables#article",
       "headline": "Foreign Currency Receivables",
-      "description": "",
+      "description": "Export debtors restated at the closing rate, with the difference booked. What it means, why it matters and where you will meet it. See related terms.",
       "inLanguage": "en-IN",
       "wordCount": 1089,
       "about": {
@@ -129,7 +129,7 @@
       "@type": "WebPage",
       "@id": "https://www.patronaccounting.com/glossary/accounting/foreign-currency-receivables",
       "name": "Foreign Currency Receivables: Meaning and Example",
-      "description": "",
+      "description": "Export debtors restated at the closing rate, with the difference booked. What it means, why it matters and where you will meet it. See related terms.",
       "url": "https://www.patronaccounting.com/glossary/accounting/foreign-currency-receivables",
       "inLanguage": "en-IN",
       "isPartOf": {

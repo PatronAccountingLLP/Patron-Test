@@ -43,6 +43,7 @@ php artisan migrate --force || true
 # posts whose migrations may already be recorded on the persistent disk, and
 # fix records hidden by a future published_at (server UTC vs IST).
 php artisan db:seed --class=BookkeepingVsAccountingBlogSeeder --force || true
+php artisan db:seed --class=AccountingBlogsSeeder --force || true
 php artisan config:cache || true
 # Route caching is intentionally skipped: the app has pre-existing duplicate
 # route names (e.g. br.loan) that make route:cache fail. Uncached routes work

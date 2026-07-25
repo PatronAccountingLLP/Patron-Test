@@ -308,3 +308,19 @@
 .gl-rotcta__dots{display:flex;gap:7px;justify-content:center;margin-top:16px}
 .gl-rotcta__dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.3);cursor:pointer;transition:background .2s,width .2s}
 .gl-rotcta__dot.is-active{background:#E8712C;width:20px;border-radius:4px}
+
+/* ============ Premium CTA card restyle (professional) ============ */
+.gl-herocta,.gl-rotcta{background:linear-gradient(158deg,#183C68 0%,#0E2A54 100%);border:1px solid rgba(255,255,255,.08);box-shadow:0 18px 44px rgba(13,38,74,.30)}
+.gl-herocta::before,.gl-rotcta::before{top:0;left:0;right:0;width:auto;height:3px;border-radius:0;background:linear-gradient(90deg,#E8712C 0%,#F6A94C 100%)}
+.gl-herocta::after,.gl-rotcta::after{content:"";position:absolute;top:-80px;right:-70px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(96,138,196,.18),transparent 70%);pointer-events:none;z-index:0}
+.gl-herocta>*,.gl-herocta__slides>*,.gl-rotcta>*,.gl-rotcta__slide>*{position:relative;z-index:1}
+.gl-herocta__badge,.gl-rotcta__badge{background:none;border:none;padding:0;color:#F6B285;font-size:11px;letter-spacing:.09em;display:inline-flex;align-items:center;gap:8px}
+.gl-herocta__badge::before,.gl-rotcta__badge::before{content:"";width:6px;height:6px;border-radius:50%;background:#E8712C;box-shadow:0 0 0 3px rgba(232,113,44,.22);flex-shrink:0}
+.gl-herocta h3,.gl-rotcta h3{letter-spacing:-.01em;color:#fff}
+.gl-herocta p,.gl-rotcta p{color:rgba(222,230,241,.80)}
+.gl-herocta__btn,.gl-rotcta__btn{background:#E8712C;box-shadow:0 8px 18px rgba(232,113,44,.30);transition:background .18s,transform .12s,box-shadow .18s;letter-spacing:.01em}
+.gl-herocta__btn:hover,.gl-rotcta__btn:hover{background:#F0803C;transform:translateY(-1px);box-shadow:0 12px 24px rgba(232,113,44,.42)}
+.gl-herocta__trust{border-top:1px solid rgba(255,255,255,.09);padding-top:15px;margin-top:16px;color:rgba(222,230,241,.72)}
+.gl-rotcta__dots{margin-top:18px;gap:6px}
+.gl-rotcta__dot{width:6px;height:6px;background:rgba(255,255,255,.26)}
+.gl-rotcta__dot.is-active{width:18px;border-radius:3px;background:#E8712C}

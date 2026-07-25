@@ -547,89 +547,17 @@
   }
   .patron-blog-detail .pbd-share-feedback.is-visible { opacity: 1; }
 
-  /* ============ FAQ SECTION ============ */
-  .patron-blog-detail .pbd-faq {
-    margin: 56px 0 48px;
-    padding: 32px;
-    background: var(--p-bg-surface);
-    border: 1px solid var(--p-border);
-    border-radius: var(--p-radius-lg);
+  /* ============ FAQ SECTION (unified .faq-expanded from /css/faq.css) ============ */
+  .patron-blog-detail .pbd-faq-section {
+    margin: 8px 0 56px;
   }
-  .patron-blog-detail .pbd-faq-eyebrow {
-    margin: 0 0 8px;
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--p-orange);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+  /* The "Talk to a CA" button inside the FAQ aside */
+  .patron-blog-detail .pbd-faq-section .pbd-contact-buttons {
+    margin-top: 20px;
     display: flex;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column;
+    gap: 10px;
   }
-  .patron-blog-detail .pbd-faq-eyebrow::before {
-    content: "";
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    background: var(--p-orange);
-    border-radius: 50%;
-  }
-  .patron-blog-detail .pbd-faq h2 {
-    margin: 0 0 8px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    color: var(--p-navy);
-    line-height: 1.25;
-  }
-  .patron-blog-detail .pbd-faq-subtitle {
-    margin: 0 0 24px;
-    font-size: 15px;
-    color: var(--p-text-muted);
-  }
-  .patron-blog-detail .pbd-faq-list { display: flex; flex-direction: column; gap: 12px; }
-  .patron-blog-detail .pbd-faq-item {
-    background: var(--p-bg-alt);
-    border: 1px solid var(--p-border);
-    border-radius: var(--p-radius-md);
-    overflow: hidden;
-    transition: border-color var(--p-t-fast), box-shadow var(--p-t-fast);
-  }
-  .patron-blog-detail .pbd-faq-item[open] {
-    border-color: var(--p-navy);
-    box-shadow: 0 4px 16px rgba(11, 46, 79, 0.06);
-  }
-  .patron-blog-detail .pbd-faq-summary {
-    padding: 16px 20px;
-    list-style: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--p-navy);
-    line-height: 1.4;
-    user-select: none;
-  }
-  .patron-blog-detail .pbd-faq-summary::-webkit-details-marker { display: none; }
-  .patron-blog-detail .pbd-faq-icon {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    color: var(--p-orange);
-    transition: transform var(--p-t-base);
-  }
-  .patron-blog-detail .pbd-faq-item[open] .pbd-faq-icon { transform: rotate(45deg); }
-  .patron-blog-detail .pbd-faq-content {
-    padding: 0 20px 18px;
-    font-size: 15px;
-    line-height: 1.65;
-    color: var(--p-charcoal);
-  }
-  .patron-blog-detail .pbd-faq-content p { margin: 0 0 12px; }
-  .patron-blog-detail .pbd-faq-content p:last-child { margin-bottom: 0; }
 
   /* ============ STICKY SIDEBAR ============ */
   .patron-blog-detail .pbd-sidebar {
@@ -1265,29 +1193,6 @@
           <span class="pbd-share-feedback" id="pbdShareFeedback">Link copied!</span>
         </div>
 
-        {{-- FAQ Section --}}
-        @if($post->faq_enabled && !empty($post->faq_items) && is_array($post->faq_items) && count($post->faq_items) > 0)
-          <section class="pbd-faq" aria-labelledby="pbdFaqHeading">
-            <p class="pbd-faq-eyebrow">Common Questions</p>
-            <h2 id="pbdFaqHeading">{{ $post->faq_title ?: 'Frequently asked questions' }}</h2>
-            @if($post->faq_subtitle)
-              <p class="pbd-faq-subtitle">{{ $post->faq_subtitle }}</p>
-            @endif
-            <div class="pbd-faq-list">
-              @foreach($post->faq_items as $faq)
-                @if(!empty($faq['question']) && !empty($faq['answer']))
-                  <details class="pbd-faq-item">
-                    <summary class="pbd-faq-summary">
-                      <span>{{ $faq['question'] }}</span>
-                      <svg class="pbd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                    </summary>
-                    <div class="pbd-faq-content">{!! $faq['answer'] !!}</div>
-                  </details>
-                @endif
-              @endforeach
-            </div>
-          </section>
-        @endif
       </article>
 
       {{-- Sidebar --}}
@@ -1352,6 +1257,34 @@
       </aside>
 
     </div>
+
+    {{-- ============ FAQ (unified .faq-expanded — matches service pages: expanded by default + collapse-all button injected by /js/faq-toggle.js) ============ --}}
+    @if($post->faq_enabled && !empty($post->faq_items) && is_array($post->faq_items) && count($post->faq_items) > 0)
+      <section class="pbd-faq-section" aria-labelledby="pbdFaqHeading">
+        <div class="faq-expanded">
+          <aside class="faq-expanded__aside">
+            <h2 class="faq-expanded__title" id="pbdFaqHeading">{{ $post->faq_title ?: 'Frequently asked questions' }}</h2>
+            <p class="faq-expanded__lead">{{ $post->faq_subtitle ?: 'Answers to the questions we hear most from clients on this topic.' }}</p>
+            <div class="pbd-contact-buttons">
+              <a href="tel:+919459456700" class="pbd-btn pbd-btn-orange pbd-btn-block">
+                <svg class="pbd-btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                Talk to a CA
+              </a>
+            </div>
+          </aside>
+          <div class="faq-expanded__list">
+            @foreach($post->faq_items as $faq)
+              @if(!empty($faq['question']) && !empty($faq['answer']))
+                <div class="faq-expanded__item">
+                  <h3 class="faq-expanded__q">{{ $faq['question'] }}</h3>
+                  <div class="faq-expanded__a">{!! $faq['answer'] !!}</div>
+                </div>
+              @endif
+            @endforeach
+          </div>
+        </div>
+      </section>
+    @endif
 
     {{-- ============ RELATED POSTS ============ --}}
     @if($relatedPosts->isNotEmpty())

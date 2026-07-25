@@ -1056,10 +1056,39 @@
   /* image lives in the right column: contained card, not full-bleed */
   .patron-blog-detail .pbd-hero-media { min-width: 0; }
   .patron-blog-detail .pbd-hero-image {
-    width: 100%; aspect-ratio: 4 / 3; object-fit: cover; margin: 0;
-    border-radius: var(--p-radius-lg); border: 1px solid var(--p-border);
-    box-shadow: 0 22px 44px -20px rgba(11, 46, 79, 0.38);
+    width: 100%; aspect-ratio: 3 / 2; object-fit: cover; margin: 0;
+    border-radius: var(--p-radius-lg) var(--p-radius-lg) 0 0; border: 1px solid var(--p-border);
+    box-shadow: 0 22px 44px -20px rgba(11, 46, 79, 0.30); display: block;
   }
+  /* small CTA bar attached under the hero image */
+  .patron-blog-detail .pbd-hero-media-cta {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 12px 16px; background: var(--p-navy);
+    border-radius: 0 0 var(--p-radius-lg) var(--p-radius-lg);
+    box-shadow: 0 22px 44px -22px rgba(11, 46, 79, 0.30);
+  }
+  .patron-blog-detail .pbd-hero-media-cta-text { font-size: 13px; color: rgba(255,255,255,0.85); }
+  .patron-blog-detail .pbd-hero-media-cta-btn { font-size: 13px; font-weight: 600; color: #fff; white-space: nowrap; }
+  .patron-blog-detail .pbd-hero-media-cta-btn:hover { color: var(--p-orange); }
+  /* trust strip */
+  .patron-blog-detail .pbd-hero-trust {
+    display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 20px;
+  }
+  .patron-blog-detail .pbd-hero-trust-item {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12.5px; font-weight: 600; color: var(--p-charcoal);
+    background: var(--p-bg-surface); border: 1px solid var(--p-border);
+    padding: 6px 12px; border-radius: var(--p-radius-pill);
+  }
+  .patron-blog-detail .pbd-hero-trust-item svg { width: 14px; height: 14px; color: #1B7A3A; }
+  .patron-blog-detail .pbd-hero-rating {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12.5px; color: var(--p-charcoal);
+    background: var(--p-bg-surface); border: 1px solid var(--p-border);
+    padding: 6px 12px; border-radius: var(--p-radius-pill);
+  }
+  .patron-blog-detail .pbd-hero-rating svg { width: 15px; height: 15px; color: #F4B400; }
+  .patron-blog-detail .pbd-hero-rating strong { color: var(--p-navy); font-weight: 700; }
   @media (max-width: 900px) {
     .patron-blog-detail .pbd-hero { padding: 22px 0 26px; }
     .patron-blog-detail .pbd-hero-grid { grid-template-columns: 1fr; gap: 22px; }
@@ -1133,11 +1162,31 @@
               <svg class="pbd-hero-author-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </a>
           @endif
+
+          {{-- trust strip (mirrors cluster hero) --}}
+          <div class="pbd-hero-trust">
+            <span class="pbd-hero-trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
+              ICAI &amp; ICSI Registered
+            </span>
+            <span class="pbd-hero-trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
+              15+ Years Experience
+            </span>
+            <span class="pbd-hero-rating" title="Rated 4.9 on Google">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <strong>4.9</strong> Google reviews
+            </span>
+          </div>
         </div>
 
         @if($post->featured_image)
           <div class="pbd-hero-media">
             <img class="pbd-hero-image" src="{{ $post->featured_image_url }}" alt="{{ $post->featured_image_alt ?? $post->title }}" loading="eager">
+            <div class="pbd-hero-media-cta">
+              <span class="pbd-hero-media-cta-text">Have a question on this topic?</span>
+              <a href="https://wa.me/919459456700?text={{ urlencode('Hi Patron, I have a question about: ' . $post->title) }}" target="_blank" rel="noopener" class="pbd-hero-media-cta-btn">Ask a CA free &rarr;</a>
+            </div>
           </div>
         @endif
       </div>

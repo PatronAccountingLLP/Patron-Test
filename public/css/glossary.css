@@ -324,3 +324,18 @@
 .gl-rotcta__dots{margin-top:18px;gap:6px}
 .gl-rotcta__dot{width:6px;height:6px;background:rgba(255,255,255,.26)}
 .gl-rotcta__dot.is-active{width:18px;border-radius:3px;background:#E8712C}
+
+/* ============ CTA cards -> match sitewide .reviews-cta / .btn-cta ============ */
+.gl-herocta,.gl-rotcta{background:linear-gradient(120deg,#0F2942 0%,#1B365D 45%,#27547f 100%);border:none;box-shadow:0 14px 34px rgba(15,54,95,.30)}
+.gl-herocta::before,.gl-rotcta::before,.gl-herocta::after,.gl-rotcta::after{content:none !important;display:none !important}
+.gl-herocta__badge,.gl-rotcta__badge{display:none !important}
+.gl-cta-icon{width:48px;height:48px;background:rgba(255,255,255,.1);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;position:relative;z-index:1}
+.gl-cta-icon svg{width:24px;height:24px;color:#fff}
+.gl-herocta h3,.gl-rotcta h3{font-size:18px;font-weight:700;color:#fff;margin:0 0 6px;line-height:1.3;letter-spacing:0}
+.gl-herocta p,.gl-rotcta p{font-size:13px;color:rgba(255,255,255,.72);line-height:1.6;margin:0 0 18px}
+.gl-herocta__btn,.gl-rotcta__btn{height:auto;padding:12px 24px;font-size:14px;font-weight:700;color:#1B365D;background:linear-gradient(180deg,#ffffff 0%,#eaf1fb 100%);border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.9)}
+.gl-herocta__btn:hover,.gl-rotcta__btn:hover{background:linear-gradient(180deg,#ffffff 0%,#dfeaf9 100%);transform:translateY(-1px);box-shadow:0 10px 22px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.9);color:#0F2942}
+.gl-page a.gl-herocta__btn,.gl-page a.gl-rotcta__btn{color:#1B365D}
+.gl-herocta__trust{color:rgba(255,255,255,.72)}
+.gl-rotcta__dot{background:rgba(255,255,255,.32)}
+.gl-rotcta__dot.is-active{background:#fff;width:18px;border-radius:3px}

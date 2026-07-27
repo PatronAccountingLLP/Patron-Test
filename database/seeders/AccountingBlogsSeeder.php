@@ -32,27 +32,29 @@ class AccountingBlogsSeeder extends Seeder
 
         $now = Carbon::now();
 
-        $userId = DB::table('users')->where('email', 'sundram@patronaccounting.com')->value('id');
+        // Author: CA Puja Pradhan (existing site author; matched by name, like the author-hub controller).
+        $userId = DB::table('users')->where('name', 'LIKE', '%Puja Pradhan%')->value('id')
+               ?: DB::table('users')->where('name', 'LIKE', '%Puja%')->value('id');
         if (! $userId) {
             $userId = DB::table('users')->insertGetId([
-                'name' => 'CA Sundram Gupta', 'email' => 'sundram@patronaccounting.com',
+                'name' => 'CA Puja Pradhan', 'email' => 'puja@patronaccounting.com',
                 'password' => bcrypt(Str::random(40)), 'role' => 'editor',
                 'created_at' => $now, 'updated_at' => $now,
+            ]);
+        }
+
+        // Every accounting-cluster blog maps under a single category.
+        $catName = 'Accounting and Bookkeeping'; $catSlug = 'accounting-and-bookkeeping';
+        $catId = DB::table('post_categories')->where('slug', $catSlug)->value('id');
+        if (! $catId) {
+            $catId = DB::table('post_categories')->insertGetId([
+                'name' => $catName, 'slug' => $catSlug, 'created_at' => $now, 'updated_at' => $now,
             ]);
         }
 
         foreach ($posts as $p) {
             $slug = $p['slug'] ?? null;
             if (! $slug) continue;
-
-            $catName = $p['category'] ?: 'Accounting';
-            $catSlug = Str::slug($catName);
-            $catId = DB::table('post_categories')->where('slug', $catSlug)->value('id');
-            if (! $catId) {
-                $catId = DB::table('post_categories')->insertGetId([
-                    'name' => $catName, 'slug' => $catSlug, 'created_at' => $now, 'updated_at' => $now,
-                ]);
-            }
 
             $fields = [
                 'title' => $p['title'], 'content' => $p['content'], 'key_points' => $p['key_points'] ?? null,
@@ -75,16 +77,15 @@ class AccountingBlogsSeeder extends Seeder
                 $postId = DB::table('posts')->insertGetId($fields);
             }
 
-            if (! DB::table('post_category_post')->where('post_id', $postId)->where('post_category_id', $catId)->exists()) {
-                DB::table('post_category_post')->insert([
-                    'post_id' => $postId, 'post_category_id' => $catId, 'created_at' => $now, 'updated_at' => $now,
-                ]);
-            }
-            if (! DB::table('post_user')->where('post_id', $postId)->where('user_id', $userId)->exists()) {
-                DB::table('post_user')->insert([
-                    'post_id' => $postId, 'user_id' => $userId, 'created_at' => $now, 'updated_at' => $now,
-                ]);
-            }
+            // Map to exactly one category + one author (corrective: replaces any prior mapping).
+            DB::table('post_category_post')->where('post_id', $postId)->delete();
+            DB::table('post_category_post')->insert([
+                'post_id' => $postId, 'post_category_id' => $catId, 'created_at' => $now, 'updated_at' => $now,
+            ]);
+            DB::table('post_user')->where('post_id', $postId)->delete();
+            DB::table('post_user')->insert([
+                'post_id' => $postId, 'user_id' => $userId, 'created_at' => $now, 'updated_at' => $now,
+            ]);
         }
     }
 }

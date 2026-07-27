@@ -27,23 +27,24 @@ class BookkeepingVsAccountingBlogSeeder extends Seeder
         $now  = Carbon::now();
         $slug = 'bookkeeping-vs-accounting-difference-india';
 
-        // Category
-        $catId = DB::table('post_categories')->where('slug', 'accounting-basics')->value('id');
+        // Category — Accounting and Bookkeeping (single cluster category)
+        $catId = DB::table('post_categories')->where('slug', 'accounting-and-bookkeeping')->value('id');
         if (! $catId) {
             $catId = DB::table('post_categories')->insertGetId([
-                'name' => 'Accounting Basics',
-                'slug' => 'accounting-basics',
-                'description' => 'Foundational accounting and bookkeeping explainers for Indian businesses.',
+                'name' => 'Accounting and Bookkeeping',
+                'slug' => 'accounting-and-bookkeeping',
+                'description' => 'Accounting and bookkeeping guides for Indian businesses.',
                 'created_at' => $now, 'updated_at' => $now,
             ]);
         }
 
-        // Author
-        $userId = DB::table('users')->where('email', 'sundram@patronaccounting.com')->value('id');
+        // Author — CA Puja Pradhan (matched by name, like the author-hub controller)
+        $userId = DB::table('users')->where('name', 'LIKE', '%Puja Pradhan%')->value('id')
+               ?: DB::table('users')->where('name', 'LIKE', '%Puja%')->value('id');
         if (! $userId) {
             $userId = DB::table('users')->insertGetId([
-                'name' => 'CA Sundram Gupta',
-                'email' => 'sundram@patronaccounting.com',
+                'name' => 'CA Puja Pradhan',
+                'email' => 'puja@patronaccounting.com',
                 'password' => bcrypt(Str::random(40)),
                 'role' => 'editor',
                 'created_at' => $now, 'updated_at' => $now,
@@ -123,7 +124,7 @@ KP;
             'key_points' => $keyPoints,
             'excerpt' => 'Bookkeeping records; accounting interprets. Where one ends and the other starts. Set out with the working, not just the rule. Reviewed by our CA team.',
             'description' => 'Bookkeeping records; accounting interprets. Where one ends and the other starts. Set out with the working, not just the rule. Reviewed by our CA team.',
-            'featured_image' => null,
+            'featured_image' => 'blog/bookkeeping-vs-accounting-difference-india/hero.webp',
             'meta_title' => 'What is the difference: A Practical Guide for India',
             'meta_description' => 'Bookkeeping records; accounting interprets. Where one ends and the other starts. Set out with the working, not just the rule. Reviewed by our CA team.',
             'meta_keywords' => 'difference between bookkeeping and accounting, bookkeeping vs accounting, difference between a bookkeeper and an accountant, is bookkeeping part of accounting',
@@ -147,17 +148,16 @@ KP;
             $postId = DB::table('posts')->insertGetId($fields);
         }
 
-        if (! DB::table('post_category_post')->where('post_id', $postId)->where('post_category_id', $catId)->exists()) {
-            DB::table('post_category_post')->insert([
-                'post_id' => $postId, 'post_category_id' => $catId,
-                'created_at' => $now, 'updated_at' => $now,
-            ]);
-        }
-        if (! DB::table('post_user')->where('post_id', $postId)->where('user_id', $userId)->exists()) {
-            DB::table('post_user')->insert([
-                'post_id' => $postId, 'user_id' => $userId,
-                'created_at' => $now, 'updated_at' => $now,
-            ]);
-        }
+        // Map to exactly one category + one author (corrective: replaces any prior mapping).
+        DB::table('post_category_post')->where('post_id', $postId)->delete();
+        DB::table('post_category_post')->insert([
+            'post_id' => $postId, 'post_category_id' => $catId,
+            'created_at' => $now, 'updated_at' => $now,
+        ]);
+        DB::table('post_user')->where('post_id', $postId)->delete();
+        DB::table('post_user')->insert([
+            'post_id' => $postId, 'user_id' => $userId,
+            'created_at' => $now, 'updated_at' => $now,
+        ]);
     }
 }

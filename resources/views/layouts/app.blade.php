@@ -170,6 +170,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </style>
     
     @stack('styles')
+
+    @include('partials.schema-organization')
 </head>
 @php($__embed = request()->boolean('embed'))
 <body class="{{ $__embed ? 'is-embed' : '' }}">

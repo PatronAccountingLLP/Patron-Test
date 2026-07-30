@@ -93,6 +93,9 @@
         "url": @json($schemaAuthorUrl)
       },
       @endif
+      "publisher": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
       "datePublished": "{{ ($post->published_at ?? $post->created_at)?->toIso8601String() }}",
       "dateModified": "{{ ($post->updated_at ?? $post->published_at ?? $post->created_at)?->toIso8601String() }}",
       @if($primaryCategory)

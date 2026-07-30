@@ -213,50 +213,6 @@
       ]
     },
     {
-      "@type": [
-        "Organization",
-        "AccountingService"
-      ],
-      "@id": "https://www.patronaccounting.com/#organization",
-      "name": "Patron Accounting LLP",
-      "legalName": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.patronaccounting.com/images/patron-logo.webp"
-      },
-      "image": "https://www.patronaccounting.com/images/patron-logo.webp",
-      "email": "sales@patronaccounting.com",
-      "telephone": "+91-94594-56700",
-      "foundingDate": "2019",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "RTC Silver, B4-708, Sai Satyam Park, Wagholi",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "412207",
-        "addressCountry": "IN"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-94594-56700",
-        "email": "sales@patronaccounting.com",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": [
-          "en",
-          "hi"
-        ]
-      },
-      "areaServed": "IN",
-      "sameAs": [
-        "https://www.facebook.com/share/1BqqRYkpJX/",
-        "https://www.instagram.com/patronaccounting/",
-        "https://x.com/LlpPatron",
-        "https://www.youtube.com/@patronaccountingllp7130"
-      ]
-    },
-    {
       "@type": "Organization",
       "@id": "https://www.patronaccounting.com/#team",
       "name": "Patron Accounting - CA & CS Team",

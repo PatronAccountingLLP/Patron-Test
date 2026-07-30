@@ -133,6 +133,7 @@
     </style>
     @stack('styles')
 
+    @include('partials.schema-organization')
 </head>
 <body>
     @include('partials.header')

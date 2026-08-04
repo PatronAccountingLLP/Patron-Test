@@ -184,9 +184,10 @@
 
 @section('content')
 <style>
-/* the TOC bar is sticky at top:0 and 88px tall, so a jump from it would otherwise land with
+/* the sticky site header (.pa-h ~70px) and the pill TOC beneath it stack to ~150px, so a
+   jump from the TOC would otherwise land with
    the heading tucked underneath. Clear it for every anchor target on the page. */
-main section,main [id]{scroll-margin-top:104px}
+main section,main [id]{scroll-margin-top:160px}
 
 /* Hero benefits: four short claims, two across on a laptop and up. They were four
    claim-plus-proof paragraphs stacked, which filled the hero and pushed the call row below
@@ -1586,7 +1587,7 @@ main section,main [id]{scroll-margin-top:104px}
   if(r2) r2.addEventListener('click',function(){nudge(1);});
 })();
 </script>
-<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script></script>
 <script>
 /* Same behaviour as the accounting cluster's slick config - 4/3/2/1 across, autoplay 4500ms
    (3000 on mobile), no arrows, pause on hover and on focus, swipe - but written against

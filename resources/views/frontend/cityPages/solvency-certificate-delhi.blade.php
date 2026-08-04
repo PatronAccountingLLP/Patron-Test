@@ -128,7 +128,7 @@
    "@type": "FAQPage",
    "@id": "https://www.patronaccounting.com/solvency-certificate/delhi#faq",
    "datePublished": "2026-07-30T10:00:00+05:30",
-   "dateModified": "2026-08-04T10:00:00+05:30",
+   "dateModified": "2026-08-05T10:00:00+05:30",
    "mainEntity": [
     {
      "@type": "Question",
@@ -225,7 +225,7 @@
     "@id": "https://www.patronaccounting.com/#organization"
    },
    "datePublished": "2026-07-30T10:00:00+05:30",
-   "dateModified": "2026-08-04T10:00:00+05:30"
+   "dateModified": "2026-08-05T10:00:00+05:30"
   }
  ]
 }
@@ -239,9 +239,10 @@
 
 @section('content')
 <style>
-/* the TOC bar is sticky at top:0 and 88px tall, so a jump from it would otherwise land with
+/* the sticky site header (.pa-h ~70px) and the pill TOC beneath it stack to ~150px, so a
+   jump from the TOC would otherwise land with
    the heading tucked underneath. Clear it for every anchor target on the page. */
-main section,main [id]{scroll-margin-top:104px}
+main section,main [id]{scroll-margin-top:160px}
 
 /* Hero benefits: four short claims, two across on a laptop and up. They were four
    claim-plus-proof paragraphs stacked, which filled the hero and pushed the call row below
@@ -298,6 +299,85 @@ main section,main [id]{scroll-margin-top:104px}
 @media(max-width:1100px){.pa-cross-grid .pa-cross-card{flex:1 1 calc(33.333% - 12px)}}
 @media(max-width:820px){.pa-cross-grid .pa-cross-card{flex:1 1 calc(50% - 9px)}}
 @media(max-width:520px){.pa-cross-grid .pa-cross-card{flex:1 1 100%}}
+
+/* ------------------------------------------------------------------ the hub directory
+   Modelled on the accounting cluster's own hub template: a category rail that scrolls with
+   the reader on the left, the categories and their cards on the right. Six flat grids stacked
+   one after another gave nobody a way to reach "Free Tools" without scrolling past thirty
+   cards. */
+.hub-layout{display:grid;grid-template-columns:264px minmax(0,1fr);gap:34px;align-items:start}
+.hub-rail{position:sticky;top:104px;background:#fff;border:1px solid var(--gray-200);
+  border-radius:14px;padding:16px 14px;max-height:calc(100vh - 128px);overflow:auto}
+.hub-rail__title{font-size:11.5px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;
+  color:var(--text-muted);margin:0 0 10px;padding-left:6px}
+.hub-search{display:block;margin-bottom:12px}
+.hub-search input{width:100%;padding:9px 12px;border:1px solid var(--gray-200);border-radius:9px;
+  font:inherit;font-size:13.5px;background:var(--gray-50);outline:none}
+.hub-search input:focus{border-color:var(--blue);background:#fff}
+.hub-rail__item{display:flex;align-items:center;gap:9px;padding:9px 10px;border-radius:9px;
+  color:var(--text-secondary);text-decoration:none;font-size:13.5px;font-weight:600;line-height:1.3}
+.hub-rail__item:hover{background:var(--gray-50);color:var(--blue)}
+.hub-rail__item.is-active{background:var(--orange-lighter);color:var(--blue)}
+.hub-rail__ic{flex-shrink:0;width:26px;height:26px;border-radius:7px;background:var(--gray-50);
+  display:flex;align-items:center;justify-content:center;color:var(--orange)}
+.hub-rail__item.is-active .hub-rail__ic{background:var(--orange);color:#fff}
+.hub-rail__ic svg{width:15px;height:15px}
+.hub-rail__n{margin-left:auto;font-size:11.5px;font-weight:700;color:var(--text-muted)}
+.hub-block{margin-bottom:34px;scroll-margin-top:120px}
+.hub-block__head{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.hub-block__ic{width:36px;height:36px;border-radius:10px;background:var(--orange-lighter);
+  display:flex;align-items:center;justify-content:center;color:var(--orange);flex-shrink:0}
+.hub-block__ic svg{width:19px;height:19px}
+.hub-block__h2{font-size:21px;font-weight:700;color:var(--blue);margin:0}
+.hub-rail__cta{display:block;margin-top:14px;padding:11px 14px;border-radius:10px;
+  background:var(--orange);color:#fff;text-align:center;font-size:14px;font-weight:700;
+  text-decoration:none}
+.hub-rail__cta:hover{background:var(--blue);color:#fff}
+
+/* the live hub's card: category mark on the left, text beside it, corner arrow */
+/* fixed thirds, NOT flex-grow. The live hub keeps every card the same width and lets a short
+   row end early - Core Accounting there has one card at a third of the width. Growing the last
+   row is right for the service pages' Related Services shelf and wrong here: these cards sit in
+   a scannable column of equal tiles. */
+.hub-directory .nwc-card{flex:0 1 calc(33.333% - 12px);min-width:250px;padding:0}
+.hub-directory .nwc-card a{display:flex;gap:13px;align-items:flex-start;padding:18px 19px;
+  position:relative}
+.nwc-card__ic{flex-shrink:0;width:34px;height:34px;border-radius:9px;background:var(--gray-50);
+  display:flex;align-items:center;justify-content:center;color:var(--orange)}
+.nwc-card__ic svg{width:17px;height:17px}
+.nwc-card:hover .nwc-card__ic{background:var(--orange-lighter)}
+.nwc-card__txt{min-width:0}
+.nwc-card__go{position:absolute;top:14px;right:15px;color:var(--gray-400);font-size:14px;
+  transition:color .22s ease,transform .22s ease}
+.nwc-card:hover .nwc-card__go{color:var(--orange);transform:translate(2px,-2px)}
+.nwc-card__fee{display:block;margin-top:9px;font-size:12.5px;font-weight:700;color:var(--orange)}
+@media(max-width:1250px){.hub-directory .nwc-card{flex:0 1 calc(50% - 9px)}}
+@media(max-width:640px){.hub-directory .nwc-card{flex:0 1 100%}}
+.hub-empty{margin:8px 0 0;color:var(--text-muted);font-size:14.5px}
+.hub-empty button{border:0;background:none;color:var(--blue);font:inherit;font-weight:700;
+  text-decoration:underline;cursor:pointer;padding:0}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:1000px){.hub-layout{grid-template-columns:1fr;gap:20px}
+  .hub-rail{position:static;max-height:none;display:flex;flex-wrap:wrap;gap:8px}
+  .hub-rail__title{width:100%}
+  .hub-search{width:100%;order:-1}
+  .hub-rail__item{flex:0 1 auto;border:1px solid var(--gray-200)}}
+
+/* The hub's directory grids. The DIRECTORY workbook ships each card as
+   <article class="nwc-card"> with the title as an H3 inside the anchor and the body under it;
+   the layout is the page's. Four across on a laptop, and the last row's cards grow rather than
+   leaving a hole - "Free Tools" has 7 and "Certificates in Your City" has 15. */
+.nwc-card-grid{display:flex;flex-wrap:wrap;gap:18px;margin-top:8px}
+.nwc-card{flex:1 1 calc(25% - 14px);min-width:236px;background:#fff;border:1px solid var(--gray-200);
+  border-radius:14px;padding:20px 22px;transition:border-color .22s ease,box-shadow .22s ease,transform .22s ease}
+.nwc-card:hover{border-color:var(--orange);box-shadow:0 6px 20px rgba(232,113,44,.12);transform:translateY(-2px)}
+.nwc-card a{text-decoration:none;display:block}
+.nwc-card h3{font-size:16px;font-weight:700;color:var(--blue);margin:0 0 8px;line-height:1.35}
+.nwc-card:hover h3{color:var(--orange)}
+.nwc-card p{margin:0;font-size:13.5px;line-height:1.6;color:var(--text-secondary)}
+@media(max-width:1100px){.nwc-card{flex:1 1 calc(33.333% - 12px)}}
+@media(max-width:820px){.nwc-card{flex:1 1 calc(50% - 9px)}}
+@media(max-width:520px){.nwc-card{flex:1 1 100%}}
 
 /* Read Next: a reading list, not a card wall. Two columns where there is room.
    GRID, not `columns:2`. The estate's own `section ul li:not(.nav-item)` makes every prose
@@ -1520,7 +1600,7 @@ main section,main [id]{scroll-margin-top:104px}
 
 <div class="eeat-review-wrap"><div class="eeat-review">
   <div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div>
-  <div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; certification &nbsp;&middot;&nbsp; Last reviewed 4 August 2026 &nbsp;&middot;&nbsp; Next review 4 November 2026</div>
+  <div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; certification &nbsp;&middot;&nbsp; Last reviewed 5 August 2026 &nbsp;&middot;&nbsp; Next review 5 November 2026</div>
   <div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a><a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal</a><a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a></div>
 </div></div>
 
@@ -1580,7 +1660,7 @@ main section,main [id]{scroll-margin-top:104px}
   if(r2) r2.addEventListener('click',function(){nudge(1);});
 })();
 </script>
-<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
+<script></script>
 <script>
 /* Same behaviour as the accounting cluster's slick config - 4/3/2/1 across, autoplay 4500ms
    (3000 on mobile), no arrows, pause on hover and on focus, swipe - but written against
@@ -1707,4 +1787,5 @@ main section,main [id]{scroll-margin-top:104px}
     if(e.key==='Escape'&&lb.classList.contains('is-open')) shut();});
 })();
 </script>
+<script></script>
 @endsection

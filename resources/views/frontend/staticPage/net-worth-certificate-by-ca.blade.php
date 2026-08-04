@@ -157,7 +157,7 @@ main section,main [id]{scroll-margin-top:160px}
    one after another gave nobody a way to reach "Free Tools" without scrolling past thirty
    cards. */
 .hub-layout{display:grid;grid-template-columns:264px minmax(0,1fr);gap:34px;align-items:start}
-.hub-rail{position:sticky;top:104px;background:#fff;border:1px solid var(--gray-200);
+.hub-rail{position:sticky;top:160px;background:#fff;border:1px solid var(--gray-200);
   border-radius:14px;padding:16px 14px;max-height:calc(100vh - 128px);overflow:auto}
 .hub-rail__title{font-size:11.5px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;
   color:var(--text-muted);margin:0 0 10px;padding-left:6px}
@@ -288,7 +288,9 @@ main section,main [id]{scroll-margin-top:160px}
    align-items:start shrinks the item's box to its own content. */
 .specimen-item{margin:0;display:grid;grid-template-columns:minmax(0,1fr) 470px;gap:40px;align-items:stretch}
 .specimen-caption{min-width:0}
-.specimen-sticky{position:sticky;top:112px}
+/* clears the sticky header (~70px) + pill TOC (~80px); pinned any higher and the
+   specimen's first lines sit behind the TOC bar */
+.specimen-sticky{position:sticky;top:160px}
 .specimen-sticky .section-title{margin-top:0}
 /* both captions stay readable; the active one is marked, not the other one hidden */
 .specimen-pane{padding:14px 0 14px 16px;border-left:3px solid transparent;transition:border-color .25s,opacity .25s;opacity:.62}
@@ -335,7 +337,7 @@ main section,main [id]{scroll-margin-top:160px}
 .specimen-frame:focus-visible{outline:2px solid var(--orange,#f26522);outline-offset:3px}
 .specimen-doc{display:none}
 .specimen-doc.is-active{display:block}
-.specimen-zoom{position:sticky;float:right;right:14px;bottom:14px;top:calc(96px/.55);
+.specimen-zoom{position:sticky;float:right;right:14px;bottom:14px;top:calc(160px/.55);
   background:rgba(20,54,95,.92);color:#fff;font-family:'Barlow',sans-serif;font-size:22px;
   padding:8px 18px;border-radius:50px;z-index:2}
 .specimen-hint{display:none;align-items:center;justify-content:space-between;gap:12px;

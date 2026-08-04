@@ -12,7 +12,14 @@ class TrustProxies extends Middleware
      *
      * @var array<int, string>|string|null
      */
-    protected $proxies;
+    /**
+     * Render (and any TLS-terminating platform proxy) forwards the real scheme in
+     * X-Forwarded-Proto. With no trusted proxy that header is ignored, the request looks
+     * like plain http, and asset()/url() emit http:// links into an https:// page - which
+     * the browser then blocks as mixed content, leaving every page unstyled. The app is only
+     * reachable through the platform's proxy, so trusting it is the standard fix.
+     */
+    protected $proxies = '*';
 
     /**
      * The headers that should be used to detect proxies.

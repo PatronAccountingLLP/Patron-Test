@@ -1348,7 +1348,9 @@
 .google-rating .rating-count{font-size:12px !important;}
 
 /* -- E-E-A-T reviewer footer: full content-width wide box on desktop -- */
-.eeat-review-wrap{max-width:1320px;margin:0 auto;padding:0 32px;}
+/* full-bleed: the review strip spans the viewport rather than sitting inside the
+   1320px content column, so it reads as a band across the page */
+.eeat-review-wrap{max-width:none;margin:0;padding:0 32px;}
 .eeat-review{width:100%;margin:8px 0 48px;padding:26px 40px;border-radius:16px;text-align:center;
   background:linear-gradient(180deg,#ffffff,var(--gray-50));border:1px solid var(--gray-200);
   box-shadow:0 6px 20px rgba(15,54,95,.06);position:relative;overflow:hidden;}
@@ -1409,9 +1411,13 @@
 
 /* -- sticky TOC nav: make it opaque and above content, and stop it hiding section
       headings on anchor jumps -- */
-.toc-section{top:0;z-index:60;background:var(--white) !important;
+/* The site header (.pa-h) is position:sticky;top:0. Pinning the pill TOC at top:0 too put
+   the two in the same place, so the TOC sat ON the header and clipped the logo, and any
+   anchor jump landed the heading under the pair. The TOC belongs directly beneath the
+   header, and the scroll offset has to clear both (~70px + ~80px). */
+.toc-section{top:70px;z-index:60;background:var(--white) !important;
   box-shadow:0 4px 14px rgba(15,54,95,0.06);}
-[id]{scroll-margin-top:96px;}
+[id]{scroll-margin-top:160px;}
 
 /* -- ITR/WhatsApp seasonal bar is position:fixed;bottom:0 - reserve space so it
       never overlaps the last section (footer/cities) -- */

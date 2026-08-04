@@ -64,7 +64,7 @@ return new class extends Migration
                 'content' => $r['content'],
                 'excerpt' => $r['excerpt'],
                 'description' => $r['excerpt'],
-                'featured_image' => null,
+                'featured_image' => $r['featured_image'] ?? null,
                 'meta_title' => $r['meta_title'],
                 'meta_description' => $r['meta_description'],
                 'meta_keywords' => $r['meta_keywords'],

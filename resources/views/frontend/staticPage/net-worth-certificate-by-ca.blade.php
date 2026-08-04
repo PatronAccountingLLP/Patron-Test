@@ -76,7 +76,7 @@
     "@id": "https://www.patronaccounting.com/#organization"
    },
    "datePublished": "2026-07-30T10:00:00+05:30",
-   "dateModified": "2026-08-04T10:00:00+05:30"
+   "dateModified": "2026-08-05T10:00:00+05:30"
   }
  ]
 }
@@ -748,7 +748,7 @@ body.is-hub{background:#F4F7FB}
 
 <div class="eeat-review-wrap"><div class="eeat-review">
   <div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div>
-  <div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; certification &nbsp;&middot;&nbsp; Last reviewed 4 August 2026 &nbsp;&middot;&nbsp; Next review 4 November 2026</div>
+  <div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; certification &nbsp;&middot;&nbsp; Last reviewed 5 August 2026 &nbsp;&middot;&nbsp; Next review 5 November 2026</div>
   <div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a><a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal</a><a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a></div>
 </div></div>
 

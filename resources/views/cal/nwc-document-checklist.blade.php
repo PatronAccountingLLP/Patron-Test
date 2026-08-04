@@ -20,7 +20,7 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
 @endsection
-@section('schema')
+@push('meta-content')
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"NWC Document Checklist Generator","description":"NWC Document Checklist Generator produces a customised list of documents required to obtain a Chartered Accountant-certified Net Worth Certificate. Inputs include the use case (visa application to US/UK/Canada/Australia/Schengen/Singapore/UAE, bank loan, government tender, director appointment, or other), the asset categories held by the applicant (bank balances, fixed deposits, mutual funds, listed and unlisted shares, real estate, vehicles, gold, retirement funds, business capital, foreign assets), the liability categories outstanding (home loan, personal loan, vehicle loan, credit card, business borrowings), and whether foreign currency conversion is required. The output is a structured document checklist organised into sections: universal identity documents, use-case-specific filings, country-specific embassy notes, asset-specific source documents, liability-specific outstanding-balance certificates, foreign currency conversion documentation, and submission tips. The tool is intended to help applicants prepare a complete documentation pack before engaging a Chartered Accountant to issue a UDIN-verified Net Worth Certificate.","url":"/tools/nwc-document-checklist","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
 </script>
@@ -44,7 +44,9 @@
 {"@type":"Question","name":"Is this checklist accepted by visa offices, banks, or tender authorities?","acceptedAnswer":{"@type":"Answer","text":"No — this is a checklist generator only. It tells you which documents you need to assemble before engaging a Chartered Accountant. The actual Net Worth Certificate must be issued by a practising CA on firm letterhead with ICAI membership number, firm registration number, and UDIN (Unique Document Identification Number). The CA verifies your source documents against the assets and liabilities declared, then issues the legally valid certificate. Use this generator to prepare; then engage Patron Accounting to issue the certified document."}}
 ]}
 </script>
-@endsection
+@endpush
+
+@section('content')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -243,8 +245,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
-
-@section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
 <a href="#calculator">Generator</a><a href="#how-to-use">How to Use</a><a href="#universal">Universal Docs</a><a href="#by-use-case">By Use Case</a><a href="#by-asset">By Asset Type</a><a href="#country-notes">Country Notes</a><a href="#submission">Submission Tips</a><a href="#faqs">FAQs</a>
 </div></nav>

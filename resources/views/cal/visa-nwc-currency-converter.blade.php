@@ -21,7 +21,7 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 @endsection
-@section('schema')
+@push('meta-content')
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -177,7 +177,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@endpush
+
+@section('content')
 <style>
         :root {
             --primary: #15365f;
@@ -690,7 +692,6 @@ a:focus-visible {
 
 
         </style>
-@section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">
         <a href="#calculator">Converter</a>

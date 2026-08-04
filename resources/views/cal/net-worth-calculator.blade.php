@@ -19,7 +19,7 @@
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 @endsection
-@section('schema')
+@push('meta-content')
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Net Worth Calculator","description":"Net Worth Calculator computes personal net worth for Indian residents using an itemised asset and liability schedule, formatted in the same structure that a Chartered Accountant uses to issue a Net Worth Certificate for US, UK, Canada, Australia, and Schengen visa applications. Assets are captured across 11 categories: bank balances, fixed deposits, mutual funds, listed shares, unlisted shares, real estate with joint-property share, vehicles with auto-depreciation by purchase year, gold, business capital, retirement funds, and other assets. Liabilities across 6 categories: home loans, personal loans, vehicle loans, credit card dues, business borrowings, and other liabilities. Outputs total net worth in INR and converted to USD, CAD, GBP, EUR, or AUD at user-overridable conversion rates. Includes 5 critical adjustment warnings (joint property share, vehicle depreciation, FD accrued interest, insurance surrender value, mutual fund NAV) and a CA-certified upgrade path for visa and immigration submissions.","url":"/tools/net-worth-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
 </script>
@@ -43,7 +43,9 @@
 {"@type":"Question","name":"Is this Net Worth Calculator a substitute for a CA certificate?","acceptedAnswer":{"@type":"Answer","text":"No. This calculator gives a directional preview that mimics the format of a real Net Worth Certificate but it does NOT have any legal or evidentiary value. Visa offices, embassies, banks, and other authorities will not accept the output of this calculator. To produce a legally valid certificate accepted by US, UK, Canada, Australia, Schengen and Indian banks, you must engage a practising Chartered Accountant who issues the certificate on their firm letterhead with ICAI membership details and UDIN. Patron Accounting issues CA-certified Net Worth Certificates in 2-5 working days with fixed-fee pricing."}}
 ]}
 </script>
-@endsection
+@endpush
+
+@section('content')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -232,8 +234,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
-@section('content')
-
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#adjustments">5 Adjustments</a><a href="#certificate">Certificate Format</a><a href="#visa-use">Visa Use Cases</a><a href="#fx-rates">FX Rates</a><a href="#documents">Documents</a><a href="#faqs">FAQs</a>
 </div></nav>
@@ -992,3 +992,4 @@ window.addEventListener('scroll',()=>{const s=document.querySelectorAll('section
 
 </body>
 </html>
+@endsection

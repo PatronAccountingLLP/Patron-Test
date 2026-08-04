@@ -1,1112 +1,462 @@
+{{-- /net-worth-certificate-for-visa/mumbai
+     Generated from Generated Pages/net-worth-certificate-for-visa-mumbai/net-worth-certificate-for-visa-mumbai.html by Scripts/build_blade.py.
+     That file is built from the cluster's signed-off workbooks by build_page.py;
+     nothing here is authored. Re-run both rather than editing this file.
 
+     Before this goes live:
+       - deploy public/images/networth-cluster/net-worth-certificate-for-visa-mumbai/** and public/certificates/**
+       - deploy public/css/nwc-spec.css (new to Patron Local)
+       - patron-cluster.css and faq.css are already live; do not overwrite them
+       - the hero form is partials/enquiry-form.blade.php (Zoho Bigin), swapped in
+         at build time with this page's service pre-selected; the FAQ block is a
+         CTA that scrolls to it, so there is one Bigin form per page. --}}
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
 @section('meta')
-    <title>Net Worth Certificate for Visa Mumbai - Embassy Format</title>
-    <meta name="description" content="CA-certified net worth certificate for visa in Mumbai with UDIN. Dual currency format for Canada, US, UK, Australia visa. Serving BKC, Lower Parel, Andheri applicants. Call +91 945 945 6700.">
-    <link rel="canonical" href="/net-worth-certificate-for-visa/mumbai">
+    <title>Net Worth Certificate for Visa Applications in Mumbai</title>
+    <meta name="description" content="Prepared for the consulates at BKC and Nariman Point, covering business visitor files and family sponsorships, with dual currency presented where asked.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Visa Mumbai - Embassy Format">
-    <meta property="og:description" content="CA-certified net worth certificate for visa in Mumbai with UDIN. Dual currency format for Canada, US, UK, Australia visa. Serving BKC, Lower Parel, Andheri applicants. Call +91 945 945 6700.">
-    <meta property="og:url" content="/net-worth-certificate-for-visa/mumbai">
+    <meta property="og:title" content="Visa Certificates for Mumbai Consulates">
+    <meta property="og:description" content="BKC and Nariman Point missions, business and sponsored files, certified locally.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-visa-mumbai.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Visa Mumbai - Embassy Format">
-    <meta name="twitter:description" content="CA-certified net worth certificate for visa in Mumbai with UDIN. Dual currency format for Canada, US, UK, Australia visa. Serving BKC, Lower Parel, Andheri applicants. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/net-worth-certificate/mumbai-og.webp">
+    <meta name="twitter:title" content="Visa Certificates for Mumbai Consulates">
+    <meta name="twitter:description" content="BKC and Nariman Point missions, business and sponsored files, certified locally.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-visa-mumbai.jpg">
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
+    <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Service",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai#service",
+   "name": "Net Worth Certificate for Visa Applications in Mumbai",
+   "description": "Prepared for the consulates at BKC and Nariman Point, covering business visitor files and family sponsorships, with dual currency presented where asked.",
+   "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+   },
+   "areaServed": "Mumbai",
+   "url": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai"
+  },
+  {
+   "@type": "LocalBusiness",
+   "@id": "https://www.patronaccounting.com/mumbai/#localbusiness",
+   "name": "Patron Accounting LLP - Mumbai",
+   "parentOrganization": {
+    "@id": "https://www.patronaccounting.com/#organization"
+   },
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1st Floor, Rajshila Building, 104/597, Jagannath Shankar Seth Rd, near Maheshwari Bhavan, Marine Lines",
+    "addressLocality": "Mumbai",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN",
+    "postalCode": "400002"
+   },
+   "telephone": "+91 94594 56700",
+   "priceRange": "₹₹",
+   "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Mumbai"
+   },
+   "openingHoursSpecification": [
     {
-      "@type": "Service",
-      "name": "Net Worth Certificate for Visa in Mumbai",
-      "description": "CA-certified net worth certificate for visa in Mumbai with UDIN. Dual currency format for Canada, US, UK, Australia visa. Serving BKC, Lower Parel, Andheri applicants. Call +91 945 945 6700.",
-      "url": "/net-worth-certificate-for-visa/mumbai",
-      "serviceType": "Net Worth Certificate for Visa in Mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/net-worth-certificate-for-visa/mumbai",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3000",
-          "maxPrice": "5000",
-          "priceCurrency": "INR"
-        }
-      }
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ],
+     "opens": "09:00",
+     "closes": "19:00"
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate for Visa",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth Certificate for Visa in Mumbai",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Where can I get a visa certificate in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "From Patron at Marine Lines – 15 min from US Consulate BKC, 10 min from VFS Lower Parel. CA-certified dual currency with UDIN for 50+ countries. Scan 1-2 hours, physical same-day. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does it cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Individual dual currency: Rs 3,000-5,000. Student sponsor: Rs 4,000-6,000. Family/PR: Rs 5,000-7,000. Business visa: Rs 4,000-7,000. NRI: Rs 5,000-10,000. Property valuation supplementary: Rs 3,000-8,000."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Scan 1-2 hours. Physical same-day Mumbai. Entire process 2-3 hours including physical delivery. US Consulate BKC: 15 min from office. VFS Lower Parel: 10 min. Same-day guaranteed for urgent interviews."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it mandatory for Canada visa?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Strongly recommended for study permit, visitor visa, and PR via VFS Lower Parel/Andheri. Significantly strengthens financial proof. Dual currency INR + CAD. Parents' combined net worth standard for student visa sponsorship."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long is it valid?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "UK VFS: 30 days. Canadian VFS: 90 days. US Consulate: flexible (3-6 months). Australian VFS: 90 days. Prepare close to interview. Patron's same-day service enables correct timing for any embassy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do embassies check UDIN?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes – increasingly in 2025-2026. US Consulate BKC and Canadian VFS verify UDIN online. Without valid UDIN: rejection risk. Patron generates at signing for immediate verifiability on ICAI portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get it online?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Documents via secure portal. CA verifies, applies RBI rate, issues with UDIN. Scan email/WhatsApp 1-2 hours for online visa portal upload. Physical couriered same-day Mumbai."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are needed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Passport copy, PAN, Aadhaar, bank statements (6 months), FDs, MF CAS, DEMAT, PPF/NPS, property deeds + BMC tax + society certificate, gold, loans. Student sponsor: both parents' documents + admission letter. Quick Answers Visa ke liye net worth certificate kaise banwayein? Mumbai mein kisi bhi ICAI-registered practising CA se banwa sakte hain. Patron ka Marine Lines office 1-2 ghante mein scan aur same-day physical deliver karta hai. UDIN mandatory hai. Dual currency format kya hota hai? Net worth INR mein aur destination country ki currency (CAD, USD, GBP, AUD) mein bhi dikhaya jaata hai. RBI ki reference rate use hoti hai certificate ki date par. Property bhi count hoti hai? Haan. Mumbai ka flat, plot, ya commercial property immovable asset ke roop mein count hota hai. Maharashtra IGR ya market valuation use hoti hai."
-          }
-        }
-      ]
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Saturday"
+     ],
+     "opens": "09:00",
+     "closes": "15:00"
     }
-  ]
-}</script>
+   ],
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.946399281481842,
+    "longitude": 72.82745076674146
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.patronaccounting.com"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Net Worth Certificate by CA",
+     "item": "https://www.patronaccounting.com/net-worth-certificate-by-ca"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Net Worth Certificate for Visa",
+     "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "Net Worth Certificate for Visa in Mumbai",
+     "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai#faq",
+   "datePublished": "2026-07-30T10:00:00+05:30",
+   "dateModified": "2026-08-04T10:00:00+05:30",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Do the Mumbai consulates accept documents directly rather than through a visa centre?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Some do for certain categories. Missions at the Bandra Kurla Complex and Nariman Point each publish their own submission route. Business and official categories are more often handled directly than tourist files. Because the route decides the checklist, it is read on the mission's own page before the funds pack is assembled."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does a business visitor file differ from a family sponsorship in whose funds are shown?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The paying party changes. In a business visit the company usually meets the costs. So the company's position and a letter of invitation carry the file, with the traveller's own means shown as support. In a family sponsorship the sponsor's certificate is central and the applicant's holdings are secondary. The certificate names whose net worth it reports."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does a sponsor living abroad also need an Indian chartered accountant's certificate?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not usually. A sponsor resident overseas evidences means through local bank statements, tax filings and an affidavit of support prepared where they live. An Indian certificate becomes relevant where that sponsor holds assets in India, in which case the Indian holdings are certified here and the overseas ones evidenced abroad."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which Mumbai consulates expect a dual-currency presentation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It varies by mission, so the certificate is prepared to show both by default. A rupee total with the destination currency equivalent, the rate used and the rate date printed alongside satisfies missions that ask for it. It does not trouble those that do not. The alternative, reissuing after a query, costs a week."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do Mumbai property holdings help demonstrate ties to India?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They contribute. A visa officer assessing whether an applicant will return looks at employment, family and property together, and an owned Mumbai flat is a substantial anchor. It is not decisive on its own: refusals citing weak ties usually turn on the overall picture rather than on the absence of any single asset."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does a merchant navy applicant's file work differently?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The income evidence does. A seafarer's earnings arrive as foreign remittance against a contract rather than as a domestic salary. So the certificate is read with the continuous discharge certificate, the contract and the bank credits. The asset schedule itself is prepared exactly as for any other individual applicant."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can one certificate cover a couple applying together?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Where one of them funds the trip, yes, with the other named as accompanying. Where both are assessed on their own means, or where assets are held separately, two certificates read more cleanly than one joint document. Jointly held assets are shown at each holder's share so that nothing is counted twice across the two."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does a directorship in a Mumbai company strengthen a business visa file?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It supports the purpose of travel more than the funds. A directorship establishes the business relationship behind the visit, evidenced by the company's registration and the board record. The funds question is answered by the certificate and the bank statements. Missions treat the two as separate tests and expect evidence for each."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are demat holdings accepted as available funds?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They are counted as assets, not as ready money. A consulate asking whether the trip can be paid for looks at bank balances and deposits. Listed holdings must be sold and settled before they are spendable. The certificate reports the holding at its value on the stated date and the liquidity question is answered separately."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is a certificate needed for a short business trip?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Often not. Where an employer or an overseas host meets the costs and the invitation letter says so, missions frequently ask for nothing beyond employment evidence. The certificate becomes relevant for self-employed travellers, for first-time applicants with a thin travel history, and where the applicant funds the trip personally."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai#webpage",
+   "url": "https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai",
+   "name": "Net Worth Certificate for Visa Applications in Mumbai",
+   "description": "Prepared for the consulates at BKC and Nariman Point, covering business visitor files and family sponsorships, with dual currency presented where asked.",
+   "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+   },
+   "publisher": {
+    "@id": "https://www.patronaccounting.com/#organization"
+   },
+   "datePublished": "2026-07-30T10:00:00+05:30",
+   "dateModified": "2026-08-04T10:00:00+05:30"
+  }
+ ]
+}
+</script>
 @endsection
 
-<style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
-
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
-
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
-
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
-
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
-
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
-
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
-
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
-
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
-
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
-
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
-
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
-</style>
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('css/patron-cluster.css') }}?v={{ @filemtime(public_path('css/patron-cluster.css')) ?: '20260804' }}">
+    <link rel="stylesheet" href="{{ asset('css/nwc-spec.css') }}?v={{ @filemtime(public_path('css/nwc-spec.css')) ?: '20260804' }}">
+@endpush
 
 @section('content')
+<style>
+/* the TOC bar is sticky at top:0 and 88px tall, so a jump from it would otherwise land with
+   the heading tucked underneath. Clear it for every anchor target on the page. */
+main section,main [id]{scroll-margin-top:104px}
+
+/* Hero benefits: four short claims, two across on a laptop and up. They were four
+   claim-plus-proof paragraphs stacked, which filled the hero and pushed the call row below
+   the fold. The proof sentences live in the Why Patron section, which is where they were
+   written for. */
+.hero-benefits{display:grid;grid-template-columns:1fr;gap:10px 28px;margin-bottom:4px}
+@media(min-width:992px){.hero-benefits{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.hero-benefit{display:flex;align-items:center}
+.hero-benefit .benefit-paragraph{font-size:15px;line-height:1.45;font-weight:600}
+.hero-benefit .benefit-paragraph span{font-weight:600;color:var(--text-dark,#14365F)}
+.hero-benefit .check-icon{flex-shrink:0}
+
+/* 4 cards must read as 2x2 or 4-across, never 3 + 1 orphan */
+.features-grid.is-4,.why-patron-grid.is-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(min-width:1200px){.why-patron-grid.is-4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){.features-grid.is-4,.why-patron-grid.is-4{grid-template-columns:1fr}}
+
+/* The city the reader is already on. Same card, but flat and not a link: it marks the set as
+   complete without offering a click that goes nowhere. */
+.pa-city-grid .pa-city-card.is-here{background:var(--cream,#FDF8F3);border-color:var(--orange,#F26522);
+  cursor:default;box-shadow:none}
+.pa-city-grid .pa-city-card.is-here .pa-card-sub{color:var(--orange,#F26522);font-weight:700}
+/* Office: the address and the map share the row rather than stacking, so the five short
+   address lines stop sitting in two thirds of a column of whitespace. Stacks on a phone,
+   where side-by-side would make both halves too narrow to read. */
+.nwc-office-split{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;align-items:start}
+@media(min-width:900px){.nwc-office-split{grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:36px}}
+.nwc-office-map{margin:0}
+.nwc-office-map iframe{min-height:320px}
+/* the five city cards wrap 4 + 1 in the shared grid; one row reads as a set */
+.pa-city-grid{display:flex;flex-wrap:nowrap;gap:16px}
+.pa-city-grid .pa-city-card{flex:1 1 0;min-width:0}
+/* two up all the way down to the narrowest phone: a city name and its state fit side by
+   side comfortably, and five full-width rows made the block far longer than it deserves */
+@media(max-width:900px){.pa-city-grid{flex-wrap:wrap;gap:12px}
+  .pa-city-grid .pa-city-card{flex:0 1 calc(50% - 6px);min-width:0}
+  .pa-city-grid .pa-card-title,.pa-city-grid .pa-card-sub{overflow-wrap:anywhere}}
+
+/* the Frequency cell is two short words; let it keep its line */
+.badge-included{white-space:nowrap}
+
+/* The card shelves were leaving two kinds of blank space.
+   1. patron-cluster.css caps .pa-city-grid/.pa-cross-grid at max-width:1100px, but the column
+      they sit in is 1320px - so 220px of every row was dead space on the right at any viewport
+      above 1400px. The cap is released here rather than in the estate stylesheet, which is
+      live and shared.
+   2. A service page's shelf carries 11 cards - the hub, nine siblings and the glossary - and
+      11 does not divide by any sensible column count, so a 4-across grid left an empty cell.
+      Flex rather than grid: the last row's cards grow to fill the width instead of leaving a
+      hole. Two-up at 900px, one-up on a phone. */
+.pa-city-grid,.pa-cross-grid{max-width:none}
+.pa-cross-grid{display:flex;flex-wrap:wrap;gap:18px}
+.pa-cross-grid .pa-cross-card{flex:1 1 calc(25% - 14px);min-width:225px}
+@media(max-width:1100px){.pa-cross-grid .pa-cross-card{flex:1 1 calc(33.333% - 12px)}}
+@media(max-width:820px){.pa-cross-grid .pa-cross-card{flex:1 1 calc(50% - 9px)}}
+@media(max-width:520px){.pa-cross-grid .pa-cross-card{flex:1 1 100%}}
+
+/* Read Next: a reading list, not a card wall. Two columns where there is room.
+   GRID, not `columns:2`. The estate's own `section ul li:not(.nav-item)` makes every prose
+   <li> a flex row with an orange check chip, and it outranks anything set here (0,1,4 against
+   0,1,2), so an absolute ::before marker of our own was being ignored while the flex items
+   were also being fragmented by the multi-column container - which is what put the chip on
+   top of the first letter. So: keep the estate's chip, which is the same one the documents
+   list uses, and lay the items out with grid, which flex children survive. */
+.pa-read-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 32px;
+  list-style:none;padding:0;margin:0}
+.pa-read-list li{margin-bottom:0!important;font-size:14.5px}
+.pa-read-list a{color:var(--blue);text-decoration:none;font-weight:500}
+.pa-read-list a:hover{text-decoration:underline}
+@media(max-width:760px){.pa-read-list{grid-template-columns:1fr}}
+
+/* Four portal cards in ONE row. The shared rule is flex:0 1 340px / max-width:362px, which
+   wraps 3 + 1 at this container width, so the basis is recomputed from the row instead. */
+.portal-grid-sec .portal-grid{flex-wrap:nowrap;align-items:stretch}
+.portal-grid-sec .portal-card{flex:1 1 0;max-width:none;min-width:0}
+/* and the whole screenshot, not the shared 172px top crop: the captures are fitted into one
+   1280x720 canvas by normalise_portal_shots.py, so contain shows all of each one and every
+   card still lines up. Click opens the portal lightbox for the detail. */
+.portal-grid-sec .browser-frame img{height:auto;aspect-ratio:16/9;object-fit:contain;background:#0f1120}
+/* the shared rule caps the intro at a reading column; here it should run the card row's width */
+.portal-grid-sec .section-header{max-width:none}
+.portal-grid-sec .section-subtitle{max-width:none;text-align:center}
+@media(max-width:1100px){.portal-grid-sec .portal-grid{flex-wrap:wrap}
+  .portal-grid-sec .portal-card{flex:0 1 calc(50% - 13px)}}
+@media(max-width:640px){.portal-grid-sec .portal-card{flex:0 1 100%}}
+
+/* page-local only: the four things patron-cluster.css has no rule for */
+/* testimonial slider: vanilla, so the standalone page needs no jQuery or Slick */
+.nwc-slider{position:relative}
+.nwc-slider__track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;
+  scroll-behavior:smooth;scrollbar-width:none;padding:4px 0 8px}
+.nwc-slider__track::-webkit-scrollbar{display:none}
+.nwc-slide{flex:0 0 calc((100% - 60px)/4);scroll-snap-align:start;display:flex}
+.nwc-slide>*{width:100%;height:100%}
+.nwc-slider__track .testi-video-area video{width:100%;display:block;border-radius:12px 12px 0 0}
+/* the play overlay, so a video card shows a poster and a button rather than raw controls */
+.nwc-slider__track .testi-video-area{position:relative;cursor:pointer}
+.nwc-slider__track .testi-play-overlay{position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;background:rgba(15,23,42,.28);transition:opacity .2s}
+.nwc-slider__track .testi-video-area.playing .testi-play-overlay{opacity:0;pointer-events:none}
+.nwc-slider__track .testi-play-btn{width:56px;height:56px;border-radius:50%;background:#fff;
+  display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(15,23,42,.28)}
+.nwc-slider__track .testi-play-btn svg{width:24px;height:24px;color:var(--orange,#f26522);margin-left:3px}
+/* 4 / 3 / 2 / 1, the same breakpoints the accounting slick config uses */
+@media(max-width:1200px){.nwc-slide{flex:0 0 calc((100% - 40px)/3)}}
+@media(max-width:900px){.nwc-slide{flex:0 0 calc((100% - 20px)/2)}}
+@media(max-width:600px){.nwc-slide{flex:0 0 100%}}
+
+/* tabbed sample card on the right; the copy is sticky and the document scrolls past it.
+   96px clears the sticky TOC bar, so the pinned text never tucks underneath it. */
+/* the caption cell STRETCHES to the row height and an inner wrapper does the sticking.
+   Put position:sticky on the grid item itself and it has nowhere to travel, because
+   align-items:start shrinks the item's box to its own content. */
+.specimen-item{margin:0;display:grid;grid-template-columns:minmax(0,1fr) 470px;gap:40px;align-items:stretch}
+.specimen-caption{min-width:0}
+.specimen-sticky{position:sticky;top:112px}
+.specimen-sticky .section-title{margin-top:0}
+/* both captions stay readable; the active one is marked, not the other one hidden */
+.specimen-pane{padding:14px 0 14px 16px;border-left:3px solid transparent;transition:border-color .25s,opacity .25s;opacity:.62}
+.specimen-pane.is-active{border-left-color:var(--orange,#f26522);opacity:1}
+/* Patron's own segmented control - the same one the calculator uses for Rupees/Lakh/Crore -
+   rather than a copy of the dark tab bar on the reference site. */
+.specimen-stack__title{font-weight:700;color:var(--blue,#14365f);font-size:13px;
+  letter-spacing:.6px;text-transform:uppercase;margin:0 0 10px}
+.specimen-tabs{display:flex;gap:4px;background:var(--gray-100,#f1f5f9);border-radius:10px;padding:4px;margin-bottom:14px}
+.specimen-tab{flex:1;padding:10px 12px;border:0;border-radius:7px;background:transparent;
+  color:var(--text-muted,#64748b);font:inherit;font-size:14px;font-weight:700;line-height:1.3;
+  cursor:pointer;transition:background .2s,color .2s}
+.specimen-tab:hover{color:var(--blue,#14365f)}
+.specimen-tab.is-active{background:#fff;color:var(--blue,#14365f);box-shadow:0 1px 3px rgba(15,23,42,.12)}
+.specimen-tab:focus-visible{outline:2px solid var(--orange,#f26522);outline-offset:2px}
+/* The document is SCALED TO FIT its column, never scrolled. specimen.js measures the
+   sample's natural content width once and sets --spec-zoom from the frame's own width, so
+   the whole page fits edge to edge at any screen size and the frame's height follows the
+   content - no horizontal bar, no vertical bar, no dead space. `zoom` is used rather than
+   `transform:scale` precisely because it reflows: a transform would leave the frame at its
+   unscaled height and open a gap under every sample. */
+.specimen-frame{position:relative;background:var(--gray-50,#f8fafc);padding:14px;
+  border:1px solid var(--gray-200,#e2e8f0);border-radius:12px;
+  cursor:zoom-in;overflow:hidden;max-width:100%;zoom:var(--spec-zoom,.55)}
+/* The sample must lay out at the width it was DESIGNED for and then be scaled down whole.
+   Left fluid it reflows instead: the table's amount column gets pushed out of the box and
+   overflow:hidden silently eats it, so the sample renders without any figures on it. */
+.specimen-frame .nwc-spec{width:860px;max-width:none;margin:0}
+/* nwc-spec.css narrows the document below a 640px VIEWPORT: the table turns into a
+   display:block strip that shrinks to its content and stops well short of the right margin,
+   and the page padding and body size drop too. Those rules exist for a document rendered at
+   the viewport's width. Here it is always laid out at its designed 860px and then scaled, so
+   the viewport is the wrong thing to respond to - the sample must look identical at every
+   size, only smaller. Hold the design values inside the frame and the lightbox. */
+@media(max-width:640px){
+  .specimen-frame .nwc-spec,.specimen-lightbox .nwc-spec{
+    --pad-x:42px;--pad-y:38px;--pad-b:30px;--fs-body:14px}
+  .specimen-frame .nwc-spec table,.specimen-lightbox .nwc-spec table{
+    display:table;overflow-x:visible;white-space:normal;width:100%}
+  .specimen-frame .nwc-spec__meta,.specimen-lightbox .nwc-spec__meta{flex-direction:row}
+  .specimen-frame .nwc-spec__sign,.specimen-lightbox .nwc-spec__sign{
+    flex-direction:row;align-items:flex-end}
+}
+.specimen-frame:focus-visible{outline:2px solid var(--orange,#f26522);outline-offset:3px}
+.specimen-doc{display:none}
+.specimen-doc.is-active{display:block}
+.specimen-zoom{position:sticky;float:right;right:14px;bottom:14px;top:calc(96px/.55);
+  background:rgba(20,54,95,.92);color:#fff;font-family:'Barlow',sans-serif;font-size:22px;
+  padding:8px 18px;border-radius:50px;z-index:2}
+.specimen-hint{display:none;align-items:center;justify-content:space-between;gap:12px;
+  margin:12px 0 0;font-size:13px;color:var(--text-muted,#64748b)}
+.specimen-open{border:0;border-radius:50px;background:var(--blue,#14365f);color:#fff;
+  font:inherit;font-size:13px;font-weight:700;padding:10px 18px;cursor:pointer;white-space:nowrap}
+.specimen-caption h3{font-size:18px;margin:0 0 10px}
+.specimen-download{display:inline-block;margin-top:4px;font-weight:600}
+.specimen-masknote{font-size:13px;color:var(--text-muted,#64748b);border-top:1px solid var(--gray-200,#e2e8f0);padding-top:14px;margin-top:18px}
+.specimen-lightbox{position:fixed;inset:0;background:rgba(15,23,42,.86);z-index:9999;
+  display:none;overflow:auto;padding:40px 16px}
+.specimen-lightbox.is-open{display:block}
+/* the full-size view fits the viewport WIDTH and scrolls vertically only: at 860px design
+   width it otherwise ran off the right edge of a phone and had to be dragged sideways */
+.specimen-lightbox{overflow-x:hidden}
+.specimen-lightbox__inner{max-width:900px;margin:0 auto;zoom:var(--lb-zoom,1)}
+.specimen-lightbox__inner .nwc-spec{width:860px;max-width:none;margin:0 auto}
+.specimen-lightbox__close{position:fixed;top:14px;right:20px;width:40px;height:40px;border-radius:50%;
+  border:0;background:#fff;color:var(--blue,#14365f);font-size:24px;line-height:1;cursor:pointer}
+@media(max-width:980px){.specimen-item{grid-template-columns:minmax(0,1fr)}
+  .specimen-sticky{position:static}
+  .specimen-stack{max-width:min(640px,100%);min-width:0}}
+
+/* PHONES. The fit is handled by --spec-zoom, so nothing here touches scale. Both captions
+   go full-opacity: once they stack, the dimmed inactive one reads as broken rather than as
+   inactive. */
+@media(max-width:700px){
+  .specimen-frame{padding:8px}
+  .specimen-zoom{display:none}
+  .specimen-pane{opacity:1;padding:12px 0 12px 14px}
+  .specimen-hint{display:flex}
+  .specimen-tab{font-size:13px;padding:11px 8px}
+  .specimen-caption .section-subtitle{margin-bottom:4px}
+}
+.nwc-doc-list{list-style:none;padding:0;margin:0 0 8px}
+.nwc-doc-list li{display:block!important;padding:12px 0 12px 26px;border-bottom:1px solid var(--gray-200,#e2e8f0);font-weight:600;position:relative}
+.nwc-doc-list li::before{content:"";position:absolute;left:0;top:19px;width:8px;height:8px;border-radius:50%;background:var(--orange,#f26522)}
+.nwc-doc-list .al-d{display:block;font-weight:400;font-size:14px;color:var(--text-muted,#64748b);margin-top:4px}
+</style>
 <main>
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;flex-wrap:wrap;">
+            <li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+            <li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/net-worth-certificate-by-ca" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Net Worth Certificate by CA</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+            <li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Net Worth Certificate for Visa</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+            <li><span style="color:var(--orange);font-weight:600;">Net Worth Certificate for Visa in Mumbai</span></li>
+        </ol>
+    </div>
+</nav>
 
-
-
-<!-- HERO SECTION -->
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1114,55 +464,39 @@
                 <div class="pe-lg-5">
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        Trusted by 10,000+ Businesses
+                        UDIN on every certificate
                     </div>
 
-                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Net Worth Certificate for Visa in Mumbai: CA-Certified with UDIN &ndash; Embassy-Ready Format
-                    </h1>
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">Net Worth Certificate for Visa in Mumbai</h1>
 
                     <div class="expert-attribution-box">
                         <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
                         <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
                         <span class="eab-meta">
-                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>ICAI &amp; ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">25 March 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">August 2026</span></span>
                         </span>
-                        <a href="#" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
-                    <div class="mb-4">
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Dual Currency:</span> INR + USD/CAD/GBP/AUD/EUR at RBI reference rate | Embassy-ready for US Consulate BKC, Canadian/UK/Aus VFS</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>UDIN Verified:</span> Embassies verify UDIN online in 2025-2026 | Certificate without UDIN risks rejection at Mumbai consulates</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Same-Day:</span> Scan in 1-2 hours | Physical same-day Mumbai | Marine Lines: 15 min from BKC, 10 min from VFS Lower Parel</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>From Rs 3,000:</span> Individual dual currency Rs 3,000 | Student sponsor Rs 4,000 | Family/PR Rs 5,000 | 50+ countries served</p>
-                        </div>
+                    <div class="mb-4 hero-benefits">
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>Collected in the island city</span></p></div>
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>Written to be read once</span></p></div>
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>Credits traced to their source</span></p></div>
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>Verifiable at the desk</span></p></div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">15 min from US Consulate BKC, 10 min from VFS Lower Parel &ndash; 10,000+ clients served for 50+ countries with 4.9&#9733; Google rating</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
-                            Call +91 945 945 6700
+                            Call +91 94594 56700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20a%20Net%20Worth%20Certificate%20for%20Visa%20in%20Mumbai&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20mumbai%20and%20would%20like%20to%20know%20more.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20Mumbai.%20Please%20help." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20mumbai" target="_blank" rel="noopener" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1172,24 +506,17 @@
                         <div class="trust-row">
                             <div class="trust-item">
                                 <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
-                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                                <div class="trust-text"><strong>15+ Years</strong>In practice</div>
                             </div>
                             <div class="trust-item">
                                 <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
-                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                                <div class="trust-text"><strong>CA &amp; CS</strong>Certified Experts</div>
                             </div>
                         </div>
                         <div class="google-rating">
                             <div class="rating-content">
-                                <div class="rating-stars">
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <span class="rating-score">4.9</span>
-                                </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <div class="rating-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><span class="rating-score">4.9</span></div>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1197,244 +524,364 @@
             </div>
             <div class="col-lg-4">
                 @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate/mumbai',
-                    'options'  => [
-                        'net-worth-certificate/mumbai' => 'Net Worth Certificate in Mumbai',
-                        'private-limited-company-registration/mumbai' => 'Pvt Ltd Registration in Mumbai',
-                        'income-tax-return/mumbai' => 'Income Tax Return Filing in Mumbai',
-                        'gst-registration/mumbai' => 'GST Registration in Mumbai',
-                        'startup-registration/mumbai' => 'Startup Registration in Mumbai',
-                        'trademark-registration/mumbai' => 'Trademark Registration in Mumbai',
-                        'payroll-services/mumbai' => 'Payroll Services in Mumbai',
-                        'other' => 'Other',
-                    ],
-                ])
+    'options' => ['net-worth-certificate' => 'Net Worth Certificate', 'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa', 'net-worth-certificate-for-bank-loan' => 'Net Worth Certificate for Bank Loan', 'net-worth-certificate-for-company' => 'Company Net Worth Certificate', 'net-worth-certificate-for-partnership-firms' => 'Partnership Firm Net Worth Certificate', 'net-worth-certificate-sole-proprietorship' => 'Proprietorship Net Worth Certificate', 'net-worth-certificate-for-rera-registration' => 'RERA Net Worth Certificate', 'net-worth-certificate-for-divorce' => 'Net Worth Statement for Court', 'net-owned-fund-certificate-for-nbfc' => 'Net Owned Fund Certificate (NBFC)', 'solvency-certificate' => 'Solvency Certificate', 'other' => 'Other'],
+    'selected' => 'net-worth-certificate-for-visa',
+])
             </div>
         </div>
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
 <section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        
+  <div class="section-container">
+    <div class="section-header">
+      <h2>Mumbai Applicants We Have Certified For</h2>
+      <p>Verified Google reviews from the individuals and businesses Patron works with across India.</p>
     </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get your embassy-ready visa net worth certificate with UDIN in dual currency format within hours from our Mumbai office.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
+    <div class="nwc-slider" id="testiSlider">
+      <div class="nwc-slider__track" role="group" aria-label="Client testimonials">
+        <div class="nwc-slide"><div class="testi-video-card">
+  <div class="testi-video-area">
+    <video preload="metadata" playsinline poster="https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg">
+      <source src="https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4">
+    </video>
+    <div class="testi-play-overlay"><div class="testi-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+    <div class="testi-star-badge"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+  </div>
+  <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+    <div class="testi-avatar"><img src="https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal"></div>
+    <div><div class="testi-name">Sunny Ashpal</div><div class="testi-role">Director - Demandify Media</div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-video-card">
+  <div class="testi-video-area">
+    <video preload="metadata" playsinline poster="https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg">
+      <source src="https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4">
+    </video>
+    <div class="testi-play-overlay"><div class="testi-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+    <div class="testi-star-badge"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+  </div>
+  <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+    <div class="testi-avatar"><img src="https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava"></div>
+    <div><div class="testi-name">Anjanay Srivastava</div><div class="testi-role">Founder - Hunarsource Consulting</div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially filing the ITR.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar ">A</div>
+      <div><div class="testi-name">Anita Gaur</div></div>
     </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar blue">S</div>
+      <div><div class="testi-name">Subhendu Mishra</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar teal">R</div>
+      <div><div class="testi-name">Rajib Dutta</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar purple">A</div>
+      <div><div class="testi-name">Ayushi Garg</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar ">P</div>
+      <div><div class="testi-name">Preeti Singh Rathor</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar blue">M</div>
+      <div><div class="testi-name">Monika Sharma</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+      </div>
+    </div>
+    <div class="reviews-cta" style="margin-top:30px;">
+      <div class="reviews-cta-content">
+        <div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+        <div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google &mdash; trusted for CA certification since 2019.</p></div>
+      </div>
+      <a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </div>
 </section>
 
-<!-- STATS BAR -->
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
-            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+            <div class="stat-content"><span class="stat-value">3,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">Certification, audit and compliance work across India.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years in Practice</span><span class="stat-desc">A CA and CS team signing certificates for special purposes.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
-            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+            <div class="stat-content"><span class="stat-value">25,000+</span><span class="stat-label">Filings Completed</span><span class="stat-desc">Returns, certificates and filings handled accurately.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
-            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Verified Google reviews from real engagements.</span></div>
         </div>
         <div class="certifications">
-            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
-            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>UDIN Verified<span class="cert-desc">Every certificate carries a UDIN generated on the ICAI portal.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial records are transferred and held securely.</span></div>
         </div>
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
             <a href="#overview-section" class="toc-btn active">Overview</a>
-            <a href="#what-section" class="toc-btn">What Is</a>
-            <a href="#who-section" class="toc-btn">Who Needs</a>
-            <a href="#services-section" class="toc-btn">Formats</a>
+            <a href="#what-section" class="toc-btn">What Is It</a>
+            <a href="#specimen-section" class="toc-btn">Specimen</a>
+            <a href="#who-section" class="toc-btn">Who Needs It</a>
+            <a href="#local-bodies-section" class="toc-btn">Local Bodies</a>
+            <a href="#usecase-section" class="toc-btn">Local Records</a>
+            <a href="#services-section" class="toc-btn">What You Receive</a>
             <a href="#procedure-section" class="toc-btn">Process</a>
             <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
+            <a href="#challenges-section" class="toc-btn">Problems</a>
             <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Country-Wise</a>
-            <a href="#benefits-section" class="toc-btn">Benefits</a>
-            <a href="#comparison-section" class="toc-btn">Visa Use Cases</a>
+            <a href="#benefits-section" class="toc-btn">Why It Matters</a>
+            <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+            <a href="#comparison-section" class="toc-btn">Comparison</a>
+            <a href="#tool-section" class="toc-btn">Calculator</a>
+            <a href="#legal-section" class="toc-btn">Legal Framework</a>
             <a href="#faq-section" class="toc-btn">FAQs</a>
+            <a href="#office-section" class="toc-btn">Our Office</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Net Worth Certificate for Visa in Mumbai &ndash; Overview</h2>
+            <h2 class="section-title">Visa Files From Mumbai: What the Consulate Expects</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Net Worth Certificate for Visa Services at a Glance</strong></p>
-                    <p>A visa net worth certificate demonstrates total assets minus liabilities in dual currency format (INR + destination currency at RBI rate). Only practising CAs with UDIN can issue. Embassies in Mumbai increasingly verify UDIN online in 2025-2026. Validity: UK 30 days, Canada/Australia 90 days, US flexible. Mumbai is India's largest consular hub: US Consulate BKC, Canadian VFS Lower Parel/Andheri, UK VFS Lower Parel, 70+ consulates. Starting Rs 3,000. Scan 1-2 hours. Physical same-day.</p>
+                    <p><strong>&#128204; TL;DR &mdash; Net Worth Certificate for Visa in Mumbai at a Glance</strong></p>
+                    <p>Mumbai applicants often deal with missions directly, not only through a visa centre. Posts at Nariman Point and the Bandra Kurla Complex decide files from several states, each publishing its own expectations. A business visitor pack differs from a family sponsorship in whose funds are shown. A net worth certificate for a Mumbai visa file therefore names whose assets are certified, on what date, and in which currency.</p>
                 </div>
-                <p>Mumbai processes the highest volume of visa applications in western India. US Consulate General in BKC, Canadian VFS in Lower Parel and Andheri, UK VFS in Lower Parel, Australian VFS in Andheri, and 70+ consulates. Embassies prefer CA-certified UDIN certificates over self-declared affidavits. Learn more about <a href="/net-worth-certificate">Net Worth Certificate across India</a>.</p>
-                <p>Patron's Marine Lines office &ndash; 15 min from US Consulate BKC, 10 min from VFS Lower Parel &ndash; provides embassy-ready dual currency certificates with same-day delivery. For ITR, see <a href="/income-tax-return/mumbai">ITR Filing in Mumbai</a>. For statutory audit, see <a href="/statutory-audit/mumbai">Statutory Audit in Mumbai</a>.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+<p>Mumbai applicants are writing for a reader who will never meet them. That reader sees a great many files a day. The missions here decide applications from several states, so the volume behind each desk is large and the reading is quick. A pack that has to be worked out will not be worked out. The general standard is described in our note on <a href="/net-worth-certificate-for-visa">what missions look for</a>.</p>
+<p>That makes clarity worth more than completeness. An unexplained credit, a figure with no stated date, or an asset that cannot be tied to a document each create a doubt. The file cannot answer any of them later. A document that explains itself as it is read is worth more than one that is merely complete. Visa categories and entry conditions are published by <a href="https://boi.gov.in/" target="_blank" rel="noopener">the Bureau of Immigration</a>.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What Is a Visa Net Worth Certificate?</h2>
+                <h2 class="section-title">What the Certificate Does at a Mumbai Mission</h2>
                 <div class="content-text what-is-definition">
-                    
-                    <p>A visa net worth certificate is a CA-certified financial statement computing total assets minus liabilities in dual currency format (INR + destination currency at RBI reference rate), issued on CA letterhead with UDIN for embassy verification. It demonstrates financial stability to support the visa applicant during their stay abroad.</p>
-                    <p>Embassies assess whether the applicant has sufficient resources for living expenses, tuition (student visa), accommodation, and return travel. More credible than self-declared bank statements or affidavits. Covers immovable, movable, and liquid assets. For <a href="/turnover-certificate">Turnover Certificate</a>, see our page.</p>
-                    <p>For Mumbai applicants, the certificate is presented in dual currency at the RBI reference rate. US Consulate BKC, Canadian VFS, UK VFS, and Australian VFS all accept this format. UDIN enables visa officers to verify authenticity online. For <a href="#">Import Export Code</a>, see our page.</p>
-
+<p>The missions in this city decide applications from well beyond it. Consular jurisdiction here reaches across several states and union territories, so a desk works through a large volume and reads quickly. A <a href="/net-worth-certificate">net worth certificate</a> for visa in Mumbai is an accountant's dated statement of holdings and obligations, and its job is to be understood on one reading. It is not the mission's own form and does not replace one where a form exists.</p>
+<p>That sets the standard it is written to. The basis of preparation, the date the position speaks to, and the fact that holdings were verified against documents rather than described by the client all sit on its face. Anything it asserts has to be traceable to a paper in the pack. A net worth certificate for visa in Mumbai that makes the reader reconstruct the working is treated as unexplained. A form supplied by the mission always takes precedence.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Net Worth Certificate for Visa:</strong></p>
-                    <ul>
-                        <li><strong>Dual Currency:</strong> INR + destination currency (CAD/USD/GBP/AUD/EUR) at RBI reference rate</li>
-                        <li><strong>UDIN:</strong> 18-digit ICAI code &ndash; embassies verify online in 2025-2026</li>
-                        <li><strong>RBI Reference Rate:</strong> Daily exchange rate from rbi.org.in for conversion</li>
-                        <li><strong>Student Sponsor:</strong> Parents' combined net worth with education FDs and sponsor declaration</li>
-                        <li><strong>VFS Global:</strong> Visa facilitation centres in Lower Parel (Canada/UK) and Andheri (Canada/Australia)</li>
-                        <li><strong>Embassy-Ready:</strong> Format tailored per consulate-specific preferences</li>
-                    </ul>
-
+                    <p><strong>Key terms on this page:</strong></p>
+                    <div class="key-terms"><ul class="al-list">
+                    <li><span class="al-t"><a href="/glossary/networth/liquid-assets">Liquid Assets</a></span><span class="al-d">Liquid assets are holdings that can be converted into cash quickly and at a value that can be predicted in advance.</span></li>
+                    <li><span class="al-t"><a href="/glossary/networth/proof-of-funds-pof">Proof of Funds (POF)</a></span><span class="al-d">Proof of funds is evidence that an applicant has money available for a stated purpose.</span></li>
+                    <li><span class="al-t"><a href="/glossary/networth/blocked-account">Blocked Account</a></span><span class="al-d">A blocked account is a bank account opened in the destination country into which a student deposits a year's living costs before the visa is granted.</span></li>
+                    <li><span class="al-t"><a href="/glossary/networth/source-of-funds">Source of Funds</a></span><span class="al-d">Source of funds and proof of balance answer different questions, and files fail on the difference more often than on the amount.</span></li>
+                    <li><span class="al-t"><a href="/glossary/networth/liberalised-remittance-scheme-lrs">Liberalised Remittance Scheme (LRS)</a></span><span class="al-d">The liberalised remittance scheme permits a resident individual to remit money abroad up to a limit in each financial year, for a defined set of purposes.</span></li>
+                    <li><span class="al-t"><a href="/glossary/networth/foreign-inward-remittance-certificate-firc">Foreign Inward Remittance Certificate (FIRC)</a></span><span class="al-d">A foreign inward remittance certificate evidences that money arriving in an Indian account came from abroad, naming the remitter, the amount, the currency, the date and the purpose declared for the transfer.</span></li>
+                    <li><span class="al-t"><a href="/glossary/networth/apostille">Apostille</a></span><span class="al-d">An apostille certifies that a signature on a public document is genuine and that the person who signed held the office they claimed.</span></li>
+                    </ul></div>
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Building / Tribunal -->
-                            <rect x="40" y="50" width="120" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Roof / Pediment -->
-                            <path d="M30 52L100 15L170 52" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <!-- Columns -->
-                            <rect x="55" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="80" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="112" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <rect x="137" y="60" width="8" height="80" rx="2" fill="#D4DCE8" stroke="#14365F" stroke-width="0.8"/>
-                            <!-- Door -->
-                            <rect x="88" y="105" width="24" height="35" rx="12" fill="#14365F" opacity="0.15" stroke="#14365F" stroke-width="1"/>
-                            <!-- Scale of Justice icon -->
-                            <circle cx="100" cy="78" r="14" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <line x1="100" y1="70" x2="100" y2="86" stroke="#14365F" stroke-width="1.5"/>
-                            <line x1="90" y1="76" x2="110" y2="76" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M90 76L87 83H93Z" fill="#E8712C" opacity="0.6"/>
-                            <path d="M110 76L107 83H113Z" fill="#E8712C" opacity="0.6"/>
-                            <!-- Green check badge -->
-                            <circle cx="152" cy="42" r="18" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M144 42l5 5 10-10" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- APL-05 tag -->
-                            <rect x="30" y="120" width="42" height="18" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="51" y="132.5" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">APL-05</text>
-                            <!-- Label -->
-                            <text x="100" y="170" font-size="10" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Net Worth Certificate for Visa</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>Embassy Ready</span>
-                        <strong>Visa NWC</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/networth-cluster/net-worth-certificate-for-visa/mumbai/what-is.webp" alt="Holdings on one date verified for a funds file, distinct from the bank statements a mission reads for balances" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section specimen-section" id="specimen-section">
+  <div class="content-container">
+    <div class="text-content">
+      <div class="specimen-item">
+        <div class="specimen-caption"><div class="specimen-sticky">
+          <h2 class="section-title">Specimen: What Your Certificate Looks Like</h2>
+<p>Values are masked on the dual currency sample. Missions here work at volume, so the sample is laid out to be read once: basis, date, currency and rate on the face, and the schedule beneath. Where a recent credit is shown, the asset it came from appears in the schedule rather than being left to the bank statement to explain.</p>
+
+          <a class="specimen-download" href="/certificates/05-net-worth-certificate-visa-dual-currency.pdf" download>Download this sample (PDF)</a>
+          <p class="specimen-masknote">All names, addresses, registration numbers and amounts are replaced with X characters. The sample carries a Patron Accounting watermark and a Specimen badge on every page so that a cropped screenshot still shows what it is.</p>
+        </div></div>
+        <div class="specimen-stack" id="specimenStack">
+          <p class="specimen-stack__title">Sample document</p>
+          <div class="specimen-frame" id="specimenFrame" role="button" tabindex="0" aria-label="Enlarge this sample">
+            <div class="specimen-doc is-active" data-spec-doc="0"><article class="nwc-spec" aria-label="Net Worth Certificate — Visa / Embassy (dual currency) - specimen, all values masked, not a valid certificate">
+  <svg class="nwc-spec__mark" aria-hidden="true" focusable="false">
+    <defs><pattern id="nwcwm-05" width="400" height="230"
+      patternUnits="userSpaceOnUse">
+      <text x="16" y="150" transform="rotate(-24 16 150)">Patron Accounting</text>
+    </pattern></defs>
+    <rect width="100%" height="100%" fill="url(#nwcwm-05)"/>
+  </svg>
+  <div class="nwc-spec__badge">Sample only</div>
+  <header class="nwc-spec__lh">
+    <span class="nm"><span class="b">XXXXXX XXXXX & XXXXXXXXXX</span></span>
+    <span class="desig">Chartered Accountants</span>
+    <span class="ln"><span class="b">XXX, XXXXXXX XXXXXXXX, XX XXXX, XXXX XXXXXX</span></span>
+    <span class="ln"><span class="b">+XX XX XXXX XXXX</span> &nbsp;&middot;&nbsp; <span class="b">XXXXXX@XXXXXXX.XX</span></span>
+    <span class="ln">Firm Registration No.: <span class="b">XXXXXXX</span></span>
+  </header>
+  <div class="nwc-spec__meta"><span>Ref: <span class="b">XXX/XXXX-XX/XXXX</span></span><span>Date: <span class="b">XX/XX/XXXX</span></span></div>
+  <h3>Certificate of Net Worth</h3>
+  <div class="nwc-spec__to"><b>To,</b><br>The Visa Officer<br><span class="b">XXXXXXXXX XXXXXXX XX XXX XXXXXX XXXXXX XX XXXXXXX</span><br><span class="b">XXXXXX</span></div>
+  <p>This is to certify that we have examined the Statement of Assets and Liabilities of
+  <span class="b">XXXXX XXXXXX XXXXXXXXX</span>, holder of Indian Passport No. <span class="b">XXXXXXXX</span>, residing at <span class="b">XXXX XX, XXXXXXXX XXXXXXXXX, XXXXXXX, XXXX XXXXXX</span>, holding Permanent Account Number <span class="b">XXXXXXXXXX</span>,
+  as at <span class="b">XX XXXXX XXXX</span>.</p>
+  <p>Amounts are stated in Indian Rupees and converted into US Dollars at the reference rate of
+  <b>1 USD = INR <span class="b">XX.XX</span></b> published by the Reserve Bank of India on <span class="b">XX XXXXX XXXX</span>.</p>
+<h4>Statement of Assets and Liabilities</h4><table><caption class="nwc-spec__sr">Statement of Assets and Liabilities - all figures masked</caption><thead><tr><th style="width:50px">Sr.</th><th>Particulars</th><th class="num">Amount (INR)</th><th class="num">Amount (USD)</th></tr></thead><tbody><tr class="sub"><td>A</td><td><b>Assets</b></td><td class="num"></td><td class="num"></td></tr><tr><td>1</td><td>Immovable property &mdash; residential flat</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>2</td><td>Bank balances &mdash; savings accounts</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>3</td><td>Fixed deposits and term deposits</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>4</td><td>Investments &mdash; shares and mutual funds</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>5</td><td>Motor vehicles</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>6</td><td>Jewellery and other valuables</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>7</td><td>Other assets</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr class="sub"><td></td><td><b>Total Assets (A)</b></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td></tr><tr class="sub"><td>B</td><td><b>Liabilities</b></td><td class="num"></td><td class="num"></td></tr><tr><td>1</td><td>Housing loan &mdash; outstanding</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>2</td><td>Vehicle loan &mdash; outstanding</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>3</td><td>Other borrowings</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>4</td><td>Other liabilities and dues</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr class="sub"><td></td><td><b>Total Liabilities (B)</b></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td></tr><tr class="tot"><td></td><td><b>NET WORTH (A &minus; B)</b></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td></tr></tbody></table>
+  <p>On the basis of our examination and the information and explanations given
+  to us, we certify that the net worth of <span class="b">XXXXX XXXXXX XXXXXXXXX</span> as at <span class="b">XX XXXXX XXXX</span> is <b>INR <span class="b">X,XX,XX,XXX</span></b>
+  (Rupees <span class="b">XXX XXXXX XXXXX-XXXX XXXX</span> only).</p>
+  <p>The above net worth is equivalent to <b>USD <span class="b">X,XX,XXX</span></b> at the rate stated. Of this, assets
+  aggregating <b>INR <span class="b">XX,XX,XXX</span></b> are unencumbered, readily realisable and free from any lien,
+  charge or encumbrance.</p>
+  <p>This certificate is issued at the request of the applicant for the purpose of submission in support of a visitor visa application and is
+  not to be used, referred to or distributed for any other purpose or to any other party
+  without our prior written consent.</p>
+  <p>The preparation of the Statement is the responsibility of the applicant, including the completeness of the assets and liabilities disclosed. Our responsibility is to certify the Statement on the basis of the records produced before us.</p>
+  <p>We conducted our examination in accordance with the Guidance Note on Reports or Certificates for Special Purposes issued by the Institute of Chartered Accountants of India, which requires that we comply with the ethical requirements of the Code of Ethics. We have complied with the relevant requirements of the Standard on Quality Control (SQC) 1.</p>
+  <footer class="nwc-spec__sign">
+    <div>Place: <span class="b">XXXX</span><br>Date: <span class="b">XX/XX/XXXX</span><br>UDIN: <span class="b">XXXXXXXXXXXXXXXXXX</span></div>
+    <div class="rt">
+      <span class="for">For</span>
+      <span class="nm"><span class="b">XXXXXX XXXXX & XXXXXXXXXX</span></span>
+      <span class="desig">Chartered Accountants</span>
+      <span>FRN: <span class="b">XXXXXXX</span></span>
+      <div class="nwc-spec__sig"></div>
+      <div><span class="b">XX XXXXXX XXXXX</span><br>Partner &middot; Membership No.: <span class="b">XXXXXX</span></div>
+    </div>
+  </footer>
+</article></div>
+            <span class="specimen-zoom">Click to enlarge</span>
+          </div>
+          <p class="specimen-hint">
+            <span>Tap the sample to open it full size</span>
+            <button type="button" class="specimen-open" id="specimenOpen">Open full size</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="specimen-lightbox" id="specimenLightbox" aria-hidden="true" role="dialog" aria-label="Sample document, full size">
+    <button type="button" class="specimen-lightbox__close" aria-label="Close">&times;</button>
+    <div class="specimen-lightbox__inner"></div>
+  </div>
+</section>
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs Visa Net Worth Certificate in Mumbai</h2>
-            <div class="content-text">
-                
-                <p><strong>Student visa applicants</strong> &ndash; Canada (VFS Lower Parel/Andheri), US (BKC), UK (VFS Lower Parel), Australia (VFS Andheri). Highest-volume category. Student or parent sponsor. For <a href="/private-limited-company-registration/mumbai">Pvt Ltd Registration Mumbai</a>, see our page.</p>
-                <p><strong>Tourist/visitor visa</strong> &ndash; US B-1/B-2 at BKC, UK Standard Visitor at VFS, Schengen VFS. Proves financial ties to India and trip funding.</p>
-                <p><strong>PR/immigration applicants</strong> &ndash; Canada Express Entry/PNP (VFS Lower Parel), Australia Skilled Migration (VFS Andheri). Family joint net worth standard.</p>
-                <p><strong>Business visa applicants</strong> &ndash; US, UK, UAE for BKC professionals and Nariman Point executives. Financial capacity for business travel. For <a href="/gst-registration">GST Registration</a>, see our page.</p>
-                <p><strong>Parents sponsoring student visa</strong> &ndash; Combined family net worth with education FDs and sponsor declaration. Common for Canadian VFS and UK VFS.</p>
-                <p><strong>Work permit dependents and NRIs</strong> &ndash; Dependent visa with primary applicant's financial capacity. NRIs with India-based assets (NRE/NRO, Mumbai property).</p>
-
-            </div>
+            <h2 class="section-title">Consulates at BKC and Nariman Point</h2>
+            <div class="why-patron-grid is-4">
+                <div><strong>Your Appointment Is at BKC</strong><p>The mission handles the application directly, not through a visa centre. It publishes its own documentation expectations, and those differ from the expectations of its neighbours in the same complex.</p></div>
+                <div><strong>The Submission Goes to Nariman Point</strong><p>A consulate in the older diplomatic cluster takes the file. What it asks for, and in what order, is set by that mission and not by any general rule for the city.</p></div>
+                <div><strong>A Business Visitor File Is Assembled</strong><p>Travel is for meetings or a conference and the company is meeting part of the cost. Whose funds are being shown, personal or corporate, has to be unambiguous on the certificate.</p></div>
+                <div><strong>A Relative Abroad Is Sponsoring</strong><p>The costs are being met by a family member already overseas. Their position and the relationship both have to be evidenced alongside the applicant's own holdings.</p></div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
+<section class="content-section" id="local-bodies-section">
+    <div class="content-container">
+        <div class="text-content">
+            <span class="section-eyebrow">Local bodies</span>
+            <h2 class="section-title">Filing With Missions at BKC and Nariman Point and Other Mumbai Bodies</h2>
+            <div class="content-text">
+                <ul class="al-list">
+                    <li><span class="al-t">US, UK and Schengen missions at BKC and Nariman Point</span><span class="al-d">Mumbai is a consular city and the missions are spread across a few square kilometres of the island city and Bandra. Germany sits at Hoechst House on Backbay Reclamation at Nariman Point, Spain at Express Towers on the same stretch and Poland at Nirmal Building. The Netherlands is at Forbes Building near Azad Maidan, Italy at Kanchenjunga on G. Deshmukh Marg at Cumballa Hill, and Sweden at the TCG Financial Centre in G Block at the Bandra Kurla Complex.</span></li>
+                    <li><span class="al-t">How far those jurisdictions reach</span><span class="al-d">They reach well beyond the city. The German consulate general here covers Maharashtra, Gujarat, Goa, Madhya Pradesh and Chhattisgarh together with Daman and Diu and Dadra and Nagar Haveli. Sweden covers Maharashtra, Gujarat, Goa and the same union territories, and Spain's list is wider again. A file lodged in Mumbai is frequently a file from somewhere else.</span></li>
+                    <li><span class="al-t">VFS Mumbai</span><span class="al-d">Most of those missions take the pack through an application centre rather than at the mission itself, and the centre applies the checklist it has been given. Whether the certificate is accepted at the counter and whether it satisfies the officer are two separate tests, and passing the first says nothing about the second.</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content-section" id="usecase-section">
+    <div class="content-container">
+        <div class="text-content">
+            <span class="section-eyebrow">Local records</span>
+            <h2 class="section-title">BKC and Nariman Point Consulate Submissions</h2>
+            <div class="content-text">
+                <ul class="al-list">
+                    <li><span class="al-t">Consulates at BKC and Nariman Point</span><span class="al-d">A Mumbai file is usually competing with the applicant's own bank statement rather than standing alone. The missions here see a high volume of business travel, and an account showing a large credit shortly before the application draws attention that a steady balance does not. Where a recent credit is genuine, the certificate is stronger if the asset it came from is visible in the <a href="/glossary/networth/statement-of-affairs">statement of affairs</a> and not only in the bank. The date the position speaks to matters as much as the total.</span></li>
+                    <li><span class="al-t">Business visitor files</span><span class="al-d">Business visitor applications from the city are made by people whose worth sits inside a company. A director's personal position and the company's are different figures, and a mission asking about the applicant is not asking about the balance sheet of the employer. Shareholding, loans to the company and a director's <a href="/net-worth-certificate-for-partnership-firms">current account</a> balance are the personal entries, and they are evidenced from <a href="/statutory-audit">audited accounts</a> rather than asserted. An employer's covering letter is a separate document doing a separate job. It confirms the purpose of travel and who is paying, and it is not evidence of what the traveller holds. Where a company is meeting the cost, the mission commonly still wants to see that the applicant is not dependent on the trip being funded. That is a question about the applicant and not about the employer.</span></li>
+                    <li><span class="al-t">Family sponsorships</span><span class="al-d">Sponsored applications reverse the question. The sponsor's position is being certified and the relationship has to be evidenced independently, because the certificate speaks to money and not to family. Where a sponsor lives abroad, the assets certified are frequently in India while the undertaking is given overseas. The two documents should describe the same person the same way, down to the spelling in the passport.</span></li>
+                    <li><span class="al-t">Why brevity works better here</span><span class="al-d">Because these missions decide files from five states and three union territories, the volume behind each desk is large and the reading is quick. Anything requiring the reader to work out what was done will be treated as unexplained. Naming the basis of preparation, the date the position speaks to, and the fact that it was verified against documents rather than a client statement does more in Mumbai than additional detail.</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Visa Net Worth Certificate Formats</h2>
+            <h2 class="section-title">What a Mumbai Visa Engagement Includes</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <thead><tr><th>Service</th><th>What&#x27;s included</th><th>Frequency</th></tr></thead>
                     <tbody>
-                        <tr><td>Individual Dual Currency</td><td>Single applicant in INR + destination currency at RBI rate. Standard for tourist, business, and work visa from Mumbai. Starting Rs 3,000</td></tr>
-                        <tr><td>Student Visa Sponsor (Parents)</td><td>Parents' combined net worth. Earmarked education FDs, liquid assets, sponsor declaration. For Canada/UK/Australia/US student visa</td></tr>
-                        <tr><td>Family/Joint PR Certificate</td><td>Husband-wife combined in dual currency for PR/immigration. Joint and individual assets with ownership proportions for Canada/Australia</td></tr>
-                        <tr><td>Property Valuation for Visa</td><td>Government-approved valuation of Mumbai flat/land when property is significant portion. Maharashtra IGR or market rate per embassy preference</td></tr>
-                        <tr><td>Income Certificate (Supplementary)</td><td>Separate CA-certified annual income from salary/business/rental. Often submitted alongside net worth for enhanced financial proof</td></tr>
-                        <tr><td>Embassy-Specific Formatting</td><td>US Consulate BKC, Canadian VFS (study vs PR), UK VFS (30-day validity), Australian VFS, Schengen. Patron knows each consulate's preferences</td></tr>
-                        <tr><td>UDIN Authentication</td><td>Every certificate carries ICAI UDIN. Embassies verify online in 2025-2026. Certificate without UDIN risks rejection at Mumbai consulates</td></tr>
-                        <tr><td>Urgent Same-Day Service</td><td>For interviews within 1-3 days at US Consulate BKC or VFS. Scan + physical within 2-3 hours from Marine Lines office</td></tr>
-
+                        <tr><td>Certificate written for a fast reader</td><td>Basis of preparation, date and verification stated on the face, so nothing has to be reconstructed by the officer.</td><td><span class="badge-included">Per application</span></td></tr>
+                        <tr><td>Source of recent credits documented</td><td>Where a large deposit precedes the application, the asset it came from is shown in the statement of affairs.</td><td><span class="badge-included">Where applicable</span></td></tr>
+                        <tr><td>Director entries drawn from audited accounts</td><td>Shareholding, loans to the company and current account balances taken from the accounts rather than asserted.</td><td><span class="badge-included">Where applicable</span></td></tr>
+                        <tr><td>Sponsor naming reconciled</td><td>The name on the certificate matched to the passport spelling and to any undertaking signed abroad.</td><td><span class="badge-included">Where applicable</span></td></tr>
+                        <tr><td>Dual currency presentation</td><td>The figure given in the currency the mission works in alongside rupees, with the conversion rate named.</td><td><span class="badge-included">Where requested</span></td></tr>
+                        <tr><td>Signed originals for collection</td><td>Collected in person before the appointment, since several missions here will not take a printed copy.</td><td><span class="badge-included">Per application</span></td></tr>
+                        <tr><td>Destination format matched</td><td>Matched to the post that will actually decide it, since the missions here take files from several states and each publishes its own requirement.</td><td><span class="badge-included">Per application</span></td></tr>
+                        <tr><td>Student and education-loan files</td><td>Study files prepared for a reader working at volume, with the course cost and the funding behind it set out on one page.</td><td><span class="badge-included">Where a study application applies</span></td></tr>
+                        <tr><td>Sponsorship affidavit supported</td><td>Sponsor undertakings signed abroad reconciled with the certified position issued here, down to the spelling of the name.</td><td><span class="badge-included">Where the applicant is sponsored</span></td></tr>
                     </tbody>
                 </table>
                 </div>
@@ -1443,59 +890,98 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">Visa Net Worth Certificate Process in Mumbai</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Patron delivers scan in 1-2 hours, physical same-day. Marine Lines: 15 min from US Consulate BKC, 10 min from VFS Lower Parel. Entire process within 2-3 hours.</p>
+            <h2 class="section-title">From Papers to Signed Certificate, Timed to Your Mumbai Appointment</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">Six steps from the scope conversation to a signed certificate carrying a UDIN.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Confirm Visa Details &amp; Submit Documents</h3><p class="step-description">Specify visa type (student/tourist/PR/business), destination country, format (individual/family/sponsor), and interview date. Submit passport copy, bank statements (6 months), FDs, MF CAS, DEMAT holdings, property deeds + BMC tax + society certificate, gold bills, loan certificates. For student sponsor: both parents' documents + admission letter.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Visa confirmed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Documents submitted</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="30" x2="90" y2="30" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/><circle cx="85" cy="55" r="10" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/><path d="M80 55l3 3 6-6" stroke="#10B981" stroke-width="2" stroke-linecap="round"/></svg></div><span class="illustration-label">Initiated</span><span class="step-number-large">01</span></div></div></div><div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">CA Verification &amp; Exchange Rate</h3><p class="step-description">CA verifies all assets: immovable (Mumbai property per IGR/market rate), movable (vehicles, gold), liquid (bank, FDs, MF, shares, PPF). Deducts all liabilities. Applies RBI reference exchange rate for dual currency (INR to CAD/USD/GBP/AUD/EUR). Rate and source (rbi.org.in) stated on certificate. Family certificates: ownership proportions allocated.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Assets verified</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Rate applied</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="70" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="35" r="15" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><path d="M53 35l5 5 10-10" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/></svg></div><span class="illustration-label">Calculated</span><span class="step-number-large">02</span></div></div></div><div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Embassy-Ready Certificate with UDIN</h3><p class="step-description">CA prepares on letterhead: applicant name, passport number, PAN, purpose (visa to [country]), asset-liability breakdown, net worth in INR + foreign currency, RBI rate with date, CA credentials, UDIN from ICAI portal. Format tailored to US Consulate BKC, Canadian VFS, UK VFS (30-day dating), or Australian VFS preferences.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Certificate prepared</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>UDIN generated</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="35" y="25" width="50" height="8" rx="3" fill="#E8712C" opacity="0.3"/><path d="M80 55l-8 8-5-5" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/></svg></div><span class="illustration-label">Embassy Ready</span><span class="step-number-large">03</span></div></div></div><div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Same-Day Delivery in Mumbai</h3><p class="step-description">Scan via email/WhatsApp within 1-2 hours for online visa portal upload. Physical signed and sealed original: same-day within Mumbai from Marine Lines. US Consulate BKC: 15 min. VFS Lower Parel: 10 min. Entire process within 2-3 hours including physical delivery for urgent interview deadlines.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Scan delivered</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Physical same-day</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="25" y="10" width="70" height="55" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><circle cx="60" cy="35" r="18" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M52 35l6 6 12-12" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="illustration-label">Delivered</span><span class="step-number-large">04</span></div></div></div>
-
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Mumbai submission route established</h3>
+    <p class="step-description">We establish where the file is going, which from Mumbai means a consulate at BKC or Nariman Point taking the file directly, and what that route expects of a funds document. The destination decides the form of the certificate long before any balance is looked at.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-for-visa/mumbai/step-1-mumbai-submission-route-established-mumbai.webp" alt="We establish where the file is going, which from Mumbai means a consulate at BKC or Nariman Point taking the file directly" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Source of funds evidenced</h3>
+    <p class="step-description">Each balance is traced back to its origin, because a recent credit with no visible source raises the question the evidence was meant to close. Gifts, property sales and family transfers are documented at source, never merely asserted.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-for-visa/mumbai/step-2-source-of-funds-evidenced-mumbai.webp" alt="Each balance is traced back to its origin, because a recent credit with no visible source raises the question the evidence" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Sponsor position certified</h3>
+    <p class="step-description">Where somebody else funds the application their holdings are certified on the same basis as the applicant's. The figures are laid out in the form an affidavit of support calls for, where the destination expects a formal commitment.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-for-visa/mumbai/step-3-sponsor-position-certified-mumbai.webp" alt="Where somebody else funds the application their holdings are certified on the same basis as the applicant's" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Dual currency figures fixed</h3>
+    <p class="step-description">The total is shown in rupees and in the currency the mission works in, at a reference rate carrying its own date. Nothing is left for a consular officer to convert on terms of their own choosing.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-for-visa/mumbai/step-4-dual-currency-figures-fixed-mumbai.webp" alt="The total is shown in rupees and in the currency the mission works in, at a reference rate carrying its own date" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Signed in final form</h3>
+    <p class="step-description">A <a href="/net-worth-certificate-by-ca">practising chartered accountant</a> signs and generates the <a href="/blog/how-to-verify-a-net-worth-certificate">UDIN</a> while the document is in its final state. Legalisation attaches to that signed original, so the sequence cannot be reversed without producing the whole thing again.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-for-visa/mumbai/step-5-signed-in-final-form-mumbai.webp" alt="A practising chartered accountant signs and generates the UDIN while the document is in its final state" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
+            <div class="step-card">
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Legalisation arranged from Mumbai</h3>
+    <p class="step-description">For a Hague Convention destination the signed original goes for MEA apostille; otherwise the longer chain ending in embassy <a href="/glossary/networth/attestation">attestation</a> applies. From Mumbai the sequence is worked backwards from the appointment already held.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-for-visa/mumbai/step-6-legalisation-arranged-from-mumbai-mumbai.webp" alt="From Mumbai the sequence is worked backwards from the appointment already held" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Visa Certificate</h2>
+            <h2 class="section-title">What to Send Us From Mumbai</h2>
             <div class="content-text">
-                
-                <ul>
-                    <li><strong>Identity &amp; Visa:</strong> Passport copy (first + last page), PAN, Aadhaar, appointment/interview date</li>
-                    <li><strong>Assets:</strong> Bank statements (6 months), FD receipts, MF CAS with NAV, DEMAT holdings, PPF/NPS/EPF, property deeds + BMC tax + society certificate, vehicle RC, gold bills, insurance</li>
-                    <li><strong>Liabilities:</strong> Home loan, personal/vehicle/education loan outstanding, credit card statement</li>
-                    <li><strong>Student Sponsor:</strong> Both parents' PAN, Aadhaar, bank statements, FDs, property. Education loan sanction letter. Sponsor declaration. Student's admission letter</li>
-                </ul>
-                <div class="highlight-box" style="margin-top:16px;">
-                    <p><strong>Mumbai-Specific Tip:</strong> If Mumbai property is a significant portion of net worth, prepare a valuation report. Embassies at US Consulate BKC and Canadian VFS prefer market rates over stamp duty rates. For co-operative society flats, the share certificate is key. Properties under redevelopment (SRA/MHADA): consult Patron's CA on valuation treatment.</p>
-                </div>
+<ul>
+<li>The passport, spelt exactly as every other paper in the pack spells the name</li>
+<li>The mission's own funds form, where it publishes one</li>
+<li>Audited accounts for any company the applicant holds shares in or has lent to</li>
+<li>Evidence of where a recent large credit came from, traced to the asset it left</li>
+<li>The sponsor's undertaking, where one has been signed abroad</li>
+<li>Proof of relationship to the sponsor, evidenced apart from the funds</li>
+</ul>
 
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges for Mumbai Visa Applicants</h2>
+            <h2 class="section-title">Where Mumbai Visa Files Get Held Up</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <thead><tr><th>Challenge</th><th>Why it happens</th><th>How it is handled</th></tr></thead>
                     <tbody>
-                        <tr><td>Embassy Format Variations</td><td>US BKC: standard dual currency. Canadian VFS: specific student sponsor categorisation. UK VFS: 30-day dating. Australian VFS: separate bank confirmation. Schengen: EUR with minimum thresholds</td><td>Patron's CAs know each Mumbai consulate's nuances. Embassy-specific formatting ensures acceptance. 50+ countries served</td></tr>
-                        <tr><td>Mumbai Property Valuation</td><td>BKC/Powai/Andheri flat worth Rs 2-5 Cr boosts net worth but needs credible valuation. IGR vs market value gap. Under-valuation weakens; over-valuation raises concerns</td><td>Patron assists with IGR ready reckoner or market valuation per embassy preference. Property documents verified for credibility</td></tr>
-                        <tr><td>Certificate Timing</td><td>Too early = outdated for embassy. UK: 30 days. Canada: 90 days. US: flexible. Mumbai applicants must time preparation close to interview</td><td>Patron's same-day service enables certificate preparation 1-2 weeks before interview. Last-minute scheduling accommodated</td></tr>
-                        <tr><td>Exchange Rate Fluctuations</td><td>RBI rate on certificate date. Significant INR movement between certificate and interview can alter foreign currency figure</td><td>Prepare when rate is favourable if possible. Patron advises on timing. Same-day service means rate is current on interview day</td></tr>
-                        <tr><td>UDIN Verification by Embassies</td><td>2025-2026: increased online verification by visa officers. US BKC and Canadian VFS verify UDIN. No valid UDIN = rejection risk</td><td>Patron generates UDIN at signing. Immediately verifiable on ICAI portal. No delayed UDIN or verification gaps</td></tr>
-
+                        <tr><td>A recent credit has no visible source</td><td>Money arrives shortly before the application from a genuine sale or maturity that the statement does not show.</td><td>The underlying asset is shown in the statement of affairs so the credit is explained where the reader is looking.</td></tr>
+                        <tr><td>The company's figures stand in for the applicant</td><td>Worth sits inside a business and the traveller thinks of it as their own.</td><td>Personal entries are taken from the audited accounts, and the company's <a href="/statutory-audit">balance sheet</a> is not offered as the applicant's position.</td></tr>
+                        <tr><td>Two documents name the sponsor differently</td><td>An undertaking signed abroad and a certificate issued in India spell a name from different records.</td><td>The passport spelling governs, and every document in the pack is brought into line with it.</td></tr>
+                        <tr><td>The file is complete but not clear</td><td>Volume behind each desk is high and a pack that needs reconstructing is read as unexplained.</td><td>Basis, date and method of verification are stated on the face, and detail is cut rather than added.</td></tr>
                     </tbody>
                 </table>
                 </div>
@@ -1504,764 +990,666 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Visa Net Worth Certificate Fees in Mumbai</h2>
+            <h2 class="section-title">What a Visa Certificate Costs Mumbai Applicants</h2>
             <div class="content-text">
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
-                    <tbody>
-                        <tr><td>Individual &ndash; Dual Currency</td><td>Rs 3,000 &ndash; Rs 5,000 (1-2 hours scan)</td></tr>
-                        <tr><td>Student Visa Sponsor (Parents)</td><td>Rs 4,000 &ndash; Rs 6,000 (2-4 hours scan)</td></tr>
-                        <tr><td>Family/Joint PR Certificate</td><td>Rs 5,000 &ndash; Rs 7,000 (2-4 hours scan)</td></tr>
-                        <tr><td>Business Visa (with Business Assets)</td><td>Rs 4,000 &ndash; Rs 7,000 (2-4 hours scan)</td></tr>
-                        <tr><td>NRI (India-Based Assets Only)</td><td>Rs 5,000 &ndash; Rs 10,000 (1-2 working days)</td></tr>
-                        <tr><td>Property Valuation (Supplementary)</td><td>Rs 3,000 &ndash; Rs 8,000 (1-2 working days)</td></tr>
-                        <tr><td>Physical Original (Same-Day Mumbai)</td><td>Included</td></tr>
-
-                    </tbody>
-                </table>
-                </div>
-                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Net Worth Certificate for Visa consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20Mumbai.%20Please%20help." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p>Certification does not cost more in Mumbai than anywhere else. The fee is the
+                national one: <strong>Starting from INR 2499</strong> <span style="font-size:13px;color:var(--text-muted);">(Exl GST and Govt. Charges)</span>
+                for one individual with records in order, and On quote where several properties,
+                unlisted shareholdings or reconstructed records are involved.</p>
+                <p><a href="/net-worth-certificate-for-visa">See the full fee table on the Net Worth Certificate for Visa page</a>.</p>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees listed are indicative only and do not constitute a binding offer. The final amount depends on the scope of records to be examined.</p>
+                <p style="margin-top:16px;"><strong>Get a free consultation &mdash; <a href="tel:+919459456700">Call +91 94594 56700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20mumbai" target="_blank" rel="noopener">WhatsApp us</a>.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Country-Wise Visa Certificate Requirements</h2>
-            <div class="content-text">
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
-                    <tbody>
-                        <tr><td>Canada (Study/PR/Visitor)</td><td>INR + CAD | Within 90 days | VFS Lower Parel, VFS Andheri</td></tr>
-                        <tr><td>USA (B-1/B-2/Student)</td><td>INR + USD | Recent (flexible) | US Consulate General, BKC</td></tr>
-                        <tr><td>UK (Student/Visitor)</td><td>INR + GBP | Within 30 days | VFS Lower Parel</td></tr>
-                        <tr><td>Australia (PR/Skilled/Student)</td><td>INR + AUD | Within 90 days | VFS Andheri</td></tr>
-                        <tr><td>Germany/Schengen</td><td>INR + EUR | Within 90 days | German Consulate Nariman Point, VFS centres</td></tr>
-                        <tr><td>UAE</td><td>INR + AED | Within 90 days | UAE Consulate Mumbai</td></tr>
-
-                    </tbody>
-                </table>
-                </div>
-                <div class="highlight-box" style="margin-top:16px;">
-                    
-                    <p><strong>Embassy requirements change periodically.</strong> Patron's CA team verifies current requirements before preparing each certificate. In 2025-2026, embassies have shifted toward preferring UDIN-verified CA certificates over self-declared affidavits. A certificate without UDIN or with outdated date risks rejection. Patron's same-day service ensures correct timing and immediate UDIN verification.</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SECTION 12: BENEFITS -->
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
-            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron for Visa Certificate in Mumbai</h2>
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Why It Matters</div>
+            <h2 class="section-title">Why Mumbai Missions Refuse on the Paper Alone</h2>
         </div>
-        <div class="features-grid">
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3 class="feature-title">15 Min from BKC Consulate</h3><p class="feature-text">Marine Lines strategically located: 15 min from US Consulate BKC, 10 min from VFS Lower Parel. Same-day physical delivery for urgent interview deadlines.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3 class="feature-title">50+ Countries Served</h3><p class="feature-text">Embassy-specific formatting for US BKC, Canadian VFS (study vs PR), UK VFS (30-day validity), Australian VFS, Schengen, UAE. 10,000+ clients served.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3 class="feature-title">2-3 Hour Complete Process</h3><p class="feature-text">Document submission to physical delivery within 2-3 hours. Scan in 1-2 hours for online portal upload. Same-day physical guaranteed for Mumbai.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3 class="feature-title">UDIN at Signing</h3><p class="feature-text">Generated at time of signing &ndash; immediately verifiable on ICAI portal. No delayed UDIN. Embassies in Mumbai verify online in 2025-2026. Zero rejection risk.</p></article>
+        <div class="features-grid is-4">
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+  <h3 class="feature-title">A Late Credit Without an Origin</h3>
+  <p class="feature-text">A large deposit shortly before an application draws attention that a steady balance does not. Where the money is genuine but its source is not visible anywhere in the statement, the file ends up answering the wrong question.</p>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+  <h3 class="feature-title">A Director's Company Offered Instead</h3>
+  <p class="feature-text">A mission asking about the applicant is not asking about the employer's balance sheet. Shareholding and loans to the company are the personal entries, and substituting the company's own figures overstates the traveller.</p>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg></div>
+  <h3 class="feature-title">A Sponsor Named Two Ways</h3>
+  <p class="feature-text">Assets certified in India and an undertaking signed abroad have to describe one person identically, down to the spelling in the passport. A difference between them is read as a discrepancy rather than as a typing error.</p>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div>
+  <h3 class="feature-title">Detail Offered Instead of Clarity</h3>
+  <p class="feature-text">Desks here work through files from several states at speed. Anything requiring the reader to reconstruct what was done is treated as unexplained, and additional length does not compensate for it in any way.</p>
+</article>
         </div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Trusted by Mumbai Visa Applicants</h2>
-            <div class="content-text">
-                
-                <p><strong>Trust Signals:</strong> 10,000+ Clients | 4.9 Google Rating | 50+ Countries | 15+ Years</p>
-                <blockquote style="border-left:3px solid var(--orange);padding:12px 20px;margin:16px 0;background:var(--orange-lighter);border-radius:0 var(--radius-sm) var(--radius-sm) 0;">
-                    <p style="font-style:italic;margin-bottom:8px;">&ldquo;Had my US visa interview at BKC Consulate in 2 days. Patron's Marine Lines office delivered the dual currency net worth certificate &ndash; scan in 1 hour, physical by evening. The visa officer verified the UDIN on the spot. Visa approved.&rdquo;</p>
-                    <p style="font-size:13px;font-weight:700;color:var(--blue);margin:0;">&mdash; IT Professional, Powai</p>
-                </blockquote>
-                <p>Offices in Pune, Mumbai, Delhi, and Gurugram serving visa applicants for 50+ countries.</p>
-
+            <h2 class="section-title">Why Clients in Mumbai Use Patron</h2>
+            <p class="section-intro">Four things you can check before you commission the certificate. Each is a claim with the proof behind it.</p>
+            <div class="why-patron-grid is-4">
+                <div><strong>Collected in the island city</strong><p>The Marine Lines office is within reach of the Nariman Point and Bandra Kurla posts, so a signed original can be collected in person ahead of an appointment.</p></div>
+                <div><strong>Written to be read once</strong><p>Desks here work through files from several states at speed, so basis, date and method of verification sit on the face rather than in a covering note.</p></div>
+                <div><strong>Credits traced to their source</strong><p>Where a large deposit lands shortly before the application, the asset it came from is shown in the statement rather than left for the bank record to explain.</p></div>
+                <div><strong>Verifiable at the desk</strong><p>An officer can confirm the UDIN on the Institute's portal, which is worth more than length on a file that gets a short reading.</p></div>
             </div>
+
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Visa-Specific Use Cases &ndash; Mumbai Consulates</h2>
+            <span class="section-eyebrow">Choosing a basis</span>
+            <h2 class="section-title">Bank Statements Alone or a Certificate With Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Visa Type</th><th>Certificate Format</th><th>Mumbai Consulate/VFS</th></tr></thead>
-                    <tbody>
-                        <tr><td>Canada Study Permit</td><td>Parent-sponsored, dual INR+CAD, education FD earmarked</td><td>VFS Lower Parel, VFS Andheri</td></tr>
-                        <tr><td>US B-1/B-2</td><td>Individual dual INR+USD, strong liquid asset focus</td><td>US Consulate General BKC</td></tr>
-                        <tr><td>UK Student/Visitor</td><td>Dual INR+GBP, dated within 30 days of interview</td><td>VFS Lower Parel</td></tr>
-                        <tr><td>Australia PR/Skilled</td><td>Family joint, dual INR+AUD, employment-linked</td><td>VFS Andheri</td></tr>
-                        <tr><td>Schengen Tourist</td><td>Individual INR+EUR, travel insurance alongside</td><td>VFS centres across Mumbai</td></tr>
-
-                    </tbody>
-                </table>
+<table class="nwc-comparison"><thead><tr><th>Form of funds evidence</th><th>What it gives you</th><th>What it costs</th></tr></thead><tbody>
+<tr><td>Bank statements only</td><td>No cost, and every mission accepts them as part of a pack</td><td>They show balances, not what is owned, owed or pledged</td></tr>
+<tr><td>A certificate only</td><td>One dated position, verifiable, easy to read at volume</td><td>Missions still expect to see the underlying accounts</td></tr>
+<tr><td>Both, agreeing with each other</td><td>The statement explains the balances rather than repeating them</td><td>Any inconsistency between them is more visible, not less</td></tr>
+</tbody></table>
                 </div>
+<p class="nwc-verdict">Use both, and make sure they agree. Where a mission's published checklist asks only for statements, a certificate is optional and adding one is a judgement call, not a requirement.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 14: RELATED SERVICES -->
-<section class="content-section">
+<!-- Tool section follows the accounting cluster's house pattern, verified against the LIVE
+     accounting-services-for-startups / -manufacturing / accounts-receivable-outsourcing pages
+     in Patron Local: inlined and namespaced rather than an iframe; blue-lighter background;
+     all styles scoped under #tool-section; an explicit Calculate button revealing a result
+     panel; an action row after the result; a dataset init guard; and the
+     "Open the full calculator" link last. -->
+<section class="content-section" id="tool-section" style="background-color:var(--blue-lighter);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Services</h2>
+            <h2 class="section-title">See the Figure the Way the Desk Will See It</h2>
             <div class="content-text">
-                
-                <p>Explore related services:</p>
-                <ul>
-                    <li><a href="/net-worth-certificate">Net Worth Certificate (India Overview)</a></li>
-                    <li><a href="/turnover-certificate">Turnover Certificate</a></li>
-                    <li><a href="/income-tax-return/mumbai">ITR Filing in Mumbai</a></li>
-                    <li><a href="/statutory-audit/mumbai">Statutory Audit in Mumbai</a></li>
-                    <li><a href="/private-limited-company-registration/mumbai">Pvt Ltd Registration Mumbai</a></li>
-                    <li><a href="#">MSME Registration</a></li>
-                    <li><a href="/gst-registration">GST Registration</a></li>
-                    <li><a href="/trademark-registration">Trademark Registration</a></li>
-                </ul>
+<p>Enter holdings and the destination currency to see what a mission reading at volume will take from the file. It is a quick check on whether the position speaks for itself without explanation. The result is indicative and the certificate carries the rate and date actually applied.</p>
 
+                <style>
+                /* Inlined and themed to this page's tokens (nwt- namespace) */
+                #tool-section .nwt-wrap{--nwt-navy:var(--blue,#1B365D);--nwt-orange:var(--orange,#E8712C);--nwt-surface:var(--blue-lighter,#F4F7FB);--nwt-border:var(--gray-200,#E5E7EB);--nwt-muted:var(--text-muted,#6B7280);--nwt-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin-top:22px;}
+                #tool-section .nwt-card{background:#fff;border:1px solid var(--nwt-border);border-radius:16px;box-shadow:0 10px 30px rgba(27,54,93,.08);padding:28px;}
+                #tool-section .nwt-title{font-size:20px;font-weight:700;color:var(--nwt-navy);margin:0 0 20px;line-height:1.3;}
+                #tool-section .nwt-label{display:block;font-size:12px;font-weight:700;color:var(--nwt-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:7px;}
+                #tool-section .nwt-field{margin-bottom:18px;}
+                #tool-section .nwt-toggle{display:flex;gap:4px;background:var(--nwt-surface);border-radius:10px;padding:4px;max-width:420px;}
+                #tool-section .nwt-tbtn{flex:1;padding:10px 8px;border:0;border-radius:7px;font:inherit;font-size:14px;font-weight:700;color:var(--nwt-muted);background:transparent;cursor:pointer;transition:all .2s;}
+                #tool-section .nwt-tbtn.active{background:#fff;color:var(--nwt-navy);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+                #tool-section .nwt-cols{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+                #tool-section .nwt-col h4{font-size:14px;font-weight:700;color:var(--nwt-navy);margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid var(--nwt-surface);}
+                #tool-section .nwt-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:5px 0;font-size:14px;}
+                #tool-section .nwt-row label{flex:1;margin:0;}
+                #tool-section .nwt-input{width:150px;padding:9px 12px;border:2px solid var(--nwt-border);border-radius:9px;font:inherit;font-size:15px;font-weight:700;font-family:var(--nwt-mono);color:var(--nwt-navy);background:var(--nwt-surface);text-align:right;outline:none;transition:border-color .2s;}
+                #tool-section .nwt-input:focus{border-color:var(--nwt-navy);}
+                #tool-section .nwt-calc{width:100%;margin-top:22px;padding:15px;border:0;border-radius:10px;background:var(--nwt-navy);color:#fff;font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background .2s;}
+                #tool-section .nwt-calc:hover{background:var(--nwt-orange);}
+                #tool-section .nwt-result{display:none;margin-top:24px;padding-top:22px;border-top:1px solid var(--nwt-border);}
+                #tool-section .nwt-result.show{display:block;}
+                #tool-section .nwt-rgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+                #tool-section .nwt-rcard{background:var(--nwt-surface);border-radius:12px;padding:16px 18px;}
+                #tool-section .nwt-rcard.full{grid-column:1/-1;background:var(--nwt-navy);}
+                #tool-section .nwt-rcard.full .nwt-rlabel{color:rgba(255,255,255,.72);}
+                #tool-section .nwt-rcard.full .nwt-rval{color:#fff;font-size:26px;}
+                #tool-section .nwt-rlabel{font-size:12px;font-weight:700;color:var(--nwt-muted);text-transform:uppercase;letter-spacing:.5px;}
+                #tool-section .nwt-rval{font-size:20px;font-weight:700;color:var(--nwt-navy);font-family:var(--nwt-mono);margin-top:6px;}
+                #tool-section .nwt-break{margin-top:18px;}
+                #tool-section .nwt-brow{display:flex;justify-content:space-between;gap:16px;padding:8px 0;border-bottom:1px dashed var(--nwt-border);font-size:14px;}
+                #tool-section .nwt-blabel{color:var(--nwt-muted);}
+                #tool-section .nwt-bval{font-family:var(--nwt-mono);font-weight:700;color:var(--nwt-navy);}
+                #tool-section .nwt-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;}
+                #tool-section .nwt-abtn{display:inline-flex;align-items:center;gap:7px;padding:10px 16px;border-radius:8px;background:var(--nwt-surface);color:var(--nwt-navy);font-size:13.5px;font-weight:700;text-decoration:none;line-height:1;}
+                #tool-section .nwt-abtn:hover{background:var(--nwt-navy);color:#fff;}
+                #tool-section .nwt-abtn svg{width:15px;height:15px;flex-shrink:0;}
+                #tool-section .nwt-reset{margin-top:16px;padding:9px 18px;border:1px solid var(--nwt-border);background:#fff;border-radius:50px;font:inherit;font-size:13.5px;font-weight:600;color:var(--nwt-muted);cursor:pointer;}
+                #tool-section .nwt-note{font-size:13px;color:var(--nwt-muted);margin-top:16px;}
+                @media(max-width:760px){#tool-section .nwt-cols{grid-template-columns:1fr;gap:22px;}
+                  #tool-section .nwt-rgrid{grid-template-columns:1fr;}
+                  #tool-section .nwt-card{padding:20px;}
+                  #tool-section .nwt-input{width:120px;}}
+
+                #tool-section .nwt-cols--3{grid-template-columns:repeat(3,minmax(0,1fr));}
+                #tool-section .nwt-cols--4{grid-template-columns:repeat(2,minmax(0,1fr));}
+                #tool-section .nwt-compare{margin-top:18px;padding-top:16px;border-top:1px dashed var(--nwt-border);}
+                #tool-section .nwt-splitwrap{overflow-x:auto;margin-top:20px;}
+                /* table-layout:fixed with the inputs at width:100%. Left to auto layout the
+                   inputs kept their own 130px while the cells stretched to a quarter of a
+                   1320px column each, so every row was a small box against 300px of blank
+                   cell - which is what the partner table shipped as. */
+                #tool-section .nwt-split{width:100%;table-layout:fixed;border-collapse:collapse;font-size:14px;}
+                #tool-section .nwt-split th{text-align:left;font-size:12px;font-weight:700;color:var(--nwt-muted);text-transform:uppercase;letter-spacing:.4px;padding:8px 10px 10px 0;border-bottom:2px solid var(--nwt-surface);}
+                #tool-section .nwt-split thead th{background:var(--nwt-navy);color:#fff;padding:12px 14px;}
+                #tool-section .nwt-split thead th:first-child{border-radius:8px 0 0 0;}
+                #tool-section .nwt-split thead th:last-child{border-radius:0 8px 0 0;}
+                #tool-section .nwt-split col.nwt-c1{width:22%;}
+                #tool-section .nwt-split tbody th{font-size:14px;text-transform:none;letter-spacing:0;color:var(--nwt-navy);border-bottom:1px solid var(--nwt-border);padding:8px 14px 8px 4px;}
+                #tool-section .nwt-split td{padding:8px 14px 8px 0;border-bottom:1px solid var(--nwt-border);}
+                #tool-section .nwt-split td:last-child{padding-right:4px;}
+                #tool-section .nwt-split .nwt-input{width:100%;}
+                #tool-section .nwt-split tbody tr:nth-child(even){background:var(--nwt-surface);}
+                @media(max-width:900px){#tool-section .nwt-cols--3{grid-template-columns:1fr 1fr;}}
+                @media(max-width:760px){#tool-section .nwt-cols--3,#tool-section .nwt-cols--4{grid-template-columns:1fr;}
+                  #tool-section .nwt-split{table-layout:auto;min-width:520px;}
+                  #tool-section .nwt-split col.nwt-c1{width:auto;}}
+                </style>
+
+                <div class="nwt-wrap">
+                    <div class="nwt-card">
+                        <h3 class="nwt-title">Free tool: Visa Net Worth Currency Converter</h3>
+
+                        <div class="nwt-field">
+                            <span class="nwt-label">Amounts entered in</span>
+                            <div class="nwt-toggle" id="nwtUnit" role="group" aria-label="Unit">
+                                <button type="button" class="nwt-tbtn active" data-unit="rupees">&#8377; Rupees</button>
+                                <button type="button" class="nwt-tbtn" data-unit="lakh">&#8377; Lakh</button>
+                                <button type="button" class="nwt-tbtn" data-unit="crore">&#8377; Crore</button>
+                            </div>
+                        </div>
+
+                        <div class="nwt-cols">
+                            <div class="nwt-col">
+                                <h4>Your position in rupees</h4>
+                                <div class="nwt-row"><label for="nwt-inr">Net worth (INR)</label>
+                                <input class="nwt-input" type="text" id="nwt-inr" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                            </div>
+                            <div class="nwt-col">
+                                <h4>The rate you will print on the document</h4>
+                                <div class="nwt-row"><label for="nwt-ccy">Destination currency</label>
+                                <select class="nwt-input" id="nwt-ccy" style="width:150px;text-align:left;">
+                                    <option value="USD">USD</option>
+                                    <option value="GBP">GBP</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="CAD">CAD</option>
+                                    <option value="AUD">AUD</option>
+                                    <option value="NZD">NZD</option>
+                                    <option value="SGD">SGD</option>
+                                    <option value="AED">AED</option>
+                                    <option value="CHF">CHF</option>
+                                    <option value="JPY">JPY</option>
+                                </select></div>
+                                <div class="nwt-row"><label for="nwt-rate">Rupees per 1 unit</label>
+                                <input class="nwt-input" type="text" id="nwt-rate" inputmode="decimal" autocomplete="off" placeholder="0.00"></div>
+                                <div class="nwt-row"><label for="nwt-rdate">Date the rate was taken</label>
+                                <input class="nwt-input" type="date" id="nwt-rdate" style="width:170px;text-align:left;"></div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="nwt-calc" id="nwtCalc">Convert</button>
+
+                        <div class="nwt-result" id="nwtResult">
+                            <div class="nwt-rgrid">
+                                <div class="nwt-rcard"><div class="nwt-rlabel">Position in rupees</div><div class="nwt-rval" id="nwtA">&mdash;</div></div>
+                                <div class="nwt-rcard"><div class="nwt-rlabel">Rate applied</div><div class="nwt-rval" id="nwtB">&mdash;</div></div>
+                                <div class="nwt-rcard full"><div class="nwt-rlabel">Position in the destination currency</div><div class="nwt-rval" id="nwtNet">&mdash;</div></div>
+                            </div>
+                            <div class="nwt-break" id="nwtBreak"></div>
+                            <div class="nwt-actions">
+                                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20mumbai" target="_blank" rel="noopener" class="nwt-abtn"><svg viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> Ask a CA</a>
+                                <a href="/tools/visa-nwc-currency-converter" class="nwt-abtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 21h18M6 21V8h5v13M13 21V3h5v18"/></svg> Visa NWC Currency Converter</a>
+                                <a href="/tools/company-net-worth-calculator" class="nwt-abtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 21h18M6 21V8h5v13M13 21V3h5v18"/></svg> Company Net Worth Calculator</a>
+                            </div>
+                            <button type="button" class="nwt-reset" id="nwtReset">&#8635; Reset Calculator</button>
+                        </div>
+
+                        <p class="nwt-note">The converter applies the rate you enter. It publishes no rate of its own: the rate on the document must be one the reader can verify, and its date goes on the face of the document beside it.</p>
+                    </div>
+                </div>
+
+                <script>
+
+                (function(){
+                    var root = document.getElementById('tool-section');
+                    if(!root || root.dataset.nwtInit) return;
+                    root.dataset.nwtInit = '1';
+                    var unit = 'rupees';
+                    function mult(){ return unit === 'crore' ? 1e7 : unit === 'lakh' ? 1e5 : 1; }
+                    function parseINR(raw){ if(raw==null) return NaN; var c=String(raw).replace(/[,\s\u20B9]/g,''); if(c==='') return NaN; var n=parseFloat(c); return isFinite(n)?n:NaN; }
+                    function money(n){ var s='\u20B9'+Math.round(Math.abs(n)).toLocaleString('en-IN'); return n<0 ? '-'+s : s; }
+                    function row(l,v){ return '<div class="nwt-brow"><span class="nwt-blabel">'+l+'</span><span class="nwt-bval">'+v+'</span></div>'; }
+                    function $(id){ return document.getElementById(id); }
+                    function show(){ var rs=$('nwtResult'); rs.classList.add('show'); rs.scrollIntoView({behavior:'smooth', block:'nearest'}); }
+
+                    var unitBar = root.querySelector('#nwtUnit');
+                    if(unitBar){
+                        unitBar.querySelectorAll('.nwt-tbtn').forEach(function(b){
+                            b.addEventListener('click', function(){
+                                unit = b.dataset.unit;
+                                unitBar.querySelectorAll('.nwt-tbtn').forEach(function(x){ x.classList.remove('active'); });
+                                b.classList.add('active');
+                            });
+                        });
+                    }
+
+                    function calculate(){
+                        var m = mult();
+                        var inr = parseINR($('nwt-inr').value) * m;
+                        var rate = parseINR($('nwt-rate').value);
+                        var ccy = $('nwt-ccy').value;
+                        var d = $('nwt-rdate').value;
+                        if(!isFinite(inr) || !isFinite(rate) || rate <= 0){
+                            $('nwtNet').textContent = 'Enter a position and a rate';
+                            $('nwtA').textContent = '\u2014'; $('nwtB').textContent = '\u2014';
+                            $('nwtBreak').innerHTML = '';
+                            show(); return;
+                        }
+                        var conv = inr / rate;
+                        $('nwtA').textContent = money(inr);
+                        $('nwtB').textContent = '\u20B9' + rate.toLocaleString('en-IN', {maximumFractionDigits:4}) + ' / 1 ' + ccy;
+                        $('nwtNet').textContent = ccy + ' ' + conv.toLocaleString('en-IN', {maximumFractionDigits:2});
+                        $('nwtBreak').innerHTML =
+                            row('Rupee position (governs)', money(inr)) +
+                            row('Rate applied', '\u20B9' + rate.toLocaleString('en-IN', {maximumFractionDigits:4}) + ' per ' + ccy) +
+                            row('Date the rate was taken', d ? d : 'not stated \u2014 it must go on the document') +
+                            row('<strong>' + ccy + ' equivalent</strong>', '<strong>' + ccy + ' ' + conv.toLocaleString('en-IN', {maximumFractionDigits:2}) + '</strong>');
+                        show();
+                    }
+
+                    $('nwtCalc').addEventListener('click', calculate);
+                    root.querySelector('.nwt-card').addEventListener('keydown', function(e){
+                        if(e.key === 'Enter' && e.target.tagName === 'INPUT'){ e.preventDefault(); calculate(); }
+                    });
+                    $('nwtReset').addEventListener('click', function(){
+                        root.querySelectorAll('.nwt-input').forEach(function(i){ i.value = ''; });
+                        $('nwtResult').classList.remove('show');
+                    });
+                })();
+                </script>
+
+                <p style="margin-top:16px;font-size:14px;"><a href="/tools/embassy-nwc-format-library" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">Open the full calculator &#8599;</a></p>
+                <p style="margin-top:10px;font-size:14px;">Go deeper: <a href="/tools/net-worth-calculator">the net worth calculator</a></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Legal &amp; Compliance Framework</h2>
+            <h2 class="section-title">Consular Jurisdiction and the Law Behind a Mumbai File</h2>
             <div class="content-text">
-                
-                <ul>
-                    <li><strong>CA Act 1949:</strong> Only practising CAs with COP can issue visa certificates</li>
-                    <li><strong>UDIN:</strong> ICAI mandates on every CA certificate &ndash; embassies verify online</li>
-                    <li><strong>RBI Reference Rate:</strong> Daily rate from rbi.org.in for dual currency conversion</li>
-                    <li><strong>Property:</strong> Maharashtra IGR ready reckoner for Mumbai property base valuation</li>
-                    <li><strong>Validity:</strong> UK: 30 days | Canada/Australia: 90 days | US: flexible</li>
-                    <li><strong>Trend 2025-2026:</strong> Embassies preferring UDIN-verified CA certificates over self-declared</li>
+                <p>Mumbai files are decided by consular posts whose authority and jurisdiction come from treaty rather than from Indian statute. What that means practically is that the reader's requirements are published by the mission and are not negotiable locally.</p>
+                <p>Indian law governs what the applicant holds and how it is evidenced, and the professional standard governs the certificate.</p>
+                <ul class="al-list">
+                    <li><span class="al-t"><strong>Vienna Convention on Consular Relations 1963</strong></span><span class="al-d">is the basis on which consular posts operate and set their own documentary requirements within their published jurisdiction.</span></li>
+                    <li><span class="al-t"><strong>Income-tax Act 1961, section 139</strong></span><span class="al-d">requires the return the certificate's figures are read alongside, which is the first cross-check a mission makes.</span></li>
+                    <li><span class="al-t"><strong>Companies Act 2013, section 2(57)</strong></span><span class="al-d">defines a <a href="/net-worth-certificate-for-company">company's net worth</a>, which is a different figure from the director's own and may not be offered in its place.</span></li>
+                    <li><span class="al-t"><strong>Transfer of Property Act 1882, section 58</strong></span><span class="al-d">identifies a <a href="/glossary/networth/mortgage">mortgage</a>, so a flat charged to a <a href="/net-worth-certificate-for-bank-loan">lender</a> is shown with the charge rather than at gross value.</span></li>
+                    <li><span class="al-t"><strong>ICAI Guidance Note on Reports or Certificates for Special Purposes, Revised 2016</strong></span><span class="al-d">governs the wording, and requires the accountant to state what was verified rather than assumed.</span></li>
                 </ul>
-                <p><strong>Verification Portal:</strong> <a href="https://udin.icai.org" target="_blank" rel="noopener">udin.icai.org</a> (ICAI UDIN Portal)</p>
-
+                <p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a> &middot; <a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal</a> &middot; <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color:#ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions &ndash; Visa Net Worth Certificate in Mumbai</h2>
-                    <p class="faq-expanded__lead">Get answers about where to get, cost, timeline, Canada visa requirement, validity, UDIN verification, online process, and documents for Mumbai visa applicants.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Visa Net Worth Certificate in Mumbai'])
+                    <h2 class="faq-expanded__title">Mumbai Visa Questions We Are Actually Asked</h2>
+                    <p class="faq-expanded__lead">Common questions on what goes into the statement, how each figure is evidenced, and what the certificate does and does not say.</p>
+                    <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <div class="faq-enquiry">
+  <h3 class="faq-enquiry__title">Ask about your certificate</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <a class="faq-enquiry__btn" href="#consultationFormCard">Get a Callback</a>
+</div>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">Where can I get a visa certificate in Mumbai?</h3>
-                        <div class="faq-expanded__a"><p>From Patron at Marine Lines &ndash; 15 min from US Consulate BKC, 10 min from VFS Lower Parel. CA-certified dual currency with UDIN for 50+ countries. Scan 1-2 hours, physical same-day. Call +91 945 945 6700.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">How much does it cost?</h3>
-                        <div class="faq-expanded__a"><p>Individual dual currency: Rs 3,000-5,000. Student sponsor: Rs 4,000-6,000. Family/PR: Rs 5,000-7,000. Business visa: Rs 4,000-7,000. NRI: Rs 5,000-10,000. Property valuation supplementary: Rs 3,000-8,000.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">How long does it take?</h3>
-                        <div class="faq-expanded__a"><p>Scan 1-2 hours. Physical same-day Mumbai. Entire process 2-3 hours including physical delivery. US Consulate BKC: 15 min from office. VFS Lower Parel: 10 min. Same-day guaranteed for urgent interviews.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">Is it mandatory for Canada visa?</h3>
-                        <div class="faq-expanded__a"><p>Strongly recommended for study permit, visitor visa, and PR via VFS Lower Parel/Andheri. Significantly strengthens financial proof. Dual currency INR + CAD. Parents' combined net worth standard for student visa sponsorship.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">How long is it valid?</h3>
-                        <div class="faq-expanded__a"><p>UK VFS: 30 days. Canadian VFS: 90 days. US Consulate: flexible (3-6 months). Australian VFS: 90 days. Prepare close to interview. Patron's same-day service enables correct timing for any embassy.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Do embassies check UDIN?</h3>
-                        <div class="faq-expanded__a"><p>Yes &ndash; increasingly in 2025-2026. US Consulate BKC and Canadian VFS verify UDIN online. Without valid UDIN: rejection risk. Patron generates at signing for immediate verifiability on ICAI portal.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">Can I get it online?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Documents via secure portal. CA verifies, applies RBI rate, issues with UDIN. Scan email/WhatsApp 1-2 hours for online visa portal upload. Physical couriered same-day Mumbai.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">What documents are needed?</h3>
-                        <div class="faq-expanded__a"><p>Passport copy, PAN, Aadhaar, bank statements (6 months), FDs, MF CAS, DEMAT, PPF/NPS, property deeds + BMC tax + society certificate, gold, loans. Student sponsor: both parents' documents + admission letter.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do the Mumbai consulates accept documents directly rather than through a visa centre?</h3>
+  <div class="faq-expanded__a"><p>Some do for certain categories. Missions at the Bandra Kurla Complex and Nariman Point each publish their own submission route. Business and official categories are more often handled directly than tourist files. Because the route decides the checklist, it is read on the mission's own page before the funds pack is assembled.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">How does a business visitor file differ from a family sponsorship in whose funds are shown?</h3>
+  <div class="faq-expanded__a"><p>The paying party changes. In a business visit the company usually meets the costs. So the company's position and a letter of invitation carry the file, with the traveller's own means shown as support. In a family sponsorship the sponsor's certificate is central and the applicant's holdings are secondary. The certificate names whose net worth it reports.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a sponsor living abroad also need an Indian chartered accountant's certificate?</h3>
+  <div class="faq-expanded__a"><p>Not usually. A sponsor resident overseas evidences means through local bank statements, tax filings and an affidavit of support prepared where they live. An Indian certificate becomes relevant where that sponsor holds assets in India, in which case the Indian holdings are certified here and the overseas ones evidenced abroad.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which Mumbai consulates expect a dual-currency presentation?</h3>
+  <div class="faq-expanded__a"><p>It varies by mission, so the certificate is prepared to show both by default. A rupee total with the destination currency equivalent, the rate used and the rate date printed alongside satisfies missions that ask for it. It does not trouble those that do not. The alternative, reissuing after a query, costs a week.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Do Mumbai property holdings help demonstrate ties to India?</h3>
+  <div class="faq-expanded__a"><p>They contribute. A visa officer assessing whether an applicant will return looks at employment, family and property together, and an owned Mumbai flat is a substantial anchor. It is not decisive on its own: refusals citing weak ties usually turn on the overall picture rather than on the absence of any single asset.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a merchant navy applicant's file work differently?</h3>
+  <div class="faq-expanded__a"><p>The income evidence does. A seafarer's earnings arrive as foreign remittance against a contract rather than as a domestic salary. So the certificate is read with the continuous discharge certificate, the contract and the bank credits. The asset schedule itself is prepared exactly as for any other individual applicant.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can one certificate cover a couple applying together?</h3>
+  <div class="faq-expanded__a"><p>Where one of them funds the trip, yes, with the other named as accompanying. Where both are assessed on their own means, or where assets are held separately, two certificates read more cleanly than one joint document. <a href="/blog/joint-owners-net-worth-certificate-explained">Jointly held</a> assets are shown at each holder's share so that nothing is counted twice across the two.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a directorship in a Mumbai company strengthen a business visa file?</h3>
+  <div class="faq-expanded__a"><p>It supports the purpose of travel more than the funds. A directorship establishes the business relationship behind the visit, evidenced by the company's registration and the board record. The funds question is answered by the certificate and the bank statements. Missions treat the two as separate tests and expect evidence for each.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Are demat holdings accepted as available funds?</h3>
+  <div class="faq-expanded__a"><p>They are counted as assets, not as ready money. A consulate asking whether the trip can be paid for looks at bank balances and deposits. Listed holdings must be sold and settled before they are spendable. The certificate reports the holding at its value on the stated date and the <a href="/glossary/networth/liquidity">liquidity</a> question is answered separately.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is a certificate needed for a short business trip?</h3>
+  <div class="faq-expanded__a"><p>Often not. Where an employer or an overseas host meets the costs and the invitation letter says so, missions frequently ask for nothing beyond employment evidence. The certificate becomes relevant for self-employed travellers, for first-time applicants with a thin travel history, and where the applicant funds the trip personally.</p></div>
+</div>
                 </div>
-            </div>
-
-
-            <!-- Quick Answers -->
-            <div class="highlight-box" style="margin-top:32px;">
-                <p><strong>Quick Answers</strong></p>
-                <p><strong>Visa ke liye net worth certificate kaise banwayein?</strong> Mumbai mein kisi bhi ICAI-registered practising CA se banwa sakte hain. Patron ka Marine Lines office 1-2 ghante mein scan aur same-day physical deliver karta hai. UDIN mandatory hai.</p>
-                <p><strong>Dual currency format kya hota hai?</strong> Net worth INR mein aur destination country ki currency (CAD, USD, GBP, AUD) mein bhi dikhaya jaata hai. RBI ki reference rate use hoti hai certificate ki date par.</p>
-                <p><strong>Property bhi count hoti hai?</strong> Haan. Mumbai ka flat, plot, ya commercial property immovable asset ke roop mein count hota hai. Maharashtra IGR ya market valuation use hoti hai.</p>
-
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Visa Interview Coming Up? Get Embassy-Ready Certificate Today</h2>
+            <h2 class="section-title">Same-Day Certification for Mumbai Appointments</h2>
             <div class="content-text">
-                
-                <p>UK VFS wants certificate within 30 days. Canadian VFS within 90 days. A certificate without UDIN or with outdated date risks rejection. Patron's Marine Lines office &ndash; 15 min from US Consulate BKC, 10 min from VFS Lower Parel &ndash; delivers embassy-ready certificates with same-day physical delivery.</p>
-                <p><strong>Get your visa net worth certificate today &ndash; <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20Mumbai." target="_blank">WhatsApp us</a>.</strong></p>
-
+<p>Where a Mumbai consulate at Bandra Kurla or Nariman Point takes your file directly, the scrutiny happens at submission rather than afterwards, so nothing can be fixed on the day. The certificate has to be final before you travel to the counter. Call or WhatsApp <a href="tel:+919459456700">+91 94594 56700</a> to check yours against that route.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Embassy-Ready Visa Net Worth Certificate in Mumbai</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Mumbai Visa Certificate</h2>
             <div class="content-text" style="text-align:left;">
-                
-                <p style="color:rgba(255,255,255,0.85);font-size:16px;line-height:1.7;">A visa net worth certificate in Mumbai is the most critical financial document for any visa application from India's largest consular hub. US Consulate BKC, Canadian VFS Lower Parel, UK VFS, Australian VFS Andheri, and 70+ consulates all accept CA-certified UDIN-verified dual currency certificates.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:16px;line-height:1.7;">Patron's Marine Lines office &ndash; 15 min from BKC, 10 min from VFS Lower Parel &ndash; provides embassy-ready certificates with same-day delivery. Embassy-specific formatting, RBI exchange rate, UDIN at signing, and property valuation support for 50+ countries.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:16px;line-height:1.7;">With offices in Pune, Mumbai, Delhi, and Gurugram, 10,000+ clients served, and 4.9 Google rating, Patron delivers visa certificates within 1-2 hours.</p>
-
+<p style="color:rgba(255,255,255,0.88);">Mumbai is unusual in that several consulates at Bandra Kurla Complex and Nariman Point take files directly rather than through an outsourced centre. That changes what is examined and when. Find out which applies to your destination before commissioning anything. Tell us where the file is going and what appointment you hold, and we will draw the certificate to that route.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
-                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20Mumbai.%20Please%20help." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;">&#128222; Call +91 94594 56700</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20mumbai" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20a%20Net%20Worth%20Certificate%20for%20Visa%20in%20Mumbai&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20a%20net%20worth%20certificate%20for%20visa%20in%20mumbai%20and%20would%20like%20to%20know%20more.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;">&#9993;&#65039; Email Us</a>
             </div>
-            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Speak to a <a href="/net-worth-certificate-by-ca">chartered accountant</a> at Patron on <a href="tel:+919459456700">+91 94594 56700</a>, by call or WhatsApp.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
+<section class="content-section" id="office-section" style="background: var(--cream) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <span class="section-eyebrow">Our office</span>
+            <h2 class="section-title">Where to Find Us in Mumbai</h2>
+            <div class="nwc-office-split">
+                <div class="content-text nwc-office">
+<p>Patron Accounting LLP sits at Marine Lines in the island city, within reach of the Nariman Point missions and the Bandra Kurla Complex. A signed original can be collected in person before an appointment. Passports, bank statements and sponsor papers can be brought here.</p>
+<address class="nwc-nap">Patron Accounting LLP, Mumbai<br>1st Floor, Rajshila Building, 104/597, Jagannath Shankar Seth Rd, near Maheshwari Bhavan, Marine Lines<br>Mumbai 400002, Maharashtra<br>Telephone <a href="tel:+919459456700">+91 94594 56700</a><br>Monday to Friday 9am to 7pm, Saturday 9am to 3pm</address>
+                </div>
+
+                <div class="nwc-office-map">
+                  <iframe title="Map to Patron Accounting LLP, Mumbai" src="https://www.google.com/maps?q=Patron%20Accounting%20LLP%2C%20Mumbai%2C%201st%20Floor%2C%20Rajshila%20Building%2C%20104/597%2C%20Jagannath%20Shankar%20Seth%20Rd%2C%20near%20Maheshwari%20Bhavan%2C%20Marine%20Lines%2C%20Mumbai%20400002%2C%20Maharashtra&amp;ll=18.94639928148184,72.82745076674146&amp;z=17&amp;hl=en&amp;output=embed"
+                          width="100%" height="360" style="border:0;border-radius:var(--radius-xl);display:block;"
+                          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                  <p style="margin-top:10px;font-size:14px;">
+                    <a href="https://www.google.com/maps/search/?api=1&amp;query=Patron%20Accounting%20LLP%2C%20Mumbai%2C%201st%20Floor%2C%20Rajshila%20Building%2C%20104/597%2C%20Jagannath%20Shankar%20Seth%20Rd%2C%20near%20Maheshwari%20Bhavan%2C%20Marine%20Lines%2C%20Mumbai%20400002%2C%20Maharashtra" target="_blank" rel="noopener">Open in Google Maps &#8599;</a>
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Net Worth Certificate Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting issues embassy-ready visa net worth certificates in major cities with UDIN, dual currency, and consulate-specific formatting.</p>
-          
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Cities We Serve</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local teams issuing this certificate in these cities.</p>
             <div class="pa-city-block" style="margin-bottom:40px;">
-                        <div class="pa-block-title">Visa Net Worth Certificate in Other Cities</div>
-                        <div class="pa-block-sub">Embassy-ready certificates across India</div>
-                        <div class="pa-city-grid">
-                            <a href="/net-worth-certificate/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                            <div class="pa-city-card" style="opacity:0.6; pointer-events:none; border:2px solid var(--orange); position:relative;"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div><span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span></div>
-                            <a href="/net-worth-certificate/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div></a>
-                            <a href="/net-worth-certificate/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                        </div>
-                    </div>
-                    <div class="pa-city-block">
-                        <div class="pa-block-title">Related Services in Mumbai</div>
-                        <div class="pa-block-sub">End-to-end financial compliance</div>
-                        <div class="pa-cross-grid">
-                            <a href="/private-limited-company-registration/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">Mumbai</div></div></a>
-                            <a href="/income-tax-return/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div></a>
-                            <a href="/gst-registration/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Mumbai</div></div></a>
-                            <a href="/startup-registration/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Startup Registration</div><div class="pa-card-sub">Mumbai</div></div></a>
-                            <a href="/trademark-registration/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Registration</div><div class="pa-card-sub">Mumbai</div></div></a>
-                            <a href="/payroll-services/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Mumbai</div></div></a>
-                        </div>
-                    </div>
+                <div class="pa-city-grid"><span class="pa-city-card is-here" aria-current="page"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">You are here</div></div></span>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-visa/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-visa/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi</div></div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-visa/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-visa/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a></div>
+            </div>
+            <div class="pa-city-block">
+                <div class="pa-block-title">Related Services</div>
+                <div class="pa-block-sub">End-to-end support</div>
+                <div class="pa-cross-grid"><a href="https://www.patronaccounting.com/net-worth-certificate-by-ca" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate by CA</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-company" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Company</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Partnership Firm</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship" class="pa-cross-card"><div class="pa-card-title">CA Certificate for Proprietorship Firm</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Visa</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Bank Loan</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-rera-registration" class="pa-cross-card"><div class="pa-card-title">CA Certificate for RERA</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-divorce" class="pa-cross-card"><div class="pa-card-title">Net Worth Statement for Divorce</div></a>
+<a href="https://www.patronaccounting.com/solvency-certificate" class="pa-cross-card"><div class="pa-card-title">Solvency Certificate</div></a>
+<a href="https://www.patronaccounting.com/net-owned-fund-certificate-for-nbfc" class="pa-cross-card"><div class="pa-card-title">Minimum Net Owned Fund for NBFC</div></a>
+<a href="https://www.patronaccounting.com/glossary/networth" class="pa-cross-card"><div class="pa-card-title">Net Worth &amp; Solvency Glossary</div></a></div>
+            </div>
+            <div class="pa-city-block" style="margin-top:36px;">
+                <div class="pa-block-title">More From Patron Accounting</div>
+                <div class="pa-block-sub">Outside this practice, and mentioned on this page</div>
+                <div class="pa-cross-grid"><a href="https://www.patronaccounting.com/gst-registration" class="pa-cross-card"><div class="pa-card-title">GST Registration</div></a>
+<a href="https://www.patronaccounting.com/statutory-audit" class="pa-cross-card"><div class="pa-card-title">Statutory Audit</div></a>
+<a href="https://www.patronaccounting.com/llp-incorporation" class="pa-cross-card"><div class="pa-card-title">LLP Incorporation</div></a></div>
+            </div>
+            <div class="pa-city-block" style="margin-top:36px;">
+                <div class="pa-block-title">Read Next</div>
+                <div class="pa-block-sub">The detail behind each figure on this page</div>
+                <ul class="pa-read-list">
+                    <li><a href="/blog/affidavit-of-support-vs-net-worth-certificate">Affidavit of Support vs Net Worth Certificate</a></li>
+                    <li><a href="/blog/documents-required-for-net-worth-certificate">Documents Required for a Net Worth Certificate: Full List</a></li>
+                    <li><a href="/blog/how-to-calculate-net-worth-for-a-net-worth-certificate">How to Calculate Net Worth for a Net Worth Certificate</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> 25 March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">25 March 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> 25 September 2026 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This content is reviewed semi-annually for embassy requirement changes, UDIN updates, and exchange rate procedures. Freshness Tier: 1.</p>
-        </div>
-    </div>
-</section>
-
-<!-- STICKY WHATSAPP BAR -->
-{{--
-<div class="wa-sticky-bar" id="waBar">
-    <div class="wa-sticky-bar-content">
-        <div class="wa-sticky-bar-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
-        </a>
-        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
-    </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+<div class="eeat-review-wrap"><div class="eeat-review">
+  <div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div>
+  <div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; certification &nbsp;&middot;&nbsp; Last reviewed 4 August 2026 &nbsp;&middot;&nbsp; Next review 4 November 2026</div>
+  <div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a><a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal</a><a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a></div>
+</div></div>
 
 </main>
 
-
-<!-- Google Maps Places Library (for GMB reviews) -->
-
-
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+{{-- Page JS. Kept HERE and deliberately NOT pushed to the scripts stack: the
+     service-app layout renders that stack twice, so anything pushed to it
+     loads twice. That is the accounting cluster's known porting bug. --}}
 <script>
-(function() {
-    // ============================================
-    // CONFIGURATION — Update these values
-    // ============================================
-    const CONFIG = {
-        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
-        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
-        // Fallback static reviews (shown if API fails or key not set)
-        fallbackReviews: [
-            {
-                author_name: "Subhendu Mishra",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
-                relative_time_description: "2 months ago"
-            },
-            {
-                author_name: "Rajib Dutta",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
-                relative_time_description: "3 months ago"
-            },
-            {
-                author_name: "Nishikant Gurav",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
-                relative_time_description: "1 month ago"
-            },
-            {
-                author_name: "Nikhil Nimbhorkar",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
-                relative_time_description: "4 months ago"
-            },
-            {
-                author_name: "Sameer Mehta",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
-                relative_time_description: "2 months ago"
-            },
-            {
-                author_name: "Preeti Singh Rathor",
-                profile_photo_url: "",
-                rating: 5,
-                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
-                relative_time_description: "3 months ago"
-            },
-            {
-                author_name: "Anita Gaur",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
-                relative_time_description: "5 months ago"
-            },
-            {
-                author_name: "Pankaj Arvikar",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
-                relative_time_description: "1 month ago"
-            },
-            {
-                author_name: "Sunny Ashpal",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
-                relative_time_description: "6 months ago",
-                role: "Director - Demandify Media",
-                hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
-            },
-            {
-                author_name: "Anjanay Srivastava",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
-                relative_time_description: "4 months ago",
-                role: "Founder - Hunarsource Consulting",
-                hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
-            }
-        ]
-    };
+/* The bar pins fine on its own; what it did not do was follow the reader. This marks the
+   section currently in view, keeps that pill scrolled into the strip, and wires the two
+   arrows, which the standalone page has no layout JS to bind. */
+(function(){
+  var bar=document.querySelector('.toc-section'); if(!bar) return;
+  var wrap=bar.querySelector('.toc-wrapper');
+  var btns=[].slice.call(bar.querySelectorAll('.toc-btn'));
+  if(!btns.length) return;
+  var targets=btns.map(function(b){
+    var id=(b.getAttribute('href')||'').slice(1);
+    return id ? document.getElementById(id) : null;
+  });
 
-    // ============================================
-    // HELPER: Generate star SVGs
-    // ============================================
-    function starsHTML(rating) {
-        let s = '';
-        for (let i = 0; i < 5; i++) {
-            s += i < rating
-                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
-                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
-        }
-        return s;
+  function mark(i){
+    if(btns[i].classList.contains('active')) return;
+    btns.forEach(function(b){ b.classList.remove('active'); });
+    btns[i].classList.add('active');
+    // keep the active pill inside the horizontal strip without moving the page
+    var r=btns[i].getBoundingClientRect(), w=wrap.getBoundingClientRect();
+    if(r.left < w.left+8) wrap.scrollBy({left:r.left-w.left-16,behavior:'smooth'});
+    else if(r.right > w.right-8) wrap.scrollBy({left:r.right-w.right+16,behavior:'smooth'});
+  }
+
+  var ticking=false;
+  function spy(){
+    ticking=false;
+    // a quarter-viewport below the bar, not right under it: with the bar's own
+    // 88px plus a section's lead paragraph, a line hugging the bar flips the pill
+    // while the previous section still fills most of the screen
+    var line=bar.getBoundingClientRect().bottom + window.innerHeight*0.25, best=0;
+    for(var i=0;i<targets.length;i++){
+      if(targets[i] && targets[i].getBoundingClientRect().top <= line) best=i;
     }
+    // at the very bottom the last section may never cross the line
+    if(window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4)
+      best=targets.length-1;
+    mark(best);
+  }
+  window.addEventListener('scroll',function(){
+    if(!ticking){ ticking=true; window.requestAnimationFrame(spy); }
+  },{passive:true});
+  window.addEventListener('resize',spy,{passive:true});
+  spy();
 
-    // ============================================
-    // HELPER: Avatar color based on name
-    // ============================================
-    const avatarColors = ['', 'blue', 'teal', 'purple'];
-    function avatarClass(index) {
-        return avatarColors[index % avatarColors.length];
-    }
-
-    // ============================================
-    // RENDER: Build card HTML for a review
-    // ============================================
-    function buildVideoCard(review) {
-        return `
-        <div>
-            <div class="testi-video-card">
-                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
-                    <video preload="metadata" poster="${review.photoUrl || ''}">
-                        <source src="${review.videoUrl}" type="video/mp4">
-                    </video>
-                    <div class="testi-play-overlay">
-                        <div class="testi-play-btn">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-                        </div>
-                    </div>
-                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
-                </div>
-                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                    <div class="testi-avatar">
-                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
-                    </div>
-                    <div>
-                        <div class="testi-name">${review.author_name}</div>
-                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
-                    </div>
-                </div>
-            </div>
-        </div>`;
-    }
-
-    function buildQuoteCard(review, index) {
-        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
-        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
-        const colorClass = avatarClass(index);
-
-        return `
-        <div>
-            <div class="testi-quote-card">
-                <div class="testi-quote-icon">
-                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-                </div>
-                <p class="testi-quote-text">${review.text || ''}</p>
-                <div class="testi-footer">
-                    <div class="testi-author">
-                        <div class="testi-avatar ${colorClass}">
-                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
-                        </div>
-                        <div>
-                            <div class="testi-name">${review.author_name}</div>
-                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
-                        </div>
-                    </div>
-                    <div class="testi-rating-row">
-                        <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
-                    </div>
-                </div>
-            </div>
-        </div>`;
-    }
-
-    // ============================================
-    // RENDER: Populate slider with reviews
-    // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
-
-let html = '';
-
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
-    }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
-
-    function initSlick(slider) {
-        if ($(slider).hasClass('slick-initialized')) return;
-        $(slider).slick({
-            dots: false,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2500,
-            arrows: false,
-            cssEase: 'ease-in-out',
-            pauseOnHover: true,
-            pauseOnFocus: true,
-            swipe: true,
-            touchMove: true,
-            responsive: [
-                { breakpoint: 1200, settings: { slidesToShow: 3 } },
-                { breakpoint: 900, settings: { slidesToShow: 2 } },
-                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
-            ]
-        });
-    }
-
-    // ============================================
-    // FETCH: Google Places API Reviews
-    // ============================================
-    function fetchGMBReviews() {
-        // If API key not set, use fallback
-        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set — using fallback reviews.');
-            renderReviews(CONFIG.fallbackReviews);
-            return;
-        }
-
-        // Google Places API requires server-side proxy due to CORS
-        // Option 1: Use Google Maps JS API (requires loading Maps library)
-        // Option 2: Use a server-side proxy endpoint
-        // Below is the Google Maps JS API approach:
-
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
-        script.async = true;
-        script.defer = true;
-        script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
-            renderReviews(CONFIG.fallbackReviews);
-        };
-        document.head.appendChild(script);
-    }
-
-    // Global callback for Google Maps JS API
-    window.initGMBReviews = function() {
-        try {
-            const service = new google.maps.places.PlacesService(document.createElement('div'));
-            service.getDetails({
-                placeId: CONFIG.placeId,
-                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
-            }, function(place, status) {
-                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
-                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
-
-                    // Merge: video testimonials first, then GMB reviews
-                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
-                    const gmbReviews = place.reviews.map(function(r) {
-                        return {
-                            author_name: r.author_name,
-                            profile_photo_url: r.profile_photo_url,
-                            rating: r.rating,
-                            text: r.text,
-                            relative_time_description: r.relative_time_description
-                        };
-                    });
-
-                    renderReviews([...videoTestimonials, ...gmbReviews]);
-                } else {
-                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
-                    renderReviews(CONFIG.fallbackReviews);
-                }
-            });
-        } catch (e) {
-            console.log('[Testimonials] Error:', e);
-            renderReviews(CONFIG.fallbackReviews);
-        }
-    };
-
-    // ============================================
-    // INIT
-    // ============================================
-    document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered — init Slick immediately
-        const slider = document.getElementById('testimonialSlider');
-        if (slider && slider.children.length > 0) {
-            if (typeof $ !== 'undefined' && $.fn.slick) {
-                initSlick(slider);
-            } else {
-                window.addEventListener('load', function() {
-                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
-                });
-            }
-        }
-        fetchGMBReviews();
-    });
-})();
-
-// Video play/pause toggle for testimonial cards
-function toggleTestiVideo(area) {
-    const video = area.querySelector('video');
-    if (!video) return;
-    if (video.paused) {
-        // Pause all other videos first
-        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
-        video.play();
-        area.classList.add('playing');
-    } else {
-        video.pause();
-        area.classList.remove('playing');
-    }
-}
-
-</script>
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
-<script>
-
-</script>
-
-<script>
-// TOC scroll arrows
-const tocWrapper = document.getElementById('tocWrapper');
-document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
-document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
-
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
+  function nudge(dir){ wrap.scrollBy({left:dir*Math.round(wrap.clientWidth*0.7),behavior:'smooth'}); }
+  var l=document.getElementById('tocLeft'), r2=document.getElementById('tocRight');
+  if(l) l.addEventListener('click',function(){nudge(-1);});
+  if(r2) r2.addEventListener('click',function(){nudge(1);});
 })();
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
 <script>
-(function() {
-    var waBar = document.getElementById('waBar');
-    var waClose = document.getElementById('waBarClose');
-    var dismissed = false;
+/* Same behaviour as the accounting cluster's slick config - 4/3/2/1 across, autoplay 4500ms
+   (3000 on mobile), no arrows, pause on hover and on focus, swipe - but written against
+   scroll-snap so the standalone page needs neither jQuery nor Slick. */
+(function(){
+  var box=document.getElementById('testiSlider'); if(!box) return;
+  var track=box.querySelector('.nwc-slider__track');
+  var slides=track.querySelectorAll('.nwc-slide'); if(!slides.length) return;
+  function step(){ var a=slides[0].getBoundingClientRect().width;
+    return a + parseFloat(getComputedStyle(track).gap||20); }
+  function atEnd(){ return track.scrollLeft + track.clientWidth >= track.scrollWidth - 4; }
+  function go(dir){
+    if(dir>0 && atEnd()) track.scrollTo({left:0});
+    else track.scrollBy({left:dir*step()});
+  }
+  var timer=null, held=false;
+  function speed(){ return window.matchMedia('(max-width:600px)').matches ? 3000 : 4500; }
+  function play(){ if(timer) return; timer=setInterval(function(){ if(!held) go(1); },speed()); }
+  function hold(v){ held=v; }
+  box.addEventListener('mouseenter',function(){hold(true);});
+  box.addEventListener('mouseleave',function(){hold(false);});
+  box.addEventListener('focusin',function(){hold(true);});
+  box.addEventListener('focusout',function(){hold(false);});
 
-    // Initially hidden, show after scrolling 300px
-    waBar.classList.add('hidden');
-
-    window.addEventListener('scroll', function() {
-        if (dismissed) return;
-        if (window.scrollY > 300) {
-            waBar.classList.remove('hidden');
-        } else {
-            waBar.classList.add('hidden');
-        }
+  // click a video to play it, exactly as toggleTestiVideo does on the accounting pages:
+  // any other video pauses first, and the slider holds while one is running
+  track.querySelectorAll('.testi-video-area').forEach(function(area){
+    var v=area.querySelector('video'); if(!v) return;
+    area.addEventListener('click',function(){
+      if(v.paused){
+        track.querySelectorAll('.testi-video-area video').forEach(function(o){
+          o.pause(); o.parentElement.classList.remove('playing'); });
+        v.play(); area.classList.add('playing');
+      } else { v.pause(); area.classList.remove('playing'); }
     });
-
-    // Close button
-    waClose.addEventListener('click', function() {
-        dismissed = true;
-        waBar.classList.add('hidden');
-        // Remember dismissal for this session
-        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
-    });
-
-    // Check if already dismissed this session
-    try {
-        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
-            dismissed = true;
-            waBar.classList.add('hidden');
-            waBar.style.display = 'none';
-        }
-    } catch(e) {}
+    v.addEventListener('play',function(){hold(true);});
+    v.addEventListener('pause',function(){hold(false); area.classList.remove('playing');});
+    v.addEventListener('ended',function(){hold(false); area.classList.remove('playing');});
+  });
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches) play();
 })();
 </script>
+<script>
+(function(){
+  var stack=document.getElementById('specimenStack'),
+      frame=document.getElementById('specimenFrame'),
+      lb=document.getElementById('specimenLightbox');
+  if(!stack||!frame||!lb) return;
+  var tabs=stack.querySelectorAll('.specimen-tab'),
+      docs=frame.querySelectorAll('.specimen-doc'),
+      panes=document.querySelectorAll('.specimen-pane'),
+      n=tabs.length, at=0, timer=null, paused=false, stopped=false;
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  function show(i){
+    at=i;
+    for(var k=0;k<n;k++){
+      var on=(k===i);
+      tabs[k].classList.toggle('is-active',on);
+      tabs[k].setAttribute('aria-selected',on?'true':'false');
+      if(docs[k]) docs[k].classList.toggle('is-active',on);
+      if(panes[k]) panes[k].classList.toggle('is-active',on);
+    }
+    if(typeof window.__nwcSpecFit==='function') window.__nwcSpecFit();
+  }
+  // auto-advance so a reader who never touches the tabs still sees both samples
+  function play(){ if(timer||n<2) return; timer=setInterval(function(){
+    if(!paused && !stopped) show((at+1)%n); },7000); }
+  function stop(){ stopped=true; if(timer){ clearInterval(timer); timer=null; } }
+
+  for(var i=0;i<n;i++){ (function(i){
+    tabs[i].addEventListener('click',function(){ stop(); show(i); });
+  })(i); }
+  stack.addEventListener('mouseenter',function(){ paused=true; });
+  stack.addEventListener('mouseleave',function(){ paused=false; });
+  stack.addEventListener('focusin',function(){ paused=true; });
+  stack.addEventListener('focusout',function(){ paused=false; });
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches) play();
+
+  // scale the sample to fit the frame exactly, at any screen size
+  // Fit the WIDTH. Capping by viewport height as well was tried and reverted: it shrank the
+  // sample to fit one screen, which made it unreadable at every size to solve a problem
+  // nobody had - a long document scrolling with the page is normal.
+  function fit(){
+    var doc=frame.querySelector('.specimen-doc.is-active'); if(!doc) return;
+    frame.style.zoom=1;                                   // measure unscaled
+    var cs=getComputedStyle(frame);
+    var avail=frame.clientWidth
+              - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    var natural=Math.max(doc.scrollWidth, doc.getBoundingClientRect().width);
+    frame.style.zoom = (natural>0 && avail>0) ? Math.min(1, avail/natural) : '';
+  }
+  var rt=null;
+  window.addEventListener('resize',function(){ clearTimeout(rt); rt=setTimeout(fit,120); });
+  if(window.ResizeObserver) new ResizeObserver(function(){ fit(); }).observe(frame.parentNode);
+  window.__nwcSpecFit=fit;
+  fit();
+
+  var inner=lb.querySelector('.specimen-lightbox__inner');
+  function open(){
+    var live=frame.querySelector('.specimen-doc.is-active');
+    if(!live) return;
+    // the watermark <pattern> carries an id; suffix it so the clone cannot collide
+    // with the one still in the page and blank both fills out
+    inner.innerHTML=live.innerHTML.replace(/nwcwm-(\d+)/g,'nwcwm-$1-lb');
+    lb.classList.add('is-open'); lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    // measured AFTER is-open: the lightbox is display:none until then, so clientWidth is 0
+    // and the scale comes out negative. Fits the full-size view to the viewport width;
+    // a no-op at zoom 1 on a wide screen.
+    inner.style.setProperty('--lb-zoom', Math.min(1, (lb.clientWidth-32)/880));
+  }
+  function shut(){
+    lb.classList.remove('is-open'); lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow=''; inner.innerHTML='';
+  }
+  frame.addEventListener('click',open);
+  frame.addEventListener('keydown',function(e){
+    if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); }});
+  var openBtn=document.getElementById('specimenOpen');
+  if(openBtn) openBtn.addEventListener('click',function(e){ e.stopPropagation(); open(); });
+  lb.addEventListener('click',function(e){
+    if(e.target===lb||e.target.classList.contains('specimen-lightbox__close')) shut();});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&lb.classList.contains('is-open')) shut();});
+})();
+</script>
 @endsection

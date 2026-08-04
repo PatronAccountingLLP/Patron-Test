@@ -34,6 +34,7 @@ use App\Http\Controllers\DocFileController;
 // Frontend Routes
 // Accounting Cluster 301 redirects (must precede page/city routes so old paths 301 instead of rendering)
 require __DIR__.'/accounting-cluster-redirects.php';
+require __DIR__.'/networth-cluster-redirects.php';
 
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 
@@ -48,6 +49,17 @@ Route::get('/glossary/accounting/{slug}', function ($slug) {
     abort_unless(view()->exists('glossary.accounting.' . $slug), 404);
     return view('glossary.accounting.' . $slug);
 })->where('slug', '[a-z0-9\-]+')->name('glossary.term');
+
+// Net Worth & Solvency glossary. Mirrors the accounting glossary block above it.
+// Without this every one of the 48 term pages and the hub 404s: nothing resolves
+// glossary views implicitly.
+Route::get('/glossary/networth', function () {
+    return view('glossary.networth');
+})->name('glossary.networth');
+Route::get('/glossary/networth/{slug}', function ($slug) {
+    abort_unless(view()->exists('glossary.networth.' . $slug), 404);
+    return view('glossary.networth.' . $slug);
+})->where('slug', '[a-z0-9\-]+')->name('glossary.networth.term');
 
 /*
  * Header/Footer assets served via app code.
@@ -421,6 +433,9 @@ $allDirectry_lebel = [
     'imf-services','irda-imf-business-registration','imf-irdai-registration-process','ismp-certification-isp-appointment','imf-compliance-retainer-services','imf-for-insurance-agents','imf-for-financial-advisors','imf-for-mutual-fund-distributors','imf-for-bank-employees-retirees','imf-for-multi-line-brokers','imf-for-bank-nbfc-employees','imf-for-investment-advisors','imf-private-limited-vs-llp','imf-for-rural-tier-3-cities','imf-application-rejection-recovery',
     // Financial Certificates cluster city pages (Delhi/Gurugram/Mumbai/Pune) — deployed from Patron Hub HTMLs
     'ageing-of-debtors-creditors-certificate','capital-account-certificate','certificate-of-fair-market-value-fmv','certificate-under-section-281-income-tax','cma-data-preparation-and-certification','foreign-remittance-certificate-15ca-15cb','forensic-net-worth-certificate','fund-utilisation-certificate','income-certificate-by-ca','inward-remittance-certificate-firc','net-worth-certificate-for-companies','net-worth-certificate-for-germany-visa','net-worth-certificate-for-ireland-visa','net-worth-certificate-for-nbfc-rbi-registration','net-worth-certificate-for-rera-registration','net-worth-certificate-for-startup-india-recognition','net-worth-certificate-for-uae-golden-visa','professional-income-certificate','provisional-financials-certificate','solvency-certificate','sponsorship-affidavit-and-net-worth-certificate','stock-statement-certificate','turnover-certificate-for-msme-classification',
+    // Net Worth & Solvency cluster city pages (2026-08-04). 'solvency-certificate' is already
+    // whitelisted above with the Financial Certificates cluster.
+    'net-worth-certificate','net-worth-certificate-for-visa',
     // NGO / Trust compliance cluster city pages (net-new 2026-07-01)
     '12a-80g-renewal-5-year-cycle','form-10bd-donor-wise-donation-statement','form-10be-donor-certificate-management','section-11-12-13-income-application-accumulation','fcra-renewal-5-year-cycle','fcra-fc-4-annual-return','fcra-fc-6-prior-intimation-and-bank-account','fcra-quarterly-receipt-declaration','form-10b-audit-report-section-12a-trust','form-10bb-audit-report-section-1023c-institution','trustee-appointment-and-replacement','ngo-services-for-healthcare','ngo-services-for-rural-development',
     // GST + Business Registration + Financial Certificates pending-upload city clusters (published 2026-07-02)

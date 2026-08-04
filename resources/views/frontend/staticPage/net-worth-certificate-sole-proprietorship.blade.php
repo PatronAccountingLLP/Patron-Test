@@ -1,1090 +1,492 @@
+{{-- /net-worth-certificate-sole-proprietorship
+     Generated from Generated Pages/net-worth-certificate-sole-proprietorship/net-worth-certificate-sole-proprietorship.html by Scripts/build_blade.py.
+     That file is built from the cluster's signed-off workbooks by build_page.py;
+     nothing here is authored. Re-run both rather than editing this file.
 
+     Before this goes live:
+       - deploy public/images/networth-cluster/net-worth-certificate-sole-proprietorship/** and public/certificates/**
+       - deploy public/css/nwc-spec.css (new to Patron Local)
+       - patron-cluster.css and faq.css are already live; do not overwrite them
+       - the hero form is partials/enquiry-form.blade.php (Zoho Bigin), swapped in
+         at build time with this page's service pre-selected; the FAQ block is a
+         CTA that scrolls to it, so there is one Bigin form per page. --}}
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
 @section('meta')
-    <title>Net Worth Certificate for Sole Proprietorship - CA Certified</title>
-    <meta name="description" content="CA-certified Net Worth Certificate for Sole Proprietorship with UDIN. Covers complete process, fees starting at INR 1,499 and documents.">
-    <link rel="canonical" href="/net-worth-certificate-sole-proprietorship">
+    <title>CA Net Worth Certificate for Proprietorship Firm India</title>
+    <meta name="description" content="A proprietor has no separate legal identity, so personal and business assets are certified together. See how a CA builds and signs the combined statement.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Sole Proprietorship - CA Certified">
-    <meta property="og:description" content="CA-certified Net Worth Certificate for Sole Proprietorship with UDIN. Covers complete process, fees starting at INR 1,499 and documents.">
-    <meta property="og:url" content="/net-worth-certificate-sole-proprietorship">
+    <meta property="og:title" content="Proprietorship Certificates, Personal and Business Combined">
+    <meta property="og:description" content="Patron Accounting certifies a proprietor's combined position for lenders, landlords and licence authorities.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-sole-proprietorship-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-sole-proprietorship.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Sole Proprietorship - CA Certified">
-    <meta name="twitter:description" content="CA-certified Net Worth Certificate for Sole Proprietorship with UDIN. Covers complete process, fees starting at INR 1,499 and documents.">
-    <meta name="twitter:image" content="/images/net-worth-certificate-sole-proprietorship-og.webp">
+    <meta name="twitter:title" content="Proprietorship Certificates, Personal and Business Combined">
+    <meta name="twitter:description" content="Patron Accounting certifies a proprietor's combined position for lenders, landlords and licence authorities.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-sole-proprietorship.jpg">
 @endsection
 
 @section('schema')
     <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Service",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship#service",
+   "name": "CA Net Worth Certificate for Proprietorship Firm India",
+   "description": "A proprietor has no separate legal identity, so personal and business assets are certified together. See how a CA builds and signs the combined statement.",
+   "provider": {
+    "@id": "https://www.patronaccounting.com/#organization"
+   },
+   "areaServed": "India",
+   "url": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship#breadcrumb",
+   "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Service",
-          "name": "Net Worth Certificate Sole Proprietorship Guide",
-          "description": "CA-certified Net Worth Certificate for Sole Proprietorship with UDIN. Covers complete process, fees starting at INR 1,499 and documents.",
-          "url": "/net-worth-certificate-sole-proprietorship",
-          "serviceType": "Net Worth Certificate Sole Proprietorship Guide",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Net Worth Certificate Sole Proprietorship Guide",
-              "item": "/net-worth-certificate-sole-proprietorship"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is a Net Worth Certificate for Sole Proprietorship?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A Net Worth Certificate for Sole Proprietorship is a CA-certified document that states the total financial worth of a sole proprietor by combining personal and business assets and subtracting all liabilities. Since a sole proprietorship has no separate legal identity under Indian law, the proprietor's personal and business finances are treated as one for this certificate. It is issued by an ICAI-registered CA with a mandatory 18-digit UDIN."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How is net worth calculated for a sole proprietorship?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Net Worth = Total Assets minus Total Liabilities. For a sole proprietor, total assets include personal assets (bank balances, property, investments, gold, vehicles) plus business assets (Capital Account balance, stock, debtors, business equipment). Liabilities include personal loans, home loans, credit card dues, and business creditors and bank overdrafts. The CA verifies each item against supporting documents before certifying the final figure."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Who can issue a Net Worth Certificate for Sole Proprietorship in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Only a practicing Chartered Accountant registered with ICAI and holding a full-time Certificate of Practice (CoP) can issue this certificate. The certificate must be on the CA firm's letterhead with the CA's signature, seal, FRN, membership number, and a mandatory 18-digit UDIN generated at udin.icai.org. No other professional (CS, CMA, or lawyer) can issue a valid net worth certificate."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What documents are required for a Net Worth Certificate for Sole Proprietorship?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Personal documents: PAN, Aadhaar, bank statements (6-12 months), property registration documents, vehicle RC, investment account statements, LIC policy values, gold valuation, and loan/liability statements. Business documents: ITR with profit/loss and balance sheet (if available), GST returns, Capital Account balance, stock list, trade debtors list, and business loan/overdraft statements."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is a net worth certificate different for a sole proprietorship versus a company?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. A company's net worth is derived from its balance sheet - specifically shareholders' funds (share capital plus reserves). Since a company is a separate legal entity, only the company's financial position is captured. A sole proprietorship has no separate legal identity, so the proprietor's personal and business assets and liabilities are both included in one combined statement."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can I get a net worth certificate if I do not maintain formal accounts?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Many sole proprietors - especially small traders, shopkeepers, and service providers - do not maintain formal books of accounts. In such cases, the CA uses available documents: Income Tax Returns, bank statements, property documents, investment statements, and a self-declared asset list. The CA issues the certificate with a disclosure note explaining the basis of certification."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the fee for a Net Worth Certificate for Sole Proprietorship?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "ICAI does not fix fees for CA certificates. Market rates range from INR 1,500 to INR 10,000 depending on complexity, inclusion of property valuation, format requirements, and CA location. Patron Accounting charges starting at INR 1,499 (Exl GST and Govt. Charges) for a standard certificate covering personal and business assets, with UDIN and digital delivery included."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kya sole proprietor ko net worth certificate ek hi CA se milega ya alag alag documents ke liye alag CA chahiye?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. A single CA can issue the complete net worth certificate for a sole proprietor covering all personal and business assets. You do not need separate CAs for personal and business components. Patron Accounting provides a single, comprehensive certificate covering all assets and liabilities. If immovable property valuation is needed, we coordinate with a registered property valuer alongside the CA certification. Quick Answers Who issues this certificate? Practicing ICAI-registered CA with full-time Certificate of Practice only. Are personal and business assets both covered? Yes - sole proprietorship has no separate legal identity; both are included. Is UDIN mandatory? Yes - 18-digit UDIN mandatory since 1 July 2019 per ICAI circular. No formal accounts - still possible? Yes - CA certifies from ITR, bank statements, and asset documents with disclosure. How long does it take? 1-3 working days; same-day express available at Patron Accounting. Starting fee at Patron? INR 1,499 (Exl GST and Govt. Charges) for standard certificate with UDIN."
-              }
-            }
-          ]
-        }
-      ]
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.patronaccounting.com"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Net Worth Certificate by CA",
+     "item": "https://www.patronaccounting.com/net-worth-certificate-by-ca"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Net Worth Certificate",
+     "item": "https://www.patronaccounting.com/net-worth-certificate"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "CA Certificate for Proprietorship Firm",
+     "item": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship"
     }
-    </script>
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship#faq",
+   "datePublished": "2026-07-30T10:00:00+05:30",
+   "dateModified": "2026-08-04T10:00:00+05:30",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What proof of business existence does a proprietor have to produce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Whatever registration the business actually holds. A GST registration certificate, Udyam registration, shop and establishment licence, or a bank's current account opened in the trade name all establish that the concern exists. A proprietorship has no incorporation certificate, so the CA builds the identity from these documents plus the proprietor's PAN."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can a proprietor without GST registration get a certificate?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. GST registration is required only above the turnover thresholds or in specified cases, so a small concern below them is entirely legitimate. The CA then relies on the books, bank statements and the income tax return. Recipients rarely insist on GST unless the certificate supports a tender that itself demands registration."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does a proprietor need a separate current account for the business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It is not a legal precondition, but its absence complicates the work. Where personal and business receipts run through one savings account, the CA has to separate them transaction by transaction before the business assets can be stated. Banks also expect a current account for a business, so most proprietors have one."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which income tax return supports a proprietor's certificate?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ITR-3 where the proprietor maintains regular books, and ITR-4 where income is offered under the presumptive scheme. ITR-3 carries a full balance sheet, so it corroborates the asset schedule directly. ITR-4 does not, which is why presumptive filers are asked for more banking and asset evidence instead."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can a proprietor taxed under the presumptive scheme obtain one?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Section 58 of the Income-tax Act 2025 lets an eligible business declare income at a prescribed percentage of turnover without maintaining detailed books, and that does not bar certification. The CA verifies bank credits, purchase and sale records, stock and debtor positions independently, and the certificate notes that income was returned on a presumptive basis."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does the certificate name the trade name or the proprietor?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Both, because only one of them is a legal person. The proprietor is named with PAN, and the business is described as a proprietary concern carried on under its trade name. A certificate issued to the trade name alone can be rejected, since the concern has no separate legal identity to hold assets."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are business stock and trade debtors included at book value?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Stock is taken at cost or net realisable value, whichever is lower, following the ordinary accounting basis. Debtors go in net of amounts unlikely to be recovered, and the CA looks at ageing before accepting the figure. Long-overdue receivables carried at full value are a frequent reason a lender queries a proprietor's schedule."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can a home that is partly used as an office be included?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, the whole property is included once, at the proprietor's ownership share. Because the concern and the individual are the same person in law, there is no need to split the property between personal and business schedules. What matters is that it is not counted twice and that the ownership share is documented."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is a Udyam registration number needed on the certificate?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not as a rule, but it helps where the recipient is checking MSME status. Udyam registration classifies an enterprise as micro, small or medium using investment and turnover criteria, and tender and priority-sector lending benefits turn on that classification. Where the certificate supports such an application, quoting the number saves a round of queries."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What changes when the proprietorship converts to a private limited company?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The certified entity changes, so a fresh certificate is needed. Assets transferred to the company belong to the company from the date of takeover, and what remains with the individual is personal net worth. Until the transfer is recorded and the takeover agreement executed, the assets are still the proprietor's and are certified as such."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship#webpage",
+   "url": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship",
+   "name": "CA Net Worth Certificate for Proprietorship Firm India",
+   "description": "A proprietor has no separate legal identity, so personal and business assets are certified together. See how a CA builds and signs the combined statement.",
+   "isPartOf": {
+    "@id": "https://www.patronaccounting.com/#website"
+   },
+   "publisher": {
+    "@id": "https://www.patronaccounting.com/#organization"
+   },
+   "datePublished": "2026-07-30T10:00:00+05:30",
+   "dateModified": "2026-08-04T10:00:00+05:30"
+  }
+ ]
+}
+</script>
 @endsection
+
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('css/patron-cluster.css') }}?v={{ @filemtime(public_path('css/patron-cluster.css')) ?: '20260804' }}">
+    <link rel="stylesheet" href="{{ asset('css/nwc-spec.css') }}?v={{ @filemtime(public_path('css/nwc-spec.css')) ?: '20260804' }}">
+@endpush
 
 @section('content')
 <style>
-        /* ============================================
-           CSS VARIABLES
-           ============================================ */
-        :root {
-            --orange: #E8712C;
-            --orange-dark: #D4621F;
-            --orange-light: #FEF4EE;
-            --orange-lighter: #FFF9F5;
-            --blue: #1B365D;
-            --blue-light: #2A4A7A;
-            --blue-lighter: #F4F7FB;
-            --white: #FFFFFF;
-            --cream: #FDFCFB;
-            --gray-50: #F9FAFB;
-            --gray-100: #F3F4F6;
-            --gray-200: #E5E7EB;
-            --gray-300: #D1D5DB;
-            --gray-400: #9CA3AF;
-            --gray-500: #6B7280;
-            --gray-600: #4B5563;
-            --gray-700: #374151;
-            --text-primary: #1F2937;
-            --text-secondary: #4B5563;
-            --text-muted: #6B7280;
-            --green: #10B981;
-            --gold: #F59E0B;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
-            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-        }
+/* the TOC bar is sticky at top:0 and 88px tall, so a jump from it would otherwise land with
+   the heading tucked underneath. Clear it for every anchor target on the page. */
+main section,main [id]{scroll-margin-top:104px}
 
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+/* Hero benefits: four short claims, two across on a laptop and up. They were four
+   claim-plus-proof paragraphs stacked, which filled the hero and pushed the call row below
+   the fold. The proof sentences live in the Why Patron section, which is where they were
+   written for. */
+.hero-benefits{display:grid;grid-template-columns:1fr;gap:10px 28px;margin-bottom:4px}
+@media(min-width:992px){.hero-benefits{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.hero-benefit{display:flex;align-items:center}
+.hero-benefit .benefit-paragraph{font-size:15px;line-height:1.45;font-weight:600}
+.hero-benefit .benefit-paragraph span{font-weight:600;color:var(--text-dark,#14365F)}
+.hero-benefit .check-icon{flex-shrink:0}
 
-        body {
-            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background: var(--white);
-        }
+/* 4 cards must read as 2x2 or 4-across, never 3 + 1 orphan */
+.features-grid.is-4,.why-patron-grid.is-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(min-width:1200px){.why-patron-grid.is-4{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){.features-grid.is-4,.why-patron-grid.is-4{grid-template-columns:1fr}}
 
-        h2 {
-            font-size: clamp(26px, 3vw, 32px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 24px;
-            line-height: 1.25;
-        }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        section a:hover { color: var(--orange-dark); }
+/* The city the reader is already on. Same card, but flat and not a link: it marks the set as
+   complete without offering a click that goes nowhere. */
+.pa-city-grid .pa-city-card.is-here{background:var(--cream,#FDF8F3);border-color:var(--orange,#F26522);
+  cursor:default;box-shadow:none}
+.pa-city-grid .pa-city-card.is-here .pa-card-sub{color:var(--orange,#F26522);font-weight:700}
+/* Office: the address and the map share the row rather than stacking, so the five short
+   address lines stop sitting in two thirds of a column of whitespace. Stacks on a phone,
+   where side-by-side would make both halves too narrow to read. */
+.nwc-office-split{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;align-items:start}
+@media(min-width:900px){.nwc-office-split{grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:36px}}
+.nwc-office-map{margin:0}
+.nwc-office-map iframe{min-height:320px}
+/* the five city cards wrap 4 + 1 in the shared grid; one row reads as a set */
+.pa-city-grid{display:flex;flex-wrap:nowrap;gap:16px}
+.pa-city-grid .pa-city-card{flex:1 1 0;min-width:0}
+/* two up all the way down to the narrowest phone: a city name and its state fit side by
+   side comfortably, and five full-width rows made the block far longer than it deserves */
+@media(max-width:900px){.pa-city-grid{flex-wrap:wrap;gap:12px}
+  .pa-city-grid .pa-city-card{flex:0 1 calc(50% - 6px);min-width:0}
+  .pa-city-grid .pa-card-title,.pa-city-grid .pa-card-sub{overflow-wrap:anywhere}}
 
-        section ul { list-style: none; padding-left: 0; margin: 0; }
-        section ul li:not(.nav-item) {
-            display: flex; align-items: flex-start; gap: 12px;
-            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
-        }
-        section ul li:not(.nav-item)::before {
-            content: ""; width: 22px; height: 22px;
-            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
-            display: flex; align-items: center; justify-content: center;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: center; background-size: 12px;
-        }
-        main section h3 { color: #14365F !important; }
-        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
-        main section table thead tr th {
-            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
-            background-color: #14365F !important; padding: 14px 18px; text-align: left;
-        }
-        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
-        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
-        main section table tbody tr td {
-            padding: 12px 18px; font-size: 14px;
-            color: var(--text-secondary);
-            background: var(--white);
-            border: none !important;
-            border-bottom: 1px solid var(--gray-200) !important;
-            vertical-align: top;
-        }
-        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
-        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
-        main section table tbody tr:last-child td { border-bottom: none !important; }
-        main section table tbody tr td:first-child {
-            font-weight: 700; color: var(--text-primary);
-            min-width: 160px;
-        }
-        /* Amount column - right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-        /* Section 8 / primary entity highlight column in comparison tables */
-        .table-comparison td:nth-child(2),
-        .table-comparison th:nth-child(2) {
-            background: rgba(20,54,95,0.04);
-            border-left: 2px solid var(--blue) !important;
-        }
-        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
-        /* Badge pills for service status cells */
-        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
-        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
-        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
-        .table-responsive-wrapper table { margin: 0; border: none; }
-        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
-        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
-        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
-        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
-        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
+/* the Frequency cell is two short words; let it keep its line */
+.badge-included{white-space:nowrap}
 
-        /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
-        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
-        .expert-attribution-box .eab-meta {
-            font-size: 12px; color: var(--text-muted);
-            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-        }
-        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
-        .expert-attribution-box .eab-link {
-            font-size: 12px; color: var(--orange); text-decoration: none;
-            font-weight: 600; transition: color 0.2s;
-        }
-        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
+/* The card shelves were leaving two kinds of blank space.
+   1. patron-cluster.css caps .pa-city-grid/.pa-cross-grid at max-width:1100px, but the column
+      they sit in is 1320px - so 220px of every row was dead space on the right at any viewport
+      above 1400px. The cap is released here rather than in the estate stylesheet, which is
+      live and shared.
+   2. A service page's shelf carries 11 cards - the hub, nine siblings and the glossary - and
+      11 does not divide by any sensible column count, so a 4-across grid left an empty cell.
+      Flex rather than grid: the last row's cards grow to fill the width instead of leaving a
+      hole. Two-up at 900px, one-up on a phone. */
+.pa-city-grid,.pa-cross-grid{max-width:none}
+.pa-cross-grid{display:flex;flex-wrap:wrap;gap:18px}
+.pa-cross-grid .pa-cross-card{flex:1 1 calc(25% - 14px);min-width:225px}
+@media(max-width:1100px){.pa-cross-grid .pa-cross-card{flex:1 1 calc(33.333% - 12px)}}
+@media(max-width:820px){.pa-cross-grid .pa-cross-card{flex:1 1 calc(50% - 9px)}}
+@media(max-width:520px){.pa-cross-grid .pa-cross-card{flex:1 1 100%}}
 
-        /* ============================================
-           HERO SECTION
-           ============================================ */
-        .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--orange-light); padding: 8px 16px;
-            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
-        }
-        .hero-badge svg { width: 14px; height: 14px; }
+/* ------------------------------------------------------------------ the hub directory
+   Modelled on the accounting cluster's own hub template: a category rail that scrolls with
+   the reader on the left, the categories and their cards on the right. Six flat grids stacked
+   one after another gave nobody a way to reach "Free Tools" without scrolling past thirty
+   cards. */
+.hub-layout{display:grid;grid-template-columns:264px minmax(0,1fr);gap:34px;align-items:start}
+.hub-rail{position:sticky;top:104px;background:#fff;border:1px solid var(--gray-200);
+  border-radius:14px;padding:16px 14px;max-height:calc(100vh - 128px);overflow:auto}
+.hub-rail__title{font-size:11.5px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;
+  color:var(--text-muted);margin:0 0 10px;padding-left:6px}
+.hub-search{display:block;margin-bottom:12px}
+.hub-search input{width:100%;padding:9px 12px;border:1px solid var(--gray-200);border-radius:9px;
+  font:inherit;font-size:13.5px;background:var(--gray-50);outline:none}
+.hub-search input:focus{border-color:var(--blue);background:#fff}
+.hub-rail__item{display:flex;align-items:center;gap:9px;padding:9px 10px;border-radius:9px;
+  color:var(--text-secondary);text-decoration:none;font-size:13.5px;font-weight:600;line-height:1.3}
+.hub-rail__item:hover{background:var(--gray-50);color:var(--blue)}
+.hub-rail__item.is-active{background:var(--orange-lighter);color:var(--blue)}
+.hub-rail__ic{flex-shrink:0;width:26px;height:26px;border-radius:7px;background:var(--gray-50);
+  display:flex;align-items:center;justify-content:center;color:var(--orange)}
+.hub-rail__item.is-active .hub-rail__ic{background:var(--orange);color:#fff}
+.hub-rail__ic svg{width:15px;height:15px}
+.hub-rail__n{margin-left:auto;font-size:11.5px;font-weight:700;color:var(--text-muted)}
+.hub-block{margin-bottom:34px;scroll-margin-top:120px}
+.hub-block__head{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.hub-block__ic{width:36px;height:36px;border-radius:10px;background:var(--orange-lighter);
+  display:flex;align-items:center;justify-content:center;color:var(--orange);flex-shrink:0}
+.hub-block__ic svg{width:19px;height:19px}
+.hub-block__h2{font-size:21px;font-weight:700;color:var(--blue);margin:0}
+.hub-rail__cta{display:block;margin-top:14px;padding:11px 14px;border-radius:10px;
+  background:var(--orange);color:#fff;text-align:center;font-size:14px;font-weight:700;
+  text-decoration:none}
+.hub-rail__cta:hover{background:var(--blue);color:#fff}
 
-        .private-registration-heading {
-            font-family: 'Barlow', sans-serif !important;
-            font-weight: 700 !important;
-            font-size: 48px !important;
-            line-height: 100% !important;
-            color: #14365F !important;
-            margin-bottom: 1.5rem !important;
-        }
-        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
-        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
+/* the live hub's card: category mark on the left, text beside it, corner arrow */
+/* fixed thirds, NOT flex-grow. The live hub keeps every card the same width and lets a short
+   row end early - Core Accounting there has one card at a third of the width. Growing the last
+   row is right for the service pages' Related Services shelf and wrong here: these cards sit in
+   a scannable column of equal tiles. */
+.hub-directory .nwc-card{flex:0 1 calc(33.333% - 12px);min-width:250px;padding:0}
+.hub-directory .nwc-card a{display:flex;gap:13px;align-items:flex-start;padding:18px 19px;
+  position:relative}
+.nwc-card__ic{flex-shrink:0;width:34px;height:34px;border-radius:9px;background:var(--gray-50);
+  display:flex;align-items:center;justify-content:center;color:var(--orange)}
+.nwc-card__ic svg{width:17px;height:17px}
+.nwc-card:hover .nwc-card__ic{background:var(--orange-lighter)}
+.nwc-card__txt{min-width:0}
+.nwc-card__go{position:absolute;top:14px;right:15px;color:var(--gray-400);font-size:14px;
+  transition:color .22s ease,transform .22s ease}
+.nwc-card:hover .nwc-card__go{color:var(--orange);transform:translate(2px,-2px)}
+.nwc-card__fee{display:block;margin-top:9px;font-size:12.5px;font-weight:700;color:var(--orange)}
+@media(max-width:1250px){.hub-directory .nwc-card{flex:0 1 calc(50% - 9px)}}
+@media(max-width:640px){.hub-directory .nwc-card{flex:0 1 100%}}
+.hub-empty{margin:8px 0 0;color:var(--text-muted);font-size:14.5px}
+.hub-empty button{border:0;background:none;color:var(--blue);font:inherit;font-weight:700;
+  text-decoration:underline;cursor:pointer;padding:0}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:1000px){.hub-layout{grid-template-columns:1fr;gap:20px}
+  .hub-rail{position:static;max-height:none;display:flex;flex-wrap:wrap;gap:8px}
+  .hub-rail__title{width:100%}
+  .hub-search{width:100%;order:-1}
+  .hub-rail__item{flex:0 1 auto;border:1px solid var(--gray-200)}}
 
-        .check-icon {
-            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
-            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
-        }
-        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
+/* The hub's directory grids. The DIRECTORY workbook ships each card as
+   <article class="nwc-card"> with the title as an H3 inside the anchor and the body under it;
+   the layout is the page's. Four across on a laptop, and the last row's cards grow rather than
+   leaving a hole - "Free Tools" has 7 and "Certificates in Your City" has 15. */
+.nwc-card-grid{display:flex;flex-wrap:wrap;gap:18px;margin-top:8px}
+.nwc-card{flex:1 1 calc(25% - 14px);min-width:236px;background:#fff;border:1px solid var(--gray-200);
+  border-radius:14px;padding:20px 22px;transition:border-color .22s ease,box-shadow .22s ease,transform .22s ease}
+.nwc-card:hover{border-color:var(--orange);box-shadow:0 6px 20px rgba(232,113,44,.12);transform:translateY(-2px)}
+.nwc-card a{text-decoration:none;display:block}
+.nwc-card h3{font-size:16px;font-weight:700;color:var(--blue);margin:0 0 8px;line-height:1.35}
+.nwc-card:hover h3{color:var(--orange)}
+.nwc-card p{margin:0;font-size:13.5px;line-height:1.6;color:var(--text-secondary)}
+@media(max-width:1100px){.nwc-card{flex:1 1 calc(33.333% - 12px)}}
+@media(max-width:820px){.nwc-card{flex:1 1 calc(50% - 9px)}}
+@media(max-width:520px){.nwc-card{flex:1 1 100%}}
 
-        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
-        .benefit-paragraph span { font-weight: 700; }
+/* Read Next: a reading list, not a card wall. Two columns where there is room.
+   GRID, not `columns:2`. The estate's own `section ul li:not(.nav-item)` makes every prose
+   <li> a flex row with an orange check chip, and it outranks anything set here (0,1,4 against
+   0,1,2), so an absolute ::before marker of our own was being ignored while the flex items
+   were also being fragmented by the multi-column container - which is what put the chip on
+   top of the first letter. So: keep the estate's chip, which is the same one the documents
+   list uses, and lay the items out with grid, which flex children survive. */
+.pa-read-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 32px;
+  list-style:none;padding:0;margin:0}
+.pa-read-list li{margin-bottom:0!important;font-size:14.5px}
+.pa-read-list a{color:var(--blue);text-decoration:none;font-weight:500}
+.pa-read-list a:hover{text-decoration:underline}
+@media(max-width:760px){.pa-read-list{grid-template-columns:1fr}}
 
-        /* Hero CTA Buttons */
-        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
+/* Four portal cards in ONE row. The shared rule is flex:0 1 340px / max-width:362px, which
+   wraps 3 + 1 at this container width, so the basis is recomputed from the row instead. */
+.portal-grid-sec .portal-grid{flex-wrap:nowrap;align-items:stretch}
+.portal-grid-sec .portal-card{flex:1 1 0;max-width:none;min-width:0}
+/* and the whole screenshot, not the shared 172px top crop: the captures are fitted into one
+   1280x720 canvas by normalise_portal_shots.py, so contain shows all of each one and every
+   card still lines up. Click opens the portal lightbox for the detail. */
+.portal-grid-sec .browser-frame img{height:auto;aspect-ratio:16/9;object-fit:contain;background:#0f1120}
+/* the shared rule caps the intro at a reading column; here it should run the card row's width */
+.portal-grid-sec .section-header{max-width:none}
+.portal-grid-sec .section-subtitle{max-width:none;text-align:center}
+@media(max-width:1100px){.portal-grid-sec .portal-grid{flex-wrap:wrap}
+  .portal-grid-sec .portal-card{flex:0 1 calc(50% - 13px)}}
+@media(max-width:640px){.portal-grid-sec .portal-card{flex:0 1 100%}}
 
-        .btn-video {
-            display: inline-flex; align-items: center; gap: 10px;
-            padding: 12px 20px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
-        .btn-video .play-circle {
-            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
-        }
-        .btn-video:hover .play-circle { transform: scale(1.08); }
-        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
+/* page-local only: the four things patron-cluster.css has no rule for */
+/* testimonial slider: vanilla, so the standalone page needs no jQuery or Slick */
+.nwc-slider{position:relative}
+.nwc-slider__track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;
+  scroll-behavior:smooth;scrollbar-width:none;padding:4px 0 8px}
+.nwc-slider__track::-webkit-scrollbar{display:none}
+.nwc-slide{flex:0 0 calc((100% - 60px)/4);scroll-snap-align:start;display:flex}
+.nwc-slide>*{width:100%;height:100%}
+.nwc-slider__track .testi-video-area video{width:100%;display:block;border-radius:12px 12px 0 0}
+/* the play overlay, so a video card shows a poster and a button rather than raw controls */
+.nwc-slider__track .testi-video-area{position:relative;cursor:pointer}
+.nwc-slider__track .testi-play-overlay{position:absolute;inset:0;display:flex;align-items:center;
+  justify-content:center;background:rgba(15,23,42,.28);transition:opacity .2s}
+.nwc-slider__track .testi-video-area.playing .testi-play-overlay{opacity:0;pointer-events:none}
+.nwc-slider__track .testi-play-btn{width:56px;height:56px;border-radius:50%;background:#fff;
+  display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(15,23,42,.28)}
+.nwc-slider__track .testi-play-btn svg{width:24px;height:24px;color:var(--orange,#f26522);margin-left:3px}
+/* 4 / 3 / 2 / 1, the same breakpoints the accounting slick config uses */
+@media(max-width:1200px){.nwc-slide{flex:0 0 calc((100% - 40px)/3)}}
+@media(max-width:900px){.nwc-slide{flex:0 0 calc((100% - 20px)/2)}}
+@media(max-width:600px){.nwc-slide{flex:0 0 100%}}
 
-        .btn-sample {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 20px; background: transparent;
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
-            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
-        .btn-sample svg { width: 16px; height: 16px; }
+/* tabbed sample card on the right; the copy is sticky and the document scrolls past it.
+   96px clears the sticky TOC bar, so the pinned text never tucks underneath it. */
+/* the caption cell STRETCHES to the row height and an inner wrapper does the sticking.
+   Put position:sticky on the grid item itself and it has nowhere to travel, because
+   align-items:start shrinks the item's box to its own content. */
+.specimen-item{margin:0;display:grid;grid-template-columns:minmax(0,1fr) 470px;gap:40px;align-items:stretch}
+.specimen-caption{min-width:0}
+.specimen-sticky{position:sticky;top:112px}
+.specimen-sticky .section-title{margin-top:0}
+/* both captions stay readable; the active one is marked, not the other one hidden */
+.specimen-pane{padding:14px 0 14px 16px;border-left:3px solid transparent;transition:border-color .25s,opacity .25s;opacity:.62}
+.specimen-pane.is-active{border-left-color:var(--orange,#f26522);opacity:1}
+/* Patron's own segmented control - the same one the calculator uses for Rupees/Lakh/Crore -
+   rather than a copy of the dark tab bar on the reference site. */
+.specimen-stack__title{font-weight:700;color:var(--blue,#14365f);font-size:13px;
+  letter-spacing:.6px;text-transform:uppercase;margin:0 0 10px}
+.specimen-tabs{display:flex;gap:4px;background:var(--gray-100,#f1f5f9);border-radius:10px;padding:4px;margin-bottom:14px}
+.specimen-tab{flex:1;padding:10px 12px;border:0;border-radius:7px;background:transparent;
+  color:var(--text-muted,#64748b);font:inherit;font-size:14px;font-weight:700;line-height:1.3;
+  cursor:pointer;transition:background .2s,color .2s}
+.specimen-tab:hover{color:var(--blue,#14365f)}
+.specimen-tab.is-active{background:#fff;color:var(--blue,#14365f);box-shadow:0 1px 3px rgba(15,23,42,.12)}
+.specimen-tab:focus-visible{outline:2px solid var(--orange,#f26522);outline-offset:2px}
+/* The document is SCALED TO FIT its column, never scrolled. specimen.js measures the
+   sample's natural content width once and sets --spec-zoom from the frame's own width, so
+   the whole page fits edge to edge at any screen size and the frame's height follows the
+   content - no horizontal bar, no vertical bar, no dead space. `zoom` is used rather than
+   `transform:scale` precisely because it reflows: a transform would leave the frame at its
+   unscaled height and open a gap under every sample. */
+.specimen-frame{position:relative;background:var(--gray-50,#f8fafc);padding:14px;
+  border:1px solid var(--gray-200,#e2e8f0);border-radius:12px;
+  cursor:zoom-in;overflow:hidden;max-width:100%;zoom:var(--spec-zoom,.55)}
+/* The sample must lay out at the width it was DESIGNED for and then be scaled down whole.
+   Left fluid it reflows instead: the table's amount column gets pushed out of the box and
+   overflow:hidden silently eats it, so the sample renders without any figures on it. */
+.specimen-frame .nwc-spec{width:860px;max-width:none;margin:0}
+/* nwc-spec.css narrows the document below a 640px VIEWPORT: the table turns into a
+   display:block strip that shrinks to its content and stops well short of the right margin,
+   and the page padding and body size drop too. Those rules exist for a document rendered at
+   the viewport's width. Here it is always laid out at its designed 860px and then scaled, so
+   the viewport is the wrong thing to respond to - the sample must look identical at every
+   size, only smaller. Hold the design values inside the frame and the lightbox. */
+@media(max-width:640px){
+  .specimen-frame .nwc-spec,.specimen-lightbox .nwc-spec{
+    --pad-x:42px;--pad-y:38px;--pad-b:30px;--fs-body:14px}
+  .specimen-frame .nwc-spec table,.specimen-lightbox .nwc-spec table{
+    display:table;overflow-x:visible;white-space:normal;width:100%}
+  .specimen-frame .nwc-spec__meta,.specimen-lightbox .nwc-spec__meta{flex-direction:row}
+  .specimen-frame .nwc-spec__sign,.specimen-lightbox .nwc-spec__sign{
+    flex-direction:row;align-items:flex-end}
+}
+.specimen-frame:focus-visible{outline:2px solid var(--orange,#f26522);outline-offset:3px}
+.specimen-doc{display:none}
+.specimen-doc.is-active{display:block}
+.specimen-zoom{position:sticky;float:right;right:14px;bottom:14px;top:calc(96px/.55);
+  background:rgba(20,54,95,.92);color:#fff;font-family:'Barlow',sans-serif;font-size:22px;
+  padding:8px 18px;border-radius:50px;z-index:2}
+.specimen-hint{display:none;align-items:center;justify-content:space-between;gap:12px;
+  margin:12px 0 0;font-size:13px;color:var(--text-muted,#64748b)}
+.specimen-open{border:0;border-radius:50px;background:var(--blue,#14365f);color:#fff;
+  font:inherit;font-size:13px;font-weight:700;padding:10px 18px;cursor:pointer;white-space:nowrap}
+.specimen-caption h3{font-size:18px;margin:0 0 10px}
+.specimen-download{display:inline-block;margin-top:4px;font-weight:600}
+.specimen-masknote{font-size:13px;color:var(--text-muted,#64748b);border-top:1px solid var(--gray-200,#e2e8f0);padding-top:14px;margin-top:18px}
+.specimen-lightbox{position:fixed;inset:0;background:rgba(15,23,42,.86);z-index:9999;
+  display:none;overflow:auto;padding:40px 16px}
+.specimen-lightbox.is-open{display:block}
+/* the full-size view fits the viewport WIDTH and scrolls vertically only: at 860px design
+   width it otherwise ran off the right edge of a phone and had to be dragged sideways */
+.specimen-lightbox{overflow-x:hidden}
+.specimen-lightbox__inner{max-width:900px;margin:0 auto;zoom:var(--lb-zoom,1)}
+.specimen-lightbox__inner .nwc-spec{width:860px;max-width:none;margin:0 auto}
+.specimen-lightbox__close{position:fixed;top:14px;right:20px;width:40px;height:40px;border-radius:50%;
+  border:0;background:#fff;color:var(--blue,#14365f);font-size:24px;line-height:1;cursor:pointer}
+@media(max-width:980px){.specimen-item{grid-template-columns:minmax(0,1fr)}
+  .specimen-sticky{position:static}
+  .specimen-stack{max-width:min(640px,100%);min-width:0}}
 
-        /* Trust Section */
-        .trust-section { display: flex; flex-direction: column; gap: 20px; }
-        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
-        .trust-item { display: flex; align-items: center; gap: 10px; }
-        .trust-icon {
-            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
-            background: var(--gray-50); border-radius: var(--radius-sm);
-        }
-        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
-        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
-        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
-
-        .google-rating {
-            display: inline-flex; align-items: center; gap: 12px;
-            background: var(--white); border: 1px solid var(--gray-200);
-            padding: 10px 16px; border-radius: var(--radius-md);
-        }
-        .rating-content { display: flex; flex-direction: column; gap: 2px; }
-        .rating-stars { display: flex; align-items: center; gap: 2px; }
-        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
-        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
-        .rating-count { font-size: 11px; color: var(--text-muted); }
-
-        /* ============================================
-           FORM CARD
-           ============================================ */
-        .form-card {
-            background: var(--white); border-radius: var(--radius-xl);
-            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
-            max-width: 420px; width: 100%;
-            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
-            margin: 0 auto;
-        }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Select */
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        /* Phone Group + Country Dropdown */
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            /* On browsers where flag emoji renders as "IN" text, clip it */
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
-
-        /* Country Dropdown List */
-        .country-dropdown-list {
-            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
-            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
-        }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        /* Phone Input Override */
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        /* Submit Button */
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        /* Form Footer */
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        /* Error States */
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        /* Success State */
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-
-        @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
-        }
-
-        /* ============================================
-           STATS BAR
-           ============================================ */
-        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
-        .stats-container {
-            max-width: 1320px; margin: 0 auto;
-            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
-        }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
-            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-            background: var(--orange-light); border-radius: var(--radius-md);
-        }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-        .certifications {
-            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
-        }
-        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-        .cert-item svg { width: 18px; height: 18px; }
-
-        /* ============================================
-           TOC NAVIGATION - Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-        .toc-container {
-            max-width: 1320px; margin: 0 auto; padding: 0 32px;
-            display: flex; align-items: center;
-        }
-        .toc-wrapper {
-            display: flex; align-items: center; gap: 10px;
-            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
-        }
-        .toc-wrapper::-webkit-scrollbar { display: none; }
-        .toc-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
-            color: var(--text-secondary); background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: 50px;
-            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
-        }
-        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
-        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
-        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
-        .toc-arrow {
-            border: none; cursor: pointer; font-size: 22px;
-            width: 45px; height: 45px; border-radius: 50%; background: transparent;
-        }
-        .toc-arrow.left { margin-right: 8px; }
-        .toc-arrow.right { margin-left: 8px; }
-
-        /* ============================================
-           CONTENT SECTIONS
-           ============================================ */
-        .content-section { padding: 64px 32px; background: var(--white); }
-        .content-section:nth-child(even) { background: var(--gray-50); }
-        .content-container { max-width: 1320px; margin: 0 auto; }
-        .section-container { max-width: 1320px; margin: 0 auto; }
-        .text-content { max-width: 100%; }
-
-        .section-title {
-            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
-            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
-        }
-        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
-        .content-text p { margin-bottom: 16px; text-align: left; }
-        .content-text strong { color: var(--text-primary); font-weight: 600; }
-        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
-
-        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
-        .column-content { max-width: 100%; }
-        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
-
-        .highlight-box {
-            background: var(--orange-lighter); border-left: 4px solid var(--orange);
-            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
-        }
-        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
-        .highlight-box p:last-child { margin-bottom: 0; }
-
-        .illustration-placeholder {
-            width: 100%; max-width: 420px; aspect-ratio: 4/3;
-            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
-        }
-        .illustration-icon {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
-        }
-        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
-        .illustration-badge {
-            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
-            box-shadow: var(--shadow-md); text-align: center;
-        }
-        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
-        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
-
-        /* Section Eyebrow */
-        .section-eyebrow {
-            display: inline-flex; align-items: center; gap: 8px;
-            font-size: 13px; font-weight: 600; color: var(--orange);
-            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
-        }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
-
-        /* Steps Section */
-        .steps-section { padding: 72px 32px; background: var(--gray-50); }
-        .steps-container { display: flex; flex-direction: column; gap: 32px; }
-        .step-card {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
-            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
-            border: 1px solid var(--gray-200); transition: all 0.3s ease;
-        }
-        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
-        .step-card:nth-child(even) { direction: rtl; }
-        .step-card:nth-child(even) > * { direction: ltr; }
-        .step-content { display: flex; flex-direction: column; }
-        .step-badge {
-            display: inline-flex; align-items: center; gap: 6px;
-            background: var(--orange); color: var(--white);
-            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
-            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
-        }
-        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
-        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
-        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-        .highlight-tag {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
-            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
-        }
-        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
-        .step-visual { display: flex; justify-content: center; align-items: center; }
-        .step-illustration {
-            width: 100%; max-width: 280px; aspect-ratio: 1;
-            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
-            border-radius: var(--radius-xl); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
-        }
-        .step-illustration .illustration-icon {
-            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
-            background: none; box-shadow: none;
-        }
-        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
-        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
-        .step-number-large {
-            position: absolute; bottom: 16px; right: 20px;
-            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
-        }
-
-        /* Process Evidence Screenshot - Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-        .process-screenshot-details summary {
-            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
-            display: inline-flex; align-items: center; gap: 6px;
-        }
-        .process-screenshot-details summary:hover { color: var(--orange-dark); }
-        .process-screenshot-details .screenshot-img {
-            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
-            box-shadow: var(--shadow-sm); margin-top: 10px;
-        }
-        .process-screenshot-details .screenshot-note {
-            font-size: 11px; color: var(--text-muted); margin-top: 6px;
-        }
-
-        /* Why Choose Section */
-        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
-        .why-choose-header { text-align: center; margin-bottom: 48px; }
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        .feature-card {
-            background: var(--white); border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
-        }
-        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
-        .feature-icon {
-            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
-            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
-        }
-        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
-        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
-
-        /* Reviews CTA */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta {
-            display: inline-flex; align-items: center; gap: 8px;
-            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            color: var(--blue); background: var(--white); border: none;
-            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
-        }
-        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta svg { width: 16px; height: 16px; }        @media (max-width: 640px) {        }
-
-        /* ============================================
-           CITY & CROSS-SELL GRID CARDS
-           ============================================ */
-        .pa-city-block { }
-        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
-        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
-        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
-        .pa-city-card, .pa-cross-card {
-            display: flex; align-items: center; gap: 10px;
-            padding: 14px 16px; background: var(--white);
-            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
-            text-decoration: none; transition: all 0.25s ease;
-        }
-        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
-        .pa-card-icon {
-            width: 32px; height: 32px; background: var(--orange-light);
-            border-radius: var(--radius-sm); display: flex; align-items: center;
-            justify-content: center; flex-shrink: 0;
-        }
-        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
-        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
-        @media (max-width: 768px) {
-            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
-            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 480px) {
-            .pa-city-grid  { grid-template-columns: 1fr; }
-            .pa-cross-grid { grid-template-columns: 1fr; }
-        }
-        .testimonials-section {
-            padding: 24px 32px 0 32px;
-            background: var(--white);
-            overflow: hidden;
-        }
-        .testimonials-section .section-container {
-            max-width: 1320px;
-            margin: 0 auto;
-        }
-        .testimonials-section .section-header {
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .testimonials-section .section-header h2 {
-            font-size: clamp(26px, 3.5vw, 34px);
-            font-weight: 800;
-            color: var(--blue);
-            margin-bottom: 10px;
-        }
-        .testimonials-section .section-header p {
-            font-size: 15px;
-            color: var(--text-muted);
-        }
-
-        /* Slick overrides */
-        .testimonial-slider .slick-slide { padding: 0 10px; }
-        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
-        .testimonial-slider .slick-dots { bottom: -40px; }
-        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
-        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
-        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-        .testimonial-slider .slick-track { display: flex !important; }
-        .testimonial-slider.slick-initialized { margin-bottom: 0; }
-
-        /* Video Testimonial Card */
-        .testi-video-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.25s ease;
-        }
-        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-video-area {
-            position: relative;
-            height: 230px;
-            overflow: hidden;
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-        .testi-video-area video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .testi-play-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0,0,0,0.25);
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
-        .testi-play-btn {
-            width: 56px;
-            height: 56px;
-            background: rgba(232,113,44,0.85);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        }
-        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
-        .testi-star-badge {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-            display: flex;
-            gap: 2px;
-        }
-        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white);
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            height: 340px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.25s ease;
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px;
-            line-height: 1.65;
-            color: var(--text-secondary);
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .testi-footer {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            padding-top: 16px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .testi-author {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .testi-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--white);
-            flex-shrink: 0;
-            overflow: hidden;
-            background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        /* Loading state */
-        .testi-loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 0;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .testi-loading .spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--orange);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin-right: 12px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 16px 20px 0 20px; }
-        }
-        @media (max-width: 576px) {
-
-        }
-
-        
-
-        @media (max-width: 1024px) {
-        }
-        @media (max-width: 768px) {
-
-        }
-        @media (max-width: 480px) {
-
-
-        }
-        @media (max-width: 768px) {
-
-        }
-
-        /* ============================================
-           RESPONSIVE
-           ============================================ */
-        @media (max-width: 1024px) {
-            .two-column { grid-template-columns: 1fr; gap: 40px; }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
-            .stats-container { gap: 32px; }
-            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
-        }
-        @media (max-width: 900px) {
-            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
-            .step-card:nth-child(even) { direction: ltr; }
-            .step-visual { order: -1; }
-        }
-        @media (max-width: 768px) {
-            .content-section { padding: 40px 16px; }
-            .hero-cta { flex-direction: column; }
-            .btn-video, .btn-sample { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .stat-item { width: 100%; }
-            .features-grid { grid-template-columns: 1fr; gap: 16px; }
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-            .content-text { font-size: 14px; }
-            .accordion-body { text-align: left; }
-            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
-            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
-            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
-            .col-lg-4 { margin-top: 24px; }
-            .form-card { max-width: 100%; }
-            .private-registration-heading { margin-bottom: 1rem !important; }
-            .benefit-paragraph { font-size: 0.9rem; }
-            .hero-badge { font-size: 12px; padding: 6px 12px; }
-            .expert-attribution-box { padding: 10px 14px; }
-            .expert-attribution-box .eab-title { font-size: 12px; }
-            .expert-attribution-box .eab-meta { font-size: 11px; }
-            .trust-section { gap: 12px; }
-            .trust-row { gap: 16px; }
-            .google-rating { width: 100%; }
-            section ul li:not(.nav-item) { font-size: 14px; }
-        }
-
-        /* Smooth scroll offset */
-        .content-section[id] { scroll-margin-top: 80px; }
-
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(16px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    
-        /* Trust Badge Descriptions */
-        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
-        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
-
-        /* City Interlinking Grid */
-        @media (max-width: 768px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: repeat(2, 1fr) !important;
-                gap: 12px !important;
-            }
-        }
-        @media (max-width: 480px) {
-            .content-section [style*="grid-template-columns: repeat(4"] {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* ============================================
-           STICKY WHATSAPP BAR
-           ============================================ */
-        .wa-sticky-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #25D366;
-            z-index: 9999;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
-            transition: transform 0.35s ease;
-        }
-        .wa-sticky-bar.hidden { transform: translateY(100%); }
-        .wa-sticky-bar-content {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            max-width: 1320px;
-            width: 100%;
-            justify-content: center;
-        }
-        .wa-sticky-bar-icon {
-            width: 36px; height: 36px; flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            background: rgba(255,255,255,0.2); border-radius: 50%;
-        }
-        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
-        .wa-sticky-bar-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 15px; color: #fff; font-weight: 500;
-        }
-        .wa-sticky-bar-text strong { font-weight: 700; }
-        .wa-sticky-bar-btn {
-            display: inline-flex; align-items: center; gap: 6px;
-            padding: 8px 22px; background: #fff; color: #25D366;
-            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
-            border: none; border-radius: 50px; cursor: pointer;
-            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
-        }
-        .wa-sticky-bar-btn:hover { background: #f0fdf4; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .wa-sticky-bar-close {
-            background: none; border: none; cursor: pointer;
-            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
-            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
-            font-family: 'Barlow', sans-serif; font-weight: 300;
-        }
-        .wa-sticky-bar-close:hover { color: #fff; }
-        @media (max-width: 768px) {
-            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
-            .wa-sticky-bar-text { font-size: 13px; }
-            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
-            .wa-sticky-bar-icon { width: 30px; height: 30px; }
-            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
-        }
-        @media (max-width: 480px) {
-            .wa-sticky-bar-text { display: none; }
-            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
-            .wa-sticky-bar-btn::before { content: 'Join Community'; }
-            .wa-sticky-bar-btn span { display: none; }
-        }
+/* PHONES. The fit is handled by --spec-zoom, so nothing here touches scale. Both captions
+   go full-opacity: once they stack, the dimmed inactive one reads as broken rather than as
+   inactive. */
+@media(max-width:700px){
+  .specimen-frame{padding:8px}
+  .specimen-zoom{display:none}
+  .specimen-pane{opacity:1;padding:12px 0 12px 14px}
+  .specimen-hint{display:flex}
+  .specimen-tab{font-size:13px;padding:11px 8px}
+  .specimen-caption .section-subtitle{margin-bottom:4px}
+}
+.nwc-doc-list{list-style:none;padding:0;margin:0 0 8px}
+.nwc-doc-list li{display:block!important;padding:12px 0 12px 26px;border-bottom:1px solid var(--gray-200,#e2e8f0);font-weight:600;position:relative}
+.nwc-doc-list li::before{content:"";position:absolute;left:0;top:19px;width:8px;height:8px;border-radius:50%;background:var(--orange,#f26522)}
+.nwc-doc-list .al-d{display:block;font-weight:400;font-size:14px;color:var(--text-muted,#64748b);margin-top:4px}
 </style>
 <main>
 
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;flex-wrap:wrap;">
+            <li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+            <li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/net-worth-certificate-by-ca" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Net Worth Certificate by CA</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+            <li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/net-worth-certificate" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Net Worth Certificate</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+            <li><span style="color:var(--orange);font-weight:600;">CA Certificate for Proprietorship Firm</span></li>
+        </ol>
+    </div>
+</nav>
 
-
-<!-- HERO SECTION -->
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
     <div class="container">
         <div class="row align-items-center">
@@ -1092,55 +494,39 @@
                 <div class="pe-lg-5">
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        Trusted by 10,000+ Businesses
+                        UDIN on every certificate
                     </div>
 
-                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Net Worth Certificate for Sole Proprietorship in India
-                    </h1>
+                    <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">CA Certificate for Proprietorship Firm</h1>
 
                     <div class="expert-attribution-box">
                         <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
                         <span class="eab-title">Reviewed by CA and CS Team, Patron Accounting LLP</span>
                         <span class="eab-meta">
-                            <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
+                            <span>ICAI &amp; ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">20 April 2026</span></span>
+                            <span>Last Updated: <span id="lastUpdated">August 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
-                    <div class="mb-4">
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>Personal + Business Assets Combined</strong>:</span> A sole proprietorship has no separate legal identity under Indian law - our CA correctly combines both personal and business assets into one certified statement.</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>UDIN-Verified Certificate</strong>:</span> Every certificate carries a mandatory 18-digit UDIN generated at udin.icai.org - accepted by banks, embassies, franchisors, and government departments.</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>Multiple Use Cases Covered</strong>:</span> Bank loans, business tenders, franchise applications, visa processing, DEMAT account opening, and legal proceedings - all formats supported.</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-3">
-                            <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>Fast Delivery</strong>:</span> Delivered within 1-3 working days. Same-day express issuance available when documents are submitted by 11 AM.</p>
-                        </div>
+                    <div class="mb-4 hero-benefits">
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>Business and household pulled apart</span></p></div>
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>One assessee under the Income-tax Act</span></p></div>
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>Returns, ledger and UDIN aligned</span></p></div>
+                        <div class="hero-benefit"><span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><p class="mb-0 text-dark benefit-paragraph"><span>Stock and debtors evidenced</span></p></div>
                     </div>
-
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Patron Accounting LLP - ICAI-registered CA firm with offices in Pune, Mumbai, Delhi, and Hyderabad. 500+ Google Reviews. 4.8/5 Rating.</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
-                            Call +91 945 945 6700
+                            Call +91 94594 56700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Net%20Worth%20Certificate%20Sole%20Proprietorship%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Net%20Worth%20Certificate%20for%20Sole%20Proprietorship%20services.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20a%20CA%20Certificate%20for%20Proprietorship%20Firm&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20a%20ca%20certificate%20for%20proprietorship%20firm%20and%20would%20like%20to%20know%20more.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20Net%20Worth%20Certificate%20for%20my%20Sole%20Proprietorship.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20ca%20certificate%20for%20proprietorship%20firm" target="_blank" rel="noopener" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1150,24 +536,17 @@
                         <div class="trust-row">
                             <div class="trust-item">
                                 <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
-                                <div class="trust-text"><strong>15+ Years</strong>Industry Experience</div>
+                                <div class="trust-text"><strong>15+ Years</strong>In practice</div>
                             </div>
                             <div class="trust-item">
                                 <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
-                                <div class="trust-text"><strong>CA & CS</strong>Certified Experts</div>
+                                <div class="trust-text"><strong>CA &amp; CS</strong>Certified Experts</div>
                             </div>
                         </div>
                         <div class="google-rating">
                             <div class="rating-content">
-                                <div class="rating-stars">
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                    <span class="rating-score">4.9</span>
-                                </div>
-                                <span class="rating-count">Based on 500+ reviews</span>
+                                <div class="rating-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><span class="rating-score">4.9</span></div>
+                                <span class="rating-count">Based on real Google reviews</span>
                             </div>
                         </div>
                     </div>
@@ -1175,327 +554,315 @@
             </div>
             <div class="col-lg-4">
                 @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-sole-proprietorship',
-                    'options'  => [
-                        'net-worth-certificate-sole-proprietorship' => 'Net Worth Certificate for Sole Proprietorship',
-                        'net-worth-certificate' => 'Net Worth Certificate (General)',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'turnover-certificate' => 'Turnover Certificate',
-                        'double-currency-networth-format' => 'Double Currency Net Worth Certificate',
-                        'proprietorship-registration' => 'Proprietorship Registration',
-                        'income-tax-return' => 'Income Tax Return Filing',
-                        'other' => 'Other',
-                    ],
-                ])
+    'options' => ['net-worth-certificate' => 'Net Worth Certificate', 'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa', 'net-worth-certificate-for-bank-loan' => 'Net Worth Certificate for Bank Loan', 'net-worth-certificate-for-company' => 'Company Net Worth Certificate', 'net-worth-certificate-for-partnership-firms' => 'Partnership Firm Net Worth Certificate', 'net-worth-certificate-sole-proprietorship' => 'Proprietorship Net Worth Certificate', 'net-worth-certificate-for-rera-registration' => 'RERA Net Worth Certificate', 'net-worth-certificate-for-divorce' => 'Net Worth Statement for Court', 'net-owned-fund-certificate-for-nbfc' => 'Net Owned Fund Certificate (NBFC)', 'solvency-certificate' => 'Solvency Certificate', 'other' => 'Other'],
+    'selected' => 'net-worth-certificate-sole-proprietorship',
+])
             </div>
         </div>
     </div>
 </section>
 
-<!-- TESTIMONIALS -->
 <section class="testimonials-section">
-    <div class="section-container">
-        <div class="section-header">
-            <h2>Real Stories from Real People</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
-        </div>
-        <div class="testi-loading" id="testiLoading" style="display:none !important;">
-            <div class="spinner"></div>
-            Fetching latest Google reviews&hellip;
-        </div>
-        <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Needed a net worth certificate for a petrol pump franchise. My shop and home are both in my name. The Patron CA included everything - business capital, property value, investments - and issued a certificate the bank and the franchisor both accepted without question.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RP</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Rajesh Patil</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Sole Proprietor, Pune</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                </div>
-            </div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">I don't maintain formal accounts - just run my trading business via bank transactions. Patron's CA used my ITR and bank statements to prepare the net worth statement with a proper basis disclosure. No rejection anywhere.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AM</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Arjun Mehta</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Trader, Mumbai</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div>
-                </div>
-            </div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Required a dual-currency net worth certificate for my Canada business visa. Got it the same day. Clear bifurcation of assets, INR + CAD amounts, and UDIN. Visa approved on first attempt.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SK</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Sanjay Kumar</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Proprietor, Hyderabad</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div>
-                </div>
-            </div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron handled my net worth certificate for a government tender bid. Strict format requirements from the PSU, and their CA delivered exactly what was needed within 2 days. Got the tender approved.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PG</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Priya Gupta</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Business Owner, Delhi</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div>
-                </div>
-            </div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Had a DEMAT account requirement for high-value trading. Patron's CA issued the net worth certificate with proper personal + business asset break-up and UDIN. Broker accepted it immediately.</div>
-                <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                    <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">VD</div>
-                    <div>
-                        <div style="font-weight:700;font-size:13px;color:var(--blue);">Vikram Deshmukh</div>
-                        <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Investor, Pune</div>
-                        <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    </div>
-                    <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                </div>
-            </div>
+  <div class="section-container">
+    <div class="section-header">
+      <h2>What Our Proprietorship CA Certificate Clients Say</h2>
+      <p>Verified Google reviews from the individuals and businesses Patron works with across India.</p>
     </div>
-        <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                </div>
-                <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get your CA-certified Net Worth Certificate for Sole Proprietorship - starting at INR 1,499. UDIN-verified, pan-India delivery.</p>
-                </div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta">
-                Talk to an Expert
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-        </div>
+    <div class="nwc-slider" id="testiSlider">
+      <div class="nwc-slider__track" role="group" aria-label="Client testimonials">
+        <div class="nwc-slide"><div class="testi-video-card">
+  <div class="testi-video-area">
+    <video preload="metadata" playsinline poster="https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg">
+      <source src="https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4">
+    </video>
+    <div class="testi-play-overlay"><div class="testi-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+    <div class="testi-star-badge"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+  </div>
+  <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+    <div class="testi-avatar"><img src="https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal"></div>
+    <div><div class="testi-name">Sunny Ashpal</div><div class="testi-role">Director - Demandify Media</div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-video-card">
+  <div class="testi-video-area">
+    <video preload="metadata" playsinline poster="https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg">
+      <source src="https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4">
+    </video>
+    <div class="testi-play-overlay"><div class="testi-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div>
+    <div class="testi-star-badge"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+  </div>
+  <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
+    <div class="testi-avatar"><img src="https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava"></div>
+    <div><div class="testi-name">Anjanay Srivastava</div><div class="testi-role">Founder - Hunarsource Consulting</div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially filing the ITR.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar ">A</div>
+      <div><div class="testi-name">Anita Gaur</div></div>
     </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar blue">S</div>
+      <div><div class="testi-name">Subhendu Mishra</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar teal">R</div>
+      <div><div class="testi-name">Rajib Dutta</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar purple">A</div>
+      <div><div class="testi-name">Ayushi Garg</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar ">P</div>
+      <div><div class="testi-name">Preeti Singh Rathor</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+        <div class="nwc-slide"><div class="testi-quote-card">
+  <div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+  <p class="testi-quote-text">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</p>
+  <div class="testi-footer">
+    <div class="testi-author">
+      <div class="testi-avatar blue">M</div>
+      <div><div class="testi-name">Monika Sharma</div></div>
+    </div>
+    <div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div>
+  </div>
+</div></div>
+      </div>
+    </div>
+    <div class="reviews-cta" style="margin-top:30px;">
+      <div class="reviews-cta-content">
+        <div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+        <div class="reviews-cta-text"><h3 class="text-white">Join 3,000+ Founders and Businesses on Patron</h3><p>Rated 4.9 on Google &mdash; trusted for CA certification since 2019.</p></div>
+      </div>
+      <a href="tel:+919459456700" class="btn-cta" style="text-decoration:none;">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </div>
 </section>
 
-<!-- STATS BAR -->
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
-            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+            <div class="stat-content"><span class="stat-value">3,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">Certification, audit and compliance work across India.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years in Practice</span><span class="stat-desc">A CA and CS team signing certificates for special purposes.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
-            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+            <div class="stat-content"><span class="stat-value">25,000+</span><span class="stat-label">Filings Completed</span><span class="stat-desc">Returns, certificates and filings handled accurately.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
-            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Verified Google reviews from real engagements.</span></div>
         </div>
         <div class="certifications">
-            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
-            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>UDIN Verified<span class="cert-desc">Every certificate carries a UDIN generated on the ICAI portal.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial records are transferred and held securely.</span></div>
         </div>
     </div>
 </div>
 
-<!-- TOC NAVIGATION -->
 <div class="toc-section">
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
             <a href="#overview-section" class="toc-btn active">Overview</a>
             <a href="#what-section" class="toc-btn">What Is It</a>
+            <a href="#specimen-section" class="toc-btn">Specimen</a>
             <a href="#who-section" class="toc-btn">Who Needs It</a>
-            <a href="#services-section" class="toc-btn">Our Services</a>
+            <a href="#services-section" class="toc-btn">What You Receive</a>
             <a href="#procedure-section" class="toc-btn">Process</a>
             <a href="#documents-section" class="toc-btn">Documents</a>
-            <a href="#challenges-section" class="toc-btn">Challenges</a>
+            <a href="#challenges-section" class="toc-btn">Problems</a>
             <a href="#fees-section" class="toc-btn">Fees</a>
-            <a href="#timeline-section" class="toc-btn">Timeline</a>
-            <a href="#benefits-section" class="toc-btn">Benefits</a>
-            <a href="#comparison-section" class="toc-btn">DIY vs CA</a>
+            <a href="#benefits-section" class="toc-btn">Why It Matters</a>
+            <a href="#why-patron-section" class="toc-btn">Why Patron</a>
+            <a href="#tool-section" class="toc-btn">Calculator</a>
+            <a href="#legal-section" class="toc-btn">Legal Framework</a>
             <a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
 </div>
 
-<!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Net Worth Certificate for Sole Proprietorship - Overview</h2>
+            <h2 class="section-title">Proprietorship CA Certificate: Scope, Deliverables and Who It Suits</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
-                    <p><strong>&#128204; TL;DR - Net Worth Certificate for Sole Proprietorship Services at a Glance</strong></p>
-                    <p>A Net Worth Certificate for Sole Proprietorship is a CA-certified document combining the proprietor's personal and business assets minus all liabilities. Only a practicing ICAI-registered CA can issue it. UDIN is mandatory since 1 July 2019. It is needed for bank loans, franchise applications, government tenders, visa processing, and DEMAT accounts. Patron Accounting issues it starting at INR 1,499 (Exl GST and Govt. Charges).</p>
+                    <p><strong>&#128204; TL;DR &mdash; CA Certificate for Proprietorship Firm at a Glance</strong></p>
+                    <p>A CA certificate for a proprietorship firm certifies the proprietor, not the business, because the two are one person in law and share a single PAN. Personal and business assets enter one computation, then appear separately in the annexure so a reader can tell them apart. The figures come from books, bank records and income-tax filings on the date the certificate names.</p>
                 </div>
-                <p>A sole proprietorship operates as an extension of its owner - there is no legal separation between the proprietor and the business under Indian law. This creates a unique requirement when a Net Worth Certificate is needed: unlike companies (which compute net worth from shareholders' funds on audited books), a sole proprietor's net worth certificate must combine both personal assets and business capital into a single certified statement. Banks, franchise companies, embassies, and government bodies all require this certificate to assess the financial standing of the proprietor before approving loans, franchise rights, visa applications, or tender bids.</p>
-                <div class="table-responsive-wrapper" style="margin-top:16px;">
-                <table>
-                    <thead><tr><th>Quick Reference</th><th>Details</th></tr></thead>
-                    <tbody>
-                        <tr><td><strong>Certificate Type</strong></td><td>Combined personal + business net worth for sole proprietors</td></tr>
-                        <tr><td><strong>Legal Basis</strong></td><td>No separate legal identity - proprietor and firm treated as one</td></tr>
-                        <tr><td><strong>Issuing Authority</strong></td><td>Practicing CA with full-time ICAI Certificate of Practice (CoP)</td></tr>
-                        <tr><td><strong>UDIN</strong></td><td>Mandatory 18-digit number generated at <a href="https://udin.icai.org" target="_blank" rel="noopener">udin.icai.org</a> (since 1 July 2019)</td></tr>
-                        <tr><td><strong>Common Use Cases</strong></td><td>Bank loans, tenders, franchise applications, visa, DEMAT accounts, legal proceedings</td></tr>
-                        <tr><td><strong>Patron Accounting Fee</strong></td><td>Starting at INR 1,499 (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td><strong>Turnaround Time</strong></td><td>1-3 working days; same-day express available</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p</p>
-                <p>Proprietorship net worth ke liye documents ready rakhein - bank loan ya franchise ke liye yeh certificate zaroori hai. Proprietor ka net worth certificate kaise banaye? Patron Accounting se sampark karein.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+<p>Most proprietors run one bank account for two purposes and only notice when someone asks them to separate the two on paper. Stock sits unvalued, receivables are tracked in a diary, and the books were never built to be read by an outsider. The problem is not that the money is untraceable. It is that nothing in the records was designed to prove anything to a third party.</p><p>So the work becomes finding <a href="/blog/documents-required-for-net-worth-certificate">what stands in for a formal ledger</a>. <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Filed returns</a> establish the income position, bank statements establish the flows, and purchase invoices with a physical count establish stock. From those, a <a href="/net-worth-certificate-by-ca">chartered accountant</a> assembles a statement that will hold up to questioning. The personal and business sides are presented separately, so a <a href="/net-worth-certificate-for-bank-loan">lender</a> can read either one without having to untangle it from the other.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
 <section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What is a Net Worth Certificate for Sole Proprietorship?</h2>
+                <h2 class="section-title">What Is a CA Certificate for a Proprietorship Firm?</h2>
                 <div class="content-text what-is-definition">
-                    
-                    <p><strong>A Net Worth Certificate for Sole Proprietorship</strong> is a CA-certified document that officially states the total financial worth of a sole proprietor by combining all personal assets, business assets, and subtracting all personal and business liabilities.</p>
-                    <p>Unlike a company or LLP where net worth is derived from the balance sheet's shareholders' funds or partners' capital, a sole proprietorship has no separate legal identity under Indian law. The proprietor IS the business. Therefore, the net worth calculation includes the proprietor's personal assets (home, vehicle, fixed deposits, investments, gold) alongside business assets (capital account balance, stock, debtors, business equipment) and deducts all liabilities (personal loans, business creditors, bank overdrafts). The result is the certified net worth of the proprietorship entity as on a specific date, endorsed by an ICAI-registered Chartered Accountant with a mandatory 18-digit UDIN.</p>
-
-                </div>
-                <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Net Worth Certificate for Sole Proprietorship:</strong></p>
-                    <p><strong>Net Worth:</strong> Total Assets (Personal + Business) minus Total Liabilities. Formula: Net Worth = Assets - Liabilities.</p>
-                    <p><strong>No Separate Legal Identity:</strong> A sole proprietorship is not a distinct legal entity from its owner. There is no registration act mandating incorporation. The proprietor's personal financial position directly affects the business's assessed net worth.</p>
-                    <p><strong>Capital Account:</strong> The business account entry showing the proprietor's investment in the business (opening capital + profits withdrawn - drawings).</p>
-                    <p><strong>UDIN:</strong> Unique Document Identification Number - 18-digit code generated on the ICAI portal (<a href="https://udin.icai.org" target="_blank" rel="noopener">udin.icai.org</a>) for each CA certificate. Mandatory since 1 July 2019.</p>
-                    <p><strong>FRN:</strong> Firm Registration Number - ICAI-assigned identifier for the CA firm, printed on the certificate alongside the CA's membership number.</p>
-
+<p>The subject of this certificate is a person, not a business. A proprietorship has no legal existence apart from its proprietor, so the figure certified is the proprietor's own. The trading name appears for identification and carries no separate financial position.</p><p>That has a consequence readers often miss. Business and personal assets cannot be ring-fenced from each other. A lender assessing the business is assessing the individual, and a personal liability sits against business assets just as a business liability sits against personal ones. The annexure separates the two for readability, not in law.</p>
                 </div>
             </div>
-            <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Certificate Document -->
-                            <rect x="35" y="15" width="130" height="120" rx="8" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <!-- Header bar -->
-                            <rect x="35" y="15" width="130" height="22" rx="8" fill="#14365F"/>
-                            <rect x="35" y="29" width="130" height="8" fill="#14365F"/>
-                            <text x="100" y="30" font-size="9" fill="#FFFFFF" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">NET WORTH CERTIFICATE</text>
-                            <!-- Content lines -->
-                            <line x1="50" y1="50" x2="150" y2="50" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-                            <line x1="50" y1="60" x2="140" y2="60" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
-                            <!-- Assets column -->
-                            <rect x="48" y="70" width="48" height="18" rx="3" fill="#E8F5E9" stroke="#10B981" stroke-width="1"/>
-                            <text x="72" y="82" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial, sans-serif">ASSETS</text>
-                            <!-- Liabilities column -->
-                            <rect x="104" y="70" width="48" height="18" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                            <text x="128" y="82" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial, sans-serif">LIABILITIES</text>
-                            <!-- Net Worth result -->
-                            <rect x="60" y="96" width="80" height="16" rx="4" fill="#FFF3E0" stroke="#E8712C" stroke-width="1.5"/>
-                            <text x="100" y="107" font-size="8" fill="#E8712C" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">NET WORTH: INR XX,XX,XXX</text>
-                            <!-- Signature area -->
-                            <line x1="100" y1="120" x2="150" y2="120" stroke="#14365F" stroke-width="1" opacity="0.4"/>
-                            <text x="125" y="130" font-size="6" fill="#14365F" font-weight="500" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.5">CA Signature + Seal</text>
-                            <!-- UDIN badge -->
-                            <rect x="25" y="128" width="55" height="20" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <text x="52" y="141" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">UDIN Verified</text>
-                            <!-- Green check badge -->
-                            <circle cx="160" cy="30" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M153 30l4 4 8-8" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <!-- Label -->
-                            <text x="100" y="168" font-size="9" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">CA-Certified + UDIN</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>CA-Certified</span>
-                        <strong>UDIN Verified Certificate</strong>
-                    </div>
-                </div>
-            </div>
+            <div class="column-image"><img src="/images/networth-cluster/net-worth-certificate-sole-proprietorship/what-is.webp" alt="Business and personal position certified as one, because a proprietorship has no legal existence apart from its owner" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);"></div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 4: WHO CAN FILE -->
+<section class="content-section specimen-section" id="specimen-section">
+  <div class="content-container">
+    <div class="text-content">
+      <div class="specimen-item">
+        <div class="specimen-caption"><div class="specimen-sticky">
+          <h2 class="section-title">What a CA Certificate for a Proprietorship Firm Looks Like: A Masked Specimen</h2>
+          <p class="section-subtitle" style="text-align:left;max-width:100%;">Every figure in the sample below is masked. What it shows is the shape of the document you receive: what it states, on whose authority, and as at which date.</p>
+          <div class="specimen-pane is-active" data-spec-pane="0">
+            <h3>Proprietorship certificate</h3>
+            <p>The subject of this sample is a person, not a business. The trading name appears for identification only, and the figure certified is the proprietor's own. Business and personal holdings are shown in separate columns so a lender can read either side on its own, while the computation stays single, because in law the proprietor and the firm are one and the same.</p>
+            <a class="specimen-download" href="/certificates/06-net-worth-certificate-proprietorship.pdf" download>Download this sample (PDF)</a>
+          </div>
+          <p class="specimen-masknote">All names, addresses, registration numbers and amounts are replaced with X characters. The sample carries a Patron Accounting watermark and a Specimen badge on every page so that a cropped screenshot still shows what it is.</p>
+        </div></div>
+        <div class="specimen-stack" id="specimenStack">
+          <p class="specimen-stack__title">Sample document</p>
+          <div class="specimen-tabs" role="tablist" aria-label="Choose a sample">
+            <button type="button" role="tab" class="specimen-tab is-active" data-spec-tab="0" aria-selected="true">Proprietorship certificate</button>
+          </div>
+          <div class="specimen-frame" id="specimenFrame" role="button" tabindex="0" aria-label="Enlarge this sample">
+            <div class="specimen-doc is-active" data-spec-doc="0"><article class="nwc-spec" aria-label="Net Worth Certificate — Proprietorship - specimen, all values masked, not a valid certificate">
+  <svg class="nwc-spec__mark" aria-hidden="true" focusable="false">
+    <defs><pattern id="nwcwm-06" width="400" height="230"
+      patternUnits="userSpaceOnUse">
+      <text x="16" y="150" transform="rotate(-24 16 150)">Patron Accounting</text>
+    </pattern></defs>
+    <rect width="100%" height="100%" fill="url(#nwcwm-06)"/>
+  </svg>
+  <div class="nwc-spec__badge">Sample only</div>
+  <header class="nwc-spec__lh">
+    <span class="nm"><span class="b">XXXXXX XXXXX & XXXXXXXXXX</span></span>
+    <span class="desig">Chartered Accountants</span>
+    <span class="ln"><span class="b">XXX, XXXXXXX XXXXXXXX, XX XXXX, XXXX XXXXXX</span></span>
+    <span class="ln"><span class="b">+XX XX XXXX XXXX</span> &nbsp;&middot;&nbsp; <span class="b">XXXXXX@XXXXXXX.XX</span></span>
+    <span class="ln">Firm Registration No.: <span class="b">XXXXXXX</span></span>
+  </header>
+  <div class="nwc-spec__meta"><span>Ref: <span class="b">XXX/XXXX-XX/XXXX</span></span><span>Date: <span class="b">XX/XX/XXXX</span></span></div>
+  <h3>Certificate of Net Worth of the Proprietor</h3>
+  <div class="nwc-spec__to"><b>To Whomsoever It May Concern</b></div>
+  <p>This is to certify that we have examined the books of account of <span class="b">X/X XXXXXXXXXX XXXXXXX</span>, a proprietary
+  concern of <span class="b">XXXXX XXXXXXX XXXXXXXX</span>, having its place of business at <span class="b">XXXX X, XXXXXX XXXXXX, XXXX, XXXX XXXXXX</span>, holding Permanent Account Number <span class="b">XXXXXXXXXX</span> and
+  GST Registration Number <span class="b">XXXXXXXXXXXXXXX</span>, as at <span class="b">XX XXXXX XXXX</span>.</p>
+  <p>A proprietary concern has no legal identity separate from its proprietor. The Statement
+  below therefore sets out the assets and liabilities of the concern together with the personal
+  assets and liabilities of the proprietor.</p>
+<h4>Statement of Assets and Liabilities</h4><table><caption class="nwc-spec__sr">Statement of Assets and Liabilities - all figures masked</caption><thead><tr><th style="width:50px">Sr.</th><th>Particulars</th><th class="num">Amount (INR)</th></tr></thead><tbody><tr class="sub"><td>A</td><td><b>Business Assets and Liabilities</b></td><td class="num"></td></tr><tr><td>1</td><td>Fixed assets of the concern (net)</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>2</td><td>Inventories and sundry debtors</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>3</td><td>Business bank balances</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>4</td><td>Less: Business liabilities and borrowings</td><td class="num"><span class="b b--n">(XX,XX,XXX)</span></td></tr><tr class="sub"><td></td><td><b>Net Business Assets (A)</b></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td></tr><tr class="sub"><td>B</td><td><b>Personal Assets and Liabilities</b></td><td class="num"></td></tr><tr><td>1</td><td>Immovable property &mdash; residential flat</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>2</td><td>Bank balances, deposits and investments</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>3</td><td>Other personal assets</td><td class="num"><span class="b b--n">XX,XX,XXX</span></td></tr><tr><td>4</td><td>Less: Personal liabilities</td><td class="num"><span class="b b--n">(XX,XX,XXX)</span></td></tr><tr class="sub"><td></td><td><b>Net Personal Assets (B)</b></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td></tr><tr class="tot"><td></td><td><b>NET WORTH (A + B)</b></td><td class="num"><span class="b b--n">X,XX,XX,XXX</span></td></tr></tbody></table>
+  <p>On the basis of our examination and the information and explanations given
+  to us, we certify that the net worth of <span class="b">XXXXX XXXXXX XXXXXXXXX</span> as at <span class="b">XX XXXXX XXXX</span> is <b>INR <span class="b">X,XX,XX,XXX</span></b>
+  (Rupees <span class="b">XXX XXXXX XXXXX-XXXX XXXX</span> only).</p>
+  <p>This certificate is issued at the request of the applicant for the purpose of a working capital facility application and is
+  not to be used, referred to or distributed for any other purpose or to any other party
+  without our prior written consent.</p>
+  <p>The preparation of the Statement is the responsibility of the applicant, including the completeness of the assets and liabilities disclosed. Our responsibility is to certify the Statement on the basis of the records produced before us.</p>
+  <p>We conducted our examination in accordance with the Guidance Note on Reports or Certificates for Special Purposes issued by the Institute of Chartered Accountants of India, which requires that we comply with the ethical requirements of the Code of Ethics. We have complied with the relevant requirements of the Standard on Quality Control (SQC) 1.</p>
+  <footer class="nwc-spec__sign">
+    <div>Place: <span class="b">XXXX</span><br>Date: <span class="b">XX/XX/XXXX</span><br>UDIN: <span class="b">XXXXXXXXXXXXXXXXXX</span></div>
+    <div class="rt">
+      <span class="for">For</span>
+      <span class="nm"><span class="b">XXXXXX XXXXX & XXXXXXXXXX</span></span>
+      <span class="desig">Chartered Accountants</span>
+      <span>FRN: <span class="b">XXXXXXX</span></span>
+      <div class="nwc-spec__sig"></div>
+      <div><span class="b">XX XXXXXX XXXXX</span><br>Partner &middot; Membership No.: <span class="b">XXXXXX</span></div>
+    </div>
+  </footer>
+</article></div>
+            <span class="specimen-zoom">Click to enlarge</span>
+          </div>
+          <p class="specimen-hint">
+            <span>Tap the sample to open it full size</span>
+            <button type="button" class="specimen-open" id="specimenOpen">Open full size</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="specimen-lightbox" id="specimenLightbox" aria-hidden="true" role="dialog" aria-label="Sample document, full size">
+    <button type="button" class="specimen-lightbox__close" aria-label="Close">&times;</button>
+    <div class="specimen-lightbox__inner"></div>
+  </div>
+</section>
+
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who Needs a Net Worth Certificate for Sole Proprietorship?</h2>
-            <div class="content-text">
-                
-                <p>Any sole proprietor who needs to prove their financial standing to an institution requires this certificate. Common situations include:</p>
-                <ul>
-                    <li><strong>Bank Loan Applications</strong> - lenders assess net worth to determine repayment capacity and creditworthiness before sanctioning business loans, working capital loans, or term loans</li>
-                    <li><strong>Franchise Applications</strong> - franchisors (food chains, retail brands, dealerships, petrol pumps) require certified net worth proof before approving franchise rights</li>
-                    <li><strong>Government Tender Bids</strong> - PSU and government tenders specify minimum net worth thresholds; proprietors must submit CA-certified net worth certificates</li>
-                    <li><strong>Visa Applications</strong> - embassies for USA, Canada, Australia, UK, and Schengen zone countries require net worth proof from self-employed applicants and business owners</li>
-                    <li><strong>DEMAT and Trading Account Opening</strong> - stock brokers and depositories may require net worth certification for high-value trading accounts</li>
-                    <li><strong>Legal Proceedings</strong> - courts require net worth certificates in divorce settlements, inheritance disputes, loan recovery cases, and insolvency matters</li>
-                    <li><strong>Business Partnership or Investment</strong> - investors or co-investors may demand net worth proof before entering into business arrangements</li>
-                    <li><strong>Export Registration and DGFT Schemes</strong> - some export-related applications require certified financial standing documents</li>
-                </ul>
-
-            </div>
+            <h2 class="section-title">Who Needs a CA Certificate for a Proprietorship Firm in India</h2>
+            <div class="why-patron-grid is-4">
+                <div><strong>You Must Separate What Never Was</strong><p>One account has carried household and business money for years. The request assumes a separation that does not exist in the records, and the annexure is where it finally gets made.</p></div>
+                <div><strong>Books Never Written for an Outsider</strong><p>Stock is estimated, receivables live in a diary, and the accounts made sense to you and your accountant. Somebody outside that arrangement now needs to rely on them for a decision.</p></div>
+                <div><strong>The Lender Is Assessing You</strong><p>The application is in the trading name but the assessment is of a person, because in law there is only a person. Personal assets and personal borrowings both enter the same computation.</p></div>
+                <div><strong>Filed Returns and Books Diverge</strong><p>What <a href="/accounting-services">the ledger</a> shows and what has been declared do not line up. That gap has to be resolved before a chartered accountant can certify either figure, and resolving it usually takes longer than the certificate.</p></div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 5: OUR SERVICES -->
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Patron Accounting - Net Worth Certificate Services for Proprietorships</h2>
+            <h2 class="section-title">Our Proprietorship CA Certificate Service: What You Receive</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <thead><tr><th>Service</th><th>What&#x27;s included</th><th>Frequency</th></tr></thead>
                     <tbody>
-                        <tr><td><strong>Purpose and Format Review</strong></td><td>We assess your specific requirement (loan, franchise, visa, tender) and confirm the correct format and whether personal assets, business assets, or both need to be included</td></tr>
-                        <tr><td><strong>Document Collection Guidance</strong></td><td>Complete checklist of personal and business documents; guidance on property valuation, investment statements, and Capital Account balance</td></tr>
-                        <tr><td><strong>Asset-Liability Statement Preparation</strong></td><td>Our CA team prepares a detailed asset-liability statement combining personal and business financials as on a specified date</td></tr>
-                        <tr><td><strong>CA Verification and Certification</strong></td><td>ICAI-registered CA reviews all documents, cross-verifies values with ITR/GST data, and certifies accuracy</td></tr>
-                        <tr><td><strong>UDIN Generation</strong></td><td>Mandatory 18-digit UDIN generated on ICAI portal, verifiable by any institution at <a href="https://udin.icai.org" target="_blank" rel="noopener">udin.icai.org</a></td></tr>
-                        <tr><td><strong>Physical + Digital Delivery</strong></td><td>Signed, sealed certificate on CA firm letterhead; digital scan via email or WhatsApp; courier for physical copy pan-India</td></tr>
-
+                        <tr><td>Proprietor <a href="/net-worth-certificate">net worth certificate</a></td><td>One certificate covering the proprietorship firm and its proprietor together, because in law they are one person, with that stated plainly on its face.</td><td><span class="badge-included">Per engagement</span></td></tr>
+                        <tr><td>Business and personal split annexure</td><td>The single computation presented in two readable columns, so a lender can read either side without untangling it themselves; <a href="/blog/balance-sheet-vs-net-worth-certificate">how a balance sheet differs from a certificate</a>.</td><td><span class="badge-included">Per engagement</span></td></tr>
+                        <tr><td>Stock valuation working</td><td>Stock counted and valued on a stated basis, which for most proprietors is the largest single asset and the entry questioned first.</td><td><span class="badge-included">Per engagement</span></td></tr>
+                        <tr><td>Debtor ageing schedule</td><td>Debtors broken out by age with anything unlikely to be recovered removed, leaving a figure a lender will count rather than discount on sight.</td><td><span class="badge-included">Per engagement</span></td></tr>
+                        <tr><td>Returns and books reconciliation</td><td>Filed <a href="/income-tax-return">income tax returns</a> set against what the ledger shows, with any difference resolved before a position is certified.</td><td><span class="badge-included">Per engagement</span></td></tr>
+                        <tr><td>Drafting to the lender's form</td><td>The certificate drawn to the format the bank or the tender body asks for, since a form one accepts is regularly refused by another.</td><td><span class="badge-included">Per engagement</span></td></tr>
+                        <tr><td>Reissue on a changed date</td><td>A fresh certificate for a later date, rebuilt from updated stock, debtor and bank records rather than rolled forward.</td><td><span class="badge-included">On request</span></td></tr>
                     </tbody>
                 </table>
                 </div>
@@ -1504,287 +871,105 @@
     </div>
 </section>
 
-<!-- SECTION 7: 7-STEP PROCESS -->
 <section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">Step-by-Step Process to Get Net Worth Certificate for Sole Proprietorship</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Follow this 7-step process to obtain your CA-certified Net Worth Certificate with UDIN verification. Patron Accounting handles everything from document review to final certificate delivery.</p>
+            <h2 class="section-title">How We Issue a CA Certificate for a Proprietorship Firm, Step by Step</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">Six steps from the scope conversation to a signed certificate carrying a UDIN.</p>
         </header>
         <div class="steps-container">
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 1</span>
-                    <h3 class="step-title">Identify Purpose and Format Required</h3>
-                    <p class="step-description">Determine why you need the certificate. Banks may require business-focused net worth; visa authorities need personal + business combined; some franchise applications need specific format templates. Share the requirement with Patron Accounting upfront.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Bank / Visa / Franchise format</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Asset scope confirmed</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="20" y="10" width="80" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                                <circle cx="60" cy="35" r="12" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                                <path d="M55 35l3 3 7-7" stroke="#E8712C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <line x1="30" y1="55" x2="90" y2="55" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-                                <line x1="30" y1="62" x2="75" y2="62" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
-                            </svg>
-                        </div>
-                        <span class="illustration-label">Purpose Confirmed</span>
-                        <span class="step-number-large">01</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 1</span>
+    <h3 class="step-title">Business and personal untangled</h3>
+    <p class="step-description">We work through the account and separate business movement from household movement, because both have run through the same place for years. The output is two readable columns where the records previously held a single undifferentiated narrative.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-sole-proprietorship/step-1-business-and-personal-untangled.webp" alt="We work through the account and separate business movement from household movement" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 2</span>
-                    <h3 class="step-title">Compile Personal Asset Documents</h3>
-                    <p class="step-description">Gather bank statements (last 6-12 months), fixed deposit receipts, property registration documents with current market valuation, vehicle RC and valuation, investment account statements (shares, mutual funds), gold valuation receipts, and LIC policy surrender values.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Bank + FD statements</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Property + investment docs</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="15" y="8" width="45" height="55" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                                <rect x="60" y="18" width="45" height="55" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                                <line x1="25" y1="22" x2="50" y2="22" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
-                                <line x1="25" y1="32" x2="45" y2="32" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
-                                <line x1="25" y1="42" x2="48" y2="42" stroke="#14365F" stroke-width="2" stroke-linecap="round" opacity="0.2"/>
-                                <line x1="70" y1="32" x2="95" y2="32" stroke="#E8712C" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
-                                <line x1="70" y1="42" x2="90" y2="42" stroke="#E8712C" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
-                                <path d="M35 75l5-10h20l5 10" stroke="#14365F" stroke-width="1.5" fill="#E8F5E9" opacity="0.5"/>
-                            </svg>
-                        </div>
-                        <span class="illustration-label">Personal Assets Ready</span>
-                        <span class="step-number-large">02</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 2</span>
+    <h3 class="step-title">Filed returns reconciled to books</h3>
+    <p class="step-description">Income tax filings are set against what the ledger shows. Where the two diverge the difference is resolved before anything is certified, because a chartered accountant cannot present a position that rests on income the returns do not carry.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-sole-proprietorship/step-2-filed-returns-reconciled-to-books.webp" alt="Income tax filings are set against what the ledger shows" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 3</span>
-                    <h3 class="step-title">Compile Business Asset and Liability Documents</h3>
-                    <p class="step-description">Gather Capital Account statement from your accounts (or last ITR with business schedule), stock/inventory list with value, trade debtors list, equipment invoices or book values, bank loan statements, creditors list, and any overdraft account balances.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ITR + GST returns</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Stock + debtors list</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="20" y="10" width="80" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                                <rect x="30" y="20" width="60" height="12" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                                <text x="60" y="29" font-size="8" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">ITR + P&amp;L</text>
-                                <line x1="30" y1="42" x2="90" y2="42" stroke="#14365F" stroke-width="1" opacity="0.3"/>
-                                <line x1="30" y1="52" x2="85" y2="52" stroke="#14365F" stroke-width="1" opacity="0.2"/>
-                                <line x1="30" y1="62" x2="80" y2="62" stroke="#14365F" stroke-width="1" opacity="0.2"/>
-                                <circle cx="95" cy="15" r="10" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/>
-                                <path d="M91 15l3 3 5-5" stroke="#10B981" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <span class="illustration-label">Business Docs Compiled</span>
-                        <span class="step-number-large">03</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 3</span>
+    <h3 class="step-title">Stock counted and valued</h3>
+    <p class="step-description">Stock is physically counted and valued on a stated basis, never carried at an estimate. For most proprietors this is the single largest asset, and it is the entry an outside reader questions first if no basis is shown.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-sole-proprietorship/step-3-stock-counted-and-valued.webp" alt="Stock is physically counted and valued on a stated basis, never carried at an estimate" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 4</span>
-                    <h3 class="step-title">Contact Patron Accounting CA</h3>
-                    <p class="step-description">Share all documents with our ICAI-registered CA. We review the purpose, confirm which assets need inclusion, and advise on property valuers if market valuation of immovable assets is required. Our CA team handles the complete coordination.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Expert CA review</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Valuation advice</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="45" cy="35" r="18" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                                <circle cx="45" cy="30" r="7" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                                <path d="M32 48c0-7 6-13 13-13s13 6 13 13" stroke="#14365F" stroke-width="1.5" fill="none"/>
-                                <rect x="70" y="20" width="35" height="40" rx="5" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                                <line x1="78" y1="30" x2="98" y2="30" stroke="#E8712C" stroke-width="2" stroke-linecap="round"/>
-                                <line x1="78" y1="38" x2="95" y2="38" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-                                <line x1="78" y1="46" x2="92" y2="46" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
-                            </svg>
-                        </div>
-                        <span class="illustration-label">CA Engaged</span>
-                        <span class="step-number-large">04</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 4</span>
+    <h3 class="step-title">Receivables aged and written down</h3>
+    <p class="step-description">Debtors are broken out by age instead of appearing as one figure, and anything unlikely to be recovered is removed. What survives that exercise is a number a lender will count toward the total, not one it discounts on sight.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-sole-proprietorship/step-4-receivables-aged-and-written-down.webp" alt="Debtors are broken out by age instead of appearing as one figure, and anything unlikely to be recovered is removed" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 5</span>
-                    <h3 class="step-title">CA Drafts Asset-Liability Statement</h3>
-                    <p class="step-description">The CA prepares the combined personal + business asset-liability statement, cross-verifies values against ITR, bank statements, and investment records, and resolves any discrepancies before certifying.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Cross-verified values</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Combined statement ready</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="10" y="15" width="100" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                                <line x1="60" y1="15" x2="60" y2="75" stroke="#14365F" stroke-width="1" opacity="0.3"/>
-                                <text x="35" y="30" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">ASSETS</text>
-                                <text x="85" y="30" font-size="7" fill="#E8712C" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">LIABILITIES</text>
-                                <line x1="18" y1="36" x2="55" y2="36" stroke="#14365F" stroke-width="1" opacity="0.2"/>
-                                <line x1="18" y1="44" x2="52" y2="44" stroke="#14365F" stroke-width="1" opacity="0.2"/>
-                                <line x1="18" y1="52" x2="50" y2="52" stroke="#14365F" stroke-width="1" opacity="0.2"/>
-                                <line x1="65" y1="36" x2="105" y2="36" stroke="#E8712C" stroke-width="1" opacity="0.2"/>
-                                <line x1="65" y1="44" x2="100" y2="44" stroke="#E8712C" stroke-width="1" opacity="0.2"/>
-                                <rect x="20" y="60" width="80" height="10" rx="3" fill="#E8F5E9" stroke="#10B981" stroke-width="1"/>
-                                <text x="60" y="68" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">NET WORTH</text>
-                            </svg>
-                        </div>
-                        <span class="illustration-label">Statement Drafted</span>
-                        <span class="step-number-large">05</span>
-                    </div>
-                </div>
-            </div>
+  <div class="step-content">
+    <span class="step-badge">Step 5</span>
+    <h3 class="step-title">Both sides separated in the annexure</h3>
+    <p class="step-description">The computation stays single, because in law the proprietor and the business are one person. The annexure separates the two so a lender can read either side on its own without having to untangle the combined figure themselves.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-sole-proprietorship/step-5-both-sides-separated-in-the-annexure.webp" alt="The computation stays single, because in law the proprietor and the business are one person" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
             <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 6</span>
-                    <h3 class="step-title">Draft Review by Proprietor</h3>
-                    <p class="step-description">We share the draft certificate with you for review. Verify proprietor name, date of certification, asset values, liability figures, and purpose statement before giving approval for final issuance.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Values verified by you</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Approval given</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="25" y="10" width="70" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                                <circle cx="60" cy="40" r="16" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.5"/>
-                                <circle cx="60" cy="40" r="8" fill="none" stroke="#E8712C" stroke-width="1.5"/>
-                                <line x1="60" y1="32" x2="60" y2="48" stroke="#E8712C" stroke-width="1.5"/>
-                                <line x1="52" y1="40" x2="68" y2="40" stroke="#E8712C" stroke-width="1.5"/>
-                                <path d="M85 65l8 8" stroke="#14365F" stroke-width="2" stroke-linecap="round"/>
-                                <circle cx="82" cy="62" r="8" fill="none" stroke="#14365F" stroke-width="1.5"/>
-                            </svg>
-                        </div>
-                        <span class="illustration-label">Draft Reviewed</span>
-                        <span class="step-number-large">06</span>
-                    </div>
-                </div>
-            </div>
-            <div class="step-card">
-                <div class="step-content">
-                    <span class="step-badge">Step 7</span>
-                    <h3 class="step-title">UDIN Generation and Final Certificate Issuance</h3>
-                    <p class="step-description">After your approval, the CA generates the 18-digit UDIN on the ICAI portal. The final signed, sealed certificate is delivered digitally (email + WhatsApp) and by courier if requested. The UDIN is verifiable by any institution at udin.icai.org.</p>
-                    <div class="step-highlights">
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 18-digit UDIN stamped</span>
-                        <span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Digital + courier delivery</span>
-                    </div>
-                </div>
-                <div class="step-visual">
-                    <div class="step-illustration">
-                        <div class="illustration-icon">
-                            <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="20" y="8" width="80" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                                <line x1="35" y1="22" x2="85" y2="22" stroke="#F5A623" stroke-width="3" stroke-linecap="round"/>
-                                <line x1="35" y1="34" x2="80" y2="34" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
-                                <line x1="35" y1="44" x2="75" y2="44" stroke="#14365F" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
-                                <circle cx="60" cy="56" r="6" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/>
-                                <path d="M57 56l2 2 4-4" stroke="#10B981" stroke-width="1.5" stroke-linecap="round"/>
-                                <rect x="30" y="72" width="60" height="14" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/>
-                                <text x="60" y="82" font-size="6" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">UDIN: XXXXXXXXXXXXXXXXXXXX</text>
-                                <circle cx="95" cy="15" r="12" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                                <path d="M90 15l3 3 7-7" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <span class="illustration-label">Certificate Issued</span>
-                        <span class="step-number-large">07</span>
-                    </div>
-                </div>
-            </div>
-            <div class="highlight-box" style="margin-top:32px;">
-                <p><strong>Legal Verification Gate:</strong> A CA who issues a false or misleading Net Worth Certificate is liable for professional misconduct under Section 22 of the Chartered Accountants Act, 1949. Using a false certificate to obtain a bank loan or defraud an institution is fraud under Section 420 of the Indian Penal Code, 1860. All certificates must carry a valid UDIN per ICAI mandate effective 1 July 2019.</p>
-            </div>
-
+  <div class="step-content">
+    <span class="step-badge">Step 6</span>
+    <h3 class="step-title">Signed and UDIN generated</h3>
+    <p class="step-description">The certificate is signed by a <a href="/net-worth-certificate-by-ca">practising chartered accountant</a> and carries a <a href="/blog/how-to-verify-a-net-worth-certificate">UDIN</a>. Where the records could not support a figure, that is disclosed on the certificate and not estimated to close the gap.</p>
+  </div>
+  <div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/networth-cluster/net-worth-certificate-sole-proprietorship/step-6-signed-and-udin-generated.webp" alt="The certificate is signed by a practising chartered accountant and carries a UDIN" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div>
+</div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 8: DOCUMENTS REQUIRED -->
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Net Worth Certificate - Sole Proprietorship</h2>
+            <h2 class="section-title">Documents Required for a CA Certificate for a Proprietorship Firm</h2>
             <div class="content-text">
-                
-                <p><strong>Personal Asset Documents</strong></p>
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Document</th><th>Purpose</th></tr></thead>
-                    <tbody>
-                        <tr><td>PAN Card</td><td>Primary KYC and identity confirmation</td></tr>
-                        <tr><td>Aadhaar Card</td><td>Address and identity proof</td></tr>
-                        <tr><td>Bank statements (last 6-12 months)</td><td>Bank balance and FD value confirmation</td></tr>
-                        <tr><td>Property documents (sale deed, registry)</td><td>Immovable asset ownership and valuation basis</td></tr>
-                        <tr><td>Vehicle RC book</td><td>Vehicle ownership and depreciated value</td></tr>
-                        <tr><td>Investment account statements (DEMAT, mutual funds)</td><td>Current market value of equity and fund investments</td></tr>
-                        <tr><td>LIC policy statements or surrender value certificates</td><td>Insurance investment valuation</td></tr>
-                        <tr><td>Gold and jewellery valuation (jeweller certificate)</td><td>Precious metal asset value</td></tr>
-                        <tr><td>Loan/EMI statements for all personal liabilities</td><td>Personal liability quantification</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p style="margin-top:24px;"><strong>Business Asset Documents</strong></p>
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Document</th><th>Purpose</th></tr></thead>
-                    <tbody>
-                        <tr><td>Last 2-3 years ITR with P&L and Balance Sheet (if maintained)</td><td>Capital account balance and business asset base</td></tr>
-                        <tr><td>GST Returns (GSTR-1, GSTR-3B) - if GST registered</td><td>Revenue cross-verification</td></tr>
-                        <tr><td>Trade name registration (Shops Act, Udyam, MSME)</td><td>Proprietorship identity confirmation</td></tr>
-                        <tr><td>Stock/inventory list with valuation date</td><td>Business current asset value</td></tr>
-                        <tr><td>Trade debtors (receivables) list</td><td>Outstanding business receivables</td></tr>
-                        <tr><td>Equipment/machinery purchase invoices or book values</td><td>Business fixed asset value</td></tr>
-                        <tr><td>Bank OD/CC account statements</td><td>Business credit facility utilisation (liability)</td></tr>
-                        <tr><td>Creditor list (trade payables)</td><td>Business liabilities</td></tr>
-                    </tbody>
-                </table>
-                </div>
-
+                <p>Everything below is source material rather than a summary, because each figure in the statement is traced back to the record that governs it. The first list is needed on every engagement; the second applies where you hold those assets.</p>
+                <ul>
+                    <li>PAN of the proprietor, which is also the business's PAN</li>
+                    <li>Income tax returns with the computation of income for the last three years</li>
+                    <li>Bank statements for the business account and for any personal account business runs through</li>
+                    <li><a href="/accounting-services">Books of account</a>, or a backup of the accounting software file</li>
+                    <li>Stock statement as at the certificate date, with the basis it was valued on</li>
+                    <li>Debtors listing with ageing, and the creditors listing, as at the same date</li>
+                    <li>Title documents for business premises, and purchase invoices for plant and equipment</li>
+                    <li>Loan, overdraft and cash credit statements, with the sanction letters</li>
+                </ul>
+                <p><strong>Where they apply:</strong></p>
+                <ul>
+                    <li>GST returns filed for the year, where the business is registered</li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 9: CHALLENGES -->
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Challenges in Getting Net Worth Certificate for Sole Proprietorship</h2>
+            <h2 class="section-title">Common Proprietorship CA Certificate Problems and How We Solve Them</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <thead><tr><th>Challenge</th><th>Why it happens</th><th>How it is handled</th></tr></thead>
                     <tbody>
-                        <tr><td><strong>No maintained books of accounts or formal balance sheet</strong></td><td>Certificate request may be rejected by CA firms that require audited financials</td><td>Our CA uses ITR, GST Returns, bank statements, and asset documents to reconstruct a credible asset-liability statement with a qualification note</td></tr>
-                        <tr><td><strong>Property value appreciation - current market value vs book value discrepancy</strong></td><td>Certificate may understate actual net worth if book values are used</td><td>We coordinate with registered property valuers to obtain current fair market valuation reports</td></tr>
-                        <tr><td><strong>Institution requires specific prescribed format</strong></td><td>Generic certificate may be rejected by banks or franchisors</td><td>We review the prescribed format and issue the certificate in exactly the required template</td></tr>
-                        <tr><td><strong>Urgency - certificate needed same day</strong></td><td>Missing deadlines for visa interviews, loan submissions, or tender bids</td><td>Express issuance available - share documents by 11 AM for same-day UDIN-stamped certificate delivery</td></tr>
-
+                        <tr><td>Business and household money never separated</td><td>One account has carried both for years, and no ledger was ever kept that treats them as different things.</td><td>The account is worked through and split into two readable columns, so either side can be read alone; <a href="/blog/balance-sheet-vs-net-worth-certificate">how a balance sheet differs from this</a> explains why both belong here.</td></tr>
+                        <tr><td>Stock carried at an estimate</td><td>Counting it properly takes a day nobody has, and the figure in mind usually feels close enough to the figure on the shelf.</td><td>A physical count is taken and the <a href="/blog/how-to-calculate-net-worth-for-a-net-worth-certificate">valuation basis</a> recorded in the annexure, since this is the largest asset most proprietors hold.</td></tr>
+                        <tr><td>Old receivables counted at full value</td><td>A debtor who has not paid in two years is still on the ledger, and writing them off feels like giving up on the money.</td><td>Debtors are broken out by age and anything unlikely to be recovered comes out, leaving a figure a lender will actually count.</td></tr>
+                        <tr><td>The books and the filed returns disagree</td><td>Returns get prepared from summaries while the ledger keeps growing, and the two drift apart quietly over several years.</td><td>Filed returns are reconciled to the ledger and any difference is resolved before anything is certified from either.</td></tr>
+                        <tr><td>A cash credit limit treated as a bank balance</td><td>The account shows funds available and behaves like a <a href="/net-worth-certificate-for-partnership-firms">current account</a>, so it reads as an asset rather than as borrowed money.</td><td>Limits are identified from the <a href="/net-worth-certificate-for-bank-loan">sanction letter</a> and shown as liabilities, which is where a lender expects to find them.</td></tr>
                     </tbody>
                 </table>
                 </div>
@@ -1793,818 +978,668 @@
     </div>
 </section>
 
-<!-- SECTION 10: FEES -->
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Fees for Net Worth Certificate for Sole Proprietorship in 2026</h2>
+            <h2 class="section-title">Proprietorship CA Certificate Fees</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <thead><tr><th>Plan</th><th>Fee</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees</td><td class="table-amount">INR 1,499 (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>With Property Valuation Coordination</td><td class="table-amount">INR 3,499 onwards</td></tr>
-                        <tr><td>Dual-Currency Certificate (INR + foreign currency for visa)</td><td class="table-amount">INR 2,999</td></tr>
-                        <tr><td>Institution-Specific / Prescribed Format Certificate</td><td class="table-amount">INR 3,499 onwards</td></tr>
-                        <tr><td>Express / Same-Day Certificate</td><td class="table-amount">INR 4,999 onwards</td></tr>
-                        <tr><td>Certificate with Reconstructed Books (no formal accounts maintained)</td><td class="table-amount">INR 3,999 onwards</td></tr>
-
+                        <tr><td><strong>Standard</strong> &mdash; One proprietor with books maintained, stock and debtors readily countable, and business money broadly separable from household money.</td><td>Starting from INR 1499<br><span style="font-size:12px;color:var(--text-muted);">(Exl GST and Govt. Charges)</span></td></tr>
+                        <tr><td><strong>Extended</strong> &mdash; Years of mixed personal and business banking to untangle, or stock and debtor positions to establish from scratch.</td><td>On quote</td></tr>
+                        <tr><td><strong>Multiple certificates</strong> &mdash; The proprietor certified alongside a co-applicant or a guarantor from the same set of records.</td><td>On quote</td></tr>
                     </tbody>
                 </table>
                 </div>
-                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Net Worth Certificate for Sole Proprietorship consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20Net%20Worth%20Certificate%20for%20Sole%20Proprietorship.%20Please%20call%20me." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <ul style="margin-top:14px;">
+  <li>The fee covers one certificate speaking to one date. A later date is a fresh engagement on updated records, not a re-dating of the first.</li>
+  <li>Goods and services tax and any government charge are additional, as the footnote on the table states.</li>
+  <li>Where records have to be reconstructed before certification can begin, that work is quoted separately and agreed before it starts.</li>
+  <li>City pages carry the same fee as the national service. Certification does not cost more in one city than in another.</li>
+  <li>An On quote row means the scope decides the fee. It is not a higher tier waiting to be sold; some engagements simply cannot be priced before the records are seen.</li>
+</ul>
+                <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees listed are indicative only and do not constitute a binding offer. The final amount depends on the scope of records to be examined.</p>
+                <p style="margin-top:16px;"><strong>Get a free consultation &mdash; <a href="tel:+919459456700">Call +91 94594 56700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20ca%20certificate%20for%20proprietorship%20firm" target="_blank" rel="noopener">WhatsApp us</a>.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Time Taken for Net Worth Certificate - Sole Proprietorship</h2>
-            <div class="content-text">
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
-                    <tbody>
-                        <tr><td>Document review and checklist confirmation</td><td>2-4 hours (same day)</td></tr>
-                        <tr><td>Asset-liability statement preparation</td><td>1 working day</td></tr>
-                        <tr><td>Property valuation coordination (if needed)</td><td>1-3 additional working days</td></tr>
-                        <tr><td>Proprietor draft review and approval</td><td>Same day (proprietor-dependent)</td></tr>
-                        <tr><td>UDIN generation and final certificate issuance</td><td>2-4 hours after approval</td></tr>
-                        <tr><td><strong>Total (standard - no property valuation)</strong></td><td><strong>1-3 working days</strong></td></tr>
-                        <tr><td><strong>Total (with property valuation)</strong></td><td><strong>3-5 working days</strong></td></tr>
-                        <tr><td><strong>Total (express - no property valuation)</strong></td><td><strong>Same day if documents by 11 AM</strong></td></tr>
-                        <tr><td>Physical courier delivery (pan-India)</td><td>2-5 additional days post dispatch</td></tr>
-
-                    </tbody>
-                </table>
-                </div>
-                <div class="highlight-box" style="margin-top:16px;">
-                    
-                    <p><strong>Express Service:</strong> Need the certificate urgently? Share all documents by 11 AM and receive the UDIN-stamped certificate the same day via email and WhatsApp. Physical courier dispatched within 24 hours.</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SECTION 12: BENEFITS -->
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
-            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Get Your Net Worth Certificate from Patron Accounting?</h2>
+            <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Why It Matters</div>
+            <h2 class="section-title">Why a CA Certificate for a Proprietorship Firm Matters</h2>
         </div>
-        <div class="features-grid">
-            <article class="feature-card">
-                <div class="feature-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                </div>
-                <h3>Sole Proprietorship Expertise</h3>
-                <p>Our CAs understand the personal + business asset merger requirement and correctly structure the certificate for any institution.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg>
-                </div>
-                <h3>UDIN Compliance</h3>
-                <p>Each certificate has a verifiable 18-digit UDIN - no rejection risk due to missing UDIN from banks, embassies, or government departments.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                </div>
-                <h3>Property Valuation Network</h3>
-                <p>We coordinate with registered valuers for fair market valuation of immovable assets when needed for accurate net worth computation.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-                </div>
-                <h3>No-Books Support</h3>
-                <p>If formal accounts are not maintained, our CA uses ITR, bank statements, and available records to certify with appropriate disclosures.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6z"/></svg>
-                </div>
-                <h3>Format Flexibility</h3>
-                <p>Prescribed formats from banks, franchisors, and embassies accepted and matched exactly. Bring the institution's format at the time of engagement.</p>
-            </article>
-            <article class="feature-card">
-                <div class="feature-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                </div>
-                <h3>Pan-India Delivery</h3>
-                <p>Offices in Pune, Mumbai, Delhi (Gurugram), and Hyderabad. Digital and courier delivery across all cities in India.</p>
-            </article>
+        <div class="features-grid is-4">
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+  <h3 class="feature-title">Mixed Accounts Cannot Be Read</h3>
+  <p class="feature-text">A single account carrying both household and business movement gives a reader no way to separate the two. Without that separation in the annexure, the statement cannot be relied on for either purpose.</p>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+  <h3 class="feature-title">Unvalued Stock Leaves a Hole</h3>
+  <p class="feature-text">Stock is often a proprietor's largest asset and the one most likely to be recorded as a guess. A figure without a count and a valuation basis behind it is the entry a reader challenges first.</p>
+</article>
+<article class="feature-card">
+  <div class="feature-icon feature-icon--blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg></div>
+  <h3 class="feature-title">Undeclared Income Cannot Be Certified</h3>
+  <p class="feature-text">A chartered accountant certifies from records. Where the books show income that filed returns do not, the two cannot both be presented, and the shortfall has to be resolved before anything is signed.</p>
+</article>
+<article class="feature-card">
+  <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div>
+  <h3 class="feature-title">Receivables With No Ageing Are Discounted</h3>
+  <p class="feature-text">A lump sum described as debtors, with nothing showing how old each amount is, will be written down or ignored. A three-year-old balance counted at face value is the entry that costs you most when it is caught.</p>
+</article>
         </div>
     </div>
 </section>
 
-<!-- SECTION 12A: SOCIAL PROOF -->
-<section class="content-section">
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">What Our Clients Say About Net Worth Certificate Services</h2>
+            <h2 class="section-title">Why Clients Choose Patron for Proprietorship CA Certificates</h2>
+            <p class="section-intro">Five things you can check before you commission the certificate. Each is a claim with the proof behind it.</p>
+            <div class="why-patron-grid">
+                <div><strong>Business and household pulled apart</strong><p>One account has usually carried both for years. Splitting them into two readable columns is the work, and it is what a lender needs that a generic template never provides.</p></div>
+                <div><strong>One assessee under the Income-tax Act</strong><p>A proprietorship is assessed in the proprietor's own hands under the Income-tax Act 1961, so a single computation covers both and the certificate states that plainly.</p></div>
+                <div><strong>Returns, ledger and UDIN aligned</strong><p>The ledger is agreed to the returns already filed, and the UDIN is checkable on the <a href="/blog/how-to-verify-a-net-worth-certificate">ICAI portal</a>, so a reader comparing the two documents finds one position rather than two.</p></div>
+                <div><strong>Stock and debtors evidenced</strong><p>Stock is counted on a stated basis and debtors are aged, so the two entries an outside reader questions first arrive supported rather than asserted.</p></div>
+                <div><strong>Proprietors are most of the market</strong><p>A CA and CS team with 25,000+ filings completed, much of it for proprietors whose records were never designed to answer a lender's question.</p></div>
+            </div>
+            <p class="why-patron-note">Figures reflect Patron Accounting LLP engagements since 2019. Scope is confirmed in your engagement letter.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Tool section follows the accounting cluster's house pattern, verified against the LIVE
+     accounting-services-for-startups / -manufacturing / accounts-receivable-outsourcing pages
+     in Patron Local: inlined and namespaced rather than an iframe; blue-lighter background;
+     all styles scoped under #tool-section; an explicit Calculate button revealing a result
+     panel; an action row after the result; a dataset init guard; and the
+     "Open the full calculator" link last. -->
+<section class="content-section" id="tool-section" style="background-color:var(--blue-lighter);">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Total Your Personal and Business Position</h2>
             <div class="content-text">
-                
-                <p><strong>Patron Accounting LLP</strong> | 4.8/5 Rating | 500+ Google Reviews | 5,000+ Businesses Served | Offices: Pune | Mumbai | Delhi (Gurugram) | Hyderabad</p>
-                <div class="highlight-box" style="margin-top:16px;">
-                    <p>"Needed a net worth certificate for a petrol pump franchise. My shop and home are both in my name. The Patron CA included everything - business capital, property value, investments - and issued a certificate the bank and the franchisor both accepted without question." - <strong>Sole Proprietor, Pune</strong></p>
-                </div>
-                <div class="highlight-box" style="margin-top:12px;">
-                    <p>"I don't maintain formal accounts - just run my trading business via bank transactions. Patron's CA used my ITR and bank statements to prepare the net worth statement and issued the certificate with a proper basis disclosure. No rejection anywhere." - <strong>Trader, Mumbai</strong></p>
-                </div>
-                <div class="highlight-box" style="margin-top:12px;">
-                    <p>"Required a dual-currency net worth certificate for my Canada business visa. Got it the same day. Clear bifurcation of assets, INR + CAD amounts, and UDIN. Visa approved." - <strong>Proprietor, Hyderabad</strong></p>
+                <p>Enter business and household holdings in separate columns. The calculator totals them into the single position the law requires for a proprietor while keeping the two sides readable, which is what a lender wants to see and what a combined figure hides.</p>
+
+                <style>
+                /* Inlined and themed to this page's tokens (nwt- namespace) */
+                #tool-section .nwt-wrap{--nwt-navy:var(--blue,#1B365D);--nwt-orange:var(--orange,#E8712C);--nwt-surface:var(--blue-lighter,#F4F7FB);--nwt-border:var(--gray-200,#E5E7EB);--nwt-muted:var(--text-muted,#6B7280);--nwt-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin-top:22px;}
+                #tool-section .nwt-card{background:#fff;border:1px solid var(--nwt-border);border-radius:16px;box-shadow:0 10px 30px rgba(27,54,93,.08);padding:28px;}
+                #tool-section .nwt-title{font-size:20px;font-weight:700;color:var(--nwt-navy);margin:0 0 20px;line-height:1.3;}
+                #tool-section .nwt-label{display:block;font-size:12px;font-weight:700;color:var(--nwt-muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:7px;}
+                #tool-section .nwt-field{margin-bottom:18px;}
+                #tool-section .nwt-toggle{display:flex;gap:4px;background:var(--nwt-surface);border-radius:10px;padding:4px;max-width:420px;}
+                #tool-section .nwt-tbtn{flex:1;padding:10px 8px;border:0;border-radius:7px;font:inherit;font-size:14px;font-weight:700;color:var(--nwt-muted);background:transparent;cursor:pointer;transition:all .2s;}
+                #tool-section .nwt-tbtn.active{background:#fff;color:var(--nwt-navy);box-shadow:0 1px 3px rgba(0,0,0,.1);}
+                #tool-section .nwt-cols{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+                #tool-section .nwt-col h4{font-size:14px;font-weight:700;color:var(--nwt-navy);margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid var(--nwt-surface);}
+                #tool-section .nwt-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:5px 0;font-size:14px;}
+                #tool-section .nwt-row label{flex:1;margin:0;}
+                #tool-section .nwt-input{width:150px;padding:9px 12px;border:2px solid var(--nwt-border);border-radius:9px;font:inherit;font-size:15px;font-weight:700;font-family:var(--nwt-mono);color:var(--nwt-navy);background:var(--nwt-surface);text-align:right;outline:none;transition:border-color .2s;}
+                #tool-section .nwt-input:focus{border-color:var(--nwt-navy);}
+                #tool-section .nwt-calc{width:100%;margin-top:22px;padding:15px;border:0;border-radius:10px;background:var(--nwt-navy);color:#fff;font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background .2s;}
+                #tool-section .nwt-calc:hover{background:var(--nwt-orange);}
+                #tool-section .nwt-result{display:none;margin-top:24px;padding-top:22px;border-top:1px solid var(--nwt-border);}
+                #tool-section .nwt-result.show{display:block;}
+                #tool-section .nwt-rgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+                #tool-section .nwt-rcard{background:var(--nwt-surface);border-radius:12px;padding:16px 18px;}
+                #tool-section .nwt-rcard.full{grid-column:1/-1;background:var(--nwt-navy);}
+                #tool-section .nwt-rcard.full .nwt-rlabel{color:rgba(255,255,255,.72);}
+                #tool-section .nwt-rcard.full .nwt-rval{color:#fff;font-size:26px;}
+                #tool-section .nwt-rlabel{font-size:12px;font-weight:700;color:var(--nwt-muted);text-transform:uppercase;letter-spacing:.5px;}
+                #tool-section .nwt-rval{font-size:20px;font-weight:700;color:var(--nwt-navy);font-family:var(--nwt-mono);margin-top:6px;}
+                #tool-section .nwt-break{margin-top:18px;}
+                #tool-section .nwt-brow{display:flex;justify-content:space-between;gap:16px;padding:8px 0;border-bottom:1px dashed var(--nwt-border);font-size:14px;}
+                #tool-section .nwt-blabel{color:var(--nwt-muted);}
+                #tool-section .nwt-bval{font-family:var(--nwt-mono);font-weight:700;color:var(--nwt-navy);}
+                #tool-section .nwt-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;}
+                #tool-section .nwt-abtn{display:inline-flex;align-items:center;gap:7px;padding:10px 16px;border-radius:8px;background:var(--nwt-surface);color:var(--nwt-navy);font-size:13.5px;font-weight:700;text-decoration:none;line-height:1;}
+                #tool-section .nwt-abtn:hover{background:var(--nwt-navy);color:#fff;}
+                #tool-section .nwt-abtn svg{width:15px;height:15px;flex-shrink:0;}
+                #tool-section .nwt-reset{margin-top:16px;padding:9px 18px;border:1px solid var(--nwt-border);background:#fff;border-radius:50px;font:inherit;font-size:13.5px;font-weight:600;color:var(--nwt-muted);cursor:pointer;}
+                #tool-section .nwt-note{font-size:13px;color:var(--nwt-muted);margin-top:16px;}
+                @media(max-width:760px){#tool-section .nwt-cols{grid-template-columns:1fr;gap:22px;}
+                  #tool-section .nwt-rgrid{grid-template-columns:1fr;}
+                  #tool-section .nwt-card{padding:20px;}
+                  #tool-section .nwt-input{width:120px;}}
+
+                #tool-section .nwt-cols--3{grid-template-columns:repeat(3,minmax(0,1fr));}
+                #tool-section .nwt-cols--4{grid-template-columns:repeat(2,minmax(0,1fr));}
+                #tool-section .nwt-compare{margin-top:18px;padding-top:16px;border-top:1px dashed var(--nwt-border);}
+                #tool-section .nwt-splitwrap{overflow-x:auto;margin-top:20px;}
+                /* table-layout:fixed with the inputs at width:100%. Left to auto layout the
+                   inputs kept their own 130px while the cells stretched to a quarter of a
+                   1320px column each, so every row was a small box against 300px of blank
+                   cell - which is what the partner table shipped as. */
+                #tool-section .nwt-split{width:100%;table-layout:fixed;border-collapse:collapse;font-size:14px;}
+                #tool-section .nwt-split th{text-align:left;font-size:12px;font-weight:700;color:var(--nwt-muted);text-transform:uppercase;letter-spacing:.4px;padding:8px 10px 10px 0;border-bottom:2px solid var(--nwt-surface);}
+                #tool-section .nwt-split thead th{background:var(--nwt-navy);color:#fff;padding:12px 14px;}
+                #tool-section .nwt-split thead th:first-child{border-radius:8px 0 0 0;}
+                #tool-section .nwt-split thead th:last-child{border-radius:0 8px 0 0;}
+                #tool-section .nwt-split col.nwt-c1{width:22%;}
+                #tool-section .nwt-split tbody th{font-size:14px;text-transform:none;letter-spacing:0;color:var(--nwt-navy);border-bottom:1px solid var(--nwt-border);padding:8px 14px 8px 4px;}
+                #tool-section .nwt-split td{padding:8px 14px 8px 0;border-bottom:1px solid var(--nwt-border);}
+                #tool-section .nwt-split td:last-child{padding-right:4px;}
+                #tool-section .nwt-split .nwt-input{width:100%;}
+                #tool-section .nwt-split tbody tr:nth-child(even){background:var(--nwt-surface);}
+                @media(max-width:900px){#tool-section .nwt-cols--3{grid-template-columns:1fr 1fr;}}
+                @media(max-width:760px){#tool-section .nwt-cols--3,#tool-section .nwt-cols--4{grid-template-columns:1fr;}
+                  #tool-section .nwt-split{table-layout:auto;min-width:520px;}
+                  #tool-section .nwt-split col.nwt-c1{width:auto;}}
+                </style>
+
+                <div class="nwt-wrap">
+                    <div class="nwt-card">
+                        <h3 class="nwt-title">Free tool: Proprietor Net Worth Calculator</h3>
+
+                        <div class="nwt-field">
+                            <span class="nwt-label">Amounts entered in</span>
+                            <div class="nwt-toggle" id="nwtUnit" role="group" aria-label="Unit">
+                                <button type="button" class="nwt-tbtn active" data-unit="rupees">&#8377; Rupees</button>
+                                <button type="button" class="nwt-tbtn" data-unit="lakh">&#8377; Lakh</button>
+                                <button type="button" class="nwt-tbtn" data-unit="crore">&#8377; Crore</button>
+                            </div>
+                        </div>
+
+                        <div class="nwt-cols nwt-cols--4">
+                            <div class="nwt-col">
+                                <h4>Business assets</h4>
+                                <div class="nwt-row"><label for="nwt-g0-0">Business bank balances</label><input class="nwt-input" type="text" id="nwt-g0-0" data-nwt="g0" data-name="Business bank balances" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g0-1">Stock in trade</label><input class="nwt-input" type="text" id="nwt-g0-1" data-nwt="g0" data-name="Stock in trade" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g0-2">Trade receivables</label><input class="nwt-input" type="text" id="nwt-g0-2" data-nwt="g0" data-name="Trade receivables" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g0-3">Plant, machinery and equipment</label><input class="nwt-input" type="text" id="nwt-g0-3" data-nwt="g0" data-name="Plant, machinery and equipment" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g0-4">Business premises</label><input class="nwt-input" type="text" id="nwt-g0-4" data-nwt="g0" data-name="Business premises" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                            </div>
+                            <div class="nwt-col">
+                                <h4>Business liabilities</h4>
+                                <div class="nwt-row"><label for="nwt-g1-0">Working capital / cash credit drawn</label><input class="nwt-input" type="text" id="nwt-g1-0" data-nwt="g1" data-name="Working capital / cash credit drawn" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g1-1">Trade payables</label><input class="nwt-input" type="text" id="nwt-g1-1" data-nwt="g1" data-name="Trade payables" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g1-2">Business term loans outstanding</label><input class="nwt-input" type="text" id="nwt-g1-2" data-nwt="g1" data-name="Business term loans outstanding" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                            </div>
+                            <div class="nwt-col">
+                                <h4>Household assets</h4>
+                                <div class="nwt-row"><label for="nwt-g2-0">Personal bank balances</label><input class="nwt-input" type="text" id="nwt-g2-0" data-nwt="g2" data-name="Personal bank balances" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g2-1">Fixed and term deposits</label><input class="nwt-input" type="text" id="nwt-g2-1" data-nwt="g2" data-name="Fixed and term deposits" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g2-2">Immovable property held personally</label><input class="nwt-input" type="text" id="nwt-g2-2" data-nwt="g2" data-name="Immovable property held personally" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g2-3">Listed shares and mutual funds</label><input class="nwt-input" type="text" id="nwt-g2-3" data-nwt="g2" data-name="Listed shares and mutual funds" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g2-4">Jewellery and other valuables</label><input class="nwt-input" type="text" id="nwt-g2-4" data-nwt="g2" data-name="Jewellery and other valuables" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                            </div>
+                            <div class="nwt-col">
+                                <h4>Household liabilities</h4>
+                                <div class="nwt-row"><label for="nwt-g3-0">Housing loan outstanding</label><input class="nwt-input" type="text" id="nwt-g3-0" data-nwt="g3" data-name="Housing loan outstanding" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g3-1">Vehicle loan outstanding</label><input class="nwt-input" type="text" id="nwt-g3-1" data-nwt="g3" data-name="Vehicle loan outstanding" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                                <div class="nwt-row"><label for="nwt-g3-2">Personal loans and card balances</label><input class="nwt-input" type="text" id="nwt-g3-2" data-nwt="g3" data-name="Personal loans and card balances" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="nwt-calc" id="nwtCalc">Calculate</button>
+
+                        <div class="nwt-result" id="nwtResult">
+                            <div class="nwt-rgrid">
+                                <div class="nwt-rcard"><div class="nwt-rlabel">Business side, net</div><div class="nwt-rval" id="nwtA">&mdash;</div></div>
+                                <div class="nwt-rcard"><div class="nwt-rlabel">Household side, net</div><div class="nwt-rval" id="nwtB">&mdash;</div></div>
+                                
+                                <div class="nwt-rcard full"><div class="nwt-rlabel">Combined proprietor position</div><div class="nwt-rval" id="nwtNet">&mdash;</div></div>
+                                
+                            </div>
+                            <div class="nwt-break" id="nwtBreak"></div>
+                            <div class="nwt-actions">
+                                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20ca%20certificate%20for%20proprietorship%20firm" target="_blank" rel="noopener" class="nwt-abtn"><svg viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> Ask a CA</a>
+                                <a href="/tools/net-worth-calculator" class="nwt-abtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 21h18M6 21V8h5v13M13 21V3h5v18"/></svg> Net Worth Calculator</a>
+                            </div>
+                            <button type="button" class="nwt-reset" id="nwtReset">&#8635; Reset Calculator</button>
+                        </div>
+
+                        <p class="nwt-note">Both sides are kept readable because the proprietor and the firm are one person in law but not one file to a lender. An estimate carrying no UDIN.</p>
+                    </div>
                 </div>
 
+                <script>
+
+                (function(){
+                    var root = document.getElementById('tool-section');
+                    if(!root || root.dataset.nwtInit) return;
+                    root.dataset.nwtInit = '1';
+                    var unit = 'rupees';
+                    function mult(){ return unit === 'crore' ? 1e7 : unit === 'lakh' ? 1e5 : 1; }
+                    function parseINR(raw){ if(raw==null) return NaN; var c=String(raw).replace(/[,\s\u20B9]/g,''); if(c==='') return NaN; var n=parseFloat(c); return isFinite(n)?n:NaN; }
+                    function money(n){ var s='\u20B9'+Math.round(Math.abs(n)).toLocaleString('en-IN'); return n<0 ? '-'+s : s; }
+                    function row(l,v){ return '<div class="nwt-brow"><span class="nwt-blabel">'+l+'</span><span class="nwt-bval">'+v+'</span></div>'; }
+                    function $(id){ return document.getElementById(id); }
+                    function show(){ var rs=$('nwtResult'); rs.classList.add('show'); rs.scrollIntoView({behavior:'smooth', block:'nearest'}); }
+
+                    var unitBar = root.querySelector('#nwtUnit');
+                    if(unitBar){
+                        unitBar.querySelectorAll('.nwt-tbtn').forEach(function(b){
+                            b.addEventListener('click', function(){
+                                unit = b.dataset.unit;
+                                unitBar.querySelectorAll('.nwt-tbtn').forEach(function(x){ x.classList.remove('active'); });
+                                b.classList.add('active');
+                            });
+                        });
+                    }
+
+                    var SIGNS = [1,-1,1,-1], DED10 = [0,0,0,0], NOF10 = false;
+                    function calculate(){
+                        var m = mult(), plus = 0, minus = 0, memo = 0, rows = '';
+                        var gt = [];
+                        SIGNS.forEach(function(s, gi){
+                            var sub = 0, block = '';
+                            root.querySelectorAll('[data-nwt="g'+gi+'"]').forEach(function(i){
+                                var v = parseINR(i.value);
+                                if(!isFinite(v) || v <= 0) return;
+                                sub += v*m;
+                                block += row(i.dataset.name, (s < 0 ? '-' : '') + money(v*m));
+                            });
+                            gt[gi] = sub;
+                            if(s > 0){ plus += sub; } else if(s < 0){ minus += sub; } else { memo += sub; }
+                            rows += block;
+                        });
+                        var subtotal = plus - minus;
+                        var ded = 0;
+                        if(NOF10){
+                            var exposure = 0;
+                            DED10.forEach(function(f, gi){ if(f) exposure += gt[gi]; });
+                            var cap = subtotal * 0.10;
+                            ded = Math.max(0, exposure - cap);
+                            rows += row('<a href="/net-owned-fund-certificate-for-nbfc">Owned funds</a>', money(subtotal));
+                            rows += row('Exposure to group and subsidiary companies', money(exposure));
+                            rows += row('Ten per cent of owned funds', money(cap));
+                            rows += row('Deducted: exposure above ten per cent', '-' + money(ded));
+                        }
+                        var net = subtotal - ded;
+                        $('nwtA').textContent = money(gt[0]-gt[1]);
+                        $('nwtB').textContent = money(gt[2]-gt[3]);
+                        if($('nwtSub')) $('nwtSub').textContent = money(subtotal);
+                        if($('nwtMemo')) $('nwtMemo').textContent = money(memo);
+                        $('nwtNet').textContent = money(net);
+                        if($('nwtCmp')){
+                            var target = parseINR($('nwt-cmp').value) * m;
+                            if(isFinite(target) && target !== 0){
+                                var diff = net - target;
+                                $('nwtCmpLabel').textContent = diff >= 0 ? '' : '';
+                                $('nwtCmp').textContent = money(Math.abs(diff));
+                                rows += row('', money(target));
+                            } else {
+                                $('nwtCmpLabel').textContent = 'Enter the figure to compare against';
+                                $('nwtCmp').textContent = '\u2014';
+                            }
+                        }
+                        $('nwtBreak').innerHTML = rows
+                            ? rows + row('<strong>Combined proprietor position</strong>', '<strong>' + money(net) + '</strong>')
+                            : '';
+                        show();
+                    }
+
+                    $('nwtCalc').addEventListener('click', calculate);
+                    root.querySelector('.nwt-card').addEventListener('keydown', function(e){
+                        if(e.key === 'Enter' && e.target.tagName === 'INPUT'){ e.preventDefault(); calculate(); }
+                    });
+                    $('nwtReset').addEventListener('click', function(){
+                        root.querySelectorAll('.nwt-input').forEach(function(i){ i.value = ''; });
+                        $('nwtResult').classList.remove('show');
+                    });
+                })();
+                </script>
+
+                <p style="margin-top:16px;font-size:14px;"><a href="/tools/company-net-worth-calculator" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">Open the full calculator &#8599;</a></p>
+                <p style="margin-top:10px;font-size:14px;">Go deeper: </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">DIY Statement vs CA-Certified Net Worth Certificate</h2>
+            <h2 class="section-title">The Legal and Professional Framework Behind Proprietorship CA Certificates</h2>
             <div class="content-text">
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Self-Prepared Statement</th><th>CA-Certified (Patron Accounting)</th></tr></thead>
-                    <tbody>
-                        <tr><td><strong>Accepted by Banks for Loans</strong></td><td>No - banks require CA-certified certificate with UDIN</td><td>Yes - UDIN verifiable; mandatory for credit decisions</td></tr>
-                        <tr><td><strong>Accepted by Embassies for Visa</strong></td><td>No - embassies require CA attestation</td><td>Yes - UDIN-verified CA certificate universally accepted</td></tr>
-                        <tr><td><strong>Franchise Application Acceptance</strong></td><td>No - franchisors require CA certification</td><td>Yes - CA-certified mandatory for most franchise agreements</td></tr>
-                        <tr><td><strong>UDIN Compliance</strong></td><td>No - only practicing CAs can generate UDIN</td><td>Yes - 18-digit UDIN generated; verifiable at udin.icai.org</td></tr>
-                        <tr><td><strong>Personal + Business Asset Merger</strong></td><td>Risk of incorrect computation</td><td>Yes - CA correctly combines all assets per proprietorship rules</td></tr>
-                        <tr><td><strong>Property Fair Market Valuation</strong></td><td>Not possible without registered valuer</td><td>Yes - coordinated via registered valuers when needed</td></tr>
-                        <tr><td><strong>No Formal Books - Still Possible?</strong></td><td>No professional basis of certification</td><td>Yes - CA certifies from ITR/bank statements with disclosure</td></tr>
-                        <tr><td><strong>Cost</strong></td><td>Free but worthless for institutional use</td><td>INR 1,499 onwards - far less than cost of visa/loan rejection</td></tr>
-
-                    </tbody>
-                </table>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SECTION 14: RELATED SERVICES -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Related Services from Patron Accounting</h2>
-            <div class="content-text">
-                
-                <ul>
-                    <li><a href="/net-worth-certificate">Net Worth Certificate in India</a> - general hub page for all entity types</li>
-                    <li><a href="/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a> - specifically for embassy and immigration requirements</li>
-                    <li><a href="/net-worth-certificate-for-partnership-firms">Net Worth Certificate for Partnership Firms</a> - for partner-level net worth certification</li>
-                    <li><a href="/proprietorship-registration">Proprietorship Registration in India</a> - register your sole proprietorship (Shop Act, MSME/Udyam)</li>
-                    <li><a href="/turnover-certificate">Turnover Certificate in India</a> - CA-certified annual revenue proof for loans and tenders</li>
+                <p>In law a proprietorship and its proprietor are one person. There is no separate entity to certify, no separate PAN and no separate return, which is why a single computation covers the business and the household together and says so on its face.</p>
+                <p>What governs the engagement is therefore the record-keeping the proprietor was required to maintain, and the returns already filed. The certificate has to sit consistently with both, because a reader who obtains either will compare them.</p>
+                <ul class="al-list">
+                    <li><span class="al-t"><strong>Section 44AA, Income-tax Act 1961 read with Rule 6F, Income-tax Rules 1962</strong></span><span class="al-d">prescribes which books a proprietor must maintain and, for specified professions, exactly which registers. Where they exist the certificate is drawn from them rather than from a reconstruction.</span></li>
+                    <li><span class="al-t"><strong>Section 139, Income-tax Act 1961</strong></span><span class="al-d">requires the proprietor to file one return covering business and personal income together, which is the document the certified position is reconciled to.</span></li>
+                    <li><span class="al-t"><strong>Section 44AB, Income-tax Act 1961</strong></span><span class="al-d">brings a <a href="/tax-audit">tax audit</a> into play above the prescribed threshold, which changes which set of accounts the figure may properly be taken from.</span></li>
+                    <li><span class="al-t"><strong>Section 39, Central Goods and Services Tax Act 2017</strong></span><span class="al-d">requires periodic returns where the business is registered, and the turnover declared there is a reasonableness check on the trading result the books produce.</span></li>
+                    <li><span class="al-t"><strong>ICAI Guidance Note on Reports or Certificates for Special Purposes (Revised 2016)</strong></span><span class="al-d">governs a certificate of this kind, including the limitation that has to be stated where records could not support a figure and none was estimated in its place.</span></li>
+                    <li><span class="al-t"><strong>ICAI Council direction on UDIN, mandatory from 1 February 2019</strong></span><span class="al-d">requires the UDIN on the signed certificate, which matters more here than anywhere because much of what is certified rests on records nobody outside the business has seen.</span></li>
                 </ul>
-                <p>A self-prepared or non-CA-certified net worth statement is NOT accepted by banks, embassies, franchisors, or government departments as a substitute for a CA-certified certificate with UDIN.</p>
-
+                <p style="margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-200);font-size:13px;color:var(--text-muted);"><strong>Official sources:</strong> <a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a> &middot; <a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal</a> &middot; <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs</a> &middot; <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a></p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Legal and Regulatory Framework for Net Worth Certificate</h2>
-            <div class="content-text">
-                
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Regulation / Authority</th><th>Relevance</th></tr></thead>
-                    <tbody>
-                        <tr><td><strong>Chartered Accountants Act, 1949 - Section 22</strong></td><td>Defines professional misconduct. A CA who issues a false or misleading certificate is liable for disciplinary action by ICAI, including suspension or deregistration of Certificate of Practice.</td></tr>
-                        <tr><td><strong>ICAI UDIN Mandate (1 July 2019)</strong></td><td>All practicing CAs must generate an 18-digit UDIN for every certificate. Only CAs with full-time Certificate of Practice can generate UDIN. Verifiable at <a href="https://udin.icai.org" target="_blank" rel="noopener">udin.icai.org</a>. Certificates without UDIN are invalid.</td></tr>
-                        <tr><td><strong>Indian Penal Code, 1860 - Section 420</strong></td><td>Using a false net worth certificate to obtain a bank loan, franchise rights, or visa constitutes cheating/fraud. A cognizable criminal offence with imprisonment.</td></tr>
-                        <tr><td><strong>ICAI Standards - SA 500 and SA 505</strong></td><td>Audit evidence and external confirmation standards that guide CAs in verifying assets and liabilities before certifying net worth. CA must exercise professional scepticism (SA 200).</td></tr>
-                        <tr><td><strong>Reserve Bank of India (RBI) Guidelines</strong></td><td>Banks follow RBI norms for credit assessment. CA-certified net worth certificates are required under standard credit appraisal procedures. RBI does not permit acceptance of uncertified financial statements for credit decisions.</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p style="margin-top:16px;"><strong>External Authority Link:</strong> <a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal - udin.icai.org (Verify any CA certificate online)</a></p>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color:#ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Net Worth Certificate for Sole Proprietorship</h2>
-                    <p class="faq-expanded__lead">Get answers to the most common questions about obtaining a CA-certified Net Worth Certificate for your sole proprietorship business.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Net Worth Certificate for Sole Proprietorship'])
+                    <h2 class="faq-expanded__title">Proprietorship CA Certificate FAQs</h2>
+                    <p class="faq-expanded__lead">Common questions on what goes into the statement, how each figure is evidenced, and what the certificate does and does not say.</p>
+                    <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <div class="faq-enquiry">
+  <h3 class="faq-enquiry__title">Ask about your certificate</h3>
+  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
+  <a class="faq-enquiry__btn" href="#consultationFormCard">Get a Callback</a>
+</div>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is a Net Worth Certificate for Sole Proprietorship?</h3>
-                        <div class="faq-expanded__a"><p>A Net Worth Certificate for Sole Proprietorship is a CA-certified document that states the total financial worth of a sole proprietor by combining personal and business assets and subtracting all liabilities. Since a sole proprietorship has no separate legal identity under Indian law, the proprietor's personal and business finances are treated as one for this certificate. It is issued by an ICAI-registered CA with a mandatory 18-digit UDIN.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">How is net worth calculated for a sole proprietorship?</h3>
-                        <div class="faq-expanded__a"><p>Net Worth = Total Assets minus Total Liabilities. For a sole proprietor, total assets include personal assets (bank balances, property, investments, gold, vehicles) plus business assets (Capital Account balance, stock, debtors, business equipment). Liabilities include personal loans, home loans, credit card dues, and business creditors and bank overdrafts. The CA verifies each item against supporting documents before certifying the final figure.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">Who can issue a Net Worth Certificate for Sole Proprietorship in India?</h3>
-                        <div class="faq-expanded__a"><p>Only a practicing Chartered Accountant registered with ICAI and holding a full-time Certificate of Practice (CoP) can issue this certificate. The certificate must be on the CA firm's letterhead with the CA's signature, seal, FRN, membership number, and a mandatory 18-digit UDIN generated at udin.icai.org. No other professional (CS, CMA, or lawyer) can issue a valid net worth certificate.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What documents are required for a Net Worth Certificate for Sole Proprietorship?</h3>
-                        <div class="faq-expanded__a"><p>Personal documents: PAN, Aadhaar, bank statements (6-12 months), property registration documents, vehicle RC, investment account statements, LIC policy values, gold valuation, and loan/liability statements. Business documents: ITR with profit/loss and balance sheet (if available), GST returns, Capital Account balance, stock list, trade debtors list, and business loan/overdraft statements.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">Is a net worth certificate different for a sole proprietorship versus a company?</h3>
-                        <div class="faq-expanded__a"><p>Yes. A company's net worth is derived from its balance sheet - specifically shareholders' funds (share capital plus reserves). Since a company is a separate legal entity, only the company's financial position is captured. A sole proprietorship has no separate legal identity, so the proprietor's personal and business assets and liabilities are both included in one combined statement.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">Can I get a net worth certificate if I do not maintain formal accounts?</h3>
-                        <div class="faq-expanded__a"><p>Yes. Many sole proprietors - especially small traders, shopkeepers, and service providers - do not maintain formal books of accounts. In such cases, the CA uses available documents: Income Tax Returns, bank statements, property documents, investment statements, and a self-declared asset list. The CA issues the certificate with a disclosure note explaining the basis of certification.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">What is the fee for a Net Worth Certificate for Sole Proprietorship?</h3>
-                        <div class="faq-expanded__a"><p>ICAI does not fix fees for CA certificates. Market rates range from INR 1,500 to INR 10,000 depending on complexity, inclusion of property valuation, format requirements, and CA location. Patron Accounting charges starting at INR 1,499 (Exl GST and Govt. Charges) for a standard certificate covering personal and business assets, with UDIN and digital delivery included.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-8">
-                        <h3 class="faq-expanded__q">Kya sole proprietor ko net worth certificate ek hi CA se milega ya alag alag documents ke liye alag CA chahiye?</h3>
-                        <div class="faq-expanded__a"><p>No. A single CA can issue the complete net worth certificate for a sole proprietor covering all personal and business assets. You do not need separate CAs for personal and business components. Patron Accounting provides a single, comprehensive certificate covering all assets and liabilities. If immovable property valuation is needed, we coordinate with a registered property valuer alongside the CA certification.</p></div>
-                    </div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What proof of business existence does a proprietor have to produce?</h3>
+  <div class="faq-expanded__a"><p>Whatever registration the business actually holds. A <a href="/gst-registration">GST registration</a> certificate, <a href="/udyam-registration">Udyam registration</a>, shop and establishment licence, or a bank's current account opened in the trade name all establish that the concern exists. A proprietorship has no incorporation certificate, so the CA builds the identity from these documents plus the proprietor's PAN.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can a proprietor without GST registration get a certificate?</h3>
+  <div class="faq-expanded__a"><p>Yes. GST registration is required only above the turnover thresholds or in specified cases, so a small concern below them is entirely legitimate. The CA then relies on the books, bank statements and the <a href="/income-tax-return">income tax return</a>. Recipients rarely insist on GST unless the certificate supports a tender that itself demands registration.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does a proprietor need a separate current account for the business?</h3>
+  <div class="faq-expanded__a"><p>It is not a legal precondition, but its absence complicates the work. Where personal and business receipts run through one savings account, the CA has to separate them transaction by transaction before the business assets can be stated. Banks also expect a current account for a business, so most proprietors have one.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Which income tax return supports a proprietor's certificate?</h3>
+  <div class="faq-expanded__a"><p>ITR-3 where the proprietor maintains regular books, and ITR-4 where income is offered under the presumptive scheme. ITR-3 carries a full <a href="/statutory-audit">balance sheet</a>, so it corroborates the asset schedule directly. ITR-4 does not, which is why presumptive filers are asked for more banking and asset evidence instead.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can a proprietor taxed under the presumptive scheme obtain one?</h3>
+  <div class="faq-expanded__a"><p>Yes. Section 44AD lets an eligible business declare income at a prescribed percentage of turnover without maintaining detailed books, and that does not bar certification. The CA verifies bank credits, purchase and sale records, stock and debtor positions independently, and the certificate notes that income was returned on a presumptive basis.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Does the certificate name the trade name or the proprietor?</h3>
+  <div class="faq-expanded__a"><p>Both, because only one of them is a legal person. The proprietor is named with PAN, and the business is described as a proprietary concern carried on under its trade name. A certificate issued to the trade name alone can be rejected, since the concern has no separate legal identity to hold assets.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Are business stock and trade debtors included at book value?</h3>
+  <div class="faq-expanded__a"><p>Stock is taken at cost or net realisable value, whichever is lower, following the ordinary accounting basis. Debtors go in net of amounts unlikely to be recovered, and the CA looks at ageing before accepting the figure. Long-overdue receivables carried at full value are a frequent reason a lender queries a proprietor's schedule.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Can a home that is partly used as an office be included?</h3>
+  <div class="faq-expanded__a"><p>Yes, the whole property is included once, at the proprietor's ownership share. Because the concern and the individual are the same person in law, there is no need to split the property between personal and business schedules. What matters is that it is not counted twice and that the ownership share is documented.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">Is a Udyam registration number needed on the certificate?</h3>
+  <div class="faq-expanded__a"><p>Not as a rule, but it helps where the recipient is checking MSME status. Udyam registration classifies an enterprise as micro, small or medium using investment and turnover criteria, and tender and priority-sector lending benefits turn on that classification. Where the certificate supports such an application, quoting the number saves a round of queries.</p></div>
+</div>
+                    <div class="faq-expanded__item">
+  <h3 class="faq-expanded__q">What changes when the proprietorship converts to a private limited company?</h3>
+  <div class="faq-expanded__a"><p>The certified entity changes, so a fresh certificate is needed. Assets transferred to the company belong to the company from the date of takeover, and what remains with the individual is personal net worth. Until the transfer is recorded and the takeover agreement executed, the assets are still the proprietor's and are certified as such.</p></div>
+</div>
                 </div>
-            </div>
-
-
-            <!-- Quick Answers -->
-            <div class="highlight-box" style="margin-top:32px;">
-                <p><strong>Quick Answers</strong></p>
-                <p><strong>Who issues this certificate?</strong> Practicing ICAI-registered CA with full-time Certificate of Practice only.</p>
-                <p><strong>Are personal and business assets both covered?</strong> Yes - sole proprietorship has no separate legal identity; both are included.</p>
-                <p><strong>Is UDIN mandatory?</strong> Yes - 18-digit UDIN mandatory since 1 July 2019 per ICAI circular.</p>
-                <p><strong>No formal accounts - still possible?</strong> Yes - CA certifies from ITR, bank statements, and asset documents with disclosure.</p>
-                <p><strong>How long does it take?</strong> 1-3 working days; same-day express available at Patron Accounting.</p>
-                <p><strong>Starting fee at Patron?</strong> INR 1,499 (Exl GST and Govt. Charges) for standard certificate with UDIN.</p>
-
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECTION 18: URGENCY CTA -->
 <section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Do Not Wait Until the Last Minute - Certificate Deadlines Are Non-Negotiable</h2>
+            <h2 class="section-title">Proprietorship CA Certificate Deadlines That Cannot Slip</h2>
             <div class="content-text">
-                
-                <p><strong>Loan sanctions, franchise verification deadlines, visa interview schedules, and tender submission dates cannot be extended.</strong> A missing or incorrectly formatted Net Worth Certificate directly causes rejection. Certificates without UDIN are invalid at banks and embassies. Sole proprietors who leave certificate preparation to the last minute risk losing approvals, franchise opportunities, or visa validity windows.</p>
-                <ul>
-                    <li><strong>Bank loan:</strong> Certificate typically required at the time of file submission - missing UDIN triggers automatic rejection</li>
-                    <li><strong>Franchise:</strong> Franchisor verification occurs before agreement signing - late or missing certificate forfeits the franchise opportunity</li>
-                    <li><strong>Visa:</strong> Embassy interviews have fixed dates; certificate must be ready before the interview appointment</li>
-                    <li><strong>Government tender:</strong> Bid submission is a one-time deadline - missing net worth certificate disqualifies the bid</li>
-                </ul>
-
+<p>The clock on a proprietor&#x27;s certificate is the lender&#x27;s, not the law&#x27;s. What decides how long the work takes is the state of the records: mixed banking and uncounted stock add days that a maintained set never would. Say so at the outset and it can be planned around. Call or WhatsApp <a href="tel:+919459456700">+91 94594 56700</a> to describe what you have.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONCLUSION + CTA BLOCK (Dark) -->
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Your CA-Certified Net Worth Certificate for Sole Proprietorship Today</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Proprietorship CA Certificate with Patron Accounting</h2>
             <div class="content-text" style="text-align:left;">
-                
-                <p style="color:rgba(255,255,255,0.9);">A Net Worth Certificate for Sole Proprietorship in India requires special attention because of the proprietor's unique legal status - there is no separation between personal and business finances. Getting this certificate right means correctly combining all personal and business assets, deducting all liabilities, and having it certified by an ICAI-registered CA with a valid UDIN. Whether you need it for a bank loan, franchise, visa, tender, DEMAT account, or legal matter, precision and compliance are non-negotiable.</p>
-                <p style="color:rgba(255,255,255,0.9);">Patron Accounting LLP's experienced CA team understands the specific requirements for sole proprietorships - including cases where formal books are not maintained - and delivers correctly formatted, UDIN-compliant certificates accepted by banks, embassies, and franchisors across India.</p>
-                <p style="color:rgba(255,255,255,0.9);"><strong>Starting at INR 1,499 (Exl GST and Govt. Charges) | 1-3 Working Days | Same-Day Express Available</strong></p>
-
+<p style="color:rgba(255,255,255,0.88);">For a proprietor almost all of the work is separation: deciding which money belonged to the business and which to the household, when one account has carried both for years. That is a conversation rather than a form. Say so at the outset if your records are mixed, because it changes the shape of the engagement rather than merely its length. Send the account statements and whatever books exist, and we will tell you what has to be rebuilt before anything can be certified.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
-                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20Net%20Worth%20Certificate%20for%20Sole%20Proprietorship.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Net%20Worth%20Certificate%20Sole%20Proprietorship%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Net%20Worth%20Certificate%20for%20Sole%20Proprietorship%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;">&#128222; Call +91 94594 56700</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20ca%20certificate%20for%20proprietorship%20firm" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20a%20CA%20Certificate%20for%20Proprietorship%20Firm&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20a%20ca%20certificate%20for%20proprietorship%20firm%20and%20would%20like%20to%20know%20more.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;">&#9993;&#65039; Email Us</a>
             </div>
-            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
+            <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Speak to a chartered accountant at Patron on <a href="tel:+919459456700">+91 94594 56700</a>, by call or WhatsApp.</p>
         </div>
     </div>
 </section>
 
-<!-- GSTAT STATE BENCH CITY PAGES (32 Pages) -->
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Net Worth Certificate for Sole Proprietorship - Available in Your City</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides CA-certified Net Worth Certificates for sole proprietorships with UDIN verification across major cities in India.</p>
-           
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-city-grid">
-                    <a href="/net-worth-certificate-sole-proprietorship/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/net-worth-certificate-sole-proprietorship/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                    <a href="/net-worth-certificate-sole-proprietorship/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                    <a href="/net-worth-certificate-sole-proprietorship/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                </div>
-            </div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:8px;">Related Services</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:36px;">Every certificate Patron issues in this practice.</p>
             <div class="pa-city-block">
-                <div class="pa-block-title">Related Services</div>
-                <div class="pa-block-sub">End-to-end support for Net Worth Certificate for Sole Proprietorship</div>
-                <div class="pa-cross-grid">
-                    <a href="/net-worth-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Visa</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/net-worth-certificate-for-partnership-firms" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Partnership</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/turnover-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Turnover Certificate</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/proprietorship-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Proprietorship Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/double-currency-networth-format" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Double Currency Net Worth</div><div class="pa-card-sub">India</div></div></a>
-                </div>
+                <div class="pa-cross-grid"><a href="https://www.patronaccounting.com/net-worth-certificate" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-by-ca" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate by CA</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-company" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Company</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Partnership Firm</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Visa</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan" class="pa-cross-card"><div class="pa-card-title">Net Worth Certificate for Bank Loan</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-rera-registration" class="pa-cross-card"><div class="pa-card-title">CA Certificate for RERA</div></a>
+<a href="https://www.patronaccounting.com/net-worth-certificate-for-divorce" class="pa-cross-card"><div class="pa-card-title">Net Worth Statement for Divorce</div></a>
+<a href="https://www.patronaccounting.com/solvency-certificate" class="pa-cross-card"><div class="pa-card-title">Solvency Certificate</div></a>
+<a href="https://www.patronaccounting.com/net-owned-fund-certificate-for-nbfc" class="pa-cross-card"><div class="pa-card-title">Minimum Net Owned Fund for NBFC</div></a>
+<a href="https://www.patronaccounting.com/glossary/networth" class="pa-cross-card"><div class="pa-card-title">Net Worth &amp; Solvency Glossary</div></a></div>
+            </div>
+            <div class="pa-city-block" style="margin-top:36px;">
+                <div class="pa-block-title">More From Patron Accounting</div>
+                <div class="pa-block-sub">Outside this practice, and mentioned on this page</div>
+                <div class="pa-cross-grid"><a href="https://www.patronaccounting.com/gst-registration" class="pa-cross-card"><div class="pa-card-title">GST Registration</div></a>
+<a href="https://www.patronaccounting.com/income-tax-return" class="pa-cross-card"><div class="pa-card-title">Income Tax Return Filing</div></a>
+<a href="https://www.patronaccounting.com/tax-audit" class="pa-cross-card"><div class="pa-card-title">Tax Audit</div></a>
+<a href="https://www.patronaccounting.com/private-limited-company-registration" class="pa-cross-card"><div class="pa-card-title">Private Limited Company Registration</div></a>
+<a href="https://www.patronaccounting.com/llp-incorporation" class="pa-cross-card"><div class="pa-card-title">LLP Incorporation</div></a>
+<a href="https://www.patronaccounting.com/proprietorship-registration" class="pa-cross-card"><div class="pa-card-title">Proprietorship Registration</div></a>
+<a href="https://www.patronaccounting.com/udyam-registration" class="pa-cross-card"><div class="pa-card-title">Udyam (MSME) Registration</div></a>
+<a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-title">Accounting and Bookkeeping</div></a></div>
+            </div>
+            <div class="pa-city-block" style="margin-top:36px;">
+                <div class="pa-block-title">Read Next</div>
+                <div class="pa-block-sub">The detail behind each figure on this page</div>
+                <ul class="pa-read-list">
+                    <li><a href="/blog/net-worth-certificate-validity-in-india">What Is the Validity of a Net Worth Certificate in India?</a></li>
+                    <li><a href="/blog/net-worth-certificate-vs-itr">Net Worth Certificate vs ITR: Which Proof Works Where</a></li>
+                    <li><a href="/blog/from-proprietorship-books-to-net-worth-statement">From Proprietorship Books to a Net Worth Statement</a></li>
+                    <li><a href="/blog/proprietor-net-worth-personal-plus-business">Proprietor Net Worth: Why Personal and Business Combine</a></li>
+                    <li><a href="/blog/proprietor-net-worth-vs-declared-income">Proprietor Net Worth vs Declared Income: Reconciling the Two</a></li>
+                    <li><a href="/blog/affidavit-of-support-vs-net-worth-certificate">Affidavit of Support vs Net Worth Certificate</a></li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">20 April 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> April 2027 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page covers CA-certified Net Worth Certificate for Sole Proprietorship in India. Content is reviewed annually and updated when ICAI UDIN rules or RBI credit appraisal guidelines change. All legal references are verified against official government sources.</p>
-        </div>
-    </div>
-</section>
-
-<!-- STICKY WHATSAPP BAR -->
-{{--
-<div class="wa-sticky-bar" id="waBar">
-    <div class="wa-sticky-bar-content">
-        <div class="wa-sticky-bar-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
-        </a>
-        <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
-    </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+<div class="eeat-review-wrap"><div class="eeat-review">
+  <div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div>
+  <div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; certification &nbsp;&middot;&nbsp; Last reviewed 4 August 2026 &nbsp;&middot;&nbsp; Next review 4 November 2026</div>
+  <div class="eeat-review__sources"><span>Official sources:</span> <a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a><a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal</a><a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Department</a></div>
+</div></div>
 
 </main>
 
-
-<!-- Google Maps Places Library (for GMB reviews) -->
-
-
-<!-- To find Place ID: https://developers.google.com/maps/documentation/places/web-service/place-id -->
+{{-- Page JS. Kept HERE and deliberately NOT pushed to the scripts stack: the
+     service-app layout renders that stack twice, so anything pushed to it
+     loads twice. That is the accounting cluster's known porting bug. --}}
 <script>
-(function() {
-    // ============================================
-    // CONFIGURATION - Update these values
-    // ============================================
-    const CONFIG = {
-        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
-        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
-        // Fallback static reviews (shown if API fails or key not set)
-        fallbackReviews: [
-            {
-                author_name: "Subhendu Mishra",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I've had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.",
-                relative_time_description: "2 months ago"
-            },
-            {
-                author_name: "Rajib Dutta",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.",
-                relative_time_description: "3 months ago"
-            },
-            {
-                author_name: "Nishikant Gurav",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.",
-                relative_time_description: "1 month ago"
-            },
-            {
-                author_name: "Nikhil Nimbhorkar",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.",
-                relative_time_description: "4 months ago"
-            },
-            {
-                author_name: "Sameer Mehta",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.",
-                relative_time_description: "2 months ago"
-            },
-            {
-                author_name: "Preeti Singh Rathor",
-                profile_photo_url: "",
-                rating: 5,
-                text: "From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.",
-                relative_time_description: "3 months ago"
-            },
-            {
-                author_name: "Anita Gaur",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.",
-                relative_time_description: "5 months ago"
-            },
-            {
-                author_name: "Pankaj Arvikar",
-                profile_photo_url: "",
-                rating: 5,
-                text: "I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.",
-                relative_time_description: "1 month ago"
-            },
-            {
-                author_name: "Sunny Ashpal",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.",
-                relative_time_description: "6 months ago",
-                role: "Director - Demandify Media",
-                hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
-            },
-            {
-                author_name: "Anjanay Srivastava",
-                profile_photo_url: "",
-                rating: 5,
-                text: "Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.",
-                relative_time_description: "4 months ago",
-                role: "Founder - Hunarsource Consulting",
-                hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
-            }
-        ]
-    };
+/* The bar pins fine on its own; what it did not do was follow the reader. This marks the
+   section currently in view, keeps that pill scrolled into the strip, and wires the two
+   arrows, which the standalone page has no layout JS to bind. */
+(function(){
+  var bar=document.querySelector('.toc-section'); if(!bar) return;
+  var wrap=bar.querySelector('.toc-wrapper');
+  var btns=[].slice.call(bar.querySelectorAll('.toc-btn'));
+  if(!btns.length) return;
+  var targets=btns.map(function(b){
+    var id=(b.getAttribute('href')||'').slice(1);
+    return id ? document.getElementById(id) : null;
+  });
 
-    // ============================================
-    // HELPER: Generate star SVGs
-    // ============================================
-    function starsHTML(rating) {
-        let s = '';
-        for (let i = 0; i < 5; i++) {
-            s += i < rating
-                ? '<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'
-                : '<svg viewBox="0 0 24 24" style="opacity:0.2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
-        }
-        return s;
+  function mark(i){
+    if(btns[i].classList.contains('active')) return;
+    btns.forEach(function(b){ b.classList.remove('active'); });
+    btns[i].classList.add('active');
+    // keep the active pill inside the horizontal strip without moving the page
+    var r=btns[i].getBoundingClientRect(), w=wrap.getBoundingClientRect();
+    if(r.left < w.left+8) wrap.scrollBy({left:r.left-w.left-16,behavior:'smooth'});
+    else if(r.right > w.right-8) wrap.scrollBy({left:r.right-w.right+16,behavior:'smooth'});
+  }
+
+  var ticking=false;
+  function spy(){
+    ticking=false;
+    // a quarter-viewport below the bar, not right under it: with the bar's own
+    // 88px plus a section's lead paragraph, a line hugging the bar flips the pill
+    // while the previous section still fills most of the screen
+    var line=bar.getBoundingClientRect().bottom + window.innerHeight*0.25, best=0;
+    for(var i=0;i<targets.length;i++){
+      if(targets[i] && targets[i].getBoundingClientRect().top <= line) best=i;
     }
+    // at the very bottom the last section may never cross the line
+    if(window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4)
+      best=targets.length-1;
+    mark(best);
+  }
+  window.addEventListener('scroll',function(){
+    if(!ticking){ ticking=true; window.requestAnimationFrame(spy); }
+  },{passive:true});
+  window.addEventListener('resize',spy,{passive:true});
+  spy();
 
-    // ============================================
-    // HELPER: Avatar color based on name
-    // ============================================
-    const avatarColors = ['', 'blue', 'teal', 'purple'];
-    function avatarClass(index) {
-        return avatarColors[index % avatarColors.length];
-    }
-
-    // ============================================
-    // RENDER: Build card HTML for a review
-    // ============================================
-    function buildVideoCard(review) {
-        return `
-        <div>
-            <div class="testi-video-card">
-                <div class="testi-video-area" onclick="toggleTestiVideo(this)">
-                    <video preload="metadata" poster="${review.photoUrl || ''}">
-                        <source src="${review.videoUrl}" type="video/mp4">
-                    </video>
-                    <div class="testi-play-overlay">
-                        <div class="testi-play-btn">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-                        </div>
-                    </div>
-                    <div class="testi-star-badge">${starsHTML(review.rating)}</div>
-                </div>
-                <div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;">
-                    <div class="testi-avatar">
-                        ${review.photoUrl ? `<img src="${review.photoUrl}" alt="${review.author_name}">` : review.author_name.charAt(0)}
-                    </div>
-                    <div>
-                        <div class="testi-name">${review.author_name}</div>
-                        ${review.role ? `<div class="testi-role">${review.role}</div>` : ''}
-                    </div>
-                </div>
-            </div>
-        </div>`;
-    }
-
-    function buildQuoteCard(review, index) {
-        const hasPhoto = review.profile_photo_url && review.profile_photo_url !== '';
-        const initial = review.author_name ? review.author_name.charAt(0).toUpperCase() : '?';
-        const colorClass = avatarClass(index);
-
-        return `
-        <div>
-            <div class="testi-quote-card">
-                <div class="testi-quote-icon">
-                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-                </div>
-                <p class="testi-quote-text">${review.text || ''}</p>
-                <div class="testi-footer">
-                    <div class="testi-author">
-                        <div class="testi-avatar ${colorClass}">
-                            ${hasPhoto ? `<img src="${review.profile_photo_url}" alt="${review.author_name}">` : initial}
-                        </div>
-                        <div>
-                            <div class="testi-name">${review.author_name}</div>
-                            ${review.role ? `<div class="testi-role">${review.role}</div>` : (review.relative_time_description ? `<div class="testi-role">${review.relative_time_description}</div>` : '')}
-                        </div>
-                    </div>
-                    <div class="testi-rating-row">
-                        <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
-                    </div>
-                </div>
-            </div>
-        </div>`;
-    }
-
-    // ============================================
-    // RENDER: Populate slider with reviews
-    // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
-
-let html = '';
-
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
-    }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
-
-    function initSlick(slider) {
-        if ($(slider).hasClass('slick-initialized')) return;
-        $(slider).slick({
-            dots: false,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2500,
-            arrows: false,
-            cssEase: 'ease-in-out',
-            pauseOnHover: true,
-            pauseOnFocus: true,
-            swipe: true,
-            touchMove: true,
-            responsive: [
-                { breakpoint: 1200, settings: { slidesToShow: 3 } },
-                { breakpoint: 900, settings: { slidesToShow: 2 } },
-                { breakpoint: 600, settings: { slidesToShow: 1, autoplaySpeed: 3000 } }
-            ]
-        });
-    }
-
-    // ============================================
-    // FETCH: Google Places API Reviews
-    // ============================================
-    function fetchGMBReviews() {
-        // If API key not set, use fallback
-        if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
-            renderReviews(CONFIG.fallbackReviews);
-            return;
-        }
-
-        // Google Places API requires server-side proxy due to CORS
-        // Option 1: Use Google Maps JS API (requires loading Maps library)
-        // Option 2: Use a server-side proxy endpoint
-        // Below is the Google Maps JS API approach:
-
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.googleApiKey}&libraries=places&callback=initGMBReviews`;
-        script.async = true;
-        script.defer = true;
-        script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
-            renderReviews(CONFIG.fallbackReviews);
-        };
-        document.head.appendChild(script);
-    }
-
-    // Global callback for Google Maps JS API
-    window.initGMBReviews = function() {
-        try {
-            const service = new google.maps.places.PlacesService(document.createElement('div'));
-            service.getDetails({
-                placeId: CONFIG.placeId,
-                fields: ['name', 'rating', 'reviews', 'user_ratings_total']
-            }, function(place, status) {
-                if (status === google.maps.places.PlacesServiceStatus.OK && place.reviews && place.reviews.length > 0) {
-                    console.log(`[Testimonials] Fetched ${place.reviews.length} GMB reviews for ${place.name} (${place.rating}★, ${place.user_ratings_total} total)`);
-
-                    // Merge: video testimonials first, then GMB reviews
-                    const videoTestimonials = CONFIG.fallbackReviews.filter(r => r.hasVideo);
-                    const gmbReviews = place.reviews.map(function(r) {
-                        return {
-                            author_name: r.author_name,
-                            profile_photo_url: r.profile_photo_url,
-                            rating: r.rating,
-                            text: r.text,
-                            relative_time_description: r.relative_time_description
-                        };
-                    });
-
-                    renderReviews([...videoTestimonials, ...gmbReviews]);
-                } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
-                    renderReviews(CONFIG.fallbackReviews);
-                }
-            });
-        } catch (e) {
-            console.log('[Testimonials] Error:', e);
-            renderReviews(CONFIG.fallbackReviews);
-        }
-    };
-
-    // ============================================
-    // INIT
-    // ============================================
-    document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered - init Slick immediately
-        const slider = document.getElementById('testimonialSlider');
-        if (slider && slider.children.length > 0) {
-            if (typeof $ !== 'undefined' && $.fn.slick) {
-                initSlick(slider);
-            } else {
-                window.addEventListener('load', function() {
-                    if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
-                });
-            }
-        }
-        fetchGMBReviews();
-    });
-})();
-
-// Video play/pause toggle for testimonial cards
-function toggleTestiVideo(area) {
-    const video = area.querySelector('video');
-    if (!video) return;
-    if (video.paused) {
-        // Pause all other videos first
-        document.querySelectorAll('.testi-video-area video').forEach(function(v) { v.pause(); v.closest('.testi-video-area').classList.remove('playing'); });
-        video.play();
-        area.classList.add('playing');
-    } else {
-        video.pause();
-        area.classList.remove('playing');
-    }
-}
-
-</script>
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
-<script>
-
-</script>
-
-<script>
-// TOC scroll arrows
-const tocWrapper = document.getElementById('tocWrapper');
-document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
-document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
-
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
+  function nudge(dir){ wrap.scrollBy({left:dir*Math.round(wrap.clientWidth*0.7),behavior:'smooth'}); }
+  var l=document.getElementById('tocLeft'), r2=document.getElementById('tocRight');
+  if(l) l.addEventListener('click',function(){nudge(-1);});
+  if(r2) r2.addEventListener('click',function(){nudge(1);});
 })();
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
+<script>(function(){function init(){var list=document.querySelector('.faq-expanded__list');var items=(list||document).querySelectorAll('.faq-expanded__item');if(!items.length)return;var A=Array.prototype;function allCol(){return A.every.call(items,function(it){return it.classList.contains('is-collapsed');});}var btn=document.createElement('button');btn.type='button';btn.className='faq-expanded__toggle-all';function sync(){btn.textContent=allCol()?'Expand all':'Collapse all';}btn.addEventListener('click',function(){var c=!allCol();A.forEach.call(items,function(it){it.classList.toggle('is-collapsed',c);});sync();});if(list)list.insertBefore(btn,list.firstChild);A.forEach.call(items,function(it){var q=it.querySelector('.faq-expanded__q');if(!q)return;q.setAttribute('role','button');q.setAttribute('tabindex','0');function t(){it.classList.toggle('is-collapsed');sync();}q.addEventListener('click',t);q.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});});sync();}if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);})();</script>
 <script>
-(function() {
-    var waBar = document.getElementById('waBar');
-    var waClose = document.getElementById('waBarClose');
-    var dismissed = false;
+/* Same behaviour as the accounting cluster's slick config - 4/3/2/1 across, autoplay 4500ms
+   (3000 on mobile), no arrows, pause on hover and on focus, swipe - but written against
+   scroll-snap so the standalone page needs neither jQuery nor Slick. */
+(function(){
+  var box=document.getElementById('testiSlider'); if(!box) return;
+  var track=box.querySelector('.nwc-slider__track');
+  var slides=track.querySelectorAll('.nwc-slide'); if(!slides.length) return;
+  function step(){ var a=slides[0].getBoundingClientRect().width;
+    return a + parseFloat(getComputedStyle(track).gap||20); }
+  function atEnd(){ return track.scrollLeft + track.clientWidth >= track.scrollWidth - 4; }
+  function go(dir){
+    if(dir>0 && atEnd()) track.scrollTo({left:0});
+    else track.scrollBy({left:dir*step()});
+  }
+  var timer=null, held=false;
+  function speed(){ return window.matchMedia('(max-width:600px)').matches ? 3000 : 4500; }
+  function play(){ if(timer) return; timer=setInterval(function(){ if(!held) go(1); },speed()); }
+  function hold(v){ held=v; }
+  box.addEventListener('mouseenter',function(){hold(true);});
+  box.addEventListener('mouseleave',function(){hold(false);});
+  box.addEventListener('focusin',function(){hold(true);});
+  box.addEventListener('focusout',function(){hold(false);});
 
-    // Initially hidden, show after scrolling 300px
-    waBar.classList.add('hidden');
-
-    window.addEventListener('scroll', function() {
-        if (dismissed) return;
-        if (window.scrollY > 300) {
-            waBar.classList.remove('hidden');
-        } else {
-            waBar.classList.add('hidden');
-        }
+  // click a video to play it, exactly as toggleTestiVideo does on the accounting pages:
+  // any other video pauses first, and the slider holds while one is running
+  track.querySelectorAll('.testi-video-area').forEach(function(area){
+    var v=area.querySelector('video'); if(!v) return;
+    area.addEventListener('click',function(){
+      if(v.paused){
+        track.querySelectorAll('.testi-video-area video').forEach(function(o){
+          o.pause(); o.parentElement.classList.remove('playing'); });
+        v.play(); area.classList.add('playing');
+      } else { v.pause(); area.classList.remove('playing'); }
     });
-
-    // Close button
-    waClose.addEventListener('click', function() {
-        dismissed = true;
-        waBar.classList.add('hidden');
-        // Remember dismissal for this session
-        try { sessionStorage.setItem('wa_bar_dismissed', '1'); } catch(e) {}
-    });
-
-    // Check if already dismissed this session
-    try {
-        if (sessionStorage.getItem('wa_bar_dismissed') === '1') {
-            dismissed = true;
-            waBar.classList.add('hidden');
-            waBar.style.display = 'none';
-        }
-    } catch(e) {}
+    v.addEventListener('play',function(){hold(true);});
+    v.addEventListener('pause',function(){hold(false); area.classList.remove('playing');});
+    v.addEventListener('ended',function(){hold(false); area.classList.remove('playing');});
+  });
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches) play();
 })();
 </script>
+<script>
+(function(){
+  var stack=document.getElementById('specimenStack'),
+      frame=document.getElementById('specimenFrame'),
+      lb=document.getElementById('specimenLightbox');
+  if(!stack||!frame||!lb) return;
+  var tabs=stack.querySelectorAll('.specimen-tab'),
+      docs=frame.querySelectorAll('.specimen-doc'),
+      panes=document.querySelectorAll('.specimen-pane'),
+      n=tabs.length, at=0, timer=null, paused=false, stopped=false;
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  function show(i){
+    at=i;
+    for(var k=0;k<n;k++){
+      var on=(k===i);
+      tabs[k].classList.toggle('is-active',on);
+      tabs[k].setAttribute('aria-selected',on?'true':'false');
+      if(docs[k]) docs[k].classList.toggle('is-active',on);
+      if(panes[k]) panes[k].classList.toggle('is-active',on);
+    }
+    if(typeof window.__nwcSpecFit==='function') window.__nwcSpecFit();
+  }
+  // auto-advance so a reader who never touches the tabs still sees both samples
+  function play(){ if(timer||n<2) return; timer=setInterval(function(){
+    if(!paused && !stopped) show((at+1)%n); },7000); }
+  function stop(){ stopped=true; if(timer){ clearInterval(timer); timer=null; } }
+
+  for(var i=0;i<n;i++){ (function(i){
+    tabs[i].addEventListener('click',function(){ stop(); show(i); });
+  })(i); }
+  stack.addEventListener('mouseenter',function(){ paused=true; });
+  stack.addEventListener('mouseleave',function(){ paused=false; });
+  stack.addEventListener('focusin',function(){ paused=true; });
+  stack.addEventListener('focusout',function(){ paused=false; });
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches) play();
+
+  // scale the sample to fit the frame exactly, at any screen size
+  // Fit the WIDTH. Capping by viewport height as well was tried and reverted: it shrank the
+  // sample to fit one screen, which made it unreadable at every size to solve a problem
+  // nobody had - a long document scrolling with the page is normal.
+  function fit(){
+    var doc=frame.querySelector('.specimen-doc.is-active'); if(!doc) return;
+    frame.style.zoom=1;                                   // measure unscaled
+    var cs=getComputedStyle(frame);
+    var avail=frame.clientWidth
+              - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    var natural=Math.max(doc.scrollWidth, doc.getBoundingClientRect().width);
+    frame.style.zoom = (natural>0 && avail>0) ? Math.min(1, avail/natural) : '';
+  }
+  var rt=null;
+  window.addEventListener('resize',function(){ clearTimeout(rt); rt=setTimeout(fit,120); });
+  if(window.ResizeObserver) new ResizeObserver(function(){ fit(); }).observe(frame.parentNode);
+  window.__nwcSpecFit=fit;
+  fit();
+
+  var inner=lb.querySelector('.specimen-lightbox__inner');
+  function open(){
+    var live=frame.querySelector('.specimen-doc.is-active');
+    if(!live) return;
+    // the watermark <pattern> carries an id; suffix it so the clone cannot collide
+    // with the one still in the page and blank both fills out
+    inner.innerHTML=live.innerHTML.replace(/nwcwm-(\d+)/g,'nwcwm-$1-lb');
+    lb.classList.add('is-open'); lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    // measured AFTER is-open: the lightbox is display:none until then, so clientWidth is 0
+    // and the scale comes out negative. Fits the full-size view to the viewport width;
+    // a no-op at zoom 1 on a wide screen.
+    inner.style.setProperty('--lb-zoom', Math.min(1, (lb.clientWidth-32)/880));
+  }
+  function shut(){
+    lb.classList.remove('is-open'); lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow=''; inner.innerHTML='';
+  }
+  frame.addEventListener('click',open);
+  frame.addEventListener('keydown',function(e){
+    if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); }});
+  var openBtn=document.getElementById('specimenOpen');
+  if(openBtn) openBtn.addEventListener('click',function(e){ e.stopPropagation(); open(); });
+  lb.addEventListener('click',function(e){
+    if(e.target===lb||e.target.classList.contains('specimen-lightbox__close')) shut();});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&lb.classList.contains('is-open')) shut();});
+})();
+</script>
+<script></script>
 @endsection

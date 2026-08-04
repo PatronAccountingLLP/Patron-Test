@@ -1,0 +1,162 @@
+/* Networth cluster - specimen certificate component.
+   One stylesheet for all 9 specimens. Every selector is namespaced under .nwc-spec so the
+   block can be dropped into any page without colliding with the page's own CSS.
+
+   Deploy to /css/nwc-spec.css and load it once per page, however many specimens the page
+   shows. The specimen HTML files link it relatively so they still render when opened
+   straight from this folder.
+
+   Tokens are declared on .nwc-spec rather than :root, so a page hosting the block cannot
+   have its own variables overwritten and the component stays self-contained. */
+
+.nwc-spec{
+  /* colour */
+  --ink:#1f2937; --mut:#6b7280; --line:#d1d5db; --accent:#14365f; --warn:#b45309;
+  --chip:#c3cedd; --chipring:#94a3b8;
+  --rule-lite:#f3f4f6; --rule-sub:#fafafa; --rule-tot:#eef2f7;
+  --badge-bg:#fef3c7; --badge-line:#fcd34d;
+  /* type */
+  --ff-body:Georgia,"Times New Roman",serif;
+  --ff-ui:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --fs-body:14px; --fs-title:16px; --fs-head:13px; --fs-tbl:13px;
+  --fs-sm:12.5px; --fs-xs:12px; --fs-2xs:11px;
+  --lh-body:1.9; --lh-tbl:1.7;
+  /* spacing */
+  --sp-1:4px; --sp-2:8px; --sp-3:14px; --sp-4:22px; --sp-5:34px;
+  --pad-x:42px; --pad-y:38px; --pad-b:30px; --r:6px;
+
+  position:relative;display:block;max-width:860px;margin:0 auto;
+  padding:var(--pad-y) var(--pad-x) var(--pad-b);background:#fff;
+  border:1px solid var(--line);border-radius:var(--r);color:var(--ink);
+  font:var(--fs-body)/var(--lh-body) var(--ff-body);overflow:hidden}
+.nwc-spec *{box-sizing:border-box}
+
+/* Visually hidden, still read aloud. Used for the table captions, which name what the
+   figures are without adding a second visible heading. */
+.nwc-spec__sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+
+/* the redaction chip: padding contains the blur so it never bleeds into sharp text */
+.nwc-spec .b{display:inline-block;padding:1px 7px;margin:0 1px;border-radius:3px;
+  background:var(--chip);color:#334155;letter-spacing:.06em;
+  box-shadow:inset 0 0 0 1px var(--chipring);
+  font:600 var(--fs-sm)/1.5 var(--ff-ui);vertical-align:baseline;
+  filter:blur(2.6px);-webkit-filter:blur(2.6px);user-select:none;pointer-events:none}
+.nwc-spec .b--n{display:inline-block;min-width:88px;text-align:right}
+
+/* tiled wordmark. An inline <svg> with a <pattern> rather than a background-image:
+   Chrome rasterises background images at print scale, which left the wordmark visibly
+   soft in the PDF. As vector it stays sharp at any zoom. */
+.nwc-spec__mark{position:absolute;inset:0;width:100%;height:100%;z-index:5;
+  pointer-events:none;user-select:none;overflow:visible}
+.nwc-spec__mark text{font:700 15px/1 "Segoe UI",Helvetica,Arial,sans-serif;
+  letter-spacing:.6px;fill:#14365f;fill-opacity:.06}
+.nwc-spec>*:not(.nwc-spec__mark):not(.nwc-spec__badge){position:relative;z-index:1}
+
+/* corner badge - the one visible statement that this is not an issued certificate, so it
+   survives a cropped screenshot of any part of the document */
+.nwc-spec__badge{position:absolute;top:0;right:0;z-index:6;padding:5px 14px;
+  border-radius:0 var(--r) 0 8px;background:var(--badge-bg);color:var(--warn);
+  border-left:1px solid var(--badge-line);border-bottom:1px solid var(--badge-line);
+  font:700 10px/1.4 var(--ff-ui);letter-spacing:.14em;text-transform:uppercase}
+
+.nwc-spec__lh{text-align:center;padding-bottom:var(--sp-3);
+  border-bottom:2px solid var(--accent)}
+.nwc-spec__lh .nm{display:block;margin-bottom:2px}
+.nwc-spec__lh .nm .b{font-size:var(--fs-title);padding:2px 12px}
+.nwc-spec__lh .desig{display:block;font-size:15px;font-weight:700;letter-spacing:.03em;
+  color:var(--accent)}
+.nwc-spec__lh .ln{display:block;margin-top:5px;color:var(--mut);
+  font:var(--fs-xs)/var(--lh-body) var(--ff-ui)}
+.nwc-spec__meta{display:flex;justify-content:space-between;gap:16px;
+  margin:16px 0 var(--sp-4);color:var(--mut);
+  font:var(--fs-xs)/var(--lh-body) var(--ff-ui)}
+
+/* h3/h4 rather than h1/h2: the specimen is embedded inside a page section that already
+   owns an h2, so starting at h3 keeps one unbroken document outline */
+.nwc-spec h3{margin:var(--sp-4) 0 var(--sp-3);text-align:center;font-size:var(--fs-title);
+  letter-spacing:.04em;text-transform:uppercase;text-decoration:underline;
+  text-underline-offset:5px}
+.nwc-spec h4{margin:var(--sp-4) 0 var(--sp-2);font-size:var(--fs-head);letter-spacing:.05em;
+  text-transform:uppercase;color:var(--accent);font-family:var(--ff-ui)}
+.nwc-spec p{margin:0 0 13px;text-align:justify}
+.nwc-spec__to{margin-bottom:18px;line-height:2.1}
+
+.nwc-spec table{width:100%;border-collapse:collapse;margin:var(--sp-3) 0 18px;
+  font:var(--fs-tbl)/var(--lh-tbl) var(--ff-ui)}
+.nwc-spec th,.nwc-spec td{border:1px solid var(--line);padding:7px 10px;text-align:left;
+  vertical-align:middle}
+.nwc-spec thead th{background:var(--rule-lite);font-weight:600;font-size:var(--fs-xs);
+  letter-spacing:.03em;text-transform:uppercase;color:var(--accent)}
+.nwc-spec td.num,.nwc-spec th.num{text-align:right;white-space:nowrap}
+.nwc-spec tr.sub td{background:var(--rule-sub);font-weight:600}
+.nwc-spec tr.tot td{background:var(--rule-tot);font-weight:700;
+  border-top:2px solid var(--accent)}
+
+.nwc-spec__sign{margin-top:var(--sp-5);display:flex;justify-content:space-between;
+  align-items:flex-end;gap:30px;flex-wrap:wrap}
+.nwc-spec__sign div{font:var(--fs-xs)/2 var(--ff-ui)}
+.nwc-spec__sign .rt{text-align:right;min-width:280px}
+.nwc-spec__sign .rt .for{display:block;font-size:var(--fs-xs);color:var(--mut);
+  margin-bottom:2px}
+.nwc-spec__sign .rt .desig{display:block;font-size:var(--fs-tbl);font-weight:700;
+  color:var(--accent);margin-bottom:var(--sp-1)}
+.nwc-spec__sig{display:inline-block;min-width:150px;height:38px;margin:6px 0 2px;
+  border-bottom:1px solid var(--line)}
+
+@media (max-width:640px){
+  .nwc-spec{--pad-x:18px;--pad-y:26px;--pad-b:22px;--fs-body:13px}
+  .nwc-spec__meta{flex-direction:column;gap:var(--sp-1)}
+  .nwc-spec__mark text{font-size:11px}
+  .nwc-spec table{display:block;overflow-x:auto;white-space:nowrap}
+  .nwc-spec .b--n{min-width:70px}
+  .nwc-spec__sign{flex-direction:column;align-items:flex-start}
+  .nwc-spec__sign .rt{text-align:left;min-width:0}}
+
+@page{size:A4;margin:10mm}
+@media print{
+  /* The block is 860px wide - wider than A4 at 96dpi - so on paper it gives up its fixed
+     width and its card border and takes the page width instead.
+
+     Everything then scales off ONE factor, --pf, so the proportions between body, headings,
+     tables and spacing stay exactly as designed and only the overall size changes. The build
+     steps --pf down per file until that certificate fits a single sheet.
+
+     Not zoom: zoom does not reduce the layout width for the page box, so the block kept its
+     860px and ~55mm ran off the right edge. */
+  .nwc-spec{--pf:1;
+    /* The card keeps its border, its rounded corners and its padding so the sheet is the
+       block as it appears on screen - the badge included, tucked into its own corner.
+       Only the overall size changes, and it changes by one factor. */
+    --pad-x:calc(42px * var(--pf)); --pad-y:calc(38px * var(--pf));
+    --pad-b:calc(30px * var(--pf));
+    --fs-body:calc(14px * var(--pf));  --fs-title:calc(16px * var(--pf));
+    --fs-head:calc(13px * var(--pf));  --fs-tbl:calc(13px * var(--pf));
+    --fs-sm:calc(12.5px * var(--pf));  --fs-xs:calc(12px * var(--pf));
+    --sp-2:calc(8px * var(--pf));  --sp-3:calc(14px * var(--pf));
+    --sp-4:calc(22px * var(--pf)); --sp-5:calc(34px * var(--pf));
+    /* width:auto, not 100%: .nwc-spec * sets border-box on DESCENDANTS only, so the card
+       itself is content-box - width:100% plus 84px of padding overflowed the page box and
+       cut ~12% off the right edge of every PDF. auto lets the block fill the page minus its
+       own padding and border. */
+    width:auto;max-width:none}
+  .nwc-spec p{margin:0 0 calc(13px * var(--pf))}
+  .nwc-spec th,.nwc-spec td{padding:calc(7px * var(--pf)) calc(10px * var(--pf))}
+  .nwc-spec__sig{height:calc(38px * var(--pf))}
+  .nwc-spec .b--n{min-width:calc(88px * var(--pf))}
+  .nwc-spec__badge{padding:calc(5px * var(--pf)) calc(14px * var(--pf));
+    font-size:calc(10px * var(--pf))}
+  /* one certificate per sheet, and nothing that should read as a unit split across sheets */
+  .nwc-spec{break-inside:avoid;page-break-inside:avoid;
+    break-after:page;page-break-after:always}
+  .nwc-spec:last-of-type{break-after:auto;page-break-after:auto}
+  .nwc-spec table,.nwc-spec tr,.nwc-spec__sign,.nwc-spec__lh{break-inside:avoid;
+    page-break-inside:avoid}
+  .nwc-spec h3,.nwc-spec h4{break-after:avoid;page-break-after:avoid}
+  /* backgrounds are dropped when printing unless this is set - without it the watermark,
+     the badge and the total-row shading all vanish from a printed copy */
+  .nwc-spec__mark,.nwc-spec__badge,.nwc-spec thead th,.nwc-spec tr.sub td,
+  .nwc-spec tr.tot td,.nwc-spec .b{-webkit-print-color-adjust:exact;
+    print-color-adjust:exact}}
+
+@media (prefers-reduced-motion:reduce){.nwc-spec *{transition:none!important}}

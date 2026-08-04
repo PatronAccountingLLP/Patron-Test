@@ -24,6 +24,7 @@ $networthClusterRedirects = [
     ['/net-worth-certificate-for-companies', '/net-worth-certificate-for-company'],
     ['/net-worth-certificate-for-tender-bidding', '/solvency-certificate'],
     ['/net-worth-certificate-for-nbfc-rbi-registration', '/net-owned-fund-certificate-for-nbfc'],
+    ['/financial-certificates-services', '/net-worth-certificate-by-ca'],
 ];
 
 // HELD BACK - traffic guard. Each of these carries real impressions, and the

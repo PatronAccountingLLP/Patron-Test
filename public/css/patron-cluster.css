@@ -1512,7 +1512,12 @@ main{padding-bottom:76px;}
 .step-card{align-items:center !important;padding:30px 40px !important;}
 .step-illustration{aspect-ratio:auto !important;max-width:320px !important;background:none !important;
   padding:0 !important;}
-.step-illustration img{border-radius:var(--radius-xl);box-shadow:var(--shadow-sm);}
+/* The step image had no sizing of its own, so it depended entirely on intrinsic
+   dimensions inside a flex column - which collapses it wherever the intrinsic size is
+   not resolved. Size it to the column explicitly. */
+.step-illustration img{border-radius:var(--radius-xl);box-shadow:var(--shadow-sm);
+  display:block;width:100%;height:auto;max-width:320px;}
+.step-visual{min-width:0;}
 .step-content{justify-content:center;}
 
 /* -- FAQ: the template's faq.css already draws a rotating chevron on

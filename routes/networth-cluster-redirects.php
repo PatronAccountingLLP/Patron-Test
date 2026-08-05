@@ -51,6 +51,7 @@ $networthClusterRedirects = [
     ['/blog/net-worth-certificate-nri-indian-ca-guide', '/blog/how-embassies-verify-proof-of-funds'],
     ['/blog/net-worth-certificate-visa-us-canada-uk-schengen-requirements', '/blog/how-much-bank-balance-do-visa-applications-need'],
     ['/blog/what-is-net-worth-certificate-who-issues-when-needed', '/blog/can-cma-issue-a-net-worth-certificate'],
+    ['/blog/net-worth-certificate-india-guide-format-when-required', '/blog/how-a-ca-prepares-a-net-worth-certificate'],
 ];
 
 foreach ($networthClusterRedirects as $__r) {

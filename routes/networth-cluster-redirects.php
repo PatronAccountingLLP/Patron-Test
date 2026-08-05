@@ -25,6 +25,19 @@ $networthClusterRedirects = [
     ['/net-worth-certificate-for-tender-bidding', '/solvency-certificate'],
     ['/net-worth-certificate-for-nbfc-rbi-registration', '/net-owned-fund-certificate-for-nbfc'],
     ['/financial-certificates-services', '/net-worth-certificate-by-ca'],
+    ['/net-worth-certificate-for-partnership-firms/delhi', '/net-worth-certificate-for-partnership-firms'],
+    ['/net-worth-certificate-for-partnership-firms/gurugram', '/net-worth-certificate-for-partnership-firms'],
+    ['/net-worth-certificate-for-partnership-firms/mumbai', '/net-worth-certificate-for-partnership-firms'],
+    ['/net-worth-certificate-for-partnership-firms/pune', '/net-worth-certificate-for-partnership-firms'],
+    ['/net-worth-certificate-sole-proprietorship/delhi', '/net-worth-certificate-sole-proprietorship'],
+    ['/net-worth-certificate-sole-proprietorship/gurugram', '/net-worth-certificate-sole-proprietorship'],
+    ['/net-worth-certificate-sole-proprietorship/mumbai', '/net-worth-certificate-sole-proprietorship'],
+    ['/net-worth-certificate-sole-proprietorship/pune', '/net-worth-certificate-sole-proprietorship'],
+    ['/double-currency-networth-format/pune', '/net-worth-certificate-for-visa'],
+    ['/double-currency-networth/delhi', '/net-worth-certificate-for-visa'],
+    ['/double-currency-networth/gurugram', '/net-worth-certificate-for-visa'],
+    ['/double-currency-networth/mumbai', '/net-worth-certificate-for-visa'],
+    ['/net-worth-certificate-for-uae-golden-visa', '/net-worth-certificate-for-visa'],
 ];
 
 // HELD BACK - traffic guard. Each of these carries real impressions, and the
@@ -36,6 +49,14 @@ $networthClusterRedirects = [
 //     ['/net-worth-certificate-for-joint-owners-in-india', '/net-worth-certificate-for-bank-loan'],
 //     // 434 impr / 7 clicks ('networth' spelling - regexes miss it) - guarantor section incl. HDFC-Credila/UDIN vocabulary MUST exist first. REPOINT, not a new rule: confirmed 2026-07-31 it already 301s to /net-worth-certificate, so the existing rule is edited to target the bank-loan page - the parent loses this inherited traffic by design.
 //     ['/networth-certificate-for-individual-guarantor', '/net-worth-certificate-for-bank-loan'],
+//     // city variant of the guarded joint-owners page; releases only when the parent does
+//     ['/net-worth-certificate-for-joint-owners-in-india/delhi', '/net-worth-certificate-for-bank-loan'],
+//     // city variant of the guarded joint-owners page; releases only when the parent does
+//     ['/net-worth-certificate-for-joint-owners-in-india/gurugram', '/net-worth-certificate-for-bank-loan'],
+//     // city variant of the guarded joint-owners page; releases only when the parent does
+//     ['/net-worth-certificate-for-joint-owners-in-india/mumbai', '/net-worth-certificate-for-bank-loan'],
+//     // city variant of the guarded joint-owners page; releases only when the parent does
+//     ['/net-worth-certificate-for-joint-owners-in-india/pune', '/net-worth-certificate-for-bank-loan'],
 // ];
 
 foreach ($networthClusterRedirects as $__r) {

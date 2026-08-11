@@ -13,18 +13,18 @@
 @section('meta')
     <title>Trading Business Accounting in Mumbai - Inventory & GST</title>
     <meta name="description" content="CA-led wholesale and retail trading accounting in Mumbai. Multi-godown inventory, GST multi-slab, e-invoice, e-way bill, credit management for Bhuleshwar, Crawford Market. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trading-accounting-services/mumbai">
+    <link rel="canonical" href="https://www.patronaccounting.com/trading-accounting-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trading Business Accounting in Mumbai - Inventory & GST">
     <meta property="og:description" content="CA-led wholesale and retail trading accounting in Mumbai. Multi-godown inventory, GST multi-slab, e-invoice, e-way bill, credit management for Bhuleshwar, Crawford Market. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trading-accounting-services/mumbai">
+    <meta property="og:url" content="https://www.patronaccounting.com/trading-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trading-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/trading-accounting-services/mumbai-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Business Accounting in Mumbai - Inventory & GST">
     <meta name="twitter:description" content="CA-led wholesale and retail trading accounting in Mumbai. Multi-godown inventory, GST multi-slab, e-invoice, e-way bill, credit management for Bhuleshwar, Crawford Market. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trading-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/trading-accounting-services/mumbai-og.webp">
 @endsection
 
 @section('schema')
@@ -35,7 +35,7 @@
       "@type": "Service",
       "name": "Trading Business Accounting in Mumbai - Inventory & GST",
       "description": "CA-led wholesale and retail trading accounting in Mumbai. Multi-godown inventory, GST multi-slab, e-invoice, e-way bill, credit management for Bhuleshwar, Crawford Market. Call +91 945 945 6700.",
-      "url": "/trading-accounting-services/mumbai",
+      "url": "https://www.patronaccounting.com/trading-accounting-services/mumbai",
       "serviceType": "Trading Business Accounting in Mumbai - Inventory & GST",
       "areaServed": {
         "@type": "City",
@@ -48,14 +48,14 @@
       "provider": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com/",
         "logo": "/images/site-logo.svg"
       },
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "/trading-accounting-services/mumbai",
+        "url": "https://www.patronaccounting.com/trading-accounting-services/mumbai",
         "price": "8000"
       }
     },
@@ -71,8 +71,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Trading Accounting Services",
-          "item": "https://www.patronaccounting.com/trading-accounting-services"
+          "name": "Trading Wholesale Retail Accounting",
+          "item": "https://www.patronaccounting.com/accounting-services-for-trading-industry"
         },
         {
           "@type": "ListItem",

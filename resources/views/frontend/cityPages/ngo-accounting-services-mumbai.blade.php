@@ -13,18 +13,18 @@
 @section('meta')
     <title>NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit</title>
     <meta name="description" content="CA-led NGO and non-profit accounting in Mumbai. 12A/80G compliance, FCRA FC-4, Charity Commissioner IX-C, trust audit, CSR fund tracking. Call +91 945 945 6700.">
-    <link rel="canonical" href="/ngo-accounting-services/mumbai">
+    <link rel="canonical" href="https://www.patronaccounting.com/ngo-accounting-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit">
     <meta property="og:description" content="CA-led NGO and non-profit accounting in Mumbai. 12A/80G compliance, FCRA FC-4, Charity Commissioner IX-C, trust audit, CSR fund tracking. Call +91 945 945 6700.">
-    <meta property="og:url" content="/ngo-accounting-services/mumbai">
+    <meta property="og:url" content="https://www.patronaccounting.com/ngo-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/ngo-accounting-services/mumbai-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit">
     <meta name="twitter:description" content="CA-led NGO and non-profit accounting in Mumbai. 12A/80G compliance, FCRA FC-4, Charity Commissioner IX-C, trust audit, CSR fund tracking. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ngo-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/ngo-accounting-services/mumbai-og.webp">
 @endsection
 
 @section('schema')
@@ -35,7 +35,7 @@
       "@type": "Service",
       "name": "NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit",
       "description": "CA-led NGO and non-profit accounting in Mumbai. 12A/80G compliance, FCRA FC-4, Charity Commissioner IX-C, trust audit, CSR fund tracking. Call +91 945 945 6700.",
-      "url": "/ngo-accounting-services/mumbai",
+      "url": "https://www.patronaccounting.com/ngo-accounting-services/mumbai",
       "serviceType": "NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit",
       "areaServed": {
         "@type": "City",
@@ -48,14 +48,14 @@
       "provider": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com/",
         "logo": "/images/site-logo.svg"
       },
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "/ngo-accounting-services/mumbai",
+        "url": "https://www.patronaccounting.com/ngo-accounting-services/mumbai",
         "price": "8000"
       }
     },
@@ -71,8 +71,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Ngo Accounting Services",
-          "item": "https://www.patronaccounting.com/ngo-accounting-services"
+          "name": "NGO Accounting and Compliance Services",
+          "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services"
         },
         {
           "@type": "ListItem",

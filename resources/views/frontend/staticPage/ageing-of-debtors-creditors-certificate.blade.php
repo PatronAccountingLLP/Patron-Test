@@ -12,11 +12,11 @@
 @section('meta')
     <title>Ageing of Debtors and Creditors 2026 | Patron Accounting</title>
     <meta name="description" content="Ageing of debtors and creditors certificate - CA-certified receivables and payables ageing with UDIN for bank and due diligence. From INR 2,499 (Exl GST).">
-    <link rel="canonical" href="/ageing-of-debtors-creditors-certificate">
+    <link rel="canonical" href="https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Ageing of Debtors and Creditors 2026 | Patron Accounting">
     <meta property="og:description" content="Ageing of debtors and creditors certificate - CA-certified receivables and payables ageing with UDIN for bank and due diligence. From INR 2,499 (Exl GST).">
-    <meta property="og:url" content="/ageing-of-debtors-creditors-certificate">
+    <meta property="og:url" content="https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="/images/ageing-of-debtors-creditors-certificate-og.webp">
@@ -54,7 +54,7 @@
         "@id": "/ageing-of-debtors-creditors-certificate/#breadcrumb",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Financial Certificates Services", "item": "/financial-certificates-services" },
+            { "@type": "ListItem", "position": 2, "name": "Financial Certificates Services", "item": "/net-worth-certificate-by-ca" },
             { "@type": "ListItem", "position": 3, "name": "Ageing of Debtors and Creditors Certificate", "item": "/ageing-of-debtors-creditors-certificate" }
         ]
     }
@@ -1138,7 +1138,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">2 June 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1973,7 +1973,7 @@
             <div class="pa-city-block">
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end support for Ageing of Debtors and Creditors Certificate</div>
-                <div class="pa-cross-grid"><a href="/financial-certificates-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Financial Certificates Services</div><div class="pa-card-sub">India</div></div></a>
+                <div class="pa-cross-grid"><a href="/net-worth-certificate-by-ca" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Financial Certificates Services</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/stock-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Stock Audit</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/net-worth-certificate-for-business-loan" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Business Loan</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/turnover-certificate-for-current-account" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Turnover Certificate for Current Account</div><div class="pa-card-sub">India</div></div></a>

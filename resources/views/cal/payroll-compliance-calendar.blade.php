@@ -877,7 +877,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <a href="/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
             <a href="/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
             <a href="/professional-tax-registration" class="sidebar-link">Professional Tax<span class="arrow">→</span></a>
-            <a href="/income-tax-return-filing" class="sidebar-link">ITR Filing<span class="arrow">→</span></a>
+            <a href="/income-tax-return" class="sidebar-link">ITR Filing<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

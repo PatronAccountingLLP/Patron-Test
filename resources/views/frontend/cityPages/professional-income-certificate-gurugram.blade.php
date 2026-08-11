@@ -60,7 +60,7 @@
         "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#breadcrumb",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "ITR Filing for Professionals", "item": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals" },
+            { "@type": "ListItem", "position": 2, "name": "ITR Filing for Professionals", "item": "https://www.patronaccounting.com/itr-for-professionals" },
             { "@type": "ListItem", "position": 3, "name": "Professional Income Certificate", "item": "https://www.patronaccounting.com/professional-income-certificate/gurugram" }
         ]
     }
@@ -1147,7 +1147,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="https://www.patronaccounting.com/itr-filing-for-freelancers-professionals" style="color:var(--text-muted);text-decoration:none;font-weight:500;">ITR Filing for Professionals</a>
+                <a href="https://www.patronaccounting.com/itr-for-professionals" style="color:var(--text-muted);text-decoration:none;font-weight:500;">ITR Filing for Professionals</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li><span style="color:var(--orange);font-weight:600;">Professional Income Certificate in Gurugram</span></li>
@@ -1531,7 +1531,7 @@
                     <p>A Professional Income Certificate is a CA's attestation of the income a professional earns from practice - fees and gross receipts. It is for specified professionals under Section 44AA (doctors, lawyers, CAs, architects, consultants) who have no Form 16, and it often reflects the Section 44ADA presumptive basis. Used for visa, loan, and credit.</p>
                 </div>
                 <p>A salaried person has Form 16 to prove income. A doctor, lawyer, consultant, or architect in independent practice does not - which is exactly when a Professional Income Certificate is needed. We provide a CA-attested certificate of your practice income, with a verifiable UDIN, that embassies, banks, and lenders accept as proof of what your profession earns.</p>
-                <p>Lenders and embassies are used to reading a salary slip and Form 16. A professional in practice has neither, so the question becomes: what does this practice actually earn? A CA-attested professional income certificate answers it credibly, drawing on your receipts and ITR. If your income comes from a mix of sources rather than only practice, our <a href="https://www.patronaccounting.com/itr-filing-for-freelancers-professionals">ITR filing for freelancers and professionals</a> may be the better starting point.</p>
+                <p>Lenders and embassies are used to reading a salary slip and Form 16. A professional in practice has neither, so the question becomes: what does this practice actually earn? A CA-attested professional income certificate answers it credibly, drawing on your receipts and ITR. If your income comes from a mix of sources rather than only practice, our <a href="https://www.patronaccounting.com/itr-for-professionals">ITR filing for freelancers and professionals</a> may be the better starting point.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -1639,7 +1639,7 @@
                         <tr><td>Practice income computation</td><td>From gross receipts, reflecting the 44ADA basis where applicable.</td></tr>
                         <tr><td>Multi-year certificates</td><td>Where a lender or embassy wants two or three years of practice income.</td></tr>
                         <tr><td>Purpose-specific format</td><td>Aligned to the embassy, bank, or lender's requirement.</td></tr>
-                        <tr><td>ITR pairing</td><td>With your <a href="https://www.patronaccounting.com/itr-filing-for-freelancers-professionals">ITR for freelancers and professionals</a> as supporting evidence.</td></tr>
+                        <tr><td>ITR pairing</td><td>With your <a href="https://www.patronaccounting.com/itr-for-professionals">ITR for freelancers and professionals</a> as supporting evidence.</td></tr>
                         <tr><td>Tax-efficient structuring</td><td>Via our <a href="https://www.patronaccounting.com/tax-planning-services">tax planning services</a> where practice income is growing.</td></tr>
 
                     </tbody>
@@ -1962,7 +1962,7 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><a href="https://www.patronaccounting.com/itr-filing-for-freelancers-professionals">ITR Filing for Freelancers and Professionals</a> - the return behind your practice income.</li>
+                    <li><a href="https://www.patronaccounting.com/itr-for-professionals">ITR Filing for Freelancers and Professionals</a> - the return behind your practice income.</li>
                     <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a> - the companion document for visa applications.</li>
                     <li><a href="https://www.patronaccounting.com/tax-planning-services">Tax Planning Services</a> - structuring growing practice income efficiently.</li>
                     <li><a href="https://www.patronaccounting.com/income-tax-return">Income Tax Return Filing</a> - your annual return, the basis for the certificate.</li>
@@ -2110,7 +2110,7 @@
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end support for Professional Income Certificate</div>
                 <div class="pa-cross-grid">
-                    <a href="https://www.patronaccounting.com/itr-filing-for-freelancers-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Freelancers & Professionals</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="https://www.patronaccounting.com/itr-for-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Freelancers & Professionals</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Visa</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/tax-planning-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Planning</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">India</div></div></a>

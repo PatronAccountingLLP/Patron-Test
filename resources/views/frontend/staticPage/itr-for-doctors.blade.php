@@ -1116,7 +1116,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: 8 May 2026</span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1896,7 +1896,7 @@
                 
                 <p>Doctors typically need adjacent compliance work alongside ITR. We bundle these:</p>
 <ul>
-<li><a href="/itr-filing-for-freelancers-professionals">ITR for Professionals / Freelancers</a> - parent service page covering all specified professions including medical</li>
+<li><a href="/itr-for-professionals">ITR for Professionals / Freelancers</a> - parent service page covering all specified professions including medical</li>
 <li><a href="/tax-audit">Tax Audit (Section 44AB)</a> - mandatory above Rs 75 lakh receipts; Form 3CB / 3CD by 30 September</li>
 <li><a href="/tds-return-filing">TDS Return Filing</a> - for clinics deducting TDS on staff salaries and consultancy</li>
 <li><a href="/payroll-processing-for-the-healthcare-industry">Healthcare Payroll Services</a> - clinic and hospital payroll, Form 16 issuance, ESI/PF compliance</li>
@@ -2074,7 +2074,7 @@
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">End-to-end compliance support for doctors - tax audit, TDS, professional ITR filing, and healthcare-sector payroll.</div>
     <div class="pa-cross-grid">
-        <a href="/itr-filing-for-freelancers-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Professionals</div><div class="pa-card-sub">Freelancers & Specified Professions</div></div></a>
+        <a href="/itr-for-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Professionals</div><div class="pa-card-sub">Freelancers & Specified Professions</div></div></a>
         <a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit (Sec 44AB)</div><div class="pa-card-sub">For Receipts &gt; Rs 75 Lakh</div></div></a>
         <a href="/tds-return-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">TDS Return Filing</div><div class="pa-card-sub">24Q / 26Q / Form 16 Issuance</div></div></a>
         <a href="/payroll-processing-for-the-healthcare-industry" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Healthcare Payroll</div><div class="pa-card-sub">For Clinics &amp; Hospitals</div></div></a>

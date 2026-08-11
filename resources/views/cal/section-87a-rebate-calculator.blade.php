@@ -1395,7 +1395,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <h3>Related Services</h3>
             <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
             <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
-            <a href="/itr-filing-for-freelancers-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
+            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
             <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
             <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
             <a href="/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>

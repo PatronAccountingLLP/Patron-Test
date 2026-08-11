@@ -1074,7 +1074,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
     <div class="sidebar-card">
         <h3>From the Blog</h3>
-        <a href="/blog/share-transfer-procedure-in-private-limited-company-a-complete-guide" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
+        <a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
         <a href="/blog/authorized-capital-vs-paid-up-capital-meaning-differences-and-share-capital-structure-explained" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
         <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
     </div>

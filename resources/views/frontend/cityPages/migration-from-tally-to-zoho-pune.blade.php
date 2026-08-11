@@ -13,11 +13,11 @@
 @section('meta')
     <title>Tally to Zoho Migration in Pune 2026 | Patron Accounting</title>
     <meta name="description" content="Migrate from Tally to Zoho Books in Pune from INR 9,999. CA-led chart-of-accounts mapping, opening balances, and GST setup for Hinjewadi and Chakan firms.">
-    <link rel="canonical" href="/migration-from-tally-to-zoho/pune">
+    <link rel="canonical" href="/tally-to-zoho-migration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tally to Zoho Migration in Pune 2026 | Patron Accounting">
     <meta property="og:description" content="Migrate from Tally to Zoho Books in Pune from INR 9,999. CA-led chart-of-accounts mapping, opening balances, and GST setup for Hinjewadi and Chakan firms.">
-    <meta property="og:url" content="/migration-from-tally-to-zoho/pune">
+    <meta property="og:url" content="/tally-to-zoho-migration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="/images/migration-from-tally-to-zoho/pune-og.webp">
@@ -51,7 +51,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Tally to Zoho Migration in Pune",
-          "item": "/migration-from-tally-to-zoho/pune"
+          "item": "/tally-to-zoho-migration/pune"
         }
       ]
     },
@@ -133,7 +133,7 @@
       "name": "Tally to Zoho Migration in Pune",
       "description": "Tally to Zoho Books migration in Pune moves your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with GST setup, bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for Hinjewadi, Magarpatta, and Chakan businesses.",
       "serviceType": "Tally to Zoho Books Migration",
-      "url": "/migration-from-tally-to-zoho/pune",
+      "url": "/tally-to-zoho-migration/pune",
       "areaServed": {
         "@type": "City",
         "name": "Pune",
@@ -184,7 +184,7 @@
       "@id": "/#localbusiness-pune",
       "name": "Patron Accounting LLP - Pune",
       "image": "/images/site-logo.svg",
-      "url": "/migration-from-tally-to-zoho/pune",
+      "url": "/tally-to-zoho-migration/pune",
       "telephone": "+91-9699936369",
       "priceRange": "INR",
       "areaServed": {
@@ -1447,18 +1447,12 @@
                     <div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div>
                     <span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span>
                 </div>
-                <a href="/migration-from-tally-to-zoho/mumbai" class="pa-city-card">
+                <a href="/tally-to-zoho-migration/mumbai" class="pa-city-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
                     <div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
                 </a>
-                <a href="/migration-from-tally-to-zoho/delhi" class="pa-city-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div>
-                </a>
-                <a href="/migration-from-tally-to-zoho/gurugram" class="pa-city-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                </a>
+                
+                
             </div>
         </div>
     </div>

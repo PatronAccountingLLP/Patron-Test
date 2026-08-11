@@ -1110,7 +1110,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -2328,7 +2328,7 @@ function toggleTestiVideo(area){
                     <li><a href="/imf-for-insurance-agents">IMF for Insurance Agents</a> - agent-persona graduation page.</li>
                     <li><a href="/imf-for-bank-employees-retirees">IMF for Bank Employees and Retirees</a> - bank-retiree persona page.</li>
                     <li><a href="/imf-private-limited-vs-llp">IMF Private Limited vs LLP</a> - entity selection guide.</li>
-                    <li><a href="/income-tax-return-filing">Income Tax Return Filing</a> - ITR-6 filing for mixed-revenue advisor entities.</li>
+                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-6 filing for mixed-revenue advisor entities.</li>
                 </ul>
                 <p style="margin-top:16px;">Verify your eligibility through the <a href="https://irdai.gov.in" target="_blank" rel="noopener">IRDAI main site</a> and the <a href="https://irdai.gov.in/department/insurance-marketing-firm" target="_blank" rel="noopener">IRDAI Insurance Marketing Firm portal</a>. SEBI advisor framework at the <a href="https://www.sebi.gov.in" target="_blank" rel="noopener">Securities and Exchange Board of India</a>. For company-level filings, the <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs (MCA21)</a> portal. Income tax e-filing at the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax India e-Filing Portal</a>. Auditing standards at the <a href="https://www.icai.org" target="_blank" rel="noopener">Institute of Chartered Accountants of India</a>.</p>
 

@@ -1113,7 +1113,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -2374,8 +2374,8 @@ function toggleTestiVideo(area){
                     <li><a href="/private-limited-company-registration">Private Limited Company Registration</a> - Pvt Ltd incorporation for IMF entity formation.</li>
                     <li><a href="/llp-registration">LLP Registration</a> - LLP route as alternative IMF entity.</li>
                     <li><a href="/statutory-audit">Statutory Audit</a> - annual audit including PO and ISP register verification per IMF Regulations 2015.</li>
-                    <li><a href="/income-tax-return-filing">Income Tax Return Filing</a> - ITR for IMF entity and Principal Officer.</li>
-                    <li><a href="/accounting-and-bookkeeping">Accounting and Bookkeeping</a> - ongoing accounting including ISP commission tracking, insurer-wise revenue reconciliation.</li>
+                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR for IMF entity and Principal Officer.</li>
+                    <li><a href="/accounting-bookkeeping-services">Accounting and Bookkeeping</a> - ongoing accounting including ISP commission tracking, insurer-wise revenue reconciliation.</li>
                 </ul>
                 <p style="margin-top:16px;">Verify framework through the <a href="https://irdai.gov.in" target="_blank" rel="noopener">Insurance Regulatory and Development Authority of India (IRDAI)</a>; IMF Portal at <a href="https://irdai.gov.in/department/insurance-marketing-firm" target="_blank" rel="noopener">IRDAI IMF Portal</a>; Insurance Institute of India at <a href="https://www.insuranceinstituteofindia.com" target="_blank" rel="noopener">insuranceinstituteofindia.com</a>; National Insurance Academy Pune at <a href="https://www.niapune.org.in" target="_blank" rel="noopener">niapune.org.in</a>; Corporate filings (MGT-14 for PO appointment via Special Resolution) at the <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs (MCA21)</a>.</p>
 
@@ -2543,7 +2543,7 @@ function toggleTestiVideo(area){
                     <a href="/private-limited-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="7" r="4"/><path d="M5 22v-2a7 7 0 0114 0v2"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">IMF entity formation</div></div></a>
                     <a href="/llp-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="7" r="4"/><path d="M5 22v-2a7 7 0 0114 0v2"/></svg></div><div><div class="pa-card-title">LLP Registration</div><div class="pa-card-sub">Alternative IMF route</div></div></a>
                     <a href="/statutory-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><div><div class="pa-card-title">Statutory Audit</div><div class="pa-card-sub">Annual IMF audit</div></div></a>
-                    <a href="/accounting-and-bookkeeping" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">Accounting and Bookkeeping</div><div class="pa-card-sub">ISP commission tracking</div></div></a>
+                    <a href="/accounting-bookkeeping-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">Accounting and Bookkeeping</div><div class="pa-card-sub">ISP commission tracking</div></div></a>
                 </div>
             </div>
 

@@ -14,11 +14,11 @@
 @section('meta')
     <title>Financial Ratios Analysis</title>
     <meta name="description" content="Financial ratios analysis under Schedule III for Indian companies. Liquidity, solvency, profitability ratios. Dashboards from Rs 25,000.">
-    <link rel="canonical" href="/financial-ratios">
+    <link rel="canonical" href="https://www.patronaccounting.com/financial-ratios">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Financial Ratios Analysis 2026 - Patron | Patron Accounting">
     <meta property="og:description" content="Financial ratios analysis under Schedule III for Indian companies. Liquidity, solvency, profitability ratios. Dashboards from Rs 25,000.">
-    <meta property="og:url" content="/financial-ratios">
+    <meta property="og:url" content="https://www.patronaccounting.com/financial-ratios">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="/images/financial-ratios-og.webp">
@@ -1057,7 +1057,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1859,7 +1859,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20fixed-fee%20quote%20for%20financial%20ratios%20analysis." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="mailto:info@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>

@@ -1013,7 +1013,7 @@
                 <div class="content-text what-is-definition">
                     <p>Migrating from QuickBooks to Zoho means lifting your accounting records out of QuickBooks Online, a cloud product Intuit no longer maintains for India, and rebuilding them in Zoho Books, an India-first platform inside the broader Zoho One suite, so your financials remain GST-compliant.</p>
                     <p>For a Nehru Place IT reseller, the work involves exporting the QBO chart of accounts, loading customer and vendor lists, carrying opening balances over, and wiring up the Indian bank feeds QuickBooks Online never supported locally. For a Connaught Place agency, it also brings multi-currency settings, IGST and export treatment, and item masters so overseas billing keeps working inside Zoho Books.</p>
-                    <p>What sets this apart from a desktop migration is that QuickBooks tax codes have to be re-mapped to Indian GST before a single transaction loads. To keep the books running, see <a href="/zoho-books-accounting/delhi">Zoho Books Accounting in Delhi</a>; weighing a different move? See <a href="/migration-from-tally-to-zoho/delhi">Tally to Zoho Migration in Delhi</a>.</p>
+                    <p>What sets this apart from a desktop migration is that QuickBooks tax codes have to be re-mapped to Indian GST before a single transaction loads. To keep the books running, see <a href="/zoho-books-accounting/delhi">Zoho Books Accounting in Delhi</a>; weighing a different move? See <a href="/migration-from-tally-to-zoho">Tally to Zoho Migration in Delhi</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for QuickBooks to Zoho Migration in Delhi:</strong></p>
@@ -1315,10 +1315,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
                     <div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Delhi</div></div>
                 </a>
-                <a href="/migration-from-tally-to-zoho/delhi" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
-                    <div><div class="pa-card-title">Tally to Zoho Migration</div><div class="pa-card-sub">Delhi</div></div>
-                </a>
+                
                 <a href="/gst-returns/delhi" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
                     <div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">Delhi</div></div>

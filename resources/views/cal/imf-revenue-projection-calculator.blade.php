@@ -1593,7 +1593,7 @@ a:focus-visible {
             <div class="callout warn">
                 <p><strong>Note:</strong> This tool is a planning aid, not tax advice. Statutory thresholds, rates and due dates change. Always confirm the applicable position for your financial year with a Chartered Accountant before relying on a projection for advance tax, GST or audit decisions.</p>
             </div>
-            <p>If you would like a board-ready financial model that integrates these compliance triggers, scenario analysis and tax provisioning, Patron Accounting's team builds customised projections — see our <a href="/accounting-and-bookkeeping">accounting and bookkeeping</a> and <a href="/income-tax-return">income tax return</a> services.</p>
+            <p>If you would like a board-ready financial model that integrates these compliance triggers, scenario analysis and tax provisioning, Patron Accounting's team builds customised projections — see our <a href="/accounting-bookkeeping-services">accounting and bookkeeping</a> and <a href="/income-tax-return">income tax return</a> services.</p>
         </section>
 
         <div class="body-cta">
@@ -1723,7 +1723,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-and-bookkeeping" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">→</span></a>
+            <a href="/accounting-bookkeeping-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">→</span></a>
             <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
             <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
             <a href="/internal-audit" class="sidebar-link">Internal Audit <span class="arrow">→</span></a>
@@ -1733,7 +1733,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/roi-calculator" class="sidebar-link">ROI Calculator <span class="arrow">→</span></a>
+            
             <a href="/tools/break-even-calculator" class="sidebar-link">Break-Even Calculator <span class="arrow">→</span></a>
             <a href="/tools/compound-interest-calculator" class="sidebar-link">Compound Interest Calculator <span class="arrow">→</span></a>
             <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
@@ -1743,7 +1743,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
             <a href="/blog/economic-value-added-eva" class="sidebar-link">Economic Value Added (EVA) <span class="arrow">→</span></a>
         </div>
 

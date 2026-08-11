@@ -47,7 +47,7 @@
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Financial Certificates",
-                    "item": "/financial-certificates-services"
+                    "item": "/net-worth-certificate-by-ca"
                 },
                 {
                     "@type": "ListItem",
@@ -1133,7 +1133,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1732,7 +1732,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>Explore related certificate services:</p><ul><li><a href="/financial-certificates-services"><strong>Financial Certificates Services Hub</strong></a> - the India parent hub for all CA-attested certificates (net worth, turnover, remittance, statutory).</li><li><a href="/net-worth-certificate">Net Worth Certificate</a> - the CA-certified net worth hub.</li><li><a href="/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a> - the use-case page for visa applications.</li><li><a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth Certificate for Joint Owners</a> - for jointly held assets.</li><li><a href="/net-worth-certificate-for-partnership-firms">Net Worth Certificate for Partnership Firms</a> - for partnership entities.</li><li><a href="/turnover-certificate">Turnover Certificate</a> - CA-certified turnover proof.</li></ul>
+                <p>Explore related certificate services:</p><ul><li><a href="/net-worth-certificate-by-ca"><strong>Financial Certificates Services Hub</strong></a> - the India parent hub for all CA-attested certificates (net worth, turnover, remittance, statutory).</li><li><a href="/net-worth-certificate">Net Worth Certificate</a> - the CA-certified net worth hub.</li><li><a href="/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a> - the use-case page for visa applications.</li><li><a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth Certificate for Joint Owners</a> - for jointly held assets.</li><li><a href="/net-worth-certificate-for-partnership-firms">Net Worth Certificate for Partnership Firms</a> - for partnership entities.</li><li><a href="/turnover-certificate">Turnover Certificate</a> - CA-certified turnover proof.</li></ul>
 
             </div>
         </div>

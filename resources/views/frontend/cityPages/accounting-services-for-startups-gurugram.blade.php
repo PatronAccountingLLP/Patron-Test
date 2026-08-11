@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Startup Accounting Services in Gurugram, by Local CAs | Patron Accounting</title>
+    <title>Startup Accounting Services in Gurugram, by Local CAs</title>
     <meta name="description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Stay investor-ready all year. Get a compliance review.">
     <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-startups/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -719,7 +719,7 @@
   </div>
   <div class="portal-lightbox" id="portalLightbox" aria-hidden="true" role="dialog" aria-label="Portal screenshot">
     <button type="button" class="portal-lightbox__close" aria-label="Close">&times;</button>
-    <img src="" alt="">
+    <img alt="">
   </div>
   <script>
   (function(){
@@ -939,7 +939,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Startup Accounting in Gurugram FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on startup accounting for Gurugram businesses - scope, local compliance, documents and pricing.</p>
-                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
   <h3 class="faq-enquiry__title">Ask about your books in Gurugram</h3>
   <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>

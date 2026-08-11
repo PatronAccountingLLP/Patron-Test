@@ -1452,7 +1452,7 @@
                 <p class="tile-cp-blurb">ITR-1 or ITR-2 with Form 16, HRA, capital gains, multi-employer scenarios.</p>
                 <div class="tile-cp-foot"><span>From INR 999</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/itr-filing-for-freelancers-professionals" class="tile-cp">
+            <a href="/itr-for-professionals" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.02</span><span class="tile-cp-form-tag">ITR-3 / 4</span></div>
                 <h3 class="tile-cp-title">Professionals & Freelancers</h3>
                 <p class="tile-cp-blurb">ITR-3 / ITR-4 with Section 44ADA presumptive option, foreign income, FIRC.</p>

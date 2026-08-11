@@ -1592,7 +1592,7 @@
                 <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
                 <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">&rarr;</span></a>
                 <a href="/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/invoice-generator" class="sidebar-link">Invoice Generator <span class="arrow">&rarr;</span></a>
+                
                 <a href="/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
             </div>
 
@@ -1600,7 +1600,7 @@
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
                 <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
                 <a href="/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>

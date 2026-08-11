@@ -77,7 +77,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "ITR for Professionals: CA Filing",
-          "item": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals"
+          "item": "https://www.patronaccounting.com/itr-for-professionals"
         },
         {
           "@type": "ListItem",
@@ -1314,7 +1314,7 @@
                     <p><strong>&#128204; TL;DR - ITR for Professionals and Freelancers in Gurugram Services at a Glance</strong></p>
                     <p>Every freelancer and professional in Gurugram earning income from consulting, medical practice, legal services, IT development, design, writing, or any professional service must file an ITR under PGBP. Specified professionals (doctors, lawyers, CAs, architects, engineers, technical consultants, interior decorators) can use Section 44ADA to declare 50% of gross receipts as deemed income - no books, no audit required - with receipts up to Rs 75 lakh (if cash under 5%). Non-specified freelancers use Section 44AD (6-8% deemed profit, up to Rs 3 crore). Alternatively, ITR-3 with full expense claims is beneficial when actual expenses exceed 50% of receipts.</p>
                 </div>
-                <p>Gurugram is India's largest IT freelancing hub after Bengaluru. DLF Cyber City alone houses thousands of IT consultants working independently or through platforms like Upwork, Toptal, and Fiverr. Golf Course Road is a corridor for legal and management consultants serving corporate clients. The Medanta-Fortis healthcare corridor supports hundreds of independent medical practitioners. For a comprehensive overview of freelancer taxation across India, refer to our <a href="/itr-filing-for-freelancers-professionals">ITR for Professionals and Freelancers</a> national guide.</p>
+                <p>Gurugram is India's largest IT freelancing hub after Bengaluru. DLF Cyber City alone houses thousands of IT consultants working independently or through platforms like Upwork, Toptal, and Fiverr. Golf Course Road is a corridor for legal and management consultants serving corporate clients. The Medanta-Fortis healthcare corridor supports hundreds of independent medical practitioners. For a comprehensive overview of freelancer taxation across India, refer to our <a href="/itr-for-professionals">ITR for Professionals and Freelancers</a> national guide.</p>
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
@@ -1648,7 +1648,7 @@
             <h2 class="section-title">Related Services for Freelancer ITR Filing</h2>
             <div class="content-text">
                 
-                <ul><li><a href="/itr-filing-for-freelancers-professionals">ITR for Professionals and Freelancers (National)</a> - Broader overview across India</li><li><a href="/income-tax-return">Income Tax Return (ITR) Filing</a> - Comprehensive ITR filing for all income types</li><li><a href="/gst-registration">GST Registration</a> - For freelancers crossing Rs 20 lakh turnover</li><li><a href="/itr-for-business">ITR for Business</a> - For freelancers operating as business entities</li><li><a href="/accounting-services">Accounting Services</a> - Bookkeeping for freelancers with detailed records</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - For freelancers hiring teams and deducting TDS</li></ul>
+                <ul><li><a href="/itr-for-professionals">ITR for Professionals and Freelancers (National)</a> - Broader overview across India</li><li><a href="/income-tax-return">Income Tax Return (ITR) Filing</a> - Comprehensive ITR filing for all income types</li><li><a href="/gst-registration">GST Registration</a> - For freelancers crossing Rs 20 lakh turnover</li><li><a href="/itr-for-business">ITR for Business</a> - For freelancers operating as business entities</li><li><a href="/accounting-services">Accounting Services</a> - Bookkeeping for freelancers with detailed records</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - For freelancers hiring teams and deducting TDS</li></ul>
 
             </div>
         </div>

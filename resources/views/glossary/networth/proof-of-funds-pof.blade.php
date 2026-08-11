@@ -212,7 +212,7 @@
       <aside class="faq-expanded__aside">
         <h2 class="faq-expanded__title">Common Questions About Proof of Funds (POF)</h2>
         <p class="faq-expanded__lead">Three questions readers ask about this term specifically. Anything about ordering, scope or price sits on the service page.</p>
-        <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+        <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
       </aside>
       <div class="faq-expanded__list">
 <div class="faq-expanded__item">

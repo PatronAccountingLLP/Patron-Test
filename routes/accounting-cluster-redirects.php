@@ -135,6 +135,13 @@ $accountingClusterRedirects = [
     ['/migration-from-tally-to-quickbooks/pune', '/tally-to-zoho-migration/pune'],
     ['/migration-from-tally-to-quickbooks/delhi', '/migration-from-tally-to-zoho'],
     ['/migration-from-tally-to-quickbooks/gurugram', '/migration-from-tally-to-zoho'],
+
+    // 2026-08-11 audit: /contact-us was a hard 404 and carried the bottom-of-FAQ CTA
+    // ("Still have a question? Talk to a CA") on 217 cluster pages - 606 dead links in all,
+    // plus the networth glossary. The live page has always been /contact. Every href is
+    // repointed in this same commit; this redirect is the safety net for external links,
+    // bookmarks and anything added later.
+    ['/contact-us', '/contact'],
 ];
 
 foreach ($accountingClusterRedirects as $__r) {

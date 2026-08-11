@@ -24,7 +24,7 @@
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Section 17(2)(vi) Perquisite Tax Calculator","description":"Section 17(2)(vi) Perquisite Tax Calculator computes ESOP perquisite tax for Indian employees on exercise of stock options. Takes number of options exercised, Fair Market Value at exercise, exercise price, marginal slab rate, surcharge bracket, Section 80-IAC startup eligibility, and foreign-company flag. Outputs perquisite value, slab tax + surcharge + cess, total TDS, net cash needed to exercise, Section 192(1C) deferral mechanics, and foreign-company Schedule FA + Form 67 implications for FY 2025-26 (AY 2026-27).","url":"/tools/esop-perquisite-tax-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools/"},{"@type":"ListItem","position":3,"name":"Section 17(2)(vi) Perquisite Tax Calculator","item":"/tools/esop-perquisite-tax-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Section 17(2)(vi) Perquisite Tax Calculator","item":"/tools/esop-perquisite-tax-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -590,7 +590,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/share-transfer-procedure-in-private-limited-company-a-complete-guide" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
+<a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
 <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny &amp; Assessment <span class="arrow">→</span></a>
 <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
 </div>

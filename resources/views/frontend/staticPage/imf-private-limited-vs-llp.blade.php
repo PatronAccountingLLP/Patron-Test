@@ -1110,7 +1110,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -2334,7 +2334,7 @@ function toggleTestiVideo(area){
                     <li><a href="/llp-registration">LLP Registration</a> - general LLP incorporation.</li>
                     <li><a href="/imf-compliance-retainer-services">IMF Compliance Retainer Services</a> - ongoing annual compliance post setup.</li>
                     <li><a href="/statutory-audit">Statutory Audit</a> - annual audit (mandatory for Pvt Ltd; conditional for LLP above turnover threshold).</li>
-                    <li><a href="/income-tax-return-filing">Income Tax Return Filing</a> - ITR-6 for Pvt Ltd; ITR-5 for LLP.</li>
+                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-6 for Pvt Ltd; ITR-5 for LLP.</li>
                 </ul>
                 <p style="margin-top:16px;">Verify framework specifics through the <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs (MCA21)</a>; tax framework through the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax India e-Filing Portal</a>; IRDAI eligibility at the <a href="https://irdai.gov.in" target="_blank" rel="noopener">IRDAI main site</a>. GST framework through the <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a>. Auditing standards at the <a href="https://www.icai.org" target="_blank" rel="noopener">Institute of Chartered Accountants of India</a>.</p>
 

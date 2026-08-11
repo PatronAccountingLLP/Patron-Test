@@ -26,7 +26,7 @@
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Vesting Schedule Visualiser","description":"Vesting Schedule Visualiser draws the month-by-month ESOP vesting timeline for Indian startup employees and HR teams. Takes total options granted, vesting period in years, cliff in months, vesting frequency (monthly, quarterly, or annual), simulated leave-date event, and accelerated-vesting trigger setting (none, single-trigger, or double-trigger). Outputs an SVG timeline chart, per-event vested-options table, cliff handling visualisation, forfeiture impact at the leave date, and acceleration boost. PNG export for HR communications and offer-letter appendices.","url":"/tools/vesting-schedule-visualizer","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools/"},{"@type":"ListItem","position":3,"name":"Vesting Schedule Visualiser","item":"/tools/vesting-schedule-visualizer"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Vesting Schedule Visualiser","item":"/tools/vesting-schedule-visualizer"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -591,7 +591,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/share-transfer-procedure-in-private-limited-company-a-complete-guide" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
+<a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
 <a href="/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
 <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
 </div>

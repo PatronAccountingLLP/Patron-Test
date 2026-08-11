@@ -773,7 +773,7 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/ctc-to-in-hand-calculator" class="sidebar-link">CTC to In-Hand<span class="arrow">→</span></a>
+            
             <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
             <a href="/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
             <a href="/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>

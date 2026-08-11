@@ -1013,7 +1013,7 @@
                 <div class="content-text what-is-definition">
                     <p>Migrating from QuickBooks to Zoho means moving your books out of QuickBooks Online, a cloud product Intuit has stopped adapting for India, and into Zoho Books, an India-first platform that sits inside the broader Zoho One suite, so your accounting remains GST-compliant.</p>
                     <p>For a Powai SaaS startup, the work covers exporting the QBO chart of accounts, loading the customer and vendor masters, bringing opening balances over, and wiring up the Indian bank feeds QuickBooks Online never supported locally. For a BKC fintech billing abroad, it also layers in multi-currency setup, IGST treatment, and item masters so cross-border invoicing keeps working in Zoho Books.</p>
-                    <p>What separates this from a desktop migration is that the QuickBooks tax codes have to be re-mapped to Indian GST before any transaction is loaded. To keep the books going, see <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>; weighing a different move? See <a href="/migration-from-tally-to-zoho/mumbai">Tally to Zoho Migration in Mumbai</a>.</p>
+                    <p>What separates this from a desktop migration is that the QuickBooks tax codes have to be re-mapped to Indian GST before any transaction is loaded. To keep the books going, see <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>; weighing a different move? See <a href="/tally-to-zoho-migration/mumbai">Tally to Zoho Migration in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for QuickBooks to Zoho Migration in Mumbai:</strong></p>
@@ -1317,7 +1317,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
                     <div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/migration-from-tally-to-zoho/mumbai" class="pa-cross-card">
+                <a href="/tally-to-zoho-migration/mumbai" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally to Zoho Migration</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

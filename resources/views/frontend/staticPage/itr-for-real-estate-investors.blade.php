@@ -1193,7 +1193,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <span>15+ Years Experience</span><span class="eab-sep">|</span>
 <span>Last Updated: <span id="lastUpdated">11 May 2026</span></span>
 </span>
-<a class="eab-link" href="/authorhub/ca-sundaram-gupta">Verify Credentials →</a>
+<a class="eab-link" href="/authorhub/ca-sundram-gupta">Verify Credentials →</a>
 </div>
 <div class="mb-4">
 <div class="d-flex align-items-start mb-3">
@@ -2088,7 +2088,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">📞 Call +91 945 945 6700</a>
 <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20real%20estate%20investor%20ITR%20filing." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" target="_blank">💬 WhatsApp Us</a>
-<a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">✉️ Email Us</a>
+<a href="mailto:info@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">✉️ Email Us</a>
 </div>
 <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
 </div>

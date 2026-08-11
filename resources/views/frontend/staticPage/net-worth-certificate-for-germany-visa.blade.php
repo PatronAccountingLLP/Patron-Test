@@ -54,7 +54,7 @@
         "@id": "/net-worth-certificate-for-germany-visa/#breadcrumb",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Financial Certificates Services", "item": "/financial-certificates-services" },
+            { "@type": "ListItem", "position": 2, "name": "Financial Certificates Services", "item": "/net-worth-certificate-by-ca" },
             { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Germany Visa", "item": "/net-worth-certificate-for-germany-visa" }
         ]
     }
@@ -1137,7 +1137,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">2 June 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1971,7 +1971,7 @@
             <div class="pa-city-block">
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end support for Net Worth Certificate for Germany Visa</div>
-                <div class="pa-cross-grid"><a href="/financial-certificates-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Financial Certificates Services</div><div class="pa-card-sub">India</div></div></a>
+                <div class="pa-cross-grid"><a href="/net-worth-certificate-by-ca" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Financial Certificates Services</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/net-worth-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Visa</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/net-worth-certificate-for-schengen-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Schengen Visa</div><div class="pa-card-sub">India</div></div></a>

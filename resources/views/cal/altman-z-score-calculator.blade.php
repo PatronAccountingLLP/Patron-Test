@@ -791,7 +791,7 @@ Z″ = 6.56(X1) + 3.26(X2) + 6.72(X3) + 1.05(X4)
             <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
             <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
             <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
-            <a href="/business-set-up-services" class="sidebar-link">Business Setup<span class="arrow">→</span></a>
+            
         </div>
 
         <div class="sidebar-card">
@@ -808,7 +808,7 @@ Z″ = 6.56(X1) + 3.26(X2) + 6.72(X3) + 1.05(X4)
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
             <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 

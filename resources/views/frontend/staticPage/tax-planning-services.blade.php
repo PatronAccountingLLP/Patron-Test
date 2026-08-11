@@ -1111,7 +1111,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">20 March 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1578,7 +1578,7 @@
 <li><strong>Section 44ADA (Professionals):</strong> Gross receipts up to Rs. 75 lakh (95% digital) / Rs. 50 lakh otherwise. Deemed income: 50% of gross receipts. No lock-in period - opt in/out each year.</li>
 </ul>
 <p><strong>Advance Tax Planning</strong> - Due dates: 15% by 15 June, 45% by 15 September, 75% by 15 December, 100% by 15 March. Missing instalments attracts interest under Sections 234B and 234C at 1% per month. For presumptive taxpayers: 100% due in single instalment by 15 March.</p>
-<p>Explore: <a href="/itr-for-business">ITR for Business</a> | <a href="/itr-filing-for-freelancers-professionals">ITR for Professionals</a> | <a href="/tax-audit">Tax Audit Services</a></p>
+<p>Explore: <a href="/itr-for-business">ITR for Business</a> | <a href="/itr-for-professionals">ITR for Professionals</a> | <a href="/tax-audit">Tax Audit Services</a></p>
 
             </div>
         </div>

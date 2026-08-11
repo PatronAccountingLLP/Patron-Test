@@ -824,7 +824,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
                 <li>File audit report on the e-filing portal by 30 September of the assessment year</li>
                 <li>File ITR-3 (not ITR-4) by 31 October instead of 31 July</li>
             </ul>
-            <p>Audit fees typically range from ₹15,000 to ₹50,000 depending on practice complexity. Patron handles 44ADA filings under both presumptive and regular methods — see <a href="/itr-filing-for-freelancers-professionals">ITR Filing for Freelancers &amp; Professionals</a>.</p>
+            <p>Audit fees typically range from ₹15,000 to ₹50,000 depending on practice complexity. Patron handles 44ADA filings under both presumptive and regular methods — see <a href="/itr-for-professionals">ITR Filing for Freelancers &amp; Professionals</a>.</p>
 
             <div class="callout warn">
                 <p><strong>Form numbering change effective 1 April 2026:</strong> Under the Income Tax Act 2025 and Income Tax Rules 2026, Forms 3CA, 3CB, and 3CD will be replaced by Form 26 for tax audit reports. ITR-4 and ITR-3 retain their numbering for now. Refer to the <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">Income Tax Act 2025</a> for full mapping. Confirm current form numbers with your CA before filing.</p>
@@ -884,7 +884,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/itr-filing-for-freelancers-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
+            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
             <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
             <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
             <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>

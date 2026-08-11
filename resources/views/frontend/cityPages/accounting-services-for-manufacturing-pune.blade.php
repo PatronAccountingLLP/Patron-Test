@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Manufacturing Accounting Services in Pune for SMEs | Patron Accounting</title>
+    <title>Manufacturing Accounting Services in Pune for SMEs</title>
     <meta name="description" content="Maharashtra PTRC/PTEC handled for Pune businesses. Save hours every month, close on time and keep audit season uneventful. Book a local consultation.">
     <link rel="canonical" href="https://www.patronaccounting.com/accounting-services-for-manufacturing/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -722,7 +722,7 @@
   </div>
   <div class="portal-lightbox" id="portalLightbox" aria-hidden="true" role="dialog" aria-label="Portal screenshot">
     <button type="button" class="portal-lightbox__close" aria-label="Close">&times;</button>
-    <img src="" alt="">
+    <img alt="">
   </div>
   <script>
   (function(){
@@ -942,7 +942,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Manufacturing Accounting in Pune FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on manufacturing accounting for Pune businesses - scope, local compliance, documents and pricing.</p>
-                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
   <h3 class="faq-enquiry__title">Ask about your books in Pune</h3>
   <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>

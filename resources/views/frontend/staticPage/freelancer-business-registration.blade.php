@@ -1158,7 +1158,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1891,7 +1891,7 @@
                     <li><a href="/gst-registration">GST Registration</a> - mandatory above the threshold, or voluntary.</li>
                     <li><a href="/iec-registration">IEC Registration</a> - the Import Export Code where you deal in goods.</li>
                     <li><a href="/gst-returns-for-freelancers">GST Returns for Freelancers</a> - ongoing GST filing.</li>
-                    <li><a href="/itr-filing-for-freelancers-professionals">ITR Filing for Freelancers and Professionals</a> - income tax under 44ADA.</li>
+                    <li><a href="/itr-for-professionals">ITR Filing for Freelancers and Professionals</a> - income tax under 44ADA.</li>
                     <li><a href="/turnover-certificate-for-current-account">Turnover Certificate for Current Account</a> - for your bank account proof.</li>
                 </ul>
 
@@ -2041,7 +2041,7 @@
                         <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
                         <a href="/iec-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">IEC Registration</div><div class="pa-card-sub">India</div></div></a>
                         <a href="/gst-returns-for-freelancers" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns for Freelancers</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/itr-filing-for-freelancers-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Freelancers</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/itr-for-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Freelancers</div><div class="pa-card-sub">India</div></div></a>
                     </div>
                 </div>
         </div>

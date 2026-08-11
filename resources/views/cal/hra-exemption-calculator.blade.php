@@ -1160,7 +1160,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <a href="/payroll-processing-and-management-services" class="sidebar-link">Payroll Services <span class="arrow">→</span></a>
             <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
             <a href="/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-filing-for-freelancers-professionals" class="sidebar-link">ITR for Freelancers <span class="arrow">→</span></a>
+            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

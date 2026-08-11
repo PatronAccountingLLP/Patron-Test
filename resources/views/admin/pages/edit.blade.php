@@ -2251,7 +2251,7 @@
                                                 <input type="text" class="form-control @error('partnership_button_link') is-invalid @enderror" 
                                                        id="partnership_button_link" name="partnership_button_link" 
                                                        value="{{ old('partnership_button_link', $page->partnership_button_link ?? '#contact') }}"
-                                                       placeholder="Enter button link (e.g., #contact or /contact-us)">
+                                                       placeholder="Enter button link (e.g., #contact or /contact)">
                                                 @error('partnership_button_link')
                                                     <div class="invalid-feedback">{{ $message }}</div>
                                                 @enderror

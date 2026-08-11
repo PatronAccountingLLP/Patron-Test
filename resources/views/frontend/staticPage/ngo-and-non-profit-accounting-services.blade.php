@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>NGO Accounting Services in India: Monthly CA Support | Patron Accounting</title>
+    <title>NGO Accounting Services in India: Monthly CA Support</title>
     <meta name="description" content="Grant-wise books with every donor restriction tracked to its condition. Fewer queries from your auditor, and a faster sign-off. Compare your options.">
     <link rel="canonical" href="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -634,7 +634,7 @@
   </div>
   <div class="portal-lightbox" id="portalLightbox" aria-hidden="true" role="dialog" aria-label="Portal screenshot">
     <button type="button" class="portal-lightbox__close" aria-label="Close">&times;</button>
-    <img src="" alt="">
+    <img alt="">
   </div>
   <script>
   (function(){
@@ -854,7 +854,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">NGO and Non-Profit Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on ngo and non-profit accounting scope, process, documents and pricing for Indian businesses.</p>
-                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
   <h3 class="faq-enquiry__title">Ask about your books</h3>
   <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>

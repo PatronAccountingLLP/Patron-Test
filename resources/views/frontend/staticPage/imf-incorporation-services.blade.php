@@ -1112,7 +1112,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -2309,7 +2309,7 @@ function toggleTestiVideo(area){
                     <li><a href="/llp-registration">LLP Registration</a> - general LLP incorporation (LLP alternative for IMF entity).</li>
                     <li><a href="/one-person-company-registration">One Person Company Registration</a> - OPC route for single-founder structures (subject to IRDAI approval).</li>
                     <li><a href="/statutory-audit">Statutory Audit</a> - annual audit of IMF entity post-incorporation.</li>
-                    <li><a href="/income-tax-return-filing">Income Tax Return Filing</a> - ITR for IMF entity and directors.</li>
+                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR for IMF entity and directors.</li>
                     <li><a href="/gst-registration">GST Registration</a> - GST registration where commission turnover applies.</li>
                     <li><a href="/trademark-registration">Trademark Registration</a> - brand protection for IMF entity name and logo.</li>
                 </ul>

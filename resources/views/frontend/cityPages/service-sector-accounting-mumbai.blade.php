@@ -12,18 +12,18 @@
 
 @section('meta')
     <title>Service Sector Accounting Mumbai - Project Billing & GST</title>
-    <meta name="description" content="CA-led service sector accounting in Mumbai. GST 18% on services, SAC codes, project revenue, TDS 194J, Section 44ADA, service export LUT for BKC, Powai firms. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led service sector accounting in Mumbai. GST on services, SAC codes, project revenue, TDS 194J, Section 44ADA and export LUT for BKC and Powai firms.">
     <link rel="canonical" href="https://www.patronaccounting.com/service-sector-accounting/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Service Sector Accounting Mumbai - Project Billing & GST">
-    <meta property="og:description" content="CA-led service sector accounting in Mumbai. GST 18% on services, SAC codes, project revenue, TDS 194J, Section 44ADA, service export LUT for BKC, Powai firms. Call +91 945 945 6700.">
+    <meta property="og:description" content="CA-led service sector accounting in Mumbai. GST on services, SAC codes, project revenue, TDS 194J, Section 44ADA and export LUT for BKC and Powai firms.">
     <meta property="og:url" content="https://www.patronaccounting.com/service-sector-accounting/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="https://www.patronaccounting.com/images/service-sector-accounting/mumbai-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Service Sector Accounting Mumbai - Project Billing & GST">
-    <meta name="twitter:description" content="CA-led service sector accounting in Mumbai. GST 18% on services, SAC codes, project revenue, TDS 194J, Section 44ADA, service export LUT for BKC, Powai firms. Call +91 945 945 6700.">
+    <meta name="twitter:description" content="CA-led service sector accounting in Mumbai. GST on services, SAC codes, project revenue, TDS 194J, Section 44ADA and export LUT for BKC and Powai firms.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/service-sector-accounting/mumbai-og.webp">
 @endsection
 
@@ -34,7 +34,7 @@
     {
       "@type": "Service",
       "name": "Service Sector Accounting Mumbai - Project Billing & GST",
-      "description": "CA-led service sector accounting in Mumbai. GST 18% on services, SAC codes, project revenue, TDS 194J, Section 44ADA, service export LUT for BKC, Powai firms. Call +91 945 945 6700.",
+      "description": "CA-led service sector accounting in Mumbai. GST on services, SAC codes, project revenue, TDS 194J, Section 44ADA and export LUT for BKC and Powai firms.",
       "url": "https://www.patronaccounting.com/service-sector-accounting/mumbai",
       "serviceType": "Service Sector Accounting Mumbai - Project Billing & GST",
       "areaServed": {

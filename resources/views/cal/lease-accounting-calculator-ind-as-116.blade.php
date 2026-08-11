@@ -7,11 +7,11 @@
     <title>Lease Accounting Calculator | Ind AS 116 ROU &amp; Liability</title>
     <meta name="description" content="Ind AS 116 lease accounting calculator: compute ROU asset, lease liability, year-wise amortization &amp; journal entries with a full schedule. Free CA tool now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/lease-accounting-calculator-ind-as-116">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116">
     <meta property="og:title" content="Lease Accounting Calculator (Ind AS 116 ROU) — FY 2025-26">
     <meta property="og:description" content="Calculate ROU asset &amp; lease liability under Ind AS 116. Year-wise schedule, journal entries, vs old AS 17 comparison. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/lease-accounting-calculator-ind-as-116">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116">
     <meta property="og:image" content="/tools/og/lease-accounting-calculator-ind-as-116.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "Lease Accounting Calculator (Ind AS 116 ROU)",
       "description": "Lease Accounting Calculator (Ind AS 116) computes Right-of-Use (ROU) asset and lease liability for Indian companies under Ind AS 116 Leases (effective 1 April 2019). The tool supports lease terms up to 30 years, monthly/quarterly/half-yearly/annual payment frequencies, advance and arrears timing, annual escalation, initial direct costs, lease incentives, restoration costs and advance payments. Output includes initial recognition values, year-wise amortization schedule with interest expense, principal repayment, ROU depreciation and closing balances, total finance cost and depreciation, journal entries at commencement and during the year, and comparison with old AS 17 / Ind AS 17 operating lease straight-line treatment showing the front-loaded expense pattern impact on EBITDA, profit before tax and key financial ratios.",
-      "url": "/tools/lease-accounting-calculator-ind-as-116",
+      "url": "https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://www.patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Lease Accounting Calculator (Ind AS 116)", "item": "/tools/lease-accounting-calculator-ind-as-116"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Lease Accounting Calculator (Ind AS 116)", "item": "https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116"}
       ]
     }
     </script>
@@ -822,7 +822,7 @@ body.is-embed {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
             <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
             <a href="/blog/loan-to-directors-rules-under-companies-act-2013" class="sidebar-link">Loans to Directors — Sec 185<span class="arrow">→</span></a>
         </div>

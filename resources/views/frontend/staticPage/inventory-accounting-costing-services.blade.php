@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Inventory Accounting and Costing Services in India | Patron Accounting</title>
+    <title>Inventory Accounting and Costing Services in India</title>
     <meta name="description" content="Valuation you can defend - lot, batch or weighted average, applied consistently. Less time in the ledger, more time on decisions. Book a consultation.">
     <link rel="canonical" href="https://www.patronaccounting.com/inventory-accounting-costing-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -634,7 +634,7 @@
   </div>
   <div class="portal-lightbox" id="portalLightbox" aria-hidden="true" role="dialog" aria-label="Portal screenshot">
     <button type="button" class="portal-lightbox__close" aria-label="Close">&times;</button>
-    <img src="" alt="">
+    <img alt="">
   </div>
   <script>
   (function(){
@@ -847,7 +847,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Inventory Accounting Costing FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on inventory accounting costing scope, process, documents and pricing for Indian businesses.</p>
-                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
   <h3 class="faq-enquiry__title">Ask about your books</h3>
   <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>

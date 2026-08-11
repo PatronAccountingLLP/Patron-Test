@@ -1638,12 +1638,7 @@
       <div class="tool-keywords"><span class="tool-keyword">GST Penalty Calculator</span></div>
       <div class="tool-footer"><div class="tool-searches"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><strong>5,000+</strong> searches/mo</div><div class="tool-cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div>
     </a>
-    {{-- <a href="/tools/gstat-appeal-fee" class="tool-card" data-category="gst">
-      <div class="tool-card-header"><div class="tool-icon cat-gst"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/></svg></div><div style="flex:1"><div class="tool-name">GSTAT Appeal Fee Calculator</div></div><span class="tool-priority low">low</span></div>
-      <p style="font-size:13px;color:var(--text-secondary);line-height:1.5;margin-bottom:12px;flex:1;">Calculate GST Appellate Tribunal fees based on dispute value</p>
-      <div class="tool-keywords"><span class="tool-keyword">gstat appeal fee</span></div>
-      <div class="tool-footer"><div class="tool-searches"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><strong>5,000+</strong> searches/mo</div><div class="tool-cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div>
-    </a> --}}
+    {{--  --}}
     <a href="/tools/itc-eligibility-checker" class="tool-card" data-category="gst">
       <div class="tool-card-header"><div class="tool-icon cat-gst"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/></svg></div><div style="flex:1"><div class="tool-name">Input Tax Credit (ITC) Eligibility Checker</div></div><span class="tool-priority high">high</span></div>
       <p style="font-size:13px;color:var(--text-secondary);line-height:1.5;margin-bottom:12px;flex:1;">Check if your purchases qualify for Input Tax Credit claim</p>
@@ -1695,12 +1690,7 @@
       <div class="tool-keywords"><span class="tool-keyword">ppf calculator</span></div>
       <div class="tool-footer"><div class="tool-searches"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><strong>60,000+</strong> searches/mo</div><div class="tool-cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div>
     </a>
-    <a href="/tools/roi-calculator" class="tool-card" data-category="finance">
-      <div class="tool-card-header"><div class="tool-icon cat-finance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/></svg></div><div style="flex:1"><div class="tool-name">ROI Calculator</div></div><span class="tool-priority medium">medium</span></div>
-      <p style="font-size:13px;color:var(--text-secondary);line-height:1.5;margin-bottom:12px;flex:1;">Calculate return on investment percentage for any investment</p>
-      <div class="tool-keywords"><span class="tool-keyword">roi calculator</span></div>
-      <div class="tool-footer"><div class="tool-searches"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><strong>40,000+</strong> searches/mo</div><div class="tool-cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div>
-    </a>
+    
     <a href="/tools/business-loan-emi-calculator" class="tool-card" data-category="finance">
       <div class="tool-card-header"><div class="tool-icon cat-finance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/></svg></div><div style="flex:1"><div class="tool-name">Business Loan EMI Calculator</div></div><span class="tool-priority medium">medium</span></div>
       <p style="font-size:13px;color:var(--text-secondary);line-height:1.5;margin-bottom:12px;flex:1;">Calculate EMI for business loans with amortization schedule</p>

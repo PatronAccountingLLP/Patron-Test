@@ -77,7 +77,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "ITR for Freelancers & Professionals - 44ADA, ITR-4 & TDS",
-          "item": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals"
+          "item": "https://www.patronaccounting.com/itr-for-professionals"
         },
         {
           "@type": "ListItem",
@@ -1251,7 +1251,7 @@
                     <p><strong>&#128204; TL;DR - ITR for Professionals &amp; Freelancers Services at a Glance</strong></p>
                     <p>Every professional and freelancer in Mumbai earning income through professional services, consulting, freelance contracts, or self-employment must file an Income Tax Return reporting this income under 'Profits and Gains from Business or Profession'. Mumbai is India's professional services capital &ndash; Fort and Marine Lines house the country's densest cluster of CAs, lawyers, and tax consultants; Powai and Andheri host thousands of IT and software freelancers serving global clients; BKC is home to management consulting practices; and Bandra and Kala Ghoda have architects and interior designers. The choice between Section 44ADA (50% presumptive), Section 44AD (6%/8% presumptive), and regular ITR-3 (actual books) depends on the profession type, gross receipts, and actual expense ratio.</p>
                 </div>
-                <p>Mumbai's professional ecosystem is India's most diverse and highest-earning. Fort and Marine Lines house thousands of Chartered Accountants and Company Secretaries. Nariman Point and Fort are home to senior lawyers earning through the Bombay High Court. Powai and Andheri have India's highest concentration of IT freelancers working via Upwork, Toptal, and direct contracts. BKC management consultants advise Fortune 500 companies. Bandra and Kala Ghoda architects design Mumbai's skyline. Learn more about <a href="/itr-filing-for-freelancers-professionals">ITR for Professionals &amp; Freelancers across India</a>.</p>
+                <p>Mumbai's professional ecosystem is India's most diverse and highest-earning. Fort and Marine Lines house thousands of Chartered Accountants and Company Secretaries. Nariman Point and Fort are home to senior lawyers earning through the Bombay High Court. Powai and Andheri have India's highest concentration of IT freelancers working via Upwork, Toptal, and direct contracts. BKC management consultants advise Fortune 500 companies. Bandra and Kala Ghoda architects design Mumbai's skyline. Learn more about <a href="/itr-for-professionals">ITR for Professionals &amp; Freelancers across India</a>.</p>
                 <p>Patron Accounting's Mumbai office at Marine Lines provides complete professional and freelancer ITR filing &ndash; from 44ADA vs 44AD vs regular regime analysis to expense deduction optimisation, TDS reconciliation with Form 26AS, foreign income reporting, <a href="/gst-registration/mumbai">GST registration in Mumbai</a> and filing, and e-filing on the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">income tax portal</a> for every professional category.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
@@ -1573,7 +1573,7 @@
                 
                 <p>Explore related services:</p>
                 <ul>
-                    <li><a href="/itr-filing-for-freelancers-professionals">ITR for Professionals &amp; Freelancers (India Overview)</a></li>
+                    <li><a href="/itr-for-professionals">ITR for Professionals &amp; Freelancers (India Overview)</a></li>
                     <li><a href="/income-tax-return">Income Tax Return Filing</a></li>
                     <li><a href="/gst-registration">GST Registration</a> &ndash; For freelancers crossing Rs 20 lakh</li>
                     <li><a href="/accounting-services">Accounting Services</a> &ndash; Year-round bookkeeping</li>
@@ -1698,7 +1698,7 @@
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20professional%2Ffreelancer%20ITR%20filing%20in%20Mumbai.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="mailto:info@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>

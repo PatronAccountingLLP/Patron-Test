@@ -7,11 +7,11 @@
     <title>Ind AS Applicability Checker | Net Worth &amp; Phase Test</title>
     <meta name="description" content="Ind AS applicability checker: find if your company or NBFC must adopt Indian Accounting Standards by net worth, listing &amp; phase. Free CA-reviewed tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ind-as-applicability-checker">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ind-as-applicability-checker">
     <meta property="og:title" content="Ind AS Applicability Checker — Companies &amp; NBFCs FY 2026-27">
     <meta property="og:description" content="Instantly check Ind AS mandatory applicability for your company or NBFC. Phase I/II/III/IV roadmap, group company test, voluntary adoption — CA-reviewed.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/ind-as-applicability-checker">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ind-as-applicability-checker">
     <meta property="og:image" content="/tools/og/ind-as-applicability-checker.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "Ind AS Applicability Checker",
       "description": "Ind AS Applicability Checker is a decision-tree tool that determines whether Indian Accounting Standards (Ind AS) apply to a company or NBFC under the Companies (Indian Accounting Standards) Rules, 2015 and subsequent amendments. The tool evaluates entity type, listing status (mainboard, SME Exchange, in process of listing, unlisted), net worth thresholds (₹250 crore and ₹500 crore), holding/subsidiary/JV/associate group rule under Rule 4(1)(iii)(b), prior adoption (irreversibility), and voluntary adoption eligibility from 1 April 2015. Covers Phase I (FY 2016-17), Phase II (FY 2017-18), NBFC Phase III (FY 2018-19), NBFC Phase IV (FY 2019-20), and 2025 Amendment Rules updates to Ind AS 21, 1, 7, 10, 12, 116.",
-      "url": "/tools/ind-as-applicability-checker",
+      "url": "https://www.patronaccounting.com/tools/ind-as-applicability-checker",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://www.patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Ind AS Applicability Checker", "item": "/tools/ind-as-applicability-checker"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Ind AS Applicability Checker", "item": "https://www.patronaccounting.com/tools/ind-as-applicability-checker"}
       ]
     }
     </script>
@@ -705,7 +705,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <h3>Related Tools</h3>
             <a href="/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
             <a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
-            <a href="/tools/startup-india-eligibility-checker" class="sidebar-link">Startup India Eligibility <span class="arrow">→</span></a>
+            
             <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
             <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
             <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
@@ -715,7 +715,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <h3>From the Blog</h3>
             <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
             <a href="/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing — Complete Guide <span class="arrow">→</span></a>
-            <a href="/blog/understanding-holding-and-subsidiary-companies-a-complete-guide" class="sidebar-link">Holding &amp; Subsidiary Companies <span class="arrow">→</span></a>
+            <a href="/blog/understanding-holding-and-subsidiary-companies" class="sidebar-link">Holding &amp; Subsidiary Companies <span class="arrow">→</span></a>
         </div>
 
     </aside>

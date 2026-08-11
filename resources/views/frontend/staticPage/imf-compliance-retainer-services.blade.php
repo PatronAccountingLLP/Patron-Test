@@ -1110,7 +1110,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -2385,9 +2385,9 @@ function toggleTestiVideo(area){
                     <li><a href="/ismp-certification-isp-appointment">ISMP Certification and ISP Appointment</a> - Principal Officer and ISP coordination plus appointment.</li>
                     <li><a href="/imf-application-rejection-recovery">IMF Application Rejection Recovery</a> - diagnostic and reapplication if IRDAI application was rejected.</li>
                     <li><a href="/statutory-audit">Statutory Audit</a> - annual audit firm engagement (separate if not bundled in the retainer).</li>
-                    <li><a href="/income-tax-return-filing">Income Tax Return Filing</a> - ITR-6 filing for IMF Pvt Ltd entities.</li>
+                    <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-6 filing for IMF Pvt Ltd entities.</li>
                     <li><a href="/gst-registration">GST Registration</a> - GST registration for IMFs crossing the turnover threshold.</li>
-                    <li><a href="/accounting-and-bookkeeping">Accounting and Bookkeeping</a> - ongoing accounting and ISP commission tracking.</li>
+                    <li><a href="/accounting-bookkeeping-services">Accounting and Bookkeeping</a> - ongoing accounting and ISP commission tracking.</li>
                 </ul>
                 <p style="margin-top:16px;">Verify your portal status and IRDAI procedures at the <a href="https://irdai.gov.in" target="_blank" rel="noopener">IRDAI main site</a> and the <a href="https://irdai.gov.in/department/insurance-marketing-firm" target="_blank" rel="noopener">IRDAI Insurance Marketing Firm portal</a>. ROC filings on the <a href="https://www.mca.gov.in" target="_blank" rel="noopener">Ministry of Corporate Affairs (MCA21)</a> portal. Income tax at the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax India e-Filing Portal</a>. GST at the <a href="https://www.gst.gov.in" target="_blank" rel="noopener">GST Portal</a>. Auditing standards at the <a href="https://www.icai.org" target="_blank" rel="noopener">Institute of Chartered Accountants of India</a>.</p>
 
@@ -2560,7 +2560,7 @@ function toggleTestiVideo(area){
                     <a href="/ismp-certification-isp-appointment" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="7" r="4"/><path d="M5 22v-2a7 7 0 0114 0v2"/></svg></div><div><div class="pa-card-title">ISMP and ISP</div><div class="pa-card-sub">PO + ISP coordination</div></div></a>
                     <a href="/imf-application-rejection-recovery" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div><div class="pa-card-title">Rejection Recovery</div><div class="pa-card-sub">Diagnostic + reapply</div></div></a>
                     <a href="/statutory-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">Statutory Audit</div><div class="pa-card-sub">Annual under Sec 139</div></div></a>
-                    <a href="/income-tax-return-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">ITR-6 for Pvt Ltd</div></div></a>
+                    <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">ITR-6 for Pvt Ltd</div></div></a>
                     <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 11H3v10h6V11zM21 3h-6v18h6V3zM15 7H9v14h6V7z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Threshold crossover</div></div></a>
                 </div>
             </div>

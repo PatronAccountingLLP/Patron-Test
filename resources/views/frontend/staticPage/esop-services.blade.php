@@ -3056,7 +3056,7 @@
                         <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span
                                 class="arrow">↗</span></div>
                     </a>
-                    <a href="/financial-certificates-services" class="tile-cp">
+                    <a href="/net-worth-certificate-by-ca" class="tile-cp">
                         <div class="tile-cp-meta-row"><span>12.05</span><span class="tile-cp-form-tag">SERVICE</span>
                         </div>
                         <h3 class="tile-cp-title">Financial Certificates</h3>

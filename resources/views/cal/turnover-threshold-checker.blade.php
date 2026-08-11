@@ -989,7 +989,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
             <a href="/small-company-audit-exemption" class="sidebar-link">Small Company Audit Exemption <span class="arrow">→</span></a>
         </div>
     </aside>

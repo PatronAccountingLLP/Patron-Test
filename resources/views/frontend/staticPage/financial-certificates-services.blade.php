@@ -5,11 +5,11 @@
     <meta name="keywords" content="financial certificates hub India, CA-attested net worth certificate, turnover certificate, solvency certificate, 15CA 15CB FIRC, CMA data, fair market value certificate, Rule 11UA, NBFC RERA startup certificate, visa NWC student visa">
     <meta name="author" content="Patron Accounting LLP">
 
-    <link rel="canonical" href="/financial-certificates-services">
+    <link rel="canonical" href="/net-worth-certificate-by-ca">
 
     <meta property="og:title" content="Net Worth, Turnover & CA Certificates | Patron LLP">
     <meta property="og:description" content="CA-attested net worth, turnover, FMV, remittance and statutory certificates for visa, banking, tender, regulatory and use-case needs.">
-    <meta property="og:url" content="/financial-certificates-services">
+    <meta property="og:url" content="/net-worth-certificate-by-ca">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/images/og/financial-certificates-services-og.jpg">
     <meta property="og:image:width" content="1200">
@@ -36,7 +36,7 @@
   "@type": "ItemList",
   "name": "Financial Certificates Services \u2014 Directory",
   "description": "CA-attested net worth, turnover, FMV, remittance and statutory certificates for visa, banking, tender, regulatory and use-case needs.",
-  "url": "/financial-certificates-services",
+  "url": "/net-worth-certificate-by-ca",
   "numberOfItems": 42,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
@@ -310,7 +310,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "Financial Certificates Services",
-      "item": "/financial-certificates-services"
+      "item": "/net-worth-certificate-by-ca"
     }
   ]
 }

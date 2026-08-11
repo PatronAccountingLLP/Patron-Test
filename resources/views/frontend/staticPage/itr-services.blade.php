@@ -59,7 +59,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "url": "/itr-filing-for-freelancers-professionals",
+      "url": "/itr-for-professionals",
       "name": "ITR Filing for Freelancers & Professionals"
     },
     {
@@ -1367,7 +1367,7 @@
                 <p class="tile-cp-blurb">Monthly books supervised by a CA — the source of truth for business and professional ITRs.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tax-audit-services" class="tile-cp">
+            <a href="/tax-audit" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>06.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Tax Audit (Section 44AB)</h3>
                 <p class="tile-cp-blurb">Tax audit for businesses and professionals crossing the turnover or presumptive thresholds.</p>

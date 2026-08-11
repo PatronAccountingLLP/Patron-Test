@@ -5,12 +5,12 @@
     <meta name="description" content="CA-led accounting and bookkeeping in Delhi — AP/AR outsourcing, reconciliation, MIS reporting, year-end finalisation, software setup, plus Tally/Zoho/QuickBooks/Xero/Odoo and 13 industry variants. From INR 2,499/mo.">
     <meta name="keywords" content="accounting bookkeeping hub India, AP AR outsourcing, bank reconciliation, MIS reporting, year-end finalisation, backlog bookkeeping, chart of accounts setup, Tally Zoho QuickBooks Xero Odoo accounting, industry accounting, CA-led bookkeeping, inventory accounting">
     <meta name="author" content="Patron Accounting LLP">
-    <link rel="canonical" href="/accounting-bookkeeping-services/delhi">
+    <link rel="canonical" href="/accounting-services/delhi">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
     <meta property="og:title" content="Accounting & Bookkeeping Services in Delhi — by Process, Software & Industry | Patron LLP">
     <meta property="og:description" content="CA-led accounting and bookkeeping in Delhi — AP/AR outsourcing, reconciliation, MIS reporting, year-end finalisation, software setup, plus Tally/Zoho/QuickBooks/Xero/Odoo and 13 industry variants. From INR 2,499/mo.">
-    <meta property="og:url" content="/accounting-bookkeeping-services/delhi">
+    <meta property="og:url" content="/accounting-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/images/og/accounting-bookkeeping-services-og.jpg">
     <meta property="og:image:width" content="1200">
@@ -30,7 +30,7 @@
   "@type": "ItemList",
   "name": "Accounting & Bookkeeping Services — Directory",
   "description": "CA-led accounting and bookkeeping — AP/AR outsourcing, reconciliation, MIS reporting, year-end finalisation, software setup, plus Tally/Zoho/QuickBooks/Xero/Odoo and 13 industry variants. From INR 2,499/mo.",
-  "url": "/accounting-bookkeeping-services/delhi",
+  "url": "/accounting-services/delhi",
   "numberOfItems": 36,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
@@ -273,7 +273,7 @@
       "@type": "ListItem",
       "position": 3,
       "name": "Delhi",
-      "item": "/accounting-bookkeeping-services/delhi"
+      "item": "/accounting-services/delhi"
     }
   ]
 }
@@ -979,12 +979,7 @@
                 <p class="tile-cp-blurb">Odoo ERP accounting — your books unified with inventory, sales and operations end to end.</p>
                 <div class="tile-cp-foot"><span>From INR 4,999/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/migration-from-tally-to-zoho/delhi" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>03.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
-                <h3 class="tile-cp-title">Tally to Zoho Migration</h3>
-                <p class="tile-cp-blurb">Move Tally to Zoho Books — COA mapping, opening balances and a reconciled ledger handover.</p>
-                <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="/migration-from-tally-to-quickbooks/delhi" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.07</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Tally to QuickBooks Migration <span class="badge-new-cp">New</span></h3>
@@ -1102,12 +1097,7 @@
                 <p class="tile-cp-blurb">Early-stage books for Delhi startups — investor-ready ledgers, burn tracking and clean diligence prep.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/accounting-services-for-retail/delhi" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>04.12</span><span class="tile-cp-form-tag">SERVICE</span></div>
-                <h3 class="tile-cp-title">Retail Sector Accounting <span class="badge-new-cp">New</span></h3>
-                <p class="tile-cp-blurb">Retail books for Delhi outlets — POS reconciliation, multi-store consolidation and B2C GST handling.</p>
-                <div class="tile-cp-foot"><span>From INR 3,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="/ngo-and-non-profit-accounting-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>04.13</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NGO & Non-Profit Accounting <span class="badge-xlist-cp">Cross-listed</span></h3>
@@ -1176,42 +1166,22 @@
                 <p class="tile-cp-blurb">Monthly burn and how many months of runway remain.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tools/profit-margin-calculator" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>05.05</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Profit Margin Calculator</h3>
-                <p class="tile-cp-blurb">Gross, operating and net margin from your numbers.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="/tools/inventory-turnover-calculator" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>05.06</span><span class="tile-cp-form-tag">FREE</span></div>
                 <h3 class="tile-cp-title">Inventory Turnover Calculator</h3>
                 <p class="tile-cp-blurb">Inventory turnover ratio and days-inventory-outstanding.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tools/invoice-generator" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>05.07</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Invoice Generator</h3>
-                <p class="tile-cp-blurb">Create clean GST-ready invoices in seconds.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="/tools/accounting-ratio-calculator" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>05.08</span><span class="tile-cp-form-tag">FREE</span></div>
                 <h3 class="tile-cp-title">Accounting Ratio Calculator</h3>
                 <p class="tile-cp-blurb">Liquidity, solvency and profitability ratios at a glance.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tools/cash-flow-projection-tool" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>05.09</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Cash Flow Projection Tool</h3>
-                <p class="tile-cp-blurb">Project month-by-month cash inflows and outflows.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
-            <a href="/tools/ctc-to-in-hand-calculator" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>05.10</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">CTC to In-Hand Salary Calculator</h3>
-                <p class="tile-cp-blurb">Break a CTC down to monthly in-hand pay.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
+            
+            
         </div>
     </div>
 </section>
@@ -1238,13 +1208,13 @@
                 <p class="tile-cp-blurb">Income-tax returns for every filer type — fed directly by clean, reconciled accounting.</p>
                 <div class="tile-cp-foot"><span>From INR 499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/payroll-hr-compliance-services" class="tile-cp">
+            <a href="/payroll-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>07.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Payroll & HR Compliance</h3>
                 <p class="tile-cp-blurb">Salary processing, PF/ESIC and statutory payroll — the payroll side of monthly accounting.</p>
                 <div class="tile-cp-foot"><span>From INR 149/emp<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tax-audit-services" class="tile-cp">
+            <a href="/tax-audit" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>07.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Tax Audit (Section 44AB)</h3>
                 <p class="tile-cp-blurb">Statutory tax audit for businesses crossing the turnover or presumptive thresholds.</p>

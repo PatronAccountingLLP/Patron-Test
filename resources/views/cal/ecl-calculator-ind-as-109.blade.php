@@ -7,11 +7,11 @@
     <title>ECL Calculator Ind AS 109 | Expected Credit Loss Tool</title>
     <meta name="description" content="ECL calculator under Ind AS 109: compute Expected Credit Loss via 3-stage General Approach and Simplified Provision Matrix for trade receivables. Free CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ecl-calculator-ind-as-109">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109">
     <meta property="og:title" content="ECL Calculator (Ind AS 109) — FY 2025-26">
     <meta property="og:description" content="Compute Expected Credit Loss under Ind AS 109. Three-stage General Approach + Provision Matrix for trade receivables. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/ecl-calculator-ind-as-109">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109">
     <meta property="og:image" content="/tools/og/ecl-calculator-ind-as-109.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "ECL Calculator (Ind AS 109)",
       "description": "ECL Calculator (Ind AS 109) computes Expected Credit Loss for financial assets under Ind AS 109 Financial Instruments — both General Approach (three-stage model with 12-month or lifetime ECL) and Simplified Approach (provision matrix for trade receivables, contract assets and lease receivables). General Approach supports Stage 1 (no significant increase in credit risk, 12-month ECL), Stage 2 (significant increase in credit risk, lifetime ECL, 30 days past due rebuttable presumption) and Stage 3 (credit-impaired, lifetime ECL, 90 days past due default presumption). Computation uses the standard ECL = PD × LGD × EAD formula where PD is probability of default, LGD is loss given default, EAD is exposure at default. Simplified Approach computes provision matrix across 7 aging buckets (current, 1-30, 31-60, 61-90, 91-180, 181-365, above 365 days) with default rates derived from historical credit loss experience adjusted for forward-looking information. Output includes stage-wise ECL, coverage ratio, journal entry and disclosure narrative aligned with Ind AS 107 Financial Instruments Disclosures.",
-      "url": "/tools/ecl-calculator-ind-as-109",
+      "url": "https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://www.patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": { "@id": "https://www.patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "ECL Calculator (Ind AS 109)", "item": "/tools/ecl-calculator-ind-as-109"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "ECL Calculator (Ind AS 109)", "item": "https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109"}
       ]
     }
     </script>
@@ -763,7 +763,7 @@
             <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
             <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
             <a href="/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation<span class="arrow">→</span></a>
-            <a href="/business-set-up-services" class="sidebar-link">Business Setup<span class="arrow">→</span></a>
+            
         </div>
 
         <div class="sidebar-card">
@@ -778,7 +778,7 @@
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
             <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 

@@ -1125,7 +1125,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: 8 May 2026</span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1939,7 +1939,7 @@
                 <p>Resident Indians with foreign income typically need adjacent compliance work alongside the global income ITR. We bundle these:</p>
 <ul>
 <li><a href="/income-tax-return">Income Tax Return Filing (parent)</a> - all ITR forms, regime selection, AY 2026-27 filing</li>
-<li><a href="/itr-filing-for-freelancers-professionals">ITR for Professionals / Freelancers</a> - peer service for resident professionals billing foreign clients via Section 44ADA</li>
+<li><a href="/itr-for-professionals">ITR for Professionals / Freelancers</a> - peer service for resident professionals billing foreign clients via Section 44ADA</li>
 <li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> - foreign mutual fund / ETF redemption (Section 112 12.5 percent without indexation)</li>
 <li><a href="/esop-management-and-compliance-services">ESOP Management and Compliance</a> - foreign employer ESOPs (RSU vesting, FMV computation, Schedule FA)</li>
 <li><a href="/tax-planning-services">Tax Planning Services</a> - DTAA strategy, regime selection, RNOR transition planning</li>
@@ -2119,7 +2119,7 @@
     <div class="pa-block-sub">End-to-end compliance support for resident Indians with foreign income - DTAA, FTC, capital gains, ESOP, defective return cure.</div>
     <div class="pa-cross-grid">
         <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">All ITR Forms - Parent Service</div></div></a>
-        <a href="/itr-filing-for-freelancers-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Professionals</div><div class="pa-card-sub">Sec 44ADA Foreign Client Billing</div></div></a>
+        <a href="/itr-for-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Professionals</div><div class="pa-card-sub">Sec 44ADA Foreign Client Billing</div></div></a>
         <a href="/itr-for-capital-gains" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Capital Gains</div><div class="pa-card-sub">Foreign MF / ETF Sec 112</div></div></a>
         <a href="/esop-management-and-compliance-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Management</div><div class="pa-card-sub">Foreign Employer RSUs</div></div></a>
         <a href="/tax-planning-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Planning Services</div><div class="pa-card-sub">DTAA &amp; RNOR Strategy</div></div></a>

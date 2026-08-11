@@ -68,7 +68,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "ITR for Professionals &amp; Freelancers",
-          "item": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals"
+          "item": "https://www.patronaccounting.com/itr-for-professionals"
         },
         {
           "@type": "ListItem",
@@ -1274,7 +1274,7 @@
                     <p><strong>&#128204; TL;DR - ITR for Professionals & Freelancers in Delhi Services at a Glance</strong></p>
                     <p>Every Delhi professional (CA, lawyer, doctor, architect) and freelancer (IT developer, designer, writer) must file ITR under PGBP. Two paths: (1) Presumptive - S.44ADA (50% deemed, specified professions, up to Rs 75 lakh digital, ITR-4) or S.44AD (6%/8%, non-specified, up to Rs 3 crore, ITR-4). (2) Regular - ITR-3 with full books and actual expense deductions. Tax audit if receipts >Rs 50 lakh. Due: 31 Aug 2026 (non-audit). Patron files from Delhi.</p>
                 </div>
-                <p>Delhi is India's largest professional services hub. CAs in CP and ITO, lawyers at Tis Hazari and Supreme Court, doctors at AIIMS, IT consultants in Nehru Place, and thousands of freelance designers, writers, and digital marketers. Learn more about <a href="/itr-filing-for-freelancers-professionals">ITR for Professionals across India</a>.</p>
+                <p>Delhi is India's largest professional services hub. CAs in CP and ITO, lawyers at Tis Hazari and Supreme Court, doctors at AIIMS, IT consultants in Nehru Place, and thousands of freelance designers, writers, and digital marketers. Learn more about <a href="/itr-for-professionals">ITR for Professionals across India</a>.</p>
                 <p>Patron Accounting's Delhi office handles professional and freelancer ITR: presumptive vs regular analysis, specified profession determination, books preparation, tax audit, expense optimisation, GST. Integrated with <a href="/gst-returns">GST</a> and <a href="/accounting-services">accounting</a> for complete compliance.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
@@ -1524,7 +1524,7 @@
             <h2 class="section-title">Related Professional Compliance Services</h2>
             <div class="content-text">
                 
-                <ul><li><a href="/itr-filing-for-freelancers-professionals">ITR for Professionals (India)</a> - National-level professional ITR.</li><li><a href="/gst-returns-for-freelancers">GST for Freelancers</a> - Freelancer GST compliance.</li><li><a href="/gst-returns">GST Returns</a> - Monthly GST filing.</li><li><a href="/accounting-services">Accounting Services</a> - Professional bookkeeping.</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - 194J TDS compliance.</li></ul>
+                <ul><li><a href="/itr-for-professionals">ITR for Professionals (India)</a> - National-level professional ITR.</li><li><a href="/gst-returns-for-freelancers">GST for Freelancers</a> - Freelancer GST compliance.</li><li><a href="/gst-returns">GST Returns</a> - Monthly GST filing.</li><li><a href="/accounting-services">Accounting Services</a> - Professional bookkeeping.</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - 194J TDS compliance.</li></ul>
 
             </div>
         </div>

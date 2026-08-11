@@ -13,11 +13,11 @@
 @section('meta')
     <title>ROC Backlog Filing: CCFS Cleanup</title>
     <meta name="description" content="Clear 2 to 5 year ROC backlog under CCFS-2026: 90% fee waiver until 15 July 2026. AOC-4, MGT-7, ADT-1. Patron cleanup from Rs 50,000.">
-    <link rel="canonical" href="/backlog-filings-3-year-cleanup">
+    <link rel="canonical" href="https://www.patronaccounting.com/backlog-filings-3-year-cleanup">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ROC Backlog Filing 2026: CCFS Cleanup | Patron Accounting">
     <meta property="og:description" content="Clear 2 to 5 year ROC backlog under CCFS-2026: 90% fee waiver until 15 July 2026. AOC-4, MGT-7, ADT-1. Patron cleanup from Rs 50,000.">
-    <meta property="og:url" content="/backlog-filings-3-year-cleanup">
+    <meta property="og:url" content="https://www.patronaccounting.com/backlog-filings-3-year-cleanup">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="/images/backlog-filings-3-year-cleanup-og.webp">
@@ -1172,7 +1172,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -2331,7 +2331,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20free%20CCFS-2026%20saving%20estimate%20for%20my%20ROC%20backlog." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="mailto:info@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
@@ -2346,28 +2346,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting offices in Pune, Mumbai, Delhi, and Gurugram. ROC backlog cleanup, DIR-10 DIN reactivation, and Section 252 NCLT revival delivered pan-India under CCFS-2026.</p>
          
             
-            <div class="pa-city-block">
-                <div class="pa-block-title">City-Wise Backlog Cleanup Service Pages</div>
-                <div class="pa-block-sub">Local CA-CS team for in-person coordination plus MCA21 V3 filing under CCFS-2026</div>
-                <div class="pa-city-grid">
-                    <a href="/backlog-filings-3-year-cleanup/pune" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">Backlog Cleanup in Pune</div><div class="pa-card-sub">Maharashtra</div></div>
-                    </a>
-                    <a href="/backlog-filings-3-year-cleanup/mumbai" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">Backlog Cleanup in Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
-                    </a>
-                    <a href="/backlog-filings-3-year-cleanup/delhi" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">Backlog Cleanup in Delhi</div><div class="pa-card-sub">NCT Delhi</div></div>
-                    </a>
-                    <a href="/backlog-filings-3-year-cleanup/gurugram" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">Backlog Cleanup in Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                    </a>
-                </div>
-            </div>
             <div class="pa-city-block">
                 <div class="pa-block-title">Related Patron Services</div>
                 <div class="pa-block-sub">Adjacent services that pair with backlog cleanup</div>

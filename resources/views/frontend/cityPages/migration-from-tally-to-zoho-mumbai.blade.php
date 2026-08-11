@@ -13,11 +13,11 @@
 @section('meta')
     <title>Tally to Zoho Migration in Mumbai 2026 | Patron Accounting</title>
     <meta name="description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
-    <link rel="canonical" href="/migration-from-tally-to-zoho/mumbai">
+    <link rel="canonical" href="/tally-to-zoho-migration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tally to Zoho Migration in Mumbai 2026 | Patron Accounting">
     <meta property="og:description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
-    <meta property="og:url" content="/migration-from-tally-to-zoho/mumbai">
+    <meta property="og:url" content="/tally-to-zoho-migration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="/images/migration-from-tally-to-zoho/mumbai-og.webp">
@@ -51,7 +51,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Tally to Zoho Migration in Mumbai",
-          "item": "/migration-from-tally-to-zoho/mumbai"
+          "item": "/tally-to-zoho-migration/mumbai"
         }
       ]
     },
@@ -133,7 +133,7 @@
       "name": "Tally to Zoho Migration in Mumbai",
       "description": "Tally to Zoho Books migration in Mumbai shifts your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with GST setup, automated bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for BKC, Andheri, Powai, and Bhiwandi businesses.",
       "serviceType": "Tally to Zoho Books Migration",
-      "url": "/migration-from-tally-to-zoho/mumbai",
+      "url": "/tally-to-zoho-migration/mumbai",
       "areaServed": {
         "@type": "City",
         "name": "Mumbai",
@@ -184,7 +184,7 @@
       "@id": "/#localbusiness-mumbai",
       "name": "Patron Accounting LLP - Mumbai",
       "image": "/images/site-logo.svg",
-      "url": "/migration-from-tally-to-zoho/mumbai",
+      "url": "/tally-to-zoho-migration/mumbai",
       "telephone": "+91-9699936369",
       "priceRange": "INR",
       "areaServed": {
@@ -1449,18 +1449,12 @@
                     <div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
                     <span style="position:absolute; top:6px; right:8px; font-size:10px; color:var(--orange); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">You're here</span>
                 </div>
-                <a href="/migration-from-tally-to-zoho/pune" class="pa-city-card">
+                <a href="/tally-to-zoho-migration/pune" class="pa-city-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
                     <div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div>
                 </a>
-                <a href="/migration-from-tally-to-zoho/delhi" class="pa-city-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">Delhi NCR</div></div>
-                </a>
-                <a href="/migration-from-tally-to-zoho/gurugram" class="pa-city-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                </a>
+                
+                
             </div>
         </div>
     </div>

@@ -26,7 +26,7 @@
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"ESOP Valuation Calculator (DCF + Comparables)","description":"ESOP Valuation Calculator computes indicative fair market value (FMV) per share for Indian unlisted companies using Discounted Cash Flow (DCF), EV/Revenue comparables, or a hybrid weighted approach. Takes revenue, growth rate, FCF margin, WACC, terminal growth, comparable multiples, net debt, and shares outstanding. Outputs DCF enterprise value, comparables enterprise value, hybrid FMV per share, 5-year free cash flow projection, terminal value, and a sensitivity table for revenue growth versus discount rate. Issues mandatory Rule 11UA disclaimer that final ESOP valuation requires a SEBI Category I Registered Merchant Banker certificate.","url":"/tools/esop-valuation-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools/"},{"@type":"ListItem","position":3,"name":"ESOP Valuation Calculator (DCF + Comparables)","item":"/tools/esop-valuation-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"ESOP Valuation Calculator (DCF + Comparables)","item":"/tools/esop-valuation-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -592,7 +592,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/share-transfer-procedure-in-private-limited-company-a-complete-guide" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
+<a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
 <a href="/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
 <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
 </div>

@@ -7,11 +7,11 @@
     <title>Deferred Tax Calculator | DTA/DTL AS 22 & Ind AS 12</title>
     <meta name="description" content="Deferred tax calculator: compute DTA & DTL under AS 22 / Ind AS 12 with FY 2025-26 corporate rates, surcharge & cess, plus journal entries. Free CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/deferred-tax-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/deferred-tax-calculator">
     <meta property="og:title" content="Deferred Tax Calculator (DTA/DTL) — AS 22 & Ind AS 12 — FY 2025-26">
     <meta property="og:description" content="Calculate deferred tax assets and liabilities for Indian companies. Auto-effective rate (base + surcharge + cess), multi-line timing differences, journal entries.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/deferred-tax-calculator">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/deferred-tax-calculator">
     <meta property="og:image" content="/tools/og/deferred-tax-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "Deferred Tax Calculator (DTA/DTL)",
       "description": "Deferred Tax Calculator computes Deferred Tax Asset (DTA) and Deferred Tax Liability (DTL) for Indian companies under Accounting Standard 22 (Indian GAAP) and Indian Accounting Standard 12 (Ind AS). The tool supports six tax regimes for FY 2025-26 / AY 2026-27 — domestic company at 25%, domestic company at 30%, Section 115BAA at 22%, Section 115BAB at 15%, foreign company at 35%, and custom rate — with automatic surcharge (0%/7%/12% domestic, 0%/2%/5% foreign, flat 10% for 115BAA/115BAB) and 4% Health and Education Cess to compute the effective tax rate. Timing or temporary differences supported include depreciation differences (Companies Act vs Income Tax Act), Section 43B disallowances (PF, ESI, GST, bonus, leave encashment), provision for doubtful debts, provision for gratuity, provision for leave encashment, provision for warranty, brought-forward business losses and unabsorbed depreciation, plus three custom line items. Output includes total DTA, total DTL, net position, detailed breakdown table and journal entry guidance.",
-      "url": "/tools/deferred-tax-calculator",
+      "url": "https://www.patronaccounting.com/tools/deferred-tax-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://www.patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Deferred Tax Calculator", "item": "/tools/deferred-tax-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Deferred Tax Calculator", "item": "https://www.patronaccounting.com/tools/deferred-tax-calculator"}
       ]
     }
     </script>
@@ -848,7 +848,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
             <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny & Assessment<span class="arrow">→</span></a>
             <a href="/blog/section-154-rectification-how-to-correct-mistakes-in-your-income-tax-return" class="sidebar-link">Section 154 Rectification Guide<span class="arrow">→</span></a>
         </div>

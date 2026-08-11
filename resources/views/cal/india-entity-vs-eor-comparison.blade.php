@@ -790,7 +790,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
         <div class="sidebar-card">
             <h3>Related Tools</h3>
             <a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator<span class="arrow">→</span></a>
-            <a href="/tools/ctc-to-in-hand-calculator" class="sidebar-link">CTC to In-Hand<span class="arrow">→</span></a>
+            
             <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
             <a href="/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
             <a href="/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>

@@ -1013,7 +1013,7 @@
                 <div class="content-text what-is-definition">
                     <p>A QuickBooks to Zoho migration moves your books out of QuickBooks Online, the cloud product Intuit has stopped supporting for India, and into Zoho Books, an India-first platform that sits inside the broader Zoho One suite, keeping your accounts GST-compliant throughout.</p>
                     <p>For a Cyber City ITES firm, the work involves exporting the QBO chart of accounts, loading customer and vendor lists, transferring opening balances, and hooking up the Indian bank feeds QuickBooks Online never supported locally. For a Manesar exporter, it also brings in multi-currency settings, IGST treatment, and item masters so overseas billing keeps working inside Zoho Books.</p>
-                    <p>What sets this apart from a desktop migration is that the QuickBooks tax codes have to be converted to Indian GST before any transaction is loaded. To keep the books running, see <a href="/zoho-books-accounting/gurugram">Zoho Books Accounting in Gurugram</a>; weighing other moves? See <a href="/migration-from-tally-to-zoho/gurugram">Tally to Zoho Migration in Gurugram</a>.</p>
+                    <p>What sets this apart from a desktop migration is that the QuickBooks tax codes have to be converted to Indian GST before any transaction is loaded. To keep the books running, see <a href="/zoho-books-accounting/gurugram">Zoho Books Accounting in Gurugram</a>; weighing other moves? See <a href="/migration-from-tally-to-zoho">Tally to Zoho Migration in Gurugram</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for QuickBooks to Zoho Migration in Gurugram:</strong></p>
@@ -1315,10 +1315,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
                     <div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Gurugram</div></div>
                 </a>
-                <a href="/migration-from-tally-to-zoho/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
-                    <div><div class="pa-card-title">Tally to Zoho Migration</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
+                
                 <a href="/gst-returns/gurugram" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
                     <div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">Gurugram</div></div>

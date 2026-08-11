@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Accounting Services in Delhi, Run by a Local CA Team | Patron Accounting</title>
+    <title>Accounting Services in Delhi, Run by a Local CA Team</title>
     <meta name="description" content="Run for Delhi businesses under Delhi's nil professional tax. Save hours every month, close on time and keep audit season uneventful. See our pricing.">
     <link rel="canonical" href="https://www.patronaccounting.com/accounting-services/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -713,7 +713,7 @@
   </div>
   <div class="portal-lightbox" id="portalLightbox" aria-hidden="true" role="dialog" aria-label="Portal screenshot">
     <button type="button" class="portal-lightbox__close" aria-label="Close">&times;</button>
-    <img src="" alt="">
+    <img alt="">
   </div>
   <script>
   (function(){
@@ -928,7 +928,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Accounting in Delhi FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on accounting for Delhi businesses - scope, local compliance, documents and pricing.</p>
-                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
   <h3 class="faq-enquiry__title">Ask about your books in Delhi</h3>
   <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>

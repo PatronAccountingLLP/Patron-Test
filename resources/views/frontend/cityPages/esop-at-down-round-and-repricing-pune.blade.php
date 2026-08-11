@@ -1173,7 +1173,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <p class="mb-4" style="font-size:16px;color:var(--text-secondary);">For Hinjewadi SaaS, Kharadi product teams and Baner-Balewadi startups that closed a flat or softer round, we repair the ESOP and file the repricing with RoC Pune.</p>

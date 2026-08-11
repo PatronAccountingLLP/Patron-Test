@@ -13,11 +13,11 @@
 @section('meta')
     <title>ITR for Freelancers & Professionals - 44ADA, ITR-4 & TDS</title>
     <meta name="description" content="File ITR-3 or ITR-4 for freelance and professional income in 2026. Expert CA support for 44ADA, TDS refund, and tax audit. Starting from Rs. 1,499.">
-    <link rel="canonical" href="/itr-filing-for-freelancers-professionals">
+    <link rel="canonical" href="/itr-for-professionals">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Freelancers & Professionals - 44ADA, ITR-4 & TDS">
     <meta property="og:description" content="File ITR-3 or ITR-4 for freelance and professional income in 2026. Expert CA support for 44ADA, TDS refund, and tax audit. Starting from Rs. 1,499.">
-    <meta property="og:url" content="/itr-filing-for-freelancers-professionals">
+    <meta property="og:url" content="/itr-for-professionals">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="/images/itr-for-professionals-og.webp">
@@ -36,7 +36,7 @@
           "@type": "Service",
           "name": "ITR for Professionals: CA Filing",
           "description": "File ITR-3 or ITR-4 for freelance and professional income in 2026. Expert CA support for 44ADA, TDS refund, and tax audit. Starting from Rs. 1,499.",
-          "url": "/itr-filing-for-freelancers-professionals",
+          "url": "/itr-for-professionals",
           "serviceType": "ITR for Professionals: CA Filing",
           "areaServed": {
             "@type": "Country",
@@ -52,7 +52,7 @@
             "@type": "Offer",
             "priceCurrency": "INR",
             "availability": "https://schema.org/InStock",
-            "url": "/itr-filing-for-freelancers-professionals",
+            "url": "/itr-for-professionals",
             "priceSpecification": {
               "@type": "PriceSpecification",
               "minPrice": "75",
@@ -64,18 +64,9 @@
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "ITR for Professionals: CA Filing",
-              "item": "/itr-filing-for-freelancers-professionals"
-            }
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
+            { "@type": "ListItem", "position": 2, "name": "Income Tax Return Filing", "item": "/income-tax-return" },
+            { "@type": "ListItem", "position": 3, "name": "ITR for Professionals", "item": "/itr-for-professionals" }
           ]
         },
         {
@@ -1109,7 +1100,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">01 March 2026</span></span>
                         </span>
-                        <a href="/authorhub/ca-sundaram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">

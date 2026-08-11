@@ -7,11 +7,11 @@
     <title>AS vs Ind AS Comparison Matrix | 30 Standards Mapped</title>
     <meta name="description" content="Free AS vs Ind AS comparison matrix: 30 accounting standards mapped with key differences, searchable and filterable. ICAI-aligned, CA-reviewed reference tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/as-vs-ind-as-comparison-matrix">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/as-vs-ind-as-comparison-matrix">
     <meta property="og:title" content="AS vs Ind AS Comparison Matrix — FY 2025-26">
     <meta property="og:description" content="30 Indian GAAP (AS) vs Ind AS standards mapped with key differences. Searchable matrix. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/as-vs-ind-as-comparison-matrix">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/as-vs-ind-as-comparison-matrix">
     <meta property="og:image" content="/tools/og/as-vs-ind-as-comparison-matrix.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "AS vs Ind AS Comparison Matrix",
       "description": "AS vs Ind AS Comparison Matrix is a searchable and filterable reference tool for Indian Chartered Accountants and CFO offices comparing Indian GAAP Accounting Standards (AS) under the Companies (Accounting Standards) Rules 2021 with Indian Accounting Standards (Ind AS) under the Companies (Indian Accounting Standards) Rules 2015. The matrix maps 30 standards across categories — Presentation and Disclosure, Revenue and Income, Assets including Inventory and PPE, Leases, Financial Instruments, Income Taxes, Employee Benefits, Group Reporting and Consolidation, Foreign Currency, Provisions and Contingencies, and Special Standards. For each pair, the matrix shows the AS number, Ind AS number, common topic name, category, and three to four key differences with major-difference flagging. Filter capabilities include keyword search across standard numbers and topic names, multi-select category chips, and a major-differences-only toggle. Suitable for transition planning, dual GAAP reporting, group consolidation, audit preparation, and educational reference for CA students.",
-      "url": "/tools/as-vs-ind-as-comparison-matrix",
+      "url": "https://www.patronaccounting.com/tools/as-vs-ind-as-comparison-matrix",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://www.patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": { "@id": "https://www.patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "AS vs Ind AS Comparison Matrix", "item": "/tools/as-vs-ind-as-comparison-matrix"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "AS vs Ind AS Comparison Matrix", "item": "https://www.patronaccounting.com/tools/as-vs-ind-as-comparison-matrix"}
       ]
     }
     </script>
@@ -592,7 +592,7 @@
             <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
             <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
             <a href="/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation<span class="arrow">→</span></a>
-            <a href="/business-set-up-services" class="sidebar-link">Business Setup<span class="arrow">→</span></a>
+            
         </div>
 
         <div class="sidebar-card">
@@ -609,7 +609,7 @@
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies-what-every-business-must-know" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
             <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 

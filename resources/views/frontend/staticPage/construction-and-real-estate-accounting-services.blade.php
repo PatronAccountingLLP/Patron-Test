@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 @section('meta')
-    <title>Accounting for Construction and Real Estate Companies | Patron Accounting</title>
+    <title>Accounting for Construction and Real Estate Companies</title>
     <meta name="description" content="Project-wise books - every cost traceable to a tower, wing and unit. Know where you stand before your accountant tells you. Get a compliance review.">
     <link rel="canonical" href="https://www.patronaccounting.com/construction-and-real-estate-accounting-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -1198,7 +1198,7 @@
   </div>
   <div class="portal-lightbox" id="portalLightbox" aria-hidden="true" role="dialog" aria-label="Portal screenshot">
     <button type="button" class="portal-lightbox__close" aria-label="Close">&times;</button>
-    <img src="" alt="">
+    <img alt="">
   </div>
   <script>
   (function(){
@@ -1435,7 +1435,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Construction & Real Estate Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Project accounting, the RERA 70% account, POCM revenue, retention, 194C TDS and GST on under-construction property.</p>
-                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
   <h3 class="faq-enquiry__title">Ask about your project books</h3>
   <p class="faq-enquiry__sub">Send your number of projects and RERA registrations for a scoped quote.</p>

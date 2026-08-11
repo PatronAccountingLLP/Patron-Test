@@ -109,7 +109,7 @@
                     Have questions or need more information? We're here to help!
                 </p>
                 <div class="d-flex justify-content-center gap-3">
-                    <a href="/contact-us" class="btn btn-primary btn-lg">
+                    <a href="/contact" class="btn btn-primary btn-lg">
                         <i class="bi bi-envelope"></i> Contact Us
                     </a>
                     <a href="{{ route('frontend.pages.index') }}" class="btn btn-outline-primary btn-lg">

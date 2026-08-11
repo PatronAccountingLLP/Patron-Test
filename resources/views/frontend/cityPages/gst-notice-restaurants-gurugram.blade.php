@@ -1790,7 +1790,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <li><a href="/gst-notice/gurugram">GST notice services in Gurugram</a> - for all other Gurugram GST notice types beyond the restaurant sector.</li>
 <li><a href="/gst-returns-for-restaurants-food-businesses/gurugram">GST returns for restaurants and food businesses in Gurugram</a> - for ongoing restaurant GST returns compliance.</li>
 <li><a href="/gst-audit/gurugram">GST audit services in Gurugram</a> - for Section 65 audit cases (ADT-01 to ADT-02).</li>
-<li><a href="/hospitality-sector-accounting-services/gurugram">Hospitality sector accounting services in Gurugram</a> - broader hospitality accounting needs.</li>
+<li><a href="/hospitality-sector-accounting-services">Hospitality sector accounting services in Gurugram</a> - broader hospitality accounting needs.</li>
 <li><a href="/gstat-appeal-filing/gurugram">GSTAT appeal filing in Gurugram</a> - post DRC-07 appeals to the Haryana State Bench at Gurugram.</li>
 <li><a href="/gst-registration/gurugram">GST registration in Gurugram</a> - for new restaurant GST registration.</li>
 </ul>
@@ -1915,7 +1915,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20a%20free%20case%20review%20for%20my%20Gurugram%20restaurant%20GST%20notice." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="/cdn-cgi/l/email-protection#4c25222a230c3c2d383e23222d2f2f2339223825222b622f2321" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="mailto:info@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
@@ -1945,7 +1945,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         <a href="/gst-notice/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Notice Gurugram</div><div class="pa-card-sub">All Notice Types</div></div></a>
         <a href="/gst-returns-for-restaurants-food-businesses/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Restaurant GST Returns</div><div class="pa-card-sub">Ongoing Compliance</div></div></a>
         <a href="/gst-audit/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit Gurugram</div><div class="pa-card-sub">Section 65</div></div></a>
-        <a href="/hospitality-sector-accounting-services/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Hospitality Accounting</div><div class="pa-card-sub">Gurugram</div></div></a>
+        
         <a href="/gstat-appeal-filing/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal Filing</div><div class="pa-card-sub">Gurugram Bench</div></div></a>
         <a href="/gst-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">New Restaurant</div></div></a>
     </div>

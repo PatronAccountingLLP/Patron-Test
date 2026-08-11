@@ -552,9 +552,9 @@ details[open] summary::before{transform:rotate(90deg)}
   <div class="meta-strip-date">Last updated: <strong>March 2026</strong></div>
   <span class="meta-strip-divider">·</span>
   <div class="meta-strip-author">
-    <a href="/authorhub/ca-sundaram-gupta" class="author-avatar" aria-label="CA Sundram Gupta profile">SG</a>
+    <a href="/authorhub/ca-sundram-gupta" class="author-avatar" aria-label="CA Sundram Gupta profile">SG</a>
     <div class="author-info">
-      <strong><a href="/authorhub/ca-sundaram-gupta" style="color:inherit;text-decoration:none">CA Sundram Gupta</a></strong>
+      <strong><a href="/authorhub/ca-sundram-gupta" style="color:inherit;text-decoration:none">CA Sundram Gupta</a></strong>
       <span>Fellow Chartered Accountant &middot; Patron Accounting LLP</span>
       <div><span class="author-cred">&#10003; ICAI Registered</span> <span class="author-cred">&#10003; FCA</span> <span class="author-cred">&#10003; 15+ Yrs</span></div>
     </div>
@@ -928,7 +928,7 @@ details[open] summary::before{transform:rotate(90deg)}
       <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20compliance%20filings%20for%20my%20business." target="_blank" rel="noopener noreferrer" class="cc-btn cc-btn-wa">💬 WhatsApp</a>
       <a href="tel:+919459456700" class="cc-btn cc-btn-phone">📞 Call</a>
     </div>
-    <a href="/cdn-cgi/l/email-protection#066f68606946766772746968676565697368726f68612865696b" class="cc-btn cc-btn-email" style="margin-top:8px;flex:none">📧 Email Us</a>
+    <a href="mailto:info@patronaccounting.com" class="cc-btn cc-btn-email" style="margin-top:8px;flex:none">📧 Email Us</a>
     <span class="contact-note">Responds within 1 working day · Free first consultation</span>
   </div>
 

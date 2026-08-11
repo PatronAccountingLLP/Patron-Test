@@ -1523,7 +1523,7 @@
             <h2 class="section-title">Related Tax Filing Services</h2>
             <div class="content-text">
                 
-                <ul><li><a href="/itr-for-salary">ITR for Salary (India)</a> - National-level salary ITR.</li><li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> - Equity, property alongside salary.</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Employer TDS compliance.</li><li><a href="/accounting-services">Accounting Services</a> - Financial management.</li><li><a href="/itr-filing-for-freelancers-professionals">ITR for Professionals</a> - Salary + freelance combined.</li></ul>
+                <ul><li><a href="/itr-for-salary">ITR for Salary (India)</a> - National-level salary ITR.</li><li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> - Equity, property alongside salary.</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Employer TDS compliance.</li><li><a href="/accounting-services">Accounting Services</a> - Financial management.</li><li><a href="/itr-for-professionals">ITR for Professionals</a> - Salary + freelance combined.</li></ul>
 
             </div>
         </div>

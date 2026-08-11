@@ -442,7 +442,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>›</span>
-    <a href="/tools/">Free Tools</a><span>›</span>
+    <a href="/tools">Free Tools</a><span>›</span>
     ROE + ROCE + ROA Calculator
 </nav>
 

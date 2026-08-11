@@ -499,7 +499,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span>›</span>
-    <a href="/tools/">Free Tools</a>
+    <a href="/tools">Free Tools</a>
     <span>›</span>
     ESOP Cost to Company Calculator
 </nav>

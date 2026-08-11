@@ -340,7 +340,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#tool">Comparison Tool</a><a href="#how-to-use">How to Use</a><a href="#details">Comparison Table</a><a href="#tax">Tax Rates</a><a href="#compliance">Compliance</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>Business Structure Comparison</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>Business Structure Comparison</nav> --}}
 <header class="hero" id="tool"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Business Structure <span>Comparison Tool</span> — Choose the Right Entity</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Compare all Indian business structures side-by-side: Private Limited Company, OPC, LLP, Partnership Firm, and Sole Proprietorship. See differences in liability protection, tax treatment, compliance burden, funding access, and registration cost. Select your priorities and get a personalised recommendation for your business.</p></div>
 <div class="main-layout"><div class="content-col">

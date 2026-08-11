@@ -336,7 +336,7 @@ body.is-embed .cta-card { display: none !important; }
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#rates">Depreciation Rates</a><a href="#rules">Key Rules</a><a href="#tax">Tax Impact</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>Depreciation Calculator</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>Depreciation Calculator</nav> --}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Depreciation Calculator — <span>Income Tax Act</span> WDV & SLM Method</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Calculate depreciation under the Income Tax Act 1961 using WDV (Written Down Value) or SLM (Straight Line) method. Select your asset category (buildings, P&M, computers, vehicles, furniture, intangibles) — the tool auto-sets the correct IT Act rate. Get year-wise depreciation schedule, accumulated depreciation, closing WDV/book value, and tax savings. Supports the 180-day half-year rule for first-year assets.</p></div>
 <div class="main-layout"><div class="content-col">

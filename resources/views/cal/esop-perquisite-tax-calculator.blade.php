@@ -228,7 +228,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#section-17">Section 17(2)(vi)</a><a href="#slabs">FY 2025-26 Slabs</a><a href="#deferral">80-IAC Deferral</a><a href="#foreign">Foreign ESOPs</a><a href="#tds">TDS Mechanics</a><a href="#capital-gains">After Exercise</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Free Tools</a><span>›</span>Section 17(2)(vi) Perquisite Tax Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Section 17(2)(vi) Perquisite Tax Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

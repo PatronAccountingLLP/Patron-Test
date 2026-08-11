@@ -7,7 +7,7 @@
     <title>Deferred Tax Calculator | DTA/DTL AS 22 & Ind AS 12</title>
     <meta name="description" content="Deferred tax calculator: compute DTA & DTL under AS 22 / Ind AS 12 with FY 2025-26 corporate rates, surcharge & cess, plus journal entries. Free CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/deferred-tax-calculator/">
+    <link rel="canonical" href="/tools/deferred-tax-calculator">
     <meta property="og:title" content="Deferred Tax Calculator (DTA/DTL) — AS 22 & Ind AS 12 — FY 2025-26">
     <meta property="og:description" content="Calculate deferred tax assets and liabilities for Indian companies. Auto-effective rate (base + surcharge + cess), multi-line timing differences, journal entries.">
     <meta property="og:type" content="website">
@@ -423,7 +423,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>›</span>
-    <a href="/tools/">Free Tools</a><span>›</span>
+    <a href="/tools">Free Tools</a><span>›</span>
     Deferred Tax Calculator
 </nav>
 

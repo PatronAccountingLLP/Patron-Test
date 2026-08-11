@@ -305,7 +305,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#checker">Eligibility Checker</a><a href="#how-to-use">How to Use</a><a href="#benefits">Benefits</a><a href="#process">Application Process</a><a href="#comparison">Startup vs MSME</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>Startup India Eligibility</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>Startup India Eligibility</nav> --}}
 <header class="hero" id="checker"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Startup India <span>Eligibility Checker</span> &mdash; DPIIT Recognition</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Check if your business qualifies for <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> DPIIT recognition. Answer 7 questions covering entity type, age, turnover, innovation, and structure. Get instant eligibility verdict with benefits you can avail &mdash; 80-IAC tax exemption (3 years 100% profit deduction), angel tax exemption, patent fast-track, and Seed Fund access.</p></div>
 <div class="main-layout"><div class="content-col">

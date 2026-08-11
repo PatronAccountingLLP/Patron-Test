@@ -7,7 +7,7 @@
     <title>ECL Calculator Ind AS 109 | Expected Credit Loss Tool</title>
     <meta name="description" content="ECL calculator under Ind AS 109: compute Expected Credit Loss via 3-stage General Approach and Simplified Provision Matrix for trade receivables. Free CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ecl-calculator-ind-as-109/">
+    <link rel="canonical" href="/tools/ecl-calculator-ind-as-109">
     <meta property="og:title" content="ECL Calculator (Ind AS 109) — FY 2025-26">
     <meta property="og:description" content="Compute Expected Credit Loss under Ind AS 109. Three-stage General Approach + Provision Matrix for trade receivables. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
@@ -407,7 +407,7 @@
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>›</span>
-    <a href="/tools/">Free Tools</a><span>›</span>
+    <a href="/tools">Free Tools</a><span>›</span>
     ECL Calculator (Ind AS 109)
 </nav>
 

@@ -300,7 +300,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Age Calculator</a><a href="#how-to-use">How to Use</a><a href="#legal-ages">Legal Ages</a><a href="#senior">Senior Citizen</a><a href="#exams">Exam Age Limits</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>Age Calculator</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>Age Calculator</nav> --}}
 
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Age Calculator — <span>Exact Age</span> in Years, Months & Days</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Calculate your exact age from date of birth in years, months, and days. Also shows total months, weeks, days, hours, and minutes lived, next birthday countdown with day of week, and zodiac sign. Useful for government documents, school admissions, senior citizen verification, exam eligibility, and retirement planning.</p></div>

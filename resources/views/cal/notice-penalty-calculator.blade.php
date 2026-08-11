@@ -245,7 +245,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#it-rates">IT Penalty Rates</a><a href="#gst-rates">GST Penalty Rates</a><a href="#mitigation">Mitigation Paths</a><a href="#worked-example">Worked Examples</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Free Tools</a><span>›</span>Notice Penalty Exposure Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Notice Penalty Exposure Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

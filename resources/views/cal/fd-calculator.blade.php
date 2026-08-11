@@ -324,7 +324,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 {{-- 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>&rsaquo;</span>
-    <a href="/tools/">Free Tools</a><span>&rsaquo;</span>
+    <a href="/tools">Free Tools</a><span>&rsaquo;</span>
     FD Calculator
 </nav> --}}
 

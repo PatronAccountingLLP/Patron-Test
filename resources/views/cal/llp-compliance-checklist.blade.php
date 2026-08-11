@@ -313,7 +313,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#checklist">Checklist</a><a href="#how-to-use">How to Use</a><a href="#penalties">Penalties</a><a href="#audit">Audit Rules</a><a href="#costs">Costs</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>LLP Compliance Checklist</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>LLP Compliance Checklist</nav> --}}
 <header class="hero" id="checklist"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>LLP Annual Compliance <span>Checklist</span> &mdash; FY 2025-26</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Track all annual compliance filings for your LLP in one place. Interactive checklist covers ROC filings (Form 8, Form 11), DIR-3 KYC, income tax (ITR-5), GST returns, TDS returns, and audit requirements. Tick items as completed to track progress. Each item shows due date and penalty for late filing under the <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">LLP Act 2008</a>.</p></div>
 <div class="main-layout"><div class="content-col">

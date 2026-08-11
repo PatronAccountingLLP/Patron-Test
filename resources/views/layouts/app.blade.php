@@ -73,7 +73,13 @@
     @endif
 
 @endif
-    
+
+    {{-- 166 templates on this layout define @section('schema') - mostly the /tools
+         calculators - but this layout never yielded it, so their WebApplication,
+         BreadcrumbList and FAQPage blocks were silently dropped. layouts.service-app
+         has always yielded it; this brings app.blade.php into line. --}}
+    @yield('schema')
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

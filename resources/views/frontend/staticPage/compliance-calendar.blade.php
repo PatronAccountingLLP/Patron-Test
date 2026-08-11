@@ -928,7 +928,7 @@ details[open] summary::before{transform:rotate(90deg)}
       <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20compliance%20filings%20for%20my%20business." target="_blank" rel="noopener noreferrer" class="cc-btn cc-btn-wa">💬 WhatsApp</a>
       <a href="tel:+919459456700" class="cc-btn cc-btn-phone">📞 Call</a>
     </div>
-    <a href="mailto:info@patronaccounting.com" class="cc-btn cc-btn-email" style="margin-top:8px;flex:none">📧 Email Us</a>
+    <a href="mailto:sales@patronaccounting.com" class="cc-btn cc-btn-email" style="margin-top:8px;flex:none">📧 Email Us</a>
     <span class="contact-note">Responds within 1 working day · Free first consultation</span>
   </div>
 

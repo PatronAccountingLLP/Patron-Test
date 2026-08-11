@@ -323,7 +323,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">RD Calculator</a><a href="#how-to-use">How to Use</a><a href="#formula">RD Formula</a><a href="#rates">RD Rates</a><a href="#tips">Tips</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>RD Calculator</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>RD Calculator</nav> --}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>RD Calculator &mdash; <span>Recurring Deposit</span> Maturity &amp; Interest</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Calculate your recurring deposit maturity value, total interest earned, and TDS impact. Enter monthly deposit, interest rate, and tenure. RD interest is compounded quarterly by most Indian banks. Get total deposits, interest earned, maturity amount, effective yield, TDS calculation, and a quarter-wise growth table showing how each instalment compounds over time.</p></div>
 <div class="main-layout"><div class="content-col">

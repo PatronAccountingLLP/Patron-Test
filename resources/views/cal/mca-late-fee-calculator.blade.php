@@ -240,7 +240,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#pvtltd-fees">Pvt Ltd Fees</a><a href="#llp-fees">LLP Fees</a><a href="#consequences">Consequences</a><a href="#condonation">Condonation</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Free Tools</a><span>›</span>MCA Late Fee Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>MCA Late Fee Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

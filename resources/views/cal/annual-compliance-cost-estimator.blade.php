@@ -249,7 +249,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-it-works">How It Works</a><a href="#breakdown">Cost Breakdown</a><a href="#entity-types">By Entity Type</a><a href="#patron-vs-commodity">Patron vs Commodity</a><a href="#not-included">Not Included</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Free Tools</a><span>›</span>Annual Compliance Cost Estimator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Annual Compliance Cost Estimator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

@@ -411,7 +411,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>›</span>
-    <a href="/tools/">Free Tools</a><span>›</span>
+    <a href="/tools">Free Tools</a><span>›</span>
     Depreciation Calculator
 </nav>
 

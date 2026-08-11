@@ -854,7 +854,7 @@
 
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a><span>&rsaquo;</span>
-        <a href="/tools/">Free Tools</a><span>&rsaquo;</span>
+        <a href="/tools">Free Tools</a><span>&rsaquo;</span>
         Gratuity Calculator
     </nav> --}}
 

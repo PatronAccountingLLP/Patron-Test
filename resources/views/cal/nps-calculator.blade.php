@@ -325,7 +325,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">NPS Calculator</a><a href="#how-to-use">How to Use</a><a href="#tax">Tax Benefits</a><a href="#allocation">Asset Allocation</a><a href="#tips">Tips</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>NPS Calculator</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>NPS Calculator</nav> --}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>NPS Calculator &mdash; <span>Pension, Lump Sum &amp; Tax Savings</span></h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Estimate your National Pension System retirement corpus, tax-free lump sum (60%), monthly pension from annuity (40%), and tax savings under Sections 80CCD(1), 80CCD(1B), and 80CCD(2). Enter monthly contribution, expected return, current age, and retirement age. NPS offers up to &#8377;2 lakh+ in extra tax deductions beyond 80C. Regulated by <a href="https://www.pfrda.org.in/" target="_blank" rel="noopener">PFRDA</a>.</p></div>
 <div class="main-layout"><div class="content-col">

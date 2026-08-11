@@ -7,7 +7,7 @@
     <title>Ind AS Applicability Checker | Net Worth &amp; Phase Test</title>
     <meta name="description" content="Ind AS applicability checker: find if your company or NBFC must adopt Indian Accounting Standards by net worth, listing &amp; phase. Free CA-reviewed tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ind-as-applicability-checker/">
+    <link rel="canonical" href="/tools/ind-as-applicability-checker">
     <meta property="og:title" content="Ind AS Applicability Checker — Companies &amp; NBFCs FY 2026-27">
     <meta property="og:description" content="Instantly check Ind AS mandatory applicability for your company or NBFC. Phase I/II/III/IV roadmap, group company test, voluntary adoption — CA-reviewed.">
     <meta property="og:type" content="website">
@@ -386,7 +386,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span>›</span>
-    <a href="/tools/">Free Tools</a>
+    <a href="/tools">Free Tools</a>
     <span>›</span>
     Ind AS Applicability Checker
 </nav>

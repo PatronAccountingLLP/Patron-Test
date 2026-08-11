@@ -318,7 +318,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calendar">Calendar</a><a href="#how-to-use">How to Use</a><a href="#penalties">Penalties</a><a href="#pvt-ltd">Pvt Ltd Filings</a><a href="#llp">LLP Filings</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>ROC Filing Calendar</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>ROC Filing Calendar</nav> --}}
 <header class="hero" id="calendar"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>ROC Filing Due Date <span>Calendar</span> &mdash; Pvt Ltd, LLP &amp; OPC</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Track all MCA/ROC filing deadlines for FY 2025-26. Select your entity type to see due dates for AOC-4, MGT-7A, DIR-3 KYC, Form 8, Form 11, ITR, GST, and TDS. Colour-coded cards show overdue (red), due soon (amber), and upcoming (green) filings with penalty amounts. Never miss a filing deadline again.</p></div>
 <div class="main-layout"><div class="content-col">

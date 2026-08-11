@@ -453,7 +453,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span>›</span>
-    <a href="/tools/">Free Tools</a>
+    <a href="/tools">Free Tools</a>
     <span>›</span>
     Income Tax Calculator
 </nav>

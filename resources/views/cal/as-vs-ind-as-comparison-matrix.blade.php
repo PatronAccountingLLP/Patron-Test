@@ -7,7 +7,7 @@
     <title>AS vs Ind AS Comparison Matrix | 30 Standards Mapped</title>
     <meta name="description" content="Free AS vs Ind AS comparison matrix: 30 accounting standards mapped with key differences, searchable and filterable. ICAI-aligned, CA-reviewed reference tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/as-vs-ind-as-comparison-matrix/">
+    <link rel="canonical" href="/tools/as-vs-ind-as-comparison-matrix">
     <meta property="og:title" content="AS vs Ind AS Comparison Matrix — FY 2025-26">
     <meta property="og:description" content="30 Indian GAAP (AS) vs Ind AS standards mapped with key differences. Searchable matrix. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
@@ -362,7 +362,7 @@
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>›</span>
-    <a href="/tools/">Free Tools</a><span>›</span>
+    <a href="/tools">Free Tools</a><span>›</span>
     AS vs Ind AS Comparison Matrix
 </nav>
 

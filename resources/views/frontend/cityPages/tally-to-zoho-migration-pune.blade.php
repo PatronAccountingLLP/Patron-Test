@@ -13,18 +13,18 @@
 @section('meta')
     <title>Tally to Zoho Books Migration in Pune - Steps & Pricing</title>
     <meta name="description" content="CA-assisted Tally to Zoho migration in Pune. Zero data loss, GST & PTRC setup included. Serving Hinjewadi, Kharadi, Chakan MIDC. Call +91 945 945 6700.">
-    <link rel="canonical" href="/tally-to-zoho-migration/pune">
+    <link rel="canonical" href="https://www.patronaccounting.com/tally-to-zoho-migration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tally to Zoho Books Migration in Pune - Steps & Pricing">
     <meta property="og:description" content="CA-assisted Tally to Zoho migration in Pune. Zero data loss, GST & PTRC setup included. Serving Hinjewadi, Kharadi, Chakan MIDC. Call +91 945 945 6700.">
-    <meta property="og:url" content="/tally-to-zoho-migration/pune">
+    <meta property="og:url" content="https://www.patronaccounting.com/tally-to-zoho-migration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tally-to-zoho-migration/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/tally-to-zoho-migration/pune-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to Zoho Books Migration in Pune - Steps & Pricing">
     <meta name="twitter:description" content="CA-assisted Tally to Zoho migration in Pune. Zero data loss, GST & PTRC setup included. Serving Hinjewadi, Kharadi, Chakan MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tally-to-zoho-migration/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/tally-to-zoho-migration/pune-og.webp">
 @endsection
 
 @section('schema')
@@ -35,7 +35,7 @@
       "@type": "Service",
       "name": "Tally to Zoho Books Migration in Pune - Steps & Pricing",
       "description": "CA-assisted Tally to Zoho migration in Pune. Zero data loss, GST & PTRC setup included. Serving Hinjewadi, Kharadi, Chakan MIDC. Call +91 945 945 6700.",
-      "url": "/tally-to-zoho-migration/pune",
+      "url": "https://www.patronaccounting.com/tally-to-zoho-migration/pune",
       "serviceType": "Tally to Zoho Books Migration in Pune - Steps & Pricing",
       "areaServed": {
         "@type": "City",
@@ -48,14 +48,14 @@
       "provider": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com/",
         "logo": "/images/site-logo.svg"
       },
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "/tally-to-zoho-migration/pune",
+        "url": "https://www.patronaccounting.com/tally-to-zoho-migration/pune",
         "priceSpecification": {
           "@type": "PriceSpecification",
           "minPrice": "14999",
@@ -76,8 +76,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Tally To Zoho Migration",
-          "item": "https://www.patronaccounting.com/tally-to-zoho-migration"
+          "name": "Migration: Tally to Zoho Books",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
         },
         {
           "@type": "ListItem",

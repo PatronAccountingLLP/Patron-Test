@@ -13,18 +13,18 @@
 @section('meta')
     <title>Healthcare Accounting in Mumbai - GST & Compliance</title>
     <meta name="description" content="CA-led healthcare accounting in Mumbai. GST exemption advisory, trust audit, Charity Commissioner filing for Parel, Andheri, BKC hospitals. Call +91 945 945 6700.">
-    <link rel="canonical" href="/healthcare-accounting-services/mumbai">
+    <link rel="canonical" href="https://www.patronaccounting.com/healthcare-accounting-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Healthcare Accounting in Mumbai - GST & Compliance">
     <meta property="og:description" content="CA-led healthcare accounting in Mumbai. GST exemption advisory, trust audit, Charity Commissioner filing for Parel, Andheri, BKC hospitals. Call +91 945 945 6700.">
-    <meta property="og:url" content="/healthcare-accounting-services/mumbai">
+    <meta property="og:url" content="https://www.patronaccounting.com/healthcare-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/healthcare-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/healthcare-accounting-services/mumbai-og.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Healthcare Accounting in Mumbai - GST & Compliance">
     <meta name="twitter:description" content="CA-led healthcare accounting in Mumbai. GST exemption advisory, trust audit, Charity Commissioner filing for Parel, Andheri, BKC hospitals. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/healthcare-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/healthcare-accounting-services/mumbai-og.webp">
 @endsection
 
 @section('schema')
@@ -35,7 +35,7 @@
       "@type": "Service",
       "name": "Healthcare Accounting in Mumbai - GST & Compliance",
       "description": "CA-led healthcare accounting in Mumbai. GST exemption advisory, trust audit, Charity Commissioner filing for Parel, Andheri, BKC hospitals. Call +91 945 945 6700.",
-      "url": "/healthcare-accounting-services/mumbai",
+      "url": "https://www.patronaccounting.com/healthcare-accounting-services/mumbai",
       "serviceType": "Healthcare Accounting in Mumbai - GST & Compliance",
       "areaServed": {
         "@type": "City",
@@ -48,14 +48,14 @@
       "provider": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com/",
         "logo": "/images/site-logo.svg"
       },
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "/healthcare-accounting-services/mumbai",
+        "url": "https://www.patronaccounting.com/healthcare-accounting-services/mumbai",
         "price": "15000"
       }
     },
@@ -72,7 +72,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Healthcare Accounting Services",
-          "item": "https://www.patronaccounting.com/healthcare-accounting-services"
+          "item": "https://www.patronaccounting.com/healthcare-sector-accounting-services"
         },
         {
           "@type": "ListItem",

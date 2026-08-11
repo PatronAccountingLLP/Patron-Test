@@ -333,7 +333,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
         <a href="#faqs">FAQs</a>
     </div>
 </nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>Business Loan EMI Calculator</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>Business Loan EMI Calculator</nav> --}}
 <header class="hero" id="calculator">
     <div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div>
     <h1>Business Loan EMI Calculator — <span>MSME, Term & Working Capital</span></h1>

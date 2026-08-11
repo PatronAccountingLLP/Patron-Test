@@ -322,7 +322,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#formula">Formulas</a><a href="#examples">Examples</a><a href="#tips">Tips</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools/">Free Tools</a><span>&rsaquo;</span>Break-Even Calculator</nav> --}}
+{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/tools">Free Tools</a><span>&rsaquo;</span>Break-Even Calculator</nav> --}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Break-Even Analysis <span>Calculator</span> — Units, Revenue & Months</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Find your break-even point — the exact number of units (or revenue) where your business starts making profit. Enter monthly fixed costs, variable cost per unit, and selling price per unit. Get break-even in units and revenue, contribution margin, contribution ratio, margin of safety, months to break even, and a visual chart comparing revenue vs total cost at different volumes.</p></div>
 <div class="main-layout"><div class="content-col">

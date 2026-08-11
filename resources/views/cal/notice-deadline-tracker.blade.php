@@ -264,7 +264,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <a href="#calculator">Tracker</a><a href="#how-to-use">How to Use</a><a href="#reply-windows">Reply Windows</a><a href="#consequences">Missing Deadlines</a><a href="#extension">Getting Extension</a><a href="#calendar">Calendar Export</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Free Tools</a><span>›</span>Notice Reply Deadline Tracker</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Notice Reply Deadline Tracker</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

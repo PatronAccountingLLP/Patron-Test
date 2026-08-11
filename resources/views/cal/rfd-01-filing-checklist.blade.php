@@ -523,7 +523,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span>›</span>
-    <a href="/tools/">Free Tools</a>
+    <a href="/tools">Free Tools</a>
     <span>›</span>
     RFD-01 Pre-Filing Checklist
 </nav>

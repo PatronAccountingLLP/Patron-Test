@@ -401,7 +401,7 @@
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>›</span>
-    <a href="/tools/">Free Tools</a><span>›</span>
+    <a href="/tools">Free Tools</a><span>›</span>
     CARO 2020 Checklist Generator
 </nav>
 

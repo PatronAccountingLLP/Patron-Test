@@ -112,6 +112,29 @@ $accountingClusterRedirects = [
     ['/migration-from-tally-to-quickbooks', '/migration-from-tally-to-zoho'],
     ['/migration-from-zoho-to-quickbooks', '/zoho-books-accounting'],
     ['/migration-from-quickbooks-to-zoho', '/zoho-books-accounting'],
+
+    // QuickBooks retired entirely 2026-08-11 - every QuickBooks service line, in both
+    // directions. The 4 national pages were already redirected above, but their 16 city
+    // pages had been left live and in the sitemap, orphaned from parents that no longer
+    // resolve. All 16 are retired here.
+    // Every target below is a 200 (never itself a redirect), so no chains are introduced.
+    ['/migration-from-quickbooks-to-zoho/delhi', '/zoho-books-accounting'],
+    ['/migration-from-quickbooks-to-zoho/gurugram', '/zoho-books-accounting'],
+    ['/migration-from-quickbooks-to-zoho/mumbai', '/zoho-books-accounting'],
+    ['/migration-from-quickbooks-to-zoho/pune', '/zoho-books-accounting'],
+    ['/quickbooks-accounting/delhi', '/zoho-books-accounting'],
+    ['/quickbooks-accounting/gurugram', '/zoho-books-accounting'],
+    ['/quickbooks-accounting/mumbai', '/zoho-books-accounting'],
+    ['/quickbooks-accounting/pune', '/zoho-books-accounting'],
+    ['/migration-from-zoho-to-quickbooks/delhi', '/zoho-books-accounting'],
+    ['/migration-from-zoho-to-quickbooks/gurugram', '/zoho-books-accounting'],
+    ['/migration-from-zoho-to-quickbooks/mumbai', '/zoho-books-accounting'],
+    ['/migration-from-zoho-to-quickbooks/pune', '/zoho-books-accounting'],
+    // Mumbai and Pune keep city-level relevance - live Tally-to-Zoho city pages exist for both.
+    ['/migration-from-tally-to-quickbooks/mumbai', '/tally-to-zoho-migration/mumbai'],
+    ['/migration-from-tally-to-quickbooks/pune', '/tally-to-zoho-migration/pune'],
+    ['/migration-from-tally-to-quickbooks/delhi', '/migration-from-tally-to-zoho'],
+    ['/migration-from-tally-to-quickbooks/gurugram', '/migration-from-tally-to-zoho'],
 ];
 
 foreach ($accountingClusterRedirects as $__r) {

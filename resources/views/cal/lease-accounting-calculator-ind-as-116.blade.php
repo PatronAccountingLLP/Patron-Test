@@ -7,7 +7,7 @@
     <title>Lease Accounting Calculator | Ind AS 116 ROU &amp; Liability</title>
     <meta name="description" content="Ind AS 116 lease accounting calculator: compute ROU asset, lease liability, year-wise amortization &amp; journal entries with a full schedule. Free CA tool now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/lease-accounting-calculator-ind-as-116/">
+    <link rel="canonical" href="/tools/lease-accounting-calculator-ind-as-116">
     <meta property="og:title" content="Lease Accounting Calculator (Ind AS 116 ROU) — FY 2025-26">
     <meta property="og:description" content="Calculate ROU asset &amp; lease liability under Ind AS 116. Year-wise schedule, journal entries, vs old AS 17 comparison. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
@@ -436,7 +436,7 @@ body.is-embed {
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a><span>›</span>
-    <a href="/tools/">Free Tools</a><span>›</span>
+    <a href="/tools">Free Tools</a><span>›</span>
     Lease Accounting Calculator (Ind AS 116)
 </nav>
 

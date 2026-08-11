@@ -73,15 +73,24 @@
 @endsection
 
 @push('meta-content')
-    {{-- strip any "FY 20xx-xx" year fragment (with its separator + optional "Guide") from the DB title (QC: no year in title) --}}
-    {!! preg_replace('/\s*[|,\x{2013}\x{2014}-]?\s*FY\s*20\d{2}[-\/]\d{2}(?:\s*Guide)?/iu', '', $content->meta_title) !!}
-    {!! $content->canonical !!}
     @php
         $stdMeta = json_decode(@file_get_contents(resource_path('data/accounting-standards-meta.json')), true) ?: [];
         $sm = $stdMeta[$content->slug] ?? null;
         $stdUrl = 'https://www.patronaccounting.com/accounting-standards/'.$content->slug;
         $stdName = 'Accounting Standard '.$content->std_no.' - '.\Illuminate\Support\Str::title($content->std_name);
+
+        // Title: the DB meta_title is hard-truncated at 60 chars, cutting words mid-string
+        // ("...After the Balance Sh"). Prefer the curated 50-54 char title; fall back to the
+        // DB value with the "FY 20xx-xx" fragment stripped (QC: no year in title).
+        $dbTitle = preg_replace('/\s*[|,\x{2013}\x{2014}-]?\s*FY\s*20\d{2}[-\/]\d{2}(?:\s*Guide)?/iu', '', (string) $content->meta_title);
+        // the DB value ships wrapped in <title> tags; unwrap so exactly one tag is emitted
+        $dbTitle = trim(preg_replace('/<\/?title[^>]*>/i', '', $dbTitle));
+        $pageTitle = !empty($sm['title']) ? $sm['title'] : $dbTitle;
     @endphp
+    <title>{{ $pageTitle }}</title>
+    {!! $content->canonical !!}
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta name="twitter:title" content="{{ $pageTitle }}">
     @if($sm && !empty($sm['description']))
     <meta name="description" content="{{ $sm['description'] }}">
     <meta property="og:description" content="{{ $sm['description'] }}">

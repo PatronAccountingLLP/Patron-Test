@@ -710,7 +710,7 @@ a:focus-visible {
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span>›</span>
-    <a href="/tools/">Free Tools</a>
+    <a href="/tools">Free Tools</a>
     <span>›</span>
     ESOP Pool Sizing Calculator
 </nav>

@@ -236,7 +236,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#pre-vs-post">Pre vs Post-money</a><a href="#shuffle">Option Pool Shuffle</a><a href="#benchmarks">Dilution Benchmarks</a><a href="#negotiation">Negotiation Levers</a><a href="#anti-dilution">Anti-Dilution</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Free Tools</a><span>›</span>Dilution Impact Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Dilution Impact Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

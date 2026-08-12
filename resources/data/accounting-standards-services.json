@@ -1,0 +1,912 @@
+{
+ "as-1-disclosure-of-accounting-policies": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-bookkeeping-services",
+   "label": "Accounting & Bookkeeping"
+  }
+ ],
+ "as-2-valuation-of-inventories": [
+  {
+   "url": "/stock-audit",
+   "label": "Stock Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-bookkeeping-services",
+   "label": "Accounting & Bookkeeping"
+  }
+ ],
+ "as-3-cash-flow-statements": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/zoho-books-accounting",
+   "label": "Zoho Books Accounting"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "as-4-contingencies-events-after-bs": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-5-net-profit-prior-period-changes": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-bookkeeping-services",
+   "label": "Accounting & Bookkeeping"
+  }
+ ],
+ "as-7-construction-contracts": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "as-9-revenue-recognition": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "as-10-property-plant-and-equipment": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "as-11-effects-of-changes-in-foreign-exchange-rates": [
+  {
+   "url": "/fdi-compliance",
+   "label": "FDI Compliance"
+  },
+  {
+   "url": "/fla-returns",
+   "label": "FLA Return Filing"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "as-12-accounting-for-government-grants": [
+  {
+   "url": "/startup-registration",
+   "label": "Startup India Registration"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "as-13-accounting-for-investments": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "as-14-amalgamations": [
+  {
+   "url": "/net-worth-certificate",
+   "label": "Net Worth Certificate"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  }
+ ],
+ "as-15-employee-benefits": [
+  {
+   "url": "/gratuity-calculation-and-compliance-services",
+   "label": "Gratuity Valuation"
+  },
+  {
+   "url": "/payroll-services",
+   "label": "Payroll Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "as-16-borrowing-costs": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-17-segment-reporting": [
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "as-18-related-party-disclosures": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/secretarial-audit",
+   "label": "Secretarial Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-19-leases": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-20-earnings-per-share": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-21-consolidated-financial-statements": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-22-accounting-for-taxes-on-income": [
+  {
+   "url": "/tax-audit",
+   "label": "Tax Audit"
+  },
+  {
+   "url": "/tax-planning-services",
+   "label": "Tax Planning"
+  },
+  {
+   "url": "/income-tax-return",
+   "label": "Income Tax Return"
+  }
+ ],
+ "as-23-investments-in-associates": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-24-discontinuing-operations": [
+  {
+   "url": "/company-closure",
+   "label": "Company Closure"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  }
+ ],
+ "as-25-interim-financial-reporting": [
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "as-26-intangible-assets": [
+  {
+   "url": "/trademark-registration",
+   "label": "Trademark Registration"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "as-27-financial-reporting-of-interests-in-joint-ventures": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "as-28-impairment-of-assets": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "as-29-provisions-contingent-liabilities": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-1-presentation-of-financial-statements": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-bookkeeping-services",
+   "label": "Accounting & Bookkeeping"
+  }
+ ],
+ "ind-as-2-inventories": [
+  {
+   "url": "/stock-audit",
+   "label": "Stock Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-bookkeeping-services",
+   "label": "Accounting & Bookkeeping"
+  }
+ ],
+ "ind-as-7-statement-of-cash-flows": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/zoho-books-accounting",
+   "label": "Zoho Books Accounting"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "ind-as-8-accounting-policies-changes-in-estimates-errors": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-bookkeeping-services",
+   "label": "Accounting & Bookkeeping"
+  }
+ ],
+ "ind-as-10-events-after-the-reporting-period": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-12-income-taxes": [
+  {
+   "url": "/tax-audit",
+   "label": "Tax Audit"
+  },
+  {
+   "url": "/tax-planning-services",
+   "label": "Tax Planning"
+  },
+  {
+   "url": "/income-tax-return",
+   "label": "Income Tax Return"
+  }
+ ],
+ "ind-as-16-property-plant-and-equipment": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-19-employee-benefits": [
+  {
+   "url": "/gratuity-calculation-and-compliance-services",
+   "label": "Gratuity Valuation"
+  },
+  {
+   "url": "/payroll-services",
+   "label": "Payroll Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "ind-as-20-government-grants": [
+  {
+   "url": "/startup-registration",
+   "label": "Startup India Registration"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-21-foreign-exchange-rates": [
+  {
+   "url": "/fdi-compliance",
+   "label": "FDI Compliance"
+  },
+  {
+   "url": "/fla-returns",
+   "label": "FLA Return Filing"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "ind-as-23-borrowing-costs": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-24-related-party-disclosures": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/secretarial-audit",
+   "label": "Secretarial Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-27-separate-financial-statements": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-28-investments-in-associates": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-29-hyperinflationary-economies": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-32-financial-instruments-presentation": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-33-earnings-per-share": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-34-interim-financial-reporting": [
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-36-impairment-of-assets": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-37-provisions-contingencies": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-38-intangible-assets": [
+  {
+   "url": "/trademark-registration",
+   "label": "Trademark Registration"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-40-investment-property": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-41-agriculture": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-101-first-time-adoption": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-bookkeeping-services",
+   "label": "Accounting & Bookkeeping"
+  }
+ ],
+ "ind-as-102-share-based-payment": [
+  {
+   "url": "/esop-management-and-compliance-services",
+   "label": "ESOP Compliance"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  }
+ ],
+ "ind-as-103-business-combinations": [
+  {
+   "url": "/net-worth-certificate",
+   "label": "Net Worth Certificate"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  }
+ ],
+ "ind-as-105-held-for-sale-discontinued-operations": [
+  {
+   "url": "/company-closure",
+   "label": "Company Closure"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  }
+ ],
+ "ind-as-106-exploration-evaluation-mineral-resources": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-107-financial-instruments-disclosures": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-108-operating-segments": [
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-109-financial-instruments": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  }
+ ],
+ "ind-as-110-consolidated-financial-statements": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-111-joint-arrangements": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-112-disclosure-of-interests-in-other-entities": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/pvt-llp-compliance",
+   "label": "Pvt Ltd & LLP Compliance"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-113-fair-value-measurement": [
+  {
+   "url": "/net-worth-certificate",
+   "label": "Net Worth Certificate"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-114-regulatory-deferral-accounts": [
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ],
+ "ind-as-115-revenue-from-contracts-with-customers": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  }
+ ],
+ "ind-as-116-leases": [
+  {
+   "url": "/accounting-services",
+   "label": "Accounting Services"
+  },
+  {
+   "url": "/statutory-audit",
+   "label": "Statutory Audit"
+  },
+  {
+   "url": "/internal-audit",
+   "label": "Internal Audit"
+  }
+ ]
+}

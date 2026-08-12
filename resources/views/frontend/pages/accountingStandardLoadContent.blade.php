@@ -16,18 +16,26 @@
                 <button class="search-btn-main" id="searchBtn">Search</button>
             </div>
             
+            @php
+                // Hero CTAs were four hardcoded registration services (GST / Trademark / IEC /
+                // Pvt Ltd) on all 65 standards pages — none relevant to the reader's query.
+                // Serve the services that actually match the standard instead; fall back to the
+                // previous generic set for any slug missing from the map.
+                $stdServices = json_decode(@file_get_contents(resource_path('data/accounting-standards-services.json')), true) ?: [];
+                $heroServices = $stdServices[$content->slug] ?? [
+                    ['url' => '/statutory-audit',   'label' => 'Statutory Audit'],
+                    ['url' => '/accounting-services', 'label' => 'Accounting Services'],
+                    ['url' => '/internal-audit',    'label' => 'Internal Audit'],
+                ];
+            @endphp
             <div class="filter-buttons">
+                @foreach($heroServices as $svc)
                 <button class="filter-btn">
-                    <a href="/gst-registration">GST Registration</a>
+                    <a href="{{ $svc['url'] }}">{{ $svc['label'] }}</a>
                 </button>
-                <button class="filter-btn">
-                    <a href="/trademark-registration">Trademark Registration</a>
-                </button>
-                <button class="filter-btn">
-                    <a href="/iec-registration">IEC Registration</a>
-                </button>
-                <button class="filter-btn">
-                    <a href="/private-limited-company-registration">Private Limited Registration</a>
+                @endforeach
+                <button class="filter-btn filter-btn-primary">
+                    <a href="/contact">Talk to a CA</a>
                 </button>
             </div>
 
@@ -326,6 +334,16 @@ button a{
 .filter-btn.active {
     background: rgba(255, 255, 255, 0.3);
     border-color: rgba(255, 255, 255, 0.5);
+}
+
+.filter-btn-primary {
+    background: #f97316;
+    border-color: #f97316;
+}
+
+.filter-btn-primary:hover {
+    background: #ea580c;
+    border-color: #ea580c;
 }
 
 .action-buttons {

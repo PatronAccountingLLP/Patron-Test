@@ -390,10 +390,17 @@ Route::prefix('nic-code')->group(function () {
     Route::get('/{slug}/{subclsss}', [DynamicController::class, 'nicloadcontent'])->name('dynamic.index');
 });
 
+// The {slug} segments below are constrained to URL-safe characters. Without a
+// constraint Laravel matched anything that was not a slash, so branch addresses and
+// leaked anchor markup that had found their way into these code tables resolved as
+// real routes - /5,Municipalbuilding,Railwaystationsquare,Alwaye,Ernakulampin and
+// /hsn-code/4802 / 4 are both live examples Google is still crawling. A path that
+// does not look like a code now 404s at routing, before it can reach a template.
 Route::prefix('ifsc-code')->group(function () {
     Route::get('/update-slug', [DynamicController::class, 'updateIfscSlug'])->name('dynamic.update-ifsc-slug');
     Route::get('/search', [DynamicController::class, 'searchIfscCodes'])->name('dynamic.search-ifsc');
-    Route::get('/{bankname}/{slug}', [DynamicController::class, 'ifscloadcontent'])->name('dynamic.ifscloadcontent');
+    Route::get('/{bankname}/{slug}', [DynamicController::class, 'ifscloadcontent'])->name('dynamic.ifscloadcontent')
+        ->where(['bankname' => '[A-Za-z0-9\-]+', 'slug' => '[A-Za-z0-9\-]+']);
 });
 
 Route::prefix('port-code')->group(function () {
@@ -405,7 +412,8 @@ Route::prefix('port-code')->group(function () {
 Route::prefix('hsn-code')->group(function () {
     Route::get('/update-slug', [DynamicController::class, 'updateHsnSlug'])->name('dynamic.update-hsn-slug');
     Route::get('/search', [DynamicController::class, 'searchHsnCodes'])->name('dynamic.search-hsn');
-    Route::get('/{slug}', [DynamicController::class, 'hsnloadcontent'])->name('dynamic.hsnloadcontent');
+    Route::get('/{slug}', [DynamicController::class, 'hsnloadcontent'])->name('dynamic.hsnloadcontent')
+        ->where('slug', '[A-Za-z0-9\-]+');
 });
 
 Route::prefix('income-tax-depreciation-rate')->group(function () {

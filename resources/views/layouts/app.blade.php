@@ -36,10 +36,12 @@
         @endif
         
         <!-- Canonical URL -->
-        <link rel="canonical" href="{!! $canonicalUrl !!}">
-        
+        {{-- Escaped: seo_canonical_url is editor-supplied, and raw output let stray
+             markup out of the attribute and into the crawlable link space. --}}
+        <link rel="canonical" href="{{ $canonicalUrl }}">
+
         <!-- Open Graph Meta Tags -->
-        <meta property="og:title" content="{!! $metaTitle !!}">
+        <meta property="og:title" content="{{ $metaTitle }}">
         <meta property="og:description" content="{{ $metaDescription }}">
         {{-- <meta property="og:url" content="{!! $canonicalUrl !!}"> --}}
         <meta property="og:type" content="article">
@@ -82,6 +84,14 @@
     @endif
 
 @endif
+
+    {{-- 7 templates on this layout - the homepage and 6 static pages - push their
+         canonical, meta description, Open Graph and JSON-LD into 'scripts-head',
+         but the stack was never rendered, so all of it was silently dropped. That
+         is why the homepage served no canonical element at all and /, /index.php,
+         /#! and /?utm_source=x all looked like unrelated duplicates to Google.
+         Same class of bug as the @yield('schema') one noted below. --}}
+    @stack('scripts-head')
 
     {{-- 166 templates on this layout define @section('schema') - mostly the /tools
          calculators - but this layout never yielded it, so their WebApplication,

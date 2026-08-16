@@ -2039,6 +2039,9 @@
 <meta name="description" content="Patron Accounting — accounting & compliance for startups & SMEs across India. Zoho Books, ITR filing, GST, payroll & EOR, litigation with GSTAT Principal Bench representation. 4.9★ rated. Offices in Pune, Mumbai, Delhi & Gurgaon.">
 
 <!-- Canonical URL (Change 12) -->
+{{-- This block only reaches the page now that layouts.app stacks 'scripts-head';
+     until then the homepage served no canonical at all, so /, /index.php, /#! and
+     /?utm_source=x all looked like unrelated duplicates. --}}
 <link rel="canonical" href="https://www.patronaccounting.com/">
 
 <!-- Open Graph Tags (Change 11) -->

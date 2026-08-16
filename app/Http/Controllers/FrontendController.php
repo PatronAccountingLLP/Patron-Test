@@ -63,7 +63,16 @@ class FrontendController extends Controller
         }
         
         $posts = $query->paginate(12)->appends($request->all());
-        
+
+        // Past the last real page there is nothing to show, but Laravel still returns an
+        // empty 200. That made /blog?page=999 (and every number after it) a valid URL, so
+        // the crawlable space was infinite and competed with real pages for crawl budget.
+        // Anything beyond the last page is a 404; page 1 of an empty result set is not,
+        // because an empty search or category listing is a legitimate response.
+        if ($posts->currentPage() > 1 && $posts->currentPage() > $posts->lastPage()) {
+            abort(404);
+        }
+
         return view('frontend.posts.index', compact('posts'));
     }
 

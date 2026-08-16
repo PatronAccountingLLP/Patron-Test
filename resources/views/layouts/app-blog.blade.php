@@ -15,7 +15,31 @@
     <meta name="description" content="@yield('meta_description', 'Patron Accounting')">
 
     {{-- CANONICAL (CURRENT URL) --}}
-    <link rel="canonical" href="{!! url()->full() !!}">
+    @php
+        // url()->full() delegates to Symfony's normalizeQueryString(), which SORTS the
+        // query string alphabetically. So /blog?topic=payroll&page=54 emitted a canonical
+        // of /blog?page=54&topic=payroll -- a re-ordered twin that never self-references,
+        // which is what put 362 URLs in "Alternate page with proper canonical tag".
+        //
+        // Build it deterministically instead: only the parameters this page actually
+        // filters on, always in the same order. Anything else (utm_*, topic, fbclid, and
+        // any other param that does not change what is rendered) is dropped, so every
+        // variant of a URL collapses onto one canonical.
+        $canonicalQuery = [];
+        foreach (['category', 'search', 'page'] as $canonicalParam) {
+            $canonicalValue = request()->query($canonicalParam);
+            if (is_array($canonicalValue) || $canonicalValue === null || $canonicalValue === '') {
+                continue;
+            }
+            // page=1 is the same page as no page param at all.
+            if ($canonicalParam === 'page' && (string) $canonicalValue === '1') {
+                continue;
+            }
+            $canonicalQuery[$canonicalParam] = $canonicalValue;
+        }
+        $canonicalUrl = url()->current() . ($canonicalQuery ? '?' . http_build_query($canonicalQuery) : '');
+    @endphp
+    <link rel="canonical" href="{{ $canonicalUrl }}">
 
     {{-- SEO STACK --}}
     @stack('meta')

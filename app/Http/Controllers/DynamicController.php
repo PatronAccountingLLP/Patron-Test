@@ -10,9 +10,34 @@ use App\Models\PortCodeContent;
 use App\Models\HSNCodeData;
 use App\Models\IncomeTaxDepreciationRate;
 use App\Models\AccountingStandard;
+use Illuminate\Support\Str;
 
 class DynamicController extends Controller
 {
+    /**
+     * Force a directory slug into a single URL-safe path segment.
+     *
+     * These code tables are bulk-imported, and some rows carry the branch's postal
+     * address or leaked anchor markup in the slug column instead of a code. Once
+     * linked, each one becomes a permanently crawlable junk URL -- /hsn-code/4802 / 4
+     * and /5,Municipalbuilding,Railwaystationsquare,Alwaye,Ernakulampin are both live
+     * examples. Slugs that are already clean are returned byte-for-byte unchanged, so
+     * this never rewrites a URL that is currently working; only broken ones move.
+     * Returns null when nothing usable survives, so the caller can skip the row.
+     */
+    protected function safeSlugSegment(?string $slug): ?string
+    {
+        $slug = trim((string) $slug);
+
+        if ($slug !== '' && preg_match('/^[A-Za-z0-9\-]+$/', $slug)) {
+            return $slug;
+        }
+
+        $normalised = Str::slug($slug);
+
+        return $normalised === '' ? null : $normalised;
+    }
+
     public function UpdateSlug()
     {
         NicCodeContent::chunk(500, function ($niccodecontents) {
@@ -140,7 +165,12 @@ class DynamicController extends Controller
                 $fullSlug = $content->slug;
                 $slugParts = explode('/', $fullSlug);
                 $slug = $slugParts[1] ?? $fullSlug;
-                
+
+                $slug = $this->safeSlugSegment($slug);
+                if ($slug === null) {
+                    continue;
+                }
+
                 if ($content->slug !== $slug) {
                     $content->slug = $slug;
                     $content->save();
@@ -351,7 +381,12 @@ class DynamicController extends Controller
                         $fullSlug = $content->slug;
                         $slugParts = explode('/', $fullSlug);
                         $slug = $slugParts[1] ?? $fullSlug;
-                
+
+                        $slug = $this->safeSlugSegment($slug);
+                        if ($slug === null) {
+                            continue;
+                        }
+
                         if ($content->slug !== $slug) {
                             $content->slug = $slug;
                             $content->save();

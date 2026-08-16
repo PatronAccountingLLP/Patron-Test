@@ -4,22 +4,22 @@
 <meta name="description" content="ESOP capital gains calculator: gain on sale = sale price minus FMV at exercise, with post-July-2024 LTCG and STCG rates for listed &amp; unlisted shares. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-capital-gains-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">
 
 <meta property="og:title" content="ESOP Capital Gains Calculator — LTCG & STCG 2026">
 <meta property="og:description" content="Compute capital gains tax when you sell ESOP shares: gain = sale price minus FMV at exercise, with post-July-2024 LTCG and STCG rates for listed and unlisted shares.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-capital-gains-calculator">
-<meta property="og:image" content="/tools/esop-capital-gains-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-capital-gains-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Capital Gains Calculator — LTCG & STCG 2026">
 <meta name="twitter:description" content="Capital gains tax on selling ESOP shares: gain = sale price minus FMV at exercise, post-July-2024 LTCG/STCG rates. Free & instant.">
-<meta name="twitter:image" content="/tools/esop-capital-gains-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-capital-gains-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP Capital Gains Calculator",
   "description": "ESOP Capital Gains Calculator computes the capital gains tax payable when an employee sells shares acquired through ESOPs. The capital gain is the sale price less the fair market value on the exercise date, which is the cost of acquisition because that FMV was already taxed as a perquisite. It classifies the gain as short term or long term from the holding period, applies the post 23 July 2024 rates — for listed equity 20 percent short term and 12.5 percent long term above the 1.25 lakh exemption, and for unlisted equity slab rate short term and 12.5 percent long term without indexation — and adds health and education cess.",
-  "url": "/tools/esop-capital-gains-calculator",
+  "url": "https://www.patronaccounting.com/tools/esop-capital-gains-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Capital Gains Calculator", "item": "/tools/esop-capital-gains-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Capital Gains Calculator", "item": "https://www.patronaccounting.com/tools/esop-capital-gains-calculator"}
   ]
 }
 </script>
@@ -703,9 +703,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP Capital Gains Calculator
 </nav>
@@ -824,20 +824,20 @@ a:focus-visible {
             <h2>How to Use the ESOP Capital Gains Calculator</h2>
             <ol>
                 <li><strong>Pick share type</strong> — listed (STT paid) or unlisted/foreign; this sets the holding-period threshold and rates.</li>
-                <li><strong>Enter sale price and the FMV at exercise.</strong> The exercise FMV is your cost of acquisition — use the <a href="/tools/esop-fmv-calculator">ESOP FMV calculator</a> if you need it.</li>
+                <li><strong>Enter sale price and the FMV at exercise.</strong> The exercise FMV is your cost of acquisition — use the <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator">ESOP FMV calculator</a> if you need it.</li>
                 <li><strong>Enter shares sold and the holding period</strong> in months from exercise to sale.</li>
                 <li><strong>For unlisted short-term,</strong> add your slab rate; <strong>for listed long-term,</strong> add any other listed LTCG this year so the ₹1.25L exemption is applied once.</li>
                 <li><strong>Click Calculate</strong> for the gain, the short/long-term classification, and the tax with cess.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Remember stage 1 — the perquisite tax at exercise is separate. This tool is only the <strong>sale-stage</strong> capital gain. For the perquisite/TDS side, see the <a href="/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> and <a href="/tools/esop-tds-calculator">ESOP TDS calculator</a>.</p>
+                <p><strong>CA Tip:</strong> Remember stage 1 — the perquisite tax at exercise is separate. This tool is only the <strong>sale-stage</strong> capital gain. For the perquisite/TDS side, see the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> and <a href="https://www.patronaccounting.com/tools/esop-tds-calculator">ESOP TDS calculator</a>.</p>
             </div>
         </section>
 
         <section class="content-section" id="what-is">
             <h2>The Two-Stage ESOP Tax — and No Double Tax</h2>
             <p>ESOPs are taxed at two points. <strong>Stage 1, at exercise:</strong> the gap between the exercise price and the FMV is a salary <strong>perquisite</strong>. <strong>Stage 2, at sale:</strong> any appreciation above that exercise FMV is a <strong>capital gain</strong>.</p>
-            <p>The key link is that the <strong>FMV at exercise becomes your cost of acquisition</strong> for stage 2. So the perquisite covers the gain up to exercise, and capital gains cover only the gain after exercise — the same rupee is never taxed twice. Patron's <a href="/blog/esop-perquisite-tax-exercise-vs-sale">exercise-vs-sale guide</a> and <a href="/blog/esop-capital-gains-tax-india">ESOP capital gains guide</a> walk through this.</p>
+            <p>The key link is that the <strong>FMV at exercise becomes your cost of acquisition</strong> for stage 2. So the perquisite covers the gain up to exercise, and capital gains cover only the gain after exercise — the same rupee is never taxed twice. Patron's <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale">exercise-vs-sale guide</a> and <a href="https://www.patronaccounting.com/blog/esop-capital-gains-tax-india">ESOP capital gains guide</a> walk through this.</p>
             <div class="formula-box">
                 <span class="label">Capital gain</span> = (Sale price − FMV at exercise) × Shares<br>
                 <span class="label">Holding period</span> = Exercise date → Sale date
@@ -855,7 +855,7 @@ a:focus-visible {
                     <tr><td>Unlisted / foreign</td><td>&gt; 24 months</td><td>Slab rate</td><td>12.5% (no indexation)</td></tr>
                 </tbody>
             </table>
-            <p>These reflect the Finance (No. 2) Act 2024, effective for transfers on or after <strong>23 July 2024</strong> — STCG on listed rose from 15% to 20%, LTCG from 10% to 12.5%, the LTCG exemption rose from ₹1 lakh to ₹1.25 lakh, and indexation was removed for unlisted shares. Earlier sales used the old rates; see Patron's <a href="/blog/capital-gains-tax-changes-budget-2024-impact">Budget 2024 capital-gains changes</a>. A 4% health & education cess applies on the tax. The concessional listed-equity rates require Securities Transaction Tax to have been paid, per the <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a>-regulated exchange framework, and the charge is administered through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>.</p>
+            <p>These reflect the Finance (No. 2) Act 2024, effective for transfers on or after <strong>23 July 2024</strong> — STCG on listed rose from 15% to 20%, LTCG from 10% to 12.5%, the LTCG exemption rose from ₹1 lakh to ₹1.25 lakh, and indexation was removed for unlisted shares. Earlier sales used the old rates; see Patron's <a href="https://www.patronaccounting.com/blog/capital-gains-tax-changes-budget-2024-impact">Budget 2024 capital-gains changes</a>. A 4% health & education cess applies on the tax. The concessional listed-equity rates require Securities Transaction Tax to have been paid, per the <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a>-regulated exchange framework, and the charge is administered through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -886,10 +886,10 @@ a:focus-visible {
                 <li><strong>Cross the long-term line</strong> — 12 months (listed) or 24 months (unlisted) shifts you to the 12.5% rate.</li>
                 <li><strong>Spread sales across financial years</strong> to use the ₹1.25 lakh listed-LTCG exemption more than once.</li>
                 <li><strong>Harvest losses</strong> — set off capital losses against gains within the rules.</li>
-                <li><strong>Reinvestment</strong> — long-term gains may qualify under Sections 54F or 54EC; see Patron's <a href="/blog/section-54-vs-54f-vs-54ec-property-reinvestment">54/54F/54EC guide</a>.</li>
+                <li><strong>Reinvestment</strong> — long-term gains may qualify under Sections 54F or 54EC; see Patron's <a href="https://www.patronaccounting.com/blog/section-54-vs-54f-vs-54ec-property-reinvestment">54/54F/54EC guide</a>.</li>
                 <li><strong>Foreign shares</strong> — disclose in Schedule FA and claim foreign tax credit via Form 67.</li>
             </ul>
-            <p>For the sale process on private-company shares, see <a href="/esop-secondary-sale-advisory">ESOP secondary sale advisory</a>; for filing, <a href="/itr-for-capital-gains">ITR for capital gains</a>.</p>
+            <p>For the sale process on private-company shares, see <a href="https://www.patronaccounting.com/esop-secondary-sale-advisory">ESOP secondary sale advisory</a>; for filing, <a href="https://www.patronaccounting.com/itr-for-capital-gains">ITR for capital gains</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This is indicative. Surcharge on high incomes, loss set-off rules, residency and foreign-exchange conversion can change the result — confirm with a professional before filing.</p>
             </div>
@@ -977,25 +977,25 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-tds-calculator" class="sidebar-link">ESOP TDS Calculator <span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-tds-calculator" class="sidebar-link">ESOP TDS Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/esop-secondary-sale-advisory" class="sidebar-link">ESOP Secondary Sale <span class="arrow">→</span></a>
-            <a href="/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-secondary-sale-advisory" class="sidebar-link">ESOP Secondary Sale <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-capital-gains-tax-india" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
-            <a href="/blog/capital-gains-tax-changes-budget-2024-impact" class="sidebar-link">Budget 2024 CG Changes <span class="arrow">→</span></a>
-            <a href="/blog/esop-perquisite-tax-exercise-vs-sale" class="sidebar-link">Exercise vs Sale Tax <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-capital-gains-tax-india" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/capital-gains-tax-changes-budget-2024-impact" class="sidebar-link">Budget 2024 CG Changes <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale" class="sidebar-link">Exercise vs Sale Tax <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

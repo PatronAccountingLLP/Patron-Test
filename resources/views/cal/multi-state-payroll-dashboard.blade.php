@@ -7,20 +7,20 @@
     <title>Multi-State Payroll Calculator | PT, PF & ESI by State 2026</title>
     <meta name="description" content="Free multi-state payroll dashboard: per-state employer cost, professional tax, PF, ESI and minimum wage compliance across 10+ Indian states. CA-built. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/multi-state-payroll-dashboard/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard/">
     <meta property="og:title" content="Multi-State Payroll Dashboard 2026">
     <meta property="og:description" content="Track payroll across multiple Indian states — professional tax slabs, minimum wages, employer cost, compliance flags.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/multi-state-payroll-dashboard">
-    <meta property="og:image" content="/tools/og/multi-state-payroll-dashboard.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/multi-state-payroll-dashboard.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Multi-State Payroll Dashboard 2026">
     <meta name="twitter:description" content="Track multi-state payroll: PT, min wage, employer cost. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/multi-state-payroll-dashboard.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/multi-state-payroll-dashboard.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "Multi-State Payroll Dashboard",
       "description": "Multi-State Payroll Dashboard is a comprehensive payroll cost analysis tool for Indian companies operating across multiple states. The tool takes per-state headcount and average gross monthly salary inputs across ten major states (Maharashtra, Karnataka, Tamil Nadu, Telangana, Gujarat, Delhi, Uttar Pradesh, West Bengal, Haryana, Punjab) and computes per-state professional tax liability based on applicable slabs as of FY 2025-26, employer Provident Fund contribution at twelve percent of basic wages capped at fifteen thousand rupees or actual basic, Employee State Insurance employer share at three point two five percent for employees earning up to twenty-one thousand rupees per month, gratuity accrual at four point eight one percent under Payment of Gratuity Act 1972, and total monthly employer cost. The tool flags state-specific compliance issues including states without professional tax obligation (Delhi, Uttar Pradesh, Haryana, Rajasthan), states with gender-specific exemptions (Maharashtra women earning up to twenty-five thousand rupees exempt), states with February or March higher deduction (Maharashtra and Karnataka two hundred fifty rupees additional), states with half-yearly payment cycles (Kerala and Tamil Nadu), and minimum wage compliance against state-notified rates. The consolidated dashboard shows total employees across all states, total monthly and annual employer cost, average cost per employee, geographic cost distribution bar chart, per-state breakdown table with employees salary cost professional tax statutory burden and total monthly cost, top three cost-driver states, and compliance flags requiring attention including states where minimum wage is breached states without PTRC registration where required and states with unique compliance triggers like Maharashtra Labour Welfare Fund or Karnataka labour cess. Suitable for CFOs of multi-state operations Chief HR Officers managing distributed teams payroll managers running consolidated cost analysis and statutory auditors validating multi-state compliance.",
-      "url": "/tools/multi-state-payroll-dashboard",
+      "url": "https://www.patronaccounting.com/tools/multi-state-payroll-dashboard",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Multi-State Payroll Dashboard", "item": "/tools/multi-state-payroll-dashboard"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Multi-State Payroll Dashboard", "item": "https://www.patronaccounting.com/tools/multi-state-payroll-dashboard"}
       ]
     }
     </script>
@@ -462,8 +462,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Multi-State Payroll Dashboard
 </nav>
 
@@ -683,30 +683,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
-            <a href="/professional-tax-registration" class="sidebar-link">PT Registration<span class="arrow">→</span></a>
-            <a href="/shops-establishments" class="sidebar-link">Shops &amp; Estab. Registration<span class="arrow">→</span></a>
-            <a href="/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
-            <a href="/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
-            <a href="/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/professional-tax-registration" class="sidebar-link">PT Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/shops-establishments" class="sidebar-link">Shops &amp; Estab. Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/code-on-wages-compliance-checker" class="sidebar-link">Code on Wages Checker<span class="arrow">→</span></a>
-            <a href="/tools/ctc-structure-calculator" class="sidebar-link">CTC Structure Calculator<span class="arrow">→</span></a>
-            <a href="/tools/professional-tax-calculator" class="sidebar-link">PT Calculator<span class="arrow">→</span></a>
-            <a href="/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
-            <a href="/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
-            <a href="/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker" class="sidebar-link">Code on Wages Checker<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ctc-structure-calculator" class="sidebar-link">CTC Structure Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/professional-tax-calculator" class="sidebar-link">PT Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/professional-tax-india" class="sidebar-link">Professional Tax Guide<span class="arrow">→</span></a>
-            <a href="/blog/state-minimum-wages-india" class="sidebar-link">State Minimum Wages<span class="arrow">→</span></a>
-            <a href="/blog/multi-state-payroll-india" class="sidebar-link">Multi-State Payroll Setup<span class="arrow">→</span></a>
-            <a href="/blog/labour-welfare-fund" class="sidebar-link">Labour Welfare Fund<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/professional-tax-india" class="sidebar-link">Professional Tax Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/state-minimum-wages-india" class="sidebar-link">State Minimum Wages<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/multi-state-payroll-india" class="sidebar-link">Multi-State Payroll Setup<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/labour-welfare-fund" class="sidebar-link">Labour Welfare Fund<span class="arrow">→</span></a>
         </div>
 
     </aside>

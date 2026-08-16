@@ -4,23 +4,23 @@
 <title>CARO 2020 Self-Assessment | Applicability &amp; 21 Clauses</title>
 <meta name="description" content="CARO 2020 self-assessment tool: check if the Companies Auditor's Report Order applies to your company and score readiness across all 21 clauses. Free CA tool.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="/tools/caro-2020-self-assessment">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-self-assessment">
 
 <meta property="og:title" content="CARO 2020 Self-Assessment Tool — Free Applicability Check">
 <meta property="og:description" content="Check whether CARO 2020 applies to your company and score audit readiness across all 21 reporting clauses. Free, instant, India-specific.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/caro-2020-self-assessment">
-<meta property="og:image" content="/tools/caro-2020-self-assessment-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/caro-2020-self-assessment">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/caro-2020-self-assessment-og.png">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CARO 2020 Self-Assessment Tool — Free Applicability Check">
 <meta name="twitter:description" content="Check whether CARO 2020 applies to your company and score audit readiness across all 21 reporting clauses.">
-<meta name="twitter:image" content="/tools/caro-2020-self-assessment-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/caro-2020-self-assessment-og.png">
 
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "CARO 2020 Self-Assessment Tool",
   "description": "The CARO 2020 Self-Assessment Tool determines whether the Companies (Auditor's Report) Order 2020 applies to a company under Section 143(11) of the Companies Act 2013, applying the OPC, small company, banking, insurance, Section 8 and three-condition private company exemption tests, and scores audit readiness across all 21 reporting clauses.",
-  "url": "/tools/caro-2020-self-assessment",
+  "url": "https://www.patronaccounting.com/tools/caro-2020-self-assessment",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,8 +59,8 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
-  "provider": { "@id": "/#organization" }
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
 }
 </script>
 
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "CARO 2020 Self-Assessment Tool", "item": "/tools/caro-2020-self-assessment"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "CARO 2020 Self-Assessment Tool", "item": "https://www.patronaccounting.com/tools/caro-2020-self-assessment"}
   ]
 }
 </script>
@@ -1293,9 +1293,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     CARO 2020 Self-Assessment Tool
 </nav>
@@ -1529,7 +1529,7 @@ a:focus-visible {
             <h3>Forgetting the Borrowings Test Is "Any Point in Time"</h3>
             <p>For the private company exemption, the ₹1 crore borrowings condition is tested at <em>any point during the year</em>, not just at year-end. A short-term working capital facility that briefly crossed ₹1 crore mid-year is enough to make CARO 2020 applicable, even if the year-end balance is nil.</p>
             <h3>Assuming Group Companies Are Automatically Exempt</h3>
-            <p>A private company that is a subsidiary or holding company of a public company cannot use the private company exemption at all, regardless of its size. Group structure must be checked before relying on the thresholds. For audit-readiness across entities, see our <a href="/statutory-audit">statutory audit</a> and <a href="/private-limited-company-compliance">private limited company compliance</a> services.</p>
+            <p>A private company that is a subsidiary or holding company of a public company cannot use the private company exemption at all, regardless of its size. Group structure must be checked before relying on the thresholds. For audit-readiness across entities, see our <a href="https://www.patronaccounting.com/statutory-audit">statutory audit</a> and <a href="https://www.patronaccounting.com/private-limited-company-compliance">private limited company compliance</a> services.</p>
         </section>
 
         <section class="content-section" id="auditor-duty">
@@ -1540,7 +1540,7 @@ a:focus-visible {
             <h3>Why Preparation Matters</h3>
             <p>Companies that prepare clause documentation in advance — fixed asset registers, statutory dues reconciliations, related party schedules, going concern ratio working — significantly shorten the audit and reduce the risk of qualifications. The readiness score in this tool is designed to surface gaps early.</p>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Build a CARO file alongside the financial statements, mapping each of the 21 clauses to its supporting working paper and management representation. This is the single most effective way to avoid last-minute audit qualifications. Patron's team conducts <a href="/statutory-audit-private-limited-company">statutory audits for private limited companies</a> with full CARO documentation.</p>
+                <p><strong>CA Tip:</strong> Build a CARO file alongside the financial statements, mapping each of the 21 clauses to its supporting working paper and management representation. This is the single most effective way to avoid last-minute audit qualifications. Patron's team conducts <a href="https://www.patronaccounting.com/statutory-audit-private-limited-company">statutory audits for private limited companies</a> with full CARO documentation.</p>
             </div>
             <div class="callout warn">
                 <p><strong>Note:</strong> This tool gives an indicative assessment for planning only. The binding determination of CARO 2020 applicability and clause-by-clause reporting rests with the statutory auditor, based on the company's actual books, group structure and the rules for the specific financial year. Confirm with a Chartered Accountant.</p>
@@ -1682,28 +1682,28 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
-            <a href="/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
-            <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
-            <a href="/tools/profit-loss-generator" class="sidebar-link">Profit & Loss Generator <span class="arrow">→</span></a>
-            <a href="/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
-            <a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">Profit & Loss Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="/blog/related-party-transactions-under-section-188-a-complete-compliance-guide" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/related-party-transactions-under-section-188-a-complete-compliance-guide" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
         </div>
 
     </aside>

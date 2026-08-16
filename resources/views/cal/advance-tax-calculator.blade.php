@@ -3,23 +3,23 @@
     <title>Advance Tax Calculator | 234B/234C FY 2025-26 & 2026-27</title>
     <meta name="description" content="Advance Tax Calculator: quarterly installments, due dates & Section 234B/234C interest for FY 2025-26 and FY 2026-27. Free CA-reviewed tool. Calculate now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/advance-tax-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/advance-tax-calculator">
 
     <meta property="og:title" content="Advance Tax Calculator — Schedule + 234B/234C FY 2025-26">
     <meta property="og:description" content="Compute quarterly advance tax installments and Section 234B/234C interest for FY 2025-26 with full regime and presumptive taxation support.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/advance-tax-calculator">
-    <meta property="og:image" content="/tools/og/advance-tax-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/advance-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/advance-tax-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Advance Tax Calculator — Schedule + 234B/234C FY 2025-26">
     <meta name="twitter:description" content="Quarterly advance tax installments + Section 234B/234C interest for FY 2025-26. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="/tools/og/advance-tax-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/advance-tax-calculator.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
     <script type="application/ld+json">
@@ -28,7 +28,7 @@
       "@type": "SoftwareApplication",
       "name": "Advance Tax Calculator",
       "description": "Advance Tax Calculator computes quarterly advance tax installments, due dates under Section 211 of the Income Tax Act, and interest payable under Section 234B (default in payment of advance tax) and Section 234C (deferment of advance tax installments) for FY 2025-26 (AY 2026-27). Supports old and new tax regimes, salaried and business income, presumptive taxation under Sections 44AD/44ADA, and senior citizen exemptions. Provides a complete schedule with tolerance bands (12%/36%) for Q1 and Q2 plus exact 75%/100% thresholds for Q3/Q4.",
-      "url": "/tools/advance-tax-calculator",
+      "url": "https://www.patronaccounting.com/tools/advance-tax-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
 
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Advance Tax Calculator", "item": "/tools/advance-tax-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Advance Tax Calculator", "item": "https://www.patronaccounting.com/tools/advance-tax-calculator"}
       ]
     }
     </script>
@@ -469,9 +469,9 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Advance Tax Calculator
 </nav>
@@ -762,7 +762,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <p>For Q3 and Q4, no tolerance applies — the cumulative percentages of 75% and 100% must be paid in full to avoid interest.</p>
 
             <h3>Special Schedule for Presumptive Taxpayers</h3>
-            <p>Per the second proviso to Section 211(1), taxpayers opting for presumptive taxation under <a href="/tools/section-44ada-calculator">Section 44ADA</a> (professionals) or Section 44AD (small businesses) can pay 100% of advance tax in a single installment by 15 March of the financial year. No Section 234C interest applies for the missed first three quarters in this case. This is a significant compliance simplification — particularly valuable for freelancers and consultants whose income is uneven.</p>
+            <p>Per the second proviso to Section 211(1), taxpayers opting for presumptive taxation under <a href="https://www.patronaccounting.com/tools/section-44ada-calculator">Section 44ADA</a> (professionals) or Section 44AD (small businesses) can pay 100% of advance tax in a single installment by 15 March of the financial year. No Section 234C interest applies for the missed first three quarters in this case. This is a significant compliance simplification — particularly valuable for freelancers and consultants whose income is uneven.</p>
 
             <div class="callout">
                 <p><strong>Important:</strong> Any tax paid up to <strong>31 March</strong> of the financial year is still treated as advance tax for that year. Paying after 15 March but before 31 March still counts toward the 100% target — though you may incur Section 234C interest for the Q4 shortfall on 15 March.</p>
@@ -857,7 +857,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             </ul>
 
             <div class="callout">
-                <p><strong>CA Tip:</strong> If you anticipate variable income (consulting, investments, capital gains), pay slightly more than required at each installment. Excess advance tax becomes a refund with interest under Section 244A — better than under-paying and incurring 1% per month penalty interest. Patron's <a href="/income-tax-return">Income Tax Return Filing service</a> includes quarterly advance tax estimation for clients.</p>
+                <p><strong>CA Tip:</strong> If you anticipate variable income (consulting, investments, capital gains), pay slightly more than required at each installment. Excess advance tax becomes a refund with interest under Section 244A — better than under-paying and incurring 1% per month penalty interest. Patron's <a href="https://www.patronaccounting.com/income-tax-return">Income Tax Return Filing service</a> includes quarterly advance tax estimation for clients.</p>
             </div>
         </section>
 
@@ -914,29 +914,29 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers & Professionals <span class="arrow">→</span></a>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
-            <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Tax Audit Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers & Professionals <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Tax Audit Services <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-44ada-calculator" class="sidebar-link">Section 44ADA Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-44ada-calculator" class="sidebar-link">Section 44ADA Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/itr-3-filing-complete-guide-for-business-and-professional-income" class="sidebar-link">ITR-3 Filing — Business & Professional <span class="arrow">→</span></a>
-            <a href="/blog/itr-freelancers-professionals-complex-scenarios-edge-cases" class="sidebar-link">ITR for Freelancers — Edge Cases <span class="arrow">→</span></a>
-            <a href="/blog/do-i-need-to-file-itr-if-tds-is-already-deducted" class="sidebar-link">Do I Need to File ITR if TDS Deducted? <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/itr-3-filing-complete-guide-for-business-and-professional-income" class="sidebar-link">ITR-3 Filing — Business & Professional <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/itr-freelancers-professionals-complex-scenarios-edge-cases" class="sidebar-link">ITR for Freelancers — Edge Cases <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/do-i-need-to-file-itr-if-tds-is-already-deducted" class="sidebar-link">Do I Need to File ITR if TDS Deducted? <span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -3,23 +3,23 @@
 <title>Revenue Projection Calculator | IMF GDP-Based Forecast</title>
 <meta name="description" content="Revenue projection calculator forecasts your revenue using IMF World Economic Outlook GDP growth and inflation data plus your own growth premium. Try now!">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="/tools/imf-revenue-projection-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator">
 
 <meta property="og:title" content="IMF Revenue Projection Calculator — Free Forecast Tool 2026">
 <meta property="og:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India. Free, instant, India-specific.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/imf-revenue-projection-calculator">
-<meta property="og:image" content="/tools/imf-revenue-projection-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IMF Revenue Projection Calculator — Free Forecast Tool 2026">
 <meta name="twitter:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India.">
-<meta name="twitter:image" content="/tools/imf-revenue-projection-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "IMF Revenue Projection Calculator",
   "description": "The IMF Revenue Projection Calculator forecasts multi-year business revenue for Indian companies by anchoring growth to IMF World Economic Outlook real GDP growth and GDP-deflator inflation, plus a user-defined company outperformance premium, returning a year-by-year nominal and real revenue path with CAGR.",
-  "url": "/tools/imf-revenue-projection-calculator",
+  "url": "https://www.patronaccounting.com/tools/imf-revenue-projection-calculator",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,8 +59,8 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
-  "provider": { "@id": "/#organization" }
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
 }
 </script>
 
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "IMF Revenue Projection Calculator", "item": "/tools/imf-revenue-projection-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "IMF Revenue Projection Calculator", "item": "https://www.patronaccounting.com/tools/imf-revenue-projection-calculator"}
   ]
 }
 </script>
@@ -1346,9 +1346,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     IMF Revenue Projection Calculator
 </nav>
@@ -1593,7 +1593,7 @@ a:focus-visible {
             <div class="callout warn">
                 <p><strong>Note:</strong> This tool is a planning aid, not tax advice. Statutory thresholds, rates and due dates change. Always confirm the applicable position for your financial year with a Chartered Accountant before relying on a projection for advance tax, GST or audit decisions.</p>
             </div>
-            <p>If you would like a board-ready financial model that integrates these compliance triggers, scenario analysis and tax provisioning, Patron Accounting's team builds customised projections — see our <a href="/accounting-bookkeeping-services">accounting and bookkeeping</a> and <a href="/income-tax-return">income tax return</a> services.</p>
+            <p>If you would like a board-ready financial model that integrates these compliance triggers, scenario analysis and tax provisioning, Patron Accounting's team builds customised projections — see our <a href="https://www.patronaccounting.com/accounting-bookkeeping-services">accounting and bookkeeping</a> and <a href="https://www.patronaccounting.com/income-tax-return">income tax return</a> services.</p>
         </section>
 
         <div class="body-cta">
@@ -1723,28 +1723,28 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-bookkeeping-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit <span class="arrow">→</span></a>
-            <a href="/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-bookkeeping-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
             
-            <a href="/tools/break-even-calculator" class="sidebar-link">Break-Even Calculator <span class="arrow">→</span></a>
-            <a href="/tools/compound-interest-calculator" class="sidebar-link">Compound Interest Calculator <span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/break-even-calculator" class="sidebar-link">Break-Even Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/compound-interest-calculator" class="sidebar-link">Compound Interest Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
-            <a href="/blog/economic-value-added-eva" class="sidebar-link">Economic Value Added (EVA) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/economic-value-added-eva" class="sidebar-link">Economic Value Added (EVA) <span class="arrow">→</span></a>
         </div>
 
     </aside>

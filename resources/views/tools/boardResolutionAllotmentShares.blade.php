@@ -1,7 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_(' Board Resolution for Allotment of Shares by Increase in Paid-up Share Capital
-')}}
+{{_('Board Resolution: Share Allotment & Paid-up Capital')}}
 @endsection
 
 @section('content')

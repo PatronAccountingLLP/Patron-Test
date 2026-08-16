@@ -4,27 +4,27 @@
 <meta name="description" content="MCA ROC late fee calculator for Pvt Ltd & LLP: AOC-4, MGT-7, DIR-3 KYC, DPT-3, LLP Form 8 & 11. Daily accrual, days overdue, total ₹ payable, condonation.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/mca-late-fee-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/mca-late-fee-calculator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/mca-late-fee-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/mca-late-fee-calculator">
 <meta property="og:title" content="MCA Late Fee Calculator — Pvt Ltd & LLP 2026">
 <meta property="og:description" content="Calculate AOC-4, MGT-7, DIR-3 KYC, DPT-3, LLP Form 8/11 late fees with days overdue, daily accrual, and condonation routing.">
-<meta property="og:image" content="/og/mca-late-fee-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/mca-late-fee-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MCA Late Fee Calculator — Pvt Ltd & LLP 2026">
 <meta name="twitter:description" content="Days overdue + daily ROC accrual + total ₹ + condonation flag for AOC-4, MGT-7, DIR-3 KYC, DPT-3, LLP Form 8/11.">
-<meta name="twitter:image" content="/og/mca-late-fee-calculator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/mca-late-fee-calculator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MCA Late Fee Calculator","description":"MCA ROC Late Fee Calculator computes the late filing fee payable to the Ministry of Corporate Affairs for delayed submission of statutory forms by Private Limited Companies and Limited Liability Partnerships. The tool accepts the entity type (Pvt Ltd or LLP), the specific form being filed (AOC-4 Financial Statements, MGT-7 or MGT-7A Annual Return, DIR-3 KYC Director KYC, DPT-3 Return of Deposits, LLP Form 8 Statement of Account and Solvency, LLP Form 11 Annual Return), the original due date of the form, and the expected filing date. For LLP forms it also accepts a small-LLP toggle (turnover up to forty lakh rupees and partner contribution up to twenty-five lakh rupees) which halves the daily accrual rate. For DPT-3 it accepts the nominal share capital band which determines the base filing fee on which the slab multiplier applies. The tool outputs the days of delay, the daily accrual rate, the total late fee payable in rupees, and a four-tier severity flag: LOW for delays up to thirty days suggesting immediate filing, MEDIUM for delays of thirty-one to ninety days, HIGH for delays of ninety-one to one hundred eighty days, and CRITICAL for delays beyond one hundred eighty days where condonation of delay petition under Section 460 of the Companies Act 2013 may be advisable. For delays beyond three hundred sixty-five days the tool flags strike-off risk and recommends evaluation of company restoration through the National Company Law Tribunal. For DIR-3 KYC delays the tool additionally flags the Director Identification Number (DIN) deactivation status that requires the five thousand rupee late fee for reactivation. The calculation methodology follows Section 403 of the Companies Act 2013 (daily one hundred rupee accrual for AOC-4 and MGT-7 with no maximum cap), Rule 12A of the Companies (Appointment and Qualification of Directors) Rules 2014 (fixed five thousand rupee fee for DIR-3 KYC), the Companies (Registration Offices and Fees) Rules 2014 as amended (slab-based multiplier for DPT-3 ranging from two times the normal fee for delays up to thirty days to twelve times the normal fee for delays beyond one hundred eighty days), and the Limited Liability Partnership (Amendment) Rules 2022 (one hundred rupee per day for normal LLPs and fifty rupee per day for small LLPs on Form 8 and Form 11 with no maximum cap).","url":"/tools/mca-late-fee-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"MCA Late Fee Calculator","description":"MCA ROC Late Fee Calculator computes the late filing fee payable to the Ministry of Corporate Affairs for delayed submission of statutory forms by Private Limited Companies and Limited Liability Partnerships. The tool accepts the entity type (Pvt Ltd or LLP), the specific form being filed (AOC-4 Financial Statements, MGT-7 or MGT-7A Annual Return, DIR-3 KYC Director KYC, DPT-3 Return of Deposits, LLP Form 8 Statement of Account and Solvency, LLP Form 11 Annual Return), the original due date of the form, and the expected filing date. For LLP forms it also accepts a small-LLP toggle (turnover up to forty lakh rupees and partner contribution up to twenty-five lakh rupees) which halves the daily accrual rate. For DPT-3 it accepts the nominal share capital band which determines the base filing fee on which the slab multiplier applies. The tool outputs the days of delay, the daily accrual rate, the total late fee payable in rupees, and a four-tier severity flag: LOW for delays up to thirty days suggesting immediate filing, MEDIUM for delays of thirty-one to ninety days, HIGH for delays of ninety-one to one hundred eighty days, and CRITICAL for delays beyond one hundred eighty days where condonation of delay petition under Section 460 of the Companies Act 2013 may be advisable. For delays beyond three hundred sixty-five days the tool flags strike-off risk and recommends evaluation of company restoration through the National Company Law Tribunal. For DIR-3 KYC delays the tool additionally flags the Director Identification Number (DIN) deactivation status that requires the five thousand rupee late fee for reactivation. The calculation methodology follows Section 403 of the Companies Act 2013 (daily one hundred rupee accrual for AOC-4 and MGT-7 with no maximum cap), Rule 12A of the Companies (Appointment and Qualification of Directors) Rules 2014 (fixed five thousand rupee fee for DIR-3 KYC), the Companies (Registration Offices and Fees) Rules 2014 as amended (slab-based multiplier for DPT-3 ranging from two times the normal fee for delays up to thirty days to twelve times the normal fee for delays beyond one hundred eighty days), and the Limited Liability Partnership (Amendment) Rules 2022 (one hundred rupee per day for normal LLPs and fifty rupee per day for small LLPs on Form 8 and Form 11 with no maximum cap).","url":"https://www.patronaccounting.com/tools/mca-late-fee-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"MCA Late Fee Calculator","item":"/tools/mca-late-fee-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"MCA Late Fee Calculator","item":"https://www.patronaccounting.com/tools/mca-late-fee-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -240,7 +240,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#pvtltd-fees">Pvt Ltd Fees</a><a href="#llp-fees">LLP Fees</a><a href="#consequences">Consequences</a><a href="#condonation">Condonation</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>MCA Late Fee Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>MCA Late Fee Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -329,7 +329,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
 <div class="special-flag" id="dinFlag"><h4>⚠ DIN DEACTIVATION TRIGGERED</h4><p>Missing the DIR-3 KYC deadline <strong>automatically deactivates the Director Identification Number (DIN)</strong> on the MCA portal. The director cannot sign any e-forms, be reflected on any new filing, or attend Board Meetings as a director-of-record until DIR-3 KYC is filed AND the ₹5,000 paid. There is NO condonation route — only filing and payment reactivate the DIN.</p></div>
 
-<div class="special-flag" id="strikeOffFlag"><h4>🚨 STRIKE-OFF EXPOSURE</h4><p>Backlog exceeds 365 days. Under <strong>Section 248(1)(c) of the Companies Act</strong> (or Section 75 of LLP Act), the Registrar may initiate suo-moto strike-off after 2 consecutive years of non-filing of annual forms. Once struck off, bank accounts get frozen and restoration requires an NCLT petition under Section 252 (within 20 years) costing ₹50,000-₹2,00,000 in legal fees plus all accumulated MCA dues. <a href="/restore-struck-off-company-mca" style="color:#7F1D1D;font-weight:700;text-decoration:underline;">Patron handles complete restoration →</a></p></div>
+<div class="special-flag" id="strikeOffFlag"><h4>🚨 STRIKE-OFF EXPOSURE</h4><p>Backlog exceeds 365 days. Under <strong>Section 248(1)(c) of the Companies Act</strong> (or Section 75 of LLP Act), the Registrar may initiate suo-moto strike-off after 2 consecutive years of non-filing of annual forms. Once struck off, bank accounts get frozen and restoration requires an NCLT petition under Section 252 (within 20 years) costing ₹50,000-₹2,00,000 in legal fees plus all accumulated MCA dues. <a href="https://www.patronaccounting.com/restore-struck-off-company-mca" style="color:#7F1D1D;font-weight:700;text-decoration:underline;">Patron handles complete restoration →</a></p></div>
 
 <div class="special-flag warn" id="disqFlag"><h4>⚠ DIRECTOR DISQUALIFICATION RISK</h4><p>If AOC-4 OR MGT-7 is unfiled for 3 consecutive financial years, <strong>ALL directors of the company become disqualified for 5 years across every company they are associated with</strong> under Section 164(2)(a). This requires a separate <strong>CG-1 application</strong> to lift disqualification — process takes 60-90 days. File the pending forms before the 3-year mark to avoid this trap.</p></div>
 
@@ -467,7 +467,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <p>Late fees accrue daily but there is no escalation. File the pending form with the calculated late fee on MCA portal — process takes 24-48 hours including SRN, payment, e-stamp, and acceptance. Patron's fixed-fee filing service handles this within 48 hours.</p>
 
 <h3>Stage 2: 181-365 Days — Active Risk Zone</h3>
-<p>Late fees mount beyond ₹18,000 per form. SRN-related interest may be assessed. Director disqualification clock begins ticking (Section 164(2)(a) trips at 3-year mark). Recommended: file immediately and assess whether <a href="/condonation-of-delay-roc-filings">condonation of delay</a> is needed for the underlying transactions covered by the form.</p>
+<p>Late fees mount beyond ₹18,000 per form. SRN-related interest may be assessed. Director disqualification clock begins ticking (Section 164(2)(a) trips at 3-year mark). Recommended: file immediately and assess whether <a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings">condonation of delay</a> is needed for the underlying transactions covered by the form.</p>
 
 <h3>Stage 3: 365+ Days — Critical</h3>
 <p>Two-year non-filing of AOC-4 + MGT-7 triggers Section 248(1)(c) suo-moto strike-off proceedings. ROC issues STK-1 notice to the company and all directors, publishes STK-5 inviting objections, and issues STK-7 strike-off if no satisfactory response is received within 30 days. Once struck off:</p>
@@ -478,7 +478,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <li>Restoration via NCLT Section 252 petition within 20 years</li>
 <li>Restoration cost: ₹50,000-₹2,00,000 in legal fees + all accumulated MCA dues</li>
 </ul>
-<p>Patron handles complete restoration: <a href="/restore-struck-off-company-mca">company restoration via NCLT</a> and <a href="/condonation-of-delay-roc-filings">condonation petitions</a> with fixed-fee packages.</p>
+<p>Patron handles complete restoration: <a href="https://www.patronaccounting.com/restore-struck-off-company-mca">company restoration via NCLT</a> and <a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings">condonation petitions</a> with fixed-fee packages.</p>
 
 <h3>Stage 4: Director-Specific Consequences</h3>
 <table class="fee-table">
@@ -504,7 +504,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <p><strong>What it does:</strong> Restores a company that has been struck off the Register of Companies. Petition filed before NCLT within 20 years of strike-off.</p>
 <p><strong>What it does NOT do:</strong> Automatically clear pending filings. After restoration, all pending forms must be filed with accumulated late fees.</p>
 <p><strong>When to use:</strong> When the company has already been struck off (status on MCA portal shows "Strike Off" or "Defunct") and you want to revive it — typically because the company has assets, liabilities, ongoing contracts, or pending litigation.</p>
-<p><strong>Cost:</strong> NCLT petition costs ₹50,000-₹2,00,000 depending on complexity, plus all accumulated MCA dues. Patron handles the entire restoration: NCLT petition drafting, hearing representation, and post-restoration ROC filings. See <a href="/restore-struck-off-company-mca">strike-off restoration service</a>.</p>
+<p><strong>Cost:</strong> NCLT petition costs ₹50,000-₹2,00,000 depending on complexity, plus all accumulated MCA dues. Patron handles the entire restoration: NCLT petition drafting, hearing representation, and post-restoration ROC filings. See <a href="https://www.patronaccounting.com/restore-struck-off-company-mca">strike-off restoration service</a>.</p>
 
 <div class="callout"><p><strong>Self-evaluation framework:</strong> Use this calculator to size up your accumulated MCA dues. If &lt; ₹25,000 → file directly. If ₹25,000-₹75,000 → file + evaluate condonation for any transactional impact. If &gt; ₹75,000 OR strike-off / disqualification triggered → engage Patron for end-to-end resolution.</p></div>
 </section>
@@ -553,25 +553,25 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Backlog Resolution</h3>
-<a href="/condonation-of-delay-roc-filings" class="sidebar-link">Condonation of Delay (Section 460) <span class="arrow">→</span></a>
-<a href="/restore-struck-off-company-mca" class="sidebar-link">Restore Struck-off Company <span class="arrow">→</span></a>
-<a href="/director-disqualification-removal" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
-<a href="/compounding-of-offences" class="sidebar-link">Compounding of Offences <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings" class="sidebar-link">Condonation of Delay (Section 460) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/restore-struck-off-company-mca" class="sidebar-link">Restore Struck-off Company <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/director-disqualification-removal" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/compounding-of-offences" class="sidebar-link">Compounding of Offences <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
-<a href="/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
-<a href="/director-kyc" class="sidebar-link">DIR-3 KYC Filing <span class="arrow">→</span></a>
-<a href="/dpt-3-filing" class="sidebar-link">DPT-3 Filing <span class="arrow">→</span></a>
-<a href="/llp-strike-off" class="sidebar-link">LLP Strike-off <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/director-kyc" class="sidebar-link">DIR-3 KYC Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/dpt-3-filing" class="sidebar-link">DPT-3 Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/llp-strike-off" class="sidebar-link">LLP Strike-off <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
-<a href="/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
-<a href="/tools/notice-deadline-tracker" class="sidebar-link">Notice Deadline Tracker <span class="arrow">→</span></a>
-<a href="/tools/din-authenticity-verifier" class="sidebar-link">DIN Notice Verifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-deadline-tracker" class="sidebar-link">Notice Deadline Tracker <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/din-authenticity-verifier" class="sidebar-link">DIN Notice Verifier <span class="arrow">→</span></a>
 </div>
 </aside>
 
@@ -773,7 +773,7 @@ function calculate(){
         actions = [
             '<strong>File the form on MCA portal immediately</strong> — every day costs another ₹' + (result.daily || 100) + '.',
             '<strong>Late fee on filing:</strong> ' + formatINR(result.total) + '.',
-            '<strong>Evaluate condonation under Section 460</strong> if the delay impacts validity of an underlying transaction — <a href="/condonation-of-delay-roc-filings" style="color:var(--primary);font-weight:700;">Patron condonation service</a> (fixed-fee from ₹15,000).',
+            '<strong>Evaluate condonation under Section 460</strong> if the delay impacts validity of an underlying transaction — <a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings" style="color:var(--primary);font-weight:700;">Patron condonation service</a> (fixed-fee from ₹15,000).',
             '<strong>Check sibling forms</strong> — if MGT-7 is overdue, AOC-4 likely is too. File together for combined relief.',
             '<strong>Avoid Section 164(2)(a) trap</strong> — file before the 3-year mark to prevent director disqualification.'
         ];
@@ -782,7 +782,7 @@ function calculate(){
         actions = [
             '<strong>CRITICAL: File immediately</strong> — strike-off proceedings may already be in process.',
             '<strong>Late fee on filing:</strong> ' + formatINR(result.total) + '.',
-            '<strong>Check MCA portal for company status</strong> — if "Strike Off" or "Defunct", file <a href="/restore-struck-off-company-mca" style="color:var(--primary);font-weight:700;">NCLT restoration petition</a> first (₹50,000-₹2,00,000).',
+            '<strong>Check MCA portal for company status</strong> — if "Strike Off" or "Defunct", file <a href="https://www.patronaccounting.com/restore-struck-off-company-mca" style="color:var(--primary);font-weight:700;">NCLT restoration petition</a> first (₹50,000-₹2,00,000).',
             '<strong>Director disqualification likely</strong> — file CG-1 application to lift Section 164(2)(a) bar (60-90 days).',
             '<strong>Combined backlog clearance package</strong> — Patron handles filing + condonation + restoration + disqualification removal as a single workflow. Free 15-min triage call.',
             '<strong>Compounding under Section 441</strong> may be needed if prosecution has been launched.'

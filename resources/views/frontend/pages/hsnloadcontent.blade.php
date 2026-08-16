@@ -256,7 +256,8 @@
 
 {{-- ============================ HEAD: meta + canonical + schema ============================ --}}
 @push('meta-content')
-    {!! $content->meta_title !!}
+    {{-- shortMetaTitle() trims the generated title under Google's ~60-char cut-off; see HSNCodeData --}}
+    {!! $content->shortMetaTitle() !!}
     {!! $content->canonical !!}
 
     {{-- Preload above-the-fold banner art so it paints early (only the matching one downloads).

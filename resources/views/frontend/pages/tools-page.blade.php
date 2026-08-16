@@ -9,7 +9,6 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="description" content="57 Free Online Calculators & Tools by Patron Accounting — GST Calculator, Income Tax Calculator, EMI Calculator, SIP Calculator, CTC to In-Hand Salary & more. 100% Free. No signup required.">
     <link rel="canonical" href="/tools">
-    <link rel="alternate" hreflang="en-in" href="/tools">
     {{-- <title></title> --}}
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
@@ -1996,28 +1995,110 @@
                 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> Offices in Pune, Mumbai, Delhi &amp; Gurugram</li>
             </ul>
         </div>
-        @include('partials.enquiry-form', [
-            'selected' => null,
-            'options'  => [
-                'Private Limited Company Registration' => 'Private Limited Company Registration',
-                'LLP Registration' => 'LLP Registration',
-                'OPC Registration' => 'OPC Registration',
-                'Partnership Firm Registration' => 'Partnership Firm Registration',
-                'Sole Proprietorship Registration' => 'Sole Proprietorship Registration',
-                'GST Registration' => 'GST Registration',
-                'GST Return Filing' => 'GST Return Filing',
-                'Income Tax Return Filing' => 'Income Tax Return Filing',
-                'TDS Return Filing' => 'TDS Return Filing',
-                'Trademark Registration' => 'Trademark Registration',
-                'FSSAI License' => 'FSSAI License',
-                'Import Export Code (IEC)' => 'Import Export Code (IEC)',
-                'Annual Compliance (ROC Filing)' => 'Annual Compliance (ROC Filing)',
-                'Accounting &amp; Bookkeeping' => 'Accounting &amp; Bookkeeping',
-                'Payroll Management' => 'Payroll Management',
-                'Audit Services' => 'Audit Services',
-                'Other' => 'Other',
-            ],
-        ])
+        <div class="form-card" id="consultationFormCard">
+            <div class="form-header">
+                <h2 class="form-title">Get Free Consultation</h2>
+                <p class="form-subtitle">Talk to a CA/CS expert today</p>
+            </div>
+
+            <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+            <form id='BiginWebToRecordForm208810000001209168'
+                  name='BiginWebToRecordForm208810000001209168'
+                  action='https://bigin.zoho.in/crm/WebToRecordForm'
+                  method='POST'
+                  enctype='multipart/form-data'
+                  target='hidden208810000001209168Frame'
+                  onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                  accept-charset='UTF-8'>
+
+                <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                <input type='text' style='display:none;' name='returnURL' value='null' />
+                <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Tools Page'/>
+                <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                <input type='hidden' name='Stage' value='Qualification'/>
+                <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                           class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Phone Number</label>
+                    <div class="phone-group" id="phoneGroup">
+                        <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                            <span class="selected-flag" id="selectedFlag">🇮🇳</span>
+                            <span class="selected-code" id="selectedCode">+91</span>
+                            <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                            <div class="country-dropdown-list" id="countryDropdownList">
+                                <input type="text" class="country-search-input" id="countrySearchInput"
+                                       placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                <div class="country-options" id="countryOptions"></div>
+                            </div>
+                        </div>
+                        <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                               placeholder='Enter phone number'
+                               oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error")'/>
+                    </div>
+                    <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">City</label>
+                    <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                           class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Service Needed</label>
+                    <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                        <option value='' disabled selected>Select a service</option>
+                        <option value='Private Limited Company Registration'>Private Limited Company Registration</option>
+                        <option value='LLP Registration'>LLP Registration</option>
+                        <option value='OPC Registration'>OPC Registration</option>
+                        <option value='Partnership Firm Registration'>Partnership Firm Registration</option>
+                        <option value='Sole Proprietorship Registration'>Sole Proprietorship Registration</option>
+                        <option value='GST Registration'>GST Registration</option>
+                        <option value='GST Return Filing'>GST Return Filing</option>
+                        <option value='Income Tax Return Filing'>Income Tax Return Filing</option>
+                        <option value='TDS Return Filing'>TDS Return Filing</option>
+                        <option value='Trademark Registration'>Trademark Registration</option>
+                        <option value='FSSAI License'>FSSAI License</option>
+                        <option value='Import Export Code (IEC)'>Import Export Code (IEC)</option>
+                        <option value='Annual Compliance (ROC Filing)'>Annual Compliance (ROC Filing)</option>
+                        <option value='Accounting &amp; Bookkeeping'>Accounting &amp; Bookkeeping</option>
+                        <option value='Payroll Management'>Payroll Management</option>
+                        <option value='Audit Services'>Audit Services</option>
+                        <option value='Other'>Other</option>
+                    </select>
+                </div>
+
+                <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote →</button>
+            </form>
+
+            <p class="form-response-note">Our team will get back to you shortly. No spam. By submitting, you agree to our <a href="/privacy-policy" style="color:var(--orange);font-weight:600;">Privacy Policy</a>.</p>
+
+            <div class="form-footer">
+                <span class="form-footer-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    100% Secure
+                </span>
+                <span class="form-footer-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                    No Spam
+                </span>
+                <span class="form-footer-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                    Quick Response
+                </span>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -2427,5 +2508,221 @@ if (currentCategory !== 'all' || currentSearch !== '') {
 <!-- ============================================
      CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
      ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
+
+var selectedCountry = countries[0]; // Default: India
+
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
+
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) { dropdown.classList.remove('open'); }
+    else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+function validateConsultationForm() {
+    var isValid = true;
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+    var phoneInput = document.getElementById('phoneNumberInput');
+    var phoneVal = phoneInput.value.trim();
+    if (!phoneVal) {
+        setFieldError(phoneInput, 'Phone number is required');
+        document.getElementById('phoneGroup').classList.add('input-error');
+        isValid = false;
+    } else if (phoneVal.length < 7) {
+        setFieldError(phoneInput, 'Enter a valid phone number');
+        document.getElementById('phoneGroup').classList.add('input-error');
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+    }
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal;
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) { isReturn = false; }
+        }
+    }
+    if(isReturn) { document.getElementById('formSubmitBtn').disabled = true; }
+    return isReturn;
+}
+
+// Bigin iframe success handler
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
+
+<!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 @endsection

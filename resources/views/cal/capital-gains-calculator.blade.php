@@ -3,23 +3,23 @@
     <title>Capital Gains Tax Calculator | STCG & LTCG FY 2025-26</title>
     <meta name="description" content="Capital gains tax calculator FY 2025-26: compute STCG & LTCG on equity, property, gold and debt MF with Section 54/54F/54EC reinvestment exemption. Free.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/capital-gains-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/capital-gains-calculator">
 
     <meta property="og:title" content="Capital Gains Tax Calculator — STCG & LTCG FY 2025-26">
     <meta property="og:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5% above ₹1.25L, property grandfathering option. Free tool for FY 2025-26.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/capital-gains-calculator">
-    <meta property="og:image" content="/tools/og/capital-gains-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/capital-gains-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/capital-gains-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Capital Gains Tax Calculator — STCG & LTCG FY 2025-26">
     <meta name="twitter:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5%, property grandfathering option.">
-    <meta name="twitter:image" content="/tools/og/capital-gains-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/capital-gains-calculator.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
     <script type="application/ld+json">
@@ -28,7 +28,7 @@
       "@type": "SoftwareApplication",
       "name": "Capital Gains Tax Calculator",
       "description": "Capital Gains Tax Calculator computes Short-Term and Long-Term Capital Gains tax for FY 2025-26 (AY 2026-27) under the post-23-July-2024 framework — Section 111A at 20 percent for equity STCG, Section 112A at 12.5 percent above ₹1.25 lakh for equity LTCG, and Section 112 at 12.5 percent without indexation for property, gold, and other assets, with property grandfathering option for pre-23-July-2024 acquisitions.",
-      "url": "/tools/capital-gains-calculator",
+      "url": "https://www.patronaccounting.com/tools/capital-gains-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -42,10 +42,10 @@
       },
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -58,9 +58,9 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -70,9 +70,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Capital Gains Calculator", "item": "/tools/capital-gains-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Capital Gains Calculator", "item": "https://www.patronaccounting.com/tools/capital-gains-calculator"}
       ]
     }
     </script>
@@ -689,9 +689,9 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Capital Gains Calculator
 </nav>
@@ -938,7 +938,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
             </div>
             <p>Whether your gain is short-term (STCG) or long-term (LTCG) depends on the holding period for that asset class. The thresholds were simplified into two buckets by the <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">Finance (No. 2) Act 2024</a>: 12 months for listed securities and 24 months for everything else.</p>
             <h3>Section 87A Rebate Does Not Apply</h3>
-            <p>A common misconception: capital gains taxed at special rates (Section 111A, Section 112, Section 112A) are excluded from the Section 87A rebate. Even if your total income is within the ₹12 lakh new regime threshold or ₹5 lakh old regime threshold, the tax on capital gains must be paid in full. Use our <a href="/tools/section-87a-rebate-calculator">Section 87A Rebate Calculator</a> to compute the rebate available on slab-rate income only.</p>
+            <p>A common misconception: capital gains taxed at special rates (Section 111A, Section 112, Section 112A) are excluded from the Section 87A rebate. Even if your total income is within the ₹12 lakh new regime threshold or ₹5 lakh old regime threshold, the tax on capital gains must be paid in full. Use our <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">Section 87A Rebate Calculator</a> to compute the rebate available on slab-rate income only.</p>
         </section>
 
         <section class="content-section" id="post-july-2024">
@@ -1154,29 +1154,29 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/itr-for-property-sale" class="sidebar-link">ITR for Property Sale <span class="arrow">→</span></a>
-            <a href="/itr-for-fno-traders" class="sidebar-link">ITR for F&O Traders <span class="arrow">→</span></a>
-            <a href="/itr-for-crypto-traders" class="sidebar-link">ITR for Crypto Traders <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-property-sale" class="sidebar-link">ITR for Property Sale <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-fno-traders" class="sidebar-link">ITR for F&O Traders <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-crypto-traders" class="sidebar-link">ITR for Crypto Traders <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/capital-gains-rules-2026-fmv-holding-period" class="sidebar-link">Capital Gains Rules 2026 — FMV & Holding <span class="arrow">→</span></a>
-            <a href="/blog/capital-gains-exemption-section-54-54ec-54f" class="sidebar-link">Section 54 / 54F / 54EC Exemption Guide <span class="arrow">→</span></a>
-            <a href="/blog/cost-inflation-index-2026-cii-table" class="sidebar-link">CII Table 2026 — Cost Inflation Index <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/capital-gains-rules-2026-fmv-holding-period" class="sidebar-link">Capital Gains Rules 2026 — FMV & Holding <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/capital-gains-exemption-section-54-54ec-54f" class="sidebar-link">Section 54 / 54F / 54EC Exemption Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/cost-inflation-index-2026-cii-table" class="sidebar-link">CII Table 2026 — Cost Inflation Index <span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -3,28 +3,28 @@
     <title>PPF Calculator | Maturity, Interest &amp; 80C Benefit 2026</title>
     <meta name="description" content="PPF Calculator: estimate Public Provident Fund maturity value and interest at 7.1% with year-wise growth. EEE tax-free, Section 80C benefit. Calculate free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ppf-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ppf-calculator">
     <meta property="og:title" content="PPF Calculator &mdash; Public Provident Fund Returns 2026 | Patron Accounting">
     <meta property="og:description" content="Calculate PPF maturity with year-wise growth. EEE tax-free returns. Section 80C benefit up to 1.5 lakh.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/ppf-calculator">
-    <meta property="og:image" content="/tools/og-ppf-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ppf-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-ppf-calculator.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PPF Calculator &mdash; Free PPF Maturity Calculator 2026">
     <meta name="twitter:description" content="Calculate PPF maturity value with year-wise growth. Tax-free EEE returns.">
-    <meta name="twitter:image" content="/tools/og-ppf-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og-ppf-calculator.png">
 @endsection
 
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebApplication","name":"PPF Calculator - Public Provident Fund Maturity Calculator India 2026","description":"Free online PPF calculator to estimate Public Provident Fund maturity value for 15 year tenure with optional extensions. Enter annual deposit and current PPF interest rate to get total invested amount, interest earned, and maturity value with year-wise balance growth table. PPF enjoys EEE tax status with Section 80C benefit.","url":"/tools/ppf-calculator","applicationCategory":"FinanceApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"/contact-page","hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"/","logo":{"@type":"ImageObject","url":"/logo.png"}},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"WebApplication","name":"PPF Calculator - Public Provident Fund Maturity Calculator India 2026","description":"Free online PPF calculator to estimate Public Provident Fund maturity value for 15 year tenure with optional extensions. Enter annual deposit and current PPF interest rate to get total invested amount, interest earned, and maturity value with year-wise balance growth table. PPF enjoys EEE tax status with Section 80C benefit.","url":"https://www.patronaccounting.com/tools/ppf-calculator","applicationCategory":"FinanceApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"https://patronaccounting.com/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/logo.png"}},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"PPF Calculator","item":"/tools/ppf-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"PPF Calculator","item":"https://www.patronaccounting.com/tools/ppf-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is PPF and what is the current interest rate?","acceptedAnswer":{"@type":"Answer","text":"PPF is a government-backed long-term savings scheme with 15 year lock-in. The current PPF interest rate is 7.1 percent per annum for the quarter January to March 2026 as notified by the Ministry of Finance. Interest is compounded annually and credited on 31st March each year. The rate is revised quarterly."}},{"@type":"Question","name":"What is the maximum annual PPF deposit limit?","acceptedAnswer":{"@type":"Answer","text":"The maximum annual PPF deposit is 1.5 lakh rupees and the minimum is 500 rupees per year. Deposits can be made in lump sum or up to 12 instalments per year. Deposits above 1.5 lakh earn no interest and are not eligible for 80C deduction. The limit applies per person not per account."}},{"@type":"Question","name":"Is PPF completely tax-free?","acceptedAnswer":{"@type":"Answer","text":"Yes PPF enjoys EEE or Exempt Exempt Exempt tax status. Deposits up to 1.5 lakh qualify for Section 80C deduction under old tax regime. Interest earned is completely tax-free. Maturity amount is fully exempt from income tax. This makes PPF one of the most tax-efficient investment options in India."}},{"@type":"Question","name":"Can PPF be extended beyond 15 years?","acceptedAnswer":{"@type":"Answer","text":"Yes PPF can be extended in blocks of 5 years each after the initial 15 year maturity. Extension can be with or without further contributions. With contributions you continue depositing and earning interest. Without contributions the balance earns interest but no new deposits are made. Request extension within 1 year of maturity."}},{"@type":"Question","name":"When should I deposit in PPF to maximise interest?","acceptedAnswer":{"@type":"Answer","text":"Deposit before the 5th of every month to maximise interest. PPF interest is calculated on the minimum balance between the 5th and last day of each month. A lump sum deposit before 5th April earns interest for the entire year. Depositing on the 6th means you lose one month of interest calculation."}},{"@type":"Question","name":"Can I withdraw from PPF before maturity?","acceptedAnswer":{"@type":"Answer","text":"Partial withdrawal is allowed from the 7th financial year onwards. Maximum withdrawal is 50 percent of the balance at the end of the 4th preceding year or the preceding year whichever is lower. Only one withdrawal per year is allowed. For premature closure, the account must have completed 5 years with specific conditions."}},{"@type":"Question","name":"Can I take a loan against PPF?","acceptedAnswer":{"@type":"Answer","text":"Yes loans against PPF are available from the 3rd to 6th financial year. Maximum loan is 25 percent of the balance at the end of the 2nd preceding year. Interest on the loan is 1 percent above the PPF interest rate. Loan must be repaid within 36 months. Second loan available after first is fully repaid."}},{"@type":"Question","name":"What happens if I miss a yearly PPF deposit?","acceptedAnswer":{"@type":"Answer","text":"If you do not deposit the minimum 500 rupees in a year the account becomes inactive or discontinued. To revive it you must pay 500 per year of default plus a penalty of 50 rupees per year. The account remains valid but partial withdrawal and loan facilities are suspended until revival."}},{"@type":"Question","name":"Can NRIs open a PPF account?","acceptedAnswer":{"@type":"Answer","text":"NRIs cannot open new PPF accounts. However if a resident Indian who already has PPF becomes NRI they can continue the account until maturity without extension. No new deposits can be made after becoming NRI. The account earns interest at the prevailing rate until the 15 year maturity date."}},{"@type":"Question","name":"PPF vs ELSS vs FD - which is better for tax saving?","acceptedAnswer":{"@type":"Answer","text":"PPF: guaranteed 7.1 percent, completely tax-free, 15 year lock-in. ELSS: market-linked returns of 12 to 15 percent historically, shortest lock-in of 3 years, gains above 1.25 lakh taxed at 12.5 percent. FD: guaranteed 6.5 to 7 percent, 5 year lock-in, interest fully taxable. Choose based on risk appetite and liquidity needs."}},{"@type":"Question","name":"How is PPF interest calculated?","acceptedAnswer":{"@type":"Answer","text":"PPF interest is calculated monthly on the minimum balance between 5th and last day of the month. Interest is compounded annually and credited on 31st March. Annual interest equals sum of monthly interest calculations. This is why depositing before the 5th of each month maximises returns."}},{"@type":"Question","name":"Can a minor have a PPF account?","acceptedAnswer":{"@type":"Answer","text":"Yes a parent or guardian can open PPF for a minor child. Only one account per child is allowed. The 1.5 lakh deposit limit is combined for parent and minor accounts together not separate. Minor PPF matures when the child turns 18 or after 15 years whichever is later."}},{"@type":"Question","name":"Is PPF a good investment in 2026?","acceptedAnswer":{"@type":"Answer","text":"PPF remains excellent for risk-averse investors seeking guaranteed tax-free returns. At 7.1 percent with EEE status the effective pre-tax yield is about 10 percent for someone in the 30 percent bracket. Best used alongside equity SIP for a balanced portfolio. Ideal for retirement planning and long-term goals."}}]}
@@ -334,8 +334,8 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
     </div>
 </nav>
 {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>&rsaquo;</span>
-    <a href="/tools">Free Tools</a><span>&rsaquo;</span>PPF Calculator
+    <a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>PPF Calculator
 </nav> --}}
 <header class="hero" id="calculator">
     <div class="hero-meta">
@@ -475,23 +475,23 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
         </div>
         <div class="sidebar-card">
             <h3>Services</h3>
-            <a href="/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">&rarr;</span></a>
             
-            <a href="/accounting-bookkeeping-services" class="sidebar-link">Accounting <span class="arrow">&rarr;</span></a>
-            <a href="/payroll-management" class="sidebar-link">Payroll Management <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/accounting-bookkeeping-services" class="sidebar-link">Accounting <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/payroll-management" class="sidebar-link">Payroll Management <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/sip-calculator" class="sidebar-link">SIP Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/fd-calculator" class="sidebar-link">FD Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/emi-calculator" class="sidebar-link">EMI Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/epf-calculator" class="sidebar-link">EPF Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/sip-calculator" class="sidebar-link">SIP Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/fd-calculator" class="sidebar-link">FD Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/emi-calculator" class="sidebar-link">EMI Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/epf-calculator" class="sidebar-link">EPF Calculator <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
         </div>
     </aside>
 </div>
@@ -579,7 +579,7 @@ h+='<tr><td>'+d.year+'</td><td>'+fmt(d.opening)+'</td><td>'+fmt(d.deposit)+'</td
 });
 h+='</tbody></table></div></div></div>';
 
-h+='<div class="res-actions"><a href="https://wa.me/919459456700?text=Hi%2C%20I%20used%20the%20PPF%20Calculator.%20I%20need%20help%20with%20tax-saving%20investments." target="_blank" class="ra-btn"><svg viewBox="0 0 24 24" fill="#25D366" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> Ask a CA</a><a href="/tools/fd-calculator" class="ra-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h5"/></svg> FD Calculator</a></div>';
+h+='<div class="res-actions"><a href="https://wa.me/919459456700?text=Hi%2C%20I%20used%20the%20PPF%20Calculator.%20I%20need%20help%20with%20tax-saving%20investments." target="_blank" class="ra-btn"><svg viewBox="0 0 24 24" fill="#25D366" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> Ask a CA</a><a href="https://www.patronaccounting.com/tools/fd-calculator" class="ra-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h5"/></svg> FD Calculator</a></div>';
 
 document.getElementById('resBody').innerHTML=h;document.getElementById('resPanel').classList.add('visible');document.getElementById('resPanel').scrollIntoView({behavior:'smooth',block:'start'});
 }

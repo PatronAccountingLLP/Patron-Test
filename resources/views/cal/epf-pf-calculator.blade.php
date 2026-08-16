@@ -3,12 +3,12 @@
     <title>EPF Calculator India | PF Contribution &amp; Maturity</title>
     <meta name="description" content="EPF calculator for India: get the monthly PF contribution split (employee, employer, EPS) and project your retirement corpus at 8.25% interest. Calculate now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/epf-pf-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/epf-pf-calculator">
     <meta property="og:title" content="EPF Calculator India &mdash; PF Contribution & Maturity 2026">
     <meta property="og:description" content="Calculate monthly EPF contribution and project retirement corpus at 8.25% interest for FY 2025-26.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/epf-pf-calculator">
-    <meta property="og:image" content="/tools/epf-pf-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/epf-pf-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/epf-pf-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EPF Calculator India &mdash; PF Contribution & Maturity 2026">
     <meta name="twitter:description" content="Monthly EPF split + retirement corpus projection at 8.25%. FY 2025-26 updated!">
-    <meta name="twitter:image" content="/tools/epf-pf-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/epf-pf-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -25,20 +25,20 @@
       "@context": "https://schema.org", "@type": "WebApplication",
       "name": "EPF/PF Calculator India",
       "description": "EPF Calculator computes the monthly Employee Provident Fund contribution split between employee share, employer EPF share, and EPS share. Also projects the total retirement corpus with compound interest at 8.25 percent per annum for FY 2025-26. Supports both statutory cap and actual basic salary PF calculations for Indian salaried employees.",
-      "url": "/tools/epf-pf-calculator",
+      "url": "https://www.patronaccounting.com/tools/epf-pf-calculator",
       "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
       "datePublished": "2026-03-05", "dateModified": "2026-03-05",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "EPF/PF Calculator", "item": "/tools/epf-pf-calculator"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "EPF/PF Calculator", "item": "https://www.patronaccounting.com/tools/epf-pf-calculator"}
     ]}
     </script>
 <script type="application/ld+json">
@@ -851,8 +851,8 @@
     </div></nav>
 
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a><span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>
         EPF/PF Calculator
     </nav> --}}
 
@@ -1047,23 +1047,23 @@
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>
-                <a href="/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
-                <a href="/pf-calculator" class="sidebar-link">PF Calculator Service <span class="arrow">&rarr;</span></a>
-                <a href="/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
-                <a href="/gratuity-calculation-and-compliance-services" class="sidebar-link">Gratuity Services <span class="arrow">&rarr;</span></a>
-                <a href="/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/pf-calculator" class="sidebar-link">PF Calculator Service <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gratuity-calculation-and-compliance-services" class="sidebar-link">Gratuity Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

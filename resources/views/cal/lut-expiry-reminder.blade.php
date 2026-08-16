@@ -7,20 +7,20 @@
     <title>LUT Expiry Reminder | GST Form RFD-11 Renewal Calendar</title>
     <meta name="description" content="Free LUT expiry reminder for GST exporters: track Form RFD-11 validity for FY 2026-27, get milestone alerts and an ICS calendar download. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/lut-expiry-reminder/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/lut-expiry-reminder/">
     <meta property="og:title" content="LUT Expiry Reminder + Renewal Calendar — RFD-11 2026">
     <meta property="og:description" content="Track GST LUT validity, milestone reminders for renewal, ICS calendar download. Form RFD-11 under Rule 96A. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/lut-expiry-reminder">
-    <meta property="og:image" content="/tools/og/lut-expiry-reminder.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/lut-expiry-reminder">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/lut-expiry-reminder.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LUT Expiry Reminder + Renewal Calendar — RFD-11 2026">
     <meta name="twitter:description" content="Track GST LUT validity, renewal milestones, ICS calendar download. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/lut-expiry-reminder.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/lut-expiry-reminder.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "LUT Expiry Reminder + Renewal Calendar",
       "description": "LUT Expiry Reminder + Renewal Calendar tracks the validity of a Letter of Undertaking filed in Form GST RFD-11 under Rule 96A of the Central Goods and Services Tax Rules 2017 read with Notification 37/2017-Central Tax. The tool computes the LUT expiry date which is uniformly 31 March of the financial year for which it was filed, identifies days remaining until expiry with five status bands (Safe, Attention, Renewal Due, Urgent, Expired), and generates a milestone calendar with four key reminder dates: 90 days before expiry for documentation preparation, 60 days before expiry for renewal filing window opening, 30 days before expiry for urgency escalation, and 1 April of the new financial year when the new LUT must be in place before any export. The tool also generates an ICS calendar file that can be imported into Google Calendar, Apple Calendar, or Microsoft Outlook to receive automated reminders. Designed for GST-registered exporters of goods and services, suppliers to Special Economic Zone units and developers, and CA practitioners managing client compliance calendars. The tool incorporates current statutory framework including Circular 40/14/2018-GST on automatic deemed approval upon ARN generation, Notification 37/2017 eligibility requirement excluding persons prosecuted for tax evasion of two and a half crore rupees or more, the 18 percent interest consequence under Rule 96A(1) where export commitment fails within 3 months for goods or 1 year for foreign exchange realisation on services, and authorized signatory requirements covering working partners managing directors company secretaries proprietors and board-authorised persons. Suitable for export-focused businesses exporters of services SEZ suppliers manufacturing exporters software exporters and accounting firms managing client portfolios.",
-      "url": "/tools/lut-expiry-reminder",
+      "url": "https://www.patronaccounting.com/tools/lut-expiry-reminder",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "LUT Expiry Reminder", "item": "/tools/lut-expiry-reminder"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "LUT Expiry Reminder", "item": "https://www.patronaccounting.com/tools/lut-expiry-reminder"}
       ]
     }
     </script>
@@ -470,8 +470,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     LUT Expiry Reminder
 </nav>
 
@@ -734,30 +734,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/lut-filing" class="sidebar-link">LUT Filing Service<span class="arrow">→</span></a>
-            <a href="/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="/gst-return-filing" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/iec-code-registration" class="sidebar-link">IEC Code Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/lut-filing" class="sidebar-link">LUT Filing Service<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-return-filing" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-code-registration" class="sidebar-link">IEC Code Registration<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/gst-refund-eligibility-checker" class="sidebar-link">GST Refund Eligibility<span class="arrow">→</span></a>
-            <a href="/tools/gst-refund-time-bar-calculator" class="sidebar-link">GST Refund Time-Bar (S.54)<span class="arrow">→</span></a>
-            <a href="/tools/gst-refund-interest-calculator" class="sidebar-link">GST Refund Interest (S.56)<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-interest-calculator" class="sidebar-link">GST Interest Calculator<span class="arrow">→</span></a>
-            <a href="/tools/itc-eligibility-calculator" class="sidebar-link">ITC Eligibility Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker" class="sidebar-link">GST Refund Eligibility<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator" class="sidebar-link">GST Refund Time-Bar (S.54)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-interest-calculator" class="sidebar-link">GST Refund Interest (S.56)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-interest-calculator" class="sidebar-link">GST Interest Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/itc-eligibility-calculator" class="sidebar-link">ITC Eligibility Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/letter-of-undertaking-lut-gst" class="sidebar-link">LUT under GST Guide<span class="arrow">→</span></a>
-            <a href="/blog/zero-rated-supplies-under-gst" class="sidebar-link">Zero-Rated Supplies<span class="arrow">→</span></a>
-            <a href="/blog/gst-refund-process-and-procedure" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
-            <a href="/blog/export-of-services-gst" class="sidebar-link">Export of Services GST<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/letter-of-undertaking-lut-gst" class="sidebar-link">LUT under GST Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/zero-rated-supplies-under-gst" class="sidebar-link">Zero-Rated Supplies<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/gst-refund-process-and-procedure" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/export-of-services-gst" class="sidebar-link">Export of Services GST<span class="arrow">→</span></a>
         </div>
 
     </aside>
@@ -1068,10 +1068,10 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             let title, desc;
             if (m.label === 'NEW FY') {
                 title = 'GST LUT Filing Due — ' + nextFyLabel + ' (' + businessName + ')';
-                desc = 'New financial year begins. Confirm Form GST RFD-11 for ' + nextFyLabel + ' is filed and ARN downloaded BEFORE first export. Filing URL: https://www.gst.gov.in (Services > User Services > Furnish Letter of Undertaking). Tool: /tools/lut-expiry-reminder';
+                desc = 'New financial year begins. Confirm Form GST RFD-11 for ' + nextFyLabel + ' is filed and ARN downloaded BEFORE first export. Filing URL: https://www.gst.gov.in (Services > User Services > Furnish Letter of Undertaking). Tool: https://www.patronaccounting.com/tools/lut-expiry-reminder';
             } else {
                 title = 'LUT Renewal ' + m.label + ' — ' + fyLabel + ' (' + businessName + ')';
-                desc = m.action + ' GST Portal: https://www.gst.gov.in (Services > User Services > Furnish Letter of Undertaking). Tool: /tools/lut-expiry-reminder';
+                desc = m.action + ' GST Portal: https://www.gst.gov.in (Services > User Services > Furnish Letter of Undertaking). Tool: https://www.patronaccounting.com/tools/lut-expiry-reminder';
             }
             const dateStr = toIcsDateLocal(m.date.getFullYear(), m.date.getMonth() + 1, m.date.getDate());
             const endDateStr = toIcsDateLocal(m.date.getFullYear(), m.date.getMonth() + 1, m.date.getDate() + 1);

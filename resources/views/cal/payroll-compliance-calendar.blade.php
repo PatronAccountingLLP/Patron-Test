@@ -7,20 +7,20 @@
     <title>Payroll Compliance Calendar India | Due Dates 2026</title>
     <meta name="description" content="Payroll compliance calendar India 2026: TDS, PF, ESI, professional tax, LWF &amp; Form 16 due dates by month and state, with late filing penalties. Free CA tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/payroll-compliance-calendar/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-compliance-calendar/">
     <meta property="og:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
     <meta property="og:description" content="All India payroll compliance deadlines: TDS, PF, ESI, PT, LWF, Form 16, statutory bonus. State-wise filtering, urgency colour coding, late penalty info.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/payroll-compliance-calendar">
-    <meta property="og:image" content="/tools/og/payroll-compliance-calendar.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-compliance-calendar">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/payroll-compliance-calendar.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
     <meta name="twitter:description" content="All payroll compliance deadlines for India. TDS, PF, ESI, PT, LWF, Form 16, bonus. State-wise. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/payroll-compliance-calendar.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/payroll-compliance-calendar.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "India Payroll Compliance Calendar",
       "description": "India Payroll Compliance Calendar lists every statutory payroll due date applicable to an Indian employer through Financial Year 2025-26 and beyond, covering monthly, quarterly, half-yearly and annual filings under Indian labour and tax laws. The tool covers Tax Deducted at Source on salary under Section 192 of the Income-tax Act, 1961 (deposit by the seventh of the following month, with March deposits due by the thirtieth of April), Provident Fund Electronic Challan-cum-Return submission to the Employees Provident Fund Organisation by the fifteenth of the following month, Employees State Insurance contribution remittance by the fifteenth of the following month, professional tax remittance and return at state-specific rates and dates under Article 276 of the Constitution of India, Labour Welfare Fund contribution at state-specific half-yearly or annual rates, statutory bonus payment under the Payment of Bonus Act, 1965 within eight months of the close of the accounting year, Form 16 issuance to employees by the fifteenth of June for the immediately preceding financial year per Rule 31 of the Income-tax Rules, quarterly Form 24Q return for salary TDS by the thirty-first of July, October, January and May for the four quarters of the financial year, the annual report under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 by the thirty-first of January, and the annual return ER-1 by the thirtieth of April. The tool incorporates state-specific variations across twelve major Indian states for professional tax remittance dates and Labour Welfare Fund schedules, the four Labour Codes effective from 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — and the late filing penalty regime including interest at one and a half per cent per month on delayed TDS deposit under Section 201, twelve per cent per annum interest plus damages of five to twenty five per cent on delayed Provident Fund contribution under Section 14B of the Provident Funds Act, twelve per cent per annum simple interest on delayed Employees State Insurance contribution, and state-specific penalty rates for delayed professional tax remittance.",
-      "url": "/tools/payroll-compliance-calendar",
+      "url": "https://www.patronaccounting.com/tools/payroll-compliance-calendar",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Payroll Compliance Calendar", "item": "/tools/payroll-compliance-calendar"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Payroll Compliance Calendar", "item": "https://www.patronaccounting.com/tools/payroll-compliance-calendar"}
       ]
     }
     </script>
@@ -493,9 +493,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Payroll Compliance Calendar
 </nav>
@@ -619,7 +619,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <h3>State-Specific: Professional Tax</h3>
             <p>Professional tax monthly remittance dates differ across states. Maharashtra and Karnataka are by the end of next month; Tamil Nadu is half-yearly (1 April / 1 October); Telangana / Andhra Pradesh / Madhya Pradesh by 10th; Gujarat by 15th; West Bengal / Odisha by 21st. Delhi, Haryana, Punjab and Uttar Pradesh do not levy professional tax. The calculator above uses your state to auto-populate the correct date.</p>
             <h3>If GST-Registered</h3>
-            <p>For employers also registered under GST (most companies are), GSTR-1 is due by the 11th and GSTR-3B by the 20th of the following month. While not strictly "payroll" filings, these often run on the same calendar maintained by the finance team. Refer to our <a href="/tools/gst-late-fee-calculator">GST Late Fee Calculator</a> for penalty computation.</p>
+            <p>For employers also registered under GST (most companies are), GSTR-1 is due by the 11th and GSTR-3B by the 20th of the following month. While not strictly "payroll" filings, these often run on the same calendar maintained by the finance team. Refer to our <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator">GST Late Fee Calculator</a> for penalty computation.</p>
         </section>
 
         <section class="content-section" id="quarterly">
@@ -872,29 +872,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
-            <a href="/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
-            <a href="/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
-            <a href="/professional-tax-registration" class="sidebar-link">Professional Tax<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">ITR Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/professional-tax-registration" class="sidebar-link">Professional Tax<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">ITR Filing<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/india-employee-total-cost-calculator" class="sidebar-link">Employee Total Cost Calculator<span class="arrow">→</span></a>
-            <a href="/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator<span class="arrow">→</span></a>
-            <a href="/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator" class="sidebar-link">Employee Total Cost Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup in India: Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup in India: Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
         </div>
 
     </aside>

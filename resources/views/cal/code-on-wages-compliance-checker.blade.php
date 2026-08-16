@@ -7,20 +7,20 @@
     <title>Code on Wages Compliance Checker | 13-Point Audit</title>
     <meta name="description" content="Free Code on Wages compliance checker: 13-dimension audit of the 50% rule, floor wage, equal pay, deductions, records, bonus and overtime. CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/code-on-wages-compliance-checker/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker/">
     <meta property="og:title" content="Code on Wages Compliance Checker 2026">
     <meta property="og:description" content="13-dimension audit of Code on Wages 2019 compliance — 50% rule, floor wage, equal pay, deductions, bonus, overtime, records.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/code-on-wages-compliance-checker">
-    <meta property="og:image" content="/tools/og/code-on-wages-compliance-checker.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/code-on-wages-compliance-checker.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Code on Wages Compliance Checker 2026">
     <meta name="twitter:description" content="13-dimension Code on Wages compliance audit. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/code-on-wages-compliance-checker.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/code-on-wages-compliance-checker.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "Code on Wages Compliance Checker",
       "description": "Code on Wages Compliance Checker is a thirteen-dimension audit tool that evaluates an employer's adherence to the Code on Wages 2019 effective 21 November 2025 which consolidated the Payment of Wages Act 1936 Minimum Wages Act 1948 Payment of Bonus Act 1965 and Equal Remuneration Act 1976 into a single unified framework. The tool reviews compliance across thirteen statutory dimensions: the 50 percent wage definition rule under Section 2(y) requiring basic plus dearness allowance plus retaining allowance to constitute at least half of total CTC, state minimum wage adherence under Section 6 against state-notified rates ranging from approximately 11000 rupees per month for unskilled workers in lower-rate states to 20000 rupees per month in Delhi for unskilled scheduled employments, national floor wage compliance under Section 9 currently at 178 rupees per day below which no state minimum wage can fall, equal remuneration under Section 3 prohibiting discrimination based on gender including transgender for same or similar work, wage period definition under Section 16 limited to daily weekly fortnightly or monthly cycles, time of payment under Section 17 mandating salary payment by the seventh of the following month and full and final settlement within two working days of termination, mode of payment compliance preferring electronic transfer credit to bank accounts, deductions cap under Section 18 limiting total deductions to fifty percent of wages or seventy-five percent if cooperative society payment is included with fines limited to three percent, records and wage slip mandate under Section 50 requiring monthly wage slips and the integrated Form Q wage register, statutory bonus eligibility under Section 26 covering employees up to twenty-one thousand rupees per month at minimum 8.33 percent and maximum 20 percent of wages payable within eight months of accounting year close, overtime wages under Section 14 at twice the ordinary rate of wages, fixed-term employee gratuity parity under Code on Social Security 2020 reducing the continuous-service requirement from five to one year and ensuring identical EPF ESI medical insurance and leave benefits as permanent employees, and appointment letter issuance under Occupational Safety Health and Working Conditions Code 2020 mandatory for all employees specifying job details wages and social security entitlements. Each dimension produces a Pass Warning or Fail status with specific remediation actions and references to the applicable statutory section. The tool generates an overall compliance percentage score and risk level Low Medium High along with a remediation checklist for non-compliant dimensions. Suitable for HR teams running self-audit before EPFO or Labour Department inspection CFOs assessing compliance posture company secretaries preparing labour law returns and external auditors validating payroll compliance.",
-      "url": "/tools/code-on-wages-compliance-checker",
+      "url": "https://www.patronaccounting.com/tools/code-on-wages-compliance-checker",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Code on Wages Compliance Checker", "item": "/tools/code-on-wages-compliance-checker"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Code on Wages Compliance Checker", "item": "https://www.patronaccounting.com/tools/code-on-wages-compliance-checker"}
       ]
     }
     </script>
@@ -446,8 +446,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Code on Wages Compliance Checker
 </nav>
 
@@ -645,7 +645,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <p>The Code on Wages 2019 is comprehensive but its compliance footprint extends beyond the headline 50% rule. The 13 dimensions checked by the Patron audit tool span statutory definitions, payment mechanics, recordkeeping, equal-pay obligations, and adjacent codes. Below is the practitioner-grade breakdown.</p>
 
             <h3>1. Wage Definition (50% Rule) — Section 2(y)</h3>
-            <p>Basic + DA + Retaining Allowance must constitute at least 50% of total CTC. Excluded items (HRA, conveyance, overtime, bonus) cannot exceed 50%. Where excluded items exceed 50%, the excess is automatically added back to wages and triggers higher PF and gratuity. Use the Patron <a href="/tools/ctc-structure-calculator">CTC Structure Calculator</a> for component-by-component analysis.</p>
+            <p>Basic + DA + Retaining Allowance must constitute at least 50% of total CTC. Excluded items (HRA, conveyance, overtime, bonus) cannot exceed 50%. Where excluded items exceed 50%, the excess is automatically added back to wages and triggers higher PF and gratuity. Use the Patron <a href="https://www.patronaccounting.com/tools/ctc-structure-calculator">CTC Structure Calculator</a> for component-by-component analysis.</p>
 
             <h3>2. State Minimum Wage Adherence — Section 6</h3>
             <p>Every employee must be paid at least the state-notified minimum wage applicable to their skill category and location. Rates are revised periodically based on CPI movement. Multi-state employers must apply each state's rate for that location. Underpayment can attract 10x compensation under Section 56(1).</p>
@@ -798,7 +798,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             </ul>
 
             <div class="callout">
-                <p><strong>Use the Patron toolset together.</strong> Use the <a href="/tools/ctc-structure-calculator">CTC Structure Calculator</a> first to redesign salaries, then this Compliance Checker to audit the broader posture, then the <a href="/tools/gratuity-calculator">Gratuity Calculator</a> to model the increased liability. The three tools cover the full Code on Wages compliance arc.</p>
+                <p><strong>Use the Patron toolset together.</strong> Use the <a href="https://www.patronaccounting.com/tools/ctc-structure-calculator">CTC Structure Calculator</a> first to redesign salaries, then this Compliance Checker to audit the broader posture, then the <a href="https://www.patronaccounting.com/tools/gratuity-calculator">Gratuity Calculator</a> to model the increased liability. The three tools cover the full Code on Wages compliance arc.</p>
             </div>
         </section>
 
@@ -812,30 +812,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
-            <a href="/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
-            <a href="/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
-            <a href="/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
-            <a href="/hr-advisory" class="sidebar-link">HR Advisory<span class="arrow">→</span></a>
-            <a href="/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/hr-advisory" class="sidebar-link">HR Advisory<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/ctc-structure-calculator" class="sidebar-link">CTC Structure Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
-            <a href="/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ctc-structure-calculator" class="sidebar-link">CTC Structure Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
             
-            <a href="/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/code-on-wages-2019" class="sidebar-link">Code on Wages 2019 Guide<span class="arrow">→</span></a>
-            <a href="/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
-            <a href="/blog/state-minimum-wages-india" class="sidebar-link">State Minimum Wages<span class="arrow">→</span></a>
-            <a href="/blog/epfo-inspection-readiness" class="sidebar-link">EPFO Inspection Readiness<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/code-on-wages-2019" class="sidebar-link">Code on Wages 2019 Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/state-minimum-wages-india" class="sidebar-link">State Minimum Wages<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/epfo-inspection-readiness" class="sidebar-link">EPFO Inspection Readiness<span class="arrow">→</span></a>
         </div>
 
     </aside>

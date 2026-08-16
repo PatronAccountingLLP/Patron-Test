@@ -3,24 +3,24 @@
 <meta name="description" content="Free entity type selector for India. Answer 5 questions to get the best business structure ranked for you: Pvt Ltd, LLP, OPC, Partnership or Proprietorship.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/entity-type-selector">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/entity-type-selector">
 
 @section('meta')
 
 <meta property="og:title" content="Entity Type Selector — Best Business Structure India 2026">
 <meta property="og:description" content="Answer five quick questions and get a ranked recommendation of the best Indian business structure — Private Limited, LLP, OPC, Partnership or Proprietorship.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/entity-type-selector">
-<meta property="og:image" content="/tools/entity-type-selector-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/entity-type-selector">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/entity-type-selector-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Entity Type Selector — Best Business Structure India 2026">
 <meta name="twitter:description" content="Answer 5 questions and get a ranked recommendation of the best Indian business structure for you. Free &amp; instant.">
-<meta name="twitter:image" content="/tools/entity-type-selector-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/entity-type-selector-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "Entity Type Selector",
   "description": "Entity Type Selector recommends the most suitable Indian business structure from a founder's answers to five questions about the number of owners, fundraising plans, the need for limited liability, the appetite for compliance, and the priority on credibility and scale. It scores Private Limited Company, Limited Liability Partnership, One Person Company, Partnership Firm and Sole Proprietorship against the answers and returns a ranked recommendation with the best fit highlighted, along with a comparison of tax, compliance, ownership and funding suitability.",
-  "url": "/tools/entity-type-selector",
+  "url": "https://www.patronaccounting.com/tools/entity-type-selector",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Entity Type Selector", "item": "/tools/entity-type-selector"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Entity Type Selector", "item": "https://www.patronaccounting.com/tools/entity-type-selector"}
   ]
 }
 </script>
@@ -699,9 +699,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Entity Type Selector
 </nav>
@@ -851,7 +851,7 @@ a:focus-visible {
                     <tr><td><strong>Proprietorship</strong></td><td>1</td><td>Unlimited</td><td>Individual slab</td><td>Minimal</td><td>None (equity)</td></tr>
                 </tbody>
             </table>
-            <p>Pvt Ltd and OPC are taxed as domestic companies, commonly at the concessional 22% rate (plus surcharge and cess) where conditions are met; LLPs and partnerships at 30%; proprietorship at the individual's slab. Compliance burden rises with the level of legal protection. Companies and LLPs are registered and regulated by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>, while all of them file income tax through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>. See Patron's <a href="/private-limited-company-compliance">Pvt Ltd compliance</a> and <a href="/pvt-llp-compliance">LLP compliance</a> pages.</p>
+            <p>Pvt Ltd and OPC are taxed as domestic companies, commonly at the concessional 22% rate (plus surcharge and cess) where conditions are met; LLPs and partnerships at 30%; proprietorship at the individual's slab. Compliance burden rises with the level of legal protection. Companies and LLPs are registered and regulated by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>, while all of them file income tax through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>. See Patron's <a href="https://www.patronaccounting.com/private-limited-company-compliance">Pvt Ltd compliance</a> and <a href="https://www.patronaccounting.com/pvt-llp-compliance">LLP compliance</a> pages.</p>
         </section>
 
         <div class="body-cta">
@@ -867,13 +867,13 @@ a:focus-visible {
         <section class="content-section" id="choose">
             <h2>Quick Guide — Who Picks What</h2>
             <ul>
-                <li><strong>Private Limited</strong> — startups raising VC/angel money, issuing ESOPs, or chasing scale and credibility. The investor default. <a href="/private-limited-company-registration-in-india">Register a Pvt Ltd</a>.</li>
-                <li><strong>LLP</strong> — multi-founder professional/service firms (consultants, CAs, architects, agencies) wanting limited liability with light compliance. <a href="/llp-incorporation">Register an LLP</a>.</li>
-                <li><strong>OPC</strong> — solo founders wanting a real company with limited liability and credibility, no co-founder needed. <a href="/one-person-company-registration">Register an OPC</a>.</li>
-                <li><strong>Partnership</strong> — two or more partners running a simple, self-funded business who accept unlimited liability. <a href="/partnership-firm-registration">Register a Partnership</a>.</li>
-                <li><strong>Sole Proprietorship</strong> — a single owner testing an idea or running a small, low-risk venture cheaply. <a href="/proprietorship-registration">Register a Proprietorship</a>.</li>
+                <li><strong>Private Limited</strong> — startups raising VC/angel money, issuing ESOPs, or chasing scale and credibility. The investor default. <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india">Register a Pvt Ltd</a>.</li>
+                <li><strong>LLP</strong> — multi-founder professional/service firms (consultants, CAs, architects, agencies) wanting limited liability with light compliance. <a href="https://www.patronaccounting.com/llp-incorporation">Register an LLP</a>.</li>
+                <li><strong>OPC</strong> — solo founders wanting a real company with limited liability and credibility, no co-founder needed. <a href="https://www.patronaccounting.com/one-person-company-registration">Register an OPC</a>.</li>
+                <li><strong>Partnership</strong> — two or more partners running a simple, self-funded business who accept unlimited liability. <a href="https://www.patronaccounting.com/partnership-firm-registration">Register a Partnership</a>.</li>
+                <li><strong>Sole Proprietorship</strong> — a single owner testing an idea or running a small, low-risk venture cheaply. <a href="https://www.patronaccounting.com/proprietorship-registration">Register a Proprietorship</a>.</li>
             </ul>
-            <p>Non-profit or charitable objects point to a <a href="/section8-company-registration">Section 8 Company</a> instead — a specialised structure outside this selector's five.</p>
+            <p>Non-profit or charitable objects point to a <a href="https://www.patronaccounting.com/section8-company-registration">Section 8 Company</a> instead — a specialised structure outside this selector's five.</p>
         </section>
 
         <section class="content-section" id="startup-benefits">
@@ -881,13 +881,13 @@ a:focus-visible {
             <p>The structure you choose doesn't just set your tax rate and compliance — it gates access to several startup incentives. <strong>DPIIT recognition</strong> under the Startup India scheme is open to a Private Limited Company, an LLP or a registered Partnership, but <em>not</em> a sole proprietorship. The deeper tax benefits go further: the <strong>Section 80-IAC three-year tax holiday</strong> and the <strong>ESOP perquisite-tax deferral</strong> under Section 192(1C) are available only to a Private Limited Company or LLP — never an OPC, partnership or proprietorship.</p>
             <p>So a founder who expects to chase these benefits should weight toward a Pvt Ltd or LLP from the start. Recognition is granted by <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> through the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal, and the choice of structure also shapes your audit and accounting obligations, which follow standards issued by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>. If equity funding or these incentives are on your roadmap, the selector's funding question already pushes you toward the structures that qualify — but it's worth being deliberate about it.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Planning ESOPs? Only a Pvt Ltd or LLP can offer the 80-IAC deferral — check it with the <a href="/tools/esop-section-192-1c-eligibility-checker">Section 192(1C) eligibility checker</a> once you've picked a structure.</p>
+                <p><strong>Tip:</strong> Planning ESOPs? Only a Pvt Ltd or LLP can offer the 80-IAC deferral — check it with the <a href="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">Section 192(1C) eligibility checker</a> once you've picked a structure.</p>
             </div>
         </section>
 
         <section class="content-section" id="convert">
             <h2>You Can Convert Later</h2>
-            <p>Picking a structure isn't permanent. As a business grows, conversions are routine: <a href="/convert-partnership-to-llp">Partnership to LLP</a>, <a href="/convert-llp-to-private-limited-company">LLP to Private Limited</a>, or <a href="/blog/how-to-convert-opc-to-private-limited-company-in-india">OPC to Private Limited</a> when funding or scale demands it.</p>
+            <p>Picking a structure isn't permanent. As a business grows, conversions are routine: <a href="https://www.patronaccounting.com/convert-partnership-to-llp">Partnership to LLP</a>, <a href="https://www.patronaccounting.com/convert-llp-to-private-limited-company">LLP to Private Limited</a>, or <a href="https://www.patronaccounting.com/blog/how-to-convert-opc-to-private-limited-company-in-india">OPC to Private Limited</a> when funding or scale demands it.</p>
             <p>That said, converting carries MCA filings, cost and care over continuity of contracts, registrations and tax history — so it's usually cleaner to choose for the next two to three years rather than convert too soon. If fundraising is likely within 12 months, most founders start as a Private Limited Company directly.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This selector is an indicative guide. NRI status, sector-specific FDI rules, GST, and detailed tax planning can change the right answer — confirm with a professional before incorporating.</p>
@@ -964,24 +964,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Registration Pages</h3>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
-            <a href="/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
-            <a href="/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
-            <a href="/partnership-firm-registration" class="sidebar-link">Partnership Firm <span class="arrow">→</span></a>
-            <a href="/proprietorship-registration" class="sidebar-link">Proprietorship <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/partnership-firm-registration" class="sidebar-link">Partnership Firm <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/proprietorship-registration" class="sidebar-link">Proprietorship <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Compliance &amp; Conversions</h3>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">→</span></a>
-            <a href="/pvt-llp-compliance" class="sidebar-link">LLP Compliance <span class="arrow">→</span></a>
-            <a href="/convert-llp-to-private-limited-company" class="sidebar-link">LLP → Pvt Ltd <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pvt-llp-compliance" class="sidebar-link">LLP Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/convert-llp-to-private-limited-company" class="sidebar-link">LLP → Pvt Ltd <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/how-to-register-llp-in-india-and-its-benefits" class="sidebar-link">How to Register an LLP <span class="arrow">→</span></a>
-            <a href="/blog/how-to-convert-opc-to-private-limited-company-in-india" class="sidebar-link">Convert OPC to Pvt Ltd <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/how-to-register-llp-in-india-and-its-benefits" class="sidebar-link">How to Register an LLP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/how-to-convert-opc-to-private-limited-company-in-india" class="sidebar-link">Convert OPC to Pvt Ltd <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>
@@ -1000,11 +1000,11 @@ a:focus-visible {
     var answers = { owners:'one', funding:'yes', liability:'high', compliance:'high', credibility:'high' };
 
     var ENTITIES = {
-        pvtltd: { name:'Private Limited Company', url:'/private-limited-company-registration-in-india' },
-        llp:    { name:'LLP', url:'/llp-incorporation' },
-        opc:    { name:'One Person Company (OPC)', url:'/one-person-company-registration' },
-        partnership: { name:'Partnership Firm', url:'/partnership-firm-registration' },
-        proprietor: { name:'Sole Proprietorship', url:'/proprietorship-registration' }
+        pvtltd: { name:'Private Limited Company', url:'https://www.patronaccounting.com/private-limited-company-registration-in-india' },
+        llp:    { name:'LLP', url:'https://www.patronaccounting.com/llp-incorporation' },
+        opc:    { name:'One Person Company (OPC)', url:'https://www.patronaccounting.com/one-person-company-registration' },
+        partnership: { name:'Partnership Firm', url:'https://www.patronaccounting.com/partnership-firm-registration' },
+        proprietor: { name:'Sole Proprietorship', url:'https://www.patronaccounting.com/proprietorship-registration' }
     };
 
     var WHY = {

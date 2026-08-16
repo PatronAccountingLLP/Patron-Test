@@ -5,28 +5,28 @@
 <meta name="description" content="Personalised year-ahead compliance calendar for Pvt Ltd, LLP, OPC and Section 8, with 100+ filings across 12 regulators and 30/15/7/1-day reminders. Free PDF.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/compliance-calendar-generator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/compliance-calendar-generator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/compliance-calendar-generator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/compliance-calendar-generator">
 <meta property="og:title" content="Compliance Calendar Generator — Pvt Ltd & LLP 2026">
 <meta property="og:description" content="Generate a personalised compliance calendar with MCA + Income Tax + GST + EPFO + ESI + TDS dates and 30/15/7/1-day reminders.">
-<meta property="og:image" content="/og/compliance-calendar-generator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/compliance-calendar-generator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Compliance Calendar Generator — Pvt Ltd & LLP 2026">
 <meta name="twitter:description" content="100+ filings, 12 regulators, 30/15/7/1-day reminders. Free PDF + monthly email reminder service.">
-<meta name="twitter:image" content="/og/compliance-calendar-generator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/compliance-calendar-generator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Compliance Calendar Generator","description":"Compliance Calendar Generator produces a personalised year-ahead statutory compliance calendar for Indian Private Limited Companies, One Person Companies, Limited Liability Partnerships, and Section 8 Companies. The tool accepts the entity type, financial year end date (typically 31 March), Annual General Meeting date (typically within six months of financial year end), GST registration status and filing frequency (monthly or QRMP quarterly), tax audit applicability under Section 44AB, employees-onboard status for Provident Fund and Employees State Insurance compliance, and optional flags for Micro Small and Medium Enterprises registration, listed-entity status, and foreign related party transactions. The tool generates a personalised calendar spanning twelve months from the user-selected start date, covering filings across twelve regulators: the Ministry of Corporate Affairs (AOC-4, MGT-7, MGT-7A, DIR-3 KYC, DPT-3, ADT-1, MSME Form 1, Form 8 and Form 11 for LLPs), Central Board of Direct Taxes (advance tax instalments under Section 211, ITR-6 for companies, ITR-5 for LLPs, ITR-7 for Section 8, tax audit report in Form 3CD, transfer pricing audit in Form 3CEB), Central Board of Indirect Taxes and Customs (GSTR-1 outward supplies, GSTR-3B summary return, GSTR-9 annual return, GSTR-9C reconciliation statement, CMP-08 for composition), Employees Provident Fund Organisation (monthly PF payment and ECR filing), Employees State Insurance Corporation (monthly ESI payment and half-yearly returns), State Tax Department (Professional Tax payment and return), Tax Deducted at Source (TDS payment by 7th and quarterly returns in Form 24Q, 26Q, 27Q), Securities and Exchange Board of India (for listed entities), Reserve Bank of India (FEMA filings for entities with foreign related parties), Food Safety and Standards Authority of India (for food businesses), and Pollution Control Boards (for manufacturing units). For each compliance event the tool computes the due date, four reminder dates (thirty days, fifteen days, seven days, and one day before the due date), the penalty for non-compliance citing specific statutory sections, the responsible authority, and the severity tier. The calendar can be exported as a printable PDF or subscribed to via monthly email reminders. The tool implements the schedule per the Companies Act 2013, the Income Tax Act 2025, the Central Goods and Services Tax Act 2017, the Employees Provident Funds and Miscellaneous Provisions Act 1952, the Employees State Insurance Act 1948, and the Limited Liability Partnership Act 2008 with current amendments as on FY 2026-27.","url":"/tools/compliance-calendar-generator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Compliance Calendar Generator","description":"Compliance Calendar Generator produces a personalised year-ahead statutory compliance calendar for Indian Private Limited Companies, One Person Companies, Limited Liability Partnerships, and Section 8 Companies. The tool accepts the entity type, financial year end date (typically 31 March), Annual General Meeting date (typically within six months of financial year end), GST registration status and filing frequency (monthly or QRMP quarterly), tax audit applicability under Section 44AB, employees-onboard status for Provident Fund and Employees State Insurance compliance, and optional flags for Micro Small and Medium Enterprises registration, listed-entity status, and foreign related party transactions. The tool generates a personalised calendar spanning twelve months from the user-selected start date, covering filings across twelve regulators: the Ministry of Corporate Affairs (AOC-4, MGT-7, MGT-7A, DIR-3 KYC, DPT-3, ADT-1, MSME Form 1, Form 8 and Form 11 for LLPs), Central Board of Direct Taxes (advance tax instalments under Section 211, ITR-6 for companies, ITR-5 for LLPs, ITR-7 for Section 8, tax audit report in Form 3CD, transfer pricing audit in Form 3CEB), Central Board of Indirect Taxes and Customs (GSTR-1 outward supplies, GSTR-3B summary return, GSTR-9 annual return, GSTR-9C reconciliation statement, CMP-08 for composition), Employees Provident Fund Organisation (monthly PF payment and ECR filing), Employees State Insurance Corporation (monthly ESI payment and half-yearly returns), State Tax Department (Professional Tax payment and return), Tax Deducted at Source (TDS payment by 7th and quarterly returns in Form 24Q, 26Q, 27Q), Securities and Exchange Board of India (for listed entities), Reserve Bank of India (FEMA filings for entities with foreign related parties), Food Safety and Standards Authority of India (for food businesses), and Pollution Control Boards (for manufacturing units). For each compliance event the tool computes the due date, four reminder dates (thirty days, fifteen days, seven days, and one day before the due date), the penalty for non-compliance citing specific statutory sections, the responsible authority, and the severity tier. The calendar can be exported as a printable PDF or subscribed to via monthly email reminders. The tool implements the schedule per the Companies Act 2013, the Income Tax Act 2025, the Central Goods and Services Tax Act 2017, the Employees Provident Funds and Miscellaneous Provisions Act 1952, the Employees State Insurance Act 1948, and the Limited Liability Partnership Act 2008 with current amendments as on FY 2026-27.","url":"https://www.patronaccounting.com/tools/compliance-calendar-generator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Compliance Calendar Generator","item":"/tools/compliance-calendar-generator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Compliance Calendar Generator","item":"https://www.patronaccounting.com/tools/compliance-calendar-generator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -293,7 +293,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Generator</a><a href="#how-to-use">How to Use</a><a href="#regulators">12 Regulators</a><a href="#penalties">Penalties</a><a href="#compare">Vs Templates</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Compliance Calendar Generator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Compliance Calendar Generator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -476,8 +476,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <tr><td><strong>LLP Form 8 / 11</strong></td><td>MCA</td><td><code>₹100/day</code> (normal) or <code>₹50/day</code> (Small LLP) — no cap</td></tr>
 </tbody>
 </table>
-<p><strong>Aggregate exposure:</strong> A non-compliant Pvt Ltd company over a single year typically accumulates ₹1.5L-₹5L+ in penalties, plus consequential exposure — <a href="/director-disqualification-removal">director disqualification</a> (3 years non-filing triggers Section 164(2)(a)), <a href="/restore-struck-off-company-mca">company strike-off</a> (2 years non-filing triggers Section 248), and prosecution under various sections. The annual cost of timely compliance via Patron starts at ₹15,000 — a fraction of the exposure.</p>
-<p>Use Patron's <a href="/tools/annual-compliance-cost-estimator">Annual Compliance Cost Estimator</a> to size up your annual fee, and the <a href="/tools/mca-late-fee-calculator">MCA Late Fee Calculator</a> to compute exact accumulated dues if you already have a backlog.</p>
+<p><strong>Aggregate exposure:</strong> A non-compliant Pvt Ltd company over a single year typically accumulates ₹1.5L-₹5L+ in penalties, plus consequential exposure — <a href="https://www.patronaccounting.com/director-disqualification-removal">director disqualification</a> (3 years non-filing triggers Section 164(2)(a)), <a href="https://www.patronaccounting.com/restore-struck-off-company-mca">company strike-off</a> (2 years non-filing triggers Section 248), and prosecution under various sections. The annual cost of timely compliance via Patron starts at ₹15,000 — a fraction of the exposure.</p>
+<p>Use Patron's <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">Annual Compliance Cost Estimator</a> to size up your annual fee, and the <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator">MCA Late Fee Calculator</a> to compute exact accumulated dues if you already have a backlog.</p>
 </section>
 
 <div class="body-cta">
@@ -519,7 +519,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <div class="callout warn"><p><strong>Self-evaluation:</strong> If your business has more than 5 employees, GST registration, or annual turnover above ₹50 lakh, the cost of a missed compliance (₹5,000-₹50,000) far exceeds the cost of professional management (₹15,000-₹40,000 per year all-in). Engage Patron — or at minimum, subscribe to the free monthly reminders.</p></div>
 
 <h3>Special Considerations for Small Companies and Startups</h3>
-<p>If your entity is a Small Company under <a href="/small-company-compliance-section-2-85-definition">Section 2(85) of the Companies Act</a> (paid-up capital ≤ ₹4 crore AND turnover ≤ ₹40 crore), several compliance reliefs apply: simplified MGT-7A instead of MGT-7, board meetings every 6 months instead of quarterly, no cash flow statement requirement, and reduced filing fees. Our tool applies these automatically when you select OPC. For <a href="/small-company-compliance-startups-pre-revenue">pre-revenue startups</a>, additional reliefs include audit exemption (if turnover ≤ ₹1 crore AND borrowings ≤ ₹10 crore), DPIIT recognition benefits (3-year tax holiday under Section 80-IAC), and exemption from inspector inspection during first 3 years of incorporation.</p>
+<p>If your entity is a Small Company under <a href="https://www.patronaccounting.com/small-company-compliance-section-2-85-definition">Section 2(85) of the Companies Act</a> (paid-up capital ≤ ₹4 crore AND turnover ≤ ₹40 crore), several compliance reliefs apply: simplified MGT-7A instead of MGT-7, board meetings every 6 months instead of quarterly, no cash flow statement requirement, and reduced filing fees. Our tool applies these automatically when you select OPC. For <a href="https://www.patronaccounting.com/small-company-compliance-startups-pre-revenue">pre-revenue startups</a>, additional reliefs include audit exemption (if turnover ≤ ₹1 crore AND borrowings ≤ ₹10 crore), DPIIT recognition benefits (3-year tax holiday under Section 80-IAC), and exemption from inspector inspection during first 3 years of incorporation.</p>
 </section>
 
 <section class="content-section" id="faqs">
@@ -566,25 +566,25 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Small Co. & Startup</h3>
-<a href="/small-company-compliance-startups-pre-revenue" class="sidebar-link">Pre-revenue Startup Compliance <span class="arrow">→</span></a>
-<a href="/small-company-compliance-section-2-85-definition" class="sidebar-link">Section 2(85) Small Co. Definition <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/small-company-compliance-startups-pre-revenue" class="sidebar-link">Pre-revenue Startup Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/small-company-compliance-section-2-85-definition" class="sidebar-link">Section 2(85) Small Co. Definition <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
-<a href="/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
-<a href="/annual-compliance-opc" class="sidebar-link">OPC Annual Compliance <span class="arrow">→</span></a>
-<a href="/section-8-compliance" class="sidebar-link">Section 8 Compliance <span class="arrow">→</span></a>
-<a href="/gst-return-filing" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
-<a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-<a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-opc" class="sidebar-link">OPC Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/section-8-compliance" class="sidebar-link">Section 8 Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-return-filing" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
-<a href="/tools/mca-late-fee-calculator" class="sidebar-link">MCA Late Fee Calculator <span class="arrow">→</span></a>
-<a href="/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
-<a href="/tools/notice-deadline-tracker" class="sidebar-link">Notice Deadline Tracker <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator" class="sidebar-link">MCA Late Fee Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-deadline-tracker" class="sidebar-link">Notice Deadline Tracker <span class="arrow">→</span></a>
 </div>
 </aside>
 

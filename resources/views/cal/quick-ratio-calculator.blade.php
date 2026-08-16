@@ -7,20 +7,20 @@
     <title>Quick Ratio Calculator | Acid Test Ratio &amp; Benchmarks</title>
     <meta name="description" content="Quick Ratio (Acid Test) Calculator: build up quick assets, run a stress test and compare against industry benchmarks. ICAI-aligned, CA-reviewed. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/quick-ratio-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/quick-ratio-calculator/">
     <meta property="og:title" content="Quick Ratio Calculator (Acid Test) — Free 2026">
     <meta property="og:description" content="Compute Quick Ratio + Cash Ratio with stress testing. Build-up of quick assets. Schedule III aligned. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/quick-ratio-calculator">
-    <meta property="og:image" content="/tools/og/quick-ratio-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/quick-ratio-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/quick-ratio-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Quick Ratio Calculator (Acid Test) — Free 2026">
     <meta name="twitter:description" content="Quick Ratio + Cash Ratio with stress testing. Build-up of quick assets. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/quick-ratio-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/quick-ratio-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "Quick Ratio Calculator",
       "description": "Quick Ratio Calculator (Acid Test) computes the quick ratio for Indian companies, LLPs and businesses using a build-up approach for quick assets — Cash and Bank Balances, Marketable Securities and Current Investments, Trade Receivables (net of Expected Credit Loss provisions under Ind AS 109), and Other Current Receivables divided by Total Current Liabilities. The standard formula is Quick Ratio = (Current Assets minus Inventory minus Prepaid Expenses) divided by Current Liabilities, equivalently Quick Ratio = (Cash plus Marketable Securities plus Receivables) divided by Current Liabilities. The tool includes optional stress-testing for adverse scenarios — receivables haircut to simulate collection delays and marketable securities haircut for market value drops. Output includes Quick Ratio, Super-Quick Ratio also known as Cash Ratio, stress-tested ratio, health zone classification (Stressed below 0.5, Acceptable 0.5-1.0, Healthy 1.0-1.5, Strong above 1.5), and industry benchmark comparison. Aligned with Schedule III of the Companies Act 2013 ratio disclosure framework effective FY 2021-22 and lender covenant requirements typically embedded in working capital loan agreements.",
-      "url": "/tools/quick-ratio-calculator",
+      "url": "https://www.patronaccounting.com/tools/quick-ratio-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Quick Ratio Calculator", "item": "/tools/quick-ratio-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Quick Ratio Calculator", "item": "https://www.patronaccounting.com/tools/quick-ratio-calculator"}
       ]
     }
     </script>
@@ -471,8 +471,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Quick Ratio Calculator
 </nav>
 
@@ -819,30 +819,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
             
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
-            <a href="/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
-            <a href="/tools/as-vs-ind-as-comparison-matrix" class="sidebar-link">AS vs Ind AS Matrix<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/as-vs-ind-as-comparison-matrix" class="sidebar-link">AS vs Ind AS Matrix<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

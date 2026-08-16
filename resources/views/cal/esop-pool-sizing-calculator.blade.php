@@ -5,22 +5,22 @@
 <meta name="description" content="ESOP pool sizing calculator for startups: plan your option pool from headcount and role-based grants, then see cap-table percentage and founder dilution. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-pool-sizing-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator">
 
 <meta property="og:title" content="ESOP Pool Sizing Calculator — Hiring Plan &amp; Dilution">
 <meta property="og:description" content="Size your ESOP pool bottom-up from planned hires and role-based grants, add a buffer, and see the pool as a percentage of the cap table and the founder dilution.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-pool-sizing-calculator">
-<meta property="og:image" content="/tools/esop-pool-sizing-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Pool Sizing Calculator — Hiring Plan &amp; Dilution">
 <meta name="twitter:description" content="Size your ESOP pool bottom-up from planned hires and role-based grants, with buffer, cap-table % and founder dilution. Free &amp; instant.">
-<meta name="twitter:image" content="/tools/esop-pool-sizing-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP Pool Sizing Calculator",
   "description": "ESOP Pool Sizing Calculator builds an employee stock option pool from the bottom up using a startup's planned hires and role-based equity grant benchmarks. It sums the grant percentages across all planned roles, adds a planning buffer, and recommends a pool size as a percentage of fully diluted equity. It also converts that percentage into a number of option shares against the current cap table and shows the resulting founder dilution, helping founders size the pool to cover an eighteen-month hiring plan without excessive dilution.",
-  "url": "/tools/esop-pool-sizing-calculator",
+  "url": "https://www.patronaccounting.com/tools/esop-pool-sizing-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,9 +60,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -72,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Sizing Calculator", "item": "/tools/esop-pool-sizing-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Sizing Calculator", "item": "https://www.patronaccounting.com/tools/esop-pool-sizing-calculator"}
   ]
 }
 </script>
@@ -708,9 +708,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP Pool Sizing Calculator
 </nav>
@@ -822,14 +822,14 @@ a:focus-visible {
                 <li><strong>Click Calculate</strong> for the recommended pool %, a stage sanity-check, the option-share count and the dilution.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Once you have a target %, model how each future round tops it up with the <a href="/tools/esop-dilution-calculator">dilution impact calculator</a>, and pressure-test the headline number against the <a href="/tools/esop-pool-size-calculator">pool size calculator</a>.</p>
+                <p><strong>CA Tip:</strong> Once you have a target %, model how each future round tops it up with the <a href="https://www.patronaccounting.com/tools/esop-dilution-calculator">dilution impact calculator</a>, and pressure-test the headline number against the <a href="https://www.patronaccounting.com/tools/esop-pool-size-calculator">pool size calculator</a>.</p>
             </div>
         </section>
 
         <section class="content-section" id="what-is">
             <h2>Why Size Bottom-Up?</h2>
             <p>Most founders pick a round number — "let's do 10%" — and hope it covers hiring. <strong>Bottom-up sizing</strong> reverses that: you start from the actual roles you intend to hire, attach a market grant to each, and let the pool fall out of the plan. It ties the pool to need, so you neither starve the plan nor over-dilute.</p>
-            <p>The recipe: project ~18 months of hiring, multiply headcount by per-role grants, sum, then add a <strong>20–30% buffer</strong> for refreshes and surprises. See Patron's <a href="/blog/esop-pool-size-startups-india">ESOP pool size guide</a> and the <a href="/esop-scheme-design">ESOP scheme design</a> service for how this becomes a Board-approved scheme.</p>
+            <p>The recipe: project ~18 months of hiring, multiply headcount by per-role grants, sum, then add a <strong>20–30% buffer</strong> for refreshes and surprises. See Patron's <a href="https://www.patronaccounting.com/blog/esop-pool-size-startups-india">ESOP pool size guide</a> and the <a href="https://www.patronaccounting.com/esop-scheme-design">ESOP scheme design</a> service for how this becomes a Board-approved scheme.</p>
             <div class="formula-box">
                 <span class="label">Planned grants</span> = Σ (hires × grant % each)<br>
                 <span class="label">Recommended pool</span> = Planned grants × (1 + buffer)<br>
@@ -870,7 +870,7 @@ a:focus-visible {
         <section class="content-section" id="dilution">
             <h2>How the Pool Dilutes Founders</h2>
             <p>Creating or topping up the pool increases the fully diluted share count, so every existing holder's percentage falls — founders included. If founders hold 100% and a 12% pool is created, their combined stake falls to about 88%.</p>
-            <p>The catch at fundraising: investors usually require the pool to be created or expanded <strong>before</strong> their money goes in, so it comes out of the <strong>pre-money</strong> valuation and the dilution lands on founders, not the new investor — the "pool shuffle." Sizing accurately, with just enough buffer, is the defence. Patron's <a href="/blog/esop-dilution-math-startup-founders">ESOP dilution math</a> explains the mechanics.</p>
+            <p>The catch at fundraising: investors usually require the pool to be created or expanded <strong>before</strong> their money goes in, so it comes out of the <strong>pre-money</strong> valuation and the dilution lands on founders, not the new investor — the "pool shuffle." Sizing accurately, with just enough buffer, is the defence. Patron's <a href="https://www.patronaccounting.com/blog/esop-dilution-math-startup-founders">ESOP dilution math</a> explains the mechanics.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Creating the pool late — at a term sheet — weakens your position, since investors push it into the pre-money. A modest early pool, topped up each round, is usually cleaner.</p>
             </div>
@@ -894,7 +894,7 @@ a:focus-visible {
             <p>A pool is not a one-time decision. Investors at each round typically push for the pool to be refreshed to a target percentage on the new, larger cap table — so a 12% pool that has mostly been granted out may need topping back up to 12–15% post-money at Series A. Sizing too generously early wastes founder equity; sizing too tight forces an expensive last-minute top-up at the term sheet.</p>
             <p>The bottom-up discipline helps here too: re-run the plan at each stage for the next 18 months of hiring, and you get a defensible top-up number to negotiate from rather than accepting an investor's round figure. Recognition with <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> and a clean cap table strengthen that position, and the fully-diluted convention used throughout — counting all shares, options and the unallocated pool, consistent with the <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a>-aligned market practice for equity negotiations — keeps everyone measuring the same way. Professional scheme drafting, in line with <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> guidance on share-based payments, ensures the chosen percentage is converted to a defined number of options in the documents.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Model each round's top-up and the cumulative founder dilution with the <a href="/tools/esop-dilution-calculator">dilution impact calculator</a> before you sign a term sheet.</p>
+                <p><strong>Tip:</strong> Model each round's top-up and the cumulative founder dilution with the <a href="https://www.patronaccounting.com/tools/esop-dilution-calculator">dilution impact calculator</a> before you sign a term sheet.</p>
             </div>
         </section>
 
@@ -968,24 +968,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-dilution-calculator" class="sidebar-link">Dilution Impact Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost-to-Company <span class="arrow">→</span></a>
-            <a href="/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-dilution-calculator" class="sidebar-link">Dilution Impact Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost-to-Company <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/esop-scheme-design" class="sidebar-link">ESOP Scheme Design <span class="arrow">→</span></a>
-            <a href="/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
-            <a href="/esop-for-tech-startups" class="sidebar-link">ESOP for Tech Startups <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-scheme-design" class="sidebar-link">ESOP Scheme Design <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-for-tech-startups" class="sidebar-link">ESOP for Tech Startups <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-pool-size-startups-india" class="sidebar-link">ESOP Pool Size Guide <span class="arrow">→</span></a>
-            <a href="/blog/esop-dilution-math-startup-founders" class="sidebar-link">ESOP Dilution Math <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-pool-size-startups-india" class="sidebar-link">ESOP Pool Size Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-dilution-math-startup-founders" class="sidebar-link">ESOP Dilution Math <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

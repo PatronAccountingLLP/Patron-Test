@@ -3,23 +3,23 @@
 <title>DIN Verifier | Director Identification Number Check</title>
 <meta name="description" content="Free DIN verifier: check a Director Identification Number's 8-digit format and structure offline, then follow a guided checklist for official MCA verification.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="/tools/din-authenticity-verifier">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/din-authenticity-verifier">
 
 <meta property="og:title" content="DIN Authenticity Verifier — Free DIN Format Check Tool">
 <meta property="og:description" content="Validate a Director Identification Number's 8-digit format and structure instantly, then follow a guided checklist for official MCA DIN verification. Free and India-specific.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/din-authenticity-verifier">
-<meta property="og:image" content="/tools/din-authenticity-verifier-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/din-authenticity-verifier">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/din-authenticity-verifier-og.png">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DIN Authenticity Verifier — Free DIN Format Check Tool">
 <meta name="twitter:description" content="Validate a Director Identification Number's 8-digit format instantly, then follow a guided checklist for official MCA verification.">
-<meta name="twitter:image" content="/tools/din-authenticity-verifier-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/din-authenticity-verifier-og.png">
 
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "DIN Authenticity Verifier",
   "description": "The DIN Authenticity Verifier validates the format and structure of a Director Identification Number issued by the Ministry of Corporate Affairs under Section 153 of the Companies Act 2013, checking that it is a valid 8-digit numeric identifier, and then guides the user through the official MCA portal verification steps and a due-diligence checklist. It is an offline format pre-check, not a live MCA database lookup.",
-  "url": "/tools/din-authenticity-verifier",
+  "url": "https://www.patronaccounting.com/tools/din-authenticity-verifier",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,8 +59,8 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
-  "provider": { "@id": "/#organization" }
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
 }
 </script>
 
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "DIN Authenticity Verifier", "item": "/tools/din-authenticity-verifier"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "DIN Authenticity Verifier", "item": "https://www.patronaccounting.com/tools/din-authenticity-verifier"}
   ]
 }
 </script>
@@ -1152,9 +1152,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     DIN Authenticity Verifier
 </nav>
@@ -1290,7 +1290,7 @@ a:focus-visible {
                 <span class="label">Example shape:</span> 0XXXXXXX / 1XXXXXXX (8 numerals)<br><br>
                 Structure valid ≠ DIN genuine — only <span class="label">MCA</span> can confirm existence & status
             </div>
-            <p>The law and rules are administered by the MCA and available via <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">India Code</a>. For director compliance support, see our <a href="/director-kyc">Director KYC</a> service.</p>
+            <p>The law and rules are administered by the MCA and available via <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">India Code</a>. For director compliance support, see our <a href="https://www.patronaccounting.com/director-kyc">Director KYC</a> service.</p>
         </section>
 
         <section class="content-section" id="mca-verify">
@@ -1323,7 +1323,7 @@ a:focus-visible {
                     <tr><td>Surrendered / Cancelled</td><td>Given up via DIR-5 or cancelled by MCA</td></tr>
                 </tbody>
             </table>
-            <p>Annual <strong>DIR-3 KYC</strong> by 30 September keeps a DIN active, as administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>. Non-filing is the most common cause of a deactivated DIN. See our guides on <a href="/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors">DIR-3 KYC filing</a> and <a href="/blog/dir-3-kyc-din-deactivation-reactivation">DIN deactivation and reactivation</a>.</p>
+            <p>Annual <strong>DIR-3 KYC</strong> by 30 September keeps a DIN active, as administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>. Non-filing is the most common cause of a deactivated DIN. See our guides on <a href="https://www.patronaccounting.com/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors">DIR-3 KYC filing</a> and <a href="https://www.patronaccounting.com/blog/dir-3-kyc-din-deactivation-reactivation">DIN deactivation and reactivation</a>.</p>
         </section>
 
         <section class="content-section" id="red-flags">
@@ -1337,7 +1337,7 @@ a:focus-visible {
                 <li><strong>Reluctance to share the DIN.</strong> A genuine director's DIN is a routine, shareable identifier.</li>
             </ul>
             <div class="callout warn">
-                <p><strong>Note:</strong> This tool performs a client-side format check only and is not legal advice or a substitute for official MCA verification. For a defensible director due-diligence file, complete the MCA checks and have them reviewed. Our team assists with <a href="/registrar-of-companies">ROC notices</a>, <a href="/director-kyc">Director KYC</a> and <a href="/private-limited-company-compliance">private limited company compliance</a>, with the corporate registry overseen by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>.</p>
+                <p><strong>Note:</strong> This tool performs a client-side format check only and is not legal advice or a substitute for official MCA verification. For a defensible director due-diligence file, complete the MCA checks and have them reviewed. Our team assists with <a href="https://www.patronaccounting.com/registrar-of-companies">ROC notices</a>, <a href="https://www.patronaccounting.com/director-kyc">Director KYC</a> and <a href="https://www.patronaccounting.com/private-limited-company-compliance">private limited company compliance</a>, with the corporate registry overseen by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>.</p>
             </div>
         </section>
 
@@ -1476,28 +1476,28 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/director-kyc" class="sidebar-link">Director KYC (DIR-3 KYC) <span class="arrow">→</span></a>
-            <a href="/registrar-of-companies" class="sidebar-link">ROC Notice Response <span class="arrow">→</span></a>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
-            <a href="/small-company-annual-compliance" class="sidebar-link">Small Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/director-kyc" class="sidebar-link">Director KYC (DIR-3 KYC) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/registrar-of-companies" class="sidebar-link">ROC Notice Response <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/small-company-annual-compliance" class="sidebar-link">Small Company Compliance <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
-            <a href="/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
-            <a href="/tools/ifc-framework-readiness" class="sidebar-link">IFC Framework Readiness <span class="arrow">→</span></a>
-            <a href="/tools/schedule-iii-compliance-checker" class="sidebar-link">Schedule III Compliance Checker <span class="arrow">→</span></a>
-            <a href="/tools/statutory-audit-fee-estimator" class="sidebar-link">Statutory Audit Fee Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ifc-framework-readiness" class="sidebar-link">IFC Framework Readiness <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker" class="sidebar-link">Schedule III Compliance Checker <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator" class="sidebar-link">Statutory Audit Fee Estimator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors" class="sidebar-link">DIR-3 KYC Filing Guide <span class="arrow">→</span></a>
-            <a href="/blog/director-disqualification-under-section-164-complete-guide" class="sidebar-link">Director Disqualification (Sec 164) <span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors" class="sidebar-link">DIR-3 KYC Filing Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/director-disqualification-under-section-164-complete-guide" class="sidebar-link">Director Disqualification (Sec 164) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
         </div>
 
     </aside>

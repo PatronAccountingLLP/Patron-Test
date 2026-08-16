@@ -32,11 +32,11 @@ use App\Http\Controllers\DocFileController;
 
 
 // Frontend Routes
+Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
+
 // Accounting Cluster 301 redirects (must precede page/city routes so old paths 301 instead of rendering)
 require __DIR__.'/accounting-cluster-redirects.php';
 require __DIR__.'/networth-cluster-redirects.php';
-
-Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 
 // ============ Glossary: master hub + Accounting hub + 140 term pages ============
 Route::get('/glossary', function () {
@@ -374,7 +374,7 @@ Route::get('/blog/{post}', [FrontendController::class, 'blogShowPost'])->name('f
 //     'fssai-registration',
 //     'ngo-registration',
 //     'trade-license','drug-license','llp-registration','private-limited-company-registration','udyam-registration','msme-registration','startup-registration','iec-registration','registration-for-12a-80g-certificate','society-registration','itr-filling-services','trademark','gst','section-8-company-registration'
-
+// ];
 
 // Route::get('/{directry_label}/{slug?}', [PageController::class, 'directryPageContent'])
 //     ->where('directry_label', implode('|', $allDirectry_lebel))->where(['directry_label' => '[a-z0-9\-]+','slug' => '[a-z0-9\-]+'])->name('directryWithSlug.show');
@@ -429,38 +429,16 @@ $allDirectry_lebel = [
     'trade-license','drug-license','llp-registration','private-limited-company-registration','udyam-registration','msme-registration','startup-registration','iec-registration','registration-for-12a-80g-certificate','society-registration','itr-filling-services','trademark','gst','section-8-company-registration',
     // Accounting & Bookkeeping service slugs whose city pages were added in Patron Local (not yet whitelisted) — fixes /service/city 404
     'accounting-bookkeeping-services','esop-accounting-ind-as-102','year-end-closing-finalisation-services',
+    // Accounting cluster service + industry pages with city (2-segment /service/city) pages
+    'accounting-services','accounting-services-for-e-commerce-industry','accounting-services-for-education-industry','accounting-services-for-manufacturing','accounting-services-for-retail','accounting-services-for-startups','accounting-services-for-the-service-sector-industry','accounting-services-it-saas','ngo-and-non-profit-accounting-services','tally-accounting','xero-accounting',
     // IMF (Insurance Marketing Firm) cluster city pages
     'imf-services','irda-imf-business-registration','imf-irdai-registration-process','ismp-certification-isp-appointment','imf-compliance-retainer-services','imf-for-insurance-agents','imf-for-financial-advisors','imf-for-mutual-fund-distributors','imf-for-bank-employees-retirees','imf-for-multi-line-brokers','imf-for-bank-nbfc-employees','imf-for-investment-advisors','imf-private-limited-vs-llp','imf-for-rural-tier-3-cities','imf-application-rejection-recovery',
     // Financial Certificates cluster city pages (Delhi/Gurugram/Mumbai/Pune) — deployed from Patron Hub HTMLs
     'ageing-of-debtors-creditors-certificate','capital-account-certificate','certificate-of-fair-market-value-fmv','certificate-under-section-281-income-tax','cma-data-preparation-and-certification','foreign-remittance-certificate-15ca-15cb','forensic-net-worth-certificate','fund-utilisation-certificate','income-certificate-by-ca','inward-remittance-certificate-firc','net-worth-certificate-for-companies','net-worth-certificate-for-germany-visa','net-worth-certificate-for-ireland-visa','net-worth-certificate-for-nbfc-rbi-registration','net-worth-certificate-for-rera-registration','net-worth-certificate-for-startup-india-recognition','net-worth-certificate-for-uae-golden-visa','professional-income-certificate','provisional-financials-certificate','solvency-certificate','sponsorship-affidavit-and-net-worth-certificate','stock-statement-certificate','turnover-certificate-for-msme-classification',
-    // Net Worth & Solvency cluster city pages (2026-08-04). 'solvency-certificate' is already
-    // whitelisted above with the Financial Certificates cluster.
-    'net-worth-certificate','net-worth-certificate-for-visa',
+    // Net Worth & Solvency cluster city pages (2026-08-04)
+    'net-worth-certificate','net-worth-certificate-for-visa','solvency-certificate',
     // NGO / Trust compliance cluster city pages (net-new 2026-07-01)
     '12a-80g-renewal-5-year-cycle','form-10bd-donor-wise-donation-statement','form-10be-donor-certificate-management','section-11-12-13-income-application-accumulation','fcra-renewal-5-year-cycle','fcra-fc-4-annual-return','fcra-fc-6-prior-intimation-and-bank-account','fcra-quarterly-receipt-declaration','form-10b-audit-report-section-12a-trust','form-10bb-audit-report-section-1023c-institution','trustee-appointment-and-replacement','ngo-services-for-healthcare','ngo-services-for-rural-development',
-    // GST + Business Registration + Financial Certificates pending-upload city clusters (published 2026-07-02)
-    'angel-tax-exemption-section-56-2-viib','branch-office-of-foreign-company-india','company-registration-in-cayman-islands','company-registration-in-mauritius',
-    'company-registration-in-singapore','company-registration-in-uk','convert-llp-to-public-ltd','convert-proprietorship-to-llp',
-    'convert-proprietorship-to-pvt-ltd','convert-public-ltd-to-pvt-ltd','convert-pvt-ltd-to-public-ltd','dpiit-startup-recognition',
-    'e-invoicing-for-erp-and-billing-software-integration','e-invoicing-implementation-and-irp-integration','e-way-bill-for-job-work-and-multi-vehicle','e-way-bill-for-transporters-and-gta',
-    'e-way-bill-generation-and-compliance','ecommerce-business-registration','family-business-registration-india','financial-certificates-services',
-    'fintech-company-registration-india','foreign-subsidiary-registration-india','freelancer-business-registration','gem-government-e-marketplace-registration',
-    'gst-advance-ruling-aar-and-aaar','gst-appeal-section-107-first-appellate-authority','gst-appeal-to-gstat-section-112','gst-classification-and-hsn-sac-advisory',
-    'gst-composition-scheme-registration','gst-drc-01-and-drc-01a-response','gst-drc-03-voluntary-payment','gst-itc-advisory-and-optimization',
-    'gst-itc-blocked-credits-section-17-5','gst-itc-on-capital-goods','gst-itc-reconciliation-gstr-2b-vs-3b','gst-itc-reversal-rule-42-43',
-    'gst-itc-time-limit-section-16-4','gst-place-of-supply-determination','gst-registration-amendment','gst-registration-cancellation',
-    'gst-registration-for-casual-taxable-person','gst-registration-for-non-resident-taxable-person','gst-registration-revocation','gst-registration-rule-14a',
-    'gst-returns-for-builders-and-real-estate-promoters','gst-returns-for-education','gst-returns-for-financial-services','gst-returns-for-goods-transport-agency-gta',
-    'gst-returns-for-healthcare','gst-returns-for-hotels','gst-returns-for-importers','gst-returns-for-manufacturers',
-    'gst-returns-for-ngos-and-charitable-trusts','gst-returns-for-real-estate','gst-returns-for-trading-industry','gst-returns-for-travel-and-logistics',
-    'gst-reverse-charge-mechanism-rcm-compliance','gst-valuation-services','gstr-1-filing','gstr-3b-filing',
-    'gstr-4-filing','gstr-5a-filing','gstr-7-filing','gstr-8-filing',
-    'gstr-9c-reconciliation','healthcare-business-registration-india','huf-formation-and-pan-application','it-saas-company-registration-india',
-    'joint-venture-jv-structure-and-shareholders-agreement','liaison-office-of-foreign-company-india','manufacturing-company-registration-india','nbfc-registration-rbi-applicability-and-process',
-    'net-worth-certificate-for-business-loan','net-worth-certificate-for-directors-fit-and-proper','net-worth-certificate-for-home-loan','net-worth-certificate-for-students',
-    'net-worth-certificate-for-tender-bidding','pan-and-tan-application-post-incorporation','professional-firm-registration','project-office-of-foreign-company-india',
-    'real-estate-company-registration-india','sec-74-gst-notice','shop-and-establishment-act-registration','special-purpose-vehicle-spv-and-holding-company-setup',
-    'trade-license-municipality-registration','trust-registration-private-family','trust-registration-public-charitable','wholly-owned-subsidiary-of-foreign-company-india',
 ];
 
 Route::get('/{directry_label}/{slug?}', [PageController::class, 'directryPageContent'])

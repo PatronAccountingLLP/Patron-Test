@@ -3,20 +3,20 @@
     <title>GST Calculator India | CGST, SGST &amp; IGST Tool</title>
     <meta name="description" content="GST calculator for India: split CGST, SGST and IGST across all slabs in inclusive and exclusive modes. Free, instant tool for Indian businesses. Calculate now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/gst-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-calculator">
     <meta property="og:title" content="GST Calculator India &mdash; Free CGST SGST IGST Calculator 2026">
     <meta property="og:description" content="GST Calculator computes CGST, SGST, and IGST for any amount under all GST slabs. Supports inclusive and exclusive calculations for Indian businesses.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/gst-calculator">
-    <meta property="og:image" content="/tools/gst-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/gst-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Calculator India &mdash; Free CGST SGST IGST Calculator 2026">
     <meta name="twitter:description" content="GST Calculator computes CGST, SGST, and IGST for any amount under all GST slabs. Try now!">
-    <meta name="twitter:image" content="/tools/gst-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/gst-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -26,7 +26,7 @@
       "@type": "WebApplication",
       "name": "GST Calculator India",
       "description": "GST Calculator computes CGST, SGST, and IGST breakdowns for any amount under all Indian GST slabs including 5%, 12%, 18%, and 28%. Supports both GST-inclusive and GST-exclusive calculations for intra-state and inter-state transactions.",
-      "url": "/tools/gst-calculator",
+      "url": "https://www.patronaccounting.com/tools/gst-calculator",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-03-03",
@@ -38,10 +38,10 @@
       },
       "author": {
         "@type": "Person",
-        "@id": "/#team",
+        "@id": "https://patronaccounting.com/#team",
         "name": "CA & CS Patron Accounting Team",
         "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -57,14 +57,14 @@
       "publisher": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "/logo.png"
+          "url": "https://www.patronaccounting.com/logo.png"
         }
       },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -77,19 +77,19 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "/"
+          "item": "https://www.patronaccounting.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Free Tools",
-          "item": "/tools/"
+          "item": "https://www.patronaccounting.com/tools/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "GST Calculator",
-          "item": "/tools/gst-calculator"
+          "item": "https://www.patronaccounting.com/tools/gst-calculator"
         }
       ]
     }
@@ -995,9 +995,9 @@
 
     <!-- Breadcrumb -->
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
+        <a href="https://www.patronaccounting.com/">Home</a>
         <span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
         <span>&rsaquo;</span>
         GST Calculator
     </nav> --}}
@@ -1408,29 +1408,29 @@
             <!-- Related Tools -->
             <div class="sidebar-card">
                 <h3>Related Services</h3>
-                <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
-                <a href="/gst-returns-for-e-commerce-operator" class="sidebar-link">GST for E-commerce <span class="arrow">&rarr;</span></a>
-                <a href="/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
-                <a href="/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-returns-for-e-commerce-operator" class="sidebar-link">GST for E-commerce <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Related Services -->
             <div class="sidebar-card">
                 <h3>GST Services</h3>
-                <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-                <a href="/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">&rarr;</span></a>
-                <a href="/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
-                <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Related Blog -->
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
-                <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div><span class="trust">25,000+ Businesses Trust Us</span>

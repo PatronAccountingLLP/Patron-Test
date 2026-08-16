@@ -7,20 +7,20 @@
     <title>DuPont Analysis Calculator | 3-Step & 5-Step ROE</title>
     <meta name="description" content="Free DuPont analysis calculator: 3-step and 5-step ROE decomposition into tax burden, interest burden, margin, asset turnover and leverage. CA-reviewed tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/dupont-analysis-tool/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/dupont-analysis-tool/">
     <meta property="og:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
     <meta property="og:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step and 5-step DuPont analysis. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/dupont-analysis-tool">
-    <meta property="og:image" content="/tools/og/dupont-analysis-tool.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/dupont-analysis-tool">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/dupont-analysis-tool.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
     <meta name="twitter:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step + 5-step. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/dupont-analysis-tool.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/dupont-analysis-tool.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "DuPont Analysis Tool",
       "description": "DuPont Analysis Calculator decomposes Return on Equity (ROE) into its underlying drivers using both the 3-step and 5-step DuPont frameworks. The 3-step DuPont breaks ROE into Net Profit Margin (profitability) multiplied by Asset Turnover (efficiency) multiplied by Equity Multiplier (financial leverage). The 5-step extended DuPont further decomposes profitability into Tax Burden (Net Income divided by Earnings Before Tax), Interest Burden (EBT divided by EBIT) and EBIT Margin (EBIT divided by Sales), separating operating profitability from financing and tax effects. The tool computes each component, compares against industry benchmarks for IT, FMCG, Manufacturing, Banks and NBFCs, Pharma, Real Estate and Retail, and identifies the primary driver of ROE — whether profitability, efficiency or leverage. Year-over-year comparison mode highlights which DuPont component is driving change in ROE. Suitable for equity research analysts, credit appraisal teams at banks and NBFCs, CFO offices benchmarking against peers, and CA Final and CFA students learning fundamental analysis. Aligned with Schedule III of the Companies Act 2013 for input definitions.",
-      "url": "/tools/dupont-analysis-tool",
+      "url": "https://www.patronaccounting.com/tools/dupont-analysis-tool",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "DuPont Analysis Tool", "item": "/tools/dupont-analysis-tool"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "DuPont Analysis Tool", "item": "https://www.patronaccounting.com/tools/dupont-analysis-tool"}
       ]
     }
     </script>
@@ -462,8 +462,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     DuPont Analysis Tool
 </nav>
 
@@ -783,30 +783,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
             
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
-            <a href="/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

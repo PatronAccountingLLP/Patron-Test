@@ -7,20 +7,20 @@
     <title>EBITDA Margin Calculator | EV/EBITDA & Benchmarks</title>
     <meta name="description" content="Free EBITDA margin calculator: compute EBITDA &amp; margin with Ind AS 116 lease reconciliation, sector benchmarks and EV/EBITDA valuation. CA-reviewed tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ebitda-margin-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ebitda-margin-calculator/">
     <meta property="og:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
     <meta property="og:description" content="Compute EBITDA margin with Ind AS 116 lease reconciliation, sector benchmarks, operating margin, net profit margin, EV/EBITDA valuation. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/ebitda-margin-calculator">
-    <meta property="og:image" content="/tools/og/ebitda-margin-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ebitda-margin-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/ebitda-margin-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
     <meta name="twitter:description" content="EBITDA margin with Ind AS 116 reconciliation, EV/EBITDA valuation, sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/ebitda-margin-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/ebitda-margin-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "EBITDA Margin Calculator",
       "description": "EBITDA Margin Calculator computes Earnings Before Interest, Tax, Depreciation and Amortisation (EBITDA) and EBITDA Margin for an Indian company using P and L line items aligned with Schedule III to the Companies Act, 2013. The tool supports an optional Ind AS 116 lease reconciliation showing the difference between post-Ind AS 116 reported EBITDA and pre-Ind AS 116 EBITDA after deducting lease rent expense, an SEBI Alternative Performance Measure (APM) disclosure approach. Output includes EBITDA in rupees, EBITDA Margin percentage, EBIT and Operating Margin, Profit Before Tax, Profit After Tax and Net Profit Margin, sector benchmark comparison across IT, Manufacturing, FMCG, Retail, Pharma, Real Estate, Telecom and Services, year-over-year trend versus prior year margin, implied Enterprise Value via EV / EBITDA multiple selector, and a sample Schedule III Net Profit Ratio disclosure that ties to the same input data. The Schedule III mandatory ratio of Net Profit Ratio is auto-derived alongside EBITDA Margin for full P and L margin analysis.",
-      "url": "/tools/ebitda-margin-calculator",
+      "url": "https://www.patronaccounting.com/tools/ebitda-margin-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "EBITDA Margin Calculator", "item": "/tools/ebitda-margin-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "EBITDA Margin Calculator", "item": "https://www.patronaccounting.com/tools/ebitda-margin-calculator"}
       ]
     }
     </script>
@@ -483,9 +483,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     EBITDA Margin Calculator
 </nav>
@@ -801,7 +801,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
                 <p><strong>Note:</strong> Bank loan covenants drafted before April 2019 may reference EBITDA without specifying treatment. Post-Ind AS 116, this creates ambiguity — does "EBITDA" mean reported (higher) or pre-standard (comparable)? Always re-read existing covenants and renegotiate definitions during loan renewal to remove this ambiguity.</p>
             </div>
 
-            <p>For deeper Ind AS 116 implementation guidance, see Patron's <a href="/tools/lease-accounting-calculator-ind-as-116" target="_blank" rel="noopener">Lease Accounting Calculator (Ind AS 116)</a> which computes ROU asset, lease liability and year-wise schedule.</p>
+            <p>For deeper Ind AS 116 implementation guidance, see Patron's <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" target="_blank" rel="noopener">Lease Accounting Calculator (Ind AS 116)</a> which computes ROU asset, lease liability and year-wise schedule.</p>
         </section>
 
         <section class="content-section" id="vs-margins">
@@ -1012,29 +1012,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
-            <a href="/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
-            <a href="/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
-            <a href="/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator<span class="arrow">→</span></a>
-            <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Tax Scrutiny &amp; Assessment<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Tax Scrutiny &amp; Assessment<span class="arrow">→</span></a>
         </div>
 
     </aside>

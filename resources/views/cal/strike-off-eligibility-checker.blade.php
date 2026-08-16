@@ -4,27 +4,27 @@
 <meta name="description" content="Strike off eligibility checker for Pvt Ltd &amp; LLP: 10-question Section 248 / Form 24 test for pending dues, litigation and charges. Free PDF + CA review.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/strike-off-eligibility-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/strike-off-eligibility-checker">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/strike-off-eligibility-checker">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/strike-off-eligibility-checker">
 <meta property="og:title" content="Strike Off Eligibility Checker — Pvt Ltd &amp; LLP 2026">
 <meta property="og:description" content="10-question decision tree under Sections 248 &amp; 249 of Companies Act 2013 + LLP Rule 37. Verdict + cleanup steps + statutory citations.">
-<meta property="og:image" content="/og/strike-off-eligibility-checker.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/strike-off-eligibility-checker.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Strike Off Eligibility Checker — Pvt Ltd &amp; LLP 2026">
 <meta name="twitter:description" content="10-question Section 248 / Form 24 eligibility test with verdict, cleanup checklist and statutory citations.">
-<meta name="twitter:image" content="/og/strike-off-eligibility-checker.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/strike-off-eligibility-checker.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Strike Off Eligibility Checker","description":"Strike Off Eligibility Checker is a 10-question decision tree that tests whether an Indian Private Limited Company, One Person Company, or Limited Liability Partnership is eligible to file for voluntary strike off (closure of the entity) with the Registrar of Companies. For Private Limited Companies and OPCs, the tool applies Section 248 of the Companies Act 2013 read with the Companies (Removal of Names of Companies from the Register of Companies) Rules 2016, including the eight disqualifying conditions under Section 249(1) clauses (a) through (h) which prohibit filing of Form STK-2 if the company has changed its name, shifted its registered office, made a disposal for value of property or rights, engaged in any activity except as necessary or expedient for making a strike-off application, applied to the Tribunal for sanctioning of compromise or arrangement, is being wound up under Chapter XX, or is being unable to pay its debts. For Limited Liability Partnerships, the tool applies Rule 37 of the LLP Rules 2009 read with Section 75 of the LLP Act 2008 and Form 24 requirements. The ten questions cover: years of business inactivity (minimum two financial years for companies under Section 248(1)(c), one year for LLPs under Rule 37, or never commenced business under Section 248(1)(d)), pending litigation or regulatory proceedings, outstanding trade creditors, outstanding employee dues including salary, gratuity, leave encashment, statutory dues such as Income Tax, Tax Deducted at Source, Goods and Services Tax, Employees Provident Fund, Employees State Insurance and Professional Tax, bank account closure status, charges registered with the Registrar including secured loans and mortgages requiring satisfaction via Form CHG-4, recent name change within the last three months which disqualifies under Section 249(1)(a), recent registered office shift within three months which disqualifies under Section 249(1)(b), and recent corporate actions including property disposal or NCLT applications. The tool returns one of three verdicts: ELIGIBLE (all criteria satisfied, ready to file Form STK-2 or Form 24), CONDITIONAL (eligible after completing specific cleanup steps such as creditor settlement, bank account closure, charge satisfaction), or NOT YET ELIGIBLE (one or more hard blockers under Section 249 or pending statutory dues prevent filing entirely). For each blocker or required action the tool provides the specific statutory citation, the cleanup step required, and the estimated time and cost for resolution. The result is exportable as a printable PDF for sharing with the company secretary, the Board of Directors, or a Chartered Accountant for final pre-filing review.","url":"/tools/strike-off-eligibility-checker","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Strike Off Eligibility Checker","description":"Strike Off Eligibility Checker is a 10-question decision tree that tests whether an Indian Private Limited Company, One Person Company, or Limited Liability Partnership is eligible to file for voluntary strike off (closure of the entity) with the Registrar of Companies. For Private Limited Companies and OPCs, the tool applies Section 248 of the Companies Act 2013 read with the Companies (Removal of Names of Companies from the Register of Companies) Rules 2016, including the eight disqualifying conditions under Section 249(1) clauses (a) through (h) which prohibit filing of Form STK-2 if the company has changed its name, shifted its registered office, made a disposal for value of property or rights, engaged in any activity except as necessary or expedient for making a strike-off application, applied to the Tribunal for sanctioning of compromise or arrangement, is being wound up under Chapter XX, or is being unable to pay its debts. For Limited Liability Partnerships, the tool applies Rule 37 of the LLP Rules 2009 read with Section 75 of the LLP Act 2008 and Form 24 requirements. The ten questions cover: years of business inactivity (minimum two financial years for companies under Section 248(1)(c), one year for LLPs under Rule 37, or never commenced business under Section 248(1)(d)), pending litigation or regulatory proceedings, outstanding trade creditors, outstanding employee dues including salary, gratuity, leave encashment, statutory dues such as Income Tax, Tax Deducted at Source, Goods and Services Tax, Employees Provident Fund, Employees State Insurance and Professional Tax, bank account closure status, charges registered with the Registrar including secured loans and mortgages requiring satisfaction via Form CHG-4, recent name change within the last three months which disqualifies under Section 249(1)(a), recent registered office shift within three months which disqualifies under Section 249(1)(b), and recent corporate actions including property disposal or NCLT applications. The tool returns one of three verdicts: ELIGIBLE (all criteria satisfied, ready to file Form STK-2 or Form 24), CONDITIONAL (eligible after completing specific cleanup steps such as creditor settlement, bank account closure, charge satisfaction), or NOT YET ELIGIBLE (one or more hard blockers under Section 249 or pending statutory dues prevent filing entirely). For each blocker or required action the tool provides the specific statutory citation, the cleanup step required, and the estimated time and cost for resolution. The result is exportable as a printable PDF for sharing with the company secretary, the Board of Directors, or a Chartered Accountant for final pre-filing review.","url":"https://www.patronaccounting.com/tools/strike-off-eligibility-checker","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Strike Off Eligibility Checker","item":"/tools/strike-off-eligibility-checker"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Strike Off Eligibility Checker","item":"https://www.patronaccounting.com/tools/strike-off-eligibility-checker"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -259,7 +259,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Checker</a><a href="#how-to-use">How to Use</a><a href="#framework">Sec 248 &amp; 249</a><a href="#docs">Documents</a><a href="#compare">DIY vs Patron</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Strike Off Eligibility Checker</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Strike Off Eligibility Checker</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -338,7 +338,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </li>
 <li><strong>Print the verdict</strong> for sharing with your CA / CS / Board.</li>
 </ol>
-<div class="callout"><p><strong>Default scenario:</strong> Pvt Ltd / OPC + 2+ years inactivity + no litigation + no creditors + no employee dues + statutory dues cleared + bank accounts closed + no open charges + no recent name change + no recent office shift + no Sec 249 corporate actions → <strong>ELIGIBLE</strong> verdict, route to <a href="/strike-off-private-limited-company">strike off service</a>.</p></div>
+<div class="callout"><p><strong>Default scenario:</strong> Pvt Ltd / OPC + 2+ years inactivity + no litigation + no creditors + no employee dues + statutory dues cleared + bank accounts closed + no open charges + no recent name change + no recent office shift + no Sec 249 corporate actions → <strong>ELIGIBLE</strong> verdict, route to <a href="https://www.patronaccounting.com/strike-off-private-limited-company">strike off service</a>.</p></div>
 </section>
 
 <section class="content-section" id="framework">
@@ -372,7 +372,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <h3>Beyond Section 249 — Operational Prerequisites</h3>
 <p>Even if all Section 249 conditions are cleared, the following operational items must be completed before STK-2 will be accepted:</p>
 <ul>
-<li>All pending annual compliance filed — <a href="/annual-compliance-private-limited">AOC-4 and MGT-7</a> not more than 12 months old (use our <a href="/tools/mca-late-fee-calculator">MCA Late Fee Calculator</a> for backlog)</li>
+<li>All pending annual compliance filed — <a href="https://www.patronaccounting.com/annual-compliance-private-limited">AOC-4 and MGT-7</a> not more than 12 months old (use our <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator">MCA Late Fee Calculator</a> for backlog)</li>
 <li>All statutory dues cleared with No Dues Certificates from IT, GST, PF, ESI, PT departments</li>
 <li>All bank accounts closed with bank closure certificates</li>
 <li>All registered charges satisfied via Form CHG-4 (Master Data must show "Satisfied")</li>
@@ -383,7 +383,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </ul>
 
 <h3>LLP Rule 37 — Strike Off Provisions for LLPs</h3>
-<p>For Limited Liability Partnerships, the equivalent process uses Form 24 filed under Rule 37 of the LLP Rules 2009 read with Section 75 of the LLP Act 2008. Key differences from company strike off: (a) only ONE year of inactivity required (not 2); (b) consent of all partners (not just 75% majority); (c) all designated partners sign affidavits; (d) government fee ₹500 (versus ₹10,000 STK-2); (e) Form 8 and Form 11 must be filed up to date of cessation. The other prerequisites — no charges, no statutory dues, no litigation, closed bank accounts — apply analogously. See <a href="/llp-strike-off-form-24">LLP Form 24 strike off service</a> for complete LLP procedure.</p>
+<p>For Limited Liability Partnerships, the equivalent process uses Form 24 filed under Rule 37 of the LLP Rules 2009 read with Section 75 of the LLP Act 2008. Key differences from company strike off: (a) only ONE year of inactivity required (not 2); (b) consent of all partners (not just 75% majority); (c) all designated partners sign affidavits; (d) government fee ₹500 (versus ₹10,000 STK-2); (e) Form 8 and Form 11 must be filed up to date of cessation. The other prerequisites — no charges, no statutory dues, no litigation, closed bank accounts — apply analogously. See <a href="https://www.patronaccounting.com/llp-strike-off-form-24">LLP Form 24 strike off service</a> for complete LLP procedure.</p>
 </section>
 
 <section class="content-section" id="docs">
@@ -403,7 +403,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <tr><td><strong>Income Tax / GST clearance</strong></td><td>NDC or 26AS</td><td>Recommended though not always mandatory.</td></tr>
 </tbody>
 </table>
-<div class="callout warn"><p><strong>Most common rejection causes:</strong> (1) Master Data shows open charge / pending notice — verify <a href="/director-disqualification-removal">director DIN status</a> and charge status before applying; (2) Bank closure certificate from one account is missing; (3) AOC-4 / MGT-7 older than 12 months — file annual return first; (4) Board resolution not signed by all directors. Use our <a href="/tools/din-authenticity-verifier">DIN Verifier</a> to confirm all directors' DINs are active before filing.</p></div>
+<div class="callout warn"><p><strong>Most common rejection causes:</strong> (1) Master Data shows open charge / pending notice — verify <a href="https://www.patronaccounting.com/director-disqualification-removal">director DIN status</a> and charge status before applying; (2) Bank closure certificate from one account is missing; (3) AOC-4 / MGT-7 older than 12 months — file annual return first; (4) Board resolution not signed by all directors. Use our <a href="https://www.patronaccounting.com/tools/din-authenticity-verifier">DIN Verifier</a> to confirm all directors' DINs are active before filing.</p></div>
 </section>
 
 <div class="body-cta">
@@ -447,7 +447,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <p>The economics are stark: a DIY rejection costs the ₹10,000 STK-2 fee plus ~30 hours of director time + the cleanup work has to be redone correctly. Patron's fixed fee includes all of this with a no-rejection guarantee on procedural grounds.</p>
 
 <h3>Strike Off vs Dormant Status — When to Pick Which</h3>
-<p>If your company has ANY potential future use case (intellectual property holding, future business pivot, brand name preservation), consider <strong>dormant status under Section 455</strong> instead of strike off. Dormant status keeps the entity alive with minimal annual compliance (only Form MSC-3 annual return), is reversible via Form MSC-4, and avoids the 6-18 month NCLT restoration process if you change your mind. Strike off is irrevocable except through NCLT restoration — see our <a href="/restore-struck-off-company-mca">Strike-Off Company Restoration</a> service if you have a struck-off entity to revive.</p>
+<p>If your company has ANY potential future use case (intellectual property holding, future business pivot, brand name preservation), consider <strong>dormant status under Section 455</strong> instead of strike off. Dormant status keeps the entity alive with minimal annual compliance (only Form MSC-3 annual return), is reversible via Form MSC-4, and avoids the 6-18 month NCLT restoration process if you change your mind. Strike off is irrevocable except through NCLT restoration — see our <a href="https://www.patronaccounting.com/restore-struck-off-company-mca">Strike-Off Company Restoration</a> service if you have a struck-off entity to revive.</p>
 </section>
 
 <section class="content-section" id="faqs">
@@ -494,24 +494,24 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Strike Off Services</h3>
-<a href="/strike-off-private-limited-company" class="sidebar-link">Pvt Ltd Strike Off (STK-2) <span class="arrow">→</span></a>
-<a href="/llp-strike-off-form-24" class="sidebar-link">LLP Strike Off (Form 24) <span class="arrow">→</span></a>
-<a href="/restore-struck-off-company-mca" class="sidebar-link">Restore Struck-Off Company <span class="arrow">→</span></a>
-<a href="/director-disqualification-removal" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/strike-off-private-limited-company" class="sidebar-link">Pvt Ltd Strike Off (STK-2) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/llp-strike-off-form-24" class="sidebar-link">LLP Strike Off (Form 24) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/restore-struck-off-company-mca" class="sidebar-link">Restore Struck-Off Company <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/director-disqualification-removal" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/dormant-company-status" class="sidebar-link">Dormant Status (MSC-1) <span class="arrow">→</span></a>
-<a href="/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
-<a href="/condonation-of-delay-roc-filings" class="sidebar-link">Condonation of Delay (ROC) <span class="arrow">→</span></a>
-<a href="/satisfaction-of-charge-chg-4" class="sidebar-link">Charge Satisfaction (CHG-4) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/dormant-company-status" class="sidebar-link">Dormant Status (MSC-1) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings" class="sidebar-link">Condonation of Delay (ROC) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/satisfaction-of-charge-chg-4" class="sidebar-link">Charge Satisfaction (CHG-4) <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/mca-late-fee-calculator" class="sidebar-link">MCA Late Fee Calculator <span class="arrow">→</span></a>
-<a href="/tools/din-authenticity-verifier" class="sidebar-link">DIN Authenticity Verifier <span class="arrow">→</span></a>
-<a href="/tools/compliance-calendar-generator" class="sidebar-link">Compliance Calendar Generator <span class="arrow">→</span></a>
-<a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator" class="sidebar-link">MCA Late Fee Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/din-authenticity-verifier" class="sidebar-link">DIN Authenticity Verifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/compliance-calendar-generator" class="sidebar-link">Compliance Calendar Generator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost Estimator <span class="arrow">→</span></a>
 </div>
 </aside>
 
@@ -762,9 +762,9 @@ function evaluate(){
     if(blockers.length === 0 && actions.length === 0){
         panel += '<div class="section-head">Next Steps</div>';
         if(currentEntity === 'llp'){
-            panel += '<div class="issue-card action" style="border-left-color:var(--success);background:#F0FDF4;"><div class="issue-head"><span class="issue-statute" style="background:#D1FAE5;color:#065F46;">LLP Rule 37</span>File Form 24 with MCA</div><div class="issue-body">All criteria met. Engage a CA/CS to draft affidavits, indemnity bonds, statement of accounts, and partner consent. File Form 24 (govt fee ₹500) + supporting documents. Public notice period 30 days + processing 90-120 days. <div class="action-required"><strong>Patron service:</strong> End-to-end LLP strike off (Form 24) — fixed-fee ₹10,000-₹18,000, 3-6 months. <a href="/llp-strike-off-form-24" style="color:var(--primary)">Learn more →</a></div></div></div>';
+            panel += '<div class="issue-card action" style="border-left-color:var(--success);background:#F0FDF4;"><div class="issue-head"><span class="issue-statute" style="background:#D1FAE5;color:#065F46;">LLP Rule 37</span>File Form 24 with MCA</div><div class="issue-body">All criteria met. Engage a CA/CS to draft affidavits, indemnity bonds, statement of accounts, and partner consent. File Form 24 (govt fee ₹500) + supporting documents. Public notice period 30 days + processing 90-120 days. <div class="action-required"><strong>Patron service:</strong> End-to-end LLP strike off (Form 24) — fixed-fee ₹10,000-₹18,000, 3-6 months. <a href="https://www.patronaccounting.com/llp-strike-off-form-24" style="color:var(--primary)">Learn more →</a></div></div></div>';
         } else {
-            panel += '<div class="issue-card action" style="border-left-color:var(--success);background:#F0FDF4;"><div class="issue-head"><span class="issue-statute" style="background:#D1FAE5;color:#065F46;">Sec 248(2)</span>File Form STK-2 with ROC</div><div class="issue-body">All criteria met. Engage a CA/CS to draft Form STK-3 (indemnity bonds), STK-4 (affidavits), STK-8 (litigation statement), special resolution, statement of accounts. File STK-2 (govt fee ₹10,000) + supporting documents. Public notice period 30 days + processing 60-120 days. <div class="action-required"><strong>Patron service:</strong> End-to-end strike off (STK-2) — fixed-fee ₹15,000-₹35,000, 4-9 months. <a href="/strike-off-private-limited-company" style="color:var(--primary)">Learn more →</a></div></div></div>';
+            panel += '<div class="issue-card action" style="border-left-color:var(--success);background:#F0FDF4;"><div class="issue-head"><span class="issue-statute" style="background:#D1FAE5;color:#065F46;">Sec 248(2)</span>File Form STK-2 with ROC</div><div class="issue-body">All criteria met. Engage a CA/CS to draft Form STK-3 (indemnity bonds), STK-4 (affidavits), STK-8 (litigation statement), special resolution, statement of accounts. File STK-2 (govt fee ₹10,000) + supporting documents. Public notice period 30 days + processing 60-120 days. <div class="action-required"><strong>Patron service:</strong> End-to-end strike off (STK-2) — fixed-fee ₹15,000-₹35,000, 4-9 months. <a href="https://www.patronaccounting.com/strike-off-private-limited-company" style="color:var(--primary)">Learn more →</a></div></div></div>';
         }
     }
 

@@ -4,23 +4,23 @@
 <title>IFC Readiness Check | Section 143(3)(i) ICFR Audit</title>
 <meta name="description" content="IFC framework readiness tool checks whether Section 143(3)(i) ICFR auditor reporting applies and scores your internal financial control readiness. Check now!">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="/tools/ifc-framework-readiness">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-framework-readiness">
 
 <meta property="og:title" content="IFC Framework Readiness Tool — Free ICFR Audit Check">
 <meta property="og:description" content="Check whether IFC/ICFR auditor reporting under Section 143(3)(i) applies to your company and score internal financial control readiness. Free, instant, India-specific.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/ifc-framework-readiness">
-<meta property="og:image" content="/tools/ifc-framework-readiness-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/ifc-framework-readiness">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/ifc-framework-readiness-og.png">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IFC Framework Readiness Tool — Free ICFR Audit Check">
 <meta name="twitter:description" content="Check whether IFC/ICFR auditor reporting under Section 143(3)(i) applies and score internal financial control readiness.">
-<meta name="twitter:image" content="/tools/ifc-framework-readiness-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/ifc-framework-readiness-og.png">
 
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "IFC Framework Readiness Tool",
   "description": "The IFC Framework Readiness Tool determines whether auditor reporting on internal financial controls over financial reporting under Section 143(3)(i) of the Companies Act 2013 applies to a company, applying the MCA 2017 private company exemption test for OPC, small company, turnover, borrowings and Section 137/92 default, and scores readiness across core ICFR framework components.",
-  "url": "/tools/ifc-framework-readiness",
+  "url": "https://www.patronaccounting.com/tools/ifc-framework-readiness",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,8 +60,8 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
-  "provider": { "@id": "/#organization" }
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
 }
 </script>
 
@@ -70,9 +70,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "IFC Framework Readiness Tool", "item": "/tools/ifc-framework-readiness"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "IFC Framework Readiness Tool", "item": "https://www.patronaccounting.com/tools/ifc-framework-readiness"}
   ]
 }
 </script>
@@ -1294,9 +1294,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     IFC Framework Readiness Tool
 </nav>
@@ -1536,9 +1536,9 @@ a:focus-visible {
                 <li>Deficiency evaluation and reporting; an unqualified ICFR opinion strengthens stakeholder confidence.</li>
             </ol>
             <h3>Director Responsibility Is Absolute</h3>
-            <p>Section 134(5)(e) requires the Directors' Responsibility Statement to confirm that adequate internal financial controls were laid down and operated effectively. Rule 8(5)(viii) of the Companies (Accounts) Rules 2014 requires the Board's Report of all companies to comment on the adequacy of internal financial controls with reference to the financial statements. This duty does not disappear when the auditor reporting exemption applies. For implementation support, see our <a href="/internal-audit">internal audit</a> and <a href="/statutory-audit">statutory audit</a> services.</p>
+            <p>Section 134(5)(e) requires the Directors' Responsibility Statement to confirm that adequate internal financial controls were laid down and operated effectively. Rule 8(5)(viii) of the Companies (Accounts) Rules 2014 requires the Board's Report of all companies to comment on the adequacy of internal financial controls with reference to the financial statements. This duty does not disappear when the auditor reporting exemption applies. For implementation support, see our <a href="https://www.patronaccounting.com/internal-audit">internal audit</a> and <a href="https://www.patronaccounting.com/statutory-audit">statutory audit</a> services.</p>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Build the ICFR file alongside the financial statements — entity-level controls, process RCMs, test evidence and a deficiency tracker. Companies that do this shorten the audit, reduce qualification risk and are materially more credible in fundraising due diligence. Patron's team conducts <a href="/statutory-audit-private-limited-company">statutory audits for private limited companies</a> with full ICFR documentation.</p>
+                <p><strong>CA Tip:</strong> Build the ICFR file alongside the financial statements — entity-level controls, process RCMs, test evidence and a deficiency tracker. Companies that do this shorten the audit, reduce qualification risk and are materially more credible in fundraising due diligence. Patron's team conducts <a href="https://www.patronaccounting.com/statutory-audit-private-limited-company">statutory audits for private limited companies</a> with full ICFR documentation.</p>
             </div>
             <div class="callout warn">
                 <p><strong>Note:</strong> This tool gives an indicative assessment for planning only. The binding determination of Section 143(3)(i) applicability and the ICFR audit opinion rest with the statutory auditor, based on the company's actual facts, group structure, filing history and the rules for the specific financial year. Confirm with a Chartered Accountant.</p>
@@ -1680,28 +1680,28 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
-            <a href="/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
-            <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
-            <a href="/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator <span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
-            <a href="/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="/blog/related-party-transactions-under-section-188-a-complete-compliance-guide" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/related-party-transactions-under-section-188-a-complete-compliance-guide" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
         </div>
 
     </aside>

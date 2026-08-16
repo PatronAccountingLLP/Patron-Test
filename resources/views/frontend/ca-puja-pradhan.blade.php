@@ -3,7 +3,7 @@
 
 
     <!-- Page Title -->
-    <title>CA Puja Pradhan — Finance & Business Manager, Patron Accounting LLP | Author Hub</title>
+    <title>CA Puja Pradhan — Finance & Business Manager | Patron</title>
 
     <!-- Meta Description -->
     <meta name="description" content="CA Puja Pradhan — Chartered Accountant (ICAI), Finance & Business Manager at Patron Accounting LLP. 4+ years across statutory audit, income tax litigation, valuation, GST, transfer pricing and international taxation.">
@@ -11,14 +11,14 @@
     <meta name="author" content="CA Puja Pradhan">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="/authorhub/ca-puja-pradhan">
+    <link rel="canonical" href="https://www.patronaccounting.com/authorhub/ca-puja-pradhan">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="CA Puja Pradhan — Finance & Business Manager, Patron Accounting LLP">
     <meta property="og:description" content="Chartered Accountant (ICAI), Finance & Business Manager. 4+ years across statutory audit, income tax litigation, valuation, GST and international taxation.">
-    <meta property="og:url" content="/authorhub/ca-puja-pradhan">
+    <meta property="og:url" content="https://www.patronaccounting.com/authorhub/ca-puja-pradhan">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="/images/authors/ca-puja-pradhan.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/authors/ca-puja-pradhan.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting LLP">
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CA Puja Pradhan — Finance & Business Manager, Patron Accounting LLP">
     <meta name="twitter:description" content="Chartered Accountant (ICAI), Finance & Business Manager. 4+ years across statutory audit, income tax litigation, valuation, GST and international taxation.">
-    <meta name="twitter:image" content="/images/authors/ca-puja-pradhan.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/authors/ca-puja-pradhan.jpg">
     <meta name="twitter:site" content="@patronaccounting">
 
     <!-- Additional SEO Meta Tags -->
@@ -50,37 +50,37 @@
       "@graph": [
         {
           "@type": "ProfilePage",
-          "@id": "/authorhub/ca-puja-pradhan#profilepage",
-          "url": "/authorhub/ca-puja-pradhan",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#profilepage",
+          "url": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan",
           "name": "CA Puja Pradhan — Author Profile",
           "description": "Author hub for CA Puja Pradhan, Finance & Business Manager at Patron Accounting LLP.",
           "inLanguage": "en-IN",
-          "isPartOf": { "@id": "/#website" },
-          "mainEntity": { "@id": "/authorhub/ca-puja-pradhan#person" },
-          "breadcrumb": { "@id": "/authorhub/ca-puja-pradhan#breadcrumbs" },
+          "isPartOf": { "@id": "https://www.patronaccounting.com/#website" },
+          "mainEntity": { "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#person" },
+          "breadcrumb": { "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#breadcrumbs" },
           "dateCreated": "2026-04-30",
           "dateModified": "2026-04-30"
         },
         {
           "@type": "Person",
-          "@id": "/authorhub/ca-puja-pradhan#person",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#person",
           "name": "CA Puja Pradhan",
           "givenName": "Puja",
           "familyName": "Pradhan",
           "honorificPrefix": "CA",
           "jobTitle": "Finance & Business Manager",
           "description": "Finance & Business Manager at Patron Accounting LLP. Chartered Accountant (ICAI) with 4+ years of practice experience across statutory audit, income tax litigation, equity valuation, GST, transfer pricing and international taxation. Leads a 20+ member team in Pune.",
-          "image": "/images/authors/ca-puja-pradhan.jpg",
-          "url": "/authorhub/ca-puja-pradhan",
+          "image": "https://www.patronaccounting.com/images/authors/ca-puja-pradhan.jpg",
+          "url": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan",
           "sameAs": [
             "https://www.linkedin.com/in/capujapradhan",
-            "/authorhub/ca-puja-pradhan"
+            "https://www.patronaccounting.com/authorhub/ca-puja-pradhan"
           ],
           "email": "mailto:puja@patronaccounting.com",
           "telephone": "+91-9459456700",
           "nationality": { "@type": "Country", "name": "India" },
           "knowsLanguage": ["English", "Hindi", "Marathi", "Nepali"],
-          "worksFor": { "@id": "/#organization" },
+          "worksFor": { "@id": "https://www.patronaccounting.com/#organization" },
           "memberOf": [
             { "@type": "Organization", "name": "The Institute of Chartered Accountants of India (ICAI)", "url": "https://www.icai.org" }
           ],
@@ -123,36 +123,36 @@
         },
         {
           "@type": "Organization",
-          "@id": "/#organization",
+          "@id": "https://www.patronaccounting.com/#organization",
           "name": "Patron Accounting LLP",
-          "url": "/",
-          "logo": "/images/site-logo.svg",
-          "founder": { "@id": "/authorhub/ca-puja-pradhan#person" },
+          "url": "https://www.patronaccounting.com/",
+          "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+          "founder": { "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#person" },
           "foundingDate": "2019-07",
           "sameAs": ["https://www.linkedin.com/company/patron-accounting"]
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "/authorhub/ca-puja-pradhan#breadcrumbs",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#breadcrumbs",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Author Hub", "item": "/authorhub" },
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Author Hub", "item": "https://www.patronaccounting.com/authorhub" },
             { "@type": "ListItem", "position": 3, "name": "CA Puja Pradhan" }
           ]
         },
         {
           "@type": "ItemList",
-          "@id": "/authorhub/ca-puja-pradhan#featured-articles",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#featured-articles",
           "name": "Featured Articles by CA Puja Pradhan",
           "itemListOrder": "https://schema.org/ItemListOrderAscending",
           "numberOfItems": 6,
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "url": "/blog/caro-2020-inventory-auditor-verification", "name": "CARO 2020: Inventory Verification by the Auditor" },
-            { "@type": "ListItem", "position": 2, "url": "/blog/gstat-vs-cestat-differences", "name": "GSTAT vs CESTAT: How They Differ and Which One Hears Your Appeal" },
-            { "@type": "ListItem", "position": 3, "url": "/blog/net-worth-certificate-format-icai-standards", "name": "Net Worth Certificate Format: ICAI Standards Explained" },
-            { "@type": "ListItem", "position": 4, "url": "/blog/gst-returns-freelancers-case-study-avoid-5l-penalty", "name": "GST Returns for Freelancers: A 5L Penalty Avoided (Case Study)" },
-            { "@type": "ListItem", "position": 5, "url": "/blog/mutual-agreement-procedure-map-rules-2026-resolving-double-taxation", "name": "MAP Rules 2026: Resolving Double Taxation Across Borders" },
-            { "@type": "ListItem", "position": 6, "url": "/blog/which-ngo-structure-trust-society-section-8-company", "name": "Which NGO Structure: Trust, Society, or Section 8 Company" }
+            { "@type": "ListItem", "position": 1, "url": "https://www.patronaccounting.com/blog/caro-2020-inventory-auditor-verification", "name": "CARO 2020: Inventory Verification by the Auditor" },
+            { "@type": "ListItem", "position": 2, "url": "https://www.patronaccounting.com/blog/gstat-vs-cestat-differences", "name": "GSTAT vs CESTAT: How They Differ and Which One Hears Your Appeal" },
+            { "@type": "ListItem", "position": 3, "url": "https://www.patronaccounting.com/blog/net-worth-certificate-format-icai-standards", "name": "Net Worth Certificate Format: ICAI Standards Explained" },
+            { "@type": "ListItem", "position": 4, "url": "https://www.patronaccounting.com/blog/gst-returns-freelancers-case-study-avoid-5l-penalty", "name": "GST Returns for Freelancers: A 5L Penalty Avoided (Case Study)" },
+            { "@type": "ListItem", "position": 5, "url": "https://www.patronaccounting.com/blog/mutual-agreement-procedure-map-rules-2026-resolving-double-taxation", "name": "MAP Rules 2026: Resolving Double Taxation Across Borders" },
+            { "@type": "ListItem", "position": 6, "url": "https://www.patronaccounting.com/blog/which-ngo-structure-trust-society-section-8-company", "name": "Which NGO Structure: Trust, Society, or Section 8 Company" }
           ]
         }
       ]
@@ -166,7 +166,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Preload hero author photo (LCP optimization) -->
-    <link rel="preload" as="image" href="/images/authors/ca-puja-pradhan.webp" type="image/webp" imagesrcset="/images/authors/ca-puja-pradhan.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="https://www.patronaccounting.com/images/authors/ca-puja-pradhan.webp" type="image/webp" imagesrcset="https://www.patronaccounting.com/images/authors/ca-puja-pradhan.webp" fetchpriority="high">
 @endsection
     <style>
     /* ============ DESIGN TOKENS (matches ITR hub) ============ */
@@ -1188,9 +1188,9 @@
                 <div class="author-photo-wrap">
                    
                     <picture>
-                        <source type="image/webp" srcset="/images/ca-puja-pradhan.webp">
+                        <source type="image/webp" srcset="https://www.patronaccounting.com/images/ca-puja-pradhan.webp">
                         <img
-                            src="/images/ca-puja-pradhan.jpg"
+                            src="https://www.patronaccounting.com/images/ca-puja-pradhan.jpg"
                             alt="CA Puja Pradhan — Finance & Business Manager, Patron Accounting LLP"
                             width="1122"
                             height="1402"
@@ -1263,7 +1263,7 @@
                 </div>
             </div>
             <div class="about-body">
-                <p>Finance &amp; Business Manager at <a href="/">Patron Accounting LLP</a>, a Chartered Accountant from the Institute of Chartered Accountants of India (ICAI). Puja brings <strong>4+ years</strong> of practice experience across statutory audit, taxation, and financial advisory &mdash; including 80+ statutory audits, 90+ tax audits, and direct representation in CIT(A), ITAT and GSTAT proceedings. She leads a 20+ member team across audit, taxation, and compliance at Patron's Pune branch.</p>
+                <p>Finance &amp; Business Manager at <a href="https://www.patronaccounting.com/">Patron Accounting LLP</a>, a Chartered Accountant from the Institute of Chartered Accountants of India (ICAI). Puja brings <strong>4+ years</strong> of practice experience across statutory audit, taxation, and financial advisory &mdash; including 80+ statutory audits, 90+ tax audits, and direct representation in CIT(A), ITAT and GSTAT proceedings. She leads a 20+ member team across audit, taxation, and compliance at Patron's Pune branch.</p>
                 <p>Since joining Patron in <strong>November 2024</strong>, Puja has handled equity share valuations using DCF, Comparable Company and NAV methods, managed international taxation matters including DTAA applications and Form 15CA/CB, and supported transfer pricing documentation. The firm has served <strong>25,000+ businesses</strong> from offices in Pune, Mumbai, Delhi and Gurugram &mdash; with pan-India service delivery covering Bengaluru, Hyderabad, Chennai, Kolkata, Ahmedabad and Tier 2/3 cities. Patron is rated <strong>4.9★ on Google</strong> across 500+ reviews. Puja writes here on statutory audit, income tax, GST, valuation, transfer pricing, and the day-to-day work of running compliance for SMEs and growing businesses.</p>
             </div>
         </div>
@@ -1389,42 +1389,42 @@
         <!-- FEATURED_READS_LOOP_START -->
         <div class="grid-cp">
 
-            <a class="tile-cp is-read" href="/blog/caro-2020-inventory-auditor-verification">
+            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/caro-2020-inventory-auditor-verification">
                 <span class="tile-num">i.</span>
                 <h3 class="tile-cp-title">CARO 2020: Inventory Verification by the Auditor</h3>
                 <p class="tile-cp-blurb">What auditors actually check on inventory under CARO 2020 &mdash; physical verification, valuation, cut-off, and the working papers regulators expect.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Audit</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/gstat-vs-cestat-differences">
+            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/gstat-vs-cestat-differences">
                 <span class="tile-num">ii.</span>
                 <h3 class="tile-cp-title">GSTAT vs CESTAT: How They Differ &amp; Which One Hears Your Appeal</h3>
                 <p class="tile-cp-blurb">Jurisdiction, procedure, member composition, limitation timelines &mdash; a side-by-side breakdown of the two GST appellate forums that confuse most taxpayers.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Tax Litigation</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/net-worth-certificate-format-icai-standards">
+            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/net-worth-certificate-format-icai-standards">
                 <span class="tile-num">iii.</span>
                 <h3 class="tile-cp-title">Net Worth Certificate Format: ICAI Standards Explained</h3>
                 <p class="tile-cp-blurb">The exact format, supporting documents, and CA verification protocol for an ICAI-compliant Net Worth Certificate &mdash; with a sample template.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Valuation</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/gst-returns-freelancers-case-study-avoid-5l-penalty">
+            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/gst-returns-freelancers-case-study-avoid-5l-penalty">
                 <span class="tile-num">iv.</span>
                 <h3 class="tile-cp-title">GST Returns for Freelancers: A ₹5L Penalty Avoided (Case Study)</h3>
                 <p class="tile-cp-blurb">A real client engagement where missed GSTR-3B filings triggered a ₹5L penalty notice &mdash; and the exact compliance roadmap that got it withdrawn.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">GST</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/mutual-agreement-procedure-map-rules-2026-resolving-double-taxation">
+            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/mutual-agreement-procedure-map-rules-2026-resolving-double-taxation">
                 <span class="tile-num">v.</span>
                 <h3 class="tile-cp-title">MAP Rules 2026: Resolving Double Taxation Across Borders</h3>
                 <p class="tile-cp-blurb">The Mutual Agreement Procedure under DTAA &mdash; when to invoke it, the 2026 procedural rules, timelines, and what NRIs and MNCs need to file.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Intl. Tax</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/which-ngo-structure-trust-society-section-8-company">
+            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/which-ngo-structure-trust-society-section-8-company">
                 <span class="tile-num">vi.</span>
                 <h3 class="tile-cp-title">Which NGO Structure: Trust, Society, or Section 8 Company?</h3>
                 <p class="tile-cp-blurb">A founder's decision-tree across the three NGO structures &mdash; comparing legal control, tax treatment, FCRA eligibility, and compliance burden.</p>
@@ -1443,7 +1443,7 @@
             <div>
                 <span class="sec-tag"><span class="tag-num">05</span> Latest from the Author</span>
                 <h2 class="sec-h2">All articles by <span class="accent-line">CA Puja Pradhan.</span></h2>
-                <p class="sec-sub">Auto-updated as new pieces are published. For the complete archive, visit the <a href="/blog" style="color:var(--orange);border-bottom:1px solid var(--orange);">Patron blog</a>.</p>
+                <p class="sec-sub">Auto-updated as new pieces are published. For the complete archive, visit the <a href="https://www.patronaccounting.com/blog" style="color:var(--orange);border-bottom:1px solid var(--orange);">Patron blog</a>.</p>
             </div>
             <span class="sec-counter">Auto-Updated</span>
         </div>
@@ -1519,7 +1519,7 @@
         <!-- AUTHOR_POSTS_LOOP_END -->
 
         <div style="text-align:center;margin-top:36px;">
-            <a class="btn-cp-secondary" href="/blog">
+            <a class="btn-cp-secondary" href="https://www.patronaccounting.com/blog">
                 View Complete Patron Blog Archive
                 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="13" y2="8"/><polyline points="8 3 13 8 8 13"/></svg>
             </a>
@@ -1541,26 +1541,26 @@
 
         {{-- <!-- LARAVEL TIP: counts can be dynamic via {{ $tag->posts_count }} --> --}}
         <div class="topic-grid">
-            <a class="topic-tag" href="/blog?topic=gst">GST <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=income-tax">Income Tax <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=itr-filing">ITR Filing <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=tax-audit">Tax Audit <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=statutory-audit">Statutory Audit <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=roc-compliance">ROC Compliance <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=company-law">Company Law <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=llp">LLP <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=payroll">Payroll <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=labour-codes">Labour Codes <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=accounting">Accounting <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=virtual-cfo">Virtual CFO <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=mis-reports">MIS Reports <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=cash-flow">Cash Flow <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=tds">TDS <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=nri-tax">NRI Taxation <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=startup">Startup Compliance <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=sme">SME Advisory <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=ifrs">IFRS <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=gstat">GSTAT &amp; Litigation <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=gst">GST <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=income-tax">Income Tax <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=itr-filing">ITR Filing <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=tax-audit">Tax Audit <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=statutory-audit">Statutory Audit <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=roc-compliance">ROC Compliance <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=company-law">Company Law <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=llp">LLP <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=payroll">Payroll <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=labour-codes">Labour Codes <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=accounting">Accounting <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=virtual-cfo">Virtual CFO <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=mis-reports">MIS Reports <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=cash-flow">Cash Flow <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=tds">TDS <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=nri-tax">NRI Taxation <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=startup">Startup Compliance <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=sme">SME Advisory <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=ifrs">IFRS <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=gstat">GSTAT &amp; Litigation <span class="ct">/</span></a>
         </div>
     </div>
 </section>

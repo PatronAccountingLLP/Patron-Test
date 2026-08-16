@@ -3,20 +3,20 @@
     <title>Balance Sheet Generator India | Schedule III Format Online</title>
     <meta name="description" content="Free balance sheet generator: create formatted balance sheets as per Schedule III of the Companies Act, 2013 for Indian businesses. Generate instantly online!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/balance-sheet-generator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/balance-sheet-generator">
     <meta property="og:title" content="Balance Sheet Generator India — Free Tool 2026">
     <meta property="og:description" content="Balance Sheet Generator creates formatted balance sheets as per Schedule III of Companies Act, 2013 for Indian businesses.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/balance-sheet-generator">
-    <meta property="og:image" content="/tools/balance-sheet-generator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/balance-sheet-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/balance-sheet-generator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Balance Sheet Generator India — Free Tool 2026">
     <meta name="twitter:description" content="Generate balance sheets per Schedule III of Companies Act for Indian businesses. Free!">
-    <meta name="twitter:image" content="/tools/balance-sheet-generator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/balance-sheet-generator/og-image.png">
 @endsection
 
 @section('schema')
@@ -26,7 +26,7 @@
       "@type": "WebApplication",
       "name": "Balance Sheet Generator India",
       "description": "Balance Sheet Generator creates formatted balance sheets as per Schedule III of the Companies Act, 2013. Supports non-current assets, current assets, equity, non-current liabilities, and current liabilities with automatic totals and balance verification for Indian companies including Private Limited, LLP, and OPC entities.",
-      "url": "/tools/balance-sheet-generator",
+      "url": "https://www.patronaccounting.com/tools/balance-sheet-generator",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-03-05",
@@ -34,10 +34,10 @@
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
       "author": {
         "@type": "Person",
-        "@id": "/#team",
+        "@id": "https://patronaccounting.com/#team",
         "name": "CA & CS Patron Accounting Team",
         "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -46,8 +46,8 @@
           "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" }
         }]
       },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
@@ -55,9 +55,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Balance Sheet Generator", "item": "/tools/balance-sheet-generator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Balance Sheet Generator", "item": "https://www.patronaccounting.com/tools/balance-sheet-generator"}
       ]
     }
     </script>
@@ -1162,25 +1162,25 @@
 
             <div class="sidebar-card">
                 <h3>Related Services</h3>
-                <a href="/accounting-services" class="sidebar-link">Accounting & Bookkeeping <span class="arrow">&rarr;</span></a>
-                <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">&rarr;</span></a>
-                <a href="/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
-                <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">&rarr;</span></a>
-                <a href="/net-worth-certificate" class="sidebar-link">Net Worth Certificate <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting & Bookkeeping <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/net-worth-certificate" class="sidebar-link">Net Worth Certificate <span class="arrow">&rarr;</span></a>
             </div>
 
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/profit-loss-generator" class="sidebar-link">P&L Statement Generator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/accounting-software-comparison" class="sidebar-link">Software Comparison Tool <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">P&L Statement Generator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/accounting-software-comparison" class="sidebar-link">Software Comparison Tool <span class="arrow">&rarr;</span></a>
             </div>
 
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
-                <a href="/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

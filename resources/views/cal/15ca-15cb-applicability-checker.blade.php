@@ -5,22 +5,22 @@
 <meta name="description" content="Free Form 15CA & 15CB applicability checker for foreign remittances: see if 15CA Part A/B/C/D or a 15CB CA certificate applies under Rule 37BB. Check now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/15ca-15cb-applicability-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker">
 
 <meta property="og:title" content="Form 15CA & 15CB Applicability Checker — Rule 37BB">
 <meta property="og:description" content="Answer 3 questions about your foreign remittance and instantly see whether Form 15CA (Part A/B/C/D) and a 15CB CA certificate are required under Rule 37BB.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/15ca-15cb-applicability-checker">
-<meta property="og:image" content="/tools/15ca-15cb-applicability-checker-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Form 15CA & 15CB Applicability Checker — Rule 37BB">
 <meta name="twitter:description" content="Answer 3 questions on your foreign remittance to see if Form 15CA (Part A/B/C/D) and a 15CB CA certificate apply under Rule 37BB.">
-<meta name="twitter:image" content="/tools/15ca-15cb-applicability-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "Form 15CA & 15CB Applicability Checker",
   "description": "Form 15CA and 15CB Applicability Checker is a decision tool that takes the taxability of a foreign remittance, whether it appears on the Rule 37BB specified list, the aggregate amount during the financial year, and whether an Assessing Officer certificate has been obtained, and shows which compliance is required: no forms, Form 15CA Part A, Part B, Part C with a 15CB CA certificate, or Part D.",
-  "url": "/tools/15ca-15cb-applicability-checker",
+  "url": "https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,9 +60,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -72,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Form 15CA & 15CB Applicability Checker", "item": "/tools/15ca-15cb-applicability-checker"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Form 15CA & 15CB Applicability Checker", "item": "https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker"}
   ]
 }
 </script>
@@ -691,9 +691,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Form 15CA & 15CB Applicability Checker
 </nav>
@@ -797,7 +797,7 @@ a:focus-visible {
                 <li><strong>₹5 lakh aggregate.</strong> For taxable remittances, state whether your total to non-residents this year crosses ₹5 lakh.</li>
                 <li><strong>AO certificate.</strong> If you are over ₹5 lakh, say whether you hold an Assessing Officer certificate — that routes you to Part B instead of a 15CB.</li>
             </ol>
-            <p>The checker then shows your exact requirement and the reasoning path. Use it alongside the <a href="/tools/income-tax-calculator">income tax calculator</a> and our <a href="/itr-for-nris">NRI ITR filing</a> guidance when the remittance relates to non-resident income.</p>
+            <p>The checker then shows your exact requirement and the reasoning path. Use it alongside the <a href="https://www.patronaccounting.com/tools/income-tax-calculator">income tax calculator</a> and our <a href="https://www.patronaccounting.com/itr-for-nris">NRI ITR filing</a> guidance when the remittance relates to non-resident income.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> The hardest question is the first one — taxability under Sections 5 and 9 read with the DTAA. The chargeability framework sits in the <a href="https://incometaxindia.gov.in/" target="_blank" rel="noopener">Income-tax Act</a>, and banks increasingly ask for 15CA/15CB before releasing funds, so resolve taxability early with a CA rather than at the remittance counter.</p>
             </div>
@@ -806,7 +806,7 @@ a:focus-visible {
         <section class="content-section" id="what-are">
             <h2>Form 15CA vs Form 15CB — What They Are</h2>
             <p><strong>Form 15CA</strong> is a declaration filed electronically on the income-tax portal by the person making a payment to a non-resident or foreign company. It captures the remittance details and the tax position before the money leaves India.</p>
-            <p><strong>Form 15CB</strong> is a certificate from a <a href="/tds-return-filing">Chartered Accountant</a> that examines chargeability under Sections 5 and 9 of the Income-tax Act and the relevant DTAA, and certifies the nature of the payment, the applicable rate and the tax deducted under Section 195. It carries a UDIN issued through the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> portal, and is an event-based form, required only when the remittance is taxable and the yearly aggregate exceeds ₹5 lakh without an AO certificate.</p>
+            <p><strong>Form 15CB</strong> is a certificate from a <a href="https://www.patronaccounting.com/tds-return-filing">Chartered Accountant</a> that examines chargeability under Sections 5 and 9 of the Income-tax Act and the relevant DTAA, and certifies the nature of the payment, the applicable rate and the tax deducted under Section 195. It carries a UDIN issued through the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> portal, and is an event-based form, required only when the remittance is taxable and the yearly aggregate exceeds ₹5 lakh without an AO certificate.</p>
             <p>In short: 15CA is the remitter's declaration; 15CB is the CA's tax-determination certificate that backs the higher-value taxable cases.</p>
         </section>
 
@@ -860,7 +860,7 @@ a:focus-visible {
                 <li>If taxable and over ₹5 lakh without an AO certificate, the <strong>CA prepares Form 15CB</strong> with a UDIN, certifying nature, rate and TDS.</li>
                 <li>The remitter <strong>files Form 15CA</strong> (the correct part) on the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax e-filing portal</a>, quoting the 15CB acknowledgement or AO order where relevant.</li>
                 <li>The <strong>bank releases the remittance</strong> against the A2 form and the 15CA/15CB, deducting TDS at the certified rate.</li>
-                <li>The TDS is reported in the regular <a href="/tds-return">TDS return</a> cycle.</li>
+                <li>The TDS is reported in the regular <a href="https://www.patronaccounting.com/tds-return">TDS return</a> cycle.</li>
             </ol>
             <p>Form 15CA can be withdrawn within seven days of submission if an error is found. From 1 April 2026 the reporting migrates to Forms 145 and 146, but the underlying triggers and thresholds remain the same.</p>
         </section>
@@ -935,22 +935,22 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
-            <a href="/tds-return" class="sidebar-link">TDS Returns <span class="arrow">→</span></a>
-            <a href="/itr-for-nris" class="sidebar-link">NRI ITR Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">TDS Returns <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-nris" class="sidebar-link">NRI ITR Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/dtaa-form-67-foreign-tax-credit" class="sidebar-link">DTAA & Form 67 FTC <span class="arrow">→</span></a>
-            <a href="/blog/residential-status-determination-flowchart" class="sidebar-link">NRI Residential Status <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/dtaa-form-67-foreign-tax-credit" class="sidebar-link">DTAA & Form 67 FTC <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/residential-status-determination-flowchart" class="sidebar-link">NRI Residential Status <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

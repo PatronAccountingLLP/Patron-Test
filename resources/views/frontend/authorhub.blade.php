@@ -7,14 +7,14 @@
     {{-- Author meta + canonical --}}
     <meta name="keywords" content="CA Sundram Gupta, Patron Accounting Founder, Chartered Accountant Pune, DipIFR ACCA, GST expert India, income tax expert, Virtual CFO India, SME compliance India, CA author India">
     <meta name="author" content="CA Sundram Gupta">
-    {{-- <link rel="canonical" href="/authorhub/ca-sundram-gupta"> --}}
+    {{-- <link rel="canonical" href="https://www.patronaccounting.com/authorhub/ca-sundram-gupta"> --}}
 
     {{-- Open Graph --}}
     <meta property="og:title" content="CA Sundram Gupta — Founder, Patron Accounting LLP">
     <meta property="og:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
-    <meta property="og:url" content="/authorhub/ca-sundram-gupta">
+    <meta property="og:url" content="https://www.patronaccounting.com/authorhub/ca-sundram-gupta">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="/images/authors/ca-sundram-gupta.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/authors/ca-sundram-gupta.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting LLP">
@@ -26,7 +26,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CA Sundram Gupta — Founder, Patron Accounting LLP">
     <meta name="twitter:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
-    <meta name="twitter:image" content="/images/authors/ca-sundram-gupta.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/authors/ca-sundram-gupta.jpg">
     <meta name="twitter:site" content="@patronaccounting">
 
     {{-- SEO --}}
@@ -42,44 +42,44 @@
       "@graph": [
         {
           "@type": "ProfilePage",
-          "@id": "/authorhub/ca-sundram-gupta#profilepage",
-          "url": "/authorhub/ca-sundram-gupta",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#profilepage",
+          "url": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta",
           "name": "CA Sundram Gupta — Author Profile",
           "description": "Author hub for CA Sundram Gupta, Founder & Managing Partner of Patron Accounting LLP.",
           "inLanguage": "en-IN",
-          "isPartOf": { "@id": "/#website" },
-          "mainEntity": { "@id": "/authorhub/ca-sundram-gupta#person" },
-          "breadcrumb": { "@id": "/authorhub/ca-sundram-gupta#breadcrumbs" },
+          "isPartOf": { "@id": "https://www.patronaccounting.com/#website" },
+          "mainEntity": { "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#person" },
+          "breadcrumb": { "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#breadcrumbs" },
           "dateCreated": "2026-04-30",
           "dateModified": "2026-04-30"
         },
         {
           "@type": "Person",
-          "@id": "/authorhub/ca-sundram-gupta#person",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#person",
           "name": "CA Sundram Gupta",
           "givenName": "Sundram",
           "familyName": "Gupta",
           "honorificPrefix": "CA",
           "jobTitle": "Founder & Managing Partner",
           "description": "Founder & Managing Partner of Patron Accounting LLP. Chartered Accountant (ICAI) with a Diploma in International Financial Reporting Standards (DipIFR) from ACCA, UK.",
-          "image": "/images/authors/ca-sundram-gupta.jpg",
-          "url": "/authorhub/ca-sundram-gupta",
+          "image": "https://www.patronaccounting.com/images/authors/ca-sundram-gupta.jpg",
+          "url": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta",
           "sameAs": [
             "https://www.linkedin.com/in/sundram-gupta-0a266117",
-            "/meet-our-founder"
+            "https://www.patronaccounting.com/meet-our-founder"
           ],
           "email": "mailto:sg@patronaccounting.com",
           "telephone": "+91-9459456700",
           "nationality": { "@type": "Country", "name": "India" },
           "knowsLanguage": ["English", "Hindi", "Punjabi"],
-          "worksFor": { "@id": "/#organization" }
+          "worksFor": { "@id": "https://www.patronaccounting.com/#organization" }
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "/authorhub/ca-sundram-gupta#breadcrumbs",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#breadcrumbs",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Author Hub", "item": "/authorhub" },
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Author Hub", "item": "https://www.patronaccounting.com/authorhub" },
             { "@type": "ListItem", "position": 3, "name": "CA Sundram Gupta" }
           ]
         }

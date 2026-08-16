@@ -5,22 +5,22 @@
 <meta name="description" content="Free accounting ratio calculator: compute liquidity, solvency, profitability and activity ratios including current ratio, DSCR, ROCE and debt-equity. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/accounting-ratio-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/accounting-ratio-calculator">
 
 <meta property="og:title" content="Accounting Ratios Calculator — Liquidity, DSCR & ROCE">
 <meta property="og:description" content="Compute current, quick, debt-to-equity, ROE, net margin, inventory turnover and more in one calculator, with India benchmarks. Free, no signup.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/accounting-ratio-calculator">
-<meta property="og:image" content="/tools/accounting-ratio-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/accounting-ratio-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/accounting-ratio-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Accounting Ratios Calculator — Liquidity, DSCR & ROCE">
 <meta name="twitter:description" content="Liquidity, solvency, profitability and activity ratios in one free calculator, with India benchmarks. Instant results.">
-<meta name="twitter:image" content="/tools/accounting-ratio-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/accounting-ratio-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "Accounting Ratio Calculator",
   "description": "Accounting Ratio Calculator computes the core liquidity, solvency, profitability and activity ratios — including current ratio, quick ratio, debt-to-equity, net profit margin, return on equity and inventory turnover — from a single set of financial statement inputs, with results benchmarked for Indian businesses.",
-  "url": "/tools/accounting-ratio-calculator",
+  "url": "https://www.patronaccounting.com/tools/accounting-ratio-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,9 +60,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -72,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Accounting Ratio Calculator", "item": "/tools/accounting-ratio-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Accounting Ratio Calculator", "item": "https://www.patronaccounting.com/tools/accounting-ratio-calculator"}
   ]
 }
 </script>
@@ -716,9 +716,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Accounting Ratio Calculator
 </nav>
@@ -862,7 +862,7 @@ a:focus-visible {
             </ol>
             <p>You don't need every field. The calculator computes each ratio for which it has the required inputs and quietly skips the others, so it works whether you have a full set of statements or just a few figures.</p>
             <div class="callout">
-                <p><strong>CA Tip:</strong> For ratios that use a balance like equity, inventory or assets, analysts often use the average of opening and closing values for a more accurate result. For a single-period snapshot, the closing figures used here are a reasonable approximation. For the full picture, try our <a href="/tools/financial-ratios-dashboard">financial ratios dashboard</a>.</p>
+                <p><strong>CA Tip:</strong> For ratios that use a balance like equity, inventory or assets, analysts often use the average of opening and closing values for a more accurate result. For a single-period snapshot, the closing figures used here are a reasonable approximation. For the full picture, try our <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard">financial ratios dashboard</a>.</p>
             </div>
         </section>
 
@@ -883,11 +883,11 @@ a:focus-visible {
             <h2>The Four Categories of Accounting Ratios</h2>
             <p>Most accounting ratios fall into four families. This calculator covers the most widely used ratio in each group.</p>
             <h3>1. Liquidity Ratios</h3>
-            <p>These measure short-term solvency — whether a business can meet obligations due within a year. The <a href="/blog/current-ratio">current ratio</a> and the stricter <a href="/blog/quick-ratio-acid-test">quick (acid-test) ratio</a> are the headline measures. A quick ratio above 1 suggests a firm can cover immediate liabilities without selling stock.</p>
+            <p>These measure short-term solvency — whether a business can meet obligations due within a year. The <a href="https://www.patronaccounting.com/blog/current-ratio">current ratio</a> and the stricter <a href="https://www.patronaccounting.com/blog/quick-ratio-acid-test">quick (acid-test) ratio</a> are the headline measures. A quick ratio above 1 suggests a firm can cover immediate liabilities without selling stock.</p>
             <h3>2. Solvency & Leverage Ratios</h3>
-            <p>These assess long-term stability and reliance on borrowing. The <a href="/blog/debt-to-equity-ratio">debt-to-equity ratio</a> compares borrowed funds with owners' funds, while the <a href="/blog/interest-coverage-ratio">interest coverage ratio</a> checks whether operating profit comfortably covers interest. Higher leverage means higher financial risk.</p>
+            <p>These assess long-term stability and reliance on borrowing. The <a href="https://www.patronaccounting.com/blog/debt-to-equity-ratio">debt-to-equity ratio</a> compares borrowed funds with owners' funds, while the <a href="https://www.patronaccounting.com/blog/interest-coverage-ratio">interest coverage ratio</a> checks whether operating profit comfortably covers interest. Higher leverage means higher financial risk.</p>
             <h3>3. Profitability Ratios</h3>
-            <p>These measure the ability to generate profit. Gross and <a href="/blog/net-profit-margin">net profit margins</a> express profit as a percentage of sales, while <a href="/blog/return-on-equity-roe">return on equity</a> and return on assets measure profit relative to the capital and assets deployed.</p>
+            <p>These measure the ability to generate profit. Gross and <a href="https://www.patronaccounting.com/blog/net-profit-margin">net profit margins</a> express profit as a percentage of sales, while <a href="https://www.patronaccounting.com/blog/return-on-equity-roe">return on equity</a> and return on assets measure profit relative to the capital and assets deployed.</p>
             <h3>4. Activity / Turnover Ratios</h3>
             <p>These show how efficiently assets are used. Inventory turnover measures how fast stock is sold and replaced; asset turnover measures revenue generated per rupee of assets. Faster turnover usually means tighter working capital and stronger cash flow.</p>
         </section>
@@ -1044,29 +1044,29 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Online Accounting Service <span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
-            <a href="/accounting-services-for-trading-industry" class="sidebar-link">Accounting for Trading Industry <span class="arrow">→</span></a>
-            <a href="/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Online Accounting Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services-for-trading-industry" class="sidebar-link">Accounting for Trading Industry <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
-            <a href="/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator <span class="arrow">→</span></a>
-            <a href="/tools/debt-to-equity-calculator" class="sidebar-link">Debt-to-Equity Calculator <span class="arrow">→</span></a>
-            <a href="/tools/roe-roce-calculator" class="sidebar-link">ROE / ROCE / ROA Calculator <span class="arrow">→</span></a>
-            <a href="/tools/inventory-turnover-calculator" class="sidebar-link">Inventory Turnover Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/debt-to-equity-calculator" class="sidebar-link">Debt-to-Equity Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roe-roce-calculator" class="sidebar-link">ROE / ROCE / ROA Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/inventory-turnover-calculator" class="sidebar-link">Inventory Turnover Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/liquidity-ratios-complete-guide" class="sidebar-link">Liquidity Ratios: Complete Guide <span class="arrow">→</span></a>
-            <a href="/blog/profitability-ratios-complete-guide" class="sidebar-link">Profitability Ratios Guide <span class="arrow">→</span></a>
-            <a href="/blog/solvency-leverage-ratios-complete-guide" class="sidebar-link">Solvency & Leverage Ratios Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/liquidity-ratios-complete-guide" class="sidebar-link">Liquidity Ratios: Complete Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/profitability-ratios-complete-guide" class="sidebar-link">Profitability Ratios Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/solvency-leverage-ratios-complete-guide" class="sidebar-link">Solvency & Leverage Ratios Guide <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

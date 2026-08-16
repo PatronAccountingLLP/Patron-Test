@@ -3,20 +3,20 @@
     <title>Zoho Books Pricing Calculator | India Plan Cost</title>
     <meta name="description" content="Zoho Books pricing calculator: estimate monthly and annual cost by plan, users and add-ons, and compare all 6 Zoho Books plans for India. Free. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/zoho-books-pricing-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator">
     <meta property="og:title" content="Zoho Books Pricing Calculator &mdash; Free Cost Estimator">
     <meta property="og:description" content="Estimate your Zoho Books cost based on plan, users, and add-ons. Compare all 6 plans for Indian businesses.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/zoho-books-pricing-calculator">
-    <meta property="og:image" content="/tools/zoho-books-pricing-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zoho Books Pricing Calculator &mdash; Free Cost Estimator">
     <meta name="twitter:description" content="Estimate Zoho Books cost for your business. Compare all 6 plans with INR pricing!">
-    <meta name="twitter:image" content="/tools/zoho-books-pricing-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -26,7 +26,7 @@
       "@type": "WebApplication",
       "name": "Zoho Books Pricing Calculator",
       "description": "Zoho Books Pricing Calculator estimates the total monthly and annual cost of Zoho Books based on selected plan, number of users, billing cycle, and add-ons. Compares all six Zoho Books plans including Free, Standard, Professional, Premium, Elite, and Ultimate with INR pricing for Indian businesses.",
-      "url": "/tools/zoho-books-pricing-calculator",
+      "url": "https://www.patronaccounting.com/tools/zoho-books-pricing-calculator",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-03-05",
@@ -34,10 +34,10 @@
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
       "author": {
         "@type": "Person",
-        "@id": "/#team",
+        "@id": "https://patronaccounting.com/#team",
         "name": "CA & CS Patron Accounting Team",
         "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -46,8 +46,8 @@
           "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" }
         }]
       },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
@@ -55,9 +55,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Zoho Books Pricing Calculator", "item": "/tools/zoho-books-pricing-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Zoho Books Pricing Calculator", "item": "https://www.patronaccounting.com/tools/zoho-books-pricing-calculator"}
       ]
     }
     </script>
@@ -905,9 +905,9 @@
 
     <!-- Breadcrumb -->
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
+        <a href="https://www.patronaccounting.com/">Home</a>
         <span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
         <span>&rsaquo;</span>
         Zoho Books Pricing Calculator
     </nav> --}}
@@ -1087,7 +1087,7 @@
                 <p>Premium (&#8377;2,999/mo) or Elite (&#8377;5,999/mo) depending on inventory complexity. Premium adds budgeting, cash flow forecasting, and workflow automation. Elite adds warehouse management and batch tracking &mdash; essential for businesses with multiple godowns or e-commerce operations on Shopify.</p>
 
                 <h3>Cost Comparison with TallyPrime</h3>
-                <p>TallyPrime Silver (single user) costs &#8377;600/month or &#8377;18,000 one-time. TallyPrime Gold (multi-user) is &#8377;1,800/month or &#8377;54,000 one-time. For businesses preferring cloud access, Zoho Books Professional at &#8377;1,499/month is cheaper than TallyPrime Gold and includes features like automated bank reconciliation that TallyPrime lacks. For offline-heavy businesses, TallyPrime remains more cost-effective long-term via the one-time licence. <a href="/migration-from-tally-to-zoho" target="_blank" rel="noopener">Learn about Tally to Zoho migration &rarr;</a></p>
+                <p>TallyPrime Silver (single user) costs &#8377;600/month or &#8377;18,000 one-time. TallyPrime Gold (multi-user) is &#8377;1,800/month or &#8377;54,000 one-time. For businesses preferring cloud access, Zoho Books Professional at &#8377;1,499/month is cheaper than TallyPrime Gold and includes features like automated bank reconciliation that TallyPrime lacks. For offline-heavy businesses, TallyPrime remains more cost-effective long-term via the one-time licence. <a href="https://www.patronaccounting.com/migration-from-tally-to-zoho" target="_blank" rel="noopener">Learn about Tally to Zoho migration &rarr;</a></p>
 
                 <div class="callout">
                     <p><strong>Need Help Choosing?</strong> Patron Accounting implements Zoho Books for businesses across India. We handle plan selection, data migration from Tally or other software, GST configuration, and team training. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20choosing%20a%20Zoho%20Books%20plan%20and%20setting%20it%20up.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert Zoho Books setup &rarr;</a></p>
@@ -1135,25 +1135,25 @@
 
             <div class="sidebar-card">
                 <h3>Accounting Services</h3>
-                <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">&rarr;</span></a>
-                <a href="/tally-accounting" class="sidebar-link">Tally Accounting <span class="arrow">&rarr;</span></a>
-                <a href="/migration-from-tally-to-zoho" class="sidebar-link">Tally to Zoho Migration <span class="arrow">&rarr;</span></a>
-                <a href="/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
-                <a href="/xero-accounting" class="sidebar-link">Xero Accounting <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tally-accounting" class="sidebar-link">Tally Accounting <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/migration-from-tally-to-zoho" class="sidebar-link">Tally to Zoho Migration <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/xero-accounting" class="sidebar-link">Xero Accounting <span class="arrow">&rarr;</span></a>
             </div>
 
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/accounting-software-comparison" class="sidebar-link">Software Comparison Tool <span class="arrow">&rarr;</span></a>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/profit-loss-generator" class="sidebar-link">P&amp;L Statement Generator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/accounting-software-comparison" class="sidebar-link">Software Comparison Tool <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">P&amp;L Statement Generator <span class="arrow">&rarr;</span></a>
             </div>
 
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
-                <a href="/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

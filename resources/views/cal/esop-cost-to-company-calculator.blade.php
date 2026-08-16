@@ -4,14 +4,14 @@
 <meta name="description" content="ESOP cost-to-company calculator under Ind AS 102: get the P&amp;L expense, forfeiture-adjusted total and separate-grant vs straight-line year-wise working. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-cost-to-company-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-cost-to-company-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">
 <meta property="og:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
 <meta property="og:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, separate-grant vs straight-line, year-by-year working.">
-<meta property="og:image" content="/og/esop-cost-to-company-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/esop-cost-to-company-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 
@@ -19,11 +19,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
 <meta name="twitter:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, year-by-year working.">
-<meta name="twitter:image" content="/og/esop-cost-to-company-calculator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/esop-cost-to-company-calculator.jpg">
 
 <!-- Favicons -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 
 @section('schema')
@@ -34,7 +34,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP Cost to Company Calculator",
   "description": "ESOP Cost to Company Calculator computes the annual P&L expense and total cost-to-company of employee stock options under Ind AS 102. Takes number of options granted, fair value per option, exercise price, vesting schedule, and expected forfeiture rate. Outputs forfeiture-adjusted total cost, separate-grant vs straight-line year-by-year expense breakdown, and cash versus accounting cost differentiation for Indian listed and unlisted companies.",
-  "url": "/tools/esop-cost-to-company-calculator",
+  "url": "https://www.patronaccounting.com/tools/esop-cost-to-company-calculator",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -48,10 +48,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -65,10 +65,10 @@
     }]
   },
   "publisher": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -79,9 +79,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Cost to Company Calculator", "item": "/tools/esop-cost-to-company-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Cost to Company Calculator", "item": "https://www.patronaccounting.com/tools/esop-cost-to-company-calculator"}
   ]
 }
 </script>
@@ -497,9 +497,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 <!-- BREADCRUMB -->
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP Cost to Company Calculator
 </nav>
@@ -953,29 +953,29 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
     <div class="sidebar-card">
         <h3>Related Services</h3>
-        <a href="/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
-        <a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-        <a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
-        <a href="/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation Services <span class="arrow">→</span></a>
-        <a href="/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
-        <a href="/accounting-services" class="sidebar-link">Online Accountant Service <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation Services <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Online Accountant Service <span class="arrow">→</span></a>
     </div>
 
     <div class="sidebar-card">
         <h3>Related Tools</h3>
-        <a href="/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
-        <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator (IT Act) <span class="arrow">→</span></a>
-        <a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
-        <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
-        <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator <span class="arrow">→</span></a>
-        <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator (IT Act) <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
     </div>
 
     <div class="sidebar-card">
         <h3>From the Blog</h3>
-        <a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
-        <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
-        <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
     </div>
 </aside>
 

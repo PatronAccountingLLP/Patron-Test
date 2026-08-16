@@ -7,20 +7,20 @@
     <title>DSCR Calculator | Debt Service Coverage Ratio</title>
     <meta name="description" content="Free DSCR calculator: compute Debt Service Coverage Ratio per Schedule III &amp; ICAI norms, with bank covenant benchmarks and project finance views. CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/dscr-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/dscr-calculator/">
     <meta property="og:title" content="DSCR Calculator — Schedule III India FY 2025-26">
     <meta property="og:description" content="Compute DSCR per ICAI Schedule III Guidance Note. Bank covenant comparison (1.25 / 1.5 / 2.0), project finance DSCR, sample disclosure format. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/dscr-calculator">
-    <meta property="og:image" content="/tools/og/dscr-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/dscr-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/dscr-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DSCR Calculator — Schedule III India FY 2025-26">
     <meta name="twitter:description" content="DSCR with bank covenant benchmarks (1.25 / 1.5 / 2.0), Schedule III disclosure format, project finance views. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/dscr-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/dscr-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "DSCR Calculator (Debt Service Coverage Ratio)",
       "description": "DSCR Calculator computes the Debt Service Coverage Ratio of an Indian company per Schedule III to the Companies Act, 2013 and the ICAI Guidance Note. The tool supports two modes: Schedule III mode (all interest, all principal, all lease payments) and Banking mode (long-term debt servicing only, used in bank loan covenants). Inputs include net profit after tax, depreciation and amortisation, interest expense, other non-cash expenses, principal repayments, and lease payments under Ind AS 116. Output includes the headline DSCR, earnings available for debt service, total debt service, color-coded leverage verdict against bank covenant benchmarks of 1.25 (standard), 1.5 (conservative) and 2.0 (strong), sector benchmark comparison across manufacturing, services, IT, project finance, real estate, NBFC and trading, year-over-year variance flagged against the 25 per cent Schedule III explanation threshold, sample Schedule III disclosure format with numerator and denominator definitions, project finance Average DSCR commentary, and SEBI LODR Regulation 34 (3) MDA disclosure guidance for listed entities.",
-      "url": "/tools/dscr-calculator",
+      "url": "https://www.patronaccounting.com/tools/dscr-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "DSCR Calculator", "item": "/tools/dscr-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "DSCR Calculator", "item": "https://www.patronaccounting.com/tools/dscr-calculator"}
       ]
     }
     </script>
@@ -486,9 +486,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     DSCR Calculator
 </nav>
@@ -960,29 +960,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping<span class="arrow">→</span></a>
-            <a href="/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
-            <a href="/tools/business-loan-emi-calculator" class="sidebar-link">Business Loan EMI<span class="arrow">→</span></a>
-            <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator<span class="arrow">→</span></a>
-            <a href="/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Statement<span class="arrow">→</span></a>
-            <a href="/tools/break-even-calculator" class="sidebar-link">Break-Even Analysis<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/business-loan-emi-calculator" class="sidebar-link">Business Loan EMI<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Statement<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/break-even-calculator" class="sidebar-link">Break-Even Analysis<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Tax Scrutiny &amp; Assessment<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Tax Scrutiny &amp; Assessment<span class="arrow">→</span></a>
         </div>
 
     </aside>

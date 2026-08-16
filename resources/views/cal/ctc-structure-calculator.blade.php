@@ -7,20 +7,20 @@
     <title>CTC Structure Calculator | Code on Wages 50% Basic Rule</title>
     <meta name="description" content="Free CTC structure calculator for the Code on Wages 50% basic rule: see PF, gratuity and take-home pay before vs after restructuring. CA-built tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ctc-structure-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-structure-calculator/">
     <meta property="og:title" content="CTC Structure Calculator — Code on Wages 2025">
     <meta property="og:description" content="Restructure CTC under the 50% basic rule. Compare old vs new salary structure — PF, gratuity, take-home, employer cost.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/ctc-structure-calculator">
-    <meta property="og:image" content="/tools/og/ctc-structure-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ctc-structure-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/ctc-structure-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CTC Structure Calculator — Code on Wages 2025">
     <meta name="twitter:description" content="Restructure CTC under 50% basic rule. Old vs new comparison. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/ctc-structure-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/ctc-structure-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "CTC Structure Calculator (Code on Wages 2025)",
       "description": "CTC Structure Calculator restructures employee compensation under the Code on Wages 2019 effective 21 November 2025 which mandates that basic pay plus dearness allowance plus retaining allowance must constitute at least fifty percent of total cost to company. The tool takes monthly or annual CTC city classification metro or non-metro old basic percentage typically thirty to forty percent and applicable Provident Fund and Employee State Insurance settings as inputs and produces a side-by-side comparison of old structure versus new compliant structure. The old structure uses the legacy split of low basic (twenty-five to forty percent) high HRA and high special allowance designed to minimize Provident Fund liability under the Employees Provident Funds and Miscellaneous Provisions Act 1952 and gratuity accrual under Payment of Gratuity Act 1972. The new structure recalibrates basic to fifty percent of CTC adjusts HRA to fifty percent of basic for metro cities Mumbai Delhi Kolkata Chennai or forty percent for non-metro cities reduces special allowance accordingly and recomputes employer Provident Fund contribution at twelve percent of basic capped at fifteen thousand rupees for mandatory tier and uncapped at actual basic for voluntary above-threshold tier and gratuity accrual at four point eight one percent of basic. The tool computes employee Provident Fund deduction at twelve percent of basic professional tax based on state slab Maharashtra two hundred or two thousand five hundred rupees per month other states two hundred rupees and TDS estimate using new tax regime slabs for FY 2025-26 and FY 2026-27. Output displays old versus new monthly basic HRA special allowance gratuity employer Provident Fund total CTC employee Provident Fund deduction in-hand monthly salary employer total cost and impact summary covering take-home reduction usually five to seven percent monthly employer cost increase usually five to fifteen percent annual gratuity accrual increase and twenty-five-year PF corpus impact at eight percent compounded interest. Suitable for HR and payroll teams restructuring salary frameworks for Code on Wages compliance CFOs budgeting for the cost increase and individual employees understanding the impact on take-home pay.",
-      "url": "/tools/ctc-structure-calculator",
+      "url": "https://www.patronaccounting.com/tools/ctc-structure-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "CTC Structure Calculator", "item": "/tools/ctc-structure-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "CTC Structure Calculator", "item": "https://www.patronaccounting.com/tools/ctc-structure-calculator"}
       ]
     }
     </script>
@@ -465,8 +465,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     CTC Structure Calculator
 </nav>
 
@@ -658,7 +658,7 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
             </ul>
 
             <h3>HRA — Metro vs Non-Metro</h3>
-            <p>HRA continues as a salary component and remains tax-exempt under Section 10(13A) of the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Act</a>. The lowest of three is exempt: actual HRA received, rent paid minus 10% of basic, or 50% of basic for metro cities (Mumbai, Delhi, Kolkata, Chennai) / 40% for non-metro. The Patron <a href="/tools/hra-calculator">HRA Calculator</a> handles the exemption computation.</p>
+            <p>HRA continues as a salary component and remains tax-exempt under Section 10(13A) of the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Act</a>. The lowest of three is exempt: actual HRA received, rent paid minus 10% of basic, or 50% of basic for metro cities (Mumbai, Delhi, Kolkata, Chennai) / 40% for non-metro. The Patron <a href="https://www.patronaccounting.com/tools/hra-calculator">HRA Calculator</a> handles the exemption computation.</p>
 
             <h3>PF Wage Cap — ₹15,000 vs Actual Basic</h3>
             <p>Under the EPF Act, PF is mandatory for employees with basic wages up to ₹15,000/month. Above this threshold, PF is voluntary at the employee's election. Most large employers operate two policies:</p>
@@ -763,30 +763,30 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
-            <a href="/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
-            <a href="/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
-            <a href="/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
-            <a href="/hr-advisory" class="sidebar-link">HR Advisory<span class="arrow">→</span></a>
-            <a href="/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/hr-advisory" class="sidebar-link">HR Advisory<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
             
-            <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
-            <a href="/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
-            <a href="/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
-            <a href="/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/code-on-wages-2019" class="sidebar-link">Code on Wages 2019 Guide<span class="arrow">→</span></a>
-            <a href="/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
-            <a href="/blog/payroll-restructuring-india" class="sidebar-link">Payroll Restructuring Guide<span class="arrow">→</span></a>
-            <a href="/blog/epfo-compliance" class="sidebar-link">EPFO Compliance<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/code-on-wages-2019" class="sidebar-link">Code on Wages 2019 Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/payroll-restructuring-india" class="sidebar-link">Payroll Restructuring Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/epfo-compliance" class="sidebar-link">EPFO Compliance<span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -3,12 +3,12 @@
     <title>HSN Code Finder | Search HSN &amp; SAC Codes with GST</title>
     <meta name="description" content="HSN code finder searches 5,000+ HSN and SAC codes with their GST rates for goods and services under India's GST regime. Find 4, 6 or 8-digit codes free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/hsn-sac-code-finder">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/hsn-sac-code-finder">
     <meta property="og:title" content="HSN Code Finder India &mdash; Free HSN & SAC Code Search 2026">
     <meta property="og:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services under India's GST regime. Find 4, 6, or 8-digit codes free!">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/hsn-sac-code-finder">
-    <meta property="og:image" content="/tools/hsn-sac-code-finder/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/hsn-sac-code-finder">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/hsn-sac-code-finder/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HSN Code Finder India &mdash; Free HSN & SAC Code Search 2026">
     <meta name="twitter:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services. Find 4, 6, or 8-digit codes free!">
-    <meta name="twitter:image" content="/tools/hsn-sac-code-finder/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/hsn-sac-code-finder/og-image.png">
 @endsection
 
 @section('schema')
@@ -26,7 +26,7 @@
       "@type": "WebApplication",
       "name": "HSN SAC Code Finder India",
       "description": "HSN Code Finder searches over 5,000 HSN codes for goods and SAC codes for services along with applicable GST rates under India's Goods and Services Tax regime. Supports 2-digit, 4-digit, 6-digit, and 8-digit code lookups by code number or product description.",
-      "url": "/tools/hsn-sac-code-finder",
+      "url": "https://www.patronaccounting.com/tools/hsn-sac-code-finder",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-03-05",
@@ -38,10 +38,10 @@
       },
       "author": {
         "@type": "Person",
-        "@id": "/#team",
+        "@id": "https://patronaccounting.com/#team",
         "name": "CA & CS Patron Accounting Team",
         "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -57,14 +57,14 @@
       "publisher": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "/logo.png"
+          "url": "https://www.patronaccounting.com/logo.png"
         }
       },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -77,19 +77,19 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "/"
+          "item": "https://www.patronaccounting.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Free Tools",
-          "item": "/tools/"
+          "item": "https://www.patronaccounting.com/tools/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "HSN SAC Code Finder",
-          "item": "/tools/hsn-sac-code-finder"
+          "item": "https://www.patronaccounting.com/tools/hsn-sac-code-finder"
         }
       ]
     }
@@ -925,9 +925,9 @@
 
     <!-- Breadcrumb -->
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
+        <a href="https://www.patronaccounting.com/">Home</a>
         <span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
         <span>&rsaquo;</span>
         HSN SAC Code Finder
     </nav> --}}
@@ -1337,29 +1337,29 @@
             <!-- Related Tools -->
             <div class="sidebar-card">
                 <h3>Related Free Tools</h3>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/tds-rate-finder" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
-                <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/hra-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/gst-compliance-calendar" class="sidebar-link">GST Compliance Calendar <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/tds-rate-finder" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-compliance-calendar" class="sidebar-link">GST Compliance Calendar <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Related Services -->
             <div class="sidebar-card">
                 <h3>GST Services</h3>
-                <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-                <a href="/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">&rarr;</span></a>
-                <a href="/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
-                <a href="/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
-                <a href="/gst-refund" class="sidebar-link">GST Refund Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Blog -->
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
-                <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div><span class="trust">25,000+ Businesses Trust Us</span>

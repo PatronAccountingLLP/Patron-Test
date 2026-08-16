@@ -3,28 +3,28 @@
     <title>TDS on Salary Calculator | Section 192 FY 2025-26</title>
     <meta name="description" content="TDS on salary calculator under Section 192 for FY 2025-26: compare old vs new tax regime and get your monthly TDS deduction breakdown instantly. Calculate now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/tds-on-salary-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/tds-on-salary-calculator">
     <meta property="og:title" content="TDS on Salary Calculator &mdash; Free Online Tool 2026">
     <meta property="og:description" content="TDS on Salary Calculator under Section 192 for FY 2025-26. Compare Old vs New Tax Regime, get monthly TDS breakdowns instantly.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/tds-on-salary-calculator">
-    <meta property="og:image" content="/tools/og-tds-on-salary-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/tds-on-salary-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-tds-on-salary-calculator.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS on Salary Calculator &mdash; Free Online Tool 2026">
     <meta name="twitter:description" content="TDS on Salary Calculator under Section 192 for FY 2025-26. Compare Old vs New Regime. Calculate now!">
-    <meta name="twitter:image" content="/tools/og-tds-on-salary-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og-tds-on-salary-calculator.png">
 @endsection
 
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebApplication","name":"TDS on Salary Calculator (Section 192)","description":"TDS on Salary Calculator computes monthly tax deducted at source from salary income under Section 192 for FY 2025-26 and AY 2026-27. Supports both Old and New Tax Regime comparison with accurate slab rates, surcharge, cess, rebate under Section 87A, and standard deduction.","url":"/tools/tds-on-salary-calculator","applicationCategory":"UtilityApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id": "/#team","name": "CA & CS Patron Accounting Team","jobTitle": "Chartered Accountants & Company Secretaries","url":"/contact-page","sameAs": ["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"/","logo":{"@type":"ImageObject","url":"/logo.png"}},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"WebApplication","name":"TDS on Salary Calculator (Section 192)","description":"TDS on Salary Calculator computes monthly tax deducted at source from salary income under Section 192 for FY 2025-26 and AY 2026-27. Supports both Old and New Tax Regime comparison with accurate slab rates, surcharge, cess, rebate under Section 87A, and standard deduction.","url":"https://www.patronaccounting.com/tools/tds-on-salary-calculator","applicationCategory":"UtilityApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id": "https://patronaccounting.com/#team","name": "CA & CS Patron Accounting Team","jobTitle": "Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","sameAs": ["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/logo.png"}},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"TDS on Salary Calculator","item":"/tools/tds-on-salary-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"TDS on Salary Calculator","item":"https://www.patronaccounting.com/tools/tds-on-salary-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is TDS on salary under Section 192?","acceptedAnswer":{"@type":"Answer","text":"TDS on salary under Section 192 of the Income Tax Act requires employers to deduct income tax from employee salaries before payment. The employer estimates total annual salary income, applies applicable slab rates under the chosen tax regime, and deducts tax equally across monthly salary payments throughout the financial year."}},{"@type":"Question","name":"How is TDS on salary calculated for FY 2025-26?","acceptedAnswer":{"@type":"Answer","text":"For FY 2025-26, employers calculate annual taxable salary by subtracting standard deduction and declared investments from gross salary. Tax is computed using applicable slab rates under Old or New Regime. The annual tax is divided by twelve to determine monthly TDS. Rebate under Section 87A applies if taxable income is within the prescribed limits."}},{"@type":"Question","name":"What is the standard deduction for salaried employees in FY 2025-26?","acceptedAnswer":{"@type":"Answer","text":"For FY 2025-26, salaried employees can claim a standard deduction of \u20B975,000 under the New Tax Regime and \u20B950,000 under the Old Tax Regime. This deduction is subtracted from gross salary before calculating taxable income and is available automatically without any investment or expense proof requirement."}},{"@type":"Question","name":"What are the income tax slab rates under the New Regime for FY 2025-26?","acceptedAnswer":{"@type":"Answer","text":"Under the New Tax Regime for FY 2025-26, income up to \u20B94 lakh is nil, \u20B94-8 lakh at 5%, \u20B98-12 lakh at 10%, \u20B912-16 lakh at 15%, \u20B916-20 lakh at 20%, \u20B920-24 lakh at 25%, and above \u20B924 lakh at 30%. A rebate under Section 87A makes income up to \u20B912 lakh effectively tax-free."}},{"@type":"Question","name":"Can I choose between Old and New Tax Regime for TDS purposes?","acceptedAnswer":{"@type":"Answer","text":"Yes, salaried employees can inform their employer at the beginning of the financial year about their preferred tax regime for TDS deduction purposes. The New Regime is the default from FY 2023-24 onwards. Employees without business income can switch between regimes every year while filing their income tax return."}},{"@type":"Question","name":"What is the Section 87A rebate for FY 2025-26?","acceptedAnswer":{"@type":"Answer","text":"Under the New Tax Regime for FY 2025-26, Section 87A provides a rebate of up to \u20B960,000 for resident individuals whose taxable income does not exceed \u20B912 lakh. Under the Old Regime, the rebate is \u20B912,500 for taxable income up to \u20B95 lakh. This rebate reduces the tax payable to nil or a lower amount."}},{"@type":"Question","name":"What deductions are allowed under the New Tax Regime?","acceptedAnswer":{"@type":"Answer","text":"The New Tax Regime for FY 2025-26 allows limited deductions including \u20B975,000 standard deduction for salaried individuals and employer contribution to NPS under Section 80CCD(2) up to 10% of basic salary plus DA. Most popular deductions like 80C, 80D, HRA exemption, and home loan interest are not available under this regime."}},{"@type":"Question","name":"How do I claim a TDS refund if excess tax was deducted?","acceptedAnswer":{"@type":"Answer","text":"If your employer deducted more TDS than your actual tax liability, you can claim a refund by filing your Income Tax Return for the relevant assessment year. The excess amount reflects in Form 26AS and AIS. After verification, refunds are typically processed within 30 to 45 days and credited to your pre-validated bank account."}},{"@type":"Question","name":"What is Form 16 and how does it relate to TDS on salary?","acceptedAnswer":{"@type":"Answer","text":"Form 16 is the TDS certificate issued by employers to employees under Section 203 of the Income Tax Act. It contains details of salary paid, allowances, deductions claimed, and total TDS deducted during the financial year. Employers must issue Form 16 by June 15 following the financial year. It is essential for filing your ITR."}},{"@type":"Question","name":"Is TDS deducted if my salary is below the taxable limit?","acceptedAnswer":{"@type":"Answer","text":"No, if your estimated total annual income is below the basic exemption limit, your employer should not deduct TDS. Under the New Regime for FY 2025-26, the basic exemption limit is \u20B94 lakh. With the \u20B975,000 standard deduction and Section 87A rebate, salaried individuals earning up to \u20B912.75 lakh pay zero tax."}},{"@type":"Question","name":"What is the surcharge applicable on salary income for FY 2025-26?","acceptedAnswer":{"@type":"Answer","text":"Surcharge on income tax applies when total income exceeds \u20B950 lakh. The rates are 10% for income between \u20B950 lakh and \u20B91 crore, 15% for \u20B91-2 crore, and 25% for income above \u20B92 crore under the New Regime. Additionally, a Health and Education Cess of 4% is levied on total tax including surcharge."}},{"@type":"Question","name":"Can I submit investment proofs mid-year to reduce TDS?","acceptedAnswer":{"@type":"Answer","text":"Yes, under the Old Tax Regime, employees can submit investment declaration at the start of the year and actual proofs typically by January or February. The employer recalculates TDS based on verified proofs and adjusts deductions in remaining months. Common proofs include 80C investments, rent receipts for HRA, and insurance premium receipts."}},{"@type":"Question","name":"What happens if employer does not deduct TDS on salary?","acceptedAnswer":{"@type":"Answer","text":"If an employer fails to deduct TDS under Section 192, they become liable to pay the tax amount along with interest under Section 201. The employer may also face a penalty. However, the employee is still responsible for paying income tax on their salary through advance tax or self-assessment tax while filing ITR."}}]}
@@ -238,9 +238,9 @@
 </nav>
 
 {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>&rsaquo;</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>&rsaquo;</span>
     TDS on Salary Calculator
 </nav> --}}
@@ -489,27 +489,27 @@
         </div>
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
-            <a href="/payroll-services" class="sidebar-link">Payroll Services <span class="arrow">&rarr;</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return (ITR) Filing <span class="arrow">&rarr;</span></a>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
-            <a href="/accounting-bookkeeping-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
-            <a href="/tds-return" class="sidebar-link">TDS Returns <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return (ITR) Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/accounting-bookkeeping-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">TDS Returns <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/professional-tax-calculator" class="sidebar-link">Professional Tax Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/professional-tax-calculator" class="sidebar-link">Professional Tax Calculator <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny &amp; Assessment <span class="arrow">&rarr;</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny &amp; Assessment <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
         </div>
     </aside>
 </div>

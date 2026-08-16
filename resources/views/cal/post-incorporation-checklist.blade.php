@@ -6,21 +6,21 @@
 <meta name="description" content="Free post-incorporation checklist: a personalised, deadline-tagged list of first filings after company or LLP registration, like INC-20A and ADT-1. Try free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/post-incorporation-checklist">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/post-incorporation-checklist">
 <meta property="og:title" content="Post-Incorporation Checklist — Pvt Ltd & LLP 2026">
 <meta property="og:description" content="Generate a personalised, deadline-aware checklist of the mandatory first filings after incorporating a company or LLP in India — with statutory due dates.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/post-incorporation-checklist">
-<meta property="og:image" content="/tools/post-incorporation-checklist-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/post-incorporation-checklist">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/post-incorporation-checklist-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Post-Incorporation Checklist — Pvt Ltd & LLP 2026">
 <meta name="twitter:description" content="A personalised, deadline-tagged checklist of mandatory first filings after company or LLP registration. Free & instant.">
-<meta name="twitter:image" content="/tools/post-incorporation-checklist-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/post-incorporation-checklist-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "Post-Incorporation Checklist",
   "description": "Post-Incorporation Checklist generates a personalised, deadline-tagged list of the mandatory steps a newly incorporated business in India must complete after receiving its Certificate of Incorporation. Based on the entity type and whether the business will hire employees or needs GST, it lists each task with its statutory deadline measured from incorporation, such as holding the first board meeting within thirty days, appointing the first auditor and filing Form ADT-1, filing the commencement of business declaration Form INC-20A within one hundred eighty days, issuing share certificates, and for an LLP filing the LLP agreement in Form 3 within thirty days, along with bank account opening, statutory registers and applicable tax and labour registrations.",
-  "url": "/tools/post-incorporation-checklist",
+  "url": "https://www.patronaccounting.com/tools/post-incorporation-checklist",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Post-Incorporation Checklist", "item": "/tools/post-incorporation-checklist"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Post-Incorporation Checklist", "item": "https://www.patronaccounting.com/tools/post-incorporation-checklist"}
   ]
 }
 </script>
@@ -707,9 +707,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Post-Incorporation Checklist
 </nav>
@@ -809,7 +809,7 @@ a:focus-visible {
                 <li><strong>Generate the checklist</strong>, then tick items off as you complete them; the progress bar tracks how far along you are.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> The two that catch founders out are <strong>INC-20A</strong> (180 days, but needs the bank account + subscription money first) and the <strong>first auditor</strong> (30 days). Sequence the bank account early so INC-20A isn't blocked. To budget the ongoing side, use the <a href="/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>.</p>
+                <p><strong>CA Tip:</strong> The two that catch founders out are <strong>INC-20A</strong> (180 days, but needs the bank account + subscription money first) and the <strong>first auditor</strong> (30 days). Sequence the bank account early so INC-20A isn't blocked. To budget the ongoing side, use the <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>.</p>
             </div>
         </section>
 
@@ -830,7 +830,7 @@ a:focus-visible {
                     <tr><td>DIR-3 KYC (each director)</td><td>By 30 September annually</td></tr>
                 </tbody>
             </table>
-            <p>See Patron's <a href="/blog/post-incorporation-compliance-for-private-limited-company">post-incorporation compliance guide</a> and the dedicated <a href="/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate">INC-20A filing</a> walkthrough.</p>
+            <p>See Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company">post-incorporation compliance guide</a> and the dedicated <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate">INC-20A filing</a> walkthrough.</p>
         </section>
 
         <div class="body-cta">
@@ -850,7 +850,7 @@ a:focus-visible {
                 <li><strong>Pvt Ltd / OPC:</strong> first board meeting, first auditor + ADT-1, share certificates, INC-20A, statutory registers, MBP-1/DIR-8 disclosures.</li>
                 <li><strong>LLP:</strong> the headline task is filing the <strong>LLP agreement in Form 3 within 30 days</strong> of incorporation. No INC-20A, no statutory auditor at the outset (unless turnover &gt; ₹40L or contribution &gt; ₹25L), no board meetings, no share certificates.</li>
             </ul>
-            <p>Both then open a bank account, hold PAN/TAN, take applicable registrations, and follow their annual cycle — see the <a href="/private-limited-company-compliance">Pvt Ltd compliance</a> and <a href="/pvt-llp-compliance">LLP compliance</a> pages. Still deciding between the two? Use the <a href="/tools/pvt-ltd-vs-llp-comparison">Pvt Ltd vs LLP tool</a>.</p>
+            <p>Both then open a bank account, hold PAN/TAN, take applicable registrations, and follow their annual cycle — see the <a href="https://www.patronaccounting.com/private-limited-company-compliance">Pvt Ltd compliance</a> and <a href="https://www.patronaccounting.com/pvt-llp-compliance">LLP compliance</a> pages. Still deciding between the two? Use the <a href="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison">Pvt Ltd vs LLP tool</a>.</p>
         </section>
 
         <section class="content-section" id="penalties">
@@ -872,7 +872,7 @@ a:focus-visible {
             <p>If you indicated you'll hire, the labour registrations feed their own ongoing returns: Provident Fund and ESI filings administered through the <a href="https://www.epfindia.gov.in/" target="_blank" rel="noopener">EPFO</a> become monthly obligations once you cross the thresholds. And if your business has an innovative or scalable angle, this is also the natural moment to consider <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition through the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal, since the benefits compound from early in the entity's life.</p>
             <p>The practical takeaway is that the checklist above is the on-ramp, not the whole journey — building a simple compliance calendar in the first month, while the filings are fresh, is the single best way to avoid the per-day penalties that accrue silently when a deadline is missed.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Turn this into a recurring plan with the <a href="/tools/compliance-calendar-generator">compliance calendar generator</a>, and budget the year with the <a href="/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>.</p>
+                <p><strong>Tip:</strong> Turn this into a recurring plan with the <a href="https://www.patronaccounting.com/tools/compliance-calendar-generator">compliance calendar generator</a>, and budget the year with the <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>.</p>
             </div>
         </section>
 
@@ -880,11 +880,11 @@ a:focus-visible {
             <h2>Tax & Labour Registrations to Consider</h2>
             <p>Beyond the MCA filings, most new businesses need one or more of these depending on activity, turnover and headcount:</p>
             <ul>
-                <li><strong>GST</strong> — on crossing the turnover threshold, or for inter-state / e-commerce supplies; many register voluntarily. See <a href="/gst-registration">GST registration</a>.</li>
-                <li><strong>Professional Tax</strong> — in states that levy it, often within 30 days of hiring. See <a href="/professional-tax-pt-inr-calculator-compliance-services">PT compliance</a>.</li>
-                <li><strong>PF & ESI</strong> — mandatory on crossing the employee thresholds. See <a href="/esic-calculation-and-compliance-services">ESIC compliance</a>.</li>
+                <li><strong>GST</strong> — on crossing the turnover threshold, or for inter-state / e-commerce supplies; many register voluntarily. See <a href="https://www.patronaccounting.com/gst-registration">GST registration</a>.</li>
+                <li><strong>Professional Tax</strong> — in states that levy it, often within 30 days of hiring. See <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services">PT compliance</a>.</li>
+                <li><strong>PF & ESI</strong> — mandatory on crossing the employee thresholds. See <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services">ESIC compliance</a>.</li>
                 <li><strong>Shops & Establishment</strong> — commonly required locally for premises and staff.</li>
-                <li><strong>DPIIT recognition</strong> — optional but valuable for startups; check eligibility with the <a href="/tools/dpiit-eligibility-checker">DPIIT eligibility checker</a>.</li>
+                <li><strong>DPIIT recognition</strong> — optional but valuable for startups; check eligibility with the <a href="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">DPIIT eligibility checker</a>.</li>
             </ul>
         </section>
 
@@ -958,22 +958,22 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Compliance Services</h3>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">→</span></a>
-            <a href="/pvt-llp-compliance" class="sidebar-link">LLP Compliance <span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pvt-llp-compliance" class="sidebar-link">LLP Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
-            <a href="/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
-            <a href="/tools/dpiit-eligibility-checker" class="sidebar-link">DPIIT Eligibility Checker <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dpiit-eligibility-checker" class="sidebar-link">DPIIT Eligibility Checker <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/post-incorporation-compliance-for-private-limited-company" class="sidebar-link">Post-Incorporation Compliance <span class="arrow">→</span></a>
-            <a href="/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate" class="sidebar-link">INC-20A Filing Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company" class="sidebar-link">Post-Incorporation Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate" class="sidebar-link">INC-20A Filing Guide <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

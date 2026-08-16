@@ -7,20 +7,20 @@
     <title>Payroll Outsourcing ROI Calculator | In-House vs Vendor</title>
     <meta name="description" content="Calculate payroll outsourcing ROI for Indian SMEs: in-house cost (HR FTE + software + CA + risk) vs vendor PEPM fee. Net savings + break-even count + verdict.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/payroll-outsourcing-roi-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-outsourcing-roi-calculator/">
     <meta property="og:title" content="Payroll Outsourcing ROI Calculator — In-House vs Vendor">
     <meta property="og:description" content="Decide between in-house payroll team and outsourced vendor. Computes total cost both ways, net savings, ROI multiple, break-even employee count, decision verdict.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/payroll-outsourcing-roi-calculator">
-    <meta property="og:image" content="/tools/og/payroll-outsourcing-roi-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-outsourcing-roi-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/payroll-outsourcing-roi-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Outsourcing ROI Calculator — In-House vs Vendor">
     <meta name="twitter:description" content="In-house payroll cost vs vendor cost. Net savings, ROI, break-even. Free CA tool for Indian SMEs.">
-    <meta name="twitter:image" content="/tools/og/payroll-outsourcing-roi-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/payroll-outsourcing-roi-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "Payroll Outsourcing ROI Calculator (In-House vs Vendor)",
       "description": "Payroll Outsourcing ROI Calculator computes the net savings, return on investment percentage, and break-even employee count when an Indian employer compares running payroll in-house against engaging a payroll outsourcing vendor on a per-employee per-month or fixed-fee basis. The tool computes the total annual in-house payroll cost across labour cost (proportionate full-time equivalent allocation of payroll executive multiplied by the executive's annual cost to company), payroll software cost on a per-employee per-month basis applicable to leading Indian platforms such as Keka, GreytHR, Zoho Payroll and RazorpayX Payroll, external Chartered Accountant or Cost Accountant quarterly review fee for compliance assurance, statutory compliance penalty risk reserve representing the expected value of late filing penalties and interest on delayed Provident Fund Electronic Challan-cum-Return submission, Employees State Insurance contribution, Tax Deducted at Source on salary under Section 192 of the Income-tax Act, professional tax remittance and quarterly Form 24Q return, and the proportionate management oversight cost. The tool computes the total annual outsourced payroll cost across vendor service fee on a per-employee per-month basis or fixed monthly retainer, one-time setup fee amortised across the expected engagement tenure of thirty-six months, residual in-house oversight cost typically representing one-tenth of one full-time equivalent for vendor relationship management, and integration software cost where the vendor charges separately for portal access. The tool computes the net annual savings, the return on investment expressed as a percentage of the outsourced annual cost, and the break-even employee count at which the total in-house cost equals the total outsourced cost. The tool incorporates the four Labour Codes effective from 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — and reflects the heightened compliance risk under the Digital Personal Data Protection Act, 2023 enforcement regime where payroll data fiduciary obligations rest with the employer regardless of outsourcing arrangement.",
-      "url": "/tools/payroll-outsourcing-roi-calculator",
+      "url": "https://www.patronaccounting.com/tools/payroll-outsourcing-roi-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Payroll Outsourcing ROI Calculator", "item": "/tools/payroll-outsourcing-roi-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Payroll Outsourcing ROI Calculator", "item": "https://www.patronaccounting.com/tools/payroll-outsourcing-roi-calculator"}
       ]
     }
     </script>
@@ -500,9 +500,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Payroll Outsourcing ROI Calculator
 </nav>
@@ -519,7 +519,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>This calculator answers the question every Indian CFO eventually faces: <strong>"Should we outsource payroll?"</strong> It computes total annual cost both ways — <strong>in-house</strong> (HR/payroll executive FTE + payroll software + CA quarterly review + statutory penalty risk reserve) versus <strong>outsourced</strong> (vendor PEPM fee + setup amortisation + 0.1 FTE oversight). Output: <strong>net annual savings</strong>, <strong>ROI multiple</strong>, <strong>break-even employee count</strong>, and a <strong>Strongly Outsource / Outsource / Hybrid / Stay In-House</strong> verdict. Indian SMEs typically save 30-40% by outsourcing payroll for headcounts under 100. Updated for the four <strong>Labour Codes effective 21 November 2025</strong> and DPDP Act 2023 enforcement. Pair with our <a href="/tools/payroll-compliance-calendar">Payroll Compliance Calendar</a> for compliance load context.</p>
+    <p>This calculator answers the question every Indian CFO eventually faces: <strong>"Should we outsource payroll?"</strong> It computes total annual cost both ways — <strong>in-house</strong> (HR/payroll executive FTE + payroll software + CA quarterly review + statutory penalty risk reserve) versus <strong>outsourced</strong> (vendor PEPM fee + setup amortisation + 0.1 FTE oversight). Output: <strong>net annual savings</strong>, <strong>ROI multiple</strong>, <strong>break-even employee count</strong>, and a <strong>Strongly Outsource / Outsource / Hybrid / Stay In-House</strong> verdict. Indian SMEs typically save 30-40% by outsourcing payroll for headcounts under 100. Updated for the four <strong>Labour Codes effective 21 November 2025</strong> and DPDP Act 2023 enforcement. Pair with our <a href="https://www.patronaccounting.com/tools/payroll-compliance-calendar">Payroll Compliance Calendar</a> for compliance load context.</p>
 </div>
 
 <div class="main-layout">
@@ -743,7 +743,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <h2>In-House Payroll Cost — Hidden Components</h2>
             <p>In-house payroll cost is rarely captured fully in finance dashboards. Most companies track only the dedicated payroll executive's salary and miss the indirect components. The five-component framework below captures all material costs.</p>
             <h3>Component 1: Payroll Executive Labour</h3>
-            <p>The dedicated person or persons running payroll. For under-50 companies, typically a fractional executive (30-50% FTE allocation) at ₹3-6 lakh annual cost. For 50-200 companies, one dedicated person at ₹6-10 lakh. For 200-500, two people at ₹15-20 lakh combined. For 500+, three to five people scaling. Include the loaded cost — basic + statutory + benefits + overhead — not just CTC. Use our <a href="/tools/india-employee-total-cost-calculator">Employee Total Cost Calculator</a> for the loaded figure.</p>
+            <p>The dedicated person or persons running payroll. For under-50 companies, typically a fractional executive (30-50% FTE allocation) at ₹3-6 lakh annual cost. For 50-200 companies, one dedicated person at ₹6-10 lakh. For 200-500, two people at ₹15-20 lakh combined. For 500+, three to five people scaling. Include the loaded cost — basic + statutory + benefits + overhead — not just CTC. Use our <a href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator">Employee Total Cost Calculator</a> for the loaded figure.</p>
             <h3>Component 2: Payroll Software</h3>
             <p>India's payroll software market in 2026 has clear pricing tiers. Basic platforms (Razorpay X Payroll, Zoho Payroll) start at ₹50-100 PEPM. Mid-tier platforms (GreytHR, Keka, Paybooks) run ₹100-200 PEPM with HR features bundled. Enterprise platforms (Darwinbox, SAP SuccessFactors) cost ₹300-800 PEPM with full HCM functionality. Software fees scale linearly with employee count, providing no economies of scale. Refer to the <a href="https://www.epfindia.gov.in/" rel="noopener" target="_blank">EPFO Unified Portal</a> for direct PF filing — many companies attempt to skip dedicated payroll software using free portals, but this fails above 30 employees.</p>
             <h3>Component 3: External CA Advisory</h3>
@@ -946,29 +946,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
-            <a href="/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
-            <a href="/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
-            <a href="/professional-tax-registration" class="sidebar-link">Professional Tax<span class="arrow">→</span></a>
-            <a href="/payroll-services-for-it-and-software-industry" class="sidebar-link">IT/SaaS Payroll<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/professional-tax-registration" class="sidebar-link">Professional Tax<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-services-for-it-and-software-industry" class="sidebar-link">IT/SaaS Payroll<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/payroll-compliance-calendar" class="sidebar-link">Payroll Compliance Calendar<span class="arrow">→</span></a>
-            <a href="/tools/india-employee-total-cost-calculator" class="sidebar-link">Employee Total Cost Calculator<span class="arrow">→</span></a>
-            <a href="/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator<span class="arrow">→</span></a>
-            <a href="/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/payroll-compliance-calendar" class="sidebar-link">Payroll Compliance Calendar<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator" class="sidebar-link">Employee Total Cost Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar<span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -7,20 +7,20 @@
     <title>Financial Ratios Dashboard | 30+ Ratios, Schedule III</title>
     <meta name="description" content="Financial ratios dashboard: 30+ ratios across liquidity, solvency, profitability, efficiency and cash flow, all tagged to Schedule III. Free CA-reviewed tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/financial-ratios-dashboard/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-ratios-dashboard/">
     <meta property="og:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
     <meta property="og:description" content="Compute 30+ financial ratios in one dashboard. Schedule III mandatory ratios tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/financial-ratios-dashboard">
-    <meta property="og:image" content="/tools/og/financial-ratios-dashboard.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-ratios-dashboard">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/financial-ratios-dashboard.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
     <meta name="twitter:description" content="30+ ratios in one dashboard. Schedule III tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/financial-ratios-dashboard.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/financial-ratios-dashboard.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "Financial Ratios Dashboard",
       "description": "Financial Ratios Dashboard is a comprehensive single-input tool that computes thirty-plus financial ratios across six analytical dimensions — Liquidity (Current Ratio, Quick Ratio, Cash Ratio, Net Working Capital to Sales, Operating Cash Flow Ratio); Solvency and Leverage (Debt-to-Equity, Debt-to-Assets, Equity Multiplier, Interest Coverage Ratio, Debt Service Coverage Ratio, Long-Term Debt to Equity); Profitability (Gross Margin, Operating Margin, EBITDA Margin, Net Profit Margin, Return on Equity, Return on Assets, Return on Capital Employed, Return on Invested Capital); Efficiency (Asset Turnover, Inventory Turnover, Receivables Turnover, Payables Turnover, Working Capital Turnover, Cash Conversion Cycle); Cash Flow (Operating Cash Flow Ratio, Free Cash Flow, OCF to Net Income, CapEx Coverage); and Valuation (Price-to-Earnings, Price-to-Book, Price-to-Sales, Earnings Yield, Dividend Yield) for listed entities. The tool tags the eleven Schedule III mandatory ratio disclosures under Companies Act 2013 and Companies (Accounts) Amendment Rules 2021, supports the 25% year-on-year variance rule for Notes to Accounts disclosure, applies Indian sector calibration across IT, FMCG, Pharma, Manufacturing, Retail, Real Estate, Infrastructure, Auto, Telecom, and other industries, and provides ICAI Guidance Note alignment for ratio computation. Suitable for statutory and internal audit, SA 570 going-concern review, lender credit appraisal, M&A target screening, financial due diligence, MIS reporting, CA / CS / CMA student learning, and CFO dashboards. Inputs map directly to Schedule III Division I and Division II line items.",
-      "url": "/tools/financial-ratios-dashboard",
+      "url": "https://www.patronaccounting.com/tools/financial-ratios-dashboard",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Financial Ratios Dashboard", "item": "/tools/financial-ratios-dashboard"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Financial Ratios Dashboard", "item": "https://www.patronaccounting.com/tools/financial-ratios-dashboard"}
       ]
     }
     </script>
@@ -468,8 +468,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Financial Ratios Dashboard
 </nav>
 
@@ -814,7 +814,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 <span class="label">CapEx Coverage</span> = Operating Cash Flow ÷ CapEx</div>
 
             <h3>Valuation Ratios — The Market's View (Listed Only)</h3>
-            <p>Valuation ratios connect financial statement metrics to equity market prices. P/E captures price relative to earnings; P/B captures price relative to book equity; P/S captures price relative to revenue (useful when earnings are negative or distorted). Earnings Yield (1 ÷ P/E) is the inverse — directly comparable to G-Sec yields and FD rates for asset-allocation decisions. Use Patron's standalone <a href="/tools/pe-ratio-calculator">P/E Ratio Calculator</a> for deeper sector benchmarking and PEG analysis.</p>
+            <p>Valuation ratios connect financial statement metrics to equity market prices. P/E captures price relative to earnings; P/B captures price relative to book equity; P/S captures price relative to revenue (useful when earnings are negative or distorted). Earnings Yield (1 ÷ P/E) is the inverse — directly comparable to G-Sec yields and FD rates for asset-allocation decisions. Use Patron's standalone <a href="https://www.patronaccounting.com/tools/pe-ratio-calculator">P/E Ratio Calculator</a> for deeper sector benchmarking and PEG analysis.</p>
 
             <div class="formula-box"><span class="label">Price-to-Earnings</span> = Market Cap ÷ PAT
 <span class="label">Price-to-Book</span> = Market Cap ÷ Equity
@@ -882,30 +882,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Standalone Calculators</h3>
-            <a href="/tools/financial-health-score" class="sidebar-link">Financial Health Score<span class="arrow">→</span></a>
-            <a href="/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity<span class="arrow">→</span></a>
-            <a href="/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
-            <a href="/tools/ebitda-margin-calculator" class="sidebar-link">EBITDA Margin<span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital<span class="arrow">→</span></a>
-            <a href="/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
-            <a href="/tools/pe-ratio-calculator" class="sidebar-link">P/E Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-health-score" class="sidebar-link">Financial Health Score<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ebitda-margin-calculator" class="sidebar-link">EBITDA Margin<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pe-ratio-calculator" class="sidebar-link">P/E Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>
@@ -1373,7 +1373,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
         let basis = '<strong>Schedule III Compliance:</strong> 10 of the 11 mandatory ratios are computed above (#11 Return on Investment is asset-class specific and requires per-investment data). Use the Schedule III box for direct Notes to Accounts disclosure.';
         basis += '<br><br><strong>* DSCR Computation Note:</strong> ICAI Guidance Note prescribes DSCR = EBITDA ÷ (Interest + Principal Repayment). This dashboard approximates Principal Repayment as Long-Term Debt ÷ 5 (assumed average maturity). For statutory disclosure, replace with actual scheduled principal from the loan amortisation schedule.';
         basis += '<br><br><strong>Averaging:</strong> ICAI Guidance Note prescribes averaged opening and closing balances for turnover ratios. The dashboard uses end-of-period values; for final disclosure, recompute with averages.';
-        basis += '<br><br><strong>25% Variance Rule:</strong> Companies (Accounts) Amendment Rules 2021 require explanation of any year-on-year movement above 25% (positive or negative) in the eleven mandatory ratios. Run the dashboard for prior year and compare manually, or use Patron\'s <a href="/tools/financial-health-score" style="color:var(--primary-light);">Financial Health Score</a> tool for variance flag automation.';
+        basis += '<br><br><strong>25% Variance Rule:</strong> Companies (Accounts) Amendment Rules 2021 require explanation of any year-on-year movement above 25% (positive or negative) in the eleven mandatory ratios. Run the dashboard for prior year and compare manually, or use Patron\'s <a href="https://www.patronaccounting.com/tools/financial-health-score" style="color:var(--primary-light);">Financial Health Score</a> tool for variance flag automation.';
         document.getElementById('basisText').innerHTML = basis;
 
         const section = document.getElementById('resultSection');

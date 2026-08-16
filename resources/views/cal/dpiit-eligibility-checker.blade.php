@@ -3,22 +3,22 @@
 <meta name="description" content="Free DPIIT eligibility checker: see if your startup qualifies for Startup India recognition on entity type, age, turnover, origin &amp; innovation. Check now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/dpiit-eligibility-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">
 @section('meta')
 <meta property="og:title" content="DPIIT Eligibility Checker — Startup Recognition 2026">
 <meta property="og:description" content="Check whether your startup qualifies for DPIIT recognition under the 2026 framework, and which Startup India benefits — 80-IAC, angel-tax — it unlocks.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/dpiit-eligibility-checker">
-<meta property="og:image" content="/tools/dpiit-eligibility-checker-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/dpiit-eligibility-checker-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DPIIT Eligibility Checker — Startup Recognition 2026">
 <meta name="twitter:description" content="Check if your startup qualifies for DPIIT / Startup India recognition and which benefits it unlocks. Free &amp; instant.">
-<meta name="twitter:image" content="/tools/dpiit-eligibility-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/dpiit-eligibility-checker-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -27,7 +27,7 @@
   "@type": "SoftwareApplication",
   "name": "DPIIT Eligibility Checker",
   "description": "DPIIT Eligibility Checker tells a founder whether their startup qualifies for DPIIT recognition under the Startup India scheme. It walks through the five eligibility conditions — entity type, age since incorporation, annual turnover, whether the entity was formed by splitting or reconstructing an existing business, and whether it is working towards innovation or scalability — and returns a clear eligible, conditional or not-eligible verdict with the reasons. It also indicates which Startup India benefits, such as the Section 80-IAC tax holiday and angel-tax position, the startup could access on recognition.",
-  "url": "/tools/dpiit-eligibility-checker",
+  "url": "https://www.patronaccounting.com/tools/dpiit-eligibility-checker",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -41,10 +41,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -57,9 +57,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "DPIIT Eligibility Checker", "item": "/tools/dpiit-eligibility-checker"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "DPIIT Eligibility Checker", "item": "https://www.patronaccounting.com/tools/dpiit-eligibility-checker"}
   ]
 }
 </script>
@@ -700,9 +700,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     DPIIT Eligibility Checker
 </nav>
@@ -825,7 +825,7 @@ a:focus-visible {
                 <li><strong>Answer the origin and innovation questions</strong>, then <strong>Check Eligibility</strong> for a verdict, a criterion-by-criterion breakdown, and the benefits you'd unlock.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Recognition is free and compounds over time — apply early. If you're not incorporated yet, start with <a href="/private-limited-company-registration-in-india">Pvt Ltd registration</a>, the most common structure for DPIIT startups.</p>
+                <p><strong>CA Tip:</strong> Recognition is free and compounds over time — apply early. If you're not incorporated yet, start with <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india">Pvt Ltd registration</a>, the most common structure for DPIIT startups.</p>
             </div>
         </section>
 
@@ -843,7 +843,7 @@ a:focus-visible {
                     <tr><td>Innovation</td><td>Working on innovation/improvement of products, processes or services, OR a scalable model with jobs/wealth potential.</td></tr>
                 </tbody>
             </table>
-            <p>All five must be met. See Patron's <a href="/startup-registration">Startup (DPIIT) registration</a> service and the <a href="/blog/dpiit-startup-recognition-2026-benefits-eligibility-application-tax">DPIIT recognition 2026 guide</a> for the full detail.</p>
+            <p>All five must be met. See Patron's <a href="https://www.patronaccounting.com/startup-registration">Startup (DPIIT) registration</a> service and the <a href="https://www.patronaccounting.com/blog/dpiit-startup-recognition-2026-benefits-eligibility-application-tax">DPIIT recognition 2026 guide</a> for the full detail.</p>
             <div class="callout warn">
                 <p><strong>On the turnover cap:</strong> The long-standing figure is ₹100 crore; the February 2026 framework references a higher limit in certain cases (and ₹300 cr for Deep Tech). Treat the band as indicative and <strong>confirm the figure that currently applies to you</strong> before relying on it.</p>
             </div>
@@ -870,13 +870,13 @@ a:focus-visible {
                 <li><strong>Public procurement</strong> — GeM access and relaxed tender norms.</li>
                 <li><strong>Fund of Funds</strong> and other scheme access.</li>
             </ul>
-            <p>See Patron's notes on <a href="/blog/section-80-iac-esop-deferment-startup">Section 80-IAC</a> and <a href="/blog/section-56-refund-interest-calculation">Section 56</a>.</p>
+            <p>See Patron's notes on <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC</a> and <a href="https://www.patronaccounting.com/blog/section-56-refund-interest-calculation">Section 56</a>.</p>
         </section>
 
         <section class="content-section" id="changes">
             <h2>What Changed in the 2026 Framework</h2>
             <p>The notification of 4 February 2026 (G.S.R. 108(E)) refreshed the startup framework. The headline changes: <strong>cooperative societies</strong> were added as an eligible entity type, a <strong>Deep Tech</strong> sub-category was created with a longer recognition window (up to 20 years) and a higher turnover limit, fund-utilisation conditions now run for the full 10 years, the angel-tax references were removed (it's abolished), and <strong>80-IAC eligibility was extended to entities incorporated up to 31 March 2030</strong>.</p>
-            <p>What stayed the same: the 80-IAC structure (3 years out of 10, 100% exemption, Pvt Ltd/LLP only), the 10-year recognition window, the innovation/scalability requirement, the anti-splitting rule, DPIIT recognition as the prerequisite for all benefits, and the Startup India portal process. See Patron's <a href="/blog/startup-registration-india-2026-what-changed-what-stays-same">what changed vs what stayed</a> breakdown.</p>
+            <p>What stayed the same: the 80-IAC structure (3 years out of 10, 100% exemption, Pvt Ltd/LLP only), the 10-year recognition window, the innovation/scalability requirement, the anti-splitting rule, DPIIT recognition as the prerequisite for all benefits, and the Startup India portal process. See Patron's <a href="https://www.patronaccounting.com/blog/startup-registration-india-2026-what-changed-what-stays-same">what changed vs what stayed</a> breakdown.</p>
         </section>
 
         <section class="content-section" id="mistakes">
@@ -898,7 +898,7 @@ a:focus-visible {
             <p>Recognition by itself is free and unlocks the non-tax benefits immediately. The big tax benefit, the Section 80-IAC holiday, is a <em>separate</em> application reviewed independently by the Inter-Ministerial Board, and it draws on the entity's financials and returns filed with the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax department</a>. Because the entity must already be incorporated under the framework administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>, founders operating as a proprietorship need to incorporate first, then apply — which is why getting the entity type right at the start matters so much.</p>
             <p>Where a professional prepares the financials and the innovation statement, they do so under standards set by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>; a precise, evidence-led write-up is the single biggest factor in a clean, query-free approval.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Still choosing a structure? Compare with the <a href="/tools/pvt-ltd-vs-llp-comparison">Pvt Ltd vs LLP tool</a> — remember 80-IAC is only for Pvt Ltd and LLP, not partnerships.</p>
+                <p><strong>Tip:</strong> Still choosing a structure? Compare with the <a href="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison">Pvt Ltd vs LLP tool</a> — remember 80-IAC is only for Pvt Ltd and LLP, not partnerships.</p>
             </div>
         </section>
 
@@ -972,22 +972,22 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Startup Services</h3>
-            <a href="/startup-registration" class="sidebar-link">Startup (DPIIT) Registration <span class="arrow">→</span></a>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
-            <a href="/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup (DPIIT) Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
-            <a href="/tools/pvt-ltd-vs-llp-comparison" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
-            <a href="/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/dpiit-startup-recognition-2026-benefits-eligibility-application-tax" class="sidebar-link">DPIIT Recognition 2026 <span class="arrow">→</span></a>
-            <a href="/blog/startup-registration-india-2026-what-changed-what-stays-same" class="sidebar-link">What Changed in 2026 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/dpiit-startup-recognition-2026-benefits-eligibility-application-tax" class="sidebar-link">DPIIT Recognition 2026 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/startup-registration-india-2026-what-changed-what-stays-same" class="sidebar-link">What Changed in 2026 <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

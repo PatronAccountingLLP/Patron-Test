@@ -5,22 +5,22 @@
 <meta name="description" content="Rule 11UA FMV calculator: fair market value of unquoted equity shares by the NAV method, (A+B+C+D−L) × PV/PE, for Section 56(2)(x) and 50CA. Free CA tool!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/fmv-rule-11ua-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator">
 
 <meta property="og:title" content="FMV Calculator Rule 11UA — Unquoted Share NAV Method">
 <meta property="og:description" content="Compute the fair market value of unquoted equity shares by the Rule 11UA NAV method — (A+B+C+D−L) × PV/PE — for Section 56(2)(x) and Section 50CA. Free &amp; instant.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/fmv-rule-11ua-calculator">
-<meta property="og:image" content="/tools/fmv-rule-11ua-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FMV Calculator Rule 11UA — Unquoted Share NAV Method">
 <meta name="twitter:description" content="Compute FMV of unquoted equity shares by the Rule 11UA NAV method — (A+B+C+D−L) × PV/PE — for Section 56(2)(x) &amp; 50CA. Free.">
-<meta name="twitter:image" content="/tools/fmv-rule-11ua-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "FMV Calculator (Rule 11UA)",
   "description": "FMV Calculator under Rule 11UA computes the fair market value of unquoted equity shares using the Net Asset Value method prescribed in Rule 11UA(1)(c)(b) of the Income-tax Rules — FMV = (A + B + C + D − L) × PV/PE — taking the adjusted book value of assets, the fair value of jewellery and artistic work, shares and securities, and immovable property, less liabilities, and apportioning to per-share value for Section 56(2)(x) and Section 50CA purposes.",
-  "url": "/tools/fmv-rule-11ua-calculator",
+  "url": "https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "FMV Calculator (Rule 11UA)", "item": "/tools/fmv-rule-11ua-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "FMV Calculator (Rule 11UA)", "item": "https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator"}
   ]
 }
 </script>
@@ -702,9 +702,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     FMV Calculator (Rule 11UA)
 </nav>
@@ -834,7 +834,7 @@ a:focus-visible {
                 <li><strong>Enter total paid-up equity capital (PE) and face value</strong> so the tool can work out the number of shares.</li>
                 <li><strong>Click Calculate.</strong> You get the net asset base, the FMV per share and a full breakdown. Leave PV blank to value the whole company, or enter it to value a specific block.</li>
             </ol>
-            <p>For a market or DCF-based view of value (used for ESOPs and fundraising rather than the statutory NAV), see the <a href="/tools/esop-valuation-calculator">ESOP valuation calculator</a>. For the resulting tax on a transfer, use the <a href="/tools/capital-gains-calculator">capital gains calculator</a>.</p>
+            <p>For a market or DCF-based view of value (used for ESOPs and fundraising rather than the statutory NAV), see the <a href="https://www.patronaccounting.com/tools/esop-valuation-calculator">ESOP valuation calculator</a>. For the resulting tax on a transfer, use the <a href="https://www.patronaccounting.com/tools/capital-gains-calculator">capital gains calculator</a>.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> The most common errors are using book values instead of fair values for property and securities, and using the balance-sheet date instead of the valuation date. Both can materially change the FMV — have a CA confirm the adjustments.</p>
             </div>
@@ -866,7 +866,7 @@ a:focus-visible {
                     <tr><td><strong>PE</strong></td><td>Total paid-up value of the equity share capital as shown in the balance sheet.</td></tr>
                 </tbody>
             </table>
-            <p>Because B, C and D require fair values rather than book values, an accurate Rule 11UA computation often needs supporting valuation inputs for property and investments, typically from a registered valuer recognised by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>. The <a href="/tools/net-worth-calculator">net worth calculator</a> can help you assemble the asset and liability base first.</p>
+            <p>Because B, C and D require fair values rather than book values, an accurate Rule 11UA computation often needs supporting valuation inputs for property and investments, typically from a registered valuer recognised by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>. The <a href="https://www.patronaccounting.com/tools/net-worth-calculator">net worth calculator</a> can help you assemble the asset and liability base first.</p>
         </section>
 
         <div class="body-cta">
@@ -886,7 +886,7 @@ a:focus-visible {
                 <li><strong>Section 50CA</strong> — on transfer of unquoted shares for less than FMV, the FMV (per Rule 11UAA, using the same Rule 11UA formula with the transfer date as valuation date) is deemed to be the sale consideration for capital gains.</li>
                 <li><strong>Section 56(2)(x)</strong> — a recipient who receives shares for no or inadequate consideration is taxed on the shortfall against FMV under "income from other sources".</li>
             </ul>
-            <p>So even after angel tax, both the buyer and seller of unquoted shares need the Rule 11UA figure to price a transfer correctly and avoid a deemed-income adjustment. The capital-gains and other-source effects are reported through your return on the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>, and where a registered-valuer report is used it follows the framework administered by the <a href="https://ibbi.gov.in/" target="_blank" rel="noopener">IBBI</a> under the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>. See Patron's <a href="/blog/rule-11ua-unlisted-share-valuation">Rule 11UA valuation guide</a> for the detailed position.</p>
+            <p>So even after angel tax, both the buyer and seller of unquoted shares need the Rule 11UA figure to price a transfer correctly and avoid a deemed-income adjustment. The capital-gains and other-source effects are reported through your return on the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>, and where a registered-valuer report is used it follows the framework administered by the <a href="https://ibbi.gov.in/" target="_blank" rel="noopener">IBBI</a> under the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>. See Patron's <a href="https://www.patronaccounting.com/blog/rule-11ua-unlisted-share-valuation">Rule 11UA valuation guide</a> for the detailed position.</p>
         </section>
 
         <section class="content-section" id="nav-dcf">
@@ -902,7 +902,7 @@ a:focus-visible {
                     <tr><td>Predictability</td><td>High — formula-driven</td><td>Lower — assumption-sensitive</td></tr>
                 </tbody>
             </table>
-            <p>This calculator implements the <strong>NAV method</strong>. With angel tax gone, the NAV method is the common route for the remaining Rule 11UA use cases. For a DCF-based valuation — relevant to fundraising, ESOPs or where a forward-looking value is needed — a merchant banker's report is required; Patron also offers <a href="/esop-valuation-services">ESOP valuation services</a>.</p>
+            <p>This calculator implements the <strong>NAV method</strong>. With angel tax gone, the NAV method is the common route for the remaining Rule 11UA use cases. For a DCF-based valuation — relevant to fundraising, ESOPs or where a forward-looking value is needed — a merchant banker's report is required; Patron also offers <a href="https://www.patronaccounting.com/esop-valuation-services">ESOP valuation services</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> The NAV figure can differ significantly from a negotiated commercial price. It is a statutory floor/reference for tax, not necessarily the deal value — but pricing below it can trigger Section 50CA or 56(2)(x).</p>
             </div>
@@ -983,23 +983,23 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/esop-valuation-services" class="sidebar-link">ESOP / Share Valuation <span class="arrow">→</span></a>
-            <a href="/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation <span class="arrow">→</span></a>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP / Share Valuation <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/net-worth-calculator" class="sidebar-link">Net Worth Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/net-worth-calculator" class="sidebar-link">Net Worth Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/rule-11ua-unlisted-share-valuation" class="sidebar-link">Rule 11UA Valuation Guide <span class="arrow">→</span></a>
-            <a href="/blog/market-valuation-ratios-complete-guide" class="sidebar-link">Market &amp; Valuation Ratios <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/rule-11ua-unlisted-share-valuation" class="sidebar-link">Rule 11UA Valuation Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/market-valuation-ratios-complete-guide" class="sidebar-link">Market &amp; Valuation Ratios <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

@@ -34,7 +34,7 @@
       "@type": "Service",
       "name": "12A Registration in Delhi - Form 10A & Tax Exemption",
       "description": "CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.",
-      "url": "/12a-registration/delhi",
+      "url": "https://www.patronaccounting.com/12a-registration/delhi",
       "serviceType": "12A Registration in Delhi - Form 10A & Tax Exemption",
       "areaServed": {
         "@type": "City",
@@ -47,14 +47,14 @@
       "provider": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
       },
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "/12a-registration/delhi",
+        "url": "https://www.patronaccounting.com/12a-registration/delhi",
         "price": "5000"
       }
     },
@@ -585,19 +585,68 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'registration-for-12a-80g-certificate/delhi',
-                    'options'  => [
-                        'registration-for-12a-80g-certificate/delhi' => '12A and 80G Registration in Delhi',
-                        'ngo-registration/delhi' => 'NGO Registration in Delhi',
-                        'section8-company-registration/delhi' => 'Section 8 Company Registration in Delhi',
-                        'society-registration/delhi' => 'Society Registration in Delhi',
-                        'gst-registration/delhi' => 'GST Registration in Delhi',
-                        'income-tax-return/delhi' => 'Income Tax Return Filing in Delhi',
-                        'startup-registration/delhi' => 'Startup Registration in Delhi',
-                        'other' => 'Other',
-                    ],
-                ])
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+                    <form id='BiginWebToRecordForm208810000001209168' name='BiginWebToRecordForm208810000001209168' action='https://bigin.zoho.in/crm/WebToRecordForm' method='POST' enctype='multipart/form-data' target='hidden208810000001209168Frame' onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()' accept-charset='UTF-8'>
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - 12A Registration Delhi'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80' class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput" placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='hidden' name='Contacts.Mobile' id='mobileHidden' value=''/>
+                                <input type='tel' id='consultPhone' class='form-input phone-input' placeholder='Your phone number' maxlength='15' oninput='clearFieldError(this); syncPhoneField();' onblur='validatePhoneOnBlur()'/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' class='form-input' placeholder='Your city' value='Delhi' oninput='clearFieldError(this)'/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value="registration-for-12a-80g-certificate/delhi" selected>12A and 80G Registration in Delhi</option>
+                                <option value="ngo-registration/delhi">NGO Registration in Delhi</option>
+                                <option value="section8-company-registration/delhi">Section 8 Company Registration in Delhi</option>
+                                <option value="society-registration/delhi">Society Registration in Delhi</option>
+                                <option value="gst-registration/delhi">GST Registration in Delhi</option>
+                                <option value="income-tax-return/delhi">Income Tax Return Filing in Delhi</option>
+                                <option value="startup-registration/delhi">Startup Registration in Delhi</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <button type='submit' id='formSubmitBtn' class='btn-submit'>Get Free Quote &rarr;</button>
+                        <p class="form-response-note">Free consultation - No obligation</p>
+                        <div class="form-footer">
+                            <div class="form-footer-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> 100% Confidential</div>
+                            <div class="form-footer-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Expert CA Team</div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -1275,12 +1324,237 @@
 
 </main>
 
+<script>
+(function () {
 
+document.addEventListener("DOMContentLoaded", function () {
+
+    /* =========================
+       SAFE GETTER
+    ========================= */
+    function el(id) {
+        return document.getElementById(id);
+    }
+
+    /* =========================
+       COUNTRY DATA
+    ========================= */
+    var countries = [
+        {name:"India",code:"+91",flag:"\u{1F1EE}\u{1F1F3}"},
+        {name:"United States",code:"+1",flag:"\u{1F1FA}\u{1F1F8}"},
+        {name:"United Kingdom",code:"+44",flag:"\u{1F1EC}\u{1F1E7}"},
+        {name:"Canada",code:"+1",flag:"\u{1F1E8}\u{1F1E6}"},
+        {name:"Australia",code:"+61",flag:"\u{1F1E6}\u{1F1FA}"},
+        {name:"UAE",code:"+971",flag:"\u{1F1E6}\u{1F1EA}"}
+    ];
+
+    var selectedCountry = countries[0];
+
+    /* =========================
+       POPULATE COUNTRIES
+    ========================= */
+    function populateCountries() {
+        var container = el("countryOptions");
+        if (!container) return;
+
+        container.innerHTML = "";
+
+        countries.forEach(function (c) {
+            var div = document.createElement("div");
+            div.className = "country-option";
+
+            div.innerHTML =
+                '<span>' + c.flag + '</span>' +
+                '<span>' + c.name + '</span>' +
+                '<span>' + c.code + '</span>';
+
+            div.onclick = function (e) {
+                e.stopPropagation();
+                selectCountry(c);
+            };
+
+            container.appendChild(div);
+        });
+    }
+
+    function selectCountry(c) {
+        selectedCountry = c;
+
+        var flag = el("selectedFlag");
+        var code = el("selectedCode");
+        var dd = el("countryCodeDropdown");
+
+        if (flag) flag.innerHTML = c.flag;
+        if (code) code.textContent = c.code;
+        if (dd) dd.classList.remove("open");
+
+        syncPhoneField();
+    }
+
+    window.toggleCountryDropdown = function (e) {
+        e.stopPropagation();
+        var dd = el("countryCodeDropdown");
+        if (dd) dd.classList.toggle("open");
+    };
+
+    window.filterCountries = function (val) {
+        var options = document.querySelectorAll(".country-option");
+        if (!options) return;
+
+        val = (val || "").toLowerCase();
+
+        options.forEach(function (opt) {
+            opt.style.display =
+                opt.textContent.toLowerCase().includes(val)
+                    ? "flex"
+                    : "none";
+        });
+    };
+
+    document.addEventListener("click", function () {
+        var dd = el("countryCodeDropdown");
+        if (dd) dd.classList.remove("open");
+    });
+
+    /* =========================
+       PHONE SYNC
+    ========================= */
+    function syncPhoneField() {
+        var code = el("selectedCode");
+        var phone = el("consultPhone");
+        var hidden = el("mobileHidden");
+
+        if (!code || !phone || !hidden) return;
+
+        hidden.value = code.textContent + phone.value.replace(/\D/g, "");
+    }
+
+    window.syncPhoneField = syncPhoneField;
+
+    /* =========================
+       CLEAR FIELD ERROR (FIXED)
+    ========================= */
+    window.clearFieldError = function (el) {
+        if (!el) return;
+
+        el.classList.remove("input-error");
+
+        var parent = el.closest ? el.closest(".form-group") : el.parentNode;
+        if (!parent) return;
+
+        var err = parent.querySelector(".field-error-msg");
+        if (err) err.remove();
+    };
+
+    /* =========================
+       PHONE VALIDATION ON BLUR
+    ========================= */
+    window.validatePhoneOnBlur = function () {
+
+        var phone = el("consultPhone");
+        var group = el("phoneGroup");
+
+        if (!phone || !group) return;
+
+        var val = phone.value.replace(/\D/g, "");
+
+        if (val.length < 7 || val.length > 15) {
+            group.classList.add("input-error");
+        } else {
+            group.classList.remove("input-error");
+        }
+    };
+
+    /* =========================
+       FORM VALIDATION
+    ========================= */
+    window.validateConsultationForm = function () {
+
+        var name = el("consultFullName");
+        var phone = el("consultPhone");
+        var city = el("consultCity");
+        var service = el("consultService");
+
+        var ok = true;
+
+        function fail(x) {
+            if (x) x.classList.add("input-error");
+            ok = false;
+        }
+
+        function pass(x) {
+            if (x) x.classList.remove("input-error");
+        }
+
+        if (!name || !name.value.trim()) fail(name); else pass(name);
+        if (!phone || !phone.value.trim()) fail(phone); else pass(phone);
+        if (!city || !city.value.trim()) fail(city); else pass(city);
+        if (!service || !service.value) fail(service); else pass(service);
+
+        syncPhoneField();
+
+        if (ok) {
+            var btn = el("formSubmitBtn");
+            if (btn) {
+                btn.disabled = true;
+                btn.textContent = "Submitting...";
+                setTimeout(function () {
+                    btn.disabled = false;
+                    btn.innerHTML = "Get Free Quote →";
+                }, 4000);
+            }
+        }
+
+        return ok;
+    };
+
+    window.checkMandatory208810000001209168 = function () {
+        return true;
+    };
+
+    /* =========================
+       IFRAME SUCCESS HANDLER
+    ========================= */
+    var iframe = el("hidden208810000001209168Frame");
+
+    function showSuccessState() {
+        var card = el("consultationFormCard");
+        if (!card) return;
+
+        card.innerHTML =
+            '<div class="form-success">' +
+            '<h3>Thank You!</h3>' +
+            '<p>Our team will contact you shortly.</p>' +
+            '</div>';
+    }
+
+    if (iframe) {
+        iframe.addEventListener("load", function () {
+            try {
+                var doc = this.contentWindow.document;
+                if (doc && doc.body && doc.body.childElementCount !== 0) {
+                    showSuccessState();
+                }
+            } catch (e) {
+                showSuccessState();
+            }
+        });
+    }
+
+    /* =========================
+       INIT
+    ========================= */
+    populateCountries();
+
+});
+
+})();
+</script>
 
 <script>
 
 </script>
-{{--  --}}
+{{-- <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script> --}}
 
 
 <script>

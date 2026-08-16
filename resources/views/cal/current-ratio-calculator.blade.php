@@ -7,20 +7,20 @@
     <title>Current Ratio Calculator | Liquidity & Working Capital</title>
     <meta name="description" content="Free current ratio calculator: compute current ratio, quick ratio, cash ratio & working capital, Schedule III aligned with benchmarks. CA-reviewed. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/current-ratio-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/current-ratio-calculator/">
     <meta property="og:title" content="Current Ratio Calculator — Free 2026">
     <meta property="og:description" content="Compute current ratio, quick ratio, cash ratio and working capital from Schedule III components. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/current-ratio-calculator">
-    <meta property="og:image" content="/tools/og/current-ratio-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/current-ratio-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/current-ratio-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Current Ratio Calculator — Free 2026">
     <meta name="twitter:description" content="Current ratio + quick ratio + cash ratio + working capital. Schedule III aligned. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/current-ratio-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/current-ratio-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "Current Ratio Calculator",
       "description": "Current Ratio Calculator computes the current ratio (current assets divided by current liabilities), quick ratio (acid test, excluding inventory and prepaid expenses), cash ratio (cash and equivalents divided by current liabilities) and working capital (current assets minus current liabilities) for Indian companies, LLPs and businesses. The tool supports Quick Mode (enter only totals) and Detailed Mode (enter eight current asset components and six current liability components based on Schedule III Division I and Division II of the Companies Act 2013). Output includes ratio interpretation by health zone (stressed below 1.0, tight 1.0-1.5, healthy 1.5-2.5, comfortable 2.5-3.0, idle above 3.0), industry benchmark comparison, working capital analysis and CARO 2020 Clause 3(xvii) reference. Suitable for CFO offices, lenders performing credit appraisal, auditors during analytical procedures under SA 520, investors evaluating liquidity, and CA students learning ratio analysis.",
-      "url": "/tools/current-ratio-calculator",
+      "url": "https://www.patronaccounting.com/tools/current-ratio-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Current Ratio Calculator", "item": "/tools/current-ratio-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Current Ratio Calculator", "item": "https://www.patronaccounting.com/tools/current-ratio-calculator"}
       ]
     }
     </script>
@@ -467,8 +467,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Current Ratio Calculator
 </nav>
 
@@ -798,7 +798,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <p>Variances of more than 25% from the previous year must be explained. Reference: <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a> notification and <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> Guidance Note on Schedule III. The underlying Companies Act framework is at <a href="https://www.indiacode.nic.in/handle/123456789/2114" target="_blank" rel="noopener">India Code</a>.</p>
 
             <div class="callout">
-                <p><strong>CARO 2020 connection:</strong> Clause 3(xvii) of <a href="/tools/caro-2020-checklist-generator">CARO 2020</a> requires the auditor to report material adverse changes in cash flows or financial ratios that could affect the company's ability to meet liabilities. Current ratio is one of the primary metrics auditors examine under this clause.</p>
+                <p><strong>CARO 2020 connection:</strong> Clause 3(xvii) of <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">CARO 2020</a> requires the auditor to report material adverse changes in cash flows or financial ratios that could affect the company's ability to meet liabilities. Current ratio is one of the primary metrics auditors examine under this clause.</p>
             </div>
         </section>
 
@@ -907,29 +907,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
             
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
-            <a href="/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
-            <a href="/tools/as-vs-ind-as-comparison-matrix" class="sidebar-link">AS vs Ind AS Matrix<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/as-vs-ind-as-comparison-matrix" class="sidebar-link">AS vs Ind AS Matrix<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

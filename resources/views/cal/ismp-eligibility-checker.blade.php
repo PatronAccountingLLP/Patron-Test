@@ -6,27 +6,27 @@
 <meta name="description" content="ISMP eligibility checker: see if you qualify as an Insurance Sales Person (ISP) under an Insurance Marketing Firm. 12-question IRDAI decision tree. Check free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/ismp-eligibility-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/ismp-eligibility-checker">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/ismp-eligibility-checker">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/ismp-eligibility-checker">
 <meta property="og:title" content="ISMP Eligibility Checker — IRDAI ISP / IMF Tool 2026">
 <meta property="og:description" content="12-question decision tree for ISP eligibility under IRDAI Insurance Marketing Firm Regulations 2015.">
-<meta property="og:image" content="/og/ismp-eligibility-checker.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/ismp-eligibility-checker.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ISMP Eligibility Checker — IRDAI ISP / IMF Tool 2026">
 <meta name="twitter:description" content="12-question IRDAI decision tree for ISP eligibility, ISMP training, fit-and-proper.">
-<meta name="twitter:image" content="/og/ismp-eligibility-checker.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/ismp-eligibility-checker.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ISMP Eligibility Checker","description":"ISMP Eligibility Checker is a 12-question decision tree for individuals planning to become Insurance Sales Persons (ISPs) or Financial Services Executives (FSEs) employed by an Insurance Marketing Firm (IMF) registered with the Insurance Regulatory and Development Authority of India. Walks through educational qualifications, age, residence, prior IRDAI agent licence, current employment status, fit-and-proper criteria, past convictions or disqualifications, and willingness to undergo the 50-hour Insurance Sales Management Programme training. Outputs an Eligible / Partial / Not Eligible verdict, flagged concerns, recommended next steps, and links to IMF incorporation and ISP certification services.","url":"/tools/ismp-eligibility-checker","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ISMP Eligibility Checker","description":"ISMP Eligibility Checker is a 12-question decision tree for individuals planning to become Insurance Sales Persons (ISPs) or Financial Services Executives (FSEs) employed by an Insurance Marketing Firm (IMF) registered with the Insurance Regulatory and Development Authority of India. Walks through educational qualifications, age, residence, prior IRDAI agent licence, current employment status, fit-and-proper criteria, past convictions or disqualifications, and willingness to undergo the 50-hour Insurance Sales Management Programme training. Outputs an Eligible / Partial / Not Eligible verdict, flagged concerns, recommended next steps, and links to IMF incorporation and ISP certification services.","url":"https://www.patronaccounting.com/tools/ismp-eligibility-checker","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"ISMP Eligibility Checker","item":"/tools/ismp-eligibility-checker"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"ISMP Eligibility Checker","item":"https://www.patronaccounting.com/tools/ismp-eligibility-checker"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -234,7 +234,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Checker</a><a href="#how-to-use">How to Use</a><a href="#what-is-isp">ISP / FSE Roles</a><a href="#imf-setup">IMF Setup</a><a href="#training">ISMP Training</a><a href="#fit-proper">Fit &amp; Proper</a><a href="#timeline">Timeline &amp; Fees</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>ISMP Eligibility Checker</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>ISMP Eligibility Checker</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -593,27 +593,27 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/imf-incorporation-services" class="sidebar-link">IMF Incorporation Services <span class="arrow">→</span></a>
-<a href="/ismp-certification-isp-appointment" class="sidebar-link">ISMP Certification &amp; ISP Appointment <span class="arrow">→</span></a>
-<a href="/private-limited-company-registration-in-india" class="sidebar-link">Private Limited Company Registration <span class="arrow">→</span></a>
-<a href="/llp-registration" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
-<a href="/secretarial-services" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
-<a href="/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/imf-incorporation-services" class="sidebar-link">IMF Incorporation Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/ismp-certification-isp-appointment" class="sidebar-link">ISMP Certification &amp; ISP Appointment <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited Company Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/llp-registration" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/secretarial-services" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
-<a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
-<a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
-<a href="/tools/professional-tax-calculator" class="sidebar-link">Professional Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/professional-tax-calculator" class="sidebar-link">Professional Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-<a href="/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
-<a href="/blog/private-limited-company-vs-llp-which-is-right-for-your-startup" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/private-limited-company-vs-llp-which-is-right-for-your-startup" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
 </div>
 </aside>
 
@@ -734,7 +734,7 @@ function calculate(){
             'For <strong>Fit-and-Proper</strong> concerns (past convictions or regulatory bars), wait out the 5-year cooling period and seek legal counsel on rehabilitation certificates.',
             'If you currently hold an <strong>exclusive insurance agent licence</strong>, surrender it through your insurance company\'s back office. Once surrendered, you can immediately become eligible for ISP appointment.',
             'For full-time employment elsewhere — most IRDAI ISP appointments require <strong>full-time engagement</strong> with the IMF. Plan to transition employment before the IMF registration phase.',
-            'Once the hard items are cleared, <a href="/ismp-certification-isp-appointment">contact Patron Accounting</a> for ISMP training coordination and ISP appointment.'
+            'Once the hard items are cleared, <a href="https://www.patronaccounting.com/ismp-certification-isp-appointment">contact Patron Accounting</a> for ISMP training coordination and ISP appointment.'
         ];
     } else if(softCount > 2){
         verdict = 'PARTIAL'; verdictClass = 'partial';
@@ -746,7 +746,7 @@ function calculate(){
             'If you lack <strong>insurance / finance experience</strong>, allocate extra prep time for the ISMP training and III examination. Most successful candidates spend 60–80 hours in self-study beyond the 50-hour training.',
             'If you have <strong>pending civil/criminal cases</strong>, prepare clear disclosure documentation and seek legal review before submitting the Fit-and-Proper declaration.',
             'Once concerns are addressed (or accepted as soft items), schedule your <strong>50-hour ISMP training</strong> at an IRDAI-approved institute and book your III examination.',
-            '<a href="/imf-incorporation-services">Engage Patron Accounting</a> for end-to-end IMF registration support — we coordinate training, examination, insurer tie-ups, and IRDAI filing.'
+            '<a href="https://www.patronaccounting.com/imf-incorporation-services">Engage Patron Accounting</a> for end-to-end IMF registration support — we coordinate training, examination, insurer tie-ups, and IRDAI filing.'
         ];
     } else if(softCount > 0){
         verdict = 'ELIGIBLE'; verdictClass = 'eligible';
@@ -758,8 +758,8 @@ function calculate(){
             'Schedule the <strong>50-hour ISMP training</strong> at an IRDAI-approved institute (Insurance Institute of India or designated insurance company training centres).',
             'After training, book the <strong>Insurance Institute of India</strong> certification examination. Allow 6–8 weeks for the full training + examination cycle.',
             'Coordinate with the IMF you plan to join — they will issue the employment letter and KYC, then file the ISP appointment with IRDAI.',
-            '<a href="/ismp-certification-isp-appointment">Contact Patron Accounting</a> for ISMP training coordination, examination preparation, and ISP appointment support.',
-            'If you are setting up your own IMF, also see <a href="/imf-incorporation-services">IMF Incorporation Services</a> — we handle company formation through IRDAI registration in 4–6 months.'
+            '<a href="https://www.patronaccounting.com/ismp-certification-isp-appointment">Contact Patron Accounting</a> for ISMP training coordination, examination preparation, and ISP appointment support.',
+            'If you are setting up your own IMF, also see <a href="https://www.patronaccounting.com/imf-incorporation-services">IMF Incorporation Services</a> — we handle company formation through IRDAI registration in 4–6 months.'
         ];
     } else {
         verdict = 'ELIGIBLE'; verdictClass = 'eligible';
@@ -771,8 +771,8 @@ function calculate(){
             'After training completion, book the <strong>Insurance Institute of India</strong> certification examination. Most candidates clear it on first attempt with focused preparation.',
             'Coordinate with the IMF you plan to join (or set up). They issue the employment letter and KYC, then file the ISP appointment with IRDAI.',
             'Maintain documentation for periodic compliance — III certificates expire every 3 years and require continuing education for renewal.',
-            '<a href="/ismp-certification-isp-appointment">Contact Patron Accounting</a> for ISMP training coordination, examination preparation, ISP appointment, and ongoing compliance support.',
-            'Planning to set up your own IMF? <a href="/imf-incorporation-services">IMF Incorporation Services</a> — end-to-end registration in 4–6 months, fixed-fee.'
+            '<a href="https://www.patronaccounting.com/ismp-certification-isp-appointment">Contact Patron Accounting</a> for ISMP training coordination, examination preparation, ISP appointment, and ongoing compliance support.',
+            'Planning to set up your own IMF? <a href="https://www.patronaccounting.com/imf-incorporation-services">IMF Incorporation Services</a> — end-to-end registration in 4–6 months, fixed-fee.'
         ];
     }
 

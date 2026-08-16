@@ -3,12 +3,12 @@
     <title>Bonus Calculator | Payment of Bonus Act Statutory Bonus</title>
     <meta name="description" content="Free statutory bonus calculator under the Payment of Bonus Act, 1965, from minimum 8.33% to maximum 20%, with eligibility and pro-rata working. Calculate now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/bonus-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/bonus-calculator">
     <meta property="og:title" content="Bonus Calculator — Payment of Bonus Act Statutory Bonus">
     <meta property="og:description" content="Calculate statutory bonus under the Payment of Bonus Act — 8.33% to 20% with eligibility check.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/bonus-calculator">
-    <meta property="og:image" content="/tools/bonus-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/bonus-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/bonus-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bonus Calculator — Payment of Bonus Act Statutory Bonus">
     <meta name="twitter:description" content="Statutory bonus 8.33%-20% under the Bonus Act. Eligibility + pro-rata + tax. Calculate!">
-    <meta name="twitter:image" content="/tools/bonus-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/bonus-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -25,20 +25,20 @@
       "@context": "https://schema.org", "@type": "WebApplication",
       "name": "Bonus Calculator \u2014 Payment of Bonus Act",
       "description": "Bonus Calculator computes statutory bonus under the Payment of Bonus Act, 1965 for eligible employees. Calculates minimum bonus at 8.33 percent and maximum at 20 percent of salary capped at Rs 7,000 per month or minimum wage whichever is higher. Checks eligibility against the Rs 21,000 salary ceiling, handles pro-rata for partial year service, and shows employer total cost for multiple employees.",
-      "url": "/tools/bonus-calculator",
+      "url": "https://www.patronaccounting.com/tools/bonus-calculator",
       "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
       "datePublished": "2026-03-05", "dateModified": "2026-03-05",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Bonus Calculator", "item": "/tools/bonus-calculator"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Bonus Calculator", "item": "https://www.patronaccounting.com/tools/bonus-calculator"}
     ]}
     </script>
 <script type="application/ld+json">
@@ -1013,22 +1013,22 @@
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>
-                <a href="/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
-                <a href="/pf-calculator" class="sidebar-link">PF Compliance <span class="arrow">&rarr;</span></a>
-                <a href="/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
-                <a href="/gratuity-calculation-and-compliance-services" class="sidebar-link">Gratuity Services <span class="arrow">&rarr;</span></a>
-                <a href="/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/pf-calculator" class="sidebar-link">PF Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gratuity-calculation-and-compliance-services" class="sidebar-link">Gratuity Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

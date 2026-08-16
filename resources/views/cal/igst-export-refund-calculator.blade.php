@@ -7,20 +7,20 @@
     <title>IGST Export Refund Calculator | Rule 96 GST Refund</title>
     <meta name="description" content="IGST export refund calculator under Rule 96: verify shipping bill eligibility, GSTR-1 vs 3B match, SB error codes, drawback conflict and 60-day timeline. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/igst-export-refund-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/igst-export-refund-calculator/">
     <meta property="og:title" content="IGST Export Refund Calculator — Rule 96 GST Refund 2026">
     <meta property="og:description" content="Verify Rule 96 IGST refund eligibility, reconcile GSTR-1 Table 6A vs GSTR-3B Table 3.1(b), decode SB error codes, check drawback conflict and Section 56 interest. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/igst-export-refund-calculator">
-    <meta property="og:image" content="/tools/og/igst-export-refund-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/igst-export-refund-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/igst-export-refund-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IGST Export Refund Calculator — Rule 96 GST Refund 2026">
     <meta name="twitter:description" content="Rule 96 IGST refund eligibility check, GSTR-1 vs 3B reconciliation, SB error code decoder, drawback conflict diagnosis, 60-day timeline. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/igst-export-refund-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/igst-export-refund-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "IGST Export Refund Calculator (Rule 96)",
       "description": "IGST Export Refund Calculator under Rule 96 of the Central Goods and Services Tax Rules, 2017 verifies the admissibility of refund of Integrated Tax paid on goods exported out of India. The tool reconciles the Integrated Tax declared in Table 6A of Form GSTR-1 against the Integrated Tax paid in Table 3.1(b) of Form GSTR-3B and confirms that the shipping bill data filed on ICEGATE matches the GST returns at the invoice level. The calculator decodes the standard SB-series response codes including SB000 indicating successful validation, SB001 indicating a shipping bill number date or port code mismatch, SB002 indicating that the Export General Manifest has not been filed, SB003 indicating a Goods and Services Tax Identification Number mismatch, SB005 indicating an invoice number mismatch and SB006 indicating that the gateway Export General Manifest has not been filed for shipments through Inland Container Depots. The tool flags drawback conflict where the exporter has availed the higher composite rate of duty drawback that includes the Central Goods and Services Tax, State Goods and Services Tax or Integrated Goods and Services Tax component. The tool reflects the omission of Rule 96(10) of the CGST Rules with effect from 8 October 2024 vide Notification No. 20/2024-Central Tax following the recommendation of the 54th Goods and Services Tax Council, restoring the right of refund where the exporter or supplier had availed Advance Authorisation, Export Promotion Capital Goods Authorisation or supplies under the 0.1 per cent concessional rate. The calculator computes the two-year limitation under Section 54(1) of the CGST Act from the relevant date defined in Explanation (2)(a) which is the date of the shipping bill, and the entitlement to interest at six per cent per annum under Section 56 if the refund is not paid within sixty days of acknowledgement. The Letter of Undertaking route under Rule 89(4) of the CGST Rules is computed by a separate tool.",
-      "url": "/tools/igst-export-refund-calculator",
+      "url": "https://www.patronaccounting.com/tools/igst-export-refund-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "IGST Export Refund Calculator", "item": "/tools/igst-export-refund-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "IGST Export Refund Calculator", "item": "https://www.patronaccounting.com/tools/igst-export-refund-calculator"}
       ]
     }
     </script>
@@ -519,9 +519,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     IGST Export Refund Calculator (Rule 96)
 </nav>
@@ -538,7 +538,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>This IGST Export Refund Calculator implements <strong>Rule 96 of the CGST Rules, 2017</strong> for exporters who pay Integrated Tax on the export invoice and claim automatic refund through ICEGATE. The shipping bill itself is the deemed refund application — no Form RFD-01 is required for goods. The tool reconciles <strong>GSTR-1 Table 6A</strong> against <strong>GSTR-3B Table 3.1(b)</strong>, predicts the <strong>SB-series response code</strong> (SB000 success or SB001/SB003/SB005/SB006 errors), checks <strong>drawback conflict</strong> and <strong>PFMS bank validation</strong>, reflects the omission of <strong>Rule 96(10)</strong> by Notification 20/2024 effective 8 October 2024, and computes the two-year limitation under Section 54(1) and 6% interest under Section 56 if the refund is delayed beyond 60 days. For the Letter of Undertaking route under Rule 89(4) use our separate <a href="/tools/export-refund-lut-calculator">LUT Refund Calculator</a>.</p>
+    <p>This IGST Export Refund Calculator implements <strong>Rule 96 of the CGST Rules, 2017</strong> for exporters who pay Integrated Tax on the export invoice and claim automatic refund through ICEGATE. The shipping bill itself is the deemed refund application — no Form RFD-01 is required for goods. The tool reconciles <strong>GSTR-1 Table 6A</strong> against <strong>GSTR-3B Table 3.1(b)</strong>, predicts the <strong>SB-series response code</strong> (SB000 success or SB001/SB003/SB005/SB006 errors), checks <strong>drawback conflict</strong> and <strong>PFMS bank validation</strong>, reflects the omission of <strong>Rule 96(10)</strong> by Notification 20/2024 effective 8 October 2024, and computes the two-year limitation under Section 54(1) and 6% interest under Section 56 if the refund is delayed beyond 60 days. For the Letter of Undertaking route under Rule 89(4) use our separate <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">LUT Refund Calculator</a>.</p>
 </div>
 
 <div class="main-layout">
@@ -982,7 +982,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
                 <li><strong>Exporters using AA/EPCG inputs</strong> — Post Rule 96(10) omission, the IGST route is now safely available even with concessional input chains.</li>
                 <li><strong>Domestic outward liability is high</strong> — IGST paid on exports comes from the credit ledger funded by domestic ITC inflow, no incremental cash strain.</li>
             </ul>
-            <p>Compute the optimal route for your specific working capital and ITC profile using our <a href="/tools/export-refund-lut-calculator">LUT Refund Calculator</a> alongside this tool. Many exporters operate a mixed strategy — LUT for service exports and IGST route for goods exports — to optimise across the portfolio.</p>
+            <p>Compute the optimal route for your specific working capital and ITC profile using our <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">LUT Refund Calculator</a> alongside this tool. Many exporters operate a mixed strategy — LUT for service exports and IGST route for goods exports — to optimise across the portfolio.</p>
         </section>
 
         <section class="content-section" id="errors">
@@ -1093,29 +1093,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
-            <a href="/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
-            <a href="/iec-renewal" class="sidebar-link">IEC Renewal<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-renewal" class="sidebar-link">IEC Renewal<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund Calculator (LUT)<span class="arrow">→</span></a>
-            <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
-            <a href="/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
-            <a href="/tools/rcm-calculator" class="sidebar-link">RCM Calculator<span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund Calculator (LUT)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/rcm-calculator" class="sidebar-link">RCM Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
         </div>
 
     </aside>

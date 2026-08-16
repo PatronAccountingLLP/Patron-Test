@@ -5,22 +5,22 @@
 <meta name="description" content="Free inventory turnover calculator: get your stock turnover ratio and days inventory outstanding (DIO) from COGS and average stock, with India benchmarks now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/inventory-turnover-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/inventory-turnover-calculator">
 
 <meta property="og:title" content="Inventory Turnover Calculator — Ratio & Days Outstanding">
 <meta property="og:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with industry benchmarks for Indian businesses. Free, no signup.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/inventory-turnover-calculator">
-<meta property="og:image" content="/tools/inventory-turnover-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Inventory Turnover Calculator — Ratio & Days Outstanding">
 <meta name="twitter:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with India industry benchmarks. Free & instant.">
-<meta name="twitter:image" content="/tools/inventory-turnover-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "Inventory Turnover Calculator",
   "description": "Inventory Turnover Calculator computes a business's inventory (stock) turnover ratio and days inventory outstanding (DIO) from cost of goods sold and average inventory, and benchmarks the result against Indian industry averages.",
-  "url": "/tools/inventory-turnover-calculator",
+  "url": "https://www.patronaccounting.com/tools/inventory-turnover-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Inventory Turnover Calculator", "item": "/tools/inventory-turnover-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Inventory Turnover Calculator", "item": "https://www.patronaccounting.com/tools/inventory-turnover-calculator"}
   ]
 }
 </script>
@@ -731,9 +731,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Inventory Turnover Calculator
 </nav>
@@ -885,7 +885,7 @@ a:focus-visible {
                 <li><strong>Click Calculate Turnover</strong> — you instantly get the turnover ratio, days inventory outstanding, the average inventory used, and a benchmark rating.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Use cost of goods sold, not sales, in the numerator. Inventory is carried at cost, so a COGS-based ratio keeps both sides on the same basis and matches what auditors and lenders expect. Pair this with our <a href="/tools/cash-conversion-cycle-calculator">cash conversion cycle calculator</a> for the full working-capital picture.</p>
+                <p><strong>CA Tip:</strong> Use cost of goods sold, not sales, in the numerator. Inventory is carried at cost, so a COGS-based ratio keeps both sides on the same basis and matches what auditors and lenders expect. Pair this with our <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">cash conversion cycle calculator</a> for the full working-capital picture.</p>
             </div>
         </section>
 
@@ -894,7 +894,7 @@ a:focus-visible {
             <p>The inventory turnover ratio — also called the stock turnover ratio — measures how many times a business sells and replaces its inventory during a period, usually a financial year. It is one of the most useful efficiency metrics for any product business, because it shows whether stock is moving, whether cash is needlessly tied up, and whether you are holding the right scale of inventory for actual demand.</p>
             <p>For brands selling physical goods, inventory turnover links directly to cash flow, storage costs and operational efficiency. Stock that sits too long in a warehouse ties up working capital and risks becoming obsolete; stock that moves too fast risks stockouts and lost sales. The ratio helps you find the right balance.</p>
             <h3>Days Inventory Outstanding (DIO)</h3>
-            <p>Turnover is closely tied to <a href="/blog/days-inventory-outstanding-dio">days inventory outstanding</a> (DIO), also known as days sales of inventory. DIO converts the ratio into a number of days: 365 divided by the turnover ratio. A turnover of 5 means roughly 73 days of stock on hand. The lower your DIO, the faster you convert inventory into cash.</p>
+            <p>Turnover is closely tied to <a href="https://www.patronaccounting.com/blog/days-inventory-outstanding-dio">days inventory outstanding</a> (DIO), also known as days sales of inventory. DIO converts the ratio into a number of days: 365 divided by the turnover ratio. A turnover of 5 means roughly 73 days of stock on hand. The lower your DIO, the faster you convert inventory into cash.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> A single year-end snapshot can be misleading for seasonal businesses. Average several months or quarters where you can, so peaks and troughs don't distort the ratio.</p>
             </div>
@@ -961,7 +961,7 @@ a:focus-visible {
                 <li><strong>Align incentives</strong> — reward teams on inventory efficiency, not just purchasing volume.</li>
             </ul>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Improving turnover shortens your cash conversion cycle and cuts working-capital finance costs. Model the impact alongside our <a href="/tools/working-capital-calculator">working capital calculator</a> before committing to a stocking change.</p>
+                <p><strong>CA Tip:</strong> Improving turnover shortens your cash conversion cycle and cuts working-capital finance costs. Model the impact alongside our <a href="https://www.patronaccounting.com/tools/working-capital-calculator">working capital calculator</a> before committing to a stocking change.</p>
             </div>
         </section>
 
@@ -971,7 +971,7 @@ a:focus-visible {
             <h3>AS-2 / Ind AS 2 valuation</h3>
             <p>Inventory must be valued at the lower of cost and net realisable value under the applicable accounting standard. How you value stock directly affects both COGS and the inventory balance, and therefore the turnover ratio. Consistent valuation is what makes the ratio comparable year on year and against audited peers.</p>
             <h3>CARO 2020 inventory reporting</h3>
-            <p>Under the Companies (Auditor's Report) Order 2020, auditors of eligible companies must comment on physical verification of inventory and on whether the quarterly stock statements filed with banks against working-capital limits agree with the books. Our note on <a href="/blog/caro-2020-clause-ii-inventories">CARO 2020 Clause (ii)</a> explains this in detail. Discrepancies here are a common audit and lender concern.</p>
+            <p>Under the Companies (Auditor's Report) Order 2020, auditors of eligible companies must comment on physical verification of inventory and on whether the quarterly stock statements filed with banks against working-capital limits agree with the books. Our note on <a href="https://www.patronaccounting.com/blog/caro-2020-clause-ii-inventories">CARO 2020 Clause (ii)</a> explains this in detail. Discrepancies here are a common audit and lender concern.</p>
             <h3>GST and tax records</h3>
             <p>Stock records also feed into GST reconciliations and income tax assessments. Auditors and the <a href="https://www.incometaxindia.gov.in/" target="_blank" rel="noopener">Income Tax Department</a> may scrutinise large swings in inventory, while accurate records support input tax credit claims handled through the <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">GST portal</a>. Companies must also maintain proper books under the <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">Companies Act</a> administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>.</p>
             <div class="callout warn">
@@ -1059,29 +1059,29 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services-for-trading-industry" class="sidebar-link">Accounting for Trading Industry <span class="arrow">→</span></a>
-            <a href="/accounting-services-for-e-commerce-industry" class="sidebar-link">Accounting for E-commerce <span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Online Accounting Service <span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services-for-trading-industry" class="sidebar-link">Accounting for Trading Industry <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="sidebar-link">Accounting for E-commerce <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Online Accounting Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle <span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
-            <a href="/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator <span class="arrow">→</span></a>
-            <a href="/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
-            <a href="/tools/financial-health-score" class="sidebar-link">Financial Health Score <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-health-score" class="sidebar-link">Financial Health Score <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/inventory-turnover-ratio" class="sidebar-link">Inventory Turnover Ratio Guide <span class="arrow">→</span></a>
-            <a href="/blog/days-inventory-outstanding-dio" class="sidebar-link">Days Inventory Outstanding (DIO) <span class="arrow">→</span></a>
-            <a href="/blog/cash-conversion-cycle" class="sidebar-link">Cash Conversion Cycle Explained <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/inventory-turnover-ratio" class="sidebar-link">Inventory Turnover Ratio Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/days-inventory-outstanding-dio" class="sidebar-link">Days Inventory Outstanding (DIO) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/cash-conversion-cycle" class="sidebar-link">Cash Conversion Cycle Explained <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

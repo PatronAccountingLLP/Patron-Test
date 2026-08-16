@@ -7,20 +7,20 @@
     <title>GST Refund Eligibility Checker | Section 54 CGST Act</title>
     <meta name="description" content="GST refund eligibility checker under Section 54: a 12-step decision tree covering exports, inverted duty, deemed exports, drawback &amp; export-duty rules. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/gst-refund-eligibility-checker/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker/">
     <meta property="og:title" content="GST Refund Eligibility Checker — Section 54 CGST 2026">
     <meta property="og:description" content="Decision-tree tool to determine GST refund eligibility under Section 54. Zero-rated, IDS, deemed exports, Section 77, drawback rules. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/gst-refund-eligibility-checker">
-    <meta property="og:image" content="/tools/og/gst-refund-eligibility-checker.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/gst-refund-eligibility-checker.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Eligibility Checker — Section 54 CGST 2026">
     <meta name="twitter:description" content="Decision-tree tool for GST refund eligibility under Section 54. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/gst-refund-eligibility-checker.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/gst-refund-eligibility-checker.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "GST Refund Eligibility Checker (Section 54)",
       "description": "GST Refund Eligibility Checker is a decision-tree tool that determines whether a refund claim is eligible under Section 54 of the Central Goods and Services Tax Act 2017. The tool walks the practitioner through a structured sequence of branching questions covering all major refund categories: export of goods with payment of IGST or under LUT, export of services with foreign exchange receipt, supplies to Special Economic Zones, accumulated unutilised ITC due to inverted duty structure under Section 54(3)(ii), excess balance in electronic cash ledger under Section 49(6), excess tax paid in error including DRC-03 corrective payments, refund pursuant to appellate or court order under Explanation 2(d), pre-deposit refund under Sections 107(6) and 112(8), deemed exports under Section 147, supplies to UN agencies and embassies under Section 55, and wrong-head tax under Section 77. The tool applies all major statutory exclusions: drawback of central tax under Rule 89 second proviso, refund of IGST paid where benefit of Notifications 40/2017 41/2017 and 48/2017 was availed, exported goods subject to export duty under Section 54(15) including the Finance Act No 2 of 2024 amendment effective 16 August 2024 extending the restriction to IGST refunds, output supplies that are nil-rated or fully exempt, same goods at different rates due to GST Council rate change per Circular 135/2020 as amended by Circular 173/2022, input services and capital goods excluded from inverted duty refund per VKC Footsteps Supreme Court 2021 ruling, notified goods or services excluded from refund under Notification 5/2017, and minimum threshold of one thousand rupees under Rule 89(1). Each verdict cites the applicable statutory provision, lists specific conditions, and recommends the next action. Suitable for exporters, manufacturers, services providers, CA practitioners, GST consultants, tax-compliance teams, and businesses navigating refund claims under the CGST Act framework.",
-      "url": "/tools/gst-refund-eligibility-checker",
+      "url": "https://www.patronaccounting.com/tools/gst-refund-eligibility-checker",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "GST Refund Eligibility Checker", "item": "/tools/gst-refund-eligibility-checker"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "GST Refund Eligibility Checker", "item": "https://www.patronaccounting.com/tools/gst-refund-eligibility-checker"}
       ]
     }
     </script>
@@ -448,8 +448,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     GST Refund Eligibility Checker
 </nav>
 
@@ -564,7 +564,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <p>Rule 89(1) provides that no refund shall be claimed if the amount is less than ₹1,000. The threshold applies per refund application. Small accumulated refunds across periods may be clubbed in a single application provided the relevant date and category align. The threshold does not apply to UN-agency refunds under Section 55. For amounts below ₹1,000, the credit remains in the electronic ledger but cannot be refunded.</p>
 
             <h3>Time-Bar Expiry</h3>
-            <p>Section 54(1) imposes the two-year limitation from the relevant date. Once expired, the right is extinguished. The COVID extension under Notification 13/2022 (excluding 1 March 2020 to 28 February 2022) is the only operative extension. Use the <a href="/tools/gst-refund-time-bar-calculator">Patron GST Refund Time-Bar Calculator</a> for precise computation by refund type.</p>
+            <p>Section 54(1) imposes the two-year limitation from the relevant date. Once expired, the right is extinguished. The COVID extension under Notification 13/2022 (excluding 1 March 2020 to 28 February 2022) is the only operative extension. Use the <a href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator">Patron GST Refund Time-Bar Calculator</a> for precise computation by refund type.</p>
         </section>
 
         <div class="body-cta">
@@ -614,30 +614,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="/gst-return-filing" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/gstat-appeal-filing" class="sidebar-link">GSTAT Appeal Filing<span class="arrow">→</span></a>
-            <a href="/gst-litigation" class="sidebar-link">GST Litigation<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-return-filing" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gstat-appeal-filing" class="sidebar-link">GSTAT Appeal Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-litigation" class="sidebar-link">GST Litigation<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/gst-refund-interest-calculator" class="sidebar-link">GST Refund Interest (S.56)<span class="arrow">→</span></a>
-            <a href="/tools/gst-refund-time-bar-calculator" class="sidebar-link">GST Refund Time-Bar (S.54)<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-interest-calculator" class="sidebar-link">GST Interest Calculator<span class="arrow">→</span></a>
-            <a href="/tools/itc-eligibility-calculator" class="sidebar-link">ITC Eligibility Calculator<span class="arrow">→</span></a>
-            <a href="/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-interest-calculator" class="sidebar-link">GST Refund Interest (S.56)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator" class="sidebar-link">GST Refund Time-Bar (S.54)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-interest-calculator" class="sidebar-link">GST Interest Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/itc-eligibility-calculator" class="sidebar-link">ITC Eligibility Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/gst-refund-process-and-procedure" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
-            <a href="/blog/zero-rated-supplies-under-gst" class="sidebar-link">Zero-Rated Supplies<span class="arrow">→</span></a>
-            <a href="/blog/inverted-duty-structure-gst" class="sidebar-link">Inverted Duty Structure<span class="arrow">→</span></a>
-            <a href="/blog/deemed-exports-gst" class="sidebar-link">Deemed Exports under GST<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/gst-refund-process-and-procedure" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/zero-rated-supplies-under-gst" class="sidebar-link">Zero-Rated Supplies<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/inverted-duty-structure-gst" class="sidebar-link">Inverted Duty Structure<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/deemed-exports-gst" class="sidebar-link">Deemed Exports under GST<span class="arrow">→</span></a>
         </div>
 
     </aside>

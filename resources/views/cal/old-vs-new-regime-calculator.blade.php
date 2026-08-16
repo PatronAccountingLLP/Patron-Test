@@ -4,23 +4,23 @@
     <title>Old vs New Regime Calculator | Compare FY 2025-26 Tax</title>
     <meta name="description" content="Old vs New Tax Regime Calculator: side-by-side comparison with break-even point for FY 2025-26 (AY 2026-27). Free CA-reviewed tool with savings.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/old-vs-new-regime-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator">
 
     <meta property="og:title" content="Old vs New Tax Regime Calculator FY 2025-26 — Compare Side-by-Side">
     <meta property="og:description" content="Compare Old and New tax regimes side-by-side for FY 2025-26 (AY 2026-27) with break-even analysis, deduction-aware savings, and personalised regime recommendation.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/old-vs-new-regime-calculator">
-    <meta property="og:image" content="/tools/og/old-vs-new-regime-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/old-vs-new-regime-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Old vs New Tax Regime Calculator FY 2025-26 — Compare Side-by-Side">
     <meta name="twitter:description" content="Side-by-side regime comparison with break-even point for FY 2025-26. Find which regime saves more tax for you.">
-    <meta name="twitter:image" content="/tools/og/old-vs-new-regime-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/old-vs-new-regime-calculator.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
     <script type="application/ld+json">
@@ -29,7 +29,7 @@
       "@type": "SoftwareApplication",
       "name": "Old vs New Tax Regime Calculator",
       "description": "Old vs New Tax Regime Calculator compares income tax liability side-by-side under both regimes for FY 2025-26 (AY 2026-27). New regime: ₹4L-₹24L slabs (0/5/10/15/20/25/30%), ₹75K standard deduction, ₹60K Section 87A rebate up to ₹12L taxable income, surcharge capped at 25%. Old regime: ₹2.5L/₹3L/₹5L exemption by age, slabs 5/20/30%, ₹50K standard deduction, ₹12.5K Section 87A rebate up to ₹5L, all 80C/80D/HRA/home loan deductions allowed, surcharge up to 37%. Calculator computes tax including 4% cess, applies marginal relief, identifies the better regime, and shows the deduction break-even threshold (~₹3.75L) for personalised regime planning.",
-      "url": "/tools/old-vs-new-regime-calculator",
+      "url": "https://www.patronaccounting.com/tools/old-vs-new-regime-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
 
@@ -65,9 +65,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Old vs New Regime Calculator", "item": "/tools/old-vs-new-regime-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Old vs New Regime Calculator", "item": "https://www.patronaccounting.com/tools/old-vs-new-regime-calculator"}
       ]
     }
     </script>
@@ -438,9 +438,9 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Old vs New Regime Calculator
 </nav>
@@ -828,29 +828,29 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
-            <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
-            <a href="/tools/itr-form-selector" class="sidebar-link">ITR Form Selector <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/itr-form-selector" class="sidebar-link">ITR Form Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/old-regime-vs-regime-ay-2026-27" class="sidebar-link">Old vs New Regime AY 2026-27 <span class="arrow">→</span></a>
-            <a href="/blog/income-tax-old-regime-2026-it-rules-changed-math" class="sidebar-link">Old Regime 2026 — Rules Changed Math <span class="arrow">→</span></a>
-            <a href="/blog/clubbing-income-vs-old-tax-regime-ay-2026-27" class="sidebar-link">Clubbing Income vs Old Regime <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/old-regime-vs-regime-ay-2026-27" class="sidebar-link">Old vs New Regime AY 2026-27 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-old-regime-2026-it-rules-changed-math" class="sidebar-link">Old Regime 2026 — Rules Changed Math <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/clubbing-income-vs-old-tax-regime-ay-2026-27" class="sidebar-link">Clubbing Income vs Old Regime <span class="arrow">→</span></a>
         </div>
 
     </aside>

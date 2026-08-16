@@ -4,23 +4,23 @@
 <title>Statutory Audit Fee Estimator | ICAI Indicative Range</title>
 <meta name="description" content="Statutory audit fee estimator gives an indicative audit fee range by turnover, entity type, city class and complexity, on ICAI's recommended scale. Try free!">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="/tools/statutory-audit-fee-estimator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator">
 
 <meta property="og:title" content="Statutory Audit Fee Estimator — Free Indicative Cost Tool">
 <meta property="og:description" content="Estimate an indicative statutory audit fee range by turnover, entity type, city class and complexity, based on ICAI's recommendatory scale of fees. Free and instant.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/statutory-audit-fee-estimator">
-<meta property="og:image" content="/tools/statutory-audit-fee-estimator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator-og.png">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Statutory Audit Fee Estimator — Free Indicative Cost Tool">
 <meta name="twitter:description" content="Estimate an indicative statutory audit fee range by turnover, entity type, city class and complexity, based on ICAI's recommendatory scale.">
-<meta name="twitter:image" content="/tools/statutory-audit-fee-estimator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator-og.png">
 
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "Statutory Audit Fee Estimator",
   "description": "The Statutory Audit Fee Estimator gives an indicative statutory audit fee range for an Indian company or LLP based on turnover band, entity type, city class and engagement complexity, anchored to the ICAI Committee for Capacity Building of Members in Practice recommendatory minimum scale of fees. The recommended scale is a guideline only and the actual fee is a matter of agreement.",
-  "url": "/tools/statutory-audit-fee-estimator",
+  "url": "https://www.patronaccounting.com/tools/statutory-audit-fee-estimator",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,8 +60,8 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
-  "provider": { "@id": "/#organization" }
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
 }
 </script>
 
@@ -70,9 +70,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Statutory Audit Fee Estimator", "item": "/tools/statutory-audit-fee-estimator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Statutory Audit Fee Estimator", "item": "https://www.patronaccounting.com/tools/statutory-audit-fee-estimator"}
   ]
 }
 </script>
@@ -1180,9 +1180,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Statutory Audit Fee Estimator
 </nav>
@@ -1378,7 +1378,7 @@ a:focus-visible {
             <h3>The Firm Positioning Premium</h3>
             <p>The biggest swing in the final fee is not the city — it is which firm signs the report. Independent analysis of auditor remuneration shows Big Five firms typically charge a signalling premium of 100 to 500 percent over what a small or medium practitioner would charge for the same company, because financial statement readers and IPO markets value the brand. The estimator models this through the firm positioning factor.</p>
             <div class="callout">
-                <p><strong>CA Tip:</strong> A startup heading toward an IPO often migrates to a Big Five auditor regardless of size. If that is on your roadmap, budget for the premium early — switching auditors close to an IPO is far more expensive and disruptive than planning for it. See our guide on <a href="/how-to-evaluate-statutory-audit-firm">how to evaluate a statutory audit firm</a>.</p>
+                <p><strong>CA Tip:</strong> A startup heading toward an IPO often migrates to a Big Five auditor regardless of size. If that is on your roadmap, budget for the premium early — switching auditors close to an IPO is far more expensive and disruptive than planning for it. See our guide on <a href="https://www.patronaccounting.com/how-to-evaluate-statutory-audit-firm">how to evaluate a statutory audit firm</a>.</p>
             </div>
         </section>
 
@@ -1399,7 +1399,7 @@ a:focus-visible {
                     <tr><td>Regulated sector (NBFC, etc.)</td><td>Sector reporting, regulator-specific procedures</td></tr>
                 </tbody>
             </table>
-            <p>For an actual scope and fee, our team conducts <a href="/statutory-audit">statutory audits</a> and <a href="/statutory-audit-private-limited-company">statutory audits for private limited companies</a> across India, and assists with the <a href="/appointment-of-auditor">appointment of auditor</a> formalities.</p>
+            <p>For an actual scope and fee, our team conducts <a href="https://www.patronaccounting.com/statutory-audit">statutory audits</a> and <a href="https://www.patronaccounting.com/statutory-audit-private-limited-company">statutory audits for private limited companies</a> across India, and assists with the <a href="https://www.patronaccounting.com/appointment-of-auditor">appointment of auditor</a> formalities.</p>
         </section>
 
         <section class="content-section" id="disclaimer">
@@ -1411,7 +1411,7 @@ a:focus-visible {
                 <li><strong>Real fees vary widely.</strong> The same company can receive quotes that differ by several multiples depending on firm positioning, scope and risk appetite. A range is realistic; a single number is not.</li>
             </ul>
             <div class="callout warn">
-                <p><strong>Note:</strong> The binding statutory audit fee for your company can only be determined after a scoping discussion and an engagement letter. Use this estimate to budget and to sense-check quotes, then confirm with a Chartered Accountant. For statutory audit applicability and related checks, see our <a href="/tools/caro-2020-self-assessment">CARO 2020 Self-Assessment</a> and <a href="/tools/ifc-framework-readiness">IFC Framework Readiness</a> tools, with audit oversight by the <a href="https://nfra.gov.in/" target="_blank" rel="noopener">NFRA</a> and the law available via <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">India Code</a>.</p>
+                <p><strong>Note:</strong> The binding statutory audit fee for your company can only be determined after a scoping discussion and an engagement letter. Use this estimate to budget and to sense-check quotes, then confirm with a Chartered Accountant. For statutory audit applicability and related checks, see our <a href="https://www.patronaccounting.com/tools/caro-2020-self-assessment">CARO 2020 Self-Assessment</a> and <a href="https://www.patronaccounting.com/tools/ifc-framework-readiness">IFC Framework Readiness</a> tools, with audit oversight by the <a href="https://nfra.gov.in/" target="_blank" rel="noopener">NFRA</a> and the law available via <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">India Code</a>.</p>
             </div>
         </section>
 
@@ -1542,28 +1542,28 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
-            <a href="/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
-            <a href="/tools/ifc-framework-readiness" class="sidebar-link">IFC Framework Readiness <span class="arrow">→</span></a>
-            <a href="/tools/schedule-iii-compliance-checker" class="sidebar-link">Schedule III Compliance Checker <span class="arrow">→</span></a>
-            <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ifc-framework-readiness" class="sidebar-link">IFC Framework Readiness <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker" class="sidebar-link">Schedule III Compliance Checker <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="/first-year-statutory-audit-checklist" class="sidebar-link">First-Year Audit Checklist <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/first-year-statutory-audit-checklist" class="sidebar-link">First-Year Audit Checklist <span class="arrow">→</span></a>
         </div>
 
     </aside>

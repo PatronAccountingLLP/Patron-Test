@@ -7,20 +7,20 @@
     <title>P/E Ratio Calculator | Trailing, Forward P/E & PEG</title>
     <meta name="description" content="Free P/E ratio calculator: compute trailing and forward P/E, PEG ratio and earnings yield against sector benchmarks. CA-reviewed tool. Calculate free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/pe-ratio-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/pe-ratio-calculator/">
     <meta property="og:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
     <meta property="og:description" content="Compute P/E ratio, forward P/E, PEG ratio and earnings yield with industry benchmarks. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/pe-ratio-calculator">
-    <meta property="og:image" content="/tools/og/pe-ratio-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/pe-ratio-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/pe-ratio-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
     <meta name="twitter:description" content="P/E + Forward P/E + PEG + Earnings Yield with sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/pe-ratio-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/pe-ratio-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "P/E Ratio Calculator",
       "description": "Price-to-Earnings (P/E) Ratio Calculator computes the trailing P/E ratio, forward P/E ratio, PEG ratio (P/E divided by earnings growth rate), and earnings yield (inverse of P/E) for Indian listed companies and unlisted firms with comparable company analysis. The tool supports two input modes — Per-Share mode using Market Price and EPS, or Aggregate mode using Market Capitalization and Net Income. Output includes valuation verdict (Undervalued, Fair Value, or Overvalued) versus industry benchmarks for IT, FMCG, Pharma, Private Banks, PSU Banks, Manufacturing, Auto, Real Estate, Energy, and Telecom; PEG ratio interpretation (under 1.0 undervalued relative to growth, 1.0-2.0 fair, above 2.0 overvalued); and earnings yield comparison with risk-free rates and bond yields. Suitable for equity research analysts, IPO valuation under SEBI Listing Regulations, comparable company analysis in M&A, retail investor screening, and CA-CFA student learning fundamental valuation. Aligned with Indian sector norms and SEBI disclosure requirements for IPO red herring prospectuses.",
-      "url": "/tools/pe-ratio-calculator",
+      "url": "https://www.patronaccounting.com/tools/pe-ratio-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "P/E Ratio Calculator", "item": "/tools/pe-ratio-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "P/E Ratio Calculator", "item": "https://www.patronaccounting.com/tools/pe-ratio-calculator"}
       ]
     }
     </script>
@@ -447,8 +447,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     P/E Ratio Calculator
 </nav>
 
@@ -685,7 +685,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             </table>
 
             <h3>Tax Regime Impact on P/E</h3>
-            <p>Tax regime changes directly affect EPS and therefore P/E. India's <strong>Section 115BAA</strong> new regime (22% base, ~25.17% effective with surcharge and cess) reduces tax burden for opted companies versus old regime (~33% effective). The 2019 corporate tax cut led to immediate EPS increases and P/E re-rating across sectors. <strong>Section 115BAB</strong> manufacturers (15% base, ~17.16% effective) enjoy further benefits. When comparing P/E across years or across companies on different tax regimes, examine pre-tax P/E (Price ÷ EBT per Share) for cleaner comparison. The <a href="/tools/deferred-tax-calculator">Deferred Tax Calculator</a> helps quantify tax regime impact on earnings.</p>
+            <p>Tax regime changes directly affect EPS and therefore P/E. India's <strong>Section 115BAA</strong> new regime (22% base, ~25.17% effective with surcharge and cess) reduces tax burden for opted companies versus old regime (~33% effective). The 2019 corporate tax cut led to immediate EPS increases and P/E re-rating across sectors. <strong>Section 115BAB</strong> manufacturers (15% base, ~17.16% effective) enjoy further benefits. When comparing P/E across years or across companies on different tax regimes, examine pre-tax P/E (Price ÷ EBT per Share) for cleaner comparison. The <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator">Deferred Tax Calculator</a> helps quantify tax regime impact on earnings.</p>
 
             <div class="callout">
                 <p><strong>P/E for unlisted companies:</strong> Unlisted companies do not have market prices, so P/E is computed using comparable company analysis — apply the average P/E of listed peers to the unlisted company's earnings. This is the standard valuation technique for IPO pricing under <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a> Listing Regulations and M&amp;A advisory work. Discounts of 20-30% are typically applied for illiquidity and lack of disclosure.</p>
@@ -775,30 +775,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
             
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/dupont-analysis-tool" class="sidebar-link">DuPont Analysis Tool<span class="arrow">→</span></a>
-            <a href="/tools/roe-roce-calculator" class="sidebar-link">ROE + ROCE + ROA<span class="arrow">→</span></a>
-            <a href="/tools/altman-z-score-calculator" class="sidebar-link">Altman Z-Score<span class="arrow">→</span></a>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dupont-analysis-tool" class="sidebar-link">DuPont Analysis Tool<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roe-roce-calculator" class="sidebar-link">ROE + ROCE + ROA<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/altman-z-score-calculator" class="sidebar-link">Altman Z-Score<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -4,20 +4,20 @@
     <title>Profit &amp; Loss Statement Generator | Schedule III P&amp;L</title>
     <meta name="description" content="Profit &amp; Loss Statement Generator: create a formatted P&amp;L as per Schedule III of the Companies Act, 2013 for Indian businesses. Generate online free now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/profit-loss-generator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/profit-loss-generator">
     <meta property="og:title" content="Profit & Loss Statement Generator &mdash; Free P&L India">
     <meta property="og:description" content="Profit and Loss Statement Generator creates P&L statements as per Schedule III of Companies Act, 2013 for Indian businesses.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/profit-loss-generator">
-    <meta property="og:image" content="/tools/profit-loss-generator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/profit-loss-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/profit-loss-generator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Profit & Loss Statement Generator &mdash; Free P&L India">
     <meta name="twitter:description" content="Profit and Loss Statement Generator creates P&L statements as per Schedule III of Companies Act, 2013. Generate now!">
-    <meta name="twitter:image" content="/tools/profit-loss-generator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/profit-loss-generator/og-image.png">
 @endsection
 
 @section('schema')
@@ -27,7 +27,7 @@
       "@type": "WebApplication",
       "name": "Profit and Loss Statement Generator India",
       "description": "Profit and Loss Statement Generator creates formatted P&L statements as per Schedule III of the Companies Act, 2013. Supports revenue, COGS, operating expenses, other income, tax, and OCI line items for Indian companies including Private Limited, LLP, and OPC entities.",
-      "url": "/tools/profit-loss-generator",
+      "url": "https://www.patronaccounting.com/tools/profit-loss-generator",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-03-05",
@@ -39,10 +39,10 @@
       },
       "author": {
         "@type": "Person",
-        "@id": "/#team",
+        "@id": "https://patronaccounting.com/#team",
         "name": "CA & CS Patron Accounting Team",
         "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -58,14 +58,14 @@
       "publisher": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "/logo.png"
+          "url": "https://www.patronaccounting.com/logo.png"
         }
       },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -78,19 +78,19 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "/"
+          "item": "https://www.patronaccounting.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Free Tools",
-          "item": "/tools/"
+          "item": "https://www.patronaccounting.com/tools/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Profit & Loss Statement Generator",
-          "item": "/tools/profit-loss-generator"
+          "item": "https://www.patronaccounting.com/tools/profit-loss-generator"
         }
       ]
     }
@@ -1143,9 +1143,9 @@
 
     <!-- Breadcrumb -->
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
+        <a href="https://www.patronaccounting.com/">Home</a>
         <span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
         <span>&rsaquo;</span>
         Profit &amp; Loss Statement Generator
     </nav> --}}
@@ -1578,30 +1578,30 @@
             <!-- Related Services -->
             <div class="sidebar-card">
                 <h3>Related Services</h3>
-                <a href="/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
-                <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">&rarr;</span></a>
-                <a href="/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
-                <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">&rarr;</span></a>
-                <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Related Tools -->
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Calculator <span class="arrow">&rarr;</span></a>
                 
-                <a href="/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Blog -->
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
-                <a href="/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div><span class="trust">25,000+ Businesses Trust Us</span>

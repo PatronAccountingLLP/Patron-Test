@@ -3,12 +3,12 @@
     <title>Leave Encashment Calculator | Exemption u/s 10(10AA)</title>
     <meta name="description" content="Leave encashment calculator: compute the encashment amount and tax exemption under Section 10(10AA) for government and private employees. Free, instant!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/leave-encashment-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/leave-encashment-calculator">
     <meta property="og:title" content="Leave Encashment Calculator &mdash; Tax Exemption u/s 10(10AA)">
     <meta property="og:description" content="Calculate leave encashment and tax exemption under Section 10(10AA) for retirement.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/leave-encashment-calculator">
-    <meta property="og:image" content="/tools/leave-encashment-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/leave-encashment-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/leave-encashment-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Leave Encashment Calculator &mdash; Tax Exemption u/s 10(10AA)">
     <meta name="twitter:description" content="Leave encashment + tax exemption under Section 10(10AA). Govt & private. Calculate!">
-    <meta name="twitter:image" content="/tools/leave-encashment-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/leave-encashment-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -25,20 +25,20 @@
       "@context": "https://schema.org", "@type": "WebApplication",
       "name": "Leave Encashment Calculator",
       "description": "Leave Encashment Calculator computes the monetary value of unused earned leave and calculates tax exemption under Section 10(10AA) of the Income Tax Act. Supports government employees with full exemption and private sector employees with the 4-factor exemption computation including the Rs 25 lakh limit. Handles both retirement encashment and during-service encashment with correct tax treatment.",
-      "url": "/tools/leave-encashment-calculator",
+      "url": "https://www.patronaccounting.com/tools/leave-encashment-calculator",
       "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
       "datePublished": "2026-03-05", "dateModified": "2026-03-05",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Leave Encashment Calculator", "item": "/tools/leave-encashment-calculator"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Leave Encashment Calculator", "item": "https://www.patronaccounting.com/tools/leave-encashment-calculator"}
     ]}
     </script>
 <script type="application/ld+json">
@@ -863,8 +863,8 @@
     </div></nav>
 
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a><span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>
         Leave Encashment Calculator
     </nav> --}}
 
@@ -1057,22 +1057,22 @@
             </div>
             <div class="sidebar-card">
                 <h3>Tax Services</h3>
-                <a href="/income-tax-return" class="sidebar-link">Income Tax Return <span class="arrow">&rarr;</span></a>
-                <a href="/itr-filing-for-salary" class="sidebar-link">ITR for Salaried <span class="arrow">&rarr;</span></a>
-                <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="/gratuity-calculation-and-compliance-services" class="sidebar-link">Gratuity Services <span class="arrow">&rarr;</span></a>
-                <a href="/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR for Salaried <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gratuity-calculation-and-compliance-services" class="sidebar-link">Gratuity Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
-                <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

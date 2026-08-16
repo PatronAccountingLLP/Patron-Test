@@ -3,20 +3,20 @@
     <title>E-Way Bill Calculator India | Validity &amp; Distance</title>
     <meta name="description" content="Free e-way bill calculator: compute validity by distance and cargo type under GST Rule 138, with the &#8377;50,000 threshold check for Indian businesses. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/e-way-bill-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/e-way-bill-calculator">
     <meta property="og:title" content="E-Way Bill Calculator India &mdash; Free Validity Tool 2026">
     <meta property="og:description" content="E-Way Bill Calculator computes validity period based on distance and cargo type under GST Rule 138 for Indian businesses.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/e-way-bill-calculator">
-    <meta property="og:image" content="/tools/e-way-bill-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/e-way-bill-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/e-way-bill-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Way Bill Calculator India &mdash; Free Validity Tool 2026">
     <meta name="twitter:description" content="E-Way Bill Calculator computes validity and checks threshold under GST. Try now!">
-    <meta name="twitter:image" content="/tools/e-way-bill-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/e-way-bill-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -26,7 +26,7 @@
       "@type": "WebApplication",
       "name": "E-Way Bill Calculator India",
       "description": "E-Way Bill Calculator computes the validity period for e-way bills based on distance and cargo type under GST Rule 138. Checks whether consignment value exceeds the \u20B950,000 threshold, calculates days of validity for regular and over-dimensional cargo, and provides state-wise intra-state threshold information for Indian businesses.",
-      "url": "/tools/e-way-bill-calculator",
+      "url": "https://www.patronaccounting.com/tools/e-way-bill-calculator",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-03-05",
@@ -38,10 +38,10 @@
       },
       "author": {
         "@type": "Person",
-        "@id": "/#team",
+        "@id": "https://patronaccounting.com/#team",
         "name": "CA & CS Patron Accounting Team",
         "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -57,14 +57,14 @@
       "publisher": {
         "@type": "Organization",
         "name": "Patron Accounting LLP",
-        "url": "/",
+        "url": "https://www.patronaccounting.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "/logo.png"
+          "url": "https://www.patronaccounting.com/logo.png"
         }
       },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -73,9 +73,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "E-Way Bill Calculator", "item": "/tools/e-way-bill-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "E-Way Bill Calculator", "item": "https://www.patronaccounting.com/tools/e-way-bill-calculator"}
       ]
     }
     </script>
@@ -998,9 +998,9 @@
 
     <!-- Breadcrumb -->
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
+        <a href="https://www.patronaccounting.com/">Home</a>
         <span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
         <span>&rsaquo;</span>
         E-Way Bill Calculator
     </nav> --}}
@@ -1309,27 +1309,27 @@
 
             <div class="sidebar-card">
                 <h3>GST Services</h3>
-                <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-                <a href="/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
-                <a href="/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
-                <a href="/gst-returns-for-e-commerce-operator" class="sidebar-link">GST for E-commerce <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-returns-for-e-commerce-operator" class="sidebar-link">GST for E-commerce <span class="arrow">&rarr;</span></a>
             </div>
 
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-                <a href="/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
-                <a href="/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
             </div>
 
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
-                <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div><span class="trust">25,000+ Businesses Trust Us</span>

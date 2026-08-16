@@ -5,22 +5,22 @@
 <meta name="description" content="Free CMA ratio calculator for bank loans: get current ratio, DSCR, TOL/TNW, debt-equity and MPBF, each checked against CMA benchmark norms. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/cma-ratio-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/cma-ratio-calculator">
 
 <meta property="og:title" content="CMA Ratio Calculator — Bank Loan Ratios & MPBF">
 <meta property="og:description" content="Enter your balance sheet and P&L figures to compute the key CMA ratios — current ratio, DSCR, ISCR, TOL/TNW, debt-equity — and MPBF, each benchmarked to bank norms.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/cma-ratio-calculator">
-<meta property="og:image" content="/tools/cma-ratio-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/cma-ratio-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/cma-ratio-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CMA Ratio Calculator — Bank Loan Ratios & MPBF">
 <meta name="twitter:description" content="Compute current ratio, DSCR, ISCR, TOL/TNW, debt-equity and MPBF for your CMA data, each benchmarked to bank norms. Free & instant.">
-<meta name="twitter:image" content="/tools/cma-ratio-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/cma-ratio-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "CMA Ratio Calculator",
   "description": "CMA Ratio Calculator computes the key financial ratios that banks assess in a Credit Monitoring Arrangement (CMA) data report — current ratio, debt-equity ratio, debt service coverage ratio (DSCR), interest service coverage ratio (ISCR) and TOL/TNW — along with the Maximum Permissible Bank Finance (MPBF) under the Tandon Committee second method, and benchmarks each result against standard bank lending norms.",
-  "url": "/tools/cma-ratio-calculator",
+  "url": "https://www.patronaccounting.com/tools/cma-ratio-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "CMA Ratio Calculator", "item": "/tools/cma-ratio-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "CMA Ratio Calculator", "item": "https://www.patronaccounting.com/tools/cma-ratio-calculator"}
   ]
 }
 </script>
@@ -705,9 +705,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     CMA Ratio Calculator
 </nav>
@@ -835,7 +835,7 @@ a:focus-visible {
                 <li><strong>Click Calculate.</strong> The tool returns the current ratio, debt-equity, DSCR, ISCR and TOL/TNW, each colour-coded against the bank benchmark, plus your MPBF under the Tandon second method.</li>
                 <li><strong>Read the flags</strong> — green meets the benchmark, amber is borderline, red is below the acceptable floor and likely needs improvement before applying.</li>
             </ol>
-            <p>Keep all figures in the same unit. Pair this with the standalone <a href="/tools/dscr-calculator">DSCR calculator</a>, <a href="/tools/current-ratio-calculator">current ratio calculator</a> and <a href="/tools/working-capital-calculator">working capital calculator</a> for deeper drill-downs, or the <a href="/tools/financial-ratios-dashboard">financial ratios dashboard</a> for a full view.</p>
+            <p>Keep all figures in the same unit. Pair this with the standalone <a href="https://www.patronaccounting.com/tools/dscr-calculator">DSCR calculator</a>, <a href="https://www.patronaccounting.com/tools/current-ratio-calculator">current ratio calculator</a> and <a href="https://www.patronaccounting.com/tools/working-capital-calculator">working capital calculator</a> for deeper drill-downs, or the <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard">financial ratios dashboard</a> for a full view.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> Banks appraise projected CMA figures, not just historicals. Model two to three forward years so the ratios trend towards the benchmark — a improving trajectory reassures the lender even if year one is tight.</p>
             </div>
@@ -845,7 +845,7 @@ a:focus-visible {
             <h2>What Is CMA Data?</h2>
             <p>CMA stands for <strong>Credit Monitoring Arrangement</strong>. It is a standardised financial statement format that banks use to appraise and monitor credit — particularly working capital limits and term loans. A complete CMA report covers the operating statement, balance sheet, comparative analysis, fund flow statement, the MPBF working and a ratio analysis, and is commonly prepared in the format associated with the <a href="https://www.iba.org.in/" target="_blank" rel="noopener">Indian Banks' Association</a>.</p>
             <p>The base financials feeding a CMA are drawn from your audited accounts and income-tax filings on the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>, so the numbers must reconcile across documents.</p>
-            <p>The lender uses CMA data to judge two things: how much it can safely lend (through MPBF) and whether the business can repay (through the ratios and cash flows). Most working capital facilities and business loans above a few lakh rupees require CMA data, usually prepared by a <a href="/accounting-services">Chartered Accountant or accounting professional</a> following the standards and guidance issued by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
+            <p>The lender uses CMA data to judge two things: how much it can safely lend (through MPBF) and whether the business can repay (through the ratios and cash flows). Most working capital facilities and business loans above a few lakh rupees require CMA data, usually prepared by a <a href="https://www.patronaccounting.com/accounting-services">Chartered Accountant or accounting professional</a> following the standards and guidance issued by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
             <h3>CMA data vs project report</h3>
             <p>A <strong>project report</strong> is a wider business document — promoters, market, technical feasibility and projections — used mainly for new ventures or capex. <strong>CMA data</strong> is the structured number-focused format banks monitor credit against. Many loan files include both.</p>
         </section>
@@ -924,7 +924,7 @@ a:focus-visible {
                 <li><strong>Match repayments to cash flow</strong> — structuring instalments to your cash cycle improves DSCR.</li>
                 <li><strong>Clear slow current liabilities</strong> — reducing creditors and short-term dues improves liquidity ratios.</li>
             </ul>
-            <p>A CA preparing your CMA data can model these so the projected ratios satisfy bank norms. MSME borrowers registered on the <a href="https://udyamregistration.gov.in/" target="_blank" rel="noopener">Udyam portal</a> may also access collateral-free credit schemes that ease the security requirement. For company borrowers, also confirm any term-loan disclosures under <a href="/blog/caro-2020-clause-x-public-issues-term-loans">CARO 2020 Clause (x)</a> where applicable.</p>
+            <p>A CA preparing your CMA data can model these so the projected ratios satisfy bank norms. MSME borrowers registered on the <a href="https://udyamregistration.gov.in/" target="_blank" rel="noopener">Udyam portal</a> may also access collateral-free credit schemes that ease the security requirement. For company borrowers, also confirm any term-loan disclosures under <a href="https://www.patronaccounting.com/blog/caro-2020-clause-x-public-issues-term-loans">CARO 2020 Clause (x)</a> where applicable.</p>
         </section>
 
         <section class="content-section" id="faqs">
@@ -1002,24 +1002,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-business-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
-            <a href="/udyam-registration" class="sidebar-link">Udyam (MSME) Registration <span class="arrow">→</span></a>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/udyam-registration" class="sidebar-link">Udyam (MSME) Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/dscr-calculator" class="sidebar-link">DSCR Calculator <span class="arrow">→</span></a>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
-            <a href="/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
-            <a href="/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dscr-calculator" class="sidebar-link">DSCR Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/caro-2020-clause-x-public-issues-term-loans" class="sidebar-link">CARO 2020 — Term Loans <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/caro-2020-clause-x-public-issues-term-loans" class="sidebar-link">CARO 2020 — Term Loans <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

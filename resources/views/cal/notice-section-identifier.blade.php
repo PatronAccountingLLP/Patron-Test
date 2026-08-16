@@ -4,27 +4,27 @@
 <meta name="description" content="Notice section identifier for Income Tax & GST: decode your section (143(2), 148, 73, 74) with urgency, reply window and CA service tier. Free decision tree.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/notice-section-identifier">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/notice-section-identifier">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/notice-section-identifier">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/notice-section-identifier">
 <meta property="og:title" content="Notice Section Identifier — GST/IT Notice Decoder 2026">
 <meta property="og:description" content="Identify Income Tax or GST notice section (143(2), 148, 73, 74) with urgency, reply window, CA tier.">
-<meta property="og:image" content="/og/notice-section-identifier.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/notice-section-identifier.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Notice Section Identifier — GST/IT Notice Decoder 2026">
 <meta name="twitter:description" content="GST &amp; IT notice section decoder. 8-question decision tree.">
-<meta name="twitter:image" content="/og/notice-section-identifier.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/notice-section-identifier.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Notice Section Identifier","description":"Notice Section Identifier is a decision-tree tool that helps Indian taxpayers and businesses identify the likely section of a tax notice received under the Income-tax Act, 1961 or the Central Goods and Services Tax Act, 2017. Users select the notice type (Income Tax or GST), answer 8 yes/no questions about the notice content (whether documents are requested, whether a specific demand amount is mentioned, whether a reply window is specified, whether the notice carries a Document Identification Number, whether terms like 'scrutiny' or 'income escaped' appear, whether fraud or willful suppression is alleged, and the form number cited), and enter the state of business for jurisdictional routing. The tool outputs the most likely section under which the notice has been issued (such as Section 142(1), 143(2), 148, 148A, 156, 271, 73, 74, 61, or DRC-01/07), the urgency level (High, Medium, or Low), the typical reply window in days, the recommended Patron Accounting service tier (Basic, Standard, or Premium), and a routing CTA to the city-specific service page based on the business state.","url":"/tools/notice-section-identifier","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Notice Section Identifier","description":"Notice Section Identifier is a decision-tree tool that helps Indian taxpayers and businesses identify the likely section of a tax notice received under the Income-tax Act, 1961 or the Central Goods and Services Tax Act, 2017. Users select the notice type (Income Tax or GST), answer 8 yes/no questions about the notice content (whether documents are requested, whether a specific demand amount is mentioned, whether a reply window is specified, whether the notice carries a Document Identification Number, whether terms like 'scrutiny' or 'income escaped' appear, whether fraud or willful suppression is alleged, and the form number cited), and enter the state of business for jurisdictional routing. The tool outputs the most likely section under which the notice has been issued (such as Section 142(1), 143(2), 148, 148A, 156, 271, 73, 74, 61, or DRC-01/07), the urgency level (High, Medium, or Low), the typical reply window in days, the recommended Patron Accounting service tier (Basic, Standard, or Premium), and a routing CTA to the city-specific service page based on the business state.","url":"https://www.patronaccounting.com/tools/notice-section-identifier","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Notice Section Identifier","item":"/tools/notice-section-identifier"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Notice Section Identifier","item":"https://www.patronaccounting.com/tools/notice-section-identifier"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -249,7 +249,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Identifier</a><a href="#how-to-use">How to Use</a><a href="#it-sections">IT Sections</a><a href="#gst-sections">GST Sections</a><a href="#urgency">Urgency Levels</a><a href="#din">DIN Verification</a><a href="#response">Response Strategy</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Notice Section Identifier</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Notice Section Identifier</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -575,27 +575,27 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>IT Notice — City Pages</h3>
-<a href="/income-tax-notice/hyderabad" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
-<a href="/income-tax-notice/chennai" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
-<a href="/income-tax-notice/pune" class="sidebar-link">IT Notice CA in Pune <span class="arrow">→</span></a>
-<a href="/income-tax-notice/mumbai" class="sidebar-link">IT Notice CA in Mumbai <span class="arrow">→</span></a>
-<a href="/income-tax-notice/delhi" class="sidebar-link">IT Notice CA in Delhi <span class="arrow">→</span></a>
-<a href="/income-tax-notice/bangalore" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/hyderabad" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/chennai" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/pune" class="sidebar-link">IT Notice CA in Pune <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/mumbai" class="sidebar-link">IT Notice CA in Mumbai <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/delhi" class="sidebar-link">IT Notice CA in Delhi <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/bangalore" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
-<a href="/gst-notice-reply" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
-<a href="/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
-<a href="/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>
-<a href="/gst-litigation" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-notice-reply" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-litigation" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
-<a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-<a href="/tools/net-worth-calculator" class="sidebar-link">Net Worth Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/net-worth-calculator" class="sidebar-link">Net Worth Calculator <span class="arrow">→</span></a>
 </div>
 </aside>
 
@@ -760,14 +760,14 @@ function identify(){
     if(cityInfo.city){
         // For IT notices route to IT city page; for GST route to general /gst-notice-reply
         if(currentNoticeType === 'IT'){
-            cta.href = '/income-tax-notice/' + cityInfo.city;
+            cta.href = 'https://www.patronaccounting.com/income-tax-notice/' + cityInfo.city;
             document.getElementById('cityCtaText').textContent = 'IT Notice CA in ' + cityInfo.cityDisplay;
         } else {
-            cta.href = '/gst-notice-reply';
+            cta.href = 'https://www.patronaccounting.com/gst-notice-reply';
             document.getElementById('cityCtaText').textContent = 'GST Notice Reply Service';
         }
     } else {
-        cta.href = currentNoticeType === 'IT' ? '/income-tax-notice-response' : '/gst-notice-reply';
+        cta.href = currentNoticeType === 'IT' ? 'https://www.patronaccounting.com/income-tax-notice-response' : 'https://www.patronaccounting.com/gst-notice-reply';
         document.getElementById('cityCtaText').textContent = currentNoticeType === 'IT' ? 'IT Notice Response' : 'GST Notice Reply';
     }
 

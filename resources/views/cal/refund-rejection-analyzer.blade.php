@@ -7,20 +7,20 @@
     <title>GST Refund Rejection Analyzer | RFD-06 Remedy Tool</title>
     <meta name="description" content="GST Refund Rejection Analyzer: a decision tree on your RFD-06 grounds covering appeal vs writ vs refile and the Section 107 pre-deposit. Free CA tool, instant.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/refund-rejection-analyzer/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-rejection-analyzer/">
     <meta property="og:title" content="GST Refund Rejection Analyzer — RFD-06 Remedy Tool">
     <meta property="og:description" content="Decision-tree tool to analyze GST refund rejection grounds and identify the right remedy — refile, appeal under Section 107, or writ. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/refund-rejection-analyzer">
-    <meta property="og:image" content="/tools/og/refund-rejection-analyzer.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/refund-rejection-analyzer">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/refund-rejection-analyzer.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Rejection Analyzer — RFD-06 Remedy Tool">
     <meta name="twitter:description" content="Decision-tree on GST refund rejection grounds. Refile, appeal, or writ. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/refund-rejection-analyzer.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/refund-rejection-analyzer.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "GST Refund Rejection Analyzer (RFD-06 Remedy Tool)",
       "description": "GST Refund Rejection Analyzer is a decision-tree tool that analyzes the grounds on which a GST refund application has been rejected through Form GST RFD-06 and identifies the most appropriate remedy among four options: refile fresh application within remaining limitation, file first appeal in Form GST APL-01 under Section 107 of the CGST Act 2017 with 10 percent pre-deposit, escalate to the GST Appellate Tribunal under Section 112 with additional 20 percent pre-deposit, or pursue writ jurisdiction under Article 226 of the Constitution before the relevant High Court. The tool branches through 14 common rejection grounds: time-bar under Section 54(1), drawback or notification benefit availed under Rule 96(10), exported goods subject to export duty under Section 54(15) including the Finance Act No 2 of 2024 amendment, output supplies that are nil-rated or fully exempt blocking inverted duty refund, same goods at different rates per Circular 135/05/2020-GST as amended by Circular 173/05/2022-GST, output goods or services in Notification 5/2017-Central Tax (Rate) excluded list, ITC mismatch and GSTR reconciliation discrepancies, documentation deficiency where Form GST RFD-03 was not cured, computational errors in Rule 89(4) or Rule 89(5) refund formula, wrong-category classification by the proper officer, unjust enrichment burden challenges, place of supply disputes, refunds below the one thousand rupee threshold under Rule 89(1), and LUT not being in place during the relevant export period. Each verdict provides sustainability assessment across four bands (sustained, curable, appealable, writ-friendly), specific remedy recommendation with limitation period and pre-deposit computation, applicable statutory sections, key case law including Jharkhand High Court 2025 ruling on pre-deposit vested right Reva Giant Implex Delhi High Court on portal glitches Ascent Meditech Supreme Court 2025 on curative amendment retrospectivity and VKC Footsteps Supreme Court 2021 on input services exclusion. Suitable for GST practitioners exporters with rejected refund claims service providers managing post-rejection strategy and CA firms advising clients on appeal versus refile decisions.",
-      "url": "/tools/refund-rejection-analyzer",
+      "url": "https://www.patronaccounting.com/tools/refund-rejection-analyzer",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "GST Refund Rejection Analyzer", "item": "/tools/refund-rejection-analyzer"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "GST Refund Rejection Analyzer", "item": "https://www.patronaccounting.com/tools/refund-rejection-analyzer"}
       ]
     }
     </script>
@@ -453,8 +453,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     GST Refund Rejection Analyzer
 </nav>
 
@@ -662,7 +662,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <p>Appeal grounds drafted in APL-01A should cite recent jurisprudence. Pre-deposit cases should reference Jharkhand HC 2025 and Section 115. IDS cases should reference VKC Footsteps SC 2021 and Ascent Meditech SC 2025. Portal-glitch cases should reference Reva Giant Implex Delhi HC. Generic appeals without specific case law are weaker.</p>
 
             <h3>Ignoring the COVID Extension</h3>
-            <p>For older claims with relevant date in 2019-2021, the COVID extension under Notification 13/2022 (excluding 1 March 2020 to 28 February 2022 from limitation) may convert a time-barred rejection to a live claim. Always run the COVID overlap test before accepting time-bar rejection. Use the Patron <a href="/tools/gst-refund-time-bar-calculator">GST Refund Time-Bar Calculator</a> for precise computation.</p>
+            <p>For older claims with relevant date in 2019-2021, the COVID extension under Notification 13/2022 (excluding 1 March 2020 to 28 February 2022 from limitation) may convert a time-barred rejection to a live claim. Always run the COVID overlap test before accepting time-bar rejection. Use the Patron <a href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator">GST Refund Time-Bar Calculator</a> for precise computation.</p>
 
             <h3>Not Tracking ARN Status</h3>
             <p>The GST Portal updates ARN status through the lifecycle — RFD-02 → RFD-03 → RFD-04 → RFD-08 → RFD-06. Some practitioners only check status occasionally, missing the RFD-08 SCN window (which has a strict 15-day reply timeline under RFD-09). Set up automated email alerts on ARN status changes to avoid missing SCN replies that lead to ex-parte rejection.</p>
@@ -678,30 +678,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
-            <a href="/gst-litigation" class="sidebar-link">GST Litigation<span class="arrow">→</span></a>
-            <a href="/gstat-appeal-filing" class="sidebar-link">GSTAT Appeal Filing<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/lut-filing" class="sidebar-link">LUT Filing Service<span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-litigation" class="sidebar-link">GST Litigation<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gstat-appeal-filing" class="sidebar-link">GSTAT Appeal Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/lut-filing" class="sidebar-link">LUT Filing Service<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/gst-refund-eligibility-checker" class="sidebar-link">GST Refund Eligibility<span class="arrow">→</span></a>
-            <a href="/tools/gst-refund-time-bar-calculator" class="sidebar-link">GST Refund Time-Bar (S.54)<span class="arrow">→</span></a>
-            <a href="/tools/gst-refund-interest-calculator" class="sidebar-link">GST Refund Interest (S.56)<span class="arrow">→</span></a>
-            <a href="/tools/lut-expiry-reminder" class="sidebar-link">LUT Expiry Reminder<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
-            <a href="/tools/itc-eligibility-calculator" class="sidebar-link">ITC Eligibility Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker" class="sidebar-link">GST Refund Eligibility<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator" class="sidebar-link">GST Refund Time-Bar (S.54)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-interest-calculator" class="sidebar-link">GST Refund Interest (S.56)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lut-expiry-reminder" class="sidebar-link">LUT Expiry Reminder<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/itc-eligibility-calculator" class="sidebar-link">ITC Eligibility Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/gst-refund-rejection-appeal" class="sidebar-link">GST Refund Rejection Appeal<span class="arrow">→</span></a>
-            <a href="/blog/gst-refund-process-and-procedure" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
-            <a href="/blog/section-107-gst-appeal" class="sidebar-link">Section 107 First Appeal<span class="arrow">→</span></a>
-            <a href="/blog/gstat-appeal-procedure" class="sidebar-link">GSTAT Appeal Procedure<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/gst-refund-rejection-appeal" class="sidebar-link">GST Refund Rejection Appeal<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/gst-refund-process-and-procedure" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/section-107-gst-appeal" class="sidebar-link">Section 107 First Appeal<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/gstat-appeal-procedure" class="sidebar-link">GSTAT Appeal Procedure<span class="arrow">→</span></a>
         </div>
 
     </aside>

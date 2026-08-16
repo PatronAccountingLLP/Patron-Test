@@ -7,20 +7,20 @@
     <title>Audit Materiality Calculator SA 320 | Overall & Performance</title>
     <meta name="description" content="Free audit materiality calculator under SA 320: compute overall materiality, performance materiality and clearly trivial threshold. ICAI-aligned. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/audit-materiality-calculator-sa-320/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320/">
     <meta property="og:title" content="Audit Materiality Calculator (SA 320) — FY 2025-26">
     <meta property="og:description" content="Compute overall materiality, performance materiality & clearly trivial threshold per SA 320. Benchmark guidance + working paper text.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/audit-materiality-calculator-sa-320">
-    <meta property="og:image" content="/tools/og/audit-materiality-calculator-sa-320.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/audit-materiality-calculator-sa-320.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit Materiality Calculator (SA 320) — FY 2025-26">
     <meta name="twitter:description" content="Overall + performance materiality + clearly trivial threshold per SA 320. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/audit-materiality-calculator-sa-320.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/audit-materiality-calculator-sa-320.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "Audit Materiality Calculator (SA 320)",
       "description": "Audit Materiality Calculator computes overall materiality, performance materiality and clearly trivial threshold per Standard on Auditing 320 (SA 320) issued by the Institute of Chartered Accountants of India, converged with International Standard on Auditing 320. The tool supports benchmark selection across profit before tax, revenue/turnover, gross profit, total assets, net assets/equity and total expenses with auto-defaulted percentage ranges (PBT 5%, revenue 0.5-1%, gross profit 3%, assets 1%, equity 2%) per SA 320 Para A4-A6 application guidance. Performance materiality auto-adjusts based on assessed audit risk (Low 75%, Medium 65%, High 50% of overall materiality). Clearly trivial threshold defaults to 5% of overall materiality. Output includes documented justification narrative for working papers under SA 230, specific materiality for particular classes of transactions or disclosures, and revision triggers under SA 320 Para 12. Suitable for statutory audit, tax audit, internal audit and limited review engagements of Indian companies, LLPs, firms and not-for-profit entities.",
-      "url": "/tools/audit-materiality-calculator-sa-320",
+      "url": "https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Audit Materiality Calculator (SA 320)", "item": "/tools/audit-materiality-calculator-sa-320"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Audit Materiality Calculator (SA 320)", "item": "https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320"}
       ]
     }
     </script>
@@ -375,8 +375,8 @@
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Audit Materiality Calculator (SA 320)
 </nav>
 
@@ -752,28 +752,28 @@
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
-            <a href="/tools/ifc-testing-checklist" class="sidebar-link">IFC Testing Checklist<span class="arrow">→</span></a>
-            <a href="/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ifc-testing-checklist" class="sidebar-link">IFC Testing Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

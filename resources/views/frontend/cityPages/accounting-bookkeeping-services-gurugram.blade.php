@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-    <title>Accounting & Bookkeeping Services in Gurugram — by Process, Software & Industry | Patron LLP</title>
+    <title>Accounting & Bookkeeping Services in Gurugram | Patron LLP</title>
     <meta name="description" content="CA-led accounting and bookkeeping in Gurugram — AP/AR outsourcing, reconciliation, MIS reporting, year-end finalisation, software setup, plus Tally/Zoho/QuickBooks/Xero/Odoo and 13 industry variants. From INR 2,499/mo.">
     <meta name="keywords" content="accounting bookkeeping hub India, AP AR outsourcing, bank reconciliation, MIS reporting, year-end finalisation, backlog bookkeeping, chart of accounts setup, Tally Zoho QuickBooks Xero Odoo accounting, industry accounting, CA-led bookkeeping, inventory accounting">
     <meta name="author" content="Patron Accounting LLP">
@@ -30,224 +30,224 @@
   "@type": "ItemList",
   "name": "Accounting & Bookkeeping Services — Directory",
   "description": "CA-led accounting and bookkeeping — AP/AR outsourcing, reconciliation, MIS reporting, year-end finalisation, software setup, plus Tally/Zoho/QuickBooks/Xero/Odoo and 13 industry variants. From INR 2,499/mo.",
-  "url": "/accounting-services/gurugram",
+  "url": "https://www.patronaccounting.com/accounting-services/gurugram",
   "numberOfItems": 36,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
-      "url": "/accounting-services",
+      "url": "https://www.patronaccounting.com/accounting-services",
       "name": "Monthly Accounting & Bookkeeping"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "url": "/backlog-bookkeeping-catch-up-services/gurugram",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram",
       "name": "Backlog Bookkeeping / Catch-Up"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "url": "/accounts-payable-outsourcing-services/gurugram",
+      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram",
       "name": "Accounts Payable Outsourcing"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "url": "/accounts-receivable-outsourcing-services/gurugram",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram",
       "name": "Accounts Receivable Outsourcing"
     },
     {
       "@type": "ListItem",
       "position": 5,
-      "url": "/bank-credit-card-reconciliation-services/gurugram",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram",
       "name": "Bank & Credit Card Reconciliation"
     },
     {
       "@type": "ListItem",
       "position": 6,
-      "url": "/financial-statement-preparation-services/gurugram",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram",
       "name": "Financial Statement Preparation"
     },
     {
       "@type": "ListItem",
       "position": 7,
-      "url": "/mis-reporting-services/gurugram",
+      "url": "https://www.patronaccounting.com/mis-reporting-services/gurugram",
       "name": "MIS Reporting (Monthly / Quarterly)"
     },
     {
       "@type": "ListItem",
       "position": 8,
-      "url": "/year-end-closing-finalisation-services/gurugram",
+      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram",
       "name": "Year-End Closing & Finalisation"
     },
     {
       "@type": "ListItem",
       "position": 9,
-      "url": "/chart-of-accounts-setup-services/gurugram",
+      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram",
       "name": "Chart of Accounts Setup"
     },
     {
       "@type": "ListItem",
       "position": 10,
-      "url": "/inventory-accounting-costing-services/gurugram",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram",
       "name": "Inventory Accounting & Costing"
     },
     {
       "@type": "ListItem",
       "position": 11,
-      "url": "/tally-accounting",
+      "url": "https://www.patronaccounting.com/tally-accounting",
       "name": "Tally Accounting"
     },
     {
       "@type": "ListItem",
       "position": 12,
-      "url": "/zoho-books-accounting",
+      "url": "https://www.patronaccounting.com/zoho-books-accounting",
       "name": "Zoho Books Accounting"
     },
     {
       "@type": "ListItem",
       "position": 13,
-      "url": "/quickbooks-accounting",
+      "url": "https://www.patronaccounting.com/quickbooks-accounting",
       "name": "QuickBooks Accounting"
     },
     {
       "@type": "ListItem",
       "position": 14,
-      "url": "/xero-accounting",
+      "url": "https://www.patronaccounting.com/xero-accounting",
       "name": "Xero Accounting"
     },
     {
       "@type": "ListItem",
       "position": 15,
-      "url": "/odoo-accounting",
+      "url": "https://www.patronaccounting.com/odoo-accounting",
       "name": "Odoo Accounting"
     },
     {
       "@type": "ListItem",
       "position": 16,
-      "url": "/migration-from-tally-to-zoho/gurugram",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram",
       "name": "Tally to Zoho Migration"
     },
     {
       "@type": "ListItem",
       "position": 17,
-      "url": "/migration-from-tally-to-quickbooks/gurugram",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram",
       "name": "Tally to QuickBooks Migration"
     },
     {
       "@type": "ListItem",
       "position": 18,
-      "url": "/migration-from-tally-to-odoo/gurugram",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram",
       "name": "Tally to Odoo Migration"
     },
     {
       "@type": "ListItem",
       "position": 19,
-      "url": "/migration-from-quickbooks-to-zoho/gurugram",
+      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/gurugram",
       "name": "QuickBooks to Zoho Migration"
     },
     {
       "@type": "ListItem",
       "position": 20,
-      "url": "/migration-from-zoho-to-quickbooks/gurugram",
+      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram",
       "name": "Zoho to QuickBooks Migration"
     },
     {
       "@type": "ListItem",
       "position": 21,
-      "url": "/sop-drafting-and-implementation/gurugram",
+      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram",
       "name": "SOP Drafting & Implementation"
     },
     {
       "@type": "ListItem",
       "position": 22,
-      "url": "/accounts-reconciliation-and-audit/gurugram",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram",
       "name": "Accounts Reconciliation & Audit"
     },
     {
       "@type": "ListItem",
       "position": 23,
-      "url": "/accounting-services-for-e-commerce-industry",
+      "url": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry",
       "name": "E-commerce Accounting"
     },
     {
       "@type": "ListItem",
       "position": 24,
-      "url": "/accounting-services-for-education-industry",
+      "url": "https://www.patronaccounting.com/accounting-services-for-education-industry",
       "name": "Education Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 25,
-      "url": "/accounting-services-for-the-service-sector-industry",
+      "url": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry",
       "name": "Service Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 26,
-      "url": "/accounting-services-for-trading-industry",
+      "url": "https://www.patronaccounting.com/accounting-services-for-trading-industry",
       "name": "Trading Industry Accounting"
     },
     {
       "@type": "ListItem",
       "position": 27,
-      "url": "/construction-and-real-estate-accounting-services",
+      "url": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services",
       "name": "Construction & Real Estate"
     },
     {
       "@type": "ListItem",
       "position": 28,
-      "url": "/healthcare-sector-accounting-services",
+      "url": "https://www.patronaccounting.com/healthcare-sector-accounting-services",
       "name": "Healthcare Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 29,
-      "url": "/hospitality-sector-accounting-services",
+      "url": "https://www.patronaccounting.com/hospitality-sector-accounting-services",
       "name": "Hospitality Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 30,
-      "url": "/it-sector-accounting-services",
+      "url": "https://www.patronaccounting.com/it-sector-accounting-services",
       "name": "IT Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 31,
-      "url": "/accounting-services-it-saas/gurugram",
+      "url": "https://www.patronaccounting.com/accounting-services-it-saas/gurugram",
       "name": "IT / SaaS Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 32,
-      "url": "/accounting-services-for-manufacturing/gurugram",
+      "url": "https://www.patronaccounting.com/accounting-services-for-manufacturing/gurugram",
       "name": "Manufacturing Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 33,
-      "url": "/accounting-services-for-startups/gurugram",
+      "url": "https://www.patronaccounting.com/accounting-services-for-startups/gurugram",
       "name": "Startup Accounting"
     },
     {
       "@type": "ListItem",
       "position": 34,
-      "url": "/accounting-services-for-retail/gurugram",
+      "url": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram",
       "name": "Retail Sector Accounting"
     },
     {
       "@type": "ListItem",
       "position": 35,
-      "url": "/ngo-and-non-profit-accounting-services",
+      "url": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services",
       "name": "NGO & Non-Profit Accounting"
     },
     {
       "@type": "ListItem",
       "position": 36,
-      "url": "/travel-and-logistics-accounting-services",
+      "url": "https://www.patronaccounting.com/travel-and-logistics-accounting-services",
       "name": "Travel & Logistics Accounting"
     }
   ]
@@ -261,19 +261,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "/"
+      "item": "https://www.patronaccounting.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Accounting Services",
-      "item": "/accounting-bookkeeping-services"
+      "item": "https://www.patronaccounting.com/accounting-bookkeeping-services"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Gurugram",
-      "item": "/accounting-services/gurugram"
+      "item": "https://www.patronaccounting.com/accounting-services/gurugram"
     }
   ]
 }
@@ -283,8 +283,8 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Patron Accounting LLP",
-  "url": "/",
-  "logo": "/images/logo.png",
+  "url": "https://www.patronaccounting.com/",
+  "logo": "https://www.patronaccounting.com/images/logo.png",
   "sameAs": [
     "https://www.linkedin.com/company/patron-accounting"
   ],

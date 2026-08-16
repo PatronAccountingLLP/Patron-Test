@@ -4,22 +4,22 @@
 <meta name="description" content="ESOP TDS calculator: compute the employer's Section 192 TDS on the ESOP perquisite at exercise for FY 2025-26, plus the 192(1C) startup deferral date. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-tds-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-tds-calculator">
 
 <meta property="og:title" content="ESOP TDS Calculator — Section 192 on Perquisite 2026">
 <meta property="og:description" content="Compute the employer's Section 192 TDS on the ESOP perquisite at exercise using the average rate of tax, and the Section 192(1C) startup deferral trigger date.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-tds-calculator">
-<meta property="og:image" content="/tools/esop-tds-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tds-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-tds-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP TDS Calculator — Section 192 on Perquisite 2026">
 <meta name="twitter:description" content="Employer's Section 192 TDS on the ESOP perquisite at exercise, plus the 192(1C) startup deferral trigger date. Free & instant.">
-<meta name="twitter:image" content="/tools/esop-tds-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-tds-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP TDS Calculator",
   "description": "ESOP TDS Calculator computes the employer's tax deducted at source under Section 192 on an ESOP perquisite at exercise. It works out the perquisite as fair market value less exercise price times the number of shares, adds it to the employee's salary, and applies the average rate of tax to find the incremental TDS attributable to the perquisite. It also handles the Section 192(1C) deferral for eligible DPIIT and Section 80-IAC startups, showing the trigger date at the earliest of forty-eight months from the end of the assessment year of allotment, sale of shares, or cessation of employment.",
-  "url": "/tools/esop-tds-calculator",
+  "url": "https://www.patronaccounting.com/tools/esop-tds-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP TDS Calculator", "item": "/tools/esop-tds-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP TDS Calculator", "item": "https://www.patronaccounting.com/tools/esop-tds-calculator"}
   ]
 }
 </script>
@@ -705,9 +705,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP TDS Calculator
 </nav>
@@ -836,7 +836,7 @@ a:focus-visible {
             <h2>How to Use the ESOP TDS Calculator</h2>
             <ol>
                 <li><strong>Choose the mode.</strong> "Deduct now" computes TDS at exercise; "Defer u/s 192(1C)" is for eligible DPIIT + 80-IAC startups and shows the deferred trigger date.</li>
-                <li><strong>Enter the perquisite</strong> — (FMV on exercise date − exercise price) × shares. Use the <a href="/tools/esop-fmv-calculator">ESOP FMV calculator</a> if you need the FMV first.</li>
+                <li><strong>Enter the perquisite</strong> — (FMV on exercise date − exercise price) × shares. Use the <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator">ESOP FMV calculator</a> if you need the FMV first.</li>
                 <li><strong>Enter other salary income</strong> for the year, so the average-rate computation is realistic.</li>
                 <li><strong>Pick the tax basis</strong> — new-regime slabs are built in; choose old regime to enter your own marginal rate.</li>
                 <li><strong>Click Calculate</strong> for the TDS on the perquisite, the effective rate, and the full working.</li>
@@ -849,7 +849,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What This Calculator Is For</h2>
             <p>When an employee exercises ESOPs, the gain — <strong>FMV on the exercise date less the exercise price</strong>, times the number of shares — is a <strong>perquisite</strong> taxed as salary under Section 17(2)(vi). The <strong>employer must deduct TDS</strong> on it under <strong>Section 192</strong>. This tool estimates that employer TDS.</p>
-            <p>It is distinct from the <a href="/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> (the employee's slab tax on the perquisite) and the general <a href="/tools/esop-tax-calculator">ESOP tax calculator</a> — this one focuses on the <strong>employer's Section 192 withholding</strong> and the startup <strong>deferral</strong>. For the full framework see Patron's <a href="/blog/esop-taxation-rules-2026-when-how-stock-options-taxed-rules">ESOP taxation rules 2026</a>.</p>
+            <p>It is distinct from the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> (the employee's slab tax on the perquisite) and the general <a href="https://www.patronaccounting.com/tools/esop-tax-calculator">ESOP tax calculator</a> — this one focuses on the <strong>employer's Section 192 withholding</strong> and the startup <strong>deferral</strong>. For the full framework see Patron's <a href="https://www.patronaccounting.com/blog/esop-taxation-rules-2026-when-how-stock-options-taxed-rules">ESOP taxation rules 2026</a>.</p>
         </section>
 
         <section class="content-section" id="section192">
@@ -881,7 +881,7 @@ a:focus-visible {
                 <li><strong>sale</strong> of the shares; or</li>
                 <li><strong>cessation</strong> of employment.</li>
             </ul>
-            <p>Only an <strong>eligible startup under Section 80-IAC</strong> qualifies — <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition <em>plus</em> an Inter-Ministerial Board (IMB) certificate obtained via <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a>. Many startups are DPIIT-recognised but far fewer hold the 80-IAC certificate. A crucial detail: the deferred tax is computed at the <strong>rates of the year of allotment</strong>, not the year the trigger occurs. See Patron's deep-dives on the <a href="/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">80-IAC ESOP deferral</a> and <a href="/blog/section-80-iac-esop-deferment-startup">Section 80-IAC deferment</a>.</p>
+            <p>Only an <strong>eligible startup under Section 80-IAC</strong> qualifies — <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition <em>plus</em> an Inter-Ministerial Board (IMB) certificate obtained via <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a>. Many startups are DPIIT-recognised but far fewer hold the 80-IAC certificate. A crucial detail: the deferred tax is computed at the <strong>rates of the year of allotment</strong>, not the year the trigger occurs. See Patron's deep-dives on the <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">80-IAC ESOP deferral</a> and <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC deferment</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Deferral postpones <em>when</em> tax is paid, not whether. Without the 80-IAC certificate, normal Section 192 TDS applies at exercise.</p>
             </div>
@@ -900,7 +900,7 @@ a:focus-visible {
                     <tr><td>Deferred perquisite</td><td>Appears only when the 192(1C) trigger occurs.</td></tr>
                 </tbody>
             </table>
-            <p>The TDS is a credit against the employee's final liability, claimed in the ITR (<a href="/itr-for-esop-employees">ITR for ESOP employees</a>). For the employer-side filing, see Patron's <a href="/tds-return-filing">TDS return filing</a> service and the broader <a href="/esop-management-and-compliance-services">ESOP management & compliance</a> support.</p>
+            <p>The TDS is a credit against the employee's final liability, claimed in the ITR (<a href="https://www.patronaccounting.com/itr-for-esop-employees">ITR for ESOP employees</a>). For the employer-side filing, see Patron's <a href="https://www.patronaccounting.com/tds-return-filing">TDS return filing</a> service and the broader <a href="https://www.patronaccounting.com/esop-management-and-compliance-services">ESOP management & compliance</a> support.</p>
         </section>
 
         <section class="content-section" id="timeline">
@@ -984,25 +984,25 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
-            <a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Compliance <span class="arrow">→</span></a>
-            <a href="/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">80-IAC ESOP Deferral <span class="arrow">→</span></a>
-            <a href="/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
-            <a href="/blog/esop-taxation-rules-2026-when-how-stock-options-taxed-rules" class="sidebar-link">ESOP Taxation Rules 2026 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">80-IAC ESOP Deferral <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-taxation-rules-2026-when-how-stock-options-taxed-rules" class="sidebar-link">ESOP Taxation Rules 2026 <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

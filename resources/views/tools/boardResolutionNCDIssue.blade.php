@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for Issue and Allotment of Non-Convertible Debentures on Private Placement Basis')}}
+{{_('Board Resolution: Non-Convertible Debentures Issue')}}
 @endsection
 
 @section('content')

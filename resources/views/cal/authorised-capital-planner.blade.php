@@ -3,22 +3,22 @@
 <meta name="description" content="Free authorised capital planner: decide how much authorised capital to set at incorporation and compare set-high-now vs increase-later (SH-7) costs by state.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/authorised-capital-planner">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/authorised-capital-planner">
 @section('meta')
 <meta property="og:title" content="Authorised Capital Planner — How Much to Set 2026">
 <meta property="og:description" content="Decide how much authorised capital to set at incorporation: recommended level, paid-up headroom, and the cost of setting high now vs increasing later via SH-7.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/authorised-capital-planner">
-<meta property="og:image" content="/tools/authorised-capital-planner-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/authorised-capital-planner">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/authorised-capital-planner-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Authorised Capital Planner — How Much to Set 2026">
 <meta name="twitter:description" content="Decide how much authorised capital to set at incorporation and compare set-high-now vs increase-later (SH-7) costs. Free & instant.">
-<meta name="twitter:image" content="/tools/authorised-capital-planner-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/authorised-capital-planner-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -27,7 +27,7 @@
   "@type": "SoftwareApplication",
   "name": "Authorised Capital Planner",
   "description": "Authorised Capital Planner helps a founder decide how much authorised capital to declare when incorporating a company in India. It takes the planned paid-up capital now and the expected near-term issuance, recommends an authorised capital that covers planned shares with headroom, enforces the rule that authorised capital must be at least the paid-up capital, and compares two strategies: setting a higher authorised capital now versus starting low and increasing later through Form SH-7. It estimates the SPICe Plus filing fee, state stamp duty at each level and the later SH-7 increase cost so the founder can weigh the upfront cost against future flexibility.",
-  "url": "/tools/authorised-capital-planner",
+  "url": "https://www.patronaccounting.com/tools/authorised-capital-planner",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -41,10 +41,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -57,9 +57,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Authorised Capital Planner", "item": "/tools/authorised-capital-planner"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Authorised Capital Planner", "item": "https://www.patronaccounting.com/tools/authorised-capital-planner"}
   ]
 }
 </script>
@@ -701,9 +701,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Authorised Capital Planner
 </nav>
@@ -818,14 +818,14 @@ a:focus-visible {
                 <li><strong>Optionally enter an authorised level</strong> you're considering, then <strong>Plan & Compare</strong> for a recommendation and the set-high-now vs increase-later cost comparison.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Authorised capital is just a ceiling — it isn't money you must deposit. Keep it modest unless you're confident of issuing more soon. For the full incorporation budget, use the <a href="/tools/incorporation-cost-estimator">incorporation cost estimator</a>.</p>
+                <p><strong>CA Tip:</strong> Authorised capital is just a ceiling — it isn't money you must deposit. Keep it modest unless you're confident of issuing more soon. For the full incorporation budget, use the <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator">incorporation cost estimator</a>.</p>
             </div>
         </section>
 
         <section class="content-section" id="what-is">
             <h2>Authorised vs Paid-Up Capital</h2>
             <p><strong>Authorised capital</strong> is the maximum share capital a company may issue, set in the <strong>capital clause of the MoA</strong>. <strong>Paid-up capital</strong> is what shareholders have actually paid for shares allotted. The hard rule: <strong>paid-up can never exceed authorised</strong> — authorised is the ceiling, paid-up sits within it.</p>
-            <p>You can issue more shares up to the authorised limit with no MoA change; to go beyond it you must <strong>increase authorised capital first</strong> (Form SH-7). There's <strong>no minimum capital</strong> any more — the ₹1 lakh minimum was removed by the Companies (Amendment) Act 2015. The capital clause and every change to it are filed with the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>, and the company files its returns through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax department</a>. See Patron's <a href="/blog/authorized-capital-vs-paid-up-capital">authorised vs paid-up guide</a>.</p>
+            <p>You can issue more shares up to the authorised limit with no MoA change; to go beyond it you must <strong>increase authorised capital first</strong> (Form SH-7). There's <strong>no minimum capital</strong> any more — the ₹1 lakh minimum was removed by the Companies (Amendment) Act 2015. The capital clause and every change to it are filed with the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>, and the company files its returns through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax department</a>. See Patron's <a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital">authorised vs paid-up guide</a>.</p>
             <div class="formula-box">
                 <span class="label">Rule</span>: paid-up ≤ authorised &nbsp;(always)<br>
                 <span class="label">Recommended authorised</span> ≈ (paid-up now + near-term issuance) × headroom<br>
@@ -857,7 +857,7 @@ a:focus-visible {
         <section class="content-section" id="sh7">
             <h2>Increasing Authorised Capital Later (SH-7)</h2>
             <p>If you start low and later need more, increasing authorised capital is a defined process under <strong>Section 61 of the Companies Act 2013</strong>: a board resolution, an <strong>ordinary resolution</strong> by shareholders at a general meeting, an amendment to the MoA capital clause, and <strong>Form SH-7 filed with the ROC within 30 days</strong>. You pay an ROC fee tiered on the <em>increase</em> amount, plus state stamp duty on the increase, plus a professional fee.</p>
-            <p>If the Articles don't permit capital alteration, amend them first by special resolution with MGT-14. There's <strong>no penalty</strong> for starting low — see Patron's <a href="/blog/increase-authorized-capital-of-company-complete-guide">increase authorised capital guide</a> and the <a href="/change-in-authorised-capital">change in authorised capital</a> service.</p>
+            <p>If the Articles don't permit capital alteration, amend them first by special resolution with MGT-14. There's <strong>no penalty</strong> for starting low — see Patron's <a href="https://www.patronaccounting.com/blog/increase-authorized-capital-of-company-complete-guide">increase authorised capital guide</a> and the <a href="https://www.patronaccounting.com/change-in-authorised-capital">change in authorised capital</a> service.</p>
         </section>
 
         <section class="content-section" id="bands">
@@ -873,7 +873,7 @@ a:focus-visible {
                     <tr><td>Medium enterprise</td><td>₹50 lakh – ₹5 crore by need</td></tr>
                 </tbody>
             </table>
-            <p>These are common ranges, not rules — pick a structure first with the <a href="/tools/entity-type-selector">entity type selector</a>, and price the stamp duty with the <a href="/tools/incorporation-stamp-duty-calculator">incorporation stamp duty calculator</a>.</p>
+            <p>These are common ranges, not rules — pick a structure first with the <a href="https://www.patronaccounting.com/tools/entity-type-selector">entity type selector</a>, and price the stamp duty with the <a href="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator">incorporation stamp duty calculator</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Indicative planning tool. SPICe+ fees, ROC tiers and state stamp duty change by notification — confirm the exact figures and the best structure with a professional before incorporating.</p>
             </div>
@@ -885,7 +885,7 @@ a:focus-visible {
             <p>What investors actually examine is paid-up capital, the cap table and valuation, not the authorised number. A startup seeking benefits under the Startup India scheme should also keep its structure clean: <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition via the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal and downstream incentives attach to the entity, and the share-capital movements feed into accounts prepared under <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> standards. Setting authorised capital with one funding round of headroom — without over-paying stamp duty for capital you may never issue — is usually the right balance.</p>
             <p>If you do raise and need to issue beyond the ceiling, the increase is routine; the planner above shows what that SH-7 step would cost so you can decide whether to build the headroom in now or later.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Planning ESOPs alongside the round? The authorised capital must also accommodate the option pool once exercised — size it with the <a href="/tools/esop-pool-sizing-calculator">ESOP pool sizing calculator</a>.</p>
+                <p><strong>Tip:</strong> Planning ESOPs alongside the round? The authorised capital must also accommodate the option pool once exercised — size it with the <a href="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator">ESOP pool sizing calculator</a>.</p>
             </div>
         </section>
 
@@ -959,22 +959,22 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
-            <a href="/tools/incorporation-stamp-duty-calculator" class="sidebar-link">Stamp Duty Calculator <span class="arrow">→</span></a>
-            <a href="/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
-            <a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator" class="sidebar-link">Stamp Duty Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Capital Services</h3>
-            <a href="/change-in-authorised-capital" class="sidebar-link">Change Authorised Capital <span class="arrow">→</span></a>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/change-in-authorised-capital" class="sidebar-link">Change Authorised Capital <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/authorized-capital-vs-paid-up-capital" class="sidebar-link">Authorised vs Paid-Up <span class="arrow">→</span></a>
-            <a href="/blog/increase-authorized-capital-of-company-complete-guide" class="sidebar-link">Increase Authorised Capital <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital" class="sidebar-link">Authorised vs Paid-Up <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/increase-authorized-capital-of-company-complete-guide" class="sidebar-link">Increase Authorised Capital <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

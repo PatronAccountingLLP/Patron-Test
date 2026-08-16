@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Patron Accounting | Accounting & Compliance for Startups & SMEs Across India')
+@section('title', 'Accounting & Compliance for Startups & SMEs | Patron')
 
 @push('styles')
 <!-- Slick Slider CSS -->
@@ -2039,14 +2039,14 @@
 <meta name="description" content="Patron Accounting — accounting & compliance for startups & SMEs across India. Zoho Books, ITR filing, GST, payroll & EOR, litigation with GSTAT Principal Bench representation. 4.9★ rated. Offices in Pune, Mumbai, Delhi & Gurgaon.">
 
 <!-- Canonical URL (Change 12) -->
-<link rel="canonical" href="/">
+<link rel="canonical" href="https://www.patronaccounting.com/">
 
 <!-- Open Graph Tags (Change 11) -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Patron Accounting | Accounting & Compliance for Startups & SMEs Across India">
 <meta property="og:description" content="Zoho Books accounting, ITR filing, GST, payroll & EOR, startup registration to GST litigation — one team of CAs & CS experts serving businesses across India. 4.9★ Google rated.">
-<meta property="og:url" content="/">
-<meta property="og:image" content="/images/site-logo.svg">
+<meta property="og:url" content="https://www.patronaccounting.com/">
+<meta property="og:image" content="https://www.patronaccounting.com/images/site-logo.svg">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 
@@ -2054,7 +2054,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Patron Accounting | Accounting & Compliance for Startups & SMEs Across India">
 <meta name="twitter:description" content="Zoho Books accounting, ITR filing, GST, payroll & EOR, startup registration to GST litigation — one team of CAs & CS experts serving businesses across India. 4.9★ Google rated.">
-<meta name="twitter:image" content="/images/site-logo.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/site-logo.svg">
 
 <!-- FAQPage Schema -->
 <script type="application/ld+json">
@@ -2083,7 +2083,7 @@
     "@type": "ProfessionalService",
     "name": "Patron Accounting",
     "description": "CA firm for startups and SMEs offering Zoho Books accounting, ITR filing, GST services, payroll & EOR, corporate compliance, startup incorporation, trademark registration, net worth certificates, and GST litigation across India with GSTAT Principal Bench representation.",
-    "url": "/",
+    "url": "https://patronaccounting.com",
     "founder": {"@type": "Person", "name": "CA Sundram Gupta"},
     "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "100", "bestRating": "5"},
     "hasOfferCatalog": {
@@ -2112,10 +2112,9 @@
 {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://www.patronaccounting.com/#organization",
     "name": "Patron Accounting",
     "legalName": "Patron Accounting LLP",
-    "url": "https://www.patronaccounting.com/",
+    "url": "https://www.patronaccounting.com",
     "logo": "https://www.patronaccounting.com/images/site-logo.svg",
     "description": "CA firm for startups and SMEs offering Zoho Books accounting, ITR filing, GST services, payroll & EOR, corporate compliance, startup incorporation, and GST litigation across India.",
     "founder": {"@type": "Person", "name": "CA Sundram Gupta"},
@@ -2171,7 +2170,7 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "/"
+            "item": "https://www.patronaccounting.com/"
         }
     ]
 }
@@ -2183,7 +2182,7 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Patron Accounting",
-    "url": "/",
+    "url": "https://www.patronaccounting.com",
     "review": [
         {
             "@type": "Review",
@@ -2225,7 +2224,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Patron Accounting | Accounting & Compliance for Startups & SMEs Across India",
-    "url": "/",
+    "url": "https://www.patronaccounting.com/",
     "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [".company-registration-section p", "#faq-section .accordion-body"]
@@ -2240,7 +2239,7 @@
     "@type": "VideoObject",
     "name": "About Patron Accounting — Who We Are",
     "description": "Learn how Patron Accounting helps startups and SMEs with accounting, compliance, ITR filing, GST, payroll, and corporate legal services across India. Founded by CA Sundram Gupta with offices in Pune, Mumbai, and Delhi.",
-    "thumbnailUrl": "/images/whoweare.jpg",
+    "thumbnailUrl": "https://www.patronaccounting.com/images/whoweare.jpg",
     "uploadDate": "2024-01-01T00:00:00+05:30",
     "contentUrl": "https://www.youtube.com/watch?v=oVkvHKafp70",
     "embedUrl": "https://www.youtube.com/embed/oVkvHKafp70",
@@ -2249,7 +2248,7 @@
         "name": "Patron Accounting",
         "logo": {
             "@type": "ImageObject",
-            "url": "/images/site-logo.svg"
+            "url": "https://www.patronaccounting.com/images/site-logo.svg"
         }
     }
 }
@@ -2261,18 +2260,14 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Patron Accounting",
-    "url": "/",
+    "url": "https://www.patronaccounting.com/",
     "potentialAction": {
         "@type": "SearchAction",
-        "target": "/search?q={search_term_string}",
+        "target": "https://www.patronaccounting.com/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
     }
 }
 </script>
-
-<!-- hreflang for Indian English -->
-<link rel="alternate" hreflang="en-in" href="/">
-<link rel="alternate" hreflang="en" href="/">
 
 <!-- Slick Slider CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>

@@ -7,20 +7,20 @@
     <title>Working Capital Calculator | Tandon MPBF &amp; Current Ratio</title>
     <meta name="description" content="Working capital calculator: compute working capital, current ratio and MPBF under Tandon Committee Methods 1 &amp; 2, with Schedule III tie-in. Free CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/working-capital-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/working-capital-calculator/">
     <meta property="og:title" content="Working Capital Calculator — Schedule III &amp; Tandon MPBF India 2026">
     <meta property="og:description" content="Compute Working Capital, Current Ratio, Net Capital Turnover, Tandon Committee MPBF (Method 1 &amp; 2), Nayak Committee turnover method. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/working-capital-calculator">
-    <meta property="og:image" content="/tools/og/working-capital-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/working-capital-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/working-capital-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Working Capital Calculator — Schedule III &amp; Tandon MPBF India 2026">
     <meta name="twitter:description" content="WC, Current Ratio, MPBF per Tandon Committee Methods 1 &amp; 2, Nayak Committee turnover method, Schedule III ratios. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/working-capital-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/working-capital-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "Working Capital Calculator",
       "description": "Working Capital Calculator computes Working Capital, Gross Working Capital, Working Capital Gap, Current Ratio, Quick Ratio and Net Capital Turnover Ratio for an Indian company aligned with Schedule III to the Companies Act, 2013. The tool also computes Maximum Permissible Bank Finance under Tandon Committee Method 1 (75 per cent of WC Gap) and Method 2 (75 per cent of Total Current Assets less Other Current Liabilities, the Chore Committee 1979 standard for borrowers with working capital limits exceeding fifty lakhs), plus the Nayak Committee turnover-method assessment used for MSME borrowers up to seven point five crore working capital limit. Two of the eleven Schedule III mandatory analytical ratios are direct outputs from this calculator namely Current Ratio and Net Capital Turnover Ratio. The MSE versus non-MSE trade payable split required under Schedule III Division II is supported with auto-flagging if MSE payables suggest MSMED Act Section 15 forty-five day rule breach. Industry benchmarks across IT, Manufacturing, FMCG, Retail, Pharma, Real Estate, Telecom and Services are referenced for verdict.",
-      "url": "/tools/working-capital-calculator",
+      "url": "https://www.patronaccounting.com/tools/working-capital-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Working Capital Calculator", "item": "/tools/working-capital-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Working Capital Calculator", "item": "https://www.patronaccounting.com/tools/working-capital-calculator"}
       ]
     }
     </script>
@@ -506,9 +506,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Working Capital Calculator
 </nav>
@@ -802,7 +802,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             </table>
 
             <h3>Companion Ratios from the Same Inputs</h3>
-            <p>While not separately mandatory under Schedule III, the following ratios can be computed from the same inputs and are commonly disclosed in MD&amp;A by listed companies under SEBI LODR Reg 34(3): Quick Ratio (Current Assets less Inventory divided by Current Liabilities), Working Capital to Revenue (NWC divided by Revenue), and Cash Ratio (Cash and Equivalents divided by Current Liabilities). Inventory Turnover, Trade Receivables Turnover and Trade Payables Turnover (the three CCC-component ratios) are also Schedule III mandatory and appear in the <a href="/tools/cash-conversion-cycle-calculator">Cash Conversion Cycle Calculator</a>.</p>
+            <p>While not separately mandatory under Schedule III, the following ratios can be computed from the same inputs and are commonly disclosed in MD&amp;A by listed companies under SEBI LODR Reg 34(3): Quick Ratio (Current Assets less Inventory divided by Current Liabilities), Working Capital to Revenue (NWC divided by Revenue), and Cash Ratio (Cash and Equivalents divided by Current Liabilities). Inventory Turnover, Trade Receivables Turnover and Trade Payables Turnover (the three CCC-component ratios) are also Schedule III mandatory and appear in the <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">Cash Conversion Cycle Calculator</a>.</p>
 
             <h3>The 25% Variance Explanation Rule</h3>
             <p>If either Current Ratio or Net Capital Turnover Ratio changes by more than 25% compared to the preceding year, the company must provide a written explanation in the notes to accounts under Schedule III. Statutory auditors verify the explanation. Common explanations include: extended credit terms (lowers Current Ratio), inventory build-up before peak season (raises Current Ratio temporarily), debt-equity rebalancing (changes short-term borrowings), capital expenditure cycle, GST credit accumulation (raises Other Current Assets), or one-off transactions affecting balance-sheet items at year-end.</p>
@@ -933,7 +933,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <h3>Working Capital Implication</h3>
             <p>A high MSE Trade Payables balance inflates Current Liabilities, suppressing Current Ratio and Working Capital. While this appears to free up working capital, it creates regulatory exposure under Section 15/16 and tax exposure under Section 43B(h). The economic cost of the implicit financing is approximately 21-25% per annum (compound interest at 3× RBI bank rate plus tax disallowance impact) — far higher than typical bank borrowing rates of 9-11%. <strong>Stretching MSE payables is the most expensive form of working-capital financing available.</strong></p>
 
-            <p>For a deeper Cash Conversion Cycle view including DPO impact analysis, see the <a href="/tools/cash-conversion-cycle-calculator">Cash Conversion Cycle Calculator</a>.</p>
+            <p>For a deeper Cash Conversion Cycle view including DPO impact analysis, see the <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">Cash Conversion Cycle Calculator</a>.</p>
         </section>
 
         <section class="content-section" id="optimisation">
@@ -1045,29 +1045,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping<span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/stock-audit" class="sidebar-link">Stock Audit<span class="arrow">→</span></a>
-            <a href="/msme-registration" class="sidebar-link">MSME Registration<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting &amp; Bookkeeping<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/stock-audit" class="sidebar-link">Stock Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/msme-registration" class="sidebar-link">MSME Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
-            <a href="/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
-            <a href="/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/ebitda-margin-calculator" class="sidebar-link">EBITDA Margin Calculator<span class="arrow">→</span></a>
-            <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator<span class="arrow">→</span></a>
-            <a href="/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Statement<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ebitda-margin-calculator" class="sidebar-link">EBITDA Margin Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Statement<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/authorized-capital-vs-paid-up-capital-meaning-differences-and-share-capital-structure-explained" class="sidebar-link">Authorized vs Paid-Up Capital<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital-meaning-differences-and-share-capital-structure-explained" class="sidebar-link">Authorized vs Paid-Up Capital<span class="arrow">→</span></a>
         </div>
 
     </aside>

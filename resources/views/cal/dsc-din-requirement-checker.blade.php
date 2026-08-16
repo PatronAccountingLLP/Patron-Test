@@ -3,23 +3,23 @@
 <meta name="description" content="Free DSC & DIN requirement checker: find how many Digital Signature Certificates and DINs you need for a company or LLP, and which come free in SPICe+. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/dsc-din-requirement-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/dsc-din-requirement-checker">
 @section('meta')
 
 <meta property="og:title" content="DSC / DIN Requirement Checker — How Many You Need 2026">
 <meta property="og:description" content="Work out exactly how many DSCs and DINs you need for a company or LLP, which DINs are free in SPICe+/FiLLiP, and which need a separate DIR-3 filing.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/dsc-din-requirement-checker">
-<meta property="og:image" content="/tools/dsc-din-requirement-checker-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/dsc-din-requirement-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/dsc-din-requirement-checker-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DSC / DIN Requirement Checker — How Many You Need 2026">
 <meta name="twitter:description" content="Find exactly how many DSCs and DINs you need, which are free in SPICe+/FiLLiP, and which need DIR-3. Free &amp; instant.">
-<meta name="twitter:image" content="/tools/dsc-din-requirement-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/dsc-din-requirement-checker-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 
 @endsection
 @section('schema')
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "DSC / DIN Requirement Checker",
   "description": "DSC and DIN Requirement Checker works out how many Digital Signature Certificates and Director Identification Numbers are needed to incorporate or change a company or LLP in India. From the scenario, the number of directors or designated partners, additional subscribers and how many people already hold a DIN, it computes the number of Class 3 DSCs required for all signatories, the number of new DINs needed, how many of those are allotted free within the SPICe Plus or FiLLiP form, and how many must be obtained separately through Form DIR-3 at a fee. It returns an itemised requirement summary with the indicative cost.",
-  "url": "/tools/dsc-din-requirement-checker",
+  "url": "https://www.patronaccounting.com/tools/dsc-din-requirement-checker",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "DSC / DIN Requirement Checker", "item": "/tools/dsc-din-requirement-checker"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "DSC / DIN Requirement Checker", "item": "https://www.patronaccounting.com/tools/dsc-din-requirement-checker"}
   ]
 }
 </script>
@@ -701,9 +701,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     DSC / DIN Requirement Checker
 </nav>
@@ -824,7 +824,7 @@ a:focus-visible {
         <section class="content-section" id="dsc-vs-din">
             <h2>DSC vs DIN — What's the Difference?</h2>
             <p>They're often mentioned together but do different jobs. A <strong>Digital Signature Certificate (DSC)</strong> is a Class 3 cryptographic certificate that lets a person <strong>digitally sign</strong> forms on the MCA portal — every director, designated partner and subscriber who signs the incorporation documents needs one. A <strong>Director Identification Number (DIN)</strong> is a unique 8-digit number the MCA allots to an <strong>individual</strong> so they can hold the office of director (or, as a unified DPIN, designated partner).</p>
-            <p>So the DSC is a <em>signing tool</em> tied to the person, while the DIN is an <em>identity number</em> needed to be a director. See Patron's <a href="/dsc-registration">DSC registration</a> service and the <a href="/blog/director-identification-number-din-everything-you-need-to-know">DIN explainer</a>.</p>
+            <p>So the DSC is a <em>signing tool</em> tied to the person, while the DIN is an <em>identity number</em> needed to be a director. See Patron's <a href="https://www.patronaccounting.com/dsc-registration">DSC registration</a> service and the <a href="https://www.patronaccounting.com/blog/director-identification-number-din-everything-you-need-to-know">DIN explainer</a>.</p>
             <table class="rate-table">
                 <thead>
                     <tr><th></th><th>DSC</th><th>DIN</th></tr>
@@ -873,7 +873,7 @@ a:focus-visible {
                 <li><strong>Joining an existing company</strong> — a new director of a company that's already incorporated must get the DIN via DIR-3 first; there's no free SPICe+ slot.</li>
                 <li><strong>DIN in advance</strong> — someone wanting a DIN before incorporation.</li>
             </ul>
-            <p>After allotment, every DIN holder must file the annual <strong>DIR-3 KYC</strong> to keep it active — see Patron's <a href="/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors">DIR-3 KYC guide</a>. To verify an existing DIN, use the <a href="/tools/din-authenticity-verifier">DIN authenticity verifier</a>.</p>
+            <p>After allotment, every DIN holder must file the annual <strong>DIR-3 KYC</strong> to keep it active — see Patron's <a href="https://www.patronaccounting.com/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors">DIR-3 KYC guide</a>. To verify an existing DIN, use the <a href="https://www.patronaccounting.com/tools/din-authenticity-verifier">DIN authenticity verifier</a>.</p>
         </section>
 
         <section class="content-section" id="scenarios">
@@ -891,7 +891,7 @@ a:focus-visible {
                     <tr><td>Proprietorship / partnership firm</td><td>0 (MCA)</td><td>0 — no DIN</td></tr>
                 </tbody>
             </table>
-            <p>Once you know the requirement, price the full incorporation with the <a href="/tools/incorporation-cost-estimator">incorporation cost estimator</a> and plan capital with the <a href="/tools/authorised-capital-planner">authorised capital planner</a>.</p>
+            <p>Once you know the requirement, price the full incorporation with the <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator">incorporation cost estimator</a> and plan capital with the <a href="https://www.patronaccounting.com/tools/authorised-capital-planner">authorised capital planner</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Indicative planning aid. Free-DIN limits, fees and rules change by MCA notification — confirm the current requirement with a professional before filing.</p>
             </div>
@@ -903,7 +903,7 @@ a:focus-visible {
             <p>The DSC requirement is more practical than statutory: because every form on the MCA V3 portal must be digitally signed, each signatory needs a valid Class 3 certificate from a licensed Certifying Authority. The same Class 3 DSC is then reused across other government portals — for instance income-tax filings on the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax department</a> portal — so it is rarely a single-use purchase. Where a practising professional certifies the forms, they do so under standards set by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
             <p>One forward-looking note: if the company intends to seek startup benefits, <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition via the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal happens after incorporation, by which time every director already holds an active DIN — so getting the DSC and DIN count right at the incorporation stage keeps the whole sequence moving without a mid-process DIR-3 detour.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Once your DSC/DIN requirement is clear, the <a href="/tools/incorporation-cost-estimator">incorporation cost estimator</a> folds these into the full registration budget.</p>
+                <p><strong>Tip:</strong> Once your DSC/DIN requirement is clear, the <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator">incorporation cost estimator</a> folds these into the full registration budget.</p>
             </div>
         </section>
 
@@ -977,22 +977,22 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>DSC / DIN Services</h3>
-            <a href="/dsc-registration" class="sidebar-link">DSC Registration <span class="arrow">→</span></a>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
-            <a href="/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/dsc-registration" class="sidebar-link">DSC Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
-            <a href="/tools/authorised-capital-planner" class="sidebar-link">Authorised Capital Planner <span class="arrow">→</span></a>
-            <a href="/tools/din-authenticity-verifier" class="sidebar-link">DIN Authenticity Verifier <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/authorised-capital-planner" class="sidebar-link">Authorised Capital Planner <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/din-authenticity-verifier" class="sidebar-link">DIN Authenticity Verifier <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/digital-signature-certificate-dsc-for-company-registration" class="sidebar-link">DSC for Company Registration <span class="arrow">→</span></a>
-            <a href="/blog/director-identification-number-din-everything-you-need-to-know" class="sidebar-link">DIN: Everything to Know <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/digital-signature-certificate-dsc-for-company-registration" class="sidebar-link">DSC for Company Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/director-identification-number-din-everything-you-need-to-know" class="sidebar-link">DIN: Everything to Know <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

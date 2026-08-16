@@ -37,7 +37,7 @@
 </head>
 <body>
 
-<link rel="alternate" hreflang="en-in" href="/" />
+<link rel="alternate" hreflang="en-in" href="https://www.patronaccounting.com" />
 
 <!-- TRUST BADGE BAND -->
 <section class="trust-badge-band" aria-label="Trust Indicators">
@@ -74,7 +74,7 @@
                                 Subscribe
                             </button>
                         </div>
-                        <p class="text-center mt-2 mb-0" style="font-size:0.7rem;color:rgba(255,255,255,0.5);">By subscribing, you agree to our <a href="/privacy-policy" style="color:rgba(255,255,255,0.7);text-decoration:underline;">Privacy Policy</a>.</p>
+                        <p class="text-center mt-2 mb-0" style="font-size:0.7rem;color:rgba(255,255,255,0.5);">By subscribing, you agree to our <a href="https://www.patronaccounting.com/privacy-policy" style="color:rgba(255,255,255,0.7);text-decoration:underline;">Privacy Policy</a>.</p>
                         <p class="text-center mt-1 mb-0" style="font-size:0.7rem;color:rgba(255,255,255,0.4);">Outside India? <a href="https://wa.me/919459456700" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.65);text-decoration:underline;">WhatsApp us directly ↗</a></p>
                     </form>
                 </div>
@@ -89,7 +89,7 @@
             <!-- COL 1: Organisation -->
             <div class="col-lg-3 col-md-6 col-12 order-1 order-lg-1">
                 <nav aria-label="Organisation">
-                    <a href="/" class="footer-logo-wrap" aria-label="Patron Accounting Home">
+                    <a href="https://www.patronaccounting.com" class="footer-logo-wrap" aria-label="Patron Accounting Home">
                         <img src="data:image/png;base64,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" alt="Patron Accounting LLP" class="footer-logo-img">
                     </a>
                     <h4 class="footer-heading" style="margin-top:16px;">Organisation</h4>
@@ -138,23 +138,23 @@
                     <h4 class="footer-heading">Popular Services</h4>
                     <div class="footer-service-group-label">GSTAT &amp; Litigation</div>
                     <ul class="list-unstyled footer-links-list mb-2">
-                        <li><a href="/gstat-appeal-filing" class="footer-link">GSTAT Appeal Filing</a></li>
-                        <li><a href="/gstat-principal-bench-representation" class="footer-link">GSTAT Principal Bench</a></li>
-                        <li><a href="/gstat-state-bench-representation" class="footer-link">GSTAT State Bench</a></li>
-                        <li><a href="/gst-notice/" class="footer-link">GST Notice Reply</a></li>
-                        <li><a href="/income-tax-notice/" class="footer-link">Income Tax Notice Reply</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-filing" class="footer-link">GSTAT Appeal Filing</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-principal-bench-representation" class="footer-link">GSTAT Principal Bench</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-state-bench-representation" class="footer-link">GSTAT State Bench</a></li>
+                        <li><a href="https://www.patronaccounting.com/gst-notice/" class="footer-link">GST Notice Reply</a></li>
+                        <li><a href="https://www.patronaccounting.com/income-tax-notice/" class="footer-link">Income Tax Notice Reply</a></li>
                     </ul>
                     <div class="footer-service-group-label">Services</div>
                     <ul class="list-unstyled footer-links-list">
-                        <li><a href="/zoho-books-accounting" class="footer-link">Zoho Books Accounting</a></li>
-                        <li><a href="/gst-registration" class="footer-link">GST Registration</a></li>
-                        <li><a href="/gst-returns" class="footer-link">GST Return Filing</a></li>
-                        <li><a href="/income-tax-return" class="footer-link">Income Tax Filing</a></li>
-                        <li><a href="/private-limited-company-registration" class="footer-link">Company Registration</a></li>
-                        <li><a href="/llp-incorporation" class="footer-link">LLP Registration</a></li>
-                        <li><a href="/trademark-registration" class="footer-link">Trademark Registration</a></li>
-                        <li><a href="/payroll-processing-and-management-services" class="footer-link">Payroll Services &amp; EOR</a></li>
-                        <li><a href="/internal-audit" class="footer-link">Internal Audit</a></li>
+                        <li><a href="https://www.patronaccounting.com/zoho-books-accounting" class="footer-link">Zoho Books Accounting</a></li>
+                        <li><a href="https://www.patronaccounting.com/gst-registration" class="footer-link">GST Registration</a></li>
+                        <li><a href="https://www.patronaccounting.com/gst-returns" class="footer-link">GST Return Filing</a></li>
+                        <li><a href="https://www.patronaccounting.com/income-tax-return" class="footer-link">Income Tax Filing</a></li>
+                        <li><a href="https://www.patronaccounting.com/private-limited-company-registration" class="footer-link">Company Registration</a></li>
+                        <li><a href="https://www.patronaccounting.com/llp-incorporation" class="footer-link">LLP Registration</a></li>
+                        <li><a href="https://www.patronaccounting.com/trademark-registration" class="footer-link">Trademark Registration</a></li>
+                        <li><a href="https://www.patronaccounting.com/payroll-processing-and-management-services" class="footer-link">Payroll Services &amp; EOR</a></li>
+                        <li><a href="https://www.patronaccounting.com/internal-audit" class="footer-link">Internal Audit</a></li>
                     </ul>
                 </nav>
             </div>
@@ -164,16 +164,16 @@
                 <nav aria-label="Popular Industries">
                     <h4 class="footer-heading">Popular Industries</h4>
                     <ul class="list-unstyled footer-links-list">
-                        <li><a href="/gstat-appeal-ecommerce" class="footer-link">E-commerce</a></li>
-                        <li><a href="/gstat-appeal-it-software" class="footer-link">IT / Software</a></li>
-                        <li><a href="/gstat-appeal-real-estate" class="footer-link">Construction &amp; Real Estate</a></li>
-                        <li><a href="/gstat-appeal-healthcare" class="footer-link">Healthcare</a></li>
-                        <li><a href="/gstat-appeal-restaurants" class="footer-link">Hospitality &amp; Restaurants</a></li>
-                        <li><a href="/gstat-appeal-exporters" class="footer-link">Exporters</a></li>
-                        <li><a href="/gstat-appeal-manufacturers" class="footer-link">Manufacturers</a></li>
-                        <li><a href="/gstat-appeal-importers" class="footer-link">Importers</a></li>
-                        <li><a href="/gstat-appeal-startups" class="footer-link">Startups</a></li>
-                        <li><a href="/gstat-appeal-education" class="footer-link">Education</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-ecommerce" class="footer-link">E-commerce</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-it-software" class="footer-link">IT / Software</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-real-estate" class="footer-link">Construction &amp; Real Estate</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-healthcare" class="footer-link">Healthcare</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-restaurants" class="footer-link">Hospitality &amp; Restaurants</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-exporters" class="footer-link">Exporters</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-manufacturers" class="footer-link">Manufacturers</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-importers" class="footer-link">Importers</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-startups" class="footer-link">Startups</a></li>
+                        <li><a href="https://www.patronaccounting.com/gstat-appeal-education" class="footer-link">Education</a></li>
                     </ul>
                     <p class="footer-industry-note">Links to industry-specific GSTAT dispute services</p>
                 </nav>
@@ -184,14 +184,14 @@
                 <nav aria-label="Useful Links">
                     <h4 class="footer-heading">Useful Links</h4>
                     <ul class="list-unstyled footer-links-list">
-                        <li><a href="/about-us" class="footer-link">About Us</a></li>
-                        <li><a href="/meet-our-founder" class="footer-link footer-link-highlight">Meet Our Founder <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
-                        <li><a href="/career" class="footer-link">Career</a></li>
-                        <li><a href="/refer-and-earn" class="footer-link footer-link-highlight">Refer &amp; Earn <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
-                        <li><a href="/partner-with-us" class="footer-link footer-link-highlight">Partner With Us <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
-                        <li><a href="/blog" class="footer-link">Guides &amp; Resources</a></li>
-                        <li><a href="/tools" class="footer-link footer-link-highlight">Free Online Tools <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
-                        <li><a href="/compliance-calendar" class="footer-link footer-link-highlight" style="white-space:nowrap;font-size:0.78rem;">India Compliance Calendar <i class="bi bi-arrow-up-right" style="font-size:0.6rem;vertical-align:middle;"></i></a></li>
+                        <li><a href="https://www.patronaccounting.com/about-us" class="footer-link">About Us</a></li>
+                        <li><a href="https://www.patronaccounting.com/meet-our-founder" class="footer-link footer-link-highlight">Meet Our Founder <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
+                        <li><a href="https://www.patronaccounting.com/career" class="footer-link">Career</a></li>
+                        <li><a href="https://www.patronaccounting.com/refer-and-earn" class="footer-link footer-link-highlight">Refer &amp; Earn <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
+                        <li><a href="https://www.patronaccounting.com/partner-with-us" class="footer-link footer-link-highlight">Partner With Us <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
+                        <li><a href="https://www.patronaccounting.com/blog" class="footer-link">Guides &amp; Resources</a></li>
+                        <li><a href="https://www.patronaccounting.com/tools" class="footer-link footer-link-highlight">Free Online Tools <i class="bi bi-arrow-up-right" style="font-size:0.6rem;"></i></a></li>
+                        <li><a href="https://www.patronaccounting.com/compliance-calendar" class="footer-link footer-link-highlight" style="white-space:nowrap;font-size:0.78rem;">India Compliance Calendar <i class="bi bi-arrow-up-right" style="font-size:0.6rem;vertical-align:middle;"></i></a></li>
                     </ul>
                 </nav>
             </div>
@@ -247,19 +247,19 @@
     <!-- Orange Secondary Strip -->
     <div class="footer-orange-strip">
         <div class="footer-orange-strip-inner">
-            <a href="/privacy-policy" class="strip-link">Privacy Policy</a>
+            <a href="https://www.patronaccounting.com/privacy-policy" class="strip-link">Privacy Policy</a>
             <span class="strip-dot">·</span>
-            <a href="/terms-and-conditions" class="strip-link">Terms &amp; Conditions</a>
+            <a href="https://www.patronaccounting.com/terms-and-conditions" class="strip-link">Terms &amp; Conditions</a>
             <span class="strip-dot">·</span>
-            <a href="/cancellation-and-refund" class="strip-link">Cancellation &amp; Refund</a>
+            <a href="https://www.patronaccounting.com/cancellation-and-refund" class="strip-link">Cancellation &amp; Refund</a>
             <span class="strip-dot">·</span>
-            <a href="/contact-page" class="strip-link">Contact Us</a>
+            <a href="https://www.patronaccounting.com/contact-page" class="strip-link">Contact Us</a>
             <span class="strip-dot">·</span>
-            <a href="/sitemap.xml" class="strip-link">Sitemap</a>
+            <a href="https://www.patronaccounting.com/sitemap.xml" class="strip-link">Sitemap</a>
             <span class="strip-dot">·</span>
-            <a href="/disclaimer" class="strip-link">Disclaimer</a>
+            <a href="https://www.patronaccounting.com/disclaimer" class="strip-link">Disclaimer</a>
             <span class="strip-dot">·</span>
-            <a href="/cookie-policy" class="strip-link">Cookie Policy</a>
+            <a href="https://www.patronaccounting.com/cookie-policy" class="strip-link">Cookie Policy</a>
         </div>
     </div>
 

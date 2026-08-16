@@ -7,20 +7,20 @@
     <title>IFC Testing Checklist &amp; Control Testing Templates</title>
     <meta name="description" content="IFC testing checklist generator: check applicability and get 12-process control testing templates for Section 143(3)(i) ICFR audits. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ifc-testing-checklist/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-testing-checklist/">
     <meta property="og:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
     <meta property="og:description" content="Generate process-wise IFC testing checklists with key controls, test methods and sample sizes. Covers P2P, O2C, R2R, Inventory, Payroll, ITGC and 6 more.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/ifc-testing-checklist">
-    <meta property="og:image" content="/tools/og/ifc-testing-checklist.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ifc-testing-checklist">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/ifc-testing-checklist.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
     <meta name="twitter:description" content="Process-wise IFC testing templates with key controls + sample sizes. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="/tools/og/ifc-testing-checklist.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/ifc-testing-checklist.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "IFC Testing Checklist & Templates Generator",
       "description": "IFC Testing Checklist & Templates Generator is a tool for Indian companies and statutory auditors to determine applicability of Internal Financial Controls reporting under Section 143(3)(i) of the Companies Act, 2013 read with MCA notification G.S.R. 583(E) dated 13 June 2017, and to generate process-wise control testing checklists. The applicability engine evaluates entity type (Listed, Public Unlisted, Private Limited, OPC, Small Company), turnover and borrowings thresholds (₹50 crore turnover, ₹25 crore aggregate borrowings), and Section 137 and 92 filing default status. The checklist generator produces test plans for twelve standard processes — Procure-to-Pay, Order-to-Cash, Record-to-Report, Inventory, Fixed Assets, Payroll, Treasury, Direct Tax, GST, Statutory Compliance, Revenue Recognition (Ind AS 115) and IT General Controls — with significant accounts mapped, key risks identified, control objectives stated, test methods recommended (walkthrough, inquiry, observation, inspection, reperformance) and sample sizes per ICAI Guidance Note on Audit of Internal Financial Controls Over Financial Reporting.",
-      "url": "/tools/ifc-testing-checklist",
+      "url": "https://www.patronaccounting.com/tools/ifc-testing-checklist",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "IFC Testing Checklist", "item": "/tools/ifc-testing-checklist"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "IFC Testing Checklist", "item": "https://www.patronaccounting.com/tools/ifc-testing-checklist"}
       ]
     }
     </script>
@@ -417,8 +417,8 @@
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     IFC Testing Checklist
 </nav>
 
@@ -722,29 +722,29 @@
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist Generator<span class="arrow">→</span></a>
-            <a href="/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar<span class="arrow">→</span></a>
-            <a href="/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist<span class="arrow">→</span></a>
-            <a href="/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist Generator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
-            <a href="/blog/loan-to-directors-rules-under-companies-act-2013" class="sidebar-link">Loans to Directors — Sec 185<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/loan-to-directors-rules-under-companies-act-2013" class="sidebar-link">Loans to Directors — Sec 185<span class="arrow">→</span></a>
         </div>
 
     </aside>

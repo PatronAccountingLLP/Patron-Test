@@ -5,14 +5,14 @@
     <title>Section 87A Rebate Calculator | FY 2025-26 Old &amp; New</title>
     <meta name="description" content="Section 87A rebate calculator for FY 2025-26 (AY 2026-27): compute tax rebate under old (₹12,500) and new regime (₹60,000), with marginal relief. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/section-87a-rebate-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Section 87A Rebate Calculator — Old &amp; New Regime FY 2025-26">
     <meta property="og:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation for FY 2025-26.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/section-87a-rebate-calculator">
-    <meta property="og:image" content="/tools/og/section-87a-rebate-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/section-87a-rebate-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
@@ -20,11 +20,11 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 87A Rebate Calculator — Old &amp; New Regime FY 2025-26">
     <meta name="twitter:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation.">
-    <meta name="twitter:image" content="/tools/og/section-87a-rebate-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/section-87a-rebate-calculator.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 
@@ -35,7 +35,7 @@
       "@type": "SoftwareApplication",
       "name": "Section 87A Rebate Calculator",
       "description": "Section 87A Rebate Calculator computes the income tax rebate available to resident individuals under both the old tax regime (up to ₹12,500 for income up to ₹5 lakh) and the new tax regime (up to ₹60,000 for income up to ₹12 lakh) for FY 2025-26 (AY 2026-27), including marginal relief calculation.",
-      "url": "/tools/section-87a-rebate-calculator",
+      "url": "https://www.patronaccounting.com/tools/section-87a-rebate-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -49,10 +49,10 @@
       },
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -65,9 +65,9 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -78,9 +78,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Section 87A Rebate Calculator", "item": "/tools/section-87a-rebate-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Section 87A Rebate Calculator", "item": "https://www.patronaccounting.com/tools/section-87a-rebate-calculator"}
       ]
     }
     </script>
@@ -965,9 +965,9 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Section 87A Rebate Calculator
 </nav>
@@ -1287,7 +1287,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <ol>
                 <li><strong>Log in</strong> to <a href="https://www.incometax.gov.in/iec/foportal/" target="_blank" rel="noopener">incometax.gov.in</a> and start your ITR filing for AY 2026-27.</li>
                 <li><strong>Choose your tax regime</strong> at the start of the form. New regime is default; opt for old regime if it's beneficial after running scenarios. Salaried taxpayers can switch each year; business income earners face one-time switching restrictions.</li>
-                <li><strong>Enter all income heads</strong> — salary, house property, capital gains, business/profession, other sources. Also reconcile against AIS using our <a href="/tools/ais-reconciliation-tool">AIS Reconciliation Tool</a> first.</li>
+                <li><strong>Enter all income heads</strong> — salary, house property, capital gains, business/profession, other sources. Also reconcile against AIS using our <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool">AIS Reconciliation Tool</a> first.</li>
                 <li><strong>Enter deductions</strong> (only available under old regime — Chapter VI-A: 80C, 80D, 80G, 80E, 80TTA, etc.).</li>
                 <li><strong>Verify the Tax Computation Schedule.</strong> The portal shows "Tax Payable on Total Income" → "Rebate u/s 87A" → "Tax after Rebate". Cross-check the rebate amount matches what this calculator shows.</li>
                 <li><strong>Check marginal relief applicability.</strong> If your income is between ₹12,00,001 and ₹12,70,588 (new regime), the portal should automatically apply marginal relief. If not shown, recompute using this tool and raise a portal grievance.</li>
@@ -1295,7 +1295,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             </ol>
 
             <div class="callout">
-                <p><strong>If you missed claiming the rebate</strong> in an already-filed ITR, you can file a revised return under Section 139(5) before 31 December 2026 for AY 2026-27. For arithmetic errors on rebate computation by CPC, file a rectification under Section 154 — see our <a href="/blog/section-154-rectification-how-to-correct-mistakes-in-your-income-tax-return">Section 154 rectification guide</a>.</p>
+                <p><strong>If you missed claiming the rebate</strong> in an already-filed ITR, you can file a revised return under Section 139(5) before 31 December 2026 for AY 2026-27. For arithmetic errors on rebate computation by CPC, file a rectification under Section 154 — see our <a href="https://www.patronaccounting.com/blog/section-154-rectification-how-to-correct-mistakes-in-your-income-tax-return">Section 154 rectification guide</a>.</p>
             </div>
         </section>
 
@@ -1393,29 +1393,29 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
-            <a href="/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/old-regime-vs-regime-ay-2026-27" class="sidebar-link">Old vs New Regime AY 2026-27 <span class="arrow">→</span></a>
-            <a href="/blog/income-tax-old-regime-2026-it-rules-changed-math" class="sidebar-link">Old Regime 2026 — Changed Math <span class="arrow">→</span></a>
-            <a href="/blog/benefits-of-filing-itr" class="sidebar-link">Why You Should File Your ITR <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/old-regime-vs-regime-ay-2026-27" class="sidebar-link">Old vs New Regime AY 2026-27 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-old-regime-2026-it-rules-changed-math" class="sidebar-link">Old Regime 2026 — Changed Math <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/benefits-of-filing-itr" class="sidebar-link">Why You Should File Your ITR <span class="arrow">→</span></a>
         </div>
 
     </aside>

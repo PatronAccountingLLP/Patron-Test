@@ -4,28 +4,28 @@
     <title>GST Registration Eligibility Checker | FY 2025-26</title>
     <meta name="description" content="GST registration eligibility checker: answer 5 questions to see if your business must register for GST, with turnover threshold limits for FY 2025-26. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/gst-registration-eligibility-checker">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-registration-eligibility-checker">
     <meta property="og:title" content="GST Registration Eligibility Checker &mdash; Free 2026">
     <meta property="og:description" content="Check if your business needs GST registration. Instant eligibility result for FY 2025-26.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/gst-registration-eligibility-checker">
-    <meta property="og:image" content="/tools/og-gst-registration-eligibility-checker.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-registration-eligibility-checker">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-gst-registration-eligibility-checker.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Registration Eligibility Checker &mdash; Free 2026">
     <meta name="twitter:description" content="Check if your business needs GST registration for FY 2025-26.">
-    <meta name="twitter:image" content="/tools/og-gst-registration-eligibility-checker.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og-gst-registration-eligibility-checker.png">
 @endsection
 
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebApplication","name":"GST Registration Eligibility Checker","description":"GST Registration Eligibility Checker determines whether a business needs mandatory GST registration based on turnover, supply type, state category, and special conditions under Section 22 and Section 24 of the CGST Act 2017 for FY 2025-26.","url":"/tools/gst-registration-eligibility-checker","applicationCategory":"UtilityApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"/","logo":{"@type":"ImageObject","url":"/logo.png"}},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"WebApplication","name":"GST Registration Eligibility Checker","description":"GST Registration Eligibility Checker determines whether a business needs mandatory GST registration based on turnover, supply type, state category, and special conditions under Section 22 and Section 24 of the CGST Act 2017 for FY 2025-26.","url":"https://www.patronaccounting.com/tools/gst-registration-eligibility-checker","applicationCategory":"UtilityApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"https://patronaccounting.com/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/logo.png"}},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"GST Registration Eligibility Checker","item":"/tools/gst-registration-eligibility-checker"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"GST Registration Eligibility Checker","item":"https://www.patronaccounting.com/tools/gst-registration-eligibility-checker"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the GST registration limit for goods in India?","acceptedAnswer":{"@type":"Answer","text":"The GST registration threshold for businesses dealing in goods is \u20B940 lakh aggregate annual turnover in normal category states. In special category states like Manipur, Mizoram, Nagaland, and Tripura, the threshold is \u20B920 lakh. Once turnover exceeds these limits in a financial year, registration becomes mandatory within 30 days under Section 22 of the CGST Act."}},{"@type":"Question","name":"What is the GST registration limit for services?","acceptedAnswer":{"@type":"Answer","text":"Service providers must register for GST when aggregate turnover exceeds \u20B920 lakh per year in normal category states. In special category states the threshold is \u20B910 lakh. This applies to all types of services including consulting, IT, legal, accounting, and professional services. The threshold is calculated on a PAN-India basis across all business verticals."}},{"@type":"Question","name":"Which states are special category states for GST registration?","acceptedAnswer":{"@type":"Answer","text":"Special category states with lower GST registration thresholds include Manipur, Mizoram, Nagaland, and Tripura where the limit is \u20B910 lakh for services and \u20B920 lakh for goods. Other northeastern states like Arunachal Pradesh, Meghalaya, Sikkim, and Assam along with Himachal Pradesh, Uttarakhand, and Jammu and Kashmir follow the normal category thresholds."}},{"@type":"Question","name":"When is GST registration compulsory regardless of turnover?","acceptedAnswer":{"@type":"Answer","text":"GST registration is mandatory regardless of turnover for interstate suppliers, e-commerce sellers, casual taxable persons, non-resident taxable persons, persons liable to pay tax under reverse charge, agents and principals, Input Service Distributors, TDS deductors under GST, and online service providers supplying from outside India to persons in India."}},{"@type":"Question","name":"Do I need GST registration for selling on Amazon or Flipkart?","acceptedAnswer":{"@type":"Answer","text":"Yes, GST registration is mandatory for all sellers on e-commerce platforms like Amazon, Flipkart, Meesho, and Myntra regardless of turnover. This requirement is under Section 24(ix) of the CGST Act. Even if your annual sales are below \u20B940 lakh, you must obtain GST registration before listing products on any e-commerce marketplace in India."}},{"@type":"Question","name":"What is aggregate turnover for GST registration purposes?","acceptedAnswer":{"@type":"Answer","text":"Aggregate turnover includes the total value of all taxable supplies, exempt supplies, exports, and interstate supplies made by a person with the same PAN across India. It excludes inward supplies under reverse charge, GST taxes, and cess. The calculation is done on a PAN-India basis not state-wise, meaning all business verticals under one PAN are combined."}},{"@type":"Question","name":"What is the penalty for not registering under GST?","acceptedAnswer":{"@type":"Answer","text":"If a business fails to register under GST despite being liable, a penalty of 10 percent of the tax due or \u20B910,000 whichever is higher is imposed under Section 122 of the CGST Act. If tax evasion is established, the penalty can be 100 percent of the tax amount. Additionally, the business cannot claim Input Tax Credit and any tax collected without registration is illegal."}},{"@type":"Question","name":"Can I voluntarily register for GST below the threshold limit?","acceptedAnswer":{"@type":"Answer","text":"Yes, any business can voluntarily register for GST under Section 25(3) of the CGST Act even if turnover is below the threshold. Benefits include claiming Input Tax Credit on purchases, enhanced business credibility with clients and vendors, eligibility to supply to government departments, and ability to make interstate supplies without threshold concerns."}},{"@type":"Question","name":"What is the GST composition scheme eligibility?","acceptedAnswer":{"@type":"Answer","text":"The composition scheme is available for businesses with aggregate turnover up to \u20B91.5 crore for goods manufacturers and traders. Service providers with turnover up to \u20B950 lakh can opt for the composition scheme at 6 percent tax rate. Composition dealers pay tax at reduced rates quarterly via CMP-08 and file annual return GSTR-4. They cannot collect GST from customers."}},{"@type":"Question","name":"Is interstate supply automatically requiring GST registration?","acceptedAnswer":{"@type":"Answer","text":"Yes, any person making interstate supply of goods or services must mandatorily register for GST under Section 24(i) of the CGST Act regardless of turnover. This includes selling goods or services to customers in another state or union territory. The only exception is for handicraft suppliers who are notified by the government and fall below the turnover threshold."}},{"@type":"Question","name":"How do I calculate if my turnover crosses the GST threshold?","acceptedAnswer":{"@type":"Answer","text":"Add all taxable supplies, exempt supplies, exports, and interstate supplies under the same PAN for the current financial year. Exclude GST taxes, cess, and inward supplies under reverse charge. If the total exceeds \u20B940 lakh for goods or \u20B920 lakh for services in normal states, registration is mandatory. Track turnover monthly to identify when the threshold is crossed."}},{"@type":"Question","name":"Do freelancers need GST registration in India?","acceptedAnswer":{"@type":"Answer","text":"Freelancers providing services must register for GST when their aggregate annual turnover exceeds \u20B920 lakh in normal category states or \u20B910 lakh in special category states. This applies to all freelance services including IT consulting, design, writing, and professional services. If a freelancer sells on e-commerce platforms, registration is mandatory regardless of turnover."}},{"@type":"Question","name":"What documents are required for GST registration?","acceptedAnswer":{"@type":"Answer","text":"Documents required include PAN card of the business or proprietor, Aadhaar card, business registration proof such as partnership deed or incorporation certificate, address proof of principal place of business like rent agreement or electricity bill, bank account details with cancelled cheque, and photograph of the authorized signatory. Digital Signature Certificate is needed for companies and LLPs."}}]}
@@ -153,9 +153,9 @@
 </nav>
 
 {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>&rsaquo;</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>&rsaquo;</span>
     GST Registration Eligibility Checker
 </nav> --}}
@@ -350,7 +350,7 @@
             <p>Once applied, GST registration is typically processed within 3&ndash;7 working days. Aadhaar-authenticated applications are processed faster. If the officer raises a query, you have 7 days to respond. After approval, a 15-digit GSTIN is issued and you can begin issuing tax invoices and collecting GST immediately.</p>
 
             <h3>After Registration</h3>
-            <p>Once registered, you must file GSTR-1 (outward supplies) and GSTR-3B (summary return) monthly or quarterly depending on turnover. You must also maintain proper books of account as per Section 35 of the CGST Act. Non-filing of returns for 6 months can lead to registration cancellation. Learn more about GST return due dates using our <a href="/tools/gst-return-due-date-tracker">GST Return Due Date Tracker</a>.</p>
+            <p>Once registered, you must file GSTR-1 (outward supplies) and GSTR-3B (summary return) monthly or quarterly depending on turnover. You must also maintain proper books of account as per Section 35 of the CGST Act. Non-filing of returns for 6 months can lead to registration cancellation. Learn more about GST return due dates using our <a href="https://www.patronaccounting.com/tools/gst-return-due-date-tracker">GST Return Due Date Tracker</a>.</p>
 
             <div class="callout warn">
                 <p><strong>Compliance Note:</strong> From April 2025, mandatory Input Service Distributor (ISD) registration is required for businesses operating multiple GSTINs under the same PAN. This is a significant change introduced by the <a href="https://cbic-gst.gov.in/" target="_blank" rel="noopener">CBIC</a> that affects multi-state businesses.</p>
@@ -378,25 +378,25 @@
         </div>
         <div class="sidebar-card">
             <h3>GST Services</h3>
-            <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit <span class="arrow">&rarr;</span></a>
-            <a href="/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
-            <a href="/gst-returns-for-e-commerce-operator" class="sidebar-link">E-Commerce GST Returns <span class="arrow">&rarr;</span></a>
-            <a href="/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns-for-e-commerce-operator" class="sidebar-link">E-Commerce GST Returns <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/gst-return-due-date-tracker" class="sidebar-link">GST Due Date Tracker <span class="arrow">&rarr;</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/gst-composition-scheme-eligibility" class="sidebar-link">Composition Eligibility <span class="arrow">&rarr;</span></a>
-            <a href="/tools/hsn-sac-code-finder" class="sidebar-link">HSN/SAC Code Finder <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-return-due-date-tracker" class="sidebar-link">GST Due Date Tracker <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-composition-scheme-eligibility" class="sidebar-link">Composition Eligibility <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/hsn-sac-code-finder" class="sidebar-link">HSN/SAC Code Finder <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
         </div>
     </aside>
 </div>

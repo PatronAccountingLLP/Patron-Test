@@ -5,22 +5,22 @@
 <meta name="description" content="Turnover threshold checker FY 2025-26: enter turnover to see if GST registration, tax audit u/s 44AB, presumptive 44AD/44ADA or MSME limits apply. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/turnover-threshold-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/turnover-threshold-checker">
 
 <meta property="og:title" content="Turnover Threshold Checker — GST, Audit & MSME FY 25-26">
 <meta property="og:description" content="Enter your annual turnover and instantly see which compliance thresholds apply: GST registration, tax audit u/s 44AB, presumptive taxation and MSME classification.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/turnover-threshold-checker">
-<meta property="og:image" content="/tools/turnover-threshold-checker-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/turnover-threshold-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/turnover-threshold-checker-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Turnover Threshold Checker — GST, Audit & MSME FY 25-26">
 <meta name="twitter:description" content="Enter turnover to see if GST registration, tax audit, presumptive scheme or MSME limits apply. Free & instant for FY 2025-26.">
-<meta name="twitter:image" content="/tools/turnover-threshold-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/turnover-threshold-checker-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "Turnover Threshold Checker",
   "description": "Turnover Threshold Checker takes a business or professional's annual turnover, entity type, digital-transaction share and state category and instantly shows which Indian compliance thresholds are triggered for FY 2025-26: GST registration, tax audit under Section 44AB, presumptive taxation under Section 44AD/44ADA, and MSME (Udyam) classification.",
-  "url": "/tools/turnover-threshold-checker",
+  "url": "https://www.patronaccounting.com/tools/turnover-threshold-checker",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Turnover Threshold Checker", "item": "/tools/turnover-threshold-checker"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Turnover Threshold Checker", "item": "https://www.patronaccounting.com/tools/turnover-threshold-checker"}
   ]
 }
 </script>
@@ -700,9 +700,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Turnover Threshold Checker
 </nav>
@@ -803,7 +803,7 @@ a:focus-visible {
                 <li><strong>Choose your digital-transaction level</strong> — whether 95% or more of receipts and payments are non-cash. This unlocks the higher ₹10 crore audit limit and ₹3 crore / ₹75 lakh presumptive ceilings.</li>
                 <li><strong>Select your state category</strong> for GST — normal or special category — then click <strong>Check Thresholds</strong>.</li>
             </ol>
-            <p>You get a colour-coded card for each regime — GST registration, tax audit u/s 44AB, presumptive 44AD/44ADA and MSME classification — telling you whether the threshold is crossed, and by how much. Pair it with the <a href="/tools/income-tax-calculator">income tax calculator</a> and <a href="/tools/advance-tax-calculator">advance tax calculator</a> to plan the resulting liability.</p>
+            <p>You get a colour-coded card for each regime — GST registration, tax audit u/s 44AB, presumptive 44AD/44ADA and MSME classification — telling you whether the threshold is crossed, and by how much. Pair it with the <a href="https://www.patronaccounting.com/tools/income-tax-calculator">income tax calculator</a> and <a href="https://www.patronaccounting.com/tools/advance-tax-calculator">advance tax calculator</a> to plan the resulting liability.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> GST uses aggregate PAN-level turnover (including exempt and export sales), while tax-audit and presumptive limits look at business turnover or professional gross receipts. Use the same financial-year figure consistently and confirm edge cases with a CA.</p>
             </div>
@@ -821,7 +821,7 @@ a:focus-visible {
                     <tr><td>Services</td><td>₹20 lakh</td><td>₹10 lakh</td></tr>
                 </tbody>
             </table>
-            <p>Aggregate turnover is computed PAN-India and includes taxable, exempt, export and inter-state supplies, but excludes GST itself. Some suppliers must register regardless of turnover — inter-state taxable suppliers, e-commerce operators and persons liable under reverse charge. Below the limit you can still register voluntarily to claim input tax credit. You can verify the live position on the <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">GST portal</a>, and get help with <a href="/gst-registration">GST registration</a> if you are close to or over the threshold.</p>
+            <p>Aggregate turnover is computed PAN-India and includes taxable, exempt, export and inter-state supplies, but excludes GST itself. Some suppliers must register regardless of turnover — inter-state taxable suppliers, e-commerce operators and persons liable under reverse charge. Below the limit you can still register voluntarily to claim input tax credit. You can verify the live position on the <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">GST portal</a>, and get help with <a href="https://www.patronaccounting.com/gst-registration">GST registration</a> if you are close to or over the threshold.</p>
         </section>
 
         <section class="content-section" id="audit">
@@ -836,7 +836,7 @@ a:focus-visible {
                     <tr><td>Profession</td><td>₹50 lakh</td><td>₹75 lakh*</td></tr>
                 </tbody>
             </table>
-            <p>*For professionals the ₹75 lakh figure relates to the 44ADA presumptive ceiling when cash receipts are within 5%; there is no separate ₹10 crore audit relief for professionals. The enhanced ₹10 crore business limit applies only when <strong>both</strong> cash receipts and cash payments are 5% or less of their totals. A tax audit is also triggered if you opt out of the presumptive scheme and declare income below the deemed rate while having taxable income. See Patron's <a href="/tax-audit">tax audit service</a> for Form 3CD preparation and filing.</p>
+            <p>*For professionals the ₹75 lakh figure relates to the 44ADA presumptive ceiling when cash receipts are within 5%; there is no separate ₹10 crore audit relief for professionals. The enhanced ₹10 crore business limit applies only when <strong>both</strong> cash receipts and cash payments are 5% or less of their totals. A tax audit is also triggered if you opt out of the presumptive scheme and declare income below the deemed rate while having taxable income. See Patron's <a href="https://www.patronaccounting.com/tax-audit">tax audit service</a> for Form 3CD preparation and filing.</p>
             <div class="callout warn">
                 <p><strong>Deadline:</strong> The tax audit report is generally due by 30 September of the assessment year. Late filing attracts a penalty under Section 271B — act early once you see the threshold is crossed.</p>
             </div>
@@ -880,7 +880,7 @@ a:focus-visible {
                     <tr><td>Medium</td><td>₹125 crore</td><td>₹500 crore</td></tr>
                 </tbody>
             </table>
-            <p>This checker indicates your category by turnover alone; confirm the investment side too, since the higher of the two tests decides your class. Registering on the <a href="https://udyamregistration.gov.in/" target="_blank" rel="noopener">Udyam portal</a> unlocks collateral-free credit, priority-sector lending and procurement preferences — see <a href="/udyam-registration">Udyam registration</a>. Note that for AY 2025-26 income-tax purposes the pre-revision limits may still apply to classification, so check the relevant context.</p>
+            <p>This checker indicates your category by turnover alone; confirm the investment side too, since the higher of the two tests decides your class. Registering on the <a href="https://udyamregistration.gov.in/" target="_blank" rel="noopener">Udyam portal</a> unlocks collateral-free credit, priority-sector lending and procurement preferences — see <a href="https://www.patronaccounting.com/udyam-registration">Udyam registration</a>. Note that for AY 2025-26 income-tax purposes the pre-revision limits may still apply to classification, so check the relevant context.</p>
         </section>
 
         <section class="content-section" id="penalties">
@@ -971,26 +971,26 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit (44AB) <span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
-            <a href="/udyam-registration" class="sidebar-link">Udyam (MSME) Registration <span class="arrow">→</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
-            <a href="/turnover-certificate" class="sidebar-link">Turnover Certificate <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit (44AB) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/udyam-registration" class="sidebar-link">Udyam (MSME) Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/turnover-certificate" class="sidebar-link">Turnover Certificate <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/statutory-audit-fee-estimator" class="sidebar-link">Statutory Audit Fee Estimator <span class="arrow">→</span></a>
-            <a href="/tools/gst-refund-eligibility-checker" class="sidebar-link">GST Refund Eligibility Checker <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator" class="sidebar-link">Statutory Audit Fee Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker" class="sidebar-link">GST Refund Eligibility Checker <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
-            <a href="/small-company-audit-exemption" class="sidebar-link">Small Company Audit Exemption <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/small-company-audit-exemption" class="sidebar-link">Small Company Audit Exemption <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

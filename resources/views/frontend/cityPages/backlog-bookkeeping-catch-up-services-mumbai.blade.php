@@ -33,31 +33,31 @@
   "@graph": [
     {
       "@type": "BreadcrumbList",
-      "@id": "/backlog-bookkeeping-catch-up-services/mumbai#breadcrumb",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/mumbai#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "/"
+          "item": "https://www.patronaccounting.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Backlog Bookkeeping and Catch-Up Services",
-          "item": "/backlog-bookkeeping-catch-up-services"
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Backlog Bookkeeping and Catch-Up Services in Mumbai",
-          "item": "/backlog-bookkeeping-catch-up-services/mumbai"
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/mumbai"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "/backlog-bookkeeping-catch-up-services/mumbai#faq",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/mumbai#faq",
       "datePublished": "2026-06-23T08:00:00+05:30",
       "dateModified": "2026-06-23T08:00:00+05:30",
       "mainEntity": [
@@ -129,11 +129,11 @@
     },
     {
       "@type": "Service",
-      "@id": "/backlog-bookkeeping-catch-up-services/mumbai#service",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/mumbai#service",
       "name": "Backlog Bookkeeping and Catch-Up Services in Mumbai",
       "description": "Catch-up bookkeeping in Mumbai rebuilds months or years of unrecorded accounts, ties out bank and GST figures, and returns audit-ready books. Patron Accounting covers ledger cleanup, GSTR-2B matching, and trial balance verification for BKC and Lower Parel finance firms, Andheri and Powai agencies, and Bhiwandi warehousing units.",
       "serviceType": "Backlog Bookkeeping and Catch-Up Bookkeeping",
-      "url": "/backlog-bookkeeping-catch-up-services/mumbai",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/mumbai",
       "areaServed": {
         "@type": "City",
         "name": "Mumbai",
@@ -143,7 +143,7 @@
         }
       },
       "provider": {
-        "@id": "/#localbusiness-mumbai"
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
       },
       "about": [
         {
@@ -181,10 +181,10 @@
     },
     {
       "@type": "LocalBusiness",
-      "@id": "/#localbusiness-mumbai",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
       "name": "Patron Accounting LLP - Mumbai",
-      "image": "/images/site-logo.svg",
-      "url": "/backlog-bookkeeping-catch-up-services/mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/mumbai",
       "telephone": "+91-9699936369",
       "priceRange": "INR",
       "areaServed": {
@@ -199,7 +199,7 @@
         "addressCountry": "IN"
       },
       "parentOrganization": {
-        "@id": "/#organization"
+        "@id": "https://www.patronaccounting.com/#organization"
       }
     }
   ]
@@ -916,19 +916,46 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'backlog-bookkeeping-catch-up-services/mumbai',
-                    'options'  => [
-                        'backlog-bookkeeping-catch-up-services/mumbai' => 'Backlog Bookkeeping and Catch-Up in Mumbai',
-                        'gst-returns/mumbai' => 'GST Return Filing in Mumbai',
-                        'income-tax-return/mumbai' => 'Income Tax Return Filing in Mumbai',
-                        'tally-accounting/mumbai' => 'Tally Accounting in Mumbai',
-                        'zoho-books-accounting/mumbai' => 'Zoho Books Accounting in Mumbai',
-                        'payroll-services/mumbai' => 'Payroll Services in Mumbai',
-                        'tax-audit/mumbai' => 'Tax Audit in Mumbai',
-                        'other' => 'Other',
-                    ],
-                ])
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                                        @include('partials.lead-form', [
+                        'deal' => 'Website Enquiry - Backlog Bookkeeping Catch-Up',
+                        'options' => [
+                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
+                            ['value' => 'backlog-bookkeeping-catch-up-services/mumbai', 'label' => 'Backlog Bookkeeping and Catch-Up in Mumbai', 'selected' => true, 'disabled' => false],
+                            ['value' => 'gst-returns/mumbai', 'label' => 'GST Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
+                            ['value' => 'income-tax-return/mumbai', 'label' => 'Income Tax Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
+                            ['value' => 'tally-accounting/mumbai', 'label' => 'Tally Accounting in Mumbai', 'selected' => false, 'disabled' => false],
+                            ['value' => 'zoho-books-accounting/mumbai', 'label' => 'Zoho Books Accounting in Mumbai', 'selected' => false, 'disabled' => false],
+                            ['value' => 'payroll-services/mumbai', 'label' => 'Payroll Services in Mumbai', 'selected' => false, 'disabled' => false],
+                            ['value' => 'tax-audit/mumbai', 'label' => 'Tax Audit in Mumbai', 'selected' => false, 'disabled' => false],
+                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+                        ],
+                    ])
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1495,12 +1522,203 @@
 </main>
 
 
+<script>
+// ── Country Code Dropdown ──────────────────────────────────────
+var countries = [
+    { name: 'India', code: '+91', flag: '🇮🇳' },
+    { name: 'United States', code: '+1', flag: '🇺🇸' },
+    { name: 'United Kingdom', code: '+44', flag: '🇬🇧' },
+    { name: 'United Arab Emirates', code: '+971', flag: '🇦🇪' },
+    { name: 'Singapore', code: '+65', flag: '🇸🇬' },
+    { name: 'Australia', code: '+61', flag: '🇦🇺' },
+    { name: 'Canada', code: '+1', flag: '🇨🇦' },
+    { name: 'Germany', code: '+49', flag: '🇩🇪' },
+    { name: 'Saudi Arabia', code: '+966', flag: '🇸🇦' }
+];
+var selectedCountry = countries[0];
 
+function populateCountries() {
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    countries.forEach(function(c, i) {
+        var div = document.createElement('div');
+        div.className = 'country-option' + (i === 0 ? ' active' : '');
+        div.innerHTML = '<span class="flag-emoji">' + c.flag + '</span><span class="country-name">' + c.name + '</span><span class="dial-code">' + c.code + '</span>';
+        div.onclick = function(e) { e.stopPropagation(); selectCountry(c); };
+        container.appendChild(div);
+    });
+}
+function selectCountry(c) {
+    selectedCountry = c;
+    document.getElementById('selectedFlag').textContent = c.flag;
+    document.getElementById('selectedCode').textContent = c.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+}
+function toggleCountryDropdown(e) {
+    e.stopPropagation();
+    document.getElementById('countryCodeDropdown').classList.toggle('open');
+}
+function filterCountries(val) {
+    val = (val || '').toLowerCase();
+    var opts = document.querySelectorAll('#countryOptions .country-option');
+    opts.forEach(function(o) {
+        var name = o.querySelector('.country-name').textContent.toLowerCase();
+        var code = o.querySelector('.dial-code').textContent.toLowerCase();
+        o.style.display = (name.indexOf(val) > -1 || code.indexOf(val) > -1) ? 'flex' : 'none';
+    });
+}
+document.addEventListener('click', function() {
+    var d = document.getElementById('countryCodeDropdown');
+    if (d) d.classList.remove('open');
+});
 
+// ── Field Error Helpers ────────────────────────────────────────
+function clearFieldError(el) {
+    el.classList.remove('input-error');
+    var parent = el.closest('.form-group');
+    if (parent) {
+        var err = parent.querySelector('.field-error-msg');
+        if (err) err.remove();
+    }
+}
+function setFieldError(el, message) {
+    el.classList.add('input-error');
+    var parent = el.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
 
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) { return { valid: false, message: 'Phone number is required' }; }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) { return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' }; }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) { return { valid: false, message: 'Enter a valid phone number (7-15 digits)' }; }
+    return { valid: true };
+}
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+
+function validateConsultationForm() {
+    var isValid = true;
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+    var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote →'; }, 6000);
+    }
+    return isValid;
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) { isReturn = false; }
+        }
+    }
+    if(isReturn) { document.getElementById('formSubmitBtn').disabled = true; }
+    return isReturn;
+}
+
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) { showSuccessState(); }
+    } catch (error) { showSuccessState(); }
+});
+</script>
 
 <!-- Bigin WebForm Script -->
-
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
 

@@ -7,20 +7,20 @@
     <title>RFD-01 Checklist | GST Refund Pre-Filing under Sec 54</title>
     <meta name="description" content="RFD-01 pre-filing checklist: verify documents, statements, eligibility and limitation across 10 GST refund categories under Section 54. Free CA-grade tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/rfd-01-filing-checklist/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist/">
     <meta property="og:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
     <meta property="og:description" content="Verify your RFD-01 application is complete before filing. Category-specific checklist, statement requirements, limitation tracker, deficiency-memo prevention. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/rfd-01-filing-checklist">
-    <meta property="og:image" content="/tools/og/rfd-01-filing-checklist.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/rfd-01-filing-checklist.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
     <meta name="twitter:description" content="10 categories. Statements 1A-7. Limitation tracker. Provisional refund eligibility under Instruction 06/2025. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/rfd-01-filing-checklist.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/rfd-01-filing-checklist.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "RFD-01 Pre-Filing Checklist (GST Refund Readiness)",
       "description": "RFD-01 Pre-Filing Checklist verifies that a GST refund application is complete and ready for submission on the GST portal under Section 54 of the Central Goods and Services Tax Act, 2017 read with Rule 89 of the Central Goods and Services Tax Rules, 2017. The tool covers all ten categories of GST refund supported through Form GST RFD-01: refund of unutilised Input Tax Credit on account of zero-rated supplies under the Letter of Undertaking route as per Section 54(3)(i) and Rule 89(4); refund of tax paid on zero-rated supplies under the Integrated Goods and Services Tax route as per Rule 96; refund of unutilised Input Tax Credit on account of supplies to Special Economic Zone unit or developer without payment of tax; refund of tax paid on supplies to Special Economic Zone unit or developer with payment of tax; refund of unutilised Input Tax Credit accumulated due to Inverted Duty Structure under Section 54(3)(ii) and Rule 89(5); refund on account of deemed exports as per Notification No. 48/2017-Central Tax; refund of excess balance in the electronic cash ledger; refund of excess tax paid by mistake; refund on account of any assessment, provisional assessment, appeal or any other order; and refund under any other category not specified above. The tool generates a readiness score, identifies missing documents and statements, computes the two-year limitation under Section 54(1) from the relevant date applicable to the selected category, computes the sixty-day final order window under Section 54(7), flags Section 56 interest entitlement at six per cent per annum for delayed sanction, checks eligibility for the ninety per cent provisional refund under Rule 91(2) as amended by Notification No. 13/2025-Central Tax effective 1 October 2025 and CBIC Instruction No. 06/2025-GST extending provisional refund to Inverted Duty Structure claims, and validates Aadhaar authentication and risk-flagging exclusions under Notification No. 14/2025-Central Tax. The tool incorporates the prerequisite filing of Form GSTR-1 and Form GSTR-3B for the relevant period, the requirement of a registered Letter of Undertaking in Form RFD-11 for zero-rated supplies without payment, the documentary requirements of Statement-1A, Statement-2, Statement-3, Statement-3A, Statement-4, Statement-5, Statement-5A, Statement-5B, Statement-6 and Statement-7 prescribed under Rule 89, the Annexure-A self-declaration, the Annexure-B for invoice-wise input details, and the Chartered Accountant or Cost Accountant certification under Annexure-2 of Circular No. 125/44/2019-GST mandatory where the refund claim exceeds two lakh rupees.",
-      "url": "/tools/rfd-01-filing-checklist",
+      "url": "https://www.patronaccounting.com/tools/rfd-01-filing-checklist",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "RFD-01 Pre-Filing Checklist", "item": "/tools/rfd-01-filing-checklist"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "RFD-01 Pre-Filing Checklist", "item": "https://www.patronaccounting.com/tools/rfd-01-filing-checklist"}
       ]
     }
     </script>
@@ -521,9 +521,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     RFD-01 Pre-Filing Checklist
 </nav>
@@ -540,7 +540,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>This RFD-01 Pre-Filing Checklist verifies that your GST refund application is complete and ready for submission on the GST common portal under <strong><a href="https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/cgst-act/active/chapter11/section54.html" rel="noopener" target="_blank">Section 54 of the CGST Act</a></strong> read with <strong>Rule 89</strong>. The tool covers all <strong>10 refund categories</strong> — exports under LUT, exports with IGST, SEZ supplies (with and without tax), inverted duty structure, deemed exports, excess cash ledger, excess tax paid, assessment-based refunds and any other category. It generates a <strong>readiness score</strong>, lists missing documents and statements, computes the <strong>2-year limitation</strong> from category-specific relevant dates per Section 54(1), checks eligibility for the <strong>90% provisional refund</strong> under Rule 91(2) extended to IDS by CBIC Instruction 06/2025-GST from 1 October 2025, and flags Aadhaar authentication and risk-based exclusions under Notification 14/2025-CT. Pair this with our <a href="/tools/export-refund-lut-calculator">LUT</a>, <a href="/tools/igst-export-refund-calculator">IGST</a> or <a href="/tools/inverted-duty-refund-calculator">IDS</a> calculators to compute the actual refund amount.</p>
+    <p>This RFD-01 Pre-Filing Checklist verifies that your GST refund application is complete and ready for submission on the GST common portal under <strong><a href="https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/cgst-act/active/chapter11/section54.html" rel="noopener" target="_blank">Section 54 of the CGST Act</a></strong> read with <strong>Rule 89</strong>. The tool covers all <strong>10 refund categories</strong> — exports under LUT, exports with IGST, SEZ supplies (with and without tax), inverted duty structure, deemed exports, excess cash ledger, excess tax paid, assessment-based refunds and any other category. It generates a <strong>readiness score</strong>, lists missing documents and statements, computes the <strong>2-year limitation</strong> from category-specific relevant dates per Section 54(1), checks eligibility for the <strong>90% provisional refund</strong> under Rule 91(2) extended to IDS by CBIC Instruction 06/2025-GST from 1 October 2025, and flags Aadhaar authentication and risk-based exclusions under Notification 14/2025-CT. Pair this with our <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">LUT</a>, <a href="https://www.patronaccounting.com/tools/igst-export-refund-calculator">IGST</a> or <a href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">IDS</a> calculators to compute the actual refund amount.</p>
 </div>
 
 <div class="main-layout">
@@ -1009,29 +1009,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
-            <a href="/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund Calculator (LUT)<span class="arrow">→</span></a>
-            <a href="/tools/igst-export-refund-calculator" class="sidebar-link">IGST Export Refund Calculator<span class="arrow">→</span></a>
-            <a href="/tools/inverted-duty-refund-calculator" class="sidebar-link">Inverted Duty Refund Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
-            <a href="/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund Calculator (LUT)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/igst-export-refund-calculator" class="sidebar-link">IGST Export Refund Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator" class="sidebar-link">Inverted Duty Refund Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
         </div>
 
     </aside>
@@ -1543,7 +1543,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             alerts.push({type: 'warn', html: '<strong>Limitation closing soon:</strong> Only ' + daysToLimit + ' days remain until the 2-year Section 54(1) limitation expires on ' + fmtDate(limitationExpiry) + '. File RFD-01 immediately. Note: deficiency memo (RFD-03) does not stop the limitation clock.'});
         }
         if (state.category === 'export-igst' && !isTimeBarred) {
-            alerts.push({type: 'info', html: '<strong>Note:</strong> IGST-paid export refund is normally automatic under Rule 96 — the shipping bill itself is the deemed application. RFD-01 is used only for stuck cases (SB000 not generated, EGM filing issues). Use the <a href="/tools/igst-export-refund-calculator">IGST Export Refund Calculator</a> for diagnostic verification first.'});
+            alerts.push({type: 'info', html: '<strong>Note:</strong> IGST-paid export refund is normally automatic under Rule 96 — the shipping bill itself is the deemed application. RFD-01 is used only for stuck cases (SB000 not generated, EGM filing issues). Use the <a href="https://www.patronaccounting.com/tools/igst-export-refund-calculator">IGST Export Refund Calculator</a> for diagnostic verification first.'});
         }
 
         // Render verdict card

@@ -80,7 +80,8 @@ class PageController extends Controller
     preg_match('/registration-for-12a-80g-certificate/i', $slug) ||
     preg_match('/registration-for-12a-80g-certificate/i', $fullSlug) ||
 
-    $directry_label === 'trade-license' ||
+    preg_match('/trade-license/i', $slug) ||
+    preg_match('/trade-license/i', $fullSlug) ||
 
    (
         preg_match('/^udyam-registration$/i', $directry_label) &&

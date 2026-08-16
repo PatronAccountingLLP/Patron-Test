@@ -7,20 +7,20 @@
     <title>GST Refund Calculator | Cost-Benefit &amp; ROI Verdict</title>
     <meta name="description" content="GST refund pursuit calculator: weigh CA fees, time and success odds against your expected refund plus Section 56 interest. Should you file? Get an ROI verdict.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/refund-pursuit-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-pursuit-calculator/">
     <meta property="og:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
     <meta property="og:description" content="Decide whether a GST refund is worth pursuing. Computes expected recovery, total costs, time-money loss, ROI & break-even probability. Decision verdict.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/refund-pursuit-calculator">
-    <meta property="og:image" content="/tools/og/refund-pursuit-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/refund-pursuit-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/refund-pursuit-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
     <meta name="twitter:description" content="Should you pursue this refund? ROI verdict, break-even probability, time-money cost analysis. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/refund-pursuit-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/refund-pursuit-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "Refund Pursuit Calculator (Cost-Benefit of GST Refund)",
       "description": "Refund Pursuit Calculator computes the cost-benefit of pursuing a Goods and Services Tax refund application before incurring professional fees and internal effort on the filing of Form GST RFD-01 under Section 54 of the Central Goods and Services Tax Act, 2017 read with Rule 89 of the Central Goods and Services Tax Rules, 2017. The tool computes expected recovery as the product of refund amount and probability of sanction, plus the interest entitlement under Section 56 at six per cent per annum for refund delayed beyond sixty days from acknowledgement or nine per cent per annum where the refund arises from an appellate order. The tool computes total pursuit costs including Chartered Accountant or Cost Accountant professional fees, mandatory CA certification under Annexure-2 of Circular No. 125/44/2019-GST for refund claims exceeding two lakh rupees, documentation costs including Bank Realisation Certificate or Foreign Inward Remittance Certificate procurement and statement preparation, internal employee time cost, and expected litigation cost weighted by probability of rejection. The tool computes time-money cost reflecting the opportunity cost of capital blocked during the refund processing cycle. The tool computes the net benefit as expected recovery less total costs less time-money cost, the return on investment as a multiple of direct costs, and the break-even probability above which the pursuit is economically rational. Probability baselines reflect category-specific historical sanction rates across exports under Letter of Undertaking, exports with payment of Integrated Goods and Services Tax, supplies to Special Economic Zone unit or developer with or without payment of tax, accumulated Input Tax Credit due to Inverted Duty Structure under Rule 89(5), deemed exports under Notification No. 48/2017-Central Tax, excess balance in electronic cash ledger, excess tax paid by mistake, refund pursuant to assessment or appellate order, and any other category. The tool reflects the introduction of system-driven ninety per cent provisional refund within seven days for low-risk applications under Notification No. 13/2025-Central Tax effective 1 October 2025 and CBIC Instruction No. 06/2025-GST extending the provisional refund mechanism from zero-rated supplies to Inverted Duty Structure claims as a trade-facilitation measure.",
-      "url": "/tools/refund-pursuit-calculator",
+      "url": "https://www.patronaccounting.com/tools/refund-pursuit-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Refund Pursuit Calculator", "item": "/tools/refund-pursuit-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Refund Pursuit Calculator", "item": "https://www.patronaccounting.com/tools/refund-pursuit-calculator"}
       ]
     }
     </script>
@@ -517,9 +517,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Refund Pursuit Calculator
 </nav>
@@ -536,7 +536,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>This Refund Pursuit Calculator answers the question every CFO asks before authorising a GST refund filing: <strong>"Is this refund worth chasing?"</strong> The tool computes <strong>Expected Recovery</strong> (refund × probability + Section 56 interest) less <strong>Total Costs</strong> (CA fees + CA certification + documentation + internal time + expected litigation cost) less <strong>Time-Money Cost</strong> (refund × cost of capital × processing days). It outputs <strong>Net Benefit</strong>, <strong>ROI multiple</strong>, <strong>break-even probability</strong> and a clear <strong>Pursue / Marginal / Don't Pursue</strong> verdict. Probability baselines are category-specific — 95% for excess cash ledger, 80% for export-LUT, 70% for Inverted Duty Structure, 60% for any-other — adjusted by readiness and Aadhaar authentication. The 90% provisional refund mechanism (Notification 13/2025-CT + Instruction 06/2025-GST from 1 Oct 2025) materially shifts pursuit economics for low-risk taxpayers. Pair with our <a href="/tools/rfd-01-filing-checklist">RFD-01 Checklist</a> for readiness scoring.</p>
+    <p>This Refund Pursuit Calculator answers the question every CFO asks before authorising a GST refund filing: <strong>"Is this refund worth chasing?"</strong> The tool computes <strong>Expected Recovery</strong> (refund × probability + Section 56 interest) less <strong>Total Costs</strong> (CA fees + CA certification + documentation + internal time + expected litigation cost) less <strong>Time-Money Cost</strong> (refund × cost of capital × processing days). It outputs <strong>Net Benefit</strong>, <strong>ROI multiple</strong>, <strong>break-even probability</strong> and a clear <strong>Pursue / Marginal / Don't Pursue</strong> verdict. Probability baselines are category-specific — 95% for excess cash ledger, 80% for export-LUT, 70% for Inverted Duty Structure, 60% for any-other — adjusted by readiness and Aadhaar authentication. The 90% provisional refund mechanism (Notification 13/2025-CT + Instruction 06/2025-GST from 1 Oct 2025) materially shifts pursuit economics for low-risk taxpayers. Pair with our <a href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">RFD-01 Checklist</a> for readiness scoring.</p>
 </div>
 
 <div class="main-layout">
@@ -750,7 +750,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <h2>How to Use the Refund Pursuit Calculator</h2>
             <p>The calculator follows a four-block decision framework: refund profile, pursuit costs, probability and timeline. Each block contributes to the final cost-benefit equation. The recommended workflow is:</p>
             <ol>
-                <li><strong>Refund profile</strong> — Pick the correct category from the dropdown. The category drives the baseline probability and the typical CA fee benchmark. Enter the estimated refund amount from your Statement-1A working or category-specific computation. Use our <a href="/tools/inverted-duty-refund-calculator">IDS Calculator</a>, <a href="/tools/export-refund-lut-calculator">LUT Calculator</a> or <a href="/tools/igst-export-refund-calculator">IGST Calculator</a> upstream to compute the refund amount, then file on <a href="https://www.gst.gov.in" rel="noopener" target="_blank">gst.gov.in</a>.</li>
+                <li><strong>Refund profile</strong> — Pick the correct category from the dropdown. The category drives the baseline probability and the typical CA fee benchmark. Enter the estimated refund amount from your Statement-1A working or category-specific computation. Use our <a href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">IDS Calculator</a>, <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">LUT Calculator</a> or <a href="https://www.patronaccounting.com/tools/igst-export-refund-calculator">IGST Calculator</a> upstream to compute the refund amount, then file on <a href="https://www.gst.gov.in" rel="noopener" target="_blank">gst.gov.in</a>.</li>
                 <li><strong>Pursuit costs</strong> — Enter expected CA filing fees, CA certification fees (auto-applicable above ₹2 lakh except for excess-cash and IGST-export categories), documentation costs (BRC/FIRC, statement preparation, courier), internal time hours and blended hourly rate, and expected litigation cost should the refund be rejected and require appellate defence.</li>
                 <li><strong>Probability and readiness</strong> — Set the readiness slider based on your RFD-01 Pre-Filing Checklist score (0% if no documents prepared; 100% if all items verified). Mark Aadhaar authentication status — required for 90% provisional refund eligibility from October 2025.</li>
                 <li><strong>Timeline and cost of capital</strong> — Set days to refund credit (default 60 per Section 54(7); use 7 days for low-risk Aadhaar-authenticated cases; longer for high-risk or rejection-prone cases). Cost of capital should reflect your actual working capital cost — prevailing bank rate plus spread is a reasonable proxy.</li>
@@ -1050,29 +1050,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
-            <a href="/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Refund Toolkit</h3>
-            <a href="/tools/rfd-01-filing-checklist" class="sidebar-link">RFD-01 Pre-Filing Checklist<span class="arrow">→</span></a>
-            <a href="/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund (LUT) Calculator<span class="arrow">→</span></a>
-            <a href="/tools/igst-export-refund-calculator" class="sidebar-link">IGST Export Refund Calculator<span class="arrow">→</span></a>
-            <a href="/tools/inverted-duty-refund-calculator" class="sidebar-link">Inverted Duty Refund Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist" class="sidebar-link">RFD-01 Pre-Filing Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund (LUT) Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/igst-export-refund-calculator" class="sidebar-link">IGST Export Refund Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator" class="sidebar-link">Inverted Duty Refund Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
         </div>
 
     </aside>
@@ -1312,7 +1312,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             alerts.push({type: 'warn', html: '<strong>Refund below break-even threshold:</strong> At current probability and cost structure, a refund of at least ' + fmtINR(minRefund) + ' is needed for net positive pursuit. Consider clubbing with other periods within the same FY and category.'});
         }
         if (finalProb < 0.5) {
-            alerts.push({type: 'danger', html: '<strong>Low sanction probability (' + (finalProb * 100).toFixed(0) + '%):</strong> Pursuit ROI is fragile. Improve readiness via the <a href="/tools/rfd-01-filing-checklist">RFD-01 Pre-Filing Checklist</a>, complete Aadhaar authentication if missing, and consider aggregating periods. Pursuing with low probability typically leads to deficiency memos and fresh filings — limitation may close before resolution.'});
+            alerts.push({type: 'danger', html: '<strong>Low sanction probability (' + (finalProb * 100).toFixed(0) + '%):</strong> Pursuit ROI is fragile. Improve readiness via the <a href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">RFD-01 Pre-Filing Checklist</a>, complete Aadhaar authentication if missing, and consider aggregating periods. Pursuing with low probability typically leads to deficiency memos and fresh filings — limitation may close before resolution.'});
         }
         if (procDays > 120) {
             alerts.push({type: 'info', html: '<strong>Section 56 interest opportunity:</strong> At ' + procDays + ' days processing, Section 56 interest at 6% accrues for ' + delayDays + ' days, yielding ' + fmtINR(section56Interest) + '. Track the 60-day limit per Section 54(7) — interest is auto-credited if delay is officer-side.'});

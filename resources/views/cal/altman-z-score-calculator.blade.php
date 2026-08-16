@@ -7,20 +7,20 @@
     <title>Altman Z-Score Calculator | Bankruptcy Risk Predictor</title>
     <meta name="description" content="Free Altman Z-Score calculator: original, Z' (private) & Z'' (non-manufacturing) models to predict bankruptcy & financial distress risk. CA-reviewed. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/altman-z-score-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/altman-z-score-calculator/">
     <meta property="og:title" content="Altman Z-Score Calculator — Bankruptcy Predictor 2026">
     <meta property="og:description" content="Compute Altman Z-Score with all 3 versions: original, Z-prime (private), Z-double-prime (non-manufacturing/India). CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/altman-z-score-calculator">
-    <meta property="og:image" content="/tools/og/altman-z-score-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/altman-z-score-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/altman-z-score-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Altman Z-Score Calculator — Bankruptcy Predictor 2026">
     <meta name="twitter:description" content="3 Z-Score versions: original, private, non-manufacturing. Bankruptcy distress predictor. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/altman-z-score-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/altman-z-score-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "Altman Z-Score Calculator",
       "description": "Altman Z-Score Calculator implements all three versions of Edward Altman's bankruptcy prediction model — the original 1968 Z-Score for public manufacturing companies, the Z-Prime Score for private manufacturing companies (book value of equity instead of market value), and the Z-Double-Prime Score for non-manufacturing companies and emerging markets including Indian listed and unlisted companies. The model uses five financial ratios for original and Z-Prime (Working Capital to Total Assets, Retained Earnings to Total Assets, EBIT to Total Assets, Equity to Total Liabilities, Sales to Total Assets) and four ratios for Z-Double-Prime (omitting Sales to Total Assets to neutralise industry asset-intensity differences). Output includes the Z-Score with zone classification (Safe Zone, Grey Zone, Distress Zone), component breakdown showing each weighted X variable contribution, recommended version selector based on company type, and integration with Standard on Auditing 570 Going Concern evaluation, CARO 2020 Clause 3(xix) reporting requirements, RBI early warning signals for stressed asset classification, and IBC 2016 distress filtering. Suitable for credit appraisal, audit going concern testing, equity research distress screening, and CFO early warning systems.",
-      "url": "/tools/altman-z-score-calculator",
+      "url": "https://www.patronaccounting.com/tools/altman-z-score-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Altman Z-Score Calculator", "item": "/tools/altman-z-score-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Altman Z-Score Calculator", "item": "https://www.patronaccounting.com/tools/altman-z-score-calculator"}
       ]
     }
     </script>
@@ -471,8 +471,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Altman Z-Score Calculator
 </nav>
 
@@ -678,7 +678,7 @@ Z″ = 6.56(X1) + 3.26(X2) + 6.72(X3) + 1.05(X4)
             </ul>
 
             <div class="callout warn">
-                <p><strong>Audit going concern alert:</strong> Standard on Auditing 570 requires auditors to evaluate whether the entity will continue as a going concern for at least 12 months. A Z-Score in the Distress Zone is a quantitative red flag that triggers detailed audit procedures — review of management's going concern assessment, evaluation of mitigating factors, and possible Material Uncertainty Related to Going Concern paragraph in the audit report. <a href="/tools/caro-2020-checklist-generator">CARO 2020 Clause 3(xix)</a> requires reporting on material uncertainties affecting the company's ability to meet liabilities. Reference at <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> and <a href="https://kb.icai.org/" target="_blank" rel="noopener">ICAI Knowledge Bank</a>.</p>
+                <p><strong>Audit going concern alert:</strong> Standard on Auditing 570 requires auditors to evaluate whether the entity will continue as a going concern for at least 12 months. A Z-Score in the Distress Zone is a quantitative red flag that triggers detailed audit procedures — review of management's going concern assessment, evaluation of mitigating factors, and possible Material Uncertainty Related to Going Concern paragraph in the audit report. <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">CARO 2020 Clause 3(xix)</a> requires reporting on material uncertainties affecting the company's ability to meet liabilities. Reference at <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> and <a href="https://kb.icai.org/" target="_blank" rel="noopener">ICAI Knowledge Bank</a>.</p>
             </div>
         </section>
 
@@ -786,30 +786,30 @@ Z″ = 6.56(X1) + 3.26(X2) + 6.72(X3) + 1.05(X4)
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
             
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/dupont-analysis-tool" class="sidebar-link">DuPont Analysis Tool<span class="arrow">→</span></a>
-            <a href="/tools/roe-roce-calculator" class="sidebar-link">ROE + ROCE + ROA<span class="arrow">→</span></a>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
-            <a href="/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
-            <a href="/tools/audit-sampling-size-calculator-sa-530" class="sidebar-link">Audit Sampling (SA 530)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dupont-analysis-tool" class="sidebar-link">DuPont Analysis Tool<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roe-roce-calculator" class="sidebar-link">ROE + ROCE + ROA<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/quick-ratio-calculator" class="sidebar-link">Quick Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530" class="sidebar-link">Audit Sampling (SA 530)<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

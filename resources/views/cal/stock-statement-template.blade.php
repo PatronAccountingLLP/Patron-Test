@@ -5,22 +5,22 @@
 <meta name="description" content="Free stock statement template and drawing power calculator: enter stock, creditors, debtors and margins to get DP, CC headroom and a copy-ready bank format.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/stock-statement-template">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/stock-statement-template">
 
 <meta property="og:title" content="Stock Statement Template & Drawing Power Calculator">
 <meta property="og:description" content="Enter stock, creditors, debtors and margins to compute drawing power and CC headroom, and copy a bank-ready stock statement format (Parts A–E).">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/stock-statement-template">
-<meta property="og:image" content="/tools/stock-statement-template-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/stock-statement-template">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/stock-statement-template-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Stock Statement Template & Drawing Power Calculator">
 <meta name="twitter:description" content="Compute drawing power and CC headroom from stock, creditors and debtors, and copy a bank-ready stock statement format. Free & instant.">
-<meta name="twitter:image" content="/tools/stock-statement-template-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/stock-statement-template-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "Stock Statement Template & Drawing Power Calculator",
   "description": "Stock Statement Template and Drawing Power Calculator computes the drawing power on a cash credit or working capital facility from eligible stock, creditors for purchases, eligible book debts and the bank margins, shows the available headroom against the sanctioned limit and whether the account is in order, and produces a copy-ready bank stock statement format covering stock, debtor ageing, creditors, insurance and certification.",
-  "url": "/tools/stock-statement-template",
+  "url": "https://www.patronaccounting.com/tools/stock-statement-template",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Stock Statement Template & Drawing Power Calculator", "item": "/tools/stock-statement-template"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Stock Statement Template & Drawing Power Calculator", "item": "https://www.patronaccounting.com/tools/stock-statement-template"}
   ]
 }
 </script>
@@ -701,9 +701,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Stock Statement Template & Drawing Power Calculator
 </nav>
@@ -828,7 +828,7 @@ a:focus-visible {
                 <li><strong>Enter the margins from your sanction letter</strong> — defaults are 25% on stock and 40% on debtors; change them to match your terms.</li>
                 <li><strong>Add the sanctioned limit (and optionally the CC outstanding).</strong> The tool returns DP, the headroom, an in-order / out-of-order flag, and a copy-ready statement.</li>
             </ol>
-            <p>Pair this with the <a href="/tools/working-capital-calculator">working capital calculator</a> and the <a href="/tools/cash-conversion-cycle-calculator">cash conversion cycle calculator</a> to see how inventory and receivables drive your funding need.</p>
+            <p>Pair this with the <a href="https://www.patronaccounting.com/tools/working-capital-calculator">working capital calculator</a> and the <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">cash conversion cycle calculator</a> to see how inventory and receivables drive your funding need.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> The margins and the debtor ageing limit are bank-specific — always read them off your sanction letter rather than assuming the 25%/40% defaults. The wrong margin changes DP materially.</p>
             </div>
@@ -837,7 +837,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What Is a Stock Statement?</h2>
             <p>A <strong>stock statement</strong> is the periodic declaration a borrower files with its bank against a <strong>cash credit (CC)</strong> or working-capital limit, showing the value of stock, book debts and creditors as on a date. The bank uses it to set the <strong>drawing power</strong> — the amount actually available to draw, which can be less than the sanctioned limit.</p>
-            <p>It is a post-sanction <strong>credit-monitoring</strong> tool: by updating DP from each statement, the bank keeps the borrowing backed by current, eligible assets. It is usually a monthly (sometimes quarterly) condition of the sanction, and for companies it connects to the auditor's checks under <a href="/blog/caro-2020-clause-ii-inventories">CARO 2020 Clause (ii)</a> on inventory and bank stock statements — a reporting requirement framed by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
+            <p>It is a post-sanction <strong>credit-monitoring</strong> tool: by updating DP from each statement, the bank keeps the borrowing backed by current, eligible assets. It is usually a monthly (sometimes quarterly) condition of the sanction, and for companies it connects to the auditor's checks under <a href="https://www.patronaccounting.com/blog/caro-2020-clause-ii-inventories">CARO 2020 Clause (ii)</a> on inventory and bank stock statements — a reporting requirement framed by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
         </section>
 
         <section class="content-section" id="formula">
@@ -879,7 +879,7 @@ a:focus-visible {
                     <tr><td>Part E — Certification</td><td>Borrower's declaration that the statement is true and the stock is owned, paid and insured.</td></tr>
                 </tbody>
             </table>
-            <p>The copy-ready template generated above follows this Part A–E structure. For the underlying inventory metrics, see the blogs on <a href="/blog/inventory-turnover-ratio">inventory turnover</a> and <a href="/blog/days-inventory-outstanding-dio">days inventory outstanding</a>.</p>
+            <p>The copy-ready template generated above follows this Part A–E structure. For the underlying inventory metrics, see the blogs on <a href="https://www.patronaccounting.com/blog/inventory-turnover-ratio">inventory turnover</a> and <a href="https://www.patronaccounting.com/blog/days-inventory-outstanding-dio">days inventory outstanding</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -902,7 +902,7 @@ a:focus-visible {
                 <li><strong>Ignoring third-party stock</strong> — stock at job-workers or in transit may be excluded per sanction terms.</li>
                 <li><strong>Late or wrong-format submission</strong> — a DP from a statement older than three months is treated as stale.</li>
             </ul>
-            <p>For a deeper checklist, see Patron's <a href="/blog/quarterly-inventory-statement-bank-msme-borrower-guide">MSME stock statement guide</a> and the <a href="/net-worth-certificate-for-business-loan">net worth certificate for business loan</a> service for the wider loan file. MSME borrowers can also explore working-capital schemes via <a href="https://www.sidbi.in/" target="_blank" rel="noopener">SIDBI</a>, and the stock-statement format itself broadly follows the practice standardised by the <a href="https://www.iba.org.in/" target="_blank" rel="noopener">Indian Banks' Association</a>.</p>
+            <p>For a deeper checklist, see Patron's <a href="https://www.patronaccounting.com/blog/quarterly-inventory-statement-bank-msme-borrower-guide">MSME stock statement guide</a> and the <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan">net worth certificate for business loan</a> service for the wider loan file. MSME borrowers can also explore working-capital schemes via <a href="https://www.sidbi.in/" target="_blank" rel="noopener">SIDBI</a>, and the stock-statement format itself broadly follows the practice standardised by the <a href="https://www.iba.org.in/" target="_blank" rel="noopener">Indian Banks' Association</a>.</p>
         </section>
 
         <section class="content-section" id="faqs">
@@ -975,24 +975,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
-            <a href="/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle <span class="arrow">→</span></a>
-            <a href="/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
-            <a href="/tools/dscr-calculator" class="sidebar-link">DSCR Calculator <span class="arrow">→</span></a>
-            <a href="/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/current-ratio-calculator" class="sidebar-link">Current Ratio Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dscr-calculator" class="sidebar-link">DSCR Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/net-worth-certificate-for-business-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/quarterly-inventory-statement-bank-msme-borrower-guide" class="sidebar-link">MSME Stock Statement Guide <span class="arrow">→</span></a>
-            <a href="/blog/caro-2020-clause-ii-inventories" class="sidebar-link">CARO 2020 — Inventories <span class="arrow">→</span></a>
-            <a href="/blog/inventory-turnover-ratio" class="sidebar-link">Inventory Turnover Ratio <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/quarterly-inventory-statement-bank-msme-borrower-guide" class="sidebar-link">MSME Stock Statement Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/caro-2020-clause-ii-inventories" class="sidebar-link">CARO 2020 — Inventories <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/inventory-turnover-ratio" class="sidebar-link">Inventory Turnover Ratio <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

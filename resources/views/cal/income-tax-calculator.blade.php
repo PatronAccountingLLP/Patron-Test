@@ -4,23 +4,23 @@
     <title>Income Tax Calculator FY 2025-26 | Old vs New Regime</title>
     <meta name="description" content="Income tax calculator FY 2025-26 (AY 2026-27): compute tax on salary, capital gains, rental income with deductions, surcharge, cess & TDS. Free, CA-reviewed!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/income-tax-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/income-tax-calculator">
 
     <meta property="og:title" content="Income Tax Calculator FY 2025-26 — Free CA-Reviewed Tool">
     <meta property="og:description" content="Compute total income tax for FY 2025-26 across salary, capital gains, rental, with deductions, surcharge, cess, and net payable / refund after TDS.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/income-tax-calculator">
-    <meta property="og:image" content="/tools/og/income-tax-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/income-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/income-tax-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Calculator FY 2025-26 — Free CA-Reviewed Tool">
     <meta name="twitter:description" content="Compute total income tax for FY 2025-26 across all income types with TDS adjustment for net payable / refund.">
-    <meta name="twitter:image" content="/tools/og/income-tax-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/income-tax-calculator.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 
 @endsection
@@ -32,7 +32,7 @@
       "@type": "SoftwareApplication",
       "name": "Income Tax Calculator",
       "description": "Income Tax Calculator computes total income tax liability for FY 2025-26 (AY 2026-27) across salary, other income (interest/dividends), house property (rental income with home loan interest deduction), and capital gains (Section 112A LTCG equity 12.5% above ₹1.25L, Section 111A STCG equity 20%, Section 112 LTCG other 12.5%, slab-rate STCG other). Supports both old and new tax regimes via toggle, age-based exemptions, Section 87A rebate with marginal relief, surcharge tiers (10%/15%/25%/37%, capped at 25% under new regime), 4% cess, and TDS adjustment for net payable or refund. Routes business income, foreign income, NRI/RNOR, and crypto cases to specialized tools and CA consultation.",
-      "url": "/tools/income-tax-calculator",
+      "url": "https://www.patronaccounting.com/tools/income-tax-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -42,10 +42,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -58,8 +58,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
 
@@ -68,9 +68,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Income Tax Calculator", "item": "/tools/income-tax-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Income Tax Calculator", "item": "https://www.patronaccounting.com/tools/income-tax-calculator"}
       ]
     }
     </script>
@@ -451,9 +451,9 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Income Tax Calculator
 </nav>
@@ -490,7 +490,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>Comprehensive income tax computation for FY 2025-26 (AY 2026-27) covering <strong>salary, house property (rental + home loan), capital gains (LTCG/STCG), and other income</strong>. Choose your regime, enter income components, and get the full waterfall: gross income → deductions → slab tax → 87A rebate → special-rate tax → surcharge → cess → <strong>net payable or refund after TDS</strong>. For regime comparison, use the <a href="/tools/old-vs-new-regime-calculator">Old vs New Regime Calculator</a>. For business or freelance income, see the <a href="/tools/section-44ada-calculator">Section 44ADA Calculator</a>.</p>
+    <p>Comprehensive income tax computation for FY 2025-26 (AY 2026-27) covering <strong>salary, house property (rental + home loan), capital gains (LTCG/STCG), and other income</strong>. Choose your regime, enter income components, and get the full waterfall: gross income → deductions → slab tax → 87A rebate → special-rate tax → surcharge → cess → <strong>net payable or refund after TDS</strong>. For regime comparison, use the <a href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator">Old vs New Regime Calculator</a>. For business or freelance income, see the <a href="https://www.patronaccounting.com/tools/section-44ada-calculator">Section 44ADA Calculator</a>.</p>
 </div>
 
 <div class="main-layout">
@@ -599,7 +599,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
             </div>
 
             <div class="callout" style="margin-top:0">
-                <p>Need help classifying capital gains? Use the <a href="/tools/capital-gains-calculator">Capital Gains Calculator</a> to determine LTCG vs STCG and asset type.</p>
+                <p>Need help classifying capital gains? Use the <a href="https://www.patronaccounting.com/tools/capital-gains-calculator">Capital Gains Calculator</a> to determine LTCG vs STCG and asset type.</p>
             </div>
 
             <div class="calc-section-title">Step 3 — Old Regime Deductions</div>
@@ -720,7 +720,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
             <h3>What's Not Covered (Use Other Tools)</h3>
             <ul>
-                <li><strong>Business / Professional Income</strong> → <a href="/tools/section-44ada-calculator">Section 44ADA Calculator</a> (presumptive) or <a href="/tools/itr-form-selector">ITR Form Selector</a> (regular books)</li>
+                <li><strong>Business / Professional Income</strong> → <a href="https://www.patronaccounting.com/tools/section-44ada-calculator">Section 44ADA Calculator</a> (presumptive) or <a href="https://www.patronaccounting.com/tools/itr-form-selector">ITR Form Selector</a> (regular books)</li>
                 <li><strong>Foreign Income / NRI / RNOR</strong> → ITR Form Selector + CA consultation</li>
                 <li><strong>Crypto / VDA</strong> → Section 115BBH treatment requires CA assistance</li>
                 <li><strong>Lottery / Online Gaming</strong> → Section 115BB / 115BBJ flat 30% — CA consultation</li>
@@ -818,7 +818,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
             </ul>
 
             <div class="callout">
-                <p><strong>Why 4 separate capital gains fields?</strong> Each category has a different tax treatment under different sections of the Income Tax Act. Combining them would result in incorrect tax calculation. If you're unsure how to classify your gains, use the dedicated <a href="/tools/capital-gains-calculator">Capital Gains Calculator</a> with date-based holding period detection.</p>
+                <p><strong>Why 4 separate capital gains fields?</strong> Each category has a different tax treatment under different sections of the Income Tax Act. Combining them would result in incorrect tax calculation. If you're unsure how to classify your gains, use the dedicated <a href="https://www.patronaccounting.com/tools/capital-gains-calculator">Capital Gains Calculator</a> with date-based holding period detection.</p>
             </div>
 
             <div class="callout warn">
@@ -918,29 +918,29 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR for Salary <span class="arrow">→</span></a>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
-            <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
-            <a href="/tools/itr-form-selector" class="sidebar-link">ITR Form Selector <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/itr-form-selector" class="sidebar-link">ITR Form Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/old-regime-vs-regime-ay-2026-27" class="sidebar-link">Old vs New Regime AY 2026-27 <span class="arrow">→</span></a>
-            <a href="/blog/income-tax-old-regime-2026-it-rules-changed-math" class="sidebar-link">Income Tax Old Regime 2026 Math <span class="arrow">→</span></a>
-            <a href="/blog/tax-efficient-salary-structure-india-employers-guide" class="sidebar-link">Tax-Efficient Salary Structure <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/old-regime-vs-regime-ay-2026-27" class="sidebar-link">Old vs New Regime AY 2026-27 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-old-regime-2026-it-rules-changed-math" class="sidebar-link">Income Tax Old Regime 2026 Math <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/tax-efficient-salary-structure-india-employers-guide" class="sidebar-link">Tax-Efficient Salary Structure <span class="arrow">→</span></a>
         </div>
 
     </aside>
@@ -1094,19 +1094,19 @@ function pickPositive(parsed, fallback) {
         if (business) {
             html += '<div class="rt-option"><strong>Business / Professional Income</strong>';
             html += '<p>Use Section 44ADA Calculator (presumptive professional income) or ITR Form Selector to determine ITR-3 vs ITR-4 eligibility.</p>';
-            html += '<a href="/tools/section-44ada-calculator">Section 44ADA Calculator →</a> &nbsp; ';
-            html += '<a href="/tools/itr-form-selector">ITR Form Selector →</a></div>';
+            html += '<a href="https://www.patronaccounting.com/tools/section-44ada-calculator">Section 44ADA Calculator →</a> &nbsp; ';
+            html += '<a href="https://www.patronaccounting.com/tools/itr-form-selector">ITR Form Selector →</a></div>';
         }
         if (foreign) {
             html += '<div class="rt-option"><strong>Foreign Income / Foreign Assets</strong>';
             html += '<p>Schedule FA disclosure mandatory. Foreign tax credit via Form 67. Black Money Act applies. CA consultation strongly recommended.</p>';
-            html += '<a href="/tools/itr-form-selector">ITR Form Selector →</a> &nbsp; ';
+            html += '<a href="https://www.patronaccounting.com/tools/itr-form-selector">ITR Form Selector →</a> &nbsp; ';
             html += '<a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20foreign%20income%20ITR%20filing%20for%20FY%202025-26.">Talk to a CA →</a></div>';
         }
         if (nri) {
             html += '<div class="rt-option"><strong>NRI / RNOR Status</strong>';
             html += '<p>Residential status determination, DTAA benefits, Schedule TR for tax relief, and Schedule FA all needed. Specialized handling required.</p>';
-            html += '<a href="/tools/itr-form-selector">ITR Form Selector →</a> &nbsp; ';
+            html += '<a href="https://www.patronaccounting.com/tools/itr-form-selector">ITR Form Selector →</a> &nbsp; ';
             html += '<a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20NRI%2FRNOR%20ITR%20help%20for%20FY%202025-26.">Talk to a CA →</a></div>';
         }
         if (crypto) {

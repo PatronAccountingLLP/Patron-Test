@@ -4,22 +4,22 @@
 <meta name="description" content="Estimate company incorporation cost in India: itemise SPICe+ fees, state stamp duty, DSC, DIN & professional fees for Pvt Ltd, LLP, OPC or Section 8. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/incorporation-cost-estimator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/incorporation-cost-estimator">
 @section('meta')
 <meta property="og:title" content="Incorporation Cost Estimator — Company & LLP Fees 2026">
 <meta property="og:description" content="Estimate the full cost to incorporate in India — SPICe+/FiLLiP fees, stamp duty by state, DSC, DIN and professional fees — itemised by entity type and capital.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/incorporation-cost-estimator">
-<meta property="og:image" content="/tools/incorporation-cost-estimator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/incorporation-cost-estimator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/incorporation-cost-estimator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Incorporation Cost Estimator — Company & LLP Fees 2026">
 <meta name="twitter:description" content="Estimate the full cost to incorporate in India — government fees, stamp duty, DSC and professional fees — itemised. Free & instant.">
-<meta name="twitter:image" content="/tools/incorporation-cost-estimator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/incorporation-cost-estimator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -28,7 +28,7 @@
   "@type": "SoftwareApplication",
   "name": "Incorporation Cost Estimator",
   "description": "Incorporation Cost Estimator calculates the approximate cost to incorporate a business in India, itemised into government and professional components. It models the SPICe Plus or Form FiLLiP filing fee by authorised capital slab, the RUN name reservation fee, Digital Signature Certificate cost per director or partner, any extra DIN fee beyond three directors, state stamp duty on the incorporation documents using a per-state band, and an optional professional fee, then returns a line-by-line breakdown and a total range for a Private Limited Company, LLP, One Person Company, Section 8 company, Partnership Firm or Sole Proprietorship.",
-  "url": "/tools/incorporation-cost-estimator",
+  "url": "https://www.patronaccounting.com/tools/incorporation-cost-estimator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -42,10 +42,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -58,9 +58,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -70,9 +70,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Incorporation Cost Estimator", "item": "/tools/incorporation-cost-estimator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Incorporation Cost Estimator", "item": "https://www.patronaccounting.com/tools/incorporation-cost-estimator"}
   ]
 }
 </script>
@@ -702,9 +702,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Incorporation Cost Estimator
 </nav>
@@ -843,7 +843,7 @@ a:focus-visible {
                     <tr><td>Professional fee</td><td>₹4,000–₹15,000 by complexity</td></tr>
                 </tbody>
             </table>
-            <p>Government fees are largely standard nationwide; the two variables that move the total are <strong>stamp duty</strong> (state) and <strong>professional fee</strong> (provider). All company and LLP filings go through the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a> portal, and PAN/TAN are issued via the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax department</a>. See Patron's <a href="/blog/private-limited-company-registration-cost-breakdown-government-fees">Pvt Ltd cost breakdown</a> and the <a href="/dsc-registration">DSC registration</a> page.</p>
+            <p>Government fees are largely standard nationwide; the two variables that move the total are <strong>stamp duty</strong> (state) and <strong>professional fee</strong> (provider). All company and LLP filings go through the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a> portal, and PAN/TAN are issued via the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax department</a>. See Patron's <a href="https://www.patronaccounting.com/blog/private-limited-company-registration-cost-breakdown-government-fees">Pvt Ltd cost breakdown</a> and the <a href="https://www.patronaccounting.com/dsc-registration">DSC registration</a> page.</p>
         </section>
 
         <div class="body-cta">
@@ -878,14 +878,14 @@ a:focus-visible {
                 <li><strong>Choose a low-stamp-duty state</strong> if your office location is flexible.</li>
                 <li><strong>Begin with the minimum signatories</strong> (2 for Pvt Ltd/LLP, 1 for OPC) — fewer DSCs.</li>
                 <li><strong>Buy a 2-year DSC</strong> — you'll reuse it for all future MCA filings.</li>
-                <li><strong>Bundle incorporation with annual compliance</strong> from one firm for a better overall rate. Compare structures first with the <a href="/tools/entity-type-selector">entity type selector</a>.</li>
+                <li><strong>Bundle incorporation with annual compliance</strong> from one firm for a better overall rate. Compare structures first with the <a href="https://www.patronaccounting.com/tools/entity-type-selector">entity type selector</a>.</li>
             </ul>
         </section>
 
         <section class="content-section" id="after">
             <h2>Costs After Incorporation</h2>
-            <p>Incorporation is just the start. Budget immediately for <strong>auditor appointment (ADT-1)</strong>, <strong>commencement of business (INC-20A)</strong>, a bank account, and registrations like <a href="/gst-registration">GST</a>. Then there's recurring <strong>annual compliance</strong> — statutory audit, ROC annual filings, ITR and GST returns — typically ₹15,000–₹50,000+ a year.</p>
-            <p>Plan the ongoing cost with the <a href="/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>, and see Patron's <a href="/blog/post-incorporation-compliance-for-private-limited-company">post-incorporation compliance</a> guide.</p>
+            <p>Incorporation is just the start. Budget immediately for <strong>auditor appointment (ADT-1)</strong>, <strong>commencement of business (INC-20A)</strong>, a bank account, and registrations like <a href="https://www.patronaccounting.com/gst-registration">GST</a>. Then there's recurring <strong>annual compliance</strong> — statutory audit, ROC annual filings, ITR and GST returns — typically ₹15,000–₹50,000+ a year.</p>
+            <p>Plan the ongoing cost with the <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>, and see Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company">post-incorporation compliance</a> guide.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This is an indicative estimate, not a quotation. Stamp duty changes by state notification and professional fees vary — confirm current figures before budgeting.</p>
             </div>
@@ -897,7 +897,7 @@ a:focus-visible {
             <p>Two extras are easy to miss. First, a newly incorporated company that has issued share capital must file <strong>INC-20A</strong> (commencement of business) and appoint an auditor via <strong>ADT-1</strong> within set deadlines, each with its own small fee. Second, if you intend to claim startup benefits, <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition through the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal is free but takes its own paperwork, and the statutory audit that follows is governed by standards from the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>. Factoring these in avoids a nasty surprise a month after incorporation.</p>
             <p>For an LLP the picture is lighter — no INC-20A, no mandatory audit below the turnover and contribution thresholds — which is part of why its all-in cost, both at setup and annually, tends to be lower than a company's.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Pair this estimate with the <a href="/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a> to see the first-year total, not just the day-one cost.</p>
+                <p><strong>Tip:</strong> Pair this estimate with the <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a> to see the first-year total, not just the day-one cost.</p>
             </div>
         </section>
 
@@ -971,24 +971,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Registration Pages</h3>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
-            <a href="/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
-            <a href="/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
-            <a href="/section8-company-registration" class="sidebar-link">Section 8 Company <span class="arrow">→</span></a>
-            <a href="/dsc-registration" class="sidebar-link">DSC Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/section8-company-registration" class="sidebar-link">Section 8 Company <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/dsc-registration" class="sidebar-link">DSC Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
-            <a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
-            <a href="/tools/company-name-search" class="sidebar-link">Company Name Search <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/company-name-search" class="sidebar-link">Company Name Search <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/private-limited-company-registration-cost-breakdown-government-fees" class="sidebar-link">Pvt Ltd Cost Breakdown <span class="arrow">→</span></a>
-            <a href="/blog/form-spice-complete-guide-to-company-incorporation-in-india" class="sidebar-link">SPICe+ Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/private-limited-company-registration-cost-breakdown-government-fees" class="sidebar-link">Pvt Ltd Cost Breakdown <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/form-spice-complete-guide-to-company-incorporation-in-india" class="sidebar-link">SPICe+ Guide <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

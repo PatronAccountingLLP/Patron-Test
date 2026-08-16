@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for Appointment of Statutory Auditor to Fill Casual Vacancy')}}
+{{_('Board Resolution: Statutory Auditor Casual Vacancy')}}
 @endsection
 
 @section('content')

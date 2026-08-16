@@ -4,22 +4,22 @@
 <meta name="description" content="ESOP vs RSU comparison: perquisite tax, capital gains and net in-hand side by side, weighing ESOP exercise cost vs RSU free vesting at India rates today. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-vs-rsu-comparison">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison">
 
 <meta property="og:title" content="ESOP vs RSU Comparison — Tax & Net In-Hand 2026">
 <meta property="og:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand, using India's post-July-2024 rates.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-vs-rsu-comparison">
-<meta property="og:image" content="/tools/esop-vs-rsu-comparison-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP vs RSU Comparison — Tax & Net In-Hand 2026">
 <meta name="twitter:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand. Free & instant.">
-<meta name="twitter:image" content="/tools/esop-vs-rsu-comparison-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP vs RSU Comparison",
   "description": "ESOP vs RSU Comparison computes, side by side, the tax and net outcome of an employee stock option plan versus restricted stock units in India. For an ESOP it applies the exercise price and taxes the gap between the fair market value at exercise and the exercise price as a salary perquisite; for an RSU there is no exercise cost and the full fair market value at vesting is the perquisite. It then computes the capital gains on sale using the perquisite-date fair market value as cost, applies the post 23 July 2024 listed and unlisted rates, and shows the perquisite tax, capital gains tax, total tax and net in-hand for each instrument.",
-  "url": "/tools/esop-vs-rsu-comparison",
+  "url": "https://www.patronaccounting.com/tools/esop-vs-rsu-comparison",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP vs RSU Comparison", "item": "/tools/esop-vs-rsu-comparison"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP vs RSU Comparison", "item": "https://www.patronaccounting.com/tools/esop-vs-rsu-comparison"}
   ]
 }
 </script>
@@ -703,9 +703,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP vs RSU Comparison
 </nav>
@@ -835,14 +835,14 @@ a:focus-visible {
                 <li><strong>Click Compare</strong> for exercise cost, perquisite tax, capital gains tax, total tax and net in-hand for each, with a verdict line.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> For the detailed single-instrument maths, use the <a href="/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> and the <a href="/tools/esop-capital-gains-calculator">capital gains calculator</a>; this tool puts the two instruments next to each other.</p>
+                <p><strong>CA Tip:</strong> For the detailed single-instrument maths, use the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> and the <a href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">capital gains calculator</a>; this tool puts the two instruments next to each other.</p>
             </div>
         </section>
 
         <section class="content-section" id="what-is">
             <h2>ESOP vs RSU — The Core Difference</h2>
             <p>An <strong>ESOP</strong> gives you the right to <em>buy</em> shares at a fixed <strong>exercise (strike) price</strong> after vesting. You profit only if the share value rises above that price, and you must pay cash to exercise — so it carries <strong>leverage and risk</strong>. An <strong>RSU</strong> converts into actual shares <strong>for free</strong> once vesting conditions are met — no exercise price, so it always has value as long as the share price is positive, behaving like a <strong>deferred stock bonus</strong>.</p>
-            <p>Patron's deep-dives compare these from both sides: <a href="/blog/us-rsu-vs-indian-esop-employee-perspective">US RSU vs Indian ESOP</a>, <a href="/blog/esop-vs-sar-vs-phantom-stock">ESOP vs SAR vs phantom stock</a>, and <a href="/blog/india-equity-compensation-foreign-employees">India equity comp for foreign employers</a>.</p>
+            <p>Patron's deep-dives compare these from both sides: <a href="https://www.patronaccounting.com/blog/us-rsu-vs-indian-esop-employee-perspective">US RSU vs Indian ESOP</a>, <a href="https://www.patronaccounting.com/blog/esop-vs-sar-vs-phantom-stock">ESOP vs SAR vs phantom stock</a>, and <a href="https://www.patronaccounting.com/blog/india-equity-compensation-foreign-employees">India equity comp for foreign employers</a>.</p>
             <div class="formula-box">
                 <span class="label">ESOP perquisite</span> = (FMV − exercise price) × shares<br>
                 <span class="label">RSU perquisite</span> = FMV × shares &nbsp;(no exercise price)<br>
@@ -894,7 +894,7 @@ a:focus-visible {
             <ul>
                 <li><strong>ESOPs</strong> suit early-stage startups and those who believe the share price will rise well above the strike — leverage amplifies upside, but the cash to exercise is at risk and options can expire worthless below the strike.</li>
                 <li><strong>RSUs</strong> suit larger, stable companies and the risk-averse — they always retain value, need no cash, but the full vesting value is taxed as salary upfront.</li>
-                <li><strong>Deferral:</strong> the Section 192(1C) startup deferral is framed around ESOP exercise; check eligibility with the <a href="/tools/esop-section-192-1c-eligibility-checker">192(1C) eligibility checker</a>.</li>
+                <li><strong>Deferral:</strong> the Section 192(1C) startup deferral is framed around ESOP exercise; check eligibility with the <a href="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">192(1C) eligibility checker</a>.</li>
                 <li><strong>Foreign awards:</strong> US-parent RSUs are taxed in India at vesting and sale, treated like unlisted shares, with Schedule FA disclosure and Form 67 for foreign tax credit. Sale proceeds and cost are converted to rupees using <a href="https://www.rbi.org.in/" target="_blank" rel="noopener">RBI</a> reference rates, with the statutory provisions published at <a href="https://incometaxindia.gov.in/" target="_blank" rel="noopener">incometaxindia.gov.in</a> and share-based-payment accounting following <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> standards.</li>
             </ul>
             <div class="callout warn">
@@ -972,24 +972,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-capital-gains-calculator" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
-            <a href="/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-section-192-1c-eligibility-checker" class="sidebar-link">192(1C) Eligibility Checker <span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker" class="sidebar-link">192(1C) Eligibility Checker <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/esop-scheme-design" class="sidebar-link">ESOP Scheme Design <span class="arrow">→</span></a>
-            <a href="/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
-            <a href="/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-scheme-design" class="sidebar-link">ESOP Scheme Design <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/us-rsu-vs-indian-esop-employee-perspective" class="sidebar-link">US RSU vs Indian ESOP <span class="arrow">→</span></a>
-            <a href="/blog/esop-vs-sar-vs-phantom-stock" class="sidebar-link">ESOP vs SAR vs Phantom <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/us-rsu-vs-indian-esop-employee-perspective" class="sidebar-link">US RSU vs Indian ESOP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-vs-sar-vs-phantom-stock" class="sidebar-link">ESOP vs SAR vs Phantom <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

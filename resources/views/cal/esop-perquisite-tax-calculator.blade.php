@@ -4,27 +4,27 @@
 <meta name="description" content="ESOP perquisite tax calculator under Section 17(2)(vi): TDS at slab plus surcharge and cess, cash needed to exercise, 80-IAC deferral, foreign flags. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-perquisite-tax-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-perquisite-tax-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">
 <meta property="og:title" content="Section 17(2)(vi) Perquisite Tax Calculator — ESOP 2026">
 <meta property="og:description" content="Compute ESOP perquisite tax under Section 17(2)(vi): TDS, cash needed, 80-IAC deferral, foreign flags.">
-<meta property="og:image" content="/og/esop-perquisite-tax-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/esop-perquisite-tax-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Section 17(2)(vi) Perquisite Tax Calculator — ESOP 2026">
 <meta name="twitter:description" content="ESOP perquisite tax under Section 17(2)(vi): TDS, cash needed, 80-IAC deferral.">
-<meta name="twitter:image" content="/og/esop-perquisite-tax-calculator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/esop-perquisite-tax-calculator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Section 17(2)(vi) Perquisite Tax Calculator","description":"Section 17(2)(vi) Perquisite Tax Calculator computes ESOP perquisite tax for Indian employees on exercise of stock options. Takes number of options exercised, Fair Market Value at exercise, exercise price, marginal slab rate, surcharge bracket, Section 80-IAC startup eligibility, and foreign-company flag. Outputs perquisite value, slab tax + surcharge + cess, total TDS, net cash needed to exercise, Section 192(1C) deferral mechanics, and foreign-company Schedule FA + Form 67 implications for FY 2025-26 (AY 2026-27).","url":"/tools/esop-perquisite-tax-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Section 17(2)(vi) Perquisite Tax Calculator","description":"Section 17(2)(vi) Perquisite Tax Calculator computes ESOP perquisite tax for Indian employees on exercise of stock options. Takes number of options exercised, Fair Market Value at exercise, exercise price, marginal slab rate, surcharge bracket, Section 80-IAC startup eligibility, and foreign-company flag. Outputs perquisite value, slab tax + surcharge + cess, total TDS, net cash needed to exercise, Section 192(1C) deferral mechanics, and foreign-company Schedule FA + Form 67 implications for FY 2025-26 (AY 2026-27).","url":"https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Section 17(2)(vi) Perquisite Tax Calculator","item":"/tools/esop-perquisite-tax-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Section 17(2)(vi) Perquisite Tax Calculator","item":"https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -228,7 +228,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#section-17">Section 17(2)(vi)</a><a href="#slabs">FY 2025-26 Slabs</a><a href="#deferral">80-IAC Deferral</a><a href="#foreign">Foreign ESOPs</a><a href="#tds">TDS Mechanics</a><a href="#capital-gains">After Exercise</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Section 17(2)(vi) Perquisite Tax Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Section 17(2)(vi) Perquisite Tax Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -572,27 +572,27 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
-<a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-<a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
-<a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
-<a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-<a href="/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
-<a href="/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
-<a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
-<a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
-<a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
-<a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny &amp; Assessment <span class="arrow">→</span></a>
-<a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny &amp; Assessment <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
 </div>
 </aside>
 

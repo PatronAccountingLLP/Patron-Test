@@ -3,12 +3,12 @@
     <title>Professional Tax Calculator | State-Wise PT Slabs 2026</title>
     <meta name="description" content="Professional Tax Calculator: compute monthly &amp; annual PT for all Indian states, with gender-specific Maharashtra slabs and special-month rates. Calculate free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/professional-tax-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/professional-tax-calculator">
     <meta property="og:title" content="Professional Tax Calculator &mdash; State-Wise PT Slabs 2026">
     <meta property="og:description" content="Calculate Professional Tax for all Indian states with correct slabs, gender rules, and special months.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/professional-tax-calculator">
-    <meta property="og:image" content="/tools/professional-tax-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/professional-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/professional-tax-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Tax Calculator &mdash; State-Wise PT Slabs 2026">
     <meta name="twitter:description" content="Monthly & annual Professional Tax for all Indian states. Gender slabs, special months. Free!">
-    <meta name="twitter:image" content="/tools/professional-tax-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/professional-tax-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -25,20 +25,20 @@
       "@context": "https://schema.org", "@type": "WebApplication",
       "name": "Professional Tax Calculator India",
       "description": "Professional Tax Calculator computes monthly and annual Professional Tax liability for all Indian states including Maharashtra gender-specific slabs, Karnataka and Maharashtra special month rates, and identifies states with no PT. Covers Article 276 constitutional limit of Rs 2500 per year with state-wise slab tables for FY 2025-26.",
-      "url": "/tools/professional-tax-calculator",
+      "url": "https://www.patronaccounting.com/tools/professional-tax-calculator",
       "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
       "datePublished": "2026-03-05", "dateModified": "2026-03-05",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Professional Tax Calculator", "item": "/tools/professional-tax-calculator"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Professional Tax Calculator", "item": "https://www.patronaccounting.com/tools/professional-tax-calculator"}
     ]}
     </script>
 <script type="application/ld+json">
@@ -855,8 +855,8 @@
     </div></nav>
 
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a><span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>
         Professional Tax Calculator
     </nav> --}}
 
@@ -987,7 +987,7 @@
                 </table>
 
                 <div class="callout warn">
-                    <p><strong>Note:</strong> PT slabs are periodically revised by state governments. The rates above are for FY 2025-26. Always verify with your official state PT portal before making deductions. Patron Accounting maintains updated multi-state PT tables as part of its <a href="/professional-tax-pt-inr-calculator-compliance-services" target="_blank" rel="noopener">PT compliance services</a>.</p>
+                    <p><strong>Note:</strong> PT slabs are periodically revised by state governments. The rates above are for FY 2025-26. Always verify with your official state PT portal before making deductions. Patron Accounting maintains updated multi-state PT tables as part of its <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services" target="_blank" rel="noopener">PT compliance services</a>.</p>
                 </div>
             </section>
 
@@ -1053,23 +1053,23 @@
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>
-                <a href="/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax Services <span class="arrow">&rarr;</span></a>
-                <a href="/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
-                <a href="/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
-                <a href="/pf-calculator" class="sidebar-link">PF Compliance <span class="arrow">&rarr;</span></a>
-                <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/pf-calculator" class="sidebar-link">PF Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">EPF/PF Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

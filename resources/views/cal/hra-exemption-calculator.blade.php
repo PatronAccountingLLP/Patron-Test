@@ -4,23 +4,23 @@
     <title>HRA Exemption Calculator | Section 10(13A) FY 2025-26</title>
     <meta name="description" content="HRA exemption calculator computes your tax-free house rent allowance under Section 10(13A) for FY 2025-26 using the 3-condition rule and metro/non-metro logic.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/hra-exemption-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/hra-exemption-calculator">
 
     <meta property="og:title" content="HRA Exemption Calculator — Section 10(13A) FY 2025-26">
     <meta property="og:description" content="Calculate your tax-free HRA under Section 10(13A) — 3-condition lowest formula, metro vs non-metro rules, FY 2025-26 and FY 2026-27 (8-metro expansion).">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/hra-exemption-calculator">
-    <meta property="og:image" content="/tools/og/hra-exemption-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/hra-exemption-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/hra-exemption-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HRA Exemption Calculator — Section 10(13A) FY 2025-26">
     <meta name="twitter:description" content="Calculate tax-free HRA under Section 10(13A) — 3-condition lowest formula, metro vs non-metro rules, FY 2025-26 and FY 2026-27.">
-    <meta name="twitter:image" content="/tools/og/hra-exemption-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/hra-exemption-calculator.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
     <script type="application/ld+json">
@@ -29,7 +29,7 @@
       "@type": "SoftwareApplication",
       "name": "HRA Exemption Calculator",
       "description": "HRA Exemption Calculator computes the tax-free House Rent Allowance under Section 10(13A) of the Income Tax Act using the three-condition lowest formula — actual HRA received, 50 percent or 40 percent of salary based on metro classification, and rent paid minus 10 percent of salary. Supports FY 2025-26 (4-metro rule) and FY 2026-27 (8-metro rule).",
-      "url": "/tools/hra-exemption-calculator",
+      "url": "https://www.patronaccounting.com/tools/hra-exemption-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -43,10 +43,10 @@
       },
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -71,9 +71,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "HRA Exemption Calculator", "item": "/tools/hra-exemption-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "HRA Exemption Calculator", "item": "https://www.patronaccounting.com/tools/hra-exemption-calculator"}
       ]
     }
     </script>
@@ -704,9 +704,9 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     HRA Exemption Calculator
 </nav>
@@ -1022,7 +1022,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <li><strong>Salaried with home loan and ₹1.5L 80C usage</strong> — old regime usually wins.</li>
                 <li><strong>Salaried under ₹12 lakh income with no major deductions</strong> — new regime wins via Section 87A rebate.</li>
             </ul>
-            <p>Run both regimes annually using the <a href="/tools/income-tax-calculator">Income Tax Calculator</a> and <a href="/tools/section-87a-rebate-calculator">Section 87A Rebate Calculator</a> before locking in your regime declaration with HR.</p>
+            <p>Run both regimes annually using the <a href="https://www.patronaccounting.com/tools/income-tax-calculator">Income Tax Calculator</a> and <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">Section 87A Rebate Calculator</a> before locking in your regime declaration with HR.</p>
 
             <div class="table-scroll"><table class="rate-table">
                 <thead>
@@ -1054,7 +1054,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             </ul>
 
             <h3>If Employer Did Not Allow HRA in Form 16</h3>
-            <p>If you did not submit declarations on time and your employer issued Form 16 (Form 130 from FY 2026-27) without HRA exemption, you can still claim it directly in your ITR. Compute the exemption using this tool, reduce your taxable salary by the exempt amount, and file the ITR under old regime. Be ready to support the claim if a Section 143(1) intimation arrives — see our <a href="/tools/ais-reconciliation-tool">AIS Reconciliation Tool</a> for context.</p>
+            <p>If you did not submit declarations on time and your employer issued Form 16 (Form 130 from FY 2026-27) without HRA exemption, you can still claim it directly in your ITR. Compute the exemption using this tool, reduce your taxable salary by the exempt amount, and file the ITR under old regime. Be ready to support the claim if a Section 143(1) intimation arrives — see our <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool">AIS Reconciliation Tool</a> for context.</p>
 
             <div class="callout warn">
                 <p><strong>High-risk patterns:</strong> Paying rent to spouse, paying nominal rent (e.g., ₹1,000/month) to parents while claiming inflated HRA, claiming HRA for a property you actually own — these are flagged in CPC's automated scrutiny algorithms. Pay realistic rent via bank, document genuinely, and ensure the recipient declares the rental income in their ITR.</p>
@@ -1155,29 +1155,29 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
-            <a href="/payroll-processing-and-management-services" class="sidebar-link">Payroll Services <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
-            <a href="/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-processing-and-management-services" class="sidebar-link">Payroll Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
-            <a href="/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/hra-exemption-2026-pune-bengaluru-hyderabad-ahmedabad-50-percent" class="sidebar-link">HRA Exemption 2026 — 8 Cities at 50% <span class="arrow">→</span></a>
-            <a href="/blog/hra-exemption-rules-2026-documents-pan-landlord" class="sidebar-link">HRA Documentation — PAN &amp; Landlord Rules <span class="arrow">→</span></a>
-            <a href="/blog/tax-efficient-salary-structure-india-employers-guide" class="sidebar-link">Tax-Efficient Salary Structure <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/hra-exemption-2026-pune-bengaluru-hyderabad-ahmedabad-50-percent" class="sidebar-link">HRA Exemption 2026 — 8 Cities at 50% <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/hra-exemption-rules-2026-documents-pan-landlord" class="sidebar-link">HRA Documentation — PAN &amp; Landlord Rules <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/tax-efficient-salary-structure-india-employers-guide" class="sidebar-link">Tax-Efficient Salary Structure <span class="arrow">→</span></a>
         </div>
 
     </aside>

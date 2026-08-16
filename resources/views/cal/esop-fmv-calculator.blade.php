@@ -4,22 +4,22 @@
 <meta name="description" content="ESOP FMV calculator: find fair market value per share at exercise for listed, foreign or unlisted shares, plus the taxable perquisite under Section 17(2)(vi).">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-fmv-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-fmv-calculator">
 
 <meta property="og:title" content="ESOP FMV Calculator — Perquisite Value at Exercise">
 <meta property="og:description" content="Compute the fair market value per share at ESOP exercise — listed, foreign-listed or unlisted (merchant banker) — and the taxable perquisite under Section 17(2)(vi).">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-fmv-calculator">
-<meta property="og:image" content="/tools/esop-fmv-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-fmv-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-fmv-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP FMV Calculator — Perquisite Value at Exercise">
 <meta name="twitter:description" content="Find the FMV per share at ESOP exercise (listed / foreign / unlisted) and the taxable perquisite under Section 17(2)(vi). Free & instant.">
-<meta name="twitter:image" content="/tools/esop-fmv-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-fmv-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP FMV Calculator",
   "description": "ESOP FMV Calculator determines the fair market value per share used for the ESOP perquisite at the date of exercise under Section 17(2)(vi) of the Income-tax Act and Rule 3(8) of the Income-tax Rules. For listed shares it uses the average of the opening and closing price on the exercise date, for foreign-listed shares the closing price converted at the SBI TT buying rate, and for unlisted shares the Category I merchant banker valuation, then computes the taxable perquisite as fair market value less exercise price multiplied by the number of shares exercised.",
-  "url": "/tools/esop-fmv-calculator",
+  "url": "https://www.patronaccounting.com/tools/esop-fmv-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,9 +60,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -72,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP FMV Calculator", "item": "/tools/esop-fmv-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP FMV Calculator", "item": "https://www.patronaccounting.com/tools/esop-fmv-calculator"}
   ]
 }
 </script>
@@ -702,9 +702,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP FMV Calculator
 </nav>
@@ -833,7 +833,7 @@ a:focus-visible {
                 <li><strong>Enter your exercise price and number of shares.</strong></li>
                 <li><strong>Click Calculate.</strong> You get the FMV per share and the taxable perquisite (FMV − exercise price × shares). For the actual tax, pass this to the perquisite-tax calculator.</li>
             </ol>
-            <p>For the tax on the perquisite, use the <a href="/tools/esop-perquisite-tax-calculator">Section 17(2)(vi) perquisite tax calculator</a>; for the gain when you later sell, use the <a href="/tools/capital-gains-calculator">capital gains calculator</a>. For enterprise value rather than per-share FMV, see the <a href="/tools/esop-valuation-calculator">ESOP valuation calculator</a>.</p>
+            <p>For the tax on the perquisite, use the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">Section 17(2)(vi) perquisite tax calculator</a>; for the gain when you later sell, use the <a href="https://www.patronaccounting.com/tools/capital-gains-calculator">capital gains calculator</a>. For enterprise value rather than per-share FMV, see the <a href="https://www.patronaccounting.com/tools/esop-valuation-calculator">ESOP valuation calculator</a>.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> The FMV here also becomes your <strong>cost of acquisition</strong> for capital gains at sale — so the same value does double duty. Keep the merchant banker certificate or exchange data on record to support it.</p>
             </div>
@@ -842,7 +842,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What Is FMV for ESOPs?</h2>
             <p>When you exercise a stock option, the gap between what the share is worth and what you paid is a benefit from employment — a <strong>perquisite</strong> taxed as salary under <strong>Section 17(2)(vi)</strong>. The "what the share is worth" figure is the <strong>fair market value (FMV)</strong> on the <strong>exercise date</strong>, determined under Rule 3(8) of the Income-tax Rules (carried into the 2026 Rules).</p>
-            <p>FMV is measured at <strong>exercise</strong>, not grant or vesting. It drives two things: the perquisite taxed now, and the <strong>cost of acquisition</strong> for capital gains when you eventually sell. This is the two-stage ESOP tax — perquisite at exercise, capital gains at sale — explained in Patron's <a href="/blog/esop-perquisite-tax-exercise-vs-sale">exercise-vs-sale guide</a>.</p>
+            <p>FMV is measured at <strong>exercise</strong>, not grant or vesting. It drives two things: the perquisite taxed now, and the <strong>cost of acquisition</strong> for capital gains when you eventually sell. This is the two-stage ESOP tax — perquisite at exercise, capital gains at sale — explained in Patron's <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale">exercise-vs-sale guide</a>.</p>
         </section>
 
         <section class="content-section" id="rules">
@@ -858,7 +858,7 @@ a:focus-visible {
                     <tr><td>Unlisted (startup / private)</td><td>FMV by a SEBI Category-I Merchant Banker, on a date not more than 180 days before exercise.</td></tr>
                 </tbody>
             </table>
-            <p>The unlisted route is governed by Rule 3(8) read with the <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a> merchant-banker framework; valuations are usually done on DCF or market-multiple methods (Black-Scholes/binomial are not used for this tax FMV). The charge itself sits in Section 17(2)(vi) of the Act administered via the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>. See Patron's <a href="/blog/perquisite-valuation-rules-2026">perquisite valuation rules 2026</a> for the updated position.</p>
+            <p>The unlisted route is governed by Rule 3(8) read with the <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a> merchant-banker framework; valuations are usually done on DCF or market-multiple methods (Black-Scholes/binomial are not used for this tax FMV). The charge itself sits in Section 17(2)(vi) of the Act administered via the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>. See Patron's <a href="https://www.patronaccounting.com/blog/perquisite-valuation-rules-2026">perquisite valuation rules 2026</a> for the updated position.</p>
         </section>
 
         <div class="body-cta">
@@ -878,13 +878,13 @@ a:focus-visible {
                 <span class="label">Total perquisite</span> = (FMV − Exercise price) × Number of shares
             </div>
             <p>The total perquisite is added to your salary income for the year of exercise and taxed at your slab rate, with the employer deducting <strong>TDS under Section 192</strong>. Worked example: FMV ₹400, exercise price ₹50, 2,000 shares → perquisite = (400 − 50) × 2,000 = <strong>₹7,00,000</strong>, added to salary. No cash is received at this point — the tax arises purely on exercise.</p>
-            <p>For the slab-rate tax computation itself, use the <a href="/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a>; the underlying law is summarised in Patron's <a href="/blog/esop-perquisite-tax-section-17">Section 17 perquisite guide</a>.</p>
+            <p>For the slab-rate tax computation itself, use the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a>; the underlying law is summarised in Patron's <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17">Section 17 perquisite guide</a>.</p>
         </section>
 
         <section class="content-section" id="defer">
             <h2>Startup Deferral (Section 80-IAC)</h2>
             <p>Employees of <strong>DPIIT-recognised eligible startups</strong> holding an Inter-Ministerial Board certificate under <strong>Section 80-IAC</strong> can defer the perquisite TDS. The tax is deferred to the earliest of: sale of the shares, cessation of employment, or 48 months from the end of the assessment year in which the shares were allotted.</p>
-            <p>The FMV and perquisite are still computed at exercise as above — only the <strong>payment</strong> of tax is postponed. See Patron's note on <a href="/blog/section-80-iac-esop-deferment-startup">Section 80-IAC ESOP deferment</a>, and for filing the resulting income see <a href="/itr-for-esop-employees">ITR filing for ESOP employees</a>.</p>
+            <p>The FMV and perquisite are still computed at exercise as above — only the <strong>payment</strong> of tax is postponed. See Patron's note on <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC ESOP deferment</a>, and for filing the resulting income see <a href="https://www.patronaccounting.com/itr-for-esop-employees">ITR filing for ESOP employees</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Deferral applies only to eligible 80-IAC startups. For everyone else, TDS is due at exercise even though no shares have been sold — plan liquidity for the tax accordingly.</p>
             </div>
@@ -971,25 +971,25 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost-to-Company <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost-to-Company <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-            <a href="/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
-            <a href="/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax (S.17) <span class="arrow">→</span></a>
-            <a href="/blog/esop-perquisite-tax-exercise-vs-sale" class="sidebar-link">Exercise vs Sale Tax <span class="arrow">→</span></a>
-            <a href="/blog/esop-capital-gains-tax-india" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax (S.17) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale" class="sidebar-link">Exercise vs Sale Tax <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-capital-gains-tax-india" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

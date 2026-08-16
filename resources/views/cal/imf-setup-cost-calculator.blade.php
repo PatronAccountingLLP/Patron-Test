@@ -5,27 +5,27 @@
 <meta name="description" content="Estimate end-to-end Insurance Marketing Firm (IMF) setup costs: MCA, IRDAI registration fees, ISMP training, audit and PI insurance, Pvt Ltd vs LLP. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/imf-setup-cost-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/imf-setup-cost-calculator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/imf-setup-cost-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/imf-setup-cost-calculator">
 <meta property="og:title" content="IMF Setup Cost Calculator — IRDAI Registration Tool 2026">
 <meta property="og:description" content="Estimate IMF setup costs: MCA + IRDAI fees + ISMP training + audit + PI insurance. Pvt Ltd vs LLP.">
-<meta property="og:image" content="/og/imf-setup-cost-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/imf-setup-cost-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IMF Setup Cost Calculator — IRDAI Registration Tool 2026">
 <meta name="twitter:description" content="End-to-end IMF setup cost estimator: MCA, IRDAI, ISMP training, audit, PI insurance.">
-<meta name="twitter:image" content="/og/imf-setup-cost-calculator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/imf-setup-cost-calculator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"IMF Setup Cost Calculator","description":"IMF Setup Cost Calculator computes the end-to-end cost of registering an Insurance Marketing Firm with the Insurance Regulatory and Development Authority of India (IRDAI). Inputs include entity type (Private Limited Company or Limited Liability Partnership), operating area (Tier 1 metro requiring ₹50 lakh net worth or smaller city requiring ₹10 lakh), office setup type (owned or rented), number of Insurance Sales Persons at start, mutual fund distribution add-on, and professional services engagement level (DIY, Standard, or Premium). Outputs an itemised 9-line cost stack: MCA registration, IRDAI application fee, professional services, Principal Officer training, ISP ISMP training, office infrastructure, professional indemnity insurance, first-year statutory compliance, and optional AMFI mutual fund licensing. Also shows the mandatory net worth as a separate capital requirement.","url":"/tools/imf-setup-cost-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"IMF Setup Cost Calculator","description":"IMF Setup Cost Calculator computes the end-to-end cost of registering an Insurance Marketing Firm with the Insurance Regulatory and Development Authority of India (IRDAI). Inputs include entity type (Private Limited Company or Limited Liability Partnership), operating area (Tier 1 metro requiring ₹50 lakh net worth or smaller city requiring ₹10 lakh), office setup type (owned or rented), number of Insurance Sales Persons at start, mutual fund distribution add-on, and professional services engagement level (DIY, Standard, or Premium). Outputs an itemised 9-line cost stack: MCA registration, IRDAI application fee, professional services, Principal Officer training, ISP ISMP training, office infrastructure, professional indemnity insurance, first-year statutory compliance, and optional AMFI mutual fund licensing. Also shows the mandatory net worth as a separate capital requirement.","url":"https://www.patronaccounting.com/tools/imf-setup-cost-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"IMF Setup Cost Calculator","item":"/tools/imf-setup-cost-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"IMF Setup Cost Calculator","item":"https://www.patronaccounting.com/tools/imf-setup-cost-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -231,7 +231,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#cost-breakdown">Cost Breakdown</a><a href="#pvtltd-vs-llp">Pvt Ltd vs LLP</a><a href="#net-worth">Net Worth</a><a href="#ongoing">Ongoing Compliance</a><a href="#hidden-costs">Hidden Costs</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>IMF Setup Cost Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>IMF Setup Cost Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -390,7 +390,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
 <section class="content-section" id="pvtltd-vs-llp">
 <h2>Pvt Ltd vs LLP for IMF Setup — Which Is Cheaper?</h2>
-<p>Both entity types are permitted under the IMF Regulations 2015. LLP is marginally cheaper at registration, but Pvt Ltd is the long-term default for serious IMF founders. <a href="/imf-private-limited-vs-llp">See our detailed comparison</a> for the full decision framework.</p>
+<p>Both entity types are permitted under the IMF Regulations 2015. LLP is marginally cheaper at registration, but Pvt Ltd is the long-term default for serious IMF founders. <a href="https://www.patronaccounting.com/imf-private-limited-vs-llp">See our detailed comparison</a> for the full decision framework.</p>
 
 <table class="rate-table">
 <thead><tr><th>Cost Line</th><th>Pvt Ltd</th><th>LLP</th><th>Saving</th></tr></thead>
@@ -548,27 +548,27 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/imf-incorporation-services" class="sidebar-link">IMF Incorporation Services <span class="arrow">→</span></a>
-<a href="/ismp-certification-isp-appointment" class="sidebar-link">ISMP Certification &amp; ISP Appointment <span class="arrow">→</span></a>
-<a href="/imf-private-limited-vs-llp" class="sidebar-link">IMF Pvt Ltd vs LLP <span class="arrow">→</span></a>
-<a href="/imf-irdai-registration-process" class="sidebar-link">IRDAI Registration Process <span class="arrow">→</span></a>
-<a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Company Registration <span class="arrow">→</span></a>
-<a href="/llp-registration" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/imf-incorporation-services" class="sidebar-link">IMF Incorporation Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/ismp-certification-isp-appointment" class="sidebar-link">ISMP Certification &amp; ISP Appointment <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/imf-private-limited-vs-llp" class="sidebar-link">IMF Pvt Ltd vs LLP <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/imf-irdai-registration-process" class="sidebar-link">IRDAI Registration Process <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Company Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/llp-registration" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/ismp-eligibility-checker" class="sidebar-link">ISMP Eligibility Checker <span class="arrow">→</span></a>
-<a href="/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
-<a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
-<a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
-<a href="/tools/professional-tax-calculator" class="sidebar-link">Professional Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/ismp-eligibility-checker" class="sidebar-link">ISMP Eligibility Checker <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/professional-tax-calculator" class="sidebar-link">Professional Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-<a href="/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
-<a href="/blog/private-limited-company-vs-llp-which-is-right-for-your-startup" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/private-limited-company-vs-llp-which-is-right-for-your-startup" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
 </div>
 </aside>
 

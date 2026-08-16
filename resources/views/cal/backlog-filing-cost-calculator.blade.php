@@ -3,23 +3,23 @@
 <title>Backlog Filing Cost Calculator | ROC Late Fee Tool 2026</title>
 <meta name="description" content="Free backlog filing cost calculator: estimate total ROC cost to clear pending AOC-4 & MGT-7A filings, with CCFS-2026 90% late-fee waiver savings. Calculate now!">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="/tools/backlog-filing-cost-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator">
 
 <meta property="og:title" content="Backlog Filing Cost Calculator — ROC Late Fee Tool 2026">
 <meta property="og:description" content="Estimate the total cost of clearing pending AOC-4 and MGT-7A ROC filings for a small company, including CCFS-2026 90% late-fee waiver savings.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/backlog-filing-cost-calculator">
-<meta property="og:image" content="/tools/backlog-filing-cost-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Backlog Filing Cost Calculator — ROC Late Fee Tool 2026">
 <meta name="twitter:description" content="Estimate the total cost of clearing pending AOC-4 and MGT-7A ROC filings, including CCFS-2026 90% late-fee waiver savings.">
-<meta name="twitter:image" content="/tools/backlog-filing-cost-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "Backlog Filing Cost Calculator",
   "description": "The Backlog Filing Cost Calculator estimates the total Registrar of Companies cost for an Indian small company to clear pending AOC-4 and MGT-7A annual filings, computing normal filing fees by authorised capital slab plus the uncapped 100-rupee-per-day additional fee and the CCFS-2026 ninety percent late-fee waiver savings.",
-  "url": "/tools/backlog-filing-cost-calculator",
+  "url": "https://www.patronaccounting.com/tools/backlog-filing-cost-calculator",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,8 +59,8 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
-  "provider": { "@id": "/#organization" }
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
 }
 </script>
 
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Backlog Filing Cost Calculator", "item": "/tools/backlog-filing-cost-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Backlog Filing Cost Calculator", "item": "https://www.patronaccounting.com/tools/backlog-filing-cost-calculator"}
   ]
 }
 </script>
@@ -1307,9 +1307,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Backlog Filing Cost Calculator
 </nav>
@@ -1552,7 +1552,7 @@ a:focus-visible {
                 <li><strong>Verify CCFS-2026 eligibility.</strong> Confirm the company is not excluded and that each form is covered before assuming the 90% waiver applies.</li>
                 <li><strong>File in sequence and pay.</strong> File year by year, oldest first, paying the normal fee plus the reduced additional fee within the window.</li>
             </ol>
-            <p>Because MGT-7 requires certification by a practising Company Secretary above a paid-up capital threshold and AOC-4 needs an auditor's sign-off, most multi-year backlogs are best handled by professionals familiar with CCFS-2026 procedures. Patron Accounting's team handles end-to-end backlog clearance — see our <a href="/private-limited-company-compliance">private limited company compliance</a> and <a href="/registrar-of-companies">Registrar of Companies (ROC) notice</a> services.</p>
+            <p>Because MGT-7 requires certification by a practising Company Secretary above a paid-up capital threshold and AOC-4 needs an auditor's sign-off, most multi-year backlogs are best handled by professionals familiar with CCFS-2026 procedures. Patron Accounting's team handles end-to-end backlog clearance — see our <a href="https://www.patronaccounting.com/private-limited-company-compliance">private limited company compliance</a> and <a href="https://www.patronaccounting.com/registrar-of-companies">Registrar of Companies (ROC) notice</a> services.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This tool gives a planning estimate, not a statutory computation. Actual additional fees depend on the exact due date and filing date of each individual form. Confirm the precise figure with a Chartered Accountant before paying on the MCA portal.</p>
             </div>
@@ -1685,28 +1685,28 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
-            <a href="/registrar-of-companies" class="sidebar-link">Registrar of Companies Notice <span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
-            <a href="/director-kyc" class="sidebar-link">Director KYC <span class="arrow">→</span></a>
-            <a href="/company-closure" class="sidebar-link">Company Closure <span class="arrow">→</span></a>
-            <a href="/one-person-company-registration" class="sidebar-link">OPC Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/registrar-of-companies" class="sidebar-link">Registrar of Companies Notice <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/director-kyc" class="sidebar-link">Director KYC <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/company-closure" class="sidebar-link">Company Closure <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/one-person-company-registration" class="sidebar-link">OPC Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
-            <a href="/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost Calculator <span class="arrow">→</span></a>
-            <a href="/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder <span class="arrow">→</span></a>
-            <a href="/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist <span class="arrow">→</span></a>
-            <a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">Company Annual Filing (ROC) Guide <span class="arrow">→</span></a>
-            <a href="/blog/company-strike-off-fast-track-exit-procedure-for-closing-your-company" class="sidebar-link">Company Strike Off Procedure <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">Company Annual Filing (ROC) Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/company-strike-off-fast-track-exit-procedure-for-closing-your-company" class="sidebar-link">Company Strike Off Procedure <span class="arrow">→</span></a>
         </div>
 
     </aside>

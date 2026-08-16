@@ -7,20 +7,20 @@
     <title>Financial Health Score Calculator | Altman Z &amp; IBC</title>
     <meta name="description" content="Financial health score calculator: a composite 0-100 score with the Altman Z / Z' / Z'' Score, a 5-dimension breakdown and an IBC distress check. Free CA tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/financial-health-score/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-health-score/">
     <meta property="og:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
     <meta property="og:description" content="Composite 0-100 financial health score with Altman Z / Z' / Z'' Score, IBC distress check and Schedule III ratios. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/financial-health-score">
-    <meta property="og:image" content="/tools/og/financial-health-score.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-health-score">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/financial-health-score.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
     <meta name="twitter:description" content="Composite 0-100 score + Altman Z / Z' / Z'' Score + IBC distress check + Schedule III ratios. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/financial-health-score.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/financial-health-score.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "Financial Health Score Calculator",
       "description": "Financial Health Score Calculator computes a composite 0-100 financial health score across five weighted dimensions — Liquidity, Solvency, Profitability, Efficiency, and Cash Flow — together with the Altman Z-Score (public manufacturers), Z'-Score (private manufacturers), and Z''-Score (non-manufacturers and services, recommended for emerging markets like India). The tool derives ten financial ratios from balance sheet and P&L inputs including Current Ratio, Quick Ratio, Debt-to-Equity, Interest Coverage, Return on Assets, Return on Equity, Asset Turnover, Working Capital to Total Assets, Retained Earnings to Total Assets, and Operating Cash Flow to Total Debt. Output includes verdict (Excellent, Good, Watch, Stressed, Distress), Altman classification (Safe Zone, Grey Zone, Distress Zone), Schedule III ratio disclosure block, IBC Section 4 default risk indicator (₹1 crore threshold), RBI Special Mention Account framework alignment, Section 164(2) director disqualification cascade reference, and Year-on-Year variance flag at the 25% threshold prescribed under Schedule III ratios disclosure rules. Suitable for credit analysis, statutory and internal audit going-concern assessment under SA 570, IBC pre-pack and CIRP screening, MSME credit appraisal, lender covenant testing, M&A target screening, and CA / CS / CMA student learning fundamental analysis aligned with Indian Companies Act 2013, Schedule III Division I and II, and Indian Accounting Standards.",
-      "url": "/tools/financial-health-score",
+      "url": "https://www.patronaccounting.com/tools/financial-health-score",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Financial Health Score Calculator", "item": "/tools/financial-health-score"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Financial Health Score Calculator", "item": "https://www.patronaccounting.com/tools/financial-health-score"}
       ]
     }
     </script>
@@ -474,8 +474,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Financial Health Score Calculator
 </nav>
 
@@ -751,7 +751,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
             <p>The Companies (Accounts) Amendment Rules 2021, notified on 24 March 2021 and effective from financial year 2021-22 onwards, inserted Note 6(W) into Schedule III. Every company preparing financial statements under Schedule III must now disclose <strong>eleven specific financial ratios</strong> in the Notes to Accounts, with year-on-year comparison and explanation for any variance exceeding twenty-five percent. The amendment was a direct response to NFRA and ICAI concerns about unstructured disclosure across listed and unlisted entities.</p>
 
-            <p>Six of the eleven mandatory ratios are direct outputs of this calculator — Current Ratio, Debt-Equity Ratio, Return on Equity, Net Profit Ratio, Return on Capital Employed, and (when revenue inputs are extended) Net Capital Turnover. The remaining five — Debt Service Coverage, Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover, and Return on Investment — flow from the same input set with minor extensions covered by Patron's specialist tools at <a href="/tools/dscr-calculator">DSCR Calculator</a>, <a href="/tools/cash-conversion-cycle-calculator">Cash Conversion Cycle Calculator</a>, and <a href="/tools/working-capital-calculator">Working Capital Calculator</a>.</p>
+            <p>Six of the eleven mandatory ratios are direct outputs of this calculator — Current Ratio, Debt-Equity Ratio, Return on Equity, Net Profit Ratio, Return on Capital Employed, and (when revenue inputs are extended) Net Capital Turnover. The remaining five — Debt Service Coverage, Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover, and Return on Investment — flow from the same input set with minor extensions covered by Patron's specialist tools at <a href="https://www.patronaccounting.com/tools/dscr-calculator">DSCR Calculator</a>, <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">Cash Conversion Cycle Calculator</a>, and <a href="https://www.patronaccounting.com/tools/working-capital-calculator">Working Capital Calculator</a>.</p>
 
             <h3>The 11-Ratio Framework</h3>
             <table class="rate-table">
@@ -850,7 +850,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             </table>
 
             <h3>Reading Trend, Not Snapshot</h3>
-            <p>One year of data establishes a baseline; three to five years reveals direction. A company moving from 75 to 70 to 64 over three years is in a slow slide that often precedes covenant breach by 18 to 24 months. A company moving from 45 to 55 to 62 is recovering — restructuring, new orders, or refinancing has worked. The 25% variance rule under Schedule III makes the trend analysis unavoidable for FY 2025-26 and onwards. Pair this calculator with <a href="/tools/debt-to-equity-calculator">Debt to Equity Calculator</a>, <a href="/tools/ebitda-margin-calculator">EBITDA Margin Calculator</a> and <a href="/tools/dscr-calculator">DSCR Calculator</a> for layered diagnostics.</p>
+            <p>One year of data establishes a baseline; three to five years reveals direction. A company moving from 75 to 70 to 64 over three years is in a slow slide that often precedes covenant breach by 18 to 24 months. A company moving from 45 to 55 to 62 is recovering — restructuring, new orders, or refinancing has worked. The 25% variance rule under Schedule III makes the trend analysis unavoidable for FY 2025-26 and onwards. Pair this calculator with <a href="https://www.patronaccounting.com/tools/debt-to-equity-calculator">Debt to Equity Calculator</a>, <a href="https://www.patronaccounting.com/tools/ebitda-margin-calculator">EBITDA Margin Calculator</a> and <a href="https://www.patronaccounting.com/tools/dscr-calculator">DSCR Calculator</a> for layered diagnostics.</p>
         </section>
 
         <section class="content-section">
@@ -860,7 +860,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <p>Modern retail chains, food-delivery platforms, and marketplace platforms collect from customers within days but pay suppliers in 30 to 60 days. The structural negative working capital generates float — interest-free working capital — that the company deploys profitably. Asian Paints, Hindustan Unilever, DMart, Avenue Supermarts have all run negative working capital for years while compounding earnings. The Liquidity dimension correctly scores them low; the Cash Flow dimension correctly compensates with high marks. Read the composite score, not just one dimension.</p>
 
             <h3>High Altman Score Is Not Investment Recommendation</h3>
-            <p>The Altman Z-Score predicts distress, not future returns. A Z'' of 8.0 tells you bankruptcy is unlikely; it tells you nothing about whether the stock is undervalued or overvalued. Pair the Altman with valuation metrics from <a href="/tools/pe-ratio-calculator">P/E Ratio Calculator</a> and growth projections before any investment decision.</p>
+            <p>The Altman Z-Score predicts distress, not future returns. A Z'' of 8.0 tells you bankruptcy is unlikely; it tells you nothing about whether the stock is undervalued or overvalued. Pair the Altman with valuation metrics from <a href="https://www.patronaccounting.com/tools/pe-ratio-calculator">P/E Ratio Calculator</a> and growth projections before any investment decision.</p>
 
             <h3>Schedule III Compliance Is Not Schedule III Strategy</h3>
             <p>Disclosing eleven ratios meets the minimum legal requirement. Building actual financial health requires acting on what the ratios reveal — restructuring debt before covenants breach, raising equity before market windows close, exiting non-core businesses before they consume working capital. The disclosure is descriptive; the strategic response is prescriptive.</p>
@@ -879,30 +879,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
-            <a href="/tools/ebitda-margin-calculator" class="sidebar-link">EBITDA Margin Calculator<span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
-            <a href="/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
-            <a href="/tools/pe-ratio-calculator" class="sidebar-link">P/E Ratio Calculator<span class="arrow">→</span></a>
-            <a href="/tools/altman-z-score-calculator" class="sidebar-link">Altman Z-Score (standalone)<span class="arrow">→</span></a>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/debt-to-equity-calculator" class="sidebar-link">Debt to Equity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dscr-calculator" class="sidebar-link">DSCR Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ebitda-margin-calculator" class="sidebar-link">EBITDA Margin Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pe-ratio-calculator" class="sidebar-link">P/E Ratio Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/altman-z-score-calculator" class="sidebar-link">Altman Z-Score (standalone)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -5,23 +5,23 @@
     <title>ITR Form Selector | Which ITR Form FY 2025-26</title>
     <meta name="description" content="ITR form selector: a 7-step wizard picks the right ITR form (ITR-1 to ITR-7) for FY 2025-26 (AY 2026-27), with clear reasoning. Free, CA-reviewed. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/itr-form-selector">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/itr-form-selector">
 
     <meta property="og:title" content="ITR Form Selector — Pick the Right ITR Form FY 2025-26">
     <meta property="og:description" content="Decision wizard for ITR-1 to ITR-7 selection for FY 2025-26 (AY 2026-27) — covers individuals, HUF, firms, companies, trusts with reasoning and alternatives.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/itr-form-selector">
-    <meta property="og:image" content="/tools/og/itr-form-selector.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/itr-form-selector">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/itr-form-selector.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Form Selector — Pick the Right ITR Form FY 2025-26">
     <meta name="twitter:description" content="7-step wizard picks the right ITR form (1 to 7) for FY 2025-26 with reasoning and alternatives.">
-    <meta name="twitter:image" content="/tools/og/itr-form-selector.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/itr-form-selector.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
     <script type="application/ld+json">
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "ITR Form Selector",
       "description": "ITR Form Selector helps taxpayers pick the right Income Tax Return form (ITR-1 Sahaj, ITR-2, ITR-3, ITR-4 Sugam, ITR-5, ITR-6, or ITR-7) for FY 2025-26 (AY 2026-27) through an adaptive wizard of up to 8 questions for individuals and HUFs, plus a brief reference panel for firms, companies, and trusts. Each recommendation includes reasoning under CBDT eligibility rules, common alternatives, and edge case flags for crypto income, F&O trading, foreign ESOPs, and unlisted shares where CA consultation is recommended.",
-      "url": "/tools/itr-form-selector",
+      "url": "https://www.patronaccounting.com/tools/itr-form-selector",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -40,10 +40,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -56,8 +56,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
 
@@ -66,9 +66,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "ITR Form Selector", "item": "/tools/itr-form-selector"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "ITR Form Selector", "item": "https://www.patronaccounting.com/tools/itr-form-selector"}
       ]
     }
     </script>
@@ -437,9 +437,9 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ITR Form Selector
 </nav>
@@ -612,7 +612,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
             <p>F&O is non-speculative business income, intraday is speculative business income — both require ITR-3 regardless of profit/loss. Tax audit under Section 44AB may apply if turnover (calculated using ICAI guidelines) exceeds thresholds. Many traders mistakenly file ITR-2 thinking these are capital gains.</p>
 
             <h3>Foreign Company ESOPs / RSUs</h3>
-            <p>Indian employees of MNCs receiving foreign company stock face Schedule FA disclosure under <a href="/itr-for-capital-gains">capital gains rules</a>, plus DTAA foreign tax credit claims via Form 67. Non-disclosure triggers Black Money Act penalties up to ₹10L per year. ITR-2 or ITR-3 with full Schedule FA is mandatory.</p>
+            <p>Indian employees of MNCs receiving foreign company stock face Schedule FA disclosure under <a href="https://www.patronaccounting.com/itr-for-capital-gains">capital gains rules</a>, plus DTAA foreign tax credit claims via Form 67. Non-disclosure triggers Black Money Act penalties up to ₹10L per year. ITR-2 or ITR-3 with full Schedule FA is mandatory.</p>
 
             <h3>Director with Multiple Companies</h3>
             <p>Holding directorship in any company at any time during FY 2025-26 disqualifies you from ITR-1. Companies with strike-off, disqualification, or DIN issues add layers of complexity. ITR-2 if salary-only; ITR-3 if combined with business income.</p>
@@ -681,29 +681,29 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR for Salary <span class="arrow">→</span></a>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Tax Audit Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Tax Audit Services <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-44ada-calculator" class="sidebar-link">Section 44ADA Calculator <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-44ada-calculator" class="sidebar-link">Section 44ADA Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/itr-forms-comparison" class="sidebar-link">ITR Forms Comparison <span class="arrow">→</span></a>
-            <a href="/blog/itr-1-vs-itr-2-when-to-use-which-form" class="sidebar-link">ITR-1 vs ITR-2 — When to Use Which <span class="arrow">→</span></a>
-            <a href="/blog/itr-3-vs-itr-4" class="sidebar-link">ITR-3 vs ITR-4 — Choosing Right <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/itr-forms-comparison" class="sidebar-link">ITR Forms Comparison <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/itr-1-vs-itr-2-when-to-use-which-form" class="sidebar-link">ITR-1 vs ITR-2 — When to Use Which <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/itr-3-vs-itr-4" class="sidebar-link">ITR-3 vs ITR-4 — Choosing Right <span class="arrow">→</span></a>
         </div>
 
     </aside>
@@ -1199,7 +1199,7 @@ function pickPositive(parsed, fallback) {
 
         html += '<div class="next-action">';
         html += '<a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20ITR%20Form%20Selector.%20The%20wizard%20suggested%20' + encodeURIComponent(result.form) + '%20for%20FY%202025-26.%20I%20need%20help%20filing." target="_blank" rel="noopener" class="next-btn">File ' + result.form + ' with Patron CAs →</a>';
-        html += '<a href="/income-tax-return" class="next-btn outline">Learn About Our ITR Service →</a>';
+        html += '<a href="https://www.patronaccounting.com/income-tax-return" class="next-btn outline">Learn About Our ITR Service →</a>';
         html += '</div>';
 
         html += '<div class="post-result-cta" id="postResultCTA">\n    <div class="post-result-cta-head">Want a CA to review this output before it goes into your file?</div>\n    <div class="post-result-cta-sub">Free 15-min review by a Chartered Accountant — ITR Form Selector validation, professional documentation, no obligation.</div>\n    <div class="brand-cta-bar-actions">\n        <a href="tel:+919459456700" class="brand-cta-btn brand-cta-btn-call" aria-label="Call us at +91 945 945 6700">\n            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>\n            +91 945 945 6700\n        </a>\n        <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20just%20used%20the%20ITR%20Form%20Selector.%20Please%20review%20my%20recommended%20form%20and%20advise%20on%20next%20steps." class="brand-cta-btn brand-cta-btn-wa" target="_blank" aria-label="WhatsApp us" rel="noopener">\n            <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0 0 20.464 3.488"/></svg>\n            WhatsApp\n        </a>\n        <a href="mailto:sales@patronaccounting.com?subject=ITR%20Form%20Selector%20%E2%80%94%20Review%20Request&body=Hi%20Patron%20Accounting%2C%0A%0AI%20just%20used%20the%20ITR%20Form%20Selector%20and%20would%20like%20a%20Chartered%20Accountant%20to%20review%20my%20output%20before%20I%20act%20on%20it.%0A%0APlease%20advise%20on%20next%20steps%20for%20picking%20the%20right%20ITR%20form.%0A%0AThank%20you." class="brand-cta-btn brand-cta-btn-email" aria-label="Email us">\n            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>\n            Email\n        </a>\n    </div>\n</div>';

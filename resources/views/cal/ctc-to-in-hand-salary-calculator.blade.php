@@ -3,20 +3,20 @@
     <title>CTC to In-Hand Salary Calculator | Take-Home FY 2025-26</title>
     <meta name="description" content="CTC to in-hand salary calculator: convert your CTC to monthly take-home pay after EPF, gratuity, professional tax and income tax for FY 2025-26. Free, instant!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ctc-to-in-hand-salary-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator">
     <meta property="og:title" content="CTC to In-Hand Salary Calculator — Take Home Pay 2026">
     <meta property="og:description" content="Convert CTC to monthly take-home salary after EPF, gratuity, professional tax and income tax for FY 2025-26.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/ctc-to-in-hand-salary-calculator">
-    <meta property="og:image" content="/tools/ctc-to-in-hand-salary-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CTC to In-Hand Salary Calculator — Take Home Pay 2026">
     <meta name="twitter:description" content="Convert CTC to in-hand salary for FY 2025-26. EPF, tax, gratuity deductions. Free!">
-    <meta name="twitter:image" content="/tools/ctc-to-in-hand-salary-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -25,20 +25,20 @@
       "@context": "https://schema.org", "@type": "WebApplication",
       "name": "CTC to In-Hand Salary Calculator India",
       "description": "CTC to In-Hand Salary Calculator converts annual Cost to Company into monthly take-home salary after deducting employer PF, gratuity, employee PF, professional tax, and income tax under both old and new tax regimes for FY 2025-26. Shows complete salary breakup with Basic, HRA, Special Allowance, and all statutory deductions for Indian employees.",
-      "url": "/tools/ctc-to-in-hand-salary-calculator",
+      "url": "https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator",
       "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
       "datePublished": "2026-03-05", "dateModified": "2026-03-05",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "CTC to In-Hand Salary Calculator", "item": "/tools/ctc-to-in-hand-salary-calculator"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "CTC to In-Hand Salary Calculator", "item": "https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator"}
     ]}
     </script>
 <script type="application/ld+json">
@@ -864,8 +864,8 @@
     </div></nav>
 
     {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a><span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>
         CTC to In-Hand Salary Calculator
     </nav> --}}
 
@@ -1033,7 +1033,7 @@
                 <h3>Under New Regime</h3>
                 <p>The new regime offers lower tax rates but no deductions except standard deduction (&#8377;75K) and employer NPS contribution under 80CCD(2). For employees without significant investments or home loans, the new regime often gives better results for salaries up to &#8377;12-15 LPA. The rebate under Section 87A makes income up to &#8377;12L effectively tax-free.</p>
                 <h3>Salary Restructuring</h3>
-                <p>Ask your employer to restructure salary to include NPS employer contribution (tax-free up to 14% of basic under new regime), meal vouchers (&#8377;50/meal, tax-free under old regime), and car lease (reduces taxable perquisite). A CA can help optimise your salary structure legally. <a href="/payroll-services" target="_blank" rel="noopener">Patron Accounting payroll services &rarr;</a></p>
+                <p>Ask your employer to restructure salary to include NPS employer contribution (tax-free up to 14% of basic under new regime), meal vouchers (&#8377;50/meal, tax-free under old regime), and car lease (reduces taxable perquisite). A CA can help optimise your salary structure legally. <a href="https://www.patronaccounting.com/payroll-services" target="_blank" rel="noopener">Patron Accounting payroll services &rarr;</a></p>
 
                 <div class="callout">
                     <p><strong>Need Payroll or Tax Planning Help?</strong> Patron Accounting provides payroll processing, salary structuring, TDS computation, and tax planning advisory for employees and businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20salary%20structuring%20and%20tax%20planning.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert payroll help &rarr;</a></p>
@@ -1066,23 +1066,23 @@
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>
-                <a href="/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
-                <a href="/payroll-processing-and-management-services" class="sidebar-link">Payroll Management <span class="arrow">&rarr;</span></a>
-                <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="/income-tax-return" class="sidebar-link">Income Tax Return <span class="arrow">&rarr;</span></a>
-                <a href="/itr-filing-for-salary" class="sidebar-link">ITR for Salaried <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/payroll-processing-and-management-services" class="sidebar-link">Payroll Management <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR for Salaried <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
-                <a href="/tools/profit-loss-generator" class="sidebar-link">P&L Generator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">P&L Generator <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/cost-to-company-ctc-components-calculation-and-salary-breakup" class="sidebar-link">CTC Components Explained <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

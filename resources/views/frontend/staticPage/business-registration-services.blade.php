@@ -1,6 +1,6 @@
 @extends('layouts.service-app')
 
-<title>Business Registration in India — Company, LLP, Startup, NGO & Global | Patron LLP</title>
+<title>Business Registration in India: Company, LLP & NGO | Patron</title>
 <meta name="description"
     content="Pvt Ltd, LLP, OPC, Section 8, Producer Co, partnership, proprietorship, HUF, foreign-co India setup, post-incorporation registrations, conversions and international incorporation.">
 <meta name="keywords"
@@ -40,332 +40,332 @@
  "@type": "ItemList",
  "name": "Business Registration & Incorporation Services \u2014 Directory",
  "description": "Pvt Ltd, LLP, OPC, Section 8, Producer Co, partnership, proprietorship, HUF, foreign-co India setup, post-incorporation registrations, conversions and international incorporation.",
- "url": "/business-registration-services",
+ "url": "https://www.patronaccounting.com/business-registration-services",
  "numberOfItems": 54,
  "itemListOrder": "https://schema.org/ItemListOrderAscending",
  "itemListElement": [
  {
  "@type": "ListItem",
  "position": 1,
- "url": "/private-limited-company-registration",
+ "url": "https://www.patronaccounting.com/private-limited-company-registration",
  "name": "Private Limited Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 2,
- "url": "/one-person-company-registration",
+ "url": "https://www.patronaccounting.com/one-person-company-registration",
  "name": "One Person Company (OPC) Registration"
  },
  {
  "@type": "ListItem",
  "position": 3,
- "url": "/public-company-registration",
+ "url": "https://www.patronaccounting.com/public-company-registration",
  "name": "Public Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 4,
- "url": "/producer-company-registration",
+ "url": "https://www.patronaccounting.com/producer-company-registration",
  "name": "Producer Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 5,
- "url": "/nidhi-company-registration",
+ "url": "https://www.patronaccounting.com/nidhi-company-registration",
  "name": "Nidhi Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 6,
- "url": "/llp-incorporation",
+ "url": "https://www.patronaccounting.com/llp-incorporation",
  "name": "LLP Incorporation"
  },
  {
  "@type": "ListItem",
  "position": 7,
- "url": "/partnership-firm-registration",
+ "url": "https://www.patronaccounting.com/partnership-firm-registration",
  "name": "Partnership Firm Registration"
  },
  {
  "@type": "ListItem",
  "position": 8,
- "url": "/proprietorship-registration",
+ "url": "https://www.patronaccounting.com/proprietorship-registration",
  "name": "Proprietorship Registration"
  },
  {
  "@type": "ListItem",
  "position": 9,
- "url": "/huf-formation-and-pan-application",
+ "url": "https://www.patronaccounting.com/huf-formation-and-pan-application",
  "name": "HUF Formation & PAN Application"
  },
  {
  "@type": "ListItem",
  "position": 10,
- "url": "/convert-partnership-to-llp",
+ "url": "https://www.patronaccounting.com/convert-partnership-to-llp",
  "name": "Partnership to LLP Conversion"
  },
  {
  "@type": "ListItem",
  "position": 11,
- "url": "/convert-partnership-to-pvt-ltd-company",
+ "url": "https://www.patronaccounting.com/convert-partnership-to-pvt-ltd-company",
  "name": "Partnership to Pvt Ltd Conversion"
  },
  {
  "@type": "ListItem",
  "position": 12,
- "url": "/convert-llp-to-private-limited-company",
+ "url": "https://www.patronaccounting.com/convert-llp-to-private-limited-company",
  "name": "LLP to Pvt Ltd Conversion"
  },
  {
  "@type": "ListItem",
  "position": 13,
- "url": "/convert-proprietorship-to-pvt-ltd",
+ "url": "https://www.patronaccounting.com/convert-proprietorship-to-pvt-ltd",
  "name": "Proprietorship to Pvt Ltd Conversion"
  },
  {
  "@type": "ListItem",
  "position": 14,
- "url": "/convert-proprietorship-to-llp",
+ "url": "https://www.patronaccounting.com/convert-proprietorship-to-llp",
  "name": "Proprietorship to LLP Conversion"
  },
  {
  "@type": "ListItem",
  "position": 15,
- "url": "/convert-pvt-ltd-to-public-ltd",
+ "url": "https://www.patronaccounting.com/convert-pvt-ltd-to-public-ltd",
  "name": "Pvt Ltd to Public Ltd Conversion"
  },
  {
  "@type": "ListItem",
  "position": 16,
- "url": "/convert-public-ltd-to-pvt-ltd",
+ "url": "https://www.patronaccounting.com/convert-public-ltd-to-pvt-ltd",
  "name": "Public Ltd to Pvt Ltd Conversion"
  },
  {
  "@type": "ListItem",
  "position": 17,
- "url": "/convert-llp-to-public-ltd",
+ "url": "https://www.patronaccounting.com/convert-llp-to-public-ltd",
  "name": "LLP to Public Ltd Conversion"
  },
  {
  "@type": "ListItem",
  "position": 18,
- "url": "/section8-company-registration",
+ "url": "https://www.patronaccounting.com/section8-company-registration",
  "name": "Section 8 Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 19,
- "url": "/ngo-registration",
+ "url": "https://www.patronaccounting.com/ngo-registration",
  "name": "NGO Registration"
  },
  {
  "@type": "ListItem",
  "position": 20,
- "url": "/12a-registration",
+ "url": "https://www.patronaccounting.com/12a-registration",
  "name": "12A Registration (NGO Tax Exemption)"
  },
  {
  "@type": "ListItem",
  "position": 21,
- "url": "/trust-registration-public-charitable",
+ "url": "https://www.patronaccounting.com/trust-registration-public-charitable",
  "name": "Public Charitable Trust Registration"
  },
  {
  "@type": "ListItem",
  "position": 22,
- "url": "/trust-registration-private-family",
+ "url": "https://www.patronaccounting.com/trust-registration-private-family",
  "name": "Private Family Trust Registration"
  },
  {
  "@type": "ListItem",
  "position": 23,
- "url": "/company-registration-in-usa",
+ "url": "https://www.patronaccounting.com/company-registration-in-usa",
  "name": "Company Registration in USA"
  },
  {
  "@type": "ListItem",
  "position": 24,
- "url": "/company-registration-in-uae",
+ "url": "https://www.patronaccounting.com/company-registration-in-uae",
  "name": "Company Registration in UAE"
  },
  {
  "@type": "ListItem",
  "position": 25,
- "url": "/company-registration-in-singapore",
+ "url": "https://www.patronaccounting.com/company-registration-in-singapore",
  "name": "Company Registration in Singapore"
  },
  {
  "@type": "ListItem",
  "position": 26,
- "url": "/company-registration-in-uk",
+ "url": "https://www.patronaccounting.com/company-registration-in-uk",
  "name": "Company Registration in UK"
  },
  {
  "@type": "ListItem",
  "position": 27,
- "url": "/company-registration-in-cayman-islands",
+ "url": "https://www.patronaccounting.com/company-registration-in-cayman-islands",
  "name": "Company Registration in Cayman Islands"
  },
  {
  "@type": "ListItem",
  "position": 28,
- "url": "/company-registration-in-mauritius",
+ "url": "https://www.patronaccounting.com/company-registration-in-mauritius",
  "name": "Company Registration in Mauritius"
  },
  {
  "@type": "ListItem",
  "position": 29,
- "url": "/wholly-owned-subsidiary-of-foreign-company-india",
+ "url": "https://www.patronaccounting.com/wholly-owned-subsidiary-of-foreign-company-india",
  "name": "Wholly-Owned Subsidiary Setup"
  },
  {
  "@type": "ListItem",
  "position": 30,
- "url": "/branch-office-of-foreign-company-india",
+ "url": "https://www.patronaccounting.com/branch-office-of-foreign-company-india",
  "name": "Branch Office of Foreign Company"
  },
  {
  "@type": "ListItem",
  "position": 31,
- "url": "/liaison-office-of-foreign-company-india",
+ "url": "https://www.patronaccounting.com/liaison-office-of-foreign-company-india",
  "name": "Liaison Office of Foreign Company"
  },
  {
  "@type": "ListItem",
  "position": 32,
- "url": "/project-office-of-foreign-company-india",
+ "url": "https://www.patronaccounting.com/project-office-of-foreign-company-india",
  "name": "Project Office of Foreign Company"
  },
  {
  "@type": "ListItem",
  "position": 33,
- "url": "/pan-and-tan-application-post-incorporation",
+ "url": "https://www.patronaccounting.com/pan-and-tan-application-post-incorporation",
  "name": "PAN & TAN Application"
  },
  {
  "@type": "ListItem",
  "position": 34,
- "url": "/shop-and-establishment-act-registration",
+ "url": "https://www.patronaccounting.com/shop-and-establishment-act-registration",
  "name": "Shop & Establishment Registration"
  },
  {
  "@type": "ListItem",
  "position": 35,
- "url": "/dpiit-startup-recognition",
+ "url": "https://www.patronaccounting.com/dpiit-startup-recognition",
  "name": "DPIIT Startup Recognition"
  },
  {
  "@type": "ListItem",
  "position": 36,
- "url": "/angel-tax-exemption-section-56-2-viib",
+ "url": "https://www.patronaccounting.com/angel-tax-exemption-section-56-2-viib",
  "name": "Angel Tax Exemption (Sec 56)"
  },
  {
  "@type": "ListItem",
  "position": 37,
- "url": "/fssai-registration",
+ "url": "https://www.patronaccounting.com/fssai-registration",
  "name": "FSSAI Registration"
  },
  {
  "@type": "ListItem",
  "position": 38,
- "url": "/trade-license-municipality-registration",
+ "url": "https://www.patronaccounting.com/trade-license-municipality-registration",
  "name": "Trade License (Municipality)"
  },
  {
  "@type": "ListItem",
  "position": 39,
- "url": "/gem-government-e-marketplace-registration",
+ "url": "https://www.patronaccounting.com/gem-government-e-marketplace-registration",
  "name": "GeM Registration"
  },
  {
  "@type": "ListItem",
  "position": 40,
- "url": "/startup-registration",
+ "url": "https://www.patronaccounting.com/startup-registration",
  "name": "Startup Registration"
  },
  {
  "@type": "ListItem",
  "position": 41,
- "url": "/nbfc-registration-rbi-applicability-and-process",
+ "url": "https://www.patronaccounting.com/nbfc-registration-rbi-applicability-and-process",
  "name": "NBFC Registration (RBI)"
  },
  {
  "@type": "ListItem",
  "position": 42,
- "url": "/special-purpose-vehicle-spv-and-holding-company-setup",
+ "url": "https://www.patronaccounting.com/special-purpose-vehicle-spv-and-holding-company-setup",
  "name": "SPV & Holding Company Setup"
  },
  {
  "@type": "ListItem",
  "position": 43,
- "url": "/joint-venture-jv-structure-and-shareholders-agreement",
+ "url": "https://www.patronaccounting.com/joint-venture-jv-structure-and-shareholders-agreement",
  "name": "Joint Venture (JV) Structure & SHA"
  },
  {
  "@type": "ListItem",
  "position": 44,
- "url": "/irda-imf-business-registration",
+ "url": "https://www.patronaccounting.com/irda-imf-business-registration",
  "name": "IRDA IMF Business Registration"
  },
  {
  "@type": "ListItem",
  "position": 45,
- "url": "/freelancer-business-registration",
+ "url": "https://www.patronaccounting.com/freelancer-business-registration",
  "name": "Freelancer Business Registration"
  },
  {
  "@type": "ListItem",
  "position": 46,
- "url": "/professional-firm-registration",
+ "url": "https://www.patronaccounting.com/professional-firm-registration",
  "name": "Professional Firm Registration"
  },
  {
  "@type": "ListItem",
  "position": 47,
- "url": "/ecommerce-business-registration",
+ "url": "https://www.patronaccounting.com/ecommerce-business-registration",
  "name": "E-Commerce Business Registration"
  },
  {
  "@type": "ListItem",
  "position": 48,
- "url": "/family-business-registration-india",
+ "url": "https://www.patronaccounting.com/family-business-registration-india",
  "name": "Family Business Registration"
  },
  {
  "@type": "ListItem",
  "position": 49,
- "url": "/foreign-subsidiary-registration-india",
+ "url": "https://www.patronaccounting.com/foreign-subsidiary-registration-india",
  "name": "Foreign Subsidiary Registration"
  },
  {
  "@type": "ListItem",
  "position": 50,
- "url": "/real-estate-company-registration-india",
+ "url": "https://www.patronaccounting.com/real-estate-company-registration-india",
  "name": "Real Estate Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 51,
- "url": "/manufacturing-company-registration-india",
+ "url": "https://www.patronaccounting.com/manufacturing-company-registration-india",
  "name": "Manufacturing Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 52,
- "url": "/it-saas-company-registration-india",
+ "url": "https://www.patronaccounting.com/it-saas-company-registration-india",
  "name": "IT / SaaS Company Registration"
  },
  {
  "@type": "ListItem",
  "position": 53,
- "url": "/healthcare-business-registration-india",
+ "url": "https://www.patronaccounting.com/healthcare-business-registration-india",
  "name": "Healthcare Business Registration"
  },
  {
  "@type": "ListItem",
  "position": 54,
- "url": "/fintech-company-registration-india",
+ "url": "https://www.patronaccounting.com/fintech-company-registration-india",
  "name": "Fintech Company Registration"
  }
  ]
@@ -380,13 +380,13 @@
  "@type": "ListItem",
  "position": 1,
  "name": "Home",
- "item": "/"
+ "item": "https://www.patronaccounting.com/"
  },
  {
  "@type": "ListItem",
  "position": 2,
  "name": "Business Registration Services",
- "item": "/business-registration-services"
+ "item": "https://www.patronaccounting.com/business-registration-services"
  }
  ]
 }
@@ -396,8 +396,8 @@
  "@context": "https://schema.org",
  "@type": "Organization",
  "name": "Patron Accounting LLP",
- "url": "/",
- "logo": "/images/logo.png",
+ "url": "https://www.patronaccounting.com/",
+ "logo": "https://www.patronaccounting.com/images/logo.png",
  "sameAs": [
  "https://www.linkedin.com/company/patron-accounting"
  ],
@@ -2689,21 +2689,93 @@
                         </div>
                     </div>
                      <div class="">
-                        @include('partials.enquiry-form', [
-                            'selected' => null,
-                            'options'  => [
-                                'Private Limited Company' => 'Private Limited Company',
-                                'LLP / Partnership / Proprietorship' => 'LLP / Partnership / Proprietorship',
-                                'OPC / Producer / Nidhi company' => 'OPC / Producer / Nidhi company',
-                                'Entity conversion' => 'Entity conversion',
-                                'NGO / Trust / Society' => 'NGO / Trust / Society',
-                                'International incorporation' => 'International incorporation',
-                                'Foreign company in India' => 'Foreign company in India',
-                                'Post-incorporation registration' => 'Post-incorporation registration',
-                                'Startup / specialised registration' => 'Startup / specialised registration',
-                                'Other' => 'Other',
-                            ],
-                        ])
+                        <div class="form-card" id="consultationFormCard">
+                        <div class="form-header">
+                            <div class="form-badge">Plan Guidance</div>
+                            <h2 class="form-title">Get Personalised Registration Guidance</h2>
+                            <p class="form-subtitle">Route to the right entity for your situation</p>
+                        </div>
+                         <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Legal Drafting'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">What do you need help with?</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                 <option value="">Select your situation</option>
+                                    <option value="Private Limited Company">Private Limited Company</option>
+                                    <option value="LLP / Partnership / Proprietorship">LLP / Partnership / Proprietorship</option>
+                                    <option value="OPC / Producer / Nidhi company">OPC / Producer / Nidhi company</option>
+                                    <option value="Entity conversion">Entity conversion</option>
+                                    <option value="NGO / Trust / Society">NGO / Trust / Society</option>
+                                    <option value="International incorporation">International incorporation</option>
+                                    <option value="Foreign company in India">Foreign company in India</option>
+                                    <option value="Post-incorporation registration">Post-incorporation registration</option>
+                                    <option value="Startup / specialised registration">Startup / specialised registration</option>
+                                    <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Find My ITR Service →</button>
+                        <div class="form-trust-signals">
+                        <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>AY 2026-27</div>
+                        <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>CA Reviewed</div>
+                        <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>500+ Reviews</div>
+                    </div>
+                    </form>
+            </div>
                     </div>
                 </div>
 
@@ -3904,12 +3976,275 @@
 
 
 
+<script>
+// Country Data (46 countries)
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
+    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
+    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
+    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
+    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
+    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
+    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
+    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
+    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
+    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
+    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
+    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
+    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
+    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
+    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
+    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
+    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
+    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
+    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
+    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
+    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
+    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
+    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
+    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
+    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
+    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
+    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
+    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
+    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
+    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
+    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
+    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
+    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
+    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
+    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
+    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
+    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
+    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
+    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
+];
 
+var selectedCountry = countries[0]; // Default: India
 
+function populateCountries(filter) {
+    filter = filter || '';
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    var filtered = filter
+        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
+        : countries;
+    filtered.forEach(function(country) {
+        var option = document.createElement('div');
+        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
+        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
+        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
+        container.appendChild(option);
+    });
+}
 
+function selectCountry(country) {
+    selectedCountry = country;
+    document.getElementById('selectedFlag').textContent = country.flag;
+    document.getElementById('selectedCode').textContent = country.code;
+    document.getElementById('countryCodeDropdown').classList.remove('open');
+    document.getElementById('countrySearchInput').value = '';
+    populateCountries();
+    document.getElementById('phoneNumberInput').focus();
+}
+
+function toggleCountryDropdown(event) {
+    event.stopPropagation();
+    var dropdown = document.getElementById('countryCodeDropdown');
+    var isOpen = dropdown.classList.contains('open');
+    if (isOpen) {
+        dropdown.classList.remove('open');
+    } else {
+        dropdown.classList.add('open');
+        document.getElementById('countrySearchInput').value = '';
+        populateCountries();
+        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
+    }
+}
+
+function filterCountries(value) { populateCountries(value); }
+
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+    var dropdown = document.getElementById('countryCodeDropdown');
+    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
+});
+
+// Form Validation
+function clearFieldError(fieldObj) {
+    fieldObj.classList.remove('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
+}
+
+function setFieldError(fieldObj, message) {
+    fieldObj.classList.add('input-error');
+    var parent = fieldObj.closest('.form-group');
+    if (parent && !parent.querySelector('.field-error-msg')) {
+        var errDiv = document.createElement('div');
+        errDiv.className = 'field-error-msg';
+        errDiv.textContent = message;
+        parent.appendChild(errDiv);
+    }
+}
+
+// ── Phone Validation ──────────────────────────────────────────
+function validatePhone(val, dialCode) {
+    val = val.replace(/[\s\-().]/g, '');
+    if (!val) {
+        return { valid: false, message: 'Phone number is required' };
+    }
+    if (dialCode === '+91') {
+        if (!/^[6-9][0-9]{9}$/.test(val)) {
+            if (val.length !== 10) {
+                return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' };
+            }
+            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
+        }
+        return { valid: true };
+    }
+    if (!/^[0-9]{7,15}$/.test(val)) {
+        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+    }
+    return { valid: true };
+}
+
+function validatePhoneOnBlur(input) {
+    var val = input.value.trim();
+    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
+    var result = validatePhone(val, dialCode);
+    var errorEl = document.getElementById('phoneError');
+    var groupEl = document.getElementById('phoneGroup');
+    if (val === '') return;
+    if (!result.valid) {
+        groupEl.classList.add('input-error');
+        errorEl.textContent = result.message;
+        errorEl.style.display = 'block';
+    } else {
+        groupEl.classList.remove('input-error');
+        errorEl.style.display = 'none';
+    }
+}
+// ─────────────────────────────────────────────────────────────
+
+function validateConsultationForm() {
+    var isValid = true;
+
+    var nameField = document.getElementById('consultFullName');
+    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
+
+    var phoneInput = document.getElementById('phoneNumberInput');
+    var phoneVal = phoneInput.value.trim();
+    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
+    if (!phoneResult.valid) {
+        setFieldError(phoneInput, phoneResult.message);
+        document.getElementById('phoneGroup').classList.add('input-error');
+        document.getElementById('phoneError').textContent = phoneResult.message;
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    } else {
+        document.getElementById('phoneGroup').classList.remove('input-error');
+        document.getElementById('phoneError').style.display = 'none';
+    }
+
+    var cityField = document.getElementById('consultCity');
+    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
+
+    var serviceField = document.getElementById('consultService');
+    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
+
+    if (isValid) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
+        var serviceName = serviceField.options[serviceField.selectedIndex].text;
+        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
+        document.getElementById('pageSourceField').value = window.location.href;
+        var btn = document.getElementById('formSubmitBtn');
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
+    }
+    return isValid;
+}
+
+// Success state handler (Bigin iframe load)
+window.addEventListener('DOMContentLoaded', function() {
+    populateCountries();
+    // Auto-embed page URL in form
+    var pageSourceField = document.getElementById('pageSourceField');
+    if (pageSourceField) { pageSourceField.value = window.location.href; }
+    var iframe = document.getElementById('hidden208810000001209168Frame');
+    if (iframe) {
+        iframe.addEventListener('load', function() {
+            try {
+                var iframeDoc = this.contentWindow.document;
+                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
+            } catch (error) { showSuccessState(); }
+        });
+    }
+});
+
+function showSuccessState() {
+    var formCard = document.getElementById('consultationFormCard');
+    if (formCard) {
+        formCard.innerHTML =
+            '<div class="form-success">' +
+                '<div class="form-success-icon">' +
+                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
+                '</div>' +
+                '<h3>Thank You!</h3>' +
+                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
+            '</div>';
+    }
+}
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation (from Bigin source code)
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+// Bigin iframe success handler (overrides our custom one above via event delegation)
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
 
 <!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
-
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

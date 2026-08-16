@@ -9,8 +9,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="alternate" hreflang="en-IN" href="/compliance-calendar">
-<link rel="alternate" hreflang="en" href="/compliance-calendar">
 <link rel="canonical" href="/compliance-calendar">
 <meta property="og:title" content="India Compliance Calendar 2025-26 | Free | Patron Accounting">
 <meta property="og:description" content="109 compliances across 12 regulators. Filter by industry, turnover, employees & entity type. Built by practising CAs.">
@@ -35,7 +33,7 @@
           "@type": "Service",
           "name": "India Compliance Calendar | Free",
           "description": "India Compliance Calendar FY 2025-26 — 109 compliances across GST, TDS, MCA, SEBI & FEMA. Filter by entity, turnover & industry. Free by Patron Accounting CAs.",
-          "url": "/compliance-calendar",
+          "url": "https://www.patronaccounting.com/compliance-calendar",
           "serviceType": "India Compliance Calendar | Free",
           "areaServed": {
             "@type": "Country",
@@ -44,8 +42,8 @@
           "provider": {
             "@type": "Organization",
             "name": "Patron Accounting LLP",
-            "url": "/",
-            "logo": "/images/site-logo.svg"
+            "url": "https://www.patronaccounting.com/",
+            "logo": "https://www.patronaccounting.com/images/site-logo.svg"
           }
         },
         {
@@ -55,13 +53,13 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "/"
+              "item": "https://www.patronaccounting.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "India Compliance Calendar | Free",
-              "item": "/compliance-calendar"
+              "item": "https://www.patronaccounting.com/compliance-calendar"
             }
           ]
         }

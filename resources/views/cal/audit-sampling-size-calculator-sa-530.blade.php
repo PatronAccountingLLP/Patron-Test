@@ -7,20 +7,20 @@
     <title>Audit Sampling Size Calculator SA 530 | Attribute & MUS</title>
     <meta name="description" content="Free audit sampling size calculator under SA 530: tests of controls (attribute) and tests of details (MUS) sample sizes. ICAI-aligned, CA-reviewed. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/audit-sampling-size-calculator-sa-530/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530/">
     <meta property="og:title" content="Audit Sampling Size Calculator (SA 530) — FY 2025-26">
     <meta property="og:description" content="Compute audit sample size per SA 530: Tests of Controls + Tests of Details (MUS). AICPA-aligned tables. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/audit-sampling-size-calculator-sa-530">
-    <meta property="og:image" content="/tools/og/audit-sampling-size-calculator-sa-530.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/audit-sampling-size-calculator-sa-530.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit Sampling Size Calculator (SA 530) — FY 2025-26">
     <meta name="twitter:description" content="Tests of Controls + MUS Tests of Details. AICPA tables. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/audit-sampling-size-calculator-sa-530.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/audit-sampling-size-calculator-sa-530.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "Audit Sampling Size Calculator (SA 530)",
       "description": "Audit Sampling Size Calculator computes statistical sample sizes per Standard on Auditing 530 (SA 530) Audit Sampling issued by the Institute of Chartered Accountants of India, converged with International Standard on Auditing 530. The tool supports two modes — Tests of Controls using attribute sampling with tolerable deviation rate and expected population deviation rate inputs, and Tests of Details using Monetary Unit Sampling (MUS) with population book value, tolerable misstatement linked to performance materiality under SA 320, expected misstatement and reliability factor inputs. Sample size tables are aligned with AICPA Audit Sampling Guide and ICAI Implementation Guide on SA 530, supporting 90% and 95% confidence levels. Output includes recommended sample size, frequency-based alternative for infrequent controls, stratification suggestion for variable populations, working paper text aligned with SA 530 Para 7 documentation requirements, and selection method guidance (random, systematic, haphazard, MUS, block). Suitable for statutory audit, tax audit, internal audit, IFC testing, SOC engagements and forensic audit.",
-      "url": "/tools/audit-sampling-size-calculator-sa-530",
+      "url": "https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Audit Sampling Size Calculator (SA 530)", "item": "/tools/audit-sampling-size-calculator-sa-530"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Audit Sampling Size Calculator (SA 530)", "item": "https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530"}
       ]
     }
     </script>
@@ -384,8 +384,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Audit Sampling Size Calculator (SA 530)
 </nav>
 
@@ -494,7 +494,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     <div class="form-group">
                         <label for="perfMat">Performance Materiality (₹)</label>
                         <input type="number" id="perfMat" min="0" step="any" placeholder="e.g. 500000" inputmode="decimal">
-                        <span class="helper">From SA 320 — typically 50-75% of overall materiality. <a href="/tools/audit-materiality-calculator-sa-320" style="color:var(--primary-light);">Compute first ↗</a></span>
+                        <span class="helper">From SA 320 — typically 50-75% of overall materiality. <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" style="color:var(--primary-light);">Compute first ↗</a></span>
                     </div>
                     <div class="form-group">
                         <label for="tmPct">Tolerable Misstatement (% of PM)</label>
@@ -764,30 +764,30 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
-            <a href="/tools/ifc-testing-checklist" class="sidebar-link">IFC Testing Checklist<span class="arrow">→</span></a>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
-            <a href="/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
-            <a href="/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320" class="sidebar-link">Audit Materiality (SA 320)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ifc-testing-checklist" class="sidebar-link">IFC Testing Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109" class="sidebar-link">ECL Calculator (Ind AS 109)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Calculator (Ind AS 116)<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

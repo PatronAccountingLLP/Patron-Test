@@ -7,20 +7,20 @@
     <title>Employee Total Cost Calculator India | True CTC</title>
     <meta name="description" content="Calculate the true total cost of an India employee, covering salary, PF, ESI, gratuity, benefits and overhead. Reveals 10-20% hidden loading above CTC. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/india-employee-total-cost-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator/">
     <meta property="og:title" content="India Employee Total Cost Calculator — Actual CTC 2026">
     <meta property="og:description" content="Decompose the offer letter. Computes statutory loading + benefits + overhead beyond headline CTC. Surfaces true employer cost. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/india-employee-total-cost-calculator">
-    <meta property="og:image" content="/tools/og/india-employee-total-cost-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/india-employee-total-cost-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="India Employee Total Cost Calculator — Actual CTC 2026">
     <meta name="twitter:description" content="True total cost of hiring in India: salary + statutory + benefits + overhead. Free CA-built tool.">
-    <meta name="twitter:image" content="/tools/og/india-employee-total-cost-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/india-employee-total-cost-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "India Employee Total Cost Calculator (Actual CTC)",
       "description": "India Employee Total Cost Calculator computes the actual all-in cost incurred by an Indian employer for one full-time employee, broken down across the cash component paid to the employee, statutory employer contributions remitted under Indian law, and indirect overhead absorbed by the employer including benefits, equipment, office space, learning and development, and administrative allocation. The tool incorporates the four Labour Codes effective from 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — replacing twenty-nine pre-existing labour statutes. The tool reflects the unified definition of wages under Section 2(y) of the Code on Wages requiring that basic pay, dearness allowance and retaining allowance constitute at least fifty per cent of the total remuneration, with allowances exceeding fifty per cent of the total deemed to be wages for the purpose of statutory contribution computation. The tool computes Employees Provident Fund employer contribution at twelve per cent of wages on the statutory ceiling basis, Employees State Insurance employer contribution at three point two five per cent of gross wages where the gross wage is at or below twenty one thousand rupees per month, gratuity provision at four point eight one per cent of wages on the actuarial accrual basis under the Code on Social Security, statutory bonus at eight point three three per cent of wages under the Payment of Bonus Act, 1965 where applicable, professional tax at state-specific rates capped at two thousand five hundred rupees per annum under Article 276 of the Constitution of India, and Labour Welfare Fund contribution at state-specific annual rates. The tool computes employer-borne indirect costs including group health insurance premium across self-only, employee-plus-spouse and family floater coverage, equipment amortisation for laptops and peripherals over a thirty-six month useful life, allocated office space cost on a per-desk basis where applicable to the working mode, learning and development allocation, variable pay accrual, and administrative overhead representing the proportionate share of human resources, payroll and finance team cost attributable to one employee. The tool computes the loading percentage representing the gap between the headline CTC offered to the candidate and the true total cost incurred by the employer.",
-      "url": "/tools/india-employee-total-cost-calculator",
+      "url": "https://www.patronaccounting.com/tools/india-employee-total-cost-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "India Employee Total Cost Calculator", "item": "/tools/india-employee-total-cost-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "India Employee Total Cost Calculator", "item": "https://www.patronaccounting.com/tools/india-employee-total-cost-calculator"}
       ]
     }
     </script>
@@ -514,9 +514,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     India Employee Total Cost Calculator
 </nav>
@@ -533,7 +533,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>This tool computes the <strong>true total cost of an India employee</strong> — what your business actually pays beyond the offer letter CTC. The headline CTC quoted to candidates typically excludes gratuity provision, statutory bonus, professional tax, group health insurance, equipment amortisation, allocated office space, learning &amp; development budget, and HR/admin overhead. The gap — the <strong>loading percentage</strong> — typically runs 8% (junior remote) to 25% (senior office-based with full benefits). For a ₹15 LPA employee, true cost is usually ₹17-18.3 LPA. Updated for the four <strong>Labour Codes effective 21 November 2025</strong> with the 50% basic-pay rule. Pair with our <a href="/tools/india-eor-cost-calculator">India EOR Cost Calculator</a> if you don't have an Indian entity.</p>
+    <p>This tool computes the <strong>true total cost of an India employee</strong> — what your business actually pays beyond the offer letter CTC. The headline CTC quoted to candidates typically excludes gratuity provision, statutory bonus, professional tax, group health insurance, equipment amortisation, allocated office space, learning &amp; development budget, and HR/admin overhead. The gap — the <strong>loading percentage</strong> — typically runs 8% (junior remote) to 25% (senior office-based with full benefits). For a ₹15 LPA employee, true cost is usually ₹17-18.3 LPA. Updated for the four <strong>Labour Codes effective 21 November 2025</strong> with the 50% basic-pay rule. Pair with our <a href="https://www.patronaccounting.com/tools/india-eor-cost-calculator">India EOR Cost Calculator</a> if you don't have an Indian entity.</p>
 </div>
 
 <div class="main-layout">
@@ -1008,29 +1008,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
-            <a href="/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
-            <a href="/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
-            <a href="/professional-tax-registration" class="sidebar-link">Professional Tax Registration<span class="arrow">→</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
-            <a href="/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/professional-tax-registration" class="sidebar-link">Professional Tax Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator<span class="arrow">→</span></a>
-            <a href="/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
             
-            <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup in India: Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup in India: Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar<span class="arrow">→</span></a>
         </div>
 
     </aside>

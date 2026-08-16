@@ -4,14 +4,14 @@
 <meta name="description" content="ESOP pool size calculator: work out how big your option pool should be, built bottom-up from your hiring plan and role-based grants, with buffer and dilution %.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-pool-size-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-pool-size-calculator">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-pool-size-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-pool-size-calculator">
 <meta property="og:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
 <meta property="og:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios and founder vs employee-friendly variants.">
-<meta property="og:image" content="/og/esop-pool-size-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/esop-pool-size-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 
@@ -19,11 +19,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
 <meta name="twitter:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios.">
-<meta name="twitter:image" content="/og/esop-pool-size-calculator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/esop-pool-size-calculator.jpg">
 
 <!-- Favicons -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <!-- Schema: SoftwareApplication -->
@@ -33,7 +33,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP Pool Size Calculator",
   "description": "ESOP Pool Size Calculator recommends an optimal employee stock option pool percentage for Indian startups based on funding stage (Seed, Series A, B, C), current team size, planned 18-month hiring, role distribution (engineering, product, sales, exec), and industry benchmark mode. Generates founder-friendly and employee-friendly variants with full dilution scenarios and a downloadable working sheet.",
-  "url": "/tools/esop-pool-size-calculator",
+  "url": "https://www.patronaccounting.com/tools/esop-pool-size-calculator",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -47,10 +47,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -64,10 +64,10 @@
     }]
   },
   "publisher": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -78,9 +78,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Size Calculator", "item": "/tools/esop-pool-size-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Size Calculator", "item": "https://www.patronaccounting.com/tools/esop-pool-size-calculator"}
   ]
 }
 </script>
@@ -505,9 +505,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 <!-- BREADCRUMB -->
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP Pool Size Calculator
 </nav>
@@ -868,7 +868,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     <p>ESOPs can be issued to permanent employees in India or abroad, directors (excluding independent directors), and employees of subsidiaries or holding companies. They <strong>cannot</strong> be issued to promoters or any director who directly or indirectly holds more than 10% of equity (with relaxation for startups recognised by DPIIT for the first 10 years from incorporation under <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> notification).</p>
 
     <div class="callout">
-        <p><strong>CA Tip:</strong> Get your ESOP scheme drafted by a Company Secretary in coordination with a Chartered Accountant who handles the valuation and tax structuring. The scheme document is filed with MCA and binds future grants — drafting errors are expensive to fix later. Patron Accounting offers <a href="/esop-services">end-to-end ESOP services</a> including scheme drafting, FMV valuation, and ROC filings.</p>
+        <p><strong>CA Tip:</strong> Get your ESOP scheme drafted by a Company Secretary in coordination with a Chartered Accountant who handles the valuation and tax structuring. The scheme document is filed with MCA and binds future grants — drafting errors are expensive to fix later. Patron Accounting offers <a href="https://www.patronaccounting.com/esop-services">end-to-end ESOP services</a> including scheme drafting, FMV valuation, and ROC filings.</p>
     </div>
 </section>
 
@@ -1054,29 +1054,29 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
     <div class="sidebar-card">
         <h3>Related Services</h3>
-        <a href="/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
-        <a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-        <a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Management & Compliance <span class="arrow">→</span></a>
-        <a href="/issue-of-shares" class="sidebar-link">Issue of Shares <span class="arrow">→</span></a>
-        <a href="/private-limited-company-registration-in-india" class="sidebar-link">Private Limited Registration <span class="arrow">→</span></a>
-        <a href="/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Management & Compliance <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/issue-of-shares" class="sidebar-link">Issue of Shares <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited Registration <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
     </div>
 
     <div class="sidebar-card">
         <h3>Related Tools</h3>
-        <a href="/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
-        <a href="/tools/business-structure-comparison" class="sidebar-link">Pvt Ltd vs LLP vs OPC <span class="arrow">→</span></a>
-        <a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
-        <a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
-        <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator <span class="arrow">→</span></a>
-        <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Pvt Ltd vs LLP vs OPC <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
     </div>
 
     <div class="sidebar-card">
         <h3>From the Blog</h3>
-        <a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
-        <a href="/blog/authorized-capital-vs-paid-up-capital-meaning-differences-and-share-capital-structure-explained" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
-        <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">ESOP in Private Limited Company <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital-meaning-differences-and-share-capital-structure-explained" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
+        <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
     </div>
 </aside>
 

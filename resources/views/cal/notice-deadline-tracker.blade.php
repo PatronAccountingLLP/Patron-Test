@@ -5,27 +5,27 @@
 <meta name="description" content="Notice reply deadline tracker for Income Tax & GST: get exact reply due date, days remaining, urgency and milestone timeline with Calendar/iCal export. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/notice-deadline-tracker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/notice-deadline-tracker">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/notice-deadline-tracker">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/notice-deadline-tracker">
 <meta property="og:title" content="Notice Reply Deadline Tracker — Tax IT/GST 2026">
 <meta property="og:description" content="Exact reply deadline calculator with Google Calendar / iCal reminder export. Free.">
-<meta property="og:image" content="/og/notice-deadline-tracker.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/notice-deadline-tracker.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Notice Reply Deadline Tracker — Tax IT/GST 2026">
 <meta name="twitter:description" content="Days remaining, urgency, milestone timeline + calendar export.">
-<meta name="twitter:image" content="/og/notice-deadline-tracker.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/notice-deadline-tracker.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Notice Reply Deadline Tracker","description":"Notice Reply Deadline Tracker computes the exact reply deadline for a tax notice received from the Income-tax Department or the GST Department, based on the notice issuance date and the statutory reply window prescribed under the relevant section. Inputs include the notice type (Income Tax or GST), the specific section or form name (Section 142(1), 143(2), 148, 148A(b), 156, 270A, or 271 for Income Tax; ASMT-10, DRC-01A, DRC-01 Section 73, DRC-01 Section 74, DRC-07, GSTR-3A, or Section 76 for GST — with statutory reply windows auto-populated), the date the notice was received, and the option to manually override the reply window if the notice specifies a non-standard period. The tool outputs the calculated deadline date displayed in Indian Standard Time (IST), the number of days remaining until the deadline, an urgency rating (Critical, High, Medium, or Low based on days remaining), a milestone-based recommended action timeline showing key dates for CA engagement, document compilation, response drafting, review, and filing, along with calendar export options including a one-click Google Calendar event URL and a downloadable iCalendar (.ics) file with multiple advance reminders at 14 days, 7 days, 3 days, and 1 day before the deadline. The tool helps Indian taxpayers and businesses avoid missing tax notice deadlines which trigger consequences such as best-judgment assessment under Section 144 of the Income-tax Act, ex-parte reassessment orders under Section 148, recovery proceedings under Section 226, and final DRC-07 orders under GST with limited mitigation options.","url":"/tools/notice-deadline-tracker","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Notice Reply Deadline Tracker","description":"Notice Reply Deadline Tracker computes the exact reply deadline for a tax notice received from the Income-tax Department or the GST Department, based on the notice issuance date and the statutory reply window prescribed under the relevant section. Inputs include the notice type (Income Tax or GST), the specific section or form name (Section 142(1), 143(2), 148, 148A(b), 156, 270A, or 271 for Income Tax; ASMT-10, DRC-01A, DRC-01 Section 73, DRC-01 Section 74, DRC-07, GSTR-3A, or Section 76 for GST — with statutory reply windows auto-populated), the date the notice was received, and the option to manually override the reply window if the notice specifies a non-standard period. The tool outputs the calculated deadline date displayed in Indian Standard Time (IST), the number of days remaining until the deadline, an urgency rating (Critical, High, Medium, or Low based on days remaining), a milestone-based recommended action timeline showing key dates for CA engagement, document compilation, response drafting, review, and filing, along with calendar export options including a one-click Google Calendar event URL and a downloadable iCalendar (.ics) file with multiple advance reminders at 14 days, 7 days, 3 days, and 1 day before the deadline. The tool helps Indian taxpayers and businesses avoid missing tax notice deadlines which trigger consequences such as best-judgment assessment under Section 144 of the Income-tax Act, ex-parte reassessment orders under Section 148, recovery proceedings under Section 226, and final DRC-07 orders under GST with limited mitigation options.","url":"https://www.patronaccounting.com/tools/notice-deadline-tracker","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Notice Reply Deadline Tracker","item":"/tools/notice-deadline-tracker"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Notice Reply Deadline Tracker","item":"https://www.patronaccounting.com/tools/notice-deadline-tracker"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -264,7 +264,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <a href="#calculator">Tracker</a><a href="#how-to-use">How to Use</a><a href="#reply-windows">Reply Windows</a><a href="#consequences">Missing Deadlines</a><a href="#extension">Getting Extension</a><a href="#calendar">Calendar Export</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Notice Reply Deadline Tracker</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Notice Reply Deadline Tracker</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -373,7 +373,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <h2>How to Use the Deadline Tracker</h2>
 <ol>
 <li><strong>Pick notice type — Income Tax or GST.</strong> The section dropdown filters accordingly.</li>
-<li><strong>Select the section / form.</strong> The reply window auto-populates based on statutory norms (30 days for most, 7-15 days for Section 148A(b) and certain GST forms). If you don't know the section, use the <a href="/tools/notice-section-identifier">Notice Section Identifier tool</a> first.</li>
+<li><strong>Select the section / form.</strong> The reply window auto-populates based on statutory norms (30 days for most, 7-15 days for Section 148A(b) and certain GST forms). If you don't know the section, use the <a href="https://www.patronaccounting.com/tools/notice-section-identifier">Notice Section Identifier tool</a> first.</li>
 <li><strong>Enter notice received date.</strong> Defaults to today. If you received the notice earlier, set the actual receipt date — the deadline is computed from this.</li>
 <li><strong>Override the reply window if needed.</strong> The notice itself states the exact reply window — if it differs from the statutory default, enter the actual window from the notice.</li>
 <li><strong>Click Calculate.</strong> Get the exact deadline date, urgency rating, days remaining, milestone timeline, and calendar export options.</li>
@@ -560,27 +560,27 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 </div></div>
 
 <div class="sidebar-card"><h3>City Service Pages</h3>
-<a href="/income-tax-notice/hyderabad" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
-<a href="/income-tax-notice/chennai" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
-<a href="/income-tax-notice/pune" class="sidebar-link">IT Notice CA in Pune <span class="arrow">→</span></a>
-<a href="/income-tax-notice/mumbai" class="sidebar-link">IT Notice CA in Mumbai <span class="arrow">→</span></a>
-<a href="/income-tax-notice/delhi" class="sidebar-link">IT Notice CA in Delhi <span class="arrow">→</span></a>
-<a href="/income-tax-notice/bangalore" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/hyderabad" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/chennai" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/pune" class="sidebar-link">IT Notice CA in Pune <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/mumbai" class="sidebar-link">IT Notice CA in Mumbai <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/delhi" class="sidebar-link">IT Notice CA in Delhi <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/bangalore" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
-<a href="/gst-notice-reply" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
-<a href="/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
-<a href="/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>
-<a href="/gst-litigation" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-notice-reply" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-litigation" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
-<a href="/tools/notice-penalty-calculator" class="sidebar-link">Notice Penalty Calculator <span class="arrow">→</span></a>
-<a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-penalty-calculator" class="sidebar-link">Notice Penalty Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
 </div>
 </aside>
 
@@ -813,7 +813,7 @@ function setupCalendarExports(section, noticeDate, deadlineDate, replyWindow){
         '- File on portal before deadline\n' +
         '- Take acknowledgement screenshot\n\n' +
         'Free 15-min CA review: +91 945 945 6700 / sales@patronaccounting.com\n' +
-        'Patron Accounting LLP — /';
+        'Patron Accounting LLP — https://www.patronaccounting.com';
 
     // Google Calendar URL
     const ymd = formatYMD(deadlineDate);

@@ -7,20 +7,20 @@
     <title>Inverted Duty Refund Calculator | GST Rule 89(5)</title>
     <meta name="description" content="Inverted duty GST refund calculator applies the Rule 89(5) formula (Notification 14/2022) for unutilised ITC refund. Net ITC + restricted HSN check. Free tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/inverted-duty-refund-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator/">
     <meta property="og:title" content="Inverted Duty Refund Calculator (Rule 89(5)) — GST IDS Refund 2026">
     <meta property="og:description" content="Compute GST inverted duty refund using the amended Rule 89(5) formula with Net ITC, Adjusted Total Turnover and the input-services proportion deduction. Restricted goods check and Statement-1A preview. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/inverted-duty-refund-calculator">
-    <meta property="og:image" content="/tools/og/inverted-duty-refund-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/inverted-duty-refund-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Inverted Duty Refund Calculator (Rule 89(5)) — GST IDS Refund 2026">
     <meta name="twitter:description" content="Rule 89(5) IDS formula, Net ITC, input-service deduction term, restricted HSN check, 2-year limitation, Section 56 interest. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/inverted-duty-refund-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/inverted-duty-refund-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "Inverted Duty Refund Calculator (Rule 89(5))",
       "description": "Inverted Duty Refund Calculator computes the maximum admissible refund of unutilised Input Tax Credit accumulated on account of an Inverted Duty Structure under Section 54(3) read with clause (ii) of the proviso thereto of the Central Goods and Services Tax Act, 2017. The tool applies the formula prescribed under sub-rule (5) of Rule 89 of the Central Goods and Services Tax Rules, 2017 as amended by Notification No. 14/2022-Central Tax dated 5 July 2022 following the recommendation of the 47th Goods and Services Tax Council. The amended formula computes Maximum Refund Amount as the Turnover of inverted rated supply of goods and services multiplied by Net Input Tax Credit divided by Adjusted Total Turnover, less the Tax payable on such inverted rated supply of goods and services multiplied by the ratio of Net Input Tax Credit to Input Tax Credit availed on inputs and input services. Net Input Tax Credit means Input Tax Credit availed on inputs which are goods only and excludes Input Tax Credit on input services and capital goods following the Supreme Court decision in Union of India versus VKC Footsteps India Private Limited. The tool computes both the post-Notification 14 of 2022 formula and the pre-amendment formula and presents the comparison. The tool flags restricted goods under Notification No. 9/2022-Central Tax (Rate) dated 13 July 2022 effective 18 July 2022 covering specified goods of Chapter 15 edible oils and Chapter 27 mineral fuels coal coke and lignite, as well as restrictions under Notification No. 5/2017-Central Tax (Rate) dated 28 June 2017 as amended by Notification No. 20/2018-Central Tax (Rate) dated 26 July 2018 covering specified textile items. The tool computes the two-year limitation under Section 54(1) of the Central Goods and Services Tax Act from the relevant date which for refund of Input Tax Credit accumulated due to Inverted Duty Structure is the due date of the return for the period to which the claim relates as clarified by Notification No. 13/2022-Central Tax dated 5 July 2022. The tool also computes the sixty-day final order window under Section 54(7) and the six per cent interest entitlement under Section 56 for delayed sanction. The tool reflects recent jurisprudence including the Gujarat High Court decision in Ascent Meditech Limited and the Supreme Court order in Tirth Agro Technology Private Limited holding the amendment to Rule 89(5) to be curative and retrospective.",
-      "url": "/tools/inverted-duty-refund-calculator",
+      "url": "https://www.patronaccounting.com/tools/inverted-duty-refund-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Inverted Duty Refund Calculator", "item": "/tools/inverted-duty-refund-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Inverted Duty Refund Calculator", "item": "https://www.patronaccounting.com/tools/inverted-duty-refund-calculator"}
       ]
     }
     </script>
@@ -520,9 +520,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Inverted Duty Refund Calculator
 </nav>
@@ -539,7 +539,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>This Inverted Duty Refund Calculator implements the formula prescribed under <strong>Rule 89(5) of the CGST Rules, 2017</strong> (as amended by Notification 14/2022-Central Tax dated 5 July 2022) for refund of unutilised Input Tax Credit accumulated where the rate of GST on inputs is higher than the rate on output supplies. The amended formula is <strong>Refund = (Inverted Turnover × Net ITC ÷ Adjusted Total Turnover) − (Output Tax Payable × Net ITC ÷ Total ITC on inputs &amp; input services)</strong>. The tool computes <strong>both old and new formulas</strong> for comparison, applies the <strong>VKC Footsteps</strong> exclusion of input-service ITC from Net ITC, flags <strong>restricted goods</strong> under Notification 5/2017 (textiles) and 9/2022 (Chapter 15 edible oils &amp; Chapter 27 mineral fuels), tracks the <strong>2-year limitation</strong> under Section 54(1) from the GSTR-3B due date, and computes 6% interest under Section 56 if delayed beyond 60 days. For zero-rated supply refunds use our <a href="/tools/export-refund-lut-calculator">LUT</a> or <a href="/tools/igst-export-refund-calculator">IGST</a> calculators.</p>
+    <p>This Inverted Duty Refund Calculator implements the formula prescribed under <strong>Rule 89(5) of the CGST Rules, 2017</strong> (as amended by Notification 14/2022-Central Tax dated 5 July 2022) for refund of unutilised Input Tax Credit accumulated where the rate of GST on inputs is higher than the rate on output supplies. The amended formula is <strong>Refund = (Inverted Turnover × Net ITC ÷ Adjusted Total Turnover) − (Output Tax Payable × Net ITC ÷ Total ITC on inputs &amp; input services)</strong>. The tool computes <strong>both old and new formulas</strong> for comparison, applies the <strong>VKC Footsteps</strong> exclusion of input-service ITC from Net ITC, flags <strong>restricted goods</strong> under Notification 5/2017 (textiles) and 9/2022 (Chapter 15 edible oils &amp; Chapter 27 mineral fuels), tracks the <strong>2-year limitation</strong> under Section 54(1) from the GSTR-3B due date, and computes 6% interest under Section 56 if delayed beyond 60 days. For zero-rated supply refunds use our <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">LUT</a> or <a href="https://www.patronaccounting.com/tools/igst-export-refund-calculator">IGST</a> calculators.</p>
 </div>
 
 <div class="main-layout">
@@ -1059,29 +1059,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
-            <a href="/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund Calculator (LUT)<span class="arrow">→</span></a>
-            <a href="/tools/igst-export-refund-calculator" class="sidebar-link">IGST Export Refund Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
-            <a href="/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/export-refund-lut-calculator" class="sidebar-link">Export Refund Calculator (LUT)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/igst-export-refund-calculator" class="sidebar-link">IGST Export Refund Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustment Cases<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
         </div>
 
     </aside>

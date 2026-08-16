@@ -5,28 +5,28 @@
 <meta name="description" content="ESOP valuation calculator: find FMV per share by DCF, EV/Revenue comparables or hybrid weighting, with a growth and WACC sensitivity table. Rule 11UA aware.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-valuation-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-valuation-calculator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-valuation-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-valuation-calculator">
 <meta property="og:title" content="ESOP Valuation Calculator — DCF + Comparables Tool 2026">
 <meta property="og:description" content="DCF, Comparables, or Hybrid weighted FMV per share. 5-year FCF, terminal value, sensitivity table. Rule 11UA aware.">
-<meta property="og:image" content="/og/esop-valuation-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/esop-valuation-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Valuation Calculator — DCF + Comparables Tool 2026">
 <meta name="twitter:description" content="DCF + Comparables FMV per share. 5-year FCF, terminal value, sensitivity table.">
-<meta name="twitter:image" content="/og/esop-valuation-calculator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/esop-valuation-calculator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ESOP Valuation Calculator (DCF + Comparables)","description":"ESOP Valuation Calculator computes indicative fair market value (FMV) per share for Indian unlisted companies using Discounted Cash Flow (DCF), EV/Revenue comparables, or a hybrid weighted approach. Takes revenue, growth rate, FCF margin, WACC, terminal growth, comparable multiples, net debt, and shares outstanding. Outputs DCF enterprise value, comparables enterprise value, hybrid FMV per share, 5-year free cash flow projection, terminal value, and a sensitivity table for revenue growth versus discount rate. Issues mandatory Rule 11UA disclaimer that final ESOP valuation requires a SEBI Category I Registered Merchant Banker certificate.","url":"/tools/esop-valuation-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ESOP Valuation Calculator (DCF + Comparables)","description":"ESOP Valuation Calculator computes indicative fair market value (FMV) per share for Indian unlisted companies using Discounted Cash Flow (DCF), EV/Revenue comparables, or a hybrid weighted approach. Takes revenue, growth rate, FCF margin, WACC, terminal growth, comparable multiples, net debt, and shares outstanding. Outputs DCF enterprise value, comparables enterprise value, hybrid FMV per share, 5-year free cash flow projection, terminal value, and a sensitivity table for revenue growth versus discount rate. Issues mandatory Rule 11UA disclaimer that final ESOP valuation requires a SEBI Category I Registered Merchant Banker certificate.","url":"https://www.patronaccounting.com/tools/esop-valuation-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"ESOP Valuation Calculator (DCF + Comparables)","item":"/tools/esop-valuation-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"ESOP Valuation Calculator (DCF + Comparables)","item":"https://www.patronaccounting.com/tools/esop-valuation-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -232,7 +232,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#dcf-method">DCF Method</a><a href="#comparables">Comparables</a><a href="#rule-11ua">Rule 11UA</a><a href="#sensitivity">Sensitivity</a><a href="#angel-tax">Angel Tax</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>ESOP Valuation Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>ESOP Valuation Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -338,7 +338,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <li>Share <strong>buyback</strong> or secondary transfer — for Section 56(2)(x) and capital gains</li>
 <li>FEMA-regulated share transfers with non-residents</li>
 </ul>
-<strong>Patron Accounting provides this certificate as a separate paid service through empanelled SEBI Cat-I Merchant Bankers.</strong> 7–10 working day turnaround, fixed-fee pricing. <a href="/esop-valuation-services">Request a quote →</a>
+<strong>Patron Accounting provides this certificate as a separate paid service through empanelled SEBI Cat-I Merchant Bankers.</strong> 7–10 working day turnaround, fixed-fee pricing. <a href="https://www.patronaccounting.com/esop-valuation-services">Request a quote →</a>
 </div>
 
 <div class="post-result-cta">
@@ -574,27 +574,27 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-<a href="/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
-<a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
-<a href="/business-valuation-services" class="sidebar-link">Business Valuation Services <span class="arrow">→</span></a>
-<a href="/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation <span class="arrow">→</span></a>
-<a href="/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/business-valuation-services" class="sidebar-link">Business Valuation Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
-<a href="/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
-<a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">ESOP Perquisite Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/esop-dilution-calculator" class="sidebar-link">Dilution Impact Calculator <span class="arrow">→</span></a>
-<a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
-<a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">ESOP Perquisite Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-dilution-calculator" class="sidebar-link">Dilution Impact Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
-<a href="/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
-<a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
 </div>
 </aside>
 

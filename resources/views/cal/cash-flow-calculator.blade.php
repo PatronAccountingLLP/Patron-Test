@@ -3,20 +3,20 @@
     <title>Cash Flow Statement Calculator | AS-3 &amp; Ind AS 7</title>
     <meta name="description" content="Cash flow statement calculator: generate a statement per AS-3 and Ind AS 7 with operating, investing and financing activities for Indian firms. Try free now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/cash-flow-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/cash-flow-calculator">
     <meta property="og:title" content="Cash Flow Statement Calculator — Free Tool 2026">
     <meta property="og:description" content="Generate cash flow statements per AS-3 and Ind AS 7 with operating, investing and financing activities for Indian businesses.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/cash-flow-calculator">
-    <meta property="og:image" content="/tools/cash-flow-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/cash-flow-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/cash-flow-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Cash Flow Statement Calculator — Free Tool 2026">
     <meta name="twitter:description" content="Generate cash flow statements per AS-3 / Ind AS 7 for Indian businesses. Free!">
-    <meta name="twitter:image" content="/tools/cash-flow-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/cash-flow-calculator/og-image.png">
 @endsection
 
 @section('schema')
@@ -25,20 +25,20 @@
       "@context": "https://schema.org", "@type": "WebApplication",
       "name": "Cash Flow Statement Calculator India",
       "description": "Cash Flow Statement Calculator generates formatted cash flow statements using the indirect method per AS-3 and Ind AS 7. Covers operating activities with non-cash adjustments, investing activities, and financing activities with automatic net cash flow and closing balance computation for Indian companies.",
-      "url": "/tools/cash-flow-calculator",
+      "url": "https://www.patronaccounting.com/tools/cash-flow-calculator",
       "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
       "datePublished": "2026-03-05", "dateModified": "2026-03-05",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "/", "logo": { "@type": "ImageObject", "url": "/logo.png" } },
-      "provider": { "@id": "/#organization" }
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/logo.png" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
 <script type="application/ld+json">
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Cash Flow Statement Calculator", "item": "/tools/cash-flow-calculator"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Cash Flow Statement Calculator", "item": "https://www.patronaccounting.com/tools/cash-flow-calculator"}
     ]}
     </script>
 <script type="application/ld+json">
@@ -872,8 +872,8 @@
     </div></nav>
 
     <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a><span>&rsaquo;</span>
-        <a href="/tools">Free Tools</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span>
+        <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>
         Cash Flow Statement Calculator
     </nav>
 
@@ -1077,22 +1077,22 @@
             </div>
             <div class="sidebar-card">
                 <h3>Related Services</h3>
-                <a href="/accounting-services" class="sidebar-link">Accounting & Bookkeeping <span class="arrow">&rarr;</span></a>
-                <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">&rarr;</span></a>
-                <a href="/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
-                <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting & Bookkeeping <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Compliance <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>
-                <a href="/tools/profit-loss-generator" class="sidebar-link">P&L Statement Generator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">&rarr;</span></a>
-                <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">P&L Statement Generator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>From the Blog</h3>
-                <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-                <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
-                <a href="/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/blog/company-annual-filing-services-a-complete-guide-to-roc-filing-for-private-limited-companies-and-llps" class="sidebar-link">ROC Filing Guide <span class="arrow">&rarr;</span></a>
             </div>
         </aside>
     </div>

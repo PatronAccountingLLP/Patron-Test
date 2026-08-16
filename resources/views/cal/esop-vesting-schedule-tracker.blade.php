@@ -4,22 +4,22 @@
 <meta name="description" content="ESOP vesting schedule tracker: build a schedule from grant date, 1-year cliff and term to see options vested to date, next vesting date and % complete. Free!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-vesting-schedule-tracker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker">
 
 <meta property="og:title" content="ESOP Vesting Tracker — Cliff, Vested & Next Date">
 <meta property="og:description" content="Build your ESOP vesting schedule from grant date, cliff and term, and track options vested to date, your next vesting date and percentage complete.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-vesting-schedule-tracker">
-<meta property="og:image" content="/tools/esop-vesting-schedule-tracker-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Vesting Tracker — Cliff, Vested & Next Date">
 <meta name="twitter:description" content="Build your ESOP vesting schedule and track options vested to date, next vesting date and percentage complete. Free &amp; instant.">
-<meta name="twitter:image" content="/tools/esop-vesting-schedule-tracker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP Vesting Schedule Tracker",
   "description": "ESOP Vesting Schedule Tracker builds an employee stock option vesting schedule from the grant date, cliff period, total vesting term and vesting frequency, applying the mandatory minimum one-year cliff under Rule 12(6) of the Companies (Share Capital and Debentures) Rules. It generates the tranche-by-tranche schedule, and as of today's date shows the options vested to date, the unvested balance, the percentage vested and the next vesting date, helping employees and founders track where a grant stands at any point in the four-year vesting cycle.",
-  "url": "/tools/esop-vesting-schedule-tracker",
+  "url": "https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Vesting Schedule Tracker", "item": "/tools/esop-vesting-schedule-tracker"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Vesting Schedule Tracker", "item": "https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker"}
   ]
 }
 </script>
@@ -705,9 +705,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP Vesting Schedule Tracker
 </nav>
@@ -840,14 +840,14 @@ a:focus-visible {
                 <li><strong>Click Build Schedule</strong> for the full tranche table, plus your options vested to date, unvested balance, % vested and next vesting date.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> This tracks <em>vesting</em> only. Once tranches vest and you plan to exercise, model the tax with the <a href="/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> and, on a later sale, the <a href="/tools/esop-capital-gains-calculator">capital gains calculator</a>.</p>
+                <p><strong>CA Tip:</strong> This tracks <em>vesting</em> only. Once tranches vest and you plan to exercise, model the tax with the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a> and, on a later sale, the <a href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">capital gains calculator</a>.</p>
             </div>
         </section>
 
         <section class="content-section" id="what-is">
             <h2>What an ESOP Vesting Schedule Is</h2>
             <p>A <strong>vesting schedule</strong> defines when, and in what tranches, your stock options become exercisable. Until options vest you cannot exercise them, and unvested options usually <strong>lapse</strong> if you leave. Vesting is the bridge between the promise of equity and the right to acquire it.</p>
-            <p>The dominant Indian pattern is <strong>four years with a one-year cliff</strong>: nothing vests in year one, 25% vests at the 12-month cliff, and the remaining 75% vests monthly or quarterly over the next three years. Patron's <a href="/blog/esop-vesting-schedule-cliff-explained">vesting &amp; cliff explainer</a> and <a href="/blog/companies-act-section-62-rule-12-esop">Section 62 / Rule 12 guide</a> cover the law and the common designs.</p>
+            <p>The dominant Indian pattern is <strong>four years with a one-year cliff</strong>: nothing vests in year one, 25% vests at the 12-month cliff, and the remaining 75% vests monthly or quarterly over the next three years. Patron's <a href="https://www.patronaccounting.com/blog/esop-vesting-schedule-cliff-explained">vesting &amp; cliff explainer</a> and <a href="https://www.patronaccounting.com/blog/companies-act-section-62-rule-12-esop">Section 62 / Rule 12 guide</a> cover the law and the common designs.</p>
             <div class="formula-box">
                 <span class="label">Cliff date</span> = Grant date + cliff months → cliff % vests<br>
                 <span class="label">Each later tranche</span> = (Total − cliff) ÷ number of remaining intervals<br>
@@ -888,7 +888,7 @@ a:focus-visible {
                     <tr><td>Performance / hybrid</td><td>Some or all options vest on milestones (revenue, funding) — often for CXOs; the 1-year minimum still applies.</td></tr>
                 </tbody>
             </table>
-            <p>This tracker models time-based schedules (cliff + equal post-cliff tranches). For milestone-based or accelerated vesting (single/double-trigger on acquisition), refer to your scheme and the <a href="/esop-scheme-design">ESOP scheme design</a> service. To see the generic shape of any schedule, the <a href="/tools/vesting-schedule-visualizer">vesting schedule visualiser</a> complements this tracker.</p>
+            <p>This tracker models time-based schedules (cliff + equal post-cliff tranches). For milestone-based or accelerated vesting (single/double-trigger on acquisition), refer to your scheme and the <a href="https://www.patronaccounting.com/esop-scheme-design">ESOP scheme design</a> service. To see the generic shape of any schedule, the <a href="https://www.patronaccounting.com/tools/vesting-schedule-visualizer">vesting schedule visualiser</a> complements this tracker.</p>
         </section>
 
         <section class="content-section" id="example">
@@ -908,7 +908,7 @@ a:focus-visible {
             <p>Vesting is one stage in a longer journey, and it is easy to confuse it with the others. The lifecycle runs: <strong>grant</strong> (the Board awards options — no tax), <strong>vesting</strong> (options become exercisable over the schedule this tracker builds — still no tax), <strong>exercise</strong> (you pay the exercise price and the gap to fair market value is taxed as a salary perquisite), and finally <strong>sale</strong> (the gain over that fair market value is taxed as capital gains).</p>
             <p>So a vesting tracker answers "how much can I exercise, and when" — not "what will I owe". The valuation that drives the perquisite at exercise is a separate exercise, certified for unlisted companies by a SEBI-registered Category I merchant banker under the framework overseen by <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a>, and the share-based-payment accounting follows <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> standards. For founders running multiple grants, recognition through <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> and disciplined cap-table tracking keep the whole programme clean.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Track vesting here, then sequence exercise timing against tax using the <a href="/tools/esop-tds-calculator">ESOP TDS calculator</a> and the <a href="/tools/esop-capital-gains-calculator">capital gains calculator</a>.</p>
+                <p><strong>Tip:</strong> Track vesting here, then sequence exercise timing against tax using the <a href="https://www.patronaccounting.com/tools/esop-tds-calculator">ESOP TDS calculator</a> and the <a href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">capital gains calculator</a>.</p>
             </div>
         </section>
 
@@ -982,24 +982,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/vesting-schedule-visualizer" class="sidebar-link">Vesting Schedule Visualiser <span class="arrow">→</span></a>
-            <a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-capital-gains-calculator" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
-            <a href="/tools/esop-pool-sizing-calculator" class="sidebar-link">ESOP Pool Sizing <span class="arrow">→</span></a>
-            <a href="/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/vesting-schedule-visualizer" class="sidebar-link">Vesting Schedule Visualiser <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator" class="sidebar-link">ESOP Pool Sizing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/esop-scheme-design" class="sidebar-link">ESOP Scheme Design <span class="arrow">→</span></a>
-            <a href="/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
-            <a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-scheme-design" class="sidebar-link">ESOP Scheme Design <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Compliance <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-vesting-schedule-cliff-explained" class="sidebar-link">Vesting &amp; Cliff Explained <span class="arrow">→</span></a>
-            <a href="/blog/companies-act-section-62-rule-12-esop" class="sidebar-link">Section 62 / Rule 12 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-vesting-schedule-cliff-explained" class="sidebar-link">Vesting &amp; Cliff Explained <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/companies-act-section-62-rule-12-esop" class="sidebar-link">Section 62 / Rule 12 <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

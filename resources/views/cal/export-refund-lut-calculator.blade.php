@@ -7,20 +7,20 @@
     <title>Export Refund Calculator LUT | Rule 89(4) Unutilised ITC</title>
     <meta name="description" content="Export refund calculator for the LUT route: Rule 89(4) refund of unutilised ITC, with Adjusted Total Turnover and the 1.5x cap on goods. Free CA-reviewed tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/export-refund-lut-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/export-refund-lut-calculator/">
     <meta property="og:title" content="Export Refund Calculator (LUT Route) — Rule 89(4) GST Refund 2026">
     <meta property="og:description" content="Compute GST export refund under Letter of Undertaking using Rule 89(4) formula. Net ITC, Adjusted Total Turnover, 1.5x cap, RFD-01 Statement-3A preview. Free CA tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/export-refund-lut-calculator">
-    <meta property="og:image" content="/tools/og/export-refund-lut-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/export-refund-lut-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/export-refund-lut-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Export Refund Calculator (LUT Route) — Rule 89(4) GST Refund 2026">
     <meta name="twitter:description" content="Rule 89(4) refund formula, Net ITC, Adjusted Total Turnover, 1.5x cap, RFD-01 Statement-3A preview, time-bar check. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/export-refund-lut-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/export-refund-lut-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "Export Refund Calculator (LUT Route)",
       "description": "Export Refund Calculator (LUT Route) computes the maximum admissible refund of unutilised Input Tax Credit for an Indian exporter making zero-rated supplies of goods or services without payment of Integrated Tax under a Letter of Undertaking, applying the formula prescribed under Rule 89(4) of the Central Goods and Services Tax Rules, 2017. The tool computes Refund Amount equal to the sum of zero-rated supply turnover of goods and services multiplied by Net ITC and divided by Adjusted Total Turnover, with the 1.5 times domestic-value cap on zero-rated supply of goods inserted by Notification No. 16/2020-Central Tax dated 23 March 2020. Net ITC is restricted to Input Tax Credit availed on inputs and input services during the relevant period and excludes capital goods Input Tax Credit and blocked credits under Section 17(5) of the CGST Act. Adjusted Total Turnover is computed in line with the amendment by Notification No. 14/2022-Central Tax read with Circular No. 197 of 2023 issued post the Supreme Court decision in Union of India versus VKC Footsteps India Private Limited. The calculator also shows the provisional refund of ninety per cent under Section 54(6), the sixty-day final-order window under Section 54(7), the six per cent interest entitlement under Section 56 for delayed sanction, the two-year limitation under Section 54(1) computed from the relevant date defined in Explanation (2) to Section 54, and a Statement-3A preview of the values to be entered in Form GST RFD-01 on the GST common portal.",
-      "url": "/tools/export-refund-lut-calculator",
+      "url": "https://www.patronaccounting.com/tools/export-refund-lut-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Export Refund Calculator (LUT)", "item": "/tools/export-refund-lut-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Export Refund Calculator (LUT)", "item": "https://www.patronaccounting.com/tools/export-refund-lut-calculator"}
       ]
     }
     </script>
@@ -505,9 +505,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Export Refund Calculator (LUT)
 </nav>
@@ -1032,29 +1032,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
-            <a href="/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
-            <a href="/iec-renewal" class="sidebar-link">IEC Renewal<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns-for-sez" class="sidebar-link">GST Returns for SEZ<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-registration" class="sidebar-link">IEC Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/iec-renewal" class="sidebar-link">IEC Renewal<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
-            <a href="/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
-            <a href="/tools/rcm-calculator" class="sidebar-link">RCM Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gst-rate-finder" class="sidebar-link">GST Rate Finder (HSN/SAC)<span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee &amp; Interest<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gstr-2a-3b-reconciliation" class="sidebar-link">GSTR-2A vs 3B Reconciliation<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/rcm-calculator" class="sidebar-link">RCM Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-rate-finder" class="sidebar-link">GST Rate Finder (HSN/SAC)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
-            <a href="/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustments<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/import-export-code-iec-registration-complete-guide-for-indian-businesses" class="sidebar-link">IEC Registration Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-refund-issue-understanding-refund-withheld-and-adjustment-cases" class="sidebar-link">Refund Withheld &amp; Adjustments<span class="arrow">→</span></a>
         </div>
 
     </aside>

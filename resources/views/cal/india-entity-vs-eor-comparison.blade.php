@@ -7,20 +7,20 @@
     <title>India Entity vs EOR Calculator | Cost Comparison TCO</title>
     <meta name="description" content="Free India entity vs EOR cost calculator: 36-month TCO, breakeven point, 15-criteria comparison and 4 Labour Codes 2025 side by side. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/india-entity-vs-eor-comparison/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison/">
     <meta property="og:title" content="India Entity vs EOR Comparison Calculator — 2026">
     <meta property="og:description" content="Compare cost of setting up India entity (WOS / LLP) vs hiring through EOR. 36-month TCO, breakeven analysis, side-by-side comparison.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/india-entity-vs-eor-comparison">
-    <meta property="og:image" content="/tools/og/india-entity-vs-eor-comparison.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/india-entity-vs-eor-comparison.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="India Entity vs EOR Comparison Calculator">
     <meta name="twitter:description" content="Compare cost of India entity vs EOR. 36-month TCO + breakeven analysis. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/india-entity-vs-eor-comparison.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/india-entity-vs-eor-comparison.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "SoftwareApplication",
       "name": "India Entity vs EOR Comparison Calculator",
       "description": "India Entity vs EOR Comparison Calculator is a strategic decision-support tool for foreign companies hiring in India. The tool models total cost of ownership over twelve to thirty-six months for two market-entry routes: setting up an Indian legal entity such as a wholly-owned subsidiary or limited liability partnership versus engaging an Employer of Record service. Inputs include planned headcount of one to one hundred employees, average gross monthly salary per employee from one lakh to ten lakh rupees, hiring city across Bangalore Hyderabad Pune Mumbai Delhi-NCR or Chennai, EOR provider tier from India-focused budget at six thousand to fifteen thousand rupees per employee per month to mid-market global at twenty-five thousand to forty thousand rupees to enterprise white-glove at forty thousand to sixty thousand rupees, and time horizon of twelve twenty-four or thirty-six months. The tool computes salary cost, statutory employer burden of fifteen to twenty-two percent covering Provident Fund employer contribution at twelve percent of basic wages, Employee State Insurance at three point two five percent for eligible employees earning up to twenty-one thousand rupees monthly, gratuity accrual at four point eight one percent under the Payment of Gratuity Act 1972, statutory bonus, and professional tax. For the entity route the tool factors in one-time incorporation cost of three lakh fifty thousand rupees including incorporation fees Foreign Direct Investment reporting under Form FC-GPR Reserve Bank of India compliance and registrations for GST income tax and shops and establishments and ongoing monthly compliance of forty thousand rupees covering payroll processing CA fees ROC annual filings transfer pricing study and statutory audit. For the EOR route the tool applies the selected provider tier per-employee per-month fee. Output includes total cost comparison cumulative cost curves over the time horizon breakeven employee count where entity becomes cheaper than EOR side-by-side fifteen-criteria comparison covering setup time compliance burden permanent establishment risk control intellectual property rights customer billing capability visa sponsorship banking access termination flexibility long-term scalability tax treatment equity grants and the four New Labour Codes effective twenty-first November 2025 covering Wages Industrial Relations Social Security and Occupational Safety. Suitable for foreign company finance teams entering India global mobility teams CFOs evaluating India expansion strategy and corporate development teams structuring cross-border hiring.",
-      "url": "/tools/india-entity-vs-eor-comparison",
+      "url": "https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": { "@id": "/#organization" }
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "India Entity vs EOR Comparison", "item": "/tools/india-entity-vs-eor-comparison"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "India Entity vs EOR Comparison", "item": "https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison"}
       ]
     }
     </script>
@@ -466,8 +466,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     India Entity vs EOR Comparison
 </nav>
 
@@ -779,30 +779,30 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/wholly-owned-subsidiary-registration" class="sidebar-link">WOS Registration<span class="arrow">→</span></a>
-            <a href="/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
-            <a href="/llp-registration" class="sidebar-link">LLP Registration<span class="arrow">→</span></a>
-            <a href="/fema-compliance" class="sidebar-link">FEMA &amp; FDI Compliance<span class="arrow">→</span></a>
-            <a href="/transfer-pricing" class="sidebar-link">Transfer Pricing Study<span class="arrow">→</span></a>
-            <a href="/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/wholly-owned-subsidiary-registration" class="sidebar-link">WOS Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-registration" class="sidebar-link">LLP Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/fema-compliance" class="sidebar-link">FEMA &amp; FDI Compliance<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/transfer-pricing" class="sidebar-link">Transfer Pricing Study<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator<span class="arrow">→</span></a>
             
-            <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
-            <a href="/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
-            <a href="/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/foreign-company-india-entry" class="sidebar-link">Foreign Company India Entry<span class="arrow">→</span></a>
-            <a href="/blog/wos-vs-llp-india" class="sidebar-link">WOS vs LLP in India<span class="arrow">→</span></a>
-            <a href="/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
-            <a href="/blog/permanent-establishment-india" class="sidebar-link">PE Risk in India<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/foreign-company-india-entry" class="sidebar-link">Foreign Company India Entry<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/wos-vs-llp-india" class="sidebar-link">WOS vs LLP in India<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/permanent-establishment-india" class="sidebar-link">PE Risk in India<span class="arrow">→</span></a>
         </div>
 
     </aside>

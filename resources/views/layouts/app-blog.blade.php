@@ -37,6 +37,8 @@
 
     {{-- STYLES --}}
     @stack('styles')
+
+    @include('partials.schema-organization')
 </head>
 
 <body>

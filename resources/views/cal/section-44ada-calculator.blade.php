@@ -3,23 +3,23 @@
     <title>Section 44ADA Calculator | Presumptive Tax FY 2025-26</title>
     <meta name="description" content="Section 44ADA Calculator: presumptive tax for professionals at 50% of receipts for FY 2025-26, with eligibility check and ₹50L/₹75L limits. Try free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/section-44ada-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/section-44ada-calculator">
 
     <meta property="og:title" content="Section 44ADA Calculator — Presumptive Tax FY 2025-26">
     <meta property="og:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility check, audit triggers, regime comparison for FY 2025-26.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/section-44ada-calculator">
-    <meta property="og:image" content="/tools/og/section-44ada-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/section-44ada-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/section-44ada-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 44ADA Calculator — Presumptive Tax FY 2025-26">
     <meta name="twitter:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility, audit triggers, regime comparison.">
-    <meta name="twitter:image" content="/tools/og/section-44ada-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/section-44ada-calculator.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "Section 44ADA Calculator",
       "description": "Section 44ADA Calculator computes presumptive taxable income for resident individual professionals and partnership firms at 50 percent of gross receipts under the Income Tax Act presumptive taxation scheme for FY 2025-26 (AY 2026-27), with eligibility verification against the ₹50 lakh standard threshold and ₹75 lakh enhanced threshold for digital-receipt professionals, side-by-side comparison with regular tax computation under old and new regimes, and audit/books-of-accounts trigger detection.",
-      "url": "/tools/section-44ada-calculator",
+      "url": "https://www.patronaccounting.com/tools/section-44ada-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -40,10 +40,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -56,8 +56,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
 
@@ -66,9 +66,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Section 44ADA Calculator", "item": "/tools/section-44ada-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Section 44ADA Calculator", "item": "https://www.patronaccounting.com/tools/section-44ada-calculator"}
       ]
     }
     </script>
@@ -437,9 +437,9 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Section 44ADA Calculator
 </nav>
@@ -734,7 +734,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
             <p>Cash receipts include physical cash and bearer cheques. If you receive even one large cash payment that pushes cash above the 5% mark, the ₹75 lakh option is lost — fall back to ₹50 lakh.</p>
 
             <div class="callout">
-                <p><strong>CA Tip:</strong> Track cash vs digital receipts every month. If you're approaching the 5% cash threshold mid-year, request all subsequent payments digitally. Many professionals discover at year-end that one ₹2 lakh cash payment cost them the ₹75 lakh cap. Patron's <a href="/zoho-books-accounting">Zoho Books accounting service</a> automates this reconciliation.</p>
+                <p><strong>CA Tip:</strong> Track cash vs digital receipts every month. If you're approaching the 5% cash threshold mid-year, request all subsequent payments digitally. Many professionals discover at year-end that one ₹2 lakh cash payment cost them the ₹75 lakh cap. Patron's <a href="https://www.patronaccounting.com/zoho-books-accounting">Zoho Books accounting service</a> automates this reconciliation.</p>
             </div>
         </section>
 
@@ -824,7 +824,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
                 <li>File audit report on the e-filing portal by 30 September of the assessment year</li>
                 <li>File ITR-3 (not ITR-4) by 31 October instead of 31 July</li>
             </ul>
-            <p>Audit fees typically range from ₹15,000 to ₹50,000 depending on practice complexity. Patron handles 44ADA filings under both presumptive and regular methods — see <a href="/itr-for-professionals">ITR Filing for Freelancers &amp; Professionals</a>.</p>
+            <p>Audit fees typically range from ₹15,000 to ₹50,000 depending on practice complexity. Patron handles 44ADA filings under both presumptive and regular methods — see <a href="https://www.patronaccounting.com/itr-for-professionals">ITR Filing for Freelancers &amp; Professionals</a>.</p>
 
             <div class="callout warn">
                 <p><strong>Form numbering change effective 1 April 2026:</strong> Under the Income Tax Act 2025 and Income Tax Rules 2026, Forms 3CA, 3CB, and 3CD will be replaced by Form 26 for tax audit reports. ITR-4 and ITR-3 retain their numbering for now. Refer to the <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">Income Tax Act 2025</a> for full mapping. Confirm current form numbers with your CA before filing.</p>
@@ -884,29 +884,29 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Tax Audit Services <span class="arrow">→</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers &amp; Professionals <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Tax Audit Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/can-i-report-freelance-income-under-section-44ada-in-the-same-itr" class="sidebar-link">Reporting Freelance Income Under 44ADA <span class="arrow">→</span></a>
-            <a href="/blog/accounting-freelancers-consultants-india-gst-itr-books" class="sidebar-link">Accounting for Freelancers — GST, ITR, Books <span class="arrow">→</span></a>
-            <a href="/blog/itr-1-vs-itr-4-which-form-to-choose" class="sidebar-link">ITR-1 vs ITR-4 — Which Form to Choose <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/can-i-report-freelance-income-under-section-44ada-in-the-same-itr" class="sidebar-link">Reporting Freelance Income Under 44ADA <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/accounting-freelancers-consultants-india-gst-itr-books" class="sidebar-link">Accounting for Freelancers — GST, ITR, Books <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/itr-1-vs-itr-4-which-form-to-choose" class="sidebar-link">ITR-1 vs ITR-4 — Which Form to Choose <span class="arrow">→</span></a>
         </div>
 
     </aside>

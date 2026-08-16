@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="icon" type="image/x-icon" href="/images/favicon.ico">-->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    @stack('meta-content')
+    @php
+        $__metaContent = $__env->yieldPushContent('meta-content');
+        // DB-driven pages push a ready-made <title> (e.g. $content->meta_title). If one
+        // is already in the head, the fallback below must not add a second one.
+        $__hasPushedTitle = str_contains($__metaContent, '<title')
+            || str_contains($__env->yieldPushContent('styles'), '<title');
+    @endphp
+    {!! $__metaContent !!}
     <!-- SEO Meta Tags -->
     @if(isset($page) && $page)
         <x-seo-meta :page="$page" />
@@ -68,7 +75,9 @@
         <meta name="keywords" content="@yield('meta_keywords')">
         @endif
 
+        @unless($__hasPushedTitle)
         <title>@yield('title', 'Patron Accounting')</title>
+        @endunless
 
     @endif
 
@@ -121,7 +130,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
     <style>
-        /* Prevent horizontal scroll on mobile devices (clip, not hidden, so position:sticky still works) */
+        /* Prevent horizontal scroll on mobile devices */
         @media (max-width: 768px) {
             html, body {
                 overflow-x: clip;
@@ -179,28 +188,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     @include('partials.schema-organization')
 </head>
-@php($__embed = request()->boolean('embed'))
-<body class="{{ $__embed ? 'is-embed' : '' }}">
-    @unless($__embed)
+<body>
     @include('partials.header')
-    @endunless
 
     <!-- Main Content -->
     <main>
         @yield('content')
     </main>
 
-    @unless($__embed)
     @include('partials.footer')
-    @endunless
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     @include('partials.search-script')
-    @unless($__embed)
     @include('layouts.itr-season-strip')
-    @endunless
     @stack('scripts')
     
     <!-- Custom Footer Scripts from SEO -->

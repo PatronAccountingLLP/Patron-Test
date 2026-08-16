@@ -3,20 +3,20 @@
     <title>GST Invoice Generator India | Free GST Invoice Maker</title>
     <meta name="description" content="GST invoice generator: create tax invoices with CGST, SGST and IGST breakdowns, HSN/SAC codes and all mandatory fields per CGST Rules. Download as PDF, free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/gst-invoice-generator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-invoice-generator">
     <meta property="og:title" content="GST Invoice Generator India &mdash; Free Invoice Maker 2026">
     <meta property="og:description" content="GST Invoice Generator creates tax invoices with CGST, SGST, IGST breakdowns, HSN/SAC codes, and mandatory fields per CGST Rules. Download as PDF free!">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/gst-invoice-generator">
-    <meta property="og:image" content="/tools/gst-invoice-generator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-invoice-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/gst-invoice-generator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Invoice Generator India &mdash; Free Invoice Maker 2026">
     <meta name="twitter:description" content="Create GST-compliant invoices with automatic tax calculations. Download as PDF. Try now!">
-    <meta name="twitter:image" content="/tools/gst-invoice-generator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/gst-invoice-generator/og-image.png">
 @endsection
 
 @section('schema')
@@ -25,17 +25,17 @@
       "@context":"https://schema.org","@type":"WebApplication",
       "name":"GST Invoice Generator India",
       "description":"GST Invoice Generator creates fully compliant tax invoices with automatic CGST, SGST, and IGST breakdowns, HSN/SAC code fields, place of supply, and all mandatory fields per Rule 46 of the CGST Rules 2017. Supports intra-state and inter-state invoices with PDF download.",
-      "url":"/tools/gst-invoice-generator",
+      "url":"https://www.patronaccounting.com/tools/gst-invoice-generator",
       "applicationCategory":"UtilityApplication","operatingSystem":"Any",
       "datePublished":"2026-03-05","dateModified":"2026-03-05",
       "offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},
-      "author":{"@type":"Person","@id":"/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},
-      "publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"/","logo":{"@type":"ImageObject","url":"/logo.png"}},
-      "provider":{"@id":"/#organization"}
+      "author":{"@type":"Person","@id":"https://patronaccounting.com/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},
+      "publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/logo.png"}},
+      "provider":{"@id":"https://patronaccounting.com/#organization"}
     }
     </script>
 <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"GST Invoice Generator","item":"/tools/gst-invoice-generator"}]}
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"GST Invoice Generator","item":"https://www.patronaccounting.com/tools/gst-invoice-generator"}]}
     </script>
 <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -314,8 +314,8 @@
 </div></nav>
 
 {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>&rsaquo;</span>
-    <a href="/tools">Free Tools</a><span>&rsaquo;</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>
     GST Invoice Generator
 </nav> --}}
 
@@ -338,7 +338,7 @@
 <!-- ====== INVOICE GENERATOR ====== -->
 <div class="inv-card">
     <h2>Create GST Invoice</h2>
-    <noscript><div class="noscript-box">This invoice generator requires JavaScript. Please enable it or use our <a href="/gst-returns">GST filing services</a>.</div></noscript>
+    <noscript><div class="noscript-box">This invoice generator requires JavaScript. Please enable it or use our <a href="https://www.patronaccounting.com/gst-returns">GST filing services</a>.</div></noscript>
 
     <!-- Transaction Type -->
     <div class="sec-title">Transaction Type</div>
@@ -437,7 +437,7 @@
     <h3>Step 2: Enter Supplier and Buyer Details</h3>
     <p>Fill in your business name, GSTIN, address, and state. Then enter the buyer's details. For B2B transactions, the buyer's GSTIN is mandatory to enable them to claim <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">Input Tax Credit</a>. For B2C transactions, the GSTIN field can be left blank.</p>
     <h3>Step 3: Add Line Items</h3>
-    <p>Enter each product or service with its description, HSN or SAC code, quantity, unit price, and applicable GST rate. The tool automatically calculates the taxable value and GST for each line item, supporting multiple rates in a single invoice. Verify HSN/SAC codes using our <a href="/tools/hsn-sac-code-finder">HSN/SAC Code Finder</a> tool.</p>
+    <p>Enter each product or service with its description, HSN or SAC code, quantity, unit price, and applicable GST rate. The tool automatically calculates the taxable value and GST for each line item, supporting multiple rates in a single invoice. Verify HSN/SAC codes using our <a href="https://www.patronaccounting.com/tools/hsn-sac-code-finder">HSN/SAC Code Finder</a> tool.</p>
     <h3>Step 4: Generate and Download</h3>
     <p>Click "Generate Invoice & Preview" to see a professional invoice layout. Print it directly or save as PDF using your browser's print-to-PDF feature. The generated invoice includes all 16 mandatory fields, amount in words, and space for an authorised signature.</p>
     <div class="callout">
@@ -517,20 +517,20 @@
 <aside class="sidebar-col">
     <div class="cta-card"><h3>Need GST Help?</h3><p>Our CAs handle GST registration, invoicing setup, return filing, and audits for businesses across India.</p><a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20GST%20compliance." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a></div>
     <div class="sidebar-card"><h3>Related Free Tools</h3>
-        <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-        <a href="/tools/hsn-sac-code-finder" class="sidebar-link">HSN/SAC Code Finder <span class="arrow">&rarr;</span></a>
-        <a href="/tools/tds-rate-finder" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
-        <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/tools/hsn-sac-code-finder" class="sidebar-link">HSN/SAC Code Finder <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/tools/tds-rate-finder" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
     </div>
     <div class="sidebar-card"><h3>GST Services</h3>
-        <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-        <a href="/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">&rarr;</span></a>
-        <a href="/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
-        <a href="/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
     </div>
     <div class="sidebar-card"><h3>From the Blog</h3>
-        <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
-        <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
+        <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
     </div>
 </aside>
 </div>

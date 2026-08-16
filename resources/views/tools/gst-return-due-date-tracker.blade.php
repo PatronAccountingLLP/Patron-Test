@@ -3,28 +3,28 @@
     <title>GST Return Due Date Tracker &mdash; Filing Calendar 2026</title>
     <meta name="description" content="GST return due dates for FY 2025-26 &mdash; GSTR-1, 3B, 4, 9 filing calendar with late fee alerts. Track monthly and quarterly deadlines. Check now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/gst-return-due-date-tracker">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-return-due-date-tracker">
     <meta property="og:title" content="GST Return Due Date Tracker &mdash; Filing Calendar 2026">
     <meta property="og:description" content="GST return due dates for FY 2025-26. Track GSTR-1, 3B, 4, 9 filing deadlines with late fee alerts.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/gst-return-due-date-tracker">
-    <meta property="og:image" content="/tools/og-gst-return-due-date-tracker.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-return-due-date-tracker">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-gst-return-due-date-tracker.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Return Due Date Tracker &mdash; Filing Calendar 2026">
     <meta name="twitter:description" content="Track GSTR-1, 3B, 4, 9 due dates for FY 2025-26 with late fee calculator.">
-    <meta name="twitter:image" content="/tools/og-gst-return-due-date-tracker.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og-gst-return-due-date-tracker.png">
 @endsection
 
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebApplication","name":"GST Return Due Date Tracker FY 2025-26","description":"GST Return Due Date Tracker displays month-wise filing deadlines for GSTR-1, GSTR-3B, GSTR-4, GSTR-9, GSTR-9C, CMP-08, and IFF for FY 2025-26. Covers monthly, quarterly QRMP, and composition scheme taxpayers with late fee and interest penalty details.","url":"/tools/gst-return-due-date-tracker","applicationCategory":"UtilityApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"/","logo":{"@type":"ImageObject","url":"/logo.png"}},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"WebApplication","name":"GST Return Due Date Tracker FY 2025-26","description":"GST Return Due Date Tracker displays month-wise filing deadlines for GSTR-1, GSTR-3B, GSTR-4, GSTR-9, GSTR-9C, CMP-08, and IFF for FY 2025-26. Covers monthly, quarterly QRMP, and composition scheme taxpayers with late fee and interest penalty details.","url":"https://www.patronaccounting.com/tools/gst-return-due-date-tracker","applicationCategory":"UtilityApplication","operatingSystem":"Any","datePublished":"2026-03-06","dateModified":"2026-03-06","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"https://patronaccounting.com/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/logo.png"}},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools/"},{"@type":"ListItem","position":3,"name":"GST Return Due Date Tracker","item":"/tools/gst-return-due-date-tracker"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools/"},{"@type":"ListItem","position":3,"name":"GST Return Due Date Tracker","item":"https://www.patronaccounting.com/tools/gst-return-due-date-tracker"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the due date for filing GSTR-1 every month?","acceptedAnswer":{"@type":"Answer","text":"GSTR-1 must be filed by the 11th of the following month for taxpayers with annual turnover exceeding \u20B95 crore who file monthly. Taxpayers under the QRMP scheme with turnover up to \u20B95 crore file GSTR-1 quarterly by the 13th of the month following the quarter end. Late filing attracts a fee of \u20B950 per day capped at \u20B910,000."}},{"@type":"Question","name":"What is the due date for GSTR-3B filing?","acceptedAnswer":{"@type":"Answer","text":"GSTR-3B is due by the 20th of the following month for monthly filers. For quarterly filers under the QRMP scheme, the due date is the 22nd or 24th of the month following the quarter depending on the state. Category A states file by the 22nd while Category B states file by the 24th of the month after the quarter ends."}},{"@type":"Question","name":"What is the QRMP scheme and who is eligible?","acceptedAnswer":{"@type":"Answer","text":"The Quarterly Return Monthly Payment scheme allows taxpayers with aggregate turnover up to \u20B95 crore in the previous financial year to file GSTR-1 and GSTR-3B quarterly instead of monthly. Tax payments are still made monthly using PMT-06 challan by the 25th of the following month. The scheme reduces filing burden from 24 returns to just 8 per year."}},{"@type":"Question","name":"What is the late fee for missing GST return due dates?","acceptedAnswer":{"@type":"Answer","text":"The late fee for GSTR-3B and GSTR-1 is \u20B950 per day of delay &mdash; \u20B925 under CGST and \u20B925 under SGST. For nil returns the late fee is \u20B920 per day. The maximum late fee is capped at \u20B910,000 per return. Additionally interest at 18 percent per annum is charged on the outstanding tax amount from the due date until the date of payment."}},{"@type":"Question","name":"When is GSTR-9 annual return due for FY 2025-26?","acceptedAnswer":{"@type":"Answer","text":"The GSTR-9 annual return for FY 2025-26 is due by 31st December 2026. This applies to all regular taxpayers. Businesses with aggregate turnover exceeding \u20B95 crore must also file GSTR-9C reconciliation statement by the same date. Filing GSTR-9 is optional for taxpayers with turnover up to \u20B92 crore as per the latest CBIC notification."}},{"@type":"Question","name":"What is GSTR-4 and when is it due?","acceptedAnswer":{"@type":"Answer","text":"GSTR-4 is the annual return filed by taxpayers registered under the GST composition scheme. For FY 2025-26 the due date is 30th April 2027. Composition dealers must also pay tax quarterly using Form CMP-08 by the 18th of the month following each quarter. The composition scheme is available for businesses with turnover up to \u20B91.5 crore."}},{"@type":"Question","name":"What happens if GST registration is cancelled for non-filing?","acceptedAnswer":{"@type":"Answer","text":"If a taxpayer fails to file GST returns for a continuous period of six months, the GST officer may initiate suo motu cancellation of registration under Section 29 of the CGST Act. Before cancellation a show cause notice in Form REG-17 is issued. The taxpayer can apply for revocation within 30 days of the cancellation order by filing Form REG-21."}},{"@type":"Question","name":"What is PMT-06 challan used for under QRMP?","acceptedAnswer":{"@type":"Answer","text":"PMT-06 is the challan used by QRMP scheme taxpayers to make monthly tax payments during the first two months of each quarter. The payment is due by the 25th of the following month. Taxpayers can use either the fixed sum method based on previous quarter liability divided by three or the self-assessment method based on actual monthly liability."}},{"@type":"Question","name":"Is GSTR-9C mandatory for all businesses?","acceptedAnswer":{"@type":"Answer","text":"No, GSTR-9C is mandatory only for businesses with aggregate annual turnover exceeding \u20B95 crore in the relevant financial year. It is a self-certified reconciliation statement that reconciles the values in GSTR-9 with the audited financial statements. From FY 2020-21 onwards, GSTR-9C is self-certified by the taxpayer and no longer requires CA certification."}},{"@type":"Question","name":"Can I file GST returns after the due date?","acceptedAnswer":{"@type":"Answer","text":"Yes, GST returns can be filed after the due date but with late fees and interest. GSTR-1 and GSTR-3B can be filed late with applicable penalties. However, returns cannot be filed after three years from the due date as per recent amendments introduced from FY 2024-25 onwards. This three year window applies to all return types under the CGST Act."}},{"@type":"Question","name":"What is IFF and when should it be filed?","acceptedAnswer":{"@type":"Answer","text":"The Invoice Furnishing Facility allows QRMP scheme taxpayers to upload B2B invoices in the first two months of each quarter. IFF is due by the 13th of the following month. It helps recipients claim timely Input Tax Credit without waiting for the quarterly GSTR-1. IFF is optional and covers only B2B invoices up to \u20B950 lakh per month."}},{"@type":"Question","name":"How do I check my GST filing status online?","acceptedAnswer":{"@type":"Answer","text":"Log in to the GST portal at gst.gov.in with your credentials and navigate to Services then Returns then Track Return Status. Select the financial year and return period to view the filing status of each return type. You can also check the return filing status from the Returns Dashboard which shows pending and filed returns for each tax period."}},{"@type":"Question","name":"What are the consequences of blocking E-Way Bill generation?","acceptedAnswer":{"@type":"Answer","text":"If a taxpayer fails to file GSTR-3B for two or more consecutive months, their E-Way Bill generation facility gets blocked automatically on the GST portal. This means the business cannot transport goods until the pending returns are filed. The blocking applies to both inward and outward E-Way Bills and affects regular business operations significantly."}}]}
@@ -250,9 +250,9 @@
 </nav>
 {{-- 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>&rsaquo;</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>&rsaquo;</span>
     GST Return Due Date Tracker
 </nav> --}}
@@ -485,26 +485,26 @@
         </div>
         <div class="sidebar-card">
             <h3>GST Services</h3>
-            <a href="/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
-            <a href="/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-            <a href="/gst-audit" class="sidebar-link">GST Audit <span class="arrow">&rarr;</span></a>
-            <a href="/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
-            <a href="/gst-returns-for-e-commerce-operator" class="sidebar-link">E-Commerce GST Returns <span class="arrow">&rarr;</span></a>
-            <a href="/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns-for-e-commerce-operator" class="sidebar-link">E-Commerce GST Returns <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/hsn-sac-code-finder" class="sidebar-link">HSN/SAC Code Finder <span class="arrow">&rarr;</span></a>
-            <a href="/tools/gst-rate-finder" class="sidebar-link">GST Rate Finder <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/hsn-sac-code-finder" class="sidebar-link">HSN/SAC Code Finder <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-rate-finder" class="sidebar-link">GST Rate Finder <span class="arrow">&rarr;</span></a>
             
-            <a href="/tools/e-way-bill-calculator" class="sidebar-link">E-Way Bill Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/e-way-bill-calculator" class="sidebar-link">E-Way Bill Calculator <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Guide <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
         </div>
     </aside>
 </div>

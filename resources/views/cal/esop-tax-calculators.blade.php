@@ -3,23 +3,23 @@
     <title>ESOP Taxation Calculator | Exercise to Sale FY 2025-26</title>
     <meta name="description" content="ESOP taxation calculator: compute tax from exercise to sale, covering perquisite plus capital gains and startup deferral, for FY 2025-26 (AY 2026-27). Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/esop-tax-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/esop-tax-calculator">
 
     <meta property="og:title" content="ESOP Tax Calculator — Perquisite + Capital Gains FY 2025-26">
     <meta property="og:description" content="Compute ESOP perquisite tax at exercise plus capital gains at sale for FY 2025-26 with startup deferral handling and post-July-2024 capital gains rates.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/esop-tax-calculator">
-    <meta property="og:image" content="/tools/og/esop-tax-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/esop-tax-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Tax Calculator — Perquisite + Capital Gains FY 2025-26">
     <meta name="twitter:description" content="Two-stage ESOP tax: perquisite at exercise + capital gains at sale, with startup deferral handling for FY 2025-26.">
-    <meta name="twitter:image" content="/tools/og/esop-tax-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/esop-tax-calculator.png">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "ESOP Tax Calculator",
       "description": "ESOP Tax Calculator computes the two-stage tax on Employee Stock Option Plans for FY 2025-26 (AY 2026-27): perquisite tax at exercise (FMV minus exercise price taxed as salary at slab rates under old or new regime) and capital gains tax at sale (Section 111A STCG or Section 112A LTCG for listed equity, slab or 12.5% for unlisted) with date-driven holding period detection, startup deferral check under Section 80-IAC for DPIIT-recognised startups, and pre-23-July-2024 versus post-pivot capital gains regime handling.",
-      "url": "/tools/esop-tax-calculator",
+      "url": "https://www.patronaccounting.com/tools/esop-tax-calculator",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -40,10 +40,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -56,8 +56,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
 
@@ -66,9 +66,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "ESOP Tax Calculator", "item": "/tools/esop-tax-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "ESOP Tax Calculator", "item": "https://www.patronaccounting.com/tools/esop-tax-calculator"}
       ]
     }
     </script>
@@ -454,9 +454,9 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP Tax Calculator
 </nav>
@@ -754,7 +754,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <p>Critical detail: tax is computed at <strong>allotment-year rates</strong>, not trigger-year rates. If you exercised in FY 2025-26 and the trigger occurs in FY 2029-30, the tax uses FY 2025-26 slabs and rebate amounts.</p>
 
             <div class="callout warn">
-                <p><strong>Common misconception:</strong> The deferral is a <em>postponement</em>, not a waiver. The tax is still owed — just paid later. Budget for the eventual outflow when the trigger event approaches. Patron's <a href="/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">guide on ESOP deferral</a> explains the mechanism in detail.</p>
+                <p><strong>Common misconception:</strong> The deferral is a <em>postponement</em>, not a waiver. The tax is still owed — just paid later. Budget for the eventual outflow when the trigger event approaches. Patron's <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">guide on ESOP deferral</a> explains the mechanism in detail.</p>
             </div>
         </section>
 
@@ -789,7 +789,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <p><strong>Schedule FA disclosure mandatory</strong> — non-disclosure of foreign shares triggers Black Money Act penalties up to ₹10L per year.</p>
 
             <div class="callout">
-                <p><strong>Pre-23-July-2024 sale warning:</strong> If you sold ESOP shares between 1 April 2024 and 22 July 2024, the old capital gains regime applied (10% LTCG above ₹1L for listed; 20% with indexation for unlisted). This calculator uses post-pivot rates only — for pre-pivot sales, consult a CA. Patron's <a href="/itr-for-capital-gains">capital gains ITR service</a> handles both regimes.</p>
+                <p><strong>Pre-23-July-2024 sale warning:</strong> If you sold ESOP shares between 1 April 2024 and 22 July 2024, the old capital gains regime applied (10% LTCG above ₹1L for listed; 20% with indexation for unlisted). This calculator uses post-pivot rates only — for pre-pivot sales, consult a CA. Patron's <a href="https://www.patronaccounting.com/itr-for-capital-gains">capital gains ITR service</a> handles both regimes.</p>
             </div>
         </section>
 
@@ -846,29 +846,29 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
-            <a href="/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/zoho-books-accounting" class="sidebar-link">Zoho Books Accounting <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
-            <a href="/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
-            <a href="/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator" class="sidebar-link">Section 87A Rebate Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/advance-tax-calculator" class="sidebar-link">Advance Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator" class="sidebar-link">Old vs New Regime Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ais-reconciliation-tool" class="sidebar-link">AIS Reconciliation Tool <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-taxation-rules-2026-when-how-stock-options-taxed-rules" class="sidebar-link">ESOP Taxation Rules 2026 <span class="arrow">→</span></a>
-            <a href="/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">ESOP Tax Deferral for Startups <span class="arrow">→</span></a>
-            <a href="/blog/how-to-declare-rsus-esops-in-your-income-tax-return-in-india" class="sidebar-link">How to Declare RSUs / ESOPs in ITR <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-taxation-rules-2026-when-how-stock-options-taxed-rules" class="sidebar-link">ESOP Taxation Rules 2026 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">ESOP Tax Deferral for Startups <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/how-to-declare-rsus-esops-in-your-income-tax-return-in-india" class="sidebar-link">How to Declare RSUs / ESOPs in ITR <span class="arrow">→</span></a>
         </div>
 
     </aside>

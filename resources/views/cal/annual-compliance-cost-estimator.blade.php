@@ -5,27 +5,27 @@
 <meta name="description" content="Estimate FY 2026-27 annual compliance cost: ROC, audit, ITR, GST & TDS itemised for Pvt Ltd, LLP, OPC & Section 8 companies in India. Get your quote now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/annual-compliance-cost-estimator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/annual-compliance-cost-estimator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">
 <meta property="og:title" content="Annual Compliance Cost Estimator — FY 2026-27">
 <meta property="og:description" content="Itemised FY 2026-27 compliance fees for Pvt Ltd / LLP / OPC / Section 8. Patron vs commodity-provider transparent comparison.">
-<meta property="og:image" content="/og/annual-compliance-cost-estimator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/annual-compliance-cost-estimator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Annual Compliance Cost Estimator — FY 2026-27">
 <meta name="twitter:description" content="Itemised FY 2026-27 CA fees: ROC + audit + ITR + GST + TDS for Indian companies.">
-<meta name="twitter:image" content="/og/annual-compliance-cost-estimator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/annual-compliance-cost-estimator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Annual Compliance Cost Estimator","description":"Annual Compliance Cost Estimator generates an itemised year-long compliance fee estimate in Indian Rupees for Indian companies (Private Limited, One Person Company, Limited Liability Partnership, and Section 8 not-for-profit company). Inputs include the entity type, annual turnover band (Up to ₹1 Crore, ₹1 to ₹5 Crore, ₹5 to ₹20 Crore, ₹20 to ₹100 Crore, Above ₹100 Crore), transaction volume (Low under 50 monthly, Mid 50 to 200, High above 200), number of directors or designated partners, GST registration status, statutory audit applicability, and a flag for the first year of compliance after incorporation. The tool computes a line-by-line breakdown across nine cost categories: ROC compliance (AOC-4, MGT-7/7A, ADT-1, Director's Report, Auditor's Report, Form 8 and Form 11 for LLP, additional 12A and 80G renewals for Section 8); statutory audit fees scaled by turnover; tax audit under Section 44AB of the Income-tax Act where applicable; income tax return filing (ITR-5 for LLP, ITR-6 for other entities, ITR-7 for Section 8); GST monthly returns (GSTR-1, GSTR-3B) scaled by transaction volume plus GSTR-9 annual return; quarterly TDS returns (24Q, 26Q); DIR-3 KYC for each director or Designated Partner KYC for LLP partners; DPT-3 Return of Deposits; first-year setup costs including opening books and accounting policy framework. The tool produces a total fee estimate typically in the ₹30,000 to ₹65,000 range for small to mid-sized companies, presents a side-by-side comparison against commodity provider quotes (typically 35 to 50 percent lower) along with a transparent list of value-added services that commodity providers exclude (year-round CA access, notice handling, quarterly tax planning, annual financial review, free re-work for portal errors, 7-year document storage, compliance calendar with deadline reminders), and supports browser print-to-PDF for offline reference.","url":"/tools/annual-compliance-cost-estimator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Annual Compliance Cost Estimator","description":"Annual Compliance Cost Estimator generates an itemised year-long compliance fee estimate in Indian Rupees for Indian companies (Private Limited, One Person Company, Limited Liability Partnership, and Section 8 not-for-profit company). Inputs include the entity type, annual turnover band (Up to ₹1 Crore, ₹1 to ₹5 Crore, ₹5 to ₹20 Crore, ₹20 to ₹100 Crore, Above ₹100 Crore), transaction volume (Low under 50 monthly, Mid 50 to 200, High above 200), number of directors or designated partners, GST registration status, statutory audit applicability, and a flag for the first year of compliance after incorporation. The tool computes a line-by-line breakdown across nine cost categories: ROC compliance (AOC-4, MGT-7/7A, ADT-1, Director's Report, Auditor's Report, Form 8 and Form 11 for LLP, additional 12A and 80G renewals for Section 8); statutory audit fees scaled by turnover; tax audit under Section 44AB of the Income-tax Act where applicable; income tax return filing (ITR-5 for LLP, ITR-6 for other entities, ITR-7 for Section 8); GST monthly returns (GSTR-1, GSTR-3B) scaled by transaction volume plus GSTR-9 annual return; quarterly TDS returns (24Q, 26Q); DIR-3 KYC for each director or Designated Partner KYC for LLP partners; DPT-3 Return of Deposits; first-year setup costs including opening books and accounting policy framework. The tool produces a total fee estimate typically in the ₹30,000 to ₹65,000 range for small to mid-sized companies, presents a side-by-side comparison against commodity provider quotes (typically 35 to 50 percent lower) along with a transparent list of value-added services that commodity providers exclude (year-round CA access, notice handling, quarterly tax planning, annual financial review, free re-work for portal errors, 7-year document storage, compliance calendar with deadline reminders), and supports browser print-to-PDF for offline reference.","url":"https://www.patronaccounting.com/tools/annual-compliance-cost-estimator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Annual Compliance Cost Estimator","item":"/tools/annual-compliance-cost-estimator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Annual Compliance Cost Estimator","item":"https://www.patronaccounting.com/tools/annual-compliance-cost-estimator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -249,7 +249,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-it-works">How It Works</a><a href="#breakdown">Cost Breakdown</a><a href="#entity-types">By Entity Type</a><a href="#patron-vs-commodity">Patron vs Commodity</a><a href="#not-included">Not Included</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Annual Compliance Cost Estimator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Annual Compliance Cost Estimator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -472,19 +472,19 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
 <h3>Private Limited Company</h3>
 <p>Most extensive compliance — statutory audit always mandatory (no turnover threshold), 4 board meetings minimum per year (2 for small companies), AGM within 6 months of FY end, AOC-4 + MGT-7 + ADT-1 filings, annual DIR-3 KYC for every director, DPT-3 for deposits, CSR if applicable (₹500 Cr net worth or ₹1,000 Cr turnover or ₹5 Cr profit). Patron's Pvt Ltd package is the most popular — typically <strong>₹45,000 to ₹65,000 annually</strong> for ₹1-5 Cr turnover.</p>
-<p>See: <a href="/annual-compliance-private-limited">Annual Compliance — Private Limited service page</a> for full scope.</p>
+<p>See: <a href="https://www.patronaccounting.com/annual-compliance-private-limited">Annual Compliance — Private Limited service page</a> for full scope.</p>
 
 <h3>One Person Company (OPC)</h3>
 <p>Similar to Pvt Ltd with simplifications — only 2 board meetings required, AGM not mandatory (if single member), MGT-7A instead of MGT-7. Mandatory conversion to Pvt Ltd when turnover exceeds ₹2 Crore or paid-up capital exceeds ₹50 Lakh — Patron handles the conversion. Typical compliance cost: <strong>₹35,000 to ₹50,000 annually</strong>.</p>
 
 <h3>Limited Liability Partnership (LLP)</h3>
 <p>Lighter compliance — only Form 8 + Form 11 + DPIN KYC + ITR-5. Statutory audit threshold: turnover above ₹40 Lakh OR capital above ₹25 Lakh. Tax audit applies separately at ₹1 Crore turnover. Typical compliance cost: <strong>₹25,000 to ₹40,000 annually</strong> — the cheapest option for service businesses without complex investor structures.</p>
-<p>See: <a href="/annual-compliance-llp">Annual Compliance — LLP service page</a>.</p>
+<p>See: <a href="https://www.patronaccounting.com/annual-compliance-llp">Annual Compliance — LLP service page</a>.</p>
 
 <h3>Section 8 (Not-for-Profit) Company</h3>
 <p>Most compliance-heavy due to public interest oversight — same as Pvt Ltd PLUS 12A/80G renewals every 5 years, Form 10BD donor statement annually, Form 10B audit report, CSR-2 disclosures, ITR-7 (more complex than ITR-6), Foreign Contribution (FCRA) returns if FCRA registered. Typical compliance cost: <strong>₹50,000 to ₹75,000 annually</strong>.</p>
 
-<div class="callout"><p><strong>Comparison guide:</strong> Use our <a href="/annual-compliance-small-vs-startup-vs-opc">Small vs Startup vs OPC compliance comparison</a> to decide which structure fits your stage. For pricing transparency, see <a href="/annual-compliance-cost-comparison-cheap-vs-quality">Cheap vs Quality CA Comparison</a>.</p></div>
+<div class="callout"><p><strong>Comparison guide:</strong> Use our <a href="https://www.patronaccounting.com/annual-compliance-small-vs-startup-vs-opc">Small vs Startup vs OPC compliance comparison</a> to decide which structure fits your stage. For pricing transparency, see <a href="https://www.patronaccounting.com/annual-compliance-cost-comparison-cheap-vs-quality">Cheap vs Quality CA Comparison</a>.</p></div>
 </section>
 
 <div class="body-cta">
@@ -568,7 +568,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <li>GST late filing fees (₹50/day per return)</li>
 </ul>
 
-<div class="callout warn"><p><strong>Notices & Litigation:</strong> The Patron annual fee includes routine notice handling (Section 142(1) information notices, ASMT-10 scrutiny). Substantive scrutiny (Section 143(2)), reassessment (Section 148), GST DRC-01 demands, and appeals to CIT(A) / GSTAT are scoped and quoted separately. See <a href="/tools/notice-section-identifier">Notice Section Identifier</a> to understand the scope of any notice you receive.</p></div>
+<div class="callout warn"><p><strong>Notices & Litigation:</strong> The Patron annual fee includes routine notice handling (Section 142(1) information notices, ASMT-10 scrutiny). Substantive scrutiny (Section 143(2)), reassessment (Section 148), GST DRC-01 demands, and appeals to CIT(A) / GSTAT are scoped and quoted separately. See <a href="https://www.patronaccounting.com/tools/notice-section-identifier">Notice Section Identifier</a> to understand the scope of any notice you receive.</p></div>
 </section>
 
 <section class="content-section" id="faqs">
@@ -615,24 +615,24 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Compare & Choose</h3>
-<a href="/annual-compliance-cost-comparison-cheap-vs-quality" class="sidebar-link">Cheap vs Quality CA Comparison <span class="arrow">→</span></a>
-<a href="/annual-compliance-small-vs-startup-vs-opc" class="sidebar-link">Small vs Startup vs OPC <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-cost-comparison-cheap-vs-quality" class="sidebar-link">Cheap vs Quality CA Comparison <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-small-vs-startup-vs-opc" class="sidebar-link">Small vs Startup vs OPC <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Compliance Services</h3>
-<a href="/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
-<a href="/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
-<a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
-<a href="/tax-audit" class="sidebar-link">Tax Audit (Section 44AB) <span class="arrow">→</span></a>
-<a href="/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">→</span></a>
-<a href="/gst-return-filing" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit (Section 44AB) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-return-filing" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
-<a href="/tools/notice-penalty-calculator" class="sidebar-link">Notice Penalty Calculator <span class="arrow">→</span></a>
-<a href="/tools/notice-deadline-tracker" class="sidebar-link">Notice Deadline Tracker <span class="arrow">→</span></a>
-<a href="/tools/din-authenticity-verifier" class="sidebar-link">DIN Authenticity Verifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-penalty-calculator" class="sidebar-link">Notice Penalty Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-deadline-tracker" class="sidebar-link">Notice Deadline Tracker <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/din-authenticity-verifier" class="sidebar-link">DIN Authenticity Verifier <span class="arrow">→</span></a>
 </div>
 </aside>
 

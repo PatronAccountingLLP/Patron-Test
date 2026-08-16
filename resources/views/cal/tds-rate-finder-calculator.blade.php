@@ -3,25 +3,25 @@
     <title>TDS Rate Finder | Section-Wise Rates FY 2025-26</title>
     <meta name="description" content="TDS rate finder for FY 2025-26: look up section-wise TDS rates across 40+ sections, calculate exact TDS and check threshold limits and PAN rates. Try free now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/tds-rate-finder-calculator">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/tds-rate-finder-calculator">
     <meta property="og:title" content="TDS Rate Finder & Calculator &mdash; Free Online Tool 2026">
     <meta property="og:description" content="Find section-wise TDS rates for FY 2025-26 across 40+ sections. Calculate exact TDS, threshold limits & PAN/no-PAN rates. Try free now!">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="/tools/tds-rate-finder-calculator">
-    <meta property="og:image" content="/tools/tds-rate-finder-calculator/og-image.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/tds-rate-finder-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/tds-rate-finder-calculator/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS Rate Finder & Calculator &mdash; Free Online Tool 2026">
     <meta name="twitter:description" content="Find TDS rates for all 40+ sections & calculate exact deduction for FY 2025-26.">
-    <meta name="twitter:image" content="/tools/tds-rate-finder-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/tds-rate-finder-calculator/og-image.png">
 @endsection
 
 @section('schema')
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","@id":"/tools/tds-rate-finder-calculator#tool","name":"TDS Rate Finder & Calculator 2025-26","description":"TDS Rate Finder & Calculator provides instant access to section-wise TDS rates for FY 2025-26 under the Income Tax Act 1961, calculates exact deduction amounts, and displays threshold limits, PAN/no-PAN rates, and surcharge applicability for all 40+ TDS sections.","url":"/tools/tds-rate-finder-calculator","applicationCategory":"UtilityApplication","operatingSystem":"Any","inLanguage":"en-IN","datePublished":"2025-04-01","dateModified":"2026-03-01","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"/","logo":{"@type":"ImageObject","url":"/logo.png"}},"provider":{"@id":"/#organization"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"TDS Rate Finder & Calculator","item":"/tools/tds-rate-finder-calculator"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","@id":"https://www.patronaccounting.com/tools/tds-rate-finder-calculator#tool","name":"TDS Rate Finder & Calculator 2025-26","description":"TDS Rate Finder & Calculator provides instant access to section-wise TDS rates for FY 2025-26 under the Income Tax Act 1961, calculates exact deduction amounts, and displays threshold limits, PAN/no-PAN rates, and surcharge applicability for all 40+ TDS sections.","url":"https://www.patronaccounting.com/tools/tds-rate-finder-calculator","applicationCategory":"UtilityApplication","operatingSystem":"Any","inLanguage":"en-IN","datePublished":"2025-04-01","dateModified":"2026-03-01","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"author":{"@type":"Person","@id":"https://patronaccounting.com/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/logo.png"}},"provider":{"@id":"https://patronaccounting.com/#organization"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"TDS Rate Finder & Calculator","item":"https://www.patronaccounting.com/tools/tds-rate-finder-calculator"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the TDS rate on salary under Section 192 for FY 2025\u201326?","acceptedAnswer":{"@type":"Answer","text":"Under Section 192, TDS on salary is deducted as per the applicable income tax slab rates for FY 2025\u201326 under the new tax regime. The employer calculates estimated annual salary, applies the applicable slab (0%, 5%, 10%, 15%, 20%, 25%, or 30%), and deducts TDS monthly. No flat rate applies; the deduction depends on total taxable salary and exemptions claimed by the employee."}},{"@type":"Question","name":"What is the TDS rate for contractors and sub-contractors under Section 194C?","acceptedAnswer":{"@type":"Answer","text":"Under Section 194C, TDS is deducted at 1% for payments to individuals or HUFs and 2% for payments to companies, firms, or co-operative societies. The threshold limit is \u20B930,000 per single contract or \u20B91,00,000 in aggregate during a financial year. Transport contractors owning ten or fewer goods carriages and providing a valid PAN declaration are exempt from TDS deduction under this section."}},{"@type":"Question","name":"What is the TDS rate on rent under Section 194I?","acceptedAnswer":{"@type":"Answer","text":"Under Section 194I, TDS on rent is deducted at 2% for use of plant, machinery, or equipment and 10% for use of land, building, or furniture. The annual threshold is \u20B92,40,000 per financial year. Additionally, Section 194IB at 5% applies separately when individual or HUF tenants pay monthly rent exceeding \u20B950,000, applicable even without a TAN requirement."}},{"@type":"Question","name":"What happens if the payee does not provide PAN for TDS deduction?","acceptedAnswer":{"@type":"Answer","text":"Under Section 206AA, if the payee fails to furnish a valid PAN, TDS must be deducted at 20% or the applicable rate, whichever is higher. This applies uniformly across all TDS sections. From FY 2024\u201325, an Aadhaar-unlinked or inoperative PAN is also treated as no PAN, significantly increasing the tax burden on the payee and making Aadhaar-PAN linking essential."}},{"@type":"Question","name":"What is the penalty for not deducting TDS or late TDS deposit?","acceptedAnswer":{"@type":"Answer","text":"Interest under Section 201(1A) is charged at 1% per month for late deduction and 1.5% per month for late deposit of TDS with the government. A penalty equal to the TDS amount can be levied under Section 271C for failure to deduct. Additionally, expenses on which TDS was not deducted may be disallowed under Section 40(a)(ia), thereby increasing the deductor's taxable income."}},{"@type":"Question","name":"What is the TDS rate on professional fees under Section 194J?","acceptedAnswer":{"@type":"Answer","text":"Under Section 194J, TDS is deducted at 10% on fees for professional services paid to doctors, lawyers, chartered accountants, architects, and engineers. For technical services, royalty payments, and call centre services, the rate is 2%. The threshold limit is \u20B950,000 per financial year. Directors' fees under Section 194J attract 10% TDS with no threshold limit applicable."}},{"@type":"Question","name":"What is the TDS rate on purchase of property under Section 194IA?","acceptedAnswer":{"@type":"Answer","text":"Under Section 194IA, TDS is deducted at 1% of the total sale consideration when a buyer purchases immovable property other than agricultural land valued at \u20B950 lakh or more. The buyer must deduct TDS at the time of payment and file Form 26QB within 30 days from the end of the month of deduction through the income tax portal."}},{"@type":"Question","name":"What is the due date for TDS deposit and return filing?","acceptedAnswer":{"@type":"Answer","text":"TDS must be deposited by the 7th of the following month, with 30th April as the deadline for March deductions. Quarterly returns are due as follows: Q1 by 31st July, Q2 by 31st October, Q3 by 31st January, and Q4 by 31st May. Form 16 for salary or Form 16A for non-salary must be issued within 15 days of the applicable TDS return due date."}},{"@type":"Question","name":"What is the TDS rate on interest from banks under Section 194A?","acceptedAnswer":{"@type":"Answer","text":"Under Section 194A, TDS is deducted at 10% on interest income from banks, post offices, and cooperative societies. The threshold is \u20B940,000 per financial year for individuals below 60 years and \u20B950,000 for senior citizens aged 60 and above. Submitting Form 15G for those below 60 or Form 15H for senior citizens can help avoid TDS if total income is below the taxable limit."}},{"@type":"Question","name":"What is the TDS rate on virtual digital assets (crypto) under Section 194S?","acceptedAnswer":{"@type":"Answer","text":"Under Section 194S, TDS is deducted at 1% on transfer of virtual digital assets including cryptocurrency, NFTs, and other digital tokens. The threshold is \u20B950,000 per year for specified persons such as exchanges and \u20B910,000 for others. This provision was introduced from 1st July 2022 to bring all VDA transactions under the Indian income tax compliance framework."}},{"@type":"Question","name":"Can I claim a refund of excess TDS deducted from my income?","acceptedAnswer":{"@type":"Answer","text":"Yes, if TDS deducted exceeds your actual tax liability for the financial year, you can claim a refund by filing your Income Tax Return for the relevant assessment year. The excess TDS reflects in Form 26AS and the Annual Information Statement on the income tax portal. After ITR processing and verification, the Income Tax Department issues refunds directly to your pre-validated bank account."}},{"@type":"Question","name":"How is TDS on e-commerce transactions deducted under Section 194O?","acceptedAnswer":{"@type":"Answer","text":"Under Section 194O, e-commerce operators must deduct TDS at 1% of the gross amount paid or credited to e-commerce participants at the time of credit or payment, whichever is earlier. The threshold is \u20B95,00,000 for resident individual or HUF participants per financial year. No threshold applies for companies or firms registered on the platform, making compliance mandatory for all operators."}},{"@type":"Question","name":"What is Form 26AS and how does it help with TDS verification?","acceptedAnswer":{"@type":"Answer","text":"Form 26AS is the annual consolidated tax statement available on the income tax portal that shows all TDS deducted against your PAN during a financial year. It includes TDS from salary, bank interest, rent, professional fees, and property transactions along with advance tax and self-assessment tax payments. Taxpayers should verify Form 26AS before filing ITR to ensure all TDS credits are correctly reflected."}}]}</script>
 @endsection
 
@@ -281,9 +281,9 @@
     </div>
 </nav>
 {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>&rsaquo;</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>&rsaquo;</span>
     TDS Rate Finder &amp; Calculator
 </nav> --}}
@@ -496,40 +496,40 @@
         </div>
         <div class="sidebar-card">
             <h3>Key TDS Sections</h3>
-            <a href="/itr-filing-for-salary" class="sidebar-link">Section 192 &mdash; Salary <span class="arrow">&rarr;</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">Section 194C &mdash; Contractor <span class="arrow">&rarr;</span></a>
-            <a href="/itr-for-professionals" class="sidebar-link">Section 194J &mdash; Professional Fees <span class="arrow">&rarr;</span></a>
-            <a href="/tds-return" class="sidebar-link">Section 194I &mdash; Rent <span class="arrow">&rarr;</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">Section 194A &mdash; Interest (Bank) <span class="arrow">&rarr;</span></a>
-            <a href="/itr-for-property-sale" class="sidebar-link">Section 194IA &mdash; Property Purchase <span class="arrow">&rarr;</span></a>
-            <a href="/itr-for-crypto-traders" class="sidebar-link">Section 194S &mdash; Crypto / VDA <span class="arrow">&rarr;</span></a>
-            <a href="/accounting-services-for-e-commerce-industry" class="sidebar-link">Section 194O &mdash; E-commerce <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">Section 192 &mdash; Salary <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">Section 194C &mdash; Contractor <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">Section 194J &mdash; Professional Fees <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">Section 194I &mdash; Rent <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">Section 194A &mdash; Interest (Bank) <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-property-sale" class="sidebar-link">Section 194IA &mdash; Property Purchase <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-crypto-traders" class="sidebar-link">Section 194S &mdash; Crypto / VDA <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="sidebar-link">Section 194O &mdash; E-commerce <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
-            <a href="/tds-return" class="sidebar-link">TDS Returns (24Q/26Q/27Q) <span class="arrow">&rarr;</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
-            <a href="/itr-for-business" class="sidebar-link">ITR for Business <span class="arrow">&rarr;</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">&rarr;</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">TDS Returns (24Q/26Q/27Q) <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-business" class="sidebar-link">ITR for Business <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Free Tools</h3>
-            <a href="/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
-            <a href="/tools/emi-calculator" class="sidebar-link">EMI Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/emi-calculator" class="sidebar-link">EMI Calculator <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny &amp; Assessment <span class="arrow">&rarr;</span></a>
-            <a href="/blog/income-tax-reassessment-and-reopening-cases-section-147-and-148-explained" class="sidebar-link">Reassessment &amp; Reopening (Sec. 147/148) <span class="arrow">&rarr;</span></a>
-            <a href="/blog/stay-of-tax-demand-how-to-stop-income-tax-recovery-proceedings" class="sidebar-link">Stay of Tax Demand &amp; Recovery <span class="arrow">&rarr;</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-scrutiny-and-assessment-representation-sections-1432-1433-and-144-explained" class="sidebar-link">Income Tax Scrutiny &amp; Assessment <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/income-tax-reassessment-and-reopening-cases-section-147-and-148-explained" class="sidebar-link">Reassessment &amp; Reopening (Sec. 147/148) <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/stay-of-tax-demand-how-to-stop-income-tax-recovery-proceedings" class="sidebar-link">Stay of Tax Demand &amp; Recovery <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance for Companies <span class="arrow">&rarr;</span></a>
         </div>
     </aside>
 </div><span class="trust">25,000+ Businesses Trust Us</span>

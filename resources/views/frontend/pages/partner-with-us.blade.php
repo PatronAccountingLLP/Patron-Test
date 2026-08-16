@@ -3,7 +3,6 @@
 @section('title', 'Partner With Patron Accounting | CA Firm Partner Program')
 
 @push('styles')
-  <title>Partner With Patron Accounting | CA Firm Partner Program</title>
   <meta name="description" content="Partner with Patron Accounting. GST, ITR, Payroll &amp; Company Registration across India. Referral &amp; white-label programs for CAs, lawyers and consultants.">
   <link rel="canonical" href="/partner-with-us">
   <meta property="og:title" content="Partner With Patron Accounting | CA Firm Partner Program">

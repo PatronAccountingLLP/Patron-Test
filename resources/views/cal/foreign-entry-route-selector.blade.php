@@ -4,22 +4,22 @@
 <meta name="description" content="India market entry route selector: pick the right structure for your foreign business, from wholly-owned subsidiary, LLP, branch, liaison/project office or EOR.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/foreign-entry-route-selector">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/foreign-entry-route-selector">
 @section('meta')
 <meta property="og:title" content="Foreign Entry Route Selector — India Market Entry 2026">
 <meta property="og:description" content="Answer a few questions and get a recommended India entry route — subsidiary, LLP, branch, liaison or project office, or EOR — with a full comparison.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/foreign-entry-route-selector">
-<meta property="og:image" content="/tools/foreign-entry-route-selector-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/foreign-entry-route-selector">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/foreign-entry-route-selector-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Foreign Entry Route Selector — India Market Entry 2026">
 <meta name="twitter:description" content="Find the right India entry route for your foreign business — subsidiary, LLP, branch, liaison/project office or EOR. Free &amp; instant.">
-<meta name="twitter:image" content="/tools/foreign-entry-route-selector-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/foreign-entry-route-selector-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -28,7 +28,7 @@
   "@type": "SoftwareApplication",
   "name": "Foreign Entry Route Selector",
   "description": "Foreign Entry Route Selector helps a foreign company or investor choose how to enter the Indian market. It asks about the primary objective, whether the business needs to earn income in India, FDI sector route, timeline and permanence, then weighs these against the available structures — a wholly-owned subsidiary or private limited company, an LLP, a branch office, a liaison or representative office, a project office, and the employer-of-record model — and returns a recommended route with reasons and a full side-by-side comparison covering legal entity status, ability to earn income, RBI approval, control and best-fit use case.",
-  "url": "/tools/foreign-entry-route-selector",
+  "url": "https://www.patronaccounting.com/tools/foreign-entry-route-selector",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -42,10 +42,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -58,9 +58,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -70,9 +70,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Foreign Entry Route Selector", "item": "/tools/foreign-entry-route-selector"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Foreign Entry Route Selector", "item": "https://www.patronaccounting.com/tools/foreign-entry-route-selector"}
   ]
 }
 </script>
@@ -696,9 +696,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Foreign Entry Route Selector
 </nav>
@@ -816,7 +816,7 @@ a:focus-visible {
                 <li>Cross-check against the <strong>comparison matrix</strong> below, and remember most permanent operating businesses end up at a wholly-owned subsidiary.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> A common play is to start with an <strong>EOR</strong> for speed while incorporating a <strong>subsidiary</strong> in parallel, then move the team across once the entity is live. Already know you want a company? Compare structures with the <a href="/tools/pvt-ltd-vs-llp-comparison">Pvt Ltd vs LLP tool</a>.</p>
+                <p><strong>CA Tip:</strong> A common play is to start with an <strong>EOR</strong> for speed while incorporating a <strong>subsidiary</strong> in parallel, then move the team across once the entity is live. Already know you want a company? Compare structures with the <a href="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison">Pvt Ltd vs LLP tool</a>.</p>
             </div>
         </section>
 
@@ -833,7 +833,7 @@ a:focus-visible {
             <h3>Project Office</h3>
             <p>A temporary setup to execute a specific contract awarded by an Indian company. It can do commercial activity related to that project (the key difference from a liaison office) and is wound up on completion. Registered with the RBI and RoC.</p>
             <h3>Employer of Record (EOR)</h3>
-            <p>No entity needed — the EOR is the legal employer while the team reports to you, cutting time-to-team from ~60 days to under 2 weeks. Common as a fast start while a subsidiary is incorporated in parallel. See Patron's <a href="/eor-india-services">EOR India services</a>.</p>
+            <p>No entity needed — the EOR is the legal employer while the team reports to you, cutting time-to-team from ~60 days to under 2 weeks. Common as a fast start while a subsidiary is incorporated in parallel. See Patron's <a href="https://www.patronaccounting.com/eor-india-services">EOR India services</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -861,13 +861,13 @@ a:focus-visible {
                     <tr><td>EOR</td><td>No (no entity)</td><td>N/A (hiring only)</td><td>No</td><td>Hiring a team fast, no entity yet</td></tr>
                 </tbody>
             </table>
-            <p>See Patron's guides on <a href="/blog/foreign-subsidiary-registration-in-india-complete-setup-guide-for-global-companies">foreign subsidiary registration</a> and <a href="/blog/foreign-company-compliance-in-india-a-complete-regulatory-guide">foreign company compliance</a>.</p>
+            <p>See Patron's guides on <a href="https://www.patronaccounting.com/blog/foreign-subsidiary-registration-in-india-complete-setup-guide-for-global-companies">foreign subsidiary registration</a> and <a href="https://www.patronaccounting.com/blog/foreign-company-compliance-in-india-a-complete-regulatory-guide">foreign company compliance</a>.</p>
         </section>
 
         <section class="content-section" id="fdi">
             <h2>FDI &amp; RBI — the Backdrop</h2>
             <p>Whatever route you pick, foreign investment is governed by the FDI policy administered through the <a href="https://www.mca.gov.in/">MCA</a> for incorporated entities and by the <a href="https://www.rbi.org.in/">RBI</a> under FEMA for branch, liaison and project offices. Two questions decide a lot: whether your sector allows <strong>100% FDI under the automatic route</strong> or needs <strong>government approval</strong>, and whether you need a separate Indian entity at all.</p>
-            <p>A subsidiary is formed with the Registrar of Companies and does not need RBI permission to incorporate, though sector caps and the automatic-versus-government route still apply, and post-setup it files FDI reporting, corporate tax with the <a href="https://www.incometax.gov.in/">income-tax department</a>, and annual returns. Branch, liaison and project offices instead go through an RBI approval route via an authorised dealer bank. Eligible startups can also layer on <a href="https://www.dpiit.gov.in/">DPIIT</a> recognition and the <a href="https://www.startupindia.gov.in/">Startup India</a> benefits, and all entities file under standards issued by the <a href="https://www.icai.org/">ICAI</a>. Patron handles <a href="/fdi-compliance">FDI compliance</a> and <a href="/fla-returns">FLA returns</a>.</p>
+            <p>A subsidiary is formed with the Registrar of Companies and does not need RBI permission to incorporate, though sector caps and the automatic-versus-government route still apply, and post-setup it files FDI reporting, corporate tax with the <a href="https://www.incometax.gov.in/">income-tax department</a>, and annual returns. Branch, liaison and project offices instead go through an RBI approval route via an authorised dealer bank. Eligible startups can also layer on <a href="https://www.dpiit.gov.in/">DPIIT</a> recognition and the <a href="https://www.startupindia.gov.in/">Startup India</a> benefits, and all entities file under standards issued by the <a href="https://www.icai.org/">ICAI</a>. Patron handles <a href="https://www.patronaccounting.com/fdi-compliance">FDI compliance</a> and <a href="https://www.patronaccounting.com/fla-returns">FLA returns</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Educational planning aid, not legal/tax/FEMA advice. FDI caps, RBI conditions and the automatic-vs-government route depend on your exact sector and facts and change by notification — confirm the route with a professional before acting.</p>
             </div>
@@ -876,7 +876,7 @@ a:focus-visible {
         <section class="content-section" id="eor">
             <h2>The EOR Quick-Start (and When to Switch)</h2>
             <p>When speed matters more than owning an entity on day one, an EOR gets a compliant India team running in under two weeks versus the ~60 days a subsidiary takes to become operational. The EOR is the legal employer; your team works for you day to day. The common pattern: <strong>start on EOR, incorporate the subsidiary in parallel, then transfer the team</strong> once the entity is live and you want full control, local invoicing and ESOPs.</p>
-            <p>Patron's EOR cluster covers <a href="/eor-india-for-us-companies">US</a>, <a href="/eor-india-for-uk-companies">UK</a>, <a href="/eor-india-for-european-companies">European</a> and <a href="/eor-india-for-singapore-companies">Singapore</a> companies — compare the economics with the <a href="/tools/india-entity-vs-eor-comparison">entity vs EOR tool</a> and the <a href="/tools/india-eor-cost-calculator">EOR cost calculator</a>.</p>
+            <p>Patron's EOR cluster covers <a href="https://www.patronaccounting.com/eor-india-for-us-companies">US</a>, <a href="https://www.patronaccounting.com/eor-india-for-uk-companies">UK</a>, <a href="https://www.patronaccounting.com/eor-india-for-european-companies">European</a> and <a href="https://www.patronaccounting.com/eor-india-for-singapore-companies">Singapore</a> companies — compare the economics with the <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison">entity vs EOR tool</a> and the <a href="https://www.patronaccounting.com/tools/india-eor-cost-calculator">EOR cost calculator</a>.</p>
         </section>
 
         <section class="content-section" id="faqs">
@@ -949,22 +949,22 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Foreign Entry Services</h3>
-            <a href="/fdi-compliance" class="sidebar-link">FDI Compliance <span class="arrow">→</span></a>
-            <a href="/eor-india-services" class="sidebar-link">EOR India Services <span class="arrow">→</span></a>
-            <a href="/fla-returns" class="sidebar-link">FLA Returns <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/fdi-compliance" class="sidebar-link">FDI Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/eor-india-services" class="sidebar-link">EOR India Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/fla-returns" class="sidebar-link">FLA Returns <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR Comparison <span class="arrow">→</span></a>
-            <a href="/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator <span class="arrow">→</span></a>
-            <a href="/tools/pvt-ltd-vs-llp-comparison" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR Comparison <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-eor-cost-calculator" class="sidebar-link">India EOR Cost Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/foreign-subsidiary-registration-in-india-complete-setup-guide-for-global-companies" class="sidebar-link">Foreign Subsidiary Setup <span class="arrow">→</span></a>
-            <a href="/blog/foreign-company-compliance-in-india-a-complete-regulatory-guide" class="sidebar-link">Foreign Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/foreign-subsidiary-registration-in-india-complete-setup-guide-for-global-companies" class="sidebar-link">Foreign Subsidiary Setup <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/foreign-company-compliance-in-india-a-complete-regulatory-guide" class="sidebar-link">Foreign Company Compliance <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

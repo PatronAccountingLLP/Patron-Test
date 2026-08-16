@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for    Issue and Allotment of Preference Shares on Private Placement Basis')}}
+{{_('Board Resolution: Preference Shares Allotment')}}
 @endsection
 
 @section('content')

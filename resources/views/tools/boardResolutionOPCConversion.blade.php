@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for  Conversion of One Person Company (OPC) into Private Limited Company')}}
+{{_('Board Resolution: OPC to Private Limited Conversion')}}
 @endsection
 
 @section('content')

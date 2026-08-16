@@ -7,20 +7,20 @@
     <title>CARO 2020 Checklist Generator | 21-Clause Audit Report</title>
     <meta name="description" content="CARO 2020 checklist generator: instant applicability plus the clause-wise auditor reporting checklist for Pvt Ltd, Public & Foreign Cos. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/caro-2020-checklist-generator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator/">
     <meta property="og:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
     <meta property="og:description" content="Check CARO 2020 applicability for your company & generate the 21-clause auditor reporting checklist instantly. Standalone & consolidated covered.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/caro-2020-checklist-generator">
-    <meta property="og:image" content="/tools/og/caro-2020-checklist-generator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/caro-2020-checklist-generator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
     <meta name="twitter:description" content="Instant CARO 2020 applicability + 21-clause auditor reporting checklist. Pvt Ltd, Public, Foreign Cos. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="/tools/og/caro-2020-checklist-generator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/caro-2020-checklist-generator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "CARO 2020 Clause-wise Checklist Generator",
       "description": "CARO 2020 Clause-wise Checklist Generator is a decision-tree tool that determines whether the Companies (Auditor's Report) Order, 2020 applies to a company under Section 143(11) of the Companies Act, 2013, and generates the 21-clause auditor reporting checklist with statutory references, documents required and conditional clauses (Nidhi, NBFC/CIC, CSR, IPO/FPO, Consolidated FS). The tool evaluates entity type (Private Limited, Public Limited, OPC, Section 8, Banking, Insurance, Foreign Company, LLP), Small Company test under Section 2(85), Private Limited specific exemption thresholds (paid-up capital plus reserves and surplus ₹1 crore, total borrowings ₹1 crore, total revenue ₹10 crore) and consolidated financial statement carve-out for Clause (xxi).",
-      "url": "/tools/caro-2020-checklist-generator",
+      "url": "https://www.patronaccounting.com/tools/caro-2020-checklist-generator",
       "applicationCategory": "UtilityApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "CARO 2020 Checklist Generator", "item": "/tools/caro-2020-checklist-generator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "CARO 2020 Checklist Generator", "item": "https://www.patronaccounting.com/tools/caro-2020-checklist-generator"}
       ]
     }
     </script>
@@ -400,8 +400,8 @@
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     CARO 2020 Checklist Generator
 </nav>
 
@@ -764,29 +764,29 @@
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
-            <a href="/change-of-auditor" class="sidebar-link">Change of Auditor<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/secretarial-audit" class="sidebar-link">Secretarial Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/change-of-auditor" class="sidebar-link">Change of Auditor<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
-            <a href="/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar<span class="arrow">→</span></a>
-            <a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison<span class="arrow">→</span></a>
-            <a href="/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist<span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
-            <a href="/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements for Companies<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition Explained<span class="arrow">→</span></a>
-            <a href="/blog/loan-to-directors-rules-under-companies-act-2013" class="sidebar-link">Loans to Directors — Sec 185 Rules<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements for Companies<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition Explained<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/loan-to-directors-rules-under-companies-act-2013" class="sidebar-link">Loans to Directors — Sec 185 Rules<span class="arrow">→</span></a>
         </div>
 
     </aside>

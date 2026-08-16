@@ -5,22 +5,22 @@
 <meta name="description" content="Free burn rate calculator for startups: enter starting cash, ending cash & months to get gross burn, net burn and cash runway. India benchmarks. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/burn-rate-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/burn-rate-calculator">
 
 <meta property="og:title" content="Burn Rate Calculator — Cash Runway in Months">
 <meta property="og:description" content="Calculate gross burn, net burn, cash runway and breakeven month in rupees with India-specific startup benchmarks. Free, instant, no signup.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/burn-rate-calculator">
-<meta property="og:image" content="/tools/burn-rate-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/burn-rate-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/burn-rate-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Burn Rate Calculator — Cash Runway in Months">
 <meta name="twitter:description" content="Calculate gross burn, net burn, cash runway and breakeven month in rupees with India startup benchmarks. Free & instant.">
-<meta name="twitter:image" content="/tools/burn-rate-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/burn-rate-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -29,7 +29,7 @@
   "@type": "SoftwareApplication",
   "name": "Burn Rate Calculator",
   "description": "Burn Rate Calculator computes a startup's monthly gross burn rate, net burn rate, cash runway in months and projected breakeven month from cash balance, expenses, revenue and growth, with figures shown in Indian rupees.",
-  "url": "/tools/burn-rate-calculator",
+  "url": "https://www.patronaccounting.com/tools/burn-rate-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -43,10 +43,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -59,9 +59,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -71,9 +71,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Burn Rate Calculator", "item": "/tools/burn-rate-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Burn Rate Calculator", "item": "https://www.patronaccounting.com/tools/burn-rate-calculator"}
   ]
 }
 </script>
@@ -715,19 +715,7 @@ a:focus-visible {
 }
 
 
-        
-/* Embed mode (?embed=1): show ONLY the calculator widget, recoloured to the
-   service page's palette, when iframed into a cluster page. */
-body.is-embed .toc-nav,
-body.is-embed .breadcrumb,
-body.is-embed .hero,
-body.is-embed .tldr,
-body.is-embed .content-section,
-body.is-embed .sidebar-col,
-body.is-embed .wa-sticky-bar,
-body.is-embed .body-cta,
-body.is-embed .cta-card { display: none !important; }
-</style>
+        </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">
@@ -743,9 +731,9 @@ body.is-embed .cta-card { display: none !important; }
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Burn Rate Calculator
 </nav>
@@ -869,7 +857,7 @@ body.is-embed .cta-card { display: none !important; }
                 <li><strong>Click Calculate Runway</strong> — you instantly see gross burn, net burn, runway in months, a projected cash-out date and a health rating against 2026 benchmarks.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Base your inputs on your bank statement and <a href="/tools/cash-flow-calculator">cash flow statement</a>, not the profit & loss account. The P&L includes non-cash items like depreciation that distort a true cash burn figure.</p>
+                <p><strong>CA Tip:</strong> Base your inputs on your bank statement and <a href="https://www.patronaccounting.com/tools/cash-flow-calculator">cash flow statement</a>, not the profit & loss account. The P&L includes non-cash items like depreciation that distort a true cash burn figure.</p>
             </div>
         </section>
 
@@ -921,7 +909,7 @@ body.is-embed .cta-card { display: none !important; }
                     <tr><td>Series B+</td><td>Scale & expansion</td><td>12–24 months</td></tr>
                 </tbody>
             </table>
-            <p>The consistent theme across stages in 2026 is to raise with <strong>9–12 months of runway remaining</strong> and never let it fall below 6 months during an active raise. Payroll typically accounts for 60–75% of a startup's burn, so headcount is the single biggest lever on your runway. For deeper ratio analysis, pair this tool with our <a href="/tools/financial-ratios-dashboard">financial ratios dashboard</a>.</p>
+            <p>The consistent theme across stages in 2026 is to raise with <strong>9–12 months of runway remaining</strong> and never let it fall below 6 months during an active raise. Payroll typically accounts for 60–75% of a startup's burn, so headcount is the single biggest lever on your runway. For deeper ratio analysis, pair this tool with our <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard">financial ratios dashboard</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -954,7 +942,7 @@ body.is-embed .cta-card { display: none !important; }
             <h2>Burn Rate & Compliance Notes for Indian Startups</h2>
             <p>Burn rate is a cash metric, so it captures the real money leaving your accounts — including statutory payments. For Indian founders, a few India-specific points matter:</p>
             <h3>Statutory cash outflows count</h3>
-            <p>GST payments, TDS deposits and advance tax all consume cash and therefore form part of your burn. Track them as part of monthly expenses rather than treating them as below-the-line items. You can plan your <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">GST</a> dues alongside our <a href="/tools/advance-tax-calculator">advance tax calculator</a>, which helps you map these lumpy outflows.</p>
+            <p>GST payments, TDS deposits and advance tax all consume cash and therefore form part of your burn. Track them as part of monthly expenses rather than treating them as below-the-line items. You can plan your <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">GST</a> dues alongside our <a href="https://www.patronaccounting.com/tools/advance-tax-calculator">advance tax calculator</a>, which helps you map these lumpy outflows.</p>
             <h3>DPIIT recognition & Section 80-IAC</h3>
             <p>Registering with <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> for DPIIT recognition unlocks a three-year income tax holiday under Section 80-IAC, self-certification on labour and environment laws, and access to government schemes and collateral-free credit — all of which can ease cash pressure and effectively lengthen runway.</p>
             <h3>Keep audit-ready books</h3>
@@ -1044,29 +1032,29 @@ body.is-embed .cta-card { display: none !important; }
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Online Accounting Service <span class="arrow">→</span></a>
-            <a href="/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
-            <a href="/small-company-compliance-startups-pre-revenue" class="sidebar-link">Pre-Revenue Startup Compliance <span class="arrow">→</span></a>
-            <a href="/statutory-audit-for-saas-companies" class="sidebar-link">SaaS Statutory Audit <span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Online Accounting Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/small-company-compliance-startups-pre-revenue" class="sidebar-link">Pre-Revenue Startup Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit-for-saas-companies" class="sidebar-link">SaaS Statutory Audit <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Calculator <span class="arrow">→</span></a>
-            <a href="/tools/break-even-calculator" class="sidebar-link">Break-Even Calculator <span class="arrow">→</span></a>
-            <a href="/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
-            <a href="/tools/financial-health-score" class="sidebar-link">Financial Health Score <span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
-            <a href="/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-flow-calculator" class="sidebar-link">Cash Flow Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/break-even-calculator" class="sidebar-link">Break-Even Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-ratios-dashboard" class="sidebar-link">Financial Ratios Dashboard <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/financial-health-score" class="sidebar-link">Financial Health Score <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator" class="sidebar-link">Cash Conversion Cycle <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/cash-flow-ratios-complete-guide" class="sidebar-link">Cash Flow Ratios: Complete Guide <span class="arrow">→</span></a>
-            <a href="/blog/cash-flow-margin" class="sidebar-link">Understanding Cash Flow Margin <span class="arrow">→</span></a>
-            <a href="/blog/startup-registrations-trends-in-india" class="sidebar-link">Startup Registration Trends in India <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/cash-flow-ratios-complete-guide" class="sidebar-link">Cash Flow Ratios: Complete Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/cash-flow-margin" class="sidebar-link">Understanding Cash Flow Margin <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/startup-registrations-trends-in-india" class="sidebar-link">Startup Registration Trends in India <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

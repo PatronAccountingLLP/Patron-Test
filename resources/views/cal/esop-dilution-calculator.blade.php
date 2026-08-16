@@ -4,28 +4,28 @@
 <meta name="description" content="ESOP dilution calculator: model pool dilution across 2 funding rounds, pre-money vs post-money pool expansion, founder dilution, investor split &amp; cap table.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-dilution-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-dilution-calculator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-dilution-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-dilution-calculator">
 <meta property="og:title" content="Dilution Impact Calculator — ESOP Cap Table Tool 2026">
 <meta property="og:description" content="Model ESOP pool dilution across 2 funding rounds. Pre-money vs post-money pool expansion, founder dilution, full cap table.">
-<meta property="og:image" content="/og/esop-dilution-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/esop-dilution-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dilution Impact Calculator — ESOP Cap Table Tool 2026">
 <meta name="twitter:description" content="Model ESOP pool dilution across 2 funding rounds. Pre-money vs post-money expansion side-by-side.">
-<meta name="twitter:image" content="/og/esop-dilution-calculator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/esop-dilution-calculator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Dilution Impact Calculator","description":"Dilution Impact Calculator simulates ESOP pool dilution and founder ownership across two funding rounds for Indian startups. Takes current cap table (founder %, existing investor %, ESOP pool %), proposed pool top-up target, and planned funding rounds (raise + pre-money valuation). Outputs side-by-side pre-money pool expansion vs post-money pool expansion, founder dilution per scenario in percentage points and relative terms, investor-vs-founder dilution split, full 2-round cap table simulation, and the rupee cost of the option pool shuffle at current valuation.","url":"/tools/esop-dilution-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Dilution Impact Calculator","description":"Dilution Impact Calculator simulates ESOP pool dilution and founder ownership across two funding rounds for Indian startups. Takes current cap table (founder %, existing investor %, ESOP pool %), proposed pool top-up target, and planned funding rounds (raise + pre-money valuation). Outputs side-by-side pre-money pool expansion vs post-money pool expansion, founder dilution per scenario in percentage points and relative terms, investor-vs-founder dilution split, full 2-round cap table simulation, and the rupee cost of the option pool shuffle at current valuation.","url":"https://www.patronaccounting.com/tools/esop-dilution-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Dilution Impact Calculator","item":"/tools/esop-dilution-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Dilution Impact Calculator","item":"https://www.patronaccounting.com/tools/esop-dilution-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -236,7 +236,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#pre-vs-post">Pre vs Post-money</a><a href="#shuffle">Option Pool Shuffle</a><a href="#benchmarks">Dilution Benchmarks</a><a href="#negotiation">Negotiation Levers</a><a href="#anti-dilution">Anti-Dilution</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Dilution Impact Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Dilution Impact Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -573,27 +573,27 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
-<a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-<a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
-<a href="/issue-of-shares" class="sidebar-link">Issue of Shares <span class="arrow">→</span></a>
-<a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
-<a href="/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/issue-of-shares" class="sidebar-link">Issue of Shares <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
-<a href="/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
-<a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">ESOP Perquisite Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
-<a href="/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
-<a href="/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">ESOP Perquisite Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/payroll-cost-calculator" class="sidebar-link">Payroll Cost Calculator <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
-<a href="/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
-<a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
 </div>
 </aside>
 

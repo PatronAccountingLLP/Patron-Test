@@ -4,23 +4,23 @@
 <title>Schedule III Compliance Checker | Disclosure Audit</title>
 <meta name="description" content="Schedule III Compliance Checker: find your applicable Division and score all 16 mandatory FY 2021-22 financial statement disclosures. Check compliance free!">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="/tools/schedule-iii-compliance-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker">
 
 <meta property="og:title" content="Schedule III Compliance Checker — Free Disclosure Tool">
 <meta property="og:description" content="Identify your applicable Schedule III Division and score the 16 mandatory FY 2021-22 financial statement disclosure requirements. Free, instant, India-specific.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/schedule-iii-compliance-checker">
-<meta property="og:image" content="/tools/schedule-iii-compliance-checker-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker-og.png">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Schedule III Compliance Checker — Free Disclosure Tool">
 <meta name="twitter:description" content="Identify your applicable Schedule III Division and score the 16 mandatory FY 2021-22 financial statement disclosure requirements.">
-<meta name="twitter:image" content="/tools/schedule-iii-compliance-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker-og.png">
 
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "Schedule III Compliance Checker",
   "description": "The Schedule III Compliance Checker identifies whether Division I, II or III of Schedule III to the Companies Act 2013 applies to a company based on its accounting framework, and scores compliance against the 16 mandatory additional financial statement disclosures introduced by MCA Notification G.S.R. 207(E) effective FY 2021-22.",
-  "url": "/tools/schedule-iii-compliance-checker",
+  "url": "https://www.patronaccounting.com/tools/schedule-iii-compliance-checker",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "en-IN",
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,8 +60,8 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
-  "provider": { "@id": "/#organization" }
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
 }
 </script>
 
@@ -70,9 +70,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Schedule III Compliance Checker", "item": "/tools/schedule-iii-compliance-checker"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Schedule III Compliance Checker", "item": "https://www.patronaccounting.com/tools/schedule-iii-compliance-checker"}
   ]
 }
 </script>
@@ -1292,9 +1292,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Schedule III Compliance Checker
 </nav>
@@ -1503,7 +1503,7 @@ a:focus-visible {
                     <tr><td>Working capital</td><td>Bank reconciliation</td><td>Clause (ii)(b)</td></tr>
                 </tbody>
             </table>
-            <p>Because the frameworks are linked, a gap in a Schedule III disclosure usually surfaces again as a CARO qualification, and audit quality across both is overseen by the <a href="https://nfra.gov.in/" target="_blank" rel="noopener">NFRA</a>. Preparing both together is far more efficient. For end-to-end support, see our <a href="/statutory-audit">statutory audit</a> and <a href="/internal-audit">internal audit</a> services, and the related <a href="/tools/caro-2020-self-assessment">CARO 2020 Self-Assessment</a> tool.</p>
+            <p>Because the frameworks are linked, a gap in a Schedule III disclosure usually surfaces again as a CARO qualification, and audit quality across both is overseen by the <a href="https://nfra.gov.in/" target="_blank" rel="noopener">NFRA</a>. Preparing both together is far more efficient. For end-to-end support, see our <a href="https://www.patronaccounting.com/statutory-audit">statutory audit</a> and <a href="https://www.patronaccounting.com/internal-audit">internal audit</a> services, and the related <a href="https://www.patronaccounting.com/tools/caro-2020-self-assessment">CARO 2020 Self-Assessment</a> tool.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> Build the Schedule III disclosure file and the CARO working papers from the same underlying evidence — title deed registers, MSME vendor master, bank statements. Single-sourcing the evidence eliminates the most common cause of financial-statement-vs-audit-report mismatches.</p>
             </div>
@@ -1647,28 +1647,28 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
-            <a href="/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
-            <a href="/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
-            <a href="/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit-private-limited-company" class="sidebar-link">Statutory Audit (Pvt Ltd) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Service <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
-            <a href="/tools/ifc-framework-readiness" class="sidebar-link">IFC Framework Readiness <span class="arrow">→</span></a>
-            <a href="/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
-            <a href="/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator <span class="arrow">→</span></a>
-            <a href="/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-self-assessment" class="sidebar-link">CARO 2020 Self-Assessment <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ifc-framework-readiness" class="sidebar-link">IFC Framework Readiness <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/balance-sheet-generator" class="sidebar-link">Balance Sheet Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/profit-loss-generator" class="sidebar-link">Profit &amp; Loss Generator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="/blog/related-party-transactions-under-section-188-a-complete-compliance-guide" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/related-party-transactions-under-section-188-a-complete-compliance-guide" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -7,20 +7,20 @@
     <title>Depreciation Calculator | Companies Act Sch II + IT Act</title>
     <meta name="description" content="Free depreciation calculator: SLM/WDV under Companies Act Schedule II plus IT Act block rates, with year-wise schedule and journal entry. CA-reviewed tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/depreciation-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/depreciation-calculator/">
     <meta property="og:title" content="Depreciation Calculator (Schedule II + IT Act) — FY 2025-26">
     <meta property="og:description" content="Compute SLM/WDV depreciation under Companies Act Schedule II and IT Act FY 2025-26. Year-wise schedule, journal entry, side-by-side comparison.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/depreciation-calculator">
-    <meta property="og:image" content="/tools/og/depreciation-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/depreciation-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/depreciation-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Depreciation Calculator (Schedule II + IT Act) — FY 2025-26">
     <meta name="twitter:description" content="SLM/WDV under Schedule II + IT Act. Year-wise schedule, journal entry. Free CA tool.">
-    <meta name="twitter:image" content="/tools/og/depreciation-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/depreciation-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
       "@type": "SoftwareApplication",
       "name": "Depreciation Calculator (Schedule II + IT Act)",
       "description": "Depreciation Calculator computes annual depreciation under Companies Act 2013 Schedule II and Income Tax Act 1961 Section 32 / Section 33 (IT Act 2025) for Indian companies, LLPs, firms and proprietors. The tool supports 13 standard asset categories with prescribed useful lives — buildings (RCC, non-RCC, factory), plant and machinery (general, continuous process), furniture and fittings, office equipment, computers (servers, end-user devices), motor vehicles (cars, trucks), laboratory equipment and electrical installations — plus custom useful life override. Both Straight Line Method (SLM) and Written Down Value (WDV) methods are supported with computed rates per Schedule II Part C formula (1 minus residual divided by useful life for SLM, 1 minus the n-th root of residual over cost for WDV). Output includes year-wise schedule, comparison with IT Act block rate, half-rate rule for assets used less than 180 days, additional depreciation under Section 32(1)(iia), and journal entry. Aligned with AS 10 Property Plant and Equipment and Ind AS 16 Property Plant and Equipment for component-wise depreciation.",
-      "url": "/tools/depreciation-calculator",
+      "url": "https://www.patronaccounting.com/tools/depreciation-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-07T08:00:00+05:30",
@@ -38,10 +38,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -54,8 +54,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -63,9 +63,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Depreciation Calculator", "item": "/tools/depreciation-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Depreciation Calculator", "item": "https://www.patronaccounting.com/tools/depreciation-calculator"}
       ]
     }
     </script>
@@ -410,8 +410,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
+    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
     Depreciation Calculator
 </nav>
 
@@ -670,7 +670,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <li><strong>40% cap (new):</strong> From FY 2026-27, taxpayers under concessional regime face a 40% cap on depreciation rates</li>
             </ul>
 
-            <p>Reference: <a href="https://incometaxindia.gov.in/" target="_blank" rel="noopener">Income Tax Department</a> — Section 32 of Income Tax Act 1961 read with Rule 5 and Appendix I, transitioning to Section 33 read with Rule 25 and Appendix I from FY 2026-27. The accounting standards governing book depreciation — AS 10, AS 22 (timing differences), Ind AS 12 (deferred tax) and Ind AS 16 — are issued by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>. For the comprehensive update, see Patron's blog on <a href="/blog/depreciation-rules-2026-rates-block-assets" target="_blank" rel="noopener">depreciation rules from FY 2026-27</a>.</p>
+            <p>Reference: <a href="https://incometaxindia.gov.in/" target="_blank" rel="noopener">Income Tax Department</a> — Section 32 of Income Tax Act 1961 read with Rule 5 and Appendix I, transitioning to Section 33 read with Rule 25 and Appendix I from FY 2026-27. The accounting standards governing book depreciation — AS 10, AS 22 (timing differences), Ind AS 12 (deferred tax) and Ind AS 16 — are issued by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>. For the comprehensive update, see Patron's blog on <a href="https://www.patronaccounting.com/blog/depreciation-rules-2026-rates-block-assets" target="_blank" rel="noopener">depreciation rules from FY 2026-27</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -789,29 +789,29 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
-            <a href="/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
-            <a href="/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
-            <a href="/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
             
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
-            <a href="/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
-            <a href="/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
-            <a href="/tools/ifc-testing-checklist" class="sidebar-link">IFC Testing Checklist<span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116" class="sidebar-link">Lease Accounting (Ind AS 116)<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ind-as-applicability-checker" class="sidebar-link">Ind AS Applicability Checker<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="sidebar-link">CARO 2020 Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/ifc-testing-checklist" class="sidebar-link">IFC Testing Checklist<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/depreciation-rules-2026-rates-block-assets" class="sidebar-link">Depreciation Rules from FY 2026-27<span class="arrow">→</span></a>
-            <a href="/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/depreciation-rules-2026-rates-block-assets" class="sidebar-link">Depreciation Rules from FY 2026-27<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-a-small-company-under-the-companies-act-2013" class="sidebar-link">Small Company Definition<span class="arrow">→</span></a>
         </div>
 
     </aside>

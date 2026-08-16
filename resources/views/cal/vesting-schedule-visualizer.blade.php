@@ -5,28 +5,28 @@
 <meta name="description" content="Free ESOP vesting schedule visualiser: chart your vesting timeline with cliff, monthly/quarterly/annual frequency, leave events and acceleration. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/vesting-schedule-visualizer">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/vesting-schedule-visualizer">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/vesting-schedule-visualizer">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/vesting-schedule-visualizer">
 <meta property="og:title" content="Vesting Schedule Visualiser — ESOP Cliff &amp; Timeline Tool 2026">
 <meta property="og:description" content="Visualise ESOP vesting with cliff, frequency, leave events, and acceleration. PNG export for HR.">
-<meta property="og:image" content="/og/vesting-schedule-visualizer.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/vesting-schedule-visualizer.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Vesting Schedule Visualiser — ESOP Cliff &amp; Timeline Tool 2026">
 <meta name="twitter:description" content="ESOP vesting timeline with cliff, frequency, leave events, acceleration. PNG export.">
-<meta name="twitter:image" content="/og/vesting-schedule-visualizer.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/vesting-schedule-visualizer.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Vesting Schedule Visualiser","description":"Vesting Schedule Visualiser draws the month-by-month ESOP vesting timeline for Indian startup employees and HR teams. Takes total options granted, vesting period in years, cliff in months, vesting frequency (monthly, quarterly, or annual), simulated leave-date event, and accelerated-vesting trigger setting (none, single-trigger, or double-trigger). Outputs an SVG timeline chart, per-event vested-options table, cliff handling visualisation, forfeiture impact at the leave date, and acceleration boost. PNG export for HR communications and offer-letter appendices.","url":"/tools/vesting-schedule-visualizer","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Vesting Schedule Visualiser","description":"Vesting Schedule Visualiser draws the month-by-month ESOP vesting timeline for Indian startup employees and HR teams. Takes total options granted, vesting period in years, cliff in months, vesting frequency (monthly, quarterly, or annual), simulated leave-date event, and accelerated-vesting trigger setting (none, single-trigger, or double-trigger). Outputs an SVG timeline chart, per-event vested-options table, cliff handling visualisation, forfeiture impact at the leave date, and acceleration boost. PNG export for HR communications and offer-letter appendices.","url":"https://www.patronaccounting.com/tools/vesting-schedule-visualizer","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Vesting Schedule Visualiser","item":"/tools/vesting-schedule-visualizer"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Vesting Schedule Visualiser","item":"https://www.patronaccounting.com/tools/vesting-schedule-visualizer"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -243,7 +243,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Visualiser</a><a href="#how-to-use">How to Use</a><a href="#standard">Standard Schedules</a><a href="#cliff">Cliff Mechanics</a><a href="#frequency">Frequency Comparison</a><a href="#acceleration">Acceleration</a><a href="#sebi">SEBI &amp; Tax</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Vesting Schedule Visualiser</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Vesting Schedule Visualiser</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -526,7 +526,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </tbody>
 </table>
 
-<div class="callout"><p><strong>Cross-link:</strong> See the <a href="/tools/esop-perquisite-tax-calculator">ESOP Perquisite Tax Calculator</a> for Section 17(2)(vi) tax computation at exercise, and the <a href="/tools/esop-cost-to-company-calculator">ESOP Cost-to-Company Calculator</a> for Ind AS 102 P&amp;L impact.</p></div>
+<div class="callout"><p><strong>Cross-link:</strong> See the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">ESOP Perquisite Tax Calculator</a> for Section 17(2)(vi) tax computation at exercise, and the <a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">ESOP Cost-to-Company Calculator</a> for Ind AS 102 P&amp;L impact.</p></div>
 </section>
 
 <section class="content-section" id="faqs">
@@ -573,27 +573,27 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div></div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
-<a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
-<a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-<a href="/payroll-services" class="sidebar-link">Payroll Services <span class="arrow">→</span></a>
-<a href="/secretarial-services" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
-<a href="/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services Hub <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/secretarial-services" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
-<a href="/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
-<a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">ESOP Perquisite Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/esop-dilution-calculator" class="sidebar-link">Dilution Impact Calculator <span class="arrow">→</span></a>
-<a href="/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
-<a href="/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-pool-size-calculator" class="sidebar-link">ESOP Pool Size Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost to Company <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">ESOP Perquisite Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-dilution-calculator" class="sidebar-link">Dilution Impact Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator" class="sidebar-link">CTC to In-Hand Salary <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
-<a href="/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
-<a href="/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/share-transfer-procedure-in-private-limited-company" class="sidebar-link">Share Transfer &amp; ESOPs <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
 </div>
 </aside>
 

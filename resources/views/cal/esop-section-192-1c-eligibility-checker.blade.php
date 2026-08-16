@@ -5,22 +5,22 @@
 <meta name="description" content="Section 192(1C) checker: see if your startup and employees can defer ESOP TDS. Tests DPIIT, 80-IAC IMB certificate, incorporation window and turnover. Free now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/esop-section-192-1c-eligibility-checker">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">
 
 <meta property="og:title" content="ESOP TDS Deferral Checker — Section 192(1C) 2026">
 <meta property="og:description" content="Check whether your startup qualifies to defer ESOP TDS under Section 192(1C): DPIIT recognition, 80-IAC IMB certificate, incorporation window and turnover test.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/esop-section-192-1c-eligibility-checker">
-<meta property="og:image" content="/tools/esop-section-192-1c-eligibility-checker-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP TDS Deferral Checker — Section 192(1C) 2026">
 <meta name="twitter:description" content="Check if your startup can defer ESOP TDS under Section 192(1C): DPIIT, 80-IAC IMB certificate, incorporation window and turnover. Free & instant.">
-<meta name="twitter:image" content="/tools/esop-section-192-1c-eligibility-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "ESOP Section 192(1C) Eligibility Checker",
   "description": "ESOP Section 192(1C) Eligibility Checker walks through the statutory conditions that decide whether a startup's employees can defer tax deducted at source on the ESOP perquisite under Section 192(1C). It tests entity type, the incorporation window of 1 April 2016 to before 1 April 2030, valid DPIIT recognition, the separate Section 80-IAC Inter-Ministerial Board certificate, the turnover ceiling of 100 crore rupees, and that the company was not formed by splitting or reconstruction. It returns a clear eligible or not eligible verdict, names the failing condition, and explains the deferral trigger.",
-  "url": "/tools/esop-section-192-1c-eligibility-checker",
+  "url": "https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,9 +60,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -72,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Section 192(1C) Eligibility Checker", "item": "/tools/esop-section-192-1c-eligibility-checker"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Section 192(1C) Eligibility Checker", "item": "https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker"}
   ]
 }
 </script>
@@ -705,9 +705,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     ESOP Section 192(1C) Eligibility Checker
 </nav>
@@ -834,14 +834,14 @@ a:focus-visible {
                 <li><strong>Click Check</strong> for an eligible / not-eligible verdict with the specific failing condition flagged.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> If you're eligible, size the deferred liability with the <a href="/tools/esop-tds-calculator">ESOP TDS calculator</a> (it has a 192(1C) defer mode) and the <a href="/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a>.</p>
+                <p><strong>CA Tip:</strong> If you're eligible, size the deferred liability with the <a href="https://www.patronaccounting.com/tools/esop-tds-calculator">ESOP TDS calculator</a> (it has a 192(1C) defer mode) and the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a>.</p>
             </div>
         </section>
 
         <section class="content-section" id="what-is">
             <h2>What Section 192(1C) Does</h2>
             <p>Normally, when an employee exercises ESOPs the perquisite — FMV at exercise minus the exercise price — is taxed as salary, and the employer must deduct TDS under Section 192 right away. For a cash-strapped employee holding illiquid startup shares, that's a real burden.</p>
-            <p><strong>Section 192(1C)</strong>, added by the Finance Act 2020, lets <strong>eligible startups</strong> defer that TDS: the employer doesn't deduct at exercise, and tax is instead paid later, at the earliest of three trigger events. But the benefit is narrow — it's available only to employees of a startup that is an <strong>eligible startup under Section 80-IAC</strong>, which is a much smaller club than DPIIT-recognised startups. Patron's <a href="/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">ESOP deferral guide</a> and <a href="/blog/section-80-iac-esop-deferment-startup">80-IAC deferment</a> blog explain the mechanics.</p>
+            <p><strong>Section 192(1C)</strong>, added by the Finance Act 2020, lets <strong>eligible startups</strong> defer that TDS: the employer doesn't deduct at exercise, and tax is instead paid later, at the earliest of three trigger events. But the benefit is narrow — it's available only to employees of a startup that is an <strong>eligible startup under Section 80-IAC</strong>, which is a much smaller club than DPIIT-recognised startups. Patron's <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">ESOP deferral guide</a> and <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">80-IAC deferment</a> blog explain the mechanics.</p>
         </section>
 
         <section class="content-section" id="conditions">
@@ -859,7 +859,7 @@ a:focus-visible {
                     <tr><td>6</td><td>Not by reconstruction</td><td>Not formed by splitting up or reconstructing an existing business.</td></tr>
                 </tbody>
             </table>
-            <p>Every condition must hold. The most common failure is condition 4: of roughly 1.97 lakh DPIIT-recognised startups, only about <strong>4,000 hold the IMB certificate</strong> — so the majority of DPIIT startups' employees cannot defer. Recognition is granted by <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> and the 80-IAC certificate is a separate application to the Inter-Ministerial Board via the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal. Getting recognised starts with <a href="/startup-registration">startup registration</a>; the IMB certificate is a separate step.</p>
+            <p>Every condition must hold. The most common failure is condition 4: of roughly 1.97 lakh DPIIT-recognised startups, only about <strong>4,000 hold the IMB certificate</strong> — so the majority of DPIIT startups' employees cannot defer. Recognition is granted by <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> and the 80-IAC certificate is a separate application to the Inter-Ministerial Board via the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal. Getting recognised starts with <a href="https://www.patronaccounting.com/startup-registration">startup registration</a>; the IMB certificate is a separate step.</p>
         </section>
 
         <div class="body-cta">
@@ -880,7 +880,7 @@ a:focus-visible {
                 <li><strong>sale</strong> of the shares; or</li>
                 <li><strong>cessation</strong> of employment.</li>
             </ul>
-            <p>The tax is computed at the <strong>rates of the year of allotment</strong>, not the trigger year. One forward-looking nuance: for shares allotted <strong>on or after 1 April 2026</strong> under the Income-tax Act 2025, the 48-month period becomes <strong>60 months</strong>. Model the deferred amount with the <a href="/tools/esop-tds-calculator">ESOP TDS calculator</a>.</p>
+            <p>The tax is computed at the <strong>rates of the year of allotment</strong>, not the trigger year. One forward-looking nuance: for shares allotted <strong>on or after 1 April 2026</strong> under the Income-tax Act 2025, the 48-month period becomes <strong>60 months</strong>. Model the deferred amount with the <a href="https://www.patronaccounting.com/tools/esop-tds-calculator">ESOP TDS calculator</a>.</p>
             <div class="formula-box">
                 <span class="label">Trigger</span> = earliest of (48 months from end of AY | sale | cessation)<br>
                 <span class="label">Deposit</span> = within 14 days of trigger<br>
@@ -891,7 +891,7 @@ a:focus-visible {
         <section class="content-section" id="expansion">
             <h2>A Proposed Expansion to Watch</h2>
             <p>As of early 2026, the government is reported to be considering <strong>extending the ESOP deferral to all DPIIT-recognised startups</strong>, dropping the separate 80-IAC IMB requirement. If enacted, DPIIT recognition alone would suffice, expanding eligibility from roughly 4,000 to nearly 2 lakh startups.</p>
-            <p>This is a <strong>proposal, not yet law</strong>, so this checker still treats the 80-IAC IMB certificate as mandatory. If your startup is DPIIT-recognised but lacks the IMB certificate, it's worth tracking this change — see Patron's <a href="/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">deferral guide</a> for updates.</p>
+            <p>This is a <strong>proposal, not yet law</strong>, so this checker still treats the 80-IAC IMB certificate as mandatory. If your startup is DPIIT-recognised but lacks the IMB certificate, it's worth tracking this change — see Patron's <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">deferral guide</a> for updates.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This checker reflects the law as it stands. Eligibility, certificates and turnover should be confirmed with a professional before relying on the deferral.</p>
             </div>
@@ -902,7 +902,7 @@ a:focus-visible {
             <p>Eligibility is only the first step. Once a startup qualifies and chooses to defer, the mechanics flow through the company's payroll and the employee's return. The employer does not deduct TDS at exercise, but it must <strong>track the deferred liability</strong> for each grantee and deduct or deposit within 14 days when a trigger occurs, reporting it in the salary TDS return. The perquisite does not appear in the employee's Form 16 until the trigger event, though the employee should still track it and disclose the deferred perquisite in the relevant year's return.</p>
             <p>The framework sits in Section 192(1C) (renumbered under the Income-tax Act 2025), administered by the Income Tax Department through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">e-filing portal</a>, with the statutory text and procedural rules published at <a href="https://incometaxindia.gov.in/" target="_blank" rel="noopener">incometaxindia.gov.in</a>. Payroll and share-based-payment accounting follow professional standards issued by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>. Because eligibility can be lost — for example if turnover later crosses ₹100 crore — the position should be re-checked each year, not assumed to be permanent once granted.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> If eligible, run the numbers in defer mode on the <a href="/tools/esop-tds-calculator">ESOP TDS calculator</a> so both employer and employee can plan the eventual cash outflow.</p>
+                <p><strong>Tip:</strong> If eligible, run the numbers in defer mode on the <a href="https://www.patronaccounting.com/tools/esop-tds-calculator">ESOP TDS calculator</a> so both employer and employee can plan the eventual cash outflow.</p>
             </div>
         </section>
 
@@ -976,24 +976,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/esop-tds-calculator" class="sidebar-link">ESOP TDS Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-capital-gains-calculator" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-tds-calculator" class="sidebar-link">ESOP TDS Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-tax-calculator" class="sidebar-link">ESOP Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
-            <a href="/esop-management-and-compliance-services" class="sidebar-link">ESOP Compliance <span class="arrow">→</span></a>
-            <a href="/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">80-IAC ESOP Deferral <span class="arrow">→</span></a>
-            <a href="/blog/section-80-iac-esop-deferment-startup" class="sidebar-link">80-IAC Deferment <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">80-IAC ESOP Deferral <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup" class="sidebar-link">80-IAC Deferment <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

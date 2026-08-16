@@ -31,13 +31,13 @@
     <meta name="description" content="This service has been discontinued by Patron Accounting. Browse our current CA, CS, tax, GST, company registration and audit services in India.">
     <meta name="robots" content="noindex, nofollow">
     <meta http-equiv="Status" content="410 Gone">
-    <link rel="canonical" href="/gone">
+    <link rel="canonical" href="https://www.patronaccounting.com/gone">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Service No Longer Available | Patron Accounting">
     <meta property="og:description" content="This service has been discontinued. Explore our current CA, CS, tax, GST, company registration and audit services in India.">
-    <meta property="og:url" content="/gone">
+    <meta property="og:url" content="https://www.patronaccounting.com/gone">
     <meta property="og:site_name" content="Patron Accounting">
 
     <!-- Twitter -->
@@ -51,45 +51,45 @@
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "/gone#webpage",
-  "url": "/gone",
+  "@id": "https://www.patronaccounting.com/gone#webpage",
+  "url": "https://www.patronaccounting.com/gone",
   "name": "Service No Longer Available - Patron Accounting",
   "description": "This service has been discontinued by Patron Accounting. Explore our current services below.",
   "inLanguage": "en-IN",
   "isPartOf": {
     "@type": "WebSite",
-    "@id": "/#website",
-    "url": "/",
+    "@id": "https://www.patronaccounting.com/#website",
+    "url": "https://www.patronaccounting.com",
     "name": "Patron Accounting"
   },
   "publisher": {
     "@type": "ProfessionalService",
-    "@id": "/#organization",
+    "@id": "https://www.patronaccounting.com/#organization",
     "name": "Patron Accounting LLP",
-    "url": "/",
+    "url": "https://www.patronaccounting.com",
     "telephone": "+91-9459456700",
     "email": "sales@patronaccounting.com"
   },
   "author": {
-    "@id": "/#team",
+    "@id": "https://www.patronaccounting.com/#team",
     "@type": "Organization",
     "name": "CA and CS Team, Patron Accounting LLP"
   },
   "significantLink": [
-    "/gst-registration",
-    "/private-limited-company-registration",
-    "/llp-incorporation",
-    "/trademark-registration",
-    "/income-tax-return",
-    "/gst-returns",
-    "/startup-registration",
-    "/udyam-registration",
-    "/iec-registration",
-    "/fssai-registration",
-    "/zoho-books-accounting",
-    "/payroll-services",
-    "/internal-audit",
-    "/tax-audit"
+    "https://www.patronaccounting.com/gst-registration",
+    "https://www.patronaccounting.com/private-limited-company-registration",
+    "https://www.patronaccounting.com/llp-incorporation",
+    "https://www.patronaccounting.com/trademark-registration",
+    "https://www.patronaccounting.com/income-tax-return",
+    "https://www.patronaccounting.com/gst-returns",
+    "https://www.patronaccounting.com/startup-registration",
+    "https://www.patronaccounting.com/udyam-registration",
+    "https://www.patronaccounting.com/iec-registration",
+    "https://www.patronaccounting.com/fssai-registration",
+    "https://www.patronaccounting.com/zoho-books-accounting",
+    "https://www.patronaccounting.com/payroll-services",
+    "https://www.patronaccounting.com/internal-audit",
+    "https://www.patronaccounting.com/tax-audit"
   ],
   "mainContentOfPage": {
     "@type": "WebPageElement",
@@ -596,7 +596,7 @@
                     <span class="pa-gone-category-count">6 services</span>
                 </div>
                 <div class="pa-gone-grid">
-                    <a href="/private-limited-company-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/private-limited-company-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="15" rx="2"/><path d="M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Private Limited Company Registration</span>
@@ -604,7 +604,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/llp-incorporation" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/llp-incorporation" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">LLP Registration</span>
@@ -612,7 +612,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/ngo-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/ngo-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">NGO Registration</span>
@@ -620,7 +620,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/section8-company-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/section8-company-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Section 8 Company Registration</span>
@@ -628,7 +628,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/society-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/society-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M17 11a3 3 0 100-6"/><path d="M3 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/><path d="M21 21v-2a4 4 0 00-3-3.87"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Society Registration</span>
@@ -636,7 +636,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/startup-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/startup-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5C3 18 3 21 3 21s3 0 4.5-1.5S9 16 9 15s-3-1.5-4.5 1.5z"/><path d="M12 15l-3-3a22 22 0 019-9 3.6 3.6 0 013 3 22 22 0 01-9 9z"/><path d="M9 12H4s.5-3 2-4 5 0 5 0"/><path d="M12 15v5s3-.5 4-2 0-5 0-5"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Startup India Registration</span>
@@ -662,7 +662,7 @@
                     <span class="pa-gone-category-count">5 services</span>
                 </div>
                 <div class="pa-gone-grid">
-                    <a href="/gst-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/gst-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">GST Registration</span>
@@ -670,7 +670,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/pan-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/pan-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">PAN Registration</span>
@@ -678,7 +678,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/tan-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/tan-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">TAN Registration</span>
@@ -686,7 +686,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/iec-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/iec-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Import Export Code (IEC)</span>
@@ -694,7 +694,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/udyam-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/udyam-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Udyam (MSME) Registration</span>
@@ -720,7 +720,7 @@
                     <span class="pa-gone-category-count">3 services</span>
                 </div>
                 <div class="pa-gone-grid">
-                    <a href="/esic-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/esic-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">ESIC Registration</span>
@@ -728,7 +728,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/pf-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/pf-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M7 8V6a4 4 0 118 0v2"/><circle cx="12" cy="14" r="2"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Provident Fund (PF) Registration</span>
@@ -736,7 +736,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/dsc-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/dsc-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Digital Signature Certificate</span>
@@ -760,7 +760,7 @@
                     <span class="pa-gone-category-count">4 services</span>
                 </div>
                 <div class="pa-gone-grid">
-                    <a href="/trademark-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/trademark-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Trademark Registration</span>
@@ -768,7 +768,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/fssai-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/fssai-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">FSSAI Registration</span>
@@ -776,7 +776,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/12a-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/12a-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7l9 5 9-5-9-5z"/><path d="M3 17l9 5 9-5"/><path d="M3 12l9 5 9-5"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">12A Registration</span>
@@ -784,7 +784,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/80g-registration" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/80g-registration" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/><path d="M12 8v6M9 11h6"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">80G Registration</span>
@@ -811,7 +811,7 @@
                     <span class="pa-gone-category-count">3 services</span>
                 </div>
                 <div class="pa-gone-grid">
-                    <a href="/income-tax-return" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/income-tax-return" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Income Tax Return (ITR) Filing</span>
@@ -819,7 +819,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/gst-returns" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/gst-returns" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">GST Returns Filing</span>
@@ -827,7 +827,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/tds-return-filing" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/tds-return-filing" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">TDS Return Filing</span>
@@ -853,7 +853,7 @@
                     <span class="pa-gone-category-count">6 services</span>
                 </div>
                 <div class="pa-gone-grid">
-                    <a href="/zoho-books-accounting" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/zoho-books-accounting" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Zoho Books Accounting</span>
@@ -861,7 +861,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/payroll-services" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/payroll-services" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/><line x1="6" y1="12" x2="6.01" y2="12"/><line x1="18" y1="12" x2="18.01" y2="12"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Payroll Services</span>
@@ -869,7 +869,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/internal-audit" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/internal-audit" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Internal Audit</span>
@@ -877,7 +877,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/stock-audit" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/stock-audit" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Stock Audit</span>
@@ -885,7 +885,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/secretarial-audit" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/secretarial-audit" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 4v5c0 5-3.5 9-9 10-5.5-1-9-5-9-10V7l9-4z"/><path d="M9 12l2 2 4-4"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Secretarial Audit</span>
@@ -893,7 +893,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="/tax-audit" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/tax-audit" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="12" y2="17"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Tax Audit</span>
@@ -941,7 +941,7 @@
 
     <!-- FOOTER NOTE -->
     <div class="pa-gone-footnote">
-        Reviewed by the <a href="/about-us">CA and CS Team, Patron Accounting LLP</a>. You can also browse the full <a href="/">list of services on our homepage</a>.
+        Reviewed by the <a href="https://www.patronaccounting.com/about-us">CA and CS Team, Patron Accounting LLP</a>. You can also browse the full <a href="https://www.patronaccounting.com/">list of services on our homepage</a>.
     </div>
 
 </main>

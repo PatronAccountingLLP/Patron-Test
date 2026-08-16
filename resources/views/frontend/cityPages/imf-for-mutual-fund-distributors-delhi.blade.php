@@ -35,7 +35,7 @@
       "@type": "Service",
       "name": "IMF for Mutual Fund Distributors in Delhi",
       "description": "IRDAI Insurance Marketing Firm registration for AMFI ARN holders in Delhi. Add insurance distribution alongside your mutual fund book under one registered entity. Professional fee from INR 24,999 (Exl GST and Govt. Charges).",
-      "url": "/imf-for-mutual-fund-distributors/delhi",
+      "url": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/delhi",
       "serviceType": "Insurance Marketing Firm Registration for Mutual Fund Distributors",
       "areaServed": {
         "@type": "City",
@@ -49,9 +49,9 @@
         "@type": "LocalBusiness",
         "@id": "https://www.patronaccounting.com/#localbusiness",
         "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg",
-        "image": "/images/site-logo.svg",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "image": "https://www.patronaccounting.com/images/site-logo.svg",
         "telephone": "+91-9459456700",
         "email": "sales@patronaccounting.com",
         "priceRange": "INR",
@@ -71,7 +71,7 @@
         "priceCurrency": "INR",
         "price": "24999",
         "availability": "https://schema.org/InStock",
-        "url": "/imf-for-mutual-fund-distributors/delhi",
+        "url": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/delhi",
         "priceSpecification": {
           "@type": "PriceSpecification",
           "minPrice": "24999",
@@ -84,8 +84,8 @@
       "@id": "https://www.patronaccounting.com/#localbusiness",
       "name": "Patron Accounting LLP",
       "url": "https://www.patronaccounting.com/",
-      "logo": "/images/site-logo.svg",
-      "image": "/images/site-logo.svg",
+      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
       "telephone": "+91-9459456700",
       "email": "sales@patronaccounting.com",
       "priceRange": "INR",
@@ -963,17 +963,45 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'imf-for-mutual-fund-distributors/delhi',
-                    'options'  => [
-                        'imf-for-mutual-fund-distributors/delhi' => 'IMF for Mutual Fund Distributors in Delhi',
-                        'irda-imf-business-registration/delhi' => 'IRDA IMF Business Registration in Delhi',
-                        'imf-irdai-registration-process/delhi' => 'IMF IRDAI Registration Process in Delhi',
-                        'ismp-certification-isp-appointment/delhi' => 'ISMP Certification &amp; ISP Appointment in Delhi',
-                        'imf-compliance-retainer-services/delhi' => 'IMF Compliance Retainer in Delhi',
-                        'other' => 'Other',
-                    ],
-                ])
+                <div class="form-card" id="consultationFormCard">
+                    <div class="form-header">
+                        <h2 class="form-title">Get Free Consultation</h2>
+                        <p class="form-subtitle">Talk to a CA/CS expert today</p>
+                    </div>
+
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+
+                                        @include('partials.lead-form', [
+                        'deal' => 'Website Enquiry - IMF for Mutual Fund Distributors in Delhi',
+                        'city' => 'Delhi',
+                        'options' => [
+                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
+                            ['value' => 'imf-for-mutual-fund-distributors/delhi', 'label' => 'IMF for Mutual Fund Distributors in Delhi', 'selected' => true, 'disabled' => false],
+                            ['value' => 'irda-imf-business-registration/delhi', 'label' => 'IRDA IMF Business Registration in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'imf-irdai-registration-process/delhi', 'label' => 'IMF IRDAI Registration Process in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'ismp-certification-isp-appointment/delhi', 'label' => 'ISMP Certification &amp; ISP Appointment in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'imf-compliance-retainer-services/delhi', 'label' => 'IMF Compliance Retainer in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+                        ],
+                    ])
+
+                    <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
+
+                    <div class="form-footer">
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            100% Secure
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"></path></svg>
+                            No Spam
+                        </span>
+                        <span class="form-footer-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            Quick Response
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1710,12 +1738,147 @@ function toggleTestiVideo(area){
 
 
 <!-- Consultation Form: Country Dropdown + Validation + Bigin Integration -->
+<script>
+var countries = [
+    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
+    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
+    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
+    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
+    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
+    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
+    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
+    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" }
+];
 
+var selectedCountry = countries[0];
 
+function renderCountryOptions(list) {
+    var container = document.getElementById('countryOptions');
+    if (!container) return;
+    container.innerHTML = '';
+    list.forEach(function(c) {
+        var div = document.createElement('div');
+        div.className = 'country-option';
+        div.innerHTML = '<span class="flag-emoji">' + c.flag + '</span><span class="country-name">' + c.name + '</span><span class="dial-code">' + c.code + '</span>';
+        div.onclick = function(e) {
+            e.stopPropagation();
+            selectedCountry = c;
+            document.getElementById('selectedFlag').textContent = c.flag;
+            document.getElementById('selectedCode').textContent = c.code;
+            document.getElementById('countryCodeDropdown').classList.remove('open');
+        };
+        container.appendChild(div);
+    });
+}
 
+function toggleCountryDropdown(e) {
+    e.stopPropagation();
+    var dd = document.getElementById('countryCodeDropdown');
+    dd.classList.toggle('open');
+    if (dd.classList.contains('open')) {
+        renderCountryOptions(countries);
+        var search = document.getElementById('countrySearchInput');
+        if (search) { search.value = ''; search.focus(); }
+    }
+}
+
+function filterCountries(q) {
+    q = (q || '').toLowerCase();
+    renderCountryOptions(countries.filter(function(c) {
+        return c.name.toLowerCase().indexOf(q) !== -1 || c.code.indexOf(q) !== -1;
+    }));
+}
+
+document.addEventListener('click', function(e) {
+    var dd = document.getElementById('countryCodeDropdown');
+    if (dd && !dd.contains(e.target)) dd.classList.remove('open');
+});
+
+function clearFieldError(el) {
+    if (el && el.classList) el.classList.remove('input-error');
+}
+
+function validatePhoneOnBlur(el) {
+    var v = (el.value || '').trim();
+    var err = document.getElementById('phoneError');
+    if (v.length > 0 && v.length < 7) {
+        document.getElementById('phoneGroup').classList.add('input-error');
+        if (err) { err.textContent = 'Please enter a valid phone number.'; err.style.display = 'block'; }
+    }
+}
+
+function validateConsultationForm() {
+    var ok = true;
+    var name = document.getElementById('consultFullName');
+    var phone = document.getElementById('phoneNumberInput');
+    var city = document.getElementById('consultCity');
+    var service = document.getElementById('consultService');
+
+    if (!name.value.trim()) { name.classList.add('input-error'); ok = false; }
+    if (!phone.value.trim() || phone.value.trim().length < 7) {
+        document.getElementById('phoneGroup').classList.add('input-error');
+        var err = document.getElementById('phoneError');
+        if (err) { err.textContent = 'Please enter a valid phone number.'; err.style.display = 'block'; }
+        ok = false;
+    }
+    if (!city.value.trim()) { city.classList.add('input-error'); ok = false; }
+    if (!service.value) { service.classList.add('input-error'); ok = false; }
+
+    if (ok) {
+        document.getElementById('combinedMobileField').value = selectedCountry.code + phone.value.trim();
+    }
+    return ok;
+}
+
+function showSuccessState() {
+    var card = document.getElementById('consultationFormCard');
+    if (!card) return;
+    card.innerHTML = '<div class="form-success"><div class="form-success-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" style="width:32px;height:32px;"><path d="M5 13l4 4L19 7"/></svg></div><h3>Thank You!</h3><p>Our CA/CS team will contact you shortly regarding IMF registration in Delhi.</p></div>';
+}
+
+(function() {
+    try {
+        var src = document.getElementById('pageSourceField');
+        if (src) src.value = window.location.href;
+    } catch (e) {}
+})();
+</script>
+
+<script>
+// Bigin Mandatory Fields Validation
+var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
+var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
+
+function checkMandatory208810000001209168() {
+    var isReturn = true;
+    for(var i = 0; i < mndFields208810000001209168.length; i++) {
+        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
+        if(fieldObj) {
+            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                isReturn = false;
+            }
+        }
+    }
+    if(isReturn) {
+        document.getElementById('formSubmitBtn').disabled = true;
+    }
+    return isReturn;
+}
+
+document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
+    try {
+        var doc = arguments[0].currentTarget.contentWindow.document;
+        if(doc.body && doc.body.childElementCount !== 0) {
+            showSuccessState();
+        }
+    } catch (error) {
+        showSuccessState();
+    }
+});
+</script>
 
 <!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
-
+<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
 // TOC scroll arrows

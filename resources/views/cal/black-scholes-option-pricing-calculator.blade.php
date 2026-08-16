@@ -5,22 +5,22 @@
 <meta name="description" content="Free Black-Scholes calculator: get grant-date fair value per option and the Ind AS 102 ESOP expense from spot, strike, term, volatility, rate & dividend yield.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/black-scholes-option-pricing-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator">
 
 <meta property="og:title" content="Black-Scholes Calculator — ESOP Fair Value Ind AS 102">
 <meta property="og:description" content="Compute the grant-date fair value per option (call or put) and the Ind AS 102 ESOP expense from spot, strike, expected term, volatility, risk-free rate and dividend yield.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/black-scholes-option-pricing-calculator">
-<meta property="og:image" content="/tools/black-scholes-option-pricing-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Black-Scholes Calculator — ESOP Fair Value Ind AS 102">
 <meta name="twitter:description" content="Grant-date fair value per option and the Ind AS 102 ESOP expense from spot, strike, term, volatility, rate & dividend. Free & instant.">
-<meta name="twitter:image" content="/tools/black-scholes-option-pricing-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 
 @section('schema')
@@ -30,7 +30,7 @@
   "@type": "SoftwareApplication",
   "name": "Black-Scholes Option Pricing Calculator",
   "description": "Black-Scholes Option Pricing Calculator computes the fair value of a call or put option using the dividend-adjusted Black-Scholes-Merton model from the spot price, strike price, expected term, volatility, risk-free rate and dividend yield. It is built for ESOP grant-date fair value under Ind AS 102 share-based payment accounting, returning the per-option fair value, the d1 and d2 terms, and the total and annual ESOP expense based on the number of options granted and the vesting period.",
-  "url": "/tools/black-scholes-option-pricing-calculator",
+  "url": "https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -44,10 +44,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -60,9 +60,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -72,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Black-Scholes Option Pricing Calculator", "item": "/tools/black-scholes-option-pricing-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Black-Scholes Option Pricing Calculator", "item": "https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator"}
   ]
 }
 </script>
@@ -700,9 +700,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Black-Scholes Option Pricing Calculator
 </nav>
@@ -838,7 +838,7 @@ a:focus-visible {
                 <li><strong>Optionally add the ESOP expense inputs</strong> — number of options granted and the vesting period.</li>
                 <li><strong>Click Calculate</strong> for the per-option fair value, the d1/d2 working, and the total and annual ESOP expense for Ind AS 102.</li>
             </ol>
-            <p>For the share-level FMV used in perquisite tax (a different figure), use the <a href="/tools/esop-fmv-calculator">ESOP FMV calculator</a>; for enterprise value, the <a href="/tools/esop-valuation-calculator">ESOP valuation calculator</a>; and for the P&L cost picture, the <a href="/tools/esop-cost-to-company-calculator">ESOP cost-to-company calculator</a>.</p>
+            <p>For the share-level FMV used in perquisite tax (a different figure), use the <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator">ESOP FMV calculator</a>; for enterprise value, the <a href="https://www.patronaccounting.com/tools/esop-valuation-calculator">ESOP valuation calculator</a>; and for the P&L cost picture, the <a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">ESOP cost-to-company calculator</a>.</p>
             <div class="callout">
                 <p><strong>CA Tip:</strong> Use the <strong>expected term</strong> (to likely exercise), not the full contractual life — employees typically exercise early, and using the contract term overstates the fair value and the expense.</p>
             </div>
@@ -847,7 +847,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What This Calculator Is For</h2>
             <p>The <strong>Black-Scholes-Merton model</strong> estimates the fair value of an option. For Indian ESOPs its main use is computing the <strong>grant-date fair value of the option</strong> under <strong>Ind AS 102, Share-Based Payment</strong> — the value the company expenses as employee compensation over the vesting period.</p>
-            <p>Crucially, this values the <strong>option</strong>, not the underlying share, and it is an <strong>accounting</strong> number. It is separate from — and must not be confused with — the <strong>perquisite-tax FMV</strong> at exercise, which is the average of open and close (listed) or a merchant banker valuation (unlisted) and explicitly does <em>not</em> use Black-Scholes. Patron's <a href="/blog/perquisite-valuation-rules-2026">perquisite valuation rules 2026</a> note covers that tax side.</p>
+            <p>Crucially, this values the <strong>option</strong>, not the underlying share, and it is an <strong>accounting</strong> number. It is separate from — and must not be confused with — the <strong>perquisite-tax FMV</strong> at exercise, which is the average of open and close (listed) or a merchant banker valuation (unlisted) and explicitly does <em>not</em> use Black-Scholes. Patron's <a href="https://www.patronaccounting.com/blog/perquisite-valuation-rules-2026">perquisite valuation rules 2026</a> note covers that tax side.</p>
         </section>
 
         <section class="content-section" id="formula">
@@ -896,7 +896,7 @@ a:focus-visible {
                 <span class="label">Annual expense</span> = Total expense ÷ Vesting years (straight-line)
             </div>
             <p>Under Ind AS 102 the total is recognised over the vesting period. Worked example: 1,000 options with a Black-Scholes fair value of ₹50 give a total expense of ₹50,000, charged at ₹12,500 per year over a four-year vest. Service and non-market vesting conditions are reflected by adjusting the <em>number</em> of options expected to vest, not the per-option fair value.</p>
-            <p>For the broader cost view across grant, vesting and exercise, see the <a href="/tools/esop-cost-to-company-calculator">cost-to-company calculator</a>; the deferred-tax impact of the timing difference can be modelled with the <a href="/tools/deferred-tax-calculator">deferred tax calculator</a>.</p>
+            <p>For the broader cost view across grant, vesting and exercise, see the <a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">cost-to-company calculator</a>; the deferred-tax impact of the timing difference can be modelled with the <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator">deferred tax calculator</a>.</p>
         </section>
 
         <section class="content-section" id="example">
@@ -981,24 +981,24 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
-            <a href="/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost-to-Company <span class="arrow">→</span></a>
-            <a href="/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-fmv-calculator" class="sidebar-link">ESOP FMV Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-valuation-calculator" class="sidebar-link">ESOP Valuation Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator" class="sidebar-link">ESOP Cost-to-Company <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator" class="sidebar-link">Perquisite Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/deferred-tax-calculator" class="sidebar-link">Deferred Tax Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
-            <a href="/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation <span class="arrow">→</span></a>
-            <a href="/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esop-services" class="sidebar-link">ESOP Services <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
-            <a href="/blog/what-is-esop-india-startup-guide" class="sidebar-link">What is ESOP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-esop-india-startup-guide" class="sidebar-link">What is ESOP <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

@@ -7,20 +7,20 @@
     <title>India EOR Cost Calculator | True Cost of Hiring</title>
     <meta name="description" content="India EOR cost calculator: compute the total cost of hiring via Employer of Record, covering statutory PF, ESI, gratuity, provider fees, insurance, break-even.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/india-eor-cost-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-eor-cost-calculator/">
     <meta property="og:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
     <meta property="og:description" content="Computes the all-in cost of hiring an employee in India through an Employer of Record. Statutory + provider fees + insurance + EOR vs subsidiary break-even.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/india-eor-cost-calculator">
-    <meta property="og:image" content="/tools/og/india-eor-cost-calculator.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-eor-cost-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/india-eor-cost-calculator.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
     <meta name="twitter:description" content="Total India hiring cost: statutory + EOR fees + insurance. EOR vs subsidiary break-even. Updated for 4 Labour Codes 2025.">
-    <meta name="twitter:image" content="/tools/og/india-eor-cost-calculator.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/india-eor-cost-calculator.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">
 @endsection
 
@@ -31,7 +31,7 @@
       "@type": "WebApplication",
       "name": "India EOR Cost Calculator (True Cost of Hiring)",
       "description": "India EOR Cost Calculator computes the total annual and monthly cost incurred by a foreign company hiring an employee in India through an Employer of Record arrangement, capturing the gross salary, statutory employer contributions and the EOR provider service fee. The tool incorporates the four Labour Codes which came into force on 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — replacing twenty-nine pre-existing labour statutes. The tool reflects the unified definition of wages under Section 2(y) of the Code on Wages requiring that basic wage components (basic pay plus dearness allowance plus retaining allowance) constitute at least fifty per cent of the total remuneration, with the excess of allowances over fifty per cent deemed to be wages for the purpose of statutory contribution computation. The tool computes Employees Provident Fund employer contribution at twelve per cent of wages with statutory ceiling computation, Employees State Insurance employer contribution at three point two five per cent of gross wages where the gross wage is at or below twenty one thousand rupees per month, gratuity provision at four point eight one per cent of wages on the actuarial accrual basis, statutory bonus at eight point three three per cent of wages under the Payment of Bonus Act, 1965 where applicable, professional tax at state-specific rates capped at two thousand five hundred rupees per annum under Article 276 of the Constitution of India, Labour Welfare Fund contribution at state-specific annual rates, and group health insurance at standard market premium bands. The tool incorporates four EOR provider pricing tiers: India-specialist providers ranging from ninety nine to two hundred United States Dollars per employee per month, mid-market global platforms in the range of two hundred to four hundred United States Dollars per employee per month, premium enterprise platforms in the range of five hundred ninety nine to seven hundred United States Dollars per employee per month, and a custom percentage-of-payroll model. The tool computes the break-even employee count for the EOR arrangement versus setting up a wholly owned subsidiary in India based on incorporation costs, recurring compliance overhead and per-employee statutory burden.",
-      "url": "/tools/india-eor-cost-calculator",
+      "url": "https://www.patronaccounting.com/tools/india-eor-cost-calculator",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Any",
       "datePublished": "2026-05-08T08:00:00+05:30",
@@ -39,10 +39,10 @@
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
       "author": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -55,8 +55,8 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
-      "provider": {"@id": "/#organization"}
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
     <script type="application/ld+json">
@@ -64,9 +64,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "India EOR Cost Calculator", "item": "/tools/india-eor-cost-calculator"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "India EOR Cost Calculator", "item": "https://www.patronaccounting.com/tools/india-eor-cost-calculator"}
       ]
     }
     </script>
@@ -492,9 +492,9 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     India EOR Cost Calculator
 </nav>
@@ -511,7 +511,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
 <div class="tldr">
     <div class="tldr-label">TL;DR</div>
-    <p>This India EOR Cost Calculator computes the all-in cost a foreign company pays to hire an employee in India through an Employer of Record. The total has four components: <strong>gross salary</strong> (paid to employee), <strong>statutory employer contributions</strong> (PF, ESI, gratuity, bonus, professional tax, LWF), <strong>EOR provider fee</strong> ($99-$700 per month depending on tier), and <strong>group health insurance</strong>. The calculator reflects the four <strong>Labour Codes effective 21 November 2025</strong> — basic must be ≥50% of CTC, raising PF and gratuity bases; fixed-term employees qualify for gratuity after 1 year. The output includes the EOR vs subsidiary break-even (typically 10-15 employees) and EOR vs independent contractor risk comparison. Pair with our <a href="/tools/working-capital-calculator">Working Capital Calculator</a> for full cost-of-expansion modelling.</p>
+    <p>This India EOR Cost Calculator computes the all-in cost a foreign company pays to hire an employee in India through an Employer of Record. The total has four components: <strong>gross salary</strong> (paid to employee), <strong>statutory employer contributions</strong> (PF, ESI, gratuity, bonus, professional tax, LWF), <strong>EOR provider fee</strong> ($99-$700 per month depending on tier), and <strong>group health insurance</strong>. The calculator reflects the four <strong>Labour Codes effective 21 November 2025</strong> — basic must be ≥50% of CTC, raising PF and gratuity bases; fixed-term employees qualify for gratuity after 1 year. The output includes the EOR vs subsidiary break-even (typically 10-15 employees) and EOR vs independent contractor risk comparison. Pair with our <a href="https://www.patronaccounting.com/tools/working-capital-calculator">Working Capital Calculator</a> for full cost-of-expansion modelling.</p>
 </div>
 
 <div class="main-layout">
@@ -941,29 +941,29 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/private-limited-company-registration" class="sidebar-link">Private Limited Co. Registration<span class="arrow">→</span></a>
-            <a href="/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
-            <a href="/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
-            <a href="/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
-            <a href="/professional-tax-registration" class="sidebar-link">Professional Tax Registration<span class="arrow">→</span></a>
-            <a href="/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Private Limited Co. Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/professional-tax-registration" class="sidebar-link">Professional Tax Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
-            <a href="/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
-            <a href="/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/take-home-salary-calculator" class="sidebar-link">Take-Home Salary Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="sidebar-link">Working Capital Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
             
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup in India: Complete Guide<span class="arrow">→</span></a>
-            <a href="/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online India<span class="arrow">→</span></a>
-            <a href="/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/payroll-setup-india-comprehensive-guide-for-businesses" class="sidebar-link">Payroll Setup in India: Complete Guide<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esic-registration-online-india-2025" class="sidebar-link">ESIC Registration Online India<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026" class="sidebar-link">Annual Compliance Calendar 2025-26<span class="arrow">→</span></a>
         </div>
 
     </aside>

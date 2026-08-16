@@ -3,14 +3,14 @@
     <title>AIS Reconciliation Tool | Match AIS, 26AS & Bank 2026</title>
     <meta name="description" content="Free AIS reconciliation tool: match AIS, Form 26AS and bank records to flag mismatches before ITR filing for AY 2026-27. Avoid notices. Reconcile now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="/tools/ais-reconciliation-tool">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ais-reconciliation-tool">
 
     <!-- Open Graph -->
     <meta property="og:title" content="AIS Reconciliation Tool — Match AIS, 26AS & Bank Records">
     <meta property="og:description" content="Match your Annual Information Statement, Form 26AS, and bank records side by side to catch ITR mismatches before they trigger Section 143(1) notices.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/ais-reconciliation-tool">
-    <meta property="og:image" content="/tools/og/ais-reconciliation-tool.png">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ais-reconciliation-tool">
+    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/ais-reconciliation-tool.png">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
@@ -18,11 +18,11 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AIS Reconciliation Tool — Match AIS, 26AS & Bank Records">
     <meta name="twitter:description" content="Match your Annual Information Statement, Form 26AS, and bank records side by side to catch ITR mismatches before they trigger notices.">
-    <meta name="twitter:image" content="/tools/og/ais-reconciliation-tool.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/ais-reconciliation-tool.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
 @endsection
 @section('schema')
@@ -33,7 +33,7 @@
       "@type": "SoftwareApplication",
       "name": "AIS Reconciliation Tool",
       "description": "AIS Reconciliation Tool compares your Annual Information Statement (AIS), Form 26AS, and bank or broker records side by side, flags mismatches, and generates an action checklist before you file your Income Tax Return for AY 2026-27.",
-      "url": "/tools/ais-reconciliation-tool",
+      "url": "https://www.patronaccounting.com/tools/ais-reconciliation-tool",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
       "inLanguage": "en-IN",
@@ -47,10 +47,10 @@
       },
       "reviewedBy": {
         "@type": "Person",
-        "@id": "/#founder",
+        "@id": "https://patronaccounting.com/#founder",
         "name": "CA Sundram Gupta",
         "jobTitle": "Founder & Chartered Accountant",
-        "url": "/contact-page",
+        "url": "https://www.patronaccounting.com/contact-page",
         "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
         "hasCredential": [{
           "@type": "EducationalOccupationalCredential",
@@ -63,9 +63,9 @@
           }
         }]
       },
-      "publisher": { "@id": "/#organization" },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
       "provider": {
-        "@id": "/#organization"
+        "@id": "https://patronaccounting.com/#organization"
       }
     }
     </script>
@@ -76,9 +76,9 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "AIS Reconciliation Tool", "item": "/tools/ais-reconciliation-tool"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "AIS Reconciliation Tool", "item": "https://www.patronaccounting.com/tools/ais-reconciliation-tool"}
       ]
     }
     </script>
@@ -1202,9 +1202,9 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
 <!-- Breadcrumb -->
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     AIS Reconciliation Tool
 </nav>
@@ -1416,7 +1416,7 @@ other,5000,0,5000</pre>
         <!-- How to Use -->
         <section class="content-section" id="how-to-use">
             <h2>How to Use the AIS Reconciliation Tool</h2>
-            <p>Reconciling your AIS, Form 26AS, and personal records before filing your <a href="/income-tax-return">Income Tax Return</a> is the single most effective way to avoid an automated Section 143(1) intimation. The process takes 30–45 minutes if your records are organised. Follow these six steps:</p>
+            <p>Reconciling your AIS, Form 26AS, and personal records before filing your <a href="https://www.patronaccounting.com/income-tax-return">Income Tax Return</a> is the single most effective way to avoid an automated Section 143(1) intimation. The process takes 30–45 minutes if your records are organised. Follow these six steps:</p>
             <ol>
                 <li><strong>Download AIS, TIS, and Form 26AS</strong> from the e-filing portal at <a href="https://www.incometax.gov.in/iec/foportal/" target="_blank" rel="noopener">incometax.gov.in</a>. Choose JSON or CSV for AIS so you can search transactions quickly. Form 26AS is downloaded from TRACES via the same portal.</li>
                 <li><strong>Open your supporting documents.</strong> Form 16 (salary), Form 16A (non-salary TDS), bank statements for every account linked to your PAN — even dormant ones — broker contract notes, mutual fund statements, and property registration deeds.</li>
@@ -1492,12 +1492,12 @@ other,5000,0,5000</pre>
                     <tr>
                         <td><strong>TDS in AIS but missing from Form 26AS</strong></td>
                         <td>Deductor filed wrong PAN or has not yet processed the quarterly TDS return</td>
-                        <td>Email deductor with PAN; ask them to file revised <a href="/tds-return/">TDS return</a>. Wait for CPC processing before claiming credit.</td>
+                        <td>Email deductor with PAN; ask them to file revised <a href="https://www.patronaccounting.com/tds-return/">TDS return</a>. Wait for CPC processing before claiming credit.</td>
                     </tr>
                     <tr>
                         <td><strong>Capital gains in AIS &lt; broker statement</strong></td>
                         <td>AIS uses cost-basis defaults; broker uses your actual buy price</td>
-                        <td>Always declare per your broker contract notes and FIFO calculation. Tools like our <a href="/tools/income-tax-calculator">Income Tax Calculator</a> help test scenarios.</td>
+                        <td>Always declare per your broker contract notes and FIFO calculation. Tools like our <a href="https://www.patronaccounting.com/tools/income-tax-calculator">Income Tax Calculator</a> help test scenarios.</td>
                     </tr>
                     <tr>
                         <td><strong>Property sale in AIS for a co-owner only</strong></td>
@@ -1593,7 +1593,7 @@ other,5000,0,5000</pre>
             </ol>
 
             <h3>What If Feedback Is Rejected?</h3>
-            <p>If the reporting entity disputes your feedback, AIS marks the entry as <em>Information confirmed by source</em>. At that point you have three options: (a) accept the figure and adjust your ITR, (b) escalate to the source's grievance redressal officer (banks have one, registrars have one), or (c) file the ITR with your figure and prepare to respond to a likely <a href="/income-tax-notices-under-section-143-3">Section 143(1) intimation</a> with documentary evidence. Option (c) requires professional handling — a <a href="/income-tax-notice">tax notice specialist</a> can draft the response.</p>
+            <p>If the reporting entity disputes your feedback, AIS marks the entry as <em>Information confirmed by source</em>. At that point you have three options: (a) accept the figure and adjust your ITR, (b) escalate to the source's grievance redressal officer (banks have one, registrars have one), or (c) file the ITR with your figure and prepare to respond to a likely <a href="https://www.patronaccounting.com/income-tax-notices-under-section-143-3">Section 143(1) intimation</a> with documentary evidence. Option (c) requires professional handling — a <a href="https://www.patronaccounting.com/income-tax-notice">tax notice specialist</a> can draft the response.</p>
         </section>
 
         <!-- Compliance / Penalties -->
@@ -1605,7 +1605,7 @@ other,5000,0,5000</pre>
             <p>The first-line response to a mismatch. CPC issues an intimation (often within weeks of filing) showing the adjusted income, additional tax demand, and interest under Sections 234B/234C. You get a 30-day window to respond. Ignore it and the adjustment becomes final.</p>
 
             <h3>Section 139(9) — Defective Return Notice</h3>
-            <p>Issued when the return is structurally incomplete relative to AIS — for example, missing schedules, undeclared TDS that exceeds tax payable, or capital gains schedule missing despite securities trades in AIS. You get 15 days to rectify, failing which the return is treated as not filed. See our guide on <a href="/income-tax-notice-for-defective-return">defective return notices</a>.</p>
+            <p>Issued when the return is structurally incomplete relative to AIS — for example, missing schedules, undeclared TDS that exceeds tax payable, or capital gains schedule missing despite securities trades in AIS. You get 15 days to rectify, failing which the return is treated as not filed. See our guide on <a href="https://www.patronaccounting.com/income-tax-notice-for-defective-return">defective return notices</a>.</p>
 
             <h3>Section 270A — Penalty for Misreporting (50% to 200%)</h3>
             <p>Where AIS data conclusively shows under-reporting of income, CPC can refer the case for Section 270A penalty proceedings. The penalty is 50% of tax on under-reported income, rising to 200% if classified as "misreporting" (e.g., concealment, false claims). Voluntary correction before notice issues — through revised return or ITR-U — substantially reduces this exposure.</p>
@@ -1779,29 +1779,29 @@ other,5000,0,5000</pre>
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
-            <a href="/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
-            <a href="/income-tax-notice-for-defective-return" class="sidebar-link">Defective Return Notice <span class="arrow">→</span></a>
-            <a href="/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/income-tax-notice-for-defective-return" class="sidebar-link">Defective Return Notice <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-            <a href="/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder & Calculator <span class="arrow">→</span></a>
-            <a href="/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
-            <a href="/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
-            <a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
-            <a href="/tools/itr-form-selector" class="sidebar-link">ITR Form Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder & Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/tds-on-salary-calculator" class="sidebar-link">TDS on Salary Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/itr-form-selector" class="sidebar-link">ITR Form Selector <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/ais-vs-form-26as-reconcile-itr-2025-26" class="sidebar-link">AIS vs Form 26AS Reconciliation Guide <span class="arrow">→</span></a>
-            <a href="/blog/ais-mismatch-correct-errors-before-itr" class="sidebar-link">AIS Mismatch — Correct Errors Before ITR <span class="arrow">→</span></a>
-            <a href="/blog/annual-information-statement-ais-rules-2026-whats-reported-it" class="sidebar-link">AIS Rules 2026 — What's Reported <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/ais-vs-form-26as-reconcile-itr-2025-26" class="sidebar-link">AIS vs Form 26AS Reconciliation Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/ais-mismatch-correct-errors-before-itr" class="sidebar-link">AIS Mismatch — Correct Errors Before ITR <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/annual-information-statement-ais-rules-2026-whats-reported-it" class="sidebar-link">AIS Rules 2026 — What's Reported <span class="arrow">→</span></a>
         </div>
 
     </aside>

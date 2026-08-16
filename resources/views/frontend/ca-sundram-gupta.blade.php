@@ -9,14 +9,14 @@
     <meta name="author" content="CA Sundram Gupta">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="/authorhub/ca-sundram-gupta">
+    <link rel="canonical" href="https://www.patronaccounting.com/authorhub/ca-sundram-gupta">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="CA Sundram Gupta — Founder, Patron Accounting LLP">
     <meta property="og:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
-    <meta property="og:url" content="/authorhub/ca-sundram-gupta">
+    <meta property="og:url" content="https://www.patronaccounting.com/authorhub/ca-sundram-gupta">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="/storage/posts/ca-sundram-gupta.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting LLP">
@@ -28,7 +28,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CA Sundram Gupta — Founder, Patron Accounting LLP">
     <meta name="twitter:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
-    <meta name="twitter:image" content="/storage/posts/ca-sundram-gupta.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.jpg">
     <meta name="twitter:site" content="@patronaccounting">
 
     <!-- Additional SEO Meta Tags -->
@@ -45,7 +45,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Preload hero author photo (LCP optimization) -->
-    <link rel="preload" as="image" href="/storage/posts/ca-sundram-gupta.webp" type="image/webp" imagesrcset="/storage/posts/ca-sundram-gupta.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.webp" type="image/webp" imagesrcset="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.webp" fetchpriority="high">
 @endsection
 
 @section('content')
@@ -57,37 +57,37 @@
       "@graph": [
         {
           "@type": "ProfilePage",
-          "@id": "/authorhub/ca-sundram-gupta#profilepage",
-          "url": "/authorhub/ca-sundram-gupta",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#profilepage",
+          "url": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta",
           "name": "CA Sundram Gupta — Author Profile",
           "description": "Author hub for CA Sundram Gupta, Founder & Managing Partner of Patron Accounting LLP.",
           "inLanguage": "en-IN",
-          "isPartOf": { "@id": "/#website" },
-          "mainEntity": { "@id": "/authorhub/ca-sundram-gupta#person" },
-          "breadcrumb": { "@id": "/authorhub/ca-sundram-gupta#breadcrumbs" },
+          "isPartOf": { "@id": "https://www.patronaccounting.com/#website" },
+          "mainEntity": { "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#person" },
+          "breadcrumb": { "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#breadcrumbs" },
           "dateCreated": "2026-04-30",
           "dateModified": "2026-04-30"
         },
         {
           "@type": "Person",
-          "@id": "/authorhub/ca-sundram-gupta#person",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#person",
           "name": "CA Sundram Gupta",
           "givenName": "Sundram",
           "familyName": "Gupta",
           "honorificPrefix": "CA",
           "jobTitle": "Founder & Managing Partner",
           "description": "Founder & Managing Partner of Patron Accounting LLP. Chartered Accountant (ICAI) with a Diploma in International Financial Reporting Standards (DipIFR) from ACCA, UK. 15+ years of experience in tax, audit, GST, payroll, ROC compliance and Virtual CFO services for Indian businesses.",
-          "image": "/storage/posts/ca-sundram-gupta.jpg",
-          "url": "/authorhub/ca-sundram-gupta",
+          "image": "https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.jpg",
+          "url": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta",
           "sameAs": [
             "https://www.linkedin.com/in/sundram-gupta-0a266117",
-            "/meet-our-founder"
+            "https://www.patronaccounting.com/meet-our-founder"
           ],
           "email": "mailto:sg@patronaccounting.com",
           "telephone": "+91-9459456700",
           "nationality": { "@type": "Country", "name": "India" },
           "knowsLanguage": ["English", "Hindi", "Punjabi"],
-          "worksFor": { "@id": "/#organization" },
+          "worksFor": { "@id": "https://www.patronaccounting.com/#organization" },
           "memberOf": [
             { "@type": "Organization", "name": "The Institute of Chartered Accountants of India (ICAI)", "url": "https://www.icai.org" }
           ],
@@ -130,36 +130,36 @@
         },
         {
           "@type": "Organization",
-          "@id": "/#organization",
+          "@id": "https://www.patronaccounting.com/#organization",
           "name": "Patron Accounting LLP",
-          "url": "/",
-          "logo": "/images/site-logo.svg",
-          "founder": { "@id": "/authorhub/ca-sundram-gupta#person" },
+          "url": "https://www.patronaccounting.com/",
+          "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+          "founder": { "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#person" },
           "foundingDate": "2019-07",
           "sameAs": ["https://www.linkedin.com/company/patron-accounting"]
         },
         {
           "@type": "BreadcrumbList",
-          "@id": "/authorhub/ca-sundram-gupta#breadcrumbs",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#breadcrumbs",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Author Hub", "item": "/authorhub" },
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Author Hub", "item": "https://www.patronaccounting.com/authorhub" },
             { "@type": "ListItem", "position": 3, "name": "CA Sundram Gupta" }
           ]
         },
         {
           "@type": "ItemList",
-          "@id": "/authorhub/ca-sundram-gupta#featured-articles",
+          "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#featured-articles",
           "name": "Featured Articles by CA Sundram Gupta",
           "itemListOrder": "https://schema.org/ItemListOrderAscending",
           "numberOfItems": 6,
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "url": "/blog/accounting-startups-india-day-one-to-first-audit", "name": "Accounting for Startups in India: Day One to First Audit" },
-            { "@type": "ListItem", "position": 2, "url": "/blog/gst-audit-mandatory-who-must-comply-who-is-exempt", "name": "GST Audit: Who Must Comply and Who is Exempt" },
-            { "@type": "ListItem", "position": 3, "url": "/blog/income-tax-notice-after-itr-filing", "name": "Income Tax Notice After ITR Filing" },
-            { "@type": "ListItem", "position": 4, "url": "/blog/annual-compliance-requirements-for-companies-in-india", "name": "Annual Compliance Requirements for Companies in India" },
-            { "@type": "ListItem", "position": 5, "url": "/blog/payroll-outsourcing-vs-in-house-sme-guide-india-2026", "name": "Payroll Outsourcing vs In-House: SME Guide India 2026" },
-            { "@type": "ListItem", "position": 6, "url": "/blog/mis-reports-small-business-what-ca-should-deliver", "name": "MIS Reports for Small Business: What a CA Should Deliver" }
+            { "@type": "ListItem", "position": 1, "url": "https://patronaccounting.com/blog/accounting-startups-india-day-one-to-first-audit", "name": "Accounting for Startups in India: Day One to First Audit" },
+            { "@type": "ListItem", "position": 2, "url": "https://patronaccounting.com/blog/gst-audit-mandatory-who-must-comply-who-is-exempt", "name": "GST Audit: Who Must Comply and Who is Exempt" },
+            { "@type": "ListItem", "position": 3, "url": "https://patronaccounting.com/blog/income-tax-notice-after-itr-filing", "name": "Income Tax Notice After ITR Filing" },
+            { "@type": "ListItem", "position": 4, "url": "https://patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india", "name": "Annual Compliance Requirements for Companies in India" },
+            { "@type": "ListItem", "position": 5, "url": "https://patronaccounting.com/blog/payroll-outsourcing-vs-in-house-sme-guide-india-2026", "name": "Payroll Outsourcing vs In-House: SME Guide India 2026" },
+            { "@type": "ListItem", "position": 6, "url": "https://patronaccounting.com/blog/mis-reports-small-business-what-ca-should-deliver", "name": "MIS Reports for Small Business: What a CA Should Deliver" }
           ]
         }
       ]
@@ -1109,9 +1109,9 @@
                 <div class="author-photo-wrap">
                     <span class="author-photo-badge">Founder</span>
                     <picture>
-                        <source type="image/webp" srcset="/storage/posts/ca-sundram-gupta.webp">
+                        <source type="image/webp" srcset="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.webp">
                         <img
-                            src="/storage/posts/ca-sundram-gupta.jpg"
+                            src="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.jpg"
                             alt="CA Sundram Gupta — Founder & Managing Partner, Patron Accounting LLP"
                             width="1122"
                             height="1402"
@@ -1184,7 +1184,7 @@
                 </div>
             </div>
             <div class="about-body">
-                <p>Founder &amp; Managing Partner of <a href="/">Patron Accounting LLP</a>, a Chartered Accountant (ICAI) with a Diploma in International Financial Reporting Standards (DipIFR) from ACCA, UK. Sundram brings <strong>15+ years</strong> of experience across equity research at <a href="https://www.crisil.com" target="_blank" rel="noopener">CRISIL</a>, finance leadership at <a href="https://www.bajajallianzlife.com" target="_blank" rel="noopener">Bajaj Allianz Life Insurance</a>, and full-service CA practice.</p>
+                <p>Founder &amp; Managing Partner of <a href="https://www.patronaccounting.com/">Patron Accounting LLP</a>, a Chartered Accountant (ICAI) with a Diploma in International Financial Reporting Standards (DipIFR) from ACCA, UK. Sundram brings <strong>15+ years</strong> of experience across equity research at <a href="https://www.crisil.com" target="_blank" rel="noopener">CRISIL</a>, finance leadership at <a href="https://www.bajajallianzlife.com" target="_blank" rel="noopener">Bajaj Allianz Life Insurance</a>, and full-service CA practice.</p>
                 <p>Since founding Patron in <strong>July 2019</strong>, the firm has served <strong>25,000+ businesses</strong> from offices in Pune, Mumbai, Delhi and Gurugram &mdash; with pan-India service delivery covering Bengaluru, Hyderabad, Chennai, Kolkata, Ahmedabad and Tier 2/3 cities. Patron is rated <strong>4.9★ on Google</strong> across 500+ reviews. Sundram writes here on GST, income tax, audit, ROC compliance, payroll and SME advisory for Indian business owners &mdash; guidance shaped by 25,000+ client engagements and a decade of corporate finance practice before that.</p>
             </div>
         </div>
@@ -1309,42 +1309,42 @@
 
         <div class="grid-cp">
 
-            <a class="tile-cp is-read" href="/blog/accounting-startups-india-day-one-to-first-audit">
+            <a class="tile-cp is-read" href="https://patronaccounting.com/blog/accounting-startups-india-day-one-to-first-audit">
                 <span class="tile-num">i.</span>
                 <h3 class="tile-cp-title">Accounting for Startups in India: Day One to First Audit</h3>
                 <p class="tile-cp-blurb">A practitioner's roadmap from incorporation books to your first statutory audit &mdash; without the textbook fluff.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Accounting</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/gst-audit-mandatory-who-must-comply-who-is-exempt">
+            <a class="tile-cp is-read" href="https://patronaccounting.com/blog/gst-audit-mandatory-who-must-comply-who-is-exempt">
                 <span class="tile-num">ii.</span>
                 <h3 class="tile-cp-title">GST Audit: Who Must Comply &amp; Who is Exempt</h3>
                 <p class="tile-cp-blurb">Turnover thresholds, GSTR-9C applicability, exemptions and red flags decoded for SMEs.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">GST</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/income-tax-notice-after-itr-filing">
+            <a class="tile-cp is-read" href="https://patronaccounting.com/blog/income-tax-notice-after-itr-filing">
                 <span class="tile-num">iii.</span>
                 <h3 class="tile-cp-title">Income Tax Notice After ITR Filing: What to Do</h3>
                 <p class="tile-cp-blurb">Section 143(1), 139(9), 142(1), 148 &mdash; the playbook for every common notice type.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Income Tax</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/annual-compliance-requirements-for-companies-in-india">
+            <a class="tile-cp is-read" href="https://patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india">
                 <span class="tile-num">iv.</span>
                 <h3 class="tile-cp-title">Annual Compliance Requirements for Companies in India</h3>
                 <p class="tile-cp-blurb">AOC-4, MGT-7, DIR-3 KYC, board meetings &mdash; the full ROC calendar in one place.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">ROC</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/payroll-outsourcing-vs-in-house-sme-guide-india-2026">
+            <a class="tile-cp is-read" href="https://patronaccounting.com/blog/payroll-outsourcing-vs-in-house-sme-guide-india-2026">
                 <span class="tile-num">v.</span>
                 <h3 class="tile-cp-title">Payroll Outsourcing vs In-House: SME Guide India 2026</h3>
                 <p class="tile-cp-blurb">Cost, control, compliance risk &mdash; an honest comparison for growing SMEs.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Payroll</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="/blog/mis-reports-small-business-what-ca-should-deliver">
+            <a class="tile-cp is-read" href="https://patronaccounting.com/blog/mis-reports-small-business-what-ca-should-deliver">
                 <span class="tile-num">vi.</span>
                 <h3 class="tile-cp-title">MIS Reports for Small Business: What a CA Should Deliver</h3>
                 <p class="tile-cp-blurb">The dashboards every founder should expect from their finance partner &mdash; with examples.</p>
@@ -1362,10 +1362,12 @@
             <div>
                 <span class="sec-tag"><span class="tag-num">05</span> Latest from the Author</span>
                 <h2 class="sec-h2">All articles by <span class="accent-line">CA Sundram Gupta.</span></h2>
-                <p class="sec-sub">Auto-updated as new pieces are published. For the complete archive, visit the <a href="/blog" style="color:var(--orange);border-bottom:1px solid var(--orange);">Patron blog</a>.</p>
+                <p class="sec-sub">Auto-updated as new pieces are published. For the complete archive, visit the <a href="https://www.patronaccounting.com/blog" style="color:var(--orange);border-bottom:1px solid var(--orange);">Patron blog</a>.</p>
             </div>
             <span class="sec-counter">Auto-Updated</span>
         </div>
+
+        
 
         <!-- AUTHOR_POSTS_LOOP_START -->
         <div class="grid-cp">
@@ -1404,7 +1406,7 @@
         <!-- AUTHOR_POSTS_LOOP_END -->
 
         <div style="text-align:center;margin-top:36px;">
-            <a class="btn-cp-secondary" href="/blog">
+            <a class="btn-cp-secondary" href="https://www.patronaccounting.com/blog">
                 View Complete Patron Blog Archive
                 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="13" y2="8"/><polyline points="8 3 13 8 8 13"/></svg>
             </a>
@@ -1426,26 +1428,26 @@
 
         {{-- <!-- LARAVEL TIP: counts can be dynamic via {{ $tag->posts_count }} --> --}}
         <div class="topic-grid">
-            <a class="topic-tag" href="/blog?topic=gst">GST <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=income-tax">Income Tax <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=itr-filing">ITR Filing <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=tax-audit">Tax Audit <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=statutory-audit">Statutory Audit <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=roc-compliance">ROC Compliance <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=company-law">Company Law <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=llp">LLP <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=payroll">Payroll <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=labour-codes">Labour Codes <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=accounting">Accounting <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=virtual-cfo">Virtual CFO <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=mis-reports">MIS Reports <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=cash-flow">Cash Flow <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=tds">TDS <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=nri-tax">NRI Taxation <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=startup">Startup Compliance <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=sme">SME Advisory <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=ifrs">IFRS <span class="ct">/</span></a>
-            <a class="topic-tag" href="/blog?topic=gstat">GSTAT &amp; Litigation <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=gst">GST <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=income-tax">Income Tax <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=itr-filing">ITR Filing <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=tax-audit">Tax Audit <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=statutory-audit">Statutory Audit <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=roc-compliance">ROC Compliance <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=company-law">Company Law <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=llp">LLP <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=payroll">Payroll <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=labour-codes">Labour Codes <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=accounting">Accounting <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=virtual-cfo">Virtual CFO <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=mis-reports">MIS Reports <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=cash-flow">Cash Flow <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=tds">TDS <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=nri-tax">NRI Taxation <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=startup">Startup Compliance <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=sme">SME Advisory <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=ifrs">IFRS <span class="ct">/</span></a>
+            <a class="topic-tag" href="https://www.patronaccounting.com/blog?topic=gstat">GSTAT &amp; Litigation <span class="ct">/</span></a>
         </div>
     </div>
 </section>

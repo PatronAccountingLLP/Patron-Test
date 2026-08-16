@@ -3,23 +3,23 @@
 <meta name="description" content="Free company name search: test a company or LLP name against MCA Rule 8 / 8A for suffix, prohibited words and similarity, then check live on MCA & IPIndia.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/company-name-search">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/company-name-search">
 @section('meta')
 <meta property="og:title" content="Company Name Search — MCA Rule 8 Name Checker 2026">
 <meta property="og:description" content="Test a proposed company or LLP name against MCA Rule 8 / 8A naming guidelines, then run the live availability check on the official MCA and IPIndia portals.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/company-name-search">
-<meta property="og:image" content="/tools/company-name-search-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/company-name-search">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/company-name-search-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Company Name Search — MCA Rule 8 Name Checker 2026">
 <meta name="twitter:description" content="Test a proposed company name against MCA Rule 8 / 8A naming rules, then check live on MCA & IPIndia. Free & instant.">
-<meta name="twitter:image" content="/tools/company-name-search-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/company-name-search-og.png">
 @endsection
 @section('schema')
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 
 <script type="application/ld+json">
 {
@@ -27,7 +27,7 @@
   "@type": "SoftwareApplication",
   "name": "Company Name Search",
   "description": "Company Name Search is a name-compliance checker that tests a proposed company or LLP name against the MCA naming guidelines in Rule 8 and Rule 8A of the Companies (Incorporation) Rules, 2014, and Section 4(2) of the Companies Act, 2013. It checks for the mandatory entity suffix, restricted or prohibited words needing Central Government approval, names that are only a country or place, offensive content, and minor variations that do not create distinctiveness, then returns a rule-by-rule checklist. It cannot confirm live availability, so it links the user to the official MCA name-search, RUN and SPICe Plus services and the IPIndia trademark search for the binding check.",
-  "url": "/tools/company-name-search",
+  "url": "https://www.patronaccounting.com/tools/company-name-search",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -41,10 +41,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -57,9 +57,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Company Name Search", "item": "/tools/company-name-search"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Company Name Search", "item": "https://www.patronaccounting.com/tools/company-name-search"}
   ]
 }
 </script>
@@ -709,9 +709,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Company Name Search
 </nav>
@@ -783,7 +783,7 @@ a:focus-visible {
                     <a class="live-link" href="https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html" target="_blank" rel="noopener"><div class="ll-title">MCA Name Search →</div><div class="ll-sub">Search existing companies / LLPs</div></a>
                     <a class="live-link" href="https://www.mca.gov.in/" target="_blank" rel="noopener"><div class="ll-title">MCA V3 — RUN / SPICe+ →</div><div class="ll-sub">Reserve the name officially</div></a>
                     <a class="live-link" href="https://tmrsearch.ipindia.gov.in/tmrpublicsearch/" target="_blank" rel="noopener"><div class="ll-title">IPIndia Trademark Search →</div><div class="ll-sub">Check trademark conflicts</div></a>
-                    <a class="live-link" href="/trademark-search-report" target="_blank" rel="noopener"><div class="ll-title">Get a Trademark Search →</div><div class="ll-sub">Professional clearance report</div></a>
+                    <a class="live-link" href="https://www.patronaccounting.com/trademark-search-report" target="_blank" rel="noopener"><div class="ll-title">Get a Trademark Search →</div><div class="ll-sub">Professional clearance report</div></a>
                 </div>
                 <div class="post-result-cta" id="postResultCTA">
                     <div class="post-result-cta-head">Want this name reserved and the company incorporated?</div>
@@ -821,7 +821,7 @@ a:focus-visible {
                 <li>Blank, too-short or obviously problematic input;</li>
                 <li>Reminders about <strong>distinctiveness</strong> and <strong>trademark</strong> collisions.</li>
             </ul>
-            <p>The binding decision rests with the MCA's Central Registration Centre. Patron's guide on <a href="/blog/company-name-rules">MCA company name rules</a> explains the full picture.</p>
+            <p>The binding decision rests with the MCA's Central Registration Centre. Patron's guide on <a href="https://www.patronaccounting.com/blog/company-name-rules">MCA company name rules</a> explains the full picture.</p>
         </section>
 
         <section class="content-section" id="rules">
@@ -841,7 +841,7 @@ a:focus-visible {
                     <tr><td>Recently dissolved</td><td>Matches a company dissolved/liquidated within the last two years.</td></tr>
                 </tbody>
             </table>
-            <p>The redrafted 2026 Rule 8 lists 12 factors that are <em>ignored</em> when comparing names — which is exactly why cosmetic tweaks don't help. See the <a href="/blog/company-name-rules-mca-guidelines-for-name-selection">MCA name-selection guidelines</a>.</p>
+            <p>The redrafted 2026 Rule 8 lists 12 factors that are <em>ignored</em> when comparing names — which is exactly why cosmetic tweaks don't help. See the <a href="https://www.patronaccounting.com/blog/company-name-rules-mca-guidelines-for-name-selection">MCA name-selection guidelines</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -862,12 +862,12 @@ a:focus-visible {
                 <li><strong>RUN / SPICe+ Part A</strong> — reserve the name. SPICe+ Part A is built into incorporation (no separate fee, ~1–3 days); RUN is a standalone reservation (₹1,000 company / ₹200 LLP, ~2–5 days).</li>
                 <li><strong>IPIndia public trademark search</strong> — a name can clear the MCA yet still infringe a trademark; the Registrar now checks this too.</li>
             </ul>
-            <p>A "no match" on the basic MCA search <strong>does not guarantee approval</strong> — the ROC's deeper phonetic and trademark review can still reject it. For a professional clearance, see Patron's <a href="/trademark-search-report">trademark search report</a> and <a href="/trademark-registration">trademark registration</a>.</p>
+            <p>A "no match" on the basic MCA search <strong>does not guarantee approval</strong> — the ROC's deeper phonetic and trademark review can still reject it. For a professional clearance, see Patron's <a href="https://www.patronaccounting.com/trademark-search-report">trademark search report</a> and <a href="https://www.patronaccounting.com/trademark-registration">trademark registration</a>.</p>
         </section>
 
         <section class="content-section" id="process">
             <h2>The Name Approval Process</h2>
-            <p>Name approval runs through the MCA's Central Registration Centre. You may propose names via <strong>SPICe+ Part A</strong> (within incorporation) or <strong>RUN</strong>. If the first name is refused the Registrar considers your second; minor defects usually get <strong>one resubmission</strong>, but if both names fail you re-file and pay again. An approved name is then carried into <strong>SPICe+ Part B</strong> for incorporation, and must be used within its validity window. See Patron's <a href="/blog/form-spice-complete-guide-to-company-incorporation-in-india">SPICe+ incorporation guide</a>.</p>
+            <p>Name approval runs through the MCA's Central Registration Centre. You may propose names via <strong>SPICe+ Part A</strong> (within incorporation) or <strong>RUN</strong>. If the first name is refused the Registrar considers your second; minor defects usually get <strong>one resubmission</strong>, but if both names fail you re-file and pay again. An approved name is then carried into <strong>SPICe+ Part B</strong> for incorporation, and must be used within its validity window. See Patron's <a href="https://www.patronaccounting.com/blog/form-spice-complete-guide-to-company-incorporation-in-india">SPICe+ incorporation guide</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This tool is an indicative screen. The restricted-word and similarity lists the Registrar applies are broader than any client-side check, and the 2026 rule amendments take effect on Gazette notification — confirm the current position with a professional.</p>
             </div>
@@ -879,7 +879,7 @@ a:focus-visible {
             <p>A practical sequence works best. First, shortlist two or three distinctive candidates. Second, search each distinctive element separately on the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a> name database and the <a href="https://www.ipindia.gov.in/" target="_blank" rel="noopener">IPIndia</a> trademark register. Third, if you plan to claim startup benefits, remember that <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition through the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal and downstream incentives attach to the registered entity, and the entity's PAN and tax registrations on the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a> will carry the approved name — so getting the name right the first time avoids re-paperwork later. Keep a second choice ready, since the Registrar evaluates your alternate if the first is refused.</p>
             <p>It also helps to align the name with your <strong>main objects</strong>. A name implying finance, education or healthcare activities invites closer scrutiny and sometimes a sectoral NOC, so the name and the proposed business activity should tell a consistent story to the Central Registration Centre.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Picking a structure first makes the suffix obvious and the search cleaner — the <a href="/tools/entity-type-selector">entity type selector</a> can help you decide between Pvt Ltd, LLP, OPC and the rest.</p>
+                <p><strong>Tip:</strong> Picking a structure first makes the suffix obvious and the search cleaner — the <a href="https://www.patronaccounting.com/tools/entity-type-selector">entity type selector</a> can help you decide between Pvt Ltd, LLP, OPC and the rest.</p>
             </div>
         </section>
 
@@ -953,23 +953,23 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
-            <a href="/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR Comparison <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR Comparison <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Registration & Trademark</h3>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
-            <a href="/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
-            <a href="/trademark-search-report" class="sidebar-link">Trademark Search <span class="arrow">→</span></a>
-            <a href="/trademark-registration" class="sidebar-link">Trademark Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/trademark-search-report" class="sidebar-link">Trademark Search <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/trademark-registration" class="sidebar-link">Trademark Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/company-name-rules-mca-guidelines-for-name-selection" class="sidebar-link">MCA Name Selection Rules <span class="arrow">→</span></a>
-            <a href="/blog/form-spice-complete-guide-to-company-incorporation-in-india" class="sidebar-link">SPICe+ Incorporation Guide <span class="arrow">→</span></a>
-            <a href="/blog/company-name-change-procedure-complete-mca-process-documents-and-compliance" class="sidebar-link">Company Name Change <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/company-name-rules-mca-guidelines-for-name-selection" class="sidebar-link">MCA Name Selection Rules <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/form-spice-complete-guide-to-company-incorporation-in-india" class="sidebar-link">SPICe+ Incorporation Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/company-name-change-procedure-complete-mca-process-documents-and-compliance" class="sidebar-link">Company Name Change <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

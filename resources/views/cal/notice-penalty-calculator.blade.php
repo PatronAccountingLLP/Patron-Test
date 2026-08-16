@@ -4,27 +4,27 @@
 <meta name="description" content="Tax notice penalty calculator for Income Tax & GST: estimate total exposure (tax + interest + penalty) and compare worst-case vs mitigated outcome. Try now!">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/notice-penalty-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/notice-penalty-calculator">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/notice-penalty-calculator">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/notice-penalty-calculator">
 <meta property="og:title" content="Notice Penalty Exposure Calculator — IT/GST 2026">
 <meta property="og:description" content="Compute total exposure (tax + interest + penalty) for IT or GST notices with mitigation comparison.">
-<meta property="og:image" content="/og/notice-penalty-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/og/notice-penalty-calculator.jpg">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Notice Penalty Exposure Calculator — IT/GST 2026">
 <meta name="twitter:description" content="Compute tax + interest + penalty exposure for IT or GST notices with mitigation impact.">
-<meta name="twitter:image" content="/og/notice-penalty-calculator.jpg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/og/notice-penalty-calculator.jpg">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection
 @section('schema')
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Notice Penalty Exposure Calculator","description":"Notice Penalty Exposure Calculator computes the total financial exposure on a tax notice received from the Income-tax Department or the GST Department. Inputs include the notice type (Income Tax or GST), the specific section or stage of the notice (Section 142(1), 143(2), 148, 156, 270A under-reporting, 270A misreporting, or 271 for Income Tax; ASMT-10, DRC-01A pre-show-cause, DRC-01 Section 73, DRC-01 Section 74, DRC-07 Section 73 order, DRC-07 Section 74 order, or Section 76 for GST), the disputed tax amount mentioned in the notice in Indian Rupees, the number of days since the notice was received (which drives Section 220(2) interest accrual for Income Tax), and the approximate number of months for which the tax has been outstanding (which drives Section 50 interest accrual at 18 percent per annum for GST). The output is a breakdown of total exposure (worst case versus Patron-mitigated case) showing tax component, accrued interest component, and penalty component, along with the potential savings from prompt and professional response. The tool also highlights specific mitigation pathways such as Section 270AA waiver for under-reporting penalty, payment before show-cause notice for GST Section 74 (reducing penalty from 100 percent to 15 percent), and payment within 30 days of DRC-07 order (reducing penalty from 100 percent to 50 percent).","url":"/tools/notice-penalty-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"/#organization"},"provider":{"@id":"/#organization"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Notice Penalty Exposure Calculator","description":"Notice Penalty Exposure Calculator computes the total financial exposure on a tax notice received from the Income-tax Department or the GST Department. Inputs include the notice type (Income Tax or GST), the specific section or stage of the notice (Section 142(1), 143(2), 148, 156, 270A under-reporting, 270A misreporting, or 271 for Income Tax; ASMT-10, DRC-01A pre-show-cause, DRC-01 Section 73, DRC-01 Section 74, DRC-07 Section 73 order, DRC-07 Section 74 order, or Section 76 for GST), the disputed tax amount mentioned in the notice in Indian Rupees, the number of days since the notice was received (which drives Section 220(2) interest accrual for Income Tax), and the approximate number of months for which the tax has been outstanding (which drives Section 50 interest accrual at 18 percent per annum for GST). The output is a breakdown of total exposure (worst case versus Patron-mitigated case) showing tax component, accrued interest component, and penalty component, along with the potential savings from prompt and professional response. The tool also highlights specific mitigation pathways such as Section 270AA waiver for under-reporting penalty, payment before show-cause notice for GST Section 74 (reducing penalty from 100 percent to 15 percent), and payment within 30 days of DRC-07 order (reducing penalty from 100 percent to 50 percent).","url":"https://www.patronaccounting.com/tools/notice-penalty-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"/tools"},{"@type":"ListItem","position":3,"name":"Notice Penalty Exposure Calculator","item":"/tools/notice-penalty-calculator"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Notice Penalty Exposure Calculator","item":"https://www.patronaccounting.com/tools/notice-penalty-calculator"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -245,7 +245,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#it-rates">IT Penalty Rates</a><a href="#gst-rates">GST Penalty Rates</a><a href="#mitigation">Mitigation Paths</a><a href="#worked-example">Worked Examples</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools">Free Tools</a><span>›</span>Notice Penalty Exposure Calculator</nav>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Notice Penalty Exposure Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>
@@ -360,7 +360,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 <h2>How to Use the Penalty Exposure Calculator</h2>
 <ol>
 <li><strong>Pick notice type — Income Tax or GST.</strong> The penalty regime differs significantly between the two.</li>
-<li><strong>Select the stage / section.</strong> If you don't know the section, use our <a href="/tools/notice-section-identifier">Notice Section Identifier tool</a> first to identify it from the notice content.</li>
+<li><strong>Select the stage / section.</strong> If you don't know the section, use our <a href="https://www.patronaccounting.com/tools/notice-section-identifier">Notice Section Identifier tool</a> first to identify it from the notice content.</li>
 <li><strong>Enter the tax demand amount.</strong> This should be the principal tax demanded (pre-interest, pre-penalty). Most notices state this clearly. If the notice shows total (tax + interest + penalty), enter only the tax component.</li>
 <li><strong>Enter days since the notice was received.</strong> This drives Section 220(2) interest accrual for IT (1% per month after 30 days) and helps determine which mitigation window is still open for GST.</li>
 <li><strong>Enter months the tax has been overdue.</strong> For GST, interest under Section 50 (18% per annum) is calculated from the original due date of payment. If the notice is for FY 2024-25, the months overdue could be 12-24 already.</li>
@@ -574,27 +574,27 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 </div></div>
 
 <div class="sidebar-card"><h3>City Service Pages</h3>
-<a href="/income-tax-notice/hyderabad" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
-<a href="/income-tax-notice/chennai" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
-<a href="/income-tax-notice/pune" class="sidebar-link">IT Notice CA in Pune <span class="arrow">→</span></a>
-<a href="/income-tax-notice/mumbai" class="sidebar-link">IT Notice CA in Mumbai <span class="arrow">→</span></a>
-<a href="/income-tax-notice/delhi" class="sidebar-link">IT Notice CA in Delhi <span class="arrow">→</span></a>
-<a href="/income-tax-notice/bangalore" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/hyderabad" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/chennai" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/pune" class="sidebar-link">IT Notice CA in Pune <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/mumbai" class="sidebar-link">IT Notice CA in Mumbai <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/delhi" class="sidebar-link">IT Notice CA in Delhi <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice/bangalore" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
-<a href="/gst-notice-reply" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
-<a href="/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
-<a href="/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>
-<a href="/gst-litigation" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-notice-reply" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-litigation" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>
-<a href="/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
-<a href="/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
-<a href="/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
-<a href="/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/notice-section-identifier" class="sidebar-link">Notice Section Identifier <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="sidebar-link">GST Late Fee Calculator <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tools/capital-gains-calculator" class="sidebar-link">Capital Gains Calculator <span class="arrow">→</span></a>
 </div>
 </aside>
 

@@ -3,22 +3,22 @@
 <meta name="description" content="Free stamp duty calculator for incorporation: estimate state-wise MoA &amp; AoA stamp duty on company &amp; LLP registration by authorised capital, across India.">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/incorporation-stamp-duty-calculator">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator">
 @section('meta')
 <meta property="og:title" content="Incorporation Stamp Duty Calculator — State-wise 2026">
 <meta property="og:description" content="Estimate state-wise stamp duty on MoA and AoA for company or LLP incorporation by authorised capital, with an itemised breakdown across Indian states.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="/tools/incorporation-stamp-duty-calculator">
-<meta property="og:image" content="/tools/incorporation-stamp-duty-calculator-og.png">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator-og.png">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Incorporation Stamp Duty Calculator — State-wise 2026">
 <meta name="twitter:description" content="Estimate state-wise MoA &amp; AoA stamp duty on company / LLP incorporation by authorised capital. Free &amp; instant.">
-<meta name="twitter:image" content="/tools/incorporation-stamp-duty-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator-og.png">
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -27,7 +27,7 @@
   "@type": "SoftwareApplication",
   "name": "Incorporation Stamp Duty Calculator",
   "description": "Incorporation Stamp Duty Calculator estimates the state stamp duty payable on the Memorandum of Association and Articles of Association when incorporating a company, or on the agreement when incorporating an LLP, based on the state of the registered office and the authorised share capital or contribution. It models the differing state structures, including flat fees, percentage rates and per-block slab systems, and returns an itemised Memorandum and Articles breakdown with a total. The figure is indicative because stamp duty is fixed by each state Stamp Act and is auto-calculated by the MCA SPICe Plus system at the time of filing.",
-  "url": "/tools/incorporation-stamp-duty-calculator",
+  "url": "https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator",
   "applicationCategory": "BusinessApplication",
   "inLanguage": "en-IN",
   "isAccessibleForFree": true,
@@ -41,10 +41,10 @@
   },
   "reviewedBy": {
     "@type": "Person",
-    "@id": "/#founder",
+    "@id": "https://patronaccounting.com/#founder",
     "name": "CA Sundram Gupta",
     "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
+    "url": "https://www.patronaccounting.com/contact-page",
     "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
     "hasCredential": [{
       "@type": "EducationalOccupationalCredential",
@@ -57,9 +57,9 @@
       }
     }]
   },
-  "publisher": { "@id": "/#organization" },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
   "provider": {
-    "@id": "/#organization"
+    "@id": "https://patronaccounting.com/#organization"
   }
 }
 </script>
@@ -69,9 +69,9 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Incorporation Stamp Duty Calculator", "item": "/tools/incorporation-stamp-duty-calculator"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Incorporation Stamp Duty Calculator", "item": "https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator"}
   ]
 }
 </script>
@@ -697,9 +697,9 @@ a:focus-visible {
 </nav>
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="https://www.patronaccounting.com/">Home</a>
     <span>›</span>
-    <a href="/tools">Free Tools</a>
+    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
     <span>›</span>
     Incorporation Stamp Duty Calculator
 </nav>
@@ -808,14 +808,14 @@ a:focus-visible {
                 <li><strong>Calculate</strong> for an itemised estimate. Treat it as a planning figure; MCA computes the exact duty at filing.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Stamp duty is just one line of the total. For the full picture — SPICe+ fee, DSC, professional fee — use the <a href="/tools/incorporation-cost-estimator">incorporation cost estimator</a>.</p>
+                <p><strong>CA Tip:</strong> Stamp duty is just one line of the total. For the full picture — SPICe+ fee, DSC, professional fee — use the <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator">incorporation cost estimator</a>.</p>
             </div>
         </section>
 
         <section class="content-section" id="what-is">
             <h2>What Incorporation Stamp Duty Is</h2>
             <p>When you incorporate, the state levies <strong>stamp duty</strong> on the documents that constitute the entity — the <strong>Memorandum of Association (MoA)</strong> and <strong>Articles of Association (AoA)</strong> for a company, or the <strong>LLP agreement</strong> for an LLP. It's what makes those documents legally enforceable, and it's collected through the MCA portal as part of the <strong>SPICe+</strong> (or <strong>FiLLiP</strong>) filing.</p>
-            <p>Because stamp duty is a <strong>state subject</strong> under each state's Stamp Act, the rate and method vary widely. The MoA is usually a small flat fee (₹100–₹500); the <strong>AoA is where the real variation sits</strong>, typically linked to authorised capital. See the <a href="/blog/documents-required-for-company-registration-in-india">documents required</a> and the <a href="/blog/private-limited-company-registration-cost-breakdown-government-fees">Pvt Ltd cost breakdown</a> for context.</p>
+            <p>Because stamp duty is a <strong>state subject</strong> under each state's Stamp Act, the rate and method vary widely. The MoA is usually a small flat fee (₹100–₹500); the <strong>AoA is where the real variation sits</strong>, typically linked to authorised capital. See the <a href="https://www.patronaccounting.com/blog/documents-required-for-company-registration-in-india">documents required</a> and the <a href="https://www.patronaccounting.com/blog/private-limited-company-registration-cost-breakdown-government-fees">Pvt Ltd cost breakdown</a> for context.</p>
         </section>
 
         <section class="content-section" id="structures">
@@ -864,7 +864,7 @@ a:focus-visible {
         <section class="content-section" id="sh7">
             <h2>Stamp Duty on Capital Increase (SH-7)</h2>
             <p>Stamp duty isn't only an incorporation event. If you later <strong>increase authorised capital</strong>, you file <strong>Form SH-7</strong> with the ROC and pay additional stamp duty on the <em>increased</em> amount under the same state rules, plus the MCA filing fee for the new slab. There's no penalty for starting low and topping up later — which is exactly why a low initial capital is the standard cost-saving move.</p>
-            <p>For ongoing costs after incorporation, the <a href="/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a> and <a href="/tools/mca-late-fee-calculator">MCA late-fee calculator</a> help you plan.</p>
+            <p>For ongoing costs after incorporation, the <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a> and <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator">MCA late-fee calculator</a> help you plan.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This is an indicative estimate. Stamp duty is fixed by each state's Stamp Act, revised by notification, and auto-calculated by MCA at filing — confirm the current rate for your state before budgeting.</p>
             </div>
@@ -876,7 +876,7 @@ a:focus-visible {
             <p>The practical consequence is that the duty is computed live by the MCA's SPICe+ system at the moment of filing, drawing on each state's current schedule. The company itself is registered under the Companies Act 2013 administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>, while the resulting entity will hold a PAN and file returns through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax department</a>. Where the incorporation documents and accounts are prepared by professionals, those follow standards issued by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
             <p>One useful planning point: if you intend to seek <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> startup recognition through the <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a> portal, the entity must be incorporated first, so factoring the stamp duty into your day-one budget — rather than discovering it at filing — keeps the whole registration timeline on track.</p>
             <div class="callout">
-                <p><strong>Tip:</strong> Deciding which structure to register is the step before this one — the <a href="/tools/entity-type-selector">entity type selector</a> helps you choose between Pvt Ltd, LLP, OPC and more.</p>
+                <p><strong>Tip:</strong> Deciding which structure to register is the step before this one — the <a href="https://www.patronaccounting.com/tools/entity-type-selector">entity type selector</a> helps you choose between Pvt Ltd, LLP, OPC and more.</p>
             </div>
         </section>
 
@@ -950,23 +950,23 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Tools</h3>
-            <a href="/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
-            <a href="/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
-            <a href="/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
-            <a href="/tools/mca-late-fee-calculator" class="sidebar-link">MCA Late Fee Calculator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/incorporation-cost-estimator" class="sidebar-link">Incorporation Cost Estimator <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/entity-type-selector" class="sidebar-link">Entity Type Selector <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="sidebar-link">Annual Compliance Cost <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator" class="sidebar-link">MCA Late Fee Calculator <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Registration Pages</h3>
-            <a href="/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
-            <a href="/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
-            <a href="/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/private-limited-company-registration-cost-breakdown-government-fees" class="sidebar-link">Pvt Ltd Cost Breakdown <span class="arrow">→</span></a>
-            <a href="/blog/documents-required-for-company-registration-in-india" class="sidebar-link">Documents Required <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/private-limited-company-registration-cost-breakdown-government-fees" class="sidebar-link">Pvt Ltd Cost Breakdown <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/documents-required-for-company-registration-in-india" class="sidebar-link">Documents Required <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

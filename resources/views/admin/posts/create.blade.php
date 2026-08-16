@@ -1158,7 +1158,7 @@ function updateSEOPreview() {
     
     // URL
     const slug = slugInput.value || 'post-slug';
-    urlPreview.textContent = `/${slug}`;
+    urlPreview.textContent = `https://patronaccounting.com/${slug}`;
     
     // Description
     const desc = metaDescInput.value || 'Your meta description will appear here. Make it compelling to encourage clicks from search results.';

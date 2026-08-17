@@ -1,4 +1,20 @@
-
+<!--
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                PATRON ACCOUNTING - CUSTOM 410 (GONE) PAGE                    ║
+║                Purpose: Shown when a discontinued service URL is requested   ║
+║                Design tokens: synced with Master Service Page Template v2.0  ║
+║                Fonts: Barlow + DM Sans | Colors: #E8712C orange, #1B365D blue║
+║                                                                              ║
+║                URL SOURCE OF TRUTH:                                          ║
+║                  HTML_URL_recon (xlsx) - India (National) Pages sheet        ║
+║                  All 28 services are "Live" status, filters cleared          ║
+║                  Includes all 20 starred services + 8 key non-starred        ║
+║                                                                              ║
+║                CONTACT (pulled from live patronaccounting.com):              ║
+║                  Phone / WhatsApp : +91 945 945 6700 (9459456700)            ║
+║                  Email            : info@patronaccounting.com                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+-->
 
 @extends('layouts.app')
 
@@ -39,6 +55,8 @@
   "name": "Service No Longer Available - Patron Accounting",
   "description": "This service has been discontinued by Patron Accounting. Explore our current services below.",
   "inLanguage": "en-IN",
+  "datePublished": "2026-04-23T00:00:00+05:30",
+  "dateModified": "2026-08-17T00:00:00+05:30",
   "isPartOf": {
     "@type": "WebSite",
     "@id": "https://www.patronaccounting.com/#website",
@@ -195,6 +213,12 @@
         color: var(--pa-text-muted);
         max-width: 620px;
         margin: 0 auto 28px;
+    }
+    .pa-gone-hero .pa-gone-updated {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 13px;
+        color: var(--pa-text-muted);
+        margin: 0 auto 24px;
     }
     .pa-gone-hero .consult-note {
         font-family: 'DM Sans', sans-serif;
@@ -527,6 +551,10 @@
                 If you had an ongoing engagement with us for this service, please reach out and our team will guide you on next steps.
             </p>
 
+            <p class="pa-gone-updated">
+                Last updated: <time datetime="2026-08-17">17 August 2026</time>
+            </p>
+
             <div class="pa-gone-hero-ctas">
                 <a href="tel:+919459456700" class="pa-btn-primary">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -562,7 +590,7 @@
             <div class="pa-gone-section-head">
                 <span class="eyebrow">Services We Currently Offer</span>
                 <h2>Explore Our Most Requested Services</h2>
-                <p>27 flagship services across registrations, filings, accounting, audit and compliance. Click any card to continue.</p>
+                <p>28 flagship services across registrations, filings, accounting, audit and compliance. Click any card to continue.</p>
             </div>
 
             <!-- CATEGORY 1: BUSINESS & COMPANY REGISTRATION -->
@@ -740,7 +768,7 @@
                         </svg>
                     </span>
                     <h3 class="pa-gone-category-title">Trademark, Licenses & NGO Approvals</h3>
-                    <span class="pa-gone-category-count">4 services</span>
+                    <span class="pa-gone-category-count">5 services</span>
                 </div>
                 <div class="pa-gone-grid">
                     <a href="https://www.patronaccounting.com/trademark-registration" class="pa-gone-card">
@@ -756,6 +784,14 @@
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">FSSAI Registration</span>
                             <span class="pa-gone-card-sub">Food license basic / state / central</span>
+                        </span>
+                        <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                    </a>
+                    <a href="https://www.patronaccounting.com/drug-license" class="pa-gone-card">
+                        <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20.5a7 7 0 11-9-9l9 9zM13 7l6-6m-6 6L7 1m6 6l6 6m-6-6L7 13"/></svg></span>
+                        <span class="pa-gone-card-text">
+                            <span class="pa-gone-card-name">Drug License</span>
+                            <span class="pa-gone-card-sub">Retail / wholesale pharma</span>
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>

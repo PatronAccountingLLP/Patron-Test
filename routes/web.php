@@ -396,7 +396,14 @@ Route::prefix('nic-code')->group(function () {
 // real routes - /5,Municipalbuilding,Railwaystationsquare,Alwaye,Ernakulampin and
 // /hsn-code/4802 / 4 are both live examples Google is still crawling. A path that
 // does not look like a code now 404s at routing, before it can reach a template.
-Route::prefix('ifsc-code')->group(function () {
+// Directory Retirement Plan 2026-08-16, phases 1 and 2. The retired_directory
+// middleware serves 410 Gone for the whole IFSC estate (169,871 URLs) and for
+// the 8,143 HSN codes that had no impressions and no organic sessions in the
+// 16 May - 16 Aug 2026 window. To run the phases apart as the plan suggests,
+// drop the middleware off this ifsc-code group and re-add it 2-3 weeks later;
+// HSN Phase 1 then ships on its own. Do NOT block these paths in robots.txt -
+// Googlebot has to be able to crawl the URL to see the 410.
+Route::prefix('ifsc-code')->middleware('retired_directory')->group(function () {
     Route::get('/update-slug', [DynamicController::class, 'updateIfscSlug'])->name('dynamic.update-ifsc-slug');
     Route::get('/search', [DynamicController::class, 'searchIfscCodes'])->name('dynamic.search-ifsc');
     Route::get('/{bankname}/{slug}', [DynamicController::class, 'ifscloadcontent'])->name('dynamic.ifscloadcontent')
@@ -409,7 +416,9 @@ Route::prefix('port-code')->group(function () {
     Route::get('/{slug}/{portcode}', [DynamicController::class, 'portloadcontent'])->name('dynamic.portloadcontent');
 });
 
-Route::prefix('hsn-code')->group(function () {
+// Only the codes listed in resources/retired/hsn-410-codes.php go 410 here.
+// The ~5.2k HSN pages that still earn impressions are Phase 3 and stay live.
+Route::prefix('hsn-code')->middleware('retired_directory')->group(function () {
     Route::get('/update-slug', [DynamicController::class, 'updateHsnSlug'])->name('dynamic.update-hsn-slug');
     Route::get('/search', [DynamicController::class, 'searchHsnCodes'])->name('dynamic.search-hsn');
     Route::get('/{slug}', [DynamicController::class, 'hsnloadcontent'])->name('dynamic.hsnloadcontent')

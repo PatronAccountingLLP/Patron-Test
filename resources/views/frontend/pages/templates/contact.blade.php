@@ -22,6 +22,19 @@
     }
     
 
+    .pa-c-mainpages-head {
+        font-family: 'Barlow', sans-serif; font-weight: 700; color: #14365F;
+        font-size: 22px; margin-bottom: 16px;
+    }
+    .pa-c-mainpages { display: flex; flex-wrap: wrap; gap: 10px; }
+    .pa-c-mainpage {
+        display: inline-block; padding: 9px 16px; border-radius: 999px;
+        border: 1px solid #DDE3EA; background: #fff; color: #14365F;
+        font-size: 14px; font-weight: 600; text-decoration: none;
+        transition: border-color .2s ease, color .2s ease, background .2s ease;
+    }
+    .pa-c-mainpage:hover { border-color: #F26522; color: #F26522; background: #FFF7F3; }
+
     .pa-c-link {
         color: #F26522;
         text-decoration: none;
@@ -278,9 +291,9 @@
 </div>        
             </div>
         
-                <!-- Our other offices. Fills the space left by the short form
+                {{-- Our other offices. Fills the space left by the short form
                      column, and puts the four non-HQ offices on a page that
-                     previously showed only Pune. -->
+                     previously showed only Pune. --}}
                 <div class="pa-c-offices">
                     <h4 class="pa-c-offices-head">Our Other Offices</h4>
                     <div class="row g-4">
@@ -402,93 +415,44 @@
         </div>
     </div>
     
-    <!-- FAQ Section -->
-    <div class="row mb-5">
-        <div class="col-12">
-            <div class="faq-section">
-                <h3 class="mb-4"><i class="bi bi-question-circle text-info"></i> Frequently Asked Questions</h3>
-                
-                <div class="accordion" id="contactFAQ">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq1">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
-                                How quickly do you respond to messages?
-                            </button>
-                        </h2>
-                        <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
-                            <div class="accordion-body">
-                                We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly.
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq2">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
-                                What information should I include in my message?
-                            </button>
-                        </h2>
-                        <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
-                            <div class="accordion-body">
-                                Please provide as much detail as possible about your inquiry, including your contact preferences and any relevant background information.
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq3">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
-                                Do you offer phone consultations?
-                            </button>
-                        </h2>
-                        <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#contactFAQ">
-                            <div class="accordion-body">
-                                Yes! We offer phone consultations by appointment. Please mention in your message that you'd prefer a phone consultation.
-                            </div>
+    {{-- FAQ. Uses the sitewide expanded-FAQ partial (class contract in
+                 /css/faq.css, toggle in /js/faq-toggle.js) rather than the
+                 Bootstrap accordion this template shipped with, so it matches
+                 every other FAQ on the site and emits FAQPage schema. The
+                 partial renders its enquiry form in the left column. --}}
+            @include('partials.faq-section', [
+                    'faqs' => [
+                        ['question' => 'How quickly do you respond to messages?',
+                         'answer'   => 'We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly.'],
+                        ['question' => 'What information should I include in my message?',
+                         'answer'   => 'Please provide as much detail as possible about your inquiry, including your contact preferences and any relevant background information.'],
+                        ['question' => 'Do you offer phone consultations?',
+                         'answer'   => 'Yes! We offer phone consultations by appointment. Please mention in your message that you\'d prefer a phone consultation.'],
+                    ],
+                    'lead' => 'Quick answers to what we are asked most. Prefer to talk it through? Send the form and a CA will come back to you.',
+                    'sectionId' => 'contact-faq',
+                    'includeSchema' => true,
+                ])
+
+            {{-- Main service pages. Replaces the CMS "Related Topics" chips,
+                 which pointed at /page-categories/* — a listing route, not
+                 anywhere a visitor on the contact page wants to land. --}}
+            <div class="row mb-5">
+                    <div class="col-12">
+                        <h4 class="pa-c-mainpages-head">Explore our main services</h4>
+                        <div class="pa-c-mainpages">
+                            <a class="pa-c-mainpage" href="/accounting-bookkeeping-services">Accounting &amp; Bookkeeping</a>
+                            <a class="pa-c-mainpage" href="/business-registration-services">Company Registration</a>
+                            <a class="pa-c-mainpage" href="/gst-registration">GST Registration</a>
+                            <a class="pa-c-mainpage" href="/itr-services">ITR Filing</a>
+                            <a class="pa-c-mainpage" href="/payroll-services">Payroll &amp; EOR</a>
+                            <a class="pa-c-mainpage" href="/statutory-audit">Statutory Audit</a>
+                            <a class="pa-c-mainpage" href="/net-worth-certificate-by-ca">Net Worth Certificate</a>
+                            <a class="pa-c-mainpage" href="/trademark-registration">Trademark Registration</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Social Media Links -->
-    <div class="row mb-5">
-        <div class="col-12 text-center">
-            <h4 class="mb-4">Connect with Us</h4>
-            <div class="d-flex justify-content-center gap-3">
-                <!--<a href="#" class="btn btn-outline-primary btn-lg">-->
-                <!--    <i class="bi bi-facebook"></i>-->
-                <!--</a>-->
-                <!--<a href="#" class="btn btn-outline-info btn-lg">-->
-                <!--    <i class="bi bi-twitter"></i>-->
-                <!--</a>-->
-                <a href="https://www.instagram.com/patronaccounting/" class="btn btn-outline-danger btn-lg">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://in.linkedin.com/company/patron-accounting-llp" class="btn btn-outline-primary btn-lg">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Categories -->
-    @if($page->categories->count() > 0)
-        <div class="row mb-5">
-            <div class="col-12 text-center">
-                <h5 class="mb-3">Related Topics</h5>
-                <div class="d-flex flex-wrap justify-content-center gap-2">
-                    @foreach($page->categories as $category)
-                        <a href="{{ url('/page-categories/' . $category->slug) }}" 
-                           class="btn btn-outline-secondary btn-sm">
-                            <i class="bi bi-tag"></i> {{ $category->name }}
-                        </a>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    @endif
+
 </div>
 @endsection
 

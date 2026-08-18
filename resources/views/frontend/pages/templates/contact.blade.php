@@ -21,6 +21,26 @@
         z-index: 10;
     }
     
+
+    .pa-c-offices { margin-top: 32px; }
+    .pa-c-offices-head {
+        font-family: 'Barlow', sans-serif; font-weight: 700; color: #14365F;
+        font-size: 22px; margin-bottom: 18px;
+    }
+    .pa-c-off { height: 100%; display: flex; flex-direction: column; }
+    .pa-c-off-city {
+        font-family: 'Barlow', sans-serif; font-weight: 700; color: #14365F;
+        font-size: 17px; margin-bottom: 8px;
+    }
+    .pa-c-off-addr { font-size: 14px; line-height: 1.6; margin-bottom: 12px; flex: 1; }
+    .pa-c-off-bot {
+        display: flex; justify-content: space-between; align-items: center;
+        gap: 12px; font-size: 13px; flex-wrap: wrap;
+    }
+    .pa-c-off-hours { color: #6B7683; }
+    .pa-c-off-bot a { color: #F26522; text-decoration: none; font-weight: 600; }
+    .pa-c-off-bot a:hover { text-decoration: underline; }
+
     .contact-info-card {
         background: white;
         border-radius: 1rem;
@@ -247,7 +267,44 @@
 	</div>
 </div>        
             </div>
-        </div>
+        
+                <!-- Our other offices. Fills the space left by the short form
+                     column, and puts the four non-HQ offices on a page that
+                     previously showed only Pune. -->
+                <div class="pa-c-offices">
+                    <h4 class="pa-c-offices-head">Our Other Offices</h4>
+                    <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="contact-info-card pa-c-off">
+                            <h6 class="pa-c-off-city">Mumbai</h6>
+                            <p class="text-muted pa-c-off-addr">104, Rajshila Building, 597 J.S.S. Rd,<br>Marine Lines, Mumbai &ndash; 400002</p>
+                            <div class="pa-c-off-bot"><span class="pa-c-off-hours">Mon&ndash;Sat 9&ndash;5</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+Rajshila+Building+597+JSS+Road+Marine+Lines+Mumbai+400002" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-info-card pa-c-off">
+                            <h6 class="pa-c-off-city">Delhi</h6>
+                            <p class="text-muted pa-c-off-addr">3rd Floor, B-6/154-155,<br>Sector 5, Rohini, Delhi &ndash; 110085</p>
+                            <div class="pa-c-off-bot"><span class="pa-c-off-hours">Open 24/7</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+B-6+154-155+Sector+5+Rohini+Delhi+110085" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-info-card pa-c-off">
+                            <h6 class="pa-c-off-city">Gurugram</h6>
+                            <p class="text-muted pa-c-off-addr">Pioneer Urban Square, B109,<br>Golf Course Ext Rd, Sector 62, Gurugram &ndash; 122098</p>
+                            <div class="pa-c-off-bot"><span class="pa-c-off-hours">Mon&ndash;Sun 9&ndash;7</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+Pioneer+Urban+Square+B109+Golf+Course+Ext+Road+Sector+62+Gurugram+122098" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-info-card pa-c-off">
+                            <h6 class="pa-c-off-city">Ahmedabad</h6>
+                            <p class="text-muted pa-c-off-addr">Phoenix Tower, 1107, near Commerce Six Road,<br>Drive In Rd, Navrangpura, Ahmedabad &ndash; 380009</p>
+                            <div class="pa-c-off-bot"><span></span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+Phoenix+Tower+1107+Commerce+Six+Road+Drive+In+Road+Navrangpura+Ahmedabad+380009" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
         
         <!-- Contact Information -->
         <div class="col-lg-4 mb-5">

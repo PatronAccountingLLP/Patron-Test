@@ -22,6 +22,16 @@
     }
     
 
+    .pa-c-link {
+        color: #F26522;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color .2s ease;
+    }
+    .pa-c-link:hover { color: #14365F; text-decoration: underline; }
+    .contact-info-card .pa-c-link { display: inline-block; }
+    .pa-c-maps { display: block; margin-top: 10px; font-size: 13px; }
+
     .pa-c-offices { margin-top: 32px; }
     .pa-c-offices-head {
         font-family: 'Barlow', sans-serif; font-weight: 700; color: #14365F;
@@ -316,8 +326,10 @@
                         </div>
                         <h5 class="mb-3">Head Office</h5>
                         <p class="text-muted mb-0">
-                            Office No B4, <br>RTC Silver, Wagholi, <br>Pune, Maharashtra-412207
-                            
+                            <a class="pa-c-link" href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+RTC+Silver+Sai+Satyam+Park+Wagholi+Pune+412207" target="_blank" rel="noopener">
+                                Office No B4, <br>RTC Silver, Wagholi, <br>Pune, Maharashtra-412207
+                            </a>
+                            <span class="pa-c-maps"><a class="pa-c-link" href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+RTC+Silver+Sai+Satyam+Park+Wagholi+Pune+412207" target="_blank" rel="noopener">View on Maps &rarr;</a></span>
                         </p>
                     </div>
                 </div>
@@ -330,12 +342,12 @@
                         <h5 class="mb-3">Phone & Email</h5>
                         <p class="text-muted mb-2">
 <strong>Phone:</strong>
-<a href="tel:+919459456700" style="text-decoration:none; color:inherit;">
+<a class="pa-c-link" href="tel:+919459456700">
   +91 9459456700
 </a><br>
 
 <strong>Email:</strong>
-<a href="mailto:sales@patronaccounting.com" style="text-decoration:none; color:inherit;">
+<a class="pa-c-link" href="mailto:sales@patronaccounting.com">
   sales@patronaccounting.com
 </a>
 

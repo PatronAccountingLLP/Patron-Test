@@ -122,7 +122,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <div class="pa-h-feature">
             <div class="pa-h-feature-t">Registrations — not sure where to start?</div>
             <p>Pick the right structure - Pvt Ltd, LLP, OPC or Section 8 - with expert CA guidance.</p>
-            <a class="pa-h-feature-btn" href="/contact">Talk to an Expert →</a>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
         </div>
       </li>
@@ -148,7 +148,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <div class="pa-h-feature">
             <div class="pa-h-feature-t">Tax &amp; GST — not sure where to start?</div>
             <p>GST registration, returns and income-tax filing handled by experienced CAs.</p>
-            <a class="pa-h-feature-btn" href="/contact">Talk to an Expert →</a>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
         </div>
       </li>
@@ -169,7 +169,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <div class="pa-h-feature">
             <div class="pa-h-feature-t">GSTAT &amp; Audit — not sure where to start?</div>
             <p>Expert GST appeal representation plus statutory, tax and internal audits.</p>
-            <a class="pa-h-feature-btn" href="/contact">Talk to an Expert →</a>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
         </div>
       </li>
@@ -190,7 +190,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <div class="pa-h-feature">
             <div class="pa-h-feature-t">Licenses &amp; IP — not sure where to start?</div>
             <p>FSSAI, trademark, ISO and other licenses secured end-to-end by our experts.</p>
-            <a class="pa-h-feature-btn" href="/contact">Talk to an Expert →</a>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
         </div>
       </li>
@@ -211,7 +211,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <div class="pa-h-feature">
             <div class="pa-h-feature-t">Accounting &amp; Payroll — not sure where to start?</div>
             <p>Hand off your bookkeeping and payroll to a dedicated team on Zoho Books.</p>
-            <a class="pa-h-feature-btn" href="/contact">Talk to an Expert →</a>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
         </div>
       </li>
@@ -237,18 +237,18 @@ body .content-section[id]{scroll-margin-top:150px}
           <div class="pa-h-feature">
             <div class="pa-h-feature-t">Compliance — not sure where to start?</div>
             <p>Stay ROC, FEMA and annual-compliance ready with proactive expert support.</p>
-            <a class="pa-h-feature-btn" href="/contact">Talk to an Expert →</a>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
         </div>
       </li>
         <li class="pa-h-sep"></li>
         <li class="pa-h-item pa-h-more">
           <button class="pa-h-tab" type="button">More<i class="pa-caret"></i></button>
-          <div class="pa-h-panel pa-h-panel--more"><a class="pa-h-morelink" href="/about-us">About Us</a><a class="pa-h-morelink" href="/meet-our-founder">Meet Our Founder</a><a class="pa-h-morelink" href="/career">Career</a><a class="pa-h-morelink" href="/refer-and-earn">Refer &amp; Earn</a><a class="pa-h-morelink" href="/partner-with-us">Partner With Us</a><a class="pa-h-morelink" href="/tools">Free Tools &amp; Calculators</a><a class="pa-h-morelink" href="/blog">Blogs</a><a class="pa-h-morelink" href="/compliance-calendar">Compliance Calendar</a><a class="pa-h-morelink" href="/contact">Contact Us</a></div>
+          <div class="pa-h-panel pa-h-panel--more"><a class="pa-h-morelink" href="/about-us">About Us</a><a class="pa-h-morelink" href="/meet-our-founder">Meet Our Founder</a><a class="pa-h-morelink" href="/career">Career</a><a class="pa-h-morelink" href="/refer-and-earn">Refer &amp; Earn</a><a class="pa-h-morelink" href="/partner-with-us">Partner With Us</a><a class="pa-h-morelink" href="/tools">Free Tools &amp; Calculators</a><a class="pa-h-morelink" href="/blog">Blogs</a><a class="pa-h-morelink" href="/compliance-calendar">Compliance Calendar</a><a class="pa-h-morelink" href="/contact-us">Contact Us</a></div>
         </li>
       </ul>
     </nav>
-    <a class="pa-h-cta" href="/contact">Talk to an Expert</a>
+    <a class="pa-h-cta" href="/contact-us">Talk to an Expert</a>
     <button class="pa-h-burger" id="paBurger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
   <div class="pa-h-strip">
@@ -305,10 +305,10 @@ body .content-section[id]{scroll-margin-top:150px}
     <div class="pa-m-acc">
       <button class="pa-m-accbtn" type="button">More<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody pa-m-morebody">
-        <a class="pa-m-morelink" href="/about-us">About Us ›</a><a class="pa-m-morelink" href="/meet-our-founder">Meet Our Founder ›</a><a class="pa-m-morelink" href="/career">Career ›</a><a class="pa-m-morelink" href="/refer-and-earn">Refer &amp; Earn ›</a><a class="pa-m-morelink" href="/partner-with-us">Partner With Us ›</a><a class="pa-m-morelink" href="/tools">Free Tools &amp; Calculators ›</a><a class="pa-m-morelink" href="/blog">Blogs ›</a><a class="pa-m-morelink" href="/compliance-calendar">Compliance Calendar ›</a><a class="pa-m-morelink" href="/contact">Contact Us ›</a>
+        <a class="pa-m-morelink" href="/about-us">About Us ›</a><a class="pa-m-morelink" href="/meet-our-founder">Meet Our Founder ›</a><a class="pa-m-morelink" href="/career">Career ›</a><a class="pa-m-morelink" href="/refer-and-earn">Refer &amp; Earn ›</a><a class="pa-m-morelink" href="/partner-with-us">Partner With Us ›</a><a class="pa-m-morelink" href="/tools">Free Tools &amp; Calculators ›</a><a class="pa-m-morelink" href="/blog">Blogs ›</a><a class="pa-m-morelink" href="/compliance-calendar">Compliance Calendar ›</a><a class="pa-m-morelink" href="/contact-us">Contact Us ›</a>
       </div>
     </div>
-    <a class="pa-h-cta pa-m-cta" href="/contact">Talk to an Expert</a>
+    <a class="pa-h-cta pa-m-cta" href="/contact-us">Talk to an Expert</a>
     <a class="pa-m-phone" href="tel:+919459456700">✆ +91 945 945 6700</a>
   </div>
 </header>

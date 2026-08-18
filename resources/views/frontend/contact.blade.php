@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us')
+{{-- No @section('title'): GET /contact 301s to /contact-us, which is a DB page
+     carrying its own meta via seo_meta. This template is retained only for the
+     POST /contact form handler. --}}
 
 @section('content')
 <!-- Contact Hero Section -->

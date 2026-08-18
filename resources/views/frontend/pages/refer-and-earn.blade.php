@@ -1,20 +1,33 @@
 @extends('layouts.app')
 
-@section('title', 'Refer & Earn | Earn Up to ₹2,000 Per Referral | Patron Accounting')
+@section('title', 'Refer & Earn Up to ₹2,000 Per Client | Patron Accounting')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="Refer a business to Patron Accounting and earn up to ₹2,000 for every client who signs up. No cap on referrals across accounting, GST, ITR and registration.">
+<link rel="canonical" href="https://www.patronaccounting.com/refer-and-earn">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Refer &amp; Earn Up to ₹2,000 Per Client | Patron Accounting">
+<meta property="og:description" content="Share Patron Accounting with a business you know and earn up to ₹2,000 for every successful sign-up. No limit on how many clients you can refer.">
+<meta property="og:url" content="https://www.patronaccounting.com/refer-and-earn">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Refer &amp; Earn Up to ₹2,000 Per Client | Patron Accounting">
+<meta name="twitter:description" content="Share Patron Accounting with a business you know and earn up to ₹2,000 for every successful sign-up. No limit on how many clients you can refer.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @push('styles')
 <meta name="robots" content="index, follow">
-<meta name="description" content="Refer a friend or business to Patron Accounting and earn up to ₹2,000 per successful referral. Share our CA, tax, GST, and compliance services — earn rewards every time someone signs up through your referral. Our fully digital, value-for-money services make it easy for your referrals to get started.">
-<link rel="canonical" href="/refer-and-earn">
-<meta property="og:title" content="Refer & Earn | Earn Up to ₹2,000 Per Referral | Patron Accounting">
-<meta property="og:description" content="Refer a friend or business to Patron Accounting and earn up to ₹2,000 per successful referral. No limits on referrals.">
-<meta property="og:url" content="/refer-and-earn">
-<meta property="og:type" content="website">
-<meta property="og:image" content="/images/site-logo.svg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Refer &amp; Earn | Earn Up to ₹2,000 | Patron Accounting">
-<meta name="twitter:description" content="Refer a friend or business and earn up to ₹2,000 per successful referral.">
-<meta name="twitter:image" content="/images/site-logo.svg">
 <meta http-equiv="content-language" content="en-IN">
 @endpush
 

@@ -1,11 +1,33 @@
 @extends('layouts.app')
 
-@section('title', 'Cookie Policy | Patron Accounting LLP')
+@section('title', 'Cookie Policy & Your Choices | Patron Accounting LLP')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="The cookies patronaccounting.com uses for analytics, preferences and performance, what each one does, and how to manage or disable them in your browser.">
+<link rel="canonical" href="https://www.patronaccounting.com/cookie-policy">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Cookie Policy &amp; Your Choices | Patron Accounting LLP">
+<meta property="og:description" content="What cookies patronaccounting.com sets for analytics, preferences and site performance, what each does, and how to manage or switch them off.">
+<meta property="og:url" content="https://www.patronaccounting.com/cookie-policy">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cookie Policy &amp; Your Choices | Patron Accounting LLP">
+<meta name="twitter:description" content="What cookies patronaccounting.com sets for analytics, preferences and site performance, what each does, and how to manage or switch them off.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @push('styles')
 
-  <meta name="description" content="Patron Accounting uses cookies to improve your browsing experience. Learn what cookies we use and how to manage them.">
-  <link rel="canonical" href="/cookie-policy">
   <meta name="robots" content="index, follow">
   <script type="application/ld+json">
   [{"@context":"https://schema.org","@type":"WebPage","name":"Cookie Policy | Patron Accounting LLP","description":"Patron Accounting uses cookies to improve your browsing experience. Learn what cookies we use and how to manage them.","url":"/cookie-policy","dateModified":"2026-04-06","publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"/"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Cookie Policy","item":"/cookie-policy"}]}]

@@ -136,12 +136,13 @@ $accountingClusterRedirects = [
     ['/migration-from-tally-to-quickbooks/delhi', '/migration-from-tally-to-zoho'],
     ['/migration-from-tally-to-quickbooks/gurugram', '/migration-from-tally-to-zoho'],
 
-    // 2026-08-11 audit: /contact-us was a hard 404 and carried the bottom-of-FAQ CTA
-    // ("Still have a question? Talk to a CA") on 217 cluster pages - 606 dead links in all,
-    // plus the networth glossary. The live page has always been /contact. Every href is
-    // repointed in this same commit; this redirect is the safety net for external links,
-    // bookmarks and anything added later.
-    ['/contact-us', '/contact'],
+    // 2026-08-11 this file redirected /contact-us -> /contact, because /contact-us
+    // was a hard 404 while 217 cluster pages pointed their bottom-of-FAQ CTA at it.
+    //
+    // 2026-08-18 that is reversed. /contact-us is now the live canonical contact page
+    // (it carries the content that was at /contact-page, which held 1,712 impressions
+    // against /contact's 5), and routes/web.php 301s both /contact and /contact-page
+    // to it. Leaving the old rule here would have made those two redirects loop.
 ];
 
 foreach ($accountingClusterRedirects as $__r) {

@@ -1,20 +1,33 @@
 @extends('layouts.app')
 
-@section('title', 'Meet Our Founder — CA Sundram Gupta | Patron Accounting LLP')
+@section('title', 'CA Sundram Gupta (ACCA) | Founder of Patron Accounting')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="CA Sundram Gupta is a Chartered Accountant and ACCA with 15+ years across equity research, insurance finance and SME accounting. Founder, Patron Accounting.">
+<link rel="canonical" href="https://www.patronaccounting.com/meet-our-founder">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="CA Sundram Gupta, ACCA - Founder of Patron Accounting LLP">
+<meta property="og:description" content="Chartered Accountant and ACCA with 15+ years across equity research, insurance finance and SME accounting. The story behind Patron Accounting LLP.">
+<meta property="og:url" content="https://www.patronaccounting.com/meet-our-founder">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CA Sundram Gupta, ACCA - Founder of Patron Accounting LLP">
+<meta name="twitter:description" content="Chartered Accountant and ACCA with 15+ years across equity research, insurance finance and SME accounting. The story behind Patron Accounting LLP.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @push('styles')
 <meta name="robots" content="index, follow">
-<meta name="description" content="Meet CA Sundram Gupta — Founder of Patron Accounting LLP. A Chartered Accountant & ACCA with 15+ years of experience across equity research, insurance finance, and SME accounting. Based in Pune, serving businesses across India.">
-<link rel="canonical" href="/meet-our-founder">
-<meta property="og:title" content="Meet Our Founder — CA Sundram Gupta | Patron Accounting LLP">
-<meta property="og:description" content="Meet CA Sundram Gupta — Founder of Patron Accounting LLP. A Chartered Accountant & ACCA with 15+ years of experience across equity research, insurance finance, and SME accounting.">
-<meta property="og:url" content="/meet-our-founder">
-<meta property="og:type" content="website">
-<meta property="og:image" content="/images/site-logo.svg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Meet Our Founder — CA Sundram Gupta | Patron Accounting LLP">
-<meta name="twitter:description" content="Meet CA Sundram Gupta — Founder of Patron Accounting LLP. A Chartered Accountant &amp; ACCA with 15+ years of experience across equity research, insurance finance, and SME accounting.">
-<meta name="twitter:image" content="/images/site-logo.svg">
 <meta http-equiv="content-language" content="en-IN">
 @endpush
 
@@ -214,7 +227,6 @@
     </div>
 
 
-
 <!-- CLIENT VOICES - Review Quotes -->
 <section class="content-section" id="client-voices">
     <div class="content-container">
@@ -255,7 +267,6 @@
 </section>
 
 </main>
-
 
 
 <!-- Google Rating Badge -->

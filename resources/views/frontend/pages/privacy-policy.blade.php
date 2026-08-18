@@ -1,7 +1,31 @@
 @extends('layouts.app')
 
-@section('title', 'Privacy Policy - Patron Accounting LLP')
+@section('title', 'Privacy Policy | Data We Collect | Patron Accounting LLP')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="How Patron Accounting LLP collects, uses, stores and protects the personal and financial data you share with us, and the choices and rights you have.">
+<link rel="canonical" href="https://www.patronaccounting.com/privacy-policy">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Privacy Policy | Data We Collect | Patron Accounting LLP">
+<meta property="og:description" content="How we collect, use, store and protect the personal and financial data you share with Patron Accounting LLP, and the rights and choices available to you.">
+<meta property="og:url" content="https://www.patronaccounting.com/privacy-policy">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacy Policy | Data We Collect | Patron Accounting LLP">
+<meta name="twitter:description" content="How we collect, use, store and protect the personal and financial data you share with Patron Accounting LLP, and the rights and choices available to you.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @section('content')
 <div class="container py-5">
     <div class="row">

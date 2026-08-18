@@ -830,7 +830,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">ESOP Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on esop accounting scope, process, documents and pricing for Indian businesses.</p>
-                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
   <h3 class="faq-enquiry__title">Ask about your books</h3>
   <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>

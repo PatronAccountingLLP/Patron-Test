@@ -192,16 +192,38 @@ class FrontendController extends Controller
      */
     public function aboutUsNew()
     {
-        $page = Page::where('slug', 'about-us')->published()->firstOrFail();
-        
-        // Determine which template to use
+        return $this->renderDbPage('about-us');
+    }
+
+    /**
+     * Display the contact page.
+     *
+     * Routed explicitly rather than left to the root catch-all. The catch-all
+     * filters on pages.directry_label, a column that exists only in the production
+     * database and in no migration, so a catch-all route for this page would 404
+     * everywhere else. /about-us has always been routed explicitly for the same
+     * reason; this follows it.
+     */
+    public function contactUs()
+    {
+        return $this->renderDbPage('contact-us');
+    }
+
+    /**
+     * Render a published CMS page by slug through its configured template,
+     * falling back to the default template when the configured one is missing.
+     */
+    private function renderDbPage(string $slug)
+    {
+        $page = Page::where('slug', $slug)->published()->firstOrFail();
+
         $template = $page->template ?? 'default';
-        
+
         // Check if the template exists using TemplateService
         if (!TemplateService::templateExists($template)) {
             $template = 'default';
         }
-        
+
         // Check if the template view file exists
         $templateView = "frontend.pages.templates.{$template}";
         if (!view()->exists($templateView)) {

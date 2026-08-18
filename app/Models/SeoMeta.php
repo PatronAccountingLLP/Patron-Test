@@ -16,6 +16,8 @@ class SeoMeta extends Model
         'page_type',
         'meta_title',
         'meta_description',
+        'og_title',
+        'og_description',
         'canonical_url',
         'meta_keywords',
         'header_scripts',

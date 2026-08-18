@@ -1,14 +1,32 @@
 @extends('layouts.app')
 
-@section('title', 'Partner With Patron Accounting | CA Firm Partner Program')
+@section('title', 'Partner With Us | Referral & White-Label CA Programs')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="Refer clients or white-label GST, ITR, payroll and company registration work to Patron Accounting. A partner programme for CAs, lawyers and consultants.">
+<link rel="canonical" href="https://www.patronaccounting.com/partner-with-us">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Partner With Patron Accounting - Referral &amp; White-Label Programs">
+<meta property="og:description" content="Grow your practice by referring or white-labelling GST, ITR, payroll and registration work to our CA &amp; CS team. Built for CAs, lawyers and consultants.">
+<meta property="og:url" content="https://www.patronaccounting.com/partner-with-us">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Partner With Patron Accounting - Referral &amp; White-Label Programs">
+<meta name="twitter:description" content="Grow your practice by referring or white-labelling GST, ITR, payroll and registration work to our CA &amp; CS team. Built for CAs, lawyers and consultants.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @push('styles')
-  <meta name="description" content="Partner with Patron Accounting. GST, ITR, Payroll &amp; Company Registration across India. Referral &amp; white-label programs for CAs, lawyers and consultants.">
-  <link rel="canonical" href="/partner-with-us">
-  <meta property="og:title" content="Partner With Patron Accounting | CA Firm Partner Program">
-  <meta property="og:description" content="Partner with Patron Accounting. GST, ITR, Payroll & Company Registration across India. Referral & white-label programs for CAs, lawyers and consultants.">
-  <meta property="og:url" content="/partner-with-us">
-  <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">

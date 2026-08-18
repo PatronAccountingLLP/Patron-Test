@@ -1,20 +1,33 @@
 @extends('layouts.app')
 
-@section('title', 'Careers at Patron Accounting | CA Jobs in Pune, Mumbai & Delhi')
+@section('title', 'Careers at Patron Accounting | CA & Tax Jobs in Pune')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="Accounting, audit, GST and taxation roles at Patron Accounting LLP across Pune, Mumbai, Delhi and Gurugram. Freshers and experienced professionals welcome.">
+<link rel="canonical" href="https://www.patronaccounting.com/career">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Careers at Patron Accounting LLP - Join Our CA &amp; CS Team">
+<meta property="og:description" content="Build a career in accounting, audit, GST and taxation with an MCA-registered CA firm. Roles for freshers and experienced professionals in four cities.">
+<meta property="og:url" content="https://www.patronaccounting.com/career">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Careers at Patron Accounting LLP - Join Our CA &amp; CS Team">
+<meta name="twitter:description" content="Build a career in accounting, audit, GST and taxation with an MCA-registered CA firm. Roles for freshers and experienced professionals in four cities.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @push('styles')
 <meta name="robots" content="index, follow">
-<meta name="description" content="Join Patron Accounting LLP — one of the fastest-growing CA firms in Pune. Explore careers in accounting, audit, taxation, GST compliance, and business registration. Freshers & experienced professionals welcome.">
-<link rel="canonical" href="/career">
-<meta property="og:title" content="Careers at Patron Accounting | CA Jobs in Pune, Mumbai & Delhi">
-<meta property="og:description" content="Join Patron Accounting LLP — one of the fastest-growing CA firms in Pune. Explore careers in accounting, audit, taxation, GST compliance, and business registration.">
-<meta property="og:url" content="/career">
-<meta property="og:type" content="website">
-<meta property="og:image" content="/images/site-logo.svg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Careers at Patron Accounting | CA Jobs in Pune, Mumbai &amp; Delhi">
-<meta name="twitter:description" content="Join one of the fastest-growing CA firms in Pune. Explore careers in accounting, audit, taxation, GST compliance.">
-<meta name="twitter:image" content="/images/site-logo.svg">
 <meta http-equiv="content-language" content="en-IN">
 @endpush
 

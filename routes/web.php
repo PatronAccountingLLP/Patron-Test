@@ -267,7 +267,21 @@ Route::get('/authorhub/{author_slug}', [App\Http\Controllers\FrontendController:
     ->name('frontend.authorhub.show');
 
 // Contact Routes
-Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');
+// /contact-us is the single canonical contact URL. It is a DB-driven page served
+// by the root catch-all further down, so there is no GET route for it here.
+//
+// /contact and /contact-page both 301 to it. Before this, /contact-page carried
+// 1,712 impressions and the sitemap entry while /contact carried the internal
+// links and 5 impressions -- two self-canonicalising pages splitting one intent.
+//
+// POST stays on /contact: the live enquiry form posts to action="/contact", and
+// store() finishes with redirect()->back(), which lands on /contact-us anyway.
+//
+// PREREQUISITE: production nginx currently 301s /contact-us -> /contact. That rule
+// MUST be removed in the same deploy or these two redirects form an endless loop.
+Route::get('/contact-us', [FrontendController::class, 'contactUs'])->name('contact-us');
+Route::redirect('/contact', '/contact-us', 301)->name('contact.show');
+Route::redirect('/contact-page', '/contact-us', 301);
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 // Post Categories Routes

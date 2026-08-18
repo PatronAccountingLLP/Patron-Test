@@ -1,7 +1,31 @@
 @extends('layouts.app')
 
-@section('title', 'Accounting & Compliance for Startups & SMEs | Patron')
+@section('title', 'Accounting, GST & Tax Services for SMEs | Patron Accounting')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="Accounting, GST, tax and compliance services for startups and SMEs across India, delivered by an in-house CA &amp; CS team from Pune, Mumbai, Delhi and Gurugram.">
+<link rel="canonical" href="https://www.patronaccounting.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Patron Accounting - Accounting, Tax &amp; Compliance for Indian SMEs">
+<meta property="og:description" content="One in-house CA &amp; CS team covering everything from day-to-day books to GST litigation, for startups and SMEs across India. Est. 2019, offices in four cities.">
+<meta property="og:url" content="https://www.patronaccounting.com/">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Patron Accounting - Accounting, Tax &amp; Compliance for Indian SMEs">
+<meta name="twitter:description" content="One in-house CA &amp; CS team covering everything from day-to-day books to GST litigation, for startups and SMEs across India. Est. 2019, offices in four cities.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @push('styles')
 <!-- Slick Slider CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -1324,7 +1348,6 @@
 }
 
 
-
 .trusted-companies-slider .slider-item {
     text-align: center;
     display: flex !important;
@@ -2035,29 +2058,11 @@
 @endpush
 
 @push('scripts-head')
-<!-- Meta Description -->
-<meta name="description" content="Patron Accounting — accounting & compliance for startups & SMEs across India. Zoho Books, ITR filing, GST, payroll & EOR, litigation with GSTAT Principal Bench representation. 4.9★ rated. Offices in Pune, Mumbai, Delhi & Gurgaon.">
 
-<!-- Canonical URL (Change 12) -->
 {{-- This block only reaches the page now that layouts.app stacks 'scripts-head';
      until then the homepage served no canonical at all, so /, /index.php, /#! and
      /?utm_source=x all looked like unrelated duplicates. --}}
-<link rel="canonical" href="https://www.patronaccounting.com/">
 
-<!-- Open Graph Tags (Change 11) -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Patron Accounting | Accounting & Compliance for Startups & SMEs Across India">
-<meta property="og:description" content="Zoho Books accounting, ITR filing, GST, payroll & EOR, startup registration to GST litigation — one team of CAs & CS experts serving businesses across India. 4.9★ Google rated.">
-<meta property="og:url" content="https://www.patronaccounting.com/">
-<meta property="og:image" content="https://www.patronaccounting.com/images/site-logo.svg">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-
-<!-- Twitter Card Tags (Change 11) -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Patron Accounting | Accounting & Compliance for Startups & SMEs Across India">
-<meta name="twitter:description" content="Zoho Books accounting, ITR filing, GST, payroll & EOR, startup registration to GST litigation — one team of CAs & CS experts serving businesses across India. 4.9★ Google rated.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/site-logo.svg">
 
 <!-- FAQPage Schema -->
 <script type="application/ld+json">

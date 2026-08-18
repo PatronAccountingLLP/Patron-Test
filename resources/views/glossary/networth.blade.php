@@ -330,7 +330,7 @@
     <div class="gl-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
     <h3>Prefer a CA to certify it?</h3>
     <p>CA-signed net worth, solvency and net owned fund certificates for banks, consulates, courts and regulators across India.</p>
-    <a class="gl-herocta__btn" href="/contact">Talk to an Expert &rarr;</a>
+    <a class="gl-herocta__btn" href="/contact-us">Talk to an Expert &rarr;</a>
     <div class="gl-herocta__trust"><span class="star">&#9733;</span> 4.9 on Google &middot; 3,000+ businesses served</div>
   </aside>
   </div></section>

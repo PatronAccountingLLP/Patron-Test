@@ -26,6 +26,19 @@ return new class extends Migration
 
     public function up(): void
     {
+        // Everything below is MySQL-specific: information_schema lookups, backtick
+        // quoting and ALTER TABLE ... DROP FOREIGN KEY. SQLite has none of them, and
+        // no equivalent problem -- its foreign keys are fixed at table-create time,
+        // so there is no stale posts_backup reference to re-point.
+        //
+        // Without this guard the migration throws on SQLite, which aborts the whole
+        // `php artisan migrate` run. That silently stranded every later migration on
+        // Patron Local and on the Render test instance, whose entrypoint runs
+        // `migrate --force` on each boot against a SQLite database.
+        if (DB::connection()->getDriverName() !== 'mysql') {
+            return;
+        }
+
         $schema = DB::getDatabaseName();
 
         foreach ($this->fks as $table => $constraint) {

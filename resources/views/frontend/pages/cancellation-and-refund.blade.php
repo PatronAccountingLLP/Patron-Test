@@ -2,23 +2,32 @@
 
 @section('title', 'Cancellation & Refund Policy | Patron Accounting LLP')
 
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+<meta name="description" content="How to cancel a service with Patron Accounting LLP, the refund timelines that apply to each service, and which government fees and filing charges are excluded.">
+<link rel="canonical" href="https://www.patronaccounting.com/cancellation-and-refund">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Cancellation &amp; Refund Policy | Patron Accounting LLP">
+<meta property="og:description" content="Cancellation windows, refund timelines by service, and the government fees and filing charges that fall outside our refund policy at Patron Accounting LLP.">
+<meta property="og:url" content="https://www.patronaccounting.com/cancellation-and-refund">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image:alt" content="Patron Accounting LLP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cancellation &amp; Refund Policy | Patron Accounting LLP">
+<meta name="twitter:description" content="Cancellation windows, refund timelines by service, and the government fees and filing charges that fall outside our refund policy at Patron Accounting LLP.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+@endpush
+@push('scripts-head')
+{{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
+     og:url and og:image are invalid per the Open Graph spec and break
+     Facebook/LinkedIn/WhatsApp share previews. --}}
+@endpush
 @push('styles')
 <meta name="robots" content="index, follow">
-<meta name="description" content="Cancellation & Refund Policy for Patron Accounting LLP. Learn about our fair refund process, cancellation timelines, and service-specific refund eligibility for all CA, tax, and compliance services.">
-<link rel="canonical" href="/cancellation-and-refund">
-<meta property="og:title" content="Cancellation & Refund Policy | Patron Accounting LLP">
-<meta property="og:description" content="Cancellation & Refund Policy for Patron Accounting LLP. Learn about our fair refund process, cancellation timelines, and service-specific refund eligibility.">
-<meta property="og:url" content="/cancellation-and-refund">
-<meta property="og:type" content="website">
-<meta property="og:image" content="/images/site-logo.svg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Cancellation &amp; Refund Policy | Patron Accounting LLP">
-<meta name="twitter:description" content="Fair refund process, cancellation timelines, and service-specific refund eligibility.">
-<meta name="twitter:image" content="/images/site-logo.svg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Cancellation &amp; Refund Policy | Patron Accounting LLP">
-<meta name="twitter:description" content="Fair refund process, cancellation timelines, and service-specific refund eligibility.">
-<meta name="twitter:image" content="/images/site-logo.svg">
 <meta http-equiv="content-language" content="en-IN">
 <meta http-equiv="content-language" content="en-IN">
 @endpush

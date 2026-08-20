@@ -88,6 +88,17 @@ $stockAuditRedirects = [
     '/blog/importance-of-stock-audit' => '/stock-audit',
     '/blog/guidelines-to-conduct-stock-audit-in-india' => '/stock-audit',
 ];
+// The fifteen orphan city pages: live and indexed, never in the 179-URL cluster plan.
+// Redirects v3 held them pending conversion evidence; retirement was decided on 2026-08-20
+// and they fold into the pillar. They also came out of sitemap-410.xml, because a URL cannot
+// be both permanently gone and permanently moved.
+$stockAuditRetiredCities = ['chandigarh', 'indore', 'nagpur', 'bhubaneswar', 'jodhpur',
+    'surat', 'vadodara', 'bhopal', 'faridabad', 'sonipat', 'rajkot', 'ranchi', 'varanasi',
+    'jaipur', 'jalandhar'];
+foreach ($stockAuditRetiredCities as $city) {
+    $stockAuditRedirects['/stock-audit/' . $city] = '/stock-audit';
+}
+
 foreach ($stockAuditRedirects as $from => $to) {
     Route::redirect($from, $to, 301);
 }

@@ -73,7 +73,7 @@ return new class extends Migration
                 'faq_title' => 'Frequently asked questions',
                 'faq_items' => json_encode($r['faq_items'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
                 'status' => 'published',
-                'published_at' => '2026-08-20 09:30:00',
+                'published_at' => '2026-08-19 09:30:00',
                 'created_at' => $now, 'updated_at' => $now,
             ]);
 

@@ -1712,6 +1712,23 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
   margin-top:4px;border-top:1px solid var(--gray-200,#E5E7EB) !important}
 .cert-item{align-items:flex-start !important;gap:8px !important}
 
+/* Deadlines. The dates are the message, so each one leads with its month rather than
+   arriving three lines into a paragraph. */
+.pa-deadline-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:16px;margin:18px 0 4px}
+.pa-deadline{display:flex;gap:14px;align-items:flex-start;background:#fff;
+  border:1px solid #F3D9C5;border-radius:14px;padding:18px 20px;
+  box-shadow:0 4px 14px rgba(184,83,15,.06)}
+.pa-deadline-m{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:4px;
+  min-width:54px;padding:9px 8px;border-radius:11px;background:var(--orange,#E8712C);
+  color:#fff;font-weight:800;font-size:12px;letter-spacing:.06em}
+.pa-deadline-m svg{width:19px;height:19px}
+.pa-deadline-b{min-width:0}
+.pa-deadline-b h3{margin:0 0 6px !important;font-size:16px;line-height:1.35;
+  color:var(--blue,#14365F);font-weight:800}
+.pa-deadline-b p{margin:0 !important;font-size:14.5px;line-height:1.7;
+  color:var(--text-secondary,#4B5563);text-align:left}
+
 /* Related reading: many short titles, so a wrapping column grid rather than the wide cards
    the sector and city blocks use. */
 .pa-read-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 18px}
@@ -1772,6 +1789,16 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
   border:1px solid #E5E7EB}
 .pa-what-figure figcaption{align-self:stretch}
 </style>
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M6G3R8G');</script>
 @endsection
 
 @section('schema')
@@ -1880,6 +1907,10 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 @section('content')
 @verbatim
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6G3R8G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
 <main>
 
 <!-- BREADCRUMB -->
@@ -2465,14 +2496,8 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">March and September Book Out Early</h2>
-            <div class="content-text">
-                
-                <h3>March Year End Across the Oragadam Belt</h3>
-<p>A stock auditor in Chennai plans corridor travel and gate passes into the schedule, and in March both the plants and the pass queue are at their busiest.</p>
-<h3>September Reviews Before Shipping Volumes Climb</h3>
-<p>Bonded and port-facing stock is easier to separate before shipping volumes rise, since customs status has to be settled before any quantity is recorded.</p>
-
-            </div>
+            <div class="content-text"><div class="pa-deadline-grid"><article class="pa-deadline"><div class="pa-deadline-m"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>MAR</div><div class="pa-deadline-b"><h3>March Year End Across the Oragadam Belt</h3><p>A stock auditor in Chennai plans corridor travel and gate passes into the schedule, and in March both the plants and the pass queue are at their busiest.</p></div></article>
+<article class="pa-deadline"><div class="pa-deadline-m"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>SEP</div><div class="pa-deadline-b"><h3>September Reviews Before Shipping Volumes Climb</h3><p>Bonded and port-facing stock is easier to separate before shipping volumes rise, since customs status has to be settled before any quantity is recorded.</p></div></article></div></div>
         </div>
     </div>
 </section>
@@ -2480,7 +2505,21 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <section class="content-section"><div class="content-container"><div class="pa-city-block" style="margin-bottom:0;"><div class="pa-block-title">Stock Audit in Other Cities</div><div class="pa-city-grid"><a href="/stock-audit/hyderabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M6 21V11h12v10"/><path d="M6 11h12"/><path d="M10 21v-4a2 2 0 0 1 4 0v4"/><path d="M4 21V8h2v13"/><path d="M18 21V8h2v13"/><path d="M3 8a2 2 0 0 1 4 0"/><path d="M17 8a2 2 0 0 1 4 0"/></svg></div><div><div class="pa-card-title">Hyderabad</div><div class="pa-card-sub">Telangana</div></div></a>
 <a href="/stock-audit/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
 <a href="/stock-audit/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-<a href="/stock-audit/kolkata" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M2 17h20"/><path d="M5 17V6"/><path d="M19 17V6"/><path d="M5 6l7 6 7-6"/><path d="M5 11l7 6 7-6"/><path d="M12 17v-5"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a></div></div></div></section>
+<a href="/stock-audit/kolkata" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M2 17h20"/><path d="M5 17V6"/><path d="M19 17V6"/><path d="M5 6l7 6 7-6"/><path d="M5 11l7 6 7-6"/><path d="M12 17v-5"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a>
+<a href="/stock-audit/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="/stock-audit/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">NCR</div></div></a>
+<a href="/stock-audit/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="/stock-audit/bangalore" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V13h18v8"/><path d="M7 13V9h10v4"/><path d="M9 9a3 3 0 0 1 6 0"/><path d="M12 6V4"/><path d="M10 21v-4h4v4"/><path d="M5 21v-4M19 21v-4"/></svg></div><div><div class="pa-card-title">Bangalore</div><div class="pa-card-sub">Karnataka</div></div></a></div></div></div></section>
+<section class="content-section" style="background:var(--gray-50);"><div class="content-container"><div class="pa-city-block" style="margin-bottom:0;"><div class="pa-block-title">Industries We Count</div><div class="pa-city-grid"><a href="/stock-audit-for-retail" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Retail Chains &amp; Stores</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-warehouse" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Warehouses &amp; 3PL</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-dark-stores" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Dark Stores &amp; Quick Commerce</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-fmcg" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">FMCG</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-auto-components" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Auto Components</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-pharmaceutical-manufacturing" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Pharmaceuticals</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-electronics-white-goods" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Electronics &amp; White Goods</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-engineering-machine-tools" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Engineering &amp; Machine Tools</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-seeds-fertiliser-agro-inputs" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Seeds &amp; Agro-Inputs</div><div class="pa-card-sub">Sector method</div></div></a>
+<a href="/stock-audit-for-textile" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Textile &amp; Apparel</div><div class="pa-card-sub">Sector method</div></div></a></div></div></div></section>
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">

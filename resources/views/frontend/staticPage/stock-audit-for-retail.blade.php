@@ -1712,6 +1712,23 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
   margin-top:4px;border-top:1px solid var(--gray-200,#E5E7EB) !important}
 .cert-item{align-items:flex-start !important;gap:8px !important}
 
+/* Deadlines. The dates are the message, so each one leads with its month rather than
+   arriving three lines into a paragraph. */
+.pa-deadline-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:16px;margin:18px 0 4px}
+.pa-deadline{display:flex;gap:14px;align-items:flex-start;background:#fff;
+  border:1px solid #F3D9C5;border-radius:14px;padding:18px 20px;
+  box-shadow:0 4px 14px rgba(184,83,15,.06)}
+.pa-deadline-m{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:4px;
+  min-width:54px;padding:9px 8px;border-radius:11px;background:var(--orange,#E8712C);
+  color:#fff;font-weight:800;font-size:12px;letter-spacing:.06em}
+.pa-deadline-m svg{width:19px;height:19px}
+.pa-deadline-b{min-width:0}
+.pa-deadline-b h3{margin:0 0 6px !important;font-size:16px;line-height:1.35;
+  color:var(--blue,#14365F);font-weight:800}
+.pa-deadline-b p{margin:0 !important;font-size:14.5px;line-height:1.7;
+  color:var(--text-secondary,#4B5563);text-align:left}
+
 /* Related reading: many short titles, so a wrapping column grid rather than the wide cards
    the sector and city blocks use. */
 .pa-read-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 18px}
@@ -1772,6 +1789,16 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
   border:1px solid #E5E7EB}
 .pa-what-figure figcaption{align-self:stretch}
 </style>
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M6G3R8G');</script>
 @endsection
 
 @section('schema')
@@ -1880,6 +1907,10 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 @section('content')
 @verbatim
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6G3R8G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
 <main>
 
 <!-- BREADCRUMB -->
@@ -2243,7 +2274,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Who This Is For</h2>
+            <h2 class="section-title">Who Commissions a Retail Stock Audit</h2>
             <div class="content-text">
                 
                 <p>Three kinds of retail buyer commission a retail audit, and they want different things from it. One wants comparability across stores, one wants a boundary drawn around what it actually owns, and one simply has a bank asking.</p><div class="pa-ov-grid pa-cols-3"><article class="pa-ov-card"><h3>Chains Rolling Out a Single Store Standard</h3><p>A chain with stores in several cities cannot compare outlets unless every outlet was counted the same way. The value here is not the total but the variance: which stores sit outside the distribution and keep doing so. Buyers in this group are usually operations or internal audit rather than finance, and they want the result store by store.</p></article>
@@ -2477,6 +2508,15 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <!-- SECTION 18: URGENCY CTA -->
 
 
+<section class="content-section"><div class="content-container"><div class="pa-city-block" style="margin-bottom:0;"><div class="pa-block-title">Cities We Count In</div><div class="pa-city-grid"><a href="/stock-audit/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="/stock-audit/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="/stock-audit/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
+<a href="/stock-audit/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">NCR</div></div></a>
+<a href="/stock-audit/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="/stock-audit/kolkata" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M2 17h20"/><path d="M5 17V6"/><path d="M19 17V6"/><path d="M5 6l7 6 7-6"/><path d="M5 11l7 6 7-6"/><path d="M12 17v-5"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a>
+<a href="/stock-audit/bangalore" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V13h18v8"/><path d="M7 13V9h10v4"/><path d="M9 9a3 3 0 0 1 6 0"/><path d="M12 6V4"/><path d="M10 21v-4h4v4"/><path d="M5 21v-4M19 21v-4"/></svg></div><div><div class="pa-card-title">Bangalore</div><div class="pa-card-sub">Karnataka</div></div></a>
+<a href="/stock-audit/chennai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M6 21V10l6-5 6 5v11"/><path d="M6 14h12"/><path d="M6 17.5h12"/><path d="M10 21v-3.5h4V21"/><path d="M12 5V3"/></svg></div><div><div class="pa-card-title">Chennai</div><div class="pa-card-sub">Tamil Nadu</div></div></a>
+<a href="/stock-audit/hyderabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M6 21V11h12v10"/><path d="M6 11h12"/><path d="M10 21v-4a2 2 0 0 1 4 0v4"/><path d="M4 21V8h2v13"/><path d="M18 21V8h2v13"/><path d="M3 8a2 2 0 0 1 4 0"/><path d="M17 8a2 2 0 0 1 4 0"/></svg></div><div><div class="pa-card-title">Hyderabad</div><div class="pa-card-sub">Telangana</div></div></a></div></div></div></section>
 <section class="content-section" style="background:var(--gray-50);"><div class="content-container"><div class="pa-city-block" style="margin-bottom:0;"><div class="pa-block-title">Related Reading</div><div class="pa-read-grid"><a href="https://www.patronaccounting.com/blog/retail-inventory-method-vs-cost-method" class="pa-read-card">Retail Inventory Method vs Cost Method: Which to Use<span class="pa-read-go">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/blog/retail-stock-audit-frequency" class="pa-read-card">Retail Stock Audit Frequency: How Often to Count a Multi-Store Chain<span class="pa-read-go">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/blog/retail-stock-variance-by-store" class="pa-read-card">Retail Stock Variance by Store: Why Two Outlets Report Different Accuracy<span class="pa-read-go">&rarr;</span></a>

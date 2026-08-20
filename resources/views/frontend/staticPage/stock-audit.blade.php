@@ -1712,6 +1712,23 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
   margin-top:4px;border-top:1px solid var(--gray-200,#E5E7EB) !important}
 .cert-item{align-items:flex-start !important;gap:8px !important}
 
+/* Deadlines. The dates are the message, so each one leads with its month rather than
+   arriving three lines into a paragraph. */
+.pa-deadline-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:16px;margin:18px 0 4px}
+.pa-deadline{display:flex;gap:14px;align-items:flex-start;background:#fff;
+  border:1px solid #F3D9C5;border-radius:14px;padding:18px 20px;
+  box-shadow:0 4px 14px rgba(184,83,15,.06)}
+.pa-deadline-m{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:4px;
+  min-width:54px;padding:9px 8px;border-radius:11px;background:var(--orange,#E8712C);
+  color:#fff;font-weight:800;font-size:12px;letter-spacing:.06em}
+.pa-deadline-m svg{width:19px;height:19px}
+.pa-deadline-b{min-width:0}
+.pa-deadline-b h3{margin:0 0 6px !important;font-size:16px;line-height:1.35;
+  color:var(--blue,#14365F);font-weight:800}
+.pa-deadline-b p{margin:0 !important;font-size:14.5px;line-height:1.7;
+  color:var(--text-secondary,#4B5563);text-align:left}
+
 /* Related reading: many short titles, so a wrapping column grid rather than the wide cards
    the sector and city blocks use. */
 .pa-read-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 18px}
@@ -1772,6 +1789,16 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
   border:1px solid #E5E7EB}
 .pa-what-figure figcaption{align-self:stretch}
 </style>
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M6G3R8G');</script>
 @endsection
 
 @section('schema')
@@ -1875,6 +1902,10 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 @section('content')
 @verbatim
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6G3R8G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
 <main>
 
 <!-- BREADCRUMB -->

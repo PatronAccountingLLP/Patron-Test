@@ -2514,11 +2514,11 @@
         </script>
 
         <div class="d-flex justify-content-center gap-3 mb-5">
-            <a href="/contact-page" class="btn btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-lg px-5 py-3"
                 style="background: #F26522; color: white; border-radius: 50px; font-weight: 600; border: none; font-size: 1rem;">
                 Get in touch
             </a>
-            <a href="/contact-page" class="btn btn-outline-dark btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-outline-dark btn-lg px-5 py-3"
                 style="border-radius: 50px; font-weight: 600; border: 2px solid #333; font-size: 1rem;">
                 Contact us
             </a>
@@ -2739,7 +2739,7 @@
 <section class="cta-compliance-section">
     <div class="container">
         <h2 class="cta-compliance-title">Start your Compliance Journey With Patron</h2>
-        <a href="/contact-page" class="cta-get-started-btn">
+        <a href="/contact-us" class="cta-get-started-btn">
             GET STARTED
             <i class="bi bi-arrow-right"></i>
         </a>
@@ -2948,7 +2948,7 @@
                     <p class="client-communication-description">
                         Whether it's a GST notice or an ITR query at 10 PM — our team responds in hours, not days. Every client gets a dedicated CA who knows your Zoho Books setup, your filing history, and your business.
                     </p>
-                    <a href="/contact-page" class="book-consultation-btn">
+                    <a href="/contact-us" class="book-consultation-btn">
                         Book a free consultation
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -2978,7 +2978,7 @@
                     <p class="client-communication-description">
                         We track ROC filings, GST return dates, TDS deposits, ITR deadlines, and DIR-3 KYC windows 30 days in advance. You get alerts before penalties — not after.
                     </p>
-                    <a href="/contact-page" class="book-consultation-btn">
+                    <a href="/contact-us" class="book-consultation-btn">
                         Talk to a CA today
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -3000,7 +3000,7 @@
                     <p class="client-communication-description">
                         From Zoho Books setup to GST returns, from payroll to ROC filings — one team handles everything. No outsourcing, no coordination overhead. You brief us once, we deliver.
                     </p>
-                    <a href="/contact-page" class="book-consultation-btn">
+                    <a href="/contact-us" class="book-consultation-btn">
                         See how it works
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -3029,9 +3029,9 @@
                     <strong style="color: #D4541C; text-decoration: underline;">GST Litigation:</strong> We don't just respond to notices — we handle litigation for businesses across India, including GSTAT Principal Bench appeals in Delhi.
                 </p>
                 <p class="more-than-legal-description" style="margin-top: 12px;">
-                    Founded by CA Sundram Gupta, every service comes with quarterly business health reviews, early renewal reminders, and practical advice when tax laws change. With offices in Pune, Mumbai, Delhi & Gurgaon — Patron Accounting is your built-in finance ecosystem.
+                    Founded by CA Sundram Gupta, every service comes with quarterly business health reviews, early renewal reminders, and practical advice when tax laws change. With offices in Pune, Mumbai, Delhi, Gurgaon & Ahmedabad — Patron Accounting is your built-in finance ecosystem.
                 </p>
-                <a href="/contact-page" class="book-consultation-btn">
+                <a href="/contact-us" class="book-consultation-btn">
                     Schedule a free call
                     <i class="bi bi-arrow-right"></i>
                 </a>

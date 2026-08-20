@@ -12,8 +12,15 @@ use Illuminate\Support\Facades\DB;
  * that category while the other 67 arrived under Stock Audit - the same cluster showing two
  * different categories to a reader moving between its own pages.
  *
- * Attaches the Stock Audit category to every slug in the payload and detaches the others, so
- * the badge and breadcrumb agree with the cluster the URL belongs to. Idempotent.
+ * Attaches the Stock Audit category to the payload's slugs and detaches the others, so the
+ * badge and breadcrumb agree with the cluster the URL belongs to. Idempotent.
+ *
+ * TWO SLUGS ARE EXCLUDED. perpetual-vs-periodic-inventory and
+ * retail-inventory-method-vs-cost-method are Accounting cluster posts, published from
+ * Accounting Cluster/Generated Blogs (112_ and 024_) long before this cluster existed. They
+ * appear in the Stock Audit register too, which is a conflict in the register rather than a
+ * mistake on the site: whoever owns a URL owns its category, and that is Accounting. Moving
+ * them here would take two posts off another cluster.
  */
 return new class extends Migration
 {
@@ -26,9 +33,15 @@ return new class extends Migration
         return array_column(json_decode(file_get_contents($path), true) ?: [], 'slug');
     }
 
+    /** Slugs another cluster published first. Owned there, categorised there. */
+    private const OWNED_ELSEWHERE = [
+        'perpetual-vs-periodic-inventory',
+        'retail-inventory-method-vs-cost-method',
+    ];
+
     public function up(): void
     {
-        $slugs = $this->slugs();
+        $slugs = array_diff($this->slugs(), self::OWNED_ELSEWHERE);
         $catId = DB::table('post_categories')->where('slug', 'stock-audit')->value('id');
         if (! $slugs || ! $catId) {
             return;

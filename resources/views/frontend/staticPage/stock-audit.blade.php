@@ -1,144 +1,504 @@
-
 @extends('layouts.service-app')
 
-<!-- External Dependencies (loaded by master layout in production) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+@section('meta')
+<title>Stock Audit: Physical Verification, Report and Valuation | Patron Accounting</title>
+    <meta name="description" content="Bank CC/OD borrowers and boards rely on an independent stock audit. Auditors count the stock, analyse variances, value it under AS 2 and sign the report.">
+    <link rel="canonical" href="https://www.patronaccounting.com/stock-audit">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Stock Audit: Physical Verification, Report and Valuation | Patron Accounting">
+    <meta property="og:description" content="Bank CC/OD borrowers and boards rely on an independent stock audit. Auditors count the stock, analyse variances, value it under AS 2 and sign the report.">
+    <meta property="og:url" content="https://www.patronaccounting.com/stock-audit">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/stock-audit-og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stock Audit: Physical Verification, Report and Valuation | Patron Accounting">
+    <meta name="twitter:description" content="Bank CC/OD borrowers and boards rely on an independent stock audit. Auditors count the stock, analyse variances, value it under AS 2 and sign the report.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/stock-audit-og.webp">
+
+
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
-@section('meta')
-    <title>Stock Audit Services India - Inventory Verification & Report</title>
-    <meta name="description" content="Expert stock audit for bank CC/OD borrowers and businesses. Physical verification, Drawing Power report, AS 2 valuation. Starting at INR 2,499.">
-    <link rel="canonical" href="/stock-audit">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Stock Audit Services India - Inventory Verification & Report">
-    <meta property="og:description" content="Expert stock audit for bank CC/OD borrowers and businesses. Physical verification, Drawing Power report, AS 2 valuation. Starting at INR 2,499.">
-    <meta property="og:url" content="/stock-audit">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/stock-audit-og.webp">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Stock Audit Services India - Inventory Verification & Report">
-    <meta name="twitter:description" content="Expert stock audit for bank CC/OD borrowers and businesses. Physical verification, Drawing Power report, AS 2 valuation. Starting at INR 2,499.">
-    <meta name="twitter:image" content="/images/stock-audit-og.webp">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Service",
-          "name": "Stock Audit Services in India Guide",
-          "description": "Expert stock audit for bank CC/OD borrowers and businesses. Physical verification, Drawing Power report, AS 2 valuation. Starting at INR 2,499.",
-          "url": "https://www.patronaccounting.com/stock-audit",
-          "serviceType": "Stock Audit Services in India Guide",
-          "areaServed": {
-            "@type": "Country",
-            "name": "India"
-          },
-          "provider": {
-            "@type": "Organization",
-            "name": "Patron Accounting LLP",
-            "url": "https://www.patronaccounting.com/",
-            "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.patronaccounting.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Stock Audit Services in India Guide",
-              "item": "https://www.patronaccounting.com/stock-audit"
-            }
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is stock audit and why is it required?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Stock Audit - also called Inventory Audit - is the independent physical verification and valuation of a business's inventory by an external Chartered Accountant. It is required for: (1) bank CC/OD borrowers as a mandatory condition of working capital financing to verify Drawing Power; (2) year-end statutory audit to verify closing stock; (3) internal control and fraud prevention; and (4) insurance claims, business transfers, and due diligence. Valuation follows AS 2 or Ind AS 2 (lower of cost or net realisable value)."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is stock audit mandatory in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Stock Audit is mandatory for: (1) bank CC/OD borrowers per the bank's sanction letter - generally when credit exposure exceeds INR 5 crore, conducted half-yearly or quarterly; (2) all companies for year-end stock verification as part of statutory audit (SA 501 - ICAI). For non-bank, non-listed businesses with smaller inventory, stock audit is not legally mandated but is strongly recommended as best practice for internal control."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Who can conduct a stock audit in India?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Banks require stock audit reports to be certified by an independent Chartered Accountant (CA) in practice. There is no specific statutory requirement that only a CA can conduct all types of stock audit - but for bank CC/OD accounts and statutory audit purposes, a CA-certified report is required. Patron Accounting's CA team has over 15 years of experience in stock audits for all major Indian banks."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is Drawing Power in a Cash Credit account?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Drawing Power (DP) is the maximum amount a CC or OD borrower can draw from the bank on a given date. It is computed as: DP = (Eligible Stock Value x (100% - Stock Margin%)) + (Eligible Debtors x (100% - Debtors Margin%)). If stock is INR 50 lakh with 25% margin and debtors are INR 20 lakh with 25% margin: DP = INR 37.5 lakh + INR 15 lakh = INR 52.5 lakh."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What happens if stock audit is not done for CC/OD accounts?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "If stock audit is not conducted per the bank's sanction conditions: (1) the bank may freeze Drawing Power; (2) outstanding beyond DP becomes an irregular drawing; (3) if irregular for 90 continuous days, the account is classified as NPA per RBI IRACP norms [RBI/2024-25/12]; (4) NPA triggers penal interest, credit rating downgrade, and difficulty securing future loans."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the difference between stock audit and stock statement?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A Stock Statement (monthly) is a self-certified declaration by the borrower submitted to the bank showing current stock and debtors levels - used for monthly DP computation. A Stock Audit is a formal independent physical verification by a CA that validates actual stock vs. book records, valuation accuracy, and Drawing Power - typically half-yearly or quarterly. Banks use both."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Stock audit ke liye kya kya chahiye?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bank CC/OD stock audit ke liye chahiye: bank ka sanction letter, latest month ka stock statement, pichle 3 mahine ka bank statement, purchase aur sales ke invoices, stock register ya Tally data updated, debtors ki invoice-wise ageing list, aur insurance policy details. Godaam ya factory tour bhi required hota hai jahan CA physically stock count karta hai. Patron Accounting ki CA team complete guidance deti hai. Quick Answers What is stock audit? Independent physical verification and valuation of inventory by a CA, to confirm physical stock matches book records per AS 2 or Ind AS 2. Most commonly required by banks for CC/OD borrowers. Is stock audit mandatory in India? Yes, for bank CC/OD borrowers (per sanction, generally when exposure exceeds INR 5 crore) and for year-end statutory audit under SA 501 (ICAI). Voluntary for others. How is Drawing Power calculated? DP = (Eligible Stock x (100% - Stock Margin%)) + (Eligible Debtors x (100% - Debtors Margin%)). Typical margins: 25-40% on stock, 25% on debtors. What happens if stock audit report is not submitted to bank? Frozen DP, irregular drawings, and ultimately NPA classification if irregular for 90 continuous days [RBI IRACP, RBI/2024-25/12]. Who performs stock audit for bank? Independent CA appointed separately - either nominated by bank or mutually agreed. CA-certified report submitted directly to bank."
-              }
-            }
-          ]
-        }
-      ]
-    }
-    </script>
-@endsection
-
-@section('content')
-@include('partials.page-css', ['file' => 'css/site.css'])
+    
+    
+    
+    
+    
 <style>
-/* Amount column - right-align only on tables with .table-amount class */
+/* ===== trust / case study / integrations / E-E-A-T ===== */
+.why-patron-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:24px 0}
+.why-patron-grid > div{background:#fff;border:1px solid var(--gray-200,#e5e7eb);border-radius:10px;padding:18px}
+.why-patron-grid strong{display:block;font-size:22px;line-height:1.2;margin-bottom:6px}
+.why-patron-note{font-size:13px;color:var(--text-muted,#6b7280)}
+.case-study-block{border-left:4px solid var(--primary,#1f4e79);background:var(--cream,#faf7f2);
+  border-radius:0 10px 10px 0;padding:20px 24px;margin:20px 0}
+.case-study-meta{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-muted,#6b7280);margin-bottom:10px}
+.case-study-block h3{font-size:16px;margin:16px 0 6px}
+.case-study-result{font-size:19px;color:var(--primary,#1f4e79);margin:6px 0 10px}
+.eeat-block{font-size:13px;color:var(--text-muted,#6b7280);border-top:1px solid var(--gray-200,#e5e7eb);padding-top:18px}
+.eeat-block p{margin:4px 0}
+.eeat-review{color:var(--text,#111827)}
+@media (max-width:640px){.why-patron-grid{grid-template-columns:1fr}}
+
+/* ===== BEGIN faq.css (synced from patronmain/css/faq.css) ===== */
+/* ============================================================
+   Patron Accounting — Unified Expanded FAQ (two-column)
+   ------------------------------------------------------------
+   SINGLE SOURCE OF TRUTH for every FAQ section sitewide
+   (service pages, city pages, blog posts, tools, calculators).
+
+   Layout: full-width section. LEFT = heading + lead + compact
+   enquiry form. RIGHT = always-expanded Q&A cards. Stacks on mobile.
+   No accordion, no chevrons, no +/- toggles, no click handlers.
+
+   Class contract (used by partials/faq-section.blade.php AND by
+   converted static pages):
+     .faq-expanded            grid wrapper
+       .faq-expanded__aside     left column
+         .faq-expanded__title     h2 heading
+         .faq-expanded__lead      supporting line
+         .faq-expanded__cta       contact link
+       .faq-expanded__list      right column
+         .faq-expanded__item      card
+           .faq-expanded__q         h3 question
+           .faq-expanded__a         answer
+
+   To restyle FAQs anywhere on the site, edit THIS file only.
+   ============================================================ */
+
+.faq-expanded {
+    max-width: 1320px;       /* full site content width */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+}
+
+/* Let the two-column grid use full width even inside a narrow text column. */
+.text-content:has(.faq-expanded),
+.column-content:has(.faq-expanded) {
+    max-width: none;
+}
+
+/* Clear the fixed navbar + sticky TOC bar when the FAQ is reached via its
+   anchor (e.g. the "FAQs" pill in the table-of-contents). ID selector so it
+   wins over the per-page `.content-section[id]` scroll-margin rule. */
+#faq-section {
+    scroll-margin-top: 190px;
+}
+
+/* ---------- Left column ---------- */
+/* Sticky, but offset so it clears the fixed navbar (~100px) AND the sticky
+   TOC bar (~80px) instead of pinning behind them. Tunable per template via
+   the --faq-aside-top variable if a page's nav stack is a different height. */
+.faq-expanded__aside {
+    position: sticky;
+    top: var(--faq-aside-top, 180px);
+    align-self: start;
+}
+
+.faq-expanded__title {
+    font-size: clamp(26px, 2.4vw, 34px);
+    font-weight: 800;
+    color: #0F2C5C;          /* Patron navy */
+    text-align: left;
+    line-height: 1.2;
+    margin: 0 0 16px;
+}
+
+.faq-expanded__lead {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4B5563;
+    line-height: 1.6;
+    margin: 0 0 22px;
+}
+
+.faq-expanded__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #E8712C;          /* Patron orange */
+    text-decoration: none;
+}
+
+.faq-expanded__cta:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Compact enquiry form (left column) ---------- */
+.faq-enquiry {
+    margin-top: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 18px 18px 20px;
+    box-shadow: 0 2px 10px rgba(15, 44, 92, 0.06);
+}
+
+.faq-enquiry__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0F2C5C;
+    margin: 0 0 4px;
+}
+
+.faq-enquiry__sub {
+    font-size: 13px;
+    color: #6B7280;
+    line-height: 1.5;
+    margin: 0 0 14px;
+}
+
+.faq-enquiry__input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #1F2937;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.faq-enquiry__input::placeholder { color: #9CA3AF; }
+
+.faq-enquiry__input:focus {
+    outline: none;
+    background: #FFFFFF;
+    border-color: #E8712C;
+    box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.12);
+}
+
+.faq-enquiry__btn {
+    width: 100%;
+    padding: 11px 16px;
+    margin-top: 2px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #E8712C;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.faq-enquiry__btn:hover { background: #D4621F; }
+.faq-enquiry__btn:active { transform: translateY(1px); }
+.faq-enquiry__btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.faq-enquiry__msg { font-size: 13px; line-height: 1.5; margin: 10px 0 0; }
+.faq-enquiry__msg.is-success { color: #0F9D58; }
+.faq-enquiry__msg.is-error { color: #DC2626; }
+
+/* Phone field with +91 prefix */
+.faq-enquiry__phone {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.faq-enquiry__cc {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    background: #F3F4F6;
+    border: 1px solid #E5E7EB;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.faq-enquiry__input--phone {
+    margin-bottom: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+/* Current-service context line (replaces the service picker) */
+.faq-enquiry__context {
+    font-size: 12.5px;
+    color: #6B7280;
+    margin: 0 0 12px;
+}
+.faq-enquiry__context strong { color: #0F2C5C; font-weight: 600; }
+
+/* Trust badges */
+.faq-enquiry__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    margin-top: 12px;
+}
+
+.faq-enquiry__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #6B7280;
+}
+
+.faq-enquiry__badge svg {
+    width: 13px;
+    height: 13px;
+    color: #0F9D58;
+}
+
+/* ---------- Right column ---------- */
+.faq-expanded__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;            /* allow text to wrap inside the grid track */
+}
+
+.faq-expanded__item {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.faq-expanded__q {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F2C5C;
+    line-height: 1.4;
+    margin: 0 0 10px;
+}
+
+.faq-expanded__a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #374151;
+    line-height: 1.65;
+    margin: 0;
+}
+
+.faq-expanded__a p { margin: 0 0 12px; }
+.faq-expanded__a p:last-child { margin-bottom: 0; }
+.faq-expanded__a a { color: #E8712C; text-decoration: none; }
+.faq-expanded__a a:hover { text-decoration: underline; }
+
+/* ---------- Expand / collapse (expanded by default; orange + <-> X) ---------- */
+.faq-expanded__q {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.faq-expanded__q::after {
+    content: '';
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23E8712C' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E") no-repeat center / contain;
+    transition: transform 0.3s ease;
+    transform: rotate(45deg);   /* expanded (default) = X (a + rotated 45deg) */
+}
+
+.faq-expanded__item.is-collapsed .faq-expanded__q::after { transform: rotate(0deg); }   /* collapsed = + */
+.faq-expanded__item.is-collapsed .faq-expanded__q { margin-bottom: 0; }
+.faq-expanded__item.is-collapsed .faq-expanded__a { display: none; }
+
+.faq-expanded__q:focus-visible {
+    outline: 2px solid #E8712C;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+/* "Collapse all / Expand all" control (auto-inserted by faq-toggle.js) */
+.faq-expanded__toggle-all {
+    align-self: flex-end;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 2px 2px;
+    padding: 7px 14px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: #E8712C;
+    background: #FEF4EE;
+    border: 1px solid #F4D7C6;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.faq-expanded__toggle-all:hover {
+    background: #FCE7DA;
+    border-color: #E8712C;
+}
+
+.faq-expanded__toggle-all:focus-visible {
+    outline: 2px solid #E8712C;
+    outline-offset: 2px;
+}
+
+/* ---------- Stack on tablet / mobile ---------- */
+@media (max-width: 900px) {
+    /* Single column. Unwrap the aside (display:contents) so heading / lead /
+       form become reorderable siblings of the list — this also stops the
+       desktop-sticky aside from overlapping the scrolling list. */
+    .faq-expanded {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .faq-expanded__aside { display: contents; }
+    .faq-expanded__title { order: 1; }
+    .faq-expanded__lead  { order: 2; margin-bottom: 0; }
+    .faq-expanded__list  { order: 3; }
+    /* Enquiry form: not sticky, moved to the BOTTOM (below the questions) */
+    .faq-enquiry { order: 4; margin-top: 0; }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 640px) {
+    .faq-expanded__title { font-size: 24px; }
+    .faq-expanded__item  { padding: 16px 18px; }
+    .faq-expanded__q     { font-size: 16px; }
+    .faq-expanded__a,
+    .faq-expanded__a p   { font-size: 15px; }
+}
+/* ===== END faq.css ===== */
+
+        /* ============================================
+           CSS VARIABLES
+           ============================================ */
+        :root {
+            --orange: #E8712C;
+            --orange-dark: #D4621F;
+            --orange-light: #FEF4EE;
+            --orange-lighter: #FFF9F5;
+            --blue: #1B365D;
+            --blue-light: #2A4A7A;
+            --blue-lighter: #F4F7FB;
+            --white: #FFFFFF;
+            --cream: #FDFCFB;
+            --gray-50: #F9FAFB;
+            --gray-100: #F3F4F6;
+            --gray-200: #E5E7EB;
+            --gray-300: #D1D5DB;
+            --gray-400: #9CA3AF;
+            --gray-500: #6B7280;
+            --gray-600: #4B5563;
+            --gray-700: #374151;
+            --text-primary: #1F2937;
+            --text-secondary: #4B5563;
+            --text-muted: #6B7280;
+            --green: #10B981;
+            --gold: #F59E0B;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+            --shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
+            --shadow-xl: 0 20px 48px rgba(0,0,0,0.1);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+        body {
+            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--white);
+        }
+
+        h2 {
+            font-size: clamp(26px, 3vw, 32px);
+            font-weight: 800;
+            color: var(--blue);
+            margin-bottom: 24px;
+            line-height: 1.25;
+        }
+        h3 { color: var(--blue); font-size: 1.5rem; }
+        p { color: var(--text-secondary); }
+        section a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+        section a:hover { color: var(--orange-dark); }
+
+        section ul { list-style: none; padding-left: 0; margin: 0; }
+        section ul li:not(.nav-item) {
+            display: flex; align-items: flex-start; gap: 12px;
+            color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px;
+        }
+        section ul li:not(.nav-item)::before {
+            content: ""; width: 22px; height: 22px;
+            background: var(--orange-light); border-radius: 50%; flex-shrink: 0; margin-top: 1px;
+            display: flex; align-items: center; justify-content: center;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='%23ff6600' stroke-width='3' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: center; background-size: 12px;
+        }
+        main section h3 { color: #14365F !important; }
+        main section table { width: 100% !important; font-family: 'Barlow', sans-serif; border-collapse: collapse; border-spacing: 0; }
+        main section table thead tr th {
+            border: none !important; color: #fff !important; font-size: 14px; font-weight: 700;
+            background-color: #14365F !important; padding: 14px 18px; text-align: left;
+        }
+        main section table thead tr th:first-child { border-radius: 10px 0 0 0; }
+        main section table thead tr th:last-child  { border-radius: 0 10px 0 0; }
+        main section table tbody tr td {
+            padding: 12px 18px; font-size: 14px;
+            color: var(--text-secondary);
+            background: var(--white);
+            border: none !important;
+            border-bottom: 1px solid var(--gray-200) !important;
+            vertical-align: top;
+        }
+        main section table tbody tr:nth-child(even) td { background: #F9FAFB; }
+        main section table tbody tr:hover td { background: var(--orange-lighter); transition: background 0.15s; }
+        main section table tbody tr:last-child td { border-bottom: none !important; }
+        main section table tbody tr td:first-child {
+            font-weight: 700; color: var(--text-primary);
+            min-width: 160px;
+        }
+        /* Amount column — right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-/* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
+        /* Section 8 / primary entity highlight column in comparison tables */
+        .table-comparison td:nth-child(2),
+        .table-comparison th:nth-child(2) {
+            background: rgba(20,54,95,0.04);
+            border-left: 2px solid var(--blue) !important;
+        }
+        .table-comparison td:nth-child(2) { font-weight: 600; color: var(--blue); }
+        /* Badge pills for service status cells */
+        td .badge-included { display:inline-block; padding:2px 10px; background:#E8F5E9; color:#1B7A3A; border-radius:20px; font-size:12px; font-weight:700; }
+        td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0; color:#C05E10; border-radius:20px; font-size:12px; font-weight:700; }
+        .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 20px 0; border-radius: var(--radius-md); border: 1px solid var(--gray-200); }
+        .table-responsive-wrapper table { margin: 0; border: none; }
+        .table-responsive-wrapper table thead tr th:first-child { border-top-left-radius: 0; }
+        .table-responsive-wrapper table thead tr th:last-child { border-top-right-radius: 0; }
+        .table-responsive-wrapper table td, .table-responsive-wrapper table th { border-left: none !important; border-right: none !important; }
+        .table-responsive-wrapper table td { border-top: none !important; border-bottom: 1px solid var(--gray-200) !important; }
+        .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
+
+        /* ============================================
+           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
            ============================================ */
         .expert-attribution-box {
             background: #F9F9F9;
@@ -151,18 +511,1382 @@
             flex-wrap: wrap;
             margin-bottom: 24px;
         }
-/* ============================================
-           TOC NAVIGATION - Plan 2.2
+        .expert-attribution-box .eab-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
+        .expert-attribution-box .eab-title { font-size: 13px; font-weight: 700; color: var(--text-primary); }
+        .expert-attribution-box .eab-meta {
+            font-size: 12px; color: var(--text-muted);
+            display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+        }
+        .expert-attribution-box .eab-meta .eab-sep { color: var(--gray-300); }
+        .expert-attribution-box .eab-link {
+            font-size: 12px; color: var(--orange); text-decoration: none;
+            font-weight: 600; transition: color 0.2s;
+        }
+        .expert-attribution-box .eab-link:hover { color: var(--orange-dark); text-decoration: underline; }
+
+        /* ============================================
+           HERO SECTION
+           ============================================ */
+        .hero-badge {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: var(--orange-light); padding: 8px 16px;
+            border-radius: 50px; font-size: 13px; font-weight: 600; color: var(--orange); margin-bottom: 20px;
+        }
+        .hero-badge svg { width: 14px; height: 14px; }
+
+        .private-registration-heading {
+            font-family: 'Barlow', sans-serif !important;
+            font-weight: 700 !important;
+            font-size: 48px !important;
+            line-height: 100% !important;
+            color: #14365F !important;
+            margin-bottom: 1.5rem !important;
+        }
+        @media (max-width: 768px) { .private-registration-heading { font-size: 32px !important; line-height: 110% !important; } }
+        @media (max-width: 480px) { .private-registration-heading { font-size: 28px !important; } }
+
+        .check-icon {
+            width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+            background: rgba(16, 185, 129, 0.12); border-radius: 50%; flex-shrink: 0;
+        }
+        .check-icon svg { width: 12px; height: 12px; color: var(--green); }
+
+        .benefit-paragraph { font-weight: 400; margin-top: 5px; font-size: 1rem; line-height: 100%; }
+        .benefit-paragraph span { font-weight: 700; }
+
+        /* Hero CTA Buttons */
+        .hero-cta { display: flex; gap: 14px; margin-bottom: 36px; flex-wrap: wrap; }
+
+        .btn-video {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 12px 20px; background: var(--white);
+            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
+            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
+            color: var(--text-primary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
+        }
+        .btn-video:hover { border-color: var(--orange); background: var(--orange-lighter); color: var(--orange); }
+        .btn-video .play-circle {
+            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
+            background: var(--orange); border-radius: 50%; transition: transform 0.25s ease;
+        }
+        .btn-video:hover .play-circle { transform: scale(1.08); }
+        .btn-video .play-circle svg { width: 10px; height: 10px; color: var(--white); margin-left: 1px; }
+
+        .btn-sample {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 12px 20px; background: transparent;
+            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
+            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600;
+            color: var(--text-secondary); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
+        }
+        .btn-sample:hover { border-color: var(--blue); background: var(--blue-lighter); color: var(--blue); }
+        .btn-sample svg { width: 16px; height: 16px; }
+
+        /* Trust Section */
+        .trust-section { display: flex; flex-direction: column; gap: 20px; }
+        .trust-row { display: flex; flex-wrap: wrap; gap: 28px; }
+        .trust-item { display: flex; align-items: center; gap: 10px; }
+        .trust-icon {
+            width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
+            background: var(--gray-50); border-radius: var(--radius-sm);
+        }
+        .trust-icon svg { width: 18px; height: 18px; color: var(--blue); }
+        .trust-text { font-size: 12px; color: var(--text-muted); line-height: 1.3; }
+        .trust-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
+
+        .google-rating {
+            display: inline-flex; align-items: center; gap: 12px;
+            background: var(--white); border: 1px solid var(--gray-200);
+            padding: 10px 16px; border-radius: var(--radius-md);
+        }
+        .rating-content { display: flex; flex-direction: column; gap: 2px; }
+        .rating-stars { display: flex; align-items: center; gap: 2px; }
+        .rating-stars svg { width: 14px; height: 14px; color: var(--gold); fill: var(--gold); }
+        .rating-score { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-left: 4px; }
+        .rating-count { font-size: 11px; color: var(--text-muted); }
+
+        /* ============================================
+           FORM CARD
+           ============================================ */
+        .form-card {
+            background: var(--white); border-radius: var(--radius-xl);
+            padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
+            max-width: 420px; width: 100%;
+            animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0;
+            margin: 0 auto;
+        }
+        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+        .form-card::before {
+            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
+            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
+        }
+        .form-header { margin-bottom: 24px; }
+        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
+        .form-subtitle { font-size: 13px; color: var(--text-muted); }
+        .form-group { margin-bottom: 16px; }
+        .form-label {
+            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
+            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
+        }
+        .form-input {
+            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
+            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
+            border-radius: var(--radius-md); transition: all 0.2s ease;
+        }
+        .form-input::placeholder { color: var(--gray-400); }
+        .form-input:hover { background: var(--gray-100); }
+        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
+
+        /* Select */
+        .form-select {
+            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
+            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
+            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
+        }
+        .form-select:hover { background-color: var(--gray-100); }
+        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
+
+        /* Phone Group + Country Dropdown */
+        .phone-group {
+            min-height: 50px;
+            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
+            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
+        }
+        .phone-group:hover { background: var(--gray-100); }
+        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
+
+        .country-code-dropdown {
+            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
+            padding: 13px 10px 13px 14px; cursor: pointer;
+            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
+            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
+            box-sizing: border-box;
+        }
+        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
+        .selected-flag {
+            font-size: 20px; line-height: 1; display:flex; align-items:center;
+            width: 26px; overflow: hidden; flex-shrink: 0;
+            /* On browsers where flag emoji renders as "IN" text, clip it */
+            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+        }
+        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
+        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
+        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
+
+        /* Country Dropdown List */
+        .country-dropdown-list {
+            display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
+            background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
+            box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
+        }
+        .country-code-dropdown.open .country-dropdown-list { display: flex; }
+        .country-search-input {
+            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
+            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
+            background: var(--gray-50); outline: none;
+        }
+        .country-search-input::placeholder { color: var(--gray-400); }
+        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
+        .country-options::-webkit-scrollbar { width: 5px; }
+        .country-options::-webkit-scrollbar-track { background: transparent; }
+        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
+        .country-option {
+            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
+            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
+        }
+        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
+        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
+        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
+        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
+
+        /* Phone Input Override */
+        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
+        .phone-input:focus { box-shadow: none !important; border: none !important; }
+
+        /* Submit Button */
+        .btn-submit {
+            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
+            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
+            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
+            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
+        }
+        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
+        .btn-submit:active { transform: translateY(0); }
+        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
+
+        /* Form Footer */
+        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
+        .form-footer {
+            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
+            padding-top: 16px; border-top: 1px solid var(--gray-100);
+        }
+        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
+        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
+
+        /* Error States */
+        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
+        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
+        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
+
+        /* Success State */
+        .form-success { text-align: center; padding: 40px 20px; }
+        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
+        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
+        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 480px) {
+            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
+            .form-title { font-size: 20px; }
+            .country-dropdown-list { width: 260px; }
+            .form-footer { flex-wrap: wrap; gap: 10px; }
+            .btn-submit { font-size: 16px; padding: 14px 20px; }
+        }
+
+        /* ============================================
+           STATS BAR
+           ============================================ */
+        .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
+        .stats-container {
+            max-width: 1320px; margin: 0 auto;
+            display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;
+        }
+        .stat-item { display: flex; align-items: center; gap: 12px; }
+        .stat-icon {
+            width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
+            background: var(--orange-light); border-radius: var(--radius-md);
+        }
+        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
+        .stat-content { display: flex; flex-direction: column; }
+        .stat-value { font-size: 20px; font-weight: 800; color: var(--blue); line-height: 1.2; }
+        .stat-label { font-size: 12px; color: var(--text-muted); }
+        .certifications {
+            display: flex; gap: 16px; padding-left: 32px; border-left: 1px solid var(--gray-200);
+        }
+        .cert-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
+        .cert-item svg { width: 18px; height: 18px; }
+
+        /* ============================================
+           TOC NAVIGATION — Plan 2.2
            ============================================ */
         .toc-section {
             background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
+            padding: 20px 0; position: sticky; top: 0; z-index: 50;
         }
-/* Process Evidence Screenshot - Plan 3.2 */
+        .toc-container {
+            max-width: 1320px; margin: 0 auto; padding: 0 32px;
+            display: flex; align-items: center;
+        }
+        .toc-wrapper {
+            display: flex; align-items: center; gap: 10px;
+            overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; padding-bottom: 4px;
+        }
+        .toc-wrapper::-webkit-scrollbar { display: none; }
+        .toc-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 10px 18px; font-family: 'Barlow', sans-serif; font-size: 13px; font-weight: 600;
+            color: var(--text-secondary); background: var(--white);
+            border: 1.5px solid var(--gray-200); border-radius: 50px;
+            cursor: pointer; transition: all 0.25s ease; white-space: nowrap; text-decoration: none;
+        }
+        .toc-btn:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-lighter); }
+        .toc-btn.active { background: var(--orange); border-color: var(--orange); color: var(--white); }
+        .toc-btn.active:hover { background: var(--orange-dark); border-color: var(--orange-dark); }
+        .toc-arrow {
+            border: none; cursor: pointer; font-size: 22px;
+            width: 45px; height: 45px; border-radius: 50%; background: transparent;
+        }
+        .toc-arrow.left { margin-right: 8px; }
+        .toc-arrow.right { margin-left: 8px; }
+
+        /* ============================================
+           CONTENT SECTIONS
+           ============================================ */
+        .content-section { padding: 64px 32px; background: var(--white); }
+        .content-section:nth-child(even) { background: var(--gray-50); }
+        .content-container { max-width: 1320px; margin: 0 auto; }
+        .section-container { max-width: 1320px; margin: 0 auto; }
+        .text-content { max-width: 100%; }
+
+        .section-title {
+            font-size: clamp(26px, 3vw, 32px); font-weight: 800;
+            color: var(--blue); margin-bottom: 24px; line-height: 1.25;
+        }
+        .content-text { font-size: 15px; line-height: 1.8; color: var(--text-secondary); text-align: left; }
+        .content-text p { margin-bottom: 16px; text-align: left; }
+        .content-text strong { color: var(--text-primary); font-weight: 600; }
+        .content-text a { color: var(--orange); text-decoration: none; font-weight: 500; }
+
+        .two-column { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
+        .column-content { max-width: 100%; }
+        .column-image { display: flex; justify-content: center; align-items: flex-start; position: sticky; top: 24px; }
+
+        .highlight-box {
+            background: var(--orange-lighter); border-left: 4px solid var(--orange);
+            padding: 16px 20px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin: 20px 0;
+        }
+        .highlight-box p { margin: 0 0 8px 0; font-size: 14px; color: var(--text-secondary); text-align: left; }
+        .highlight-box p:last-child { margin-bottom: 0; }
+
+        .illustration-placeholder {
+            width: 100%; max-width: 420px; aspect-ratio: 4/3;
+            background: linear-gradient(135deg, var(--blue-lighter) 0%, var(--orange-lighter) 100%);
+            border-radius: var(--radius-xl); display: flex; flex-direction: column;
+            align-items: center; justify-content: center; padding: 24px; position: relative; overflow: hidden;
+        }
+        .illustration-icon {
+            width: 100%; max-width: 280px; aspect-ratio: 1;
+            display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
+        }
+        .illustration-icon svg { width: 100%; height: 100%; color: var(--blue); }
+        .illustration-badge {
+            background: var(--white); padding: 12px 20px; border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md); text-align: center;
+        }
+        .illustration-badge span { display: block; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
+        .illustration-badge strong { font-size: 14px; font-weight: 700; color: var(--blue); }
+
+        /* Section Eyebrow */
+        .section-eyebrow {
+            display: inline-flex; align-items: center; gap: 8px;
+            font-size: 13px; font-weight: 600; color: var(--orange);
+            text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
+        }
+        .section-eyebrow svg { width: 18px; height: 18px; }
+        .section-subtitle { font-size: 15px; color: var(--text-muted); max-width: 600px; }
+
+        /* Steps Section */
+        .steps-section { padding: 72px 32px; background: var(--gray-50); }
+        .steps-container { display: flex; flex-direction: column; gap: 32px; }
+        .step-card {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
+            background: var(--white); border-radius: var(--radius-xl); padding: 40px;
+            border: 1px solid var(--gray-200); transition: all 0.3s ease;
+        }
+        .step-card:hover { box-shadow: var(--shadow-lg); border-color: var(--gray-300); }
+        .step-card:nth-child(even) { direction: rtl; }
+        .step-card:nth-child(even) > * { direction: ltr; }
+        .step-content { display: flex; flex-direction: column; }
+        .step-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            background: var(--orange); color: var(--white);
+            padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; width: fit-content;
+        }
+        .step-title { font-size: clamp(20px, 2.5vw, 24px); font-weight: 800; color: var(--blue); margin-bottom: 14px; line-height: 1.3; }
+        .step-description { font-size: 15px; color: var(--text-secondary); line-height: 1.75; text-align: left; }
+        .step-highlights { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+        .highlight-tag {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 6px 12px; background: var(--gray-50); border: 1px solid var(--gray-200);
+            border-radius: 50px; font-size: 12px; font-weight: 600; color: var(--text-muted);
+        }
+        .highlight-tag svg { width: 12px; height: 12px; color: var(--green); }
+        .step-visual { display: flex; justify-content: center; align-items: center; }
+        .step-illustration {
+            width: 100%; max-width: 280px; aspect-ratio: 1;
+            background: linear-gradient(135deg, var(--orange-lighter) 0%, var(--blue-lighter) 100%);
+            border-radius: var(--radius-xl); display: flex; flex-direction: column;
+            align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden;
+        }
+        .step-illustration .illustration-icon {
+            width: 100%; max-width: 180px; aspect-ratio: 1; margin-bottom: 8px;
+            background: none; box-shadow: none;
+        }
+        .step-illustration .illustration-icon svg { width: 100%; height: 100%; }
+        .illustration-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-align: center; }
+        .step-number-large {
+            position: absolute; bottom: 16px; right: 20px;
+            font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
+        }
+
+        /* Process Evidence Screenshot — Plan 3.2 */
         .process-screenshot-details { margin-top: 14px; }
+        .process-screenshot-details summary {
+            font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
+            display: inline-flex; align-items: center; gap: 6px;
+        }
+        .process-screenshot-details summary:hover { color: var(--orange-dark); }
+        .process-screenshot-details .screenshot-img {
+            max-width: 100%; border-radius: 8px; border: 1px solid var(--gray-200);
+            box-shadow: var(--shadow-sm); margin-top: 10px;
+        }
+        .process-screenshot-details .screenshot-note {
+            font-size: 11px; color: var(--text-muted); margin-top: 6px;
+        }
+
+        /* Why Choose Section */
+        .why-choose-section { padding: 72px 32px; background: var(--gray-50); }
+        .why-choose-header { text-align: center; margin-bottom: 48px; }
+        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .feature-card {
+            background: var(--white); border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg); padding: 28px; transition: all 0.25s ease;
+        }
+        .feature-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); transform: translateY(-2px); }
+        .feature-icon {
+            width: 52px; height: 52px; background: var(--orange-light); border-radius: var(--radius-md);
+            display: flex; align-items: center; justify-content: center; margin-bottom: 18px;
+        }
+        .feature-icon svg { width: 26px; height: 26px; color: var(--orange); }
+        .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; }
+        .feature-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; text-align: left; }
+
+        /* Reviews CTA */
+        .reviews-cta {
+            margin-top: 40px; padding: 28px 32px; background: var(--blue);
+            border-radius: var(--radius-lg); display: flex;
+            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
+        }
+        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
+        .reviews-cta-icon {
+            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
+            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
+        }
+        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
+        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
+        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
+        .btn-cta {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
+            color: var(--blue); background: var(--white); border: none;
+            border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
+        }
+        .btn-cta:hover { background: var(--orange-light); color: var(--orange); }
+        .btn-cta svg { width: 16px; height: 16px; }
+
+        /* ============================================
+           CUSTOM FAQ ACCORDION (replaces Bootstrap accordion)
+           ============================================ */
+        /* Static FAQ - direct Q&A, always expanded (no collapse) */
+@media (max-width: 640px) {
+}
+
+        /* ============================================
+           CITY & CROSS-SELL GRID CARDS
+           ============================================ */
+        .pa-city-block { }
+        .pa-block-title { font-size: 18px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
+        .pa-block-sub   { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
+        .pa-city-grid, .pa-cross-grid { display: grid; gap: 12px; max-width: 1100px; }
+        .pa-city-grid  { grid-template-columns: repeat(4, 1fr); }
+        .pa-cross-grid { grid-template-columns: repeat(3, 1fr); }
+        .pa-city-card, .pa-cross-card {
+            display: flex; align-items: center; gap: 10px;
+            padding: 14px 16px; background: var(--white);
+            border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
+            text-decoration: none; transition: all 0.25s ease;
+        }
+        .pa-city-card:hover, .pa-cross-card:hover { border-color: var(--orange); box-shadow: 0 4px 16px rgba(232,113,44,0.12); transform: translateY(-2px); }
+        .pa-card-icon {
+            width: 32px; height: 32px; background: var(--orange-light);
+            border-radius: var(--radius-sm); display: flex; align-items: center;
+            justify-content: center; flex-shrink: 0;
+        }
+        .pa-card-title  { font-size: 14px; font-weight: 700; color: var(--blue); }
+        .pa-card-sub    { font-size: 11px; color: var(--text-muted); }
+        @media (max-width: 768px) {
+            .pa-city-grid  { grid-template-columns: repeat(2, 1fr); }
+            .pa-cross-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 480px) {
+            .pa-city-grid  { grid-template-columns: 1fr; }
+            .pa-cross-grid { grid-template-columns: 1fr; }
+        }
+        .testimonials-section {
+            padding: 24px 32px 0 32px;
+            background: var(--white);
+            overflow: hidden;
+        }
+        .testimonials-section .section-container {
+            max-width: 1320px;
+            margin: 0 auto;
+        }
+        .testimonials-section .section-header {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        .testimonials-section .section-header h2 {
+            font-size: clamp(26px, 3.5vw, 34px);
+            font-weight: 800;
+            color: var(--blue);
+            margin-bottom: 10px;
+        }
+        .testimonials-section .section-header p {
+            font-size: 15px;
+            color: var(--text-muted);
+        }
+
+        /* Slick overrides */
+        .testimonial-slider .slick-slide { padding: 0 10px; height: auto; }
+        .testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
+        .testimonial-slider .slick-dots { bottom: -40px; }
+        .testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300); opacity: 1; }
+        .testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange); }
+        .testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
+        .testimonial-slider .slick-track { display: flex !important; }
+        .testimonial-slider .slick-slide > div { height: 100%; }
+        /* Fixed uniform height so text + video cards always match (video area 298px + author = ~370px) */
+        .testimonial-slider .testimonial-card { height: 370px !important; min-height: 370px !important; overflow: hidden; }
+        .testimonial-slider.slick-initialized { margin-bottom: 0; }
+
+        /* Video Testimonial Card */
+        .testi-video-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            height: 340px;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.25s ease;
+        }
+        .testi-video-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
+        .testi-video-area {
+            position: relative;
+            height: 230px;
+            overflow: hidden;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .testi-video-area video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .testi-play-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0,0,0,0.25);
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+        .testi-video-area.playing .testi-play-overlay { opacity: 0; }
+        .testi-play-btn {
+            width: 56px;
+            height: 56px;
+            background: rgba(232,113,44,0.85);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        .testi-play-btn svg { width: 22px; height: 22px; color: white; margin-left: 3px; }
+        .testi-star-badge {
+            position: absolute;
+            bottom: 12px;
+            left: 12px;
+            display: flex;
+            gap: 2px;
+        }
+        .testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
+
+        /* Quote Testimonial Card */
+        .testi-quote-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            height: 340px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.25s ease;
+        }
+        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
+        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
+        .testi-quote-icon svg { width: 24px; height: 24px; }
+        .testi-quote-text {
+            font-size: 14px;
+            line-height: 1.65;
+            color: var(--text-secondary);
+            flex: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .testi-footer {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding-top: 16px;
+            border-top: 1px solid var(--gray-100);
+        }
+        .testi-author {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .testi-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--white);
+            flex-shrink: 0;
+            overflow: hidden;
+            background: var(--orange);
+        }
+        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
+        .testi-avatar.blue { background: var(--blue); }
+        .testi-avatar.teal { background: #0D9488; }
+        .testi-avatar.purple { background: #7C3AED; }
+        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
+        .testi-role { font-size: 12px; color: var(--text-muted); }
+        .testi-rating-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .testi-stars { display: flex; gap: 1px; }
+        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
+        .testi-google-badge { width: 22px; height: 22px; }
+        .testi-google-badge img { width: 100%; height: 100%; }
+
+        /* Loading state */
+        .testi-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 0;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+        .testi-loading .spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid var(--gray-200);
+            border-top-color: var(--orange);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 12px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        @media (max-width: 768px) {
+            .testimonials-section { padding: 16px 20px 0 20px; }
+        }
+        @media (max-width: 576px) {
+
+        }
+
+        
+
+        @media (max-width: 1024px) {
+        }
+        @media (max-width: 768px) {
+
+        }
+        @media (max-width: 480px) {
+
+
+        }
+        @media (max-width: 768px) {
+
+        }
+
+        /* ============================================
+           RESPONSIVE
+           ============================================ */
+        @media (max-width: 1024px) {
+            .two-column { grid-template-columns: 1fr; gap: 40px; }
+            .features-grid { grid-template-columns: repeat(2, 1fr); }
+            .stats-container { gap: 32px; }
+            .certifications { padding-left: 0; border-left: none; width: 100%; justify-content: center; padding-top: 16px; border-top: 1px solid var(--gray-200); }
+        }
+        @media (max-width: 900px) {
+            .step-card { grid-template-columns: 1fr; gap: 32px; padding: 32px; }
+            .step-card:nth-child(even) { direction: ltr; }
+            .step-visual { order: -1; }
+        }
+        @media (max-width: 768px) {
+            .content-section { padding: 40px 16px; }
+            .hero-cta { flex-direction: column; }
+            .btn-video, .btn-sample { width: 100%; justify-content: center; }
+            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
+            .stat-item { width: 100%; }
+            .features-grid { grid-template-columns: 1fr; gap: 16px; }
+            .reviews-cta { flex-direction: column; text-align: center; }
+            .reviews-cta-content { flex-direction: column; }
+            .content-text { font-size: 14px; }
+            .accordion-body { text-align: left; }
+            main section table thead tr th { font-size: 13px !important; padding: 10px 12px !important; }
+            main section table tbody tr td { padding: 10px 12px !important; font-size: 13px !important; }
+            .table-responsive-wrapper { margin: 16px 0; border-radius: var(--radius-sm); }
+            .col-lg-4 { margin-top: 24px; }
+            .form-card { max-width: 100%; }
+            .private-registration-heading { margin-bottom: 1rem !important; }
+            .benefit-paragraph { font-size: 0.9rem; }
+            .hero-badge { font-size: 12px; padding: 6px 12px; }
+            .expert-attribution-box { padding: 10px 14px; }
+            .expert-attribution-box .eab-title { font-size: 12px; }
+            .expert-attribution-box .eab-meta { font-size: 11px; }
+            .trust-section { gap: 12px; }
+            .trust-row { gap: 16px; }
+            .google-rating { width: 100%; }
+            section ul li:not(.nav-item) { font-size: 14px; }
+        }
+
+        /* Smooth scroll offset */
+        .content-section[id] { scroll-margin-top: 80px; }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    
+        /* Trust Badge Descriptions */
+        .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
+        .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
+
+        /* City Interlinking Grid */
+        @media (max-width: 768px) {
+            .content-section [style*="grid-template-columns: repeat(4"] {
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 12px !important;
+            }
+        }
+        @media (max-width: 480px) {
+            .content-section [style*="grid-template-columns: repeat(4"] {
+                grid-template-columns: 1fr !important;
+            }
+        }
+
+        /* ============================================
+           STICKY WHATSAPP BAR
+           ============================================ */
+        .wa-sticky-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #0F6E56;
+            z-index: 9999;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+            transition: transform 0.35s ease;
+        }
+        .wa-sticky-bar.hidden { transform: translateY(100%); }
+        .wa-sticky-bar-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            max-width: 1320px;
+            width: 100%;
+            justify-content: center;
+        }
+        .wa-sticky-bar-icon {
+            width: 36px; height: 36px; flex-shrink: 0;
+            display: flex; align-items: center; justify-content: center;
+            background: rgba(255,255,255,0.2); border-radius: 50%;
+        }
+        .wa-sticky-bar-icon svg { width: 20px; height: 20px; color: #fff; fill: #fff; }
+        .wa-sticky-bar-text {
+            font-family: 'Barlow', sans-serif;
+            font-size: 15px; color: #fff; font-weight: 500;
+        }
+        .wa-sticky-bar-text strong { font-weight: 700; }
+        .wa-sticky-bar-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 8px 22px; background: #fff; color: #0F6E56;
+            font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
+            border: none; border-radius: 50px; cursor: pointer;
+            text-decoration: none; transition: all 0.2s ease; flex-shrink: 0;
+        }
+        .wa-sticky-bar-btn:hover { background: #E1F5EE; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .wa-sticky-bar-close {
+            background: none; border: none; cursor: pointer;
+            color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1;
+            padding: 4px 8px; transition: color 0.2s; flex-shrink: 0;
+            font-family: 'Barlow', sans-serif; font-weight: 300;
+        }
+        .wa-sticky-bar-close:hover { color: #fff; }
+        @media (max-width: 768px) {
+            .wa-sticky-bar { padding: 8px 12px; gap: 8px; }
+            .wa-sticky-bar-text { font-size: 13px; }
+            .wa-sticky-bar-btn { padding: 7px 16px; font-size: 13px; }
+            .wa-sticky-bar-icon { width: 30px; height: 30px; }
+            .wa-sticky-bar-icon svg { width: 16px; height: 16px; }
+        }
+        @media (max-width: 480px) {
+            .wa-sticky-bar-text { display: none; }
+            .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
+            .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
+            .wa-sticky-bar-btn span { display: none; }
+        }
 </style>
+<link rel="stylesheet" href="/css/patron-cluster.css">
+<link rel="stylesheet" href="/css/faq.css">
+<style>
+/* preview only: the estate's «FIELD» convention has no class in the master template, and a
+   preview that silently swallowed an unfilled fact would read as finished work */
+.pa-open{background:#FDE8D6;color:#9A3412;border:1px solid #F2C09A;border-radius:5px;
+  padding:1px 6px;font-weight:700;font-size:.92em;white-space:nowrap}
+/* pa-offsite marks a link whose destination is not in this local build. It used to draw a
+   dotted underline and an arrow, which is fine on a link-audit view and wrong on the page -
+   these are ordinary content links and should read as ordinary links, with the address in the
+   href and nothing but the anchor text on screen. The class stays so the links can still be
+   found programmatically; it just no longer decorates them. */
+a.pa-offsite{border-bottom:0;text-decoration:none}
+a.pa-offsite:hover{text-decoration:underline}
+.pa-city-prose{margin-top:8px}
+
+/* ---- Stoklenz product tour ---------------------------------------------------------------
+   The platform section - the one part of the page selling a product rather than describing a
+   procedure. Kept compact: a short cinematic video strip, then the capabilities as a 2x2 grid
+   of thumbnail cards rather than full-width alternating rows, which ran to roughly twice the
+   height for the same content. Media slots are empty on purpose and print the filename their
+   asset should land at, so replacing one is a file drop with no markup change. */
+.pa-sl{margin:20px 0 4px;display:grid;grid-template-columns:0.95fr 1.05fr;gap:26px;
+  align-items:start}
+/* the video pins while the capability cards scroll past it, so it has time to play through
+   rather than leaving the viewport after one card */
+.pa-sl-col{position:sticky;top:160px}
+.pa-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;
+  justify-content:center;padding:28px}
+.pa-modal[hidden]{display:none}
+.pa-modal-backdrop{position:absolute;inset:0;background:rgba(5,14,22,.72);
+  backdrop-filter:blur(4px)}
+.pa-modal-box{position:relative;z-index:1;width:min(1200px,96vw);height:min(820px,88vh);
+  display:flex;flex-direction:column;background:#07121C;border:1px solid #14364A;
+  border-radius:16px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.pa-modal-head{flex:0 0 auto;display:flex;align-items:center;gap:12px;padding:12px 14px;
+  background:linear-gradient(180deg,#0C1F2E,#09192504);border-bottom:1px solid #14364A}
+.pa-modal-mark{width:28px;height:28px;border-radius:8px;background:#14B8A6;color:#07121C;
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+.pa-modal-title{color:#fff;font-weight:700;font-size:15px;margin-right:auto}
+.pa-modal-out{color:#9FD8CF !important;font-size:13px;font-weight:600;text-decoration:none;
+  border:1px solid #1E4A5C;border-radius:50px;padding:6px 14px}
+.pa-modal-out:hover{background:#0E2634;text-decoration:none}
+.pa-modal-x{background:transparent;border:0;color:#9FB6C4;font-size:26px;line-height:1;
+  cursor:pointer;padding:0 6px}
+.pa-modal-x:hover{color:#fff}
+.pa-modal-body{position:relative;flex:1 1 auto;background:#050E16}
+.pa-modal-stand{position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;gap:12px;padding:32px 40px;
+  background:radial-gradient(120% 90% at 78% 8%,rgba(20,184,166,.20) 0%,rgba(5,14,22,0) 62%),#050E16}
+.pa-modal-badge{font-size:11.5px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;
+  color:#14B8A6;border:1px solid #175A54;border-radius:50px;padding:5px 13px}
+.pa-modal-stand h3{margin:4px 0 0 !important;color:#fff;font-size:clamp(20px,2.4vw,27px);
+  font-weight:700;line-height:1.25}
+.pa-modal-stand p{margin:0 !important;color:#9FB6C4;font-size:15px;line-height:1.7;
+  max-width:52ch;text-align:center}
+.pa-modal-go{margin-top:8px;display:inline-flex;align-items:center;height:48px;padding:0 26px;
+  border-radius:50px;background:#14B8A6;color:#04222A !important;font-weight:800;font-size:15px;
+  text-decoration:none;box-shadow:0 10px 26px rgba(20,184,166,.34);
+  transition:transform .25s ease,background .25s ease}
+.pa-modal-go:hover{background:#0FA093;transform:translateY(-2px);text-decoration:none}
+.pa-modal-small{color:#6C8598;font-size:12.5px}
+.pa-modal-note{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  margin:0;padding:0 32px;text-align:center;color:#7E97A8;font-size:14px}
+.pa-modal-frame{position:relative;width:100%;height:100%;border:0;display:block;background:#050E16}
+@media (max-width:600px){.pa-modal{padding:0}.pa-modal-box{width:100vw;height:100vh;
+  border-radius:0}}
+
+.pa-sl-demo{position:relative;display:block;aspect-ratio:16/9;border-radius:14px;
+  overflow:hidden;text-decoration:none;border:1px solid #0C2233;
+  background-color:#07121C;background-size:cover;background-position:center;
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.pa-sl-demo::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(160deg,rgba(7,18,28,.72) 0%,rgba(7,18,28,.90) 100%)}
+.pa-sl-demo:hover{transform:translateY(-3px);border-color:#14B8A6;
+  box-shadow:0 16px 34px rgba(6,20,32,.34)}
+.pa-sl-glow{position:absolute;right:-18%;top:-28%;width:62%;aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,rgba(20,184,166,.34) 0%,rgba(20,184,166,0) 68%)}
+.pa-sl-demo-in{position:absolute;inset:0;z-index:2;display:flex;align-items:center;gap:14px;
+  padding:0 24px}
+.pa-sl-play{flex:0 0 auto;width:46px;height:46px;border-radius:50%;background:#14B8A6;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 22px rgba(20,184,166,.42);transition:transform .25s ease}
+.pa-sl-play::after{content:"";border-style:solid;border-width:8px 0 8px 14px;
+  border-color:transparent transparent transparent #07121C;margin-left:3px}
+.pa-sl-demo:hover .pa-sl-play{transform:scale(1.1)}
+.pa-sl-demo-t{display:flex;flex-direction:column;gap:3px;min-width:0}
+.pa-sl-demo-t strong{color:#fff;font-size:17px;font-weight:700;letter-spacing:.01em}
+.pa-sl-demo-t span{color:#9FB6C4;font-size:13.5px}
+.pa-sl-steps{display:flex;flex-direction:column;gap:16px}
+.pa-sl-aside{margin-top:16px;background:#FCFDFF;border:1px solid var(--gray-200,#E5E7EB);
+  border-left:3px solid var(--orange,#E8712C);border-radius:12px;padding:20px 22px}
+.pa-sl-aside h3{margin:0 0 8px !important;font-size:17.5px;line-height:1.3;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-sl-aside p{margin:0 !important;font-size:14.5px;line-height:1.7;text-align:left;
+  -webkit-hyphens:manual;hyphens:manual}
+.pa-sl-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.pa-sl-btn{display:inline-flex;align-items:center;height:42px;padding:0 20px;border-radius:50px;
+  background:var(--orange,#E8712C);color:#fff !important;font-weight:700;font-size:14.5px;
+  text-decoration:none;transition:background .25s ease,transform .25s ease}
+.pa-sl-btn:hover{background:var(--orange-dark,#C7501B);transform:translateY(-2px);
+  text-decoration:none}
+.pa-sl-btn--ghost{background:transparent;color:var(--blue,#14365F) !important;
+  border:1.5px solid var(--gray-300,#D1D5DB)}
+.pa-sl-btn--ghost:hover{background:#F9FAFB;border-color:var(--orange,#E8712C)}
+.pa-sl-more{display:inline-block;margin-top:14px;font-size:14.5px;font-weight:700;
+  color:var(--orange-dark,#C7501B);text-decoration:none;border-bottom:1px solid currentColor;
+  padding-bottom:1px}
+.pa-sl-more:hover{color:var(--blue,#14365F)}
+.pa-sl-step{background:#fff;border:1px solid var(--gray-200,#E5E7EB);border-radius:12px;
+  overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.pa-sl-step:hover{transform:translateY(-3px);border-color:var(--orange,#E8712C);
+  box-shadow:0 12px 26px rgba(15,54,95,.12)}
+/* a real screenshot fills its frame; the step number sits on it */
+.pa-sl-ph.is-shot{padding:0;background:#0B1F30;overflow:hidden;position:relative;
+  aspect-ratio:16/10;height:auto}
+.pa-sl-ph.is-shot img{width:100%;height:100%;object-fit:cover;object-position:top center;
+  display:block}
+.pa-sl-ph.is-shot .pa-sl-n{position:absolute;left:10px;bottom:10px}
+
+/* thumbnails kept deliberately shallow - they are a visual cue, not the content */
+.pa-sl-ph{position:relative;display:flex;align-items:flex-end;justify-content:space-between;
+  aspect-ratio:16/9;padding:12px 14px;
+  background:linear-gradient(180deg,#F7FAFF,#E9F0F9);border-bottom:1px solid #E5E7EB}
+.pa-sl-ph .pa-sl-n{font-size:11px;font-weight:800;letter-spacing:.06em;color:#fff;
+  background:var(--orange,#E8712C);border-radius:6px;padding:4px 8px;line-height:1}
+.pa-sl-ph .pa-sl-path{color:#7C8DA6;opacity:.9}
+.pa-sl-copy{padding:14px 18px 16px}
+.pa-sl-copy h3{margin:0 0 6px !important;font-size:16.5px;line-height:1.3;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-sl-copy p{margin:0 !important;font-size:14.5px;line-height:1.65;text-align:left;
+  -webkit-hyphens:manual;hyphens:manual}
+@media (max-width:900px){
+  .pa-sl{grid-template-columns:1fr;gap:18px}
+  .pa-sl-col{position:static}
+}
+@media (prefers-reduced-motion:reduce){
+  .pa-sl-step{transition:none}
+  .pa-sl-step:hover{transform:none}
+  .pa-sl-vid{display:none}
+}
+
+/* WHAT_IS sub-sections: numbered, accented blocks. They are the disambiguation points of the
+   page ("stock audit vs statutory audit", "stock taking vs reconciliation"), and as a plain
+   H3-plus-paragraph run they read as one straight column with no rhythm. Justification and
+   auto-hyphenation are turned off INSIDE the block only - a component style, not a global
+   override - so the copy stops breaking mid-word ("owner-ship", "invent-ory"). */
+.pa-wi-list{display:flex;flex-direction:column;gap:14px;margin:22px 0 4px}
+.pa-wi-item{display:flex;gap:16px;align-items:flex-start;
+  background:linear-gradient(180deg,#ffffff,#fafcff);
+  border:1px solid var(--gray-200,#E5E7EB);border-left:3px solid var(--orange,#E8712C);
+  border-radius:12px;padding:20px 22px;
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.pa-wi-item:hover{transform:translateY(-3px);box-shadow:0 12px 26px rgba(15,54,95,.12);
+  border-color:var(--orange,#E8712C)}
+.pa-wi-n{flex:0 0 auto;font-size:12px;font-weight:800;letter-spacing:.06em;
+  color:var(--orange-dark,#C7501B);background:#FEF4EE;border-radius:6px;padding:5px 9px;
+  line-height:1;margin-top:3px}
+.pa-wi-b{min-width:0}
+.pa-wi-b h3{margin:0 0 8px !important;font-size:18px;line-height:1.3;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-wi-b p{margin:0 !important;font-size:15.5px;line-height:1.75;
+  text-align:left;-webkit-hyphens:manual;hyphens:manual}
+@media (max-width:560px){.pa-wi-item{flex-direction:column;gap:10px}}
+@media (prefers-reduced-motion:reduce){.pa-wi-item{transition:none}
+  .pa-wi-item:hover{transform:none}}
+
+/* BENEFITS and WHY PATRON on a 2x2 grid, with the estate's shared lucide icons. The cluster
+   CSS runs features-grid at 3 columns and why-patron-grid at auto-fit, which left a lone card
+   stranded on the second row. */
+/* NOTE: BENEFITS sits on section.why-choose-section, not .content-section, so scoping these
+   to .content-section silently missed it. Targeted on the grid class itself.
+   BENEFITS carries four cards, so 2x2. WHY PATRON carries three, so one row of three. */
+.features-grid,.why-patron-grid{gap:18px !important}
+.features-grid.pa-cols-2,.why-patron-grid.pa-cols-2,.pa-ov-grid.pa-cols-2{
+  grid-template-columns:repeat(2,1fr) !important}
+.features-grid.pa-cols-3,.why-patron-grid.pa-cols-3,.pa-ov-grid.pa-cols-3{
+  grid-template-columns:repeat(3,1fr) !important}
+/* Three text cards at 3-up get narrow before the page does; drop them to 2 early. */
+@media (max-width:1000px){.pa-ov-grid.pa-cols-3{
+  grid-template-columns:repeat(2,1fr) !important}}
+.feature-icon svg,
+.pa-city-card .pa-card-icon svg{width:22px;height:22px;display:block}
+.pa-city-card .pa-card-icon{color:var(--orange,#E8712C)}
+@media (max-width:1000px){.why-patron-grid{grid-template-columns:repeat(2,1fr) !important}}
+@media (max-width:760px){
+  .features-grid,
+  .why-patron-grid{grid-template-columns:1fr !important}
+}
+
+/* DOCUMENTS as points.
+   Two things fought us here. patron-cluster.css sets `section ul li:not(.nav-item)` to
+   display:flex, which turned each point into two flex items - the bold name in one column,
+   the sentence in another - and gave it a 22px bullet of its own that collided with ours.
+   Both are overridden. The marker is drawn on ::before/::after so wrapped lines hang under
+   the text rather than under the tick. */
+/* CASE STUDIES as a roadmap. The four parts the pack separates - challenge, what we did,
+   what the count found, what changed - are stages of one engagement, so they run along a
+   track rather than stacking as four paragraphs. The finding is the point of the story, so
+   its node is filled orange and its copy sits on a tinted panel. */
+.pa-case{background:#fff;border:1px solid var(--gray-200,#E5E7EB);
+  border-left:3px solid var(--blue,#14365F);border-radius:12px;padding:24px 26px 20px;
+  margin-bottom:18px}
+.pa-case-h{margin-bottom:22px}
+.pa-case-h h3{margin:0 0 6px !important;font-size:19px;line-height:1.3;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-case-scale{margin:0 !important;font-size:11.5px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--orange-dark,#C7501B)}
+.pa-case-client{margin:6px 0 0 !important;font-size:14px;color:#6B7280;font-style:italic}
+
+/* CASE STUDIES as a straight roadmap: four stages on one line, copy beneath each node, a
+   connector running from each node to the next. */
+.pa-rm-track{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(4,1fr);gap:0;align-items:start}
+.pa-rm-stage{position:relative;padding:0 20px 0 0;display:block !important;margin:0 !important}
+.pa-rm-stage + .pa-rm-stage{padding-left:20px}
+.pa-rm-stage::before{content:"" !important;position:absolute;top:17px;left:46px;right:0;
+  width:auto !important;height:2px !important;background:#DCE5EF;border-radius:0 !important;
+  margin:0 !important;display:block !important}
+.pa-rm-stage + .pa-rm-stage::before{left:66px}
+.pa-rm-stage:last-child::before{display:none !important}
+.pa-rm-node{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;
+  width:36px;height:36px;border-radius:50%;background:#fff;
+  border:2px solid var(--blue,#14365F);color:var(--blue,#14365F);
+  font-size:12.5px;font-weight:800}
+.pa-rm-stage.is-out .pa-rm-node{background:var(--orange,#E8712C);
+  border-color:var(--orange,#E8712C);color:#fff;
+  box-shadow:0 0 0 5px rgba(232,113,44,.14)}
+.pa-rm-lab{display:block;margin:14px 0 5px;font-size:11px;font-weight:800;letter-spacing:.08em;
+  text-transform:uppercase;color:#8B98A8}
+.pa-rm-stage.is-out .pa-rm-lab{color:var(--orange-dark,#C7501B)}
+.pa-rm-stage p{margin:0 !important;font-size:14px;line-height:1.65;text-align:left;
+  -webkit-hyphens:manual;hyphens:manual}
+.pa-rm-stage.is-out p{background:#FEF6F1;border:1px solid #F5D2BC;border-radius:10px;
+  padding:12px 14px}
+@media (max-width:1000px){
+  .pa-rm-track{grid-template-columns:repeat(2,1fr);gap:24px 0}
+  .pa-rm-stage:nth-child(2n)::before{display:none !important}
+}
+@media (max-width:640px){
+  .pa-rm-track{grid-template-columns:1fr;gap:18px}
+  .pa-rm-stage,.pa-rm-stage + .pa-rm-stage{padding:0}
+  .pa-rm-stage::before{display:none !important}
+}
+
+/* TOOL as a download card, RELATED SERVICES as link cards - both were heading-over-paragraph
+   runs, and the tool section additionally left its first sub-heading orphaned above the
+   second one with no body under it. */
+.pa-tool{display:flex;gap:18px;align-items:flex-start;background:#fff;
+  border:1px solid var(--gray-200,#E5E7EB);border-left:3px solid var(--orange,#E8712C);
+  border-radius:12px;padding:22px 24px;margin:20px 0 0}
+.pa-tool-ic{flex:0 0 auto;width:46px;height:46px;border-radius:12px;background:#FEF4EE;
+  color:var(--orange-dark,#C7501B);display:flex;align-items:center;justify-content:center}
+.pa-tool-ic svg{width:24px;height:24px}
+.pa-tool-b{min-width:0}
+.pa-tool-b h3{margin:0 0 6px !important;font-size:18px;line-height:1.3;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-tool-b p{margin:0 !important;font-size:14.5px;line-height:1.7;text-align:left}
+.pa-tool-btn{display:inline-flex;align-items:center;height:42px;padding:0 22px;margin-top:14px;
+  border-radius:50px;background:var(--orange,#E8712C);color:#fff !important;font-weight:700;
+  font-size:14.5px;text-decoration:none;transition:background .25s ease,transform .25s ease}
+.pa-tool-btn:hover{background:var(--orange-dark,#C7501B);transform:translateY(-2px);
+  text-decoration:none}
+.pa-tool-note{margin-top:14px;font-size:14px;line-height:1.7;color:var(--text-secondary,#4B5563)}
+.pa-tool-note strong{color:var(--blue,#14365F)}
+
+.pa-rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0 4px}
+.pa-rel-card{display:flex;flex-direction:column;background:#fff;
+  border:1px solid var(--gray-200,#E5E7EB);border-radius:12px;padding:20px 22px;
+  text-decoration:none !important;
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+a.pa-rel-card:hover{transform:translateY(-3px);border-color:var(--orange,#E8712C);
+  box-shadow:0 12px 26px rgba(15,54,95,.12);text-decoration:none}
+.pa-rel-card h3{margin:0 0 7px !important;font-size:16.5px;line-height:1.35;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-rel-card p{margin:0 !important;font-size:14.5px;line-height:1.7;text-align:left;
+  color:var(--text-secondary,#4B5563);-webkit-hyphens:manual;hyphens:manual}
+.pa-rel-go{margin-top:auto;padding-top:12px;font-size:13.5px;font-weight:700;
+  color:var(--orange-dark,#C7501B)}
+a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
+@media (max-width:1000px){.pa-rel-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.pa-rel-grid{grid-template-columns:1fr}.pa-tool{flex-direction:column}}
+
+/* LEGAL FRAMEWORK as citation cards: the provision as a chip, what it says as the heading. */
+.pa-law-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:20px 0 4px}
+.pa-law{background:#fff;border:1px solid var(--gray-200,#E5E7EB);
+  border-left:3px solid var(--blue,#14365F);border-radius:12px;padding:20px 22px;
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.pa-law:hover{transform:translateY(-3px);border-color:var(--blue,#14365F);
+  box-shadow:0 12px 26px rgba(15,54,95,.12)}
+.pa-law.is-note{border-left-color:var(--orange,#E8712C);background:#FEFBF9}
+.pa-law-cite{display:inline-block;margin-bottom:9px;padding:5px 11px;border-radius:6px;
+  background:#EEF3FA;color:var(--blue,#14365F);
+  font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;font-size:11.5px;
+  font-weight:700;letter-spacing:.02em}
+.pa-law h3{margin:0 0 7px !important;font-size:16.5px;line-height:1.35;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-law p{margin:0 !important;font-size:14.5px;line-height:1.7;text-align:left;
+  -webkit-hyphens:manual;hyphens:manual}
+@media (max-width:820px){.pa-law-grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.pa-law{transition:none}.pa-law:hover{transform:none}}
+
+/* The CONCLUSION band flips to navy, and the template turns only its H2 white. Everything
+   the cluster puts inside it - the H3 sub-headings and their copy - kept the default navy and
+   came out invisible against the background. Inverted here for the whole band. */
+.content-section[style*="var(--blue)"] .content-text h3{color:#FFFFFF !important;
+  font-size:17.5px;line-height:1.35;margin:22px 0 6px !important;font-weight:700}
+.content-section[style*="var(--blue)"] .content-text h3:first-child{margin-top:0 !important}
+.content-section[style*="var(--blue)"] .content-text p{color:rgba(255,255,255,.86) !important;
+  text-align:left;-webkit-hyphens:manual;hyphens:manual}
+.content-section[style*="var(--blue)"] .content-text a{color:#F7A56B !important}
+.content-section[style*="var(--blue)"] .content-text strong{color:#FFFFFF !important}
+
+/* Both grids ran 4-up, which left 9 cities as 4+4+1 and 6 services as 4+2 - a row and a half
+   of dead space. At 3-up they divide exactly: 3x3 and 2x3.
+   patron-cluster.css also caps .pa-cross-grid at max-width:1100px with no auto margins, so
+   inside a 1320px container it stopped ~220px short and left the whole gutter empty on one
+   side. Released to the container width. */
+.pa-cross-grid{max-width:none !important;margin-left:0 !important;margin-right:0 !important}
+.pa-city-grid{grid-template-columns:repeat(3,1fr) !important;gap:14px !important}
+.pa-cross-grid{grid-template-columns:repeat(3,1fr) !important;gap:14px !important}
+@media (max-width:900px){
+  .pa-city-grid,.pa-cross-grid{grid-template-columns:repeat(2,1fr) !important}
+}
+@media (max-width:560px){
+  .pa-city-grid,.pa-cross-grid{grid-template-columns:1fr !important}
+}
+
+/* Coverage notes under the city grids: a pair of tinted, icon-led asides rather than a third
+   run of heading-over-paragraph. */
+.pa-note-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:8px}
+.pa-note{display:flex;gap:14px;align-items:flex-start;background:#F7FAFF;
+  border:1px solid #E1E8F2;border-radius:12px;padding:18px 20px}
+.pa-note-ic{flex:0 0 auto;width:36px;height:36px;border-radius:10px;background:#fff;
+  border:1px solid #E1E8F2;display:flex;align-items:center;justify-content:center}
+.pa-note-ic svg{width:19px;height:19px}
+.pa-note-b{min-width:0}
+.pa-note-b h3{margin:0 0 5px !important;font-size:16px;line-height:1.35;
+  color:var(--blue,#14365F);font-weight:700}
+.pa-note-b p{margin:0 !important;font-size:14.5px;line-height:1.7;text-align:left;
+  -webkit-hyphens:manual;hyphens:manual}
+@media (max-width:760px){.pa-note-grid{grid-template-columns:1fr}}
+
+/* Testimonials. The cards are live's own `testi-quote-card`, so live's stylesheet already
+   sizes, clamps and rules them off - nothing to restate here. Two things live gets from
+   Slick that a static page has to supply itself: the row of four, and the gutters. Applied
+   only while the slider is un-initialised, so if Slick does load it takes over untouched. */
+.testimonial-slider:not(.slick-initialized){display:grid !important;
+  grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;align-items:stretch}
+.testimonial-slider:not(.slick-initialized) > div{min-width:0}
+.testi-quote-text{-webkit-hyphens:manual;hyphens:manual}
+@media (max-width:1200px){.testimonial-slider:not(.slick-initialized){
+  grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:900px){.testimonial-slider:not(.slick-initialized){
+  grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.testimonial-slider:not(.slick-initialized){
+  grid-template-columns:1fr}}
+
+/* WHAT_IS artwork, titled the way the accounting cluster titles it: white card, service name
+   in navy with an orange rule under it, illustration beneath. */
+.pa-art{margin:0;width:100%;background:#fff;border:1px solid var(--gray-200,#E5E7EB);
+  border-radius:16px;padding:22px 24px 24px;box-shadow:0 6px 22px rgba(15,54,95,.07)}
+.pa-art-t{position:relative;padding-bottom:14px;margin-bottom:6px;
+  font-size:clamp(19px,2.1vw,26px);font-weight:800;line-height:1.18;
+  color:var(--blue,#14365F);letter-spacing:-.01em}
+.pa-art-t::after{content:"";position:absolute;left:0;bottom:0;width:132px;height:4px;
+  border-radius:2px;background:var(--orange,#E8712C)}
+.pa-art img{display:block;width:100%;height:auto;border-radius:12px}
+
+/* Stats bar. Live runs four stats and two certifications on one centred row, the
+   certifications divided off by a left border. Four stats carrying a description are wider
+   than that row can hold, so live's own wrapped state - the one its <=1100px rule defines -
+   is applied at every width: certifications centred on their own line under a rule. The row
+   above keeps live's centring and spacing untouched. */
+.stats-container{align-items:flex-start !important;gap:26px 44px !important}
+.stats-container .stat-item{flex:0 1 auto;max-width:300px}
+.certifications{padding-left:0 !important;border-left:none !important;width:100% !important;
+  justify-content:center !important;gap:34px !important;padding-top:16px !important;
+  margin-top:4px;border-top:1px solid var(--gray-200,#E5E7EB) !important}
+.cert-item{align-items:flex-start !important;gap:8px !important}
+
+/* Related reading: many short titles, so a wrapping column grid rather than the wide cards
+   the sector and city blocks use. */
+.pa-read-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 18px}
+.pa-read-card{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;
+  background:#fff;border:1px solid var(--gray-200,#E5E7EB);border-radius:10px;
+  padding:12px 14px;font-size:14px;line-height:1.5;font-weight:600;
+  color:var(--blue,#14365F);text-decoration:none;transition:all .25s}
+.pa-read-card:hover{border-color:var(--orange,#E8712C);transform:translateY(-2px);
+  box-shadow:0 6px 18px rgba(15,54,95,.08)}
+.pa-read-go{color:var(--orange,#E8712C);flex:0 0 auto;font-weight:800}
+@media (max-width:1000px){.pa-read-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.pa-read-grid{grid-template-columns:1fr}}
+
+.pa-doc-list{list-style:none;padding:0;margin:20px 0 4px;display:flex;flex-direction:column;
+  gap:11px}
+.pa-doc-list li{display:block !important;position:relative;padding-left:30px !important;
+  margin:0 !important;gap:0 !important;font-size:15px;line-height:1.7;
+  color:var(--text-secondary,#4B5563);text-align:left;
+  -webkit-hyphens:manual;hyphens:manual}
+.pa-doc-list li::before{content:"" !important;position:absolute !important;left:0 !important;
+  top:.36em !important;width:17px !important;height:17px !important;border-radius:50% !important;
+  background:#FEF4EE !important;box-shadow:inset 0 0 0 1.5px rgba(232,113,44,.45) !important;
+  margin:0 !important;display:block !important}
+.pa-doc-list li::after{content:"";position:absolute;left:5px;top:.66em;width:6px;height:3px;
+  border-left:1.8px solid var(--orange-dark,#C7501B);
+  border-bottom:1.8px solid var(--orange-dark,#C7501B);transform:rotate(-45deg)}
+.pa-doc-list strong{color:var(--blue,#14365F);font-weight:700}
+
+/* OVERVIEW points as cards - each is a discrete "when/why a count is asked for", not prose */
+.pa-ov-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:24px 0 4px}
+@media (max-width:760px){.pa-ov-grid{grid-template-columns:1fr}}
+/* hover follows the house treatment: .feature-card lifts 2px with an orange border and a
+   shadow, .pa-city-card grows a left accent bar. Same vocabulary, same 0.25s. */
+.pa-ov-card{background:#fff;border:1px solid var(--gray-200,#E5E7EB);border-radius:12px;
+  padding:20px 22px;position:relative;overflow:hidden;
+  transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.pa-ov-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:var(--orange,#E8712C);transform:scaleY(0);transform-origin:top;
+  transition:transform .25s ease}
+.pa-ov-card:hover{border-color:var(--orange,#E8712C);transform:translateY(-3px);
+  box-shadow:0 12px 26px rgba(15,54,95,.12)}
+.pa-ov-card:hover::before{transform:scaleY(1)}
+.pa-ov-card h3{margin:0 0 8px;font-size:17px;line-height:1.3;color:var(--blue,#14365F);
+  font-weight:700;transition:color .25s ease}
+.pa-ov-card:hover h3{color:var(--orange-dark,#C7501B)}
+.pa-ov-card p{margin:0 !important;font-size:15.5px;line-height:1.7;text-align:left}
+@media (prefers-reduced-motion:reduce){
+  .pa-ov-card,.pa-ov-card::before,.pa-ov-card h3{transition:none}
+  .pa-ov-card:hover{transform:none}
+}
+
+/* WHAT_IS on a page with no artwork: one column, not a 1.2fr/0.8fr grid with a hole in it */
+.two-column.is-single{grid-template-columns:1fr !important}
+/* WHAT_IS artwork: its own ratio, not the SVG slot's square-inside-4:3 frame */
+.pa-what-figure{margin:0;width:100%;max-width:460px;display:flex;flex-direction:column;
+  align-items:center;gap:14px}
+.pa-what-figure img{width:100%;height:auto;display:block;border-radius:14px;
+  border:1px solid #E5E7EB}
+.pa-what-figure figcaption{align-self:stretch}
+</style>
+@endsection
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/stock-audit/#service",
+        "name": "Stock Audit/Inventory Audit in India: Meaning, Limit, Report and Fees",
+        "description": "Bank CC/OD borrowers and boards rely on an independent stock audit. Auditors count the stock, analyse variances, value it under AS 2 and sign the report.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/stock-audit" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Stock Audit", "sameAs": "" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Stock Audit Service Plans",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Inside the Report: Sections, Annexures and Sign-Off", "description": "Scope and method, coverage as a share of value, stock and book debts as verified, the drawing power computation, the exception list, and the signature block carrying the UDIN a lender checks."}},
+{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "The Masked Sample Report You Can Open Before You Buy", "description": "A specimen report built on a fictional borrower, never a real engagement, so the format, the depth of the exception list and the working papers behind it can be judged before anything is signed."}},
+{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Stock Reconciliation Statement: Book Stock Against Counted Stock", "description": "A line showing opening book quantity, counted quantity, and every difference attributed to a documented cause rather than left as one unexplained figure."}},
+{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Report Formats: Excel Working, Word Draft, Signed PDF", "description": "The Excel carries the count sheets and workings for your team to re-perform. The Word draft is for your response. The signed PDF is what reaches the bank."}}
+            ]
+        }
+    }
+    </script><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://www.patronaccounting.com/stock-audit/#breadcrumb",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.patronaccounting.com/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "PAN India Stock Audit Services",
+            "item": "https://www.patronaccounting.com/pan-india-stock-audit-services"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Inventory Audit / Stock Audit",
+            "item": "https://www.patronaccounting.com/stock-audit"
+        }
+    ]
+}
+</script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/stock-audit/#faq",
+        "datePublished": "2026-08-20T08:00:00+05:30",
+        "dateModified": "2026-08-20T08:00:00+05:30",
+        "mainEntity": [
+            {"@type": "Question", "name": "What is the stock audit?", "acceptedAnswer": {"@type": "Answer", "text": "A stock audit is an independent physical verification of inventory, checked against the values recorded in the books and, where relevant, against the stock statement filed with a lender. It confirms the stock exists, belongs to the borrower, is in saleable condition and is valued on a consistent basis."}},
+{"@type": "Question", "name": "When is a stock audit applicable?", "acceptedAnswer": {"@type": "Answer", "text": "A stock audit is normally triggered by a lending condition rather than by statute. Banks set their own threshold in credit policy, usually linked to the size of the working capital limit, and specify the frequency in the sanction letter. Accounts showing early warning signals may be audited more often."}},
+{"@type": "Question", "name": "What is the stock audit limit for banks?", "acceptedAnswer": {"@type": "Answer", "text": "There is no single statutory limit. Each bank fixes its own exposure threshold above which a stock audit becomes mandatory, and states it in its credit policy and in the sanction letter. Ask your relationship manager for the applicable clause rather than relying on a general figure."}},
+{"@type": "Question", "name": "What is the difference between stock audit and inventory audit?", "acceptedAnswer": {"@type": "Answer", "text": "In Indian banking practice the two terms are used interchangeably for the same exercise. Stock audit is the more common phrase in lender documentation, while inventory audit appears more often in management and manufacturing contexts. The scope and procedures are the same."}},
+{"@type": "Question", "name": "What does a stock audit report contain?", "acceptedAnswer": {"@type": "Answer", "text": "A stock audit report sets out the scope and date of the count, the physical quantities found, the book quantities, the reconciliation of any difference, valuation basis, observations on slow moving and damaged stock, and an opinion or list of qualifications for the lender."}},
+{"@type": "Question", "name": "What is physical stock verification?", "acceptedAnswer": {"@type": "Answer", "text": "Physical stock verification is the act of counting, weighing or measuring inventory at its location and recording what is actually present. It is the evidence-gathering step of a stock audit. The count is then compared with book records to produce a reconciliation."}},
+{"@type": "Question", "name": "How often should a stock audit be carried out?", "acceptedAnswer": {"@type": "Answer", "text": "Frequency is set by the lender in the sanction letter and is commonly quarterly or half-yearly for working capital borrowers. Businesses with high shrinkage risk, many locations or recent early warning signals are audited more frequently. Management may also run internal counts between lender audits."}},
+{"@type": "Question", "name": "What is the difference between a perpetual and a periodic inventory system?", "acceptedAnswer": {"@type": "Answer", "text": "A perpetual system updates stock records continuously as each transaction occurs. A periodic system establishes quantities only by counting at intervals. Perpetual records make an audit faster because the auditor can test a running balance instead of rebuilding it."}},
+{"@type": "Question", "name": "What is cycle counting?", "acceptedAnswer": {"@type": "Answer", "text": "Cycle counting verifies a portion of inventory on a rotating schedule so that all items are counted over a period, without halting operations for a full count. High value or fast moving lines are counted more frequently. It suits businesses that cannot afford to stop dispatch."}},
+{"@type": "Question", "name": "What is a stock reconciliation?", "acceptedAnswer": {"@type": "Answer", "text": "A stock reconciliation explains the difference between physical quantities found during the count and the quantities shown in the books. Each variance is traced to a cause such as unrecorded issues, goods in transit, cut-off errors, damage or shrinkage, and either corrected or reported."}}
+        ]
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/stock-audit",
+        "name": "Stock Audit/Inventory Audit in India: Meaning, Limit, Report and Fees",
+        "description": "Bank CC/OD borrowers and boards rely on an independent stock audit. Auditors count the stock, analyse variances, value it under AS 2 and sign the report.",
+        "url": "https://www.patronaccounting.com/stock-audit",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/stock-audit/#service" },
+        "datePublished": "2026-08-20T08:00:00+05:30",
+        "dateModified": "2026-08-20T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/stock-audit/#breadcrumb" }
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+@endverbatim
+@endsection
+
+@section('content')
+@verbatim
 <main>
 
+<!-- BREADCRUMB -->
+<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
+    <div style="max-width:1320px;margin:0 auto;">
+        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
+<li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/" style="color:var(--text-muted);text-decoration:none;font-weight:500;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+<li style="display:flex;align-items:center;gap:8px;"><a href="/pan-india-stock-audit-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">PAN India Stock Audit Services</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
+<li><span style="color:var(--orange);font-weight:600;">Inventory Audit / Stock Audit</span></li>
+</ol>
+    </div>
+</nav>
 
 <!-- HERO SECTION -->
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">
@@ -172,11 +1896,11 @@
                 <div class="pe-lg-5">
                     <div class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        Trusted by 10,000+ Businesses
+                        500+ stock audits completed
                     </div>
 
                     <h1 class="display-5 fw-bold text-dark mb-4 private-registration-heading">
-                        Stock Audit Services in India
+                        Stock Audit/Inventory Audit in India: Meaning, Limit, Report and Fees
                     </h1>
 
                     <div class="expert-attribution-box">
@@ -185,42 +1909,42 @@
                         <span class="eab-meta">
                             <span>ICAI & ICSI Registered</span><span class="eab-sep">|</span>
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
-                            <span>Last Updated: <span id="lastUpdated">20 April 2026</span></span>
+                            <span>Last Updated: 20 August 2026</span>
                         </span>
-                        <a href="/authorhub/ca-sundram-gupta" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>Bank CC/OD Stock Audit</strong>:</span> Physical verification and Drawing Power computation for Cash Credit and Overdraft borrowers as per bank sanction terms; CA-certified report submitted to lender.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Drawing Power the Bank Will Accept:</span> A stock audit produces a drawing power figure with the deductions shown and the coverage stated, which is what stops a lender querying the number rather than acting on it.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>Annual Physical Verification</strong>:</span> Year-end inventory count for statutory audit, financial reporting, and internal control; valuation as per AS 2 or Ind AS 2 (lower of cost or NRV).</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Shrinkage Quantified Instead of Suspected:</span> Loss that never appeared as a journal entry becomes a measured figure attached to locations and lines, which is the first thing anyone needs before deciding what to do about it.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>Multi-Location Audit</strong>:</span> Simultaneous or sequential stock audits at multiple warehouses, factories, and distribution points; centralized reconciliation and consolidated reporting.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Valuation Corrected Before the Year End Closes:</span> Slow-moving and obsolete lines identified with an ageing behind them, so the provisioning decision is made on evidence during the year rather than argued about at audit.</p>
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span><strong>Reports Accepted by All Major Banks</strong>:</span> 500+ stock audits completed. Reports accepted by SBI, PNB, HDFC, ICICI, Axis Bank, Bank of Baroda, and 20+ other banks across India.</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Controls the Next Count Can Be Measured Against:</span> A documented cut-off, a stated sampling basis and a reconciliation method that the following cycle repeats, so movement between counts means something.</p>
                         </div>
                     </div>
 
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">Patron Accounting LLP - CA firm with offices in Pune, Mumbai, Bangalore, Delhi | 500+ Stock Audits | 4.8/5 Rating | Same-Week Site Visit Available</p>
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">A count your lender will accept, run by a CA firm and signed.</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Stock%20Audit%20Services&body=Hello%2C%0AI%20need%20a%20Stock%20Audit.%0APlease%20contact%20me.%0AThank%20you." class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Stock Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Stock Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20Stock%20Audit%20for%20my%20business.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20quote%20for%20Stock%20Audit." target="_blank" class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -262,19 +1986,94 @@
 
                     <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Stock Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'stock-audit', 'label' => 'Stock Audit', 'selected' => true, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                    <form id='BiginWebToRecordForm208810000001209168'
+                          name='BiginWebToRecordForm208810000001209168'
+                          action='https://bigin.zoho.in/crm/WebToRecordForm'
+                          method='POST'
+                          enctype='multipart/form-data'
+                          target='hidden208810000001209168Frame'
+                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
+                          accept-charset='UTF-8'>
+
+                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
+                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
+                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                        <input type='text' style='display:none;' name='returnURL' value='null' />
+                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - Stock Audit'/>
+                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
+                        <input type='hidden' name='Stage' value='Qualification'/>
+                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
+                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="phone-group" id="phoneGroup">
+                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
+                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
+                                    <span class="selected-code" id="selectedCode">+91</span>
+                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+                                    <div class="country-dropdown-list" id="countryDropdownList">
+                                        <input type="text" class="country-search-input" id="countrySearchInput"
+                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
+                                        <div class="country-options" id="countryOptions"></div>
+                                    </div>
+                                </div>
+                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
+                                       placeholder='Enter phone number'
+                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error"); document.getElementById("phoneError").style.display="none";'
+                                       onblur='validatePhoneOnBlur(this)'/>
+                                <div id="phoneError" style="display:none;font-size:12px;color:#FD6B6D;margin-top:4px;padding-left:2px;"></div>
+                            </div>
+                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">City</label>
+                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
+                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Service Needed</label>
+                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
+                                <option value='' disabled selected>Select a service</option>
+                                <option value='Asset Tagging Services'>Asset Tagging Services</option>
+<option value='Fixed Asset Verification'>Fixed Asset Verification</option>
+<option value='Mystery Audit Services'>Mystery Audit Services</option>
+<option value='Stock Audit' selected>Stock Audit</option>
+<option value='Stock Audit for Auto Components'>Stock Audit for Auto Components</option>
+<option value='Stock Audit for Dark Stores'>Stock Audit for Dark Stores</option>
+<option value='Stock Audit for Electronics'>Stock Audit for Electronics</option>
+<option value='Stock Audit for Machine Tools'>Stock Audit for Machine Tools</option>
+<option value='Stock Audit for FMCG'>Stock Audit for FMCG</option>
+<option value='Stock Audit for Pharma'>Stock Audit for Pharma</option>
+<option value='Stock Audit for Retail'>Stock Audit for Retail</option>
+<option value='Stock Audit for Agro-Inputs'>Stock Audit for Agro-Inputs</option>
+<option value='Stock Audit for Textile'>Stock Audit for Textile</option>
+<option value='Stock Audit for Warehousing'>Stock Audit for Warehousing</option>
+<option value='Stock Audit in Ahmedabad'>Stock Audit in Ahmedabad</option>
+<option value='Stock Audit in Bangalore'>Stock Audit in Bangalore</option>
+<option value='Stock Audit in Chennai'>Stock Audit in Chennai</option>
+<option value='Stock Audit in Delhi'>Stock Audit in Delhi</option>
+<option value='Stock Audit in Gurugram'>Stock Audit in Gurugram</option>
+<option value='Stock Audit in Hyderabad'>Stock Audit in Hyderabad</option>
+<option value='Stock Audit in Kolkata'>Stock Audit in Kolkata</option>
+<option value='Stock Audit in Mumbai'>Stock Audit in Mumbai</option>
+<option value='Stock Audit in Pune'>Stock Audit in Pune</option>
+<option value='Other'>Other</option>
+
+                            </select>
+                        </div>
+
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                    </form>
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -302,7 +2101,7 @@
 <section class="testimonials-section">
     <div class="section-container">
         <div class="section-header">
-            <h2>Real Stories from Real People</h2>
+            <h2>What Clients Say</h2>
             <p>Hear how teams across industries use Patron to save time, cut costs, & stay in control.</p>
         </div>
         <div class="testi-loading" id="testiLoading" style="display:none !important;">
@@ -310,28 +2109,15 @@
             Fetching latest Google reviews&hellip;
         </div>
         <div class="testimonial-slider" id="testimonialSlider" style="display:block;">
-        <!-- POPULATE: Replace these with real testimonial-card divs.
-             Each card follows this structure (quote card):
-             <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
-                 <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-                 <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">REVIEW TEXT</div>
-                 <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
-                     <div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AB</div>
-                     <div>
-                         <div style="font-weight:700;font-size:13px;color:var(--blue);">Author Name</div>
-                         <div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Role / Company</div>
-                         <div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                     </div>
-                     <div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div>
-                 </div>
-             </div>
-             For video card pattern, refer to section8-company-registration.html
-        -->
-        <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron's CA team did our SBI stock audit in a single day across two godowns. The report was accepted without a single query from the bank. Exactly what we needed.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">RS</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Rajiv Sharma</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Manufacturing Unit, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div></div></div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">We had an INR 8 crore CC limit and the bank's audit showed a significant shortfall. Patron helped us understand the discrepancies and prepare a proper response before credit review.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">AK</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Anil Kumar</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Trading Company, Mumbai</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">3 months ago</div></div></div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Year-end stock count across our 6 warehouses in 3 cities - Patron coordinated all teams simultaneously. Clean report filed with our statutory auditors on time.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#7C3AED;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">PM</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Priya Menon</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">CFO, FMCG Distributor, Bangalore</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">1 month ago</div></div></div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Emergency stock audit for our HDFC CC account - bank needed the report in 48 hours. Patron's team visited the next morning and delivered the report that evening. Saved our credit rating.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">VG</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Vijay Gupta</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Textile Trader, Delhi</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">4 months ago</div></div></div>
-            <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;"><div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div><div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Patron's forensic stock investigation exposed inventory manipulation by our warehouse manager. The evidence-based report helped us take appropriate legal action and recover losses.</div><div style="display:flex;align-items:center;gap:10px;margin-top:16px;"><div style="width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">SD</div><div><div style="font-weight:700;font-size:13px;color:var(--blue);">Sanjay Deshpande</div><div style="font-size:12px;color:var(--text-muted);margin-top:2px;">Director, Retail Chain, Pune</div><div style="color:var(--orange);font-size:12px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div></div><div style="margin-left:auto;font-size:11px;color:var(--text-muted);">2 months ago</div></div></div>
+        
+        <div><div class="testi-video-card"><div class="testi-video-area" onclick="toggleTestiVideo(this)"><video preload="none" playsinline poster="https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"><source src="https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4" type="video/mp4"></video><div class="testi-play-overlay"><div class="testi-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div><div class="testi-star-badge"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div><div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;"><div class="testi-avatar"><img src="https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg" alt="Sunny Ashpal" loading="lazy"></div><div><div class="testi-name">Sunny Ashpal</div><div class="testi-role">Director - Demandify Media</div></div></div></div></div>
+<div><div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I've had an outstanding experience working with Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free. Highly recommended for anyone seeking reliable and knowledgeable financial guidance!</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar ">SM</div><div><div class="testi-name">Subhendu Mishra</div><div class="testi-role">Verified Google review</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23 12.27c0-.82-.07-1.6-.21-2.36H12v4.47h6.17a5.28 5.28 0 01-2.29 3.46v2.88h3.7C21.73 18.75 23 15.79 23 12.27z"/><path fill="#34A853" d="M12 23.5c3.1 0 5.7-1.03 7.6-2.78l-3.7-2.88c-1.03.69-2.351.1-3.9 1.1-3 0-5.54-2.02-6.45-4.75h-3.8v2.98A11.5 11.5 0 0012 23.5z"/><path fill="#FBBC05" d="M5.55 14.19a6.9 6.9 0 010-4.38V6.83h-3.8a11.5 11.5 0 00010.34l3.8-2.98z"/><path fill="#EA4335" d="M12 5.02c1.69 0 3.2.58 4.4 1.72l3.28-3.28C17.7 1.6 15.1.5 12 .5A11.5 11.5 0 001.75 6.83l3.8 2.98C6.46 7.08 9 5.02 12 5.02z"/></svg></div></div></div></div></div>
+<div><div class="testi-video-card"><div class="testi-video-area" onclick="toggleTestiVideo(this)"><video preload="none" playsinline poster="https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"><source src="https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4" type="video/mp4"></video><div class="testi-play-overlay"><div class="testi-play-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div></div><div class="testi-star-badge"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div></div><div style="padding:16px;display:flex;align-items:center;gap:10px;flex:1;"><div class="testi-avatar"><img src="https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg" alt="Anjanay Srivastava" loading="lazy"></div><div><div class="testi-name">Anjanay Srivastava</div><div class="testi-role">Founder - Hunarsource Consulting</div></div></div></div></div>
+<div><div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I'm glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really impressed by their acumen. And it's not expensive at all. Good guidance while filling was given as well.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">RD</div><div><div class="testi-name">Rajib Dutta</div><div class="testi-role">Verified Google review</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23 12.27c0-.82-.07-1.6-.21-2.36H12v4.47h6.17a5.28 5.28 0 01-2.29 3.46v2.88h3.7C21.73 18.75 23 15.79 23 12.27z"/><path fill="#34A853" d="M12 23.5c3.1 0 5.7-1.03 7.6-2.78l-3.7-2.88c-1.03.69-2.351.1-3.9 1.1-3 0-5.54-2.02-6.45-4.75h-3.8v2.98A11.5 11.5 0 0012 23.5z"/><path fill="#FBBC05" d="M5.55 14.19a6.9 6.9 0 010-4.38V6.83h-3.8a11.5 11.5 0 00010.34l3.8-2.98z"/><path fill="#EA4335" d="M12 5.02c1.69 0 3.2.58 4.4 1.72l3.28-3.28C17.7 1.6 15.1.5 12 .5A11.5 11.5 0 001.75 6.83l3.8 2.98C6.46 7.08 9 5.02 12 5.02z"/></svg></div></div></div></div></div>
+<div><div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge, attention to detail, and a genuine willingness to help. It gave me immense confidence and peace of mind.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar teal">PR</div><div><div class="testi-name">Preeti Singh Rathor</div><div class="testi-role">Verified Google review</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23 12.27c0-.82-.07-1.6-.21-2.36H12v4.47h6.17a5.28 5.28 0 01-2.29 3.46v2.88h3.7C21.73 18.75 23 15.79 23 12.27z"/><path fill="#34A853" d="M12 23.5c3.1 0 5.7-1.03 7.6-2.78l-3.7-2.88c-1.03.69-2.351.1-3.9 1.1-3 0-5.54-2.02-6.45-4.75h-3.8v2.98A11.5 11.5 0 0012 23.5z"/><path fill="#FBBC05" d="M5.55 14.19a6.9 6.9 0 010-4.38V6.83h-3.8a11.5 11.5 0 00010.34l3.8-2.98z"/><path fill="#EA4335" d="M12 5.02c1.69 0 3.2.58 4.4 1.72l3.28-3.28C17.7 1.6 15.1.5 12 .5A11.5 11.5 0 001.75 6.83l3.8 2.98C6.46 7.08 9 5.02 12 5.02z"/></svg></div></div></div></div></div>
+<div><div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned Anu to take care of our company's needs. She files all returns timely and is most kind and respectful towards us.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar purple">NN</div><div><div class="testi-name">Nikhil Nimbhorkar</div><div class="testi-role">Verified Google review</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23 12.27c0-.82-.07-1.6-.21-2.36H12v4.47h6.17a5.28 5.28 0 01-2.29 3.46v2.88h3.7C21.73 18.75 23 15.79 23 12.27z"/><path fill="#34A853" d="M12 23.5c3.1 0 5.7-1.03 7.6-2.78l-3.7-2.88c-1.03.69-2.351.1-3.9 1.1-3 0-5.54-2.02-6.45-4.75h-3.8v2.98A11.5 11.5 0 0012 23.5z"/><path fill="#FBBC05" d="M5.55 14.19a6.9 6.9 0 010-4.38V6.83h-3.8a11.5 11.5 0 00010.34l3.8-2.98z"/><path fill="#EA4335" d="M12 5.02c1.69 0 3.2.58 4.4 1.72l3.28-3.28C17.7 1.6 15.1.5 12 .5A11.5 11.5 0 001.75 6.83l3.8 2.98C6.46 7.08 9 5.02 12 5.02z"/></svg></div></div></div></div></div>
+<div><div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I got financial services from them for my private limited company. They are having good and qualified staff to provide services in a professional manner which is beneficial for me.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar ">MS</div><div><div class="testi-name">Monika Sharma</div><div class="testi-role">Verified Google review</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23 12.27c0-.82-.07-1.6-.21-2.36H12v4.47h6.17a5.28 5.28 0 01-2.29 3.46v2.88h3.7C21.73 18.75 23 15.79 23 12.27z"/><path fill="#34A853" d="M12 23.5c3.1 0 5.7-1.03 7.6-2.78l-3.7-2.88c-1.03.69-2.351.1-3.9 1.1-3 0-5.54-2.02-6.45-4.75h-3.8v2.98A11.5 11.5 0 0012 23.5z"/><path fill="#FBBC05" d="M5.55 14.19a6.9 6.9 0 010-4.38V6.83h-3.8a11.5 11.5 0 00010.34l3.8-2.98z"/><path fill="#EA4335" d="M12 5.02c1.69 0 3.2.58 4.4 1.72l3.28-3.28C17.7 1.6 15.1.5 12 .5A11.5 11.5 0 001.75 6.83l3.8 2.98C6.46 7.08 9 5.02 12 5.02z"/></svg></div></div></div></div></div>
+<div><div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I have been taking services of Patron Accounting from 5 years and found them highly professional and the best people for all taxation related work be it individual or company services. Highly recommended.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">AG</div><div><div class="testi-name">Ayushi Garg</div><div class="testi-role">Verified Google review</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23 12.27c0-.82-.07-1.6-.21-2.36H12v4.47h6.17a5.28 5.28 0 01-2.29 3.46v2.88h3.7C21.73 18.75 23 15.79 23 12.27z"/><path fill="#34A853" d="M12 23.5c3.1 0 5.7-1.03 7.6-2.78l-3.7-2.88c-1.03.69-2.351.1-3.9 1.1-3 0-5.54-2.02-6.45-4.75h-3.8v2.98A11.5 11.5 0 0012 23.5z"/><path fill="#FBBC05" d="M5.55 14.19a6.9 6.9 0 010-4.38V6.83h-3.8a11.5 11.5 0 00010.34l3.8-2.98z"/><path fill="#EA4335" d="M12 5.02c1.69 0 3.2.58 4.4 1.72l3.28-3.28C17.7 1.6 15.1.5 12 .5A11.5 11.5 0 001.75 6.83l3.8 2.98C6.46 7.08 9 5.02 12 5.02z"/></svg></div></div></div></div></div>
     </div>
         <div class="reviews-cta" style="margin-top: 16px; display: flex !important;">
             <div class="reviews-cta-content">
@@ -339,8 +2125,8 @@
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
                 </div>
                 <div class="reviews-cta-text">
-                    <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>Get your CA-certified Stock Audit Report - starting at INR 2,499. Physical verification, Drawing Power computation, reports accepted by all major Indian banks.</p>
+                    <h3 style="color:#FFFFFF !important;margin-top:0;">500+ stock audits completed</h3>
+                    <p>Rated 4.9 on Google across 13 reviews.</p>
                 </div>
             </div>
             <a href="tel:+919459456700" class="btn-cta">
@@ -355,23 +2141,23 @@
 <div class="stats-bar">
     <div class="stats-container">
         <div class="stat-item">
-            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
-            <div class="stat-content"><span class="stat-value">10,000+</span><span class="stat-label">Businesses Served</span><span class="stat-desc">GST compliance and litigation support across India.</span></div>
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3h6a1 1 0 011 1v1H8V4a1 1 0 011-1z"/><path d="M8 5H6a2 2 0 00-2 2v13a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><path d="m9.5 13.5 2 2 3.5-3.5"/></svg></div>
+            <div class="stat-content"><span class="stat-value">500+</span><span class="stat-label">Stock Audits Completed</span><span class="stat-desc">Counts run across borrower sites and cities.</span></div>
         </div>
         <div class="stat-item">
-            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">Deep expertise in IP registration, GST &amp; business compliance.</span></div>
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+            <div class="stat-content"><span class="stat-value">15+</span><span class="stat-label">Years Experience</span><span class="stat-desc">ICAI and ICSI registered, in Indian accounting and certification.</span></div>
         </div>
         <div class="stat-item">
-            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></div>
-            <div class="stat-content"><span class="stat-value">50,000+</span><span class="stat-label">Documents Filed</span><span class="stat-desc">Returns, appeals, and filings handled accurately.</span></div>
+            <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="m8.5 15 2 2 4.5-4.5"/></svg></div>
+            <div class="stat-content"><span class="stat-value">CA-Signed</span><span class="stat-label">Audit Reports</span><span class="stat-desc">Signed by a Chartered Accountant in practice, not a checker.</span></div>
         </div>
         <div class="stat-item">
             <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></div>
-            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Client Rating</span><span class="stat-desc">Trusted by entrepreneurs, startups, and growing businesses.</span></div>
+            <div class="stat-content"><span class="stat-value">4.9&#9733;</span><span class="stat-label">Google Rating</span><span class="stat-desc">Across 13 verified Google reviews.</span></div>
         </div>
         <div class="certifications">
-            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>ISO Certified<span class="cert-desc">Professional standards and documented processes.</span></div>
+            <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#14365F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>UDIN on Every Report<span class="cert-desc">Verifiable against the ICAI record before a lender relies on it.</span></div>
             <div class="cert-item"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>SSL Secure<span class="cert-desc">Your financial and business data is fully protected.</span></div>
         </div>
     </div>
@@ -382,7 +2168,23 @@
     <div class="toc-container">
         <button class="toc-arrow left" id="tocLeft">&#10094;</button>
         <div class="toc-wrapper" id="tocWrapper">
-            <a href="#overview-section" class="toc-btn active">Overview</a><a href="#what-section" class="toc-btn">What Is It</a><a href="#who-section" class="toc-btn">When Required</a><a href="#services-section" class="toc-btn">Our Services</a><a href="#procedure-section" class="toc-btn">7-Step Process</a><a href="#documents-section" class="toc-btn">Documents</a><a href="#challenges-section" class="toc-btn">Challenges</a><a href="#fees-section" class="toc-btn">Fees</a><a href="#timeline-section" class="toc-btn">Timeline</a><a href="#benefits-section" class="toc-btn">Benefits</a><a href="#comparison-section" class="toc-btn">DIY vs CA</a><a href="#faq-section" class="toc-btn">FAQs</a>
+            
+            <a href="#overview-section" class="toc-btn active">Overview</a>
+<a href="#what-section" class="toc-btn">What It Is</a>
+<a href="#who-section" class="toc-btn">Who It Is For</a>
+<a href="#services-section" class="toc-btn">Scope</a>
+<a href="#procedure-section" class="toc-btn">Process</a>
+<a href="#integrations-section" class="toc-btn">Stoklenz</a>
+<a href="#documents-section" class="toc-btn">Documents</a>
+<a href="#challenges-section" class="toc-btn">Problems</a>
+<a href="#fees-section" class="toc-btn">Fees</a>
+<a href="#benefits-section" class="toc-btn">Benefits</a>
+<a href="#why-patron-section" class="toc-btn">Why Patron</a>
+<a href="#case-study-section" class="toc-btn">Case Studies</a>
+<a href="#comparison-section" class="toc-btn">Comparison</a>
+
+<a href="#legal-section" class="toc-btn">Legal Framework</a>
+<a href="#faq-section" class="toc-btn">FAQs</a>
         </div>
         <button class="toc-arrow right" id="tocRight">&#10095;</button>
     </div>
@@ -392,30 +2194,20 @@
 <section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Stock Audit Services in India - Complete Guide 2026</h2>
+            <h2 class="section-title">The Count Your Lender Is Asking For</h2>
             <div class="content-text">
                 <div class="highlight-box" style="margin-bottom:20px;">
                     <p><strong>&#128204; TL;DR - Stock Audit Services at a Glance</strong></p>
-                    <p>Stock Audit (Inventory Audit) is the independent physical verification and valuation of a business's inventory to confirm physical stock matches book records. Most commonly required by banks as a mandatory condition of CC/OD financing, it determines Drawing Power. Valuation follows AS 2 or Ind AS 2 (lower of cost or NRV). Per RBI IRACP norms, drawings based on stock statements older than 3 months are irregular - 90 continuous days of irregular drawings = NPA classification [RBI/2024-25/12]. Patron Accounting delivers CA-certified reports starting at INR 2,499 (Exl GST and Govt. Charges).</p>
+                    <p>A stock audit is an independent physical count of inventory a lender has financed, reconciled to the books and to the stock statements already filed. The engagement settles quantity, ownership and valuation basis, and produces a signed report carrying the drawing power computation. CARO 2020 clause 3(ii)(a) separately requires reporting of discrepancies of 10 per cent or more in the aggregate for each class of inventory. Commonly ordered ahead of a facility renewal.</p>
                 </div>
-                <p>Stock Audit directly determines Drawing Power (DP) - the maximum amount a borrower can draw against their CC or OD limit. The bank applies a prescribed margin (typically 25-40% on stock, 25% on debtors) to the verified stock value to arrive at DP. If the stock audit reveals actual stock is lower than reported in monthly stock statements, Drawing Power reduces and the borrower may face a call to repay excess outstanding.</p>
-                <div class="table-responsive-wrapper" style="margin-top:16px;">
-                <table>
-                    <thead><tr><th>Parameter</th><th>Key Detail</th></tr></thead>
-                    <tbody>
-                        <tr><td><strong>What Is Verified</strong></td><td>Physical stock count vs. book records; valuation per AS 2 or Ind AS 2 (lower of cost or NRV)</td></tr>
-                        <tr><td><strong>Governing Standards</strong></td><td>AS 2 (ICAI) for non-Ind AS companies; Ind AS 2 for listed/large companies; SA 501 (ICAI) for statutory auditors; RBI guidelines for bank borrowers</td></tr>
-                        <tr><td><strong>Bank Borrower Trigger</strong></td><td>Generally mandatory when CC/OD exposure exceeds INR 5 crore - per individual bank policy and RBI Working Capital guidelines</td></tr>
-                        <tr><td><strong>Frequency</strong></td><td>Half-yearly for most bank borrowers; quarterly for larger accounts; annually for year-end purposes</td></tr>
-                        <tr><td><strong>Drawing Power Formula</strong></td><td>DP = (Eligible Stock x (100% - margin%)) + (Eligible Debtors x (100% - margin%)). Typical: 25-40% on stock, 25% on debtors</td></tr>
-                        <tr><td><strong>NPA Risk</strong></td><td>Irregular drawings (stock statements over 3 months old) for 90 continuous days = NPA [RBI IRACP, RBI/2024-25/12]</td></tr>
-                        <tr><td><strong>Patron Accounting Fee</strong></td><td>Starting at INR 2,499 (Exl GST and Govt. Charges) per location</td></tr>
-                    </tbody>
-                </table>
-                </div>
-                <p</p>
-                <p>In the banking context, stock audit is not optional - it is a condition of your working capital facility. Stock audit ke liye kya chahiye? Patron Accounting ki CA team aapko complete checklist aur guidance deti hai - bank sanction letter se lekar final report submission tak.</p>
-                <p>Content is reviewed quarterly for accuracy.</p>
+                <p>A stock audit is an independent physical count of the inventory a lender has funded, reconciled to your books and to the statements you have already submitted to the bank. Most businesses meet one the same way: a line in a sanction letter, or an email from the branch asking when the auditor can visit. The bank is not testing whether you keep records. It is testing whether the stock behind the drawing power is there, in the quantity claimed, and owned by you.</p>
+                
+<div class="pa-ov-grid pa-cols-2"><article class="pa-ov-card"><h3>When a Bank Asks for a Stock Audit</h3><p>A bank asks for a count at predictable moments: at renewal, when limits are enhanced, when quarterly statements arrive late or stop agreeing with the books, and when an account drifts towards <a href="/glossary/stock-audit/sma-classification">sma classification</a>. Inventory and receivables are usually the <a href="/glossary/stock-audit/primary-security">primary security</a> behind a working capital facility, so the lender's exposure moves every time the stock does. The supervisory frame sits in the <a href="https://www.patronaccounting.com/https://www.rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx" class="pa-offsite">RBI Master Circular on loans and advances</a>; the trigger that reaches you sits in your own sanction letter.</p></article>
+<article class="pa-ov-card"><h3>Stock Audit Requirement as per RBI: What the Guidance Says</h3><p>There is no single RBI line that reads conduct one every year. What the guidance does is place the duty on the bank: to monitor the security backing a working capital advance, to inspect it, and to run a loan policy that says how and how often. Banks discharge that duty by writing an inspection clause into the sanction. So the stock audit requirement as per RBI is, in practice, a requirement on your lender that is passed to you through the terms you have already signed.</p></article>
+<article class="pa-ov-card"><h3>Stock Audit Applicability: Who Gets Asked and Why</h3><p>Stock audit applicability follows the facility, not the turnover. Borrowers running cash credit or overdraft against stock and book debts are in scope because the security is inventory that moves daily. A borrower with only a term loan against plant rarely sees one. Consortium and multiple-banking accounts are asked more often, because no single lender can see the whole exposure. Group companies that move stock between themselves attract the same attention, for the same reason.</p></article>
+<article class="pa-ov-card"><h3>The Stock Audit Limit Lenders Work To</h3><p>The stock audit limit that people search for is a number in a bank's own credit policy: a sanctioned working capital exposure at or above which a count is ordered, usually annually. It varies by bank and by internal rating, and consortium accounts are often covered whatever the size. A separate and frequently confused threshold sits in company law: under CARO 2020 clause 3(ii)(b), a company sanctioned working capital limits in excess of five crore rupees in aggregate, from banks or financial institutions on the basis of security of current assets, has the quarterly returns or statements it files with those banks tested against its books by the statutory auditor. That is a reporting duty on the auditor, not a trigger for the count.</p></article></div>
+
+                
             </div>
         </div>
     </div>
@@ -426,47 +2218,25 @@
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
-                <h2 class="section-title">What is Stock Audit?</h2>
+                <h2 class="section-title">What Is a Stock Audit?</h2>
                 <div class="content-text what-is-definition">
                     
-                    <p><strong>Stock Audit</strong> is the independent physical verification and valuation of a company's inventory (raw materials, work-in-progress, finished goods) to confirm that physical stock matches book records and that the stock is correctly valued as per applicable accounting standards.</p>
-                    <p>Unlike Statutory Audit (which covers all financial statements) or <a href="/internal-audit">Internal Audit</a> (which covers processes and controls broadly), Stock Audit focuses specifically on inventory - physically counting it, checking condition, verifying ownership, testing valuation methodology, and reconciling book stock with actual stock. For bank borrowers, it goes further to compute Drawing Power under CC/OD facilities.</p>
-                    <p>Stock Audit is guided by: Accounting Standard AS 2 (Valuation of Inventories) issued by ICAI for non-Ind AS companies; Ind AS 2 (Inventories) for listed/large companies; SA 501 (Audit Evidence - Specific Considerations for Selected Items) issued by ICAI; and RBI Working Capital Management guidelines for bank borrowers.</p>
+                    <p>A stock audit is verification by an independent party that inventory recorded in a set of books physically exists, belongs to the entity reporting it, and is in the condition claimed. The stock audit meaning is narrower than the phrase suggests. It establishes facts about goods, not an opinion on financial statements. It does not certify your accounts, it does not replace the count your own staff run, and it stops at the point where valuation policy begins.</p><div class="pa-wi-list"><article class="pa-wi-item"><span class="pa-wi-n">01</span><div class="pa-wi-b"><h3>Stock Audit and Physical Stock Verification: One Exercise, Two Names</h3><p>Physical stock verification is the procedure; stock audit is the engagement that contains it. In everyday use the two are interchangeable, and no lender distinguishes between them in a sanction letter. The difference only matters in scope. Stock verification describes the act of counting and matching. The audit adds the selection basis, the ownership testing, the reconciliation to the books and the report that carries a signature. Verification can be performed without an audit; an audit cannot be delivered without it. The full vocabulary sits in the <a href="/glossary/stock-audit">stock audit terms</a> glossary.</p></div></article>
+<article class="pa-wi-item"><span class="pa-wi-n">02</span><div class="pa-wi-b"><h3>How a Stock Audit Differs From a Statutory Audit</h3><p>A <a href="https://www.patronaccounting.com/statutory-audit" class="pa-offsite">statutory audit</a> reaches an opinion on whether the financial statements as a whole give a true and fair view. It covers every balance, runs to a statutory timetable, and its report is addressed to the members. This exercise does none of that. It looks at one asset class, is commissioned by a lender rather than required by the Companies Act, reports to that lender, and reaches no opinion on the accounts. The two overlap only where the statutory auditor relies on inventory work already performed.</p></div></article>
+<article class="pa-wi-item"><span class="pa-wi-n">03</span><div class="pa-wi-b"><h3>Where Stock Taking Ends and Stock Reconciliation Begins</h3><p>Stock taking is counting: walking the racks and recording what is physically present. Stock reconciliation is the step after, explaining every difference between that count and the recorded balance through documented causes, goods in transit, unrecorded receipts, returns, damages. Stock taking meaning stops at a number. Reconciliation meaning starts where the two numbers disagree. An engagement that produces a count without reconciling it has produced a figure nobody can use, because a difference with no explanation supports no conclusion in either direction.</p></div></article>
+<article class="pa-wi-item"><span class="pa-wi-n">04</span><div class="pa-wi-b"><h3>Inventory Audit: The Same Work Under Another Label</h3><p>Inventory audit and stock audit describe the same engagement, and which term appears depends on who is writing. Lenders and their panels generally use the first term. Management, ERP vendors and international groups generally use the second. Some firms use inventory audit for internally commissioned work and stock audit for lender-driven work, but that convention is not universal and nothing turns on it. Read the scope in the engagement letter rather than the label on the cover.</p></div></article></div>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
-                    <p><strong>Key Terms for Stock Audit:</strong></p>
-                    <p><strong>Drawing Power (DP):</strong> Maximum amount a CC/OD borrower can draw, computed by applying bank's prescribed margin to eligible stock and debtors. Revised monthly via stock statements and formally verified via stock audit.</p>
-                    <p><strong>AS 2 - Valuation of Inventories:</strong> ICAI standard requiring inventories valued at lower of cost and NRV. Permitted cost methods: FIFO and Weighted Average. LIFO not permitted since 2004.</p>
-                    <p><strong>Ind AS 2 - Inventories:</strong> Applicable to listed and large unlisted companies. Same lower of cost or NRV principle. Borrowing costs included in cost only when directly attributable to qualifying assets.</p>
-                    <p><strong>NRV (Net Realisable Value):</strong> Estimated selling price less estimated costs of completion and selling expenses. Stock is written down to NRV when cost exceeds NRV (damaged, obsolete, or slow-moving stock).</p>
-                    <p><strong>SA 501:</strong> ICAI Standard on Auditing requiring statutory auditors to attend physical inventory count if inventories are material to financial statements.</p>
-                    <p><strong>Margin:</strong> Percentage withheld by bank on eligible stock and debtors to arrive at Drawing Power. Typical: 25-40% on stock, 25% on debtors per bank sanction letter.</p>
+                    <p><strong>Key terms on this page:</strong></p>
+                    <div class="key-terms"><ul class="al-list"><li><span class="al-t"><a href="https://www.patronaccounting.com/glossary/stock-audit/physical-verification" class="pa-offsite">Physical verification</a></span><span class="al-d">Establishing by inspection that recorded goods exist in the quantity and condition claimed.</span></li>
+<li><span class="al-t"><a href="https://www.patronaccounting.com/glossary/stock-audit/cut-off-procedure" class="pa-offsite">Cut-off</a></span><span class="al-d">The single moment the count represents, with movements either side controlled.</span></li>
+<li><span class="al-t">Drawing power</span><span class="al-d">The amount a borrower may draw, computed from verified stock and book debts after deductions.</span></li></ul></div>
 
                 </div>
             </div>
             <div class="column-image">
-                <div class="illustration-placeholder">
-                    <div class="illustration-icon" style="max-width:240px;">
-                        <svg viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Warehouse with stock boxes -->
-                            <rect x="25" y="30" width="150" height="100" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/>
-                            <path d="M15 32L100 8L185 32" stroke="#14365F" stroke-width="2" fill="#E8EDF4"/>
-                            <rect x="40" y="50" width="30" height="25" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <rect x="85" y="50" width="30" height="25" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <rect x="130" y="50" width="30" height="25" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/>
-                            <rect x="60" y="85" width="30" height="25" rx="3" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/>
-                            <rect x="110" y="85" width="30" height="25" rx="3" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/>
-                            <circle cx="170" cy="25" r="16" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/>
-                            <path d="M163 25l4 4 8-8" stroke="#25D366" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <text x="100" y="148" font-size="9" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">CA-Verified Stock</text>
-                        </svg>
-                    </div>
-                    <div class="illustration-badge">
-                        <span>CA-Certified</span>
-                        <strong>Stock Audit Report</strong>
-                    </div>
-                </div>
+                <figure class="pa-art"><figcaption class="pa-art-t">Stock Audit in India</figcaption><img src="/images/stock-audit/stock-audit/what-is.webp" alt="Auditors checking recorded stock against cartons on a warehouse rack during a physical count" loading="lazy" width="1200" height="896"></figure>
             </div>
         </div>
     </div>
@@ -476,20 +2246,14 @@
 <section class="content-section" id="who-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">When is Stock Audit Required in India?</h2>
+            <h2 class="section-title">Who Can Conduct a Stock Audit?</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li><strong>Bank CC/OD Borrowers</strong> - mandatory per bank sanction terms when CC or OD facility is secured by hypothecation of stock and debtors. Generally required when exposure exceeds INR 5 crore - frequency (half-yearly/quarterly) specified in sanction letter.</li>
-                    <li><strong>Year-End <a href="/statutory-audit">Statutory Audit</a></strong> - as per SA 501 (ICAI), statutory auditors must obtain sufficient evidence regarding existence and condition of inventory. Physical verification is integral to the audit.</li>
-                    <li><strong>Annual Internal Control</strong> - best practice for businesses with high-value or fast-moving inventory to identify pilferage, obsolescence, and system gaps.</li>
-                    <li><strong>Business Valuation and Transfer</strong> - when a business is sold, merged, or a partner is admitted - independent stock audit establishes actual inventory value at transition date.</li>
-                    <li><strong>Insurance Claim Settlement</strong> - after fire, flood, theft, or natural disaster - insurers require CA-certified stock audit to determine verified value of lost or damaged inventory.</li>
-                    <li><strong>Fraud Investigation</strong> - when pilferage, stock manipulation, or fraud is suspected - independent audit establishes actual position and quantifies discrepancies.</li>
-                    <li><strong>IPO and Due Diligence</strong> - companies preparing for IPO or PE investment require accurate inventory valuation for DRHP and financial diligence.</li>
-                </ul>
+                <p>Two different questions sit under this heading, and buyers ask both. Who is permitted to sign the report, and whose business ends up needing one. The first is settled by qualification and by the lender's panel; the second by the kind of facility you run.</p><div class="pa-ov-grid pa-cols-2"><article class="pa-ov-card"><h3>Stock Auditor Eligibility and Lender Panels</h3><p>A stock audit report is an assurance deliverable a lender acts on, so on most panels it is signed by a Chartered Accountant in practice. A few lenders also admit Cost Accountants, so read the panel conditions rather than assuming. Banks then add requirements covering firm standing, experience and the geographies a firm can reach. Being qualified and being acceptable to a particular lender are separate tests, and the second rejects reports after the work is done.</p></article>
+<article class="pa-ov-card"><h3>Why Your Statutory Auditor Usually Cannot Sign It</h3><p>Independence is the obstacle rather than qualification. A firm that keeps the books, prepares the stock statements or already audits the accounts is reviewing its own work, and lenders generally will not accept a report from it. Bank panel conditions commonly exclude the borrower's own audit firm outright. Settle it with the lender before the <a href="https://www.patronaccounting.com/appointment-of-auditor" class="pa-offsite">appointment of auditor</a> is made, because the exclusion is theirs and it varies.</p></article>
+<article class="pa-ov-card"><h3>Borrowers Running a Cash Credit or Overdraft Limit</h3><p>If your facility is secured on stock and book debts, you are the reader this page is written for. Manufacturers, traders, distributors and retailers all sit in this group, since what secures the limit is stock turning over week by week rather than machinery bolted to a floor. A borrower holding only a term loan against machinery is rarely asked.</p></article>
+<article class="pa-ov-card"><h3>Businesses Counting Across More Than One Site</h3><p>Multi-site borrowers carry the harder version of the exercise. Stock sits at several addresses, sometimes under separate registrations, and a figure agreed at one location can be undone by a movement to another. Group structures that transfer stock between related entities attract the same attention. If your position is spread, the planning matters more than the counting.</p></article></div>
 
-            </div>
             </div>
         </div>
     </div>
@@ -499,18 +2263,16 @@
 <section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Patron Accounting Stock Audit Services</h2>
+            <h2 class="section-title">Scope, Deliverables and the Report You Receive</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
+                    <thead><tr><th>Deliverable</th><th>What It Includes</th></tr></thead>
                     <tbody>
-                        <tr><td><strong>Bank CC/OD Stock Audit and Drawing Power Report</strong></td><td>Physical verification of hypothecated stock and eligible debtors. DP computation per bank sanction terms. CA-certified report accepted by SBI, PNB, HDFC, ICICI, Axis, and all leading banks.</td></tr>
-                        <tr><td><strong>Year-End Physical Inventory Count</strong></td><td>Systematic count of all inventory categories (raw materials, WIP, finished goods). Valuation review per AS 2 or Ind AS 2. Reconciliation with book records and GL.</td></tr>
-                        <tr><td><strong>Multi-Location Warehouse Audit</strong></td><td>Simultaneous or sequential verification across multiple warehouses, factories, depots. Centralized reconciliation and consolidated report.</td></tr>
-                        <tr><td><strong>Stocktaking Support and Preparation</strong></td><td>Pre-audit preparation - organizing stock, updating registers, reconciling Tally/ERP, separating damaged items, preparing debtors ageing analysis.</td></tr>
-                        <tr><td><strong>Forensic Stock Investigation</strong></td><td>Targeted investigation for pilferage, fraud, or unexplained shortages. Evidence-based quantification. Report suitable for legal, insurance, or regulatory use.</td></tr>
-                        <tr><td><strong>Inventory Management Consulting</strong></td><td>Post-audit advisory on improving stock management, reducing discrepancies, implementing ABC analysis, and strengthening internal controls.</td></tr>
+                        <tr><td><strong>Inside the Report: Sections, Annexures and Sign-Off</strong></td><td>Scope and method, coverage as a share of value, stock and book debts as verified, the drawing power computation, the exception list, and the signature block carrying the UDIN a lender checks.</td></tr>
+<tr><td><strong>The Masked Sample Report You Can Open Before You Buy</strong></td><td>A specimen report built on a fictional borrower, never a real engagement, so the format, the depth of the exception list and the working papers behind it can be judged before anything is signed.</td></tr>
+<tr><td><strong>Stock Reconciliation Statement: Book Stock Against Counted Stock</strong></td><td>A line showing opening book quantity, counted quantity, and every difference attributed to a documented cause rather than left as one unexplained figure.</td></tr>
+<tr><td><strong>Report Formats: Excel Working, Word Draft, Signed PDF</strong></td><td>The Excel carries the count sheets and workings for your team to re-perform. The Word draft is for your response. The signed PDF is what reaches the bank.</td></tr>
 
                     </tbody>
                 </table>
@@ -525,19 +2287,30 @@
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
-            <h2 class="section-title">Stock Audit Procedure - 7-Step Process</h2>
-            <p class="section-subtitle" style="text-align:left;max-width:100%;">Our CA team follows a systematic 7-step process for every stock audit - from engagement setup to bank report submission. Same-week site visits available.</p>
+            <h2 class="section-title">How a Stock Audit Is Conducted</h2>
+            <p class="section-subtitle" style="text-align:left;max-width:100%;">Each phase is fixed before the next begins, so a difference found on site can be traced back to the point it arose.</p>
         </header>
         <div class="steps-container">
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Engagement Setup and Document Review</h3><p class="step-description">We review the bank's sanction letter (for CC/OD audits) to understand scope, eligible security types, margin percentages, stock statement frequency, and reporting format requirements.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Sanction letter reviewed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Scope confirmed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="10" width="80" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="30" y="20" width="25" height="6" rx="2" fill="#F5A623"/><line x1="30" y1="34" x2="90" y2="34" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><line x1="30" y1="44" x2="85" y2="44" stroke="#14365F" stroke-width="1.5" opacity="0.2"/><line x1="30" y1="54" x2="80" y2="54" stroke="#14365F" stroke-width="1.5" opacity="0.2"/></svg></div><span class="illustration-label">Scope Set</span><span class="step-number-large">01</span></div></div></div>
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Pre-Audit Preparation</h3><p class="step-description">We issue a preparation checklist: update stock ledger, reconcile Tally/ERP, prepare purchase invoices, debtors ageing list, separately mark damaged/expired/obsolete stock.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Client checklist issued</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Stock register updated</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><path d="M30 30l5 5 10-10" stroke="#10B981" stroke-width="2" stroke-linecap="round"/><path d="M30 45l5 5 10-10" stroke="#10B981" stroke-width="2" stroke-linecap="round"/><line x1="55" y1="30" x2="90" y2="30" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><line x1="55" y1="45" x2="85" y2="45" stroke="#14365F" stroke-width="1.5" opacity="0.3"/><rect x="55" y="55" width="30" height="8" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/></svg></div><span class="illustration-label">Prep Done</span><span class="step-number-large">02</span></div></div></div>
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Physical Stock Count and Inspection</h3><p class="step-description">Our CA team conducts systematic physical counting at all locations - bin-by-bin, category-by-category. We verify existence, ownership, condition, and storage compliance.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Physical count completed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Condition verified</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="5" width="50" height="70" rx="4" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><rect x="60" y="15" width="50" height="55" rx="4" fill="#FFF3E0" stroke="#F5A623" stroke-width="1.2"/><rect x="18" y="15" width="35" height="8" rx="2" fill="#E8712C" opacity="0.2"/><rect x="18" y="28" width="35" height="8" rx="2" fill="#E8712C" opacity="0.15"/><rect x="18" y="41" width="35" height="8" rx="2" fill="#E8712C" opacity="0.1"/><text x="85" y="38" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial,sans-serif">STOCK</text><text x="85" y="50" font-size="7" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial,sans-serif">COUNT</text></svg></div><span class="illustration-label">Count Done</span><span class="step-number-large">03</span></div></div></div>
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Valuation Review</h3><p class="step-description">We verify that stock valuation complies with AS 2 or Ind AS 2 - lower of cost and NRV. We test cost method consistency, verify NRV for slow-moving stock, and check overhead allocation.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> AS 2 / Ind AS 2 compliance</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> NRV write-downs verified</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="28" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">COST vs NRV</text><line x1="25" y1="34" x2="95" y2="34" stroke="#14365F" stroke-width="1" opacity="0.3"/><rect x="25" y="40" width="30" height="14" rx="3" fill="#E8F5E9" stroke="#10B981" stroke-width="1"/><text x="40" y="50" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial,sans-serif">COST</text><rect x="65" y="40" width="30" height="14" rx="3" fill="#FFF3E0" stroke="#F5A623" stroke-width="1"/><text x="80" y="50" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial,sans-serif">NRV</text><text x="60" y="68" font-size="7" fill="#E8712C" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">Lower = Value</text></svg></div><span class="illustration-label">Valued</span><span class="step-number-large">04</span></div></div></div>
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Debtors Verification (CC/OD)</h3><p class="step-description">For bank CC/OD accounts, we verify eligible debtors - review ageing, identify overdue/disputed/doubtful debtors excluded from DP, verify sales authenticity, and apply bank margin.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Debtors ageing reviewed</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Eligible debtors confirmed</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="10" width="90" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="25" y1="25" x2="95" y2="25" stroke="#14365F" stroke-width="1" opacity="0.3"/><text x="40" y="22" font-size="6" fill="#14365F" font-weight="600" text-anchor="middle" font-family="Arial,sans-serif">0-30 days</text><text x="65" y="22" font-size="6" fill="#F5A623" font-weight="600" text-anchor="middle" font-family="Arial,sans-serif">31-90</text><text x="88" y="22" font-size="6" fill="#E8712C" font-weight="600" text-anchor="middle" font-family="Arial,sans-serif">90+</text><rect x="25" y="30" width="25" height="30" rx="2" fill="#E8F5E9"/><rect x="55" y="40" width="20" height="20" rx="2" fill="#FFF3E0"/><rect x="80" y="50" width="15" height="10" rx="2" fill="#FDE8E8"/></svg></div><span class="illustration-label">Debtors OK</span><span class="step-number-large">05</span></div></div></div>
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 6</span><h3 class="step-title">Drawing Power Computation</h3><p class="step-description">We compute DP using the bank's prescribed margin: DP = (Eligible Stock x (100% - margin)) + (Eligible Debtors x (100% - margin)). We compare DP with current outstanding and flag excess drawing.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> DP calculated per sanction</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Excess drawing flagged</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="100" height="65" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><text x="60" y="28" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">DRAWING POWER</text><line x1="20" y1="34" x2="100" y2="34" stroke="#14365F" stroke-width="1" opacity="0.3"/><text x="60" y="48" font-size="8" fill="#E8712C" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">Stock + Debtors - Margin</text><rect x="25" y="55" width="70" height="14" rx="3" fill="#E8F5E9" stroke="#10B981" stroke-width="1.2"/><text x="60" y="65" font-size="7" fill="#14365F" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">DP = INR XX,XX,XXX</text></svg></div><span class="illustration-label">DP Ready</span><span class="step-number-large">06</span></div></div></div>
-            <div class="step-card"><div class="step-content"><span class="step-badge">Step 7</span><h3 class="step-title">Report Preparation and Bank Submission</h3><p class="step-description">CA-signed comprehensive report covering findings, discrepancies, valuations, DP computation, and recommendations. Submitted to bank in prescribed format. Management copy with corrective action advisory.</p><div class="step-highlights"><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> CA-certified report</span><span class="highlight-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Submitted to bank</span></div></div><div class="step-visual"><div class="step-illustration"><div class="illustration-icon"><svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="60" rx="6" fill="#F0F4F8" stroke="#14365F" stroke-width="1.5"/><line x1="30" y1="22" x2="90" y2="22" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/><line x1="30" y1="34" x2="80" y2="34" stroke="#14365F" stroke-width="1" opacity="0.3"/><line x1="30" y1="44" x2="75" y2="44" stroke="#14365F" stroke-width="1" opacity="0.2"/><circle cx="60" cy="56" r="6" fill="#E8F5E9" stroke="#10B981" stroke-width="1.5"/><path d="M57 56l2 2 4-4" stroke="#10B981" stroke-width="1.5" stroke-linecap="round"/><circle cx="95" cy="15" r="10" fill="#E8F5E9" stroke="#25D366" stroke-width="1.5"/><path d="M91 15l3 3 5-5" stroke="#25D366" stroke-width="2" stroke-linecap="round"/></svg></div><span class="illustration-label">Report Filed</span><span class="step-number-large">07</span></div></div></div>
-            <div class="highlight-box" style="margin-top:32px;"><p><strong>Legal Verification Gate:</strong> AS 2 / Ind AS 2 valuation methodology, RBI IRACP drawing power norms, and NPA classification criteria verified against ICAI and RBI source documents (RBI/2024-25/12).</p></div>
+            <div class="step-card"><div class="step-content"><span class="step-badge">Step 1</span><h3 class="step-title">Cut-Off: Freezing Movement Before the Count</h3><p class="step-description">A single moment is agreed and movement is controlled around it. Receipts after the cut-off are held aside, dispatches before it are cleared out, and the last document number in each series is recorded. Weak cut-off is the most common cause of a difference that turns out not to be one.</p></div><div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/stock-audit/_library/steps/freeze.webp" alt="Cut-Off: Freezing Movement Before the Count" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 2</span><h3 class="step-title">Counting the Floor Rather Than the System</h3><p class="step-description">Physical stock verification starts from what is present, not from a system extract handed over at the gate. The extract is used afterwards, to compare against. Counting from the printout produces agreement with the printout and tells nobody whether the goods exist.</p></div><div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/stock-audit/_library/steps/count-floor.webp" alt="Counting the Floor Rather Than the System" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 3</span><h3 class="step-title">Sample Size and Test Checks Under SA 530</h3><p class="step-description">Selection is weighted to value, with high-value lines covered completely and the long tail sampled. Independent test counts are then performed on items already counted by the client's team, and repeated differences widen the sample rather than adjust the figure.</p></div><div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/stock-audit/_library/steps/sample-test.webp" alt="Sample Size and Test Checks Under SA 530" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 4</span><h3 class="step-title">Variance Analysis and Management Response</h3><p class="step-description">Every difference is put to management with the supporting document requested. Some resolve as timing, some as recording errors, some as genuine shortage. What matters is that each is attributed to a named cause. A difference nobody can explain proves neither loss nor accuracy.</p></div><div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/stock-audit/_library/steps/variance.webp" alt="Variance Analysis and Management Response" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div></div>
+<div class="step-card"><div class="step-content"><span class="step-badge">Step 5</span><h3 class="step-title">Draft Findings, Client Reply, Final Signed Report</h3><p class="step-description">Findings go out in draft so factual errors can be corrected and explanations attached. The reply is recorded alongside the finding rather than replacing it. Only then is the report signed and released to the lender who commissioned it.</p></div><div class="step-visual"><div class="step-illustration" style="padding:0;background:none;"><img src="/images/stock-audit/_library/steps/report-signoff.webp" alt="Draft Findings, Client Reply, Final Signed Report" loading="lazy" width="1200" height="896" style="width:100%;height:auto;border-radius:var(--radius-xl);"></div></div></div>
 
+        </div>
+    </div>
+</section>
+<section class="content-section" id="integrations-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Counting with Stoklenz: Live Variance, Provable Attendance</h2>
+            
+            <div class="pa-sl"><div class="pa-sl-col"><a class="pa-sl-demo" href="https://stocklens.reacttor.in/demo" target="_blank" rel="noopener" style="background-image:url(&quot;/images/stock-audit/stoklenz/01-home/01-page-screen-1.png&quot;)"><span class="pa-sl-glow"></span><span class="pa-sl-demo-in"><span class="pa-sl-play"></span><span class="pa-sl-demo-t"><strong>Play the interactive demo</strong><span>Walk a count through Stoklenz, scan by scan</span></span></span></a><div class="pa-sl-aside"><h3>Run your next count on Stoklenz</h3><p>Barcode counting against live book stock, geo-fenced attendance and a variance schedule that comes out of the captured data. Send your site list and the scope comes back against it.</p><div class="pa-sl-cta"><a class="pa-sl-btn" href="#consultationFormCard">Get a callback</a><a class="pa-sl-btn pa-sl-btn--ghost" href="tel:+919459456700">+91 945 945 6700</a></div><a class="pa-sl-more" href="https://stocklens.reacttor.in/" target="_blank" rel="noopener">Explore Stoklenz &rarr;</a></div></div><div class="pa-sl-steps"><article class="pa-sl-step"><div class="pa-sl-ph is-shot pa-zoom" role="button" tabindex="0" aria-label="Open this screen full size"><img src="/images/stock-audit/stoklenz/20-app/03-pagelive-screen-1.png" alt="Live audit: the count as it happens on the floor, rather than a status typed up afterwards" loading="lazy" width="2880" height="1800"><span class="pa-sl-n">01</span></div><div class="pa-sl-copy"><h3>Barcode Counting Against Live Book Stock</h3><p>Each scan is checked against the book position as it is entered, so a stock audit surfaces a difference at the rack rather than in a spreadsheet reconciled a week later.</p></div></article>
+<article class="pa-sl-step"><div class="pa-sl-ph is-shot pa-zoom" role="button" tabindex="0" aria-label="Open this screen full size"><img src="/images/stock-audit/stoklenz/01-home/10-tab-ground-force.png" alt="Stoklenz ground force: crew attendance captured against the site coordinates at sign-in, not written on a sheet afterwards" loading="lazy" width="2880" height="1800"><span class="pa-sl-n">02</span></div><div class="pa-sl-copy"><h3>Geo-Fenced Attendance Every Crew Member Signs</h3><p>Attendance is recorded against the site's coordinates when a crew member signs in, which turns who was present into a record rather than an assertion on a timesheet.</p></div></article>
+<article class="pa-sl-step"><div class="pa-sl-ph is-shot pa-zoom" role="button" tabindex="0" aria-label="Open this screen full size"><img src="/images/stock-audit/stoklenz/20-app/18-pageaudits-ba10cfc3-77c4-42d1-a304-9c767b81227-screen-1.png" alt="Inside one audit: counted position against book stock, with the differences listed as they are found" loading="lazy" width="2880" height="1800"><span class="pa-sl-n">03</span></div><div class="pa-sl-copy"><h3>Variance Visible Before the Crew Leaves the Floor</h3><p>Differences are visible while the team is still on site, so a recount happens the same day instead of requiring a second mobilisation weeks afterwards.</p></div></article>
+<article class="pa-sl-step"><div class="pa-sl-ph is-shot pa-zoom" role="button" tabindex="0" aria-label="Open this screen full size"><img src="/images/stock-audit/stoklenz/20-app/14-pageaudit-reports-screen-1.png" alt="Audit reports: working papers and variance schedules produced from the captured count, not re-keyed from it" loading="lazy" width="2880" height="1800"><span class="pa-sl-n">04</span></div><div class="pa-sl-copy"><h3>The Report Generated Out of the Count Itself</h3><p>Working papers, count sheets and variance schedules come out of the captured data rather than being re-keyed, which removes the transcription step where errors enter.</p></div></article></div></div>
+            
+            
         </div>
     </div>
 </section>
@@ -546,31 +2319,16 @@
 <section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Documents Required for Stock Audit</h2>
+            <h2 class="section-title">Documents to Keep Ready</h2>
             <div class="content-text">
                 
-                <p><strong>For Bank CC/OD Audits</strong></p>
-                <div class="table-responsive-wrapper"><table><thead><tr><th>Document</th><th>Purpose</th></tr></thead><tbody>
-                        <tr><td>Bank sanction letter</td><td>Specifies CC/OD limit, eligible security, margin %, stock statement frequency, and audit requirements</td></tr>
-                        <tr><td>Monthly stock statement (latest)</td><td>Certified by proprietor/director - baseline for verification</td></tr>
-                        <tr><td>Bank statement (last 3 months)</td><td>Cross-verify inflows/outflows against purchases and sales</td></tr>
-                        <tr><td>Purchase and sales invoices (3-6 months)</td><td>Verify stock movement and cost basis</td></tr>
-                        <tr><td>Stock register / Tally / ERP data</td><td>Updated to audit date for reconciliation</td></tr>
-                        <tr><td>Debtors list (party-wise, invoice-wise, age-wise)</td><td>For eligible debtors computation and DP calculation</td></tr>
-                        <tr><td>Insurance policy details</td><td>Value insured, premium paid, expiry - for hypothecated stock</td></tr>
-                        <tr><td>Storage location layouts</td><td>All warehouses, factories, depots with access information</td></tr>
-                </tbody></table></div>
-                <p style="margin-top:24px;"><strong>For Year-End Physical Count</strong></p>
-                <div class="table-responsive-wrapper"><table><thead><tr><th>Document</th><th>Purpose</th></tr></thead><tbody>
-                        <tr><td>Stock ledger / inventory module data</td><td>From accounting system (Tally, SAP) as of count date</td></tr>
-                        <tr><td>Inventory categories list</td><td>Raw materials, WIP, finished goods, consumables, spares</td></tr>
-                        <tr><td>Opening stock, purchases, production, sales records</td><td>Full-year movement data for reconciliation</td></tr>
-                        <tr><td>Valuation workings</td><td>Cost method (FIFO/Weighted Average), overhead allocation rates</td></tr>
-                        <tr><td>Previous year's stock audit report</td><td>Year-on-year comparison baseline</td></tr>
-                </tbody></table></div>
+                <ul class="pa-doc-list"><li><strong>The Stock Statement Already Filed With the Bank</strong> — The statement as filed with the lender for the period, with its workings. That filed version is the benchmark, and any revised statement is reconciled against it and against the count rather than replacing it.</li>
+<li><strong>Stock Register, Bin Cards and Gate Inward Records</strong> — The stock register as maintained, whatever form it takes, along with bin cards at the rack and the gate inward and outward register for the cut-off period.</li>
+<li><strong>Purchase, Sales and GRN Files for the Cut-Off Period</strong> — Purchase and sales registers either side of the cut-off, with goods receipt notes and dispatch documents, so movements around the moment can be tested rather than accepted.</li>
+<li><strong>Valuation Working and the Provisioning Policy</strong> — The basis on which stock has been valued, the ageing behind any provision, and the written policy applied. Physical stock verification establishes quantity; this is what turns quantity into a figure.</li></ul>
 
             </div>
-        </div>
+        <div class="pa-tool"><span class="pa-tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg></span><div class="pa-tool-b"><h3>Download the Stock Audit Checklist</h3><p>The preparation checklist covering records, reconciliations and site access, set out in the order a stock audit actually asks for them rather than as a general list.</p><a class="pa-tool-btn" href="/checklists/stock-audit-checklist.pdf" download>Download the checklist &rarr;</a></div></div><div class="pa-tool-note"><strong>Using It Before the Auditor Arrives</strong> Working through it beforehand shortens the engagement and stops small record gaps being written up as control failures. What it cannot do is improve the underlying records overnight.</div></div>
     </div>
 </section>
 
@@ -578,16 +2336,16 @@
 <section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Common Stock Audit Challenges and How We Solve Them</h2>
+            <h2 class="section-title">Where Counts Go Wrong</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Challenge</th><th>Impact</th><th>How Patron Accounting Solves It</th></tr></thead>
+                    <thead><tr><th>Issue</th><th>What It Does to the Count</th></tr></thead>
                     <tbody>
-                        <tr><td><strong>Book vs Physical Stock Discrepancies</strong></td><td>Reduced Drawing Power, bank queries</td><td>Systematic root cause investigation for each variance, financial impact quantification, adjustment entry recommendations. Net shortfalls clearly reported for DP.</td></tr>
-                        <tr><td><strong>Damaged, Obsolete, or Slow-Moving Stock Valuation</strong></td><td>Overvalued collateral, inflated profits</td><td>Independent NRV assessment per AS 2, write-down recommendations, items flagged for disposal - protecting banks and ensuring accurate financials.</td></tr>
-                        <tr><td><strong>Multi-Location Coordination</strong></td><td>Logistical complexity for 10-50 locations</td><td>Simultaneous CA teams deployed, standardized count sheets, centralized data reconciliation - completed within agreed timelines.</td></tr>
-                        <tr><td><strong>Banks Rejecting Stock Audit Reports</strong></td><td>Wrong format or missing disclosures</td><td>Our reports follow exact bank-specific format requirements. Accepted by SBI, HDFC, ICICI, PNB, Axis, Bank of Baroda consistently.</td></tr>
+                        <tr><td><strong>Stock in Transit Counted Twice</strong></td><td>A consignment dispatched from one location and received at another around the cut-off appears in both sets of records until a stock audit assigns it to one side on the terms of sale.</td></tr>
+<tr><td><strong>Goods Held for Third Parties Treated as Your Own</strong></td><td>Material stored on behalf of a customer or a principal sits on the same racking as owned stock. Included in the count, it inflates the position a lender is secured on.</td></tr>
+<tr><td><strong>Obsolete and Slow Moving Stock Still Carried at Cost</strong></td><td>Ageing has been run but never converted into a provision, so lines that have not moved for two seasons continue to carry full cost into the statement.</td></tr>
+<tr><td><strong>Locations Nobody Mentioned Until the Count Day</strong></td><td>A rented shed, a job worker or a director's premises holding goods, disclosed only when the team arrives. Every undisclosed location is an unreconciled difference waiting to appear.</td></tr>
 
                     </tbody>
                 </table>
@@ -598,79 +2356,47 @@
 </section>
 
 <!-- SECTION 10: FEES -->
+
 <section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Stock Audit Fees in India - 2026 Pricing</h2>
+            <h2 class="section-title">Stock Audit Cost: What Moves the Number</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Fee Component</th><th>Amount</th></tr></thead>
+                    <thead><tr><th>What Moves the Fee</th><th>Why</th></tr></thead>
                     <tbody>
-                        <tr><td>Patron Accounting Professional Fees - Bank CC/OD Single Location (city)</td><td class="table-amount">Starting from INR 2,499 (Exl GST and Govt. Charges)</td></tr>
-                        <tr><td>Bank CC/OD Single Location (outstation, within 100 km)</td><td class="table-amount">Starting at INR 5,999</td></tr>
-                        <tr><td>Year-End Physical Inventory Count - Single Location</td><td class="table-amount">Starting at INR 4,999</td></tr>
-                        <tr><td>Multi-Location Stock Audit (3-5 locations)</td><td class="table-amount">Starting at INR 14,999 (bundled)</td></tr>
-                        <tr><td>Multi-Location (6-10 locations, Pan-India)</td><td class="table-amount">Custom pricing available</td></tr>
-                        <tr><td>Emergency/Same-Week Stock Audit</td><td class="table-amount">Starting at INR 6,999 (priority surcharge)</td></tr>
-                        <tr><td>Forensic Stock Investigation</td><td class="table-amount">Starting at INR 9,999 (scope-dependent)</td></tr>
+                        <tr><td><strong>Number of Locations and Travel Time</strong></td><td>Site count moves the effort more than stock value does. Two crores across six godowns is a larger exercise than twenty crores in one warehouse, because each address is a separate visit and a separate reconciliation.</td></tr>
+<tr><td><strong>SKU Count and the Counting Method Chosen</strong></td><td>Counting is per line, not per rupee. A stock audit of ten thousand low-value lines takes longer than one of two hundred high-value ones, and serial or batch capture lengthens it again.</td></tr>
+<tr><td><strong>Notice Period and Peak Season Dates</strong></td><td>Short notice and the March and September peaks both compress the schedule. Work booked into those windows competes with every other borrower on the same calendar.</td></tr>
+<tr><td><strong>What a Quoted Fee Excludes</strong></td><td>Travel and out-of-pocket costs, re-visits caused by records that were not ready, and any location added after the scope was agreed usually sit outside the original quote.</td></tr>
 
                     </tbody>
                 </table>
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Stock Audit consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20Stock%20Audit.%20Please%20call%20me%20to%20discuss." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                
+                <p style="margin-top:16px;"><strong>Get a free Stock Audit consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20would%20like%20to%20book%20Stock%20Audit." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Stock Audit Timeline - How Long Does It Take?</h2>
-            <div class="content-text">
-                <div class="table-responsive-wrapper">
-                <table>
-                    <thead><tr><th>Stage</th><th>Estimated Timeline</th></tr></thead>
-                    <tbody>
-                        <tr><td>Single-location bank CC/OD stock audit (standard)</td><td>Site visit: 1 day. Report: 2-3 working days after site visit.</td></tr>
-                        <tr><td>Multi-location audit (3-5 locations, same city)</td><td>2-3 days site visits. Report: 5-7 working days after completion.</td></tr>
-                        <tr><td>Large warehouse / manufacturing (50,000+ SKUs)</td><td>2-4 day site visit. Report: 7-10 working days after site visit.</td></tr>
-                        <tr><td>Pan-India multi-location (10+ locations)</td><td>Rolling schedule over 2-3 weeks. Consolidated report: 10-15 working days.</td></tr>
-                        <tr><td>Emergency / Urgent audit (same day or next day)</td><td>Site visit within 24-48 hours. Report: 1-2 working days after visit.</td></tr>
-                        <tr><td>Stock statement due date (bank borrowers)</td><td>Monthly by 7th of following month. Formal audit: half-yearly per sanction letter.</td></tr>
 
-                    </tbody>
-                </table>
-                </div>
-                <div class="highlight-box" style="margin-top:16px;">
-                    
-                    <p><strong>Bank Deadline Alert:</strong> Banks typically require formal stock audit reports half-yearly (by September 30 and March 31 for April-March FY). Engaging Patron Accounting 2-3 weeks before the due date ensures timely submission and avoids bank queries.</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- SECTION 12: BENEFITS -->
+
 <section class="why-choose-section" id="benefits-section">
     <div class="section-container">
         <div style="text-align:center;margin-bottom:48px;">
             <div class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Key Benefits</div>
-            <h2 class="section-title">Why Choose Patron Accounting for Stock Audit?</h2>
+            <h2 class="section-title">What the Count Finds That the Ledger Does Not</h2>
         </div>
-        <div class="features-grid">
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Drawing Power Accuracy</h3><p>Correctly computed DP prevents under-drawing (leaving money on the table) and over-drawing (risk of demand notice). Our reports give banks full confidence in stock security value.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3>NPA Prevention</h3><p>RBI IRACP norms make drawings on stock statements older than 3 months irregular. 90 days of irregular drawings = NPA. Timely audits keep accounts standard [RBI/2024-25/12].</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg></div><h3>Fraud and Pilferage Detection</h3><p>Independent CA verification exposes stock manipulation, fictitious entries, and internal pilferage - which internal staff may overlook or conceal.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div><h3>AS 2 / Ind AS 2 Compliance</h3><p>Year-end valuation errors impact gross profit, tax liability, and audit opinion. Professional stock audit ensures correct write-downs and accounting standard compliance.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Insurance Claim Support</h3><p>After fire, flood, or theft, a recent CA-certified stock audit report provides prima facie evidence of inventory value for insurance claim purposes.</p></article>
-            <article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h3>Pan-India Multi-Location</h3><p>Offices in Pune, Mumbai, Bangalore, Delhi. CA teams deployed simultaneously for multi-location audits. Centralized reconciliation and consolidated reporting.</p></article>
-        </div>
+        <div class="features-grid pa-cols-2"><article class="feature-card"><div class="feature-icon feature-icon--navy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /> </svg></div><h3 class="feature-title">Drawing Power the Bank Will Accept</h3><p class="feature-text">A stock audit produces a drawing power figure with the deductions shown and the coverage stated, which is what stops a lender querying the number rather than acting on it.</p></article>
+<article class="feature-card"><div class="feature-icon feature-icon--orange"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" /> </svg></div><h3 class="feature-title">Shrinkage Quantified Instead of Suspected</h3><p class="feature-text">Loss that never appeared as a journal entry becomes a measured figure attached to locations and lines, which is the first thing anyone needs before deciding what to do about it.</p></article>
+<article class="feature-card"><div class="feature-icon feature-icon--navy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48" /> <path d="M15 6h1v4" /> <path d="m6.134 14.768.866-.5 2 3.464" /> <circle cx="16" cy="8" r="6" /> </svg></div><h3 class="feature-title">Valuation Corrected Before the Year End Closes</h3><p class="feature-text">Slow-moving and obsolete lines identified with an ageing behind them, so the provisioning decision is made on evidence during the year rather than argued about at audit.</p></article>
+<article class="feature-card"><div class="feature-icon feature-icon--orange"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="8" height="4" x="8" y="2" rx="1" ry="1" /> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /> <path d="m9 14 2 2 4-4" /> </svg></div><h3 class="feature-title">Controls the Next Count Can Be Measured Against</h3><p class="feature-text">A documented cut-off, a stated sampling basis and a reconciliation method that the following cycle repeats, so movement between counts means something.</p></article></div>
     </div>
 </section>
 
@@ -678,16 +2404,43 @@
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">500+ Stock Audit Reports Accepted by All Major Indian Banks</h2>
+            <h2 class="section-title">Counts Completed, Cities Covered, Turnaround</h2>
             <div class="content-text">
                 
-                <p><strong>Patron Accounting LLP</strong> | 4.8/5 Rating | 200+ Reviews | 500+ Stock Audits | Offices: Pune | Mumbai | Bangalore | Delhi</p>
-                <div class="highlight-box" style="margin-top:16px;"><p>"Patron's CA team did our SBI stock audit in a single day across two godowns. The report was accepted without a single query from the bank. Exactly what we needed." - <strong>Proprietor, Manufacturing Unit, Pune</strong></p></div>
-                <div class="highlight-box" style="margin-top:12px;"><p>"We had an INR 8 crore CC limit and the bank's stock audit showed a significant shortfall. Patron helped us understand the discrepancies and prepare a proper response before the credit review." - <strong>Director, Trading Company, Mumbai</strong></p></div>
-                <div class="highlight-box" style="margin-top:12px;"><p>"Year-end stock count across our 6 warehouses in 3 cities - Patron coordinated all teams simultaneously. Clean report filed with our statutory auditors on time." - <strong>CFO, FMCG Distributor, Bangalore</strong></p></div>
+                <p style="font-size:16px"><strong>500+ stock audits completed.</strong></p><ul style="list-style:none;padding:0;margin:0 0 14px"><li style="margin-bottom:10px"><strong>Counts Completed and SKUs Verified</strong></li>
+<li style="margin-bottom:10px"><strong>Cities and Sites Reached</strong></li>
+<li style="margin-bottom:10px"><strong>Turnaround From Count Date to Signed Report</strong></li></ul><p style="font-size:14.5px">Across engagements run by the Patron team. The figure is counted from completed engagements only, and it is restated when it changes rather than rounded up and left. Scope for any one count is still agreed against your own site list.</p>
 
             </div>
         </div>
+    </div>
+</section>
+
+<section class="content-section" id="why-patron-section" style="background: var(--cream) !important;">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Why Businesses Choose Patron Accounting</h2>
+            
+            <!-- 5 differentiator cards. Each is a CLAIM + the PROOF for it - never an
+                 adjective on its own. Bad: "Experienced team". Good: "14 years, 900+ books
+                 closed". Fill from the firm's real numbers, not the template's. -->
+            <div class="why-patron-grid pa-cols-3">
+                <article class="feature-card"><div class="feature-icon feature-icon--navy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /> </svg></div><h3 class="feature-title">Partner-Signed Reports Carrying a UDIN</h3><p class="feature-text">Every stock audit report carries the signature of a practising Chartered Accountant and a UDIN, so a lender can verify it against the institute record before relying on the findings.</p></article>
+<article class="feature-card"><div class="feature-icon feature-icon--orange"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 12h4" /> <path d="M10 8h4" /> <path d="M14 21v-3a2 2 0 0 0-4 0v3" /> <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" /> <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" /> </svg></div><h3 class="feature-title">Crews Who Count, Not Reviewers Who Ask for Photographs</h3><p class="feature-text">The counting is performed on site by the engagement team rather than assembled from images sent in by the borrower's own staff, which is the difference between verification and collation.</p></article>
+<article class="feature-card"><div class="feature-icon feature-icon--navy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#19355E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 12h4" /> <path d="M10 8h4" /> <path d="M14 21v-3a2 2 0 0 0-4 0v3" /> <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" /> <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" /> </svg></div><h3 class="feature-title">One Team Across Every Site in the Engagement</h3><p class="feature-text">Multi-site work is run by a single team to one instruction set and one cut-off, so results from different addresses can be added together without reconciling three different methods.</p></article>
+            </div>
+            <p class="why-patron-note"></p>
+        </div>
+    </div>
+</section>
+<section class="content-section" id="case-study-section">
+    <div class="content-container">
+        <div class="text-content">
+            <h2 class="section-title">Counts We Have Run, and What They Found</h2>
+            
+            <article class="pa-case pa-rm"><div class="pa-case-h"><h3>A Variance the Stock Statement Had Never Shown</h3><p class="pa-case-scale">4 sites · approx. 8,400 SKUs · cash credit facility</p><p class="pa-case-client">A manufacturer borrowing against stock held at four locations</p></div><ol class="pa-rm-track"><li class="pa-rm-stage"><span class="pa-rm-node">01</span><span class="pa-rm-lab">The challenge</span><p>Monthly stock statements went to the bank prepared from the ERP, and nobody had walked the floor against them in over two years. The limit had been renewed twice on that basis. The bank asked for an independent count before the next renewal.</p></li><li class="pa-rm-stage"><span class="pa-rm-node">02</span><span class="pa-rm-lab">What we did</span><p>All four locations were counted against a single cut-off, with inward and outward movement frozen from the same hour. We counted the floor first and compared it to the reported position afterwards, never the other way round, and listed every difference individually rather than netting them to a total.</p></li><li class="pa-rm-stage is-out"><span class="pa-rm-node">03</span><span class="pa-rm-lab">What the count found</span><p>The counted position was about 6% below the reported one by value. Almost all of the gap sat at one location, where goods received were being booked into the system on arrival at the gate rather than on put-away, so stock in the receiving bay was counted twice for as long as it stayed there. Under the 10% CARO threshold, so not a statutory reporting event - but enough to change drawing power.</p></li><li class="pa-rm-stage"><span class="pa-rm-node">04</span><span class="pa-rm-lab">What changed</span><p>Drawing power was recomputed on the counted position and the limit reset. The receiving process was changed to book on put-away, and the following quarter's count closed the gap.</p></li></ol></article>
+<article class="pa-case pa-rm"><div class="pa-case-h"><h3>A Multi-Site Count Completed in a Single Night</h3><p class="pa-case-scale">4 sites · approx. 8,400 SKUs · counted overnight</p><p class="pa-case-client">A manufacturer with stock across four locations in two states</p></div><ol class="pa-rm-track"><li class="pa-rm-stage"><span class="pa-rm-node">01</span><span class="pa-rm-lab">The challenge</span><p>Previous counts had been run site by site over a fortnight. Between the first site and the last, stock had moved on inter-unit transfers, and the consolidated figure had never reconciled cleanly to the system.</p></li><li class="pa-rm-stage"><span class="pa-rm-node">02</span><span class="pa-rm-lab">What we did</span><p>Teams were briefed together the evening before and deployed simultaneously. Movement was frozen at every site from 8pm and one supervisor held the cut-off across all four. Counting ran through the night, with transfers in flight at the cut-off identified and allocated once.</p></li><li class="pa-rm-stage is-out"><span class="pa-rm-node">03</span><span class="pa-rm-lab">What the count found</span><p>All four sites were covered by 6am. Material in transit between two of them at the cut-off had been counted at both ends in the previous exercise - the single cut-off removed it. The consolidated position reconciled to the system for the first time.</p></li><li class="pa-rm-stage"><span class="pa-rm-node">04</span><span class="pa-rm-lab">What changed</span><p>The reconciliation reached the bank within three working days. The overnight approach became the standard for subsequent quarterly counts.</p></li></ol></article>
+<article class="pa-case pa-rm"><div class="pa-case-h"><h3>Provisioning That Changed After the Count</h3><p class="pa-case-scale">4 sites · ageing run alongside the count</p><p class="pa-case-client">A manufacturer carrying slow-moving finished goods and spares</p></div><ol class="pa-rm-track"><li class="pa-rm-stage"><span class="pa-rm-node">01</span><span class="pa-rm-lab">The challenge</span><p>The provision for slow-moving and obsolete stock had been carried forward at the same percentage for several periods. Nobody had tested it against what was actually moving.</p></li><li class="pa-rm-stage"><span class="pa-rm-node">02</span><span class="pa-rm-lab">What we did</span><p>Alongside the count we aged the entire holding by last issue date and tested net realisable value on the non-moving lines against what comparable stock had recently realised, rather than against cost.</p></li><li class="pa-rm-stage is-out"><span class="pa-rm-node">03</span><span class="pa-rm-lab">What the count found</span><p>Around 9% of the value had not moved in over twelve months. A further group of lines was priced above current realisation. The existing provision covered roughly half of what the ageing supported.</p></li><li class="pa-rm-stage"><span class="pa-rm-node">04</span><span class="pa-rm-lab">What changed</span><p>The provision was restated with the ageing schedule behind it, so the figure in the accounts had support rather than precedent. The auditors accepted it without adjustment.</p></li></ol></article></div>
     </div>
 </section>
 
@@ -695,18 +2448,16 @@
 <section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Internal Self-Audit vs Professional CA Stock Audit</h2>
+            <h2 class="section-title">A Typical Stock Audit vs a Stock Audit on Stoklenz</h2>
             <div class="content-text">
                 <div class="table-responsive-wrapper">
                 <table>
-                    <thead><tr><th>Parameter</th><th>Internal / Self-Audit</th><th>Patron Accounting CA Team</th></tr></thead>
+                    <thead><tr><th>What Changes</th><th>What It Means in Practice</th></tr></thead>
                     <tbody>
-                        <tr><td><strong>Banker Acceptance</strong></td><td>Banks do not accept self-certified reports for formal stock audit</td><td>CA-certified report accepted by all major Indian banks</td></tr>
-                        <tr><td><strong>AS 2 / Ind AS 2 Compliance</strong></td><td>Staff may not apply correct NRV write-down methodology</td><td>Full AS 2 / Ind AS 2 valuation review with technically accurate write-downs</td></tr>
-                        <tr><td><strong>Drawing Power Computation</strong></td><td>Errors can lead to over-drawing and bank demand notices</td><td>Precise DP computation per sanction terms - reviewed for accuracy before submission</td></tr>
-                        <tr><td><strong>Fraud Detection</strong></td><td>Internal staff may be complicit or overlook irregularities</td><td>Independent CA has no conflict of interest - objective reporting of discrepancies</td></tr>
-                        <tr><td><strong>NPA Risk Management</strong></td><td>Missed deadlines increase NPA risk</td><td>Timely completion to meet bank sanction conditions and RBI norms</td></tr>
-                        <tr><td><strong>Cost</strong></td><td>Staff time + management bandwidth + risk of bank rejection</td><td>Starting at INR 2,499 per location - clear ROI from NPA prevention alone</td></tr>
+                        <tr><td><strong>Attendance: Claimed Against Geo-Fenced</strong></td><td>On a typical engagement, who attended is a line on a timesheet. Captured against site coordinates at sign-in, it becomes a record the borrower and the lender can both read.</td></tr>
+<tr><td><strong>Variance: Found Next Week Against Found on the Floor</strong></td><td>Differences reconciled in a spreadsheet days later need a second visit to resolve. Differences surfaced at the rack are recounted the same morning.</td></tr>
+<tr><td><strong>Evidence: A Spreadsheet Against a Signed Trail</strong></td><td>A count sheet re-keyed into Excel loses the link between the observation and the record. Captured data keeps the line, the location and the photograph together.</td></tr>
+<tr><td><strong>The Honest Verdict on When the Typical Way Is Enough</strong></td><td>For one small site with clean records and a patient lender, a manual count is perfectly adequate. The difference shows up at multiple sites, tight deadlines and disputed variances.</td></tr>
 
                     </tbody>
                 </table>
@@ -716,20 +2467,16 @@
     </div>
 </section>
 
+
+
 <!-- SECTION 14: RELATED SERVICES -->
 <section class="content-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Related Audit and Compliance Services</h2>
+            <h2 class="section-title">Services That Often Run Alongside</h2>
             <div class="content-text">
                 
-                <ul>
-                    <li><a href="/internal-audit">Internal Audit Service</a> - process, control, and risk-based internal audit including inventory management process review</li>
-                    <li><a href="/statutory-audit">Statutory Audit Services</a> - annual financial statement audit including SA 501 inventory procedures</li>
-                    <li><a href="/gst-audit">GST Audit Services</a> - annual GSTR-9C reconciliation including verification of ITC on purchases linked to inventory</li>
-                    <li><a href="/tax-audit">Tax Audit Service</a> - Section 44AB Tax Audit including verification of closing stock valuation</li>
-                    <li><a href="/appointment-of-auditor">Appointment of Auditor</a> - assistance in appointing CA for bank CC/OD stock audit per sanction requirements</li>
-                </ul>
+                <div class="pa-rel-grid"><a class="pa-rel-card" href="/fixed-asset-verification"><h3>Add Fixed Asset Verification to the Same Visit</h3><p>Where a lender holds charge over plant as well as stock, both populations are covered in one mobilisation.</p><span class="pa-rel-go">Fixed Asset Verification Services &rarr;</span></a><a class="pa-rel-card" href="/asset-tagging"><h3>Tag the Assets While the Crew Is Already On Site</h3><p>Identification applied during the same visit removes a later mobilisation.</p><span class="pa-rel-go">Asset Tagging Services &rarr;</span></a><div class="pa-rel-card is-flat"><h3>Mystery Audit for Outlet-Level Checks</h3><p>Where the same business runs customer-facing outlets, unannounced visits cover ground a stock audit does not reach at all.</p></div></div>
 
             </div>
         </div>
@@ -737,21 +2484,13 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title">Legal and Regulatory Framework for Stock Audit in India</h2>
+            <h2 class="section-title">CARO 2020 Clause 3(ii), SA 501 and the Lender Position</h2>
             <div class="content-text">
                 
-                <div class="table-responsive-wrapper"><table><thead><tr><th>Legal Provision</th><th>Relevance to Stock Audit</th></tr></thead><tbody>
-                        <tr><td><strong>AS 2 - Valuation of Inventories (ICAI, Revised 2016)</strong></td><td>Inventories valued at lower of cost and NRV. FIFO or Weighted Average permitted. LIFO not permitted. Applicable to all non-Ind AS companies. Source: <a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a></td></tr>
-                        <tr><td><strong>Ind AS 2 - Inventories</strong></td><td>Same lower of cost or NRV principle. Applicable to listed companies and companies with net worth INR 500 crore or more. Source: MCA, Companies (Indian Accounting Standards) Rules, 2015.</td></tr>
-                        <tr><td><strong>SA 501 - Audit Evidence (ICAI)</strong></td><td>Statutory auditors must attend physical inventory count if inventories are material. Failure may require audit opinion qualification.</td></tr>
-                        <tr><td><strong>RBI IRACP Norms (RBI/2024-25/12)</strong></td><td>Stock statements older than 3 months cannot be relied upon for DP computation. 90 continuous days of irregular drawings = NPA classification. Source: <a href="https://www.pdicai.org/Docs/RBI-2024-25-12_842024171758397.pdf" target="_blank" rel="noopener">RBI Circular</a></td></tr>
-                        <tr><td><strong>RBI Working Capital Guidelines</strong></td><td>Banks must ensure drawings in working capital accounts are covered by adequate current assets. Stock and debtor hypothecation are primary security for CC/OD.</td></tr>
-                        <tr><td><strong>Companies Act, 2013 - Section 128</strong></td><td>Companies must maintain proper books including records of all goods purchased/sold and stock on hand. Physical verification supports accurate books.</td></tr>
-                        <tr><td><strong>Income Tax Act, 1961 - Section 145</strong></td><td>Method of accounting and valuation of stock must be applied consistently. Auditors verify under <a href="/tax-audit">Tax Audit (Section 44AB)</a>.</td></tr>
-                </tbody></table></div>
+                <div class="pa-law-grid"><article class="pa-law"><span class="pa-law-cite">CARO 2020 Clause 3(ii)(a)</span><h3>The 10 Percent Discrepancy Rule</h3><p>The clause requires the auditor to report whether physical verification of inventory was conducted at reasonable intervals by management, whether coverage and procedure were appropriate, and whether discrepancies of 10 per cent or more in the aggregate for each class of inventory were noticed and properly dealt with in the books.</p></article><article class="pa-law"><span class="pa-law-cite">CARO 2020 Clause 3(ii)(b)</span><h3>Quarterly Returns and Working Capital Limits</h3><p>The clause attaches where working capital limits in excess of five crore rupees have been sanctioned in aggregate, on the security of current assets, by banks or financial institutions. The auditor then reports whether quarterly returns filed with those institutions agree with the books of account.</p></article><article class="pa-law"><span class="pa-law-cite">SA 501</span><h3>Attendance at Physical Inventory Counting</h3><p>Where inventory is material, the auditing standard expects attendance at the physical count, evaluation of management's procedures, inspection of the inventory and performance of test counts. That is the professional basis on which a stock audit is conducted.</p></article><article class="pa-law is-note"><h3>Where Lender Policy Sits, and Where Statute Does Not</h3><p>No statute orders a borrower to have a stock audit performed. The requirement arrives through the sanction letter, which converts the lender's own credit policy into a term of your facility. Reading a bank threshold as if it were law is the most common error here.</p></article></div>
 
             </div>
         </div>
@@ -762,95 +2501,60 @@
 <section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
+            
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
-                    <h2 class="faq-expanded__title">Frequently Asked Questions - Stock Audit in India</h2>
-                    <p class="faq-expanded__lead">Get answers to common questions about stock audit for bank CC/OD borrowers, Drawing Power computation, and inventory verification.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Stock Audit in India'])
+                    <h2 class="faq-expanded__title">Stock Audit: Common Questions</h2>
+                    <p class="faq-expanded__lead">Answers written against the position in force on the review date below.</p>
+                    <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact">Still have a question? Talk to a CA &rarr;</a>
+                    <div class="faq-enquiry"><h3 class="faq-enquiry__title">Ask about your count</h3><p class="faq-enquiry__sub">Send your site list and the scope comes back against it.</p><p class="faq-enquiry__context">Answered by the <strong>CA &amp; CS team</strong>, usually the same working day.</p><form class="faq-enquiry__form" method="post" action="#consultationFormCard" novalidate><input class="faq-enquiry__input" type="text" name="name" autocomplete="name" placeholder="Your name" required><input class="faq-enquiry__input" type="email" name="email" autocomplete="email" placeholder="Work email" required><div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" autocomplete="tel" inputmode="numeric" placeholder="Phone number" required></div><textarea class="faq-enquiry__input" name="message" rows="3" placeholder="How many sites, and by when?"></textarea><button class="faq-enquiry__btn" type="submit">Get a Callback</button><p class="faq-enquiry__msg" role="status" aria-live="polite"></p></form><div class="faq-enquiry__badges"><span class="faq-enquiry__badge"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No spam</span><span class="faq-enquiry__badge"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Replies from a CA</span></div></div>
                 </aside>
                 <div class="faq-expanded__list">
-                    <div class="faq-expanded__item" id="faq-1">
-                        <h3 class="faq-expanded__q">What is stock audit and why is it required?</h3>
-                        <div class="faq-expanded__a"><p>Stock Audit - also called Inventory Audit - is the independent physical verification and valuation of a business's inventory by an external Chartered Accountant. It is required for: (1) bank CC/OD borrowers as a mandatory condition of working capital financing to verify Drawing Power; (2) year-end statutory audit to verify closing stock; (3) internal control and fraud prevention; and (4) insurance claims, business transfers, and due diligence. Valuation follows AS 2 or Ind AS 2 (lower of cost or net realisable value).</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-2">
-                        <h3 class="faq-expanded__q">Is stock audit mandatory in India?</h3>
-                        <div class="faq-expanded__a"><p>Stock Audit is mandatory for: (1) bank CC/OD borrowers per the bank's sanction letter - generally when credit exposure exceeds INR 5 crore, conducted half-yearly or quarterly; (2) all companies for year-end stock verification as part of statutory audit (SA 501 - ICAI). For non-bank, non-listed businesses with smaller inventory, stock audit is not legally mandated but is strongly recommended as best practice for internal control.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-3">
-                        <h3 class="faq-expanded__q">Who can conduct a stock audit in India?</h3>
-                        <div class="faq-expanded__a"><p>Banks require stock audit reports to be certified by an independent Chartered Accountant (CA) in practice. There is no specific statutory requirement that only a CA can conduct all types of stock audit - but for bank CC/OD accounts and statutory audit purposes, a CA-certified report is required. Patron Accounting's CA team has over 15 years of experience in stock audits for all major Indian banks.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-4">
-                        <h3 class="faq-expanded__q">What is Drawing Power in a Cash Credit account?</h3>
-                        <div class="faq-expanded__a"><p>Drawing Power (DP) is the maximum amount a CC or OD borrower can draw from the bank on a given date. It is computed as: DP = (Eligible Stock Value x (100% - Stock Margin%)) + (Eligible Debtors x (100% - Debtors Margin%)). If stock is INR 50 lakh with 25% margin and debtors are INR 20 lakh with 25% margin: DP = INR 37.5 lakh + INR 15 lakh = INR 52.5 lakh.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-5">
-                        <h3 class="faq-expanded__q">What happens if stock audit is not done for CC/OD accounts?</h3>
-                        <div class="faq-expanded__a"><p>If stock audit is not conducted per the bank's sanction conditions: (1) the bank may freeze Drawing Power; (2) outstanding beyond DP becomes an irregular drawing; (3) if irregular for 90 continuous days, the account is classified as NPA per RBI IRACP norms [RBI/2024-25/12]; (4) NPA triggers penal interest, credit rating downgrade, and difficulty securing future loans.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-6">
-                        <h3 class="faq-expanded__q">What is the difference between stock audit and stock statement?</h3>
-                        <div class="faq-expanded__a"><p>A Stock Statement (monthly) is a self-certified declaration by the borrower submitted to the bank showing current stock and debtors levels - used for monthly DP computation. A Stock Audit is a formal independent physical verification by a CA that validates actual stock vs. book records, valuation accuracy, and Drawing Power - typically half-yearly or quarterly. Banks use both.</p></div>
-                    </div>
-                    <div class="faq-expanded__item" id="faq-7">
-                        <h3 class="faq-expanded__q">Stock audit ke liye kya kya chahiye?</h3>
-                        <div class="faq-expanded__a"><p>Bank CC/OD stock audit ke liye chahiye: bank ka sanction letter, latest month ka stock statement, pichle 3 mahine ka bank statement, purchase aur sales ke invoices, stock register ya Tally data updated, debtors ki invoice-wise ageing list, aur insurance policy details. Godaam ya factory tour bhi required hota hai jahan CA physically stock count karta hai. Patron Accounting ki CA team complete guidance deti hai.</p></div>
-                    </div>
+                    <div class="faq-expanded__item"><h3 class="faq-expanded__q">What is the stock audit?</h3><div class="faq-expanded__a"><p>A stock audit is an independent physical verification of inventory, checked against the values recorded in the books and, where relevant, against the stock statement filed with a lender. It confirms the stock exists, belongs to the borrower, is in saleable condition and is valued on a consistent basis.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">When is a stock audit applicable?</h3><div class="faq-expanded__a"><p>A stock audit is normally triggered by a lending condition rather than by statute. Banks set their own threshold in credit policy, usually linked to the size of the working capital limit, and specify the frequency in the sanction letter. Accounts showing early warning signals may be audited more often.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">What is the stock audit limit for banks?</h3><div class="faq-expanded__a"><p>There is no single statutory limit. Each bank fixes its own exposure threshold above which a stock audit becomes mandatory, and states it in its credit policy and in the sanction letter. Ask your relationship manager for the applicable clause rather than relying on a general figure.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">What is the difference between stock audit and inventory audit?</h3><div class="faq-expanded__a"><p>In Indian banking practice the two terms are used interchangeably for the same exercise. Stock audit is the more common phrase in lender documentation, while inventory audit appears more often in management and manufacturing contexts. The scope and procedures are the same.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">What does a stock audit report contain?</h3><div class="faq-expanded__a"><p>A stock audit report sets out the scope and date of the count, the physical quantities found, the book quantities, the reconciliation of any difference, valuation basis, observations on slow moving and damaged stock, and an opinion or list of qualifications for the lender.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">What is physical stock verification?</h3><div class="faq-expanded__a"><p>Physical stock verification is the act of counting, weighing or measuring inventory at its location and recording what is actually present. It is the evidence-gathering step of a stock audit. The count is then compared with book records to produce a reconciliation.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">How often should a stock audit be carried out?</h3><div class="faq-expanded__a"><p>Frequency is set by the lender in the sanction letter and is commonly quarterly or half-yearly for working capital borrowers. Businesses with high shrinkage risk, many locations or recent early warning signals are audited more frequently. Management may also run internal counts between lender audits.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">What is the difference between a perpetual and a periodic inventory system?</h3><div class="faq-expanded__a"><p>A perpetual system updates stock records continuously as each transaction occurs. A periodic system establishes quantities only by counting at intervals. Perpetual records make an audit faster because the auditor can test a running balance instead of rebuilding it.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">What is cycle counting?</h3><div class="faq-expanded__a"><p>Cycle counting verifies a portion of inventory on a rotating schedule so that all items are counted over a period, without halting operations for a full count. High value or fast moving lines are counted more frequently. It suits businesses that cannot afford to stop dispatch.</p></div></div>
+<div class="faq-expanded__item"><h3 class="faq-expanded__q">What is a stock reconciliation?</h3><div class="faq-expanded__a"><p>A stock reconciliation explains the difference between physical quantities found during the count and the quantities shown in the books. Each variance is traced to a cause such as unrecorded issues, goods in transit, cut-off errors, damage or shrinkage, and either corrected or reported.</p></div></div>
                 </div>
             </div>
 
-
             <!-- Quick Answers -->
-            <div class="highlight-box" style="margin-top:32px;">
-                <p><strong>Quick Answers</strong></p>
-                <p><strong>What is stock audit?</strong> Independent physical verification and valuation of inventory by a CA, to confirm physical stock matches book records per AS 2 or Ind AS 2. Most commonly required by banks for CC/OD borrowers.</p>
-                <p><strong>Is stock audit mandatory in India?</strong> Yes, for bank CC/OD borrowers (per sanction, generally when exposure exceeds INR 5 crore) and for year-end statutory audit under SA 501 (ICAI). Voluntary for others.</p>
-                <p><strong>How is Drawing Power calculated?</strong> DP = (Eligible Stock x (100% - Stock Margin%)) + (Eligible Debtors x (100% - Debtors Margin%)). Typical margins: 25-40% on stock, 25% on debtors.</p>
-                <p><strong>What happens if stock audit report is not submitted to bank?</strong> Frozen DP, irregular drawings, and ultimately NPA classification if irregular for 90 continuous days [RBI IRACP, RBI/2024-25/12].</p>
-                <p><strong>Who performs stock audit for bank?</strong> Independent CA appointed separately - either nominated by bank or mutually agreed. CA-certified report submitted directly to bank.</p>
-
-            </div>
+            
         </div>
     </div>
 </section>
 
 <!-- SECTION 18: URGENCY CTA -->
-<section class="content-section" style="background: var(--orange-lighter) !important; border-left: 4px solid var(--orange);">
-    <div class="content-container">
-        <div class="text-content">
-            <h2 class="section-title">Critical: Is Your CC/OD Drawing Power Up to Date?</h2>
-            <div class="content-text">
-                
-                <p><strong>If your CC/OD account's Drawing Power has not been updated with a fresh stock audit, you may be drawing against irregular DP. 90 continuous days of irregular drawings = NPA under RBI IRACP norms [RBI/2024-25/12].</strong></p>
-                <ul>
-                    <li><strong>Half-yearly stock audit due dates:</strong> Typically September 30 and March 31 for April-March FY borrowers - check your sanction letter</li>
-                    <li><strong>Stock statements must not be older than 3 months</strong> for DP computation - older statements make drawings irregular</li>
-                    <li><strong>Year-end physical count</strong> should be completed before accounts finalization - typically January through March</li>
-                    <li><strong>Insurance renewal:</strong> Verify that coverage on hypothecated stock is current - lapsed insurance is a sanction violation</li>
-                </ul>
 
-            </div>
-        </div>
-    </div>
-</section>
 
+<section class="content-section" style="background:var(--gray-50);"><div class="content-container"><div class="pa-city-block" style="margin-bottom:0;"><div class="pa-block-title">Related Reading</div><div class="pa-read-grid"><a href="https://www.patronaccounting.com/blog/bank-stock-audit-india-rbi-guidelines-mandatory" class="pa-read-card">Bank Stock Audit in India: RBI Guidelines and When It Is Mandatory<span class="pa-read-go">&rarr;</span></a>
+<a href="https://www.patronaccounting.com/blog/caro-2020-inventory-auditor-verification" class="pa-read-card">CARO 2020 and Inventory: What Clause 3(ii) Requires the Auditor to Report<span class="pa-read-go">&rarr;</span></a>
+<a href="https://www.patronaccounting.com/blog/common-deficiencies-bank-stock-audit-how-to-fix" class="pa-read-card">Common Bank Stock Audit Deficiencies and How to Fix Them<span class="pa-read-go">&rarr;</span></a>
+<a href="https://www.patronaccounting.com/blog/focused-stock-audit" class="pa-read-card">Focused Stock Audit: What Triggers One and How It Differs from a Routine Audit<span class="pa-read-go">&rarr;</span></a>
+<a href="https://www.patronaccounting.com/blog/forensic-stock-audit-inventory-fraud" class="pa-read-card">Forensic Stock Audit: Investigating Suspected Inventory Fraud<span class="pa-read-go">&rarr;</span></a>
+<a href="https://www.patronaccounting.com/blog/gst-stock-reconciliation-physical-inventory-gstr-1-gstr-3b" class="pa-read-card">GST Stock Reconciliation: Matching Physical Inventory to GSTR-1 and GSTR-3B<span class="pa-read-go">&rarr;</span></a></div></div></div></section>
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
 <section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="color:#FFFFFF !important;">Get Your CA-Certified Stock Audit Report - Contact Our Team Today</h2>
+            <h2 class="section-title" style="color:#FFFFFF !important;">Booking a Count</h2>
             <div class="content-text" style="text-align:left;">
                 
-                <p style="color:rgba(255,255,255,0.9);">Stock Audit is both a regulatory compliance requirement and a critical business risk management tool. For bank CC/OD borrowers, it is the foundation of the entire Drawing Power and working capital mechanism - an incorrect or delayed stock audit can cascade into NPA classification, credit rating downgrade, and permanent damage to banking relationships.</p>
-                <p style="color:rgba(255,255,255,0.9);">Patron Accounting's CA team brings over 15 years of stock audit experience across industries - manufacturing, trading, FMCG distribution, retail, and more. Our reports are consistently accepted by all major Indian banks because we understand what banks look for: accurate counts, honest valuation, clean Drawing Power computation, and complete disclosure.</p>
-                <p style="color:rgba(255,255,255,0.9);"><strong>Starting at INR 2,499 (Exl GST and Govt. Charges) | Same-Week Site Visit Available | All Major Banks Accepted</strong></p>
+                <h3>What We Need in Order to Quote</h3>
+<p>A site list with addresses, an approximate line count per site, the stock statement last filed, and the date your lender expects the stock audit report. Scope follows those four.</p>
+<h3>Typical Notice Before a Count Date</h3>
+<p>Enough lead time to agree the cut-off, obtain access and brief the crews. March and September fill first, so a date in either window is worth fixing early.</p>
 
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20Stock%20Audit.%20Please%20call%20me%20to%20discuss." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Stock%20Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20a%20Stock%20Audit%20for%20my%20business.%0A%0APlease%20get%20in%20touch.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20would%20like%20to%20book%20Stock%20Audit." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Stock Audit%20Services&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20am%20interested%20in%20your%20Stock Audit%20services%20and%20would%20like%20to%20know%20more.%0A%0APlease%20get%20in%20touch%20with%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>
@@ -861,43 +2565,67 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Stock Audit Services - Available in Your City</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron Accounting provides CA-certified Stock Audit services with same-week site visits across major cities in India.</p>
-        
-            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-city-grid"><a href="/stock-audit/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/stock-audit/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a><a href="/stock-audit/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a><a href="/stock-audit/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a><a href="/stock-audit/bangalore" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Bangalore</div><div class="pa-card-sub">Karnataka</div></div></a><a href="/stock-audit/hyderabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Hyderabad</div><div class="pa-card-sub">Telangana</div></div></a><a href="/stock-audit/chennai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Chennai</div><div class="pa-card-sub">Tamil Nadu</div></div></a><a href="/stock-audit/kolkata" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a></div></div><div class="pa-city-block"><div class="pa-block-title">Related Audit Services</div><div class="pa-block-sub">End-to-end audit and compliance support for your business</div><div class="pa-cross-grid"><a href="/internal-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Internal Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/statutory-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Statutory Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit Service</div><div class="pa-card-sub">India</div></div></a><a href="/appointment-of-auditor" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Appointment of Auditor</div><div class="pa-card-sub">India</div></div></a><a href="/private-limited-company-compliance" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Compliance</div><div class="pa-card-sub">India</div></div></a></div></div>
+            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Cities We Count In</h2>
+            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Nine city pages, each written to the estates there.</p>
+            
+            <div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Cities We Count In</div><div class="pa-city-grid"><a href="/stock-audit/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V8h18v13"/><path d="M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M3 8V6h3v2h3V6h3v2h3V6h3v2"/><line x1="3" y1="13" x2="21" y2="13"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="/stock-audit/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M8 21V10h8v11"/><path d="M10 21v-6a2 2 0 1 1 4 0v6"/><path d="M8 10a4 4 0 0 1 8 0"/><path d="M4 21V14h3v7"/><path d="M17 21V14h3v7"/><path d="M4 14a1.5 1.5 0 0 1 3 0"/><path d="M17 14a1.5 1.5 0 0 1 3 0"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
+<a href="/stock-audit/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 19h16"/><path d="M5 19V7h14v12"/><path d="M9 19v-6a3 3 0 0 1 6 0v6"/><path d="M5 7V5h14v2"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
+<a href="/stock-audit/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M4 21V9h6v12"/><path d="M9 21V4h6v17"/><path d="M14 21V12h6v9"/><path d="M7 12h.01M7 16h.01M12 7h.01M12 11h.01M12 15h.01M17 15h.01M17 18h.01"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">NCR</div></div></a>
+<a href="/stock-audit/ahmedabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M7 21V12h10v9"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M10 21v-3a2 2 0 1 1 4 0v3"/><path d="M4 21V8M20 21V8"/><path d="M3 8a1 1 0 1 1 2 0M19 8a1 1 0 1 1 2 0"/></svg></div><div><div class="pa-card-title">Ahmedabad</div><div class="pa-card-sub">Gujarat</div></div></a>
+<a href="/stock-audit/kolkata" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M2 17h20"/><path d="M5 17V6"/><path d="M19 17V6"/><path d="M5 6l7 6 7-6"/><path d="M5 11l7 6 7-6"/><path d="M12 17v-5"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a>
+<a href="/stock-audit/bangalore" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M3 21V13h18v8"/><path d="M7 13V9h10v4"/><path d="M9 9a3 3 0 0 1 6 0"/><path d="M12 6V4"/><path d="M10 21v-4h4v4"/><path d="M5 21v-4M19 21v-4"/></svg></div><div><div class="pa-card-title">Bangalore</div><div class="pa-card-sub">Karnataka</div></div></a>
+<a href="/stock-audit/chennai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M6 21V10l6-5 6 5v11"/><path d="M6 14h12"/><path d="M6 17.5h12"/><path d="M10 21v-3.5h4V21"/><path d="M12 5V3"/></svg></div><div><div class="pa-card-title">Chennai</div><div class="pa-card-sub">Tamil Nadu</div></div></a>
+<a href="/stock-audit/hyderabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="21" x2="22" y2="21"/><path d="M6 21V11h12v10"/><path d="M6 11h12"/><path d="M10 21v-4a2 2 0 0 1 4 0v4"/><path d="M4 21V8h2v13"/><path d="M18 21V8h2v13"/><path d="M3 8a2 2 0 0 1 4 0"/><path d="M17 8a2 2 0 0 1 4 0"/></svg></div><div><div class="pa-card-title">Hyderabad</div><div class="pa-card-sub">Telangana</div></div></a></div></div><div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Sectors We Audit</div><div class="pa-cross-grid"><a href="/stock-audit-for-auto-components" class="pa-cross-card"><div class="pa-card-title">Auto Component Manufacturers</div></a>
+<a href="/stock-audit-for-dark-stores" class="pa-cross-card"><div class="pa-card-title">Dark Stores &amp; Quick Commerce</div></a>
+<a href="/stock-audit-for-electronics-white-goods" class="pa-cross-card"><div class="pa-card-title">Electronics &amp; White Goods</div></a>
+<a href="/stock-audit-for-engineering-machine-tools" class="pa-cross-card"><div class="pa-card-title">Engineering &amp; Machine Tools</div></a>
+<a href="/stock-audit-for-fmcg" class="pa-cross-card"><div class="pa-card-title">FMCG Companies</div></a>
+<a href="/stock-audit-for-pharmaceutical-manufacturing" class="pa-cross-card"><div class="pa-card-title">Pharmaceutical Manufacturers</div></a>
+<a href="/stock-audit-for-retail" class="pa-cross-card"><div class="pa-card-title">Retail Chains &amp; Stores</div></a>
+<a href="/stock-audit-for-seeds-fertiliser-agro-inputs" class="pa-cross-card"><div class="pa-card-title">Seeds, Fertiliser &amp; Agro-Inputs</div></a>
+<a href="/stock-audit-for-textile" class="pa-cross-card"><div class="pa-card-title">Textile &amp; Apparel</div></a>
+<a href="/stock-audit-for-warehouse" class="pa-cross-card"><div class="pa-card-title">Warehouses &amp; 3PL Operators</div></a></div></div><div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Tools and Templates</div><div class="pa-cross-grid"><a href="https://www.patronaccounting.com/tools/stock-statement-template" class="pa-cross-card"><div class="pa-card-title">Stock Statement Template</div></a>
+<a href="https://www.patronaccounting.com/tools/inventory-turnover-calculator" class="pa-cross-card"><div class="pa-card-title">Inventory Turnover Calculator</div></a>
+<a href="https://www.patronaccounting.com/tools/working-capital-calculator" class="pa-cross-card"><div class="pa-card-title">Working Capital Calculator</div></a>
+<a href="https://www.patronaccounting.com/tools/dscr-calculator" class="pa-cross-card"><div class="pa-card-title">DSCR Calculator</div></a>
+<a href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator" class="pa-cross-card"><div class="pa-card-title">CARO 2020 Checklist Generator</div></a>
+<a href="https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530" class="pa-cross-card"><div class="pa-card-title">Audit Sampling Size Calculator (SA 530)</div></a></div></div><div class="pa-city-block" style="margin-bottom:40px;"><div class="pa-block-title">Services That Run Alongside</div><div class="pa-cross-grid"><a href="/stock-audit" class="pa-cross-card"><div class="pa-card-title">Inventory Audit / Stock Audit</div></a>
+<a href="/fixed-asset-verification" class="pa-cross-card"><div class="pa-card-title">Fixed Asset Verification</div></a>
+<a href="/asset-tagging" class="pa-cross-card"><div class="pa-card-title">Asset Tagging Services</div></a>
+<a href="/mystery-audit" class="pa-cross-card"><div class="pa-card-title">Mystery Audit / Mystery Shopping</div></a></div></div><div class="pa-city-prose"><div class="pa-note-grid"><div class="pa-note"><span class="pa-note-ic"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 12h4" /> <path d="M10 8h4" /> <path d="M14 21v-3a2 2 0 0 0-4 0v3" /> <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" /> <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" /> </svg></span><div class="pa-note-b"><h3>Where Our Counting Crews Are Based</h3><p>Coverage runs across the industrial belts around Pune, Mumbai, Delhi, Gurugram, Ahmedabad, Kolkata, Bangalore, Chennai and Hyderabad. Each city page sets out the estates and site types covered there.</p></div></div><div class="pa-note"><span class="pa-note-ic"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F76722" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 12h4" /> <path d="M10 8h4" /> <path d="M14 21v-3a2 2 0 0 0-4 0v3" /> <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" /> <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" /> </svg></span><div class="pa-note-b"><h3>Counting Outside Working Hours and on Holidays</h3><p>Where a site cannot pause during trading or production, a stock audit is scheduled into night, weekend or shutdown windows instead, agreed with the site before the date is fixed.</p></div></div></div></div>
         </div>
     </div>
 </section>
 
 <!-- CONTENT FRESHNESS FOOTER -->
-<section class="content-section" style="padding:32px;">
-    <div class="content-container">
-        <div class="text-content" style="font-size:13px;color:var(--text-muted);">
-            <p><strong>Content Created:</strong> March 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> <span id="lastUpdatedFooter">20 April 2026</span> &nbsp;|&nbsp; <strong>Next Review:</strong> March 2028 &nbsp;|&nbsp; <strong>Reviewed By:</strong> CA &amp; CS Team, Patron Accounting LLP</p>
-            <p>This page covers CA-certified Stock Audit Services in India for bank CC/OD borrowers and businesses. Content is reviewed biennially. All regulatory references are verified against RBI circulars and ICAI accounting standards.</p>
-        </div>
-    </div>
-</section>
+<div class="eeat-review-wrap"><div class="eeat-review">
+<div class="eeat-review__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Reviewed by the CA &amp; CS Team, Patron Accounting LLP</div>
+<div class="eeat-review__meta">ICAI &amp; ICSI registered &nbsp;&middot;&nbsp; 15+ years in Indian accounting &amp; certification &nbsp;&middot;&nbsp; Last reviewed 20 August 2026 &nbsp;&middot;&nbsp; Next review 20 November 2026</div>
+<div class="eeat-review__sources"><span>Official sources:</span>
+<a href="https://www.icai.org" target="_blank" rel="noopener">ICAI</a><a href="https://udin.icai.org" target="_blank" rel="noopener">ICAI UDIN Portal</a><a href="https://www.mca.gov.in" target="_blank" rel="noopener">MCA</a><a href="https://www.rbi.org.in" target="_blank" rel="noopener">RBI</a></div>
+</div></div>
+
 
 <!-- STICKY WHATSAPP BAR -->
-{{--
 <div class="wa-sticky-bar" id="waBar">
     <div class="wa-sticky-bar-content">
         <div class="wa-sticky-bar-icon">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         </div>
-        <span class="wa-sticky-bar-text"><strong>Join 5,000+ business owners.</strong> Get compliance due date alerts on WhatsApp.</span>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20please%20add%20me%20to%20your%20compliance%20due%20date%20reminders%20on%20WhatsApp." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
-            <span>Join Free &rarr;</span>
+        <span class="wa-sticky-bar-text"><strong>AY 2026-27 ITR filing is live</strong> - get your taxes filed accurately by CAs.</span>
+        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20file%20my%20Income%20Tax%20Return%20for%20AY%202026-27%20with%20a%20qualified%20CA.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
+            <span>CA-Assisted ITR Filing Open &rarr;</span>
         </a>
         <button class="wa-sticky-bar-close" id="waBarClose" aria-label="Close">&times;</button>
     </div>
-</div> 
---}}
-@include('layouts.itr-season-strip')
+</div>
 
 </main>
-
+<!-- External JS Dependencies (loaded by master layout in production) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <!-- Google Maps Places Library (for GMB reviews) -->
 
@@ -906,11 +2634,11 @@
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION - Update these values
+    // CONFIGURATION — Update these values
     // ============================================
     const CONFIG = {
-        googleApiKey: '{{ env("GOOGLE_PLACES_API_KEY") }}',    // Get from Google Cloud Console → APIs & Services → Credentials
-        placeId: '{{ env("PATRON_GOOGLE_PLACE_ID") }}',               // Patron Accounting's Google Place ID
+        googleApiKey: '',    // Get from Google Cloud Console → APIs & Services → Credentials
+        placeId: '',               // Patron Accounting's Google Place ID
         // Fallback static reviews (shown if API fails or key not set)
         fallbackReviews: [
             {
@@ -977,8 +2705,8 @@
                 relative_time_description: "6 months ago",
                 role: "Director - Demandify Media",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
-                photoUrl: "/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/ffNmUX9RNpnwMXhlJcqIPwnE809y6lIMYuAOpQMf.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/jX6mNzoJrohODlJP7Uf7InnBws62qICwmNQG6Wkb.jpg"
             },
             {
                 author_name: "Anjanay Srivastava",
@@ -988,8 +2716,8 @@
                 relative_time_description: "4 months ago",
                 role: "Founder - Hunarsource Consulting",
                 hasVideo: true,
-                videoUrl: "/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
-                photoUrl: "/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
+                videoUrl: "https://www.patronaccounting.com/storage/testimonials/videos/LjYtH6V1FWB71lWPo1MS77UCKxowr5l4fbsUGA0n.mp4",
+                photoUrl: "https://www.patronaccounting.com/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg"
             }
         ]
     };
@@ -1070,7 +2798,7 @@
                     </div>
                     <div class="testi-rating-row">
                         <div class="testi-stars">${starsHTML(review.rating)}</div>
-                        <div class="testi-google-badge"><img src="/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
+                        <div class="testi-google-badge"><img src="https://www.patronaccounting.com/images/google.png" alt="Google" onerror="this.parentElement.innerHTML='G'"></div>
                     </div>
                 </div>
             </div>
@@ -1080,34 +2808,32 @@
     // ============================================
     // RENDER: Populate slider with reviews
     // ============================================
-     function renderReviews(reviews) {
-const slider = document.getElementById('testimonialSlider');
-const loading = document.getElementById('testiLoading');
+    function renderReviews(reviews) {
+        const slider = document.getElementById('testimonialSlider');
+        const loading = document.getElementById('testiLoading');
+        // Static cards already in DOM — just init Slick if not already done
+        if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
+            if (loading) loading.style.display = 'none';
+            initSlick(slider);
+            return;
+        }
+        let html = '';
 
-let html = '';
+        reviews.forEach(function(review, i) {
+            if (review.hasVideo && review.videoUrl) {
+                html += buildVideoCard(review);
+            } else {
+                html += buildQuoteCard(review, i);
+            }
+        });
 
-reviews.forEach(function(review, i) {
-    if (review.hasVideo && review.videoUrl) {
-        html += buildVideoCard(review);
-    } else {
-        html += buildQuoteCard(review, i);
+        slider.innerHTML = html;
+        slider.style.display = 'block';
+        loading.style.display = 'none';
+
+        // Init Slick
+        initSlick(slider);
     }
-});
-
-// If slider already initialized destroy first
-if ($(slider).hasClass('slick-initialized')) {
-    $(slider).slick('unslick');
-}
-
-slider.innerHTML = html;
-slider.style.display = 'block';
-if (loading) loading.style.display = 'none';
-
-// Re-initialize slick
-initSlick(slider);
-
-
-}
 
     function initSlick(slider) {
         if ($(slider).hasClass('slick-initialized')) return;
@@ -1139,7 +2865,7 @@ initSlick(slider);
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set - using fallback reviews.');
+            console.log('[Testimonials] No Google API key set — using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -1154,7 +2880,7 @@ initSlick(slider);
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -1185,7 +2911,7 @@ initSlick(slider);
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -1199,7 +2925,9 @@ initSlick(slider);
     // INIT
     // ============================================
     document.addEventListener('DOMContentLoaded', function() {
-        // Static cards already rendered - init Slick immediately
+        // Static cards already rendered in the desired order - use them as-is and do NOT
+        // fetch/regenerate from fallbackReviews or the Google API (that would overwrite the
+        // curated order, e.g. video, text, video, then rest).
         const slider = document.getElementById('testimonialSlider');
         if (slider && slider.children.length > 0) {
             if (typeof $ !== 'undefined' && $.fn.slick) {
@@ -1209,6 +2937,7 @@ initSlick(slider);
                     if (typeof $ !== 'undefined' && $.fn.slick) initSlick(slider);
                 });
             }
+            return; // static cards are authoritative - stop here
         }
         fetchGMBReviews();
     });
@@ -1232,7 +2961,7 @@ function toggleTestiVideo(area) {
 </script>
 
 <!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
      ============================================ -->
 <script>
 // Country Data (46 countries)
@@ -1373,7 +3102,7 @@ function validatePhone(val, dialCode) {
         return { valid: true };
     }
     if (!/^[0-9]{7,15}$/.test(val)) {
-        return { valid: false, message: 'Enter a valid phone number (7-15 digits)' };
+        return { valid: false, message: 'Enter a valid phone number (7–15 digits)' };
     }
     return { valid: true };
 }
@@ -1403,7 +3132,6 @@ function validateConsultationForm() {
     if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
 
     var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
     var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
     if (!phoneResult.valid) {
         setFieldError(phoneInput, phoneResult.message);
@@ -1505,61 +3233,26 @@ document.getElementById('hidden208810000001209168Frame').addEventListener('load'
 <script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
-
-</script>
-
-<script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
 document.getElementById('tocLeft').addEventListener('click', function() { tocWrapper.scrollBy({ left: -200, behavior: 'smooth' }); });
 document.getElementById('tocRight').addEventListener('click', function() { tocWrapper.scrollBy({ left: 200, behavior: 'smooth' }); });
 
-// TOC active state on scroll — only tracks sections that have a matching TOC
-// button, keeps the active pill scrolled into view, and stays correct at the
-// very bottom of the page.
-(function () {
-    var tocBtns = Array.prototype.slice.call(document.querySelectorAll('.toc-btn'));
-    var wrapper = document.getElementById('tocWrapper');
-    if (!tocBtns.length) return;
-    var entries = tocBtns.map(function (btn) {
-        var id = (btn.getAttribute('href') || '').replace('#', '');
-        return { btn: btn, section: document.getElementById(id) };
-    }).filter(function (e) { return e.section; });
-    if (!entries.length) return;
-    var OFFSET = 200;
-    var ticking = false;
-    function setActive(entry) {
-        tocBtns.forEach(function (b) { b.classList.remove('active'); });
-        if (!entry) return;
-        entry.btn.classList.add('active');
-        if (wrapper) {
-            var left = entry.btn.offsetLeft;
-            var right = left + entry.btn.offsetWidth;
-            if (left < wrapper.scrollLeft) {
-                wrapper.scrollTo({ left: left - 16, behavior: 'smooth' });
-            } else if (right > wrapper.scrollLeft + wrapper.clientWidth) {
-                wrapper.scrollTo({ left: right - wrapper.clientWidth + 16, behavior: 'smooth' });
-            }
-        }
-    }
-    function onScroll() {
-        ticking = false;
-        var y = window.pageYOffset + OFFSET;
-        var active = entries[0];
-        for (var i = 0; i < entries.length; i++) {
-            if (entries[i].section.offsetTop <= y) { active = entries[i]; }
-        }
-        if ((window.innerHeight + window.pageYOffset) >= (document.documentElement.scrollHeight - 2)) {
-            active = entries[entries.length - 1];
-        }
-        setActive(active);
-    }
-    window.addEventListener('scroll', function () {
-        if (!ticking) { window.requestAnimationFrame(onScroll); ticking = true; }
-    }, { passive: true });
-    window.addEventListener('resize', onScroll);
-    onScroll();
-})();
+// TOC active state on scroll
+const tocBtns = document.querySelectorAll('.toc-btn');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', function() {
+    let current = '';
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) { current = section.getAttribute('id'); }
+    });
+    tocBtns.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (btn.getAttribute('href') === '#' + current) { btn.classList.add('active'); }
+    });
+});
 </script>
 
 <!-- WhatsApp Sticky Bar Script -->
@@ -1600,8 +3293,153 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+// BF-1: Set last updated date dynamically
+(function() {
+    var opts = { day: 'numeric', month: 'long', year: 'numeric' };
+    var dateStr = new Date().toLocaleDateString('en-IN', opts);
+    var el1 = document.getElementById('lastUpdated');
+
+</script>
+
+
+
+
+<div class="pa-modal" id="paDemoModal" role="dialog" aria-modal="true"
+     aria-labelledby="paDemoTitle" hidden>
+  <div class="pa-modal-backdrop" data-close></div>
+  <div class="pa-modal-box">
+    <div class="pa-modal-head">
+      <span class="pa-modal-mark">S</span>
+      <span class="pa-modal-title" id="paDemoTitle">Stoklenz &mdash; interactive demo</span>
+      <a class="pa-modal-out" href="https://stocklens.reacttor.in/demo" target="_blank" rel="noopener">Open in new tab</a>
+      <button class="pa-modal-x" type="button" data-close aria-label="Close demo">&times;</button>
+    </div>
+    <div class="pa-modal-body">
+      <div class="pa-modal-stand">
+        <span class="pa-modal-badge">Live demo</span>
+        <h3>Walk a count through Stoklenz</h3>
+        <p>Scan a line, watch it reconcile against book stock, and see the variance and the
+           GPS stamp land in the same second. The demo runs the whole loop.</p>
+        <a class="pa-modal-go" href="https://stocklens.reacttor.in/demo" target="_blank" rel="noopener">
+          Open the demo &rarr;</a>
+        <span class="pa-modal-small">Opens in a new tab &mdash; the demo is hosted on
+          stocklens.reacttor.in</span>
+      </div></div>
+  </div>
+</div><script>
+(function(){
+  // ---- TOC: keep the current pill marked AND scrolled into the strip.
+  // The template's own scroll-spy marks the pill but never scrolls the strip, so once the
+  // reader is past the fifth section the active pill is off-screen to the right and the bar
+  // stops telling them anything. It also measures with offsetTop, which is wrong for a
+  // section inside a positioned wrapper; getBoundingClientRect is measured against the
+  // viewport and stays right.
+  var strip = document.getElementById('tocWrapper');
+  var pills = [].slice.call(document.querySelectorAll('a.toc-btn'));
+  if (strip && pills.length) {
+    var targets = pills.map(function(p){
+      return document.getElementById((p.getAttribute('href') || '').slice(1));
+    });
+    var last = -1;
+    function sync(){
+      var cur = 0;
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i] && targets[i].getBoundingClientRect().top <= 170) cur = i;
+      }
+      if (cur === last) return;                 // only touch the DOM when it changes
+      last = cur;
+      pills.forEach(function(p, i){ p.classList.toggle('active', i === cur); });
+      var a = pills[cur];
+      strip.scrollTo({ left: Math.max(0, a.offsetLeft - strip.clientWidth / 2
+                                         + a.offsetWidth / 2), behavior: 'smooth' });
+    }
+    window.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync);
+    sync();
+  }
+
+  // demo modal
+  var modal = document.getElementById('paDemoModal');
+  var frame = modal && modal.querySelector('.pa-modal-frame');
+  var open  = document.querySelectorAll('.pa-sl-demo');
+  var lastFocus = null;
+  function show(url){
+    lastFocus = document.activeElement;
+    if (frame && frame.getAttribute('src') !== url) frame.setAttribute('src', url);
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    var x = modal.querySelector('.pa-modal-x'); if (x) x.focus();
+  }
+  function hide(){
+    modal.hidden = true;
+    document.body.style.overflow = '';
+    if (frame) frame.removeAttribute('src');
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  if (modal && open.length) {
+    open.forEach(function(a){
+      a.addEventListener('click', function(e){ e.preventDefault(); show(a.href); });
+    });
+    modal.addEventListener('click', function(e){
+      if (e.target.hasAttribute && e.target.hasAttribute('data-close')) hide();
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape' && !modal.hidden) hide();
+    });
+  }
+
+  // FAQ enquiry form - no CRM behind the preview, so say so rather than fake a success state
+  document.querySelectorAll('.faq-enquiry__form').forEach(function(f){
+    f.addEventListener('submit', function(e){
+      e.preventDefault();
+      var m = f.querySelector('.faq-enquiry__msg');
+      if (m) m.textContent = 'Preview only - not wired to the CRM. On the live page this posts '
+                           + 'to the same destination as the consultation form above.';
+      var card = document.getElementById('consultationFormCard');
+      if (card) card.scrollIntoView({behavior:'smooth', block:'center'});
+    });
+  });
+})();
+</script>
+<div class="pa-lb" id="paLb" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="pa-lb-x" type="button" aria-label="Close">&times;</button>
+  <figure class="pa-lb-fig"><img id="paLbImg" src="" alt=""><figcaption id="paLbCap"></figcaption></figure>
+</div>
+<style>
+.pa-lb{position:fixed;inset:0;z-index:9999;display:none;align-items:center;
+  justify-content:center;background:rgba(9,17,28,.92);padding:26px}
+.pa-lb.is-open{display:flex}
+.pa-lb-fig{margin:0;max-width:min(1500px,96vw);max-height:92vh;display:flex;
+  flex-direction:column;gap:12px}
+.pa-lb-fig img{max-width:100%;max-height:84vh;object-fit:contain;border-radius:12px;
+  box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.pa-lb-fig figcaption{color:#E6EDF6;font-size:14px;line-height:1.6;text-align:center;
+  max-width:92ch;margin:0 auto}
+.pa-lb-x{position:absolute;top:18px;right:22px;width:42px;height:42px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);color:#fff;
+  font-size:26px;line-height:1;cursor:pointer}
+.pa-lb-x:hover{background:rgba(255,255,255,.18)}
+.pa-zoom{cursor:zoom-in;position:relative}
+.pa-zoom::after{content:"922";position:absolute;right:10px;bottom:10px;width:30px;height:30px;
+  border-radius:8px;background:rgba(9,17,28,.72);color:#fff;font-size:15px;display:flex;
+  align-items:center;justify-content:center;opacity:0;transition:opacity .2s}
+.pa-zoom:hover::after{opacity:1}
+</style>
+<script>
+(function(){var lb=document.getElementById('paLb');if(!lb)return;
+var img=document.getElementById('paLbImg'),cap=document.getElementById('paLbCap');
+function open(el){var i=el.querySelector('img');if(!i)return;
+img.src=i.currentSrc||i.src;img.alt=i.alt||'';cap.textContent=i.alt||'';
+lb.classList.add('is-open');lb.setAttribute('aria-hidden','false');
+document.body.style.overflow='hidden';}
+function shut(){lb.classList.remove('is-open');lb.setAttribute('aria-hidden','true');
+document.body.style.overflow='';img.removeAttribute('src');}
+document.querySelectorAll('.pa-zoom').forEach(function(el){
+el.addEventListener('click',function(){open(el);});
+el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(el);}});});
+lb.addEventListener('click',function(e){if(e.target===lb||e.target.classList.contains('pa-lb-x'))shut();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')shut();});})();
+</script>
+@endverbatim
 @endsection

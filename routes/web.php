@@ -37,6 +37,7 @@ Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 // Accounting Cluster 301 redirects (must precede page/city routes so old paths 301 instead of rendering)
 require __DIR__.'/accounting-cluster-redirects.php';
 require __DIR__.'/networth-cluster-redirects.php';
+require __DIR__.'/stock-audit-cluster-redirects.php';
 
 // ============ Glossary: master hub + Accounting hub + 140 term pages ============
 Route::get('/glossary', function () {
@@ -71,37 +72,6 @@ Route::get('/glossary/stock-audit/{slug}', function ($slug) {
     abort_unless(view()->exists('glossary.stock-audit.' . $slug), 404);
     return view('glossary.stock-audit.' . $slug);
 })->where('slug', '[a-z0-9\-]+')->name('glossary.stockaudit.term');
-
-// Stock Audit cluster redirects - the 11 rows marked "REDIRECT - proceed" in
-// SEO Infra/Redirects/Stock-Audit-Redirects_v3. The 15 rows marked HOLD are deliberately
-// absent: they need conversion and referring-domain evidence before anything is retired.
-$stockAuditRedirects = [
-    '/stock-audit/bengaluru' => '/stock-audit/bangalore',
-    '/blog/inventory-valuation-as2-manufacturing' => '/blog/ind-as-2-vs-icds-ii-inventory-valuation-financial-reporting-tax',
-    '/blog/stock-valuation-trading-business' => '/blog/ind-as-2-vs-icds-ii-inventory-valuation-financial-reporting-tax',
-    '/blog/abc-analysis-stock-audit-high-value-inventory' => '/blog/stock-audit-sampling-methods-how-auditors-select-items',
-    '/blog/abc-analysis-inventory' => '/blog/stock-audit-sampling-methods-how-auditors-select-items',
-    '/blog/perpetual-vs-periodic-inventory-system-stock-audit' => '/blog/perpetual-vs-periodic-inventory',
-    '/blog/multi-location-stock-audit-warehouses-branches' => '/stock-audit-for-warehouse',
-    '/blog/stock-audit-professional-advice-free-resources' => '/stock-audit',
-    '/blog/technology-in-stock-audit' => '/stock-audit',
-    '/blog/importance-of-stock-audit' => '/stock-audit',
-    '/blog/guidelines-to-conduct-stock-audit-in-india' => '/stock-audit',
-];
-// The fifteen orphan city pages: live and indexed, never in the 179-URL cluster plan.
-// Redirects v3 held them pending conversion evidence; retirement was decided on 2026-08-20
-// and they fold into the pillar. They also came out of sitemap-410.xml, because a URL cannot
-// be both permanently gone and permanently moved.
-$stockAuditRetiredCities = ['chandigarh', 'indore', 'nagpur', 'bhubaneswar', 'jodhpur',
-    'surat', 'vadodara', 'bhopal', 'faridabad', 'sonipat', 'rajkot', 'ranchi', 'varanasi',
-    'jaipur', 'jalandhar'];
-foreach ($stockAuditRetiredCities as $city) {
-    $stockAuditRedirects['/stock-audit/' . $city] = '/stock-audit';
-}
-
-foreach ($stockAuditRedirects as $from => $to) {
-    Route::redirect($from, $to, 301);
-}
 
 /*
  * Header/Footer assets served via app code.

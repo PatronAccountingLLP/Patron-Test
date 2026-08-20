@@ -228,7 +228,7 @@
 /* ── Urgency section: links stay dark/orange on light bg ── */
         .urgency-section a { color: var(--blue) !important; font-weight: 700; }
 .urgency-section a:hover { color: var(--orange) !important; }
-/* ── Of-Counsel Profile Card ── */
+/* ── Team Profile Card ── */
         .oc-profile {
             display: flex;
             gap: 28px;
@@ -674,24 +674,25 @@
     </div>
 </section>
 
-<!-- OF-COUNSEL PROFILE SECTION -->
+<!-- TEAM PROFILE SECTION -->
 <section class="content-section" id="oc-profile-section" style="padding-top:0;">
     <div class="content-container">
         <div class="text-content">
             <div class="oc-profile">
-    <img src="/images/team/surbhi-premi.png" alt="Surbhi Premi - Advocate and Chartered Accountant, Of-Counsel to Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
+    <img src="/images/team/subham-jhunjhunwala.png" alt="Subham Jhunjhunwala - CA Finalist and Accounting and Tax Professional at Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
     <div class="oc-info">
-        <div class="oc-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Of-Counsel - GSTAT Practice Lead</div>
-        <h3 class="oc-name">Surbhi Premi</h3>
-        <p class="oc-title">Advocate &amp; Chartered Accountant | Diploma in IFRS (ACCA, UK)</p>
-        <div class="oc-highlights">
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Former Partner, Lakshmikumaran &amp; Sridharan</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>15+ Years GST, Customs &amp; FTP</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goldman Sachs Alumni</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>500+ Large Domestic &amp; MNC Clients</span>
+        <div class="oc-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Accounting &amp; Tax Professional
         </div>
-        <p class="oc-bio">Surbhi Premi led the Indirect Tax practice at Lakshmikumaran &amp; Sridharan as Partner and served on LKS Team Velocity - a national GST task force handling high-sensitivity, high-impact industry matters. Her background at Goldman Sachs brings a unique blend of tax, risk, and international business understanding. A renowned ICAI faculty member and keynote speaker, her methodical approach combined with deep domain knowledge enables her to provide viable, holistic, and tax-efficient solutions for complex GST litigation and advance ruling disputes.</p>
-        <div class="oc-pubs"><span class="oc-pub-badge">Financial Express</span><span class="oc-pub-badge">Hindu Business Line</span><span class="oc-pub-badge">India Business Law Journal</span><span class="oc-pub-badge">Taxsutra</span><span class="oc-pub-badge">TIOL</span><span class="oc-pub-badge">VIL</span></div>
+        <h3 class="oc-name">Subham Jhunjhunwala</h3>
+        <p class="oc-title">CA Finalist | Graduate</p>
+        <div class="oc-highlights">
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CA Finalist</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Accounting &amp; Taxation</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; Compliance</span>
+        </div>
+        <p class="oc-bio">Subham Jhunjhunwala is a CA Finalist and Accounting &amp; Tax Professional at Patron Accounting LLP, focused on accounting, taxation, and compliance. He works alongside the firm&#39;s CA and CS team on GST and GSTAT appeal matters.</p>
     </div>
 </div>
         </div>
@@ -895,7 +896,7 @@
                 <h2 class="section-title" id="benefits-section">Why Choose Patron Accounting for Srinagar GSTAT Appeals</h2>
 <div class="features-grid">
     <div class="feature-card"><div class="feature-icon" style="background:var(--orange-light);"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:24px;height:24px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Dual-UT Expertise</h3><p>Navigates J&amp;K GST Act and UTGST Act for Ladakh. Correct respondent identification across both UTs.</p></div>
-    <div class="feature-card"><div class="feature-icon" style="background:var(--blue-lighter);"><svg viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" style="width:24px;height:24px;"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3>Of-Counsel Specialists</h3><p>15+ years indirect tax litigation. Former Partner at Lakshmikumaran &amp; Sridharan. CESTAT and J&amp;K HC experience.</p></div>
+    <div class="feature-card"><div class="feature-icon" style="background:var(--blue-lighter);"><svg viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" style="width:24px;height:24px;"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3>Of-Counsel Specialists</h3><p>15+ years indirect tax litigation. CESTAT and J&amp;K HC experience.</p></div>
     <div class="feature-card"><div class="feature-icon" style="background:var(--orange-light);"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:24px;height:24px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>GI Classification Expertise</h3><p>Pashmina, Kashmiri Saffron, and Kashmir handicraft classification disputes. GI and Craft Development Institute documentation.</p></div>
     <div class="feature-card"><div class="feature-icon" style="background:var(--blue-lighter);"><svg viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" style="width:24px;height:24px;"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></div><h3>Srinagar + Jammu Coverage</h3><p>Seamless filing and appearance at both Srinagar main bench and Jammu circuit. Delhi office proximity for coordination.</p></div>
     <div class="feature-card"><div class="feature-icon" style="background:var(--orange-light);"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:24px;height:24px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3>Pan-India Coverage</h3><p>All 32 GSTAT benches. Offices in Pune, Mumbai, Delhi, and Gurugram. See <a href="/gstat-appeal-filing/shimla">GSTAT appeal filing in Shimla</a>.</p></div>

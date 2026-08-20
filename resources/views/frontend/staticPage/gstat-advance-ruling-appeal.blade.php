@@ -220,7 +220,7 @@
 /* ── Urgency section: links stay dark/orange on light bg ── */
         .urgency-section a { color: var(--blue) !important; font-weight: 700; }
 .urgency-section a:hover { color: var(--orange) !important; }
-/* ── Of-Counsel Profile Card ── */
+/* ── Team Profile Card ── */
         .oc-profile {
             display: flex;
             gap: 28px;
@@ -321,11 +321,11 @@
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters handled by Advocate Surbhi Premi - Former Partner, LKS</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters supported by Subham Jhunjhunwala - CA Finalist, Accounting &amp; Tax Professional</p>
                         </div>
                     </div>
 
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -455,7 +455,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Surbhi Premi's expertise in indirect tax and her LKS background gave us complete confidence. The pre-deposit clarification alone saved us significant working capital concerns we had about the NAAR appeal process.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Subham Jhunjhunwala's support on our indirect tax matter gave us complete confidence. The pre-deposit clarification alone saved us significant working capital concerns we had about the NAAR appeal process.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -535,7 +535,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Surbhi Premi's expertise in indirect tax and her LKS background gave us complete confidence. The pre-deposit clarification alone saved us significant working capital concerns we had about the NAAR appeal process.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Subham Jhunjhunwala's support on our indirect tax matter gave us complete confidence. The pre-deposit clarification alone saved us significant working capital concerns we had about the NAAR appeal process.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -579,7 +579,7 @@
                 </div>
                 <div class="reviews-cta-text">
                     <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
                 </div>
             </div>
             <a href="tel:+919459456700" class="btn-cta">
@@ -665,39 +665,30 @@
 
             <p>That changed with the <strong>56th GST Council meeting on 03 September 2025</strong>, which recommended that the <strong>GSTAT Principal Bench at New Delhi</strong> serve as the National Appellate Authority for Advance Ruling from <strong>April 2026</strong>. Finance Minister Nirmala Sitharaman confirmed this at the GSTAT launch on 24 September 2025, stating that the Principal Bench makes GSTAT a comprehensive forum for all GST disputes - both before and after initiation of proceedings.</p>
 
-            <p>Patron Accounting provides dedicated advisory and representation services for <strong>NAAR advance ruling appeals</strong> at the GSTAT Principal Bench, led by of-counsel <a href="#">Surbhi Premi</a>.</p>
+            <p>Patron Accounting provides dedicated advisory and representation services for <strong>NAAR advance ruling appeals</strong> at the GSTAT Principal Bench, led by of-counsel <a href="#">Subham Jhunjhunwala</a>.</p>
             </div>
     </div>
 </section>
 
-<!-- OF-COUNSEL PROFILE SECTION -->
+<!-- TEAM PROFILE SECTION -->
 <section class="content-section" id="oc-profile-section" style="padding-top:0;">
     <div class="content-container">
         <div class="text-content">
             <div class="oc-profile">
-    <img src="/images/team/surbhi-premi.png" alt="Surbhi Premi - Advocate and Chartered Accountant, Of-Counsel to Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
+    <img src="/images/team/subham-jhunjhunwala.png" alt="Subham Jhunjhunwala - CA Finalist and Accounting and Tax Professional at Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
     <div class="oc-info">
         <div class="oc-label">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            Of-Counsel - GSTAT Practice Lead
+            Accounting &amp; Tax Professional
         </div>
-        <h3 class="oc-name">Surbhi Premi</h3>
-        <p class="oc-title">Advocate &amp; Chartered Accountant | Diploma in IFRS (ACCA, UK)</p>
+        <h3 class="oc-name">Subham Jhunjhunwala</h3>
+        <p class="oc-title">CA Finalist | Graduate</p>
         <div class="oc-highlights">
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Former Partner, Lakshmikumaran &amp; Sridharan</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>15+ Years GST, Customs &amp; FTP</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goldman Sachs Alumni</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>500+ Large Domestic &amp; MNC Clients</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CA Finalist</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Accounting &amp; Taxation</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; Compliance</span>
         </div>
-        <p class="oc-bio">Surbhi Premi led the Indirect Tax practice at Lakshmikumaran &amp; Sridharan as Partner and served on LKS Team Velocity - a national GST task force handling high-sensitivity, high-impact industry matters. Her background at Goldman Sachs brings a unique blend of tax, risk, and international business understanding. A renowned ICAI faculty member and keynote speaker, her methodical approach combined with deep domain knowledge enables her to provide viable, holistic, and tax-efficient solutions for complex GST litigation and advance ruling disputes.</p>
-        <div class="oc-pubs">
-            <span class="oc-pub-badge">Financial Express</span>
-            <span class="oc-pub-badge">Hindu Business Line</span>
-            <span class="oc-pub-badge">India Business Law Journal</span>
-            <span class="oc-pub-badge">Taxsutra</span>
-            <span class="oc-pub-badge">TIOL</span>
-            <span class="oc-pub-badge">VIL</span>
-        </div>
+        <p class="oc-bio">Subham Jhunjhunwala is a CA Finalist and Accounting &amp; Tax Professional at Patron Accounting LLP, focused on accounting, taxation, and compliance. He works alongside the firm&#39;s CA and CS team on GST and GSTAT appeal matters.</p>
     </div>
 </div>
         </div>
@@ -1015,13 +1006,13 @@
                 <p>The most critical challenge is that <strong>Section 101B limits NAAR appeals to conflicting rulings only</strong>. If a business receives an adverse AAAR ruling in one state but no conflicting ruling in another state, NAAR jurisdiction does not arise. In our experience advising multi-state businesses, this gap leaves many taxpayers without an appellate remedy against AAAR orders. Patron Accounting advises on alternative strategies including High Court writ petitions and proactive advance ruling applications in multiple states to create the jurisdictional basis for NAAR.</p>
 
                 <h3>Identifying What Constitutes a 'Conflicting' Ruling</h3>
-                <p>Surbhi Premi notes that not every difference between two state rulings qualifies as a 'conflict' under Section 101B. The rulings must take contradictory positions on the same or substantially similar question - not merely different approaches to related but distinct questions. Patron Accounting conducts a rigorous comparative analysis before recommending the NAAR route.</p>
+                <p>Subham Jhunjhunwala notes that not every difference between two state rulings qualifies as a 'conflict' under Section 101B. The rulings must take contradictory positions on the same or substantially similar question - not merely different approaches to related but distinct questions. Patron Accounting conducts a rigorous comparative analysis before recommending the NAAR route.</p>
 
                 <h3>Transition Uncertainty - April 2026 Operationalisation</h3>
                 <p>Across the matters we have assessed for NAAR readiness, a key practical concern is the transition mechanism. The 56th GST Council recommended NAAR activation from April 2026 at the Principal Bench, but specific operational rules, forms, and filing procedures for NAAR appeals at GSTAT are still being finalised. Patron Accounting monitors all gazette notifications and GSTAT portal updates to ensure timely filing when the window opens.</p>
 
                 <div class="highlight-box" style="background:var(--blue-lighter);border-radius:var(--radius-md);padding:20px 24px;margin-top:24px;">
-                    <p style="margin:0;font-size:14px;"><strong>Illustrative Scenario:</strong> A technology company with registrations in Maharashtra and Karnataka sought advance rulings on the classification of a cloud-based subscription service. The Maharashtra AAAR classified it as 'information technology software service' at 18% GST. The Karnataka AAAR classified the same service as 'online information and database access or retrieval (OIDAR)' attracting IGST under a different head. Patron Accounting's GSTAT team, led by of-counsel Surbhi Premi, compiled both AAAR orders, prepared a detailed comparative analysis establishing the conflict on classification, and is advising on filing a NAAR appeal before the GSTAT Principal Bench once operationalised in April 2026 - seeking a harmonised classification ruling applicable pan-India.</p>
+                    <p style="margin:0;font-size:14px;"><strong>Illustrative Scenario:</strong> A technology company with registrations in Maharashtra and Karnataka sought advance rulings on the classification of a cloud-based subscription service. The Maharashtra AAAR classified it as 'information technology software service' at 18% GST. The Karnataka AAAR classified the same service as 'online information and database access or retrieval (OIDAR)' attracting IGST under a different head. Patron Accounting's GSTAT team, led by Subham Jhunjhunwala, compiled both AAAR orders, prepared a detailed comparative analysis establishing the conflict on classification, and is advising on filing a NAAR appeal before the GSTAT Principal Bench once operationalised in April 2026 - seeking a harmonised classification ruling applicable pan-India.</p>
                 </div>
             </div>
     </div>
@@ -1088,8 +1079,8 @@
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                        <h3>Of-Counsel Depth</h3>
-                        <p>Surbhi Premi's partnership at Lakshmikumaran and Sridharan - with pan-India indirect tax practice - provides unique insight into how different state AAAR bodies approach the same questions.</p>
+                        <h3>Specialist Support</h3>
+                        <p>Subham Jhunjhunwala works with the firm's CA and CS team on how different state AAAR bodies approach the same questions.</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
@@ -1098,8 +1089,7 @@
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div>
-                        <h3>Published Thought Leadership</h3>
-                        <p>Surbhi Premi is published in the Financial Express, Hindu Business Line, India Business Law Journal, Taxsutra, TIOL, and VIL.</p>
+                        <h3>Firm-Backed Support</h3><p>Backed by Patron Accounting's ICAI and ICSI registered CA and CS team.</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
@@ -1275,7 +1265,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Resolve Conflicting Advance Rulings at NAAR - Contact Patron Accounting Today</h2>
             <div class="content-text" style="text-align:left;">
                 <p>The activation of the National Appellate Authority for Advance Ruling (NAAR) at the GSTAT Principal Bench from April 2026 addresses one of the most fundamental structural gaps in the GST framework - the absence of a mechanism to resolve conflicting advance rulings across states. For multi-state businesses that have faced divergent interpretations on classification, exemption, or valuation from different state AAAR bodies, the NAAR under Section 101A CGST Act 2017 provides the first statutory path to a harmonised, nationally binding ruling.</p>
-                <p>Patron Accounting's GSTAT practice, led by of-counsel Advocate Surbhi Premi - former Partner at Lakshmikumaran and Sridharan and a specialist in GST, Customs, and Foreign Trade Policy - brings over 15 years of indirect tax litigation depth to every GSTAT engagement. The 30-day limitation under Section 101B, the narrow jurisdictional scope, and the forthcoming operational transition at the GSTAT Principal Bench make expert advisory essential.</p>
+                <p>Patron Accounting's GSTAT practice is supported by Subham Jhunjhunwala, CA Finalist and Accounting &amp; Tax Professional, working alongside the firm's CA and CS team on every GSTAT engagement. The 30-day limitation under Section 101B, the narrow jurisdictional scope, and the forthcoming operational transition at the GSTAT Principal Bench make expert advisory essential.</p>
             <div class="conclusion-cta-row" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20a%20NAAR%20advance%20ruling%20appeal.%20Please%20contact%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>

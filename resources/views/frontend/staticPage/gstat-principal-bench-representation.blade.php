@@ -227,7 +227,7 @@
 /* ── Urgency section: links stay dark/orange on light bg ── */
         .urgency-section a { color: var(--blue) !important; font-weight: 700; }
 .urgency-section a:hover { color: var(--orange) !important; }
-/* ── Of-Counsel Profile Card ── */
+/* ── Team Profile Card ── */
         .oc-profile {
             display: flex;
             gap: 28px;
@@ -329,11 +329,11 @@
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Of-Counsel:</span> GSTAT matters handled by Advocate Surbhi Premi - Former Partner, Lakshmikumaran &amp; Sridharan</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters supported by Subham Jhunjhunwala - CA Finalist, Accounting &amp; Tax Professional</p>
                         </div>
                     </div>
 
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice Led by Former LKS Partner</p>
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -450,7 +450,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Deep indirect tax knowledge, clear communication, and realistic assessment of our position - exactly what you need at the GSTAT stage. Surbhi Premi's place of supply analysis under Section 13 IGST Act was outstanding.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Deep indirect tax knowledge, clear communication, and realistic assessment of our position - exactly what you need at the GSTAT stage. Subham Jhunjhunwala's place of supply analysis under Section 13 IGST Act was outstanding.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">GC</div>
         <div>
@@ -463,7 +463,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The anti-profiteering defence at the Principal Bench was handled with precision. Patron Accounting's counter-computation analysis challenged the DGAP methodology point by point. Surbhi Premi's LKS background was clearly evident.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The anti-profiteering defence at the Principal Bench was handled with precision. Patron Accounting's counter-computation analysis challenged the DGAP methodology point by point. Subham Jhunjhunwala's preparation was clearly evident.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -530,7 +530,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Deep indirect tax knowledge, clear communication, and realistic assessment of our position - exactly what you need at the GSTAT stage. Surbhi Premi's place of supply analysis under Section 13 IGST Act was outstanding.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Deep indirect tax knowledge, clear communication, and realistic assessment of our position - exactly what you need at the GSTAT stage. Subham Jhunjhunwala's place of supply analysis under Section 13 IGST Act was outstanding.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">GC</div>
         <div>
@@ -543,7 +543,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The anti-profiteering defence at the Principal Bench was handled with precision. Patron Accounting's counter-computation analysis challenged the DGAP methodology point by point. Surbhi Premi's LKS background was clearly evident.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">The anti-profiteering defence at the Principal Bench was handled with precision. Patron Accounting's counter-computation analysis challenged the DGAP methodology point by point. Subham Jhunjhunwala's preparation was clearly evident.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -587,7 +587,7 @@
                 </div>
                 <div class="reviews-cta-text">
                     <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice Led by Former LKS Partner</p>
+                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
                 </div>
             </div>
             <a href="tel:+919459456700" class="btn-cta">
@@ -669,24 +669,25 @@
     </div>
 </section>
 
-<!-- OF-COUNSEL PROFILE SECTION -->
+<!-- TEAM PROFILE SECTION -->
 <section class="content-section" id="oc-profile-section" style="padding-top:0;">
     <div class="content-container">
         <div class="text-content">
             <div class="oc-profile">
-    <img src="/images/team/surbhi-premi.png" alt="Surbhi Premi - Advocate and Chartered Accountant, Of-Counsel to Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
+    <img src="/images/team/subham-jhunjhunwala.png" alt="Subham Jhunjhunwala - CA Finalist and Accounting and Tax Professional at Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
     <div class="oc-info">
-        <div class="oc-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Of-Counsel - GSTAT Practice Lead</div>
-        <h3 class="oc-name">Surbhi Premi</h3>
-        <p class="oc-title">Advocate &amp; Chartered Accountant | Diploma in IFRS (ACCA, UK)</p>
-        <div class="oc-highlights">
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Former Partner, Lakshmikumaran &amp; Sridharan</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>15+ Years GST, Customs &amp; FTP</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goldman Sachs Alumni</span>
-            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>500+ Large Domestic &amp; MNC Clients</span>
+        <div class="oc-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Accounting &amp; Tax Professional
         </div>
-        <p class="oc-bio">Surbhi Premi led the Indirect Tax practice at Lakshmikumaran &amp; Sridharan as Partner and served on LKS Team Velocity - a national GST task force handling high-sensitivity, high-impact industry matters. Her background at Goldman Sachs brings a unique blend of tax, risk, and international business understanding. A renowned ICAI faculty member and keynote speaker, her methodical approach combined with deep domain knowledge enables her to provide viable, holistic, and tax-efficient solutions for complex GST litigation and advance ruling disputes.</p>
-        <div class="oc-pubs"><span class="oc-pub-badge">Financial Express</span><span class="oc-pub-badge">Hindu Business Line</span><span class="oc-pub-badge">India Business Law Journal</span><span class="oc-pub-badge">Taxsutra</span><span class="oc-pub-badge">TIOL</span><span class="oc-pub-badge">VIL</span></div>
+        <h3 class="oc-name">Subham Jhunjhunwala</h3>
+        <p class="oc-title">CA Finalist | Graduate</p>
+        <div class="oc-highlights">
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CA Finalist</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Accounting &amp; Taxation</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; Compliance</span>
+        </div>
+        <p class="oc-bio">Subham Jhunjhunwala is a CA Finalist and Accounting &amp; Tax Professional at Patron Accounting LLP, focused on accounting, taxation, and compliance. He works alongside the firm&#39;s CA and CS team on GST and GSTAT appeal matters.</p>
     </div>
 </div>
         </div>
@@ -940,12 +941,12 @@
         <div class="text-content">
                 <h2 class="section-title">Why Choose Patron Accounting for Principal Bench Representation</h2>
                 <div class="features-grid">
-                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Of-Counsel Depth</h3><p>Surbhi Premi (Of-Counsel), Advocate and CA, 15+ years in GST, Customs, and FTP. Former Partner at LKS with Team Velocity national GST task force leadership.</p></div>
+                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Specialist Support</h3><p>Subham Jhunjhunwala, CA Finalist - accounting, taxation, and compliance support, working with the firm's CA and CS team.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Delhi Office Proximity</h3><p>Strategic access to the Principal Bench in New Delhi for physical hearings with dedicated Delhi-based team.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>10,000+ Businesses</h3><p>4.9 Google rating, 15+ years of professional practice, offices in Pune, Mumbai, Delhi, and Gurugram.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3>SC Pathway Expertise</h3><p>Every Principal Bench defence is structured with the Supreme Court appeal pathway in mind - comprehensive ground preservation from day one.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Three Jurisdiction Expertise</h3><p>Place of supply + anti-profiteering + NAAR - the only firm combining all three Principal Bench jurisdiction areas in one dedicated practice.</p></div>
-                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Published Thought Leadership</h3><p>Surbhi Premi is published in Financial Express, Hindu Business Line, India Business Law Journal, Taxsutra, TIOL, and VIL.</p></div>
+                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Firm-Backed Support</h3><p>Backed by Patron Accounting's ICAI and ICSI registered CA and CS team.</p></div>
                 </div>
             </div>
     </div>
@@ -958,7 +959,7 @@
                 <h2 class="section-title">Trusted Across Industries</h2>
                 <div class="content-text">
                     <blockquote style="border-left:4px solid var(--orange);padding:16px 24px;margin:24px 0;background:var(--gray-50);border-radius:0 var(--radius-md) var(--radius-md) 0;">
-                        <p style="font-style:italic;color:var(--text-primary);margin:0;">&#8220;Patron Accounting's GSTAT team understood our pre-deposit exposure immediately. Surbhi Premi's approach to structuring the grounds of appeal was methodical and thorough.&#8221;</p>
+                        <p style="font-style:italic;color:var(--text-primary);margin:0;">&#8220;Patron Accounting's GSTAT team understood our pre-deposit exposure immediately. Subham Jhunjhunwala's approach to structuring the grounds of appeal was methodical and thorough.&#8221;</p>
                         <p style="font-size:13px;color:var(--text-muted);margin-top:8px;">- CFO, Manufacturing Company [Illustrative]</p>
                     </blockquote>
                     <p>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting provides GSTAT representation across the Principal Bench at New Delhi and State Benches including Mumbai, Bangalore, Chennai, Hyderabad, and Ahmedabad.</p>
@@ -1105,7 +1106,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">The 3-Month GSTAT Deadline Is Running - Contact Us Today</h2>
             <div class="content-text" style="text-align:left;">
                 <p>Representation at the <strong>GSTAT Principal Bench Delhi</strong> requires specialist litigation capability in place of supply analysis under the IGST Act, anti-profiteering computation methodology under Section 171, and advance ruling harmonisation under <strong>Section 101A CGST Act 2017</strong>. The stakes are elevated because Principal Bench orders are appealed directly to the Supreme Court - grounds not raised at the tribunal stage may be foreclosed.</p>
-                <p>Patron Accounting's GSTAT practice, led by of-counsel Advocate Surbhi Premi - former Partner at Lakshmikumaran and Sridharan and a specialist in GST, Customs, and Foreign Trade Policy - brings over 15 years of indirect tax litigation depth to every GSTAT engagement.</p>
+                <p>Patron Accounting's GSTAT practice is supported by Subham Jhunjhunwala, CA Finalist and Accounting &amp; Tax Professional, working alongside the firm's CA and CS team on every GSTAT engagement.</p>
             <div class="conclusion-cta-row" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20GSTAT%20Principal%20Bench%20representation%20in%20New%20Delhi.%20Please%20contact%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>

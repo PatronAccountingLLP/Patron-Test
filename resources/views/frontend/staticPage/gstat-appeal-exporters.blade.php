@@ -227,7 +227,7 @@
 /* ── Urgency section: links stay dark/orange on light bg ── */
         .urgency-section a { color: var(--blue) !important; font-weight: 700; }
 .urgency-section a:hover { color: var(--orange) !important; }
-/* ── Of-Counsel Profile Card ── */
+/* ── Team Profile Card ── */
         .oc-profile {
             display: flex;
             gap: 28px;
@@ -328,11 +328,11 @@
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters handled by Advocate Surbhi Premi - Former Partner, LKS</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters supported by Subham Jhunjhunwala - CA Finalist, Accounting &amp; Tax Professional</p>
                         </div>
                     </div>
 
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -461,7 +461,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Surbhi Premi's expertise in Customs and GST was exactly what we needed for our intermediary classification dispute. The GSTAT appeal was filed within 5 weeks and the automatic stay secured immediately.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Subham Jhunjhunwala's expertise in Customs and GST was exactly what we needed for our intermediary classification dispute. The GSTAT appeal was filed within 5 weeks and the automatic stay secured immediately.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -541,7 +541,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Surbhi Premi's expertise in Customs and GST was exactly what we needed for our intermediary classification dispute. The GSTAT appeal was filed within 5 weeks and the automatic stay secured immediately.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Subham Jhunjhunwala's expertise in Customs and GST was exactly what we needed for our intermediary classification dispute. The GSTAT appeal was filed within 5 weeks and the automatic stay secured immediately.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -585,7 +585,7 @@
                 </div>
                 <div class="reviews-cta-text">
                     <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
                 </div>
             </div>
             <a href="tel:+919459456700" class="btn-cta">
@@ -662,11 +662,27 @@
     </div>
 </section>
 
-<!-- OF-COUNSEL PROFILE SECTION -->
+<!-- TEAM PROFILE SECTION -->
 <section class="content-section" id="oc-profile-section" style="padding-top:0;">
     <div class="content-container">
         <div class="text-content">
-            <div class="oc-profile"><img src="/images/team/surbhi-premi.png" alt="Surbhi Premi - Advocate and Chartered Accountant, Of-Counsel to Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy"><div class="oc-info"><div class="oc-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Of-Counsel - GSTAT Practice Lead</div><h3 class="oc-name">Surbhi Premi</h3><p class="oc-title">Advocate &amp; Chartered Accountant | Diploma in IFRS (ACCA, UK)</p><div class="oc-highlights"><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Former Partner, Lakshmikumaran &amp; Sridharan</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>15+ Years GST, Customs &amp; FTP</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goldman Sachs Alumni</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>500+ Large Domestic &amp; MNC Clients</span></div><p class="oc-bio">Surbhi Premi led the Indirect Tax practice at Lakshmikumaran &amp; Sridharan as Partner and served on LKS Team Velocity. Her Goldman Sachs background and deep expertise in GST, Customs, and Foreign Trade Policy enables viable solutions for complex export refund disputes, LUT bond issues, and IGST recovery challenges at GSTAT.</p><div class="oc-pubs"><span class="oc-pub-badge">Financial Express</span><span class="oc-pub-badge">Hindu Business Line</span><span class="oc-pub-badge">India Business Law Journal</span><span class="oc-pub-badge">Taxsutra</span><span class="oc-pub-badge">TIOL</span><span class="oc-pub-badge">VIL</span></div></div></div>
+            <div class="oc-profile">
+    <img src="/images/team/subham-jhunjhunwala.png" alt="Subham Jhunjhunwala - CA Finalist and Accounting and Tax Professional at Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
+    <div class="oc-info">
+        <div class="oc-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Accounting &amp; Tax Professional
+        </div>
+        <h3 class="oc-name">Subham Jhunjhunwala</h3>
+        <p class="oc-title">CA Finalist | Graduate</p>
+        <div class="oc-highlights">
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CA Finalist</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Accounting &amp; Taxation</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; Compliance</span>
+        </div>
+        <p class="oc-bio">Subham Jhunjhunwala is a CA Finalist and Accounting &amp; Tax Professional at Patron Accounting LLP, focused on accounting, taxation, and compliance. He works alongside the firm&#39;s CA and CS team on GST and GSTAT appeal matters.</p>
+    </div>
+</div>
         </div>
     </div>
 </section>
@@ -773,7 +789,7 @@
         <div class="text-content">
                 <h2 class="section-title">4 Common Challenges in Exporter GSTAT Appeals</h2>
                 <h3>IGST Refund Rejection Due to Shipping Bill Mismatch</h3><p>The most common ground for refund rejection under Rule 96 is a mismatch between IGST in GSTR-1 and the shipping bill at ICEGATE. In our experience, these mismatches often arise from timing differences between return filing and customs clearance - not substantive tax errors.</p>
-                <h3>ITC Refund Denial Under Rule 89 for LUT Exports</h3><p>Exporters under LUT face rejection of accumulated ITC claims due to computation disputes, incorrect turnover figures, or denial of ITC on input services. Surbhi Premi notes that authorities commonly disallow ITC on freight, insurance, and commission without verifying direct attribution to zero-rated exports.</p>
+                <h3>ITC Refund Denial Under Rule 89 for LUT Exports</h3><p>Exporters under LUT face rejection of accumulated ITC claims due to computation disputes, incorrect turnover figures, or denial of ITC on input services. Subham Jhunjhunwala notes that authorities commonly disallow ITC on freight, insurance, and commission without verifying direct attribution to zero-rated exports.</p>
                 <h3>Export of Services vs Intermediary Classification</h3><p>Reclassification as intermediary under <strong>Section 2(13) IGST Act</strong> denies zero-rated treatment. This is particularly acute for IT services, BPO, and staffing companies where place of supply shifts to the supplier's location.</p>
                 <h3>Inverted Duty Structure Refund Denial</h3><p>Exporters with higher input rates face denials where the department applies the amended Rule 89(5) formula to exclude input service ITC from refund computation.</p>
                 <div class="highlight-box" style="background:var(--blue-lighter);border-radius:var(--radius-md);padding:20px 24px;margin-top:24px;"><p style="margin:0;font-size:14px;"><strong>Illustrative Scenario:</strong> An export trading company with turnover of Rs 200 crore received a refund rejection of Rs 85 lakh on IGST paid under Rule 96, citing GSTR-1 Table 6A vs ICEGATE shipping bill mismatch. Commissioner (Appeals) upheld the rejection. Patron Accounting's GSTAT team structured grounds around reconciled export data showing the mismatch arose from a timing difference in EGM filing - resulting in admission with automatic stay under Section 112(9), protecting cash flow.</p></div>
@@ -815,8 +831,8 @@
         <div class="text-content">
                 <h2 class="section-title">Why Choose Patron Accounting for Exporter GSTAT Appeals</h2>
                 <div class="features-grid">
-                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Export + Customs + GST Expertise</h3><p>Surbhi Premi's 15+ years in GST, Customs, and Foreign Trade Policy - including LKS partnership - provides unique depth for IGST refund and LUT disputes.</p></div>
-                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Published Thought Leadership</h3><p>Published in Financial Express, Hindu Business Line, Taxsutra, TIOL, VIL. ICAI faculty and keynote speaker.</p></div>
+                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Export &amp; GST Compliance Support</h3><p>Subham Jhunjhunwala, working with the firm's CA and CS team, provides unique depth for IGST refund and LUT disputes.</p></div>
+                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Firm-Backed Support</h3><p>Backed by Patron Accounting's ICAI and ICSI registered CA and CS team.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>10,000+ Businesses Served</h3><p>4.9 Google rating, 15+ years. Pan-India GSTAT representation across Principal and State Benches.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Pan-India Exporter Coverage</h3><p>Offices in Pune, Mumbai, Delhi, Gurugram. Serving exporters in Mumbai (trading houses), Chennai (manufacturing), Delhi (DGFT), Bangalore (IT/services).</p></div>
                 </div>
@@ -830,7 +846,7 @@
         <div class="text-content">
                 <h2 class="section-title">Trusted by Exporters Across India</h2>
                 <div class="stats-proof-row" style="display:flex;gap:24px;flex-wrap:wrap;margin-bottom:24px;"><div style="font-size:14px;"><strong style="font-size:24px;color:var(--blue);">10,000+</strong><br>Businesses Served</div><div style="font-size:14px;"><strong style="font-size:24px;color:var(--orange);">4.9</strong><br>Google Rating</div><div style="font-size:14px;"><strong style="font-size:24px;color:var(--blue);">15+</strong><br>Years Experience</div></div>
-                <blockquote style="border-left:4px solid var(--orange);padding-left:20px;margin:20px 0;font-style:italic;color:var(--text-secondary);">"Patron Accounting's GSTAT team understood our refund exposure immediately. Surbhi Premi's approach to structuring the grounds of appeal was methodical and thorough." - CFO, Export Trading Company</blockquote>
+                <blockquote style="border-left:4px solid var(--orange);padding-left:20px;margin:20px 0;font-style:italic;color:var(--text-secondary);">"Patron Accounting's GSTAT team understood our refund exposure immediately. Subham Jhunjhunwala's approach to structuring the grounds of appeal was methodical and thorough." - CFO, Export Trading Company</blockquote>
                 <p>With offices in <strong>Pune, Mumbai, Delhi, and Gurugram</strong>, Patron Accounting provides GSTAT representation for exporters across all benches - including Mumbai (trading houses), Chennai (manufacturing exporters), New Delhi (DGFT interface), and Bangalore (IT/services exports).</p>
             </div>
     </div>
@@ -967,7 +983,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">The 3-Month GSTAT Deadline Is Running - Contact Us for Export Refund Disputes</h2>
             <div class="content-text" style="text-align:left;">
                 <p>GSTAT appeal for exporter refund rejection under Section 112 CGST Act 2017 provides the dedicated judicial forum that exporters need - a specialist tribunal to review and reverse adverse orders on IGST refund rejections, ITC refund denials, LUT bond disputes, and inverted duty structure claims that directly impact export competitiveness and cash flow.</p>
-                <p>Patron Accounting's GSTAT practice, led by of-counsel Advocate Surbhi Premi - former Partner at Lakshmikumaran and Sridharan and a specialist in GST, Customs, and Foreign Trade Policy - brings over 15 years of indirect tax litigation depth to every GSTAT engagement. The 3-month limitation period and 10% pre-deposit make timely expert action essential.</p>
+                <p>Patron Accounting's GSTAT practice is supported by Subham Jhunjhunwala, CA Finalist and Accounting &amp; Tax Professional, working alongside the firm's CA and CS team on every GSTAT engagement. The 3-month limitation period and 10% pre-deposit make timely expert action essential.</p>
             <div class="conclusion-cta-row" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20a%20GSTAT%20appeal%20for%20an%20exporter%20refund%20rejection.%20Please%20contact%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>

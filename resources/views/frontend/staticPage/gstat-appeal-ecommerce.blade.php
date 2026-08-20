@@ -227,7 +227,7 @@
 /* ── Urgency section: links stay dark/orange on light bg ── */
         .urgency-section a { color: var(--blue) !important; font-weight: 700; }
 .urgency-section a:hover { color: var(--orange) !important; }
-/* ── Of-Counsel Profile Card ── */
+/* ── Team Profile Card ── */
         .oc-profile {
             display: flex;
             gap: 28px;
@@ -328,11 +328,11 @@
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters handled by Advocate Surbhi Premi - Former Partner, LKS</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters supported by Subham Jhunjhunwala - CA Finalist, Accounting &amp; Tax Professional</p>
                         </div>
                     </div>
 
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -585,7 +585,7 @@
                 </div>
                 <div class="reviews-cta-text">
                     <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
                 </div>
             </div>
             <a href="tel:+919459456700" class="btn-cta">
@@ -664,11 +664,27 @@
     </div>
 </section>
 
-<!-- OF-COUNSEL PROFILE SECTION -->
+<!-- TEAM PROFILE SECTION -->
 <section class="content-section" id="oc-profile-section" style="padding-top:0;">
     <div class="content-container">
         <div class="text-content">
-            <div class="oc-profile"><img src="/images/team/surbhi-premi.png" alt="Surbhi Premi - Advocate and Chartered Accountant, Of-Counsel to Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy"><div class="oc-info"><div class="oc-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Of-Counsel - GSTAT Practice Lead</div><h3 class="oc-name">Surbhi Premi</h3><p class="oc-title">Advocate &amp; Chartered Accountant | Diploma in IFRS (ACCA, UK)</p><div class="oc-highlights"><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Former Partner, Lakshmikumaran &amp; Sridharan</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>15+ Years GST, Customs &amp; FTP</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goldman Sachs Alumni</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>500+ Large Domestic &amp; MNC Clients</span></div><p class="oc-bio">Surbhi Premi led the Indirect Tax practice at Lakshmikumaran &amp; Sridharan as Partner and served on LKS Team Velocity - a national GST task force. Her Goldman Sachs background brings unique blend of tax, risk, and international business understanding. A renowned ICAI faculty member, her deep domain knowledge enables viable solutions for complex e-commerce GST litigation and TCS disputes at GSTAT.</p><div class="oc-pubs"><span class="oc-pub-badge">Financial Express</span><span class="oc-pub-badge">Hindu Business Line</span><span class="oc-pub-badge">India Business Law Journal</span><span class="oc-pub-badge">Taxsutra</span><span class="oc-pub-badge">TIOL</span><span class="oc-pub-badge">VIL</span></div></div></div>
+            <div class="oc-profile">
+    <img src="/images/team/subham-jhunjhunwala.png" alt="Subham Jhunjhunwala - CA Finalist and Accounting and Tax Professional at Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
+    <div class="oc-info">
+        <div class="oc-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Accounting &amp; Tax Professional
+        </div>
+        <h3 class="oc-name">Subham Jhunjhunwala</h3>
+        <p class="oc-title">CA Finalist | Graduate</p>
+        <div class="oc-highlights">
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CA Finalist</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Accounting &amp; Taxation</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; Compliance</span>
+        </div>
+        <p class="oc-bio">Subham Jhunjhunwala is a CA Finalist and Accounting &amp; Tax Professional at Patron Accounting LLP, focused on accounting, taxation, and compliance. He works alongside the firm&#39;s CA and CS team on GST and GSTAT appeal matters.</p>
+    </div>
+</div>
         </div>
     </div>
 </section>
@@ -776,7 +792,7 @@
                 <h2 class="section-title">4 Common Challenges in E-commerce GSTAT Appeals</h2>
                 <h3>TCS Reconciliation Mismatch Between GSTR-8 and GSTR-2B</h3><p>E-commerce operators file GSTR-8 declaring TCS collected, but sellers often find that the TCS credit in GSTR-2B does not match. In our experience, this mismatch is the single largest dispute trigger in the e-commerce sector - arising from timing differences, return adjustments, and platform settlement reconciliation failures.</p>
                 <h3>Mandatory Registration Disputes Under Section 24</h3><p>Sellers with turnover below Rs 20 lakh receive demand notices because <strong>Section 24 CGST Act</strong> overrides the threshold exemption for e-commerce sellers. Patron Accounting's GSTAT team has observed that many such demands are issued without considering subsequent notifications relaxing registration requirements.</p>
-                <h3>ECO Classification Under Section 9(5) vs Section 52</h3><p>Disputes arise when the authority treats an ECO's supply as falling under <strong>Section 9(5)</strong> rather than <strong>Section 52</strong>. Surbhi Premi notes that a common error is conflating the two provisions without examining whether the specific service is notified under Section 9(5).</p>
+                <h3>ECO Classification Under Section 9(5) vs Section 52</h3><p>Disputes arise when the authority treats an ECO's supply as falling under <strong>Section 9(5)</strong> rather than <strong>Section 52</strong>. Subham Jhunjhunwala notes that a common error is conflating the two provisions without examining whether the specific service is notified under Section 9(5).</p>
                 <h3>Incorrect Pre-deposit Calculation for Multi-State TCS</h3><p>For e-commerce disputes involving multiple GSTINs and multi-state TCS, the calculation is complex - requiring careful aggregation across CGST, SGST, and IGST components.</p>
                 <div class="highlight-box" style="background:var(--blue-lighter);border-radius:var(--radius-md);padding:20px 24px;margin-top:24px;"><p style="margin:0;font-size:14px;"><strong>Illustrative Scenario:</strong> An e-commerce marketplace with GMV of approximately Rs 500 crore received a demand of Rs 2.4 crore for TCS computation differences under Section 52. Commissioner (Appeals) upheld Rs 1.8 crore partially. Patron Accounting's GSTAT team structured grounds around GSTR-8 reconciliation evidence, demonstrating that the TCS mismatch arose from platform return adjustments correctly accounted for in subsequent periods - resulting in admission with automatic stay under Section 112(9), protecting working capital.</p></div>
             </div>
@@ -818,7 +834,7 @@
                 <h2 class="section-title">Why Choose Patron Accounting for E-commerce GSTAT Appeals</h2>
                 <div class="features-grid">
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>E-commerce Domain + Tax Litigation</h3><p>Unique combination of TCS compliance knowledge under Section 52, marketplace operator obligations under Section 9(5), and GSTAT litigation strategy.</p></div>
-                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Of-Counsel Depth</h3><p>Surbhi Premi's LKS partnership, Goldman Sachs background, and 15+ years in GST litigation provide strategic depth for complex marketplace disputes.</p></div>
+                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Specialist Support</h3><p>Subham Jhunjhunwala, working with the firm's CA and CS team, provides practical depth for complex marketplace disputes.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>10,000+ Businesses Served</h3><p>4.9 Google rating, 15+ years. Pan-India GSTAT representation across Principal and State Benches.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Pan-India E-commerce Coverage</h3><p>Offices in Pune, Mumbai, Delhi, Gurugram - serving e-commerce businesses in every major commercial jurisdiction including Bangalore and Chennai.</p></div>
                 </div>
@@ -968,7 +984,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">The 3-Month GSTAT Deadline Is Running - Contact Us for E-commerce Disputes</h2>
             <div class="content-text" style="text-align:left;">
                 <p>GSTAT appeal for e-commerce TCS and marketplace disputes under Section 112 CGST Act 2017 provides the dedicated judicial forum that e-commerce businesses need - a specialist tribunal with the authority to review and reverse adverse orders on TCS demands, registration disputes, and ECO classification issues that directly impact working capital and operational continuity.</p>
-                <p>Patron Accounting's GSTAT practice, led by of-counsel Advocate Surbhi Premi - former Partner at Lakshmikumaran and Sridharan and a specialist in GST, Customs, and Foreign Trade Policy - brings over 15 years of indirect tax litigation depth to every GSTAT engagement. The 3-month limitation period and 10% pre-deposit under Section 112(8) make timely expert action essential.</p>
+                <p>Patron Accounting's GSTAT practice is supported by Subham Jhunjhunwala, CA Finalist and Accounting &amp; Tax Professional, working alongside the firm's CA and CS team on every GSTAT engagement. The 3-month limitation period and 10% pre-deposit under Section 112(8) make timely expert action essential.</p>
             <div class="conclusion-cta-row" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20a%20GSTAT%20appeal%20for%20an%20e-commerce%20GST%20dispute.%20Please%20contact%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>

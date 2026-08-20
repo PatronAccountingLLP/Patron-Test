@@ -227,7 +227,7 @@
 /* ── Urgency section: links stay dark/orange on light bg ── */
         .urgency-section a { color: var(--blue) !important; font-weight: 700; }
 .urgency-section a:hover { color: var(--orange) !important; }
-/* ── Of-Counsel Profile Card ── */
+/* ── Team Profile Card ── */
         .oc-profile {
             display: flex;
             gap: 28px;
@@ -328,11 +328,11 @@
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters handled by Advocate Surbhi Premi - Former Partner, LKS</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters supported by Subham Jhunjhunwala - CA Finalist, Accounting &amp; Tax Professional</p>
                         </div>
                     </div>
 
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -584,7 +584,7 @@
                 </div>
                 <div class="reviews-cta-text">
                     <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
                 </div>
             </div>
             <a href="tel:+919459456700" class="btn-cta">
@@ -661,11 +661,27 @@
     </div>
 </section>
 
-<!-- OF-COUNSEL PROFILE SECTION -->
+<!-- TEAM PROFILE SECTION -->
 <section class="content-section" id="oc-profile-section" style="padding-top:0;">
     <div class="content-container">
         <div class="text-content">
-            <div class="oc-profile"><img src="/images/team/surbhi-premi.png" alt="Surbhi Premi - Advocate and Chartered Accountant, Of-Counsel to Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy"><div class="oc-info"><div class="oc-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Of-Counsel - GSTAT Practice Lead</div><h3 class="oc-name">Surbhi Premi</h3><p class="oc-title">Advocate &amp; Chartered Accountant | Diploma in IFRS (ACCA, UK)</p><div class="oc-highlights"><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Former Partner, Lakshmikumaran &amp; Sridharan</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>15+ Years GST, Customs &amp; FTP</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goldman Sachs Alumni</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>500+ Large Domestic &amp; MNC Clients</span></div><p class="oc-bio">Surbhi Premi led the Indirect Tax practice at Lakshmikumaran &amp; Sridharan as Partner and served on LKS Team Velocity. Her Goldman Sachs background and deep expertise in GST enables viable solutions for complex restaurant GST rate disputes, specified premises classification challenges, and hospitality sector ITC issues at GSTAT.</p><div class="oc-pubs"><span class="oc-pub-badge">Financial Express</span><span class="oc-pub-badge">Hindu Business Line</span><span class="oc-pub-badge">India Business Law Journal</span><span class="oc-pub-badge">Taxsutra</span><span class="oc-pub-badge">TIOL</span><span class="oc-pub-badge">VIL</span></div></div></div>
+            <div class="oc-profile">
+    <img src="/images/team/subham-jhunjhunwala.png" alt="Subham Jhunjhunwala - CA Finalist and Accounting and Tax Professional at Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
+    <div class="oc-info">
+        <div class="oc-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Accounting &amp; Tax Professional
+        </div>
+        <h3 class="oc-name">Subham Jhunjhunwala</h3>
+        <p class="oc-title">CA Finalist | Graduate</p>
+        <div class="oc-highlights">
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CA Finalist</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Accounting &amp; Taxation</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; Compliance</span>
+        </div>
+        <p class="oc-bio">Subham Jhunjhunwala is a CA Finalist and Accounting &amp; Tax Professional at Patron Accounting LLP, focused on accounting, taxation, and compliance. He works alongside the firm&#39;s CA and CS team on GST and GSTAT appeal matters.</p>
+    </div>
+</div>
         </div>
     </div>
 </section>
@@ -771,7 +787,7 @@
         <div class="text-content">
                 <h2 class="section-title">4 Common Challenges in Restaurant GSTAT Appeals</h2>
                 <h3>GST Rate Reclassification - 5% to 18% on Specified Premises</h3><p>The most common restaurant dispute is reclassification from 5% (standalone restaurant) to 18% (specified premises). Authorities frequently classify restaurants in mixed-use buildings or hotel complexes as specified premises without examining whether the room tariff threshold of Rs 7,500 per unit per day is actually met. In our experience, the classification must be tested on the specific premises, not the broader complex.</p>
-                <h3>ITC Denial on Renovation and Fit-out</h3><p>Restaurants at 18% GST rate in specified premises are entitled to ITC on inputs including renovation. However, authorities deny ITC on fit-out expenses under <strong>Section 17(5)(c) and (d)</strong> blocked credit provisions. Surbhi Premi notes that the distinction between movable fixtures (ITC eligible) and immovable property improvements (blocked) is the critical boundary in these disputes.</p>
+                <h3>ITC Denial on Renovation and Fit-out</h3><p>Restaurants at 18% GST rate in specified premises are entitled to ITC on inputs including renovation. However, authorities deny ITC on fit-out expenses under <strong>Section 17(5)(c) and (d)</strong> blocked credit provisions. Subham Jhunjhunwala notes that the distinction between movable fixtures (ITC eligible) and immovable property improvements (blocked) is the critical boundary in these disputes.</p>
                 <h3>Food Delivery Platform TCS Under Section 9(5)</h3><p>Under <strong>Section 9(5) CGST Act</strong>, platforms like Swiggy and Zomato are liable to pay GST on restaurant services. Disputes arise from GSTR-8 TCS mismatches, the interaction between platform-paid GST and restaurant ITC, and the classification of delivery charges as part of the restaurant service value.</p>
                 <h3>Composition Scheme Eligibility Disputes</h3><p>Restaurants under the composition scheme (Section 10 CGST Act) face reclassification as regular dealers when authorities identify inter-state supplies or e-commerce transactions. The resulting demand includes the full GST differential plus interest and penalty.</p>
                 <div class="highlight-box" style="background:var(--blue-lighter);border-radius:var(--radius-md);padding:20px 24px;margin-top:24px;"><p style="margin:0;font-size:14px;"><strong>Illustrative Scenario:</strong> A restaurant chain operating 12 outlets with annual turnover of approximately Rs 15 crore received a demand of Rs 60 lakh for GST rate reclassification from 5% to 18% on three outlets that the authority classified as being within specified premises. The Commissioner (Appeals) upheld the demand. Patron Accounting's GSTAT team demonstrated that the room tariff threshold was not met at two of the three premises and structured grounds around Notification 46/2017 interpretation - resulting in admission with automatic stay under Section 112(9), protecting Rs 50 lakh of working capital.</p></div>
@@ -814,7 +830,7 @@
                 <h2 class="section-title">Why Choose Patron Accounting for Restaurant GSTAT Appeals</h2>
                 <div class="features-grid">
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Hospitality GST Expertise</h3><p>Deep knowledge of restaurant GST rate notifications (46/2017, 5/2025), specified premises classification, Section 9(5) ECO liability, and composition scheme rules.</p></div>
-                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Of-Counsel Depth</h3><p>Surbhi Premi's LKS partnership, Goldman Sachs background, and 15+ years in GST litigation provide strategic depth for complex rate classification disputes.</p></div>
+                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Specialist Support</h3><p>Subham Jhunjhunwala, working with the firm's CA and CS team, provides practical depth for complex rate classification disputes.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>10,000+ Businesses Served</h3><p>4.9 Google rating, 15+ years. Pan-India GSTAT representation across Principal and State Benches.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Restaurant Hub Coverage</h3><p>Offices in Pune, Mumbai, Delhi, Gurugram. Serving restaurants in Mumbai (hospitality hub), Pune (restaurant chains), Delhi (QSR brands), Bangalore (cloud kitchens).</p></div>
                 </div>
@@ -964,7 +980,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">The 3-Month GSTAT Deadline Is Running - Contact Us for Restaurant GST Disputes</h2>
             <div class="content-text" style="text-align:left;">
                 <p>GSTAT appeal for restaurant GST rate disputes under Section 112 CGST Act 2017 provides the dedicated judicial forum that restaurants need - a specialist tribunal to review and reverse adverse orders on GST rate reclassification, ITC denial on renovation, food delivery platform TCS disputes, and composition scheme eligibility challenges that directly impact restaurant profitability and cash flow.</p>
-                <p>Patron Accounting's GSTAT practice, led by of-counsel Advocate Surbhi Premi - former Partner at Lakshmikumaran and Sridharan and a specialist in GST, Customs, and Foreign Trade Policy - brings over 15 years of indirect tax litigation depth to every GSTAT engagement. The 3-month limitation period and 10% pre-deposit make timely expert action essential.</p>
+                <p>Patron Accounting's GSTAT practice is supported by Subham Jhunjhunwala, CA Finalist and Accounting &amp; Tax Professional, working alongside the firm's CA and CS team on every GSTAT engagement. The 3-month limitation period and 10% pre-deposit make timely expert action essential.</p>
             <div class="conclusion-cta-row" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20a%20GSTAT%20appeal%20for%20a%20restaurant%20GST%20rate%20dispute.%20Please%20contact%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>

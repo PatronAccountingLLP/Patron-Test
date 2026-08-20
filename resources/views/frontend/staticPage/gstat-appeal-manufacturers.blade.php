@@ -2,11 +2,11 @@
 
 @section('meta')
     <title>Manufacturer GSTAT Appeal - ITC Mismatch | Patron</title>
-    <meta name="description" content="GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. Led by former LKS Partner. Patron Accounting.">
+    <meta name="description" content="GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. CA-led appeal support. Patron Accounting.">
     <link rel="canonical" href="/gstat-appeal-manufacturers">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Manufacturer GSTAT Appeal - ITC Mismatch | Patron">
-    <meta property="og:description" content="GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. Led by former LKS Partner. Patron Accounting.">
+    <meta property="og:description" content="GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. CA-led appeal support. Patron Accounting.">
     <meta property="og:url" content="/gstat-appeal-manufacturers">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
@@ -15,7 +15,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Manufacturer GSTAT Appeal - ITC Mismatch | Patron">
-    <meta name="twitter:description" content="GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. Led by former LKS Partner. Patron Accounting.">
+    <meta name="twitter:description" content="GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. CA-led appeal support. Patron Accounting.">
     <meta name="twitter:image" content="/images/gstat-appeal-manufacturers-og.webp">
 @endsection
 
@@ -27,7 +27,7 @@
         {
           "@type": "Service",
           "name": "Manufacturer ITC GSTAT Appeal India",
-          "description": "GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. Led by former LKS Partner. Patron Accounting.",
+          "description": "GSTAT appeal for manufacturing ITC reversal disputes under Section 17(5) CGST Act. 10% pre-deposit, 3-month deadline. CA-led appeal support. Patron Accounting.",
           "url": "https://www.patronaccounting.com/gstat-appeal-manufacturers",
           "serviceType": "Manufacturer ITC GSTAT Appeal India",
           "areaServed": {
@@ -227,7 +227,7 @@
 /* ── Urgency section: links stay dark/orange on light bg ── */
         .urgency-section a { color: var(--blue) !important; font-weight: 700; }
 .urgency-section a:hover { color: var(--orange) !important; }
-/* ── Of-Counsel Profile Card ── */
+/* ── Team Profile Card ── */
         .oc-profile {
             display: flex;
             gap: 28px;
@@ -328,11 +328,11 @@
                         </div>
                         <div class="d-flex align-items-start mb-3">
                             <span class="check-icon me-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>
-                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters handled by Advocate Surbhi Premi - Former Partner, LKS</p>
+                            <p class="mb-0 text-dark benefit-paragraph"><span>Specialist:</span> GSTAT matters supported by Subham Jhunjhunwala - CA Finalist, Accounting &amp; Tax Professional</p>
                         </div>
                     </div>
 
-                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p class="mb-4 fw-bold" style="color: var(--blue); font-size: 15px;">10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
 
                     <div class="hero-cta">
                         <a href="tel:+919459456700" class="btn-video text-decoration-none">
@@ -460,7 +460,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Surbhi Premi's expertise in Section 17(5) blocked credit and the Safari Retreats judgment was exactly what our works contract dispute needed. The GSTAT appeal was filed within 5 weeks of engagement.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Subham Jhunjhunwala's expertise in Section 17(5) blocked credit and the Safari Retreats judgment was exactly what our works contract dispute needed. The GSTAT appeal was filed within 5 weeks of engagement.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -540,7 +540,7 @@
 </div>
 <div class="testimonial-card" style="padding:20px;background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin:0 8px;min-height:220px;display:flex;flex-direction:column;justify-content:space-between;">
     <div style="color:var(--orange);font-size:28px;line-height:1;margin-bottom:8px;">&ldquo;</div>
-    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Surbhi Premi's expertise in Section 17(5) blocked credit and the Safari Retreats judgment was exactly what our works contract dispute needed. The GSTAT appeal was filed within 5 weeks of engagement.</div>
+    <div style="font-size:13px;color:var(--text-dark);line-height:1.6;flex:1;">Subham Jhunjhunwala's expertise in Section 17(5) blocked credit and the Safari Retreats judgment was exactly what our works contract dispute needed. The GSTAT appeal was filed within 5 weeks of engagement.</div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:16px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#0D9488;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;flex-shrink:0;">CF</div>
         <div>
@@ -584,7 +584,7 @@
                 </div>
                 <div class="reviews-cta-text">
                     <h3 style="color:#FFFFFF !important;margin-top:0;">Join 10,000+ Satisfied Businesses</h3>
-                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Practice by Former LKS Partner</p>
+                    <p>10,000+ Businesses Served | 4.9 Google Rating | GSTAT Appeal Support by Patron Accounting</p>
                 </div>
             </div>
             <a href="tel:+919459456700" class="btn-cta">
@@ -661,11 +661,27 @@
     </div>
 </section>
 
-<!-- OF-COUNSEL PROFILE SECTION -->
+<!-- TEAM PROFILE SECTION -->
 <section class="content-section" id="oc-profile-section" style="padding-top:0;">
     <div class="content-container">
         <div class="text-content">
-            <div class="oc-profile"><img src="/images/team/surbhi-premi.png" alt="Surbhi Premi - Advocate and Chartered Accountant, Of-Counsel to Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy"><div class="oc-info"><div class="oc-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Of-Counsel - GSTAT Practice Lead</div><h3 class="oc-name">Surbhi Premi</h3><p class="oc-title">Advocate &amp; Chartered Accountant | Diploma in IFRS (ACCA, UK)</p><div class="oc-highlights"><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Former Partner, Lakshmikumaran &amp; Sridharan</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>15+ Years GST, Customs &amp; FTP</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Goldman Sachs Alumni</span><span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>500+ Large Domestic &amp; MNC Clients</span></div><p class="oc-bio">Surbhi Premi led the Indirect Tax practice at Lakshmikumaran &amp; Sridharan as Partner and served on LKS Team Velocity. Her Goldman Sachs background and deep expertise in GST enables viable solutions for complex manufacturing ITC mismatch disputes, job work classification issues, and blocked credit challenges at GSTAT.</p><div class="oc-pubs"><span class="oc-pub-badge">Financial Express</span><span class="oc-pub-badge">Hindu Business Line</span><span class="oc-pub-badge">India Business Law Journal</span><span class="oc-pub-badge">Taxsutra</span><span class="oc-pub-badge">TIOL</span><span class="oc-pub-badge">VIL</span></div></div></div>
+            <div class="oc-profile">
+    <img src="/images/team/subham-jhunjhunwala.png" alt="Subham Jhunjhunwala - CA Finalist and Accounting and Tax Professional at Patron Accounting" class="oc-photo" width="130" height="130" loading="lazy">
+    <div class="oc-info">
+        <div class="oc-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Accounting &amp; Tax Professional
+        </div>
+        <h3 class="oc-name">Subham Jhunjhunwala</h3>
+        <p class="oc-title">CA Finalist | Graduate</p>
+        <div class="oc-highlights">
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CA Finalist</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Accounting &amp; Taxation</span>
+            <span class="oc-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>GST &amp; Compliance</span>
+        </div>
+        <p class="oc-bio">Subham Jhunjhunwala is a CA Finalist and Accounting &amp; Tax Professional at Patron Accounting LLP, focused on accounting, taxation, and compliance. He works alongside the firm&#39;s CA and CS team on GST and GSTAT appeal matters.</p>
+    </div>
+</div>
         </div>
     </div>
 </section>
@@ -726,7 +742,7 @@
                     <tr><td>ITC Reversal Assessment and Pre-Deposit Strategy</td><td>Detailed analysis of ITC reversal demand under Section 17(5) and calculation of exact pre-deposit under Section 112(8)</td></tr>
                     <tr><td>Grounds of Appeal and Form GST APL-05 Filing</td><td>Comprehensive grounds addressing Section 17(5)(c), (d), Rule 42 proportionate reversal, job work classification, and e-filing on <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">efiling.gstat.gov.in</a></td></tr>
                     <tr><td>Stay of Recovery Under Section 112(9)</td><td>Automatic stay of remaining disputed amount during GSTAT proceedings, protecting working capital</td></tr>
-                    <tr><td>Hearing Representation</td><td>Advocacy before relevant GSTAT bench led by of-counsel Advocate Surbhi Premi</td></tr>
+                    <tr><td>Hearing Representation</td><td>Advocacy before the relevant GSTAT bench, coordinated by Subham Jhunjhunwala with the firm's CA and CS team</td></tr>
                     <tr><td>Works Contract and JDA Dispute Strategy</td><td>Specialist advisory on reclassification arguments drawing on Safari Retreats SC judgment</td></tr>
                     <tr><td>High Court Writ Under Article 226</td><td>Alternative remedy where GSTAT is unavailable, time-barred, or jurisdictional error exists</td></tr>
                 </tbody></table></div>
@@ -771,7 +787,7 @@
         <div class="text-content">
                 <h2 class="section-title">4 Common Challenges in Manufacturer GSTAT Appeals</h2>
                 <h3>Incorrect ITC Reversal Calculation Under Rule 42 and Rule 43</h3><p>Tax authorities frequently compute ITC reversal on the entire project input rather than the proportionate share. In our experience, errors in the denominator of the Rule 42 formula are among the most common grounds for successful appeals.</p>
-                <h3>Overbroad Application of Section 17(5) Blocked Credit</h3><p>Authorities apply the blocked credit provision to inputs that qualify as plant and machinery or to scenarios where the developer constructs for further taxable supply. Surbhi Premi notes the failure to distinguish between construction for own account (blocked) and construction for sale (eligible) - upheld by the Supreme Court in the <strong>Safari Retreats judgment of October 2024</strong>.</p>
+                <h3>Overbroad Application of Section 17(5) Blocked Credit</h3><p>Authorities apply the blocked credit provision to inputs that qualify as plant and machinery or to scenarios where the developer constructs for further taxable supply. Subham Jhunjhunwala notes the failure to distinguish between construction for own account (blocked) and construction for sale (eligible) - upheld by the Supreme Court in the <strong>Safari Retreats judgment of October 2024</strong>.</p>
                 <h3>JDA Development Rights ITC Denial</h3><p>Developers under Joint Development Agreements face ITC denial on reverse charge GST paid on development rights, where the authority treats the JDA as a land transaction rather than a service supply.</p>
                 <h3>Pre-Deposit Calculation Errors Causing Admission Rejection</h3><p>For manufacturing disputes with large demand amounts, the interplay between Section 107(6) first appeal deposit and Section 112(8) GSTAT deposit requires precise calculation.</p>
                 <div class="highlight-box" style="background:var(--blue-lighter);border-radius:var(--radius-md);padding:20px 24px;margin-top:24px;"><p style="margin:0;font-size:14px;"><strong>Illustrative Scenario:</strong> A manufacturing company with Rs 200 crore turnover received a demand of Rs 4.5 crore for ITC mismatch. The first appellate authority upheld the demand in full. Patron Accounting's GSTAT team demonstrated that no statutory mandate existed to match ITC with GSTR-2A prior to January 2022, calculated precise pre-deposit under Section 112(8), and applied for stay under Section 112(9) - resulting in admission with automatic stay, protecting over Rs 3.5 crore of working capital.</p></div>
@@ -814,7 +830,7 @@
                 <h2 class="section-title">Why Choose Patron Accounting for Manufacturer GSTAT Appeals</h2>
                 <div class="features-grid">
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Manufacturing ITC Expertise</h3><p>Deep knowledge of Section 17(5) blocked credit, Rule 42/43 reversal, job work classification, and Safari Retreats SC judgment implications.</p></div>
-                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Of-Counsel Depth</h3><p>Surbhi Premi's LKS partnership, Goldman Sachs background, and LKS Team Velocity experience provide rare GSTAT litigation expertise.</p></div>
+                    <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h3>Specialist Support</h3><p>Subham Jhunjhunwala, supported by the firm's CA and CS team, provides hands-on GSTAT appeal preparation.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>10,000+ Businesses Served</h3><p>4.9 Google rating, 15+ years. Pan-India representation across Principal and State Benches.</p></div>
                     <div class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Manufacturing Jurisdiction Coverage</h3><p>Offices in Pune, Mumbai, Delhi, Gurugram. Representation at Mumbai, Chennai, Ahmedabad, Lucknow, Kolkata - covering all major manufacturing jurisdictions.</p></div>
                 </div>
@@ -963,7 +979,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">The 3-Month GSTAT Deadline Is Running - Contact Us for Manufacturer ITC Disputes</h2>
             <div class="content-text" style="text-align:left;">
                 <p>Manufacturers facing ITC mismatch demands under GST have a significant opportunity to challenge adverse orders before GSTAT - the highest fact-finding authority in GST litigation. The appeal process requires precise pre-deposit calculation under Section 112(8), careful assessment of the specific ITC reversal provisions, and timely filing within the 3-month limitation under Section 112(1).</p>
-                <p>Patron Accounting's GSTAT practice, led by of-counsel Advocate Surbhi Premi - former Partner at Lakshmikumaran and Sridharan and a specialist in GST, Customs, and Foreign Trade Policy - brings over 15 years of indirect tax litigation depth to every GSTAT engagement.</p>
+                <p>Patron Accounting's GSTAT practice is supported by Subham Jhunjhunwala, CA Finalist and Accounting &amp; Tax Professional, working alongside the firm's CA and CS team on every GSTAT engagement.</p>
             <div class="conclusion-cta-row" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
                 <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20a%20GSTAT%20appeal%20for%20a%20manufacturer%20ITC%20mismatch%20dispute.%20Please%20contact%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>

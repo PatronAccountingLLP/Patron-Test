@@ -562,7 +562,6 @@ $cleanup404Gone = [
     '/income-tax-depreciation-rate',
     '/income-tax-litigation',
     '/index.html',
-    '/index.php/blog/zoho-books-gstr-1-gstr-3b-filing-guide',
     '/international-fema-services',
     '/itr-filingfor-freelancers-professionals/pune',
     '/job-opening',

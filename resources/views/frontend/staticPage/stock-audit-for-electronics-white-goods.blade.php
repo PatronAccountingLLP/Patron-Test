@@ -46,7 +46,7 @@
 
 /* ===== BEGIN faq.css (synced from patronmain/css/faq.css) ===== */
 /* ============================================================
-   Patron Accounting — Unified Expanded FAQ (two-column)
+   Patron Accounting - Unified Expanded FAQ (two-column)
    ------------------------------------------------------------
    SINGLE SOURCE OF TRUTH for every FAQ section sitewide
    (service pages, city pages, blog posts, tools, calculators).
@@ -358,7 +358,7 @@
 /* ---------- Stack on tablet / mobile ---------- */
 @media (max-width: 900px) {
     /* Single column. Unwrap the aside (display:contents) so heading / lead /
-       form become reorderable siblings of the list — this also stops the
+       form become reorderable siblings of the list - this also stops the
        desktop-sticky aside from overlapping the scrolling list. */
     .faq-expanded {
         display: flex;
@@ -477,7 +477,7 @@
             font-weight: 700; color: var(--text-primary);
             min-width: 160px;
         }
-        /* Amount column — right-align only on tables with .table-amount class */
+        /* Amount column - right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
         /* Section 8 / primary entity highlight column in comparison tables */
         .table-comparison td:nth-child(2),
@@ -498,7 +498,7 @@
         .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
 
         /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
+           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
            ============================================ */
         .expert-attribution-box {
             background: #F9F9F9;
@@ -768,7 +768,7 @@
         .cert-item svg { width: 18px; height: 18px; }
 
         /* ============================================
-           TOC NAVIGATION — Plan 2.2
+           TOC NAVIGATION - Plan 2.2
            ============================================ */
         .toc-section {
             background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
@@ -901,7 +901,7 @@
             font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
         }
 
-        /* Process Evidence Screenshot — Plan 3.2 */
+        /* Process Evidence Screenshot - Plan 3.2 */
         .process-screenshot-details { margin-top: 14px; }
         .process-screenshot-details summary {
             font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
@@ -1339,7 +1339,7 @@
 .pa-open{background:#FDE8D6;color:#9A3412;border:1px solid #F2C09A;border-radius:5px;
   padding:1px 6px;font-weight:700;font-size:.92em;white-space:nowrap}
 /* pa-offsite marks a link whose destination is not in this local build. It used to draw a
-   dotted underline and an arrow, which is fine on a link-audit view and wrong on the page -
+   dotted underline and an arrow, which is fine on a link-audit view and wrong on the page
    these are ordinary content links and should read as ordinary links, with the address in the
    href and nothing but the anchor text on screen. The class stays so the links can still be
    found programmatically; it just no longer decorates them. */
@@ -1702,7 +1702,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 /* Stats bar. Live runs four stats and two certifications on one centred row, the
    certifications divided off by a left border. Four stats carrying a description are wider
-   than that row can hold, so live's own wrapped state - the one its <=1100px rule defines -
+   than that row can hold, so live's own wrapped state - the one its <=1100px rule defines
    is applied at every width: certifications centred on their own line under a rule. The row
    above keeps live's centring and spacing untouched. */
 .stats-container{align-items:flex-start !important;gap:26px 44px !important}
@@ -2332,9 +2332,9 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
             <h2 class="section-title">Records We Work From</h2>
             <div class="content-text">
                 
-                <ul class="pa-doc-list"><li><strong>Serial Master and Dispatch Records</strong> — The serial master with dispatch history, so identifiers found on the floor can be reconciled three ways across the white goods industry holding rather than netted into a variance.</li>
-<li><strong>Consignment Agreements With Dealers</strong> — The agreements that decide when title passes on stock standing at a dealer. The entire consignment position rests on this document rather than on where the units are.</li>
-<li><strong>Warranty Return and Refurbishment Registers</strong> — Units returned, assessed, repaired or scrapped, with dates. Without this, returned stock sits at cost with nobody able to say how long it has been waiting.</li></ul>
+                <ul class="pa-doc-list"><li><strong>Serial Master and Dispatch Records</strong> - The serial master with dispatch history, so identifiers found on the floor can be reconciled three ways across the white goods industry holding rather than netted into a variance.</li>
+<li><strong>Consignment Agreements With Dealers</strong> - The agreements that decide when title passes on stock standing at a dealer. The entire consignment position rests on this document rather than on where the units are.</li>
+<li><strong>Warranty Return and Refurbishment Registers</strong> - Units returned, assessed, repaired or scrapped, with dates. Without this, returned stock sits at cost with nobody able to say how long it has been waiting.</li></ul>
 
             </div>
         </div>
@@ -2570,7 +2570,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION — Update these values
+    // CONFIGURATION - Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2747,7 +2747,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
     function renderReviews(reviews) {
         const slider = document.getElementById('testimonialSlider');
         const loading = document.getElementById('testiLoading');
-        // Static cards already in DOM — just init Slick if not already done
+        // Static cards already in DOM - just init Slick if not already done
         if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
             if (loading) loading.style.display = 'none';
             initSlick(slider);
@@ -2801,7 +2801,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set — using fallback reviews.');
+            console.log('[Testimonials] No Google API key set - using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2816,7 +2816,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2847,7 +2847,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2897,7 +2897,7 @@ function toggleTestiVideo(area) {
 </script>
 
 <!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
      ============================================ -->
 <script>
 // Country Data (46 countries)
@@ -3247,7 +3247,7 @@ window.addEventListener('scroll', function() {
   <div class="pa-modal-box">
     <div class="pa-modal-head">
       <span class="pa-modal-mark">S</span>
-      <span class="pa-modal-title" id="paDemoTitle">Stoklenz &mdash; interactive demo</span>
+      <span class="pa-modal-title" id="paDemoTitle">Stoklenz: interactive demo</span>
       <a class="pa-modal-out" href="https://stocklens.reacttor.in/demo" target="_blank" rel="noopener">Open in new tab</a>
       <button class="pa-modal-x" type="button" data-close aria-label="Close demo">&times;</button>
     </div>
@@ -3259,7 +3259,7 @@ window.addEventListener('scroll', function() {
            GPS stamp land in the same second. The demo runs the whole loop.</p>
         <a class="pa-modal-go" href="https://stocklens.reacttor.in/demo" target="_blank" rel="noopener">
           Open the demo &rarr;</a>
-        <span class="pa-modal-small">Opens in a new tab &mdash; the demo is hosted on
+        <span class="pa-modal-small">Opens in a new tab. The demo is hosted on
           stocklens.reacttor.in</span>
       </div></div>
   </div>

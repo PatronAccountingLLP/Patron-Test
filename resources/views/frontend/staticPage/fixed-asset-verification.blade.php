@@ -46,7 +46,7 @@
 
 /* ===== BEGIN faq.css (synced from patronmain/css/faq.css) ===== */
 /* ============================================================
-   Patron Accounting — Unified Expanded FAQ (two-column)
+   Patron Accounting - Unified Expanded FAQ (two-column)
    ------------------------------------------------------------
    SINGLE SOURCE OF TRUTH for every FAQ section sitewide
    (service pages, city pages, blog posts, tools, calculators).
@@ -358,7 +358,7 @@
 /* ---------- Stack on tablet / mobile ---------- */
 @media (max-width: 900px) {
     /* Single column. Unwrap the aside (display:contents) so heading / lead /
-       form become reorderable siblings of the list — this also stops the
+       form become reorderable siblings of the list - this also stops the
        desktop-sticky aside from overlapping the scrolling list. */
     .faq-expanded {
         display: flex;
@@ -477,7 +477,7 @@
             font-weight: 700; color: var(--text-primary);
             min-width: 160px;
         }
-        /* Amount column — right-align only on tables with .table-amount class */
+        /* Amount column - right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
         /* Section 8 / primary entity highlight column in comparison tables */
         .table-comparison td:nth-child(2),
@@ -498,7 +498,7 @@
         .table-responsive-wrapper table tbody tr:last-child td { border-bottom: none !important; }
 
         /* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
+           EXPERT ATTRIBUTION BOX (E-E-A-T) - Plan 3.1
            ============================================ */
         .expert-attribution-box {
             background: #F9F9F9;
@@ -768,7 +768,7 @@
         .cert-item svg { width: 18px; height: 18px; }
 
         /* ============================================
-           TOC NAVIGATION — Plan 2.2
+           TOC NAVIGATION - Plan 2.2
            ============================================ */
         .toc-section {
             background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
@@ -901,7 +901,7 @@
             font-size: 64px; font-weight: 800; color: rgba(27,54,93,0.06); line-height: 1;
         }
 
-        /* Process Evidence Screenshot — Plan 3.2 */
+        /* Process Evidence Screenshot - Plan 3.2 */
         .process-screenshot-details { margin-top: 14px; }
         .process-screenshot-details summary {
             font-size: 13px; font-weight: 600; color: var(--orange); cursor: pointer;
@@ -1339,7 +1339,7 @@
 .pa-open{background:#FDE8D6;color:#9A3412;border:1px solid #F2C09A;border-radius:5px;
   padding:1px 6px;font-weight:700;font-size:.92em;white-space:nowrap}
 /* pa-offsite marks a link whose destination is not in this local build. It used to draw a
-   dotted underline and an arrow, which is fine on a link-audit view and wrong on the page -
+   dotted underline and an arrow, which is fine on a link-audit view and wrong on the page
    these are ordinary content links and should read as ordinary links, with the address in the
    href and nothing but the anchor text on screen. The class stays so the links can still be
    found programmatically; it just no longer decorates them. */
@@ -1702,7 +1702,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 /* Stats bar. Live runs four stats and two certifications on one centred row, the
    certifications divided off by a left border. Four stats carrying a description are wider
-   than that row can hold, so live's own wrapped state - the one its <=1100px rule defines -
+   than that row can hold, so live's own wrapped state - the one its <=1100px rule defines
    is applied at every width: certifications centred on their own line under a rule. The row
    above keeps live's centring and spacing untouched. */
 .stats-container{align-items:flex-start !important;gap:26px 44px !important}
@@ -2315,9 +2315,9 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
             <h2 class="section-title">What the Auditor Asks For First</h2>
             <div class="content-text">
                 
-                <ul class="pa-doc-list"><li><strong>The Fixed Asset Register With Dates and Written Down Values</strong> — The full fixed asset register with capitalisation date, cost, depreciation method and written down value per line. Exceptions can only be quantified in money where each line carries a value.</li>
-<li><strong>Capex Approvals, Invoices and Installation Records</strong> — Approvals and supplier invoices for additions in the period, with installation or commissioning records where an asset entered service later than it was bought. Asset verification tests these against what stands on the floor.</li>
-<li><strong>Disposal, Scrap and Inter-Site Transfer Notes</strong> — Records of anything that left, was scrapped or moved between locations. These are the entries most often missing, and their absence is what turns a register line into a ghost asset.</li></ul>
+                <ul class="pa-doc-list"><li><strong>The Fixed Asset Register With Dates and Written Down Values</strong> - The full fixed asset register with capitalisation date, cost, depreciation method and written down value per line. Exceptions can only be quantified in money where each line carries a value.</li>
+<li><strong>Capex Approvals, Invoices and Installation Records</strong> - Approvals and supplier invoices for additions in the period, with installation or commissioning records where an asset entered service later than it was bought. Asset verification tests these against what stands on the floor.</li>
+<li><strong>Disposal, Scrap and Inter-Site Transfer Notes</strong> - Records of anything that left, was scrapped or moved between locations. These are the entries most often missing, and their absence is what turns a register line into a ghost asset.</li></ul>
 
             </div>
         <div class="pa-tool"><span class="pa-tool-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg></span><div class="pa-tool-b"><h3>Download the Verification Checklist We Use On Site</h3><p>The same checklist the team works from: register fields that must be populated, evidence retained per asset, and the three ways an exception can be classified.</p><a class="pa-tool-btn" href="/tools/stock-statement-template">Download the checklist &rarr;</a></div></div><div class="pa-tool-note"><strong>Using It to Prepare the Register Before the Visit</strong> Running it against your own register first surfaces blank custodian and location fields while there is still time to populate them, which is where most fieldwork delay comes from.</div></div>
@@ -2587,7 +2587,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <script>
 (function() {
     // ============================================
-    // CONFIGURATION — Update these values
+    // CONFIGURATION - Update these values
     // ============================================
     const CONFIG = {
         googleApiKey: '',    // Get from Google Cloud Console → APIs & Services → Credentials
@@ -2764,7 +2764,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
     function renderReviews(reviews) {
         const slider = document.getElementById('testimonialSlider');
         const loading = document.getElementById('testiLoading');
-        // Static cards already in DOM — just init Slick if not already done
+        // Static cards already in DOM - just init Slick if not already done
         if (slider.children.length > 0 && !$(slider).hasClass('slick-initialized')) {
             if (loading) loading.style.display = 'none';
             initSlick(slider);
@@ -2818,7 +2818,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
     function fetchGMBReviews() {
         // If API key not set, use fallback
         if (!CONFIG.googleApiKey || CONFIG.googleApiKey === '') {
-            console.log('[Testimonials] No Google API key set — using fallback reviews.');
+            console.log('[Testimonials] No Google API key set - using fallback reviews.');
             renderReviews(CONFIG.fallbackReviews);
             return;
         }
@@ -2833,7 +2833,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
         script.async = true;
         script.defer = true;
         script.onerror = function() {
-            console.log('[Testimonials] Failed to load Google Maps API — using fallback.');
+            console.log('[Testimonials] Failed to load Google Maps API - using fallback.');
             renderReviews(CONFIG.fallbackReviews);
         };
         document.head.appendChild(script);
@@ -2864,7 +2864,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
                     renderReviews([...videoTestimonials, ...gmbReviews]);
                 } else {
-                    console.log('[Testimonials] Google Places returned no reviews — using fallback.');
+                    console.log('[Testimonials] Google Places returned no reviews - using fallback.');
                     renderReviews(CONFIG.fallbackReviews);
                 }
             });
@@ -2914,7 +2914,7 @@ function toggleTestiVideo(area) {
 </script>
 
 <!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
      ============================================ -->
 <script>
 // Country Data (46 countries)

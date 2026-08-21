@@ -62,14 +62,9 @@
     $schemaDescription = $post->meta_description
         ?: ($post->key_points ? Str::limit(strip_tags($post->key_points), 160) : null)
         ?: ($post->excerpt ?: Str::limit(strip_tags($post->content), 160));
-    // Only two author hubs exist as routes; every other slug 404s. Pointing
-    // schema.org author.url at a 404 tells Google the author entity lives at a
-    // dead URL, so the url key is omitted unless the page is really there.
-    // /authorhub/ca-poonam-kadge was doing exactly that across 195 posts.
-    $authorHubSlugs  = ['ca-puja-pradhan', 'ca-sundram-gupta'];
-    $primaryAuthorSlug = $primaryAuthor ? \Str::slug($primaryAuthor->name) : null;
-    $authorHasHub    = $primaryAuthorSlug && in_array($primaryAuthorSlug, $authorHubSlugs, true);
-    $schemaAuthorUrl = $authorHasHub ? url('/authorhub/' . $primaryAuthorSlug) : null;
+    $schemaAuthorUrl = $primaryAuthor
+        ? url('/authorhub/' . \Str::slug($primaryAuthor->name))
+        : null;
     $schemaUrl = $post->seo_canonical_url ?: url()->current();
 @endphp
 <script type="application/ld+json">
@@ -94,9 +89,8 @@
       @if($primaryAuthor)
       "author": {
         "@type": "Person",
-        "name": @json($primaryAuthor->name)@if($schemaAuthorUrl),
-        "url": @json($schemaAuthorUrl)@endif
-
+        "name": @json($primaryAuthor->name),
+        "url": @json($schemaAuthorUrl)
       },
       @endif
       "publisher": {
@@ -998,15 +992,10 @@
 
       @if($primaryAuthor)
         @php
-          // The byline linked to /authorhub/{slug} for every author, but only the two
-          // slugs in $authorHubSlugs have a route. Everyone else 404d - ca-poonam-kadge
-          // alone accounted for 195 broken links. The attribution is real and stays
-          // visible either way; it just stops being a link when there is nothing to
-          // link to. Add a slug to $authorHubSlugs (top of this file) when its hub ships.
-          $authorUrl = $authorHasHub ? url('/authorhub/' . $primaryAuthorSlug) : null;
+          $authorSlug = Str::slug($primaryAuthor->name);
+          $authorUrl = url('/authorhub/' . $authorSlug);
         @endphp
-        <{{ $authorUrl ? 'a' : 'div' }} class="pbd-hero-author"
-          @if($authorUrl) href="{{ $authorUrl }}" aria-label="View author profile: {{ $primaryAuthor->name }}" @endif>
+        <a class="pbd-hero-author" href="{{ $authorUrl }}" aria-label="View author profile: {{ $primaryAuthor->name }}">
           <div class="pbd-hero-author-avatar-wrap" aria-hidden="true">
             @if($primaryAuthor->profile_image)
               <img class="pbd-hero-author-avatar pbd-hero-author-avatar-img" src="{{ Storage::url($primaryAuthor->profile_image) }}" alt="" loading="eager" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
@@ -1017,12 +1006,10 @@
           </div>
           <div class="pbd-hero-author-text">
             <p class="pbd-hero-author-name">{{ $primaryAuthor->name }}</p>
-            <p class="pbd-hero-author-byline">Chartered Accountant@if($authorUrl) · <span class="pbd-hero-author-cta">View profile</span>@endif</p>
+            <p class="pbd-hero-author-byline">Chartered Accountant · <span class="pbd-hero-author-cta">View profile</span></p>
           </div>
-          @if($authorUrl)
           <svg class="pbd-hero-author-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
-          @endif
-        </{{ $authorUrl ? 'a' : 'div' }}>
+        </a>
       @endif
 
       @if($post->featured_image)

@@ -226,12 +226,27 @@
                 {!! $content->content !!}
             </div>
 
-            {{-- Internal linking (related HSN codes) — preserved exactly, now styled as clean pills --}}
-            @if(isset($content['Interlink_page']))
-                <div class="interlink-page main-content">
-                    {!! $content['Interlink_page'] !!}
-                </div>
-            @endif
+            {{-- The "More HSN codes from Chapter NN" grid used to render here, from the stored
+                 Interlink_page HTML. Removed 2026-08-21: it was the largest single source of
+                 broken internal links on the site.
+
+                 The grid was built from the tariff code range rather than from pages that
+                 exist, so it linked to three different things without distinguishing them.
+                 Chapter 90 is typical - 90258030 and 90259000 are live 200s, 90275010 and
+                 90278010 are retired and return 410, and 90278020 / 90278030 / 90278040 /
+                 90278090 / 90278100 return 404 because they never had a page at all.
+
+                 That last group is why the cleanup plan's fix ("one query change - exclude
+                 retired codes") would not have worked. Most of these dead links are not
+                 retired codes; they are codes with no page. Filtering the 410 list leaves
+                 every 404 behind.
+
+                 The HTML lives in the Interlink_page column of the production database, so
+                 cleaning it in place means a data migration across hsn_code_data. Dropping
+                 the block clears every broken link immediately, at the cost of the sibling
+                 linking on the ~5,248 pages that are still live. To bring that back, rebuild
+                 the grid from a query over codes that actually resolve and render it here,
+                 rather than trusting stored HTML. --}}
         </main>
 
         {{-- ---------------- RIGHT: one swappable image banner ---------------- --}}

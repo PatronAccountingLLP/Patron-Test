@@ -29,14 +29,27 @@
 .pa-h-cols{flex:1;display:flex;gap:36px;flex-wrap:nowrap}
 .pa-h-col{flex:1 1 0;min-width:0;display:flex;flex-direction:column}
 .pa-h-colhead{font-weight:700;font-size:13.5px;color:#15365f;text-decoration:none;padding-bottom:11px;margin-bottom:13px;border-bottom:1px solid #eef1f6}
+.pa-h-colhead--plain{cursor:default}
+.pa-h-colhead--plain:hover{color:#15365f}
+.pa-m-colhead--plain{cursor:default}
 .pa-h-colhead:hover{color:#f26522}
 .pa-h-link{color:#5c6b7e;font-weight:500;font-size:13.5px;text-decoration:none;padding:5px 0;transition:color .15s}
 .pa-h-link:hover{color:#f26522}
+.pa-h-hublink{color:#15365f;font-weight:700}
+.pa-m-hublink{color:#15365f;font-weight:700}
 .pa-h-viewall{font-weight:700;font-size:12px;letter-spacing:.04em;color:#f26522;text-decoration:none;margin-top:11px}
 .pa-h-feature{flex:0 0 250px;background:#15365f;border-radius:13px;padding:24px;color:#fff;display:flex;flex-direction:column;justify-content:center}
 .pa-h-feature-t{font-weight:800;font-size:17px;margin-bottom:9px}
 .pa-h-feature p{font-size:13px;line-height:1.6;color:#b5c2d4;margin:0 0 18px}
 .pa-h-feature-btn{align-self:flex-start;background:#f26522;color:#fff;font-weight:700;font-size:13px;padding:11px 17px;border-radius:8px;text-decoration:none}
+/* 4-column tabs (Accounting, Registration, Compliance) drop the feature card and widen */
+.pa-h-panel--wide{width:1200px}
+.pa-h-panel--wide .pa-h-cols{gap:26px}
+.pa-h-panel--wide .pa-h-col{flex:1 1 0;min-width:0}
+@media(max-width:1300px){.pa-h-panel--wide{width:96vw}}
+/* single-column tabs keep the panel tight instead of stretching one list */
+.pa-h-panel--narrow{width:660px}
+@media(max-width:760px){.pa-h-panel--narrow{width:94vw}}
 .pa-h-panel--more{left:auto;right:0;transform:none;width:auto;min-width:208px;flex-direction:column;gap:0;padding:8px;border:1px solid #e6ebf2;border-top:3px solid #f26522;border-radius:11px}
 .pa-h-morelink{color:#1e3a5c;font-weight:600;font-size:13.5px;text-decoration:none;padding:8px 12px;border-radius:8px;white-space:nowrap;transition:color .15s,background .15s}
 .pa-h-morelink:hover{color:#f26522;background:#f7f9fc}
@@ -89,6 +102,7 @@ body .content-section[id]{scroll-margin-top:150px}
 .pa-m-acc.pa-open .pa-m-accbody{display:grid}
 .pa-m-colgroup{margin-bottom:14px;min-width:0}
 .pa-m-colhead{display:block;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#f26522;text-decoration:none;margin-bottom:9px}
+.pa-m-viewall{font-weight:700;font-size:12px;letter-spacing:.04em;color:#f26522}
 .pa-m-link{display:block;color:#5c6b7e;font-weight:500;font-size:14px;text-decoration:none;padding:6px 0}
 .pa-m-morelink{display:flex;align-items:center;justify-content:space-between;color:#5c6b7e;font-weight:600;font-size:14px;text-decoration:none;padding:11px 0}
 .pa-m-cta{display:flex;align-items:center;justify-content:center;width:100%;margin-top:18px;text-align:center}
@@ -106,145 +120,159 @@ body .content-section[id]{scroll-margin-top:150px}
     <nav class="pa-h-nav" aria-label="Primary">
       <ul class="pa-h-menu">
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Registrations<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button">Accounting<i class="pa-caret"></i></button>
+        <div class="pa-h-panel pa-h-panel--wide">
+          <div class="pa-h-cols">
+        <div class="pa-h-col">
+          <a class="pa-h-colhead" href="/accounting-bookkeeping-services">Accounting Services</a>
+          <a class="pa-h-link pa-h-hublink" href="/accounting-bookkeeping-services">Accounting &amp; Bookkeeping Services</a>
+          <a class="pa-h-link" href="/accounting-services">Accounting Services</a><a class="pa-h-link" href="/backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-Up</a><a class="pa-h-link" href="/financial-statement-preparation-services">Financial Statement Preparation</a><a class="pa-h-link" href="/year-end-closing-finalisation-services">Year-End Closing &amp; Finalisation</a><a class="pa-h-link" href="/mis-reporting-services">MIS Reporting</a><a class="pa-h-link" href="/accounts-payable-outsourcing-services">Accounts Payable Outsourcing</a><a class="pa-h-link" href="/accounts-receivable-outsourcing-services">Accounts Receivable Outsourcing</a><a class="pa-h-link" href="/bank-credit-card-reconciliation-services">Bank &amp; Credit Card Reconciliation</a>
+          <a class="pa-h-viewall" href="/accounting-bookkeeping-services">View all &rarr;</a>
+        </div>
+        <div class="pa-h-col">
+          <a class="pa-h-colhead" href="/accounting-bookkeeping-services">Accounting Software</a>
+          <a class="pa-h-link" href="/zoho-books-accounting">Zoho Books Accounting</a><a class="pa-h-link" href="/xero-accounting">Xero Accounting</a><a class="pa-h-link" href="/tally-accounting">Tally Accounting</a><a class="pa-h-link" href="/odoo-accounting">Odoo Accounting</a><a class="pa-h-link" href="/migration-from-tally-to-zoho">Tally to Zoho Migration</a><a class="pa-h-link" href="/migration-from-tally-to-odoo">Tally to Odoo Migration</a>
+          <a class="pa-h-viewall" href="/accounting-bookkeeping-services">View all &rarr;</a>
+        </div>
+        <div class="pa-h-col">
+          <a class="pa-h-colhead" href="/accounting-bookkeeping-services">Accounting by Industry</a>
+          <a class="pa-h-link" href="/accounting-services-for-e-commerce-industry">E-commerce</a><a class="pa-h-link" href="/accounting-services-for-startups">Startups</a><a class="pa-h-link" href="/accounting-services-for-manufacturing">Manufacturing</a><a class="pa-h-link" href="/accounting-services-for-retail">Retail</a><a class="pa-h-link" href="/accounting-services-it-saas">IT &amp; SaaS</a><a class="pa-h-link" href="/accounting-services-for-education-industry">Education</a><a class="pa-h-link" href="/healthcare-sector-accounting-services">Healthcare</a><a class="pa-h-link" href="/construction-and-real-estate-accounting-services">Construction &amp; Real Estate</a>
+          <a class="pa-h-viewall" href="/accounting-bookkeeping-services">View all &rarr;</a>
+        </div>
+        <div class="pa-h-col">
+          <span class="pa-h-colhead pa-h-colhead--plain">Payroll Services</span>
+          <a class="pa-h-link" href="/payroll-services">Payroll Services in India</a><a class="pa-h-link" href="/payroll-processing-and-management-services">Payroll Processing &amp; Management</a><a class="pa-h-link" href="/pf-registration">PF Registration</a><a class="pa-h-link" href="/esic-registration">ESIC Registration</a><a class="pa-h-link" href="/pf-return">PF Return</a><a class="pa-h-link" href="/esic-return">ESIC Return</a><a class="pa-h-link" href="/pt-returns">Professional Tax Returns</a><a class="pa-h-link" href="/gratuity-calculation-and-compliance-services">Gratuity Compliance</a><a class="pa-h-link" href="/eor-india">EOR India</a>
+          <a class="pa-h-viewall" href="/payroll-services">View all &rarr;</a>
+        </div>
+        </div>
+        </div>
+      </li>
+      <li class="pa-h-item">
+        <button class="pa-h-tab" type="button">Registration<i class="pa-caret"></i></button>
+        <div class="pa-h-panel pa-h-panel--wide">
+          <div class="pa-h-cols">
+        <div class="pa-h-col">
+          <a class="pa-h-colhead" href="/business-registration-services">Business Registrations</a>
+          <a class="pa-h-link pa-h-hublink" href="/business-registration-services">Business Registration Services</a>
+          <a class="pa-h-link" href="/private-limited-company-registration">Private Limited Company</a><a class="pa-h-link" href="/llp-incorporation">LLP Registration</a><a class="pa-h-link" href="/one-person-company-registration">One Person Company</a><a class="pa-h-link" href="/partnership-firm-registration">Partnership Firm</a><a class="pa-h-link" href="/proprietorship-registration">Proprietorship</a><a class="pa-h-link" href="/section8-company-registration">Section 8 Company</a><a class="pa-h-link" href="/startup-registration">Startup India Registration</a><a class="pa-h-link" href="/foreign-subsidiary-registration-india">Foreign Subsidiary in India</a>
+          <a class="pa-h-viewall" href="/business-registration-services">View all &rarr;</a>
+        </div>
+        <div class="pa-h-col">
+          <span class="pa-h-colhead pa-h-colhead--plain">Tax Registrations</span>
+          <a class="pa-h-link" href="/gst-registration">GST Registration</a><a class="pa-h-link" href="/pan-registration">PAN Registration</a><a class="pa-h-link" href="/tan-registration">TAN Registration</a><a class="pa-h-link" href="/udyam-registration">Udyam / MSME Registration</a><a class="pa-h-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-h-link" href="/dsc-registration">Digital Signature (DSC)</a><a class="pa-h-link" href="/12a-registration">12A Registration</a><a class="pa-h-link" href="/80g-registration">80G Registration</a>
+        </div>
+        <div class="pa-h-col">
+          <span class="pa-h-colhead pa-h-colhead--plain">Licenses &amp; Certifications</span>
+          <a class="pa-h-link" href="/fssai-registration">FSSAI Registration</a><a class="pa-h-link" href="/fssai-state-license">FSSAI State License</a><a class="pa-h-link" href="/fssai-central-license">FSSAI Central License</a><a class="pa-h-link" href="/shop-act-registration">Shop Act Registration</a><a class="pa-h-link" href="/iso-registration-certification-services">ISO Certification</a><a class="pa-h-link" href="/fcra-registration">FCRA Registration</a><a class="pa-h-link" href="/imf-services">IMF Services (IRDAI)</a><a class="pa-h-link" href="/ad-code-registration">AD Code Registration</a>
+          <a class="pa-h-viewall" href="/fssai-registration">View all &rarr;</a>
+        </div>
+        <div class="pa-h-col">
+          <span class="pa-h-colhead pa-h-colhead--plain">Trademark &amp; IP</span>
+          <a class="pa-h-link" href="/trademark-registration">Trademark Registration</a><a class="pa-h-link" href="/trademark-search-report">Trademark Search Report</a><a class="pa-h-link" href="/trademark-renewal">Trademark Renewal</a><a class="pa-h-link" href="/trademark-opposition">Trademark Opposition</a><a class="pa-h-link" href="/trademark-hearing">Trademark Hearing</a><a class="pa-h-link" href="/trademark-infringement">Trademark Infringement</a><a class="pa-h-link" href="/copyright-registration">Copyright Registration</a><a class="pa-h-link" href="/patent-registration">Patent Registration</a>
+          <a class="pa-h-viewall" href="/trademark-registration">View all &rarr;</a>
+        </div>
+        </div>
+        </div>
+      </li>
+      <li class="pa-h-item">
+        <button class="pa-h-tab" type="button">Litigation<i class="pa-caret"></i></button>
         <div class="pa-h-panel">
           <div class="pa-h-cols">
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/private-limited-company-registration">Incorporation</a>
-          <a class="pa-h-link" href="/private-limited-company-registration">Private Limited Company</a><a class="pa-h-link" href="/llp-incorporation">LLP Registration</a><a class="pa-h-link" href="/one-person-company-registration">One Person Company</a><a class="pa-h-link" href="/section8-company-registration">Section 8 Company</a><a class="pa-h-link" href="/ngo-registration">NGO Registration</a><a class="pa-h-link" href="/nidhi-company-registration">Nidhi Company</a><a class="pa-h-link" href="/producer-company-registration">Producer Company</a><a class="pa-h-link" href="/startup-registration">Startup India Registration</a>
-          <a class="pa-h-viewall" href="/business-registration-services">View all →</a>
+          <span class="pa-h-colhead pa-h-colhead--plain">GSTAT</span>
+          <a class="pa-h-link" href="/gstat-appeal-filing">GSTAT Appeal Filing</a><a class="pa-h-link" href="/gstat-principal-bench-representation">Principal Bench Representation</a><a class="pa-h-link" href="/gstat-state-bench-representation">State Bench Representation</a><a class="pa-h-link" href="/gstat-cross-objection-filing">Cross-Objection Filing</a><a class="pa-h-link" href="/gstat-efiling-assistance">GSTAT e-Filing Assistance</a><a class="pa-h-link" href="/gstat-pre-deposit-calculation">Pre-Deposit Calculation</a><a class="pa-h-link" href="/gstat-advance-ruling-appeal">Advance Ruling Appeal</a><a class="pa-h-link" href="/gstat-anti-profiteering-appeal">Anti-Profiteering Appeal</a>
+          <a class="pa-h-viewall" href="/gstat-appeal-filing">View all &rarr;</a>
         </div>
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/change-in-registered-office">Changes &amp; Closure</a>
-          <a class="pa-h-link" href="/appointment-of-director">Appointment of Director</a><a class="pa-h-link" href="/removal-of-director">Removal of Director</a><a class="pa-h-link" href="/change-in-registered-office">Change Registered Office</a><a class="pa-h-link" href="/change-in-authorised-capital">Increase Authorised Capital</a><a class="pa-h-link" href="/convert-partnership-to-llp">Convert Partnership to LLP</a><a class="pa-h-link" href="/convert-llp-to-private-limited-company">Convert LLP to Private Limited Company</a><a class="pa-h-link" href="/convert-partnership-to-pvt-ltd-company">Convert Partnership to Private Limited</a><a class="pa-h-link" href="/company-closure">Company Closure</a>
-          <a class="pa-h-viewall" href="/change-in-registered-office">View all →</a>
-        </div></div>
+          <span class="pa-h-colhead pa-h-colhead--plain">Income Tax Litigation</span>
+          <a class="pa-h-link" href="/income-tax-notice">Income Tax Notice</a><a class="pa-h-link" href="/income-tax-notices-under-section-142-1">Notice u/s 142(1)</a><a class="pa-h-link" href="/income-tax-notices-under-section-143-3">Scrutiny u/s 143(3)</a><a class="pa-h-link" href="/income-tax-notices-under-section-147">Reassessment u/s 147</a><a class="pa-h-link" href="/income-tax-notices-under-section-148">Notice u/s 148</a><a class="pa-h-link" href="/income-tax-notice-for-defective-return">Defective Return Notice</a><a class="pa-h-link" href="/income-tax-demand-under-section-156">Demand u/s 156</a>
+          <a class="pa-h-viewall" href="/income-tax-notice">View all &rarr;</a>
+        </div>
+        <div class="pa-h-col">
+          <span class="pa-h-colhead pa-h-colhead--plain">GST &amp; ROC Notices</span>
+          <a class="pa-h-link" href="/gst-notice">GST Notice</a><a class="pa-h-link" href="/gst-refund-appeal-section-107">GST Refund Appeal u/s 107</a><a class="pa-h-link" href="/gst-refund-rfd-03-deficiency-response">RFD-03 Deficiency Response</a><a class="pa-h-link" href="/gst-refund-rfd-06-order-analysis">RFD-06 Order Analysis</a><a class="pa-h-link" href="/roc-notice">ROC Notice</a>
+          <a class="pa-h-viewall" href="/gst-notice">View all &rarr;</a>
+        </div>
+        </div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Registrations — not sure where to start?</div>
-            <p>Pick the right structure - Pvt Ltd, LLP, OPC or Section 8 - with expert CA guidance.</p>
-            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
+            <div class="pa-h-feature-t">Facing a notice or appeal?</div>
+            <p>GSTAT, income-tax and GST notice representation by professionals who appear regularly.</p>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert &rarr;</a>
           </div>
         </div>
       </li>
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Tax &amp; GST<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button">Stock Audit<i class="pa-caret"></i></button>
         <div class="pa-h-panel">
           <div class="pa-h-cols">
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/gst-registration">GST Services</a>
-          <a class="pa-h-link" href="/gst-registration">GST Registration</a><a class="pa-h-link" href="/gst-returns">GST Returns</a><a class="pa-h-link" href="/gst-audit">GST Audit</a><a class="pa-h-link" href="/gst-refund-exports-lut">GST Refund — Exports (LUT)</a><a class="pa-h-link" href="/gst-refund-inverted-duty-structure">Inverted Duty Refund</a><a class="pa-h-link" href="/gst-notice">GST Notice</a>
-          <a class="pa-h-viewall" href="/gst-registration">View all →</a>
+          <a class="pa-h-colhead" href="/pan-india-stock-audit-services">Stock Audit Hub</a>
+          <a class="pa-h-link pa-h-hublink" href="/pan-india-stock-audit-services">PAN India Stock Audit Services</a>
+          <a class="pa-h-link" href="/stock-audit">Inventory Audit / Stock Audit</a><a class="pa-h-link" href="/fixed-asset-verification">Fixed Asset Verification</a><a class="pa-h-link" href="/asset-tagging">Asset Tagging</a><a class="pa-h-link" href="/mystery-audit">Mystery Audit</a><a class="pa-h-link" href="/stock-audit/delhi">Stock Audit Delhi</a><a class="pa-h-link" href="/stock-audit/mumbai">Stock Audit Mumbai</a><a class="pa-h-link" href="/stock-audit/pune">Stock Audit Pune</a><a class="pa-h-link" href="/stock-audit/bangalore">Stock Audit Bangalore</a>
+          <a class="pa-h-viewall" href="/pan-india-stock-audit-services">View all &rarr;</a>
         </div>
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/income-tax-return">Income Tax</a>
-          <a class="pa-h-link" href="/income-tax-return">Income Tax Return Filing</a><a class="pa-h-link" href="/itr-for-business">ITR for Business</a><a class="pa-h-link" href="/itr-for-nris">ITR for NRIs</a><a class="pa-h-link" href="/itr-for-capital-gains">ITR for Capital Gains</a><a class="pa-h-link" href="/tax-planning-services">Tax Planning</a><a class="pa-h-link" href="/tds-return">TDS Return Filing</a><a class="pa-h-link" href="/income-tax-notice">Income Tax Notice</a>
-          <a class="pa-h-viewall" href="/itr-services">View all →</a>
+          <a class="pa-h-colhead" href="/pan-india-stock-audit-services">Stock Audit Industries</a>
+          <a class="pa-h-link" href="/stock-audit-for-retail">Retail</a><a class="pa-h-link" href="/stock-audit-for-fmcg">FMCG</a><a class="pa-h-link" href="/stock-audit-for-pharmaceutical-manufacturing">Pharmaceutical Manufacturing</a><a class="pa-h-link" href="/stock-audit-for-textile">Textile</a><a class="pa-h-link" href="/stock-audit-for-warehouse">Warehousing</a><a class="pa-h-link" href="/stock-audit-for-dark-stores">Dark Stores</a><a class="pa-h-link" href="/stock-audit-for-auto-components">Auto Components</a><a class="pa-h-link" href="/stock-audit-for-electronics-white-goods">Electronics &amp; White Goods</a>
+          <a class="pa-h-viewall" href="/pan-india-stock-audit-services">View all &rarr;</a>
         </div>
-        <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/pan-registration">Tax Registrations</a>
-          <a class="pa-h-link" href="/pan-registration">PAN Registration</a><a class="pa-h-link" href="/tan-registration">TAN Registration</a><a class="pa-h-link" href="/udyam-registration">Udyam / MSME Registration</a><a class="pa-h-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-h-link" href="/12a-registration">12A Registration</a><a class="pa-h-link" href="/80g-registration">80G Registration</a>
-          <a class="pa-h-viewall" href="/pan-registration">View all →</a>
-        </div></div>
+        </div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Tax &amp; GST — not sure where to start?</div>
-            <p>GST registration, returns and income-tax filing handled by experienced CAs.</p>
-            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
+            <div class="pa-h-feature-t">Bank asked for a stock audit?</div>
+            <p>Stock and fixed-asset verification across India, with the report your lender expects.</p>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert &rarr;</a>
           </div>
         </div>
       </li>
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">GSTAT &amp; Audit<i class="pa-caret"></i></button>
-        <div class="pa-h-panel">
+        <button class="pa-h-tab" type="button">Networth<i class="pa-caret"></i></button>
+        <div class="pa-h-panel pa-h-panel--narrow">
           <div class="pa-h-cols">
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/gstat-appeal-filing">GSTAT India</a>
-          <a class="pa-h-link" href="/gstat-appeal-filing">GSTAT Appeal Filing</a><a class="pa-h-link" href="/gstat-principal-bench-representation">Principal Bench Representation</a><a class="pa-h-link" href="/gstat-state-bench-representation">State Bench Representation</a>
-          <a class="pa-h-viewall" href="/gstat-appeal-filing">View all →</a>
+          <a class="pa-h-colhead" href="/net-worth-certificate-by-ca">Networth Hub</a>
+          <a class="pa-h-link pa-h-hublink" href="/net-worth-certificate-by-ca">Net Worth Certificate by CA</a>
+          <a class="pa-h-link" href="/net-worth-certificate">Net Worth Certificate</a><a class="pa-h-link" href="/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a><a class="pa-h-link" href="/net-worth-certificate-for-bank-loan">Net Worth Certificate for Bank Loan</a><a class="pa-h-link" href="/net-worth-certificate-for-company">Net Worth Certificate for Company</a><a class="pa-h-link" href="/net-worth-certificate-for-partnership-firms">Net Worth Certificate for Partnership Firm</a><a class="pa-h-link" href="/net-worth-certificate-sole-proprietorship">CA Certificate for Proprietorship Firm</a><a class="pa-h-link" href="/net-worth-certificate-for-divorce">Net Worth Statement for Divorce</a><a class="pa-h-link" href="/net-worth-certificate-for-rera-registration">CA Certificate for RERA</a>
+          <a class="pa-h-viewall" href="/net-worth-certificate-by-ca">View all &rarr;</a>
         </div>
-        <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/statutory-audit">Audit &amp; Assurance</a>
-          <a class="pa-h-link" href="/statutory-audit">Statutory Audit</a><a class="pa-h-link" href="/tax-audit">Tax Audit</a><a class="pa-h-link" href="/internal-audit">Internal Audit</a><a class="pa-h-link" href="/secretarial-audit">Secretarial Audit</a><a class="pa-h-link" href="/stock-audit">Stock Audit</a>
-          <a class="pa-h-viewall" href="/statutory-audit">View all →</a>
-        </div></div>
+        </div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">GSTAT &amp; Audit — not sure where to start?</div>
-            <p>Expert GST appeal representation plus statutory, tax and internal audits.</p>
-            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
-          </div>
-        </div>
-      </li>
-      <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Licenses &amp; IP<i class="pa-caret"></i></button>
-        <div class="pa-h-panel">
-          <div class="pa-h-cols">
-        <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/fssai-registration">Licenses</a>
-          <a class="pa-h-link" href="/fssai-registration">FSSAI Registration</a><a class="pa-h-link" href="/fssai-state-license">FSSAI State License</a><a class="pa-h-link" href="/fssai-central-license">FSSAI Central License</a><a class="pa-h-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-h-link" href="/shop-act-registration">Shop Act Registration</a><a class="pa-h-link" href="/iso-registration-certification-services">ISO Certification</a><a class="pa-h-link" href="/dsc-registration">Digital Signature (DSC)</a>
-          <a class="pa-h-viewall" href="/fssai-registration">View all →</a>
-        </div>
-        <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/trademark-registration">Trademark &amp; IP</a>
-          <a class="pa-h-link" href="/trademark-registration">Trademark Registration</a><a class="pa-h-link" href="/trademark-search-report">Trademark Search Report</a><a class="pa-h-link" href="/trademark-opposition">Trademark Opposition</a><a class="pa-h-link" href="/trademark-renewal">Trademark Renewal</a><a class="pa-h-link" href="/copyright-registration">Copyright Registration</a><a class="pa-h-link" href="/logo-copyright-registration">Logo Copyright</a>
-          <a class="pa-h-viewall" href="/trademark-registration">View all →</a>
-        </div></div>
-          <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Licenses &amp; IP — not sure where to start?</div>
-            <p>FSSAI, trademark, ISO and other licenses secured end-to-end by our experts.</p>
-            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
-          </div>
-        </div>
-      </li>
-      <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Accounting &amp; Payroll<i class="pa-caret"></i></button>
-        <div class="pa-h-panel">
-          <div class="pa-h-cols">
-        <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/accounting-bookkeeping-services">Accounting</a>
-          <a class="pa-h-link" href="/accounting-services">Accounting Services</a><a class="pa-h-link" href="/zoho-books-accounting">Zoho Books Accounting</a><a class="pa-h-link" href="/xero-accounting">Xero Accounting</a><a class="pa-h-link" href="/tally-accounting">Tally Accounting</a><a class="pa-h-link" href="/migration-from-tally-to-zoho">Tally to Zoho Migration</a>
-          <a class="pa-h-viewall" href="/accounting-bookkeeping-services">View all →</a>
-        </div>
-        <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/payroll-services">Payroll, EOR &amp; ESOP</a>
-          <a class="pa-h-link" href="/payroll-services">Payroll Services</a><a class="pa-h-link" href="/payroll-processing-and-management-services">Payroll Processing</a><a class="pa-h-link" href="/eor-india">EOR India</a><a class="pa-h-link" href="/pf-registration">PF Registration</a><a class="pa-h-link" href="/esic-registration">ESIC Registration</a><a class="pa-h-link" href="/gratuity-calculation-and-compliance-services">Gratuity Compliance</a><a class="pa-h-link" href="/esop-management-and-compliance-services">ESOP Management</a>
-          <a class="pa-h-viewall" href="/payroll-services">View all →</a>
-        </div></div>
-          <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Accounting &amp; Payroll — not sure where to start?</div>
-            <p>Hand off your bookkeeping and payroll to a dedicated team on Zoho Books.</p>
-            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
+            <div class="pa-h-feature-t">Need a certificate this week?</div>
+            <p>Net worth, solvency and CA certificates issued for visa, loan, tender and RERA.</p>
+            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert &rarr;</a>
           </div>
         </div>
       </li>
       <li class="pa-h-item">
         <button class="pa-h-tab" type="button">Compliance<i class="pa-caret"></i></button>
-        <div class="pa-h-panel">
+        <div class="pa-h-panel pa-h-panel--wide">
           <div class="pa-h-cols">
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/private-limited-company-compliance">Corporate Compliance</a>
-          <a class="pa-h-link" href="/private-limited-company-compliance">Pvt Ltd Compliance</a><a class="pa-h-link" href="/pvt-llp-compliance">LLP Compliance</a><a class="pa-h-link" href="/aoc-4-filing-services">Annual ROC Filing (AOC-4)</a><a class="pa-h-link" href="/mgt-7-filing-services">MGT-7 Filing</a><a class="pa-h-link" href="/director-kyc">Director KYC</a><a class="pa-h-link" href="/dpt-3-filing-services">DPT-3 Filing</a><a class="pa-h-link" href="/adt-1-filing-services">ADT-1 Filing</a>
-          <a class="pa-h-viewall" href="/private-limited-company-compliance">View all →</a>
+          <span class="pa-h-colhead pa-h-colhead--plain">ROC / MCA Compliance</span>
+          <a class="pa-h-link" href="/corporate-compliance-services">Corporate Compliance Services</a><a class="pa-h-link" href="/private-limited-company-compliance">Pvt Ltd Compliance</a><a class="pa-h-link" href="/pvt-llp-compliance">LLP Compliance</a><a class="pa-h-link" href="/aoc-4-filing-services">AOC-4 Filing</a><a class="pa-h-link" href="/mgt-7-filing-services">MGT-7 Filing</a><a class="pa-h-link" href="/adt-1-filing-services">ADT-1 Filing</a><a class="pa-h-link" href="/dpt-3-filing-services">DPT-3 Filing</a><a class="pa-h-link" href="/director-kyc">Director KYC</a><a class="pa-h-link" href="/compliance-calendar">Compliance Calendar</a>
+          <a class="pa-h-viewall" href="/corporate-compliance-services">View all &rarr;</a>
         </div>
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/net-worth-certificate-by-ca">Certificates</a>
-          <a class="pa-h-link" href="/net-worth-certificate">Net Worth Certificate</a><a class="pa-h-link" href="/net-worth-certificate-for-visa">Net Worth for Visa</a><a class="pa-h-link" href="/turnover-certificate-for-tender">Turnover Certificate (Tender)</a><a class="pa-h-link" href="/turnover-certificate-for-current-account">Turnover (Current A/c)</a>
-          <a class="pa-h-viewall" href="/net-worth-certificate-by-ca">View all →</a>
+          <span class="pa-h-colhead pa-h-colhead--plain">GST &amp; Income Tax</span>
+          <a class="pa-h-link" href="/gst-services">GST Services</a><a class="pa-h-link" href="/gst-returns">GST Returns</a><a class="pa-h-link" href="/gst-annual-returns">GST Annual Returns</a><a class="pa-h-link" href="/gst-audit">GST Audit</a><a class="pa-h-link" href="/gst-refund">GST Refund</a><a class="pa-h-link" href="/income-tax-return">Income Tax Return</a><a class="pa-h-link" href="/itr-for-business">ITR for Business</a><a class="pa-h-link" href="/tds-return">TDS Return</a><a class="pa-h-link" href="/tax-audit">Tax Audit</a>
+          <a class="pa-h-viewall" href="/gst-services">View all &rarr;</a>
         </div>
         <div class="pa-h-col">
-          <a class="pa-h-colhead" href="/fdi-compliance">International &amp; FEMA</a>
-          <a class="pa-h-link" href="/fdi-compliance">FDI Compliance</a><a class="pa-h-link" href="/fla-returns">FLA Returns</a><a class="pa-h-link" href="/us-bank-account-opening">US Bank Account Opening</a>
-          <a class="pa-h-viewall" href="/fdi-compliance">View all →</a>
-        </div></div>
-          <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Compliance — not sure where to start?</div>
-            <p>Stay ROC, FEMA and annual-compliance ready with proactive expert support.</p>
-            <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
-          </div>
+          <span class="pa-h-colhead pa-h-colhead--plain">Audit &amp; Assurance</span>
+          <a class="pa-h-link" href="/statutory-audit">Statutory Audit</a><a class="pa-h-link" href="/internal-audit">Internal Audit</a><a class="pa-h-link" href="/secretarial-audit">Secretarial Audit</a><a class="pa-h-link" href="/internal-financial-controls-audit">Internal Financial Controls Audit</a><a class="pa-h-link" href="/caro-2020">CARO 2020</a>
+          <a class="pa-h-viewall" href="/statutory-audit">View all &rarr;</a>
+        </div>
+        <div class="pa-h-col">
+          <span class="pa-h-colhead pa-h-colhead--plain">International &amp; FEMA</span>
+          <a class="pa-h-link" href="/fdi-compliance">FDI Compliance</a><a class="pa-h-link" href="/fla-returns">FLA Returns</a><a class="pa-h-link" href="/foreign-remittance-certificate-15ca-15cb">Form 15CA / 15CB</a><a class="pa-h-link" href="/inward-remittance-certificate-firc">FIRC - Inward Remittance</a><a class="pa-h-link" href="/esop-services">ESOP Services</a><a class="pa-h-link" href="/esop-fema-and-rbi-firms-reporting">ESOP FEMA &amp; RBI (FIRMS)</a><a class="pa-h-link" href="/itr-for-foreign-income">ITR for Foreign Income</a><a class="pa-h-link" href="/us-bank-account-opening">US Bank Account Opening</a>
+          <a class="pa-h-viewall" href="/fdi-compliance">View all &rarr;</a>
+        </div>
+        </div>
         </div>
       </li>
         <li class="pa-h-sep"></li>
         <li class="pa-h-item pa-h-more">
           <button class="pa-h-tab" type="button">More<i class="pa-caret"></i></button>
-          <div class="pa-h-panel pa-h-panel--more"><a class="pa-h-morelink" href="/about-us">About Us</a><a class="pa-h-morelink" href="/meet-our-founder">Meet Our Founder</a><a class="pa-h-morelink" href="/career">Career</a><a class="pa-h-morelink" href="/refer-and-earn">Refer &amp; Earn</a><a class="pa-h-morelink" href="/partner-with-us">Partner With Us</a><a class="pa-h-morelink" href="/tools">Free Tools &amp; Calculators</a><a class="pa-h-morelink" href="/blog">Blogs</a><a class="pa-h-morelink" href="/compliance-calendar">Compliance Calendar</a><a class="pa-h-morelink" href="/contact-us">Contact Us</a></div>
+          <div class="pa-h-panel pa-h-panel--more"><a class="pa-h-morelink" href="/about-us">About Us</a><a class="pa-h-morelink" href="/meet-our-founder">Meet Our Founder</a><a class="pa-h-morelink" href="/career">Career</a><a class="pa-h-morelink" href="/refer-and-earn">Refer &amp; Earn</a><a class="pa-h-morelink" href="/partner-with-us">Partner With Us</a><a class="pa-h-morelink" href="/tools">Free Tools &amp; Calculators</a><a class="pa-h-morelink" href="/blog">Blogs</a><a class="pa-h-morelink" href="/glossary">Glossary</a><a class="pa-h-morelink" href="/contact-us">Contact Us</a></div>
         </li>
       </ul>
     </nav>
@@ -267,45 +295,45 @@ body .content-section[id]{scroll-margin-top:150px}
   <div class="pa-h-mobile" id="paMobile">
     <form class="pa-h-msearch" role="search" data-pa-searchform><span>⌕</span><input name="q" data-pa-q autocomplete="off" placeholder="Search services…" aria-label="Search services"><div class="pa-h-sresults" data-pa-results></div></form>
     <div class="pa-m-acc">
-      <button class="pa-m-accbtn" type="button">Registrations<span class="pa-m-sign">+</span></button>
+      <button class="pa-m-accbtn" type="button">Accounting<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody">
-        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/private-limited-company-registration">Incorporation ›</a><a class="pa-m-link" href="/private-limited-company-registration">Private Limited Company</a><a class="pa-m-link" href="/llp-incorporation">LLP Registration</a><a class="pa-m-link" href="/one-person-company-registration">One Person Company</a><a class="pa-m-link" href="/section8-company-registration">Section 8 Company</a><a class="pa-m-link" href="/ngo-registration">NGO Registration</a><a class="pa-m-link" href="/nidhi-company-registration">Nidhi Company</a><a class="pa-m-link" href="/producer-company-registration">Producer Company</a><a class="pa-m-link" href="/startup-registration">Startup India Registration</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/change-in-registered-office">Changes &amp; Closure ›</a><a class="pa-m-link" href="/appointment-of-director">Appointment of Director</a><a class="pa-m-link" href="/removal-of-director">Removal of Director</a><a class="pa-m-link" href="/change-in-registered-office">Change Registered Office</a><a class="pa-m-link" href="/change-in-authorised-capital">Increase Authorised Capital</a><a class="pa-m-link" href="/convert-partnership-to-llp">Convert Partnership to LLP</a><a class="pa-m-link" href="/convert-llp-to-private-limited-company">Convert LLP to Private Limited Company</a><a class="pa-m-link" href="/convert-partnership-to-pvt-ltd-company">Convert Partnership to Private Limited</a><a class="pa-m-link" href="/company-closure">Company Closure</a></div>
+        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/accounting-bookkeeping-services">Accounting Services &rsaquo;</a><a class="pa-m-link pa-m-hublink" href="/accounting-bookkeeping-services">Accounting &amp; Bookkeeping Services</a><a class="pa-m-link" href="/accounting-services">Accounting Services</a><a class="pa-m-link" href="/backlog-bookkeeping-catch-up-services">Backlog Bookkeeping Catch-Up</a><a class="pa-m-link" href="/financial-statement-preparation-services">Financial Statement Preparation</a><a class="pa-m-link" href="/year-end-closing-finalisation-services">Year-End Closing &amp; Finalisation</a><a class="pa-m-link" href="/mis-reporting-services">MIS Reporting</a><a class="pa-m-link" href="/accounts-payable-outsourcing-services">Accounts Payable Outsourcing</a><a class="pa-m-link" href="/accounts-receivable-outsourcing-services">Accounts Receivable Outsourcing</a><a class="pa-m-link" href="/bank-credit-card-reconciliation-services">Bank &amp; Credit Card Reconciliation</a><a class="pa-m-link pa-m-viewall" href="/accounting-bookkeeping-services">View all &rarr;</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/accounting-bookkeeping-services">Accounting Software &rsaquo;</a><a class="pa-m-link" href="/zoho-books-accounting">Zoho Books Accounting</a><a class="pa-m-link" href="/xero-accounting">Xero Accounting</a><a class="pa-m-link" href="/tally-accounting">Tally Accounting</a><a class="pa-m-link" href="/odoo-accounting">Odoo Accounting</a><a class="pa-m-link" href="/migration-from-tally-to-zoho">Tally to Zoho Migration</a><a class="pa-m-link" href="/migration-from-tally-to-odoo">Tally to Odoo Migration</a><a class="pa-m-link pa-m-viewall" href="/accounting-bookkeeping-services">View all &rarr;</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/accounting-bookkeeping-services">Accounting by Industry &rsaquo;</a><a class="pa-m-link" href="/accounting-services-for-e-commerce-industry">E-commerce</a><a class="pa-m-link" href="/accounting-services-for-startups">Startups</a><a class="pa-m-link" href="/accounting-services-for-manufacturing">Manufacturing</a><a class="pa-m-link" href="/accounting-services-for-retail">Retail</a><a class="pa-m-link" href="/accounting-services-it-saas">IT &amp; SaaS</a><a class="pa-m-link" href="/accounting-services-for-education-industry">Education</a><a class="pa-m-link" href="/healthcare-sector-accounting-services">Healthcare</a><a class="pa-m-link" href="/construction-and-real-estate-accounting-services">Construction &amp; Real Estate</a><a class="pa-m-link pa-m-viewall" href="/accounting-bookkeeping-services">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">Payroll Services</span><a class="pa-m-link" href="/payroll-services">Payroll Services in India</a><a class="pa-m-link" href="/payroll-processing-and-management-services">Payroll Processing &amp; Management</a><a class="pa-m-link" href="/pf-registration">PF Registration</a><a class="pa-m-link" href="/esic-registration">ESIC Registration</a><a class="pa-m-link" href="/pf-return">PF Return</a><a class="pa-m-link" href="/esic-return">ESIC Return</a><a class="pa-m-link" href="/pt-returns">Professional Tax Returns</a><a class="pa-m-link" href="/gratuity-calculation-and-compliance-services">Gratuity Compliance</a><a class="pa-m-link" href="/eor-india">EOR India</a><a class="pa-m-link pa-m-viewall" href="/payroll-services">View all &rarr;</a></div>
       </div>
     </div>
     <div class="pa-m-acc">
-      <button class="pa-m-accbtn" type="button">Tax &amp; GST<span class="pa-m-sign">+</span></button>
+      <button class="pa-m-accbtn" type="button">Registration<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody">
-        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/gst-registration">GST Services ›</a><a class="pa-m-link" href="/gst-registration">GST Registration</a><a class="pa-m-link" href="/gst-returns">GST Returns</a><a class="pa-m-link" href="/gst-audit">GST Audit</a><a class="pa-m-link" href="/gst-refund-exports-lut">GST Refund — Exports (LUT)</a><a class="pa-m-link" href="/gst-refund-inverted-duty-structure">Inverted Duty Refund</a><a class="pa-m-link" href="/gst-notice">GST Notice</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/income-tax-return">Income Tax ›</a><a class="pa-m-link" href="/income-tax-return">Income Tax Return Filing</a><a class="pa-m-link" href="/itr-for-business">ITR for Business</a><a class="pa-m-link" href="/itr-for-nris">ITR for NRIs</a><a class="pa-m-link" href="/itr-for-capital-gains">ITR for Capital Gains</a><a class="pa-m-link" href="/tax-planning-services">Tax Planning</a><a class="pa-m-link" href="/tds-return">TDS Return Filing</a><a class="pa-m-link" href="/income-tax-notice">Income Tax Notice</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/pan-registration">Tax Registrations ›</a><a class="pa-m-link" href="/pan-registration">PAN Registration</a><a class="pa-m-link" href="/tan-registration">TAN Registration</a><a class="pa-m-link" href="/udyam-registration">Udyam / MSME Registration</a><a class="pa-m-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-m-link" href="/12a-registration">12A Registration</a><a class="pa-m-link" href="/80g-registration">80G Registration</a></div>
+        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/business-registration-services">Business Registrations &rsaquo;</a><a class="pa-m-link pa-m-hublink" href="/business-registration-services">Business Registration Services</a><a class="pa-m-link" href="/private-limited-company-registration">Private Limited Company</a><a class="pa-m-link" href="/llp-incorporation">LLP Registration</a><a class="pa-m-link" href="/one-person-company-registration">One Person Company</a><a class="pa-m-link" href="/partnership-firm-registration">Partnership Firm</a><a class="pa-m-link" href="/proprietorship-registration">Proprietorship</a><a class="pa-m-link" href="/section8-company-registration">Section 8 Company</a><a class="pa-m-link" href="/startup-registration">Startup India Registration</a><a class="pa-m-link" href="/foreign-subsidiary-registration-india">Foreign Subsidiary in India</a><a class="pa-m-link pa-m-viewall" href="/business-registration-services">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">Tax Registrations</span><a class="pa-m-link" href="/gst-registration">GST Registration</a><a class="pa-m-link" href="/pan-registration">PAN Registration</a><a class="pa-m-link" href="/tan-registration">TAN Registration</a><a class="pa-m-link" href="/udyam-registration">Udyam / MSME Registration</a><a class="pa-m-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-m-link" href="/dsc-registration">Digital Signature (DSC)</a><a class="pa-m-link" href="/12a-registration">12A Registration</a><a class="pa-m-link" href="/80g-registration">80G Registration</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">Licenses &amp; Certifications</span><a class="pa-m-link" href="/fssai-registration">FSSAI Registration</a><a class="pa-m-link" href="/fssai-state-license">FSSAI State License</a><a class="pa-m-link" href="/fssai-central-license">FSSAI Central License</a><a class="pa-m-link" href="/shop-act-registration">Shop Act Registration</a><a class="pa-m-link" href="/iso-registration-certification-services">ISO Certification</a><a class="pa-m-link" href="/fcra-registration">FCRA Registration</a><a class="pa-m-link" href="/imf-services">IMF Services (IRDAI)</a><a class="pa-m-link" href="/ad-code-registration">AD Code Registration</a><a class="pa-m-link pa-m-viewall" href="/fssai-registration">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">Trademark &amp; IP</span><a class="pa-m-link" href="/trademark-registration">Trademark Registration</a><a class="pa-m-link" href="/trademark-search-report">Trademark Search Report</a><a class="pa-m-link" href="/trademark-renewal">Trademark Renewal</a><a class="pa-m-link" href="/trademark-opposition">Trademark Opposition</a><a class="pa-m-link" href="/trademark-hearing">Trademark Hearing</a><a class="pa-m-link" href="/trademark-infringement">Trademark Infringement</a><a class="pa-m-link" href="/copyright-registration">Copyright Registration</a><a class="pa-m-link" href="/patent-registration">Patent Registration</a><a class="pa-m-link pa-m-viewall" href="/trademark-registration">View all &rarr;</a></div>
       </div>
     </div>
     <div class="pa-m-acc">
-      <button class="pa-m-accbtn" type="button">GSTAT &amp; Audit<span class="pa-m-sign">+</span></button>
+      <button class="pa-m-accbtn" type="button">Litigation<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody">
-        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/gstat-appeal-filing">GSTAT India ›</a><a class="pa-m-link" href="/gstat-appeal-filing">GSTAT Appeal Filing</a><a class="pa-m-link" href="/gstat-principal-bench-representation">Principal Bench Representation</a><a class="pa-m-link" href="/gstat-state-bench-representation">State Bench Representation</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/statutory-audit">Audit &amp; Assurance ›</a><a class="pa-m-link" href="/statutory-audit">Statutory Audit</a><a class="pa-m-link" href="/tax-audit">Tax Audit</a><a class="pa-m-link" href="/internal-audit">Internal Audit</a><a class="pa-m-link" href="/secretarial-audit">Secretarial Audit</a><a class="pa-m-link" href="/stock-audit">Stock Audit</a></div>
+        <div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">GSTAT</span><a class="pa-m-link" href="/gstat-appeal-filing">GSTAT Appeal Filing</a><a class="pa-m-link" href="/gstat-principal-bench-representation">Principal Bench Representation</a><a class="pa-m-link" href="/gstat-state-bench-representation">State Bench Representation</a><a class="pa-m-link" href="/gstat-cross-objection-filing">Cross-Objection Filing</a><a class="pa-m-link" href="/gstat-efiling-assistance">GSTAT e-Filing Assistance</a><a class="pa-m-link" href="/gstat-pre-deposit-calculation">Pre-Deposit Calculation</a><a class="pa-m-link" href="/gstat-advance-ruling-appeal">Advance Ruling Appeal</a><a class="pa-m-link" href="/gstat-anti-profiteering-appeal">Anti-Profiteering Appeal</a><a class="pa-m-link pa-m-viewall" href="/gstat-appeal-filing">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">Income Tax Litigation</span><a class="pa-m-link" href="/income-tax-notice">Income Tax Notice</a><a class="pa-m-link" href="/income-tax-notices-under-section-142-1">Notice u/s 142(1)</a><a class="pa-m-link" href="/income-tax-notices-under-section-143-3">Scrutiny u/s 143(3)</a><a class="pa-m-link" href="/income-tax-notices-under-section-147">Reassessment u/s 147</a><a class="pa-m-link" href="/income-tax-notices-under-section-148">Notice u/s 148</a><a class="pa-m-link" href="/income-tax-notice-for-defective-return">Defective Return Notice</a><a class="pa-m-link" href="/income-tax-demand-under-section-156">Demand u/s 156</a><a class="pa-m-link pa-m-viewall" href="/income-tax-notice">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">GST &amp; ROC Notices</span><a class="pa-m-link" href="/gst-notice">GST Notice</a><a class="pa-m-link" href="/gst-refund-appeal-section-107">GST Refund Appeal u/s 107</a><a class="pa-m-link" href="/gst-refund-rfd-03-deficiency-response">RFD-03 Deficiency Response</a><a class="pa-m-link" href="/gst-refund-rfd-06-order-analysis">RFD-06 Order Analysis</a><a class="pa-m-link" href="/roc-notice">ROC Notice</a><a class="pa-m-link pa-m-viewall" href="/gst-notice">View all &rarr;</a></div>
       </div>
     </div>
     <div class="pa-m-acc">
-      <button class="pa-m-accbtn" type="button">Licenses &amp; IP<span class="pa-m-sign">+</span></button>
+      <button class="pa-m-accbtn" type="button">Stock Audit<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody">
-        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/fssai-registration">Licenses ›</a><a class="pa-m-link" href="/fssai-registration">FSSAI Registration</a><a class="pa-m-link" href="/fssai-state-license">FSSAI State License</a><a class="pa-m-link" href="/fssai-central-license">FSSAI Central License</a><a class="pa-m-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-m-link" href="/shop-act-registration">Shop Act Registration</a><a class="pa-m-link" href="/iso-registration-certification-services">ISO Certification</a><a class="pa-m-link" href="/dsc-registration">Digital Signature (DSC)</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/trademark-registration">Trademark &amp; IP ›</a><a class="pa-m-link" href="/trademark-registration">Trademark Registration</a><a class="pa-m-link" href="/trademark-search-report">Trademark Search Report</a><a class="pa-m-link" href="/trademark-opposition">Trademark Opposition</a><a class="pa-m-link" href="/trademark-renewal">Trademark Renewal</a><a class="pa-m-link" href="/copyright-registration">Copyright Registration</a><a class="pa-m-link" href="/logo-copyright-registration">Logo Copyright</a></div>
+        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/pan-india-stock-audit-services">Stock Audit Hub &rsaquo;</a><a class="pa-m-link pa-m-hublink" href="/pan-india-stock-audit-services">PAN India Stock Audit Services</a><a class="pa-m-link" href="/stock-audit">Inventory Audit / Stock Audit</a><a class="pa-m-link" href="/fixed-asset-verification">Fixed Asset Verification</a><a class="pa-m-link" href="/asset-tagging">Asset Tagging</a><a class="pa-m-link" href="/mystery-audit">Mystery Audit</a><a class="pa-m-link" href="/stock-audit/delhi">Stock Audit Delhi</a><a class="pa-m-link" href="/stock-audit/mumbai">Stock Audit Mumbai</a><a class="pa-m-link" href="/stock-audit/pune">Stock Audit Pune</a><a class="pa-m-link" href="/stock-audit/bangalore">Stock Audit Bangalore</a><a class="pa-m-link pa-m-viewall" href="/pan-india-stock-audit-services">View all &rarr;</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/pan-india-stock-audit-services">Stock Audit Industries &rsaquo;</a><a class="pa-m-link" href="/stock-audit-for-retail">Retail</a><a class="pa-m-link" href="/stock-audit-for-fmcg">FMCG</a><a class="pa-m-link" href="/stock-audit-for-pharmaceutical-manufacturing">Pharmaceutical Manufacturing</a><a class="pa-m-link" href="/stock-audit-for-textile">Textile</a><a class="pa-m-link" href="/stock-audit-for-warehouse">Warehousing</a><a class="pa-m-link" href="/stock-audit-for-dark-stores">Dark Stores</a><a class="pa-m-link" href="/stock-audit-for-auto-components">Auto Components</a><a class="pa-m-link" href="/stock-audit-for-electronics-white-goods">Electronics &amp; White Goods</a><a class="pa-m-link pa-m-viewall" href="/pan-india-stock-audit-services">View all &rarr;</a></div>
       </div>
     </div>
     <div class="pa-m-acc">
-      <button class="pa-m-accbtn" type="button">Accounting &amp; Payroll<span class="pa-m-sign">+</span></button>
+      <button class="pa-m-accbtn" type="button">Networth<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody">
-        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/accounting-bookkeeping-services">Accounting ›</a><a class="pa-m-link" href="/accounting-services">Accounting Services</a><a class="pa-m-link" href="/zoho-books-accounting">Zoho Books Accounting</a><a class="pa-m-link" href="/xero-accounting">Xero Accounting</a><a class="pa-m-link" href="/tally-accounting">Tally Accounting</a><a class="pa-m-link" href="/migration-from-tally-to-zoho">Tally to Zoho Migration</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/payroll-services">Payroll, EOR &amp; ESOP ›</a><a class="pa-m-link" href="/payroll-services">Payroll Services</a><a class="pa-m-link" href="/payroll-processing-and-management-services">Payroll Processing</a><a class="pa-m-link" href="/eor-india">EOR India</a><a class="pa-m-link" href="/pf-registration">PF Registration</a><a class="pa-m-link" href="/esic-registration">ESIC Registration</a><a class="pa-m-link" href="/gratuity-calculation-and-compliance-services">Gratuity Compliance</a><a class="pa-m-link" href="/esop-management-and-compliance-services">ESOP Management</a></div>
+        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/net-worth-certificate-by-ca">Networth Hub &rsaquo;</a><a class="pa-m-link pa-m-hublink" href="/net-worth-certificate-by-ca">Net Worth Certificate by CA</a><a class="pa-m-link" href="/net-worth-certificate">Net Worth Certificate</a><a class="pa-m-link" href="/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a><a class="pa-m-link" href="/net-worth-certificate-for-bank-loan">Net Worth Certificate for Bank Loan</a><a class="pa-m-link" href="/net-worth-certificate-for-company">Net Worth Certificate for Company</a><a class="pa-m-link" href="/net-worth-certificate-for-partnership-firms">Net Worth Certificate for Partnership Firm</a><a class="pa-m-link" href="/net-worth-certificate-sole-proprietorship">CA Certificate for Proprietorship Firm</a><a class="pa-m-link" href="/net-worth-certificate-for-divorce">Net Worth Statement for Divorce</a><a class="pa-m-link" href="/net-worth-certificate-for-rera-registration">CA Certificate for RERA</a><a class="pa-m-link pa-m-viewall" href="/net-worth-certificate-by-ca">View all &rarr;</a></div>
       </div>
     </div>
     <div class="pa-m-acc">
       <button class="pa-m-accbtn" type="button">Compliance<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody">
-        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/private-limited-company-compliance">Corporate Compliance ›</a><a class="pa-m-link" href="/private-limited-company-compliance">Pvt Ltd Compliance</a><a class="pa-m-link" href="/pvt-llp-compliance">LLP Compliance</a><a class="pa-m-link" href="/aoc-4-filing-services">Annual ROC Filing (AOC-4)</a><a class="pa-m-link" href="/mgt-7-filing-services">MGT-7 Filing</a><a class="pa-m-link" href="/director-kyc">Director KYC</a><a class="pa-m-link" href="/dpt-3-filing-services">DPT-3 Filing</a><a class="pa-m-link" href="/adt-1-filing-services">ADT-1 Filing</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/net-worth-certificate-by-ca">Certificates ›</a><a class="pa-m-link" href="/net-worth-certificate">Net Worth Certificate</a><a class="pa-m-link" href="/net-worth-certificate-for-visa">Net Worth for Visa</a><a class="pa-m-link" href="/turnover-certificate-for-tender">Turnover Certificate (Tender)</a><a class="pa-m-link" href="/turnover-certificate-for-current-account">Turnover (Current A/c)</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/fdi-compliance">International &amp; FEMA ›</a><a class="pa-m-link" href="/fdi-compliance">FDI Compliance</a><a class="pa-m-link" href="/fla-returns">FLA Returns</a><a class="pa-m-link" href="/us-bank-account-opening">US Bank Account Opening</a></div>
+        <div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">ROC / MCA Compliance</span><a class="pa-m-link" href="/corporate-compliance-services">Corporate Compliance Services</a><a class="pa-m-link" href="/private-limited-company-compliance">Pvt Ltd Compliance</a><a class="pa-m-link" href="/pvt-llp-compliance">LLP Compliance</a><a class="pa-m-link" href="/aoc-4-filing-services">AOC-4 Filing</a><a class="pa-m-link" href="/mgt-7-filing-services">MGT-7 Filing</a><a class="pa-m-link" href="/adt-1-filing-services">ADT-1 Filing</a><a class="pa-m-link" href="/dpt-3-filing-services">DPT-3 Filing</a><a class="pa-m-link" href="/director-kyc">Director KYC</a><a class="pa-m-link" href="/compliance-calendar">Compliance Calendar</a><a class="pa-m-link pa-m-viewall" href="/corporate-compliance-services">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">GST &amp; Income Tax</span><a class="pa-m-link" href="/gst-services">GST Services</a><a class="pa-m-link" href="/gst-returns">GST Returns</a><a class="pa-m-link" href="/gst-annual-returns">GST Annual Returns</a><a class="pa-m-link" href="/gst-audit">GST Audit</a><a class="pa-m-link" href="/gst-refund">GST Refund</a><a class="pa-m-link" href="/income-tax-return">Income Tax Return</a><a class="pa-m-link" href="/itr-for-business">ITR for Business</a><a class="pa-m-link" href="/tds-return">TDS Return</a><a class="pa-m-link" href="/tax-audit">Tax Audit</a><a class="pa-m-link pa-m-viewall" href="/gst-services">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">Audit &amp; Assurance</span><a class="pa-m-link" href="/statutory-audit">Statutory Audit</a><a class="pa-m-link" href="/internal-audit">Internal Audit</a><a class="pa-m-link" href="/secretarial-audit">Secretarial Audit</a><a class="pa-m-link" href="/internal-financial-controls-audit">Internal Financial Controls Audit</a><a class="pa-m-link" href="/caro-2020">CARO 2020</a><a class="pa-m-link pa-m-viewall" href="/statutory-audit">View all &rarr;</a></div><div class="pa-m-colgroup"><span class="pa-m-colhead pa-m-colhead--plain">International &amp; FEMA</span><a class="pa-m-link" href="/fdi-compliance">FDI Compliance</a><a class="pa-m-link" href="/fla-returns">FLA Returns</a><a class="pa-m-link" href="/foreign-remittance-certificate-15ca-15cb">Form 15CA / 15CB</a><a class="pa-m-link" href="/inward-remittance-certificate-firc">FIRC - Inward Remittance</a><a class="pa-m-link" href="/esop-services">ESOP Services</a><a class="pa-m-link" href="/esop-fema-and-rbi-firms-reporting">ESOP FEMA &amp; RBI (FIRMS)</a><a class="pa-m-link" href="/itr-for-foreign-income">ITR for Foreign Income</a><a class="pa-m-link" href="/us-bank-account-opening">US Bank Account Opening</a><a class="pa-m-link pa-m-viewall" href="/fdi-compliance">View all &rarr;</a></div>
       </div>
     </div>
     <div class="pa-m-acc">
       <button class="pa-m-accbtn" type="button">More<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody pa-m-morebody">
-        <a class="pa-m-morelink" href="/about-us">About Us ›</a><a class="pa-m-morelink" href="/meet-our-founder">Meet Our Founder ›</a><a class="pa-m-morelink" href="/career">Career ›</a><a class="pa-m-morelink" href="/refer-and-earn">Refer &amp; Earn ›</a><a class="pa-m-morelink" href="/partner-with-us">Partner With Us ›</a><a class="pa-m-morelink" href="/tools">Free Tools &amp; Calculators ›</a><a class="pa-m-morelink" href="/blog">Blogs ›</a><a class="pa-m-morelink" href="/compliance-calendar">Compliance Calendar ›</a><a class="pa-m-morelink" href="/contact-us">Contact Us ›</a>
+        <a class="pa-m-morelink" href="/about-us">About Us &rsaquo;</a><a class="pa-m-morelink" href="/meet-our-founder">Meet Our Founder &rsaquo;</a><a class="pa-m-morelink" href="/career">Career &rsaquo;</a><a class="pa-m-morelink" href="/refer-and-earn">Refer &amp; Earn &rsaquo;</a><a class="pa-m-morelink" href="/partner-with-us">Partner With Us &rsaquo;</a><a class="pa-m-morelink" href="/tools">Free Tools &amp; Calculators &rsaquo;</a><a class="pa-m-morelink" href="/blog">Blogs &rsaquo;</a><a class="pa-m-morelink" href="/glossary">Glossary &rsaquo;</a><a class="pa-m-morelink" href="/contact-us">Contact Us &rsaquo;</a>
       </div>
     </div>
     <a class="pa-h-cta pa-m-cta" href="/contact-us">Talk to an Expert</a>

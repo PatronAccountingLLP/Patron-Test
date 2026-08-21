@@ -39,6 +39,12 @@ require __DIR__.'/accounting-cluster-redirects.php';
 require __DIR__.'/networth-cluster-redirects.php';
 require __DIR__.'/stock-audit-cluster-redirects.php';
 
+// GSC 404 cleanup, 2026-08-21. 384 redirects and 238 removals from the "404 actions"
+// sheet of FINAL-Cleanup-Plan_2026-08-21_REVISED.xlsx. Must stay above the /{post}
+// catch-all near the bottom of this file, which would otherwise swallow the
+// single-segment sources and 404 them.
+require __DIR__.'/cleanup-404-redirects.php';
+
 // ============ Glossary: master hub + Accounting hub + 140 term pages ============
 Route::get('/glossary', function () {
     return view('glossary.index');
@@ -435,6 +441,19 @@ Route::prefix('ifsc-code')->middleware('retired_directory')->group(function () {
     Route::get('/search', [DynamicController::class, 'searchIfscCodes'])->name('dynamic.search-ifsc');
     Route::get('/{bankname}/{slug}', [DynamicController::class, 'ifscloadcontent'])->name('dynamic.ifscloadcontent')
         ->where(['bankname' => '[A-Za-z0-9\-]+', 'slug' => '[A-Za-z0-9\-]+']);
+
+    // The bank index pages. Without this they fall straight through the group and 404,
+    // while every branch page beneath them 410s - 218 of them show up in GSC that way.
+    // Registered last so /update-slug and /search still win.
+    Route::get('/{bankname}', function () {
+        abort(410);
+    })->where('bankname', '[A-Za-z0-9\-]+');
+
+    // The bare /ifsc-code root is NOT handled here. A single-segment path is swallowed
+    // by the /{post} catch-all further up this file, which is registered long before
+    // this group, so a rule here would never fire. It lives in
+    // routes/cleanup-404-redirects.php instead, which is required near the top.
+    // (/{bankname} above is safe because it is two segments and /{post} is one.)
 });
 
 Route::prefix('port-code')->group(function () {

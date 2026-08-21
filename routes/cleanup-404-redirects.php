@@ -28,6 +28,14 @@ use Illuminate\Support\Facades\Route;
  */
 
 $cleanup404Redirects = [
+    // Step 4 / Step 7 of the cleanup plan, added 2026-08-21 from the Link graph
+    // fixes and Dup-no-canonical sheets rather than the 404 actions sheet.
+    // /import-export-code is the wrong slug for a live page and carries 5,245
+    // internal links - the largest single broken target after the icon files.
+    ['/import-export-code', '/iec-registration'],
+    // /index.php is a 200 duplicate of the homepage with no canonical. This is
+    // the whole of GSC's "Duplicate without user-selected canonical" row.
+    ['/index.php', '/'],
     ['/LLP-registration', '/llp-incorporation'],
     ['/annual-compliance-llp', '/pvt-llp-compliance'],
     ['/blog/esic-registration-online-india-2025', '/blog/esic-registration-in-india'],
@@ -423,6 +431,11 @@ foreach ($cleanup404Redirects as $__r) {
  * than 404 so Google stops re-crawling them.
  */
 $cleanup404Gone = [
+    // The IFSC directory root. All 169,871 branch pages beneath it are retired, so
+    // an index page would list nothing. Handled here rather than in the ifsc-code
+    // route group, because that group is registered after the /{post} catch-all and
+    // a single-segment path never reaches it.
+    '/ifsc-code',
     '/Professional-tax-registration',
     '/payroll-audit',
     '/,Olln',

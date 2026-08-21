@@ -448,6 +448,12 @@ Route::prefix('ifsc-code')->middleware('retired_directory')->group(function () {
     Route::get('/{bankname}', function () {
         abort(410);
     })->where('bankname', '[A-Za-z0-9\-]+');
+
+    // The bare /ifsc-code root is NOT handled here. A single-segment path is swallowed
+    // by the /{post} catch-all further up this file, which is registered long before
+    // this group, so a rule here would never fire. It lives in
+    // routes/cleanup-404-redirects.php instead, which is required near the top.
+    // (/{bankname} above is safe because it is two segments and /{post} is one.)
 });
 
 Route::prefix('port-code')->group(function () {

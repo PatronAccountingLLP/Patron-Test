@@ -1,0 +1,42 @@
+# PATRON - Uploads Security
+# Prevents execution of PHP files in this directory
+
+# Disable PHP execution
+<FilesMatch "\.php$">
+    SetHandler default-handler
+    Deny from all
+</FilesMatch>
+
+# Alternative method for Apache 2.4+
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+
+<IfModule mod_php8.c>
+    php_flag engine off
+</IfModule>
+
+# Deny direct access to sensitive file types
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|php8|phps|phar|inc)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Allow only specific file types
+<FilesMatch "\.(jpg|jpeg|png|gif|pdf|doc|docx|xls|xlsx|txt)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Disable directory listing
+Options -Indexes
+
+# Prevent .htaccess and .htpasswd access
+<Files ".ht*">
+    Order Allow,Deny
+    Deny from all
+</Files>

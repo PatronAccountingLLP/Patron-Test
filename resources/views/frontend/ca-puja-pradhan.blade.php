@@ -190,7 +190,12 @@
     }
 
     *, *::before, *::after { box-sizing: border-box; }
-    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
+    /* No overflow-x here. Setting it on <html> makes <html> the scrolling
+       container, and position:sticky measured against that container never
+       engages - which is why the section nav scrolled away with the page.
+       The horizontal clipping it was there for lives on body below, where it
+       does the same job without breaking sticky. */
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
     body {
         margin: 0;
         font-family: 'Inter', sans-serif;
@@ -211,45 +216,9 @@
     }
 
     /* ============ STATUS BAR ============ */
-    .statbar {
-        background: var(--navy-deep);
-        color: rgba(255,255,255,0.9);
-        font-size: 12px;
-    }
-    .statbar-inner {
-        max-width: 1180px;
-        margin: 0 auto;
-        padding: 8px 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 16px;
-        flex-wrap: wrap;
-    }
     .statbar strong { color: #fff; font-weight: 600; }
-    .statbar-left, .statbar-right {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-    .statbar-pulse {
-        width: 6px;
-        height: 6px;
-        background: var(--green-wa);
-        border-radius: 50%;
-        box-shadow: 0 0 0 0 rgba(37,211,102,0.7);
-        animation: pulse 2s infinite;
-        display: inline-block;
-    }
-    @keyframes pulse {
-        0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.7); }
-        70% { box-shadow: 0 0 0 6px rgba(37,211,102,0); }
-        100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
-    }
-    .statbar .sep { opacity: 0.4; }
+    .statbar-left,    .statbar .sep { opacity: 0.4; }
     @media (max-width: 640px) {
-        .statbar-inner { font-size: 11px; padding: 6px 16px; }
-        .statbar-right { gap: 6px; }
     }
 
     /* ============ HERO ============ */
@@ -388,6 +357,81 @@
     .btn-cp-primary svg { width: 14px; height: 14px; transition: transform 0.15s; }
     .btn-cp-primary:hover svg { transform: translateX(3px); }
 
+    /* Section nav, matching .toc-section on the service pages
+       (public/css/pages-10.css): a light sticky strip of pill buttons that turn
+       orange on hover and when active. */
+    .toc-strip {
+        background: var(--bg-soft);
+        border-bottom: 1px solid var(--line);
+        padding: 14px 0;
+        position: sticky;
+        top: 70px;
+        z-index: 50;
+    }
+    .toc-strip-inner {
+        flex: 1 1 auto;
+        min-width: 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+    }
+    .toc-strip-inner::-webkit-scrollbar { display: none; }
+    /* Scroll arrows, as on the service pages (.toc-arrow in public/css/pages-10.css).
+       Hidden when the strip is not actually overflowing - the script toggles
+       .is-scrollable - so they do not sit there doing nothing on a wide screen. */
+    .toc-strip-outer {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+    .toc-arrow {
+        border: none;
+        cursor: pointer;
+        font-size: 22px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: transparent;
+        color: var(--navy-soft);
+        flex: 0 0 auto;
+        display: none;
+        line-height: 1;
+    }
+    .toc-arrow:hover { background: #fff; color: var(--orange); }
+    .toc-arrow.left { margin-right: 8px; }
+    .toc-arrow.right { margin-left: 8px; }
+    .toc-strip.is-scrollable .toc-arrow { display: block; }
+    .toc-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 10px 18px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: #fff;
+        white-space: nowrap;
+        text-decoration: none;
+        transition: all .15s;
+    }
+    .toc-link:hover {
+        border-color: var(--orange);
+        background: #fff6f1;
+    }
+    .toc-link:hover .toc-link-label { color: var(--orange); }
+    .toc-link.active { background: var(--orange); border-color: var(--orange); }
+    .toc-link.active .toc-link-label { color: #fff; }
+    .toc-link-num { display: none; }
+    .toc-link-label {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--navy-soft);
+        letter-spacing: 0;
+    }
     .btn-cp-secondary {
         display: inline-flex;
         align-items: center;
@@ -402,6 +446,10 @@
         cursor: pointer;
         transition: all 0.15s;
     }
+    /* An inline SVG with only a viewBox expands to fill its box. These arrows
+       shipped with no width/height and no rule, so the archive button rendered
+       with an arrow larger than its own label. */
+    .btn-cp-secondary svg, .btn-cp-primary svg, .btn-cp-wa svg { width: 14px; height: 14px; flex: 0 0 auto; }
     .btn-cp-secondary:hover { border-color: var(--navy); background: var(--bg-soft); }
 
     .btn-cp-wa {
@@ -584,62 +632,7 @@
     .acs-link.is-linkedin:hover { border-color: #0a66c2; }
 
     /* ============ TOC NAV ============ */
-    .toc-strip {
-        background: #fff;
-        border-bottom: 1px solid var(--line);
-        position: sticky;
-        top: 0;
-        z-index: 50;
-        backdrop-filter: blur(10px);
-        background: rgba(255,255,255,0.95);
-    }
-    .toc-strip-inner {
-        max-width: 1180px;
-        margin: 0 auto;
-        padding: 0 20px;
-        display: flex;
-        gap: 1px;
-        background: var(--line);
-        border-radius: 0;
-        overflow-x: auto;
-        scrollbar-width: none;
-    }
-    .toc-strip-inner::-webkit-scrollbar { display: none; }
-    .toc-link {
-        background: #fff;
-        padding: 14px 18px;
-        text-decoration: none;
-        color: var(--grey);
-        font-size: 13px;
-        font-weight: 600;
-        white-space: nowrap;
-        display: inline-flex;
-        flex-direction: column;
-        gap: 2px;
-        flex: 1;
-        min-width: 140px;
-        transition: all 0.15s;
-    }
-    .toc-link:hover {
-        background: var(--bg-soft);
-        color: var(--navy-deep);
-    }
-    .toc-link-num {
-        color: var(--orange);
-        font-size: 10px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-    .toc-link-label {
-        color: var(--navy-deep);
-        font-weight: 700;
-        font-size: 13.5px;
-    }
     @media (max-width: 640px) {
-        .toc-link { padding: 11px 14px; min-width: 110px; }
-        .toc-link-label { font-size: 12.5px; }
-        .toc-link-num { font-size: 9.5px; }
     }
 
     /* ============ SECTIONS ============ */
@@ -1021,15 +1014,6 @@
     .btn-strip svg { width: 14px; height: 14px; }
 
     /* ============ FOOTER STRIP ============ */
-    .footer-strip-cp {
-        padding: 24px 0;
-        background: var(--bg-soft);
-        border-top: 1px solid var(--line);
-        text-align: center;
-        font-size: 13px;
-        color: var(--grey-2);
-    }
-    .footer-strip-cp strong { color: var(--navy-deep); }
 
     /* ============ WORK WITH AUTHOR — CONTACT CARDS ============ */
     .work-grid {
@@ -1109,21 +1093,6 @@
 
 <main>
 
-<!-- ============ STATUS BAR ============ -->
-<div class="statbar">
-    <div class="statbar-inner">
-        <div class="statbar-left">
-            <span class="statbar-pulse" aria-hidden="true"></span>
-            <span><strong>Patron Accounting LLP</strong> · CA-led · Since 2019</span>
-        </div>
-        <div class="statbar-right">
-            <span>Author <strong>Hub</strong></span>
-            <span class="sep">·</span>
-            <span>Founder <strong>Profile</strong></span>
-            <span class="sep">·</span>
-            <span>Updated <strong id="lastUpdated"></strong></span>
-        </div>
-    </div>
 </div>
 
 <!-- ============ HERO ============ -->
@@ -1153,7 +1122,7 @@
                 <div class="hero-cp-cta">
                     <a href="#articles" class="btn-cp-primary">
                         Read Latest Articles
-                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="13" y2="8"/><polyline points="8 3 13 8 8 13"/></svg>
+                        <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="13" y2="8"/><polyline points="8 3 13 8 8 13"/></svg>
                     </a>
                     <a href="tel:+919459456700" class="btn-cp-secondary">Talk to Puja</a>
                     <a href="https://wa.me/919459456700?text=Hi%20CA%20Puja%2C%20I%20found%20your%20author%20page%20and%20would%20like%20to%20discuss%20my%20business%20requirements." class="btn-cp-wa" rel="noopener" target="_blank">
@@ -1227,7 +1196,9 @@
 
 <!-- ============ TOC NAV ============ -->
 <nav class="toc-strip" aria-label="On this page">
-    <div class="toc-strip-inner">
+    <div class="toc-strip-outer">
+        <button class="toc-arrow left" type="button" aria-label="Scroll sections left">&#10094;</button>
+        <div class="toc-strip-inner">
         <a class="toc-link" href="#about"><span class="toc-link-num">01</span><span class="toc-link-label">About</span></a>
         <a class="toc-link" href="#expertise"><span class="toc-link-num">02</span><span class="toc-link-label">Expertise</span></a>
         <a class="toc-link" href="#philosophy"><span class="toc-link-num">03</span><span class="toc-link-label">Philosophy</span></a>
@@ -1235,6 +1206,8 @@
         <a class="toc-link" href="#articles"><span class="toc-link-num">05</span><span class="toc-link-label">Latest Articles</span></a>
         <a class="toc-link" href="#topics"><span class="toc-link-num">06</span><span class="toc-link-label">Topics</span></a>
         <a class="toc-link" href="#work"><span class="toc-link-num">07</span><span class="toc-link-label">Work With Puja</span></a>
+        </div>
+        <button class="toc-arrow right" type="button" aria-label="Scroll sections right">&#10095;</button>
     </div>
 </nav>
 
@@ -1278,7 +1251,7 @@
         </div>
         <div class="cta-strip-actions">
             <a class="btn-strip is-orange" href="tel:+919459456700">
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.5 1.5L5 4l-1.5 1.5C4.5 8 8 11.5 10.5 12.5L12 11l2.5 1.5V14a1.5 1.5 0 0 1-1.5 1.5C7.7 15 1 8.3 1 3a1.5 1.5 0 0 1 1.5-1.5h1z"/></svg>
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.5 1.5L5 4l-1.5 1.5C4.5 8 8 11.5 10.5 12.5L12 11l2.5 1.5V14a1.5 1.5 0 0 1-1.5 1.5C7.7 15 1 8.3 1 3a1.5 1.5 0 0 1 1.5-1.5h1z"/></svg>
                 Call Now
             </a>
             <a class="btn-strip is-wa" href="https://wa.me/919459456700?text=Hi%20CA%20Puja%2C%20I%20would%20like%20to%20discuss%20my%20business%20requirements." rel="noopener" target="_blank">
@@ -1521,7 +1494,7 @@
         <div style="text-align:center;margin-top:36px;">
             <a class="btn-cp-secondary" href="https://www.patronaccounting.com/blog">
                 View Complete Patron Blog Archive
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="13" y2="8"/><polyline points="8 3 13 8 8 13"/></svg>
+                <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="13" y2="8"/><polyline points="8 3 13 8 8 13"/></svg>
             </a>
         </div>
     </div>
@@ -1611,13 +1584,6 @@
     </div>
 </section>
 
-<!-- ============ FOOTER STRIP ============ -->
-<footer class="footer-strip-cp">
-    <div class="container-cp">
-        © 2026 <strong>Patron Accounting LLP</strong>. All rights reserved.
-    </div>
-</footer>
-
 </main>
 
 <script>
@@ -1632,5 +1598,98 @@
 
 {{-- Seasonal ITR sticky WhatsApp bar (sitewide parity; layouts.app includes the empty 'itr-season-strip' stub) --}}
 @include('layouts.itr-season-strips')
+
+{{-- Section nav follows the reader. The service pages do this with a scroll
+     listener that measures offsetTop on every frame; an IntersectionObserver
+     does the same job without running on scroll, and the rootMargin picks the
+     section occupying the middle band of the viewport rather than whichever one
+     merely touches the top edge.
+
+     The nav also scrolls itself so the active pill stays in view - it overflows
+     horizontally on narrow screens, and an active pill off-screen is no use. --}}
+<script>
+(function () {
+  var nav = document.querySelector('.toc-strip-inner');
+  if (!nav) return;
+
+  var links = Array.prototype.slice.call(nav.querySelectorAll('.toc-link'));
+  if (!links.length) return;
+
+  var byId = {};
+  var sections = [];
+  links.forEach(function (a) {
+    var id = (a.getAttribute('href') || '').replace(/^#/, '');
+    var el = id && document.getElementById(id);
+    if (el) { byId[id] = a; sections.push(el); }
+  });
+  if (!sections.length) return;
+
+  var current = null;
+  function activate(id) {
+    if (id === current || !byId[id]) return;
+    current = id;
+    links.forEach(function (a) { a.classList.remove('active'); });
+    var link = byId[id];
+    link.classList.add('active');
+    // keep the active pill within the scrollable strip
+    var left = link.offsetLeft - (nav.clientWidth / 2) + (link.offsetWidth / 2);
+    nav.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
+  }
+
+  if ('IntersectionObserver' in window) {
+    var seen = {};
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { seen[e.target.id] = e.isIntersecting ? e.intersectionRatio : 0; });
+      var best = null, bestRatio = 0;
+      sections.forEach(function (s) {
+        var r = seen[s.id] || 0;
+        if (r > bestRatio) { bestRatio = r; best = s.id; }
+      });
+      if (best) { activate(best); }
+    }, { rootMargin: '-25% 0px -60% 0px', threshold: [0, 0.25, 0.5, 1] });
+    sections.forEach(function (s) { io.observe(s); });
+  } else {
+    // Older browsers: the same idea, throttled to one measurement per frame.
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        ticking = false;
+        var id = null;
+        sections.forEach(function (s) {
+          if (window.pageYOffset >= s.offsetTop - 140) { id = s.id; }
+        });
+        if (id) { activate(id); }
+      });
+    }, { passive: true });
+  }
+
+  // clicking a pill should light it immediately, not wait for the scroll to land
+  links.forEach(function (a) {
+    a.addEventListener('click', function () {
+      activate((a.getAttribute('href') || '').replace(/^#/, ''));
+    });
+  });
+
+  activate(sections[0].id);
+})();
+</script>
+
+{{-- Arrow buttons scroll the strip, and only appear when it actually overflows. --}}
+<script>
+(function () {
+  var strip = document.querySelector('.toc-strip');
+  var wrap  = document.querySelector('.toc-strip-inner');
+  if (!strip || !wrap) return;
+  var L = strip.querySelector('.toc-arrow.left');
+  var R = strip.querySelector('.toc-arrow.right');
+  if (L) { L.addEventListener('click', function () { wrap.scrollBy({ left: -220, behavior: 'smooth' }); }); }
+  if (R) { R.addEventListener('click', function () { wrap.scrollBy({ left:  220, behavior: 'smooth' }); }); }
+  function sync() { strip.classList.toggle('is-scrollable', wrap.scrollWidth > wrap.clientWidth + 4); }
+  sync();
+  window.addEventListener('resize', sync);
+})();
+</script>
 
 @endsection

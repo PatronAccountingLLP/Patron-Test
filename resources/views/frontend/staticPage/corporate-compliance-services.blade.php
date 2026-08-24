@@ -1951,69 +1951,57 @@
             <div class="sec-head-left">
                 <div class="sec-tag"><span class="tag-num">14</span>Free Compliance Tools</div>
                 <h2 class="sec-h2">Free ROC/MCA tools.</h2>
-                <p class="sec-sub">Ten free tools — due-date and penalty calculators, stamp-duty calculators and applicability checkers.</p>
+                <p class="sec-sub">Eight free tools: due-date calendars, fee and cost calculators, stamp duty and threshold checkers.</p>
             </div>
-            <div class="sec-head-right"><span class="sec-counter">10 tools · Free</span></div>
+            <div class="sec-head-right"><span class="sec-counter">8 tools · Free</span></div>
         </div>
         <div class="grid-cp is-5">
-            <a href="https://www.patronaccounting.com/tools/roc-due-date-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>14.01</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">ROC Filing Due Date Calculator</h3>
-                <p class="tile-cp-blurb">AOC-4, MGT-7 and event-form due dates from your AGM or trigger date.</p>
+                <h3 class="tile-cp-title">ROC Filing Due Date Calendar</h3>
+                <p class="tile-cp-blurb">AOC-4, MGT-7 and AGM due dates for a Pvt Ltd, LLP or OPC.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/tools/roc-late-fee-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>14.02</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">ROC Late Filing Fee Calculator</h3>
+                <h3 class="tile-cp-title">MCA Late Fee Calculator</h3>
                 <p class="tile-cp-blurb">Additional fees and per-day penalties on a delayed MCA filing.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/tools/authorised-capital-stamp-duty-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/authorised-capital-planner" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>14.03</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Authorised Capital Stamp Duty Calculator</h3>
+                <h3 class="tile-cp-title">Authorised Capital Planner</h3>
                 <p class="tile-cp-blurb">Stamp duty and MCA fees on an SH-7 authorised-capital increase.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/tools/share-transfer-stamp-duty-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/stamp-duty-calculator" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>14.04</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Share Transfer Stamp Duty Calculator</h3>
-                <p class="tile-cp-blurb">Stamp duty payable on an SH-4 share transfer.</p>
+                <h3 class="tile-cp-title">Stamp Duty Calculator</h3>
+                <p class="tile-cp-blurb">Stamp duty payable on a share transfer and other instruments.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/tools/agm-due-date-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/dir3-kyc-reminder" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>14.05</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">AGM Due Date Calculator</h3>
-                <p class="tile-cp-blurb">First-AGM and subsequent-AGM due dates from your financial year-end.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
-            <a href="https://www.patronaccounting.com/tools/director-kyc-deadline-checker" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>14.06</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Director KYC Deadline Checker</h3>
-                <p class="tile-cp-blurb">Your DIR-3 KYC deadline and the penalty if missed.</p>
+                <h3 class="tile-cp-title">DIR-3 KYC Due Date Reminder</h3>
+                <p class="tile-cp-blurb">Your DIN/DPIN annual KYC deadline and the penalty if missed.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
             <a href="https://www.patronaccounting.com/tools/company-name-search" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>14.07</span><span class="tile-cp-form-tag">FREE</span></div>
+                <div class="tile-cp-meta-row"><span>14.06</span><span class="tile-cp-form-tag">FREE</span></div>
                 <h3 class="tile-cp-title">Company Name Search</h3>
                 <p class="tile-cp-blurb">Check whether a proposed company or LLP name is likely available.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/tools/csr-applicability-checker" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/turnover-threshold-checker" class="tile-cp">
+                <div class="tile-cp-meta-row"><span>14.07</span><span class="tile-cp-form-tag">FREE</span></div>
+                <h3 class="tile-cp-title">Turnover Threshold Checker</h3>
+                <p class="tile-cp-blurb">Check which thresholds your turnover crosses, small-company status included.</p>
+                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
+            </a>
+            <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>14.08</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">CSR Applicability Checker</h3>
-                <p class="tile-cp-blurb">Check whether Section 135 CSR applies to your company.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
-            <a href="https://www.patronaccounting.com/tools/small-company-status-checker" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>14.09</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Small Company Status Checker</h3>
-                <p class="tile-cp-blurb">Check whether your company qualifies as 'small' under Section 2(85).</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
-            <a href="https://www.patronaccounting.com/tools/compliance-penalty-estimator" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>14.10</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Compliance Penalty Estimator</h3>
-                <p class="tile-cp-blurb">Estimate cumulative penalty exposure across pending ROC filings.</p>
+                <h3 class="tile-cp-title">Annual Compliance Cost Estimator</h3>
+                <p class="tile-cp-blurb">Estimate a year of ROC and statutory compliance cost.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
         </div>

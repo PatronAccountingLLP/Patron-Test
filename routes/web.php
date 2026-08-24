@@ -231,6 +231,45 @@ Route::get('/tools/iepf-search', function () {
     return redirect('/tools/iepf-unclaimed-shares-checker', 301);
 });
 
+// Phase 0.4: tool URLs linked from the site that never had a page. Targets are
+// chosen by what the tool DOES, not by slug similarity, and each was verified
+// 200 on 2026-08-24. These must sit above /tools/{slug} below, which resolves
+// cal.{slug} and aborts 404 for anything it cannot find.
+//
+//   director-kyc-deadline-checker                DIR-3 KYC deadline
+//   gst-place-of-supply-checker                  GST return checking
+//   gst-rcm-liability-checker                    RCM liability
+//   small-company-status-checker                 am I over/under a threshold
+//   roc-due-date-calculator                      ROC filing dates
+//   agm-due-date-calculator                      the AGM date is an ROC date
+//   roc-late-fee-calculator                      MCA is the ROC
+//   compliance-penalty-estimator                 cost of compliance
+//   share-transfer-stamp-duty-calculator         the general case of the same duty
+//   authorised-capital-stamp-duty-calculator     authorised capital, duty included
+
+Route::permanentRedirect('/tools/director-kyc-deadline-checker', '/tools/dir3-kyc-reminder');
+Route::permanentRedirect('/tools/gst-place-of-supply-checker', '/tools/gstr-9-annual-return-checklist');
+Route::permanentRedirect('/tools/gst-rcm-liability-checker', '/tools/rcm-calculator');
+Route::permanentRedirect('/tools/small-company-status-checker', '/tools/turnover-threshold-checker');
+Route::permanentRedirect('/tools/roc-due-date-calculator', '/tools/roc-filing-due-date-calendar');
+Route::permanentRedirect('/tools/agm-due-date-calculator', '/tools/roc-filing-due-date-calendar');
+Route::permanentRedirect('/tools/roc-late-fee-calculator', '/tools/mca-late-fee-calculator');
+Route::permanentRedirect('/tools/compliance-penalty-estimator', '/tools/annual-compliance-cost-estimator');
+Route::permanentRedirect('/tools/share-transfer-stamp-duty-calculator', '/tools/stamp-duty-calculator');
+Route::permanentRedirect('/tools/authorised-capital-stamp-duty-calculator', '/tools/authorised-capital-planner');
+
+// The internship letter generator was never built and is not planned. Nothing on
+// the site links to it, it is in no sitemap, and the tools bundle does not list
+// it - the only references were a placeholder page added and removed on
+// 2026-08-24. 410 rather than 404 so Google stops retrying a URL that is not
+// coming back.
+//
+// Must sit ABOVE /tools/{slug}: that route resolves cal.{slug} and aborts 404
+// for anything it cannot find, so registered after it this rule never runs.
+Route::get('/tools/internship-letter-generator', function () {
+    abort(410);
+})->name('tools.internship-letter.retired');
+
 Route::get('/tools/{slug}', function ($slug) {
     if (view()->exists('cal.' . $slug)) {
         return view('cal.' . $slug);
@@ -441,6 +480,50 @@ Route::get('/registration-for-12a-80g-certificate', function () {
     abort(410);
 });
 
+// Phase 0.4: blog URLs linked from the site whose posts are gone. The cleanup
+// plan sent all fourteen to /blog, which is the generic-hub problem - a gift-tax
+// search landing on an index of 677 posts. Targets below are chosen by concept
+// and each was verified 200 on 2026-08-24.
+//
+// Registered above /blog/{post} below, which is what currently answers these.
+//
+// Matching on shared slug words produced false friends and had to be abandoned:
+// "ratio" appears inside registrations, "eva" inside evaluation, and
+// "establishment" pulled up the Shop & Establishment Act, which has nothing to
+// do with a permanent establishment.
+//
+//   epfo-compliance                            employer PF compliance
+//   epfo-inspection-readiness                  same: PF compliance is what an inspection tests
+//   nri-tax-compliance-guide                   NRI tax filing
+//   payroll-restructuring-india                restructuring pay IS designing a tax-efficient salary structure
+//   penalty-late-roc-filing-india              condonation is the remedy for exactly this penalty
+//   permanent-establishment-india              SEP is the modern successor to PE - when a non-resident becomes taxable here
+//   gift-tax-india                             gift tax in India is the clubbing question: assets transferred without consideration
+//   tax-implications-of-investing-abroad       LRS is the route money takes when an Indian resident invests abroad
+//   wos-vs-llp-india                           a WOS is a private limited subsidiary, so this is the same structure choice
+//   zero-rated-supplies-under-gst              SEZ supplies are the zero-rated case
+//   dividend-payout-ratio                      the only live page that computes payout ratio - a tool, not a post
+//   economic-value-added-eva                   EVA is a return-on-capital-employed measure; ROCE is the same family
+//   category/gst                               a category listing to the full listing - the one case where the hub IS the equivalent
+//   category/licences-registrations            same
+//
+// Two go to tools rather than posts. No blog post covers either concept, and a
+// tool that answers the question beats a post that does not.
+
+Route::permanentRedirect('/blog/epfo-compliance', '/blog/pf-registration-compliance-guide-employers');
+Route::permanentRedirect('/blog/epfo-inspection-readiness', '/blog/pf-registration-compliance-guide-employers');
+Route::permanentRedirect('/blog/nri-tax-compliance-guide', '/blog/nri-itr-filing-fy-2025-26');
+Route::permanentRedirect('/blog/payroll-restructuring-india', '/blog/tax-efficient-salary-structure-india-employers-guide');
+Route::permanentRedirect('/blog/penalty-late-roc-filing-india', '/blog/condonation-of-delay-roc-filings-section-460-nclt-compounding-section-441');
+Route::permanentRedirect('/blog/permanent-establishment-india', '/blog/significant-economic-presence-sep-rules-2026-thresholds-non-resident');
+Route::permanentRedirect('/blog/gift-tax-india', '/blog/clubbing-of-income-vs-transfer-of-income');
+Route::permanentRedirect('/blog/tax-implications-of-investing-abroad', '/blog/tcs-rate-changes-april-2026-overseas-travel-lrs-education-liquor');
+Route::permanentRedirect('/blog/wos-vs-llp-india', '/blog/private-limited-company-vs-llp');
+Route::permanentRedirect('/blog/zero-rated-supplies-under-gst', '/blog/gst-returns-sez-plain-language-technical-requirements');
+Route::permanentRedirect('/blog/dividend-payout-ratio', '/tools/financial-ratios-dashboard');
+Route::permanentRedirect('/blog/economic-value-added-eva', '/tools/roe-roce-calculator');
+Route::permanentRedirect('/blog/category/gst', '/blog');
+Route::permanentRedirect('/blog/category/licences-registrations', '/blog');
 // Posts Routes - Individual posts (must come before page fallback)
 Route::get('/blog/{post}', [FrontendController::class, 'blogShowPost'])->name('frontend.posts.blog')->where('post', '[a-z0-9\-]+');
 

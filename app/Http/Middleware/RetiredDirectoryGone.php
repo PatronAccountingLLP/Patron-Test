@@ -6,15 +6,17 @@ use Closure;
 use Illuminate\Http\Request;
 
 /**
- * Directory Retirement Plan (2026-08-16), phases 1 and 2.
+ * Directory Retirement Plan (2026-08-16).
  *
- * Phase 1 - the pages nobody has ever seen: every IFSC branch page with no
- *           impressions, plus the HSN codes listed in resources/retired.
- * Phase 2 - the rest of IFSC.
+ * HSN only. The 410 here is a LIST, not a pattern, because Phase 3 - the
+ * ~5,248 HSN pages that still earn impressions - has NOT been approved and
+ * those pages must keep working. Only the codes in resources/retired are Gone.
  *
- * Phases 1 and 2 together are the whole /ifsc-code/ directory, so IFSC is a
- * pattern rule. HSN is a list, because Phase 3 (the ~5.2k HSN pages that still
- * earn impressions) has NOT been approved and those pages must keep working.
+ * IFSC used to be handled here too, as a whole-directory pattern. It moved out
+ * on 2026-08-24: a single /ifsc-code/{path?} route in routes/web.php now
+ * answers 410 for every shape. Routing there rather than in middleware is what
+ * fixed the bare hub and the 218 /ifsc-code/{bank} index pages, which returned
+ * 404 because no route matched them and so the middleware never ran.
  *
  * 410 rather than 404: it states the removal is permanent, so Google retires
  * the URL faster and retries less. Laravel renders resources/views/errors/410.
@@ -38,11 +40,6 @@ class RetiredDirectoryGone
 
         if ($second !== null && in_array($second, self::EXEMPT, true)) {
             return $next($request);
-        }
-
-        // Phase 1 + Phase 2: the entire IFSC estate, 169,871 URLs.
-        if ($directory === 'ifsc-code') {
-            abort(410);
         }
 
         // Phase 1: only the HSN codes with no impressions and no organic sessions.

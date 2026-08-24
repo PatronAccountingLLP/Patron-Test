@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use App\Models\NicCodeContent;
-use App\Models\IfscCodeContent;
 use App\Models\PortCodeContent;
 use App\Models\HSNCodeData;
 use App\Models\IncomeTaxDepreciationRate;
@@ -153,129 +152,15 @@ class DynamicController extends Controller
         }
     }
 
-    /**
-     * update IFSC code slug
-     */
-    public function updateIfscSlug()
-    {
-
-       try {
-            $ifsccodecontents = IfscCodeContent::get();
-            foreach ($ifsccodecontents as $content) {
-                $fullSlug = $content->slug;
-                $slugParts = explode('/', $fullSlug);
-                $slug = $slugParts[1] ?? $fullSlug;
-
-                $slug = $this->safeSlugSegment($slug);
-                if ($slug === null) {
-                    continue;
-                }
-
-                if ($content->slug !== $slug) {
-                    $content->slug = $slug;
-                    $content->save();
-                }
-            }
-            return 'Ifsc code slug updated successfully with chunking';
-       } catch (\Exception $e) {
-        return response()->json([
-            'success' => false,
-            'message' => 'Error: ' . $e->getMessage(),
-            'data' => []
-        ], 500);
-       }
-    }
-
-  public function ifscloadcontent($bankname, $slug)
-{
-    // Convert bankname to proper case for DB 'bank' column
-    $formattedBankName = ucwords(strtolower(str_replace('-', ' ', $bankname)));
-
-    // Build full slug exactly as stored in DB
-    $fullSlug = $bankname . '/' . $slug;
-
-    // Cache key
-    $cacheKey = 'ifsc_content_' . md5($formattedBankName . '_' . $fullSlug);
-
-    // $content = Cache::remember($cacheKey, 60 * 60 * 24, function () use ($formattedBankName, $fullSlug) {
-    //     return IfscCodeContent::where('bank', $formattedBankName)
-    //         ->where('slug', $fullSlug)
-    //         ->first();
-    // });
-
-        $content = IfscCodeContent::where(function ($q) use ($slug, $fullSlug) {
-            $q->where('slug', $fullSlug)   // old format
-              ->orWhere('slug', $slug);    // new format
-        })
-        ->first();
-
-    if (!$content) {
-        abort(404);
-    }
-
-    // return $content;
-     return view('frontend.pages.ifscloadcontent', compact('content'));
-}
-
-
-    public function searchIfscCodes(Request $request)
-    {
-        try {
-            $searchTerm = $request->input('search', '');
-            
-            // Generate cache key based on search term
-            $cacheKey = 'ifsc_code_search_' . md5(strtolower(trim($searchTerm)));
-            
-            // Cache duration: 24 hours for empty search, 12 hours for specific searches
-            $cacheDuration = empty($searchTerm) ? 60 * 60 * 24 : 60 * 60 * 12;
-            
-            // Use cache to store and retrieve results
-            $data = Cache::remember($cacheKey, $cacheDuration, function () use ($searchTerm) {
-                if (empty($searchTerm)) {
-                    // If search is empty, return limited results
-                    $results = IfscCodeContent::select('ifsc', 'bank', 'branch', 'city1', 'slug')
-                        ->limit(100)
-                        ->get();
-                } else {
-                    // Search in IFSC, Bank, Branch, and City
-                    $results = IfscCodeContent::where(function($query) use ($searchTerm) {
-                            $query->where('ifsc', 'LIKE', '%' . $searchTerm . '%')
-                                  ->orWhere('bank', 'LIKE', '%' . $searchTerm . '%')
-                                  ->orWhere('branch', 'LIKE', '%' . $searchTerm . '%')
-                                  ->orWhere('city1', 'LIKE', '%' . $searchTerm . '%');
-                        })
-                        ->select('ifsc', 'bank', 'branch', 'city1', 'slug')
-                        ->limit(500)
-                        ->get();
-                }
-
-                // Convert to array and ensure proper format
-                return $results->map(function($item) {
-                    return [
-                        'ifsc' => $item->ifsc ?? '',
-                        'bank' => $item->bank ?? '',
-                        'branch' => $item->branch ?? '',
-                        'city' => $item->city1 ?? '',
-                        'slug' => $item->slug ?? ''
-                    ];
-                })->toArray();
-            });
-
-            return response()->json([
-                'success' => true,
-                'data' => $data,
-                'count' => count($data),
-                'cached' => Cache::has($cacheKey)
-            ]);
-        } catch (\Exception $e) {
-            \Log::error('IFSC Search Error: ' . $e->getMessage());
-            return response()->json([
-                'success' => false,
-                'message' => 'Error: ' . $e->getMessage(),
-                'data' => []
-            ], 500);
-        }
-    }
+    // The IFSC methods lived here: updateIfscSlug, ifscloadcontent and
+    // searchIfscCodes. Removed 2026-08-24 with the directory itself.
+    //
+    // /ifsc-code/{path?} answers 410 for every shape from routes/web.php, so
+    // nothing reached these and nothing rendered
+    // resources/views/frontend/pages/ifscloadcontent.blade.php, which is deleted
+    // in the same change. The ifsc_code_* table is deliberately kept - the 410
+    // comes from the route, the data is never queried, and dropping ~170k rows
+    // is the one step here that could not be undone.
     
     // PORT CODE =========
     public function updatePortSlug()

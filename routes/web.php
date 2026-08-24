@@ -163,6 +163,39 @@ Route::get('/authorhub/ca-puja-pradhan', [App\Http\Controllers\FrontendControlle
     ->name('frontend.caPuja.show');
 Route::get('/authorhub/ca-sundram-gupta', [App\Http\Controllers\FrontendController::class, 'caSundram'])
     ->name('frontend.caSundram.show');
+
+// Two author hubs Google knows about but the site never served. Both must sit
+// above the /authorhub/{author_slug} catch-all further down, which 404s anything
+// it does not recognise.
+//
+// boby-gautam was a developer test page. It is not a byline on any post, yet it
+// is the most-seen author URL in Search - 90 impressions and 3 clicks over the 90
+// days to 2026-08-23 - so it needs a deliberate answer rather than a 404. 410
+// says it is gone for good and stops Google retrying.
+Route::get('/authorhub/boby-gautam', function () {
+    abort(410);
+})->name('authorhub.boby-gautam.retired');
+
+// ca-poonam-kadge is the opposite case: a real author, and a prolific one. On a
+// random 120 of the 976 posts she carries 16.7% of the bylines - about 163 posts,
+// the third largest share after CA Puja Pradhan and CA Sundram Gupta - and each
+// of those posts also names her as the schema Person, with author.url pointing
+// here. It has been 404ing throughout, while still earning clicks: 2 clicks from
+// 2 impressions in the same window, so every searcher who saw it clicked, and
+// every one of them landed on a 404.
+//
+// Nothing was removed. No hub view for her ever existed in either repo - the
+// byline template builds this URL from the author's name, so it appears for any
+// author whether or not a page was built. Only two ever were.
+//
+// 302, deliberately, NOT 301: the real hub page is being built. A permanent
+// redirect would consolidate this URL into ca-sundram-gupta and have to be
+// un-taught when the page ships. A temporary one keeps the URL in the index,
+// leaves its signals where they are, and simply stops applying once the hub
+// exists. Delete this route then - do not convert it to a 301.
+Route::get('/authorhub/ca-poonam-kadge', function () {
+    return redirect('/authorhub/ca-sundram-gupta', 302);
+})->name('authorhub.poonam-kadge.interim');
 Route::get('/tools', function () {
     return view('frontend.pages.tools-hub');
 })->name('tools');

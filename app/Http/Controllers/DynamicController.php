@@ -306,11 +306,74 @@ class DynamicController extends Controller
         if (!$content) {
             abort(404);
         }
-        return view('frontend.pages.hsnloadcontent', compact('content', 'slug'));
+        $body = Cache::remember('hsn_body_' . md5($slug), 600, function () use ($content) {
+            return $this->unlinkDeadHsnLinks((string) ($content->content ?? ''));
+        });
+        return view('frontend.pages.hsnloadcontent', compact('content', 'slug', 'body'));
         } catch (\Exception $e) {
             \Log::error('HSN Code Load Content Error: ' . $e->getMessage());
             abort(404);
         }
+    }
+
+    /**
+     * Unlink the dead codes in the stored "HSN Codes under Chapter NN" table.
+     *
+     * That table is part of the article body in hsn_code_data.content, not template
+     * markup, and it was built from the tariff code range rather than from pages that
+     * exist. On /hsn-code/48191010, three of its ten links return 410 and the rest 200.
+     *
+     * The table itself is useful, so only the anchors are removed - the code stays as
+     * plain text and the row keeps its description and GST rates. A link is kept only
+     * when the code both has a row and is not on the retirement list; retired codes
+     * still have rows, so the row check alone would miss them, and a code with no row
+     * at all is the 404 case that "exclude the retired list" would have left behind.
+     *
+     * One whereIn covers every code in the page, and the result is cached with the body.
+     */
+    private function unlinkDeadHsnLinks(string $html): string
+    {
+        if ($html === '' || stripos($html, '/hsn-code/') === false) {
+            return $html;
+        }
+
+        $anchor = '~<a\b[^>]*\bhref="[^"]*/hsn-code/(\d+)"[^>]*>(.*?)</a>~is';
+        if (!preg_match_all($anchor, $html, $matches) || empty($matches[1])) {
+            return $html;
+        }
+
+        $codes = array_values(array_unique($matches[1]));
+
+        try {
+            $present = HSNCodeData::whereIn('slug', $codes)->pluck('slug')->all();
+        } catch (\Throwable $e) {
+            // If the lookup fails there is no way to tell live from dead. Leaving the
+            // body untouched shows a stale link; guessing could unlink a working page.
+            \Log::warning('HSN sibling unlink skipped: ' . $e->getMessage());
+            return $html;
+        }
+
+        $present = array_flip(array_map('strval', $present));
+        $retired = $this->retiredHsnCodes();
+
+        $out = preg_replace_callback($anchor, function (array $m) use ($present, $retired) {
+            $code = $m[1];
+            $live = isset($present[$code]) && !isset($retired[$code]);
+            return $live ? $m[0] : $m[2];   // keep the link, or drop to its own text
+        }, $html);
+
+        return $out ?? $html;
+    }
+
+    /** @return array<string|int,mixed> the 410 list, keyed by code */
+    private function retiredHsnCodes(): array
+    {
+        static $retired = null;
+        if ($retired === null) {
+            $path = resource_path('retired/hsn-410-codes.php');
+            $retired = is_file($path) ? (array) require $path : [];
+        }
+        return $retired;
     }
 
     public function searchHsnCodes(Request $request)

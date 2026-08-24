@@ -102,6 +102,32 @@
     };
 
     $crumb = $code !== '' ? 'HSN Code ' . $code : trim(strip_tags($content->h1 ?? 'HSN Code'));
+
+    // The stored article body carries a second sibling block, separate from the pill
+    // grid removed above: a "HSN Codes under Chapter NN" section holding a table of
+    // ten related codes. It is built from the tariff range rather than from pages that
+    // exist, so it has the same defect - on /hsn-code/48191010, 3 of its 10 links
+    // return 410 and the rest 200.
+    //
+    // It cannot be removed in the template the way the pill grid was, because it is not
+    // template markup at all - it lives inside hsn_code_data.content. Stripping it at
+    // render time clears every broken link now without a data migration over ~13k rows.
+    // If the block is ever rebuilt from a query over codes that resolve, delete this
+    // and let the content through.
+    //
+    // The pattern is one flat <section class="content-section"> per page, headed by an
+    // h2 that starts "HSN Codes under Chapter", closed by the first </section>. Nothing
+    // nests inside it but divs and the table, and the section that follows ("GST Rates
+    // for HSN ...") must survive - hence the non-greedy match. A page whose markup does
+    // not match is passed through untouched.
+    $hsnBody = (string) ($content->content ?? '');
+    $hsnBodyStripped = preg_replace(
+        '~<section[^>]*class="[^"]*content-section[^"]*"[^>]*>\s*<h2[^>]*>\s*HSN Codes under Chapter.*?</section>~is',
+        '',
+        $hsnBody
+    );
+    // preg_replace returns null on failure (e.g. backtrack limit); keep the original then.
+    $hsnBody = $hsnBodyStripped ?? $hsnBody;
 @endphp
 
 {{-- ============================ TOP BANNER (swappable image) ============================ --}}
@@ -226,7 +252,9 @@
         {{-- ---------------- MAIN: dynamic content + internal-linking block ---------------- --}}
         <main class="content">
             <div id="originalContent">
-                {!! $content->content !!}
+                {{-- $hsnBody is $content->content with the in-content "HSN Codes under
+                     Chapter NN" sibling table stripped. See the @php block at the top. --}}
+                {!! $hsnBody !!}
             </div>
 
             {{-- The "More HSN codes from Chapter NN" grid rendered here, from the stored

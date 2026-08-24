@@ -421,6 +421,31 @@ Route::get('/ifsc-code/{path?}', function () {
     abort(410);
 })->where('path', '.*')->name('ifsc.retired');
 
+// The HSN, NIC and Port hubs were never built - /hsn-code, /nic-code and
+// /port-code have always 404'd, while ~6,900 breadcrumbs pointed at them. The
+// breadcrumb links are gone now; these three rules stop the URLs themselves
+// being a dead end, sending each to the best-performing page in its own
+// directory instead. Targets picked on 90 days of GSC clicks to 2026-08-23 and
+// verified 200:
+//
+//   /hsn-code   -> 48191010                        41 clicks,   8,025 impressions
+//   /nic-code   -> wholesale-fruits-vegetables      446 clicks, 25,058 impressions
+//   /port-code  -> icd-dadri                        196 clicks, 20,580 impressions
+//
+// These sit ABOVE the /{post} catch-all for the same reason the IFSC rule does:
+// a single-segment path is swallowed by /{post} and 404s otherwise. They do not
+// collide with the hsn-code/nic-code/port-code prefix groups further down, which
+// only ever match two or more segments.
+//
+// Worth knowing: a hub URL carries directory intent, and these targets are
+// single codes rather than an equivalent listing. Google may decline the signal
+// and treat the redirect as a soft 404. Building real index pages is the durable
+// fix; until then a 301 to a live page beats a 404. If Search Console starts
+// reporting these as soft 404s, that is why.
+Route::permanentRedirect('/hsn-code', '/hsn-code/48191010');
+Route::permanentRedirect('/nic-code', '/nic-code/wholesale-fruits-vegetables/46301');
+Route::permanentRedirect('/port-code', '/port-code/icd-dadri/inder6');
+
 Route::get('/{post}', [FrontendController::class, 'showPost'])->name('frontend.posts.show')->where('post', '[a-z0-9\-]+');
 
 // =======    // 

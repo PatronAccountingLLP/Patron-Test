@@ -493,7 +493,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
             <a href="https://www.patronaccounting.com/tools/sip-calculator" class="sidebar-link">SIP Calculator <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/tools/fd-calculator" class="sidebar-link">FD Calculator <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Calculator <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Calculator <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>From the Blog</h3>

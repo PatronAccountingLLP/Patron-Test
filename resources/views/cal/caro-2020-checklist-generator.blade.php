@@ -774,7 +774,7 @@
             <a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/depreciation-calculator" class="sidebar-link">Depreciation Calculator<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dir3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

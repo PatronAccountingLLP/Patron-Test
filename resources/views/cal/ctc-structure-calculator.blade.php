@@ -653,7 +653,7 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
             </ul>
 
             <h3>HRA — Metro vs Non-Metro</h3>
-            <p>HRA continues as a salary component and remains tax-exempt under Section 10(13A) of the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Act</a>. The lowest of three is exempt: actual HRA received, rent paid minus 10% of basic, or 50% of basic for metro cities (Mumbai, Delhi, Kolkata, Chennai) / 40% for non-metro. The Patron <a href="https://www.patronaccounting.com/tools/hra-calculator">HRA Calculator</a> handles the exemption computation.</p>
+            <p>HRA continues as a salary component and remains tax-exempt under Section 10(13A) of the <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">Income Tax Act</a>. The lowest of three is exempt: actual HRA received, rent paid minus 10% of basic, or 50% of basic for metro cities (Mumbai, Delhi, Kolkata, Chennai) / 40% for non-metro. The Patron <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator">HRA Calculator</a> handles the exemption computation.</p>
 
             <h3>PF Wage Cap — ₹15,000 vs Actual Basic</h3>
             <p>Under the EPF Act, PF is mandatory for employees with basic wages up to ₹15,000/month. Above this threshold, PF is voluntary at the employee's election. Most large employers operate two policies:</p>
@@ -770,8 +770,8 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
             <h3>Related Tools</h3>
             
             <a href="https://www.patronaccounting.com/tools/gratuity-calculator" class="sidebar-link">Gratuity Calculator<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Calculator<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
         </div>

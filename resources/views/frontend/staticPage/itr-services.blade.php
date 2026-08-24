@@ -2,14 +2,14 @@
 @extends('layouts.service-app')
 
 @section('meta')
-    <title>ITR Services Directory — Find Your Form | Patron LLP</title>
+    <title>ITR Services Directory - Find Your Form | Patron LLP</title>
     <meta name="description" content="24+ specialized ITR filing services across every filer type, profession and industry. From salary ITR-1 to complex F&O, NRI and company filings.">
     <meta name="keywords" content="ITR services India, ITR filing, income tax return, ITR-1 salary, ITR-3 business, ITR-5 LLP partnership, ITR-6 company, ITR for NRI, ITR for capital gains, ITR for F&O traders, ITR for crypto, ITR for ESOP, ITR for freelancers, ITR for doctors, foreign income Schedule FA, presumptive 44ADA, industry ITR filing, CA-assisted ITR">
     <meta name="author" content="Patron Accounting LLP">
 
     <link rel="canonical" href="/itr-services">
 
-    <meta property="og:title" content="ITR Services Directory — Find Your Form | Patron LLP">
+    <meta property="og:title" content="ITR Services Directory - Find Your Form | Patron LLP">
     <meta property="og:description" content="24+ specialized ITR filing services across every filer type, profession and industry. From salary ITR-1 to complex F&O, NRI and company filings.">
     <meta property="og:url" content="/itr-services">
     <meta property="og:type" content="website">
@@ -20,7 +20,7 @@
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ITR Services Directory — Find Your Form | Patron LLP">
+    <meta name="twitter:title" content="ITR Services Directory - Find Your Form | Patron LLP">
     <meta name="twitter:description" content="24+ specialized ITR filing services across every filer type, profession and industry. From salary ITR-1 to complex F&O, NRI and company filings.">
     <meta name="twitter:image" content="/images/og/itr-services-og.jpg">
     <meta name="twitter:site" content="@patronaccounting">
@@ -38,7 +38,7 @@
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "ITR Services \u2014 Directory",
+  "name": "ITR Services - Directory",
   "description": "24+ specialized ITR filing services across every filer type, profession and industry. From salary ITR-1 to complex F&O, NRI and company filings.",
   "url": "https://www.patronaccounting.com/itr-services",
   "numberOfItems": 28,
@@ -258,7 +258,7 @@
       "name": "How does the hub route between ITR-1 through ITR-7?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Section 02 carries the seven ITR-form tiles \u2014 ITR-1 (salary, simple), ITR-2 (capital gains, multiple properties), ITR-3 (business / profession), ITR-4 (presumptive), ITR-5 (LLP / partnership / AOP), ITR-6 (company), ITR-7 (trust / NGO). Each tile lays out who must file that form. If you're not sure which applies, the free 'Which ITR' tool in the Tools section walks the question; the money page /itr-filing also routes."
+        "text": "Section 02 carries the seven ITR-form tiles - ITR-1 (salary, simple), ITR-2 (capital gains, multiple properties), ITR-3 (business / profession), ITR-4 (presumptive), ITR-5 (LLP / partnership / AOP), ITR-6 (company), ITR-7 (trust / NGO). Each tile lays out who must file that form. If you're not sure which applies, the free 'Which ITR' tool in the Tools section walks the question; the money page /itr-filing also routes."
       }
     },
     {
@@ -274,7 +274,7 @@
       "name": "Where does regime advisory sit on the hub?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Regime comparison is covered inside each relevant filing tile \u2014 e.g. /itr-1-filing walks through old-vs-new under Section 115BAC for a salaried filer. There's also a free Old-vs-New Regime Calculator in the Tools section. Regime selection is locked at filing for individuals; for businesses it's a one-time election under Section 115BAA / 115BAB, covered on those tiles."
+        "text": "Regime comparison is covered inside each relevant filing tile - e.g. /itr-1-filing walks through old-vs-new under Section 115BAC for a salaried filer. There's also a free Old-vs-New Regime Calculator in the Tools section. Regime selection is locked at filing for individuals; for businesses it's a one-time election under Section 115BAA / 115BAB, covered on those tiles."
       }
     },
     {
@@ -282,7 +282,7 @@
       "name": "Where do late-filing and revised-return tiles sit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three tiles cover this. Belated Return, Revised Return and Updated Return (ITR-U) each sit in the relevant section. ITR-U has its own page because of the time-limit and additional-tax mechanics. If you've missed a deadline, start there \u2014 we'll route to the right correction route based on how far past the original deadline you are."
+        "text": "Three tiles cover this. Belated Return, Revised Return and Updated Return (ITR-U) each sit in the relevant section. ITR-U has its own page because of the time-limit and additional-tax mechanics. If you've missed a deadline, start there - we'll route to the right correction route based on how far past the original deadline you are."
       }
     },
     {
@@ -290,7 +290,7 @@
       "name": "Where do NRI-specific tiles sit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The buyer-segment section of the hub carries the NRI tiles \u2014 NRI ITR Filing, NRI Capital Gains, Schedule FA Foreign Asset disclosure and the DTAA Relief tile. NRI filing has its own page because the residential-status determination, DTAA computation and TDS-refund flow are distinct. If you're unsure about residential status, start at /nri-itr-filing."
+        "text": "The buyer-segment section of the hub carries the NRI tiles - NRI ITR Filing, NRI Capital Gains, Schedule FA Foreign Asset disclosure and the DTAA Relief tile. NRI filing has its own page because the residential-status determination, DTAA computation and TDS-refund flow are distinct. If you're unsure about residential status, start at /nri-itr-filing."
       }
     },
     {
@@ -298,7 +298,7 @@
       "name": "Where do F&O and trader-specific tiles sit on this hub?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The buyer-segment section carries the trader tiles \u2014 F&amp;O / Speculative Income, Capital Gains (Equity / Mutual Funds), Crypto / VDA and Intraday Trading. Each has its own page because the head of income, audit-applicability and tax-rate treatment differ. If your trading volume crosses the Section 44AB threshold, we route to the tax-audit tile."
+        "text": "The buyer-segment section carries the trader tiles - F&amp;O / Speculative Income, Capital Gains (Equity / Mutual Funds), Crypto / VDA and Intraday Trading. Each has its own page because the head of income, audit-applicability and tax-rate treatment differ. If your trading volume crosses the Section 44AB threshold, we route to the tax-audit tile."
       }
     },
     {
@@ -306,7 +306,7 @@
       "name": "What's the difference between this hub and the /itr-filing money page?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "/itr-filing is the money page \u2014 the salaried-ITR engagement. This hub, /itr-services, is the directory: it routes you across all ITR services \u2014 by form (ITR-1 to ITR-7), by buyer segment (salaried, business, NRI, trader, capital-gains, crypto), by filing type (original, belated, revised, ITR-U) and by add-on (tax audit, Form 67, response to notice). Start here if you don't know which page you need."
+        "text": "/itr-filing is the money page - the salaried-ITR engagement. This hub, /itr-services, is the directory: it routes you across all ITR services - by form (ITR-1 to ITR-7), by buyer segment (salaried, business, NRI, trader, capital-gains, crypto), by filing type (original, belated, revised, ITR-U) and by add-on (tax audit, Form 67, response to notice). Start here if you don't know which page you need."
       }
     },
     {
@@ -314,7 +314,7 @@
       "name": "Where does the hub split between salaried, business and capital-gains filings?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The three live in different parts of the hub. Salaried filing is anchored at /itr-filing and /itr-1-filing in Section 02. Business filing \u2014 ITR-3, ITR-4 presumptive and ITR-6 company \u2014 sits in Section 02 as separate tiles. Capital gains has its own buyer-segment tile because the schedules and rates differ regardless of base ITR form."
+        "text": "The three live in different parts of the hub. Salaried filing is anchored at /itr-filing and /itr-1-filing in Section 02. Business filing - ITR-3, ITR-4 presumptive and ITR-6 company - sits in Section 02 as separate tiles. Capital gains has its own buyer-segment tile because the schedules and rates differ regardless of base ITR form."
       }
     }
   ]
@@ -513,7 +513,7 @@
     .toc-scroll-cue.cue-right { right: 0; justify-content: flex-end; padding-right: 3px; background: linear-gradient(to left, rgba(255,255,255,0.98) 30%, rgba(255,255,255,0)); border-radius: 0 8px 8px 0; }
     .toc-scroll-cue svg { width: 18px; height: 18px; color: #fff; }
 
-    /* skill v1.6 — Mobile TOC fix.
+    /* skill v1.6 - Mobile TOC fix.
        Form sidebar is moved here from .hero-cp-grid on mobile so the TOC's
        natural position is no longer buried under 700px of form content. */
     @media (max-width: 768px) {
@@ -524,7 +524,7 @@
         }
     }
 
-    /* skill v1.8 — Mobile TOC fix v3 (top-sticky under site header).
+    /* skill v1.8 - Mobile TOC fix v3 (top-sticky under site header).
        v1.7's bottom-fixed approach clashed with the live site's bottom
        chrome (WA bar + WA floater + scroll-to-top arrow). Revert to top-
        sticky, but offset by --site-header-h (JS-measured) so the TOC
@@ -659,7 +659,7 @@
     .footer-strip-cp strong { color: var(--navy-deep); }
 
     /* ============================================
-       STICKY WHATSAPP BAR — ITR Season strip
+       STICKY WHATSAPP BAR - ITR Season strip
        Barlow font, dark green #0F6E56, white pill
        Scroll-triggered (>300px), sessionStorage dismissal
        ============================================ */
@@ -740,24 +740,24 @@
     .phone-number-input:valid:not(:placeholder-shown) { border-color: var(--green-wa); box-shadow: 0 0 0 3px rgba(37,211,102,0.1); }
 
     /* ============================================
-       MOBILE LIGHT PASS — small-screen refinements
+       MOBILE LIGHT PASS - small-screen refinements
        ============================================ */
-    /* H1 — extra tightening on very narrow phones to avoid 4-line wrap */
+    /* H1 - extra tightening on very narrow phones to avoid 4-line wrap */
     @media (max-width: 400px) {
         .hero-cp-h1 { font-size: 24px; line-height: 1.15; }
         .hero-cp-sub { font-size: 15px; }
     }
-    /* Pricing row — let entries stack cleanly on narrow widths, hide stranded dot dividers */
+    /* Pricing row - let entries stack cleanly on narrow widths, hide stranded dot dividers */
     @media (max-width: 540px) {
         .hero-cp-pricing-row { flex-direction: column; align-items: flex-start; gap: 6px; }
         .hero-cp-pricing-row .mono { display: none; }
         .pricing-footnote { font-size: 11px; }
     }
-    /* Section counter chip — wrap on narrow widths instead of overflow */
+    /* Section counter chip - wrap on narrow widths instead of overflow */
     @media (max-width: 480px) {
         .sec-counter { white-space: normal; line-height: 1.3; padding: 6px 12px; font-size: 12px; }
     }
-    /* TOC bar — discoverability shadow on right edge to hint horizontal scroll */
+    /* TOC bar - discoverability shadow on right edge to hint horizontal scroll */
     @media (max-width: 480px) {
         .hero-cp-toc {
             flex-direction: row;
@@ -765,7 +765,7 @@
         }
         .toc-item { min-width: 84px; flex: 0 0 auto; }
     }
-    /* Industry tiles — looser internal padding so 14 tiles read on small screens */
+    /* Industry tiles - looser internal padding so 14 tiles read on small screens */
     @media (max-width: 480px) {
         .tile-cp { padding: 18px 16px; gap: 10px; }
         .tile-cp-title { font-size: 16px; }
@@ -932,9 +932,9 @@
     <div class="container-cp">
         <div class="hero-cp-grid">
             <div>
-                <div class="hero-cp-eyebrow"><span class="dot"></span>ITR Services Hub — India</div>
+                <div class="hero-cp-eyebrow"><span class="dot"></span>ITR Services Hub - India</div>
                 <h1 class="hero-cp-h1">File your ITR with a real CA. Not a tool.</h1>
-                <p class="hero-cp-sub">28 specialised income-tax-return services across every filer type, profession and industry — from salary ITR-1 to F&O traders, NRIs, ESOP holders, company returns and industry-specific filings. Pick what fits, then file with a CA who actually reviews it.</p>
+                <p class="hero-cp-sub">28 specialised income-tax-return services across every filer type, profession and industry - from salary ITR-1 to F&O traders, NRIs, ESOP holders, company returns and industry-specific filings. Pick what fits, then file with a CA who actually reviews it.</p>
                 <div class="hero-cp-cta">
                     <a href="/income-tax-return" class="btn-cp-primary">
                         Find My ITR Service
@@ -1096,7 +1096,7 @@
             <div class="sec-head-left">
                 <div class="sec-tag"><span class="tag-num">01</span>By Filer Type</div>
                 <h2 class="sec-h2">Pick your entity, find your return.</h2>
-                <p class="sec-sub">The seven core filer categories — salaried individuals, freelancers, businesses, companies, LLPs and proprietors. Each maps to a specific ITR form and complexity tier.</p>
+                <p class="sec-sub">The seven core filer categories - salaried individuals, freelancers, businesses, companies, LLPs and proprietors. Each maps to a specific ITR form and complexity tier.</p>
             </div>
             <div class="sec-head-right"><span class="sec-counter">7 services · From INR 999*</span></div>
         </div>
@@ -1104,37 +1104,37 @@
             <a href="/income-tax-return" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Income Tax Return (Master)</h3>
-                <p class="tile-cp-blurb">The canonical ITR money page — capturing broad income-tax-return intent. Parents every filer, profession and industry variant below.</p>
+                <p class="tile-cp-blurb">The canonical ITR money page - capturing broad income-tax-return intent. Parents every filer, profession and industry variant below.</p>
                 <div class="tile-cp-foot"><span>From INR 999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-filing-for-salary" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR Filing for Salaried Individuals</h3>
-                <p class="tile-cp-blurb">ITR-1 / ITR-2 for salaried taxpayers — Form 16 reconciliation, HRA, 80C-80U deductions, multiple-employer cases. The master salaried entry tier.</p>
+                <p class="tile-cp-blurb">ITR-1 / ITR-2 for salaried taxpayers - Form 16 reconciliation, HRA, 80C-80U deductions, multiple-employer cases. The master salaried entry tier.</p>
                 <div class="tile-cp-foot"><span>From INR 999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-professionals" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR Filing for Freelancers & Professionals</h3>
-                <p class="tile-cp-blurb">ITR-3 / ITR-4 for independent professionals — presumptive 44ADA option, expense claims, advance-tax planning.</p>
+                <p class="tile-cp-blurb">ITR-3 / ITR-4 for independent professionals - presumptive 44ADA option, expense claims, advance-tax planning.</p>
                 <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-business" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Business</h3>
-                <p class="tile-cp-blurb">ITR-3 for proprietorship and individual business income — books, depreciation, presumptive 44AD eligibility and tax-audit screening.</p>
+                <p class="tile-cp-blurb">ITR-3 for proprietorship and individual business income - books, depreciation, presumptive 44AD eligibility and tax-audit screening.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-companies" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Companies</h3>
-                <p class="tile-cp-blurb">ITR-6 for private and public limited companies — MAT, Schedule BP, audited financials and ROC interaction.</p>
+                <p class="tile-cp-blurb">ITR-6 for private and public limited companies - MAT, Schedule BP, audited financials and ROC interaction.</p>
                 <div class="tile-cp-foot"><span>From INR 3,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-llp-partnership" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for LLP & Partnership</h3>
-                <p class="tile-cp-blurb">ITR-5 for LLPs and partnership firms — partner remuneration, interest on capital, firm-level tax computation.</p>
+                <p class="tile-cp-blurb">ITR-5 for LLPs and partnership firms - partner remuneration, interest on capital, firm-level tax computation.</p>
                 <div class="tile-cp-foot"><span>From INR 2,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-filing-proprietorship" class="tile-cp">
@@ -1170,7 +1170,7 @@
             <div class="sec-head-left">
                 <div class="sec-tag"><span class="tag-num">02</span>By Profession & Complexity</div>
                 <h2 class="sec-h2">ITR tuned to how you earn.</h2>
-                <p class="sec-sub">Thirteen profession- and complexity-specific engagements — doctors, NRIs, capital-gains and F&O traders, ESOP holders, crypto, influencers, senior citizens and more. Each handles the schedules and elections that profession actually needs.</p>
+                <p class="sec-sub">Thirteen profession- and complexity-specific engagements - doctors, NRIs, capital-gains and F&O traders, ESOP holders, crypto, influencers, senior citizens and more. Each handles the schedules and elections that profession actually needs.</p>
             </div>
             <div class="sec-head-right"><span class="sec-counter">13 services · From INR 999*</span></div>
         </div>
@@ -1178,79 +1178,79 @@
             <a href="/itr-for-doctors" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Doctors</h3>
-                <p class="tile-cp-blurb">ITR-3 for medical professionals with a 44ADA presumptive option — clinic income, professional receipts and expense treatment.</p>
+                <p class="tile-cp-blurb">ITR-3 for medical professionals with a 44ADA presumptive option - clinic income, professional receipts and expense treatment.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-nris" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for NRIs</h3>
-                <p class="tile-cp-blurb">Non-resident returns with DTAA relief, Schedule FA and Form 67 — residential-status determination and foreign-asset reporting.</p>
+                <p class="tile-cp-blurb">Non-resident returns with DTAA relief, Schedule FA and Form 67 - residential-status determination and foreign-asset reporting.</p>
                 <div class="tile-cp-foot"><span>From INR 2,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-capital-gains" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Capital Gains</h3>
-                <p class="tile-cp-blurb">Equity, mutual-fund, property and other capital-gains computation — LTCG/STCG, indexation and Section 54/54F advisory.</p>
+                <p class="tile-cp-blurb">Equity, mutual-fund, property and other capital-gains computation - LTCG/STCG, indexation and Section 54/54F advisory.</p>
                 <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-fno-traders" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for F&O Traders <span class="badge-new-cp">New</span></h3>
-                <p class="tile-cp-blurb">Futures-and-options returns — speculative vs non-speculative split, turnover computation and tax-audit applicability screening.</p>
+                <p class="tile-cp-blurb">Futures-and-options returns - speculative vs non-speculative split, turnover computation and tax-audit applicability screening.</p>
                 <div class="tile-cp-foot"><span>From INR 3,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-esop-employees" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for ESOP Employees</h3>
-                <p class="tile-cp-blurb">Perquisite tax on exercise plus Schedule FA reporting for foreign-parent ESOPs — capital gains on eventual sale.</p>
+                <p class="tile-cp-blurb">Perquisite tax on exercise plus Schedule FA reporting for foreign-parent ESOPs - capital gains on eventual sale.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-real-estate-investors" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Real Estate Investors <span class="badge-new-cp">New</span></h3>
-                <p class="tile-cp-blurb">Property and rental income alongside LTCG/STCG on disposals — Section 54/54F reinvestment advisory.</p>
+                <p class="tile-cp-blurb">Property and rental income alongside LTCG/STCG on disposals - Section 54/54F reinvestment advisory.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-foreign-income" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.07</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Foreign Income</h3>
-                <p class="tile-cp-blurb">Schedule FA plus Schedule FSI with DTAA relief — the premium-complexity return for residents with overseas income or assets.</p>
+                <p class="tile-cp-blurb">Schedule FA plus Schedule FSI with DTAA relief - the premium-complexity return for residents with overseas income or assets.</p>
                 <div class="tile-cp-foot"><span>From INR 3,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-government-employees" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.08</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Government Employees</h3>
-                <p class="tile-cp-blurb">Pure-salary return for government and PSU employees — Form 16, NPS and standard-deduction treatment.</p>
+                <p class="tile-cp-blurb">Pure-salary return for government and PSU employees - Form 16, NPS and standard-deduction treatment.</p>
                 <div class="tile-cp-foot"><span>From INR 999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-crypto-traders" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.09</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Crypto Traders</h3>
-                <p class="tile-cp-blurb">Virtual digital asset reporting — Section 115BBH 30% tax, Section 194S TDS reconciliation and gain computation.</p>
+                <p class="tile-cp-blurb">Virtual digital asset reporting - Section 115BBH 30% tax, Section 194S TDS reconciliation and gain computation.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-influencers" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.10</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Influencers</h3>
-                <p class="tile-cp-blurb">Content-creator returns — brand income, barter, foreign receipts and the professional-vs-business income call.</p>
+                <p class="tile-cp-blurb">Content-creator returns - brand income, barter, foreign receipts and the professional-vs-business income call.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-property-sale" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.11</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Property Sale</h3>
-                <p class="tile-cp-blurb">Return for a one-off property sale — capital-gains computation, TDS under Section 194-IA and reinvestment exemptions.</p>
+                <p class="tile-cp-blurb">Return for a one-off property sale - capital-gains computation, TDS under Section 194-IA and reinvestment exemptions.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-startup-founders" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.12</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Startup Founders <span class="badge-new-cp">New</span></h3>
-                <p class="tile-cp-blurb">Founder returns covering cap-table events, ESOP exercise and carry treatment — equity-heavy income profiles.</p>
+                <p class="tile-cp-blurb">Founder returns covering cap-table events, ESOP exercise and carry treatment - equity-heavy income profiles.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-senior-citizens" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.13</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Senior Citizens <span class="badge-new-cp">New</span></h3>
-                <p class="tile-cp-blurb">Pension and interest-income returns with 80TTB optimisation — a lower-complexity, well-supported filing.</p>
+                <p class="tile-cp-blurb">Pension and interest-income returns with 80TTB optimisation - a lower-complexity, well-supported filing.</p>
                 <div class="tile-cp-foot"><span>From INR 999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
         </div>
@@ -1263,7 +1263,7 @@
             <div class="sec-head-left">
                 <div class="sec-tag"><span class="tag-num">03</span>By Industry</div>
                 <h2 class="sec-h2">Industry-specific ITR filing.</h2>
-                <p class="sec-sub">Eight industry returns where the income-tax treatment genuinely differs — manufacturing depreciation, STPI/SEZ deductions, R&D weighting, project-completion accounting and marketplace reconciliation.</p>
+                <p class="sec-sub">Eight industry returns where the income-tax treatment genuinely differs - manufacturing depreciation, STPI/SEZ deductions, R&D weighting, project-completion accounting and marketplace reconciliation.</p>
             </div>
             <div class="sec-head-right"><span class="sec-counter">8 services · From INR 2,499*</span></div>
         </div>
@@ -1289,31 +1289,31 @@
             <a href="/itr-for-restaurants" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Restaurants</h3>
-                <p class="tile-cp-blurb">F&B return — working-capital treatment, GST reconciliation and the presumptive-vs-books decision.</p>
+                <p class="tile-cp-blurb">F&B return - working-capital treatment, GST reconciliation and the presumptive-vs-books decision.</p>
                 <div class="tile-cp-foot"><span>From INR 2,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-ecommerce-sellers" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for E-Commerce Sellers</h3>
-                <p class="tile-cp-blurb">Marketplace-seller return — Amazon/Flipkart reconciliation and Section 52 TCS credit matching.</p>
+                <p class="tile-cp-blurb">Marketplace-seller return - Amazon/Flipkart reconciliation and Section 52 TCS credit matching.</p>
                 <div class="tile-cp-foot"><span>From INR 2,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-real-estate-developers" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Real Estate Developers</h3>
-                <p class="tile-cp-blurb">Developer return using POCM/PCM method under ICDS-III — project-level revenue recognition. Complex.</p>
+                <p class="tile-cp-blurb">Developer return using POCM/PCM method under ICDS-III - project-level revenue recognition. Complex.</p>
                 <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-trading-businesses" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.07</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Trading Businesses</h3>
-                <p class="tile-cp-blurb">Wholesale/retail trading return — inventory valuation and GST-to-income reconciliation.</p>
+                <p class="tile-cp-blurb">Wholesale/retail trading return - inventory valuation and GST-to-income reconciliation.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/itr-for-construction-firms" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.08</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for Construction Firms</h3>
-                <p class="tile-cp-blurb">Construction return on POCM/PCM (ICDS-III) — the same project-accounting complexity as developers.</p>
+                <p class="tile-cp-blurb">Construction return on POCM/PCM (ICDS-III) - the same project-accounting complexity as developers.</p>
                 <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
         </div>
@@ -1343,9 +1343,9 @@
             <div class="sec-head-left">
                 <div class="sec-tag"><span class="tag-num">04</span>Free ITR Tools</div>
                 <h2 class="sec-h2">Free income-tax calculators.</h2>
-                <p class="sec-sub">Ten free tools — form selection, tax computation under both regimes, advance tax, capital gains, HRA, presumptive eligibility and more.</p>
+                <p class="sec-sub">Eight free tools: form selection, tax computation under both regimes, advance tax, capital gains, HRA, presumptive eligibility and TDS on salary.</p>
             </div>
-            <div class="sec-head-right"><span class="sec-counter">10 tools · Free</span></div>
+            <div class="sec-head-right"><span class="sec-counter">8 tools · Free</span></div>
         </div>
         <div class="grid-cp is-5">
             <a href="/tools/itr-form-selector" class="tile-cp">
@@ -1378,7 +1378,7 @@
                 <p class="tile-cp-blurb">Section 10(13A) house-rent-allowance exemption.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tools/presumptive-tax-checker" class="tile-cp">
+            <a href="/tools/section-44ada-calculator" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>04.06</span><span class="tile-cp-form-tag">FREE</span></div>
                 <h3 class="tile-cp-title">44AD / 44ADA Presumptive Checker</h3>
                 <p class="tile-cp-blurb">Check eligibility for presumptive taxation and the deemed-profit rate.</p>
@@ -1390,20 +1390,8 @@
                 <p class="tile-cp-blurb">Estimate monthly salary TDS under Section 192.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tools/income-tax-refund-estimator" class="tile-cp">
+            <a href="/tools/ais-reconciliation-tool" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>04.08</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">Income Tax Refund Estimator</h3>
-                <p class="tile-cp-blurb">Estimate your refund from TDS paid versus liability.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
-            <a href="/tools/80c-deduction-planner" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>04.09</span><span class="tile-cp-form-tag">FREE</span></div>
-                <h3 class="tile-cp-title">80C Deduction Planner</h3>
-                <p class="tile-cp-blurb">Plan Chapter VI-A deductions to optimise taxable income.</p>
-                <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
-            </a>
-            <a href="/tools/form-26as-ais-reconciliation" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>04.10</span><span class="tile-cp-form-tag">FREE</span></div>
                 <h3 class="tile-cp-title">Form 26AS / AIS Reconciliation</h3>
                 <p class="tile-cp-blurb">Match Form 26AS and AIS against your income before filing.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
@@ -1417,7 +1405,7 @@
             <div class="sec-head-left">
                 <div class="sec-tag"><span class="tag-num">06</span>Adjacent Services</div>
                 <h2 class="sec-h2">ITR works best when bundled.</h2>
-                <p class="sec-sub">Related compliance and advisory services Patron handles for the same client — one team, one invoice.</p>
+                <p class="sec-sub">Related compliance and advisory services Patron handles for the same client - one team, one invoice.</p>
             </div>
             <div class="sec-head-right"><span class="sec-counter">6 services</span></div>
         </div>
@@ -1425,19 +1413,19 @@
             <a href="/income-tax-notice" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>06.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Income Tax Notice Reply</h3>
-                <p class="tile-cp-blurb">Responses to Section 139(9), 143(1), 143(2) and 148 notices — the most common post-filing escalation.</p>
+                <p class="tile-cp-blurb">Responses to Section 139(9), 143(1), 143(2) and 148 notices - the most common post-filing escalation.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/gst-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>06.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">GST Services</h3>
-                <p class="tile-cp-blurb">Registration, returns, ITC and refunds — the GST side of a business that also files ITR.</p>
+                <p class="tile-cp-blurb">Registration, returns, ITC and refunds - the GST side of a business that also files ITR.</p>
                 <div class="tile-cp-foot"><span>From INR 999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/accounting-bookkeeping-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>06.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Accounting & Bookkeeping</h3>
-                <p class="tile-cp-blurb">Monthly books supervised by a CA — the source of truth for business and professional ITRs.</p>
+                <p class="tile-cp-blurb">Monthly books supervised by a CA - the source of truth for business and professional ITRs.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/tax-audit" class="tile-cp">
@@ -1449,13 +1437,13 @@
             <a href="/tds-return-filing" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>06.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">TDS Return Filing</h3>
-                <p class="tile-cp-blurb">Quarterly 24Q/26Q/27Q filing — feeds the TDS credits that reconcile against your ITR.</p>
+                <p class="tile-cp-blurb">Quarterly 24Q/26Q/27Q filing - feeds the TDS credits that reconcile against your ITR.</p>
                 <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
             <a href="/private-limited-company-compliance" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>06.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ROC Compliance</h3>
-                <p class="tile-cp-blurb">Pvt Ltd and LLP annual filings — AOC-4, MGT-7, Form 11/8. Bundles with company and LLP ITRs.</p>
+                <p class="tile-cp-blurb">Pvt Ltd and LLP annual filings - AOC-4, MGT-7, Form 11/8. Bundles with company and LLP ITRs.</p>
                 <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
         </div>
@@ -1473,7 +1461,7 @@
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">
                     <h3 class="faq-expanded__q">How does the hub route between ITR-1 through ITR-7?</h3>
-                    <div class="faq-expanded__a"><p>Section 02 carries the seven ITR-form tiles — ITR-1 (salary, simple), ITR-2 (capital gains, multiple properties), ITR-3 (business / profession), ITR-4 (presumptive), ITR-5 (LLP / partnership / AOP), ITR-6 (company), ITR-7 (trust / NGO). Each tile lays out who must file that form. If you're not sure which applies, the free 'Which ITR' tool in the Tools section walks the question; the money page <strong>/itr-filing</strong> also routes.</p></div>
+                    <div class="faq-expanded__a"><p>Section 02 carries the seven ITR-form tiles - ITR-1 (salary, simple), ITR-2 (capital gains, multiple properties), ITR-3 (business / profession), ITR-4 (presumptive), ITR-5 (LLP / partnership / AOP), ITR-6 (company), ITR-7 (trust / NGO). Each tile lays out who must file that form. If you're not sure which applies, the free 'Which ITR' tool in the Tools section walks the question; the money page <strong>/itr-filing</strong> also routes.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-2">
                     <h3 class="faq-expanded__q">Where do I find exact ITR pricing?</h3>
@@ -1481,27 +1469,27 @@
                 </div>
                 <div class="faq-expanded__item" id="faq-3">
                     <h3 class="faq-expanded__q">Where does regime advisory sit on the hub?</h3>
-                    <div class="faq-expanded__a"><p>Regime comparison is covered inside each relevant filing tile — e.g. <strong>/itr-1-filing</strong> walks through old-vs-new under Section 115BAC for a salaried filer. There's also a free Old-vs-New Regime Calculator in the Tools section. Regime selection is locked at filing for individuals; for businesses it's a one-time election under Section 115BAA / 115BAB, covered on those tiles.</p></div>
+                    <div class="faq-expanded__a"><p>Regime comparison is covered inside each relevant filing tile - e.g. <strong>/itr-1-filing</strong> walks through old-vs-new under Section 115BAC for a salaried filer. There's also a free Old-vs-New Regime Calculator in the Tools section. Regime selection is locked at filing for individuals; for businesses it's a one-time election under Section 115BAA / 115BAB, covered on those tiles.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-4">
                     <h3 class="faq-expanded__q">Where do late-filing and revised-return tiles sit?</h3>
-                    <div class="faq-expanded__a"><p>Three tiles cover this. <strong>Belated Return</strong>, <strong>Revised Return</strong> and <strong>Updated Return (ITR-U)</strong> each sit in the relevant section. ITR-U has its own page because of the time-limit and additional-tax mechanics. If you've missed a deadline, start there — we'll route to the right correction route based on how far past the original deadline you are.</p></div>
+                    <div class="faq-expanded__a"><p>Three tiles cover this. <strong>Belated Return</strong>, <strong>Revised Return</strong> and <strong>Updated Return (ITR-U)</strong> each sit in the relevant section. ITR-U has its own page because of the time-limit and additional-tax mechanics. If you've missed a deadline, start there - we'll route to the right correction route based on how far past the original deadline you are.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-5">
                     <h3 class="faq-expanded__q">Where do NRI-specific tiles sit?</h3>
-                    <div class="faq-expanded__a"><p>The buyer-segment section of the hub carries the NRI tiles — <strong>NRI ITR Filing</strong>, <strong>NRI Capital Gains</strong>, <strong>Schedule FA Foreign Asset disclosure</strong> and the <strong>DTAA Relief</strong> tile. NRI filing has its own page because the residential-status determination, DTAA computation and TDS-refund flow are distinct. If you're unsure about residential status, start at <strong>/nri-itr-filing</strong>.</p></div>
+                    <div class="faq-expanded__a"><p>The buyer-segment section of the hub carries the NRI tiles - <strong>NRI ITR Filing</strong>, <strong>NRI Capital Gains</strong>, <strong>Schedule FA Foreign Asset disclosure</strong> and the <strong>DTAA Relief</strong> tile. NRI filing has its own page because the residential-status determination, DTAA computation and TDS-refund flow are distinct. If you're unsure about residential status, start at <strong>/nri-itr-filing</strong>.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-6">
                     <h3 class="faq-expanded__q">Where do F&O and trader-specific tiles sit on this hub?</h3>
-                    <div class="faq-expanded__a"><p>The buyer-segment section carries the trader tiles — <strong>F&amp;O / Speculative Income</strong>, <strong>Capital Gains (Equity / Mutual Funds)</strong>, <strong>Crypto / VDA</strong> and <strong>Intraday Trading</strong>. Each has its own page because the head of income, audit-applicability and tax-rate treatment differ. If your trading volume crosses the Section 44AB threshold, we route to the tax-audit tile.</p></div>
+                    <div class="faq-expanded__a"><p>The buyer-segment section carries the trader tiles - <strong>F&amp;O / Speculative Income</strong>, <strong>Capital Gains (Equity / Mutual Funds)</strong>, <strong>Crypto / VDA</strong> and <strong>Intraday Trading</strong>. Each has its own page because the head of income, audit-applicability and tax-rate treatment differ. If your trading volume crosses the Section 44AB threshold, we route to the tax-audit tile.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-7">
                     <h3 class="faq-expanded__q">What's the difference between this hub and the /itr-filing money page?</h3>
-                    <div class="faq-expanded__a"><p><strong>/itr-filing</strong> is the money page — the salaried-ITR engagement. This hub, <strong>/itr-services</strong>, is the directory: it routes you across all ITR services — by <strong>form</strong> (ITR-1 to ITR-7), by <strong>buyer segment</strong> (salaried, business, NRI, trader, capital-gains, crypto), by <strong>filing type</strong> (original, belated, revised, ITR-U) and by <strong>add-on</strong> (tax audit, Form 67, response to notice). Start here if you don't know which page you need.</p></div>
+                    <div class="faq-expanded__a"><p><strong>/itr-filing</strong> is the money page - the salaried-ITR engagement. This hub, <strong>/itr-services</strong>, is the directory: it routes you across all ITR services - by <strong>form</strong> (ITR-1 to ITR-7), by <strong>buyer segment</strong> (salaried, business, NRI, trader, capital-gains, crypto), by <strong>filing type</strong> (original, belated, revised, ITR-U) and by <strong>add-on</strong> (tax audit, Form 67, response to notice). Start here if you don't know which page you need.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-8">
                     <h3 class="faq-expanded__q">Where does the hub split between salaried, business and capital-gains filings?</h3>
-                    <div class="faq-expanded__a"><p>The three live in different parts of the hub. <strong>Salaried</strong> filing is anchored at <strong>/itr-filing</strong> and <strong>/itr-1-filing</strong> in Section 02. <strong>Business</strong> filing — ITR-3, ITR-4 presumptive and ITR-6 company — sits in Section 02 as separate tiles. <strong>Capital gains</strong> has its own buyer-segment tile because the schedules and rates differ regardless of base ITR form.</p></div>
+                    <div class="faq-expanded__a"><p>The three live in different parts of the hub. <strong>Salaried</strong> filing is anchored at <strong>/itr-filing</strong> and <strong>/itr-1-filing</strong> in Section 02. <strong>Business</strong> filing - ITR-3, ITR-4 presumptive and ITR-6 company - sits in Section 02 as separate tiles. <strong>Capital gains</strong> has its own buyer-segment tile because the schedules and rates differ regardless of base ITR form.</p></div>
                 </div>
             </div>
         </div>
@@ -1532,7 +1520,7 @@
                 }
             }
 
-            // skill v1.6 — Mobile TOC placement.
+            // skill v1.6 - Mobile TOC placement.
             // On mobile (<=768px), the form sidebar stacks below the hero text
             // inside .hero-cp-grid and pushes the TOC's natural position to
             // ~2022px (buried below the fold). Move the form out of the grid
@@ -1589,7 +1577,7 @@
 
 <section class="footer-strip-cp">
     <div class="container-cp">
-        <p>This page is reviewed quarterly or whenever a material change occurs in the Income-tax Act, Finance Act, CBDT notifications or ITR form utilities — including slab and regime changes, deadline extensions, presumptive thresholds and Schedule FA/FSI reporting rules. <strong>Reviewed by CA &amp; CS Team, Patron Accounting LLP.</strong> Last updated: <span class="hub-last-updated"></span></p>
+        <p>This page is reviewed quarterly or whenever a material change occurs in the Income-tax Act, Finance Act, CBDT notifications or ITR form utilities - including slab and regime changes, deadline extensions, presumptive thresholds and Schedule FA/FSI reporting rules. <strong>Reviewed by CA &amp; CS Team, Patron Accounting LLP.</strong> Last updated: <span class="hub-last-updated"></span></p>
     </div>
 </section>
 

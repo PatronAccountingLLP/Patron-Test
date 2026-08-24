@@ -1332,10 +1332,10 @@
             <div class="sidebar-card">
                 <h3>Related Free Tools</h3>
                 <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/tools/tds-rate-finder" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/tds-rate-finder-calculator" class="sidebar-link">TDS Rate Finder <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/tools/income-tax-calculator" class="sidebar-link">Income Tax Calculator <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/tools/hra-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/tools/gst-compliance-calendar" class="sidebar-link">GST Compliance Calendar <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/hra-exemption-calculator" class="sidebar-link">HRA Exemption Calculator <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/compliance-calendar-generator" class="sidebar-link">Compliance Calendar Generator <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Related Services -->

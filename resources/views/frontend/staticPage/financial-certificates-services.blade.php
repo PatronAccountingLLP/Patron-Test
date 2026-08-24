@@ -1657,7 +1657,7 @@
             <a href="/tools/embassy-nwc-format-library" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>11.08</span><span class="tile-cp-form-tag">FREE</span></div>
                 <h3 class="tile-cp-title">Embassy NWC Format Library</h3>
-                <p class="tile-cp-blurb">See sample NWC formats accepted by major embassies.</p>
+                <p class="tile-cp-blurb">Country-by-country net worth certificate formats for a visa application.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
             <a href="/tools/stock-statement-template" class="tile-cp">
@@ -1666,7 +1666,7 @@
                 <p class="tile-cp-blurb">Download a bank-ready stock and book-debts template.</p>
                 <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tools/settlement-fund-lookup" class="tile-cp">
+            <a href="/tools/embassy-nwc-format-library" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>11.10</span><span class="tile-cp-form-tag">FREE</span></div>
                 <h3 class="tile-cp-title">Settlement-Fund Lookup</h3>
                 <p class="tile-cp-blurb">Find current settlement-fund thresholds by country and visa.</p>

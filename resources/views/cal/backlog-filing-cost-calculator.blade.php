@@ -1690,7 +1690,7 @@ a:focus-visible {
             <h3>Related Tools</h3>
             <a href="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar" class="sidebar-link">ROC Filing Due Date Calendar <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/company-registration-cost-calculator" class="sidebar-link">Company Registration Cost Calculator <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tools/dir-3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/dir3-kyc-reminder" class="sidebar-link">DIR-3 KYC Reminder <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/llp-compliance-checklist" class="sidebar-link">LLP Compliance Checklist <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/business-structure-comparison" class="sidebar-link">Business Structure Comparison <span class="arrow">→</span></a>
         </div>

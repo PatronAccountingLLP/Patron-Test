@@ -1,11 +1,11 @@
 @extends('layouts.service-app')
 
 @section('meta')
-    <title>GST Services — Registration, Returns, ITC, Refunds & Audits | Patron LLP</title>
+    <title>GST Services - Registration, Returns, ITC, Refunds & Audits | Patron LLP</title>
     <link rel="canonical" href="/gst-services">
-    <meta name="description" content="Complete GST compliance — registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
-    <meta property="og:title" content="GST Services — Registration, Returns, ITC, Refunds & Audits | Patron LLP">
-    <meta property="og:description" content="Complete GST compliance — registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
+    <meta name="description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
+    <meta property="og:title" content="GST Services - Registration, Returns, ITC, Refunds & Audits | Patron LLP">
+    <meta property="og:description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
     <meta property="og:url" content="/gst-services">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.patronaccounting.com/images/og/gst-services-og.jpg">
@@ -14,8 +14,8 @@
     <meta property="og:site_name" content="Patron Accounting LLP">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Services — Registration, Returns, ITC, Refunds & Audits | Patron LLP">
-    <meta name="twitter:description" content="Complete GST compliance — registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
+    <meta name="twitter:title" content="GST Services - Registration, Returns, ITC, Refunds & Audits | Patron LLP">
+    <meta name="twitter:description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/gst-services-og.jpg">
     <meta name="twitter:site" content="@patronaccounting">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -26,8 +26,8 @@
 {
  "@context": "https://schema.org",
  "@type": "ItemList",
- "name": "GST Services \u2014 Directory",
- "description": "Complete GST compliance \u2014 registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.",
+ "name": "GST Services - Directory",
+ "description": "Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.",
  "url": "https://www.patronaccounting.com/gst-services",
  "numberOfItems": 87,
  "itemListOrder": "https://schema.org/ItemListOrderAscending",
@@ -132,7 +132,7 @@
  "@type": "ListItem",
  "position": 17,
  "url": "https://www.patronaccounting.com/gstr-8-filing",
- "name": "GSTR-8 Filing (TCS \u2014 E-Commerce Operator)"
+ "name": "GSTR-8 Filing (TCS - E-Commerce Operator)"
  },
  {
  "@type": "ListItem",
@@ -144,25 +144,25 @@
  "@type": "ListItem",
  "position": 19,
  "url": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b",
- "name": "GST ITC Reconciliation \u2014 GSTR-2B vs 3B"
+ "name": "GST ITC Reconciliation - GSTR-2B vs 3B"
  },
  {
  "@type": "ListItem",
  "position": 20,
  "url": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5",
- "name": "GST ITC Blocked Credits \u2014 Section 17(5)"
+ "name": "GST ITC Blocked Credits - Section 17(5)"
  },
  {
  "@type": "ListItem",
  "position": 21,
  "url": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43",
- "name": "GST ITC Reversal \u2014 Rule 42 / 43"
+ "name": "GST ITC Reversal - Rule 42 / 43"
  },
  {
  "@type": "ListItem",
  "position": 22,
  "url": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4",
- "name": "GST ITC Time Limit \u2014 Section 16(4)"
+ "name": "GST ITC Time Limit - Section 16(4)"
  },
  {
  "@type": "ListItem",
@@ -228,7 +228,7 @@
  "@type": "ListItem",
  "position": 33,
  "url": "https://www.patronaccounting.com/gst-notice-restaurants",
- "name": "GST Notice \u2014 Restaurants"
+ "name": "GST Notice - Restaurants"
  },
  {
  "@type": "ListItem",
@@ -252,13 +252,13 @@
  "@type": "ListItem",
  "position": 37,
  "url": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority",
- "name": "GST Appeal \u2014 Section 107 First Appellate Authority"
+ "name": "GST Appeal - Section 107 First Appellate Authority"
  },
  {
  "@type": "ListItem",
  "position": 38,
  "url": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112",
- "name": "GST Appeal to GSTAT \u2014 Section 112"
+ "name": "GST Appeal to GSTAT - Section 112"
  },
  {
  "@type": "ListItem",
@@ -402,61 +402,61 @@
  "@type": "ListItem",
  "position": 62,
  "url": "https://www.patronaccounting.com/gst-refund-inverted-duty-structure",
- "name": "GST Refund \u2014 Inverted Duty Structure"
+ "name": "GST Refund - Inverted Duty Structure"
  },
  {
  "@type": "ListItem",
  "position": 63,
  "url": "https://www.patronaccounting.com/gst-refund-exports-lut",
- "name": "GST Refund \u2014 Exports under LUT"
+ "name": "GST Refund - Exports under LUT"
  },
  {
  "@type": "ListItem",
  "position": 64,
  "url": "https://www.patronaccounting.com/gst-refund-exports-with-igst",
- "name": "GST Refund \u2014 Exports with IGST"
+ "name": "GST Refund - Exports with IGST"
  },
  {
  "@type": "ListItem",
  "position": 65,
  "url": "https://www.patronaccounting.com/gst-refund-service-exports",
- "name": "GST Refund \u2014 Service Exports"
+ "name": "GST Refund - Service Exports"
  },
  {
  "@type": "ListItem",
  "position": 66,
  "url": "https://www.patronaccounting.com/gst-refund-sez-supplies",
- "name": "GST Refund \u2014 SEZ Supplies"
+ "name": "GST Refund - SEZ Supplies"
  },
  {
  "@type": "ListItem",
  "position": 67,
  "url": "https://www.patronaccounting.com/gst-refund-excess-cash-ledger",
- "name": "GST Refund \u2014 Excess Cash Ledger"
+ "name": "GST Refund - Excess Cash Ledger"
  },
  {
  "@type": "ListItem",
  "position": 68,
  "url": "https://www.patronaccounting.com/gst-refund-wrong-tax-head",
- "name": "GST Refund \u2014 Wrong Tax Head"
+ "name": "GST Refund - Wrong Tax Head"
  },
  {
  "@type": "ListItem",
  "position": 69,
  "url": "https://www.patronaccounting.com/gst-refund-deemed-exports",
- "name": "GST Refund \u2014 Deemed Exports"
+ "name": "GST Refund - Deemed Exports"
  },
  {
  "@type": "ListItem",
  "position": 70,
  "url": "https://www.patronaccounting.com/gst-refund-provisional-90-percent",
- "name": "GST Refund \u2014 Provisional 90%"
+ "name": "GST Refund - Provisional 90%"
  },
  {
  "@type": "ListItem",
  "position": 71,
  "url": "https://www.patronaccounting.com/gst-refund-interest-section-56",
- "name": "GST Refund \u2014 Interest under Section 56"
+ "name": "GST Refund - Interest under Section 56"
  },
  {
  "@type": "ListItem",
@@ -522,37 +522,37 @@
  "@type": "ListItem",
  "position": 82,
  "url": "https://www.patronaccounting.com/gst-refund-rfd-01-filing",
- "name": "GST Refund \u2014 RFD-01 Filing"
+ "name": "GST Refund - RFD-01 Filing"
  },
  {
  "@type": "ListItem",
  "position": 83,
  "url": "https://www.patronaccounting.com/gst-refund-rfd-03-deficiency-response",
- "name": "GST Refund \u2014 RFD-03 Deficiency Response"
+ "name": "GST Refund - RFD-03 Deficiency Response"
  },
  {
  "@type": "ListItem",
  "position": 84,
  "url": "https://www.patronaccounting.com/gst-refund-lut-form-rfd-11",
- "name": "GST Refund \u2014 LUT (Form RFD-11)"
+ "name": "GST Refund - LUT (Form RFD-11)"
  },
  {
  "@type": "ListItem",
  "position": 85,
  "url": "https://www.patronaccounting.com/gst-refund-tracking-status",
- "name": "GST Refund \u2014 Tracking Status"
+ "name": "GST Refund - Tracking Status"
  },
  {
  "@type": "ListItem",
  "position": 86,
  "url": "https://www.patronaccounting.com/gst-refund-rfd-06-order-analysis",
- "name": "GST Refund \u2014 RFD-06 Order Analysis"
+ "name": "GST Refund - RFD-06 Order Analysis"
  },
  {
  "@type": "ListItem",
  "position": 87,
  "url": "https://www.patronaccounting.com/gst-refund-appeal-section-107",
- "name": "GST Refund \u2014 Appeal under Section 107"
+ "name": "GST Refund - Appeal under Section 107"
  }
  ]
 }
@@ -617,7 +617,7 @@
  "name": "Where do I find exact GST pricing?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Pricing lives on each individual GST service page, not on this hub. /gst-registration carries registration fees; /gst-returns and the form-specific return pages carry monthly retainer pricing. Tile prices here are starting points \u2014 the final fee depends on transaction volume, number of GSTINs, industry and reconciliation complexity. Confirmed after a free consultation."
+ "text": "Pricing lives on each individual GST service page, not on this hub. /gst-registration carries registration fees; /gst-returns and the form-specific return pages carry monthly retainer pricing. Tile prices here are starting points - the final fee depends on transaction volume, number of GSTINs, industry and reconciliation complexity. Confirmed after a free consultation."
  }
  },
  {
@@ -625,7 +625,7 @@
  "name": "Where does notice and litigation work sit on this hub?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Section 06 (Notices &amp; Disputes) carries Section 73, Section 74, demand orders, appeals to the Commissioner (Appeals) and the GST Appellate Tribunal. Each notice type is its own tile because the response strategy is different. If your matter is heading to the GSTAT, that work lives in the dedicated GSTAT hub \u2014 this hub handles up to first appeal."
+ "text": "Section 06 (Notices &amp; Disputes) carries Section 73, Section 74, demand orders, appeals to the Commissioner (Appeals) and the GST Appellate Tribunal. Each notice type is its own tile because the response strategy is different. If your matter is heading to the GSTAT, that work lives in the dedicated GSTAT hub - this hub handles up to first appeal."
  }
  },
  {
@@ -633,7 +633,7 @@
  "name": "Where does ITC reconciliation sit on the hub?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Section 04 (Input Tax Credit) carries it \u2014 buyer-side GSTR-2A/2B vs purchase-register matching, supplier-default follow-up, the ITC-180-day reversal tracking and ITC defence under notices. It's usually bundled into the monthly GST-return retainer but can be bought standalone if you only need the reconciliation done."
+ "text": "Section 04 (Input Tax Credit) carries it - buyer-side GSTR-2A/2B vs purchase-register matching, supplier-default follow-up, the ITC-180-day reversal tracking and ITC defence under notices. It's usually bundled into the monthly GST-return retainer but can be bought standalone if you only need the reconciliation done."
  }
  },
  {
@@ -657,7 +657,7 @@
  "name": "Where do composition scheme tiles sit on this hub?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Composition scheme registration lives in Section 02 (Registration &amp; Amendments); the quarterly CMP-08 return sits in Section 03 (Returns by Form). Whether to opt in is a tax-strategy question best decided on a free consultation \u2014 the tile pages explain the scheme constraints (no inter-state outward, no ITC, turnover ceiling) so you can frame the call."
+ "text": "Composition scheme registration lives in Section 02 (Registration &amp; Amendments); the quarterly CMP-08 return sits in Section 03 (Returns by Form). Whether to opt in is a tax-strategy question best decided on a free consultation - the tile pages explain the scheme constraints (no inter-state outward, no ITC, turnover ceiling) so you can frame the call."
  }
  },
  {
@@ -665,7 +665,7 @@
  "name": "How does this hub connect to the GSTAT hub?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "This hub handles GST up to and including first appeal (Commissioner Appeals) in Section 06. The dedicated GSTAT hub handles second appeal \u2014 the GST Appellate Tribunal \u2014 and onwards. Many disputes start here and migrate; we coordinate the handover when they do. Tiles in Section 06 flag which appellate stage they cover."
+ "text": "This hub handles GST up to and including first appeal (Commissioner Appeals) in Section 06. The dedicated GSTAT hub handles second appeal - the GST Appellate Tribunal - and onwards. Many disputes start here and migrate; we coordinate the handover when they do. Tiles in Section 06 flag which appellate stage they cover."
  }
  }
  ]
@@ -818,7 +818,7 @@
  .toc-scroll-cue.cue-right { right: 0; justify-content: flex-end; padding-right: 3px; background: linear-gradient(to left, rgba(255,255,255,0.98) 30%, rgba(255,255,255,0)); border-radius: 0 8px 8px 0; }
  .toc-scroll-cue svg { width: 18px; height: 18px; color: #fff; }
 
- /* skill v1.6 — Mobile TOC fix.
+ /* skill v1.6 - Mobile TOC fix.
  Form sidebar is moved here from .hero-cp-grid on mobile so the TOC's
  natural position is no longer buried under 700px of form content. */
  @media (max-width: 768px) {
@@ -829,7 +829,7 @@
  }
  }
 
-    /* skill v1.8 — Mobile TOC fix v3 (top-sticky under site header).
+    /* skill v1.8 - Mobile TOC fix v3 (top-sticky under site header).
        v1.7's bottom-fixed approach clashed with the live site's bottom
        chrome (WA bar + WA floater + scroll-to-top arrow). Revert to top-
        sticky, but offset by --site-header-h (JS-measured) so the TOC
@@ -965,7 +965,7 @@
  .footer-strip-cp strong { color: var(--navy-deep); }
 
  /* ============================================
- STICKY WHATSAPP BAR — ITR Season strip
+ STICKY WHATSAPP BAR - ITR Season strip
  Barlow font, dark green #0F6E56, white pill
  Scroll-triggered (>300px), sessionStorage dismissal
  ============================================ */
@@ -1046,24 +1046,24 @@
  .phone-number-input:valid:not(:placeholder-shown) { border-color: var(--green-wa); box-shadow: 0 0 0 3px rgba(37,211,102,0.1); }
 
  /* ============================================
- MOBILE LIGHT PASS — small-screen refinements
+ MOBILE LIGHT PASS - small-screen refinements
  ============================================ */
- /* H1 — extra tightening on very narrow phones to avoid 4-line wrap */
+ /* H1 - extra tightening on very narrow phones to avoid 4-line wrap */
  @media (max-width: 400px) {
  .hero-cp-h1 { font-size: 24px; line-height: 1.15; }
  .hero-cp-sub { font-size: 15px; }
  }
- /* Pricing row — let entries stack cleanly on narrow widths, hide stranded dot dividers */
+ /* Pricing row - let entries stack cleanly on narrow widths, hide stranded dot dividers */
  @media (max-width: 540px) {
  .hero-cp-pricing-row { flex-direction: column; align-items: flex-start; gap: 6px; }
  .hero-cp-pricing-row .mono { display: none; }
  .pricing-footnote { font-size: 11px; }
  }
- /* Section counter chip — wrap on narrow widths instead of overflow */
+ /* Section counter chip - wrap on narrow widths instead of overflow */
  @media (max-width: 480px) {
  .sec-counter { white-space: normal; line-height: 1.3; padding: 6px 12px; font-size: 12px; }
  }
- /* TOC bar — discoverability shadow on right edge to hint horizontal scroll */
+ /* TOC bar - discoverability shadow on right edge to hint horizontal scroll */
  @media (max-width: 480px) {
  .hero-cp-toc {
  flex-direction: row;
@@ -1071,7 +1071,7 @@
  }
  .toc-item { min-width: 84px; flex: 0 0 auto; }
  }
- /* Industry tiles — looser internal padding so 14 tiles read on small screens */
+ /* Industry tiles - looser internal padding so 14 tiles read on small screens */
  @media (max-width: 480px) {
  .tile-cp { padding: 18px 16px; gap: 10px; }
  .tile-cp-title { font-size: 16px; }
@@ -1098,9 +1098,9 @@
  <div class="container-cp">
  <div class="hero-cp-grid">
  <div>
- <div class="hero-cp-eyebrow"><span class="dot"></span>GST Services Hub — India</div>
+ <div class="hero-cp-eyebrow"><span class="dot"></span>GST Services Hub - India</div>
  <h1 class="hero-cp-h1">Every GST service, in one place.</h1>
- <p class="hero-cp-sub">87 GST services across 11 sections — registration, returns by form, input tax credit, e-invoicing, e-way bill, refunds, notices, advisory and audits. Plus industry-specific variants for e-commerce, OIDAR, SEZ, manufacturing, real estate and more. Route by what you need, then drill into the spoke that fits.</p>
+ <p class="hero-cp-sub">87 GST services across 11 sections - registration, returns by form, input tax credit, e-invoicing, e-way bill, refunds, notices, advisory and audits. Plus industry-specific variants for e-commerce, OIDAR, SEZ, manufacturing, real estate and more. Route by what you need, then drill into the spoke that fits.</p>
  <div class="hero-cp-cta">
  <a href="https://www.patronaccounting.com/gst-registration" class="btn-cp-primary">
  Find My GST Plan
@@ -1238,7 +1238,7 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">01</span>Core GST Compliance</div>
  <h2 class="sec-h2">The four GST money pages.</h2>
- <p class="sec-sub">Registration, returns, annual returns and audit — the live, already-ranking pages that parent every variant below. Start here if you just need the mainstream service.</p>
+ <p class="sec-sub">Registration, returns, annual returns and audit - the live, already-ranking pages that parent every variant below. Start here if you just need the mainstream service.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">5 services · From INR 999*</span></div>
  </div>
@@ -1270,7 +1270,7 @@
  <a href="https://www.patronaccounting.com/gst-registration-rule-14a" class="tile-cp">
  <div class="tile-cp-meta-row"><span>01.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Registration under Rule 14A <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Registration under the recent Rule 14A route. A newer provision — scope and thresholds confirmed against the latest CBIC notification before engagement.</p>
+ <p class="tile-cp-blurb">Registration under the recent Rule 14A route. A newer provision - scope and thresholds confirmed against the latest CBIC notification before engagement.</p>
  <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -1300,7 +1300,7 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">02</span>Registration & Amendments</div>
  <h2 class="sec-h2">Every registration scenario, covered.</h2>
- <p class="sec-sub">Beyond the first GSTIN — amendments, cancellation, revocation, casual and non-resident registrations, and the composition scheme. The recurring lifecycle events most taxpayers misunderstand.</p>
+ <p class="sec-sub">Beyond the first GSTIN - amendments, cancellation, revocation, casual and non-resident registrations, and the composition scheme. The recurring lifecycle events most taxpayers misunderstand.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">6 services · From INR 999*</span></div>
  </div>
@@ -1314,13 +1314,13 @@
  <a href="https://www.patronaccounting.com/gst-registration-cancellation" class="tile-cp">
  <div class="tile-cp-meta-row"><span>02.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Registration Cancellation <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Business closure, threshold crossing-below, voluntary surrender. REG-16 plus final return GSTR-10. Often misunderstood — non-filing is not cancellation.</p>
+ <p class="tile-cp-blurb">Business closure, threshold crossing-below, voluntary surrender. REG-16 plus final return GSTR-10. Often misunderstood - non-filing is not cancellation.</p>
  <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-registration-revocation" class="tile-cp">
  <div class="tile-cp-meta-row"><span>02.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Registration Revocation <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Reactivating suo-motu cancelled GSTINs. Urgent intent — business operations blocked. REG-21 plus clearing pending returns and late fees.</p>
+ <p class="tile-cp-blurb">Reactivating suo-motu cancelled GSTINs. Urgent intent - business operations blocked. REG-21 plus clearing pending returns and late fees.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-registration-for-casual-taxable-person" class="tile-cp">
@@ -1338,7 +1338,7 @@
  <a href="https://www.patronaccounting.com/gst-composition-scheme-registration" class="tile-cp">
  <div class="tile-cp-meta-row"><span>02.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Composition Scheme Registration <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Sub-₹1.5cr turnover, simplified compliance — CMP-08 quarterly plus GSTR-4 annual at a 1-6% flat rate. High-volume SME buyer.</p>
+ <p class="tile-cp-blurb">Sub-₹1.5cr turnover, simplified compliance - CMP-08 quarterly plus GSTR-4 annual at a 1-6% flat rate. High-volume SME buyer.</p>
  <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -1351,7 +1351,7 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">03</span>Returns by Form</div>
  <h2 class="sec-h2">Form-specific return filing.</h2>
- <p class="sec-sub">GSTR-1, 3B, 4, 5A, 7, 8 and 9C — each form has a distinct buyer, due date and complexity. GSTR-1 and 3B are filed as a pair under the Monthly GST Returns retainer.</p>
+ <p class="sec-sub">GSTR-1, 3B, 4, 5A, 7, 8 and 9C - each form has a distinct buyer, due date and complexity. GSTR-1 and 3B are filed as a pair under the Monthly GST Returns retainer.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">7 services · From INR 999/mo*</span></div>
  </div>
@@ -1371,7 +1371,7 @@
  <a href="https://www.patronaccounting.com/gstr-4-filing" class="tile-cp">
  <div class="tile-cp-meta-row"><span>03.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GSTR-4 Filing (Composition Annual) <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Annual return for composition scheme taxpayers. Distinct buyer — composition users do not file GSTR-1/3B. Cross-sells to composition registration.</p>
+ <p class="tile-cp-blurb">Annual return for composition scheme taxpayers. Distinct buyer - composition users do not file GSTR-1/3B. Cross-sells to composition registration.</p>
  <div class="tile-cp-foot"><span>From INR 1,499/yr<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gstr-5a-filing" class="tile-cp">
@@ -1388,7 +1388,7 @@
  </a>
  <a href="https://www.patronaccounting.com/gstr-8-filing" class="tile-cp">
  <div class="tile-cp-meta-row"><span>03.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GSTR-8 Filing (TCS — E-Commerce Operator) <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GSTR-8 Filing (TCS - E-Commerce Operator) <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">Section 52 TCS return for Amazon / Flipkart / Meesho-type operators. 0.5% TCS reconciliation premium over standard returns.</p>
  <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
@@ -1415,26 +1415,26 @@
  <div class="grid-cp">
  <a href="https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b" class="tile-cp">
  <div class="tile-cp-meta-row"><span>04.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST ITC Reconciliation — GSTR-2B vs 3B <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST ITC Reconciliation - GSTR-2B vs 3B <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">The highest-volume ITC engagement. Monthly 14th-18th reconciliation window, post-2026 hard-locking. Recurring monthly work.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5" class="tile-cp">
  <div class="tile-cp-meta-row"><span>04.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST ITC Blocked Credits — Section 17(5) <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Motor vehicles, food, construction and personal-use credits. Wrong availment triggers demand — a high-value advisory query.</p>
+ <h3 class="tile-cp-title">GST ITC Blocked Credits - Section 17(5) <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">Motor vehicles, food, construction and personal-use credits. Wrong availment triggers demand - a high-value advisory query.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-itc-reversal-rule-42-43" class="tile-cp">
  <div class="tile-cp-meta-row"><span>04.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST ITC Reversal — Rule 42 / 43 <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Common-credit reversal for a taxable-plus-exempt supply mix — Rule 42 (inputs) and Rule 43 (capital goods). Annual reconciliation, premium advisory.</p>
+ <h3 class="tile-cp-title">GST ITC Reversal - Rule 42 / 43 <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">Common-credit reversal for a taxable-plus-exempt supply mix - Rule 42 (inputs) and Rule 43 (capital goods). Annual reconciliation, premium advisory.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-itc-time-limit-section-16-4" class="tile-cp">
  <div class="tile-cp-meta-row"><span>04.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST ITC Time Limit — Section 16(4) <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">November of the following FY (or annual-return date). High-anxiety near deadline — lapsed ITC is a permanent loss.</p>
+ <h3 class="tile-cp-title">GST ITC Time Limit - Section 16(4) <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">November of the following FY (or annual-return date). High-anxiety near deadline - lapsed ITC is a permanent loss.</p>
  <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-itc-on-capital-goods" class="tile-cp">
@@ -1446,7 +1446,7 @@
  <a href="https://www.patronaccounting.com/gst-itc-advisory-and-optimization" class="tile-cp">
  <div class="tile-cp-meta-row"><span>04.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST ITC Advisory & Optimization <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Premium engagement — pre-investment ITC analysis, supplier vetting, ITC maximisation and audit-defence positioning.</p>
+ <p class="tile-cp-blurb">Premium engagement - pre-investment ITC analysis, supplier vetting, ITC maximisation and audit-defence positioning.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -1467,19 +1467,19 @@
  <a href="https://www.patronaccounting.com/e-invoicing-implementation-and-irp-integration" class="tile-cp">
  <div class="tile-cp-meta-row"><span>05.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">E-Invoicing Implementation & IRP Integration <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">B2B mandate above ₹5cr turnover — IRP / IRN / QR compliance. Implementation plus ongoing operations.</p>
+ <p class="tile-cp-blurb">B2B mandate above ₹5cr turnover - IRP / IRN / QR compliance. Implementation plus ongoing operations.</p>
  <div class="tile-cp-foot"><span>From INR 24,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/e-invoicing-for-erp-and-billing-software-integration" class="tile-cp">
  <div class="tile-cp-meta-row"><span>05.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">E-Invoicing for ERP & Billing Software Integration <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Tally, Zoho, SAP, Oracle or custom ERP — e-invoice generation via IRP API. Implementation-led project, premium ticket.</p>
+ <p class="tile-cp-blurb">Tally, Zoho, SAP, Oracle or custom ERP - e-invoice generation via IRP API. Implementation-led project, premium ticket.</p>
  <div class="tile-cp-foot"><span>From INR 24,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/e-way-bill-generation-and-compliance" class="tile-cp">
  <div class="tile-cp-meta-row"><span>05.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">E-Way Bill Generation & Compliance <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">₹50k+ goods movement — Part A and Part B. Generation, cancellation and extension. High-volume operational service.</p>
+ <p class="tile-cp-blurb">₹50k+ goods movement - Part A and Part B. Generation, cancellation and extension. High-volume operational service.</p>
  <div class="tile-cp-foot"><span>From INR 999/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/e-way-bill-for-job-work-and-multi-vehicle" class="tile-cp">
@@ -1521,7 +1521,7 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">06</span>Notices & Disputes</div>
  <h2 class="sec-h2">GST notices and disputes, answered fast.</h2>
- <p class="sec-sub">Section 73/74 SCN response, ASMT-10 scrutiny, DRC-01 / 01A / 03, Section 107 first appeal — and the bridge to Hub 04 GSTAT for tribunal-stage disputes. Time-sensitive engagements.</p>
+ <p class="sec-sub">Section 73/74 SCN response, ASMT-10 scrutiny, DRC-01 / 01A / 03, Section 107 first appeal - and the bridge to Hub 04 GSTAT for tribunal-stage disputes. Time-sensitive engagements.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">9 services · From INR 2,499*</span></div>
  </div>
@@ -1541,13 +1541,13 @@
  <a href="https://www.patronaccounting.com/asmt-10-notice" class="tile-cp">
  <div class="tile-cp-meta-row"><span>06.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">ASMT-10 Notice <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Pre-SCN scrutiny notice with ASMT-11 reply within 30 days. The most common GST notice for SMEs — early intervention prevents Section 73/74 escalation.</p>
+ <p class="tile-cp-blurb">Pre-SCN scrutiny notice with ASMT-11 reply within 30 days. The most common GST notice for SMEs - early intervention prevents Section 73/74 escalation.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-notice-restaurants" class="tile-cp">
  <div class="tile-cp-meta-row"><span>06.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Notice — Restaurants <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Restaurant-segment notices — 5% vs 18% classification disputes, composition violations and Zomato/Swiggy reconciliation.</p>
+ <h3 class="tile-cp-title">GST Notice - Restaurants <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">Restaurant-segment notices - 5% vs 18% classification disputes, composition violations and Zomato/Swiggy reconciliation.</p>
  <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/sec-74-gst-notice" class="tile-cp">
@@ -1559,7 +1559,7 @@
  <a href="https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response" class="tile-cp">
  <div class="tile-cp-meta-row"><span>06.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST DRC-01 & DRC-01A Response <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Formal demand notice plus pre-SCN intimation. Critical 30-day response window — time-sensitive.</p>
+ <p class="tile-cp-blurb">Formal demand notice plus pre-SCN intimation. Critical 30-day response window - time-sensitive.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-drc-03-voluntary-payment" class="tile-cp">
@@ -1570,14 +1570,14 @@
  </a>
  <a href="https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" class="tile-cp">
  <div class="tile-cp-meta-row"><span>06.08</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Appeal — Section 107 First Appellate Authority <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Appeal - Section 107 First Appellate Authority <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">First appeal to Commissioner (Appeals) within 3 months. 10% pre-deposit. The foundational GST-litigation page.</p>
  <div class="tile-cp-foot"><span>From INR 19,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-appeal-to-gstat-section-112" class="tile-cp">
  <div class="tile-cp-meta-row"><span>06.09</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Appeal to GSTAT — Section 112 <span class="badge-xlist-cp">Cross-listed</span></h3>
- <p class="tile-cp-blurb">Bridge page to Hub 04 GSTAT for tribunal-stage disputes. Routes to the dedicated GSTAT litigation hub — single source of truth.</p>
+ <h3 class="tile-cp-title">GST Appeal to GSTAT - Section 112 <span class="badge-xlist-cp">Cross-listed</span></h3>
+ <p class="tile-cp-blurb">Bridge page to Hub 04 GSTAT for tribunal-stage disputes. Routes to the dedicated GSTAT litigation hub - single source of truth.</p>
  <div class="tile-cp-foot"><span>Cross-list with Hub 04 GSTAT</span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -1598,31 +1598,31 @@
  <a href="https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory" class="tile-cp">
  <div class="tile-cp-meta-row"><span>07.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Classification & HSN/SAC Advisory <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Rate disputes across 5/12/18/28% slabs. Wrong classification compounds into demand — premium advisory opinion.</p>
+ <p class="tile-cp-blurb">Rate disputes across 5/12/18/28% slabs. Wrong classification compounds into demand - premium advisory opinion.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-valuation-services" class="tile-cp">
  <div class="tile-cp-meta-row"><span>07.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Valuation Services <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Section 15 plus Rules 27-35 — related-party, barter, free supplies and discounts. Complex per-engagement work.</p>
+ <p class="tile-cp-blurb">Section 15 plus Rules 27-35 - related-party, barter, free supplies and discounts. Complex per-engagement work.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-place-of-supply-determination" class="tile-cp">
  <div class="tile-cp-meta-row"><span>07.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Place of Supply Determination <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">IGST Sections 10-13 — inter-state vs intra-state, bill-to/ship-to. High-stakes: a CGST+SGST vs IGST mistake triggers demand.</p>
+ <p class="tile-cp-blurb">IGST Sections 10-13 - inter-state vs intra-state, bill-to/ship-to. High-stakes: a CGST+SGST vs IGST mistake triggers demand.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance" class="tile-cp">
  <div class="tile-cp-meta-row"><span>07.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Reverse Charge (RCM) Compliance <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Section 9(4) unregistered and Section 9(3) specified services — GTA, legal, sponsorship, directors — plus import of services and self-invoicing.</p>
+ <p class="tile-cp-blurb">Section 9(4) unregistered and Section 9(3) specified services - GTA, legal, sponsorship, directors - plus import of services and self-invoicing.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar" class="tile-cp">
  <div class="tile-cp-meta-row"><span>07.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Advance Ruling (AAR & AAAR) <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">State AAR plus AAAR appellate — a pre-transaction binding opinion. Premium for high-value M&A and project finance.</p>
+ <p class="tile-cp-blurb">State AAR plus AAAR appellate - a pre-transaction binding opinion. Premium for high-value M&A and project finance.</p>
  <div class="tile-cp-foot"><span>From INR 49,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -1635,7 +1635,7 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">08</span>GST by Industry / Use-Case</div>
  <h2 class="sec-h2">GST returns, tuned to your industry.</h2>
- <p class="sec-sub">17 industry-specific return engagements — e-commerce, freelancers, OIDAR, restaurants, SEZ, importers, manufacturers, real estate, healthcare, logistics, financial services, education and more. Each handles the sector's distinct rate structure and reconciliation.</p>
+ <p class="sec-sub">17 industry-specific return engagements - e-commerce, freelancers, OIDAR, restaurants, SEZ, importers, manufacturers, real estate, healthcare, logistics, financial services, education and more. Each handles the sector's distinct rate structure and reconciliation.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">17 services · From INR 999*</span></div>
  </div>
@@ -1655,7 +1655,7 @@
  <a href="https://www.patronaccounting.com/gst-returns-for-oidar" class="tile-cp">
  <div class="tile-cp-meta-row"><span>08.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Returns for OIDAR</h3>
- <p class="tile-cp-blurb">Foreign digital service providers to India — simplified registration plus GSTR-5A monthly. Live page.</p>
+ <p class="tile-cp-blurb">Foreign digital service providers to India - simplified registration plus GSTR-5A monthly. Live page.</p>
  <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses" class="tile-cp">
@@ -1703,7 +1703,7 @@
  <a href="https://www.patronaccounting.com/gst-returns-for-financial-services" class="tile-cp">
  <div class="tile-cp-meta-row"><span>08.11</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Returns for Financial Services <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Banking, NBFC, insurance and mutual funds — exempted services and Rule 38 (50% ITC for banks).</p>
+ <p class="tile-cp-blurb">Banking, NBFC, insurance and mutual funds - exempted services and Rule 38 (50% ITC for banks).</p>
  <div class="tile-cp-foot"><span>From INR 1,999/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-returns-for-education" class="tile-cp">
@@ -1715,7 +1715,7 @@
  <a href="https://www.patronaccounting.com/gst-returns-for-trading-industry" class="tile-cp">
  <div class="tile-cp-meta-row"><span>08.13</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Returns for Trading Industry</h3>
- <p class="tile-cp-blurb">Wholesale and retail, B2B vs B2C invoicing, stock transfers. Live page — slug retained as-is.</p>
+ <p class="tile-cp-blurb">Wholesale and retail, B2B vs B2C invoicing, stock transfers. Live page - slug retained as-is.</p>
  <div class="tile-cp-foot"><span>From INR 1,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-returns-for-hotels" class="tile-cp">
@@ -1727,7 +1727,7 @@
  <a href="https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters" class="tile-cp">
  <div class="tile-cp-meta-row"><span>08.15</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Returns for Builders & Real-Estate Promoters <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Post-2019 regime — 1% affordable, 5% residential (no ITC). Distinct from generic real estate.</p>
+ <p class="tile-cp-blurb">Post-2019 regime - 1% affordable, 5% residential (no ITC). Distinct from generic real estate.</p>
  <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta" class="tile-cp">
@@ -1768,7 +1768,7 @@
  <div class="sec-head-cp">
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">09</span>GST Refund: Master + By Type</div>
- <h2 class="sec-h2">GST refunds — by refund type.</h2>
+ <h2 class="sec-h2">GST refunds - by refund type.</h2>
  <p class="sec-sub">The largest cluster on the site. ₹15 crore+ refunds claimed, 95%+ first-time approval. Inverted duty, exports with and without IGST, SEZ, deemed exports, excess cash ledger, wrong tax head, provisional sanction and interest.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">11 services · From INR 2,499*</span></div>
@@ -1782,62 +1782,62 @@
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-inverted-duty-structure" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Inverted Duty Structure <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Rule 89(5) — input rate higher than output rate. 90% provisional under Section 54(6), expanded post-Finance Act 2026.</p>
+ <h3 class="tile-cp-title">GST Refund - Inverted Duty Structure <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">Rule 89(5) - input rate higher than output rate. 90% provisional under Section 54(6), expanded post-Finance Act 2026.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-exports-lut" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Exports under LUT <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - Exports under LUT <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">Zero-rated exports without IGST, accumulated-ITC refund. Annual 31 March LUT renewal is critical.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-exports-with-igst" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Exports with IGST <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Automatic refund via ICEGATE — the shipping bill itself is the refund application.</p>
+ <h3 class="tile-cp-title">GST Refund - Exports with IGST <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">Automatic refund via ICEGATE - the shipping bill itself is the refund application.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-service-exports" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Service Exports <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - Service Exports <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">Section 2(6) IGST five-condition test, FIRC and BRC. SaaS, IT and consulting buyers.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-sez-supplies" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — SEZ Supplies <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - SEZ Supplies <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">DTA-to-SEZ zero-rated supplies. Distinct from the SEZ-unit refund in Section 10.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-excess-cash-ledger" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.07</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Excess Cash Ledger <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - Excess Cash Ledger <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">Electronic Cash Ledger overpayment, refundable any time. Common with RCM migration errors.</p>
  <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-wrong-tax-head" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.08</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Wrong Tax Head <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - Wrong Tax Head <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">CGST/SGST vs IGST mix-up. Refund route under Section 77 CGST and Section 19 IGST.</p>
  <div class="tile-cp-foot"><span>From INR 2,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-deemed-exports" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.09</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Deemed Exports <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - Deemed Exports <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">Supply to EOU / SEZ / Advance Authorisation holders. Notification 48/2017.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-provisional-90-percent" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.10</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Provisional 90%</h3>
- <p class="tile-cp-blurb">Section 54(6) provisional sanction within 7 days, expanded to inverted duty post-Finance Act 2026. Live page — slug retained.</p>
+ <h3 class="tile-cp-title">GST Refund - Provisional 90%</h3>
+ <p class="tile-cp-blurb">Section 54(6) provisional sanction within 7 days, expanded to inverted duty post-Finance Act 2026. Live page - slug retained.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-interest-section-56" class="tile-cp">
  <div class="tile-cp-meta-row"><span>09.11</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Interest under Section 56 <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Interest on delayed refund — 6% default, 9% from appellate order.</p>
+ <h3 class="tile-cp-title">GST Refund - Interest under Section 56 <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">Interest on delayed refund - 6% default, 9% from appellate order.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -1850,7 +1850,7 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">10</span>GST Refund: By Industry</div>
  <h2 class="sec-h2">Industry-specific refund engagements.</h2>
- <p class="sec-sub">10 industry refund variants — IT/software, textile, pharma, merchant exporters, 100% EOU, SEZ units, SaaS, e-commerce, engineering and handicraft exporters. Each handles its sector's refund route and documentation.</p>
+ <p class="sec-sub">10 industry refund variants - IT/software, textile, pharma, merchant exporters, 100% EOU, SEZ units, SaaS, e-commerce, engineering and handicraft exporters. Each handles its sector's refund route and documentation.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">10 services · From INR 14,999*</span></div>
  </div>
@@ -1864,13 +1864,13 @@
  <a href="https://www.patronaccounting.com/gst-refund-for-textile-manufacturers" class="tile-cp">
  <div class="tile-cp-meta-row"><span>10.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Refund for Textile Manufacturers <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">5% output vs 12-18% inputs — the largest inverted-duty segment by value.</p>
+ <p class="tile-cp-blurb">5% output vs 12-18% inputs - the largest inverted-duty segment by value.</p>
  <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-for-pharma-exporters" class="tile-cp">
  <div class="tile-cp-meta-row"><span>10.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Refund for Pharma Exporters <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Mixed regime — exports plus domestic inverted duty (5% output, 18% inputs).</p>
+ <p class="tile-cp-blurb">Mixed regime - exports plus domestic inverted duty (5% output, 18% inputs).</p>
  <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-for-merchant-exporters" class="tile-cp">
@@ -1882,13 +1882,13 @@
  <a href="https://www.patronaccounting.com/gst-refund-for-100-eou" class="tile-cp">
  <div class="tile-cp-meta-row"><span>10.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Refund for 100% EOU</h3>
- <p class="tile-cp-blurb">Export Oriented Unit — full export obligation, customs plus GST refund. Live page — slug retained.</p>
+ <p class="tile-cp-blurb">Export Oriented Unit - full export obligation, customs plus GST refund. Live page - slug retained.</p>
  <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-for-sez-units" class="tile-cp">
  <div class="tile-cp-meta-row"><span>10.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Refund for SEZ Units <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">The SEZ unit itself claiming refund — distinct from the SEZ-supplies refund in Section 09.</p>
+ <p class="tile-cp-blurb">The SEZ unit itself claiming refund - distinct from the SEZ-supplies refund in Section 09.</p>
  <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-for-saas-exporters" class="tile-cp">
@@ -1900,7 +1900,7 @@
  <a href="https://www.patronaccounting.com/gst-refund-for-ecommerce-exporters" class="tile-cp">
  <div class="tile-cp-meta-row"><span>10.08</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GST Refund for E-Commerce Exporters <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Cross-border e-commerce operators — Amazon Global, Etsy, direct DTC.</p>
+ <p class="tile-cp-blurb">Cross-border e-commerce operators - Amazon Global, Etsy, direct DTC.</p>
  <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-for-engineering-exporters" class="tile-cp">
@@ -1925,44 +1925,44 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">11</span>GST Refund: Process & Forms</div>
  <h2 class="sec-h2">Refund process and forms.</h2>
- <p class="sec-sub">The form-level and procedural spokes — RFD-01 filing, RFD-03 deficiency response, RFD-11 LUT, refund tracking, RFD-06 order analysis and the Section 107 refund appeal.</p>
+ <p class="sec-sub">The form-level and procedural spokes - RFD-01 filing, RFD-03 deficiency response, RFD-11 LUT, refund tracking, RFD-06 order analysis and the Section 107 refund appeal.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">6 services · From INR 1,499*</span></div>
  </div>
  <div class="grid-cp">
  <a href="https://www.patronaccounting.com/gst-refund-rfd-01-filing" class="tile-cp">
  <div class="tile-cp-meta-row"><span>11.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — RFD-01 Filing <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - RFD-01 Filing <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">The primary refund application form. Step-by-step portal filing service.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-rfd-03-deficiency-response" class="tile-cp">
  <div class="tile-cp-meta-row"><span>11.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — RFD-03 Deficiency Response <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - RFD-03 Deficiency Response <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">Responding to the officer's deficiency memo within 15 days. Time-sensitive.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-lut-form-rfd-11" class="tile-cp">
  <div class="tile-cp-meta-row"><span>11.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — LUT (Form RFD-11) <span class="badge-new-cp">New</span></h3>
- <p class="tile-cp-blurb">Annual LUT renewal — a 5-minute portal action but critical: a lapsed LUT means IGST on all exports.</p>
+ <h3 class="tile-cp-title">GST Refund - LUT (Form RFD-11) <span class="badge-new-cp">New</span></h3>
+ <p class="tile-cp-blurb">Annual LUT renewal - a 5-minute portal action but critical: a lapsed LUT means IGST on all exports.</p>
  <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-tracking-status" class="tile-cp">
  <div class="tile-cp-meta-row"><span>11.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Tracking Status <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - Tracking Status <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">ARN status, RFD-02 acknowledgement, RFD-05 sanction and RFD-06 order tracking. A free top-of-funnel explainer.</p>
  <div class="tile-cp-foot"><span>Free Explainer</span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-rfd-06-order-analysis" class="tile-cp">
  <div class="tile-cp-meta-row"><span>11.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — RFD-06 Order Analysis <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - RFD-06 Order Analysis <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">Pre-appeal review when a refund is rejected. Decides whether to file a Section 107 appeal.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gst-refund-appeal-section-107" class="tile-cp">
  <div class="tile-cp-meta-row"><span>11.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GST Refund — Appeal under Section 107 <span class="badge-new-cp">New</span></h3>
+ <h3 class="tile-cp-title">GST Refund - Appeal under Section 107 <span class="badge-new-cp">New</span></h3>
  <p class="tile-cp-blurb">First appeal to Commissioner (Appeals), 10% pre-deposit. Cross-links to Hub 04 GSTAT for further escalation.</p>
  <div class="tile-cp-foot"><span>From INR 19,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
@@ -1976,69 +1976,63 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">12</span>Free GST Tools</div>
  <h2 class="sec-h2">Free GST calculators and checkers.</h2>
- <p class="sec-sub">Ten free tools — tax computation, late-fee and interest, reconciliation, HSN/SAC search, refund eligibility, e-way bill validity, composition eligibility, inverted-duty refund, place of supply and RCM liability.</p>
+ <p class="sec-sub">Nine free tools: tax computation, late-fee and interest, reconciliation, HSN/SAC search, refund eligibility, e-way bill validity, composition eligibility, inverted-duty refund and RCM liability.</p>
  </div>
- <div class="sec-head-right"><span class="sec-counter">10 tools · Free</span></div>
+ <div class="sec-head-right"><span class="sec-counter">9 tools · Free</span></div>
  </div>
  <div class="grid-cp is-5">
- <a href="https://www.patronaccounting.com/tools/gst-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/gst-calculator" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.01</span><span class="tile-cp-form-tag">FREE</span></div>
  <h3 class="tile-cp-title">GST Calculator (CGST + SGST / IGST)</h3>
  <p class="tile-cp-blurb">Compute tax across rates with reverse calculation.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/gst-late-fee-calculator" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.02</span><span class="tile-cp-form-tag">FREE</span></div>
  <h3 class="tile-cp-title">GST Late Fee + Interest Calculator</h3>
  <p class="tile-cp-blurb">GSTR-1 / 3B late fees and 18% interest.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/gstr-2b-reconciliation-tool" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/gstr-2a-vs-3b-reconciliation" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.03</span><span class="tile-cp-form-tag">FREE</span></div>
- <h3 class="tile-cp-title">GSTR-2B vs 3B Reconciliation Check</h3>
- <p class="tile-cp-blurb">Mismatch summary plus invoice-level diff.</p>
+ <h3 class="tile-cp-title">GSTR-2A vs 3B Reconciliation</h3>
+ <p class="tile-cp-blurb">ITC mismatch finder with an invoice-level diff.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/hsn-sac-code-finder" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/hsn-sac-code-finder" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.04</span><span class="tile-cp-form-tag">FREE</span></div>
  <h3 class="tile-cp-title">HSN / SAC Code Finder</h3>
  <p class="tile-cp-blurb">Search across all 99 HSN chapters plus SAC services.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.05</span><span class="tile-cp-form-tag">FREE</span></div>
  <h3 class="tile-cp-title">GST Refund Eligibility Checker</h3>
- <p class="tile-cp-blurb">Identify refund category — exports, inverted, excess or wrong head.</p>
+ <p class="tile-cp-blurb">Identify refund category - exports, inverted, excess or wrong head.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/eway-bill-validity-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/e-way-bill-calculator" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.06</span><span class="tile-cp-form-tag">FREE</span></div>
  <h3 class="tile-cp-title">E-Way Bill Validity Calculator</h3>
  <p class="tile-cp-blurb">Distance-based validity slabs.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/gst-composition-scheme-eligibility" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/gst-composition-scheme-eligibility" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.07</span><span class="tile-cp-form-tag">FREE</span></div>
  <h3 class="tile-cp-title">Composition Scheme Eligibility</h3>
  <p class="tile-cp-blurb">Threshold and restricted-service check for CMP-02.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/gst-inverted-duty-refund-calculator" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.08</span><span class="tile-cp-form-tag">FREE</span></div>
- <h3 class="tile-cp-title">Inverted Duty Refund Calculator — Rule 89(5)</h3>
+ <h3 class="tile-cp-title">Inverted Duty Refund Calculator - Rule 89(5)</h3>
  <p class="tile-cp-blurb">Formula refund computation for textile, pharma and fertiliser.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/tools/gst-place-of-supply-checker" class="tile-cp">
+            <a href="https://www.patronaccounting.com/tools/rcm-calculator" class="tile-cp">
  <div class="tile-cp-meta-row"><span>12.09</span><span class="tile-cp-form-tag">FREE</span></div>
- <h3 class="tile-cp-title">Place of Supply Determination</h3>
- <p class="tile-cp-blurb">Inter vs intra-state determination for IGST Sections 10-13.</p>
- <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
- </a>
- <a href="https://www.patronaccounting.com/tools/gst-rcm-liability-checker" class="tile-cp">
- <div class="tile-cp-meta-row"><span>12.10</span><span class="tile-cp-form-tag">FREE</span></div>
- <h3 class="tile-cp-title">Reverse Charge (RCM) Liability Check</h3>
- <p class="tile-cp-blurb">Section 9(3) and 9(4) supplier-side liability identifier.</p>
+ <h3 class="tile-cp-title">Reverse Charge (RCM) Calculator</h3>
+ <p class="tile-cp-blurb">GST payable under Section 9(3) and 9(4), with the CGST/SGST/IGST split.</p>
  <div class="tile-cp-foot"><span>Free</span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -2050,7 +2044,7 @@
  <div class="sec-head-left">
  <div class="sec-tag"><span class="tag-num">14</span>Adjacent Services</div>
  <h2 class="sec-h2">GST works best when bundled.</h2>
- <p class="sec-sub">Related compliance and advisory services Patron handles for the same client — one team, one invoice.</p>
+ <p class="sec-sub">Related compliance and advisory services Patron handles for the same client - one team, one invoice.</p>
  </div>
  <div class="sec-head-right"><span class="sec-counter">6 services</span></div>
  </div>
@@ -2058,37 +2052,37 @@
  <a href="https://www.patronaccounting.com/accounting-bookkeeping-services" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">Accounting & Bookkeeping</h3>
- <p class="tile-cp-blurb">Monthly books supervised by a CA — the source of truth for GSTR-1 and 3B reconciliation.</p>
+ <p class="tile-cp-blurb">Monthly books supervised by a CA - the source of truth for GSTR-1 and 3B reconciliation.</p>
  <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/gstat-litigation-services" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">GSTAT Litigation</h3>
- <p class="tile-cp-blurb">Tribunal-stage GST disputes — appeals, stay, condonation. The escalation path beyond Section 107.</p>
+ <p class="tile-cp-blurb">Tribunal-stage GST disputes - appeals, stay, condonation. The escalation path beyond Section 107.</p>
  <div class="tile-cp-foot"><span>From INR 49,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/income-tax-return" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">Income Tax Return Filing</h3>
- <p class="tile-cp-blurb">ITR for businesses and individuals — books and GST returns feed the income-tax computation.</p>
+ <p class="tile-cp-blurb">ITR for businesses and individuals - books and GST returns feed the income-tax computation.</p>
  <div class="tile-cp-foot"><span>From INR 499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/audit-assurance-services" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">Audit & Assurance</h3>
- <p class="tile-cp-blurb">Statutory, tax and GST audit — Section 65 departmental audit cross-lists from this hub.</p>
+ <p class="tile-cp-blurb">Statutory, tax and GST audit - Section 65 departmental audit cross-lists from this hub.</p>
  <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">ROC Compliance</h3>
- <p class="tile-cp-blurb">Pvt Ltd compliance — AOC-4, MGT-7, director KYC. Bundles with GST for the full compliance stack.</p>
+ <p class="tile-cp-blurb">Pvt Ltd compliance - AOC-4, MGT-7, director KYC. Bundles with GST for the full compliance stack.</p>
  <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  <a href="https://www.patronaccounting.com/business-registration-services" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">Business Registration</h3>
- <p class="tile-cp-blurb">Company, LLP and firm incorporation — new entities need GST registration as the first step.</p>
+ <p class="tile-cp-blurb">Company, LLP and firm incorporation - new entities need GST registration as the first step.</p>
  <div class="tile-cp-foot"><span>From INR 6,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
  </div>
@@ -2100,7 +2094,7 @@
         <div class="faq-expanded">
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Quick questions, answered.</h2>
-                <p class="faq-expanded__lead">Common questions about GST Services at Patron — what this hub covers, pricing, and how to get started.</p>
+                <p class="faq-expanded__lead">Common questions about GST Services at Patron - what this hub covers, pricing, and how to get started.</p>
                 @include('partials.faq-enquiry-form', ['enquiryService' => 'GST Services'])
             </aside>
             <div class="faq-expanded__list">
@@ -2110,15 +2104,15 @@
                 </div>
                 <div class="faq-expanded__item" id="faq-2">
                     <h3 class="faq-expanded__q">Where do I find exact GST pricing?</h3>
-                    <div class="faq-expanded__a"><p>Pricing lives on each individual GST service page, not on this hub. <strong>/gst-registration</strong> carries registration fees; <strong>/gst-returns</strong> and the form-specific return pages carry monthly retainer pricing. Tile prices here are starting points — the final fee depends on transaction volume, number of GSTINs, industry and reconciliation complexity. Confirmed after a free consultation.</p></div>
+                    <div class="faq-expanded__a"><p>Pricing lives on each individual GST service page, not on this hub. <strong>/gst-registration</strong> carries registration fees; <strong>/gst-returns</strong> and the form-specific return pages carry monthly retainer pricing. Tile prices here are starting points - the final fee depends on transaction volume, number of GSTINs, industry and reconciliation complexity. Confirmed after a free consultation.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-3">
                     <h3 class="faq-expanded__q">Where does notice and litigation work sit on this hub?</h3>
-                    <div class="faq-expanded__a"><p><strong>Section 06 (Notices &amp; Disputes)</strong> carries Section 73, Section 74, demand orders, appeals to the Commissioner (Appeals) and the GST Appellate Tribunal. Each notice type is its own tile because the response strategy is different. If your matter is heading to the GSTAT, that work lives in the dedicated <strong>GSTAT hub</strong> — this hub handles up to first appeal.</p></div>
+                    <div class="faq-expanded__a"><p><strong>Section 06 (Notices &amp; Disputes)</strong> carries Section 73, Section 74, demand orders, appeals to the Commissioner (Appeals) and the GST Appellate Tribunal. Each notice type is its own tile because the response strategy is different. If your matter is heading to the GSTAT, that work lives in the dedicated <strong>GSTAT hub</strong> - this hub handles up to first appeal.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-4">
                     <h3 class="faq-expanded__q">Where does ITC reconciliation sit on the hub?</h3>
-                    <div class="faq-expanded__a"><p><strong>Section 04 (Input Tax Credit)</strong> carries it — buyer-side GSTR-2A/2B vs purchase-register matching, supplier-default follow-up, the ITC-180-day reversal tracking and ITC defence under notices. It's usually bundled into the monthly GST-return retainer but can be bought standalone if you only need the reconciliation done.</p></div>
+                    <div class="faq-expanded__a"><p><strong>Section 04 (Input Tax Credit)</strong> carries it - buyer-side GSTR-2A/2B vs purchase-register matching, supplier-default follow-up, the ITC-180-day reversal tracking and ITC defence under notices. It's usually bundled into the monthly GST-return retainer but can be bought standalone if you only need the reconciliation done.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-5">
                     <h3 class="faq-expanded__q">Where does e-invoicing sit on the hub?</h3>
@@ -2130,11 +2124,11 @@
                 </div>
                 <div class="faq-expanded__item" id="faq-7">
                     <h3 class="faq-expanded__q">Where do composition scheme tiles sit on this hub?</h3>
-                    <div class="faq-expanded__a"><p>Composition scheme registration lives in <strong>Section 02 (Registration &amp; Amendments)</strong>; the quarterly CMP-08 return sits in <strong>Section 03 (Returns by Form)</strong>. Whether to opt in is a tax-strategy question best decided on a free consultation — the tile pages explain the scheme constraints (no inter-state outward, no ITC, turnover ceiling) so you can frame the call.</p></div>
+                    <div class="faq-expanded__a"><p>Composition scheme registration lives in <strong>Section 02 (Registration &amp; Amendments)</strong>; the quarterly CMP-08 return sits in <strong>Section 03 (Returns by Form)</strong>. Whether to opt in is a tax-strategy question best decided on a free consultation - the tile pages explain the scheme constraints (no inter-state outward, no ITC, turnover ceiling) so you can frame the call.</p></div>
                 </div>
                 <div class="faq-expanded__item" id="faq-8">
                     <h3 class="faq-expanded__q">How does this hub connect to the GSTAT hub?</h3>
-                    <div class="faq-expanded__a"><p><strong>This hub</strong> handles GST up to and including <strong>first appeal</strong> (Commissioner Appeals) in Section 06. The dedicated <strong>GSTAT hub</strong> handles second appeal — the GST Appellate Tribunal — and onwards. Many disputes start here and migrate; we coordinate the handover when they do. Tiles in Section 06 flag which appellate stage they cover.</p></div>
+                    <div class="faq-expanded__a"><p><strong>This hub</strong> handles GST up to and including <strong>first appeal</strong> (Commissioner Appeals) in Section 06. The dedicated <strong>GSTAT hub</strong> handles second appeal - the GST Appellate Tribunal - and onwards. Many disputes start here and migrate; we coordinate the handover when they do. Tiles in Section 06 flag which appellate stage they cover.</p></div>
                 </div>
             </div>
         </div>
@@ -2165,7 +2159,7 @@
  }
  }
 
- // skill v1.6 — Mobile TOC placement.
+ // skill v1.6 - Mobile TOC placement.
  // On mobile (<=768px), the form sidebar stacks below the hero text
  // inside .hero-cp-grid and pushes the TOC's natural position to
  // ~2022px (buried below the fold). Move the form out of the grid
@@ -2220,19 +2214,19 @@
 
 <section class="footer-strip-cp">
  <div class="container-cp">
- <p>This page is reviewed quarterly or whenever a material change occurs in the CGST/IGST Acts, GST Rules, rate notifications, or CBIC circulars — including e-invoicing thresholds, ITC hard-locking, GSTR-9/9C scope and refund provisions under Section 54. <strong>Reviewed by CA &amp; CS Team, Patron Accounting LLP.</strong> Last updated: <span class="hub-last-updated"></span></p>
+ <p>This page is reviewed quarterly or whenever a material change occurs in the CGST/IGST Acts, GST Rules, rate notifications, or CBIC circulars - including e-invoicing thresholds, ITC hard-locking, GSTR-9/9C scope and refund provisions under Section 54. <strong>Reviewed by CA &amp; CS Team, Patron Accounting LLP.</strong> Last updated: <span class="hub-last-updated"></span></p>
  </div>
 </section>
 
 </main>
 
-<!-- Sticky WhatsApp Bar — ITR Season strip -->
+<!-- Sticky WhatsApp Bar - ITR Season strip -->
 <div class="wa-sticky-bar" id="waBar">
  <div class="wa-sticky-bar-content">
  <div class="wa-sticky-bar-icon">
  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
  </div>
- <span class="wa-sticky-bar-text"><strong>AY 2026&ndash;27 ITR filing is live</strong> &mdash; get your taxes filed accurately by CAs.</span>
+ <span class="wa-sticky-bar-text"><strong>AY 2026&ndash;27 ITR filing is live</strong> - get your taxes filed accurately by CAs.</span>
  <a href="https://wa.me/919459456700?text=Hello%2C%20I%20would%20like%20to%20file%20my%20Income%20Tax%20Return%20for%20AY%202026-27%20with%20a%20qualified%20CA.%20Please%20share%20the%20process%2C%20documents%20required%2C%20and%20fees." target="_blank" rel="noopener" class="wa-sticky-bar-btn">
  <span>CA-Assisted ITR Filing Open &rarr;</span>
  </a>
@@ -2283,7 +2277,7 @@ document.addEventListener('DOMContentLoaded', function() {
  }
 });
 
-// Sticky WhatsApp Bar — scroll trigger + sessionStorage dismissal
+// Sticky WhatsApp Bar - scroll trigger + sessionStorage dismissal
 (function() {
  var waBar = document.getElementById('waBar');
  var waClose = document.getElementById('waBarClose');

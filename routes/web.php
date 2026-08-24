@@ -223,10 +223,15 @@ Route::get('/tools/gst-return-due-date-tracker', function () {
 //     return view('frontend.pages.gstat-appeal-filing');
 // })->name('gstat-appeal-filing');
 
-// 301s: consolidate the IEPF tool under /tools/iepf-unclaimed-shares-checker (keeps link equity)
+// The settlement-fund lookup was grouped with the IEPF redirects on the strength
+// of the word "fund". It is not an IEPF tool: the tile that links it promises
+// settlement-fund thresholds by country and visa, which belongs to the visa net
+// worth cluster. The embassy format library is the country-driven tool there.
 Route::get('/tools/settlement-fund-lookup', function () {
-    return redirect('/tools/iepf-unclaimed-shares-checker', 301);
+    return redirect('/tools/embassy-nwc-format-library', 301);
 });
+
+// 301: consolidate the IEPF tool under /tools/iepf-unclaimed-shares-checker (keeps link equity)
 Route::get('/tools/iepf-search', function () {
     return redirect('/tools/iepf-unclaimed-shares-checker', 301);
 });

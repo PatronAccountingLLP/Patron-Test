@@ -691,7 +691,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <a href="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker" class="sidebar-link">Code on Wages Checker<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/ctc-structure-calculator" class="sidebar-link">CTC Structure Calculator<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/professional-tax-calculator" class="sidebar-link">PT Calculator<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tools/pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">PF Calculator<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/esi-calculator" class="sidebar-link">ESI Calculator<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison" class="sidebar-link">Entity vs EOR<span class="arrow">→</span></a>
         </div>

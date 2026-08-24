@@ -406,6 +406,21 @@ Route::get('/blog/{post}', [FrontendController::class, 'blogShowPost'])->name('f
 // Route::get('/{directry_label}/{slug?}', [PageController::class, 'directryPageContent'])
 //     ->where('directry_label', implode('|', $allDirectry_lebel))->where(['directry_label' => '[a-z0-9\-]+','slug' => '[a-z0-9\-]+'])->name('directryWithSlug.show');
 
+// The IFSC directory is retired in full - every URL under /ifsc-code, whatever
+// its shape, is Gone. This has to sit ABOVE the /{post} catch-all below, or a
+// single-segment /ifsc-code falls through to it and 404s: that is exactly how
+// the bare hub and the 218 bank index pages ended up 404 while their branch
+// pages returned 410.
+//
+// {path?} is optional and unconstrained, so one rule covers /ifsc-code, the
+// bank indexes, the branch pages, and any malformed path Google may still be
+// holding - including the comma-laden branch addresses that used to resolve as
+// real routes. Do NOT add a robots.txt Disallow: Googlebot has to be able to
+// crawl the URL to see the 410.
+Route::get('/ifsc-code/{path?}', function () {
+    abort(410);
+})->where('path', '.*')->name('ifsc.retired');
+
 Route::get('/{post}', [FrontendController::class, 'showPost'])->name('frontend.posts.show')->where('post', '[a-z0-9\-]+');
 
 // =======    // 
@@ -423,19 +438,18 @@ Route::prefix('nic-code')->group(function () {
 // real routes - /5,Municipalbuilding,Railwaystationsquare,Alwaye,Ernakulampin and
 // /hsn-code/4802 / 4 are both live examples Google is still crawling. A path that
 // does not look like a code now 404s at routing, before it can reach a template.
-// Directory Retirement Plan 2026-08-16, phases 1 and 2. The retired_directory
-// middleware serves 410 Gone for the whole IFSC estate (169,871 URLs) and for
-// the 8,143 HSN codes that had no impressions and no organic sessions in the
-// 16 May - 16 Aug 2026 window. To run the phases apart as the plan suggests,
-// drop the middleware off this ifsc-code group and re-add it 2-3 weeks later;
-// HSN Phase 1 then ships on its own. Do NOT block these paths in robots.txt -
-// Googlebot has to be able to crawl the URL to see the 410.
-Route::prefix('ifsc-code')->middleware('retired_directory')->group(function () {
-    Route::get('/update-slug', [DynamicController::class, 'updateIfscSlug'])->name('dynamic.update-ifsc-slug');
-    Route::get('/search', [DynamicController::class, 'searchIfscCodes'])->name('dynamic.search-ifsc');
-    Route::get('/{bankname}/{slug}', [DynamicController::class, 'ifscloadcontent'])->name('dynamic.ifscloadcontent')
-        ->where(['bankname' => '[A-Za-z0-9\-]+', 'slug' => '[A-Za-z0-9\-]+']);
-});
+// The IFSC group used to live here: /update-slug, /search and the
+// /{bankname}/{slug} branch pages, all behind the retired_directory middleware.
+// Removed 2026-08-24 - the directory is retired outright, so there is nothing
+// left to route. The single /ifsc-code/{path?} rule registered above the
+// /{post} catch-all now answers 410 for every shape, which also clears three
+// defects the group carried:
+//   - /ifsc-code and the 218 /ifsc-code/{bank} indexes returned 404, not 410
+//   - /ifsc-code/search returned 410 anyway, so the tool was already dead
+//   - /ifsc-code/update-slug returned 500, because it was exempted from the
+//     410 and then failed on its own
+// The retired_directory middleware still guards hsn-code, where the 410 is a
+// list rather than a pattern and Phase 3 pages must keep working.
 
 Route::prefix('port-code')->group(function () {
     Route::get('/update-slug', [DynamicController::class, 'updatePortSlug'])->name('dynamic.update-port-slug');

@@ -107,6 +107,14 @@
 </div>
 
 {{-- ============================ PAGE HEAD (breadcrumb · H1 · search · chips) ============================ --}}
+{{-- Included here, not left to the layout: the trail ends in $crumb, a value
+     only this view knows, so the harvested map could not hold it. --}}
+@include('partials.breadcrumbs', ['items' => [
+    ['name' => 'Home', 'url' => '/'],
+    ['name' => 'Depreciation Rate', 'url' => '/income-tax-depreciation-rate'],
+    ['name' => $crumb],
+]])
+
 <div class="page-head">
     <div class="page-head__inner">
 

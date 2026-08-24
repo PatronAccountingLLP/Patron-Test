@@ -131,6 +131,17 @@
 </div>
 
 {{-- ============================ PAGE HEAD (breadcrumb · H1 · search · chips) ============================ --}}
+{{-- Breadcrumb included here rather than left to the layout. The trail ends in a
+     value only this view knows, so resources/breadcrumbs.php cannot hold it - the
+     harvester captured just "Home" for these pages, the composer drops a
+     one-item trail, and the strip vanished from every code page until this went
+     back. Rendered above .page-head so it spans the full width like everywhere
+     else. --}}
+@include('partials.breadcrumbs', ['items' => [
+    ['name' => 'Home', 'url' => '/'],
+    ['name' => 'NIC Code ' . $code . ' - ' . $description],
+]])
+
 <div class="page-head">
     <div class="page-head__inner">
 

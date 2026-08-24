@@ -128,7 +128,10 @@
 
         <nav class="crumbs" aria-label="Breadcrumb">
             <a href="/">Home</a> ›
-            <a href="/hsn-code">HSN Code</a> ›
+            {{-- /hsn-code has no page and returns 410. The crumb linked to it from all
+                 5,245 pages that carry one. $crumb already reads "HSN Code 62063090", so
+                 dropping the link leaves "Home › HSN Code 62063090" and removes the
+                 duplicate "HSN Code" the two crumbs used to produce. --}}
             {{ $crumb }}
         </nav>
 
@@ -226,12 +229,24 @@
                 {!! $content->content !!}
             </div>
 
-            {{-- Internal linking (related HSN codes) — preserved exactly, now styled as clean pills --}}
-            @if(isset($content['Interlink_page']))
-                <div class="interlink-page main-content">
-                    {!! $content['Interlink_page'] !!}
-                </div>
-            @endif
+            {{-- The "More HSN codes from Chapter NN" grid rendered here, from the stored
+                 Interlink_page HTML. Removed 2026-08-24.
+
+                 Measured on /hsn-code/90251920: of its 36 links, 25 returned 200, 10 returned
+                 410 and 1 returned 404. Roughly a third of every grid was broken, on all
+                 ~5,248 pages that still carry one.
+
+                 The grid was built from the tariff code range rather than from pages that
+                 exist, so it linked to three different things without distinguishing them:
+                 live codes, retired codes now serving 410, and codes that never had a page.
+                 That last group is why "exclude the retired codes" would not have fixed it -
+                 filtering the 410 list leaves every 404 behind.
+
+                 The HTML lives in the Interlink_page column, so cleaning it in place means a
+                 data migration across hsn_code_data. Dropping the block clears every broken
+                 link at once. To bring sibling linking back, rebuild the grid from a query
+                 over codes that actually resolve and render it here, rather than trusting
+                 stored HTML. --}}
         </main>
 
         {{-- ---------------- RIGHT: one swappable image banner ---------------- --}}

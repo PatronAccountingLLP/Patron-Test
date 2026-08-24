@@ -108,8 +108,10 @@
 
         <nav class="crumbs" aria-label="Breadcrumb">
             <a href="/">Home</a> ›
-            <a href="/port-code">Port Code</a> ›
-            {{ $crumb }}
+            {{-- /port-code has no page and returns 404. The crumb linked to it from all
+                 397 pages. $crumb is the bare code, so this reads "Home › Port Code INRNR1",
+                 matching the HSN and NIC pattern. --}}
+            Port Code {{ $crumb }}
         </nav>
 
         <h1>Port Code of {{ $placeName }} is <span class="code">{{ $content->Portcode }}</span></h1>
@@ -202,12 +204,18 @@
             <div id="originalContent">
                 {!! $content->content !!}
 
-                {{-- Internal linking (related port codes) — preserved exactly, now styled as clean pills --}}
-                @if(isset($content['Interlink-page']))
-                    <div class="interlink-page main-content">
-                        {!! $content['Interlink-page'] !!}
-                    </div>
-                @endif
+                {{-- The "Port Codes for the Zone of X" grid rendered here, from the stored
+                     Interlink-page HTML. Removed 2026-08-24, for the same reason as the HSN
+                     grid in hsnloadcontent.blade.php.
+
+                     59 links per page across 397 pages. The pairings come from the stored
+                     HTML rather than from pages that exist, so a CFS is sometimes paired with
+                     the wrong port code - /port-code/allcargo-logistics-cfs-maharashtra/inmun1
+                     is a live example, and the crawl found 13 such targets hitting 34-54
+                     pages each.
+
+                     To bring it back, generate the zone list from a query over rows that
+                     resolve, and fix the CFS-to-port pairing in the generator first. --}}
             </div>
         </main>
 

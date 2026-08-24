@@ -136,8 +136,9 @@
 
         <nav class="crumbs" aria-label="Breadcrumb">
             <a href="/">Home</a> ›
-            <a href="/nic-code">NIC Code</a> ›
-            {{ $description }} — {{ $code }}
+            {{-- /nic-code has no page and returns 404. The crumb linked to it from all
+                 1,304 pages. Matches the HSN and Port pattern: "Home › NIC Code 85491". --}}
+            NIC Code {{ $code }}
         </nav>
 
         <h1>

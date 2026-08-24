@@ -493,6 +493,54 @@ Route::permanentRedirect('/hsn-code', '/hsn-code/48191010');
 Route::permanentRedirect('/nic-code', '/nic-code/wholesale-fruits-vegetables/46301');
 Route::permanentRedirect('/port-code', '/port-code/icd-dadri/inder6');
 
+// Step 6 of the cleanup plan: three URLs that were linked from the site but never
+// had a page. All three sit above the /{post} catch-all below, which would
+// otherwise swallow the single-segment ones and 404 them.
+//
+// The plan had two of these down as 410 "no valid target", written before the
+// destinations existed or before anyone looked in the right place. Each target
+// was re-checked live on 2026-08-24 and returns 200:
+//
+//   insurance-marketing-firm-registration  11 inbound links. IMF is Insurance
+//     -> irda-imf-business-registration     Marketing Firm and IRDAI is its
+//                                           regulator, so the two names describe
+//                                           one service. The cluster shipped
+//                                           since the plan was written - all 15
+//                                           IMF pages are live - so the HOLD is
+//                                           over. Sent to the registration page
+//                                           rather than /imf-services because the
+//                                           dead URL ends in "registration" and
+//                                           so does that page's intent.
+//
+//   payroll-audit                          3 inbound links. No payroll-audit page
+//     -> payroll-services                   exists, but this one covers EPF, ESI,
+//                                           TDS and labour-law compliance and
+//                                           mentions audit 49 times - the things
+//                                           a payroll audit examines. Not an exact
+//                                           match, but an honest landing place.
+//
+//   Professional-tax-registration          5 inbound links. PTRC and PTEC
+//     -> pt-returns                         registration is what this searcher
+//                                           wants, and /pt-returns covers it -
+//                                           it mentions registration 147 times.
+//                                           Framed as returns rather than
+//                                           registration, so the arrival is the
+//                                           right topic at a slightly later
+//                                           stage. Note the capital P and T: the
+//                                           dead URL is mixed-case and the route
+//                                           must match it exactly.
+//
+// None of the three earns a single impression today, so nothing is being
+// preserved here except the inbound links and anyone who follows one.
+Route::permanentRedirect('/insurance-marketing-firm-registration', '/irda-imf-business-registration');
+Route::permanentRedirect('/payroll-audit', '/payroll-services');
+// Both cases, deliberately. The two sheets disagree and both forms are real:
+// GSC crawled the mixed-case /Professional-tax-registration, while the 5 internal
+// links point at the lowercase /professional-tax-registration. Laravel routes are
+// case-sensitive, so one rule would have left the other still 404ing.
+Route::permanentRedirect('/Professional-tax-registration', '/pt-returns');
+Route::permanentRedirect('/professional-tax-registration', '/pt-returns');
+
 Route::get('/{post}', [FrontendController::class, 'showPost'])->name('frontend.posts.show')->where('post', '[a-z0-9\-]+');
 
 // =======    // 

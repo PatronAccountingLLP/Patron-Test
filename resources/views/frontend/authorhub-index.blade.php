@@ -340,7 +340,7 @@
     <div style="max-width:1160px; margin:0 auto; background:#0b2242; border-radius:12px; padding:48px 40px; color:#ffffff; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:24px;">
       <div style="max-width:560px;">
         <h2 style="font-size:26px; font-weight:800; margin:0 0 8px; letter-spacing:-0.01em;">Need a real CA, not a chatbot?</h2>
-        <p style="font-size:15px; line-height:1.6; color:#c6d2e2; margin:0;">The Patron team handles 25,000+ businesses across India — accounting, tax, GST, audit and litigation.</p>
+        <p style="font-size:15px; line-height:1.6; color:#c6d2e2; margin:0;">The Patron team handles 25,000+ businesses across India - accounting, tax, GST, audit and litigation.</p>
       </div>
       <div style="display:flex; gap:12px; flex-wrap:wrap;">
         <a href="tel:+919459456700" style="background:#f26b21; color:#ffffff; font-size:14px; font-weight:700; padding:13px 22px; border-radius:8px;">Call +91 945 945 6700</a>

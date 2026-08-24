@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('meta')
     <!-- Page Title -->
-    <title>CA Sundram Gupta — Founder & CA, Patron Accounting LLP</title>
+    <title>CA Sundram Gupta - Founder & CA, Patron Accounting LLP</title>
 
     <!-- Meta Description -->
-    <meta name="description" content="CA Sundram Gupta, Founder of Patron Accounting LLP — CA (ICAI), DipIFR (ACCA). 15+ years guiding Indian businesses on tax, audit, GST, ROC & CFO services.">
+    <meta name="description" content="CA Sundram Gupta, Founder of Patron Accounting LLP - CA (ICAI), DipIFR (ACCA). 15+ years guiding Indian businesses on tax, audit, GST, ROC & CFO services.">
     <meta name="keywords" content="CA Sundram Gupta, Patron Accounting Founder, Chartered Accountant Pune, DipIFR ACCA, GST expert India, income tax expert, Virtual CFO India, SME compliance India, CA author India">
     <meta name="author" content="CA Sundram Gupta">
 
@@ -12,7 +12,7 @@
     <link rel="canonical" href="https://www.patronaccounting.com/authorhub/ca-sundram-gupta">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="CA Sundram Gupta — Founder, Patron Accounting LLP">
+    <meta property="og:title" content="CA Sundram Gupta - Founder, Patron Accounting LLP">
     <meta property="og:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
     <meta property="og:url" content="https://www.patronaccounting.com/authorhub/ca-sundram-gupta">
     <meta property="og:type" content="profile">
@@ -26,7 +26,7 @@
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CA Sundram Gupta — Founder, Patron Accounting LLP">
+    <meta name="twitter:title" content="CA Sundram Gupta - Founder, Patron Accounting LLP">
     <meta name="twitter:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.jpg">
     <meta name="twitter:site" content="@patronaccounting">
@@ -59,7 +59,7 @@
           "@type": "ProfilePage",
           "@id": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta#profilepage",
           "url": "https://www.patronaccounting.com/authorhub/ca-sundram-gupta",
-          "name": "CA Sundram Gupta — Author Profile",
+          "name": "CA Sundram Gupta - Author Profile",
           "description": "Author hub for CA Sundram Gupta, Founder & Managing Partner of Patron Accounting LLP.",
           "inLanguage": "en-IN",
           "isPartOf": { "@id": "https://www.patronaccounting.com/#website" },
@@ -1034,7 +1034,7 @@
                 </div>
 
                 <p class="hero-cp-sub">
-                    Practitioner-led writing on tax, audit, GST, ROC compliance, payroll and Virtual CFO services &mdash; drawn from 15+ years across CRISIL, Bajaj Allianz and full-service CA practice.
+                    Practitioner-led writing on tax, audit, GST, ROC compliance, payroll and Virtual CFO services - drawn from 15+ years across CRISIL, Bajaj Allianz and full-service CA practice.
                 </p>
 
                 <div class="hero-cp-cta">
@@ -1078,7 +1078,7 @@
                         <source type="image/webp" srcset="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.webp">
                         <img
                             src="https://www.patronaccounting.com/storage/posts/ca-sundram-gupta.jpg"
-                            alt="CA Sundram Gupta — Founder & Managing Partner, Patron Accounting LLP"
+                            alt="CA Sundram Gupta - Founder & Managing Partner, Patron Accounting LLP"
                             width="1122"
                             height="1402"
                             loading="eager"
@@ -1146,16 +1146,16 @@
                 <div style="background:var(--bg-soft);border:1px solid var(--line);border-radius:10px;padding:22px 24px;">
                     <div style="font-size:11px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:10px;">Career Path</div>
                     <ul style="list-style:none;padding:0;margin:0;display:grid;gap:14px;">
-                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2019 — PRESENT</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Founder · Patron Accounting LLP</div></li>
-                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2015 — 2019</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Finance Manager · Bajaj Allianz Life Insurance</div></li>
-                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2011 — 2015</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Equity Research Analyst · CRISIL Limited</div></li>
-                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2009 — 2011</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Asst. Portfolio Manager · Jaypee Capital</div></li>
+                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2019 - PRESENT</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Founder · Patron Accounting LLP</div></li>
+                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2015 - 2019</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Finance Manager · Bajaj Allianz Life Insurance</div></li>
+                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2011 - 2015</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Equity Research Analyst · CRISIL Limited</div></li>
+                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">2009 - 2011</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Asst. Portfolio Manager · Jaypee Capital</div></li>
                     </ul>
                 </div>
             </div>
             <div class="about-body">
                 <p>Founder &amp; Managing Partner of <a href="https://www.patronaccounting.com/">Patron Accounting LLP</a>, a Chartered Accountant (ICAI) with a Diploma in International Financial Reporting Standards (DipIFR) from ACCA, UK. Sundram brings <strong>15+ years</strong> of experience across equity research at <a href="https://www.crisil.com" target="_blank" rel="noopener">CRISIL</a>, finance leadership at <a href="https://www.bajajallianzlife.com" target="_blank" rel="noopener">Bajaj Allianz Life Insurance</a>, and full-service CA practice.</p>
-                <p>Since founding Patron in <strong>July 2019</strong>, the firm has served <strong>25,000+ businesses</strong> from offices in Pune, Mumbai, Delhi and Gurugram &mdash; with pan-India service delivery covering Bengaluru, Hyderabad, Chennai, Kolkata, Ahmedabad and Tier 2/3 cities. Patron is rated <strong>4.9★ on Google</strong> across 500+ reviews. Sundram writes here on GST, income tax, audit, ROC compliance, payroll and SME advisory for Indian business owners &mdash; guidance shaped by 25,000+ client engagements and a decade of corporate finance practice before that.</p>
+                <p>Since founding Patron in <strong>July 2019</strong>, the firm has served <strong>25,000+ businesses</strong> from offices in Pune, Mumbai, Delhi and Gurugram - with pan-India service delivery covering Bengaluru, Hyderabad, Chennai, Kolkata, Ahmedabad and Tier 2/3 cities. Patron is rated <strong>4.9★ on Google</strong> across 500+ reviews. Sundram writes here on GST, income tax, audit, ROC compliance, payroll and SME advisory for Indian business owners - guidance shaped by 25,000+ client engagements and a decade of corporate finance practice before that.</p>
             </div>
         </div>
     </div>
@@ -1187,7 +1187,7 @@
             <div>
                 <span class="sec-tag"><span class="tag-num">02</span> Areas of Practice</span>
                 <h2 class="sec-h2">Six pillars of <span class="accent-line">day-to-day work.</span></h2>
-                <p class="sec-sub">Practice areas Sundram leads on at Patron &mdash; and the topics he writes on here. Every article is grounded in current client work, not last decade's circulars.</p>
+                <p class="sec-sub">Practice areas Sundram leads on at Patron - and the topics he writes on here. Every article is grounded in current client work, not last decade's circulars.</p>
             </div>
             <span class="sec-counter">06 Practice Areas</span>
         </div>
@@ -1240,7 +1240,7 @@
             <div>
                 <span class="sec-tag"><span class="tag-num">03</span> The Author's Philosophy</span>
                 <h2 class="sec-h2">Why this <span class="accent-line">page exists.</span></h2>
-                <p class="sec-sub">A short statement on what every article is written to do &mdash; and why it isn't written for clicks.</p>
+                <p class="sec-sub">A short statement on what every article is written to do - and why it isn't written for clicks.</p>
             </div>
             <span class="sec-counter">In Sundram's words</span>
         </div>
@@ -1272,7 +1272,7 @@
             <div>
                 <span class="sec-tag"><span class="tag-num">04</span> Featured Reads</span>
                 <h2 class="sec-h2">Six articles, <span class="accent-line">one per pillar.</span></h2>
-                <p class="sec-sub">Hand-picked starting points across the six practice areas &mdash; each grounded in current Patron client work.</p>
+                <p class="sec-sub">Hand-picked starting points across the six practice areas - each grounded in current Patron client work.</p>
             </div>
             <span class="sec-counter">06 Featured</span>
         </div>
@@ -1282,7 +1282,7 @@
             <a class="tile-cp is-read" href="https://patronaccounting.com/blog/accounting-startups-india-day-one-to-first-audit">
                 <span class="tile-num">i.</span>
                 <h3 class="tile-cp-title">Accounting for Startups in India: Day One to First Audit</h3>
-                <p class="tile-cp-blurb">A practitioner's roadmap from incorporation books to your first statutory audit &mdash; without the textbook fluff.</p>
+                <p class="tile-cp-blurb">A practitioner's roadmap from incorporation books to your first statutory audit - without the textbook fluff.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Accounting</span><span class="arrow">Read →</span></div>
             </a>
 
@@ -1296,28 +1296,28 @@
             <a class="tile-cp is-read" href="https://patronaccounting.com/blog/income-tax-notice-after-itr-filing">
                 <span class="tile-num">iii.</span>
                 <h3 class="tile-cp-title">Income Tax Notice After ITR Filing: What to Do</h3>
-                <p class="tile-cp-blurb">Section 143(1), 139(9), 142(1), 148 &mdash; the playbook for every common notice type.</p>
+                <p class="tile-cp-blurb">Section 143(1), 139(9), 142(1), 148 - the playbook for every common notice type.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Income Tax</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india">
                 <span class="tile-num">iv.</span>
                 <h3 class="tile-cp-title">Annual Compliance Requirements for Companies in India</h3>
-                <p class="tile-cp-blurb">AOC-4, MGT-7, DIR-3 KYC, board meetings &mdash; the full ROC calendar in one place.</p>
+                <p class="tile-cp-blurb">AOC-4, MGT-7, DIR-3 KYC, board meetings - the full ROC calendar in one place.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">ROC</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://patronaccounting.com/blog/payroll-outsourcing-vs-in-house-sme-guide-india-2026">
                 <span class="tile-num">v.</span>
                 <h3 class="tile-cp-title">Payroll Outsourcing vs In-House: SME Guide India 2026</h3>
-                <p class="tile-cp-blurb">Cost, control, compliance risk &mdash; an honest comparison for growing SMEs.</p>
+                <p class="tile-cp-blurb">Cost, control, compliance risk - an honest comparison for growing SMEs.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Payroll</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://patronaccounting.com/blog/mis-reports-small-business-what-ca-should-deliver">
                 <span class="tile-num">vi.</span>
                 <h3 class="tile-cp-title">MIS Reports for Small Business: What a CA Should Deliver</h3>
-                <p class="tile-cp-blurb">The dashboards every founder should expect from their finance partner &mdash; with examples.</p>
+                <p class="tile-cp-blurb">The dashboards every founder should expect from their finance partner - with examples.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Virtual CFO</span><span class="arrow">Read →</span></div>
             </a>
 
@@ -1428,7 +1428,7 @@
         <div class="sec-head-cp">
             <div>
                 <span class="sec-tag"><span class="tag-num">07</span> Work With CA Sundram</span>
-                <h2 class="sec-h2">Beyond the writing &mdash; <span class="accent-line">real engagement.</span></h2>
+                <h2 class="sec-h2">Beyond the writing - <span class="accent-line">real engagement.</span></h2>
                 <p class="sec-sub">Hands-on tax, audit, GST, payroll, ROC and Virtual CFO support for Indian businesses. A message away.</p>
             </div>
         </div>

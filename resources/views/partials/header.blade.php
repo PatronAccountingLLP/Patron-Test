@@ -102,7 +102,7 @@ body .content-section[id]{scroll-margin-top:150px}
 </style>
 <header class="pa-h" id="paHeader">
   <div class="pa-h-bar">
-    <a class="pa-h-logo" href="/" aria-label="Patron Accounting — Home"><img src="/images/patron-logo.webp" onerror="this.onerror=null;this.src='/images/site-logo.svg'" alt="Patron Accounting LLP — Chartered Accountants"></a>
+    <a class="pa-h-logo" href="/" aria-label="Patron Accounting - Home"><img src="/images/patron-logo.webp" onerror="this.onerror=null;this.src='/images/site-logo.svg'" alt="Patron Accounting LLP - Chartered Accountants"></a>
     <nav class="pa-h-nav" aria-label="Primary">
       <ul class="pa-h-menu">
       <li class="pa-h-item">
@@ -120,7 +120,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <a class="pa-h-viewall" href="/change-in-registered-office">View all →</a>
         </div></div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Registrations — not sure where to start?</div>
+            <div class="pa-h-feature-t">Registrations - not sure where to start?</div>
             <p>Pick the right structure - Pvt Ltd, LLP, OPC or Section 8 - with expert CA guidance.</p>
             <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
@@ -132,7 +132,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <div class="pa-h-cols">
         <div class="pa-h-col">
           <a class="pa-h-colhead" href="/gst-registration">GST Services</a>
-          <a class="pa-h-link" href="/gst-registration">GST Registration</a><a class="pa-h-link" href="/gst-returns">GST Returns</a><a class="pa-h-link" href="/gst-audit">GST Audit</a><a class="pa-h-link" href="/gst-refund-exports-lut">GST Refund — Exports (LUT)</a><a class="pa-h-link" href="/gst-refund-inverted-duty-structure">Inverted Duty Refund</a><a class="pa-h-link" href="/gst-notice">GST Notice</a>
+          <a class="pa-h-link" href="/gst-registration">GST Registration</a><a class="pa-h-link" href="/gst-returns">GST Returns</a><a class="pa-h-link" href="/gst-audit">GST Audit</a><a class="pa-h-link" href="/gst-refund-exports-lut">GST Refund - Exports (LUT)</a><a class="pa-h-link" href="/gst-refund-inverted-duty-structure">Inverted Duty Refund</a><a class="pa-h-link" href="/gst-notice">GST Notice</a>
           <a class="pa-h-viewall" href="/gst-registration">View all →</a>
         </div>
         <div class="pa-h-col">
@@ -146,7 +146,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <a class="pa-h-viewall" href="/pan-registration">View all →</a>
         </div></div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Tax &amp; GST — not sure where to start?</div>
+            <div class="pa-h-feature-t">Tax &amp; GST - not sure where to start?</div>
             <p>GST registration, returns and income-tax filing handled by experienced CAs.</p>
             <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
@@ -167,7 +167,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <a class="pa-h-viewall" href="/statutory-audit">View all →</a>
         </div></div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">GSTAT &amp; Audit — not sure where to start?</div>
+            <div class="pa-h-feature-t">GSTAT &amp; Audit - not sure where to start?</div>
             <p>Expert GST appeal representation plus statutory, tax and internal audits.</p>
             <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
@@ -188,7 +188,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <a class="pa-h-viewall" href="/trademark-registration">View all →</a>
         </div></div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Licenses &amp; IP — not sure where to start?</div>
+            <div class="pa-h-feature-t">Licenses &amp; IP - not sure where to start?</div>
             <p>FSSAI, trademark, ISO and other licenses secured end-to-end by our experts.</p>
             <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
@@ -209,7 +209,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <a class="pa-h-viewall" href="/payroll-services">View all →</a>
         </div></div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Accounting &amp; Payroll — not sure where to start?</div>
+            <div class="pa-h-feature-t">Accounting &amp; Payroll - not sure where to start?</div>
             <p>Hand off your bookkeeping and payroll to a dedicated team on Zoho Books.</p>
             <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
@@ -235,7 +235,7 @@ body .content-section[id]{scroll-margin-top:150px}
           <a class="pa-h-viewall" href="/fdi-compliance">View all →</a>
         </div></div>
           <div class="pa-h-feature">
-            <div class="pa-h-feature-t">Compliance — not sure where to start?</div>
+            <div class="pa-h-feature-t">Compliance - not sure where to start?</div>
             <p>Stay ROC, FEMA and annual-compliance ready with proactive expert support.</p>
             <a class="pa-h-feature-btn" href="/contact-us">Talk to an Expert →</a>
           </div>
@@ -254,7 +254,7 @@ body .content-section[id]{scroll-margin-top:150px}
   <div class="pa-h-strip">
     <form class="pa-h-search" role="search" data-pa-searchform>
       <span class="pa-h-searchic">⌕</span>
-      <input name="q" data-pa-q autocomplete="off" placeholder="Search services — GST, ITR, registration…" aria-label="Search services">
+      <input name="q" data-pa-q autocomplete="off" placeholder="Search services - GST, ITR, registration…" aria-label="Search services">
       <div class="pa-h-sresults" data-pa-results></div>
     </form>
     <div class="pa-h-strip-right">
@@ -275,7 +275,7 @@ body .content-section[id]{scroll-margin-top:150px}
     <div class="pa-m-acc">
       <button class="pa-m-accbtn" type="button">Tax &amp; GST<span class="pa-m-sign">+</span></button>
       <div class="pa-m-accbody">
-        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/gst-registration">GST Services ›</a><a class="pa-m-link" href="/gst-registration">GST Registration</a><a class="pa-m-link" href="/gst-returns">GST Returns</a><a class="pa-m-link" href="/gst-audit">GST Audit</a><a class="pa-m-link" href="/gst-refund-exports-lut">GST Refund — Exports (LUT)</a><a class="pa-m-link" href="/gst-refund-inverted-duty-structure">Inverted Duty Refund</a><a class="pa-m-link" href="/gst-notice">GST Notice</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/income-tax-return">Income Tax ›</a><a class="pa-m-link" href="/income-tax-return">Income Tax Return Filing</a><a class="pa-m-link" href="/itr-for-business">ITR for Business</a><a class="pa-m-link" href="/itr-for-nris">ITR for NRIs</a><a class="pa-m-link" href="/itr-for-capital-gains">ITR for Capital Gains</a><a class="pa-m-link" href="/tax-planning-services">Tax Planning</a><a class="pa-m-link" href="/tds-return">TDS Return Filing</a><a class="pa-m-link" href="/income-tax-notice">Income Tax Notice</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/pan-registration">Tax Registrations ›</a><a class="pa-m-link" href="/pan-registration">PAN Registration</a><a class="pa-m-link" href="/tan-registration">TAN Registration</a><a class="pa-m-link" href="/udyam-registration">Udyam / MSME Registration</a><a class="pa-m-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-m-link" href="/12a-registration">12A Registration</a><a class="pa-m-link" href="/80g-registration">80G Registration</a></div>
+        <div class="pa-m-colgroup"><a class="pa-m-colhead" href="/gst-registration">GST Services ›</a><a class="pa-m-link" href="/gst-registration">GST Registration</a><a class="pa-m-link" href="/gst-returns">GST Returns</a><a class="pa-m-link" href="/gst-audit">GST Audit</a><a class="pa-m-link" href="/gst-refund-exports-lut">GST Refund - Exports (LUT)</a><a class="pa-m-link" href="/gst-refund-inverted-duty-structure">Inverted Duty Refund</a><a class="pa-m-link" href="/gst-notice">GST Notice</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/income-tax-return">Income Tax ›</a><a class="pa-m-link" href="/income-tax-return">Income Tax Return Filing</a><a class="pa-m-link" href="/itr-for-business">ITR for Business</a><a class="pa-m-link" href="/itr-for-nris">ITR for NRIs</a><a class="pa-m-link" href="/itr-for-capital-gains">ITR for Capital Gains</a><a class="pa-m-link" href="/tax-planning-services">Tax Planning</a><a class="pa-m-link" href="/tds-return">TDS Return Filing</a><a class="pa-m-link" href="/income-tax-notice">Income Tax Notice</a></div><div class="pa-m-colgroup"><a class="pa-m-colhead" href="/pan-registration">Tax Registrations ›</a><a class="pa-m-link" href="/pan-registration">PAN Registration</a><a class="pa-m-link" href="/tan-registration">TAN Registration</a><a class="pa-m-link" href="/udyam-registration">Udyam / MSME Registration</a><a class="pa-m-link" href="/iec-registration">Import Export Code (IEC)</a><a class="pa-m-link" href="/12a-registration">12A Registration</a><a class="pa-m-link" href="/80g-registration">80G Registration</a></div>
       </div>
     </div>
     <div class="pa-m-acc">

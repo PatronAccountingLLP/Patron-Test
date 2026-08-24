@@ -3,10 +3,10 @@
 
 
     <!-- Page Title -->
-    <title>CA Puja Pradhan — Finance & Business Manager | Patron</title>
+    <title>CA Puja Pradhan - Finance & Business Manager | Patron</title>
 
     <!-- Meta Description -->
-    <meta name="description" content="CA Puja Pradhan — Chartered Accountant (ICAI), Finance & Business Manager at Patron Accounting LLP. 4+ years across statutory audit, income tax litigation, valuation, GST, transfer pricing and international taxation.">
+    <meta name="description" content="CA Puja Pradhan - Chartered Accountant (ICAI), Finance & Business Manager at Patron Accounting LLP. 4+ years across statutory audit, income tax litigation, valuation, GST, transfer pricing and international taxation.">
     <meta name="keywords" content="CA Puja Pradhan, Patron Accounting Pune, statutory audit Pune, tax audit India, equity valuation India, CIT(A) ITAT representation, GST advisory Pune, transfer pricing CA, NGO compliance, Section 8 company">
     <meta name="author" content="CA Puja Pradhan">
 
@@ -14,7 +14,7 @@
     <link rel="canonical" href="https://www.patronaccounting.com/authorhub/ca-puja-pradhan">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="CA Puja Pradhan — Finance & Business Manager, Patron Accounting LLP">
+    <meta property="og:title" content="CA Puja Pradhan - Finance & Business Manager, Patron Accounting LLP">
     <meta property="og:description" content="Chartered Accountant (ICAI), Finance & Business Manager. 4+ years across statutory audit, income tax litigation, valuation, GST and international taxation.">
     <meta property="og:url" content="https://www.patronaccounting.com/authorhub/ca-puja-pradhan">
     <meta property="og:type" content="profile">
@@ -28,7 +28,7 @@
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CA Puja Pradhan — Finance & Business Manager, Patron Accounting LLP">
+    <meta name="twitter:title" content="CA Puja Pradhan - Finance & Business Manager, Patron Accounting LLP">
     <meta name="twitter:description" content="Chartered Accountant (ICAI), Finance & Business Manager. 4+ years across statutory audit, income tax litigation, valuation, GST and international taxation.">
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/authors/ca-puja-pradhan.jpg">
     <meta name="twitter:site" content="@patronaccounting">
@@ -52,7 +52,7 @@
           "@type": "ProfilePage",
           "@id": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan#profilepage",
           "url": "https://www.patronaccounting.com/authorhub/ca-puja-pradhan",
-          "name": "CA Puja Pradhan — Author Profile",
+          "name": "CA Puja Pradhan - Author Profile",
           "description": "Author hub for CA Puja Pradhan, Finance & Business Manager at Patron Accounting LLP.",
           "inLanguage": "en-IN",
           "isPartOf": { "@id": "https://www.patronaccounting.com/#website" },
@@ -1015,7 +1015,7 @@
 
     /* ============ FOOTER STRIP ============ */
 
-    /* ============ WORK WITH AUTHOR — CONTACT CARDS ============ */
+    /* ============ WORK WITH AUTHOR - CONTACT CARDS ============ */
     .work-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1116,7 +1116,7 @@
                 </div>
 
                 <p class="hero-cp-sub">
-                    Practitioner-led writing on statutory audit, income tax litigation, valuation, Accounting, compliance, IT notices, GST and international taxation &mdash; drawn from 80+ audits, CIT(A)/ITAT representations, and the day-to-day of running a 20-member team at Patron's Pune office.
+                    Practitioner-led writing on statutory audit, income tax litigation, valuation, Accounting, compliance, IT notices, GST and international taxation - drawn from 80+ audits, CIT(A)/ITAT representations, and the day-to-day of running a 20-member team at Patron's Pune office.
                 </p>
 
                 <div class="hero-cp-cta">
@@ -1160,7 +1160,7 @@
                         <source type="image/webp" srcset="https://www.patronaccounting.com/images/ca-puja-pradhan.webp">
                         <img
                             src="https://www.patronaccounting.com/images/ca-puja-pradhan.jpg"
-                            alt="CA Puja Pradhan — Finance & Business Manager, Patron Accounting LLP"
+                            alt="CA Puja Pradhan - Finance & Business Manager, Patron Accounting LLP"
                             width="1122"
                             height="1402"
                             loading="eager"
@@ -1228,16 +1228,16 @@
                 <div style="background:var(--bg-soft);border:1px solid var(--line);border-radius:10px;padding:22px 24px;">
                     <div style="font-size:11px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:10px;">Career Path</div>
                     <ul style="list-style:none;padding:0;margin:0;display:grid;gap:14px;">
-                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">NOV 2024 — PRESENT</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Finance &amp; Business Manager · Patron Accounting LLP</div></li>
-                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">AUG 2021 — FEB 2024</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Article Assistant · SPAY &amp; Co., Chartered Accountants</div></li>
-                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">FEB 2021 — AUG 2021</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Articleship · A S Gholkar &amp; Co., Chartered Accountants</div></li>
+                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">NOV 2024 - PRESENT</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Finance &amp; Business Manager · Patron Accounting LLP</div></li>
+                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">AUG 2021 - FEB 2024</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Article Assistant · SPAY &amp; Co., Chartered Accountants</div></li>
+                        <li><div style="font-size:11px;color:var(--grey-3);font-family:'JetBrains Mono',monospace;font-weight:500;">FEB 2021 - AUG 2021</div><div style="font-size:14px;font-weight:600;color:var(--navy-deep);margin-top:2px;">Articleship · A S Gholkar &amp; Co., Chartered Accountants</div></li>
                         
                     </ul>
                 </div>
             </div>
             <div class="about-body">
-                <p>Finance &amp; Business Manager at <a href="https://www.patronaccounting.com/">Patron Accounting LLP</a>, a Chartered Accountant from the Institute of Chartered Accountants of India (ICAI). Puja brings <strong>4+ years</strong> of practice experience across statutory audit, taxation, and financial advisory &mdash; including 80+ statutory audits, 90+ tax audits, and direct representation in CIT(A), ITAT and GSTAT proceedings. She leads a 20+ member team across audit, taxation, and compliance at Patron's Pune branch.</p>
-                <p>Since joining Patron in <strong>November 2024</strong>, Puja has handled equity share valuations using DCF, Comparable Company and NAV methods, managed international taxation matters including DTAA applications and Form 15CA/CB, and supported transfer pricing documentation. The firm has served <strong>25,000+ businesses</strong> from offices in Pune, Mumbai, Delhi and Gurugram &mdash; with pan-India service delivery covering Bengaluru, Hyderabad, Chennai, Kolkata, Ahmedabad and Tier 2/3 cities. Patron is rated <strong>4.9★ on Google</strong> across 500+ reviews. Puja writes here on statutory audit, income tax, GST, valuation, transfer pricing, and the day-to-day work of running compliance for SMEs and growing businesses.</p>
+                <p>Finance &amp; Business Manager at <a href="https://www.patronaccounting.com/">Patron Accounting LLP</a>, a Chartered Accountant from the Institute of Chartered Accountants of India (ICAI). Puja brings <strong>4+ years</strong> of practice experience across statutory audit, taxation, and financial advisory - including 80+ statutory audits, 90+ tax audits, and direct representation in CIT(A), ITAT and GSTAT proceedings. She leads a 20+ member team across audit, taxation, and compliance at Patron's Pune branch.</p>
+                <p>Since joining Patron in <strong>November 2024</strong>, Puja has handled equity share valuations using DCF, Comparable Company and NAV methods, managed international taxation matters including DTAA applications and Form 15CA/CB, and supported transfer pricing documentation. The firm has served <strong>25,000+ businesses</strong> from offices in Pune, Mumbai, Delhi and Gurugram - with pan-India service delivery covering Bengaluru, Hyderabad, Chennai, Kolkata, Ahmedabad and Tier 2/3 cities. Patron is rated <strong>4.9★ on Google</strong> across 500+ reviews. Puja writes here on statutory audit, income tax, GST, valuation, transfer pricing, and the day-to-day work of running compliance for SMEs and growing businesses.</p>
             </div>
         </div>
     </div>
@@ -1269,7 +1269,7 @@
             <div>
                 <span class="sec-tag"><span class="tag-num">02</span> Areas of Practice</span>
                 <h2 class="sec-h2">Six pillars of <span class="accent-line">day-to-day work.</span></h2>
-                <p class="sec-sub">Practice areas Puja leads on at Patron &mdash; and the topics she writes on here. Every article is grounded in current client work, not last decade's circulars.</p>
+                <p class="sec-sub">Practice areas Puja leads on at Patron - and the topics she writes on here. Every article is grounded in current client work, not last decade's circulars.</p>
             </div>
             <span class="sec-counter">06 Practice Areas</span>
         </div>
@@ -1278,7 +1278,7 @@
             <div class="tile-cp">
                 <span class="tile-num">i.</span>
                 <h3 class="tile-cp-title">Statutory & Tax Audit</h3>
-                <p class="tile-cp-blurb">End-to-end audits across diverse industries — statutory under Companies Act 2013, tax audit u/s 44AB, bank branch audits with LFAR, and stock audits. 80+ private limited audits and 90+ tax audits delivered.</p>
+                <p class="tile-cp-blurb">End-to-end audits across diverse industries - statutory under Companies Act 2013, tax audit u/s 44AB, bank branch audits with LFAR, and stock audits. 80+ private limited audits and 90+ tax audits delivered.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Audit</span><span class="arrow">→</span></div>
             </div>
             <div class="tile-cp">
@@ -1308,7 +1308,7 @@
             <div class="tile-cp">
                 <span class="tile-num">vi.</span>
                 <h3 class="tile-cp-title">NGO, Trust & Section 8 Compliance</h3>
-                <p class="tile-cp-blurb">Advisory and end-to-end compliance for NGOs, charitable trusts, and Section 8 companies — including FCRA registration, Darpan registration, 12A/80G, audit, and annual filings.</p>
+                <p class="tile-cp-blurb">Advisory and end-to-end compliance for NGOs, charitable trusts, and Section 8 companies - including FCRA registration, Darpan registration, 12A/80G, audit, and annual filings.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">NGO & Trust</span><span class="arrow">→</span></div>
             </div>
         </div>
@@ -1322,7 +1322,7 @@
             <div>
                 <span class="sec-tag"><span class="tag-num">03</span> The Author's Philosophy</span>
                 <h2 class="sec-h2">Why this <span class="accent-line">page exists.</span></h2>
-                <p class="sec-sub">A short statement on what every article is written to do &mdash; and why it isn't written for clicks.</p>
+                <p class="sec-sub">A short statement on what every article is written to do - and why it isn't written for clicks.</p>
             </div>
             <span class="sec-counter">In Puja's words</span>
         </div>
@@ -1347,14 +1347,14 @@
     </div>
 </section>
 
-<!-- ============ FEATURED READS (LARAVEL DYNAMIC — DB-FLAGGED) ============ -->
+<!-- ============ FEATURED READS (LARAVEL DYNAMIC - DB-FLAGGED) ============ -->
 <section class="sec-cp" id="featured">
     <div class="container-cp">
         <div class="sec-head-cp">
             <div>
                 <span class="sec-tag"><span class="tag-num">04</span> Featured Reads</span>
                 <h2 class="sec-h2">Six articles, <span class="accent-line">one per pillar.</span></h2>
-                <p class="sec-sub">Hand-picked starting points across the six practice areas &mdash; each grounded in current Patron client work.</p>
+                <p class="sec-sub">Hand-picked starting points across the six practice areas - each grounded in current Patron client work.</p>
             </div>
             <span class="sec-counter">06 Featured</span>
         </div>
@@ -1365,42 +1365,42 @@
             <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/caro-2020-inventory-auditor-verification">
                 <span class="tile-num">i.</span>
                 <h3 class="tile-cp-title">CARO 2020: Inventory Verification by the Auditor</h3>
-                <p class="tile-cp-blurb">What auditors actually check on inventory under CARO 2020 &mdash; physical verification, valuation, cut-off, and the working papers regulators expect.</p>
+                <p class="tile-cp-blurb">What auditors actually check on inventory under CARO 2020 - physical verification, valuation, cut-off, and the working papers regulators expect.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Audit</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/gstat-vs-cestat-differences">
                 <span class="tile-num">ii.</span>
                 <h3 class="tile-cp-title">GSTAT vs CESTAT: How They Differ &amp; Which One Hears Your Appeal</h3>
-                <p class="tile-cp-blurb">Jurisdiction, procedure, member composition, limitation timelines &mdash; a side-by-side breakdown of the two GST appellate forums that confuse most taxpayers.</p>
+                <p class="tile-cp-blurb">Jurisdiction, procedure, member composition, limitation timelines - a side-by-side breakdown of the two GST appellate forums that confuse most taxpayers.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Tax Litigation</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/net-worth-certificate-format-icai-standards">
                 <span class="tile-num">iii.</span>
                 <h3 class="tile-cp-title">Net Worth Certificate Format: ICAI Standards Explained</h3>
-                <p class="tile-cp-blurb">The exact format, supporting documents, and CA verification protocol for an ICAI-compliant Net Worth Certificate &mdash; with a sample template.</p>
+                <p class="tile-cp-blurb">The exact format, supporting documents, and CA verification protocol for an ICAI-compliant Net Worth Certificate - with a sample template.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Valuation</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/gst-returns-freelancers-case-study-avoid-5l-penalty">
                 <span class="tile-num">iv.</span>
                 <h3 class="tile-cp-title">GST Returns for Freelancers: A ₹5L Penalty Avoided (Case Study)</h3>
-                <p class="tile-cp-blurb">A real client engagement where missed GSTR-3B filings triggered a ₹5L penalty notice &mdash; and the exact compliance roadmap that got it withdrawn.</p>
+                <p class="tile-cp-blurb">A real client engagement where missed GSTR-3B filings triggered a ₹5L penalty notice - and the exact compliance roadmap that got it withdrawn.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">GST</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/mutual-agreement-procedure-map-rules-2026-resolving-double-taxation">
                 <span class="tile-num">v.</span>
                 <h3 class="tile-cp-title">MAP Rules 2026: Resolving Double Taxation Across Borders</h3>
-                <p class="tile-cp-blurb">The Mutual Agreement Procedure under DTAA &mdash; when to invoke it, the 2026 procedural rules, timelines, and what NRIs and MNCs need to file.</p>
+                <p class="tile-cp-blurb">The Mutual Agreement Procedure under DTAA - when to invoke it, the 2026 procedural rules, timelines, and what NRIs and MNCs need to file.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">Intl. Tax</span><span class="arrow">Read →</span></div>
             </a>
 
             <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/which-ngo-structure-trust-society-section-8-company">
                 <span class="tile-num">vi.</span>
                 <h3 class="tile-cp-title">Which NGO Structure: Trust, Society, or Section 8 Company?</h3>
-                <p class="tile-cp-blurb">A founder's decision-tree across the three NGO structures &mdash; comparing legal control, tax treatment, FCRA eligibility, and compliance burden.</p>
+                <p class="tile-cp-blurb">A founder's decision-tree across the three NGO structures - comparing legal control, tax treatment, FCRA eligibility, and compliance burden.</p>
                 <div class="tile-cp-foot"><span class="pillar-tag">NGO &amp; Trust</span><span class="arrow">Read →</span></div>
             </a>
 
@@ -1544,7 +1544,7 @@
         <div class="sec-head-cp">
             <div>
                 <span class="sec-tag"><span class="tag-num">07</span> Work With CA Puja</span>
-                <h2 class="sec-h2">Beyond the writing &mdash; <span class="accent-line">real engagement.</span></h2>
+                <h2 class="sec-h2">Beyond the writing - <span class="accent-line">real engagement.</span></h2>
                 <p class="sec-sub">Hands-on tax, audit, GST, payroll, ROC and Virtual CFO support for Indian businesses. A message away.</p>
             </div>
         </div>

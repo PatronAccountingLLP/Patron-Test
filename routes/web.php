@@ -182,6 +182,14 @@ Route::get('/authorhub/boby-gautam', function () {
     abort(410);
 })->name('authorhub.boby-gautam.retired');
 
+// "Sundaram" with the extra 'a' is a misspelling that older bylines still emit,
+// and Google has indexed both spellings for the one person. Production already
+// answers this with a 301 from a rule outside the Blade tree; this puts the same
+// behaviour in the application so the two environments agree and the redirect
+// survives if that rule is ever lost. 301, not 302: the correct spelling is
+// permanent and the two URLs should consolidate.
+Route::permanentRedirect('/authorhub/ca-sundaram-gupta', '/authorhub/ca-sundram-gupta');
+
 // ca-poonam-kadge is the opposite case: a real author, and a prolific one. On a
 // random 120 of the 976 posts she carries 16.7% of the bylines - about 163 posts,
 // the third largest share after CA Puja Pradhan and CA Sundram Gupta - and each

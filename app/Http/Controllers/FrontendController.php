@@ -746,20 +746,38 @@ class FrontendController extends Controller
 
     public function authorhub($author_slug)
     {
-        // Convert slug to name lookup since users table has no slug column.
-        // 'ca-sundram-gupta' → match by name LIKE '%Sundram Gupta%' or similar.
-         if ($author_slug !== 'ca-sundaram-gupta') {
+        // The users table has no slug column, so the slug is matched back to a
+        // name: 'ca-poonam-kadge' -> 'CA Poonam Kadge'.
+        //
+        // This used to open with `if ($author_slug !== 'ca-sundaram-gupta') abort(404)`,
+        // which hardcoded a MISSPELLING of one author and 404'd everyone else -
+        // including CA Poonam Kadge, who carries roughly a sixth of the blog's
+        // bylines. The correctly spelled slug has its own route above this one, so
+        // the guard only ever blocked other authors. It is gone; the lookup below
+        // was always generic.
+        //
+        // Resolve against authors who have actually published, so this cannot
+        // surface an admin or a test account as an author page.
+        $searchName = trim(str_replace('-', ' ', $author_slug));
+        $withoutPrefix = trim(preg_replace('/^ca\s+/i', '', $searchName));
+
+        $author = \App\Models\User::query()
+            ->whereHas('posts', function ($q) {
+                $q->published();
+            })
+            ->where(function ($q) use ($searchName, $withoutPrefix) {
+                $q->whereRaw('LOWER(name) = ?', [mb_strtolower($searchName)])
+                  ->orWhereRaw('LOWER(name) = ?', [mb_strtolower($withoutPrefix)])
+                  ->orWhere('name', 'LIKE', '%' . $withoutPrefix . '%');
+            })
+            ->first();
+
+        // A slug that matches nobody is a 404, not a 500 - firstOrFail would have
+        // thrown ModelNotFound and been rendered as one in some configurations.
+        if (!$author) {
             abort(404);
         }
 
-        $searchName = str_replace('-', ' ', $author_slug);
-        
-        $author = \App\Models\User::where(function($q) use ($searchName, $author_slug) {
-                $q->where('name', 'LIKE', '%' . $searchName . '%')
-                ->orWhere('name', 'LIKE', '%' . str_ireplace('ca ', '', $searchName) . '%');
-            })
-            ->firstOrFail();
-        
         return view('frontend.authorhub', compact('author'));
     }
 

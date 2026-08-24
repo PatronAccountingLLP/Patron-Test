@@ -80,6 +80,60 @@
   .pa-authorhub { background:#f6f7f9; font-family:'Inter',sans-serif; color:#122442; -webkit-font-smoothing:antialiased; }
   .pa-authorhub a { color:#122442; text-decoration:none; }
   .pa-authorhub a:hover { color:#f26b21; }
+
+  /* Hero: text left, rotating CTA right. Single column until there is room for
+     both, so the CTA sits under the stats on a phone rather than squashing.
+     The right column copies .faq-expanded in public/css/faq.css - minmax(260px,340px)
+     with a 48px gap - so the CTA card is the same width as the enquiry form on
+     /accounting-bookkeeping-services. A fractional column looked right at 1280px
+     and far too wide beyond it. */
+  @media (min-width:900px){
+    .pa-ah-hero { grid-template-columns:minmax(0,1fr) minmax(260px,340px) !important;
+                  gap:48px !important; align-items:start; }
+  }
+
+  /* Sized to match the site's enquiry form card (.faq-enquiry in public/css/faq.css):
+     same 12px radius, same 18px 18px 20px padding, same #E5E7EB border and the
+     same soft shadow, so the two read as one component family. */
+  .pa-ah-cta { border:1px solid #E5E7EB; background:#fff; border-radius:12px; padding:18px 18px 20px;
+               box-shadow:0 2px 10px rgba(15,44,92,.06);
+               display:flex; flex-direction:column; }
+  /* Crossfade. The slides stack, so the box keeps the height of the tallest and
+     nothing jumps as the panels change; only the visible one takes pointer
+     events, so links in the faded-out panels are not clickable. */
+    /* Height matched to the enquiry form on /accounting-bookkeeping-services.
+     That card has no fixed height - it comes out at roughly 344px from its own
+     box metrics (18 top pad, title, sub, context, three 40px inputs with 10px
+     gaps, a 46px button, the status line, badges, 20 bottom pad). Subtracting
+     this card's own chrome - 18 top pad, 14+14 for the dot row, ~7 for the dot,
+     20 bottom pad - leaves 271px for the slide stack. */
+  .pa-ah-cta__slides { display:grid; min-height:271px; align-content:start; }
+  .pa-ah-cta__slide { grid-area:1 / 1; opacity:0; visibility:hidden; pointer-events:none;
+                      transform:translateY(4px);
+                      transition:opacity .45s ease, transform .45s ease, visibility 0s linear .45s; }
+  .pa-ah-cta__slide.is-active { opacity:1; visibility:visible; pointer-events:auto;
+                                transform:none; transition:opacity .45s ease, transform .45s ease, visibility 0s; }
+  @media (prefers-reduced-motion: reduce){
+    .pa-ah-cta__slide, .pa-ah-cta__slide.is-active { transition:none; transform:none; }
+  }
+  .pa-ah-cta__eyebrow { font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.14em;
+                        text-transform:uppercase; color:#f26b21; margin-bottom:10px; }
+  .pa-ah-cta__title { font-size:18px; line-height:1.25; font-weight:800; color:#0b2242; margin:0 0 8px; letter-spacing:-.01em; }
+  .pa-ah-cta__body { font-size:14px; line-height:1.6; color:#5a6a82; margin:0 0 12px; }
+  .pa-ah-cta__list { list-style:none; margin:0 0 14px; padding:0; }
+  .pa-ah-cta__list li { position:relative; padding-left:20px; font-size:13.5px; line-height:1.5;
+                        color:#41506a; margin-bottom:7px; }
+  .pa-ah-cta__list li:last-child { margin-bottom:0; }
+  .pa-ah-cta__list li::before { content:''; position:absolute; left:2px; top:6px; width:9px; height:5px;
+                                border-left:2px solid #f26b21; border-bottom:2px solid #f26b21;
+                                transform:rotate(-45deg); }
+  .pa-ah-cta__btn { display:inline-flex; align-items:center; gap:6px; font-size:14px; font-weight:700; color:#f26b21 !important; }
+  .pa-ah-cta__btn:hover { color:#d95a14 !important; }
+  .pa-ah-cta__dots { display:flex; gap:7px; margin-top:14px; padding-top:14px; border-top:1px solid #eef1f5; }
+  .pa-ah-cta__dot { width:7px; height:7px; padding:0; border:0; border-radius:99px; background:#d6dce6;
+                    cursor:pointer; transition:background .2s, width .2s; }
+  .pa-ah-cta__dot.is-active { background:#f26b21; width:20px; }
+  .pa-ah-cta__dot:focus-visible { outline:2px solid #f26b21; outline-offset:2px; }
 </style>
 <div class="pa-authorhub">
 
@@ -91,7 +145,8 @@
   
 
   <section style="background:#ffffff; color:#122442; border-bottom:1px solid #e4e8ee; padding:72px 28px 64px;">
-    <div style="max-width:1160px; margin:0 auto;">
+    <div style="max-width:1160px; margin:0 auto; display:grid; gap:40px; grid-template-columns:1fr;" class="pa-ah-hero">
+      <div>
       <h1 style="font-size:clamp(34px,4.6vw,56px); line-height:1.08; font-weight:800; margin:0 0 18px; max-width:760px; letter-spacing:-0.02em; text-wrap:pretty; color:#0b2242;">The experts behind every article.</h1>
       <p style="font-size:17px; line-height:1.65; color:#5a6a82; max-width:640px; margin:0 0 36px;">Every article carries the byline of a practising Chartered Accountant. Their writing draws on live client engagements: audits, tribunal representations, valuations and filings. The guidance you read reflects how the law is applied today.</p>
       <div style="display:flex; flex-wrap:wrap; gap:12px;">
@@ -100,7 +155,7 @@
           <div style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#8a97ab; margin-top:4px;">EXPERT AUTHORS</div>
         </div>
         <div style="border:1px solid #e4e8ee; background:#f6f7f9; border-radius:8px; padding:14px 22px; min-width:130px;">
-          <div style="font-size:24px; font-weight:800; color:#0b2242;">4.9★</div>
+          <div style="font-size:24px; font-weight:800; color:#0b2242;">4.9&#9733;</div>
           <div style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#8a97ab; margin-top:4px;">500+ GOOGLE REVIEWS</div>
         </div>
         <div style="border:1px solid #e4e8ee; background:#f6f7f9; border-radius:8px; padding:14px 22px; min-width:130px;">
@@ -109,9 +164,78 @@
         </div>
         <div style="border:1px solid #e4e8ee; background:#f6f7f9; border-radius:8px; padding:14px 22px; min-width:130px;">
           <div style="font-size:24px; font-weight:800; color:#0b2242;">4+</div>
-          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#8a97ab; margin-top:4px;">OFFICES · PAN-INDIA</div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#8a97ab; margin-top:4px;">OFFICES &middot; PAN-INDIA</div>
         </div>
       </div>
+      </div>
+
+      {{-- Rotating CTA. Five panels, one visible at a time, same idea as the
+           glossary's gl-rotcta - but self-contained, because that one is styled
+           by glossary.css and this page runs on layouts.app. Every target was
+           checked live on 2026-08-24 and returns 200. --}}
+      @php
+        // Hub URLs, not leaf service pages. Taken from the position-2 entries in
+        // resources/breadcrumbs.php - the site's own idea of what a hub is - and
+        // each re-checked live on 2026-08-24 (200).
+        //
+        // /pan-india-stock-audit-services rather than /stock-audit, and
+        // /net-worth-certificate rather than the by-CA or for-visa pages: in the
+        // harvested trails those are the ones that sit one level higher.
+        //
+        // The bullets are plain text on purpose. This page exists because ~6,900
+        // internal links pointed at pages that were never built, so the only URL
+        // in each panel is the hub itself, which is verified.
+        $heroCtas = [
+            [
+                'eyebrow' => 'Accounting',
+                'title'   => 'Accounting & bookkeeping.',
+                'body'    => 'Books kept audit-ready by the CA team that writes here.',
+                'points'  => ['Monthly bookkeeping & ledger scrutiny', 'Bank and vendor reconciliations', 'Financial statement preparation', 'MIS and management reporting'],
+                'cta'     => 'Explore the hub',
+                'url'     => '/accounting-bookkeeping-services',
+            ],
+            [
+                'eyebrow' => 'Net worth',
+                'title'   => 'Net worth certificates.',
+                'body'    => 'UDIN-verified certificates, issued and signed by a CA.',
+                'points'  => ['Visa and immigration applications', 'Tenders and bank submissions', 'Net owned fund for NBFC registration', 'Director and promoter net worth'],
+                'cta'     => 'See net worth',
+                'url'     => '/net-worth-certificate',
+            ],
+            [
+                'eyebrow' => 'Stock audit',
+                'title'   => 'Stock audit, pan-India.',
+                'body'    => 'Physical verification across warehouses, plants and dark stores.',
+                'points'  => ['Bank and consortium stock audits', 'Physical inventory verification', 'Fixed asset verification and tagging', 'Variance analysis and reporting'],
+                'cta'     => 'See stock audit',
+                'url'     => '/pan-india-stock-audit-services',
+            ],
+        ];
+      @endphp
+      <aside class="pa-ah-cta" data-pa-rotate aria-label="What Patron can help with">
+        <div class="pa-ah-cta__slides">
+          @foreach($heroCtas as $i => $c)
+            <div class="pa-ah-cta__slide{{ $i === 0 ? ' is-active' : '' }}" role="group" aria-roledescription="slide" aria-label="{{ $i + 1 }} of {{ count($heroCtas) }}">
+              <div class="pa-ah-cta__eyebrow">{{ $c['eyebrow'] }}</div>
+              <h3 class="pa-ah-cta__title">{{ $c['title'] }}</h3>
+              <p class="pa-ah-cta__body">{{ $c['body'] }}</p>
+              <ul class="pa-ah-cta__list">
+                @foreach($c['points'] as $point)
+                  <li>{{ $point }}</li>
+                @endforeach
+              </ul>
+              <a class="pa-ah-cta__btn" href="{{ $c['url'] }}">{{ $c['cta'] }} &rarr;</a>
+            </div>
+          @endforeach
+        </div>
+        <div class="pa-ah-cta__dots" role="tablist" aria-label="Choose a panel">
+          @foreach($heroCtas as $i => $c)
+            <button type="button" class="pa-ah-cta__dot{{ $i === 0 ? ' is-active' : '' }}" data-i="{{ $i }}"
+                    role="tab" aria-selected="{{ $i === 0 ? 'true' : 'false' }}"
+                    aria-label="{{ $c['eyebrow'] }}"></button>
+          @endforeach
+        </div>
+      </aside>
     </div>
   </section>
 
@@ -193,29 +317,10 @@
     </div>
   </section>
 
-  <section style="padding:0 28px 64px;">
-    <div style="max-width:1160px; margin:0 auto; background:#ffffff; border:1px solid #e4e8ee; border-radius:12px; padding:44px 40px;">
-      <div style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.14em; color:#f26b21; margin-bottom:10px;">02 · WHY NAMED AUTHORS</div>
-      <h2 style="font-size:26px; font-weight:800; margin:0 0 28px; letter-spacing:-0.01em;">How Patron content gets written.</h2>
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:28px;">
-        <div>
-          <div style="font-family:'JetBrains Mono',monospace; font-size:13px; color:#f26b21; margin-bottom:8px;">i.</div>
-          <div style="font-size:15px; font-weight:700; margin-bottom:6px;">Written by practitioners</div>
-          <p style="font-size:14px; line-height:1.6; color:#5a6a82; margin:0;">Every article carries the byline of the CA who does this work daily — with a public profile you can verify.</p>
-        </div>
-        <div>
-          <div style="font-family:'JetBrains Mono',monospace; font-size:13px; color:#f26b21; margin-bottom:8px;">ii.</div>
-          <div style="font-size:15px; font-weight:700; margin-bottom:6px;">Grounded in client work</div>
-          <p style="font-size:14px; line-height:1.6; color:#5a6a82; margin:0;">Case studies, formats and timelines come from live engagements — audits, appeals, valuations and filings.</p>
-        </div>
-        <div>
-          <div style="font-family:'JetBrains Mono',monospace; font-size:13px; color:#f26b21; margin-bottom:6px;">iii.</div>
-          <div style="font-size:15px; font-weight:700; margin-bottom:6px;">Kept current</div>
-          <p style="font-size:14px; line-height:1.6; color:#5a6a82; margin:0;">Articles are updated when the law changes — each page shows its last-updated date, not just a publish date.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  {{-- The design's "02 - WHY NAMED AUTHORS / How Patron content gets written"
+       section was removed on request. The three points it made (written by
+       practitioners, grounded in client work, kept current) are already made
+       by the hero copy and the author cards above. --}}
 
   
     <section style="padding:0 28px 64px;">
@@ -247,5 +352,54 @@
   
 </div>
 </div>
+
+{{-- Rotating hero CTA. Plain JS, no dependency: swap which panel is not [hidden],
+     move the active dot, pause while the pointer is over the card or a dot has
+     focus, and stay still entirely for anyone who asked for reduced motion. --}}
+<script>
+(function () {
+  var box = document.querySelector('[data-pa-rotate]');
+  if (!box) return;
+
+  var slides = box.querySelectorAll('.pa-ah-cta__slide');
+  var dots   = box.querySelectorAll('.pa-ah-cta__dot');
+  if (slides.length < 2) return;
+
+  var i = 0, timer = null;
+  var EVERY = 5000;   // auto-advance every 5s
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function show(n) {
+    i = (n + slides.length) % slides.length;
+    slides.forEach(function (s, k) {
+      s.classList.toggle('is-active', k === i);
+      // aria-hidden rather than [hidden]: the element must stay rendered for the
+      // opacity transition to run, but it should not be read out while faded.
+      s.setAttribute('aria-hidden', k === i ? 'false' : 'true');
+    });
+    dots.forEach(function (d, k) {
+      d.classList.toggle('is-active', k === i);
+      d.setAttribute('aria-selected', k === i ? 'true' : 'false');
+    });
+  }
+
+  function start() { if (!still && !timer) { timer = setInterval(function () { show(i + 1); }, EVERY); } }
+  function stop()  { if (timer) { clearInterval(timer); timer = null; } }
+
+  dots.forEach(function (d, k) {
+    d.addEventListener('click', function () { stop(); show(k); start(); });
+    d.addEventListener('focus', stop);
+    d.addEventListener('blur', start);
+  });
+  box.addEventListener('mouseenter', stop);
+  box.addEventListener('mouseleave', start);
+  document.addEventListener('visibilitychange', function () {
+    document.hidden ? stop() : start();
+  });
+
+  show(0);
+  start();
+})();
+</script>
 
 @endsection

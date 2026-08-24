@@ -117,6 +117,13 @@
             // un-stripped page) until we've stripped the chrome + sized it, then fade in smoothly.
             + '#ph-tool-frame{opacity:0 !important;animation:none !important;transition:opacity .3s ease, height .35s ease !important;}'
             + '#ph-tool-frame.pa-tool-ready{opacity:1 !important;}'
+            // The hub bundle ships its own "Home > Free Tools" breadcrumb as the
+            // first child of .ph-hero. The site renders the real strip above this
+            // iframe now, so hide the bundle's copy rather than show two in two
+            // different designs. It is an inline-styled div with no class of its
+            // own, so :first-child is the only handle - if a regenerated bundle
+            // reorders that hero, this stops matching and the duplicate returns.
+            + '.ph-hero > div:first-child{display:none !important;}'
             + '@media (min-width:821px){'
             + '.ph-layout{align-items:start !important;}'
             + '.ph-aside{position:sticky !important;top:12px !important;align-self:start !important;height:auto !important;max-height:calc(100vh - 24px) !important;overflow-y:auto !important;}'

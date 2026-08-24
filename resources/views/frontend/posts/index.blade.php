@@ -1274,17 +1274,21 @@
     $trendingSearches = ['GSTR-3B', 'ITR filing', 'Net worth certificate', 'Section 8', 'TDS rates'];
 @endphp
 
+{{-- Rendered here, above the page container, so the strip spans the full
+     width like the layout-rendered one. Inside .container it was indented
+     and the page background hid the grey band. This view is not in
+     resources/breadcrumbs.php because its trail is dynamic, so the layout
+     renders nothing and this include is the page's only breadcrumb. --}}
+    {{-- ============ BREADCRUMB ============ --}}
+    @include('partials.breadcrumbs', ['items' => [
+        ['name' => 'Home', 'url' => route('frontend.index')],
+        ['name' => 'Resources', 'url' => route('frontend.posts.index')],
+        ['name' => 'Blog'],
+    ]])
+
 <div class="patron-blog">
   <div class="container py-3">
 
-    {{-- ============ BREADCRUMB ============ --}}
-    <nav class="pb-breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ route('frontend.index') }}">Home</a>
-      <span class="pb-breadcrumb-sep">›</span>
-      <a href="{{ route('frontend.posts.index') }}">Resources</a>
-      <span class="pb-breadcrumb-sep">›</span>
-      <span aria-current="page">Blog</span>
-    </nav>
 
     {{-- ============ HERO ============ --}}
     <section class="pb-hero">

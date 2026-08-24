@@ -696,13 +696,6 @@ a:focus-visible {
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="https://www.patronaccounting.com/">Home</a>
-    <span>›</span>
-    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
-    <span>›</span>
-    Incorporation Stamp Duty Calculator
-</nav>
 
 <header class="hero" id="calculator">
     <div class="hero-meta">

@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Surety</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Solvency &amp; Courts</div>
     <h1 class="gl-h1">Surety: The Financial Proof Courts Ask a Guarantor For</h1>
     <p class="glh2-lead">A person who answers for another&#x27;s obligation; financial proof courts ask of sureties.</p>

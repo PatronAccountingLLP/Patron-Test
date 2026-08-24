@@ -434,11 +434,6 @@ body.is-embed {
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
-    Lease Accounting Calculator (Ind AS 116)
-</nav>
 
 <header class="hero" id="calculator">
     <div class="hero-meta">

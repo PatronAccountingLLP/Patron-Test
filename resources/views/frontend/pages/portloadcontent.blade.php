@@ -106,13 +106,6 @@
 <div class="page-head">
     <div class="page-head__inner">
 
-        <nav class="crumbs" aria-label="Breadcrumb">
-            <a href="/">Home</a> ›
-            {{-- /port-code has no page and returns 404. The crumb linked to it from all
-                 397 pages. $crumb is the bare code, so this reads "Home › Port Code INRNR1",
-                 matching the HSN and NIC pattern. --}}
-            Port Code {{ $crumb }}
-        </nav>
 
         <h1>Port Code of {{ $placeName }} is <span class="code">{{ $content->Portcode }}</span></h1>
 

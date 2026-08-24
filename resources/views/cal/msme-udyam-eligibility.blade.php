@@ -302,7 +302,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#checker">Eligibility Checker</a><a href="#how-to-use">How to Use</a><a href="#criteria">Criteria</a><a href="#benefits">Benefits</a><a href="#process">Registration Process</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>MSME Eligibility</nav> --}}
+{{----}}
 <header class="hero" id="checker"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>MSME/Udyam Registration <span>Eligibility Checker</span></h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Check if your business qualifies as Micro, Small, or Medium Enterprise under the <a href="https://msme.gov.in/" target="_blank" rel="noopener">MSME Development Act</a>. Enter your investment in plant &amp; machinery and annual turnover (excluding exports). Get instant classification, benefits you can avail, and registration guidance. Udyam Registration is free on the <a href="https://udyamregistration.gov.in/" target="_blank" rel="noopener">official portal</a>.</p></div>
 <div class="main-layout"><div class="content-col">

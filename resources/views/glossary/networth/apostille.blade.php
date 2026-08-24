@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Apostille</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Visa Finance</div>
     <h1 class="gl-h1">Apostille of an Indian CA Certificate for Use Abroad</h1>
     <p class="glh2-lead">Hague Convention legalisation of documents for use abroad; who issues it in India.</p>

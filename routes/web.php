@@ -159,6 +159,12 @@ Route::get('/cancellation-and-refund', function () {
 Route::get('/career', function () {
     return view('frontend.pages.career');
 })->name('career');
+// The author hub index. /authorhub has always 404'd - only the individual
+// profiles were ever built - so the byline trail led to a dead parent.
+Route::get('/authorhub', function () {
+    return view('frontend.authorhub-index');
+})->name('frontend.authorhub.index');
+
 Route::get('/authorhub/ca-puja-pradhan', [App\Http\Controllers\FrontendController::class, 'caAuthor'])
     ->name('frontend.caPuja.show');
 Route::get('/authorhub/ca-sundram-gupta', [App\Http\Controllers\FrontendController::class, 'caSundram'])

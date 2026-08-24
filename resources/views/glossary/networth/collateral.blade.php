@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Collateral</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Lending</div>
     <h1 class="gl-h1">How Lenders Weigh Collateral Against Your Net Worth</h1>
     <p class="glh2-lead">Security offered against credit; how lenders value it vs net worth.</p>

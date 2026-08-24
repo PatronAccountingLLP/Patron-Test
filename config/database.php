@@ -56,8 +56,13 @@ return [
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,
+            // PHP 8.4 moved this constant to Pdo\Mysql and 8.5 deprecates the old
+            // PDO:: name, which printed a notice at the top of every rendered page
+            // on any 8.5 machine. Pick whichever the running PHP provides: 8.4+
+            // gets the new one, older versions keep the old.
             'options' => extension_loaded('pdo_mysql') ? array_filter([
-                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+                (class_exists('\Pdo\Mysql') ? \Pdo\Mysql::ATTR_SSL_CA : \PDO::MYSQL_ATTR_SSL_CA)
+                    => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
 

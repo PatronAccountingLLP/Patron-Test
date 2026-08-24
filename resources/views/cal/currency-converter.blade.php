@@ -302,7 +302,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#converter">Converter</a><a href="#how-to-use">How to Use</a><a href="#rates">Rate Table</a><a href="#lrs">LRS & TCS</a><a href="#tips">Tips</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Currency Converter</nav> --}}
+{{----}}
 <header class="hero" id="converter"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Currency Converter — <span>INR</span> to USD, EUR, GBP & More</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Convert between Indian Rupee and 15+ world currencies using indicative mid-market rates. Enter amount, select currencies, get instant conversion. Also covers RBI LRS limits ($250K/year), TCS on foreign remittances (5%/20% above &#8377;7L), and Form 15CA/15CB requirements. Rates are approximate — check <a href="https://www.rbi.org.in/" target="_blank" rel="noopener">RBI</a> for official reference rates.</p></div>
 <div class="main-layout"><div class="content-col">

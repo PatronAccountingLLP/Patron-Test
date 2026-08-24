@@ -701,13 +701,6 @@ a:focus-visible {
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span>›</span>
-    <a href="/tools">Free Tools</a>
-    <span>›</span>
-    Embassy NWC Format Library
-</nav>
 
 <header class="hero" id="library">
     <div class="hero-meta">

@@ -954,19 +954,23 @@
 @endpush
 
 @section('content')
+{{-- Rendered here, above the page container, so the strip spans the full
+     width like the layout-rendered one. Inside .container it was indented
+     and the page background hid the grey band. This view is not in
+     resources/breadcrumbs.php because its trail is dynamic, so the layout
+     renders nothing and this include is the page's only breadcrumb. --}}
+    {{-- ============ BREADCRUMB ============ --}}
+    @include('partials.breadcrumbs', ['items' => [
+        ['name' => 'Home', 'url' => route('frontend.index')],
+        ['name' => 'Blog', 'url' => route('frontend.posts.index')],
+        ['name' => Str::limit($post->title, 60)],
+    ]])
+
 <div class="patron-blog-detail">
   <div class="pbd-progress-bar" id="pbdProgressBar"></div>
 
   <div class="container">
 
-    {{-- ============ BREADCRUMB ============ --}}
-    <nav class="pbd-breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ route('frontend.index') }}">Home</a>
-      <span class="pbd-breadcrumb-sep">›</span>
-      <a href="{{ route('frontend.posts.index') }}">Blog</a>
-      <span class="pbd-breadcrumb-sep">›</span>
-      <span aria-current="page">{{ Str::limit($post->title, 60) }}</span>
-    </nav>
 
     {{-- ============ ARTICLE HERO ============ --}}
     <header class="pbd-hero">

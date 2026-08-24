@@ -1201,13 +1201,6 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 </nav>
 
 <!-- Breadcrumb -->
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="https://www.patronaccounting.com/">Home</a>
-    <span>›</span>
-    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
-    <span>›</span>
-    AIS Reconciliation Tool
-</nav>
 
 <!-- Hero -->
 <header class="hero" id="calculator">

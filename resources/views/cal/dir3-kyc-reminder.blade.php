@@ -302,7 +302,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#reminder">Reminder</a><a href="#how-to-use">How to Use</a><a href="#steps">Filing Steps</a><a href="#penalty">Penalty</a><a href="#documents">Documents</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>DIR-3 KYC Reminder</nav> --}}
+{{----}}
 <header class="hero" id="reminder"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>DIR-3 KYC <span>Due Date Reminder</span> &mdash; DIN/DPIN Annual KYC</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>DIR-3 KYC is mandatory annual KYC for all DIN/DPIN holders (company directors and LLP partners). Due date: <strong>September 30, 2026</strong>. Penalty for late filing: &#8377;5,000 + DIN deactivation. First-time: full DIR-3 KYC form with DSC. Subsequent years: simplified DIR-3 KYC-WEB with OTP only. Check your countdown and filing status below.</p></div>
 <div class="main-layout"><div class="content-col">

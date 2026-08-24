@@ -391,7 +391,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#which-ratios">Which Ratios</a><a href="#signals">What Each Signals</a><a href="#vs-certificate">Ratio vs Certificate</a><a href="#certify">Get It Certified</a><a href="#service-pages">Where It Is Used</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools">Free Tools</a><span>&rsaquo;</span>Solvency Ratio Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 4 August 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> &middot; Founder, Patron Accounting LLP</span></div>

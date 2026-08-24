@@ -307,7 +307,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Duty Calculator</a><a href="#how-to-use">How to Use</a><a href="#formula">Formula</a><a href="#rates">Common Rates</a><a href="#exemptions">Exemptions</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Import Duty Calculator</nav> --}}
+{{----}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Import Duty Calculator &mdash; <span>Customs Duty</span> BCD, SWS &amp; IGST</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Calculate the total customs duty and landed cost for goods imported into India. Enter CIF value, select product category (auto-sets BCD rate) or enter custom BCD rate, choose IGST rate. Get breakup of Basic Customs Duty, Social Welfare Surcharge (10% of BCD), IGST, total duty payable, and final landed cost. IGST is claimable as ITC for GST-registered importers.</p></div>
 <div class="main-layout"><div class="content-col">

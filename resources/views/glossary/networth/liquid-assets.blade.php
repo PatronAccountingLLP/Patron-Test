@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Liquid Assets</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Net Worth Mechanics</div>
     <h1 class="gl-h1">Liquid Assets, Explained for CA-Issued Certificates</h1>
     <p class="glh2-lead">Cash and near-cash holdings; why embassies and lenders weight them.</p>

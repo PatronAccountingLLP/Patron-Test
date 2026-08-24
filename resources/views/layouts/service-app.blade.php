@@ -152,6 +152,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     @include('partials.header')
 
+    {{-- Breadcrumbs render here for every page, like the header above.
+         BreadcrumbComposer resolves $paBreadcrumbs from resources/breadcrumbs.php
+         by view name; it is empty for the homepage and anything with no trail, and
+         the partial renders nothing when it is. To override on one page set
+         $breadcrumbs; to hide it, set $breadcrumbs = [].
+
+         No 'schema' here on purpose: 937 of the 944 pages already hand-write
+         their own BreadcrumbList, so emitting one here would duplicate it. --}}
+    @include('partials.breadcrumbs', ['items' => $paBreadcrumbs ?? []])
+
     <!-- Main Content -->
     <main>
         @yield('content')

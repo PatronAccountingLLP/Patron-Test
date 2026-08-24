@@ -231,7 +231,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#cost-breakdown">Cost Breakdown</a><a href="#pvtltd-vs-llp">Pvt Ltd vs LLP</a><a href="#net-worth">Net Worth</a><a href="#ongoing">Ongoing Compliance</a><a href="#hidden-costs">Hidden Costs</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>IMF Setup Cost Calculator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

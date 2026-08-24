@@ -466,11 +466,6 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="https://www.patronaccounting.com/">Home</a><span>›</span>
-    <a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>
-    Current Ratio Calculator
-</nav>
 
 <header class="hero" id="calculator">
     <div class="hero-meta">

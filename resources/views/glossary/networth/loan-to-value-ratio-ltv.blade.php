@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Loan-to-Value Ratio (LTV)</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Lending</div>
     <h1 class="gl-h1">Loan-to-Value Ratio (LTV): Security Cover, Not Net Worth</h1>
     <p class="glh2-lead">Loan amount as a share of security value; typical caps by product.</p>

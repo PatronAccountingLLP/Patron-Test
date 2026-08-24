@@ -421,11 +421,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
-    Deferred Tax Calculator
-</nav>
 
 <header class="hero" id="calculator">
     <div class="hero-meta">

@@ -294,7 +294,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#generator">Generator</a><a href="#how-to-use">How to Use</a><a href="#stamp-duty">Stamp Duty</a><a href="#tds">TDS on Rent</a><a href="#model-act">Model Tenancy Act</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Rent Agreement Generator</nav> --}}
+{{----}}
 <header class="hero" id="generator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Rent Agreement <span>Generator</span> &mdash; 11-Month Leave &amp; Licence</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Generate a legally formatted 11-month rent agreement (leave &amp; licence) for any Indian city. Fill in landlord/tenant details, property address, rent, deposit, and terms. Get a complete 15-clause agreement ready for printing on e-stamp paper from <a href="https://igr.maharashtra.gov.in/" target="_blank" rel="noopener">IGR Maharashtra</a> or your state portal.</p></div>
 <div class="main-layout"><div class="content-col">

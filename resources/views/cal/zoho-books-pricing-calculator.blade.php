@@ -904,13 +904,7 @@
     </nav>
 
     <!-- Breadcrumb -->
-    {{-- <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="https://www.patronaccounting.com/">Home</a>
-        <span>&rsaquo;</span>
-        <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
-        <span>&rsaquo;</span>
-        Zoho Books Pricing Calculator
-    </nav> --}}
+    {{----}}
 
     <!-- Hero -->
     <header class="hero" id="calculator">

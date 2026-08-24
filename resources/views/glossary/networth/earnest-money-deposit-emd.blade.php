@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Earnest Money Deposit (EMD)</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Solvency &amp; Courts</div>
     <h1 class="gl-h1">Earnest Money Deposit (EMD) in Indian Tender Bidding</h1>
     <p class="glh2-lead">Refundable deposit filed with a bid; how solvency proof interacts with it.</p>

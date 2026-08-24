@@ -520,13 +520,6 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="https://www.patronaccounting.com/">Home</a>
-    <span>›</span>
-    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
-    <span>›</span>
-    RFD-01 Pre-Filing Checklist
-</nav>
 
 <header class="hero" id="checklist">
     <div class="hero-meta">

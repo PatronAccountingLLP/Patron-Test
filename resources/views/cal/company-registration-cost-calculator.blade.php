@@ -303,7 +303,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Cost Calculator</a><a href="#how-to-use">How to Use</a><a href="#comparison">Structure Comparison</a><a href="#fees">Fee Breakup</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Company Registration Cost</nav> --}}
+{{----}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Company Registration <span>Cost Calculator</span> — Pvt Ltd, OPC, LLP</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Estimate the total cost of registering your business in India — Private Limited Company, One Person Company (OPC), LLP, or Partnership Firm. Includes MCA government fees, stamp duty (state-wise), DSC certificates, DIN, name reservation, and professional charges. Select your entity type, state, and authorized capital to get a detailed cost breakup. Based on latest <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a> fee schedule.</p></div>
 <div class="main-layout"><div class="content-col">

@@ -294,7 +294,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#state-rates">State Rates</a><a href="#women">Women Concession</a><a href="#80c">80C Deduction</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Stamp Duty Calculator</nav> --}}
+{{----}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Stamp Duty Calculator &mdash; <span>All Indian States</span> 2026</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Calculate stamp duty and registration charges for property purchase in any Indian state. Select state, enter property value, choose buyer gender (women get concessions in many states), and property type. Get stamp duty, registration fee, total cost, and Section 80C deduction eligibility under the <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">Indian Stamp Act 1899</a>.</p></div>
 <div class="main-layout"><div class="content-col">

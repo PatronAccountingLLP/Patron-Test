@@ -496,13 +496,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 </nav>
 
 <!-- BREADCRUMB -->
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="https://www.patronaccounting.com/">Home</a>
-    <span>›</span>
-    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
-    <span>›</span>
-    ESOP Cost to Company Calculator
-</nav>
 
 <!-- HERO -->
 <header class="hero" id="calculator">

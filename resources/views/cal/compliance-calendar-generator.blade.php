@@ -293,7 +293,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="#calculator">Generator</a><a href="#how-to-use">How to Use</a><a href="#regulators">12 Regulators</a><a href="#penalties">Penalties</a><a href="#compare">Vs Templates</a><a href="#faqs">FAQs</a>
 </div></nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>›</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>›</span>Compliance Calendar Generator</nav>
 
 <header class="hero" id="calculator">
 <div class="hero-meta"><span class="badge-updated">Updated: 14 May 2026</span><span class="author-byline">Reviewed by <strong>CA Sundram Gupta, FCA</strong> · Founder, Patron Accounting LLP</span></div>

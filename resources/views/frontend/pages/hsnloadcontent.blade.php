@@ -126,14 +126,6 @@
 <div class="page-head">
     <div class="page-head__inner">
 
-        <nav class="crumbs" aria-label="Breadcrumb">
-            <a href="/">Home</a> ›
-            {{-- /hsn-code has no page and returns 410. The crumb linked to it from all
-                 5,245 pages that carry one. $crumb already reads "HSN Code 62063090", so
-                 dropping the link leaves "Home › HSN Code 62063090" and removes the
-                 duplicate "HSN Code" the two crumbs used to produce. --}}
-            {{ $crumb }}
-        </nav>
 
         {{-- Authoritative title from the database (kept intact) --}}
         <h1>{!! $content->h1 !!}</h1>

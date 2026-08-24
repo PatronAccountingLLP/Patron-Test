@@ -533,14 +533,6 @@ body.is-hub{background:#F4F7FB}
 </style>
 <main>
 <div class="pahub" id="hub-top">
-<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
-    <div style="max-width:1320px;margin:0 auto;">
-        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;flex-wrap:wrap;">
-            <li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
-            <li><span style="color:var(--orange);font-weight:600;">Net Worth Certificate by CA</span></li>
-        </ol>
-    </div>
-</nav>
 
 <div class="hub-hero">
   <div class="hub-hero__in">

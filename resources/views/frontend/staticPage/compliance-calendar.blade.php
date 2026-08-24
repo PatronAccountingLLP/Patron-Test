@@ -539,11 +539,7 @@ details[open] summary::before{transform:rotate(90deg)}
 </nav>
 {{-- 
 <!-- Breadcrumb -->
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <a href="/">Home</a><span>&rsaquo;</span>
-  <a href="#">Free Tools</a><span>&rsaquo;</span>
-  India Compliance Calendar
-</nav> --}}
+--}}
 
 <!-- Meta strip -->
 <div class="meta-strip">

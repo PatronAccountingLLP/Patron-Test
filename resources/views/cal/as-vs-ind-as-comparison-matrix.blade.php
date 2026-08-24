@@ -360,11 +360,6 @@
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/tools">Free Tools</a><span>›</span>
-    AS vs Ind AS Comparison Matrix
-</nav>
 
 <header class="hero" id="matrix">
     <div class="hero-meta">

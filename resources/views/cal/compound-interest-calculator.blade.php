@@ -323,7 +323,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#formula">Formulas</a><a href="#comparison">CI vs SI</a><a href="#tips">Tips</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Compound Interest Calculator</nav> --}}
+{{----}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA & CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Compound Interest Calculator — <span>CI with Year-Wise Growth</span></h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Calculate compound interest on any principal with monthly, quarterly, half-yearly, or annual compounding. Enter your amount, rate, tenure, and frequency to get total amount, interest earned, effective annual rate, and a year-wise growth table. Also shows simple vs compound interest comparison to visualise the power of compounding. Works for FDs, PPF, loans, and investments.</p></div>
 <div class="main-layout"><div class="content-col">

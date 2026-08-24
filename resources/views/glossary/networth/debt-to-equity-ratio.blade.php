@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Debt-to-Equity Ratio</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Lending</div>
     <h1 class="gl-h1">Debt-to-Equity Ratio, Read From Certified Figures</h1>
     <p class="glh2-lead">Borrowed funds against owners&#x27; funds; leverage signal in appraisal and tenders.</p>

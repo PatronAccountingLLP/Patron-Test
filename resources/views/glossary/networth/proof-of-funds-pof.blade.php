@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Proof of Funds (POF)</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Visa Finance</div>
     <h1 class="gl-h1">Proof of Funds (POF) in Indian Visa and Finance Practice</h1>
     <p class="glh2-lead">The document class embassies accept as evidence of financial capacity.</p>

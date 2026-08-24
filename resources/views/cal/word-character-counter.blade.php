@@ -290,7 +290,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#counter">Word Counter</a><a href="#how-to-use">How to Use</a><a href="#limits">Character Limits</a><a href="#seo-lengths">SEO Lengths</a><a href="#readability">Readability</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Word Counter</nav> --}}
+{{----}}
 <header class="hero" id="counter"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Word &amp; Character <span>Counter</span> &mdash; Real-Time Counting</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Count words, characters (with and without spaces), sentences, paragraphs, and estimated reading time &mdash; all in real-time as you type or paste. Works with English, Hindi, and all Indian languages. Use for blog posts, SEO meta tags, social media captions, academic papers, and any content that needs precise word or character counts.</p></div>
 <div class="main-layout"><div class="content-col">

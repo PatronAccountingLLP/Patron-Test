@@ -1900,16 +1900,6 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <main>
 
 <!-- BREADCRUMB -->
-<nav aria-label="Breadcrumb" style="background:var(--gray-50);border-bottom:1px solid var(--gray-200);padding:10px 16px;">
-    <div style="max-width:1320px;margin:0 auto;">
-        <ol style="display:flex;align-items:center;gap:8px;list-style:none;padding:0;margin:0;font-size:13px;font-family:'Barlow',sans-serif;">
-<li style="display:flex;align-items:center;gap:8px;"><a href="https://www.patronaccounting.com/" style="color:var(--text-muted);text-decoration:none;font-weight:500;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:middle;margin-right:2px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Home</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
-<li style="display:flex;align-items:center;gap:8px;"><a href="/pan-india-stock-audit-services" style="color:var(--text-muted);text-decoration:none;font-weight:500;">PAN India Stock Audit Services</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
-<li style="display:flex;align-items:center;gap:8px;"><a href="/stock-audit" style="color:var(--text-muted);text-decoration:none;font-weight:500;">Inventory Audit / Stock Audit</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg></li>
-<li><span style="color:var(--orange);font-weight:600;">FMCG</span></li>
-</ol>
-    </div>
-</nav>
 
 <!-- HERO SECTION -->
 <section class="py-5" style="background: linear-gradient(180deg, var(--cream) 0%, var(--white) 100%);">

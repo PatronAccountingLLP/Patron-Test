@@ -158,7 +158,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><a href="/glossary/networth">Net Worth &amp; Solvency Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Foreign Inward Remittance Certificate (FIRC)</span></nav>
     <div class="gl-cat">Net Worth &amp; Solvency Glossary &middot; Visa Finance</div>
     <h1 class="gl-h1">Foreign Inward Remittance Certificate (FIRC), in Practice</h1>
     <p class="glh2-lead">Bank certificate evidencing money received from abroad.</p>

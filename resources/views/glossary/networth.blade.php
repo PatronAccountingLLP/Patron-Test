@@ -305,7 +305,6 @@
 <main>
 <div class="gl-page">
   <section class="gl-hero"><div class="gl-wrap gl-herogrid"><div class="gl-heromain">
-    <nav class="gl-crumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/glossary">Glossary</a><span class="sep">&rsaquo;</span><span class="cur">Net Worth &amp; Solvency Glossary</span></nav>
     <div class="gl-cat">48 terms &middot; CA-reviewed definitions</div>
     <h1 class="gl-h1">Net Worth and Solvency Glossary for Indian CA Certificates</h1>
     <p class="glh2-lead">Definitions of the net worth, solvency and net owned fund terms that appear on CA certificates in India, grouped by what each term actually affects.</p>

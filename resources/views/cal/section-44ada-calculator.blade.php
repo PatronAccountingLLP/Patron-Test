@@ -436,13 +436,6 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="https://www.patronaccounting.com/">Home</a>
-    <span>›</span>
-    <a href="https://www.patronaccounting.com/tools/">Free Tools</a>
-    <span>›</span>
-    Section 44ADA Calculator
-</nav>
 
 <header class="hero" id="calculator">
     <div class="hero-meta">

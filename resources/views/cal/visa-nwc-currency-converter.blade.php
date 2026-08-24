@@ -705,13 +705,6 @@ a:focus-visible {
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span>›</span>
-    <a href="/tools">Free Tools</a>
-    <span>›</span>
-    Visa NWC Currency Converter
-</nav>
 
 <header class="hero" id="calculator">
     <div class="hero-meta">

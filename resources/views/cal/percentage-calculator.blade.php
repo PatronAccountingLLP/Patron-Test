@@ -294,7 +294,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
 </style>
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner"><a href="#calculator">Calculator</a><a href="#how-to-use">How to Use</a><a href="#formulas">Formulas</a><a href="#gst-pct">GST Percentages</a><a href="#common">Common Values</a><a href="#faqs">FAQs</a></div></nav>
-{{-- <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://www.patronaccounting.com/">Home</a><span>&rsaquo;</span><a href="https://www.patronaccounting.com/tools/">Free Tools</a><span>&rsaquo;</span>Percentage Calculator</nav> --}}
+{{----}}
 <header class="hero" id="calculator"><div class="hero-meta"><span class="badge-updated">Last Updated: March 2026</span><span class="author-byline">Reviewed by <strong>CA &amp; CS Team</strong> &middot; Patron Accounting LLP</span></div><h1>Percentage Calculator &mdash; <span>All Operations</span> in One Tool</h1></header>
 <div class="tldr"><div class="tldr-label">TL;DR</div><p>Four percentage calculations in one tool: find X% of a number, what percent X is of Y, percentage increase/decrease between two values, and reverse percentage (find original from GST-inclusive or marked-up price). Instant results with formula shown. Works for GST, salary hikes, exam scores, discounts, profit margins, and financial analysis.</p></div>
 <div class="main-layout"><div class="content-col">

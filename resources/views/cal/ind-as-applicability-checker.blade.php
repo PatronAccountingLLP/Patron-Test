@@ -383,13 +383,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
     </div>
 </nav>
 
-<nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span>›</span>
-    <a href="/tools">Free Tools</a>
-    <span>›</span>
-    Ind AS Applicability Checker
-</nav>
 
 <header class="hero" id="checker">
     <div class="hero-meta">

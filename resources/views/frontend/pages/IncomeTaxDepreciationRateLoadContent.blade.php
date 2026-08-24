@@ -110,11 +110,6 @@
 <div class="page-head">
     <div class="page-head__inner">
 
-        <nav class="crumbs" aria-label="Breadcrumb">
-            <a href="/">Home</a> ›
-            <a href="/income-tax-depreciation-rate">Depreciation Rate</a> ›
-            {{ $crumb }}
-        </nav>
 
         <h1>Income Tax Depreciation Rate on {{ $asset }} 2025-26</h1>
 

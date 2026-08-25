@@ -39,7 +39,7 @@ require __DIR__.'/accounting-cluster-redirects.php';
 require __DIR__.'/networth-cluster-redirects.php';
 require __DIR__.'/stock-audit-cluster-redirects.php';
 
-// GSC 404 cleanup, written 2026-08-21 and never deployed. 359 redirects from the
+// GSC 404 cleanup, written 2026-08-21 and never deployed. 361 redirects from the
 // "404 actions" sheet of FINAL-Cleanup-Plan_2026-08-21_REVISED.
 //
 // The original file carried 386. Twenty-seven were dropped on 2026-08-25 because

@@ -79,7 +79,17 @@ $cleanup404Redirects = [
     ['/Appointment-of-Director-in-Private-Limited-Company', '/appointment-of-director'],
     ['/accounting-services-for-education', '/accounting-services-for-education-industry'],
     ['/accounting-services-for-non-profit-ngo', '/ngo-and-non-profit-accounting-services'],
-    ['/actuarial-valuation/pune', '/actuarial-valuation/delhi'],
+    // The actuarial cluster runs on two URL patterns. /actuarial-valuation/{city}
+    // carries delhi and mumbai; /actuarial-valuation-services-for-employee-benefits/{city}
+    // carries pune and gurugram. No city exists under both, so an old-pattern URL
+    // can only be redirected where the new-pattern page actually exists.
+    //
+    // /actuarial-valuation/pune previously pointed at /actuarial-valuation/delhi,
+    // which answered a Pune search with a Delhi page while a real Pune page was
+    // live and ranking at position 5.
+    ['/actuarial-valuation', '/actuarial-valuation-services-for-employee-benefits'],
+    ['/actuarial-valuation/pune', '/actuarial-valuation-services-for-employee-benefits/pune'],
+    ['/actuarial-valuation/gurugram', '/actuarial-valuation-services-for-employee-benefits/gurugram'],
     ['/adt-1-filing-services/delhi', '/adt-1-filing-services'],
     ['/adt-1-filing-services/gurugram', '/adt-1-filing-services'],
     ['/adt-1-filing-services/mumbai', '/adt-1-filing-services'],

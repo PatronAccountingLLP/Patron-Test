@@ -22,6 +22,19 @@ RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-av
     && sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf \
     && a2enmod rewrite headers
 
+# Apache listens on Render's internal $PORT (10000) behind their proxy. Left alone
+# it writes that port into every self-referential redirect, so a trailing-slash URL
+# such as /index.php/ or //page/ answers
+#     Location: http://patron-test-1.onrender.com:10000/page
+# and the browser times out on a port that is not published from outside. Turning
+# both settings off makes Apache build those Location headers from the Host header
+# the proxy sent, rather than from the socket it happens to be bound to.
+#
+# Test only. Production runs nginx on the VPS and never reads this file.
+RUN echo 'UseCanonicalName Off' > /etc/apache2/conf-available/z-proxy-canonical.conf \
+    && echo 'UseCanonicalPhysicalPort Off' >> /etc/apache2/conf-available/z-proxy-canonical.conf \
+    && a2enconf z-proxy-canonical
+
 WORKDIR /var/www/html
 
 # --- Production defaults baked into the image ------------------------------

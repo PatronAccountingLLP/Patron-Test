@@ -5,8 +5,10 @@ use Illuminate\Support\Facades\Route;
 /*
  * GSC 404 cleanup - 301 redirects and 410 removals.
  *
- * Each city goes to its own city page wherever one exists, and only falls back to
- * another city where it does not.
+ * Each city goes to its own city page where one exists. Where none does, it goes
+ * to the service's India page - never to a different city. Someone searching for
+ * Bangalore is better served by the national page than by one that says Pune
+ * throughout.
  *
  * Targets point at the final destination, never at another redirect. Fourteen
  * rules aimed at a city URL that the city-grid work later moved, which would have
@@ -196,11 +198,11 @@ $cleanup404Redirects = [
     ['/change-in-authorized-capital-of-a-company', '/change-in-authorised-capital'],
     ['/change-name-of-company', '/change-in-name-of-company'],
     ['/change-registered-office', '/change-in-registered-office'],
-    ['/change-registered-office/bangalore', '/change-in-registered-office/pune'],
-    ['/change-registered-office/chennai', '/change-in-registered-office/pune'],
+    ['/change-registered-office/bangalore', '/change-in-registered-office'],
+    ['/change-registered-office/chennai', '/change-in-registered-office'],
     ['/change-registered-office/gurugram', '/change-in-registered-office/gurugram'],
-    ['/change-registered-office/hyderabad', '/change-in-registered-office/pune'],
-    ['/change-registered-office/kolkata', '/change-in-registered-office/pune'],
+    ['/change-registered-office/hyderabad', '/change-in-registered-office'],
+    ['/change-registered-office/kolkata', '/change-in-registered-office'],
     ['/change-registered-office/mumbai', '/change-in-registered-office/mumbai'],
     ['/condonation-of-delay-roc-filings/delhi', '/condonation-of-delay-roc-filings'],
     ['/condonation-of-delay-roc-filings/gurugram', '/condonation-of-delay-roc-filings'],
@@ -288,9 +290,9 @@ $cleanup404Redirects = [
     ['/itr-for-fno-trader/gurugram', '/itr-for-fno-trader'],
     ['/itr-for-fno-trader/mumbai', '/itr-for-fno-trader'],
     ['/itr-for-fno-trader/pune', '/itr-for-fno-trader'],
-    ['/itr-for-fo-traders/delhi', '/itr-for-fo-traders/mumbai'],
-    ['/itr-for-fo-traders/gurugram', '/itr-for-fo-traders/mumbai'],
-    ['/itr-for-fo-traders/pune', '/itr-for-fo-traders/mumbai'],
+    ['/itr-for-fo-traders/delhi', '/itr-for-fno-trader'],
+    ['/itr-for-fo-traders/gurugram', '/itr-for-fno-trader'],
+    ['/itr-for-fo-traders/pune', '/itr-for-fno-trader'],
     ['/itr-for-foreign-income/delhi', '/itr-for-foreign-income'],
     ['/itr-for-foreign-income/gurugram', '/itr-for-foreign-income'],
     ['/itr-for-foreign-income/mumbai', '/itr-for-foreign-income'],

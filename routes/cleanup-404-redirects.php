@@ -90,6 +90,16 @@ $cleanup404Redirects = [
     ['/actuarial-valuation', '/actuarial-valuation-services-for-employee-benefits'],
     ['/actuarial-valuation/pune', '/actuarial-valuation-services-for-employee-benefits/pune'],
     ['/actuarial-valuation/gurugram', '/actuarial-valuation-services-for-employee-benefits/gurugram'],
+    // delhi and mumbai were the last two pages left on the older pattern. Their
+    // equivalents under the real one were created on 2026-08-25 by copying the page
+    // and rewriting its six self-referential URLs, so the whole cluster now addresses
+    // itself one way and the breadcrumb no longer points at /actuarial-valuation,
+    // which is a 404. The old view files are left in place rather than deleted: the
+    // working tree carries an unrelated uncommitted change across 1,226 city pages,
+    // and removing files from that set risks entangling this change with it. With
+    // these rules registered the old views are unreachable either way.
+    ['/actuarial-valuation/delhi', '/actuarial-valuation-services-for-employee-benefits/delhi'],
+    ['/actuarial-valuation/mumbai', '/actuarial-valuation-services-for-employee-benefits/mumbai'],
     ['/adt-1-filing-services/delhi', '/adt-1-filing-services'],
     ['/adt-1-filing-services/gurugram', '/adt-1-filing-services'],
     ['/adt-1-filing-services/mumbai', '/adt-1-filing-services'],

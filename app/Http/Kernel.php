@@ -22,6 +22,10 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \App\Http\Middleware\ForceLowercaseParameters::class,
+        // Collapses //page and //page/ to /page. Sits ABOVE the index.php rule so
+        // //index.php normalises to /index.php first and is then sent home.
+        \App\Http\Middleware\CollapseDuplicateSlashes::class,
+
         // 301s /index.php to /. Has to be middleware rather than a route: the web
         // server runs index.php directly for that path, so routing never sees it.
         // See the class docblock for why this cannot loop on the homepage.

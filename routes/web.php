@@ -39,6 +39,23 @@ require __DIR__.'/accounting-cluster-redirects.php';
 require __DIR__.'/networth-cluster-redirects.php';
 require __DIR__.'/stock-audit-cluster-redirects.php';
 
+// GSC 404 cleanup, written 2026-08-21 and never deployed. 361 redirects from the
+// "404 actions" sheet of FINAL-Cleanup-Plan_2026-08-21_REVISED.
+//
+// The original file carried 386. Twenty-five were dropped on 2026-08-25 because
+// phases 0.1 to 0.5 had overtaken them in the days between writing and shipping:
+// twenty blog and tool URLs had since been given real, concept-matched targets
+// rather than the generic /blog and /tools hubs this file sends them to, and the
+// internship-letter URL had been deliberately retired with a 410. Every remaining
+// source and target was re-tested against production that day - all 176 distinct
+// targets returned 200.
+//
+// The companion 410 list is empty here on purpose and ships as Phase 1.1.4.
+//
+// Must stay above the /{post} catch-all near the bottom of this file, which would
+// otherwise swallow the single-segment sources and 404 them.
+require __DIR__.'/cleanup-404-redirects.php';
+
 // ============ Glossary: master hub + Accounting hub + 140 term pages ============
 Route::get('/glossary', function () {
     return view('glossary.index');

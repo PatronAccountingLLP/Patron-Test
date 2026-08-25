@@ -22,8 +22,8 @@ use Illuminate\Http\Request;
  * so the redirect target can never re-trigger the rule. Internal Apache rewrites of
  * "/" to index.php do not change REQUEST_URI, which stays "/".
  *
- * The query string is passed through byte for byte, in the order it arrived, so
- * campaign parameters survive the hop unchanged.
+ * The query string is dropped: every form of the URL lands on the bare homepage.
+ * See the note in handle() for why that is safe here and when to reverse it.
  */
 class RedirectIndexPhp
 {
@@ -33,13 +33,20 @@ class RedirectIndexPhp
         $path = strtok($uri, '?');
 
         if ($path === '/index.php' || $path === '/index.php/') {
-            // The RAW query string, not $request->getQueryString(): Symfony's version
-            // normalises and re-sorts the parameters, so ?utm_source=x&a=1 would come
-            // back as ?a=1&utm_source=x. Reordering makes the redirect land on a URL
-            // the visitor did not ask for, and breaks anything that signs or hashes
-            // the query in the order it was sent.
-            $query = strstr($uri, '?');
-            $query = $query === false ? '' : substr($query, 1);
+            // Everything lands on the bare homepage. The query string is dropped
+            // deliberately.
+            //
+            // Passing it through is the usual convention, because a redirect that
+            // eats ?gclid= or ?utm_source= costs you the attribution for that visit.
+            // That reasoning does not apply here: /index.php took one pageview in the
+            // ninety days to 2026-08-25 and no campaign parameter has ever been seen
+            // on it. Nothing advertises this URL, so there is no attribution to lose,
+            // and one clean destination is worth more than a parameter nobody sends.
+            //
+            // If /index.php ever starts appearing in campaign links, restore the
+            // pass-through: read the RAW query off REQUEST_URI, never
+            // $request->getQueryString(), which re-sorts the parameters and lands the
+            // visitor on a URL they did not ask for.
 
             // Build the Location header from scheme+host directly. Do NOT use
             // redirect('/') or url('/') here: when the request arrives as /index.php
@@ -47,7 +54,7 @@ class RedirectIndexPhp
             // resolves "/" back to "/index.php" and the response redirects to itself.
             // That is a real 50-hop loop, not a theoretical one - it was caught in
             // testing before this shipped.
-            $target = $request->getSchemeAndHttpHost() . '/' . ($query ? '?' . $query : '');
+            $target = $request->getSchemeAndHttpHost() . '/';
 
             return new \Illuminate\Http\RedirectResponse($target, 301);
         }

@@ -5,6 +5,13 @@ use Illuminate\Support\Facades\Route;
 /*
  * GSC 404 cleanup - 301 redirects and 410 removals.
  *
+ * Each city goes to its own city page wherever one exists, and only falls back to
+ * another city where it does not.
+ *
+ * Targets point at the final destination, never at another redirect. Fourteen
+ * rules aimed at a city URL that the city-grid work later moved, which would have
+ * cost every visitor two hops.
+ *
  * Blog URLs redirect to blog URLs. Fourteen rules here sent a /blog/ URL to a
  * tool or a service page; a reader who clicked an article link wants the article.
  * Each now points at the post covering the same subject, matched on concept
@@ -189,12 +196,12 @@ $cleanup404Redirects = [
     ['/change-in-authorized-capital-of-a-company', '/change-in-authorised-capital'],
     ['/change-name-of-company', '/change-in-name-of-company'],
     ['/change-registered-office', '/change-in-registered-office'],
-    ['/change-registered-office/bangalore', '/change-registered-office/pune'],
-    ['/change-registered-office/chennai', '/change-registered-office/pune'],
-    ['/change-registered-office/gurugram', '/change-registered-office/pune'],
-    ['/change-registered-office/hyderabad', '/change-registered-office/pune'],
-    ['/change-registered-office/kolkata', '/change-registered-office/pune'],
-    ['/change-registered-office/mumbai', '/change-registered-office/pune'],
+    ['/change-registered-office/bangalore', '/change-in-registered-office/pune'],
+    ['/change-registered-office/chennai', '/change-in-registered-office/pune'],
+    ['/change-registered-office/gurugram', '/change-in-registered-office/gurugram'],
+    ['/change-registered-office/hyderabad', '/change-in-registered-office/pune'],
+    ['/change-registered-office/kolkata', '/change-in-registered-office/pune'],
+    ['/change-registered-office/mumbai', '/change-in-registered-office/mumbai'],
     ['/condonation-of-delay-roc-filings/delhi', '/condonation-of-delay-roc-filings'],
     ['/condonation-of-delay-roc-filings/gurugram', '/condonation-of-delay-roc-filings'],
     ['/condonation-of-delay-roc-filings/mumbai', '/condonation-of-delay-roc-filings'],
@@ -330,8 +337,8 @@ $cleanup404Redirects = [
     ['/mgt-7-filing-services/mumbai', '/mgt-7-filing-services'],
     ['/mgt-7-filing-services/pune', '/mgt-7-filing-services'],
     ['/msds-certificate', '/msds-certificate-services'],
-    ['/msds-certificate/mumbai', '/msds-certificate/delhi'],
-    ['/msds-certificate/pune', '/msds-certificate/delhi'],
+    ['/msds-certificate/mumbai', '/msds-certificate-services/mumbai'],
+    ['/msds-certificate/pune', '/msds-certificate-services/pune'],
     ['/nbfc-registration', '/nbfc-registration-rbi-applicability-and-process'],
     ['/ngo-registration/12a-registration/mumbai', '/12a-registration/mumbai'],
     ['/ngo-registration/80g-registration/mumbai', '/80g-registration/mumbai'],
@@ -370,8 +377,8 @@ $cleanup404Redirects = [
     ['/payroll-education', '/payroll-services-for-education'],
     ['/payroll-healthcare', '/payroll-services-for-healthcare'],
     ['/payroll-hospitality', '/payroll-services-for-hospitality'],
-    ['/payroll-hospitality/gurugram', '/payroll-hospitality/mumbai'],
-    ['/payroll-hospitality/pune', '/payroll-hospitality/mumbai'],
+    ['/payroll-hospitality/gurugram', '/payroll-services-for-the-hospitality-industry/gurugram'],
+    ['/payroll-hospitality/pune', '/payroll-services-for-the-hospitality-industry/pune'],
     ['/payroll-logistics-transport', '/payroll-services-for-travel-and-logistics-industry'],
     ['/payroll-management-services', '/payroll-processing-and-management-services'],
     ['/payroll-processing-services-for-the-education-industry', '/payroll-processing-services-for-education-industry'],
@@ -388,8 +395,8 @@ $cleanup404Redirects = [
     ['/pf-returns', '/pf-return'],
     ['/private-limited-company-registration-in-india', '/private-limited-company-registration'],
     ['/private-limited-company-registration/varanasi', '/private-limited-company-registration'],
-    ['/provident-fund-registration/gurugram', '/provident-fund-registration/pune'],
-    ['/provident-fund-registration/mumbai', '/provident-fund-registration/pune'],
+    ['/provident-fund-registration/gurugram', '/pf-registration/gurugram'],
+    ['/provident-fund-registration/mumbai', '/pf-registration/mumbai'],
     ['/pvt-ltd-company-compliance', '/convert-partnership-to-pvt-ltd-company'],
     ['/restore-struck-off-company-mca/delhi', '/restore-struck-off-company-mca'],
     ['/restore-struck-off-company-mca/gurugram', '/restore-struck-off-company-mca'],
@@ -440,8 +447,8 @@ $cleanup404Redirects = [
     ['/tools/take-home-salary-calculator', '/tools/tds-on-salary-calculator'],
     ['/trademark-notice-reply', '/trademark-notice'],
     ['/turnover-certificate-current-account', '/turnover-certificate-for-current-account'],
-    ['/turnover-certificate-current-account/mumbai', '/turnover-certificate-current-account/delhi'],
-    ['/turnover-certificate-current-account/pune', '/turnover-certificate-current-account/delhi'],
+    ['/turnover-certificate-current-account/mumbai', '/turnover-certificate-for-current-account/mumbai'],
+    ['/turnover-certificate-current-account/pune', '/turnover-certificate-for-current-account/pune'],
     ['/turnover-certificate-for-tender/bangalore', '/turnover-certificate-for-tender'],
     ['/turnover-certificate-for-tender/chennai', '/turnover-certificate-for-tender'],
     ['/turnover-certificate-for-tender/hyderabad', '/turnover-certificate-for-tender'],

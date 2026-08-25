@@ -22,7 +22,8 @@ use Illuminate\Http\Request;
  * so the redirect target can never re-trigger the rule. Internal Apache rewrites of
  * "/" to index.php do not change REQUEST_URI, which stays "/".
  *
- * The query string is preserved so campaign parameters survive the hop.
+ * The query string is passed through byte for byte, in the order it arrived, so
+ * campaign parameters survive the hop unchanged.
  */
 class RedirectIndexPhp
 {
@@ -32,7 +33,13 @@ class RedirectIndexPhp
         $path = strtok($uri, '?');
 
         if ($path === '/index.php' || $path === '/index.php/') {
-            $query = $request->getQueryString();
+            // The RAW query string, not $request->getQueryString(): Symfony's version
+            // normalises and re-sorts the parameters, so ?utm_source=x&a=1 would come
+            // back as ?a=1&utm_source=x. Reordering makes the redirect land on a URL
+            // the visitor did not ask for, and breaks anything that signs or hashes
+            // the query in the order it was sent.
+            $query = strstr($uri, '?');
+            $query = $query === false ? '' : substr($query, 1);
 
             // Build the Location header from scheme+host directly. Do NOT use
             // redirect('/') or url('/') here: when the request arrives as /index.php

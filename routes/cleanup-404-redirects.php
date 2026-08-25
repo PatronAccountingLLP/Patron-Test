@@ -41,7 +41,9 @@ $cleanup404Redirects = [
     ['/import-export-code', '/iec-registration'],
     // /index.php is a 200 duplicate of the homepage with no canonical. This is
     // the whole of GSC's "Duplicate without user-selected canonical" row.
-    ['/index.php', '/'],
+    // /index.php is handled by App\Http\Middleware\RedirectIndexPhp as of Phase
+    // 1.1.2, which runs long before routing. The rule that sat here could never
+    // fire and stating it twice invites the two from drifting apart.
     ['/LLP-registration', '/llp-incorporation'],
     ['/annual-compliance-llp', '/pvt-llp-compliance'],
     ['/blog/esic-registration-online-india-2025', '/blog/esic-registration-in-india'],
@@ -375,7 +377,13 @@ $cleanup404Redirects = [
     ['/tds-return-filing-24q/pune', '/tds-return-filing-24q'],
     ['/tools/board-resolution-for-gst-generator', '/tools/download-format/board-resolution-generator'],
     ['/tools/cash-flow-projection-tool', '/tools/cash-flow-calculator'],
-    ['/tools/csr-applicability-checker', '/tools/ind-as-applicability-checker'],
+    // /tools/csr-applicability-checker pointed at /tools/ind-as-applicability-checker,
+    // which is a different subject: Section 135 CSR applicability versus which
+    // accounting standards a company must follow. Phase 0.4 removed the tile that
+    // linked it, on the finding that no live tool computes CSR applicability, so
+    // sending searchers to an unrelated checker would contradict that. Zero
+    // impressions in the ninety days to 2026-08-24, so nothing is lost by leaving
+    // it a 404.
     ['/tools/ctc-to-in-hand-calculator', '/tools/ctc-to-in-hand-salary-calculator'],
     ['/tools/dir-3-kyc-reminder', '/tools/dir3-kyc-reminder'],
     ['/tools/eway-bill-validity-calculator', '/tools/e-way-bill-calculator'],

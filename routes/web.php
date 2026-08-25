@@ -39,14 +39,16 @@ require __DIR__.'/accounting-cluster-redirects.php';
 require __DIR__.'/networth-cluster-redirects.php';
 require __DIR__.'/stock-audit-cluster-redirects.php';
 
-// GSC 404 cleanup, written 2026-08-21 and never deployed. 361 redirects from the
+// GSC 404 cleanup, written 2026-08-21 and never deployed. 359 redirects from the
 // "404 actions" sheet of FINAL-Cleanup-Plan_2026-08-21_REVISED.
 //
-// The original file carried 386. Twenty-five were dropped on 2026-08-25 because
+// The original file carried 386. Twenty-seven were dropped on 2026-08-25 because
 // phases 0.1 to 0.5 had overtaken them in the days between writing and shipping:
 // twenty blog and tool URLs had since been given real, concept-matched targets
 // rather than the generic /blog and /tools hubs this file sends them to, and the
-// internship-letter URL had been deliberately retired with a 410. Every remaining
+// internship-letter URL had been deliberately retired with a 410. /index.php now
+// belongs to RedirectIndexPhp, and the CSR checker pointed at an unrelated tool.
+// Every remaining
 // source and target was re-tested against production that day - all 176 distinct
 // targets returned 200.
 //

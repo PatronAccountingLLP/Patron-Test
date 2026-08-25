@@ -5,6 +5,11 @@ use Illuminate\Support\Facades\Route;
 /*
  * GSC 404 cleanup - 301 redirects and 410 removals.
  *
+ * Blog URLs redirect to blog URLs. Fourteen rules here sent a /blog/ URL to a
+ * tool or a service page; a reader who clicked an article link wants the article.
+ * Each now points at the post covering the same subject, matched on concept
+ * rather than slug, and every target was verified 200 on 2026-08-25.
+ *
  * Trimmed 2026-08-25: 25 redirects and 7 removals were dropped because phases 0.1
  * to 0.5 had already given those URLs a better answer. /authorhub is the one that
  * mattered most - this file would have 410'd a page that went live that morning.
@@ -47,9 +52,11 @@ $cleanup404Redirects = [
     ['/LLP-registration', '/llp-incorporation'],
     ['/annual-compliance-llp', '/pvt-llp-compliance'],
     ['/blog/esic-registration-online-india-2025', '/blog/esic-registration-in-india'],
-    ['/blog/esop-perquisite-tax-section-17', '/esop-perquisite-tax-section-17-2-vi'],
+    // the same section 17(2)(vi) perquisite, as a post
+    ['/blog/esop-perquisite-tax-section-17', '/blog/esop-perquisite-tax-employees'],
     ['/blog/export-of-services-gst', '/blog/gst-on-it-software-services-export'],
-    ['/blog/foreign-company-india-entry', '/tools/foreign-entry-route-selector'],
+    // entering India as a foreign company means registering a subsidiary
+    ['/blog/foreign-company-india-entry', '/blog/foreign-subsidiary-registration-in-india'],
     ['/blog/gstat-appeal-procedure', '/blog/how-to-file-gstat-appeal'],
     ['/education-accounting-services', '/accounting-services-for-education-industry'],
     ['/eor-services', '/eor-india'],
@@ -126,31 +133,42 @@ $cleanup404Redirects = [
     ['/blog/caro-2020-clause-x-public-issues-term-loans', '/blog/caro-2020-inventory-auditor-verification'],
     ['/blog/caro-2020-inventory-auditor-verification-reporting-guide', '/blog/caro-2020-inventory-auditor-verification'],
     ['/blog/carry-forward-losses-old-act-1961-new-act-2025', '/blog/carry-forward-losses-old-act-1961-act-2025'],
-    ['/blog/cash-conversion-cycle', '/tools/cash-conversion-cycle-calculator'],
-    ['/blog/category/startup-business-registration', '/startup-registration'],
+    // the cash conversion cycle is the core working capital metric
+    ['/blog/cash-conversion-cycle', '/blog/working-capital-management-indian-sme-liquidity-guide'],
+    // a category listing goes to the listing
+    ['/blog/category/startup-business-registration', '/blog'],
     ['/blog/chg-1-chg-4-register-satisfy-charge-roc-guide', '/blog/chg-1-chg-4-how-to-register-satisfy-charge-roc-mortgage-pledge'],
     ['/blog/clubbing-income-new-vs-old-tax-regime-ay-2026-27', '/blog/clubbing-income-vs-old-tax-regime-ay-2026-27'],
-    ['/blog/code-on-wages-2019', '/tools/code-on-wages-compliance-checker'],
+    // the Code's headline rule, and the reason anyone reads about it
+    ['/blog/code-on-wages-2019', '/blog/50-percent-basic-wage-rule-labour-code-salary-structure'],
     ['/blog/companies-act-section-62-rule-12-esop', '/blog/books-of-account-rules-2026-rule-46-section-62-income-tax'],
     ['/blog/days-inventory-outstanding-dio', '/blog/dso-days-sales-outstanding-reduce'],
-    ['/blog/deemed-exports-gst', '/gst-refund-deemed-exports'],
+    // deemed exports are a GST refund category; no post covers them alone
+    ['/blog/deemed-exports-gst', '/blog/gst-refund-meaning-requirements-how-to-apply'],
     ['/blog/dir-11-resigning-director-roc-intimation-guide', '/blog/dir-11-resigning-director-s-intimation-to-roc-what-why'],
     ['/blog/draft-income-tax-rules-2026-complete-summary-key-changes', '/blog/draft-income-tax-rules-2026-summary-key-changes'],
     ['/blog/esop-dilution-math-startup-founders', '/blog/how-to-apply-dpiit-startup-recognition-founders-playbook'],
-    ['/blog/esop-pool-size-startups-india', '/tools/esop-pool-size-calculator'],
-    ['/blog/esop-vesting-schedule-cliff-explained', '/tools/esop-vesting-schedule-tracker'],
-    ['/blog/gst-refund-process-and-procedure', '/gst-refund'],
+    // nearest ESOP-for-startups post; none covers pool sizing
+    ['/blog/esop-pool-size-startups-india', '/blog/esop-tax-startup-employees-when-how-much-dpiit-deferral'],
+    // vesting periods and how they are accounted for
+    ['/blog/esop-vesting-schedule-cliff-explained', '/blog/esop-expense-vesting-period-accounting'],
+    // the refund process, start to finish
+    ['/blog/gst-refund-process-and-procedure', '/blog/gst-refund-meaning-requirements-how-to-apply'],
     ['/blog/gst-refund-rejection-appeal', '/blog/gstat-appeal-exporters-refund-rejection-track-status'],
     ['/blog/gstat-powers-confirm-modify-annul-remand-explained', '/blog/gstat-powers-confirm-modify-annul-remand'],
     ['/blog/gstat-single-member-vs-division-bench', '/blog/gstat-principal-vs-state-bench'],
     ['/blog/inc-22-registered-office-change-documents-rejections-guide', '/blog/inc-22-filing-office-change-documents-common-rejections-post-change'],
-    ['/blog/inventory-turnover-ratio', '/tools/inventory-turnover-calculator'],
-    ['/blog/inverted-duty-structure-gst', '/gst-refund-inverted-duty-structure'],
+    // inventory turnover is a working capital measure
+    ['/blog/inventory-turnover-ratio', '/blog/working-capital-management-indian-sme-liquidity-guide'],
+    // inverted duty is a refund type; no post covers it alone
+    ['/blog/inverted-duty-structure-gst', '/blog/gst-refund-meaning-requirements-how-to-apply'],
     ['/blog/labour-welfare-fund', '/blog/labour-welfare-fund-india-contribution-rates-due-dates'],
-    ['/blog/letter-of-undertaking-lut-gst', '/gst-refund-exports-lut'],
+    // filing the LUT itself
+    ['/blog/letter-of-undertaking-lut-gst', '/blog/lut-filing-it-exporters-refund'],
     ['/blog/market-valuation-ratios-complete-guide', '/blog/form-spice-complete-guide-to-company-incorporation-in-india'],
     ['/blog/mgt-14-resolutions-filed-roc-guide', '/blog/mgt-14-which-board-resolutions-must-be-filed-roc-within-what-time'],
-    ['/blog/multi-state-payroll-india', '/tools/multi-state-payroll-dashboard'],
+    // running payroll across states is this compliance calendar
+    ['/blog/multi-state-payroll-india', '/blog/monthly-payroll-compliance-checklist-india-deadlines'],
     ['/blog/net-worth-certificate-process-and-requirements', '/blog/guarantor-net-worth-requirements'],
     ['/blog/new-labour-codes-2025', '/blog/4-labour-codes-2025-employer-guide-india'],
     ['/blog/old-regime-vs-new-regime-ay-2026-27', '/blog/clubbing-income-vs-old-tax-regime-ay-2026-27'],
@@ -158,7 +176,8 @@ $cleanup404Redirects = [
     ['/blog/private-limited-company-registration-india-what-works-what-fails-expert-advice', '/blog/private-limited-company-registration-india-what-works-what-fails'],
     ['/blog/private-limited-company-vs-llp-which-is-right-for-your-startup', '/blog/private-limited-company-vs-llp'],
     ['/blog/professional-tax-india', '/blog/professional-tax-india-state-wise-rates-slabs'],
-    ['/blog/section-107-gst-appeal', '/gst-refund-appeal-section-107'],
+    // section 107 is the first appeal against a demand order
+    ['/blog/section-107-gst-appeal', '/blog/gst-demand-order-appeal-process'],
     ['/blog/section-80-iac-esop-deferment-startup', '/blog/section-80-iac-startup-tax-holiday'],
     ['/blog/significant-economic-presence-sep-rules-2026-thresholds-non-resident-taxation', '/blog/significant-economic-presence-sep-rules-2026-thresholds-non-resident'],
     ['/blog/state-minimum-wages-india', '/blog/minimum-wages-india-2026-state-wise-rates-non-compliance'],

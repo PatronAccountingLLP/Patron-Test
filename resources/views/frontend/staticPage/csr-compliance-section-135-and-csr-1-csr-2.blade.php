@@ -1125,12 +1125,7 @@
             <h2 class="section-title" style="text-align:center;margin-bottom:12px;">CSR Compliance Support Across India</h2>
             <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">In-person and remote Section 135 CSR compliance support from our offices in Pune, Mumbai, Delhi and Gurugram.</p>
             <div class="pa-city-block" style="margin-bottom:40px;">
-<div class="pa-city-grid">
-<a href="https://www.patronaccounting.com/private-limited-company-compliance/pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-<a href="https://www.patronaccounting.com/private-limited-company-compliance/mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-<a href="https://www.patronaccounting.com/private-limited-company-compliance/delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-<a href="https://www.patronaccounting.com/private-limited-company-compliance/gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-</div>
+<div class="pa-city-grid"></div>
 </div>
 <div class="pa-city-block">
 <div class="pa-block-title">Related Compliance Services</div>

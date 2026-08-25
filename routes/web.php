@@ -58,6 +58,12 @@ require __DIR__.'/stock-audit-cluster-redirects.php';
 // otherwise swallow the single-segment sources and 404 them.
 require __DIR__.'/cleanup-404-redirects.php';
 
+// City pages moved onto their own service's slug, 2026-08-25. A card in a city
+// grid claims "this service, in this city", so a page living under a slug that is
+// not itself an India page has been moved to the service that lists it, with the
+// old URL redirecting. Parents were read from each India page's own city grid.
+require __DIR__.'/city-grid-moves.php';
+
 // ============ Glossary: master hub + Accounting hub + 140 term pages ============
 Route::get('/glossary', function () {
     return view('glossary.index');

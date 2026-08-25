@@ -967,16 +967,7 @@
             <!-- CITY_PAGES_GRID PATTERN:
                 BLOCK 1  -  City cards (pa-city-grid, 4 cols desktop):
                 <div class="pa-city-block" style="margin-bottom:40px;">
-                    <div class="pa-city-grid">
-                        <a href="/itr-for-esop-employees-pune" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Pune</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                        <a href="/itr-for-esop-employees-mumbai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Mumbai</div><div class="pa-card-sub">Maharashtra</div></div></a>
-                        <a href="/itr-for-esop-employees-delhi" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Delhi</div><div class="pa-card-sub">NCR</div></div></a>
-                        <a href="/itr-for-esop-employees-gurugram" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Gurugram</div><div class="pa-card-sub">Haryana</div></div></a>
-                        <a href="/itr-for-esop-employees-bangalore" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Bangalore</div><div class="pa-card-sub">Karnataka</div></div></a>
-                        <a href="/itr-for-esop-employees-hyderabad" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Hyderabad</div><div class="pa-card-sub">Telangana</div></div></a>
-                        <a href="/itr-for-esop-employees-chennai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Chennai</div><div class="pa-card-sub">Tamil Nadu</div></div></a>
-                        <a href="/itr-for-esop-employees-kolkata" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a>
-                    </div>
+                    <div class="pa-city-grid"></div>
                 </div>
                 BLOCK 2  -  Cross-sell services (pa-cross-grid, 3 cols desktop):
                 <div class="pa-city-block">
@@ -990,24 +981,7 @@
             -->
             
 <div class="pa-city-block">
-<div class="pa-city-grid">
-  <a href="/itr-for-esop-employees/pune" class="pa-city-card">
-    <div class="pa-city-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v8c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/></svg></div>
-    <h4>Pune</h4><p>ITR for ESOP Employees in Pune</p>
-  </a>
-  <a href="/itr-for-esop-employees/mumbai" class="pa-city-card">
-    <div class="pa-city-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V9l9-6 9 6v12M9 21V12h6v9"/></svg></div>
-    <h4>Mumbai</h4><p>ITR for ESOP Employees in Mumbai</p>
-  </a>
-  <a href="/itr-for-esop-employees/delhi" class="pa-city-card">
-    <div class="pa-city-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></div>
-    <h4>Delhi</h4><p>ITR for ESOP Employees in Delhi</p>
-  </a>
-  <a href="/itr-for-esop-employees/gurugram" class="pa-city-card">
-    <div class="pa-city-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="8" width="16" height="13" rx="1"/><path d="M9 21V13h6v8M3 8l9-6 9 6"/></svg></div>
-    <h4>Gurugram</h4><p>ITR for ESOP Employees in Gurugram</p>
-  </a>
-</div>
+<div class="pa-city-grid"></div>
 <h3 class="pa-cross-title">Pair With These Tax-Cluster Services</h3>
 <div class="pa-cross-grid">
   <a href="/income-tax-return" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="13" y2="16"/></svg></div><h4>Income Tax Return</h4><p>Complete ITR filing across all entity types and income heads.</p></a>

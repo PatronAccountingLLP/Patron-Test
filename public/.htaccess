@@ -14,9 +14,31 @@
     RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
 
     # Redirect Trailing Slashes If Not A Folder...
+    #
+    # Laravel ships this as `RewriteRule ^ %1 [L,R=301]`. Given a path target,
+    # mod_rewrite builds the absolute Location itself, from Apache's ServerName and
+    # the port it is physically bound to. On Render that port is 10000 behind their
+    # proxy, so /page/ answered
+    #     Location: http://patron-test-1.onrender.com:10000/page
+    # and a browser following it timed out on a port that is not published, having
+    # also been downgraded to http. UseCanonicalPhysicalPort does not help: it
+    # governs ap_construct_url, not mod_rewrite's own target expansion.
+    #
+    # Naming the scheme and host explicitly fixes it. HTTP_HOST is the Host header
+    # the proxy forwarded, which carries no port, and X-Forwarded-Proto carries the
+    # scheme the visitor actually used.
+    #
+    # Only Apache reads this file. Production serves the repo root through nginx,
+    # which ignores .htaccess entirely, so this cannot affect the live site.
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
-    RewriteRule ^ %1 [L,R=301]
+    RewriteCond %{HTTP:X-Forwarded-Proto} =https
+    RewriteRule ^ https://%{HTTP_HOST}%1 [L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+    RewriteRule ^ http://%{HTTP_HOST}%1 [L,R=301]
 
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d

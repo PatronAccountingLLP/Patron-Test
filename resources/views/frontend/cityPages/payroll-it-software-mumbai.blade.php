@@ -13,7 +13,7 @@
 @section('meta')
     <title>IT & Software Accounting in Mumbai - GST, TDS & LUT</title>
     <meta name="description" content="CA-led IT/software payroll in Mumbai. ESOP taxation, flexi-CTC, contractor 194J, PF/TDS, startup 80-IAC, GCC expat payroll for Powai, BKC, Andheri tech firms. Call +91 945 945 6700.">
-    <link rel="canonical" href="/payroll-it-software/mumbai">
+    <link rel="canonical" href="/payroll-services-for-it-and-software-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT & Software Accounting in Mumbai - GST, TDS & LUT">
     <meta property="og:description" content="CA-led IT/software payroll in Mumbai. ESOP taxation, flexi-CTC, contractor 194J, PF/TDS, startup 80-IAC, GCC expat payroll for Powai, BKC, Andheri tech firms. Call +91 945 945 6700.">

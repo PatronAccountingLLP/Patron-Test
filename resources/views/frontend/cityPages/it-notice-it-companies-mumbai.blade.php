@@ -2232,10 +2232,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M3 3h18v18H3zM12 8v8M8 12h8"/></svg></div>
             <div><div class="pa-card-title">Section 148 Notice</div><div class="pa-card-sub">Mumbai</div></div>
         </a>
-        <a href="/it-sector-accounting-services" class="pa-cross-card">
-            <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></div>
-            <div><div class="pa-card-title">IT Sector Accounting</div><div class="pa-card-sub">Mumbai</div></div>
-        </a>
         <a href="/esop-management-and-compliance-services/mumbai" class="pa-cross-card">
             <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
             <div><div class="pa-card-title">ESOP Management</div><div class="pa-card-sub">Mumbai</div></div>

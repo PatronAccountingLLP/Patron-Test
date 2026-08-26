@@ -466,7 +466,12 @@ $cleanup404Redirects = [
     ['/turnover-certificate-for-tender/bangalore', '/turnover-certificate-for-tender'],
     ['/turnover-certificate-for-tender/chennai', '/turnover-certificate-for-tender'],
     ['/turnover-certificate-for-tender/hyderabad', '/turnover-certificate-for-tender'],
-    ['/udyam-registration.xml', '/udyam-registration'],
+    // /udyam-registration.xml was here, sending a retired SITEMAP file to the Udyam
+    // service page. Wrong on two counts: a sitemap is not a page, so a searcher was
+    // never going to land on it, and no sitemap index references it any more. A
+    // retired sitemap file should simply be gone. Production already answers 404 -
+    // nginx serves .xml itself and the request never reaches Laravel - so the rule
+    // could not fire there anyway, and it only ever misfired on the test server.
     ['/wholly-owned-subsidiary-registration', '/wholly-owned-subsidiary-of-foreign-company-india'],
     ['/blog/annual-compliance-requirements-for-private-limited-companies-in-india-2025-2026', '/blog/annual-compliance-requirements-for-companies-in-india'],
 ];

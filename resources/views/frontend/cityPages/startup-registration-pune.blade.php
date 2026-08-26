@@ -726,7 +726,7 @@
                     <li><a href="/gst-registration/pune">GST Registration in Pune</a></li>
                     <li><a href="/trademark-registration">Trademark Registration</a> - 50% DPIIT concession</li>
                     <li><a href="/accounting-services/pune">Accounting Services in Pune</a></li>
-                    <li><a href="/zoho-books-accounting/pune">Zoho Books Accounting in Pune</a></li>
+                    <li><a href="/zoho-books-accounting">Zoho Books Accounting in Pune</a></li>
                     <li><a href="/income-tax-return">Income Tax Return</a> - ITR-6 with 80IAC</li></ul>
 
             </div>

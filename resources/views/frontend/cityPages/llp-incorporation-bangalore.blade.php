@@ -417,7 +417,7 @@
                     <p>LLP registration in Bangalore creates a separate legal entity under the LLP Act, 2008. Partners enjoy limited liability - personal assets protected. Min 2 partners (1 Indian resident). Filed via FiLLiP on MCA portal. RoC Bangalore at Kendriya Sadana, Koramangala. Karnataka PTEC mandatory (Rs 2,500/year). Late Form 8/11: Rs 100/day (max Rs 1 lakh).</p>
                 </div>
                 <p>Bangalore - India's startup capital with 75,000+ startups - drives massive LLP demand. IT corridors in Electronic City and Whitefield, consulting in Koramangala, fintech in HSR Layout, manufacturing in Peenya - all prefer LLP for flexibility + liability protection. Learn more about <a href="/llp-incorporation">LLP Registration across India</a>.</p>
-                <p>RoC Bangalore at Koramangala processes all Karnataka LLP filings. Karnataka PTEC (Rs 2,500/year) is a state-specific compliance most platforms miss. Same CA handles <a href="/private-limited-company-registration/bangalore">Pvt Ltd</a>, <a href="/gst-registration/bangalore">GST</a>, and <a href="/zoho-books-accounting/bangalore">accounting</a>.</p>
+                <p>RoC Bangalore at Koramangala processes all Karnataka LLP filings. Karnataka PTEC (Rs 2,500/year) is a state-specific compliance most platforms miss. Same CA handles <a href="/private-limited-company-registration/bangalore">Pvt Ltd</a>, <a href="/gst-registration/bangalore">GST</a>, and <a href="/zoho-books-accounting">accounting</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -732,7 +732,7 @@
 <li><a href="/private-limited-company-registration/bangalore">Pvt Ltd in Bangalore</a> - Company incorporation</li>
 <li><a href="/gst-registration/bangalore">GST in Bangalore</a> - Tax compliance</li>
 <li><a href="/trademark-registration/bangalore">Trademark in Bangalore</a> - Brand protection</li>
-<li><a href="/zoho-books-accounting/bangalore">Zoho Books in Bangalore</a> - Cloud bookkeeping</li>
+<li><a href="/zoho-books-accounting">Zoho Books in Bangalore</a> - Cloud bookkeeping</li>
 <li><a href="/startup-registration/bangalore">Startup Registration in Bangalore</a> - DPIIT recognition</li>
 </ul>
 
@@ -878,7 +878,7 @@
 <div class="pa-city-block"><div class="pa-block-title">Related Services in Bangalore</div><div class="pa-block-sub">End-to-end business registration and compliance</div><div class="pa-cross-grid"><a href="/private-limited-company-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">Bangalore</div></div></a>
 <a href="/gst-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Bangalore</div></div></a>
 <a href="/trademark-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Registration</div><div class="pa-card-sub">Bangalore</div></div></a>
-<a href="/zoho-books-accounting/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Bangalore</div></div></a>
+<a href="/zoho-books-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Bangalore</div></div></a>
 <a href="/startup-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Startup Registration</div><div class="pa-card-sub">Bangalore</div></div></a>
 <a href="/income-tax-return/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Bangalore</div></div></a>
 </div></div>

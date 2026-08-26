@@ -722,7 +722,7 @@
 <tr><td>DRHP Schedule VI Part E Disclosure</td><td>Preparation of full DRHP ESOP disclosure - scheme details, grant/vesting/exercise history per scheme, exercise price, vesting conditions, intended use of equity dilution, Ind AS 102 accounting policy, FMV methodology, accounting impact and employee-wise top grants disclosure.</td></tr>
 <tr><td>BRLM and Merchant Banker Coordination</td><td>Working alongside the BRLM (typically ICICI Securities, Kotak Mahindra Capital, JM Financial, Axis Capital, Citi, Morgan Stanley, Goldman Sachs) - ESOP scheme review, lock-in confirmation, DRHP disclosure sign-off, SEBI observation responses and Stock Exchange in-principle approval submissions.</td></tr>
 <tr><td>SEBI Comments and Stock Exchange Approval</td><td>Response to SEBI observations on the offer document - typically 2-3 rounds; Stock Exchange (BSE / NSE) in-principle approval submissions; ESOP scheme listing arrangements under Regulation 19; ongoing disclosure framework setup for post-listing.</td></tr>
-<tr><td>Ind AS 102 Audit and Disclosure Coordination</td><td>Coordinated with <a href="/esop-accounting-ind-as-102/delhi">ESOP Accounting under Ind AS 102</a> team for Schedule III disclosure, Black-Scholes computation history, accounting policy memo for DRHP and statutory audit working paper file.</td></tr>
+<tr><td>Ind AS 102 Audit and Disclosure Coordination</td><td>Coordinated with <a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a> team for Schedule III disclosure, Black-Scholes computation history, accounting policy memo for DRHP and statutory audit working paper file.</td></tr>
 
                     </tbody>
                 </table>

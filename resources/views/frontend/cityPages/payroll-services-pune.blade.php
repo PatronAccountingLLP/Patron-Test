@@ -421,7 +421,7 @@
                     <p>Payroll services cover end-to-end salary processing, statutory deductions (EPF, ESIC, TDS, PT), compliance filing, and employee payslip generation. Every employer with 20+ employees must register under EPF; those with 10+ employees earning up to Rs 21,000/month under ESIC. Under the Code on Wages (effective Nov 2025), basic pay must be at least 50% of CTC - directly increasing EPF/ESIC bases for Pune employers.</p>
                 </div>
                 <p>Pune employs over 2 million people across IT parks in Hinjewadi and Kharadi, automotive plants in Chakan, and manufacturing units in MIDC Bhosari. Every employer must process salaries accurately, deduct contributions on time, and file monthly returns. Learn more about <a href="/payroll-services">Payroll Services across India</a>.</p>
-                <p>Maharashtra PT Act 1975 adds another layer - PTRC is mandatory for every employer. The Income Tax Act 2025 (effective 1 April 2026) introduces revised TDS rules. Patron Accounting manages payroll from our Pune office at RTC Silver, Wagholi - handling salary processing, EPF/ESIC/PT/TDS compliance, Form 16, and integration with <a href="/accounting-services/pune">Accounting Services</a> and <a href="/zoho-books-accounting/pune">Zoho Books</a>.</p>
+                <p>Maharashtra PT Act 1975 adds another layer - PTRC is mandatory for every employer. The Income Tax Act 2025 (effective 1 April 2026) introduces revised TDS rules. Patron Accounting manages payroll from our Pune office at RTC Silver, Wagholi - handling salary processing, EPF/ESIC/PT/TDS compliance, Form 16, and integration with <a href="/accounting-services/pune">Accounting Services</a> and <a href="/zoho-books-accounting">Zoho Books</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -722,7 +722,7 @@
                     <li><a href="#">Professional Tax Registration</a> - PTRC/PTEC</li>
                     <li><a href="/statutory-audit">Statutory Audit</a></li>
                     <li><a href="/income-tax-return">Income Tax Return</a></li>
-                    <li><a href="/zoho-books-accounting/pune">Zoho Books Accounting in Pune</a></li></ul>
+                    <li><a href="/zoho-books-accounting">Zoho Books Accounting in Pune</a></li></ul>
 
             </div>
         </div>

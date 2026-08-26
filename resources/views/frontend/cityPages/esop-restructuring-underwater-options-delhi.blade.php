@@ -983,7 +983,7 @@
                     <li>Black-Scholes inputs documented (volatility, risk-free rate, expected term, dividend yield).</li>
                     <li>Recognition schedule over remaining vesting period.</li>
                     <li>Schedule III disclosure plus Directors Report Rule 12(9) modification narrative.</li>
-                    <li>Coordinated with <a href="/esop-accounting-ind-as-102/delhi">ESOP Accounting under Ind AS 102</a> team.</li>
+                    <li>Coordinated with <a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a> team.</li>
                 </ul>
                 <p><strong>6. Section 17(2)(vi) Tax Timing Memo:</strong></p>
                 <ul>
@@ -1206,7 +1206,7 @@
                     <li><strong><a href="/esop-scheme-design/delhi">ESOP Scheme Design</a></strong> - first-time scheme drafting with sample term sheet (used for new schemes, not for restructuring).</li>
                     <li><strong><a href="/esop-for-tech-startups/delhi">ESOP for Tech Startups</a></strong> - tech-vertical scheme design for SaaS, fintech, AI/ML, marketplaces, deeptech and B2B; useful context for understanding pre-restructuring scheme architecture.</li>
                     <li><strong><a href="/esop-for-saas-companies/delhi">ESOP for SaaS Companies</a></strong> - B2B SaaS-specific design with ARR-linked vesting, sales quota acceleration and Delaware flip structures.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/delhi">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; critical for modification accounting workflow during restructuring.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; critical for modification accounting workflow during restructuring.</li>
                     <li><strong><a href="/esop-valuation-services/delhi">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports for the modification date during restructuring; DCF, NAV or CCA methodology selection.</li>
                     <li><strong><a href="/esop-corporate-filings/delhi">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7) for post-restructuring annual cycle including Rule 12(9) Directors Report disclosure.</li>
                     <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - cross-border filings where US Delaware parent or foreign parent restructures involve India subsidiary mirror grants.</li>

@@ -1052,7 +1052,7 @@
     </article>
     <article class="feature-card">
         <h3>Valuation, Ind AS 102 and Tax in Sync</h3>
-        <p>We align the IBBI / Merchant Banker valuation, the <a href="/esop-accounting-ind-as-102/gurugram">Ind AS 102</a> and Schedule III accounting and the <a href="/esop-perquisite-tax-section-17-2-vi/gurugram">Section 17(2)(vi) perquisite TDS</a> - essential when the ESOP charge is material to an enterprise P&L.</p>
+        <p>We align the IBBI / Merchant Banker valuation, the <a href="/esop-accounting-ind-as-102">Ind AS 102</a> and Schedule III accounting and the <a href="/esop-perquisite-tax-section-17-2-vi/gurugram">Section 17(2)(vi) perquisite TDS</a> - essential when the ESOP charge is material to an enterprise P&L.</p>
     </article>
     <article class="feature-card">
         <h3>Multi-Scheme and Trust Depth</h3>

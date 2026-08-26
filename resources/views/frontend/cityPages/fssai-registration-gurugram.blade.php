@@ -528,7 +528,7 @@
                         <tr><td>GST Registration (Bundled)</td><td>Filed with <a href="/gst-registration/gurugram">GST Commissionerate Gurugram</a> as part of FSSAI package</td></tr>
                         <tr><td>Haryana Shop Act (Bundled)</td><td>Under Haryana Shops and Commercial Establishments Act, 1958</td></tr>
                         <tr><td>Renewal and Modification</td><td>Timely renewal (Rs 100/day late penalty avoidance). Address/product modifications on FOSCOS</td></tr>
-                        <tr><td>Food Business Accounting</td><td>Setup on <a href="/zoho-books-accounting/gurugram">Zoho Books</a> or Tally with food-specific chart of accounts and GST-compliant invoicing</td></tr>
+                        <tr><td>Food Business Accounting</td><td>Setup on <a href="/zoho-books-accounting">Zoho Books</a> or Tally with food-specific chart of accounts and GST-compliant invoicing</td></tr>
 
                     </tbody>
                 </table>
@@ -720,7 +720,7 @@
                     <li><a href="/private-limited-company-registration/gurugram">Pvt Ltd Registration in Gurugram</a></li>
                     <li><a href="/trademark-registration/gurugram">Trademark Registration in Gurugram</a></li>
                     <li><a href="/shop-act-registration">Shop Act Registration</a></li>
-                    <li><a href="/zoho-books-accounting/gurugram">Zoho Books Accounting in Gurugram</a></li></ul>
+                    <li><a href="/zoho-books-accounting">Zoho Books Accounting in Gurugram</a></li></ul>
 
             </div>
         </div>

@@ -2060,7 +2060,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <p>Pair IT-sector income tax notice defence with related Patron services across Mumbai and India.</p>
 <ul>
     <li><strong><a href="/income-tax-notice/mumbai">Income tax notice services in Mumbai</a></strong> - For all non-IT-specific Mumbai income tax notice types.</li>
-    <li><strong><a href="/it-sector-accounting-services/mumbai">IT sector accounting services in Mumbai</a></strong> - Ongoing IT-sector accounting compliance with TP-aware bookkeeping.</li>
+    <li><strong><a href="/it-sector-accounting-services">IT sector accounting services in Mumbai</a></strong> - Ongoing IT-sector accounting compliance with TP-aware bookkeeping.</li>
     <li><strong><a href="/esop-management-and-compliance-services/mumbai">ESOP management and compliance services in Mumbai</a></strong> - Proactive ESOP grant, vesting, exercise, and TDS compliance.</li>
     <li><strong><a href="/income-tax-notices-under-section-143-3/mumbai">Income tax notices under Section 143(3) in Mumbai</a></strong> - Section 143(3) faceless scrutiny matters specifically.</li>
     <li><strong><a href="/income-tax-notices-under-section-148/mumbai">Income tax notices under Section 148 in Mumbai</a></strong> - Section 148 reassessment matters for prior years.</li>
@@ -2232,7 +2232,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M3 3h18v18H3zM12 8v8M8 12h8"/></svg></div>
             <div><div class="pa-card-title">Section 148 Notice</div><div class="pa-card-sub">Mumbai</div></div>
         </a>
-        <a href="/it-sector-accounting-services/mumbai" class="pa-cross-card">
+        <a href="/it-sector-accounting-services" class="pa-cross-card">
             <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></div>
             <div><div class="pa-card-title">IT Sector Accounting</div><div class="pa-card-sub">Mumbai</div></div>
         </a>

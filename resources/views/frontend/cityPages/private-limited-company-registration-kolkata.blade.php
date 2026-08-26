@@ -425,7 +425,7 @@
                     <p>Private limited company registration in Kolkata incorporates a company under the Companies Act, 2013 via SPICe+ on MCA portal. COI issued by CRC with CIN, PAN, TAN. Registered under RoC Kolkata at Nizam Palace. Min 2 directors (1 Indian resident) + 2 shareholders. No minimum capital. WB stamp duty on MOA/AOA. AGILE-PRO-S for GSTIN, EPFO, ESIC, WB PT simultaneously.</p>
                 </div>
                 <p>Kolkata's entrepreneurial ecosystem - Salt Lake Sector V IT startups, Burrabazar trading houses, Taratala manufacturers, and Netaji Subhas Dock exporters - chooses Pvt Ltd for limited liability, equity funding capability, and bank/investor credibility. WB Shilpa Sathi and Banglashree scheme for MSMEs. Learn more about <a href="/private-limited-company-registration">Pvt Ltd Registration across India</a>.</p>
-                <p>RoC Kolkata at Nizam Palace processes all filings. CA-managed registration ensures correct SPICe+ filing, WB stamp duty calculation, and Day 1 compliance setup. Same CA handles <a href="/gst-registration/kolkata">GST</a>, <a href="/zoho-books-accounting/kolkata">Zoho Books accounting</a>, and <a href="/income-tax-return/kolkata">ITR</a>.</p>
+                <p>RoC Kolkata at Nizam Palace processes all filings. CA-managed registration ensures correct SPICe+ filing, WB stamp duty calculation, and Day 1 compliance setup. Same CA handles <a href="/gst-registration/kolkata">GST</a>, <a href="/zoho-books-accounting">Zoho Books accounting</a>, and <a href="/income-tax-return/kolkata">ITR</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -737,7 +737,7 @@
 <li><a href="/gst-registration/kolkata">GST Registration in Kolkata</a> - Post-incorporation GST</li>
 <li><a href="/llp-incorporation/kolkata">LLP Registration in Kolkata</a> - Alternative structure</li>
 <li><a href="/trademark-registration/kolkata">Trademark Registration in Kolkata</a> - Brand protection</li>
-<li><a href="/zoho-books-accounting/kolkata">Zoho Books Accounting in Kolkata</a> - Cloud bookkeeping</li>
+<li><a href="/zoho-books-accounting">Zoho Books Accounting in Kolkata</a> - Cloud bookkeeping</li>
 <li><a href="/startup-registration">Startup Registration</a> - DPIIT recognition</li>
 </ul>
 
@@ -883,7 +883,7 @@
 <div class="pa-city-block"><div class="pa-block-title">Related Services in Kolkata</div><div class="pa-block-sub">End-to-end business registration and compliance</div><div class="pa-cross-grid"><a href="/gst-registration/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
 <a href="/llp-incorporation/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">LLP Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
 <a href="/trademark-registration/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
-<a href="/zoho-books-accounting/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Kolkata</div></div></a>
+<a href="/zoho-books-accounting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Kolkata</div></div></a>
 <a href="/income-tax-return/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Kolkata</div></div></a>
 <a href="/payroll-services/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Kolkata</div></div></a>
 </div></div>

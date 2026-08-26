@@ -1052,7 +1052,7 @@
     </article>
     <article class="feature-card">
         <h3>Valuation, Ind AS 102 and Tax Aligned</h3>
-        <p>We close the loop across the <a href="/esop-valuation-services/mumbai">IBBI / Merchant Banker valuation</a>, the <a href="/esop-accounting-ind-as-102/mumbai">Ind AS 102 and Schedule III accounting</a> and the <a href="/esop-perquisite-tax-section-17-2-vi/mumbai">Section 17(2)(vi) perquisite TDS</a> - the reconciliation finance teams care most about.</p>
+        <p>We close the loop across the <a href="/esop-valuation-services/mumbai">IBBI / Merchant Banker valuation</a>, the <a href="/esop-accounting-ind-as-102">Ind AS 102 and Schedule III accounting</a> and the <a href="/esop-perquisite-tax-section-17-2-vi/mumbai">Section 17(2)(vi) perquisite TDS</a> - the reconciliation finance teams care most about.</p>
     </article>
     <article class="feature-card">
         <h3>Listed-Company and Trust Depth</h3>

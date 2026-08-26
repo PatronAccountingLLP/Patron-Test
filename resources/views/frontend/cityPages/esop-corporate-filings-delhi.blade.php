@@ -1052,7 +1052,7 @@
     </article>
     <article class="feature-card">
         <h3>Valuation, Accounting and Tax Joined Up</h3>
-        <p>We connect the IBBI / Merchant Banker valuation, the <a href="/esop-accounting-ind-as-102/delhi">Ind AS 102</a> and Schedule III accounting and the <a href="/esop-perquisite-tax-section-17-2-vi/delhi">Section 17(2)(vi) perquisite TDS</a> into one ESOP workflow.</p>
+        <p>We connect the IBBI / Merchant Banker valuation, the <a href="/esop-accounting-ind-as-102">Ind AS 102</a> and Schedule III accounting and the <a href="/esop-perquisite-tax-section-17-2-vi/delhi">Section 17(2)(vi) perquisite TDS</a> into one ESOP workflow.</p>
     </article>
     <article class="feature-card">
         <h3>Trust Route and Listed-Company Cover</h3>

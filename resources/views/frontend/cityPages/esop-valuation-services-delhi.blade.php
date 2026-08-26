@@ -664,7 +664,7 @@
                     <li><strong>Every fresh grant batch:</strong> refreshed FMV where the prior report is more than 180 days old</li>
                     <li><strong>At exercise:</strong> Merchant Banker FMV under Section 17(2)(vi) for perquisite tax, the report no older than 180 days</li>
                     <li><strong><a href="/esop-secondary-sale-advisory/delhi">Secondary share transfer:</a></strong> FMV for Section 50CA on the seller and Section 56(2)(x) on the buyer, with PAS-3 on any fresh allotment</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/delhi">Annual Ind AS 102 expense:</a></strong> Black-Scholes fair value of unvested options for compensation cost</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">Annual Ind AS 102 expense:</a></strong> Black-Scholes fair value of unvested options for compensation cost</li>
                     <li><strong><a href="/esop-fema-and-rbi-firms-reporting/delhi">Cross-border share movement under FEMA NDI Rules:</a></strong> the 10 percent safe harbour applies where the NAV method is used</li>
                     <li><strong>Income Tax scrutiny defence:</strong> on prior-year raises, with legacy Section 56(2)(viib) assessments still open</li>
                 </ul>

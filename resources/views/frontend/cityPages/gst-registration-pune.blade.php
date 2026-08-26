@@ -425,7 +425,7 @@
                     <p>GST registration is the process of obtaining a 15-digit GSTIN on the GST portal (services.gst.gov.in) that legally authorises a business to collect GST, claim Input Tax Credit (ITC), and make inter-state supplies. In Pune, Maharashtra, businesses supplying goods with turnover above Rs 40 lakh or services above Rs 20 lakh must register. E-commerce sellers, inter-state suppliers, and casual taxable persons register regardless of turnover. Government fee is NIL. Aadhaar/biometric authentication is now required per the GSTN advisory of February 2025.</p>
                 </div>
                 <p>Pune is Maharashtra's second-largest commercial centre. Over 50,000 IT companies operate from Hinjewadi IT Park, Kharadi IT Park, and Magarpatta Cybercity. Thousands of manufacturers produce from MIDC Bhosari, Chakan, and Pimpri-Chinchwad. For all these businesses, GST registration is either mandatory or strategically essential. Learn more about <a href="/gst-registration">GST Registration across India</a>.</p>
-                <p>Maharashtra businesses also need PTRC (Professional Tax Registration Certificate) for employers and PTEC for professionals. Patron Accounting bundles GST with PTRC/PTEC, <a href="/shop-act-registration">Maharashtra Shop Act</a>, and <a href="/zoho-books-accounting/pune">Zoho Books Accounting</a> from our Pune office at RTC Silver, Wagholi - tax-compliant from day one with ongoing GSTR-1/3B/9 return filing.</p>
+                <p>Maharashtra businesses also need PTRC (Professional Tax Registration Certificate) for employers and PTEC for professionals. Patron Accounting bundles GST with PTRC/PTEC, <a href="/shop-act-registration">Maharashtra Shop Act</a>, and <a href="/zoho-books-accounting">Zoho Books Accounting</a> from our Pune office at RTC Silver, Wagholi - tax-compliant from day one with ongoing GSTR-1/3B/9 return filing.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -726,7 +726,7 @@
                     <li><a href="/private-limited-company-registration/pune">Pvt Ltd Registration in Pune</a> - SPICe+ with GST</li>
                     <li><a href="/llp-incorporation/pune">LLP Registration in Pune</a></li>
                     <li><a href="/accounting-services/pune">Accounting Services in Pune</a></li>
-                    <li><a href="/zoho-books-accounting/pune">Zoho Books Accounting in Pune</a></li>
+                    <li><a href="/zoho-books-accounting">Zoho Books Accounting in Pune</a></li>
                     <li><a href="/income-tax-return">Income Tax Return</a></li></ul>
 
             </div>

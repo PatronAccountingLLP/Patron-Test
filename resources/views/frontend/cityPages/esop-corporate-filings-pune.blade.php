@@ -1052,7 +1052,7 @@
     </article>
     <article class="feature-card">
         <h3>Valuation, Accounts and Tax in One Loop</h3>
-        <p>We work alongside the IBBI / Merchant Banker valuer, the <a href="/esop-accounting-ind-as-102/pune">Ind AS 102</a> and Schedule III accounting and the <a href="/esop-perquisite-tax-section-17-2-vi/pune">Section 17(2)(vi) perquisite-TDS</a> side so nothing falls between teams.</p>
+        <p>We work alongside the IBBI / Merchant Banker valuer, the <a href="/esop-accounting-ind-as-102">Ind AS 102</a> and Schedule III accounting and the <a href="/esop-perquisite-tax-section-17-2-vi/pune">Section 17(2)(vi) perquisite-TDS</a> side so nothing falls between teams.</p>
     </article>
     <article class="feature-card">
         <h3>Trust Route When You Scale</h3>

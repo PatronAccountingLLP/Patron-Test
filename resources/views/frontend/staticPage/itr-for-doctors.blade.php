@@ -1185,11 +1185,6 @@
         <div class="text-content">
             <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Doctor ITR Filing in Your City</h2>
             <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">City-specific doctor ITR filing across Pune, Mumbai, Delhi, and Gurugram - with same-day pickup of Form 16, Form 16A, clinic receipts, and AIS download for hospital-employed and private-practice doctors.</p>
-            <div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Doctor ITR Filing - Office Cities</div>
-    <div class="pa-block-sub">In-person CA review for doctors and document handover at our Pune, Mumbai, Delhi, and Gurugram offices. Remote service across India.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">End-to-end compliance support for doctors - tax audit, TDS, professional ITR filing, and healthcare-sector payroll.</div>

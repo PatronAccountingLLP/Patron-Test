@@ -1399,15 +1399,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Textile Manufacturer ITR Filing Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Textile sector ITR served from our four offices in Pune, Mumbai, Delhi, and Gurugram - covering cotton spinning mills, MMF / polyester manufacturers, knitted and woven garment exporters, hosiery units, home textile makers, denim mills, power loom operators, and fabric wholesalers across major cluster geographies including Tirupur, Surat, Bhiwandi, Panipat, Ludhiana, Coimbatore, Erode, and Bhilwara.</p>
-     
-            
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">Textile Manufacturer ITR Filing By City</div>
-                <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">Local CA support for textile manufacturers, garment exporters, and fabric traders</div>
-                <div class="pa-city-grid"></div>
-            </div>
             <div class="pa-city-block">
                 <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">Related Tax, GST, and Compliance Services</div>
                 <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">End-to-end ITR, GST refund, RoDTEP, and notice response for textile entities</div>

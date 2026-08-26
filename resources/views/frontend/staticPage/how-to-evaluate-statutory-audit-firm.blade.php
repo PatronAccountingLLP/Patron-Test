@@ -2417,11 +2417,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 </div>
             </div>
 
-            <div class="pa-city-block">
-                <div class="pa-block-title">Patron Audit Services Across India</div>
-                <div class="pa-block-sub">4-office network supporting consistent senior CA partner-led engagements</div>
-                <div class="pa-city-grid"></div>
-            </div>
         </div>
     </div>
 </section>

@@ -2520,11 +2520,6 @@ function toggleTestiVideo(area){
                 </div>
             </div>
 
-            <div class="pa-city-block">
-                <div class="pa-block-title">Patron Offices</div>
-                <div class="pa-block-sub">4-office network with pan-India remote engagement for IMF founders</div>
-                <div class="pa-city-grid"></div>
-            </div>
         </div>
     </div>
 </section>

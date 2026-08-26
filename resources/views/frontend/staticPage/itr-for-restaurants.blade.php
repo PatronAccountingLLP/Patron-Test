@@ -1396,15 +1396,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Restaurant Business ITR Filing Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Restaurant business ITR served from our four offices in Pune, Mumbai, Delhi, and Gurugram - covering dine-in operators, takeaway specialists, multi-outlet QSR chains, fine-dining establishments, cloud kitchens, food trucks, catering services, banquet halls, and food courts across India.</p>
-      
-            
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">Restaurant Business ITR Filing By City</div>
-                <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">Local CA support for restaurants, cafes, QSRs, cloud kitchens, and catering operators</div>
-                <div class="pa-city-grid"></div>
-            </div>
             <div class="pa-city-block">
                 <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">Related Tax, GST, and Hospitality Services</div>
                 <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">End-to-end tax, GST, payroll, and FSSAI compliance for restaurants and cloud kitchens</div>

@@ -2307,15 +2307,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">E-commerce Audit Coverage Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron services D2C brand finance teams operating from BKC, Bandra, Indiranagar, Gurugram Cyber City, Delhi Saket, Pune Koregaon Park, and Hinjewadi Phase 1 / 2 / 3 - through our four-office pan-India network.</p>
-            
-            
-<div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Our Offices Across India</div>
-    <div class="pa-block-sub">On-site availability for D2C brand finance teams; remote coverage for marketplace sellers and ONDC participants nationwide.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">Parent statutory audit, complementary tax / GST / TDS audits, and peer accounting service</div>

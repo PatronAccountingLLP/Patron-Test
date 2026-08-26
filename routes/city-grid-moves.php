@@ -23,6 +23,9 @@ use Illuminate\Support\Facades\Route;
  */
 
 $cityGridMoves = [
+    // /statutory-audit-pune and /statutory-audit/pune are the same page reached two
+    // ways - the hyphen form is an India-level URL that duplicates the city page.
+    ['/statutory-audit-pune', '/statutory-audit/pune'],
     ['/actuarial-valuation/delhi', '/actuarial-valuation-services-for-employee-benefits/delhi'],
     ['/actuarial-valuation/mumbai', '/actuarial-valuation-services-for-employee-benefits/mumbai'],
     ['/change-name-of-company/delhi', '/change-in-name-of-company/delhi'],
@@ -77,8 +80,6 @@ $cityGridMoves = [
     ['/public-limited-company-registration/mumbai', '/public-company-registration/mumbai'],
     ['/section-8-company-registration/pune', '/section8-company-registration/pune'],
     ['/sole-proprietorship-registration/mumbai', '/proprietorship-registration/mumbai'],
-    ['/tally-to-zoho-migration/mumbai', '/migration-from-tally-to-zohos/mumbai'],
-    ['/tally-to-zoho-migration/pune', '/migration-from-tally-to-zohos/pune'],
     ['/tax-planning/delhi', '/tax-planning-services/delhi'],
     ['/tax-planning/mumbai', '/tax-planning-services/mumbai'],
     ['/tds-returns/delhi', '/tds-return/delhi'],

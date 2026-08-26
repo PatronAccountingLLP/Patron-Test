@@ -1417,15 +1417,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Construction Firm ITR Filing Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Construction firm ITR served from our four offices in Pune, Mumbai, Delhi, and Gurugram - covering civil, MEP, electrical, EPC, JV, and consultancy firms across India.</p>
- 
-            
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">Construction Firm ITR Filing By City</div>
-                <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">Local CA support for civil contractors, MEP firms, EPC contractors, and consultants</div>
-                <div class="pa-city-grid"></div>
-            </div>
             <div class="pa-city-block">
                 <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">Related Construction and Tax Services</div>
                 <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">End-to-end direct tax and accounting compliance for construction firms</div>

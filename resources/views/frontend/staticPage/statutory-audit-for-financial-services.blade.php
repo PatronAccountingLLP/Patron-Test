@@ -2311,15 +2311,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">NBFC Audit Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron four-office network services NBFC and fintech finance teams across BKC, Lower Parel, Connaught Place, Cyber City Gurugram, Hinjewadi and Andheri SEEPZ - in-person from four offices, remote everywhere else.</p>
-            
-            
-<div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Our Offices Across India</div>
-    <div class="pa-block-sub">In-person NBFC audit fieldwork from our four offices; remote coverage everywhere else with site visits to NBFC head offices on demand.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">Parent audit hub plus NBFC / AIF registration and complementary compliance services</div>

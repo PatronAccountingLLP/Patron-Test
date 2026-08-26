@@ -417,6 +417,11 @@ $cleanup404Redirects = [
     ['/small-company-compliance-startups-pre-revenue/gurugram', '/small-company-compliance-startups-pre-revenue'],
     ['/small-company-compliance-startups-pre-revenue/mumbai', '/small-company-compliance-startups-pre-revenue'],
     ['/small-company-compliance-startups-pre-revenue/pune', '/small-company-compliance-startups-pre-revenue'],
+    // Three slugs were built for one service. This one is a live 200 page that
+    // already names the no-s page as its canonical - a duplicate Google has to
+    // crawl before it can be told to ignore it. The redirect says so up front.
+    // The line below it is a plain dead URL.
+    ['/migration-from-tally-to-zohos', '/migration-from-tally-to-zoho'],
     ['/tally-to-zoho-migration', '/migration-from-tally-to-zoho'],
     ['/tax-audit-under-section-44ab', '/tax-audit'],
     ['/tds-return-filing-24q/delhi', '/tds-return-filing-24q'],

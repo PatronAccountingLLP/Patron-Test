@@ -2020,14 +2020,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">GeM and Business Registration Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">We help sellers onboard and win on GeM nationwide - in-person in these cities and remotely everywhere else.</p>
-            
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                    <div class="pa-block-title">Turnover Certificate for Tender by City</div>
-                    <div class="pa-block-sub">Often required for GeM bids, prepared locally</div>
-                    <div class="pa-city-grid"></div>
-                </div>
                 <div class="pa-city-block">
                     <div class="pa-block-title">Related Services</div>
                     <div class="pa-block-sub">End-to-end support for government sellers</div>

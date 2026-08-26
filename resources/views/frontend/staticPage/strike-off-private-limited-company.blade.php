@@ -2143,9 +2143,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
             <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">End-to-end support across the company-exit and compliance lifecycle, available across India.</p>
             <!-- CITY_PAGES_GRID PATTERN:
                 BLOCK 1 - City cards (pa-city-grid, 4 cols desktop):
-                <div class="pa-city-block" style="margin-bottom:40px;">
-                    <div class="pa-city-grid"></div>
-                </div>
                 BLOCK 2 - Cross-sell services (pa-cross-grid, 3 cols desktop):
                 <div class="pa-city-block">
                     <div class="pa-block-title">Related Services</div>

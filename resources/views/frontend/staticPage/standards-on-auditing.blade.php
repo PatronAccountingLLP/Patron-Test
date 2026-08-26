@@ -2293,15 +2293,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Standards on Auditing Advisory Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron serves Audit Committees, audit firms, and Group CFOs across India - both in-person from our four offices and remotely everywhere else.</p>
-            
-            
-<div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Our Offices Across India</div>
-    <div class="pa-block-sub">In-person SA gap assessment, NFRA inspection response, and audit firm workshops in our four offices, remote coverage everywhere else.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">Audit services where SAs are applied and reporting framework counterparts</div>

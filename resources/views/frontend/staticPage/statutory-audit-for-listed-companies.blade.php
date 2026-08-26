@@ -2296,15 +2296,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Listed Company Audit Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron four-office network services listed companies on BSE and NSE mainboard, BSE SME, and NSE Emerge platforms with senior partner involvement on every audit cycle - including subsidiary auditor coordination across tier-1 and tier-2 cities.</p>
-            
-            
-<div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Our Offices Across India</div>
-    <div class="pa-block-sub">Senior partner involvement on every listed company audit cycle - quarterly reviews, annual audit, KAM, IFC, NFRA-2 - from our four offices.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">Parent audit hub plus auditor lifecycle, secretarial audit, internal audit, and pre-IPO compliance bridge</div>

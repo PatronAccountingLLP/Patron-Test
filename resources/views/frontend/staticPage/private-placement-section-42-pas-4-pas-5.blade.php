@@ -2084,11 +2084,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Private Placement Support Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">In-person and remote private placement and funding-round support from our offices in Pune, Mumbai, Delhi and Gurugram.</p>
-            <div class="pa-city-block" style="margin-bottom:40px;">
-<div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
 <div class="pa-block-title">Related Share Capital and Funding Services</div>
 <div class="pa-block-sub">Funding-round and share capital actions</div>

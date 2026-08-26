@@ -2150,14 +2150,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">NGO GST Support Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves NGOs, charitable trusts, and religious institutions across India - both in-person and remotely.</p>
-
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title">NGO GST Returns Support by City</div>
-                <div class="pa-block-sub">Monthly Entry 1 mapping, grants-vs-consideration review and FCRA coordination, on-the-ground and remote</div>
-                <div class="pa-city-grid"></div>
-            </div>
             <div class="pa-city-block">
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end support across the GST compliance stack</div>

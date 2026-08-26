@@ -1229,11 +1229,6 @@
         <div class="text-content">
             <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Foreign Income ITR Filing in Your City</h2>
             <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">City-specific Foreign Income ITR filing across Pune, Mumbai, Delhi, and Gurugram - with same-day handover of foreign payslips, broker statements, foreign tax returns, and AIS download for ROR Indians with global income.</p>
-            <div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Foreign Income ITR Filing - Office Cities</div>
-    <div class="pa-block-sub">In-person CA review for resident Indians with foreign income at our Pune, Mumbai, Delhi, and Gurugram offices. Remote engagement across India and 35+ source countries.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">End-to-end compliance support for resident Indians with foreign income - DTAA, FTC, capital gains, ESOP, defective return cure.</div>

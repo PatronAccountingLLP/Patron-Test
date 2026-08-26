@@ -1401,15 +1401,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">LLP / Partnership Firm ITR-5 Filing Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">LLP and Partnership Firm ITR-5 served from our four offices in Pune, Mumbai, Delhi, and Gurugram - covering manufacturing partnerships, IT services LLPs, BFSI firms, jewellery firms, garment partnerships, real estate LLPs, distribution firms, retail trading LLPs, consulting LLPs, and professional partnership firms across India.</p>
-
-            
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">LLP / Partnership Firm ITR Filing By City</div>
-                <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">Local CA support for LLPs, partnership firms, family firms, and professional partnerships</div>
-                <div class="pa-city-grid"></div>
-            </div>
             <div class="pa-city-block">
                 <div class="pa-block-title" style="font-size:18px;font-weight:700;color:var(--blue);margin-bottom:8px;">Related Tax and Compliance Services</div>
                 <div class="pa-block-sub" style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">End-to-end tax, audit, and MCA compliance for LLPs and partnership firms</div>

@@ -2311,15 +2311,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Manufacturing Audit Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron four-office network services manufacturers across Chakan MIDC, Ranjangaon MIDC, Aurangabad Waluj, IMT Manesar, Bhiwadi, Sriperumbudur, Hosur, and Coimbatore - in-person SA 501 plant attendance from our four offices, remote elsewhere.</p>
-            
-            
-<div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Our Offices Across India</div>
-    <div class="pa-block-sub">In-person SA 501 plant attendance and audit fieldwork from our four offices; multi-plant manufacturers serviced through parallel sub-teams with rolling cut-off.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">Parent audit hub plus tax audit, stock audit, GST audit, and ROC compliance services</div>

@@ -961,9 +961,6 @@
             <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Local CA support across our four offices - in-person or remote</p>
             <!-- CITY_PAGES_GRID PATTERN:
                 BLOCK 1  -  City cards (pa-city-grid, 4 cols desktop):
-                <div class="pa-city-block" style="margin-bottom:40px;">
-                    <div class="pa-city-grid"></div>
-                </div>
                 BLOCK 2  -  Cross-sell services (pa-cross-grid, 3 cols desktop):
                 <div class="pa-city-block">
                     <div class="pa-block-title">Related Services</div>
@@ -976,7 +973,6 @@
             -->
             
 <div class="pa-city-block">
-<div class="pa-city-grid"></div>
 <h3 class="pa-cross-title">Pair With These Trader-Cluster Services</h3>
 <div class="pa-cross-grid">
   <a href="/itr-for-fno-trader" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="13" y2="16"/></svg></div><h4>ITR for FnO Trader (parent)</h4><p>National parent page for FnO trader ITR filing - basic guidance.</p></a>

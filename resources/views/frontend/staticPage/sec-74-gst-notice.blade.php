@@ -2174,14 +2174,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Section 74 SCN Defence Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting defends taxpayers facing Section 74 fraud SCNs across India - both in-person and remotely.</p>
-            
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                <div class="pa-block-title">Section 74 SCN Defence by City</div>
-                <div class="pa-block-sub">Fraud-element decomposition, Section 75(2) downgrade and hearing representation, on-the-ground and remote</div>
-                <div class="pa-city-grid"></div>
-            </div>
             <div class="pa-city-block">
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">An integrated GST notice-defence backbone</div>

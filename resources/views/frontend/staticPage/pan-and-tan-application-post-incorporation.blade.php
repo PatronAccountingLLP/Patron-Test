@@ -2019,14 +2019,6 @@
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Company Setup and Compliance Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">We sort PAN, TAN and post-incorporation compliance nationwide - in-person in these cities and remotely everywhere else.</p>
-            
-            <div class="pa-city-block" style="margin-bottom:40px;">
-                    <div class="pa-block-title">Private Limited Company Registration by City</div>
-                    <div class="pa-block-sub">The incorporation that auto-allots PAN and TAN</div>
-                    <div class="pa-city-grid"></div>
-                </div>
                 <div class="pa-city-block">
                     <div class="pa-block-title">Related Services</div>
                     <div class="pa-block-sub">From incorporation to ongoing compliance</div>

@@ -2299,15 +2299,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <section class="content-section" style="padding:48px 32px;background:var(--gray-50);">
     <div class="content-container">
         <div class="text-content">
-            <h2 class="section-title" style="text-align:center;margin-bottom:12px;">Education Audit Across India</h2>
-            <p style="text-align:center;color:var(--text-muted);font-size:15px;margin-bottom:40px;">Patron four-office network services school trusts, college societies, coaching institutes, and edtech founders across South Delhi, Gurugram Sector 56, Noida Sector 62, Mumbai Bandra and Andheri, Pune Senapati Bapat Road and Hinjewadi - in-person from our four offices, remote everywhere else.</p>
-            
-            
-<div class="pa-city-block" style="margin-bottom:40px;">
-    <div class="pa-block-title">Our Offices Across India</div>
-    <div class="pa-block-sub">In-person education audit fieldwork from our four offices; remote coverage everywhere else with site visits to campuses on demand.</div>
-    <div class="pa-city-grid"></div>
-</div>
 <div class="pa-city-block">
     <div class="pa-block-title">Related Services</div>
     <div class="pa-block-sub">Parent audit hub plus entity-setup and registration services for non-profit educational vehicles</div>

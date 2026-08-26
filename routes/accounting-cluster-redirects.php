@@ -130,9 +130,13 @@ $accountingClusterRedirects = [
     ['/migration-from-zoho-to-quickbooks/gurugram', '/zoho-books-accounting'],
     ['/migration-from-zoho-to-quickbooks/mumbai', '/zoho-books-accounting'],
     ['/migration-from-zoho-to-quickbooks/pune', '/zoho-books-accounting'],
-    // Mumbai and Pune keep city-level relevance - live Tally-to-Zoho city pages exist for both.
-    ['/migration-from-tally-to-quickbooks/mumbai', '/tally-to-zoho-migration/mumbai'],
-    ['/migration-from-tally-to-quickbooks/pune', '/tally-to-zoho-migration/pune'],
+    // All four go to the India page. Mumbai and Pune used to keep city-level
+    // relevance by pointing at /tally-to-zoho-migration/{city}, but those two now
+    // redirect to the India page themselves, so leaving them would have cost two
+    // hops. The correct-slug city pages, /migration-from-tally-to-zoho/{city}, are
+    // still redirected away by the block above, so they are not an option yet.
+    ['/migration-from-tally-to-quickbooks/mumbai', '/migration-from-tally-to-zoho'],
+    ['/migration-from-tally-to-quickbooks/pune', '/migration-from-tally-to-zoho'],
     ['/migration-from-tally-to-quickbooks/delhi', '/migration-from-tally-to-zoho'],
     ['/migration-from-tally-to-quickbooks/gurugram', '/migration-from-tally-to-zoho'],
 

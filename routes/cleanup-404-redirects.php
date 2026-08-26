@@ -423,6 +423,13 @@ $cleanup404Redirects = [
     // The line below it is a plain dead URL.
     ['/migration-from-tally-to-zohos', '/migration-from-tally-to-zoho'],
     ['/tally-to-zoho-migration', '/migration-from-tally-to-zoho'],
+    // The two city pages under that dead parent. They were live 200s hanging off a
+    // 404, which is why Google had them indexed with no route in from the site.
+    // Sent to the India page by decision, not to their own city: /migration-from-
+    // tally-to-zoho/{city} is a real page but is still redirected away by
+    // accounting-cluster-redirects.php, so pointing here would have been a chain.
+    ['/tally-to-zoho-migration/mumbai', '/migration-from-tally-to-zoho'],
+    ['/tally-to-zoho-migration/pune', '/migration-from-tally-to-zoho'],
     ['/tax-audit-under-section-44ab', '/tax-audit'],
     ['/tds-return-filing-24q/delhi', '/tds-return-filing-24q'],
     ['/tds-return-filing-24q/gurugram', '/tds-return-filing-24q'],

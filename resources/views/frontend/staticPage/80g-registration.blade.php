@@ -874,7 +874,7 @@
                     <li><a href="/fcra-registration">FCRA Registration</a> - Register under FCRA 2010 to receive foreign donations. Requires prior 12A registration.</li>
                     <li><a href="/section8-company-registration">Section 8 Company Registration</a> - Incorporate a not-for-profit company under the Companies Act, 2013.</li>
                     <li><a href="/income-tax-return">Income Tax Return (ITR) Filing</a> - Annual ITR-7 mandatory for all 12A/80G-registered trusts and institutions.</li>
-                    <li><a href="/society-registration">Society Registration</a> - Register a society for charitable, literary, or scientific purposes.</li>
+                    <li>Society Registration - Register a society for charitable, literary, or scientific purposes.</li>
                 </ul>
 
             </div>
@@ -1017,7 +1017,6 @@
 <a href="/ngo-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NGO Registration</div><div class="pa-card-sub">India</div></div></a>
 <a href="/section8-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Section 8 Company Registration</div><div class="pa-card-sub">India</div></div></a>
 <a href="/fcra-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">FCRA Registration</div><div class="pa-card-sub">India</div></div></a>
-<a href="/society-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Society Registration</div><div class="pa-card-sub">India</div></div></a>
 <a href="/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return Filing</div><div class="pa-card-sub">India</div></div></a></div></div>
         </div>
     </div>

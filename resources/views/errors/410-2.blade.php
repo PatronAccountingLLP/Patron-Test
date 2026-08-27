@@ -597,7 +597,7 @@
                         </svg>
                     </span>
                     <h3 class="pa-gone-category-title">Business & Company Registration</h3>
-                    <span class="pa-gone-category-count">6 services</span>
+                    <span class="pa-gone-category-count">5 services</span>
                 </div>
                 <div class="pa-gone-grid">
                     <a href="https://www.patronaccounting.com/private-limited-company-registration" class="pa-gone-card">
@@ -629,14 +629,6 @@
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">Section 8 Company Registration</span>
                             <span class="pa-gone-card-sub">Not-for-profit company</span>
-                        </span>
-                        <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-                    </a>
-                    <a href="https://www.patronaccounting.com/society-registration" class="pa-gone-card">
-                        <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M17 11a3 3 0 100-6"/><path d="M3 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/><path d="M21 21v-2a4 4 0 00-3-3.87"/></svg></span>
-                        <span class="pa-gone-card-text">
-                            <span class="pa-gone-card-name">Society Registration</span>
-                            <span class="pa-gone-card-sub">Societies Registration Act</span>
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>

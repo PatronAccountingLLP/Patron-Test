@@ -1820,7 +1820,7 @@ window.addEventListener('scroll', function() {
                 
                 <ul>
                     <li><a href="/ngo-registration">NGO Registration</a> - Umbrella page covering Trust, Society, and Section 8 structures</li>
-                    <li><a href="/society-registration">Society Registration</a> - Membership-based non-profit under the Societies Registration Act, 1860</li>
+                    <li>Society Registration - Membership-based non-profit under the Societies Registration Act, 1860</li>
                     <li><a href="#">12A and 80G Registration</a> - Tax exemption and donor benefit certificates</li>
                     <li><a href="/fcra-registration">FCRA Registration</a> - Foreign contribution registration for NGOs</li>
                     <li><a href="/ngo-and-non-profit-accounting-services">NGO and Non-Profit Accounting Services</a> - Dedicated accounting for non-profit organisations</li>
@@ -1977,7 +1977,6 @@ window.addEventListener('scroll', function() {
                 </div></div>
             <div class="pa-city-block"><div class="pa-block-title">Related Services</div><div class="pa-block-sub">End-to-end support for Section 8 Company Registration</div><div class="pa-cross-grid">
                     <a href="/ngo-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NGO Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/society-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Society Registration</div><div class="pa-card-sub">India</div></div></a>
                     <a href="#" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">12A and 80G Registration</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/fcra-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">FCRA Registration</div><div class="pa-card-sub">India</div></div></a>
                     <a href="/ngo-and-non-profit-accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NGO Accounting Services</div><div class="pa-card-sub">India</div></div></a>

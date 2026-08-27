@@ -495,7 +495,7 @@
             <h2 class="section-title">Who Needs Education Payroll in Gurugram</h2>
             <div class="content-text">
                 
-                <p><strong>CBSE/ICSE schools (DPS, GD Goenka, Heritage, Pathways)</strong> &ndash; 50-300+ staff across categories. B.Ed/CTET norms. Pay standards for affiliation. For <a href="/society-registration">Society Registration</a>, see our page.</p>
+                <p><strong>CBSE/ICSE schools (DPS, GD Goenka, Heritage, Pathways)</strong> &ndash; 50-300+ staff across categories. B.Ed/CTET norms. Pay standards for affiliation. For Society Registration, see our page.</p>
                 <p><strong>International schools (GEMS, Scottish High, Lancers, CIS)</strong> &ndash; Expatriate staff. Complex allowances. Indian compliance for local hires.</p>
                 <p><strong>Colleges/universities (GD Goenka, Ansal, Sohna Road)</strong> &ndash; Faculty + research + admin. UGC scales. NPS. For <a href="/statutory-audit">Statutory Audit</a>, see our page.</p>
                 <p><strong>Coaching centres and edtech</strong> &ndash; Teaching + ops. Performance incentives (results/batch size). Variable pay complexity.</p>
@@ -676,7 +676,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>Explore related services:</p><ul><li><a href="/payroll-processing-services-for-education-industry">Education Payroll (India)</a></li><li><a href="/accounting-services/gurugram">Accounting Services Gurugram</a></li><li><a href="/payroll-services">Payroll Services</a></li><li><a href="/accounting-services-for-education-industry">Education Accounting</a></li><li><a href="/ngo-and-non-profit-accounting-services">NGO Accounting</a></li><li><a href="/society-registration">Society Registration</a></li><li><a href="/tds-return-filing-24q">TDS Return Filing</a></li><li><a href="/statutory-audit">Statutory Audit</a></li></ul>
+                <p>Explore related services:</p><ul><li><a href="/payroll-processing-services-for-education-industry">Education Payroll (India)</a></li><li><a href="/accounting-services/gurugram">Accounting Services Gurugram</a></li><li><a href="/payroll-services">Payroll Services</a></li><li><a href="/accounting-services-for-education-industry">Education Accounting</a></li><li><a href="/ngo-and-non-profit-accounting-services">NGO Accounting</a></li><li>Society Registration</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a></li><li><a href="/statutory-audit">Statutory Audit</a></li></ul>
 
             </div>
         </div>

@@ -1819,7 +1819,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>After deed registration, complete your <a href="/12a-registration">12A registration</a> and <a href="/80g-registration">80G registration</a>, and add <a href="/fcra-registration">FCRA registration</a> for foreign donations. Comparing structures? See <a href="/society-registration">society registration</a>, <a href="/section8-company-registration">Section 8 company registration</a>, or our broader <a href="/ngo-registration">NGO registration</a>.</p>
+                <p>After deed registration, complete your <a href="/12a-registration">12A registration</a> and <a href="/80g-registration">80G registration</a>, and add <a href="/fcra-registration">FCRA registration</a> for foreign donations. , <a href="/section8-company-registration">Section 8 company registration</a>, or our broader <a href="/ngo-registration">NGO registration</a>.</p>
 
             </div>
         </div>
@@ -1953,7 +1953,6 @@
                         <a href="/80g-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">80G Registration</div><div class="pa-card-sub">India</div></div></a>
                         <a href="/fcra-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">FCRA Registration</div><div class="pa-card-sub">India</div></div></a>
                         <a href="/ngo-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NGO Registration</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/society-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Society Registration</div><div class="pa-card-sub">India</div></div></a>
                         <a href="/section8-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Section 8 Company Registration</div><div class="pa-card-sub">India</div></div></a>
                     </div>
                 </div>

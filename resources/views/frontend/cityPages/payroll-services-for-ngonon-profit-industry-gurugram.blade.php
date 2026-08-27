@@ -421,7 +421,7 @@
                     <p>NGO payroll: 3 compliance layers simultaneously &ndash; (1) 12A: salary = 50-70% of 85% income application, (2) FCRA: admin salaries within 20% of foreign contributions + SBI account, (3) Grant conditions: donor-specific budgets/formats. Plus EPF/ESI EPFO/ESIC Gurugram, TDS S192/S194J, consultant classification, Form 10B/10BB audit. Trust/society/Section 8. No PT. From Rs 12,000/month.</p>
                 </div>
                 <p>Gurugram's NGO ecosystem: international development orgs (Cyber City, Sector 44), CSR agencies (Golf Course Road), foundations, local NGOs (education/healthcare/environment). Every salary rupee traceable to funding source. 12A + FCRA + donor conditions simultaneously. Learn more about <a href="/payroll-services-for-ngonon-profit-industry">NGO Payroll across India</a>.</p>
-                <p>Patron's Golf Course Extension Road office provides integrated NGO payroll + non-profit accounting. For NGO accounting, see <a href="/ngo-and-non-profit-accounting-services">NGO Accounting</a>. For registration, see <a href="/society-registration">Society Registration</a> or <a href="#">Trust Registration</a>.</p>
+                <p>Patron's Golf Course Extension Road office provides integrated NGO payroll + non-profit accounting. For NGO accounting, see <a href="/ngo-and-non-profit-accounting-services">NGO Accounting</a>. or <a href="#">Trust Registration</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -496,7 +496,7 @@
                 
                 <p><strong>International NGOs (Cyber City, Sector 44)</strong> &ndash; FCRA compliance. USAID/UN/bilateral donor formats. 20-200 staff. Multi-currency grants. For <a href="/income-tax-return">ITR Filing</a>, see our page.</p>
                 <p><strong>Local trusts and societies</strong> &ndash; Haryana registered. 5-50 staff. 12A/80G. Education/healthcare/community. Simple payroll + trust accounting.</p>
-                <p><strong>Section 8 companies</strong> &ndash; MCA compliance + 12A/80G. Companies Act annual returns alongside non-profit provisions. For <a href="/society-registration">Society Registration</a>, see our page.</p>
+                <p><strong>Section 8 companies</strong> &ndash; MCA compliance + 12A/80G. Companies Act annual returns alongside non-profit provisions. For Society Registration, see our page.</p>
                 <p><strong>CSR implementation agencies</strong> &ndash; CSR funds from Hyundai/Maruti/Hero corporates. CSR-1 registration. Utilization reporting. Schedule VII tracking.</p>
                 <p><strong>Foundations</strong> &ndash; Endowment income + corpus + restricted grants. Fund-wise salary. For <a href="#">Trust Registration</a>, see our page.</p>
 
@@ -675,7 +675,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>Explore related services:</p><ul><li><a href="/payroll-services-for-ngonon-profit-industry">NGO Payroll (India)</a></li><li><a href="/accounting-services/gurugram">Accounting Services Gurugram</a></li><li><a href="/payroll-services">Payroll Services</a></li><li><a href="/ngo-and-non-profit-accounting-services">NGO Accounting</a></li><li><a href="/society-registration">Society Registration</a></li><li><a href="#">Trust Registration</a></li><li><a href="/tds-return-filing-24q">TDS Return Filing</a></li><li><a href="/statutory-audit">Statutory Audit</a></li></ul>
+                <p>Explore related services:</p><ul><li><a href="/payroll-services-for-ngonon-profit-industry">NGO Payroll (India)</a></li><li><a href="/accounting-services/gurugram">Accounting Services Gurugram</a></li><li><a href="/payroll-services">Payroll Services</a></li><li><a href="/ngo-and-non-profit-accounting-services">NGO Accounting</a></li><li>Society Registration</li><li><a href="#">Trust Registration</a></li><li><a href="/tds-return-filing-24q">TDS Return Filing</a></li><li><a href="/statutory-audit">Statutory Audit</a></li></ul>
 
             </div>
         </div>

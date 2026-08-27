@@ -420,7 +420,7 @@
                     <p>NGO registration in Bangalore establishes a non-profit as Trust (Indian Trusts Act 1882), Society (Karnataka Societies Registration Act 1960), or Section 8 Company (Companies Act 2013). Karnataka societies registered with District Registrar of Co-operative Societies (since 2016 transfer). Post-registration: 12A, 80G, NGO Darpan, CSR-1 for IT corridor CSR funding access.</p>
                 </div>
                 <p>Bangalore is India's IT capital with thousands of MNCs in Electronic City, Whitefield, and Manyata Tech Park - many with mandatory CSR spending. Karnataka uses its own <strong>Karnataka Societies Registration Act, 1960</strong> (not the national 1860 Act). Learn more about <a href="/ngo-registration">NGO Registration across India</a>.</p>
-                <p>District Registrar of Co-operative Societies handles society registrations since 2016. Sub-Registrar for trusts. RoC Bangalore for Section 8. CA ensures correct Act, proper filing, and bundled 12A/80G/CSR-1. Same CA handles <a href="/society-registration/bangalore">society registration</a>, <a href="/registration-for-12a-80g-certificate/bangalore">12A</a>, and <a href="/section8-company-registration/bangalore">Section 8</a>.</p>
+                <p>District Registrar of Co-operative Societies handles society registrations since 2016. Sub-Registrar for trusts. RoC Bangalore for Section 8. CA ensures correct Act, proper filing, and bundled 12A/80G/CSR-1. Same CA handles society registration, 12A, and <a href="/section8-company-registration/bangalore">Section 8</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -726,8 +726,8 @@
                 
                 <ul>
 <li><a href="/ngo-registration">NGO Registration in India</a> - National services</li>
-<li><a href="/society-registration/bangalore">Society Registration in Bangalore</a> - Karnataka Act 1960</li>
-<li><a href="/registration-for-12a-80g-certificate/bangalore">12A Registration in Bangalore</a> - Tax exemption</li>
+<li>Society Registration in Bangalore - Karnataka Act 1960</li>
+<li>12A Registration in Bangalore - Tax exemption</li>
 <li><a href="/section8-company-registration/bangalore">Section 8 Company in Bangalore</a> - Non-profit incorporation</li>
 <li><a href="/gst-registration/bangalore">GST Registration in Bangalore</a> - If applicable</li>
 <li><a href="/accounting-services">Accounting Services</a> - NGO bookkeeping</li>
@@ -872,8 +872,7 @@
 <a href="/ngo-registration/chennai" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Chennai</div><div class="pa-card-sub">Tamil Nadu</div></div></a>
 <a href="/ngo-registration/kolkata" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div></a>
 </div></div>
-<div class="pa-city-block"><div class="pa-block-title">Related Services in Bangalore</div><div class="pa-block-sub">End-to-end NGO registration and compliance</div><div class="pa-cross-grid"><a href="/society-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Society Registration</div><div class="pa-card-sub">Bangalore</div></div></a>
-<a href="/registration-for-12a-80g-certificate/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">12A Registration</div><div class="pa-card-sub">Bangalore</div></div></a>
+<div class="pa-city-block"><div class="pa-block-title">Related Services in Bangalore</div><div class="pa-block-sub">End-to-end NGO registration and compliance</div><div class="pa-cross-grid">
 <a href="/section8-company-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Section 8 Company</div><div class="pa-card-sub">Bangalore</div></div></a>
 <a href="/gst-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Bangalore</div></div></a>
 <a href="/private-limited-company-registration/bangalore" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">Bangalore</div></div></a>

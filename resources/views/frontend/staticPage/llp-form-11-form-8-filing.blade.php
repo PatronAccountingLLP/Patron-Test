@@ -2219,7 +2219,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <p>Form 11 and Form 8 are two of four annual filings for an LLP. The full annual cycle also requires DIR-3 KYC for designated partners and ITR-5 for income tax. Related Patron services:</p>
                 <ul>
                     <li><a href="/llp-annual-compliance"><strong>LLP Annual Compliance (Bundle)</strong></a> - the full bundle covering Form 11, Form 8, ITR-5, DIR-3 KYC, and audit at Rs 25,000 fixed fee. <strong>Recommended path</strong> if buying multiple filings.</li>
-                    <li><a href="/llp-compliance"><strong>LLP Compliance (Hub)</strong></a> - broader LLP compliance hub including event-based filings, Form 3 / Form 4 partner changes, and LLP Agreement amendments.</li>
+                    <li>LLP Compliance (Hub) - broader LLP compliance hub including event-based filings, Form 3 / Form 4 partner changes, and LLP Agreement amendments.</li>
                     <li><a href="/llp-form-11-filing"><strong>LLP Form 11 Filing (Standalone)</strong></a> - Form 11 alone for clients who file Form 8 elsewhere.</li>
                     <li><a href="/llp-form-8-filing"><strong>LLP Form 8 Filing (Standalone)</strong></a> - Form 8 alone for clients who file Form 11 elsewhere.</li>
                     <li><a href="/director-kyc"><strong>DIR-3 KYC for DPIN</strong></a> - triennial filing per G.S.R. 943(E) regime for designated partners.</li>
@@ -2455,10 +2455,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     <a href="/llp-annual-compliance" class="pa-cross-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div><div class="pa-card-title">LLP Annual Compliance Bundle</div><div class="pa-card-sub">Rs 25,000 Full Cycle</div></div>
-                    </a>
-                    <a href="/llp-compliance" class="pa-cross-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div><div class="pa-card-title">LLP Compliance Hub</div><div class="pa-card-sub">Event-Based Filings</div></div>
                     </a>
                     <a href="/llp-form-11-filing" class="pa-cross-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>

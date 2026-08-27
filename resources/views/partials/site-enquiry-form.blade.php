@@ -1,4 +1,18 @@
 {{--
+    NOT CURRENTLY INCLUDED BY ANY LAYOUT.
+
+    Decision 2026-08-27: the enquiry form goes only on pages that already had
+    one. Injecting this band from the layouts put a form on ~300 pages that
+    never carried one - the homepage, the 162 calculators, the 82 tool pages
+    and the glossary index pages - which is not wanted.
+
+    Kept because the mechanism is sound and re-enabling is one line: add
+    @include('partials.site-enquiry-form') above @include('partials.footer') in
+    layouts/app, app-blog and service-app. The pa.enquiry_form_rendered flag the
+    three form partials set is still in place, so it will still stand down on
+    pages that already have a form.
+--}}
+{{--
     Site-wide enquiry form band.
 
     This is the "pull it like the header and footer" copy: the layouts render it

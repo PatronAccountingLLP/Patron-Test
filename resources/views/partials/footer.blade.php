@@ -24,12 +24,18 @@
 .pa-f-news button{background:#f26522;color:#fff;border:0;cursor:pointer;font-weight:700;font-size:13.5px;padding:10px 17px;border-radius:8px;white-space:nowrap}
 .pa-f-news button:hover{background:#d9531a}
 /* the Google widget forces width:100% on its own container, so cap it here or the button spans the whole column */
-/* contact block and the Google button share one row; the brand column is ~471px so the button is pinned at 230px and the contact text takes what is left */
-.pa-f-crow{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px}
+/* contact block and the Google button share one row. The button is a fixed-width
+   Google iframe (~215px intrinsic); give it 250px of slack or the label wraps onto
+   two lines. The widget writes width/min-height inline, so pin the box here. */
+/* contact details and the Google button share one row; the caption sits under both
+   so it never squeezes the button column. The button is a fixed-width Google iframe,
+   so it gets 270px and the contact text takes the rest of the ~471px brand column. */
+.pa-f-crow{display:flex;align-items:center;gap:10px;margin-bottom:6px}
 .pa-f-crow .pa-f-contact{flex:1 1 auto;min-width:0;margin-bottom:0}
-.pa-f-gsrc{flex:0 0 230px;max-width:230px}
-@media(max-width:900px){.pa-f-crow{flex-wrap:wrap;gap:14px}.pa-f-gsrc{flex:0 0 auto}}
-.pa-f-gsrc-c{font-size:11.5px;line-height:1.45;color:#7f92aa;margin:7px 0 0;max-width:100%}
+.pa-f-gsrc{flex:0 0 270px;max-width:270px}
+.pa-f-gsrc [google-add-preferred-source-btn]{min-height:46px !important}
+@media(max-width:1080px){.pa-f-crow{flex-wrap:wrap;gap:14px;align-items:flex-start}}
+.pa-f-gsrc-c{font-size:11.5px;line-height:1.45;color:#7f92aa;margin:0 0 18px;max-width:420px}
 .pa-f-socs{display:flex;align-items:center;gap:10px;margin-top:20px}
 .pa-f-soc{width:36px;height:36px;border-radius:9px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;color:#cdd8e7;text-decoration:none;transition:background .15s,color .15s}
 .pa-f-soc:hover{background:#f26522;color:#fff}
@@ -98,7 +104,7 @@
     <div class="pa-f-brand">
       <a href="/" aria-label="Patron Accounting - Home"><img class="pa-f-logo" src="/images/patron-logo.webp" onerror="this.onerror=null;this.src='/images/site-logo.svg'" alt="Patron Accounting LLP"></a>
       <p class="pa-f-blurb">One team of CAs &amp; CS experts for accounting, tax, GST, payroll &amp; litigation - across India, on Zoho Books.</p>
-      <div class="pa-f-crow"><div class="pa-f-contact"><a href="tel:+919459456700" class="pa-f-phone">+91 945 945 6700</a><a href="mailto:sales&#64;patronaccounting&#46;com" class="pa-f-mail">sales&#64;patronaccounting&#46;com</a><span class="pa-f-hours">Mon–Fri 9am–7pm · Sat 9am–3pm</span></div><div class="pa-f-gsrc"><script async src="https://news.google.com/swg/js/v1/publisher.js"></script><div google-add-preferred-source-btn data-theme="dark"></div><p class="pa-f-gsrc-c">Make Patron a preferred source in your Google results.</p></div></div>
+      <div class="pa-f-crow"><div class="pa-f-contact"><a href="tel:+919459456700" class="pa-f-phone">+91 945 945 6700</a><a href="mailto:sales&#64;patronaccounting&#46;com" class="pa-f-mail">sales&#64;patronaccounting&#46;com</a><span class="pa-f-hours">Mon–Fri 9am–7pm · Sat 9am–3pm</span></div><div class="pa-f-gsrc"><script async src="https://news.google.com/swg/js/v1/publisher.js"></script><div google-add-preferred-source-btn data-theme="dark"></div></div></div><p class="pa-f-gsrc-c">Make Patron a preferred source in your Google results.</p>
       <div class="pa-f-news"><div class="pa-f-news-t">Compliance alerts on WhatsApp</div><p>Free GST, TDS, ROC &amp; ITR due-date reminders.</p><form id="whatsappSubscribeForm"><div class="pa-f-news-in"><span>+91</span><input name="phone" placeholder="Your number" aria-label="WhatsApp number"></div><button type="submit">Subscribe</button></form></div>
       <div class="pa-f-socs"><a href="https://in.linkedin.com/company/patron-accounting-llp" target="_blank" rel="noopener" aria-label="LinkedIn" class="pa-f-soc"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0H12v2.2h.07c.62-1.17 2.14-2.4 4.4-2.4 4.7 0 5.57 3.1 5.57 7.13V24h-5v-7.1c0-1.7-.03-3.88-2.36-3.88-2.36 0-2.72 1.84-2.72 3.75V24h-5V8z"/></svg></a><a href="https://www.instagram.com/patronaccounting/" target="_blank" rel="noopener" aria-label="Instagram" class="pa-f-soc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="3.5"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg></a><a href="https://www.facebook.com/share/1BqqRYkpJX/" target="_blank" rel="noopener" aria-label="Facebook" class="pa-f-soc"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a><a href="https://www.youtube.com/@patronaccountingllp7130" target="_blank" rel="noopener" aria-label="YouTube" class="pa-f-soc"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.5a3 3 0 0 0-2.1-2.1C19.5 4 12 4 12 4s-7.5 0-9.4.4A3 3 0 0 0 .5 6.5C0 8.4 0 12 0 12s0 3.6.5 5.5a3 3 0 0 0 2.1 2.1C4.5 20 12 20 12 20s7.5 0 9.4-.4a3 3 0 0 0 2.1-2.1C24 15.6 24 12 24 12s0-3.6-.5-5.5zM9.6 15.6V8.4l6.4 3.6-6.4 3.6z"/></svg></a><a href="https://x.com/LlpPatron" target="_blank" rel="noopener" aria-label="X" class="pa-f-soc"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2h3.3l-7.2 8.2L23 22h-6.6l-5.2-6.8L5.3 22H2l7.7-8.8L1.5 2h6.8l4.7 6.2L18.2 2z"/></svg></a></div>
     </div>

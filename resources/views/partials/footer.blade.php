@@ -24,12 +24,21 @@
 .pa-f-news button{background:#f26522;color:#fff;border:0;cursor:pointer;font-weight:700;font-size:13.5px;padding:10px 17px;border-radius:8px;white-space:nowrap}
 .pa-f-news button:hover{background:#d9531a}
 /* the Google widget forces width:100% on its own container, so cap it here or the button spans the whole column */
-/* contact block and the Google button share one row; the brand column is ~471px so the button is pinned at 230px and the contact text takes what is left */
-.pa-f-crow{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px}
-.pa-f-crow .pa-f-contact{flex:1 1 auto;min-width:0;margin-bottom:0}
-.pa-f-gsrc{flex:0 0 230px;max-width:230px}
-@media(max-width:900px){.pa-f-crow{flex-wrap:wrap;gap:14px}.pa-f-gsrc{flex:0 0 auto}}
-.pa-f-gsrc-c{font-size:11.5px;line-height:1.45;color:#7f92aa;margin:7px 0 0;max-width:100%}
+/* contact block and the Google button share one row. The button is a fixed-width
+   Google iframe (~215px intrinsic); give it 250px of slack or the label wraps onto
+   two lines. The widget writes width/min-height inline, so pin the box here. */
+/* two sections side by side: contact details, then the Google Preferred Sources
+   block with its own caption. A hairline divider separates them. The button is a
+   fixed-width Google iframe, so its section is pinned at 260px and the contact
+   text takes the rest of the ~471px brand column. */
+.pa-f-crow{display:flex;align-items:flex-start;gap:0;margin-bottom:18px}
+.pa-f-crow .pa-f-contact{flex:1 1 auto;min-width:0;margin-bottom:0;padding-right:12px}
+.pa-f-gsrc{flex:0 0 260px;max-width:260px;padding-left:12px;border-left:1px solid rgba(255,255,255,.10)}
+.pa-f-gsrc [google-add-preferred-source-btn]{min-height:46px !important}
+@media(max-width:1080px){.pa-f-crow{flex-wrap:wrap;gap:14px}
+.pa-f-crow .pa-f-contact{padding-right:0}
+.pa-f-gsrc{padding-left:0;border-left:0}}
+.pa-f-gsrc-c{font-size:11.5px;line-height:1.45;color:#7f92aa;margin:8px 0 0;max-width:100%}
 .pa-f-socs{display:flex;align-items:center;gap:10px;margin-top:20px}
 .pa-f-soc{width:36px;height:36px;border-radius:9px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;color:#cdd8e7;text-decoration:none;transition:background .15s,color .15s}
 .pa-f-soc:hover{background:#f26522;color:#fff}

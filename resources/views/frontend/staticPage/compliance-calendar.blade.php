@@ -1025,7 +1025,7 @@ details[open] summary::before{transform:rotate(90deg)}
 <!-- Modal (What Changed) -->
 <div class="modal-overlay" id="wcModal"><div class="modal-backdrop" onclick="closeWC()"></div><div class="modal-panel" id="wcPanel"></div></div>
 
-<!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+<!--  -->
 <style>
 /* ── Additional Screen Compatibility Fixes ── */
 @media(max-width:360px){
@@ -1639,7 +1639,7 @@ document.addEventListener('DOMContentLoaded', init);
 </script>
 
 <!-- External JS Dependencies (loaded by master layout in production) -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 @endsection

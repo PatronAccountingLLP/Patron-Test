@@ -264,6 +264,26 @@ $cleanup404Redirects = [
     ['/income-tax-notices', '/income-tax-notices-under-section-148'],
     ['/income-tax-return-filing', '/income-tax-return'],
     ['/index', '/'],
+    // A city name on its own is not a page here and never has been - no view, no
+    // route, not in any sitemap, and the strings do not appear in web.php at all.
+    // They reach the site two ways: 192 city cards on 48 pages lost their service
+    // prefix and link /gurugram instead of /{service}/gurugram, and outside links
+    // arrive with a doubled slash. Both landed on a 404.
+    //
+    // The //city form needs no rule of its own. CollapseDuplicateSlashes turns it
+    // into /city first, so these eight cover both shapes in a single hop.
+    //
+    // This does NOT touch /{service}/{city}. Laravel matches the whole path, so a
+    // one-segment rule cannot catch a two-segment URL - /service-sector-accounting
+    // redirects today while /service-sector-accounting/mumbai stays 200.
+    ['/bangalore', '/'],
+    ['/chennai', '/'],
+    ['/delhi', '/'],
+    ['/gurugram', '/'],
+    ['/hyderabad', '/'],
+    ['/kolkata', '/'],
+    ['/mumbai', '/'],
+    ['/pune', '/'],
     ['/irdai-imf-registration', '/imf-irdai-registration-process'],
     ['/itr-capital-gains', '/itr-for-capital-gains'],
     ['/itr-filing', '/itr-filing-proprietorship'],

@@ -13,11 +13,11 @@
 @section('meta')
     <title>80G Registration in Chennai – Form 10A &amp; Donor Tax Deduction</title>
     <meta name="description" content="CA-assisted 80G registration in Chennai. Form 10A filing with CIT Exemptions Chennai for trusts, societies, Section 8 companies. Call +91 945 945 6700.">
-    <link rel="canonical" href="/registration-for-12a-80g-certificate/chennai">
+    <link rel="canonical" href="/80g-registration/chennai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="80G Registration in Chennai – Form 10A &amp; Donor Tax Deduction">
     <meta property="og:description" content="CA-assisted 80G registration in Chennai. Form 10A filing with CIT Exemptions Chennai for trusts, societies, Section 8 companies. Call +91 945 945 6700.">
-    <meta property="og:url" content="/registration-for-12a-80g-certificate/chennai">
+    <meta property="og:url" content="/80g-registration/chennai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
@@ -39,7 +39,7 @@
           "@type": "Service",
           "name": "80G Registration in Chennai",
           "description": "CA-assisted 80G registration in Chennai. Form 10A filing with CIT Exemptions Chennai for trusts, societies, Section 8 companies. Call +91 945 945 6700.",
-          "url": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/chennai",
+          "url": "https://www.patronaccounting.com/80g-registration/chennai",
           "serviceType": "80G Registration in Chennai",
           "areaServed": {
             "@type": "City",
@@ -55,7 +55,7 @@
             "@type": "Offer",
             "priceCurrency": "INR",
             "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/chennai",
+            "url": "https://www.patronaccounting.com/80g-registration/chennai",
             "price": "4999"
           }
         },
@@ -71,14 +71,14 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "12A and 80G Registration",
-              "item": "https://www.patronaccounting.com/registration-for-12a-80g-certificate"
+              "name": "80G Registration",
+              "item": "https://www.patronaccounting.com/80g-registration"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "80G Registration in Chennai",
-              "item": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/chennai"
+              "item": "https://www.patronaccounting.com/80g-registration/chennai"
             }
           ]
         },
@@ -261,7 +261,7 @@
                         'deal' => 'Website Enquiry - 80G Registration in Chennai',
                         'options' => [
                             ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'registration-for-12a-80g-certificate/chennai', 'label' => '80G Registration in Chennai', 'selected' => true, 'disabled' => false],
+                            ['value' => '80g-registration/chennai', 'label' => '80G Registration in Chennai', 'selected' => true, 'disabled' => false],
                             ['value' => 'gst-registration/chennai', 'label' => 'GST Registration in Chennai', 'selected' => false, 'disabled' => false],
                             ['value' => 'income-tax-return/chennai', 'label' => 'Income Tax Return Filing in Chennai', 'selected' => false, 'disabled' => false],
                             ['value' => 'accounting-services/chennai', 'label' => 'Accounting Services in Chennai', 'selected' => false, 'disabled' => false],

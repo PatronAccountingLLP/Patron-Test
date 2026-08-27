@@ -3,10 +3,10 @@
 @section('meta')
     <title>12A Registration in Bangalore – Form 10A &amp; Tax Exemption</title>
     <meta name="description" content="CA-assisted 12A registration in Bangalore. Tax exemption for NGOs. Section 12A/12AB, Form 10A/10AB, CIT(E) Bangalore. No govt fee. Rs 7,000. Call +91 945 945 6700.">
-    <link rel="canonical" href="/registration-for-12a-80g-certificate/bangalore">
+    <link rel="canonical" href="/12a-registration/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="12A Registration in Bangalore – Form 10A &amp; Tax Exemption"><meta property="og:description" content="12A Bangalore. Tax exemption. CIT(E). No govt fee. Rs 7,000. Call +91 945 945 6700.">
-    <meta property="og:url" content="/registration-for-12a-80g-certificate/bangalore"><meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:url" content="/12a-registration/bangalore"><meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -21,7 +21,7 @@
           "@type": "Service",
           "name": "12A Registration in Bangalore",
           "description": "CA-assisted 12A registration in Bangalore. Tax exemption for NGOs. Section 12A/12AB, Form 10A/10AB, CIT(E) Bangalore. No govt fee. Rs 7,000. Call +91 945 945 6700.",
-          "url": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/bangalore",
+          "url": "https://www.patronaccounting.com/12a-registration/bangalore",
           "serviceType": "12A Registration in Bangalore",
           "areaServed": {
             "@type": "City",
@@ -37,7 +37,7 @@
             "@type": "Offer",
             "priceCurrency": "INR",
             "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/bangalore",
+            "url": "https://www.patronaccounting.com/12a-registration/bangalore",
             "price": "7000"
           }
         },
@@ -60,7 +60,7 @@
               "@type": "ListItem",
               "position": 3,
               "name": "12A Bangalore",
-              "item": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/bangalore"
+              "item": "https://www.patronaccounting.com/12a-registration/bangalore"
             }
           ]
         },

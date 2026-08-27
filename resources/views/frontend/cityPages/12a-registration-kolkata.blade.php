@@ -3,11 +3,11 @@
 @section('meta')
     <title>12A Registration in Kolkata – Form 10A &amp; Tax Exemption</title>
     <meta name="description" content="CA-assisted 12A registration in Kolkata. Income tax exemption for NGOs. Section 12A/12AB, Form 10A/10AB, PCIT Kolkata. Rs 5,999. Call +91 945 945 6700.">
-    <link rel="canonical" href="/registration-for-12a-80g-certificate/kolkata">
+    <link rel="canonical" href="/12a-registration/kolkata">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="12A Registration in Kolkata – Form 10A &amp; Tax Exemption">
     <meta property="og:description" content="12A Kolkata. Tax exemption for NGOs. Provisional and Regular. Rs 5,999. Call +91 945 945 6700.">
-    <meta property="og:url" content="/registration-for-12a-80g-certificate/kolkata">
+    <meta property="og:url" content="/12a-registration/kolkata">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
     <meta property="og:image:width" content="1200">
@@ -24,7 +24,7 @@
           "@type": "Service",
           "name": "12A Registration in Kolkata",
           "description": "CA-assisted 12A registration in Kolkata. Income tax exemption for NGOs. Section 12A/12AB, Form 10A/10AB, PCIT Kolkata. Rs 5,999. Call +91 945 945 6700.",
-          "url": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/kolkata",
+          "url": "https://www.patronaccounting.com/12a-registration/kolkata",
           "serviceType": "12A Registration in Kolkata",
           "areaServed": {
             "@type": "City",
@@ -40,7 +40,7 @@
             "@type": "Offer",
             "priceCurrency": "INR",
             "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/kolkata",
+            "url": "https://www.patronaccounting.com/12a-registration/kolkata",
             "price": "5999"
           }
         },
@@ -63,7 +63,7 @@
               "@type": "ListItem",
               "position": 3,
               "name": "12A Kolkata",
-              "item": "https://www.patronaccounting.com/registration-for-12a-80g-certificate/kolkata"
+              "item": "https://www.patronaccounting.com/12a-registration/kolkata"
             }
           ]
         },

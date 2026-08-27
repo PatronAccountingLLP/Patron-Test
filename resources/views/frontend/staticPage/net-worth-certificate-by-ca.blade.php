@@ -12,6 +12,11 @@
          CTA that scrolls to it, so there is one Bigin form per page. --}}
 @extends('layouts.service-app')
 
+{{-- This page carries its own working Bigin form (the Hub v2 template), so the
+     site-wide band in the layout must stand down or the page shows two. --}}
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 @section('meta')
     <title>Net Worth and Solvency Certificates by a CA in India</title>
     <meta name="description" content="Every net worth, solvency and net owned fund certificate a chartered accountant issues, with a chooser to point you at the document your acceptor asked for.">
@@ -22,11 +27,14 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-by-ca">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Every CA-Issued Net Worth Certificate, in One Directory">
     <meta name="twitter:description" content="Not sure which certificate you need? Patron Accounting's directory routes you to the right document in a click.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
 @endsection
 
 @section('schema')

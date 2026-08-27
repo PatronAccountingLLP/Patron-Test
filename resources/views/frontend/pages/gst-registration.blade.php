@@ -1,4 +1,9 @@
 @extends('layouts.app')
+{{-- This page carries its own working Bigin form (the Hub v2 template), so the
+     site-wide band in the layout must stand down or the page shows two. --}}
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 @section('title', $page->title ?? 'GST Registration in India | Expert CA Assistance — Patron Accounting')
    
     <meta name="description" content="GST Registration in India from ₹999. Get your GSTIN in 3 working days with expert CA assistance. 10,000+ businesses served. 4.9★ Google Rating.">

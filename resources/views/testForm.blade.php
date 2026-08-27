@@ -1,3 +1,8 @@
+{{-- This page carries its own working Bigin form (the Hub v2 template), so the
+     site-wide band in the layout must stand down or the page shows two. --}}
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 <head>

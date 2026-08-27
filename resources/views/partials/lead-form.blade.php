@@ -19,7 +19,9 @@
   not from user input.
 --}}
 {{-- Tell the layout a form is already on this page, so the site-wide band stands down. --}}
-@php(config(['pa.enquiry_form_rendered' => true]))
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 @php($city = $city ?? '')
 @php($cta  = $cta  ?? 'Get Free Quote &rarr;')
                     <form id='BiginWebToRecordForm208810000001209168'

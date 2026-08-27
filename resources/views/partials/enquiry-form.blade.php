@@ -10,7 +10,9 @@
     CSS lives in /css/patron-cluster.css. JS lives in /js/enquiry-form.js.
 --}}
 {{-- Tell the layout a form is already on this page, so the site-wide band stands down. --}}
-@php(config(['pa.enquiry_form_rendered' => true]))
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 @php
     // Primary API: pass $options (ordered [value => label]) + $selected (value string) to keep the
     // page's own service list. Back-compat: $serviceSlug/$serviceLabel fall back to a canonical list.

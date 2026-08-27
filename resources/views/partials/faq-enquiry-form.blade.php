@@ -16,7 +16,9 @@
       $enquiryService   string  the current page's service (sent as a hidden field)
 --}}
 {{-- Tell the layout a form is already on this page, so the site-wide band stands down. --}}
-@php(config(['pa.enquiry_form_rendered' => true]))
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 {{-- Styles live in css/faq-enquiry-form.css, linked by the layouts.
      They used to be inlined here, which shipped 8.6 KB of identical CSS
      on every one of the 2,000+ pages that render this partial. --}}

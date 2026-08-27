@@ -1,5 +1,10 @@
 @extends('layouts.service-app')
 
+{{-- This page carries its own working Bigin form (the Hub v2 template), so the
+     site-wide band in the layout must stand down or the page shows two. --}}
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 @section('meta')
     <title>Accounting &amp; Bookkeeping Services in India: Full Directory</title>
     <meta name="description" content="Every accounting and bookkeeping service Patron runs — by process, software and industry. One CA-led team, flat monthly fees, audit-ready books.">

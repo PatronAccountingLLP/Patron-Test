@@ -1,5 +1,11 @@
 @extends('layouts.service-app')
 
+
+{{-- This page carries its own working Bigin form (Hub v2 template), so the
+     site-wide band in the layout must stand down or the page shows two. --}}
+@php
+    config(['pa.enquiry_form_rendered' => true]);
+@endphp
 @section('meta')
     <title>Ind AS: Full List of Indian Accounting Standards</title>
     <meta name="description" content="Complete list of Ind AS notified in India — scope, applicability and disclosures for each standard, reviewed by Patron&#x27;s CA &amp; CS team.">

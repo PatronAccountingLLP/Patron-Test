@@ -1306,116 +1306,23 @@
                     <p class="form-subtitle">Find the right ITR service for your needs</p>
                 </div>
                 
-                <form action="/submit-itr-enquiry" method="POST" novalidate>
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label class="form-label" for="name">Full Name</label>
-                            <input 
-                                type="text" 
-                                id="name" 
-                                name="name" 
-                                class="form-input" 
-                                placeholder="Your name" 
-                                required 
-                                minlength="2"
-                                maxlength="50"
-                                pattern="[A-Za-z\s]+"
-                                title="Please enter your full name (letters and spaces only)"
-                            >
-                        </div>
-                        
-                        <div class="form-group">
-                            <label class="form-label" for="city">City</label>
-                            <input 
-                                type="text" 
-                                id="city" 
-                                name="city" 
-                                class="form-input" 
-                                placeholder="Your city"
-                                maxlength="50"
-                                pattern="[A-Za-z\s]+"
-                                title="Please enter your city name (letters and spaces only)"
-                            >
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="form-label" for="phone">Phone Number</label>
-                        <div class="phone-input-wrapper">
-                            <select class="country-code" name="country_code" required>
-                                <option value="+91">🇮🇳 +91</option>
-                                <option value="+1">🇺🇸 +1</option>
-                                <option value="+44">🇬🇧 +44</option>
-                                <option value="+971">🇦🇪 +971</option>
-                                <option value="+65">🇸🇬 +65</option>
-                                <option value="+61">🇦🇺 +61</option>
-                                <option value="+1">🇨🇦 +1</option>
-                                <option value="+49">🇩🇪 +49</option>
-                                <option value="+33">🇫🇷 +33</option>
-                                <option value="+81">🇯🇵 +81</option>
-                                <option value="+966">🇸🇦 +966</option>
-                                <option value="+60">🇲🇾 +60</option>
-                                <option value="+31">🇳🇱 +31</option>
-                                <option value="+41">🇨🇭 +41</option>
-                                <option value="+46">🇸🇪 +46</option>
-                                <option value="+47">🇳🇴 +47</option>
-                                <option value="+64">🇳🇿 +64</option>
-                                <option value="+973">🇧🇭 +973</option>
-                                <option value="+974">🇶🇦 +974</option>
-                                <option value="+965">🇰🇼 +965</option>
-                                <option value="+968">🇴🇲 +968</option>
-                            </select>
-                            <input 
-                                type="tel" 
-                                id="phone" 
-                                name="phone" 
-                                class="phone-number-input" 
-                                placeholder="Enter phone number" 
-                                required
-                                pattern="[0-9]{7,15}"
-                                minlength="7"
-                                maxlength="15"
-                                title="Please enter a valid phone number (7-15 digits)"
-                            >
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="form-label" for="service">What do you need help with?</label>
-                        <select id="service" name="service_needed" class="form-select" required>
-                            <option value="">Select your situation</option>
-                            <option value="Need help choosing ITR service">Need help choosing ITR service</option>
-                            <option value="Salary ITR filing">Salary ITR filing</option>
-                            <option value="Business ITR filing">Business ITR filing</option>
-                            <option value="Capital gains ITR">Capital gains ITR</option>
-                            <option value="NRI tax filing">NRI tax filing</option>
-                            <option value="F&O trading ITR">F&O trading ITR</option>
-                            <option value="Company ITR filing">Company ITR filing</option>
-                            <option value="Complex/multiple income sources">Complex/multiple income sources</option>
-                            <option value="Tax planning guidance">Tax planning guidance</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-                    
-                    <button type="submit" class="form-submit-btn" id="submitBtn">Find My ITR Service →</button>
-                    
-                    <p class="form-note">Get personalized service recommendations. Free consultation, no obligation.</p>
-                    
-                    <div class="form-trust-signals">
-                        <div class="trust-item">
-                            <svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                            Free Guidance
-                        </div>
-                        <div class="trust-item">
-                            <svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                            No Spam
-                        </div>
-                        <div class="trust-item">
-                            <svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                            Expert Advice
-                        </div>
-                    </div>
-                </form>
+                @include('partials.lead-form', [
+                    'deal'    => 'Website Enquiry - Get Personalized Guidance',
+                    'cta'     => 'Find My ITR Service &rarr;',
+                    'options' => [
+                        ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Need help choosing ITR service', 'label' => 'Need help choosing ITR service', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Salary ITR filing', 'label' => 'Salary ITR filing', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Business ITR filing', 'label' => 'Business ITR filing', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Capital gains ITR', 'label' => 'Capital gains ITR', 'selected' => false, 'disabled' => false],
+                        ['value' => 'NRI tax filing', 'label' => 'NRI tax filing', 'selected' => false, 'disabled' => false],
+                        ['value' => 'F&O trading ITR', 'label' => 'F&O trading ITR', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Company ITR filing', 'label' => 'Company ITR filing', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Complex/multiple income sources', 'label' => 'Complex/multiple income sources', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Tax planning guidance', 'label' => 'Tax planning guidance', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+                    ],
+                ])
             </div>
         </div>
 

@@ -1114,57 +1114,23 @@
                     <h2 class="form-title">Get Personalised Compliance Guidance</h2>
                     <p class="form-subtitle">Route to the right ROC/MCA service for your situation</p>
                 </div>
-                <form action="https://www.patronaccounting.com/submit-compliance-enquiry" method="POST" novalidate>
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label class="form-label" for="name">Full Name</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required minlength="2" maxlength="50" pattern="[A-Za-z\\s]+">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="city">City</label>
-                            <input type="text" id="city" name="city" class="form-input" placeholder="Your city" maxlength="50" pattern="[A-Za-z\\s]+">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="phone">Phone Number</label>
-                        <div class="phone-input-wrapper">
-                            <select class="country-code" name="country_code" required>
-                                <option value="+91">🇮🇳 India (+91)</option>
-                                <option value="+1">🇺🇸 USA (+1)</option>
-                                <option value="+44">🇬🇧 UK (+44)</option>
-                                <option value="+971">🇦🇪 UAE (+971)</option>
-                                <option value="+65">🇸🇬 Singapore (+65)</option>
-                                <option value="+61">🇦🇺 Australia (+61)</option>
-                                <option value="+49">🇩🇪 Germany (+49)</option>
-                                <option value="+81">🇯🇵 Japan (+81)</option>
-                            </select>
-                            <input type="tel" id="phone" name="phone" class="phone-number-input" placeholder="Enter phone number" required pattern="[0-9]{7,15}" minlength="7" maxlength="15">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="service">What do you need help with?</label>
-                        <select id="service" name="service_needed" class="form-select" required>
-                            <option value="">Select your situation</option>
-                            <option value="Annual ROC compliance (AOC-4 / MGT-7)">Annual ROC compliance (AOC-4 / MGT-7)</option>
-                            <option value="LLP annual compliance (Form 11 / 8)">LLP annual compliance (Form 11 / 8)</option>
-                            <option value="Director appointment / resignation / KYC">Director appointment / resignation / KYC</option>
-                            <option value="Share capital / allotment change">Share capital / allotment change</option>
-                            <option value="Company name / object / office change">Company name / object / office change</option>
-                            <option value="SBO / charges / specialised filing">SBO / charges / specialised filing</option>
-                            <option value="Merger / conversion / restructuring">Merger / conversion / restructuring</option>
-                            <option value="Company / LLP closure or restoration">Company / LLP closure or restoration</option>
-                            <option value="ROC notice / penalty / backlog cleanup">ROC notice / penalty / backlog cleanup</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="form-submit-btn" id="submitBtn">Find My Compliance Plan →</button>
-                    <p class="form-note">Get personalised plan recommendations. Free consultation, no obligation.</p>
-                    <div class="form-trust-signals">
-                        <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>CA + CS Led</div>
-                        <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>83 Services</div>
-                        <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Since 2019</div>
-                    </div>
-                </form>
+                @include('partials.lead-form', [
+                    'deal'    => 'Website Enquiry - Get Personalised Compliance Guidance',
+                    'cta'     => 'Find My Compliance Plan &rarr;',
+                    'options' => [
+                        ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Annual ROC compliance (AOC-4 / MGT-7)', 'label' => 'Annual ROC compliance (AOC-4 / MGT-7)', 'selected' => false, 'disabled' => false],
+                        ['value' => 'LLP annual compliance (Form 11 / 8)', 'label' => 'LLP annual compliance (Form 11 / 8)', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Director appointment / resignation / KYC', 'label' => 'Director appointment / resignation / KYC', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Share capital / allotment change', 'label' => 'Share capital / allotment change', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Company name / object / office change', 'label' => 'Company name / object / office change', 'selected' => false, 'disabled' => false],
+                        ['value' => 'SBO / charges / specialised filing', 'label' => 'SBO / charges / specialised filing', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Merger / conversion / restructuring', 'label' => 'Merger / conversion / restructuring', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Company / LLP closure or restoration', 'label' => 'Company / LLP closure or restoration', 'selected' => false, 'disabled' => false],
+                        ['value' => 'ROC notice / penalty / backlog cleanup', 'label' => 'ROC notice / penalty / backlog cleanup', 'selected' => false, 'disabled' => false],
+                        ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+                    ],
+                ])
             </div>
         </div>
 

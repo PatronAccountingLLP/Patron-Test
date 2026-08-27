@@ -1147,57 +1147,23 @@
  <h2 class="form-title">Get Personalised GST Guidance</h2>
  <p class="form-subtitle">Route to the right service for your situation</p>
  </div>
- <form action="https://www.patronaccounting.com/submit-gst-enquiry" method="POST" novalidate>
- <div class="form-grid">
- <div class="form-group">
- <label class="form-label" for="name">Full Name</label>
- <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required minlength="2" maxlength="50" pattern="[A-Za-z\\s]+">
- </div>
- <div class="form-group">
- <label class="form-label" for="city">City</label>
- <input type="text" id="city" name="city" class="form-input" placeholder="Your city" maxlength="50" pattern="[A-Za-z\\s]+">
- </div>
- </div>
- <div class="form-group">
- <label class="form-label" for="phone">Phone Number</label>
- <div class="phone-input-wrapper">
- <select class="country-code" name="country_code" required>
- <option value="+91">🇮🇳 India (+91)</option>
- <option value="+1">🇺🇸 USA (+1)</option>
- <option value="+44">🇬🇧 UK (+44)</option>
- <option value="+971">🇦🇪 UAE (+971)</option>
- <option value="+65">🇸🇬 Singapore (+65)</option>
- <option value="+61">🇦🇺 Australia (+61)</option>
- <option value="+49">🇩🇪 Germany (+49)</option>
- <option value="+81">🇯🇵 Japan (+81)</option>
- </select>
- <input type="tel" id="phone" name="phone" class="phone-number-input" placeholder="Enter phone number" required pattern="[0-9]{7,15}" minlength="7" maxlength="15">
- </div>
- </div>
- <div class="form-group">
- <label class="form-label" for="service">What do you need help with?</label>
- <select id="service" name="service_needed" class="form-select" required>
- <option value="">Select your situation</option>
- <option value="New GST registration">New GST registration</option>
- <option value="Monthly GST return filing">Monthly GST return filing</option>
- <option value="GST annual return (GSTR-9 / 9C)">GST annual return (GSTR-9 / 9C)</option>
- <option value="Input tax credit / 2B reconciliation">Input tax credit / 2B reconciliation</option>
- <option value="GST refund claim">GST refund claim</option>
- <option value="GST notice / dispute / SCN">GST notice / dispute / SCN</option>
- <option value="E-invoicing / e-way bill setup">E-invoicing / e-way bill setup</option>
- <option value="GST advisory (classification / valuation / POS)">GST advisory (classification / valuation / POS)</option>
- <option value="Industry-specific GST returns">Industry-specific GST returns</option>
- <option value="Other">Other</option>
- </select>
- </div>
- <button type="submit" class="form-submit-btn" id="submitBtn">Find My GST Plan →</button>
- <p class="form-note">Get personalised plan recommendations. Free consultation, no obligation.</p>
- <div class="form-trust-signals">
- <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>₹15 Cr+ Refunds</div>
- <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>CA + CS Led</div>
- <div class="trust-item"><svg class="trust-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>500+ GSTINs</div>
- </div>
- </form>
+ @include('partials.lead-form', [
+     'deal'    => 'Website Enquiry - Get Personalised GST Guidance',
+     'cta'     => 'Find My GST Plan &rarr;',
+     'options' => [
+         ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
+         ['value' => 'New GST registration', 'label' => 'New GST registration', 'selected' => false, 'disabled' => false],
+         ['value' => 'Monthly GST return filing', 'label' => 'Monthly GST return filing', 'selected' => false, 'disabled' => false],
+         ['value' => 'GST annual return (GSTR-9 / 9C)', 'label' => 'GST annual return (GSTR-9 / 9C)', 'selected' => false, 'disabled' => false],
+         ['value' => 'Input tax credit / 2B reconciliation', 'label' => 'Input tax credit / 2B reconciliation', 'selected' => false, 'disabled' => false],
+         ['value' => 'GST refund claim', 'label' => 'GST refund claim', 'selected' => false, 'disabled' => false],
+         ['value' => 'GST notice / dispute / SCN', 'label' => 'GST notice / dispute / SCN', 'selected' => false, 'disabled' => false],
+         ['value' => 'E-invoicing / e-way bill setup', 'label' => 'E-invoicing / e-way bill setup', 'selected' => false, 'disabled' => false],
+         ['value' => 'GST advisory (classification / valuation / POS)', 'label' => 'GST advisory (classification / valuation / POS)', 'selected' => false, 'disabled' => false],
+         ['value' => 'Industry-specific GST returns', 'label' => 'Industry-specific GST returns', 'selected' => false, 'disabled' => false],
+         ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+     ],
+ ])
  </div>
  </div>
 

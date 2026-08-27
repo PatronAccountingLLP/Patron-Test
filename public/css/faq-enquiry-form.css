@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Patron Accounting - FAQ enquiry form ("Get a free callback")
+   Component stylesheet for partials/faq-enquiry-form.
+
+   These rules also exist in css/faq.css, which the layouts load for the
+   surrounding .faq-expanded grid. This file carries only the form, so the
+   partial can be dropped anywhere -- including pages with no FAQ block -- and
+   still bring its own styling.
+   ========================================================================== */
+
+/* ---------- Compact enquiry form (left column) ---------- */
+.faq-enquiry {
+    margin-top: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 18px 18px 20px;
+    box-shadow: 0 2px 10px rgba(15, 44, 92, 0.06);
+}
+.faq-enquiry__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0F2C5C;
+    margin: 0 0 4px;
+}
+.faq-enquiry__sub {
+    font-size: 13px;
+    color: #6B7280;
+    line-height: 1.5;
+    margin: 0 0 14px;
+}
+.faq-enquiry__input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #1F2937;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+.faq-enquiry__input::placeholder { color: #9CA3AF; }
+.faq-enquiry__input:focus {
+    outline: none;
+    background: #FFFFFF;
+    border-color: #E8712C;
+    box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.12);
+}
+.faq-enquiry__btn {
+    width: 100%;
+    padding: 11px 16px;
+    margin-top: 2px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #E8712C;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+.faq-enquiry__btn:hover { background: #D4621F; }
+.faq-enquiry__btn:active { transform: translateY(1px); }
+.faq-enquiry__btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.faq-enquiry__msg { font-size: 13px; line-height: 1.5; margin: 10px 0 0; }
+.faq-enquiry__msg.is-success { color: #0F9D58; }
+.faq-enquiry__msg.is-error { color: #DC2626; }
+/* Phone field with +91 prefix */
+.faq-enquiry__phone {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+.faq-enquiry__cc {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    background: #F3F4F6;
+    border: 1px solid #E5E7EB;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+}
+.faq-enquiry__input--phone {
+    margin-bottom: 0;
+    border-radius: 0 8px 8px 0;
+}
+/* Current-service context line (replaces the service picker) */
+.faq-enquiry__context {
+    font-size: 12.5px;
+    color: #6B7280;
+    margin: 0 0 12px;
+}
+.faq-enquiry__context strong { color: #0F2C5C; font-weight: 600; }
+/* Trust badges */
+.faq-enquiry__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    margin-top: 12px;
+}
+.faq-enquiry__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #6B7280;
+}
+.faq-enquiry__badge svg {
+    width: 13px;
+    height: 13px;
+    color: #0F9D58;
+}
+/* Enquiry form: not sticky, moved to the BOTTOM (below the questions) */
+    .faq-enquiry { order: 4; margin-top: 0; }
+@media (max-width: 900px) {
+  /* Enquiry form: not sticky, moved to the BOTTOM (below the questions) */
+    .faq-enquiry { order: 4; margin-top: 0; }
+}
+
+
+/* --------------------------------------------------------------------------
+   Site-wide band (partials/site-enquiry-form)
+
+   The layouts render this on pages that have no form of their own, so it has
+   to sit correctly on templates it knows nothing about: full-bleed background,
+   its own container, and no dependency on the page's grid.
+   -------------------------------------------------------------------------- */
+.site-enquiry {
+    background: #F6F8FB;
+    border-top: 1px solid #E5E9F0;
+    padding: 56px 20px;
+}
+.site-enquiry__inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+.site-enquiry__title {
+    font-family: 'Barlow', system-ui, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #0F2C5C;
+    margin: 0 0 12px;
+}
+.site-enquiry__lead {
+    font-size: 16px;
+    line-height: 1.65;
+    color: #4B5563;
+    margin: 0 0 18px;
+    max-width: 52ch;
+}
+.site-enquiry__points {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.site-enquiry__points li {
+    position: relative;
+    padding-left: 26px;
+    font-size: 15px;
+    color: #374151;
+    line-height: 1.5;
+}
+.site-enquiry__points li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 15px;
+    height: 8px;
+    border-left: 2px solid #E8712C;
+    border-bottom: 2px solid #E8712C;
+    transform: rotate(-45deg);
+}
+.site-enquiry__phone {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    color: #0F2C5C;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(15, 44, 92, .3);
+    padding-bottom: 2px;
+}
+.site-enquiry__phone:hover { color: #E8712C; border-bottom-color: #E8712C; }
+.site-enquiry__form .faq-enquiry { margin-top: 0; }
+
+@media (max-width: 900px) {
+    .site-enquiry { padding: 40px 18px; }
+    .site-enquiry__inner { grid-template-columns: 1fr; gap: 26px; }
+    .site-enquiry__title { font-size: 25px; }
+}

@@ -20,11 +20,14 @@
     <meta property="og:url" content="/accounts-payable-outsourcing-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AP Outsourcing Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Gurugram accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and approval-ready vendor payouts.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
 @endsection
 
 @section('schema')
@@ -429,123 +432,14 @@
             margin: 0 auto;
         }
         @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before {
-            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
-        }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label {
-            display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700;
-            color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px;
-        }
-        .form-input {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); transition: all 0.2s ease;
-        }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .form-select {
-            width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px;
-            color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
-            border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
-        }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .phone-group {
-            min-height: 50px;
-            display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md);
-            border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
-        }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-
-        .country-code-dropdown {
-            display: flex; align-items: center; justify-content: flex-start; gap: 6px;
-            padding: 13px 10px 13px 14px; cursor: pointer;
-            border-right: 1px solid var(--gray-200); background: transparent; position: relative;
-            min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s;
-            box-sizing: border-box;
-        }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag {
-            font-size: 20px; line-height: 1; display:flex; align-items:center;
-            width: 26px; overflow: hidden; flex-shrink: 0;
-            font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
-        }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
 
         .country-dropdown-list {
             display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
             background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
             box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
         }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-
-        .btn-submit {
-            width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
-            font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
-            border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
-            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
-        }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
 
         @media (max-width: 480px) {
-            .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; }
-            .form-title { font-size: 20px; }
-            .country-dropdown-list { width: 260px; }
-            .form-footer { flex-wrap: wrap; gap: 10px; }
-            .btn-submit { font-size: 16px; padding: 14px 20px; }
         }
 
         /* STATS BAR */
@@ -1503,204 +1397,6 @@
 </section>
 
 </main>
-
-<script>
-// ── Country Code Dropdown ──────────────────────────────────────
-var countries = [
-    { name: 'India', code: '+91', flag: '🇮🇳' },
-    { name: 'United States', code: '+1', flag: '🇺🇸' },
-    { name: 'United Kingdom', code: '+44', flag: '🇬🇧' },
-    { name: 'United Arab Emirates', code: '+971', flag: '🇦🇪' },
-    { name: 'Singapore', code: '+65', flag: '🇸🇬' },
-    { name: 'Australia', code: '+61', flag: '🇦🇺' },
-    { name: 'Canada', code: '+1', flag: '🇨🇦' },
-    { name: 'Germany', code: '+49', flag: '🇩🇪' },
-    { name: 'Saudi Arabia', code: '+966', flag: '🇸🇦' }
-];
-var selectedCountry = countries[0];
-
-function populateCountries() {
-    var container = document.getElementById('countryOptions');
-    if (!container) return;
-    container.innerHTML = '';
-    countries.forEach(function(c, i) {
-        var div = document.createElement('div');
-        div.className = 'country-option' + (i === 0 ? ' active' : '');
-        div.innerHTML = '<span class="flag-emoji">' + c.flag + '</span><span class="country-name">' + c.name + '</span><span class="dial-code">' + c.code + '</span>';
-        div.onclick = function(e) { e.stopPropagation(); selectCountry(c); };
-        container.appendChild(div);
-    });
-}
-function selectCountry(c) {
-    selectedCountry = c;
-    document.getElementById('selectedFlag').textContent = c.flag;
-    document.getElementById('selectedCode').textContent = c.code;
-    document.getElementById('countryCodeDropdown').classList.remove('open');
-}
-function toggleCountryDropdown(e) {
-    e.stopPropagation();
-    document.getElementById('countryCodeDropdown').classList.toggle('open');
-}
-function filterCountries(val) {
-    val = (val || '').toLowerCase();
-    var opts = document.querySelectorAll('#countryOptions .country-option');
-    opts.forEach(function(o) {
-        var name = o.querySelector('.country-name').textContent.toLowerCase();
-        var code = o.querySelector('.dial-code').textContent.toLowerCase();
-        o.style.display = (name.indexOf(val) > -1 || code.indexOf(val) > -1) ? 'flex' : 'none';
-    });
-}
-document.addEventListener('click', function() {
-    var d = document.getElementById('countryCodeDropdown');
-    if (d) d.classList.remove('open');
-});
-
-// ── Field Error Helpers ────────────────────────────────────────
-function clearFieldError(el) {
-    el.classList.remove('input-error');
-    var parent = el.closest('.form-group');
-    if (parent) {
-        var err = parent.querySelector('.field-error-msg');
-        if (err) err.remove();
-    }
-}
-function setFieldError(el, message) {
-    el.classList.add('input-error');
-    var parent = el.closest('.form-group');
-    if (parent && !parent.querySelector('.field-error-msg')) {
-        var errDiv = document.createElement('div');
-        errDiv.className = 'field-error-msg';
-        errDiv.textContent = message;
-        parent.appendChild(errDiv);
-    }
-}
-
-// ── Phone Validation ──────────────────────────────────────────
-function validatePhone(val, dialCode) {
-    val = val.replace(/[\s\-().]/g, '');
-    if (!val) { return { valid: false, message: 'Phone number is required' }; }
-    if (dialCode === '+91') {
-        if (!/^[6-9][0-9]{9}$/.test(val)) {
-            if (val.length !== 10) { return { valid: false, message: 'Enter a valid 10-digit Indian mobile number' }; }
-            return { valid: false, message: 'Indian mobile numbers must start with 6, 7, 8, or 9' };
-        }
-        return { valid: true };
-    }
-    if (!/^[0-9]{7,15}$/.test(val)) { return { valid: false, message: 'Enter a valid phone number (7-15 digits)' }; }
-    return { valid: true };
-}
-function validatePhoneOnBlur(input) {
-    var val = input.value.trim();
-    var dialCode = (selectedCountry && selectedCountry.code) ? selectedCountry.code : '+91';
-    var result = validatePhone(val, dialCode);
-    var errorEl = document.getElementById('phoneError');
-    var groupEl = document.getElementById('phoneGroup');
-    if (val === '') return;
-    if (!result.valid) {
-        groupEl.classList.add('input-error');
-        errorEl.textContent = result.message;
-        errorEl.style.display = 'block';
-    } else {
-        groupEl.classList.remove('input-error');
-        errorEl.style.display = 'none';
-    }
-}
-
-function validateConsultationForm() {
-    var isValid = true;
-    var nameField = document.getElementById('consultFullName');
-    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
-
-    var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
-    var phoneResult = validatePhone(phoneInput.value.trim(), selectedCountry ? selectedCountry.code : '+91');
-    if (!phoneResult.valid) {
-        setFieldError(phoneInput, phoneResult.message);
-        document.getElementById('phoneGroup').classList.add('input-error');
-        document.getElementById('phoneError').textContent = phoneResult.message;
-        document.getElementById('phoneError').style.display = 'block';
-        isValid = false;
-    } else {
-        document.getElementById('phoneGroup').classList.remove('input-error');
-        document.getElementById('phoneError').style.display = 'none';
-    }
-
-    var cityField = document.getElementById('consultCity');
-    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
-
-    var serviceField = document.getElementById('consultService');
-    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
-
-    if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal.replace(/[\s\-().]/g, '');
-        var serviceName = serviceField.options[serviceField.selectedIndex].text;
-        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
-        document.getElementById('pageSourceField').value = window.location.href;
-        var btn = document.getElementById('formSubmitBtn');
-        btn.disabled = true;
-        btn.textContent = 'Submitting...';
-        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote →'; }, 6000);
-    }
-    return isValid;
-}
-
-window.addEventListener('DOMContentLoaded', function() {
-    populateCountries();
-    var pageSourceField = document.getElementById('pageSourceField');
-    if (pageSourceField) { pageSourceField.value = window.location.href; }
-    var iframe = document.getElementById('hidden208810000001209168Frame');
-    if (iframe) {
-        iframe.addEventListener('load', function() {
-            try {
-                var iframeDoc = this.contentWindow.document;
-                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
-            } catch (error) { showSuccessState(); }
-        });
-    }
-});
-
-function showSuccessState() {
-    var formCard = document.getElementById('consultationFormCard');
-    if (formCard) {
-        formCard.innerHTML =
-            '<div class="form-success">' +
-                '<div class="form-success-icon">' +
-                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
-                '</div>' +
-                '<h3>Thank You!</h3>' +
-                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
-            '</div>';
-    }
-}
-</script>
-
-<script>
-// Bigin Mandatory Fields Validation
-var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
-var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
-
-function checkMandatory208810000001209168() {
-    var isReturn = true;
-    for(var i = 0; i < mndFields208810000001209168.length; i++) {
-        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
-        if(fieldObj) {
-            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) { isReturn = false; }
-        }
-    }
-    if(isReturn) { document.getElementById('formSubmitBtn').disabled = true; }
-    return isReturn;
-}
-
-document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
-    try {
-        var doc = arguments[0].currentTarget.contentWindow.document;
-        if(doc.body && doc.body.childElementCount !== 0) { showSuccessState(); }
-    } catch (error) { showSuccessState(); }
-});
-</script>
-
-<!-- Bigin WebForm Script -->
-<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
 
 <script>
 

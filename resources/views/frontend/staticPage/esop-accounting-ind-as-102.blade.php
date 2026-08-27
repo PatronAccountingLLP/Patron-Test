@@ -18,11 +18,14 @@
     <meta property="og:url" content="https://www.patronaccounting.com/esop-accounting-ind-as-102">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Accounting Under Ind AS 102: Monthly CA Support | Patron Accounting">
     <meta name="twitter:description" content="Grant-wise fair value and graded vesting, computed and documented. A close you can trust and a file the auditor accepts. Start with a books review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
 @endsection
 
 @section('schema')
@@ -813,16 +816,11 @@
                     <h2 class="faq-expanded__title">ESOP Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on esop accounting scope, process, documents and pricing for Indian businesses.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
-                    <form class="faq-enquiry" action="https://www.patronaccounting.com/enquiry" method="post" novalidate>
-  <h3 class="faq-enquiry__title">Ask about your books</h3>
-  <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>
-  <p class="faq-enquiry__context">Enquiring about: <strong>ESOP Accounting</strong></p>
-  <input class="faq-enquiry__input" type="text" name="name" placeholder="Your name" required>
-  <input class="faq-enquiry__input" type="email" name="email" placeholder="Email" required>
-  <div class="faq-enquiry__phone"><span class="faq-enquiry__cc">+91</span><input class="faq-enquiry__input faq-enquiry__input--phone" type="tel" name="phone" placeholder="Mobile" required></div>
-  <button class="faq-enquiry__btn" type="submit">Get a Callback</button>
-  <p class="faq-enquiry__msg" role="status" aria-live="polite"></p>
-</form>
+                    @include('partials.faq-enquiry-form', [
+                        'enquiryTitle'   => 'Ask about your books',
+                        'enquirySub'     => 'Send your requirement for a scoped quote.',
+                        'enquiryService' => 'ESOP Accounting',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item">

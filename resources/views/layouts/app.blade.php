@@ -109,6 +109,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Unified Expanded FAQ (single source of truth: /css/faq.css) -->
+    {{-- Enquiry form component styles: see css/faq-enquiry-form.css --}}
+    <link href="{{ asset('css/faq-enquiry-form.css') }}?v={{ @filemtime(base_path('css/faq-enquiry-form.css')) ?: '1' }}" rel="stylesheet">
     <link href="{{ asset('css/faq.css') }}" rel="stylesheet">
     <script src="{{ asset('js/faq-toggle.js') }}" defer></script>
     
@@ -216,6 +218,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         @yield('content')
     </main>
 
+    {{-- Site-wide enquiry form: one source, pulled in like the footer. --}}
+    @include('partials.site-enquiry-form')
     @include('partials.footer')
 
     <!-- Bootstrap 5 JS -->

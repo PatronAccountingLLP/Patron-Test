@@ -4,6 +4,7 @@
       @include('partials.lead-form', [
           'deal'    => 'Website Enquiry - GST Registration',   // hidden Potential Name
           'city'    => 'Pune',                                  // optional: pre-fills the City input
+          'cta'     => 'Find My ESOP Service',                  // optional: overrides the button text
           'options' => [ ['value' => 'gst-registration', 'label' => 'GST Registration',
                           'selected' => true, 'disabled' => false], ... ],
       ])
@@ -17,7 +18,10 @@
   latter and literally render "&amp;" on the page. The values come from our own templates,
   not from user input.
 --}}
+{{-- Tell the layout a form is already on this page, so the site-wide band stands down. --}}
+@php(config(['pa.enquiry_form_rendered' => true]))
 @php($city = $city ?? '')
+@php($cta  = $cta  ?? 'Get Free Quote &rarr;')
                     <form id='BiginWebToRecordForm208810000001209168'
                           name='BiginWebToRecordForm208810000001209168'
                           action='https://bigin.zoho.in/crm/WebToRecordForm'
@@ -83,5 +87,7 @@
                             </select>
                         </div>
 
-                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get Free Quote &rarr;</button>
+                        <button type='submit' class='btn-submit' id='formSubmitBtn'>{!! $cta !!}</button>
                     </form>
+
+@include('partials.enquiry-form-scripts')

@@ -373,10 +373,6 @@
         box-shadow: 0 12px 35px rgba(255, 107, 53, 0.35);
     }
 
-    .btn-submit:active {
-        transform: translateY(0);
-    }
-
     .btn-submit:disabled {
         background: #D1D5DB;
         cursor: not-allowed;

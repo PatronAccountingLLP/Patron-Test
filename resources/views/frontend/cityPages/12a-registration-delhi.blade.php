@@ -19,11 +19,14 @@
     <meta property="og:url" content="/12a-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A Registration in Delhi - Form 10A & Tax Exemption">
     <meta name="twitter:description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
 @endsection
 
 @section('schema')
@@ -320,59 +323,8 @@
         /* Form Card */
         .form-card { background: var(--white); border-radius: var(--radius-xl); padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative; max-width: 420px; width: 100%; animation: fadeInForm 0.5s ease 0.2s forwards; opacity: 0; margin: 0 auto; }
         @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-card::before { content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px; background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px; }
-        .form-header { margin-bottom: 24px; }
-        .form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-group { margin-bottom: 16px; }
-        .form-label { display: block; font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 6px; }
-        .form-input { width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px; color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent; border-radius: var(--radius-md); transition: all 0.2s ease; }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:hover { background: var(--gray-100); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-        .form-select { width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px; color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent; border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease; }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-        .phone-group { min-height: 50px; display: flex; align-items: center; background: var(--gray-50); border-radius: var(--radius-md); border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative; }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
-        .country-code-dropdown { display: flex; align-items: center; justify-content: flex-start; gap: 6px; padding: 13px 10px 13px 14px; cursor: pointer; border-right: 1px solid var(--gray-200); background: transparent; position: relative; min-width: 80px; user-select: none; flex-shrink: 0; transition: background 0.15s; box-sizing: border-box; }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
-        .selected-flag { font-size: 20px; line-height: 1; display:flex; align-items:center; width: 26px; overflow: hidden; flex-shrink: 0; font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif; }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
         .country-dropdown-list { display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px; background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md); box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column; }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input { width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200); font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary); background: var(--gray-50); outline: none; }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option { display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer; transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary); }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; padding-left: 12px !important; align-self: center; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
-        .btn-submit { width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif; font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange); border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease; display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px; }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
-        .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer { display: flex; justify-content: center; gap: 16px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--gray-100); }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
-        .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
-        .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-        @media (max-width: 480px) { .form-card { padding: 24px 16px; border-radius: var(--radius-lg); max-width: 100%; } .form-title { font-size: 20px; } .country-dropdown-list { width: 260px; } .form-footer { flex-wrap: wrap; gap: 10px; } .btn-submit { font-size: 16px; padding: 14px 20px; } }
+        @media (max-width: 480px) { }
 
         /* Stats Bar */
         .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 32px; }
@@ -591,61 +543,20 @@
                         <p class="form-subtitle">Talk to a CA/CS expert today</p>
                     </div>
                     <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
-                    <form id='BiginWebToRecordForm208810000001209168' name='BiginWebToRecordForm208810000001209168' action='https://bigin.zoho.in/crm/WebToRecordForm' method='POST' enctype='multipart/form-data' target='hidden208810000001209168Frame' onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()' accept-charset='UTF-8'>
-                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
-                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
-                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
-                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
-                        <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - 12A Registration Delhi'/>
-                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
-                        <input type='hidden' name='Stage' value='Qualification'/>
-                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
-                        <div class="form-group">
-                            <label class="form-label">Full Name</label>
-                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80' class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">Phone Number</label>
-                            <div class="phone-group" id="phoneGroup">
-                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
-                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
-                                    <span class="selected-code" id="selectedCode">+91</span>
-                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
-                                    <div class="country-dropdown-list" id="countryDropdownList">
-                                        <input type="text" class="country-search-input" id="countrySearchInput" placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
-                                        <div class="country-options" id="countryOptions"></div>
-                                    </div>
-                                </div>
-                                <input type='hidden' name='Contacts.Mobile' id='mobileHidden' value=''/>
-                                <input type='tel' id='consultPhone' class='form-input phone-input' placeholder='Your phone number' maxlength='15' oninput='clearFieldError(this); syncPhoneField();' onblur='validatePhoneOnBlur()'/>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">City</label>
-                            <input name='Contacts.Mailing City' id='consultCity' type='text' class='form-input' placeholder='Your city' value='Delhi' oninput='clearFieldError(this)'/>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">Service Needed</label>
-                            <select name='Contacts.Description' id='consultService' class='form-select' onchange='clearFieldError(this)'>
-                                <option value="registration-for-12a-80g-certificate/delhi" selected>12A and 80G Registration in Delhi</option>
-                                <option value="ngo-registration/delhi">NGO Registration in Delhi</option>
-                                <option value="section8-company-registration/delhi">Section 8 Company Registration in Delhi</option>
-                                <option value="society-registration/delhi">Society Registration in Delhi</option>
-                                <option value="gst-registration/delhi">GST Registration in Delhi</option>
-                                <option value="income-tax-return/delhi">Income Tax Return Filing in Delhi</option>
-                                <option value="startup-registration/delhi">Startup Registration in Delhi</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <button type='submit' id='formSubmitBtn' class='btn-submit'>Get Free Quote &rarr;</button>
-                        <p class="form-response-note">Free consultation - No obligation</p>
-                        <div class="form-footer">
-                            <div class="form-footer-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> 100% Confidential</div>
-                            <div class="form-footer-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Expert CA Team</div>
-                        </div>
-                    </form>
+                    @include('partials.lead-form', [
+                        'deal'    => 'Website Enquiry - 12A Registration Delhi',
+                        'city'    => 'Delhi',
+                        'options' => [
+                            ['value' => 'registration-for-12a-80g-certificate/delhi', 'label' => '12A and 80G Registration in Delhi', 'selected' => true, 'disabled' => false],
+                            ['value' => 'ngo-registration/delhi', 'label' => 'NGO Registration in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'section8-company-registration/delhi', 'label' => 'Section 8 Company Registration in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'society-registration/delhi', 'label' => 'Society Registration in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return Filing in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'startup-registration/delhi', 'label' => 'Startup Registration in Delhi', 'selected' => false, 'disabled' => false],
+                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+                        ],
+                    ])
                 </div>
             </div>
         </div>
@@ -1323,233 +1234,6 @@
 @include('layouts.itr-season-strip')
 
 </main>
-
-<script>
-(function () {
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    /* =========================
-       SAFE GETTER
-    ========================= */
-    function el(id) {
-        return document.getElementById(id);
-    }
-
-    /* =========================
-       COUNTRY DATA
-    ========================= */
-    var countries = [
-        {name:"India",code:"+91",flag:"\u{1F1EE}\u{1F1F3}"},
-        {name:"United States",code:"+1",flag:"\u{1F1FA}\u{1F1F8}"},
-        {name:"United Kingdom",code:"+44",flag:"\u{1F1EC}\u{1F1E7}"},
-        {name:"Canada",code:"+1",flag:"\u{1F1E8}\u{1F1E6}"},
-        {name:"Australia",code:"+61",flag:"\u{1F1E6}\u{1F1FA}"},
-        {name:"UAE",code:"+971",flag:"\u{1F1E6}\u{1F1EA}"}
-    ];
-
-    var selectedCountry = countries[0];
-
-    /* =========================
-       POPULATE COUNTRIES
-    ========================= */
-    function populateCountries() {
-        var container = el("countryOptions");
-        if (!container) return;
-
-        container.innerHTML = "";
-
-        countries.forEach(function (c) {
-            var div = document.createElement("div");
-            div.className = "country-option";
-
-            div.innerHTML =
-                '<span>' + c.flag + '</span>' +
-                '<span>' + c.name + '</span>' +
-                '<span>' + c.code + '</span>';
-
-            div.onclick = function (e) {
-                e.stopPropagation();
-                selectCountry(c);
-            };
-
-            container.appendChild(div);
-        });
-    }
-
-    function selectCountry(c) {
-        selectedCountry = c;
-
-        var flag = el("selectedFlag");
-        var code = el("selectedCode");
-        var dd = el("countryCodeDropdown");
-
-        if (flag) flag.innerHTML = c.flag;
-        if (code) code.textContent = c.code;
-        if (dd) dd.classList.remove("open");
-
-        syncPhoneField();
-    }
-
-    window.toggleCountryDropdown = function (e) {
-        e.stopPropagation();
-        var dd = el("countryCodeDropdown");
-        if (dd) dd.classList.toggle("open");
-    };
-
-    window.filterCountries = function (val) {
-        var options = document.querySelectorAll(".country-option");
-        if (!options) return;
-
-        val = (val || "").toLowerCase();
-
-        options.forEach(function (opt) {
-            opt.style.display =
-                opt.textContent.toLowerCase().includes(val)
-                    ? "flex"
-                    : "none";
-        });
-    };
-
-    document.addEventListener("click", function () {
-        var dd = el("countryCodeDropdown");
-        if (dd) dd.classList.remove("open");
-    });
-
-    /* =========================
-       PHONE SYNC
-    ========================= */
-    function syncPhoneField() {
-        var code = el("selectedCode");
-        var phone = el("consultPhone");
-        var hidden = el("mobileHidden");
-
-        if (!code || !phone || !hidden) return;
-
-        hidden.value = code.textContent + phone.value.replace(/\D/g, "");
-    }
-
-    window.syncPhoneField = syncPhoneField;
-
-    /* =========================
-       CLEAR FIELD ERROR (FIXED)
-    ========================= */
-    window.clearFieldError = function (el) {
-        if (!el) return;
-
-        el.classList.remove("input-error");
-
-        var parent = el.closest ? el.closest(".form-group") : el.parentNode;
-        if (!parent) return;
-
-        var err = parent.querySelector(".field-error-msg");
-        if (err) err.remove();
-    };
-
-    /* =========================
-       PHONE VALIDATION ON BLUR
-    ========================= */
-    window.validatePhoneOnBlur = function () {
-
-        var phone = el("consultPhone");
-        var group = el("phoneGroup");
-
-        if (!phone || !group) return;
-
-        var val = phone.value.replace(/\D/g, "");
-
-        if (val.length < 7 || val.length > 15) {
-            group.classList.add("input-error");
-        } else {
-            group.classList.remove("input-error");
-        }
-    };
-
-    /* =========================
-       FORM VALIDATION
-    ========================= */
-    window.validateConsultationForm = function () {
-
-        var name = el("consultFullName");
-        var phone = el("consultPhone");
-        var city = el("consultCity");
-        var service = el("consultService");
-
-        var ok = true;
-
-        function fail(x) {
-            if (x) x.classList.add("input-error");
-            ok = false;
-        }
-
-        function pass(x) {
-            if (x) x.classList.remove("input-error");
-        }
-
-        if (!name || !name.value.trim()) fail(name); else pass(name);
-        if (!phone || !phone.value.trim()) fail(phone); else pass(phone);
-        if (!city || !city.value.trim()) fail(city); else pass(city);
-        if (!service || !service.value) fail(service); else pass(service);
-
-        syncPhoneField();
-
-        if (ok) {
-            var btn = el("formSubmitBtn");
-            if (btn) {
-                btn.disabled = true;
-                btn.textContent = "Submitting...";
-                setTimeout(function () {
-                    btn.disabled = false;
-                    btn.innerHTML = "Get Free Quote →";
-                }, 4000);
-            }
-        }
-
-        return ok;
-    };
-
-    window.checkMandatory208810000001209168 = function () {
-        return true;
-    };
-
-    /* =========================
-       IFRAME SUCCESS HANDLER
-    ========================= */
-    var iframe = el("hidden208810000001209168Frame");
-
-    function showSuccessState() {
-        var card = el("consultationFormCard");
-        if (!card) return;
-
-        card.innerHTML =
-            '<div class="form-success">' +
-            '<h3>Thank You!</h3>' +
-            '<p>Our team will contact you shortly.</p>' +
-            '</div>';
-    }
-
-    if (iframe) {
-        iframe.addEventListener("load", function () {
-            try {
-                var doc = this.contentWindow.document;
-                if (doc && doc.body && doc.body.childElementCount !== 0) {
-                    showSuccessState();
-                }
-            } catch (e) {
-                showSuccessState();
-            }
-        });
-    }
-
-    /* =========================
-       INIT
-    ========================= */
-    populateCountries();
-
-});
-
-})();
-</script>
 
 <script>
 

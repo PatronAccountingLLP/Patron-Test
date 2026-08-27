@@ -267,7 +267,6 @@ display: flex;
     text-decoration: underline;
 }
 
-
 .action-btn-document {
     background-color: transparent;
     border: none;
@@ -1231,7 +1230,6 @@ display: flex;
 
 /* External csss apply here */
 
-
         :root {
             --orange: #E8712C;
             --orange-dark: #D4621F;
@@ -1657,8 +1655,6 @@ display: flex;
         .content-section[id] {
             scroll-margin-top: 80px;
         }
-    
-
 
         .sr-only {
             position: absolute;
@@ -2001,17 +1997,6 @@ display: flex;
             position: relative;
         }
 
-        .form-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 28px;
-            right: 28px;
-            height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue));
-            border-radius: 0 0 3px 3px;
-        }
-
         .form-header {
             text-align: center;
             margin-bottom: 24px;
@@ -2022,11 +2007,6 @@ display: flex;
             font-weight: 700;
             color: var(--blue);
             margin-bottom: 4px;
-        }
-
-        .form-subtitle {
-            font-size: 13px;
-            color: var(--text-muted);
         }
 
         .form-group {
@@ -2070,16 +2050,6 @@ display: flex;
             transition: all 0.2s ease;
         }
 
-        .phone-group:hover {
-            background: var(--gray-100);
-        }
-
-        .phone-group:focus-within {
-            background: var(--white);
-            border-color: var(--orange);
-            box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.08);
-        }
-
         .country-code {
             display: flex;
             align-items: center;
@@ -2116,27 +2086,19 @@ display: flex;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
             background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
         }
-        .form-select:hover { background-color: var(--gray-100); }
-        .form-select:focus { outline: none; background-color: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
         /* Phone Group + Country Dropdown */
         .phone-group {
             display: flex; align-items: stretch; background: var(--gray-50); border-radius: var(--radius-md);
             border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
         }
-        .phone-group:hover { background: var(--gray-100); }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232,113,44,0.08); }
 
         .country-code-dropdown {
             display: flex; align-items: center; gap: 5px; padding: 0 10px 0 14px; cursor: pointer;
             border-right: 1px solid var(--gray-200); background: transparent; position: relative;
             min-width: 100px; user-select: none; flex-shrink: 0; transition: background 0.15s;
         }
-        .country-code-dropdown:hover { background: rgba(0,0,0,0.03); }
         .selected-flag { font-size: 20px; line-height: 1; }
-        .selected-code { font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-        .dropdown-arrow { transition: transform 0.25s ease; color: var(--gray-400); flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { transform: rotate(180deg); }
 
         /* Country Dropdown List */
         .country-dropdown-list {
@@ -2144,29 +2106,9 @@ display: flex;
             background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
             box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; flex-direction: column;
         }
-        .country-code-dropdown.open .country-dropdown-list { display: flex; }
-        .country-search-input {
-            width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
-            font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-            background: var(--gray-50); outline: none;
-        }
-        .country-search-input::placeholder { color: var(--gray-400); }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; }
-        .country-options::-webkit-scrollbar { width: 5px; }
-        .country-options::-webkit-scrollbar-track { background: transparent; }
-        .country-options::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 10px; }
-        .country-option {
-            display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer;
-            transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
-        }
-        .country-option:hover, .country-option.active { background: var(--orange-lighter); }
-        .country-option .flag-emoji { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-        .country-option .country-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; flex-shrink: 0; }
 
         /* Phone Input Override */
         .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; }
-        .phone-input:focus { box-shadow: none !important; border: none !important; }
 
         /* Submit Button */
         .btn-submit {
@@ -2175,29 +2117,15 @@ display: flex;
             border: none; border-radius: 50px; cursor: pointer; transition: all 0.25s ease;
             display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px;
         }
-        .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; box-shadow: none; }
 
         /* Form Footer */
         .form-response-note { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 14px; margin-bottom: 0; }
-        .form-footer {
-            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
-            padding-top: 16px; border-top: 1px solid var(--gray-100);
-        }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
 
         /* Error States */
         .form-input.input-error, .form-select.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .phone-group.input-error { border-color: #FD6B6D !important; box-shadow: 0 0 0 2px rgba(253,107,109,0.12) !important; }
-        .field-error-msg { font-size: 12px; color: #FD6B6D; margin-top: 4px; font-weight: 500; }
 
         /* Success State */
         .form-success { text-align: center; padding: 40px 20px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
-        .form-success h3 { font-size: 22px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
-        .form-success p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
         /* WhatsApp Toggle */
         .whatsapp-toggle {
             display: flex;
@@ -2291,10 +2219,6 @@ display: flex;
             box-shadow: 0 6px 20px rgba(232, 113, 44, 0.3);
         }
 
-        .btn-submit:active {
-            transform: translateY(0);
-        }
-
         /* Form Footer */
         .form-footer {
             display: flex;
@@ -2303,20 +2227,6 @@ display: flex;
             margin-top: 16px;
             padding-top: 16px;
             border-top: 1px solid var(--gray-100);
-        }
-
-        .form-footer-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 11px;
-            color: var(--text-muted);
-        }
-
-        .form-footer-item svg {
-            width: 14px;
-            height: 14px;
-            color: var(--green);
         }
 
         /* ============================================
@@ -2795,11 +2705,6 @@ display: flex;
             .form-card {
                 padding: 24px 20px;
             }
-
-            .form-footer {
-                flex-wrap: wrap;
-                gap: 10px;
-            }
         }
 
         /* Animations */
@@ -2824,7 +2729,6 @@ display: flex;
             animation: fadeIn 0.5s ease 0.2s forwards;
             opacity: 0;
         }
-
 
         /* section third  */
         /* ============================================
@@ -3328,7 +3232,6 @@ display: flex;
             }
         }
     /* 5th section */
-
 
         /* ============================================
            STEPS SECTION
@@ -4055,7 +3958,6 @@ display: flex;
             }
         }    
 
-    
 *{
     padding: 0;
     margin: 0;
@@ -4124,7 +4026,6 @@ section ul li:not(.nav-item)::before {
     background-position: center;
     background-size: 12px;
 }
-
 
 </style>
 @endpush
@@ -4330,74 +4231,14 @@ section ul li:not(.nav-item)::before {
                      </div>
     <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
 
-                    <form id='BiginWebToRecordForm208810000001209168'
-                          name='BiginWebToRecordForm208810000001209168'
-                          action='https://bigin.zoho.in/crm/WebToRecordForm'
-                          method='POST'
-                          enctype='multipart/form-data'
-                          target='hidden208810000001209168Frame'
-                          onSubmit='javascript:document.charset="UTF-8"; return validateConsultationForm() && checkMandatory208810000001209168()'
-                          accept-charset='UTF-8'>
-
-                        <input type='text' style='display:none;' name='xnQsjsdp' value='e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'/>
-                        <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-                        <input type='text' style='display:none;' name='xmIwtLD' value='2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843'/>
-                        <input type='text' style='display:none;' name='actionType' value='UG90ZW50aWFscw=='/>
-                        <input type='hidden' name='rmsg' id='rmsg' value='true'/>
-                        <input type='text' style='display:none;' name='returnURL' value='null' />
-                        <input type='hidden' name='Potential Name' id='dealNameField' value='Website Enquiry - GSTAT Appeal Filing'/>
-                        <input type='hidden' name='Pipeline' value='Sales Pipeline Standard'/>
-                        <input type='hidden' name='Stage' value='Qualification'/>
-                        <input type='hidden' name='Contacts.Lead Source' id='pageSourceField' value=''/>
-
-                        <div class="form-group">
-                            {{-- <label class="form-label">Full Name</label> --}}
-                            <input name='Contacts.Last Name' id='consultFullName' type='text' maxlength='80'
-                                   class='form-input' placeholder='Your name' oninput='clearFieldError(this)'/>
-                        </div>
-
-                        <div class="form-group">
-                            {{-- <label class="form-label">Phone Number</label> --}}
-                            <div class="phone-group" id="phoneGroup">
-                                <div class="country-code-dropdown" id="countryCodeDropdown" onclick="toggleCountryDropdown(event)">
-                                    <span class="selected-flag" id="selectedFlag">&#127470;&#127475;</span>
-                                    <span class="selected-code" id="selectedCode">+91</span>
-                                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
-                                    <div class="country-dropdown-list" id="countryDropdownList">
-                                        <input type="text" class="country-search-input" id="countrySearchInput"
-                                               placeholder="Search country..." onclick="event.stopPropagation()" oninput="filterCountries(this.value)"/>
-                                        <div class="country-options" id="countryOptions"></div>
-                                    </div>
-                                </div>
-                                <input type='text' class='form-input phone-input' id='phoneNumberInput' maxlength='15'
-                                       placeholder='Enter phone number'
-                                       oninput='this.value = this.value.replace(/[^0-9]/g, ""); clearFieldError(this); document.getElementById("phoneGroup").classList.remove("input-error")'/>
-                            </div>
-                            <input type='hidden' name='Contacts.Mobile' id='combinedMobileField' value=''/>
-                        </div>
-
-                        <div class="form-group">
-                            {{-- <label class="form-label">City</label> --}}
-                            <input name='Contacts.Mailing City' id='consultCity' type='text' maxlength='100'
-                                   class='form-input' placeholder='Enter your city' oninput='clearFieldError(this)'/>
-                        </div>
-
-                        <div class="form-group" style="display: none">
-                            {{-- <label class="form-label">Service Needed</label> --}}
-                             @php
-                                                            
-                                $service_name = ucwords(str_replace('-', ' ', implode('-', request()->segments())));
-                                @endphp
-                            
-
-                                <select name="Contacts.Description" id="consultService" class="form-select" onchange="clearFieldError(this)">
-                                    <option value="" disabled>Select a service</option>
-                                    <option value="{{ $service_name }}" selected>{{ $service_name }}</option>
-                                </select>
-                        </div>
-
-                        <button type='submit' class='btn-submit' id='formSubmitBtn'>Get started now &rarr;</button>
-                    </form>
+                    @include('partials.lead-form', [
+                        'deal'    => 'Website Enquiry - GSTAT Appeal Filing',
+                        'cta'     => 'Get started now &rarr;',
+                        'options' => [
+                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
+                            ['value' => '{{ $service_name }}', 'label' => '{{ $service_name }}', 'selected' => true, 'disabled' => false],
+                        ],
+                    ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>    
                         <div class="form-footer">
@@ -6710,237 +6551,7 @@ $(document).ready(function() {
 <!-- ============================================
      CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
      ============================================ -->
-<script>
-// Country Data (46 countries)
-var countries = [
-    { name: "India", code: "+91", flag: "\u{1F1EE}\u{1F1F3}", iso: "IN" },
-    { name: "United States", code: "+1", flag: "\u{1F1FA}\u{1F1F8}", iso: "US" },
-    { name: "United Kingdom", code: "+44", flag: "\u{1F1EC}\u{1F1E7}", iso: "GB" },
-    { name: "United Arab Emirates", code: "+971", flag: "\u{1F1E6}\u{1F1EA}", iso: "AE" },
-    { name: "Saudi Arabia", code: "+966", flag: "\u{1F1F8}\u{1F1E6}", iso: "SA" },
-    { name: "Singapore", code: "+65", flag: "\u{1F1F8}\u{1F1EC}", iso: "SG" },
-    { name: "Australia", code: "+61", flag: "\u{1F1E6}\u{1F1FA}", iso: "AU" },
-    { name: "Canada", code: "+1", flag: "\u{1F1E8}\u{1F1E6}", iso: "CA" },
-    { name: "Germany", code: "+49", flag: "\u{1F1E9}\u{1F1EA}", iso: "DE" },
-    { name: "France", code: "+33", flag: "\u{1F1EB}\u{1F1F7}", iso: "FR" },
-    { name: "Japan", code: "+81", flag: "\u{1F1EF}\u{1F1F5}", iso: "JP" },
-    { name: "China", code: "+86", flag: "\u{1F1E8}\u{1F1F3}", iso: "CN" },
-    { name: "South Korea", code: "+82", flag: "\u{1F1F0}\u{1F1F7}", iso: "KR" },
-    { name: "Brazil", code: "+55", flag: "\u{1F1E7}\u{1F1F7}", iso: "BR" },
-    { name: "South Africa", code: "+27", flag: "\u{1F1FF}\u{1F1E6}", iso: "ZA" },
-    { name: "Nigeria", code: "+234", flag: "\u{1F1F3}\u{1F1EC}", iso: "NG" },
-    { name: "Kenya", code: "+254", flag: "\u{1F1F0}\u{1F1EA}", iso: "KE" },
-    { name: "Malaysia", code: "+60", flag: "\u{1F1F2}\u{1F1FE}", iso: "MY" },
-    { name: "Indonesia", code: "+62", flag: "\u{1F1EE}\u{1F1E9}", iso: "ID" },
-    { name: "Thailand", code: "+66", flag: "\u{1F1F9}\u{1F1ED}", iso: "TH" },
-    { name: "Vietnam", code: "+84", flag: "\u{1F1FB}\u{1F1F3}", iso: "VN" },
-    { name: "Philippines", code: "+63", flag: "\u{1F1F5}\u{1F1ED}", iso: "PH" },
-    { name: "Bangladesh", code: "+880", flag: "\u{1F1E7}\u{1F1E9}", iso: "BD" },
-    { name: "Pakistan", code: "+92", flag: "\u{1F1F5}\u{1F1F0}", iso: "PK" },
-    { name: "Sri Lanka", code: "+94", flag: "\u{1F1F1}\u{1F1F0}", iso: "LK" },
-    { name: "Nepal", code: "+977", flag: "\u{1F1F3}\u{1F1F5}", iso: "NP" },
-    { name: "Qatar", code: "+974", flag: "\u{1F1F6}\u{1F1E6}", iso: "QA" },
-    { name: "Kuwait", code: "+965", flag: "\u{1F1F0}\u{1F1FC}", iso: "KW" },
-    { name: "Bahrain", code: "+973", flag: "\u{1F1E7}\u{1F1ED}", iso: "BH" },
-    { name: "Oman", code: "+968", flag: "\u{1F1F4}\u{1F1F2}", iso: "OM" },
-    { name: "New Zealand", code: "+64", flag: "\u{1F1F3}\u{1F1FF}", iso: "NZ" },
-    { name: "Ireland", code: "+353", flag: "\u{1F1EE}\u{1F1EA}", iso: "IE" },
-    { name: "Netherlands", code: "+31", flag: "\u{1F1F3}\u{1F1F1}", iso: "NL" },
-    { name: "Italy", code: "+39", flag: "\u{1F1EE}\u{1F1F9}", iso: "IT" },
-    { name: "Spain", code: "+34", flag: "\u{1F1EA}\u{1F1F8}", iso: "ES" },
-    { name: "Switzerland", code: "+41", flag: "\u{1F1E8}\u{1F1ED}", iso: "CH" },
-    { name: "Sweden", code: "+46", flag: "\u{1F1F8}\u{1F1EA}", iso: "SE" },
-    { name: "Russia", code: "+7", flag: "\u{1F1F7}\u{1F1FA}", iso: "RU" },
-    { name: "Mexico", code: "+52", flag: "\u{1F1F2}\u{1F1FD}", iso: "MX" },
-    { name: "Egypt", code: "+20", flag: "\u{1F1EA}\u{1F1EC}", iso: "EG" },
-    { name: "Turkey", code: "+90", flag: "\u{1F1F9}\u{1F1F7}", iso: "TR" },
-    { name: "Israel", code: "+972", flag: "\u{1F1EE}\u{1F1F1}", iso: "IL" },
-    { name: "Hong Kong", code: "+852", flag: "\u{1F1ED}\u{1F1F0}", iso: "HK" },
-    { name: "Taiwan", code: "+886", flag: "\u{1F1F9}\u{1F1FC}", iso: "TW" },
-    { name: "Myanmar", code: "+95", flag: "\u{1F1F2}\u{1F1F2}", iso: "MM" },
-    { name: "Afghanistan", code: "+93", flag: "\u{1F1E6}\u{1F1EB}", iso: "AF" }
-];
-
-var selectedCountry = countries[0]; // Default: India
-
-function populateCountries(filter) {
-    filter = filter || '';
-    var container = document.getElementById('countryOptions');
-    if (!container) return;
-    container.innerHTML = '';
-    var filtered = filter
-        ? countries.filter(function(c) { return c.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1 || c.code.indexOf(filter) !== -1; })
-        : countries;
-    filtered.forEach(function(country) {
-        var option = document.createElement('div');
-        option.className = 'country-option' + (country.iso === selectedCountry.iso ? ' active' : '');
-        option.innerHTML = '<span class="flag-emoji">' + country.flag + '</span><span class="country-name">' + country.name + '</span><span class="dial-code">' + country.code + '</span>';
-        option.onclick = function(e) { e.stopPropagation(); selectCountry(country); };
-        container.appendChild(option);
-    });
-}
-
-function selectCountry(country) {
-    selectedCountry = country;
-    document.getElementById('selectedFlag').textContent = country.flag;
-    document.getElementById('selectedCode').textContent = country.code;
-    document.getElementById('countryCodeDropdown').classList.remove('open');
-    document.getElementById('countrySearchInput').value = '';
-    populateCountries();
-    document.getElementById('phoneNumberInput').focus();
-}
-
-function toggleCountryDropdown(event) {
-    event.stopPropagation();
-    var dropdown = document.getElementById('countryCodeDropdown');
-    var isOpen = dropdown.classList.contains('open');
-    if (isOpen) {
-        dropdown.classList.remove('open');
-    } else {
-        dropdown.classList.add('open');
-        document.getElementById('countrySearchInput').value = '';
-        populateCountries();
-        setTimeout(function() { document.getElementById('countrySearchInput').focus(); }, 50);
-    }
-}
-
-function filterCountries(value) { populateCountries(value); }
-
-// Close dropdown on outside click
-document.addEventListener('click', function(e) {
-    var dropdown = document.getElementById('countryCodeDropdown');
-    if (dropdown && !dropdown.contains(e.target)) { dropdown.classList.remove('open'); }
-});
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') { document.getElementById('countryCodeDropdown').classList.remove('open'); }
-});
-
-// Form Validation
-function clearFieldError(fieldObj) {
-    fieldObj.classList.remove('input-error');
-    var parent = fieldObj.closest('.form-group');
-    if (parent) { var errMsg = parent.querySelector('.field-error-msg'); if (errMsg) errMsg.remove(); }
-}
-
-function setFieldError(fieldObj, message) {
-    fieldObj.classList.add('input-error');
-    var parent = fieldObj.closest('.form-group');
-    if (parent && !parent.querySelector('.field-error-msg')) {
-        var errDiv = document.createElement('div');
-        errDiv.className = 'field-error-msg';
-        errDiv.textContent = message;
-        parent.appendChild(errDiv);
-    }
-}
-
-function validateConsultationForm() {
-    var isValid = true;
-
-    var nameField = document.getElementById('consultFullName');
-    if (!nameField.value.trim()) { setFieldError(nameField, 'Full name is required'); isValid = false; }
-
-    var phoneInput = document.getElementById('phoneNumberInput');
-    var phoneVal = phoneInput.value.trim();
-    if (!phoneVal) {
-        setFieldError(phoneInput, 'Phone number is required');
-        document.getElementById('phoneGroup').classList.add('input-error');
-        isValid = false;
-    } else if (phoneVal.length < 7) {
-        setFieldError(phoneInput, 'Enter a valid phone number');
-        document.getElementById('phoneGroup').classList.add('input-error');
-        isValid = false;
-    } else {
-        document.getElementById('phoneGroup').classList.remove('input-error');
-    }
-
-    var cityField = document.getElementById('consultCity');
-    if (!cityField.value.trim()) { setFieldError(cityField, 'City is required'); isValid = false; }
-
-    var serviceField = document.getElementById('consultService');
-    if (!serviceField.value) { setFieldError(serviceField, 'Please select a service'); isValid = false; }
-
-    if (isValid) {
-        document.getElementById('combinedMobileField').value = selectedCountry.code + phoneVal;
-        var serviceName = serviceField.options[serviceField.selectedIndex].text;
-        document.getElementById('dealNameField').value = 'Website Enquiry - ' + serviceName;
-        document.getElementById('pageSourceField').value = window.location.href;
-        var btn = document.getElementById('formSubmitBtn');
-        btn.disabled = true;
-        btn.textContent = 'Submitting...';
-        setTimeout(function() { btn.disabled = false; btn.innerHTML = 'Get Free Quote \u2192'; }, 6000);
-    }
-    return isValid;
-}
-
-// Success state handler (Bigin iframe load)
-window.addEventListener('DOMContentLoaded', function() {
-    populateCountries();
-    // Auto-embed page URL in form
-    var pageSourceField = document.getElementById('pageSourceField');
-    if (pageSourceField) { pageSourceField.value = window.location.href; }
-    var iframe = document.getElementById('hidden208810000001209168Frame');
-    if (iframe) {
-        iframe.addEventListener('load', function() {
-            try {
-                var iframeDoc = this.contentWindow.document;
-                if (iframeDoc.body && iframeDoc.body.childElementCount !== 0) { showSuccessState(); }
-            } catch (error) { showSuccessState(); }
-        });
-    }
-});
-
-function showSuccessState() {
-    var formCard = document.getElementById('consultationFormCard');
-    if (formCard) {
-        formCard.innerHTML =
-            '<div class="form-success">' +
-                '<div class="form-success-icon">' +
-                    '<svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="32" height="32"><path d="M5 13l4 4L19 7"/></svg>' +
-                '</div>' +
-                '<h3>Thank You!</h3>' +
-                '<p>Our CA/CS expert will contact you shortly.<br>Check your phone for a call from Patron Accounting.</p>' +
-            '</div>';
-    }
-}
-</script>
-
-<script>
-// Bigin Mandatory Fields Validation (from Bigin source code)
-var mndFields208810000001209168 = new Array('Potential\x20Name','Contacts.Last\x20Name','Contacts.Mobile','Contacts.Mailing\x20City','Contacts.Description');
-var fldLangVal208810000001209168 = new Array('Website Enquiry Form','Full Name','Mobile','City','Service Needed');
-
-function checkMandatory208810000001209168() {
-    var isReturn = true;
-    for(var i = 0; i < mndFields208810000001209168.length; i++) {
-        var fieldObj = document.forms['BiginWebToRecordForm208810000001209168'][mndFields208810000001209168[i]];
-        if(fieldObj) {
-            if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-                isReturn = false;
-            }
-        }
-    }
-    if(isReturn) {
-        document.getElementById('formSubmitBtn').disabled = true;
-    }
-    return isReturn;
-}
-
-// Bigin iframe success handler (overrides our custom one above via event delegation)
-document.getElementById('hidden208810000001209168Frame').addEventListener('load', function () {
-    try {
-        var doc = arguments[0].currentTarget.contentWindow.document;
-        if(doc.body && doc.body.childElementCount !== 0) {
-            showSuccessState();
-        }
-    } catch (error) {
-        showSuccessState();
-    }
-});
-</script>
-
 <!-- Bigin WebForm Script (handles form POST to Bigin servers) -->
-<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
-
 @endpush
 
 @endsection

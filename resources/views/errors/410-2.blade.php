@@ -1,3 +1,5 @@
+{{-- No callback form on an error or sign-in screen. --}}
+@php(config(['pa.enquiry_form_rendered' => true]))
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                PATRON ACCOUNTING - CUSTOM 410 (GONE) PAGE                    ║

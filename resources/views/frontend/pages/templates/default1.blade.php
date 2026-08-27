@@ -267,7 +267,6 @@ display: flex;
     text-decoration: underline;
 }
 
-
 .action-btn-document {
     background-color: transparent;
     border: none;
@@ -1231,7 +1230,6 @@ display: flex;
 
 /* External csss apply here */
 
-
         :root {
             --orange: #E8712C;
             --orange-dark: #D4621F;
@@ -1657,8 +1655,6 @@ display: flex;
         .content-section[id] {
             scroll-margin-top: 80px;
         }
-    
-
 
         .sr-only {
             position: absolute;
@@ -2001,17 +1997,6 @@ display: flex;
             position: relative;
         }
 
-        .form-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 28px;
-            right: 28px;
-            height: 3px;
-            background: linear-gradient(90deg, var(--orange), var(--blue));
-            border-radius: 0 0 3px 3px;
-        }
-
         .form-header {
             text-align: center;
             margin-bottom: 24px;
@@ -2022,11 +2007,6 @@ display: flex;
             font-weight: 700;
             color: var(--blue);
             margin-bottom: 4px;
-        }
-
-        .form-subtitle {
-            font-size: 13px;
-            color: var(--text-muted);
         }
 
         .form-group {
@@ -2068,16 +2048,6 @@ display: flex;
             border: 1.5px solid transparent;
             overflow: hidden;
             transition: all 0.2s ease;
-        }
-
-        .phone-group:hover {
-            background: var(--gray-100);
-        }
-
-        .phone-group:focus-within {
-            background: var(--white);
-            border-color: var(--orange);
-            box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.08);
         }
 
         .country-code {
@@ -2124,17 +2094,6 @@ display: flex;
             background-repeat: no-repeat;
             background-position: right 14px center;
             transition: all 0.2s ease;
-        }
-
-        .form-select:hover {
-            background-color: var(--gray-100);
-        }
-
-        .form-select:focus {
-            outline: none;
-            background-color: var(--white);
-            border-color: var(--orange);
-            box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.08);
         }
 
         /* WhatsApp Toggle */
@@ -2230,10 +2189,6 @@ display: flex;
             box-shadow: 0 6px 20px rgba(232, 113, 44, 0.3);
         }
 
-        .btn-submit:active {
-            transform: translateY(0);
-        }
-
         /* Form Footer */
         .form-footer {
             display: flex;
@@ -2242,20 +2197,6 @@ display: flex;
             margin-top: 16px;
             padding-top: 16px;
             border-top: 1px solid var(--gray-100);
-        }
-
-        .form-footer-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 11px;
-            color: var(--text-muted);
-        }
-
-        .form-footer-item svg {
-            width: 14px;
-            height: 14px;
-            color: var(--green);
         }
 
         /* ============================================
@@ -2734,11 +2675,6 @@ display: flex;
             .form-card {
                 padding: 24px 20px;
             }
-
-            .form-footer {
-                flex-wrap: wrap;
-                gap: 10px;
-            }
         }
 
         /* Animations */
@@ -2763,7 +2699,6 @@ display: flex;
             animation: fadeIn 0.5s ease 0.2s forwards;
             opacity: 0;
         }
-
 
         /* section third  */
         /* ============================================
@@ -3267,7 +3202,6 @@ display: flex;
             }
         }
     /* 5th section */
-
 
         /* ============================================
            STEPS SECTION
@@ -3994,7 +3928,6 @@ display: flex;
             }
         }    
 
-    
 *{
     padding: 0;
     margin: 0;
@@ -4063,7 +3996,6 @@ section ul li:not(.nav-item)::before {
     background-position: center;
     background-size: 12px;
 }
-
 
 </style>
 @endpush

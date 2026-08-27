@@ -9,6 +9,8 @@
         $serviceLabel  Display text for that pre-selected service
     CSS lives in /css/patron-cluster.css. JS lives in /js/enquiry-form.js.
 --}}
+{{-- Tell the layout a form is already on this page, so the site-wide band stands down. --}}
+@php(config(['pa.enquiry_form_rendered' => true]))
 @php
     // Primary API: pass $options (ordered [value => label]) + $selected (value string) to keep the
     // page's own service list. Back-compat: $serviceSlug/$serviceLabel fall back to a canonical list.
@@ -130,6 +132,4 @@
     </div>
 </div>
 
-{{-- Shared logic + Bigin webform handler. Included once per page, with the form. --}}
-<script src="{{ asset('js/enquiry-form.js') }}?v={{ @filemtime(public_path('js/enquiry-form.js')) ?: '1' }}" defer></script>
-<script id='wf_script' src='https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79'></script>
+@include('partials.enquiry-form-scripts')

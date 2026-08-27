@@ -110,22 +110,13 @@
 
         /* ===== FORM CARD ===== */
         .form-card { background: var(--white); border-radius: var(--radius-xl); padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative; }
-        .form-card::before { content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px; background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px; }
         .form-header { text-align: center; margin-bottom: 24px; }
         .form-title { font-size: 20px; font-weight: 700; color: var(--blue); margin-bottom: 4px; }
-        .form-subtitle { font-size: 13px; color: var(--text-muted); }
-        .form-input { width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 14px; color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent; border-radius: var(--radius-md); transition: all 0.2s ease; }
-        .form-input::placeholder { color: var(--gray-400); }
-        .form-input:focus { outline: none; background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.08); }
         .phone-group { display: flex; background: var(--gray-50); border-radius: var(--radius-md); border: 1.5px solid transparent; overflow: hidden; transition: all 0.2s ease; }
-        .phone-group:focus-within { background: var(--white); border-color: var(--orange); box-shadow: 0 0 0 3px rgba(232, 113, 44, 0.08); }
         .country-code { display: flex; align-items: center; gap: 6px; padding: 13px 12px; font-size: 14px; font-weight: 500; color: var(--text-secondary); border-right: 1px solid var(--gray-200); background: transparent; }
         .phone-group .form-input { background: transparent; border: none; box-shadow: none; }
         .btn-submit { width: 100%; padding: 14px 24px; font-family: 'Barlow', sans-serif; font-size: 15px; font-weight: 700; color: var(--white); background: var(--orange); border: none; border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; display: flex; align-items: center; justify-content: center; gap: 8px; }
         .btn-submit:hover { background: var(--orange-dark); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(232, 113, 44, 0.3); }
-        .form-footer { display: flex; justify-content: center; gap: 16px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--gray-100); }
-        .form-footer-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); }
 
         /* ===== STATS BAR ===== */
         .stats-bar { background: var(--white); border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 24px 0; }
@@ -322,7 +313,6 @@
         }
 
         @media (max-width: 576px) {
-            .form-footer { flex-wrap: wrap; gap: 10px; }
         }
 
         /* Comparison table */

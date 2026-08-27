@@ -19,11 +19,14 @@
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/networth/revaluation-reserve">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Revaluation Reserve: The Reserve Definitions Leave Out">
     <meta name="twitter:description" content="The Section 2(57) exclusion, set against what Ind AS revaluation models actually permit in the accounts.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">@include('partials.glossary-inline-assets')
 @endsection
 

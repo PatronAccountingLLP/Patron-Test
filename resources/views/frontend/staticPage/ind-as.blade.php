@@ -139,28 +139,17 @@
       <div style="background:#fff;border:1px solid #E7E8EC;border-radius:18px;padding:24px;box-shadow:0 24px 50px -30px rgba(27,54,93,0.3)">
         <div style="font-size:17px;font-weight:800;color:#1B365D">Get a Free Quote</div>
         <div style="font-size:12.5px;color:#8A8F99;margin-bottom:14px">Talk to a CA / CS expert &mdash; no obligation.</div>
-        <iframe name="hubFormFrame" style="display:none" title="submit target"></iframe>
-        <form action="https://bigin.zoho.in/crm/WebToRecordForm" name="BiginWebToRecordForm2" method="POST" target="hubFormFrame" accept-charset="UTF-8" onsubmit="var cc=this.querySelector('.cc-select').value;this.querySelector('.mob').value=cc+this.querySelector('.ph').value;" style="display:flex;flex-direction:column;gap:11px">
-          <input type="text" style="display:none" name="xnQsjsdp" value="e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79" />
-          <input type="hidden" name="zc_gad" value="" />
-          <input type="text" style="display:none" name="xmIwtLD" value="2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843" />
-          <input type="text" style="display:none" name="actionType" value="UG90ZW50aWFscw==" />
-          <input type="hidden" name="rmsg" value="true" /><input type="text" style="display:none" name="returnURL" value="null" />
-          <input type="hidden" name="Potential Name" value="Website Enquiry - Ind AS Hub" />
-          <input type="hidden" name="Pipeline" value="Sales Pipeline Standard" /><input type="hidden" name="Stage" value="Qualification" />
-          <input type="hidden" name="Contacts.Lead Source" value="Website Enquiry - Ind AS Hub" />
-          <input name="Contacts.Last Name" type="text" maxlength="80" placeholder="Full name" required style="padding:12px 14px;border:1px solid #E2E3E8;border-radius:10px;font-family:inherit;font-size:14px;outline:none;color:#1F2937" />
-          <div style="display:flex;gap:8px">
-            <select class="cc-select" style="flex:0 0 90px;padding:12px 8px;border:1px solid #E2E3E8;border-radius:10px;font-family:inherit;font-size:13.5px;outline:none;color:#1F2937;background:#fff"><option value="+91">IN +91</option><option value="+1">US +1</option><option value="+44">UK +44</option><option value="+971">AE +971</option></select>
-            <input class="ph" type="tel" maxlength="15" placeholder="Phone number" required style="flex:1;min-width:0;padding:12px 14px;border:1px solid #E2E3E8;border-radius:10px;font-family:inherit;font-size:14px;outline:none;color:#1F2937" />
-          </div>
-          <input type="hidden" name="Contacts.Mobile" class="mob" value="" />
-          <input name="Contacts.Mailing City" type="text" maxlength="100" placeholder="City" style="padding:12px 14px;border:1px solid #E2E3E8;border-radius:10px;font-family:inherit;font-size:14px;outline:none;color:#1F2937" />
-          <select name="Contacts.Description" style="padding:12px 14px;border:1px solid #E2E3E8;border-radius:10px;font-family:inherit;font-size:14px;outline:none;color:#1F2937;background:#fff">
-            <option value="" disabled selected>Service needed</option><option>Monthly accounting &amp; bookkeeping</option><option>Backlog / catch-up bookkeeping</option><option>AP / AR outsourcing</option><option>MIS reporting</option><option>Year-end closing &amp; finalisation</option><option>Software setup / migration</option><option>Industry-specific accounting</option><option>Accounting standards / Ind AS advisory</option><option>GST / tax / compliance</option><option>Other</option>
-          </select>
-          <button type="submit" style="padding:14px;background:#E8712C;color:#fff;border:none;border-radius:50px;font-family:inherit;font-size:14.5px;font-weight:700;cursor:pointer">Get Free Quote &rarr;</button>
-        </form>
+        <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+        @include('partials.lead-form', [
+            'deal'    => 'Website Enquiry - Ind AS Hub',
+            'options' => [
+                ['value' => 'ind-as-advisory', 'label' => 'Ind AS Advisory &amp; Implementation', 'selected' => true, 'disabled' => false],
+                ['value' => 'accounting-standards', 'label' => 'Accounting Standards (AS) Support', 'selected' => false, 'disabled' => false],
+                ['value' => 'financial-statement-preparation-services', 'label' => 'Financial Statement Preparation', 'selected' => false, 'disabled' => false],
+                ['value' => 'accounting-services', 'label' => 'Accounting &amp; Bookkeeping', 'selected' => false, 'disabled' => false],
+                ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+            ],
+        ])
         <p style="font-size:11.5px;color:#8A8F99;text-align:center;margin:12px 0 0">100% secure &middot; No spam &middot; Quick response</p>
       </div>
     </div>
